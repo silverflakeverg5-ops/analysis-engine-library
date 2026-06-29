@@ -1,0 +1,29 @@
+id: REA-000001
+name_ja: 演繹推論
+name_en: Deductive Reasoning
+category: Reasoning
+attribute: Ability
+definition_ja: 一般的なルールや前提から、論理的に結論を導く能力。
+parent:
+  - 推論
+related:
+  - 論理思考
+  - ルール理解
+  - 問題解決
+tests:
+  - Logical Reasoning Task
+  - Syllogism Task
+observable_data:
+  - ルール適用率
+  - 論理ミス
+  - 条件分岐の正答率
+signal_candidates:
+  - ルールに沿って安定して判断する
+  - 条件が増えると誤判断が増える
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - ルール複雑性
+  - ワーキングメモリ
+  - 疲労
+evidence: 認知心理学・知能検査で使用
+status: active

@@ -1,0 +1,27 @@
+id: REA-000003
+name_ja: 因果推論
+name_en: Causal Reasoning
+category: Reasoning
+attribute: Ability
+definition_ja: ある出来事や結果の原因、または原因から結果を推測する能力。
+parent:
+  - 推論
+related:
+  - 仮説構築
+  - 問題解決
+  - 結果予測
+observable_data:
+  - 原因特定率
+  - 仮説修正回数
+  - 結果予測精度
+signal_candidates:
+  - 失敗後に原因を探す
+  - 結果から条件を推測する
+  - 関係のない要因を原因と見なす
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 情報量
+  - 経験
+  - 認知バイアス
+evidence: 認知心理学・科学的思考研究で使用
+status: active

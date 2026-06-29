@@ -1,0 +1,26 @@
+id: REA-000005
+name_ja: 類推
+name_en: Analogical Reasoning
+category: Reasoning
+attribute: Ability
+definition_ja: ある対象や状況の関係性を、別の対象や状況へ当てはめて理解する能力。
+parent:
+  - 推論
+related:
+  - 転移学習
+  - 抽象推論
+  - 比較判断
+observable_data:
+  - 類似関係発見率
+  - 応用成功率
+  - 既知パターンの転用率
+signal_candidates:
+  - 過去の経験を別課題へ応用する
+  - 類似点から解法を導く
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 経験
+  - 知識量
+  - 課題類似性
+evidence: 認知心理学・教育心理学で使用
+status: active

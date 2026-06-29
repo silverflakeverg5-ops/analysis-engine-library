@@ -1,0 +1,29 @@
+id: REA-000002
+name_ja: 帰納推論
+name_en: Inductive Reasoning
+category: Reasoning
+attribute: Ability
+definition_ja: 複数の事例やパターンから、一般的な規則や傾向を見つける能力。
+parent:
+  - 推論
+related:
+  - パターン認識
+  - 学習
+  - 抽象推論
+tests:
+  - Raven Progressive Matrices
+  - Pattern Reasoning Task
+observable_data:
+  - パターン発見率
+  - ルール習得速度
+  - 試行錯誤回数
+signal_candidates:
+  - 少ない試行で規則を見つける
+  - 似たパターンへ応用する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 経験
+  - 課題複雑性
+  - 注意
+evidence: 知能検査・認知心理学で重要
+status: active

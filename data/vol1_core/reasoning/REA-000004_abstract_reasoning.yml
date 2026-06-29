@@ -1,0 +1,29 @@
+id: REA-000004
+name_ja: 抽象推論
+name_en: Abstract Reasoning
+category: Reasoning
+attribute: Ability
+definition_ja: 具体的な情報から共通構造や抽象的な規則を見つける能力。
+parent:
+  - 推論
+related:
+  - 流動性知能
+  - パターン認識
+  - 概念形成
+tests:
+  - Raven Progressive Matrices
+  - Matrix Reasoning
+observable_data:
+  - 図形規則発見率
+  - 概念分類率
+  - 未知課題の正答率
+signal_candidates:
+  - 初見の規則を発見する
+  - 表面的に違う問題の共通点を見つける
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 教育
+  - 疲労
+evidence: 知能検査・流動性推理で重要
+status: active

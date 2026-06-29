@@ -1,0 +1,33 @@
+id: BEH-000053
+knowledge_type: behavior_pattern
+name_ja: 努力配分行動
+name_en: Effort Allocation Behavior
+category: Goal Achievement Behavior
+attribute: Behavior
+definition_ja: 複数の課題や目標に対して、時間・注意・労力をどこにどれだけ使うか調整する行動。
+tags:
+  - CAT:目標達成
+  - CAT:努力配分
+  - ATTR:行動パターン
+parent:
+  - 目標達成行動
+related:
+  - 優先順位設定行動
+  - 資源配分
+  - 自己制御
+observable_data:
+  - タスク別滞在時間
+  - 高重要タスク集中率
+  - 難所への投入時間
+  - 切替回数
+signal_candidates:
+  - 重要度や難易度に応じて時間配分を変える
+  - 成果が出やすい対象に労力を集中する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 報酬期待
+  - 時間制限
+  - 疲労
+  - タスク魅力度
+evidence: 努力配分研究・意思決定研究・自己制御研究で使用
+status: active

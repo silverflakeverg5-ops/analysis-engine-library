@@ -1,0 +1,33 @@
+id: BEH-000049
+knowledge_type: behavior_pattern
+name_ja: 目標設定行動
+name_en: Goal Setting Behavior
+category: Goal Achievement Behavior
+attribute: Behavior
+definition_ja: 達成したい状態や成果を明確にし、行動の方向性を定める行動。
+tags:
+  - CAT:目標達成
+  - CAT:目標設定
+  - ATTR:行動パターン
+parent:
+  - 目標達成行動
+related:
+  - 計画行動
+  - 自己制御
+  - 動機づけ
+observable_data:
+  - 目標入力回数
+  - 目標更新回数
+  - 期限設定率
+  - 達成条件設定率
+signal_candidates:
+  - 行動前に目標や条件を設定する
+  - 曖昧な活動を具体的な目標に分解する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 動機づけ
+  - 報酬設計
+  - 自己効力感
+  - 目標難易度
+evidence: 目標設定理論・動機づけ研究・組織心理学で使用
+status: active

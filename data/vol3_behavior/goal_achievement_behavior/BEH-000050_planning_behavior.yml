@@ -1,0 +1,33 @@
+id: BEH-000050
+knowledge_type: behavior_pattern
+name_ja: 計画行動
+name_en: Planning Behavior
+category: Goal Achievement Behavior
+attribute: Behavior
+definition_ja: 目標達成のために、手順・順序・時間配分・必要資源を事前に整理する行動。
+tags:
+  - CAT:目標達成
+  - CAT:計画
+  - ATTR:行動パターン
+parent:
+  - 目標達成行動
+related:
+  - 実行機能
+  - 優先順位設定行動
+  - 問題解決
+observable_data:
+  - 予定作成回数
+  - 手順分解数
+  - 事前確認時間
+  - 計画変更回数
+signal_candidates:
+  - 実行前に手順や順番を決める
+  - 複数タスクを段取り化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 時間余裕
+  - 課題複雑性
+  - 経験値
+  - 不確実性
+evidence: 実行機能研究・自己制御研究・プロジェクト管理研究で使用
+status: active

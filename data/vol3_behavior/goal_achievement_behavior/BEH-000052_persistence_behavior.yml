@@ -1,0 +1,33 @@
+id: BEH-000052
+knowledge_type: behavior_pattern
+name_ja: 粘り強さ行動
+name_en: Persistence Behavior
+category: Goal Achievement Behavior
+attribute: Behavior
+definition_ja: 困難・失敗・時間経過があっても、目標に向けた行動を継続する行動。
+tags:
+  - CAT:目標達成
+  - CAT:継続
+  - ATTR:行動パターン
+parent:
+  - 目標達成行動
+related:
+  - 継続力
+  - 再挑戦行動
+  - 回復行動
+observable_data:
+  - 再挑戦回数
+  - 継続日数
+  - 失敗後継続率
+  - 長時間取り組み率
+signal_candidates:
+  - 失敗後も再挑戦する
+  - 成果が出るまで一定期間続ける
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 報酬遅延
+  - 疲労
+  - 自己効力感
+  - 難易度
+evidence: グリット研究・動機づけ研究・学習心理学で使用
+status: active

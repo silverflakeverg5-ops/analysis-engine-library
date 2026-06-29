@@ -1,0 +1,33 @@
+id: BEH-000051
+knowledge_type: behavior_pattern
+name_ja: 進捗モニタリング行動
+name_en: Progress Monitoring Behavior
+category: Goal Achievement Behavior
+attribute: Behavior
+definition_ja: 目標に対する現在位置・進行状況・遅れを確認し、必要に応じて行動を調整する行動。
+tags:
+  - CAT:目標達成
+  - CAT:進捗確認
+  - ATTR:行動パターン
+parent:
+  - 目標達成行動
+related:
+  - 自己モニタリング
+  - 計画行動
+  - 改善行動
+observable_data:
+  - 進捗確認回数
+  - チェックリスト確認率
+  - 達成率閲覧回数
+  - 途中修正回数
+signal_candidates:
+  - 途中で進み具合を確認する
+  - 遅れやズレに応じて行動を修正する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - フィードバック明確性
+  - 期限
+  - 目標重要度
+  - 注意
+evidence: 自己調整学習研究・目標達成研究・HCIで使用
+status: active

@@ -1,0 +1,33 @@
+id: BEH-000055
+knowledge_type: behavior_pattern
+name_ja: 完了行動
+name_en: Completion Behavior
+category: Goal Achievement Behavior
+attribute: Behavior
+definition_ja: 開始した課題や目標を最後まで処理し、完了状態まで到達させる行動。
+tags:
+  - CAT:目標達成
+  - CAT:完了
+  - ATTR:行動パターン
+parent:
+  - 目標達成行動
+related:
+  - 継続行動
+  - 計画行動
+  - 自己制御
+observable_data:
+  - 完了率
+  - 途中離脱率
+  - 未完了タスク数
+  - 締切内完了率
+signal_candidates:
+  - 始めたタスクを最後まで終える
+  - 途中で止まったタスクを再開して完了させる
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - タスク難易度
+  - 報酬
+  - 疲労
+  - 外部妨害
+evidence: 自己制御研究・目標達成研究・行動科学で使用
+status: active

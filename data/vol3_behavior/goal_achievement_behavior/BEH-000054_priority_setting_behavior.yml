@@ -1,0 +1,33 @@
+id: BEH-000054
+knowledge_type: behavior_pattern
+name_ja: 優先順位設定行動
+name_en: Priority Setting Behavior
+category: Goal Achievement Behavior
+attribute: Behavior
+definition_ja: 複数の選択肢や課題の中から、重要度・緊急度・価値に基づいて取り組む順番を決める行動。
+tags:
+  - CAT:目標達成
+  - CAT:優先順位
+  - ATTR:行動パターン
+parent:
+  - 目標達成行動
+related:
+  - 計画行動
+  - 意思決定
+  - 実行機能
+observable_data:
+  - 重要タスク先行率
+  - 期限順処理率
+  - タスク並べ替え回数
+  - 低価値タスク回避率
+signal_candidates:
+  - 重要度や期限を見て順番を変える
+  - 複数課題を価値基準で整理する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 期限圧
+  - 報酬差
+  - 情報明確性
+  - 認知負荷
+evidence: 時間管理研究・実行機能研究・組織行動研究で使用
+status: active

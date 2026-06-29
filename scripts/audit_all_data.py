@@ -20,13 +20,30 @@ REQUIRED_FIELDS = [
     "status:",
 ]
 
+
 def is_item_file(path: Path):
+    """
+    vol系データだけを item として監査する。
+    domains / master_packs / index 系は item 監査対象外。
+    """
+    parts = path.parts
     name = path.name
+
     if name.endswith("_index.yml"):
         return False
+
     if name in ["core_index.yml", "personality_index.yml"]:
         return False
-    return True
+
+    if "domains" in parts:
+        return False
+
+    if "master_packs" in parts:
+        return False
+
+    # data/vol1_core, data/vol2_personality, data/vol3_behavior... のみ対象
+    return any(part.startswith("vol") for part in parts)
+
 
 def main():
     yml_files = sorted(BASE.rglob("*.yml"))
@@ -66,6 +83,7 @@ def main():
             print(e)
     else:
         print("\nOK: No critical errors found.")
+
 
 if __name__ == "__main__":
     main()

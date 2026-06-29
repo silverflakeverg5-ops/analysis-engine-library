@@ -1,0 +1,32 @@
+id: PRO-000004
+name_ja: 情報処理
+name_en: Information Processing
+category: Processing
+attribute: Ability
+definition_ja: 情報を受け取り、整理し、意味づけし、必要な行動や判断へつなげる能力。
+parent:
+  - 認知機能
+related:
+  - 情報整理
+  - 情報統合
+  - 注意
+  - 推論
+observable_data:
+  - 情報確認回数
+  - 分類行動
+  - 正答率
+  - 処理時間
+  - 再確認率
+signal_candidates:
+  - 情報量が増えると混乱する
+  - 情報を分類して扱う
+  - 必要情報を見落とす
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 情報量
+  - 表示形式
+  - 認知負荷
+  - 経験
+  - 疲労
+evidence: 認知心理学・HCI・教育評価で使用
+status: active

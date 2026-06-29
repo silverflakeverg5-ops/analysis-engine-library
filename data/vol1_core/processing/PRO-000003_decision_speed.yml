@@ -1,0 +1,34 @@
+id: PRO-000003
+name_ja: 判断速度
+name_en: Decision Speed
+category: Processing
+attribute: Ability
+definition_ja: 複数の選択肢や情報から意思決定に至るまでの速さ。
+parent:
+  - 意思決定
+related:
+  - 反応速度
+  - 処理速度
+  - 慎重性
+  - リスク判断
+tests:
+  - Choice Reaction Time Task
+  - Decision-Making Tasks
+observable_data:
+  - 選択までの時間
+  - 初回選択時間
+  - 比較時間
+  - 選択変更回数
+signal_candidates:
+  - すぐ決める
+  - 決定までに時間がかかる
+  - 選択肢が増えると急に遅くなる
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 選択肢数
+  - 情報量
+  - リスク
+  - 時間制限
+  - 疲労
+evidence: 意思決定研究・HCI・認知心理学で使用
+status: active

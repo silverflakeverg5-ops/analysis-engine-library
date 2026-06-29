@@ -1,0 +1,35 @@
+id: PRO-000001
+name_ja: 処理速度
+name_en: Processing Speed
+category: Processing
+attribute: Ability
+definition_ja: 入力された情報を素早く認識・判断・処理する能力。
+parent:
+  - 認知機能
+related:
+  - 注意
+  - 反応速度
+  - 判断速度
+  - ワーキングメモリ
+tests:
+  - WAIS Coding
+  - WAIS Symbol Search
+  - WISC Processing Speed Index
+observable_data:
+  - 作業完了時間
+  - 単位時間あたり処理数
+  - 正答速度
+  - 入力速度
+signal_candidates:
+  - 単純課題の処理が速い
+  - 情報量が増えると処理が遅くなる
+  - 速度を上げるとミスが増える
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 疲労
+  - 睡眠
+  - 視覚負荷
+  - 課題難易度
+evidence: WAIS・WISCなど標準知能検査で使用
+status: active

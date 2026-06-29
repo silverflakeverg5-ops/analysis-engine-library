@@ -1,0 +1,33 @@
+id: PRO-000002
+name_ja: 反応速度
+name_en: Reaction Speed
+category: Processing
+attribute: Ability
+definition_ja: 刺激に対して反応を開始するまでの速さ。
+parent:
+  - 処理特性
+related:
+  - 処理速度
+  - 注意
+  - 運動制御
+tests:
+  - Simple Reaction Time Task
+  - Choice Reaction Time Task
+observable_data:
+  - 単純反応時間
+  - 選択反応時間
+  - 最短反応時間
+  - 反応時間ばらつき
+signal_candidates:
+  - 刺激後すぐ反応する
+  - 反応が遅れる
+  - 反応速度のばらつきが大きい
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 疲労
+  - 覚醒度
+  - 眠気
+  - 入力デバイス
+evidence: 認知心理学・神経心理学・HCIで使用
+status: active

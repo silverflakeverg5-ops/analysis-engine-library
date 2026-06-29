@@ -1,0 +1,33 @@
+id: FAC-000004
+knowledge_type: trait
+name_ja: 創造性
+name_en: Creativity
+category: Personality Facet
+attribute: Trait
+definition_ja: 新しい発想や独自の組み合わせを生み出す傾向。
+tags:
+  - CAT:性格
+  - CAT:創造性
+  - THEORY:BigFive
+  - ATTR:特性
+parent:
+  - 開放性
+related:
+  - 発想力
+  - 柔軟性
+  - 独創性
+observable_data:
+  - 解法の多様性
+  - 非定型行動
+  - 組み合わせ数
+signal_candidates:
+  - 通常と異なる方法を試す
+  - 複数の解法を生み出す
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 経験
+  - 教育
+  - 環境
+  - 制約条件
+evidence: 創造性研究・開放性との関連で使用
+status: active

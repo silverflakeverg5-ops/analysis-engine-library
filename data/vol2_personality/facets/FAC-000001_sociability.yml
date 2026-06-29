@@ -1,0 +1,31 @@
+id: FAC-000001
+knowledge_type: trait
+name_ja: 社交性
+name_en: Sociability
+category: Personality Facet
+attribute: Trait
+definition_ja: 他者との交流を好み、対人場面へ関わろうとする傾向。
+tags:
+  - CAT:性格
+  - THEORY:BigFive
+  - ATTR:特性
+parent:
+  - 外向性
+related:
+  - 会話量
+  - 交流傾向
+  - 協調性
+observable_data:
+  - 会話回数
+  - 返信頻度
+  - 交流選択
+signal_candidates:
+  - 対人接点を選びやすい
+  - 他者への反応が多い
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 環境
+  - 気分
+evidence: Big Five外向性の下位特性として利用
+status: active

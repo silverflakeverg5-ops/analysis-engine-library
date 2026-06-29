@@ -1,0 +1,31 @@
+id: FAC-000002
+knowledge_type: trait
+name_ja: 自己主張
+name_en: Assertiveness
+category: Personality Facet
+attribute: Trait
+definition_ja: 自分の意見や意図を表明し、状況へ能動的に働きかける傾向。
+tags:
+  - CAT:性格
+  - THEORY:BigFive
+  - ATTR:特性
+parent:
+  - 外向性
+related:
+  - 主導性
+  - 影響力
+  - 支配性
+observable_data:
+  - 提案回数
+  - 主導的選択
+  - 発言量
+signal_candidates:
+  - 自分から行動を始める
+  - 選択を主導する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 社会環境
+  - 文化
+  - 評価状況
+evidence: 性格特性・対人行動評価で使用
+status: active

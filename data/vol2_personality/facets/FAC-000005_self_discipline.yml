@@ -1,0 +1,33 @@
+id: FAC-000005
+knowledge_type: trait
+name_ja: 自己規律
+name_en: Self-Discipline
+category: Personality Facet
+attribute: Trait
+definition_ja: 目標やルールに沿って行動を維持し、誘惑や中断に流されにくい傾向。
+tags:
+  - CAT:性格
+  - CAT:自己管理
+  - THEORY:BigFive
+  - ATTR:特性
+parent:
+  - 誠実性
+related:
+  - 抑制制御
+  - 継続力
+  - 目標管理
+observable_data:
+  - 継続率
+  - 中断率
+  - ルール遵守
+signal_candidates:
+  - 決めた行動を継続する
+  - 途中離脱が少ない
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 報酬
+  - ストレス
+  - 環境
+evidence: 誠実性の下位特性として利用
+status: active

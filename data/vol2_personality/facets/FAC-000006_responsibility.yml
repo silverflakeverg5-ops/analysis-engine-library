@@ -1,0 +1,31 @@
+id: FAC-000006
+knowledge_type: trait
+name_ja: 責任感
+name_en: Responsibility
+category: Personality Facet
+attribute: Trait
+definition_ja: 自分の役割・約束・結果に対して責任を持とうとする傾向。
+tags:
+  - CAT:性格
+  - THEORY:BigFive
+  - ATTR:特性
+parent:
+  - 誠実性
+related:
+  - 信頼性
+  - 期限遵守
+  - 当事者意識
+observable_data:
+  - 期限遵守
+  - 課題完了率
+  - 約束履行
+signal_candidates:
+  - 最後まで完了しようとする
+  - 自分の担当を優先する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 社会環境
+  - 評価状況
+  - 疲労
+evidence: 性格評価・人材評価で使用
+status: active

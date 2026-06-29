@@ -1,0 +1,31 @@
+id: FAC-000003
+knowledge_type: trait
+name_ja: 好奇心
+name_en: Curiosity
+category: Personality Facet
+attribute: Trait
+definition_ja: 新しい情報・経験・選択肢へ関心を持ち、探索しようとする傾向。
+tags:
+  - CAT:性格
+  - THEORY:BigFive
+  - ATTR:特性
+parent:
+  - 開放性
+related:
+  - 探索志向
+  - 学習意欲
+  - 新規性志向
+observable_data:
+  - 新規選択率
+  - 探索範囲
+  - 情報閲覧数
+signal_candidates:
+  - 未知の項目を試す
+  - 選択肢を広く調べる
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 経験
+  - 環境
+evidence: 開放性・動機づけ研究で使用
+status: active

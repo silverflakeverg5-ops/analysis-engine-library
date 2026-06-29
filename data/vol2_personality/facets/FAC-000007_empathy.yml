@@ -1,0 +1,32 @@
+id: FAC-000007
+knowledge_type: trait
+name_ja: 共感性
+name_en: Empathy
+category: Personality Facet
+attribute: Trait
+definition_ja: 他者の感情や立場を理解し、配慮しようとする傾向。
+tags:
+  - CAT:性格
+  - CAT:社会性
+  - THEORY:BigFive
+  - ATTR:特性
+parent:
+  - 協調性
+related:
+  - 他者視点取得
+  - 配慮
+  - 感情認識
+observable_data:
+  - 支援選択
+  - 共感表現
+  - 他者利益選択
+signal_candidates:
+  - 他者に配慮した選択をする
+  - 感情的な文脈へ反応する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 対人環境
+  - 疲労
+evidence: 協調性・社会認知研究で使用
+status: active

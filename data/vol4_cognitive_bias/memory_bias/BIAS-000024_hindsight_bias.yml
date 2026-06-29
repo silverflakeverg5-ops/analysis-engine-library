@@ -1,0 +1,33 @@
+id: BIAS-000024
+knowledge_type: cognitive_bias
+name_ja: 後知恵バイアス
+name_en: Hindsight Bias
+category: Cognitive Bias
+attribute: Memory Bias
+definition_ja: 結果を知った後に、その結果を事前に予測できたはずだと感じやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:記憶
+  - ATTR:結果知識
+parent:
+  - 記憶バイアス
+related:
+  - 予測誤差
+  - 自己評価
+  - 原因帰属
+observable_data:
+  - 結果後予測自信上昇
+  - 事前予測記録との乖離
+  - 結果後説明増加
+  - 予測容易性評価
+signal_candidates:
+  - 結果を見た後に予測できたと感じる
+  - 失敗や成功の理由を後から明確に説明する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 結果の明確さ
+  - 自信
+  - 記録の有無
+  - 責任範囲
+evidence: 判断研究・記憶研究・意思決定研究で使用
+status: active

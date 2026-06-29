@@ -1,0 +1,33 @@
+id: BIAS-000026
+knowledge_type: cognitive_bias
+name_ja: 自己参照効果
+name_en: Self Reference Effect
+category: Cognitive Bias
+attribute: Memory Bias
+definition_ja: 自分に関係する情報や自己概念と結びつく情報を、記憶しやすく重要視しやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:記憶
+  - ATTR:自己関連
+parent:
+  - 記憶バイアス
+related:
+  - 自己概念
+  - 注意
+  - 個人化
+observable_data:
+  - 自己関連項目記憶率
+  - プロフィール一致情報選択率
+  - 自己関連ラベル反応率
+  - パーソナライズ情報閲覧率
+signal_candidates:
+  - 自分に関係する情報をよく覚える
+  - 自己関連のある選択肢に反応しやすい
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 自己関与度
+  - 興味
+  - 感情価
+  - 情報の個人化度
+evidence: 記憶研究・自己認知研究・教育心理学で使用
+status: active

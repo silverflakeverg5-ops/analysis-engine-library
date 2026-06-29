@@ -1,0 +1,33 @@
+id: BIAS-000030
+knowledge_type: cognitive_bias
+name_ja: 頻度錯覚
+name_en: Frequency Illusion
+category: Cognitive Bias
+attribute: Memory Bias
+definition_ja: 一度意識した情報や対象を、その後急に頻繁に見かけるようになったと感じやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:注意
+  - ATTR:頻度判断
+parent:
+  - 記憶バイアス
+related:
+  - 選択的注意
+  - 利用可能性ヒューリスティック
+  - パターン認識
+observable_data:
+  - 初回接触後関連情報反応率
+  - 関連検索回数
+  - 同カテゴリ閲覧率
+  - 頻度評価上昇
+signal_candidates:
+  - 一度気にした情報をその後よく見つける
+  - 関連情報の頻度を実際以上に感じる
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 関心度
+  - 反復接触
+  - 検索履歴
+  - 注意状態
+evidence: 注意研究・認知心理学・情報探索研究で使用
+status: active

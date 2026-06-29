@@ -1,0 +1,33 @@
+id: BIAS-000022
+knowledge_type: cognitive_bias
+name_ja: 初頭効果
+name_en: Primacy Effect
+category: Cognitive Bias
+attribute: Memory Bias
+definition_ja: 最初に提示された情報が記憶や印象に残り、その後の判断に影響しやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:記憶
+  - ATTR:提示順序
+parent:
+  - 記憶バイアス
+related:
+  - アンカリングバイアス
+  - 第一印象
+  - 印象形成
+observable_data:
+  - 初回情報依存率
+  - 最初の選択維持率
+  - 初期評価固定率
+  - 後続情報での修正率
+signal_candidates:
+  - 最初に見た情報を基準にする
+  - 初期印象が後の評価に残る
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 提示順序
+  - 注意
+  - 情報量
+  - 後続フィードバック
+evidence: 記憶研究・社会心理学・認知心理学で使用
+status: active

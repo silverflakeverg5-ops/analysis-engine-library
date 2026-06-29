@@ -1,0 +1,33 @@
+id: BIAS-000025
+knowledge_type: cognitive_bias
+name_ja: 誤情報効果
+name_en: Misinformation Effect
+category: Cognitive Bias
+attribute: Memory Bias
+definition_ja: 経験後に提示された誤った情報や誘導的情報によって、元の記憶内容が変化しやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:記憶
+  - ATTR:記憶変容
+parent:
+  - 記憶バイアス
+related:
+  - 記憶再構成
+  - 暗示
+  - 情報更新
+observable_data:
+  - 後続情報後の回答変化
+  - 誘導質問後記憶変化
+  - 元情報再認率低下
+  - 確認後修正率
+signal_candidates:
+  - 後から見た情報で記憶内容が変わる
+  - 誘導的な表現により回答が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 時間経過
+  - 情報源信頼性
+  - 誘導の強さ
+  - 注意
+evidence: 記憶心理学・目撃証言研究・認知心理学で使用
+status: active

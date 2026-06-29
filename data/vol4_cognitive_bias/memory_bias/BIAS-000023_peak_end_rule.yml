@@ -1,0 +1,33 @@
+id: BIAS-000023
+knowledge_type: cognitive_bias
+name_ja: ピークエンドの法則
+name_en: Peak End Rule
+category: Cognitive Bias
+attribute: Memory Bias
+definition_ja: 経験全体の評価が、最も強い瞬間と最後の印象に大きく左右されやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:記憶
+  - ATTR:経験評価
+parent:
+  - 記憶バイアス
+related:
+  - 新近性バイアス
+  - 感情記憶
+  - 満足度評価
+observable_data:
+  - ピーク体験後評価変化
+  - 終了直前体験後評価変化
+  - 全体評価と平均体験の乖離
+  - 最終場面依存評価率
+signal_candidates:
+  - 途中の強い体験や最後の印象で全体評価が変わる
+  - 平均的な体験より終わり方を重視する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 感情強度
+  - 終了体験
+  - 体験時間
+  - 期待値
+evidence: 行動経済学・経験評価研究・UX研究で使用
+status: active

@@ -1,0 +1,33 @@
+id: BIAS-000021
+knowledge_type: cognitive_bias
+name_ja: 新近性バイアス
+name_en: Recency Bias
+category: Cognitive Bias
+attribute: Memory Bias
+definition_ja: 直近に経験・提示された情報を、過去の情報よりも強く判断や評価に反映しやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:記憶
+  - ATTR:新近性
+parent:
+  - 記憶バイアス
+related:
+  - 利用可能性ヒューリスティック
+  - 印象形成
+  - 評価判断
+observable_data:
+  - 直近情報参照率
+  - 直近選択反復率
+  - 直近失敗後評価低下
+  - 最後に見た情報への依存率
+signal_candidates:
+  - 最近見た情報に判断が引き寄せられる
+  - 直前の結果で評価や選択が変わる
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 情報鮮度
+  - 感情強度
+  - 反復頻度
+  - 注意状態
+evidence: 記憶研究・判断研究・HCIで使用
+status: active

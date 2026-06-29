@@ -1,0 +1,33 @@
+id: BIAS-000027
+knowledge_type: cognitive_bias
+name_ja: ネガティビティバイアス
+name_en: Negativity Bias
+category: Cognitive Bias
+attribute: Memory Bias
+definition_ja: 肯定的情報よりも否定的情報の方を強く記憶・注目・評価しやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:記憶
+  - ATTR:否定情報
+parent:
+  - 記憶バイアス
+related:
+  - ホーン効果
+  - 損失回避
+  - 脅威検知
+observable_data:
+  - 否定情報閲覧時間
+  - 失敗記憶再生率
+  - 低評価情報参照率
+  - 否定フィードバック後行動変化
+signal_candidates:
+  - 良い情報より悪い情報に反応しやすい
+  - 失敗や否定的体験を強く覚える
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - ストレス
+  - 不安
+  - 失敗コスト
+  - 情報の強度
+evidence: 感情研究・記憶研究・社会心理学で使用
+status: active

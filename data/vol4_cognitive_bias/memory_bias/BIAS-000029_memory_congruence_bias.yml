@@ -1,0 +1,33 @@
+id: BIAS-000029
+knowledge_type: cognitive_bias
+name_ja: 気分一致記憶バイアス
+name_en: Memory Congruence Bias
+category: Cognitive Bias
+attribute: Memory Bias
+definition_ja: 現在の気分や感情状態と一致する情報や記憶を思い出しやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:記憶
+  - ATTR:気分一致
+parent:
+  - 記憶バイアス
+related:
+  - 感情記憶
+  - 気分
+  - 評価判断
+observable_data:
+  - 気分別想起内容変化
+  - 感情語使用率
+  - 直近感情後選択変化
+  - 評価変動率
+signal_candidates:
+  - 気分が悪い時に否定的記憶を思い出しやすい
+  - 気分に合う情報を選びやすい
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 現在気分
+  - ストレス
+  - 睡眠
+  - 感情強度
+evidence: 感情心理学・記憶研究・認知心理学で使用
+status: active

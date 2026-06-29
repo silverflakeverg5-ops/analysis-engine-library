@@ -1,0 +1,33 @@
+id: BIAS-000028
+knowledge_type: cognitive_bias
+name_ja: バラ色の回顧
+name_en: Rosy Retrospection
+category: Cognitive Bias
+attribute: Memory Bias
+definition_ja: 過去の経験を、実際に体験していた時よりも肯定的に思い出しやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:記憶
+  - ATTR:回想評価
+parent:
+  - 記憶バイアス
+related:
+  - 経験評価
+  - 感情記憶
+  - 満足度評価
+observable_data:
+  - 直後評価と後日評価の差
+  - 過去体験再評価上昇
+  - 再利用意向増加
+  - 否定記憶低下率
+signal_candidates:
+  - 後から振り返ると体験評価が上がる
+  - 当時の不満より良い記憶が残りやすい
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 時間経過
+  - 現在気分
+  - 体験の意味づけ
+  - 再接触
+evidence: 記憶研究・感情心理学・消費者行動研究で使用
+status: active

@@ -1,0 +1,33 @@
+id: COGSCI-000088
+knowledge_type: cognitive_science
+name_ja: キャリブレーション
+name_en: Calibration
+category: Cognitive Science
+attribute: Metacognition
+definition_ja: 自信度と実際の正確性がどの程度一致しているかを示す概念。
+tags:
+  - CAT:認知科学
+  - CAT:メタ認知
+  - ATTR:認知機能
+parent:
+  - メタ認知
+related:
+  - 認知能力
+  - 行動観測
+  - 認知バイアス
+observable_data:
+  - キャリブレーション関連反応時間
+  - キャリブレーション関連正答率
+  - キャリブレーション関連エラー率
+  - キャリブレーション関連行動変化
+signal_candidates:
+  - キャリブレーションに関連する行動パターンが観測される
+  - 課題条件の変化に応じて反応や成績が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 注意
+  - ストレス
+  - 課題難易度
+evidence: 認知科学・認知心理学・HCI研究で使用
+status: active

@@ -1,0 +1,33 @@
+id: COGSCI-000061
+knowledge_type: cognitive_science
+name_ja: 言語理解
+name_en: Language Comprehension
+category: Cognitive Science
+attribute: Language
+definition_ja: 文字や音声として提示された言語情報の意味を理解する認知過程。
+tags:
+  - CAT:認知科学
+  - CAT:言語
+  - ATTR:認知機能
+parent:
+  - 言語
+related:
+  - 認知能力
+  - 行動観測
+  - 認知バイアス
+observable_data:
+  - 言語理解関連反応時間
+  - 言語理解関連正答率
+  - 言語理解関連エラー率
+  - 言語理解関連行動変化
+signal_candidates:
+  - 言語理解に関連する行動パターンが観測される
+  - 課題条件の変化に応じて反応や成績が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 注意
+  - ストレス
+  - 課題難易度
+evidence: 認知科学・認知心理学・HCI研究で使用
+status: active

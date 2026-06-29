@@ -1,0 +1,33 @@
+id: COGSCI-000087
+knowledge_type: cognitive_science
+name_ja: 既知感
+name_en: Feeling of Knowing
+category: Cognitive Science
+attribute: Metacognition
+definition_ja: 今は思い出せなくても知っていると感じるメタ認知的感覚。
+tags:
+  - CAT:認知科学
+  - CAT:メタ認知
+  - ATTR:認知機能
+parent:
+  - メタ認知
+related:
+  - 認知能力
+  - 行動観測
+  - 認知バイアス
+observable_data:
+  - 既知感関連反応時間
+  - 既知感関連正答率
+  - 既知感関連エラー率
+  - 既知感関連行動変化
+signal_candidates:
+  - 既知感に関連する行動パターンが観測される
+  - 課題条件の変化に応じて反応や成績が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 注意
+  - ストレス
+  - 課題難易度
+evidence: 認知科学・認知心理学・HCI研究で使用
+status: active

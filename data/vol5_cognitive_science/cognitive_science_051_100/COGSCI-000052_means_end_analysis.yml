@@ -1,0 +1,33 @@
+id: COGSCI-000052
+knowledge_type: cognitive_science
+name_ja: 手段目的分析
+name_en: Means End Analysis
+category: Cognitive Science
+attribute: Problem Solving
+definition_ja: 目標状態と現在状態の差を分析し、必要な手段を選ぶ問題解決方略。
+tags:
+  - CAT:認知科学
+  - CAT:問題解決
+  - ATTR:認知機能
+parent:
+  - 問題解決
+related:
+  - 認知能力
+  - 行動観測
+  - 認知バイアス
+observable_data:
+  - 手段目的分析関連反応時間
+  - 手段目的分析関連正答率
+  - 手段目的分析関連エラー率
+  - 手段目的分析関連行動変化
+signal_candidates:
+  - 手段目的分析に関連する行動パターンが観測される
+  - 課題条件の変化に応じて反応や成績が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 注意
+  - ストレス
+  - 課題難易度
+evidence: 認知科学・認知心理学・HCI研究で使用
+status: active

@@ -1,0 +1,33 @@
+id: COGSCI-000097
+knowledge_type: cognitive_science
+name_ja: 多感覚統合
+name_en: Multisensory Integration
+category: Cognitive Science
+attribute: Perception
+definition_ja: 視覚・聴覚・触覚など複数の感覚情報を統合する認知過程。
+tags:
+  - CAT:認知科学
+  - CAT:知覚
+  - ATTR:認知機能
+parent:
+  - 知覚
+related:
+  - 認知能力
+  - 行動観測
+  - 認知バイアス
+observable_data:
+  - 多感覚統合関連反応時間
+  - 多感覚統合関連正答率
+  - 多感覚統合関連エラー率
+  - 多感覚統合関連行動変化
+signal_candidates:
+  - 多感覚統合に関連する行動パターンが観測される
+  - 課題条件の変化に応じて反応や成績が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 注意
+  - ストレス
+  - 課題難易度
+evidence: 認知科学・認知心理学・HCI研究で使用
+status: active

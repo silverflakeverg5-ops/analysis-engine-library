@@ -1,0 +1,33 @@
+id: COGSCI-000068
+knowledge_type: cognitive_science
+name_ja: 曖昧性解消
+name_en: Ambiguity Resolution
+category: Cognitive Science
+attribute: Language
+definition_ja: 複数の意味や解釈がある情報から、文脈に合う解釈を選ぶ認知過程。
+tags:
+  - CAT:認知科学
+  - CAT:言語
+  - ATTR:認知機能
+parent:
+  - 言語
+related:
+  - 認知能力
+  - 行動観測
+  - 認知バイアス
+observable_data:
+  - 曖昧性解消関連反応時間
+  - 曖昧性解消関連正答率
+  - 曖昧性解消関連エラー率
+  - 曖昧性解消関連行動変化
+signal_candidates:
+  - 曖昧性解消に関連する行動パターンが観測される
+  - 課題条件の変化に応じて反応や成績が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 注意
+  - ストレス
+  - 課題難易度
+evidence: 認知科学・認知心理学・HCI研究で使用
+status: active

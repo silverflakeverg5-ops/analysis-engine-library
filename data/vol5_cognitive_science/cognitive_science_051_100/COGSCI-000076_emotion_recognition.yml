@@ -1,0 +1,33 @@
+id: COGSCI-000076
+knowledge_type: cognitive_science
+name_ja: 感情認識
+name_en: Emotion Recognition
+category: Cognitive Science
+attribute: Social Cognition
+definition_ja: 表情・声・言語・行動から感情状態を認識する認知機能。
+tags:
+  - CAT:認知科学
+  - CAT:社会的認知
+  - ATTR:認知機能
+parent:
+  - 社会的認知
+related:
+  - 認知能力
+  - 行動観測
+  - 認知バイアス
+observable_data:
+  - 感情認識関連反応時間
+  - 感情認識関連正答率
+  - 感情認識関連エラー率
+  - 感情認識関連行動変化
+signal_candidates:
+  - 感情認識に関連する行動パターンが観測される
+  - 課題条件の変化に応じて反応や成績が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 注意
+  - ストレス
+  - 課題難易度
+evidence: 認知科学・認知心理学・HCI研究で使用
+status: active

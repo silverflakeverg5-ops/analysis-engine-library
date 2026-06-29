@@ -1,0 +1,33 @@
+id: COGSCI-000085
+knowledge_type: cognitive_science
+name_ja: 方略モニタリング
+name_en: Strategy Monitoring
+category: Cognitive Science
+attribute: Metacognition
+definition_ja: 現在使っている方略が有効かどうか確認する認知過程。
+tags:
+  - CAT:認知科学
+  - CAT:メタ認知
+  - ATTR:認知機能
+parent:
+  - メタ認知
+related:
+  - 認知能力
+  - 行動観測
+  - 認知バイアス
+observable_data:
+  - 方略モニタリング関連反応時間
+  - 方略モニタリング関連正答率
+  - 方略モニタリング関連エラー率
+  - 方略モニタリング関連行動変化
+signal_candidates:
+  - 方略モニタリングに関連する行動パターンが観測される
+  - 課題条件の変化に応じて反応や成績が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 注意
+  - ストレス
+  - 課題難易度
+evidence: 認知科学・認知心理学・HCI研究で使用
+status: active

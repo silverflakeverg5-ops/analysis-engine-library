@@ -1,0 +1,33 @@
+id: NEURO-000011
+knowledge_type: neuroscience
+name_ja: デフォルトモードネットワーク
+name_en: Default Mode Network
+category: Neuroscience
+attribute: Neural Networks
+definition_ja: 自己関連思考・内省・過去未来シミュレーションに関わる脳ネットワーク。
+tags:
+  - CAT:神経科学
+  - CAT:脳ネットワーク
+  - ATTR:神経基盤
+parent:
+  - 脳ネットワーク
+related:
+  - 認知科学
+  - 行動観測
+  - 生理
+observable_data:
+  - デフォルトモードネットワーク関連反応時間
+  - デフォルトモードネットワーク関連行動変化
+  - デフォルトモードネットワーク関連注意変化
+  - デフォルトモードネットワーク関連ストレス反応
+signal_candidates:
+  - デフォルトモードネットワークに関連する行動・反応パターンが観測される
+  - 負荷や報酬条件の変化に応じて反応が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 睡眠
+  - 疲労
+  - ストレス
+  - 覚醒水準
+evidence: 神経科学・認知神経科学・生理心理学で使用
+status: active

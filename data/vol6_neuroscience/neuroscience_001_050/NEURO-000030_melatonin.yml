@@ -1,0 +1,33 @@
+id: NEURO-000030
+knowledge_type: neuroscience
+name_ja: メラトニン
+name_en: Melatonin
+category: Neuroscience
+attribute: Neurotransmitters
+definition_ja: 睡眠覚醒リズムや概日リズムの調整に関わるホルモン。
+tags:
+  - CAT:神経科学
+  - CAT:神経伝達物質
+  - ATTR:神経基盤
+parent:
+  - 神経伝達物質
+related:
+  - 認知科学
+  - 行動観測
+  - 生理
+observable_data:
+  - メラトニン関連反応時間
+  - メラトニン関連行動変化
+  - メラトニン関連注意変化
+  - メラトニン関連ストレス反応
+signal_candidates:
+  - メラトニンに関連する行動・反応パターンが観測される
+  - 負荷や報酬条件の変化に応じて反応が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 睡眠
+  - 疲労
+  - ストレス
+  - 覚醒水準
+evidence: 神経科学・認知神経科学・生理心理学で使用
+status: active

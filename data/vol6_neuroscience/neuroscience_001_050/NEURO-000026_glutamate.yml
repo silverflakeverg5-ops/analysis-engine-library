@@ -1,0 +1,33 @@
+id: NEURO-000026
+knowledge_type: neuroscience
+name_ja: グルタミン酸
+name_en: Glutamate
+category: Neuroscience
+attribute: Neurotransmitters
+definition_ja: 興奮性神経伝達や学習・記憶の可塑性に関わる神経伝達物質。
+tags:
+  - CAT:神経科学
+  - CAT:神経伝達物質
+  - ATTR:神経基盤
+parent:
+  - 神経伝達物質
+related:
+  - 認知科学
+  - 行動観測
+  - 生理
+observable_data:
+  - グルタミン酸関連反応時間
+  - グルタミン酸関連行動変化
+  - グルタミン酸関連注意変化
+  - グルタミン酸関連ストレス反応
+signal_candidates:
+  - グルタミン酸に関連する行動・反応パターンが観測される
+  - 負荷や報酬条件の変化に応じて反応が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 睡眠
+  - 疲労
+  - ストレス
+  - 覚醒水準
+evidence: 神経科学・認知神経科学・生理心理学で使用
+status: active

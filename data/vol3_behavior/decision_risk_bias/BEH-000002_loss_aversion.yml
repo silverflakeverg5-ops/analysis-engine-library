@@ -1,0 +1,32 @@
+id: BEH-000002
+knowledge_type: trait
+name_ja: 損失回避
+name_en: Loss Aversion
+category: Decision Risk Bias
+attribute: Trait
+definition_ja: 同程度の利益よりも損失を強く避けようとする判断傾向。
+tags:
+  - CAT:意思決定
+  - THEORY:行動経済学
+  - ATTR:特性
+parent:
+  - 認知バイアス
+related:
+  - リスク回避
+  - 安全志向
+  - 保有効果
+observable_data:
+  - 損失回避率
+  - 安全選択率
+  - 撤退判断
+signal_candidates:
+  - 小さな損失を強く避ける
+  - 利益機会より損失回避を優先する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 損失経験
+  - 年齢
+  - 文化
+  - ストレス
+evidence: プロスペクト理論・行動経済学で重要
+status: active

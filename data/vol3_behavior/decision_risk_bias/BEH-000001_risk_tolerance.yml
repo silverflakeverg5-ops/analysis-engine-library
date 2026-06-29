@@ -1,0 +1,32 @@
+id: BEH-000001
+knowledge_type: trait
+name_ja: リスク許容
+name_en: Risk Tolerance
+category: Decision Risk Bias
+attribute: Trait
+definition_ja: 不確実性や損失可能性を含む選択を受け入れやすい傾向。
+tags:
+  - CAT:意思決定
+  - CAT:行動傾向
+  - ATTR:特性
+parent:
+  - 意思決定
+related:
+  - リスク選好
+  - 損失回避
+  - 挑戦性
+observable_data:
+  - 高リスク選択率
+  - 安全選択率
+  - 損失後行動
+signal_candidates:
+  - 高リターン高リスクを選ぶ
+  - 損失後も挑戦する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 文化
+  - 報酬条件
+  - 損失経験
+evidence: 行動経済学・意思決定研究で使用
+status: active

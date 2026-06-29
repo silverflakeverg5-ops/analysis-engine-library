@@ -1,0 +1,32 @@
+id: BEH-000006
+knowledge_type: bias
+name_ja: 確証バイアス
+name_en: Confirmation Bias
+category: Decision Risk Bias
+attribute: Bias
+definition_ja: 自分の考えや仮説を支持する情報を重視し、反証情報を軽視しやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:情報処理
+  - ATTR:バイアス
+parent:
+  - 認知バイアス
+related:
+  - 情報探索
+  - 仮説推論
+  - 思い込み
+observable_data:
+  - 同意情報閲覧率
+  - 反証情報回避
+  - 検索語の偏り
+signal_candidates:
+  - 自分の仮説に合う情報ばかり選ぶ
+  - 反対情報を確認しない
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 信念強度
+  - 感情
+  - 時間制限
+  - 情報環境
+evidence: 認知心理学で研究多数
+status: active

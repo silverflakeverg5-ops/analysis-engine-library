@@ -1,0 +1,32 @@
+id: BEH-000004
+knowledge_type: trait
+name_ja: 時間割引
+name_en: Delay Discounting
+category: Decision Risk Bias
+attribute: Trait
+definition_ja: 将来得られる報酬の価値を、時間の遅れに応じて低く評価する傾向。
+tags:
+  - CAT:意思決定
+  - THEORY:行動経済学
+  - ATTR:特性
+parent:
+  - 意思決定
+related:
+  - 衝動性
+  - 長期志向
+  - 報酬感受性
+observable_data:
+  - 即時報酬選択率
+  - 遅延報酬選択率
+  - 待機選択
+signal_candidates:
+  - 小さくても即時報酬を選ぶ
+  - 大きな将来報酬を待てる
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 報酬条件
+  - 疲労
+  - ストレス
+evidence: 行動経済学・自己制御研究で使用
+status: active

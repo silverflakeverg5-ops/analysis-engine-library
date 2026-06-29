@@ -1,0 +1,32 @@
+id: BEH-000005
+knowledge_type: bias
+name_ja: アンカリング
+name_en: Anchoring Bias
+category: Decision Risk Bias
+attribute: Bias
+definition_ja: 最初に提示された数値や情報に判断が引き寄せられる傾向。
+tags:
+  - CAT:認知バイアス
+  - THEORY:行動経済学
+  - ATTR:バイアス
+parent:
+  - 認知バイアス
+related:
+  - フレーミング効果
+  - 確証バイアス
+  - 価格判断
+observable_data:
+  - 初期情報への依存
+  - 提示順序の影響
+  - 判断修正幅
+signal_candidates:
+  - 最初の情報から判断が大きく動かない
+  - 初期値に近い選択をする
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 情報提示順
+  - 経験
+  - 時間制限
+  - 認知負荷
+evidence: 認知心理学・行動経済学で研究多数
+status: active

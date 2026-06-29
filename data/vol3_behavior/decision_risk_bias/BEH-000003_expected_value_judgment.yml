@@ -1,0 +1,32 @@
+id: BEH-000003
+knowledge_type: ability
+name_ja: 期待値判断
+name_en: Expected Value Judgment
+category: Decision Risk Bias
+attribute: Ability
+definition_ja: 確率と結果の大きさを踏まえて、選択肢の期待値を判断する能力。
+tags:
+  - CAT:意思決定
+  - CAT:推論
+  - ATTR:能力
+parent:
+  - 意思決定
+related:
+  - 確率判断
+  - 数的推論
+  - リスク判断
+observable_data:
+  - 期待値選択率
+  - 確率情報利用
+  - 損益判断
+signal_candidates:
+  - 確率と報酬を組み合わせて選ぶ
+  - 表面的な報酬額だけで選ぶ
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 数的理解
+  - 情報量
+  - 時間制限
+  - 疲労
+evidence: 意思決定研究・行動経済学で使用
+status: active

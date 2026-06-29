@@ -1,0 +1,33 @@
+id: BIAS-000056
+knowledge_type: cognitive_bias
+name_ja: 保有効果
+name_en: Endowment Effect
+category: Cognitive Bias
+attribute: Motivation Reward Bias
+definition_ja: 一度自分のものになった対象を、所有していない場合より高く評価しやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:所有
+  - ATTR:価値評価
+parent:
+  - 動機報酬バイアス
+related:
+  - 損失回避
+  - 現状維持バイアス
+  - サンクコストバイアス
+observable_data:
+  - 保有後手放し回避率
+  - 所有対象使用継続率
+  - 交換拒否率
+  - 既存設定維持率
+signal_candidates:
+  - 一度得たものを手放しにくい
+  - 所有している対象を高く評価する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 所有期間
+  - 自己関連性
+  - 希少性
+  - 代替可能性
+evidence: 行動経済学・消費者行動研究・損失回避研究で使用
+status: active

@@ -1,0 +1,33 @@
+id: BIAS-000054
+knowledge_type: cognitive_bias
+name_ja: 動機づけのクラウディング効果
+name_en: Motivation Crowding Effect
+category: Cognitive Bias
+attribute: Motivation Reward Bias
+definition_ja: 外的報酬や制約の導入により、内発的な興味や自発性が弱まることがある現象。
+tags:
+  - CAT:認知バイアス
+  - CAT:動機づけ
+  - ATTR:内発外発
+parent:
+  - 動機報酬バイアス
+related:
+  - 内発的動機づけ
+  - 報酬バイアス
+  - 自己決定
+observable_data:
+  - 報酬終了後利用低下
+  - 自発行動減少率
+  - 報酬前後継続率差
+  - 義務化後離脱率
+signal_candidates:
+  - 報酬がなくなると行動が減る
+  - 楽しかった行動が義務化で続きにくくなる
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 報酬形式
+  - 自律性
+  - 課題興味
+  - 評価圧
+evidence: 自己決定理論・動機づけ研究・行動経済学で使用
+status: active

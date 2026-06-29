@@ -1,0 +1,33 @@
+id: BIAS-000060
+knowledge_type: cognitive_bias
+name_ja: 緊急性効果
+name_en: Urgency Effect
+category: Cognitive Bias
+attribute: Motivation Reward Bias
+definition_ja: 重要性よりも期限や急ぎ感のある対象を優先しやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:優先順位
+  - ATTR:時間圧
+parent:
+  - 動機報酬バイアス
+related:
+  - 現在バイアス
+  - 優先順位設定行動
+  - 時間圧
+observable_data:
+  - 期限近接タスク優先率
+  - 低重要緊急タスク選択率
+  - 通知直後対応率
+  - 重要タスク先延ばし率
+signal_candidates:
+  - 重要度より締切の近さで選ぶ
+  - 急ぎ表示に反応して優先順位を変える
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 締切表示
+  - 通知頻度
+  - 重要度表示
+  - ストレス
+evidence: 時間管理研究・意思決定研究・行動設計研究で使用
+status: active

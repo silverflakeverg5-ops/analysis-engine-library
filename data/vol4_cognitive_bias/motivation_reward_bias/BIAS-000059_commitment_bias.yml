@@ -1,0 +1,33 @@
+id: BIAS-000059
+knowledge_type: cognitive_bias
+name_ja: コミットメントバイアス
+name_en: Commitment Bias
+category: Cognitive Bias
+attribute: Motivation Reward Bias
+definition_ja: 一度決めた方針や表明した選択を、状況が変わっても維持しようとしやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:一貫性
+  - ATTR:継続判断
+parent:
+  - 動機報酬バイアス
+related:
+  - サンクコストバイアス
+  - 一貫性欲求
+  - 目標達成行動
+observable_data:
+  - 初回宣言後継続率
+  - 方針変更回避率
+  - 公開目標維持率
+  - 失敗後継続率
+signal_candidates:
+  - 一度決めたことを変えにくい
+  - 公言した目標を維持しようとする
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 公開性
+  - 責任感
+  - 外部評価
+  - 状況変化の大きさ
+evidence: 社会心理学・意思決定研究・一貫性研究で使用
+status: active

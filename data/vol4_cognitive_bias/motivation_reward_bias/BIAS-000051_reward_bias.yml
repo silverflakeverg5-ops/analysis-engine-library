@@ -1,0 +1,33 @@
+id: BIAS-000051
+knowledge_type: cognitive_bias
+name_ja: 報酬バイアス
+name_en: Reward Bias
+category: Cognitive Bias
+attribute: Motivation Reward Bias
+definition_ja: 報酬が提示された対象や行動を、実際の価値以上に魅力的または重要だと判断しやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:報酬
+  - ATTR:動機づけ
+parent:
+  - 動機報酬バイアス
+related:
+  - 現在バイアス
+  - 報酬感受性
+  - 注意バイアス
+observable_data:
+  - 報酬付き選択率
+  - 報酬表示後反応時間
+  - 報酬対象反復率
+  - 非報酬対象回避率
+signal_candidates:
+  - 報酬が付くと選択や行動が増える
+  - 報酬表示に注意や行動が引き寄せられる
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 報酬量
+  - 報酬頻度
+  - 疲労
+  - 目標重要度
+evidence: 報酬学習研究・行動経済学・動機づけ研究で使用
+status: active

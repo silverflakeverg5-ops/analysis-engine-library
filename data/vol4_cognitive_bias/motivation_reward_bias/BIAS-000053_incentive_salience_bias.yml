@@ -1,0 +1,33 @@
+id: BIAS-000053
+knowledge_type: cognitive_bias
+name_ja: 誘因顕著性バイアス
+name_en: Incentive Salience Bias
+category: Cognitive Bias
+attribute: Motivation Reward Bias
+definition_ja: 報酬や快感に結びついた手がかりが目立ち、注意や接近行動を強く引き起こしやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:報酬
+  - ATTR:誘因
+parent:
+  - 動機報酬バイアス
+related:
+  - 注意バイアス
+  - 報酬バイアス
+  - 衝動性
+observable_data:
+  - 報酬手がかりクリック率
+  - 限定表示反応率
+  - 報酬対象接近率
+  - 無関係報酬刺激注視時間
+signal_candidates:
+  - 報酬を示す手がかりに強く反応する
+  - 快感や得につながる刺激を優先して選ぶ
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 報酬経験
+  - 空腹・疲労
+  - 刺激強度
+  - 利用頻度
+evidence: 報酬系研究・動機づけ研究・神経科学で使用
+status: active

@@ -1,0 +1,33 @@
+id: BIAS-000055
+knowledge_type: cognitive_bias
+name_ja: 目標勾配効果
+name_en: Goal Gradient Effect
+category: Cognitive Bias
+attribute: Motivation Reward Bias
+definition_ja: 目標達成が近づくほど、行動速度や努力量が高まりやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:目標達成
+  - ATTR:接近動機
+parent:
+  - 動機報酬バイアス
+related:
+  - 目標達成行動
+  - 進捗モニタリング行動
+  - 報酬バイアス
+observable_data:
+  - 達成直前行動増加率
+  - 進捗表示後利用増加
+  - 残タスク減少時集中率
+  - 完了直前再訪率
+signal_candidates:
+  - ゴールが近いと行動量が増える
+  - 進捗が見えると最後まで進めやすい
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 進捗可視化
+  - 目標魅力度
+  - 残り距離
+  - 報酬期待
+evidence: 動機づけ研究・消費者行動研究・行動設計研究で使用
+status: active

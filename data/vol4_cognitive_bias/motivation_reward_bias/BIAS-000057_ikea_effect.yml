@@ -1,0 +1,33 @@
+id: BIAS-000057
+knowledge_type: cognitive_bias
+name_ja: IKEA効果
+name_en: IKEA Effect
+category: Cognitive Bias
+attribute: Motivation Reward Bias
+definition_ja: 自分で作成・編集・関与した対象を、客観的な品質以上に高く評価しやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:自己関与
+  - ATTR:価値評価
+parent:
+  - 動機報酬バイアス
+related:
+  - 努力の正当化
+  - 自己参照効果
+  - カスタマイズ行動
+observable_data:
+  - 自己作成物高評価率
+  - 編集後使用継続率
+  - カスタム設定維持率
+  - 他案比較回避率
+signal_candidates:
+  - 自分で作ったものを高く評価する
+  - 少しでも関与した対象に愛着を持つ
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 関与量
+  - 完成度
+  - 自己表現
+  - 作成難易度
+evidence: 消費者行動研究・行動経済学・自己関与研究で使用
+status: active

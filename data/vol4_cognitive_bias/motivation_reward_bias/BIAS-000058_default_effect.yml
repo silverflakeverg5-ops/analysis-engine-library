@@ -1,0 +1,33 @@
+id: BIAS-000058
+knowledge_type: cognitive_bias
+name_ja: デフォルト効果
+name_en: Default Effect
+category: Cognitive Bias
+attribute: Motivation Reward Bias
+definition_ja: 初期設定や既定選択肢を、特別な理由がなくてもそのまま選びやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:選択設計
+  - ATTR:初期設定
+parent:
+  - 動機報酬バイアス
+related:
+  - 現状維持バイアス
+  - 保有効果
+  - 選択過多
+observable_data:
+  - 初期設定維持率
+  - デフォルト選択率
+  - 設定変更率
+  - 既定項目継続使用率
+signal_candidates:
+  - 最初から選ばれているものをそのまま使う
+  - 設定変更をあまり行わない
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 変更コスト
+  - 選択肢数
+  - 信頼感
+  - 理解度
+evidence: 行動経済学・ナッジ研究・UX研究で使用
+status: active

@@ -1,0 +1,33 @@
+id: BIAS-000052
+knowledge_type: cognitive_bias
+name_ja: 努力の正当化
+name_en: Effort Justification
+category: Cognitive Bias
+attribute: Motivation Reward Bias
+definition_ja: 多くの労力を払った対象や結果を、実際以上に価値があると評価しやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:努力
+  - ATTR:価値評価
+parent:
+  - 動機報酬バイアス
+related:
+  - サンクコストバイアス
+  - IKEA効果
+  - 自己正当化
+observable_data:
+  - 高努力後評価上昇
+  - 作業時間と満足度の乖離
+  - 低成果継続率
+  - 自己作成物高評価率
+signal_candidates:
+  - 苦労したものを高く評価する
+  - 労力をかけた選択を手放しにくい
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 投入努力量
+  - 成果の曖昧さ
+  - 自己関与度
+  - 外部評価
+evidence: 認知的不協和研究・社会心理学・消費者行動研究で使用
+status: active

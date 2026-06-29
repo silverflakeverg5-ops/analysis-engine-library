@@ -1,0 +1,33 @@
+id: SPA-000001
+name_ja: 空間認識
+name_en: Spatial Recognition
+category: Spatial
+attribute: Ability
+definition_ja: 物体の位置、距離、方向、配置など空間的な関係を把握する能力。
+parent:
+  - 視空間認知
+related:
+  - 視覚認知
+  - 空間記憶
+  - 方向感覚
+tests:
+  - Block Design
+  - Rey Complex Figure
+  - Visual Spatial Tasks
+observable_data:
+  - 位置把握率
+  - 配置再現率
+  - 距離判断誤差
+  - 空間配置ミス
+signal_candidates:
+  - 位置関係を取り違える
+  - 配置を正確に再現する
+  - 距離感の判断に迷う
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 経験
+  - 視覚負荷
+  - 画面サイズ
+evidence: 知能検査・神経心理検査で使用
+status: active

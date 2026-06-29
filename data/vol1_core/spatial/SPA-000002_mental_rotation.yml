@@ -1,0 +1,30 @@
+id: SPA-000002
+name_ja: 心的回転
+name_en: Mental Rotation
+category: Spatial
+attribute: Ability
+definition_ja: 図形や物体を頭の中で回転させ、向きや形の一致を判断する能力。
+parent:
+  - 視空間認知
+related:
+  - 空間認識
+  - 図形認識
+  - 抽象推論
+tests:
+  - Mental Rotation Task
+  - Block Design
+observable_data:
+  - 回転判断正答率
+  - 回転判断時間
+  - 角度差による反応変化
+signal_candidates:
+  - 図形の向きが変わると判断が遅くなる
+  - 回転角度が大きいほどミスが増える
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 経験
+  - 年齢
+  - 教育
+  - 疲労
+evidence: 認知心理学・空間能力研究で使用
+status: active

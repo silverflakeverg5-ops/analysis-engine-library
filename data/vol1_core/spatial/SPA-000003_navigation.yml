@@ -1,0 +1,30 @@
+id: SPA-000003
+name_ja: ナビゲーション能力
+name_en: Navigation Ability
+category: Spatial
+attribute: Ability
+definition_ja: 現在地、目的地、経路、方向を理解し、空間内を移動・探索する能力。
+parent:
+  - 空間認知
+related:
+  - 方向感覚
+  - 経路記憶
+  - 空間探索
+observable_data:
+  - 経路選択
+  - 迷い回数
+  - 往復回数
+  - 最短経路率
+  - 探索範囲
+signal_candidates:
+  - 同じ場所を何度も通る
+  - 目的地まで遠回りする
+  - 地図や配置を使って効率化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 経験
+  - 地図情報
+  - 環境複雑性
+  - 疲労
+evidence: 空間認知研究・HCI・ゲーム研究で使用
+status: active

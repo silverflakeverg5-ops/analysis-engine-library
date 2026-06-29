@@ -1,0 +1,32 @@
+id: SPA-000004
+name_ja: 空間記憶
+name_en: Spatial Memory
+category: Spatial
+attribute: Ability
+definition_ja: 物体や場所の位置、配置、経路など空間情報を記憶する能力。
+parent:
+  - 記憶
+  - 空間認知
+related:
+  - 視覚記憶
+  - 経路記憶
+  - ナビゲーション能力
+tests:
+  - Corsi Block
+  - Spatial Memory Task
+observable_data:
+  - 位置再現率
+  - 経路再現率
+  - 配置記憶率
+signal_candidates:
+  - 一度見た位置を覚えている
+  - 配置を取り違える
+  - 経路を再現できる
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 注意
+  - 経験
+  - 疲労
+evidence: 神経心理検査・認知心理学で使用
+status: active

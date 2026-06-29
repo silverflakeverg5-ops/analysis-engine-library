@@ -1,0 +1,34 @@
+id: MOT-000001
+knowledge_type: trait
+name_ja: 達成動機
+name_en: Achievement Motivation
+category: Motivation
+attribute: Trait
+definition_ja: 目標達成、成果、成長に向けて努力しようとする傾向。
+tags:
+  - CAT:動機
+  - CAT:性格
+  - ATTR:特性
+parent:
+  - 動機づけ
+related:
+  - 達成志向
+  - 継続力
+  - 自己効力感
+observable_data:
+  - 目標設定
+  - 再挑戦率
+  - 難易度選択
+  - 完了率
+signal_candidates:
+  - 難しい課題を選ぶ
+  - 失敗後も再挑戦する
+  - 目標達成まで継続する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 報酬
+  - 評価状況
+  - 疲労
+  - 成功経験
+evidence: 動機づけ心理学・教育心理学で使用
+status: active

@@ -1,0 +1,31 @@
+id: MOT-000004
+knowledge_type: trait
+name_ja: 自律性
+name_en: Autonomy
+category: Motivation
+attribute: Trait
+definition_ja: 自分で選択し、自分の意思で行動したいとする傾向。
+tags:
+  - CAT:動機
+  - CAT:価値観
+  - ATTR:特性
+parent:
+  - 動機づけ
+related:
+  - 内発的動機
+  - 自己決定
+  - 主体性
+observable_data:
+  - 自由選択率
+  - 自発的行動
+  - 指示なし行動
+signal_candidates:
+  - 自分で選べる状況で行動が増える
+  - 強制条件で継続率が下がる
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 環境
+  - 文化
+  - 制約条件
+evidence: 自己決定理論で主要概念
+status: active

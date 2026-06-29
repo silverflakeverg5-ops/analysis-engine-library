@@ -1,0 +1,31 @@
+id: VAL-000002
+knowledge_type: value
+name_ja: 成長志向
+name_en: Growth Orientation
+category: Values
+attribute: Value
+definition_ja: 学習、改善、自己成長、能力向上を重視する価値傾向。
+tags:
+  - CAT:価値観
+  - CAT:学習
+  - ATTR:価値観
+parent:
+  - 価値観
+related:
+  - 達成動機
+  - 学習意欲
+  - 挑戦志向
+observable_data:
+  - 学習継続
+  - 改善行動
+  - 難易度上昇選択
+signal_candidates:
+  - 改善のために繰り返す
+  - 新しい課題へ進む
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 成功体験
+  - 環境
+  - フィードバック
+evidence: 教育心理学・キャリア心理学で使用
+status: active

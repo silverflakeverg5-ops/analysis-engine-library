@@ -1,0 +1,32 @@
+id: VAL-000001
+knowledge_type: value
+name_ja: 安全志向
+name_en: Security Orientation
+category: Values
+attribute: Value
+definition_ja: 安定、安全、予測可能性を重視する価値傾向。
+tags:
+  - CAT:価値観
+  - CAT:意思決定
+  - ATTR:価値観
+parent:
+  - 価値観
+related:
+  - リスク回避
+  - 安定志向
+  - 損失回避
+observable_data:
+  - 安全選択率
+  - リスク回避率
+  - 余裕資源確保
+signal_candidates:
+  - 安全策を選びやすい
+  - 不確実な選択を避ける
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 文化
+  - 損失経験
+  - 環境不安
+evidence: 価値観研究・意思決定研究で使用
+status: active

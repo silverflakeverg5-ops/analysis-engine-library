@@ -1,0 +1,33 @@
+id: MOT-000002
+knowledge_type: trait
+name_ja: 内発的動機
+name_en: Intrinsic Motivation
+category: Motivation
+attribute: Trait
+definition_ja: 外部報酬ではなく、活動そのものへの興味や楽しさによって行動する傾向。
+tags:
+  - CAT:動機
+  - ATTR:特性
+parent:
+  - 動機づけ
+related:
+  - 好奇心
+  - 没入
+  - 自律性
+observable_data:
+  - 自発的開始
+  - 継続時間
+  - 報酬なし継続
+  - 探索行動
+signal_candidates:
+  - 報酬がなくても続ける
+  - 自分から試す
+  - 興味対象に時間を使う
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 自律性
+  - 環境
+  - 興味
+  - 成功体験
+evidence: 自己決定理論・教育心理学で重要
+status: active

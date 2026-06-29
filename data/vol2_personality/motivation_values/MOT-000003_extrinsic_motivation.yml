@@ -1,0 +1,30 @@
+id: MOT-000003
+knowledge_type: trait
+name_ja: 外発的動機
+name_en: Extrinsic Motivation
+category: Motivation
+attribute: Trait
+definition_ja: 報酬、評価、罰、承認など外部要因によって行動する傾向。
+tags:
+  - CAT:動機
+  - ATTR:特性
+parent:
+  - 動機づけ
+related:
+  - 報酬感受性
+  - 承認欲求
+  - 評価反応
+observable_data:
+  - 報酬条件下の行動増加
+  - 評価場面での反応
+  - 達成報酬への反応
+signal_candidates:
+  - 報酬がある時に行動が増える
+  - 評価される場面で努力量が変わる
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 報酬設計
+  - 評価状況
+  - 文化
+evidence: 動機づけ心理学・行動科学で使用
+status: active

@@ -1,0 +1,33 @@
+id: BIAS-000004
+knowledge_type: cognitive_bias
+name_ja: 現状維持バイアス
+name_en: Status Quo Bias
+category: Cognitive Bias
+attribute: Decision Bias
+definition_ja: 変化による不確実性や損失を避け、現在の状態や既存選択を維持しやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:意思決定
+  - ATTR:変化回避
+parent:
+  - 認知バイアス
+related:
+  - 損失回避
+  - 習慣行動
+  - リスク回避
+observable_data:
+  - 初期設定維持率
+  - 設定変更回避率
+  - 既存選択継続率
+  - 新機能未使用率
+signal_candidates:
+  - 初期設定のまま使い続ける
+  - 新しい選択肢より既存選択を維持する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 変更コスト
+  - 不確実性
+  - 経験値
+  - 失敗リスク
+evidence: 行動経済学・意思決定研究で使用
+status: active

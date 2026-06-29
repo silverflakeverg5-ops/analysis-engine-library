@@ -1,0 +1,33 @@
+id: BIAS-000006
+knowledge_type: cognitive_bias
+name_ja: サンクコストバイアス
+name_en: Sunk Cost Bias
+category: Cognitive Bias
+attribute: Decision Bias
+definition_ja: すでに投入した時間・労力・資源を惜しみ、合理的には撤退すべき状況でも継続しやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:意思決定
+  - ATTR:継続判断
+parent:
+  - 認知バイアス
+related:
+  - 損失回避
+  - 継続行動
+  - 撤退判断
+observable_data:
+  - 失敗後継続率
+  - 投入時間後離脱回避率
+  - 低成果継続率
+  - 撤退遅延
+signal_candidates:
+  - 成果が悪くても投入済み資源を理由に続ける
+  - 途中まで進めたものをやめにくい
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 投入量
+  - 自己正当化
+  - 外部評価
+  - 代替選択肢
+evidence: 行動経済学・意思決定研究で使用
+status: active

@@ -1,0 +1,33 @@
+id: BIAS-000008
+knowledge_type: cognitive_bias
+name_ja: 過信バイアス
+name_en: Overconfidence Bias
+category: Cognitive Bias
+attribute: Decision Bias
+definition_ja: 自分の知識・判断・予測精度を実際以上に高く見積もりやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:判断
+  - ATTR:自己評価
+parent:
+  - 認知バイアス
+related:
+  - 自己効力感
+  - リスク選好
+  - 予測誤差
+observable_data:
+  - 自信度と正答率の乖離
+  - 高リスク選択率
+  - 確認省略率
+  - 予測外れ後修正率
+signal_candidates:
+  - 自信が高いが結果精度が伴わない
+  - 確認せずに判断する場面が多い
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 経験値
+  - 成功体験
+  - フィードバック有無
+  - 課題難易度
+evidence: 判断研究・メタ認知研究・行動経済学で使用
+status: active

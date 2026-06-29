@@ -1,0 +1,33 @@
+id: BIAS-000007
+knowledge_type: cognitive_bias
+name_ja: フレーミング効果
+name_en: Framing Effect
+category: Cognitive Bias
+attribute: Decision Bias
+definition_ja: 同じ内容でも、提示のされ方や表現の枠組みによって判断や選択が変化する傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:提示効果
+  - ATTR:文脈依存
+parent:
+  - 認知バイアス
+related:
+  - 損失回避
+  - 表現効果
+  - 意思決定
+observable_data:
+  - 表現変更後選択変化率
+  - 損失表現への反応
+  - 利益表現への反応
+  - ラベル依存選択率
+signal_candidates:
+  - 同じ選択肢でも表現が変わると判断が変わる
+  - 損失表現に強く反応する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 表現の強さ
+  - 文脈
+  - 事前知識
+  - 感情状態
+evidence: 行動経済学・意思決定研究・認知心理学で使用
+status: active

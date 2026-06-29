@@ -1,0 +1,33 @@
+id: BIAS-000009
+knowledge_type: cognitive_bias
+name_ja: 選択過多
+name_en: Choice Overload
+category: Cognitive Bias
+attribute: Decision Bias
+definition_ja: 選択肢が多すぎることで判断負荷が高まり、決定遅延・満足度低下・選択回避が生じやすい状態。
+tags:
+  - CAT:認知バイアス
+  - CAT:選択
+  - ATTR:認知負荷
+parent:
+  - 認知バイアス
+related:
+  - 認知負荷
+  - 意思決定
+  - 回避行動
+observable_data:
+  - 選択時間増加
+  - 選択放棄率
+  - 比較回数
+  - 選択後変更率
+signal_candidates:
+  - 選択肢が増えると決定が遅くなる
+  - 比較しすぎて選択を中断する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 選択肢数
+  - 情報量
+  - 時間制限
+  - 重要度
+evidence: 消費者行動研究・意思決定研究・HCIで使用
+status: active

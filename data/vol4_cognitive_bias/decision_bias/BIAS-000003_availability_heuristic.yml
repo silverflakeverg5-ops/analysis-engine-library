@@ -1,0 +1,33 @@
+id: BIAS-000003
+knowledge_type: cognitive_bias
+name_ja: 利用可能性ヒューリスティック
+name_en: Availability Heuristic
+category: Cognitive Bias
+attribute: Decision Bias
+definition_ja: 思い出しやすい情報や最近見た事例を、実際以上に重要または頻繁だと判断しやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:判断
+  - ATTR:記憶依存
+parent:
+  - 認知バイアス
+related:
+  - 記憶
+  - リスク判断
+  - 印象形成
+observable_data:
+  - 直近情報参照率
+  - 最近見た選択肢の選択率
+  - 印象的事例への反応
+  - 検索履歴依存
+signal_candidates:
+  - 最近見た情報に判断が引き寄せられる
+  - 印象的な事例を過大評価する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 情報鮮度
+  - 感情強度
+  - 反復接触
+  - メディア露出
+evidence: 認知心理学・リスク認知研究で使用
+status: active

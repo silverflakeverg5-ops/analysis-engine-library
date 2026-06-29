@@ -1,0 +1,33 @@
+id: BIAS-000001
+knowledge_type: cognitive_bias
+name_ja: 確証バイアス
+name_en: Confirmation Bias
+category: Cognitive Bias
+attribute: Decision Bias
+definition_ja: 自分の既存の信念や仮説を支持する情報を重視し、反証情報を軽視しやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:意思決定
+  - ATTR:情報処理
+parent:
+  - 認知バイアス
+related:
+  - 情報探索
+  - 信念保持
+  - 判断
+observable_data:
+  - 同意情報閲覧率
+  - 反対情報回避率
+  - 検索語偏り
+  - 意見変更率
+signal_candidates:
+  - 自分の選択を支持する情報ばかり確認する
+  - 反対意見を見ても選択を変えにくい
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 信念の強さ
+  - 自信
+  - 感情関与
+  - 社会的評価
+evidence: 認知心理学・意思決定研究で使用
+status: active

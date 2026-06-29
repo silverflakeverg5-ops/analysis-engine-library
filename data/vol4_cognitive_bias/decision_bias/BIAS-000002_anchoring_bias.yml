@@ -1,0 +1,33 @@
+id: BIAS-000002
+knowledge_type: cognitive_bias
+name_ja: アンカリングバイアス
+name_en: Anchoring Bias
+category: Cognitive Bias
+attribute: Decision Bias
+definition_ja: 最初に提示された数値・情報・基準に判断が引きずられやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:意思決定
+  - ATTR:基準依存
+parent:
+  - 認知バイアス
+related:
+  - 参照点
+  - 価格判断
+  - 見積もり
+observable_data:
+  - 初期提示値への近接率
+  - 初回選択維持率
+  - 基準提示後の判断変化
+  - 再見積もり幅
+signal_candidates:
+  - 最初に見た数値に近い判断をする
+  - 初期条件を変えても判断が大きく動きにくい
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 知識量
+  - 時間圧
+  - 自信
+  - 提示順序
+evidence: 判断と意思決定研究・行動経済学で使用
+status: active

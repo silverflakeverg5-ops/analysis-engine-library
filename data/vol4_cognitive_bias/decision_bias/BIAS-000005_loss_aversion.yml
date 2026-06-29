@@ -1,0 +1,33 @@
+id: BIAS-000005
+knowledge_type: cognitive_bias
+name_ja: 損失回避
+name_en: Loss Aversion
+category: Cognitive Bias
+attribute: Decision Bias
+definition_ja: 同程度の利益よりも損失を強く重く感じ、損失を避ける選択を取りやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:行動経済学
+  - ATTR:損失感受性
+parent:
+  - 認知バイアス
+related:
+  - プロスペクト理論
+  - リスク回避
+  - 現状維持バイアス
+observable_data:
+  - 損失回避選択率
+  - リスク選択回避率
+  - 安全策選択率
+  - 失敗後保守化率
+signal_candidates:
+  - 得より損を避ける選択を優先する
+  - 失敗後に安全寄りの選択が増える
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 資源量
+  - 失敗経験
+  - 報酬設計
+  - 時間圧
+evidence: プロスペクト理論・行動経済学で使用
+status: active

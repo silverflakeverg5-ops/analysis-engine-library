@@ -1,0 +1,33 @@
+id: BIAS-000010
+knowledge_type: cognitive_bias
+name_ja: 現在バイアス
+name_en: Present Bias
+category: Cognitive Bias
+attribute: Decision Bias
+definition_ja: 将来の利益や損失よりも、現在すぐ得られる快・報酬・負担軽減を過大に重視しやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:時間選好
+  - ATTR:報酬判断
+parent:
+  - 認知バイアス
+related:
+  - 先延ばし
+  - 衝動性
+  - 時間割引
+observable_data:
+  - 即時報酬選択率
+  - 先延ばし率
+  - 短期利益優先率
+  - 長期目標中断率
+signal_candidates:
+  - 将来利益より今すぐ楽な選択を選ぶ
+  - 長期目標より短期報酬に反応する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 報酬差
+  - 期限
+  - 自己制御資源
+evidence: 行動経済学・時間割引研究・自己制御研究で使用
+status: active

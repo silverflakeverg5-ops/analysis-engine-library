@@ -1,0 +1,30 @@
+id: ATT-000004
+name_ja: 交替的注意
+name_en: Alternating Attention
+category: Attention
+attribute: Ability
+definition_ja: 異なる課題や対象の間で注意を切り替える能力。
+parent:
+  - 注意
+related:
+  - 認知の柔軟性
+  - 注意切替
+  - 課題切替
+tests:
+  - Trail Making Test
+  - Task Switching Task
+observable_data:
+  - 切替時間
+  - 切替後ミス率
+  - ルール変更後の反応遅延
+signal_candidates:
+  - ルール変更後にミスが増える
+  - 前のルールに引きずられる
+  - 切替に時間がかかる
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - ルール複雑性
+  - 年齢
+  - 疲労
+evidence: 神経心理評価で使用
+status: active

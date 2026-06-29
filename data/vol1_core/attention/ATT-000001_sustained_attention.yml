@@ -1,0 +1,37 @@
+id: ATT-000001
+name_ja: 持続的注意
+name_en: Sustained Attention
+category: Attention
+attribute: Ability
+definition_ja: 一定時間にわたり注意を維持し、課題や刺激に集中し続ける能力。
+parent:
+  - 注意
+related:
+  - 集中
+  - 疲労
+  - 覚醒
+  - ワーキングメモリ
+tests:
+  - CPT
+  - SART
+  - TOVA
+  - TEA
+observable_data:
+  - 反応時間
+  - 反応時間ばらつき
+  - 見逃し
+  - 誤反応
+  - 作業継続時間
+signal_candidates:
+  - 反応時間が徐々に遅くなる
+  - 見逃しが増える
+  - 一定時間後にミスが増える
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 睡眠
+  - 疲労
+  - 年齢
+  - ストレス
+  - 騒音
+evidence: 標準検査あり、研究多数
+status: active

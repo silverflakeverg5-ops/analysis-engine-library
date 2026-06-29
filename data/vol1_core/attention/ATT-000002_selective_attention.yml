@@ -1,0 +1,33 @@
+id: ATT-000002
+name_ja: 選択的注意
+name_en: Selective Attention
+category: Attention
+attribute: Ability
+definition_ja: 複数の刺激や情報の中から、必要なものを選び出して注意を向ける能力。
+parent:
+  - 注意
+related:
+  - 抑制制御
+  - 視覚探索
+  - 認知負荷
+tests:
+  - Stroop Task
+  - Flanker Task
+  - Visual Search Task
+observable_data:
+  - 誤選択率
+  - 見落とし率
+  - 探索時間
+  - 妨害刺激時の反応低下
+signal_candidates:
+  - 不要情報に反応する
+  - 重要情報を見落とす
+  - 似た刺激を取り違える
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 情報量
+  - 画面密度
+  - 疲労
+  - 年齢
+evidence: 認知心理学・神経心理評価で使用
+status: active

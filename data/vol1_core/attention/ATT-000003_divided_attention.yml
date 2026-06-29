@@ -1,0 +1,31 @@
+id: ATT-000003
+name_ja: 分割的注意
+name_en: Divided Attention
+category: Attention
+attribute: Ability
+definition_ja: 複数の対象や課題へ同時に注意を配分する能力。
+parent:
+  - 注意
+related:
+  - マルチタスク
+  - ワーキングメモリ
+  - 認知負荷
+tests:
+  - Dual Task
+  - TEA
+observable_data:
+  - 同時課題成功率
+  - 切替遅延
+  - 片方の課題のミス増加
+signal_candidates:
+  - 同時処理で精度が落ちる
+  - 一方の対象を忘れる
+  - 操作が途切れる
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 課題数
+  - 疲労
+  - 経験
+  - ストレス
+evidence: 認知心理学・神経心理評価で使用
+status: active

@@ -1,0 +1,30 @@
+id: ATT-000005
+name_ja: 焦点化注意
+name_en: Focused Attention
+category: Attention
+attribute: Ability
+definition_ja: 特定の対象に注意を集中させる能力。
+parent:
+  - 注意
+related:
+  - 選択的注意
+  - 集中
+  - 視覚探索
+tests:
+  - Visual Search Task
+  - Attention Task
+observable_data:
+  - 対象発見時間
+  - 誤反応
+  - 視線・操作の集中度
+signal_candidates:
+  - 対象外へ反応する
+  - 探索が散らばる
+  - 対象発見が遅い
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 画面密度
+  - 妨害刺激
+  - 疲労
+evidence: 認知心理学で研究多数
+status: active

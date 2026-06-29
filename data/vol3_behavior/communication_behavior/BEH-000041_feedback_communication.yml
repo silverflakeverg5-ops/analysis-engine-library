@@ -1,0 +1,33 @@
+id: BEH-000041
+knowledge_type: behavior_pattern
+name_ja: フィードバックコミュニケーション
+name_en: Feedback Communication
+category: Communication Behavior
+attribute: Behavior
+definition_ja: 他者の行動・成果・発言に対して、評価・助言・反応を返すコミュニケーション行動。
+tags:
+  - CAT:コミュニケーション
+  - CAT:フィードバック
+  - ATTR:行動パターン
+parent:
+  - コミュニケーション行動
+related:
+  - 援助提供行動
+  - フィードバック学習
+  - 協力行動
+observable_data:
+  - コメント回数
+  - 評価入力回数
+  - 助言提示回数
+  - リアクション回数
+signal_candidates:
+  - 他者の行動に反応や助言を返す
+  - 成果や失敗に対して具体的なコメントをする
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 関係性
+  - 専門性
+  - 報酬設計
+  - 心理的安全性
+evidence: 教育心理学・組織行動研究・HCIで使用
+status: active

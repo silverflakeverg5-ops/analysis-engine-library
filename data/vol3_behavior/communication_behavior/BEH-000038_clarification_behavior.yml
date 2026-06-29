@@ -1,0 +1,33 @@
+id: BEH-000038
+knowledge_type: behavior_pattern
+name_ja: 確認・明確化行動
+name_en: Clarification Behavior
+category: Communication Behavior
+attribute: Behavior
+definition_ja: 曖昧な情報や不確実な意図に対して、質問・確認・言い換えによって理解を明確にする行動。
+tags:
+  - CAT:コミュニケーション
+  - CAT:確認
+  - ATTR:行動パターン
+parent:
+  - コミュニケーション行動
+related:
+  - 援助要請行動
+  - 慎重行動
+  - エラー修正
+observable_data:
+  - 確認質問回数
+  - 再読回数
+  - 説明要求回数
+  - 選択前確認時間
+signal_candidates:
+  - 曖昧な場面で確認を挟む
+  - 誤解を避けるために質問する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 失敗コスト
+  - 自信
+  - 相手との関係性
+  - 情報の複雑さ
+evidence: 対話研究・教育心理学・HCIで使用
+status: active

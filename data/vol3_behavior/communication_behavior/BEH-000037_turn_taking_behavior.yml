@@ -1,0 +1,33 @@
+id: BEH-000037
+knowledge_type: behavior_pattern
+name_ja: ターンテイキング行動
+name_en: Turn Taking Behavior
+category: Communication Behavior
+attribute: Behavior
+definition_ja: 会話や共同作業において、自分と他者の発話・行動の順番を調整する行動。
+tags:
+  - CAT:コミュニケーション
+  - CAT:会話調整
+  - ATTR:行動パターン
+parent:
+  - コミュニケーション行動
+related:
+  - 協力行動
+  - 傾聴行動
+  - 社会的モニタリング
+observable_data:
+  - 発話交替回数
+  - 割り込み率
+  - 返信間隔
+  - 相手反応待機率
+signal_candidates:
+  - 相手の反応を待ってから次の行動を取る
+  - 会話の順番を調整する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 会話人数
+  - 緊急性
+  - 親密度
+  - 媒体特性
+evidence: 会話分析・社会言語学・HCIで使用
+status: active

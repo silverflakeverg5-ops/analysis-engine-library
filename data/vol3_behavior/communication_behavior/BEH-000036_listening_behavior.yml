@@ -1,0 +1,33 @@
+id: BEH-000036
+knowledge_type: behavior_pattern
+name_ja: 傾聴行動
+name_en: Listening Behavior
+category: Communication Behavior
+attribute: Behavior
+definition_ja: 他者の発話・意図・感情を受け取り、理解しようとする行動。
+tags:
+  - CAT:コミュニケーション
+  - CAT:傾聴
+  - ATTR:行動パターン
+parent:
+  - コミュニケーション行動
+related:
+  - 共感
+  - 社会的モニタリング
+  - フィードバック
+observable_data:
+  - 相手発言確認時間
+  - 返信前待機時間
+  - 要約行動回数
+  - 確認質問回数
+signal_candidates:
+  - 相手の情報を確認してから反応する
+  - 即答より理解確認を優先する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 関心度
+  - 情報量
+  - 疲労
+  - 会話速度
+evidence: 対人コミュニケーション研究・カウンセリング研究で使用
+status: active

@@ -1,0 +1,33 @@
+id: BEH-000035
+knowledge_type: behavior_pattern
+name_ja: 表現行動
+name_en: Expressive Behavior
+category: Communication Behavior
+attribute: Behavior
+definition_ja: 自分の考え・感情・意図を言語的または非言語的に外部へ示す行動。
+tags:
+  - CAT:コミュニケーション
+  - CAT:表現
+  - ATTR:行動パターン
+parent:
+  - コミュニケーション行動
+related:
+  - 自己主張
+  - 感情表出
+  - 社会的行動
+observable_data:
+  - 発話量
+  - 投稿回数
+  - リアクション使用回数
+  - 感情語使用率
+signal_candidates:
+  - 自分の意見や感情を外部に出す頻度が高い
+  - 選択理由や感想を表明する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 匿名性
+  - 心理的安全性
+  - 相手との関係性
+  - 評価不安
+evidence: コミュニケーション研究・社会心理学・HCIで使用
+status: active

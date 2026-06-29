@@ -1,0 +1,33 @@
+id: BEH-000040
+knowledge_type: behavior_pattern
+name_ja: 間接的コミュニケーション
+name_en: Indirect Communication
+category: Communication Behavior
+attribute: Behavior
+definition_ja: 意見・要求・拒否を直接表現せず、含意・婉曲表現・状況提示によって伝える行動。
+tags:
+  - CAT:コミュニケーション
+  - CAT:間接表現
+  - ATTR:行動パターン
+parent:
+  - コミュニケーション行動
+related:
+  - 同調行動
+  - 葛藤回避
+  - 社会的モニタリング
+observable_data:
+  - 婉曲表現使用率
+  - 直接拒否回避率
+  - 曖昧表現回数
+  - 相手反応待ち回数
+signal_candidates:
+  - 直接的な主張より遠回しな表現を選ぶ
+  - 対立を避けるため表現を弱める
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化規範
+  - 相手との距離
+  - 評価不安
+  - 対立リスク
+evidence: 異文化コミュニケーション研究・語用論・社会心理学で使用
+status: active

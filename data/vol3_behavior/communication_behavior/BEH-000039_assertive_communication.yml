@@ -1,0 +1,33 @@
+id: BEH-000039
+knowledge_type: behavior_pattern
+name_ja: アサーティブコミュニケーション
+name_en: Assertive Communication
+category: Communication Behavior
+attribute: Behavior
+definition_ja: 他者を過度に否定せず、自分の意見・要求・境界を明確に伝える行動。
+tags:
+  - CAT:コミュニケーション
+  - CAT:自己主張
+  - ATTR:行動パターン
+parent:
+  - コミュニケーション行動
+related:
+  - 自己主張
+  - 葛藤行動
+  - 境界設定
+observable_data:
+  - 意見表明回数
+  - 拒否表明回数
+  - 代替案提示回数
+  - 要求明確化率
+signal_candidates:
+  - 必要な場面で自分の希望を伝える
+  - 拒否や提案を明確に表現する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 上下関係
+  - 心理的安全性
+  - 対立リスク
+  - 文化規範
+evidence: 臨床心理学・対人スキル研究・組織心理学で使用
+status: active

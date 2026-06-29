@@ -1,0 +1,33 @@
+id: EXE-000006
+name_ja: 課題開始
+name_en: Task Initiation
+category: Executive Function
+attribute: Ability
+definition_ja: 必要な課題や行動を適切なタイミングで開始する能力。
+parent:
+  - 実行機能
+related:
+  - 先延ばし
+  - 動機づけ
+  - 自己管理
+tests:
+  - BRIEF
+  - BDEFS
+observable_data:
+  - 開始遅延
+  - 初動時間
+  - 期限直前開始率
+  - 未着手率
+signal_candidates:
+  - 開始までに時間がかかる
+  - 期限直前に集中する
+  - 簡単な課題でも着手が遅れる
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 動機づけ
+  - 疲労
+  - 報酬
+  - 課題難易度
+  - 不安
+evidence: BRIEF・BDEFS・ADHD評価で使用
+status: active

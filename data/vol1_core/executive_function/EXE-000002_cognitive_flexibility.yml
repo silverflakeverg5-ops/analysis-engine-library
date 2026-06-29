@@ -1,0 +1,33 @@
+id: EXE-000002
+name_ja: 認知の柔軟性
+name_en: Cognitive Flexibility
+category: Executive Function
+attribute: Ability
+definition_ja: 状況やルールの変化に応じて考え方や行動方略を切り替える能力。
+parent:
+  - 実行機能
+related:
+  - 注意切替
+  - 交替的注意
+  - 適応力
+tests:
+  - WCST
+  - Trail Making Test
+  - Task Switching Task
+observable_data:
+  - ルール変更後ミス率
+  - 方略変更回数
+  - 切替時間
+  - 固執反応
+signal_candidates:
+  - 前のルールに引きずられる
+  - 変化後にミスが増える
+  - 同じ方法にこだわる
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 疲労
+  - ルール複雑性
+  - 経験
+evidence: 神経心理検査・実行機能研究で重要
+status: active

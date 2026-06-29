@@ -1,0 +1,35 @@
+id: EXE-000003
+name_ja: 計画性
+name_en: Planning
+category: Executive Function
+attribute: Ability
+definition_ja: 目標達成のために手順・資源・時間配分を事前に組み立てる能力。
+parent:
+  - 実行機能
+related:
+  - 優先順位付け
+  - 時間管理
+  - 問題解決
+  - 誠実性
+tests:
+  - Tower of London
+  - Tower of Hanoi
+  - BRIEF
+observable_data:
+  - 初動時間
+  - 手戻り回数
+  - 資源配分
+  - 手順ミス
+  - 予定変更回数
+signal_candidates:
+  - 開始前に時間を使う
+  - 途中の手戻りが少ない
+  - 資源を先に確保する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 時間制限
+  - 課題複雑性
+  - 経験
+  - 疲労
+evidence: 実行機能研究・BRIEF・産業評価で使用
+status: active

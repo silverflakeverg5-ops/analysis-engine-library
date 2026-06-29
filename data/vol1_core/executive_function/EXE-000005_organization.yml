@@ -1,0 +1,32 @@
+id: EXE-000005
+name_ja: 組織化能力
+name_en: Organization
+category: Executive Function
+attribute: Ability
+definition_ja: 情報・物・手順・資源を整理し、扱いやすい構造にまとめる能力。
+parent:
+  - 実行機能
+related:
+  - 計画性
+  - 情報整理
+  - 優先順位付け
+tests:
+  - BRIEF
+  - Executive Function Rating Scales
+observable_data:
+  - 分類行動
+  - 整理回数
+  - 探索時間
+  - 手順の一貫性
+signal_candidates:
+  - 情報を分類して扱う
+  - 探し物や確認が多い
+  - 手順が散らばる
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 情報量
+  - 環境の複雑さ
+  - 経験
+  - 時間制限
+evidence: BRIEF・産業評価・教育評価で使用
+status: active

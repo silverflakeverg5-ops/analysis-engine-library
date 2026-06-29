@@ -1,0 +1,32 @@
+id: EXE-000004
+name_ja: 自己モニタリング
+name_en: Self-Monitoring
+category: Executive Function
+attribute: Ability
+definition_ja: 自分の行動・ミス・進捗・状態を観察し、必要に応じて修正する能力。
+parent:
+  - 実行機能
+related:
+  - メタ認知
+  - エラー検出
+  - 自己管理
+tests:
+  - BRIEF
+  - Metacognitive Tasks
+observable_data:
+  - エラー後修正率
+  - 確認回数
+  - 自己修正回数
+  - 進捗確認頻度
+signal_candidates:
+  - ミス後にすぐ修正する
+  - 同じミスを繰り返す
+  - 進捗確認が多い
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 経験
+  - フィードバック有無
+  - 認知負荷
+evidence: BRIEF・メタ認知研究で使用
+status: active

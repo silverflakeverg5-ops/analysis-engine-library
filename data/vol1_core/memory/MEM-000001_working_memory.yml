@@ -1,0 +1,37 @@
+id: MEM-000001
+name_ja: ワーキングメモリ
+name_en: Working Memory
+category: Memory
+attribute: Ability
+definition_ja: 短時間の情報を保持しながら、同時に処理・更新する能力。
+parent:
+  - 記憶
+  - 実行機能
+related:
+  - 注意
+  - 推論
+  - 学習
+  - 処理速度
+tests:
+  - WAIS Digit Span
+  - Letter Number Sequencing
+  - N-back
+  - Corsi Block
+observable_data:
+  - 保持数
+  - 再確認回数
+  - 記憶エラー率
+  - 更新遅延
+signal_candidates:
+  - 途中で情報を忘れる
+  - 確認回数が増える
+  - 同時管理数が増えるとミスが増える
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 睡眠
+  - 疲労
+  - ストレス
+  - 認知負荷
+evidence: 標準検査あり、知能検査・実行機能研究で重要
+status: active

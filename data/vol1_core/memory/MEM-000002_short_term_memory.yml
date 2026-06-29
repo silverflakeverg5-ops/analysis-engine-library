@@ -1,0 +1,28 @@
+id: MEM-000002
+name_ja: 短期記憶
+name_en: Short-Term Memory
+category: Memory
+attribute: Ability
+definition_ja: 短時間だけ情報を保持する能力。
+parent:
+  - 記憶
+related:
+  - ワーキングメモリ
+  - 即時記憶
+tests:
+  - Digit Span
+  - Memory Span Task
+observable_data:
+  - 保持成功率
+  - 保持時間
+  - 即時再生エラー
+signal_candidates:
+  - 直前情報を忘れる
+  - 短い間隔でも再確認する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 疲労
+  - 注意
+evidence: 標準検査あり、認知心理学で研究多数
+status: active

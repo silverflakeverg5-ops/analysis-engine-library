@@ -1,0 +1,31 @@
+id: MEM-000003
+name_ja: 長期記憶
+name_en: Long-Term Memory
+category: Memory
+attribute: Ability
+definition_ja: 長期間にわたり情報を保持し、必要に応じて想起する能力。
+parent:
+  - 記憶
+related:
+  - 意味記憶
+  - エピソード記憶
+  - 手続き記憶
+tests:
+  - WMS
+  - RAVLT
+  - CVLT
+observable_data:
+  - 遅延再生率
+  - 再認率
+  - 再学習速度
+signal_candidates:
+  - 過去情報を正しく思い出せる
+  - 再学習が早い
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 睡眠
+  - 感情
+  - 反復
+evidence: 神経心理検査・認知心理学で重要
+status: active

@@ -1,0 +1,28 @@
+id: MEM-000004
+name_ja: エピソード記憶
+name_en: Episodic Memory
+category: Memory
+attribute: Ability
+definition_ja: いつ・どこで・何が起きたかという経験や出来事に関する記憶。
+parent:
+  - 長期記憶
+related:
+  - 自伝的記憶
+  - 文脈記憶
+tests:
+  - WMS
+  - Story Recall
+observable_data:
+  - 出来事再生率
+  - 文脈情報の保持
+  - 時系列再現
+signal_candidates:
+  - 出来事の順序を取り違える
+  - 場所や時点の記憶が曖昧
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 感情
+  - 睡眠
+evidence: 認知心理学・神経心理学で研究多数
+status: active

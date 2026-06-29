@@ -1,0 +1,29 @@
+id: MEM-000006
+name_ja: 手続き記憶
+name_en: Procedural Memory
+category: Memory
+attribute: Ability
+definition_ja: 技能や手順を身体的・自動的に実行するための記憶。
+parent:
+  - 長期記憶
+related:
+  - 運動学習
+  - 習慣
+  - スキル習得
+tests:
+  - Serial Reaction Time Task
+  - Motor Learning Task
+observable_data:
+  - 操作習熟速度
+  - 手順ミス率
+  - 反復後の自動化
+signal_candidates:
+  - 繰り返しで操作が滑らかになる
+  - 手順確認が減る
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 練習
+  - 経験
+  - 疲労
+evidence: 認知心理学・神経心理学で研究多数
+status: active

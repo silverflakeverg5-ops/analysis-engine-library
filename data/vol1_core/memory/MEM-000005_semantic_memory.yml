@@ -1,0 +1,30 @@
+id: MEM-000005
+name_ja: 意味記憶
+name_en: Semantic Memory
+category: Memory
+attribute: Ability
+definition_ja: 言葉、概念、知識、事実に関する記憶。
+parent:
+  - 長期記憶
+related:
+  - 知識
+  - 語彙
+  - 一般知識
+tests:
+  - Vocabulary
+  - Information
+  - Naming Task
+observable_data:
+  - 知識正答率
+  - 語彙使用数
+  - 概念理解
+signal_candidates:
+  - 用語理解が早い
+  - 知識問題に強い
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 教育
+  - 経験
+  - 年齢
+evidence: 知能検査・神経心理検査で使用
+status: active

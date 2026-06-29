@@ -1,0 +1,29 @@
+id: MEM-000007
+name_ja: 視覚記憶
+name_en: Visual Memory
+category: Memory
+attribute: Ability
+definition_ja: 図形、位置、色、形など視覚情報を保持・再生する能力。
+parent:
+  - 記憶
+related:
+  - 空間記憶
+  - 視空間認知
+  - パターン認識
+tests:
+  - Rey Complex Figure
+  - Corsi Block
+observable_data:
+  - 図形再現率
+  - 位置記憶率
+  - 視覚情報の再認率
+signal_candidates:
+  - 見た配置を覚えている
+  - 似た図形を取り違える
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 注意
+  - 疲労
+evidence: 神経心理検査で使用
+status: active

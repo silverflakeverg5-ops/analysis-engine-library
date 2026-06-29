@@ -1,0 +1,344 @@
+{
+  "output_dir": "vol3_behavior/habits_self_control",
+  "index_filename": "habits_self_control_index.yml",
+  "index_content": "category: Habits Self Control\nname_ja: 習慣・自己制御\nitems:\n  - BEH-000013_habit_formation.yml\n  - BEH-000014_habit_maintenance.yml\n  - BEH-000015_self_control.yml\n  - BEH-000016_desire_control.yml\n  - BEH-000017_impulse_control.yml\n  - BEH-000018_action_initiation.yml\n  - BEH-000019_action_maintenance.yml\n  - BEH-000020_action_discontinuation.yml\nnotes:\n  - 習慣、自己制御、行動開始・維持・中断は統合しない\n  - 行動データとSignal候補を中心に管理する\n  - アプリ種別タグは付けない\n",
+  "items": [
+    {
+      "filename": "BEH-000013_habit_formation.yml",
+      "id": "BEH-000013",
+      "knowledge_type": "behavior_pattern",
+      "name_ja": "習慣形成",
+      "name_en": "Habit Formation",
+      "category": "Habits Self Control",
+      "attribute": "Behavior",
+      "definition_ja": "特定の行動を反復し、状況や手がかりに応じて自動的に実行されやすくなる過程。",
+      "tags": [
+        "CAT:習慣",
+        "CAT:行動",
+        "ATTR:行動パターン"
+      ],
+      "parent": [
+        "習慣"
+      ],
+      "related": [
+        "行動維持",
+        "自己制御",
+        "報酬反応"
+      ],
+      "observable_data": [
+        "実行頻度",
+        "連続実行日数",
+        "実行時刻の一貫性",
+        "中断後再開率"
+      ],
+      "signal_candidates": [
+        "同じ時間帯に繰り返す",
+        "外部通知なしでも実行する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "環境",
+        "報酬",
+        "疲労",
+        "生活リズム"
+      ],
+      "evidence": "行動科学・習慣研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BEH-000014_habit_maintenance.yml",
+      "id": "BEH-000014",
+      "knowledge_type": "behavior_pattern",
+      "name_ja": "習慣維持",
+      "name_en": "Habit Maintenance",
+      "category": "Habits Self Control",
+      "attribute": "Behavior",
+      "definition_ja": "形成された行動習慣を長期的に継続する行動傾向。",
+      "tags": [
+        "CAT:習慣",
+        "CAT:継続",
+        "ATTR:行動パターン"
+      ],
+      "parent": [
+        "習慣"
+      ],
+      "related": [
+        "継続力",
+        "自己規律",
+        "行動維持"
+      ],
+      "observable_data": [
+        "継続率",
+        "中断率",
+        "再開率",
+        "長期実行回数"
+      ],
+      "signal_candidates": [
+        "一定期間継続する",
+        "中断しても戻る"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "報酬",
+        "環境変化",
+        "ストレス"
+      ],
+      "evidence": "行動科学・健康心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BEH-000015_self_control.yml",
+      "id": "BEH-000015",
+      "knowledge_type": "trait",
+      "name_ja": "自己制御",
+      "name_en": "Self-Control",
+      "category": "Habits Self Control",
+      "attribute": "Trait",
+      "definition_ja": "短期的な誘惑や衝動を抑え、目標に沿った行動を選ぶ傾向・能力。",
+      "tags": [
+        "CAT:自己管理",
+        "CAT:実行機能",
+        "ATTR:特性"
+      ],
+      "parent": [
+        "自己管理"
+      ],
+      "related": [
+        "抑制制御",
+        "自己規律",
+        "時間割引"
+      ],
+      "observable_data": [
+        "衝動選択率",
+        "遅延報酬選択率",
+        "ルール遵守",
+        "中断率"
+      ],
+      "signal_candidates": [
+        "誘惑があっても目標行動を選ぶ",
+        "即時報酬を抑える"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "ストレス",
+        "報酬",
+        "睡眠"
+      ],
+      "evidence": "自己制御研究・実行機能研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BEH-000016_desire_control.yml",
+      "id": "BEH-000016",
+      "knowledge_type": "trait",
+      "name_ja": "欲求制御",
+      "name_en": "Desire Control",
+      "category": "Habits Self Control",
+      "attribute": "Trait",
+      "definition_ja": "欲しい、休みたい、避けたいなどの欲求を状況に応じて調整する傾向。",
+      "tags": [
+        "CAT:自己管理",
+        "CAT:感情",
+        "ATTR:特性"
+      ],
+      "parent": [
+        "自己制御"
+      ],
+      "related": [
+        "衝動制御",
+        "報酬感受性",
+        "時間割引"
+      ],
+      "observable_data": [
+        "即時選択率",
+        "誘惑選択率",
+        "中断率",
+        "回避選択"
+      ],
+      "signal_candidates": [
+        "目先の快適さを優先する",
+        "欲求を抑えて目標行動を続ける"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "空腹",
+        "ストレス",
+        "報酬条件"
+      ],
+      "evidence": "自己制御研究・行動科学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BEH-000017_impulse_control.yml",
+      "id": "BEH-000017",
+      "knowledge_type": "trait",
+      "name_ja": "衝動制御",
+      "name_en": "Impulse Control",
+      "category": "Habits Self Control",
+      "attribute": "Trait",
+      "definition_ja": "思いついた行動や反応をすぐ実行せず、状況に応じて抑える傾向・能力。",
+      "tags": [
+        "CAT:自己管理",
+        "CAT:実行機能",
+        "ATTR:特性"
+      ],
+      "parent": [
+        "抑制制御"
+      ],
+      "related": [
+        "衝動性",
+        "自己制御",
+        "時間割引"
+      ],
+      "observable_data": [
+        "フライング反応",
+        "誤反応",
+        "即時選択率",
+        "取消回数"
+      ],
+      "signal_candidates": [
+        "待てずに操作する",
+        "確認前に選択する",
+        "不要反応が増える"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "ストレス",
+        "報酬",
+        "時間制限"
+      ],
+      "evidence": "Go/No-Go・Stop Signal・ADHD評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BEH-000018_action_initiation.yml",
+      "id": "BEH-000018",
+      "knowledge_type": "behavior_pattern",
+      "name_ja": "行動開始",
+      "name_en": "Action Initiation",
+      "category": "Habits Self Control",
+      "attribute": "Behavior",
+      "definition_ja": "必要な行動を始めること。課題開始や初動の速さ・遅さとして観測される。",
+      "tags": [
+        "CAT:行動",
+        "CAT:自己管理",
+        "ATTR:行動パターン"
+      ],
+      "parent": [
+        "課題開始"
+      ],
+      "related": [
+        "先延ばし",
+        "動機づけ",
+        "実行力"
+      ],
+      "observable_data": [
+        "初動時間",
+        "開始遅延",
+        "未着手率",
+        "開始回数"
+      ],
+      "signal_candidates": [
+        "開始までに時間がかかる",
+        "合図後すぐ始める"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "動機",
+        "疲労",
+        "不安",
+        "課題難易度"
+      ],
+      "evidence": "実行機能評価・行動科学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BEH-000019_action_maintenance.yml",
+      "id": "BEH-000019",
+      "knowledge_type": "behavior_pattern",
+      "name_ja": "行動維持",
+      "name_en": "Action Maintenance",
+      "category": "Habits Self Control",
+      "attribute": "Behavior",
+      "definition_ja": "開始した行動を一定時間または一定期間続ける行動傾向。",
+      "tags": [
+        "CAT:行動",
+        "CAT:継続",
+        "ATTR:行動パターン"
+      ],
+      "parent": [
+        "継続行動"
+      ],
+      "related": [
+        "習慣維持",
+        "持続的注意",
+        "粘り強さ"
+      ],
+      "observable_data": [
+        "継続時間",
+        "中断回数",
+        "完了率",
+        "離脱率"
+      ],
+      "signal_candidates": [
+        "途中で止まりにくい",
+        "長時間課題を完了する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "難易度",
+        "報酬",
+        "環境"
+      ],
+      "evidence": "行動科学・教育心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BEH-000020_action_discontinuation.yml",
+      "id": "BEH-000020",
+      "knowledge_type": "behavior_pattern",
+      "name_ja": "行動中断",
+      "name_en": "Action Discontinuation",
+      "category": "Habits Self Control",
+      "attribute": "Behavior",
+      "definition_ja": "開始した行動を途中で止める、離脱する、または中断する行動パターン。",
+      "tags": [
+        "CAT:行動",
+        "CAT:離脱",
+        "ATTR:行動パターン"
+      ],
+      "parent": [
+        "行動パターン"
+      ],
+      "related": [
+        "疲労",
+        "フラストレーション耐性",
+        "先延ばし"
+      ],
+      "observable_data": [
+        "中断率",
+        "離脱率",
+        "再開率",
+        "中断までの時間"
+      ],
+      "signal_candidates": [
+        "難易度上昇後に離脱する",
+        "失敗後に中断する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "ストレス",
+        "難易度",
+        "報酬"
+      ],
+      "evidence": "行動科学・UX研究・ゲーム研究で使用",
+      "status": "active"
+    }
+  ]
+}

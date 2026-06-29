@@ -1,0 +1,33 @@
+id: BEH-000020
+knowledge_type: behavior_pattern
+name_ja: 行動中断
+name_en: Action Discontinuation
+category: Habits Self Control
+attribute: Behavior
+definition_ja: 開始した行動を途中で止める、離脱する、または中断する行動パターン。
+tags:
+  - CAT:行動
+  - CAT:離脱
+  - ATTR:行動パターン
+parent:
+  - 行動パターン
+related:
+  - 疲労
+  - フラストレーション耐性
+  - 先延ばし
+observable_data:
+  - 中断率
+  - 離脱率
+  - 再開率
+  - 中断までの時間
+signal_candidates:
+  - 難易度上昇後に離脱する
+  - 失敗後に中断する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - ストレス
+  - 難易度
+  - 報酬
+evidence: 行動科学・UX研究・ゲーム研究で使用
+status: active

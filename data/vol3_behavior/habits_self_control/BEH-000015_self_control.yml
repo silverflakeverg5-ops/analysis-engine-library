@@ -1,0 +1,33 @@
+id: BEH-000015
+knowledge_type: trait
+name_ja: 自己制御
+name_en: Self-Control
+category: Habits Self Control
+attribute: Trait
+definition_ja: 短期的な誘惑や衝動を抑え、目標に沿った行動を選ぶ傾向・能力。
+tags:
+  - CAT:自己管理
+  - CAT:実行機能
+  - ATTR:特性
+parent:
+  - 自己管理
+related:
+  - 抑制制御
+  - 自己規律
+  - 時間割引
+observable_data:
+  - 衝動選択率
+  - 遅延報酬選択率
+  - ルール遵守
+  - 中断率
+signal_candidates:
+  - 誘惑があっても目標行動を選ぶ
+  - 即時報酬を抑える
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - ストレス
+  - 報酬
+  - 睡眠
+evidence: 自己制御研究・実行機能研究で使用
+status: active

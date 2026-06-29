@@ -1,0 +1,33 @@
+id: BEH-000013
+knowledge_type: behavior_pattern
+name_ja: 習慣形成
+name_en: Habit Formation
+category: Habits Self Control
+attribute: Behavior
+definition_ja: 特定の行動を反復し、状況や手がかりに応じて自動的に実行されやすくなる過程。
+tags:
+  - CAT:習慣
+  - CAT:行動
+  - ATTR:行動パターン
+parent:
+  - 習慣
+related:
+  - 行動維持
+  - 自己制御
+  - 報酬反応
+observable_data:
+  - 実行頻度
+  - 連続実行日数
+  - 実行時刻の一貫性
+  - 中断後再開率
+signal_candidates:
+  - 同じ時間帯に繰り返す
+  - 外部通知なしでも実行する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 環境
+  - 報酬
+  - 疲労
+  - 生活リズム
+evidence: 行動科学・習慣研究で使用
+status: active

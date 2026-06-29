@@ -1,0 +1,33 @@
+id: BEH-000018
+knowledge_type: behavior_pattern
+name_ja: 行動開始
+name_en: Action Initiation
+category: Habits Self Control
+attribute: Behavior
+definition_ja: 必要な行動を始めること。課題開始や初動の速さ・遅さとして観測される。
+tags:
+  - CAT:行動
+  - CAT:自己管理
+  - ATTR:行動パターン
+parent:
+  - 課題開始
+related:
+  - 先延ばし
+  - 動機づけ
+  - 実行力
+observable_data:
+  - 初動時間
+  - 開始遅延
+  - 未着手率
+  - 開始回数
+signal_candidates:
+  - 開始までに時間がかかる
+  - 合図後すぐ始める
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 動機
+  - 疲労
+  - 不安
+  - 課題難易度
+evidence: 実行機能評価・行動科学で使用
+status: active

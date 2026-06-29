@@ -1,0 +1,33 @@
+id: BEH-000016
+knowledge_type: trait
+name_ja: 欲求制御
+name_en: Desire Control
+category: Habits Self Control
+attribute: Trait
+definition_ja: 欲しい、休みたい、避けたいなどの欲求を状況に応じて調整する傾向。
+tags:
+  - CAT:自己管理
+  - CAT:感情
+  - ATTR:特性
+parent:
+  - 自己制御
+related:
+  - 衝動制御
+  - 報酬感受性
+  - 時間割引
+observable_data:
+  - 即時選択率
+  - 誘惑選択率
+  - 中断率
+  - 回避選択
+signal_candidates:
+  - 目先の快適さを優先する
+  - 欲求を抑えて目標行動を続ける
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 空腹
+  - ストレス
+  - 報酬条件
+evidence: 自己制御研究・行動科学で使用
+status: active

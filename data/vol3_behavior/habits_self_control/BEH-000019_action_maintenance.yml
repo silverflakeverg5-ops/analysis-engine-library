@@ -1,0 +1,33 @@
+id: BEH-000019
+knowledge_type: behavior_pattern
+name_ja: 行動維持
+name_en: Action Maintenance
+category: Habits Self Control
+attribute: Behavior
+definition_ja: 開始した行動を一定時間または一定期間続ける行動傾向。
+tags:
+  - CAT:行動
+  - CAT:継続
+  - ATTR:行動パターン
+parent:
+  - 継続行動
+related:
+  - 習慣維持
+  - 持続的注意
+  - 粘り強さ
+observable_data:
+  - 継続時間
+  - 中断回数
+  - 完了率
+  - 離脱率
+signal_candidates:
+  - 途中で止まりにくい
+  - 長時間課題を完了する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 難易度
+  - 報酬
+  - 環境
+evidence: 行動科学・教育心理学で使用
+status: active

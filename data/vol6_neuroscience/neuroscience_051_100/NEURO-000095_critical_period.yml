@@ -1,0 +1,33 @@
+id: NEURO-000095
+knowledge_type: neuroscience
+name_ja: 臨界期
+name_en: Critical Period
+category: Neuroscience
+attribute: Plasticity Development
+definition_ja: 特定の経験が神経発達や学習に大きな影響を持つ時期。
+tags:
+  - CAT:神経科学
+  - CAT:可塑性発達
+  - ATTR:神経基盤
+parent:
+  - 可塑性発達
+related:
+  - 認知科学
+  - 行動観測
+  - 生理
+observable_data:
+  - 臨界期関連反応時間
+  - 臨界期関連行動変化
+  - 臨界期関連注意変化
+  - 臨界期関連ストレス反応
+signal_candidates:
+  - 臨界期に関連する行動・反応パターンが観測される
+  - 負荷や報酬条件の変化に応じて反応が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 睡眠
+  - 疲労
+  - ストレス
+  - 覚醒水準
+evidence: 神経科学・認知神経科学・生理心理学で使用
+status: active

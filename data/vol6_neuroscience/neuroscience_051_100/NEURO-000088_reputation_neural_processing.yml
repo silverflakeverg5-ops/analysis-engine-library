@@ -1,0 +1,33 @@
+id: NEURO-000088
+knowledge_type: neuroscience
+name_ja: 評判処理の神経基盤
+name_en: Neural Processing of Reputation
+category: Neuroscience
+attribute: Social Neuroscience
+definition_ja: 他者からの評価や社会的地位を処理する神経過程。
+tags:
+  - CAT:神経科学
+  - CAT:社会神経科学
+  - ATTR:神経基盤
+parent:
+  - 社会神経科学
+related:
+  - 認知科学
+  - 行動観測
+  - 生理
+observable_data:
+  - 評判処理の神経基盤関連反応時間
+  - 評判処理の神経基盤関連行動変化
+  - 評判処理の神経基盤関連注意変化
+  - 評判処理の神経基盤関連ストレス反応
+signal_candidates:
+  - 評判処理の神経基盤に関連する行動・反応パターンが観測される
+  - 負荷や報酬条件の変化に応じて反応が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 睡眠
+  - 疲労
+  - ストレス
+  - 覚醒水準
+evidence: 神経科学・認知神経科学・生理心理学で使用
+status: active

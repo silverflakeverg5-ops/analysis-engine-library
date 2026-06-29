@@ -1,0 +1,33 @@
+id: NEURO-000074
+knowledge_type: neuroscience
+name_ja: 認知制御ネットワーク
+name_en: Cognitive Control Network
+category: Neuroscience
+attribute: Executive Control
+definition_ja: 目標に沿って注意・記憶・行動を調整する神経ネットワーク。
+tags:
+  - CAT:神経科学
+  - CAT:実行制御
+  - ATTR:神経基盤
+parent:
+  - 実行制御
+related:
+  - 認知科学
+  - 行動観測
+  - 生理
+observable_data:
+  - 認知制御ネットワーク関連反応時間
+  - 認知制御ネットワーク関連行動変化
+  - 認知制御ネットワーク関連注意変化
+  - 認知制御ネットワーク関連ストレス反応
+signal_candidates:
+  - 認知制御ネットワークに関連する行動・反応パターンが観測される
+  - 負荷や報酬条件の変化に応じて反応が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 睡眠
+  - 疲労
+  - ストレス
+  - 覚醒水準
+evidence: 神経科学・認知神経科学・生理心理学で使用
+status: active

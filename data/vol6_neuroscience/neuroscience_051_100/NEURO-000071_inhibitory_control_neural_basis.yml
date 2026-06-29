@@ -1,0 +1,33 @@
+id: NEURO-000071
+knowledge_type: neuroscience
+name_ja: 抑制制御の神経基盤
+name_en: Neural Basis of Inhibitory Control
+category: Neuroscience
+attribute: Executive Control
+definition_ja: 衝動的反応や不要な行動を抑える神経メカニズム。
+tags:
+  - CAT:神経科学
+  - CAT:実行制御
+  - ATTR:神経基盤
+parent:
+  - 実行制御
+related:
+  - 認知科学
+  - 行動観測
+  - 生理
+observable_data:
+  - 抑制制御の神経基盤関連反応時間
+  - 抑制制御の神経基盤関連行動変化
+  - 抑制制御の神経基盤関連注意変化
+  - 抑制制御の神経基盤関連ストレス反応
+signal_candidates:
+  - 抑制制御の神経基盤に関連する行動・反応パターンが観測される
+  - 負荷や報酬条件の変化に応じて反応が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 睡眠
+  - 疲労
+  - ストレス
+  - 覚醒水準
+evidence: 神経科学・認知神経科学・生理心理学で使用
+status: active

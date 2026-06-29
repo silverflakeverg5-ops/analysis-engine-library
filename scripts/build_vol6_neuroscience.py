@@ -1,87 +1,87 @@
 import json
 from pathlib import Path
 
-OUT = Path("data/master_packs/vol6_neuroscience_001_050.json")
+OUT = Path("data/master_packs/vol6_neuroscience_051_100.json")
 
 SECTIONS = [
     {
-        "category": "Neuroscience - Brain Systems",
-        "name_ja": "神経科学・脳システム",
+        "category": "Neuroscience - Attention Control",
+        "name_ja": "神経科学・注意制御",
         "items": [
-            ("NEURO-000001", "prefrontal_cortex", "前頭前野", "Prefrontal Cortex", "計画・判断・抑制・ワーキングメモリなど高次認知機能に関わる脳領域。"),
-            ("NEURO-000002", "dorsolateral_prefrontal_cortex", "背外側前頭前野", "Dorsolateral Prefrontal Cortex", "ワーキングメモリ・認知制御・計画に関わる前頭前野領域。"),
-            ("NEURO-000003", "ventromedial_prefrontal_cortex", "腹内側前頭前野", "Ventromedial Prefrontal Cortex", "価値判断・感情的意思決定・自己関連処理に関わる前頭前野領域。"),
-            ("NEURO-000004", "orbitofrontal_cortex", "眼窩前頭皮質", "Orbitofrontal Cortex", "報酬価値・罰・選択肢評価の更新に関わる脳領域。"),
-            ("NEURO-000005", "anterior_cingulate_cortex", "前部帯状皮質", "Anterior Cingulate Cortex", "葛藤検出・エラー検出・注意制御に関わる脳領域。"),
-            ("NEURO-000006", "amygdala", "扁桃体", "Amygdala", "恐怖・脅威・情動的価値づけに関わる脳領域。"),
-            ("NEURO-000007", "hippocampus", "海馬", "Hippocampus", "エピソード記憶・空間記憶・記憶固定に関わる脳領域。"),
-            ("NEURO-000008", "striatum", "線条体", "Striatum", "報酬学習・習慣形成・行動選択に関わる脳領域。"),
-            ("NEURO-000009", "insula", "島皮質", "Insula", "身体感覚・内受容感覚・嫌悪・リスク認知に関わる脳領域。"),
-            ("NEURO-000010", "parietal_cortex", "頭頂皮質", "Parietal Cortex", "空間処理・注意・数量処理などに関わる脳領域。")
+            ("NEURO-000051", "neural_attention_control", "注意制御の神経基盤", "Neural Attention Control", "目的に応じた注意の方向づけや維持に関わる神経メカニズム。"),
+            ("NEURO-000052", "top_down_attention", "トップダウン注意", "Top Down Attention", "目標や意図に基づいて注意を制御する神経認知過程。"),
+            ("NEURO-000053", "bottom_up_attention", "ボトムアップ注意", "Bottom Up Attention", "目立つ刺激や予期しない刺激によって注意が引き寄せられる過程。"),
+            ("NEURO-000054", "attentional_switching_neural_basis", "注意切替の神経基盤", "Neural Basis of Attentional Switching", "注意対象を切り替える際に働く神経ネットワーク。"),
+            ("NEURO-000055", "alerting_network", "警戒ネットワーク", "Alerting Network", "覚醒水準を高め、刺激に備える注意ネットワーク。"),
+            ("NEURO-000056", "orienting_network", "定位ネットワーク", "Orienting Network", "特定の場所や対象へ注意を向ける注意ネットワーク。"),
+            ("NEURO-000057", "executive_attention_network", "実行注意ネットワーク", "Executive Attention Network", "葛藤解決や抑制制御に関わる注意ネットワーク。"),
+            ("NEURO-000058", "visual_search_neural_basis", "視覚探索の神経基盤", "Neural Basis of Visual Search", "複数の視覚情報から対象を探す際に働く神経過程。"),
+            ("NEURO-000059", "sustained_attention_neural_basis", "持続的注意の神経基盤", "Neural Basis of Sustained Attention", "長時間にわたり注意を保つ神経メカニズム。"),
+            ("NEURO-000060", "attention_fatigue", "注意疲労", "Attention Fatigue", "注意制御を続けることで反応性や集中維持が低下する状態。")
         ]
     },
     {
-        "category": "Neuroscience - Neural Networks",
-        "name_ja": "神経科学・脳ネットワーク",
+        "category": "Neuroscience - Memory Systems",
+        "name_ja": "神経科学・記憶システム",
         "items": [
-            ("NEURO-000011", "default_mode_network", "デフォルトモードネットワーク", "Default Mode Network", "自己関連思考・内省・過去未来シミュレーションに関わる脳ネットワーク。"),
-            ("NEURO-000012", "central_executive_network", "中央実行ネットワーク", "Central Executive Network", "目標志向的思考・ワーキングメモリ・認知制御に関わる脳ネットワーク。"),
-            ("NEURO-000013", "salience_network", "サリエンスネットワーク", "Salience Network", "重要刺激の検出と注意切替に関わる脳ネットワーク。"),
-            ("NEURO-000014", "dorsal_attention_network", "背側注意ネットワーク", "Dorsal Attention Network", "目的に基づく注意の方向づけに関わる脳ネットワーク。"),
-            ("NEURO-000015", "ventral_attention_network", "腹側注意ネットワーク", "Ventral Attention Network", "予期しない重要刺激への注意切替に関わる脳ネットワーク。"),
-            ("NEURO-000016", "reward_network", "報酬ネットワーク", "Reward Network", "報酬予測・快感・接近行動に関わる神経ネットワーク。"),
-            ("NEURO-000017", "limbic_system", "辺縁系", "Limbic System", "情動・記憶・動機づけに関わる脳領域群。"),
-            ("NEURO-000018", "frontoparietal_network", "前頭頭頂ネットワーク", "Frontoparietal Network", "柔軟な認知制御や課題遂行に関わる脳ネットワーク。"),
-            ("NEURO-000019", "sensorimotor_network", "感覚運動ネットワーク", "Sensorimotor Network", "身体運動と感覚処理に関わる脳ネットワーク。"),
-            ("NEURO-000020", "social_brain_network", "社会脳ネットワーク", "Social Brain Network", "他者理解・共感・社会的判断に関わる脳ネットワーク。")
+            ("NEURO-000061", "episodic_memory_network", "エピソード記憶ネットワーク", "Episodic Memory Network", "海馬や内側側頭葉を中心に個人的経験を保持・想起する神経ネットワーク。"),
+            ("NEURO-000062", "semantic_memory_network", "意味記憶ネットワーク", "Semantic Memory Network", "概念・事実・言語知識を処理する神経ネットワーク。"),
+            ("NEURO-000063", "procedural_memory_system", "手続き記憶システム", "Procedural Memory System", "技能や習慣的操作の学習・保持に関わる神経システム。"),
+            ("NEURO-000064", "working_memory_network", "ワーキングメモリネットワーク", "Working Memory Network", "前頭前野と頭頂領域を中心に一時保持と操作を行う神経ネットワーク。"),
+            ("NEURO-000065", "memory_encoding_neural_basis", "記憶符号化の神経基盤", "Neural Basis of Memory Encoding", "情報を記憶として保存可能な形に変換する神経過程。"),
+            ("NEURO-000066", "memory_retrieval_neural_basis", "記憶想起の神経基盤", "Neural Basis of Memory Retrieval", "保存された記憶を取り出す際に働く神経過程。"),
+            ("NEURO-000067", "memory_reconsolidation", "記憶再固定", "Memory Reconsolidation", "想起された記憶が再び不安定化し、更新されて固定される過程。"),
+            ("NEURO-000068", "spatial_memory_system", "空間記憶システム", "Spatial Memory System", "位置・経路・環境配置の記憶に関わる神経システム。"),
+            ("NEURO-000069", "emotional_memory_system", "情動記憶システム", "Emotional Memory System", "感情を伴う経験の記憶を強める神経システム。"),
+            ("NEURO-000070", "forgetting_neural_process", "忘却の神経過程", "Neural Process of Forgetting", "記憶痕跡の弱化・干渉・更新によって想起しにくくなる過程。")
         ]
     },
     {
-        "category": "Neuroscience - Neurotransmitters",
-        "name_ja": "神経科学・神経伝達物質",
+        "category": "Neuroscience - Executive Control",
+        "name_ja": "神経科学・実行制御",
         "items": [
-            ("NEURO-000021", "dopamine", "ドーパミン", "Dopamine", "報酬予測・動機づけ・学習・行動選択に関わる神経伝達物質。"),
-            ("NEURO-000022", "serotonin", "セロトニン", "Serotonin", "気分・衝動性・睡眠・満足感などに関わる神経伝達物質。"),
-            ("NEURO-000023", "noradrenaline", "ノルアドレナリン", "Noradrenaline", "覚醒・注意・ストレス反応に関わる神経伝達物質。"),
-            ("NEURO-000024", "acetylcholine", "アセチルコリン", "Acetylcholine", "注意・学習・記憶・覚醒に関わる神経伝達物質。"),
-            ("NEURO-000025", "gaba", "GABA", "GABA", "神経活動の抑制に関わり、不安・興奮・制御に影響する神経伝達物質。"),
-            ("NEURO-000026", "glutamate", "グルタミン酸", "Glutamate", "興奮性神経伝達や学習・記憶の可塑性に関わる神経伝達物質。"),
-            ("NEURO-000027", "oxytocin", "オキシトシン", "Oxytocin", "社会的結びつき・信頼・親和行動に関わる神経ペプチド。"),
-            ("NEURO-000028", "endorphin", "エンドルフィン", "Endorphin", "快感・痛みの緩和・報酬感に関わる内因性オピオイド。"),
-            ("NEURO-000029", "cortisol", "コルチゾール", "Cortisol", "ストレス反応・覚醒・代謝調整に関わるホルモン。"),
-            ("NEURO-000030", "melatonin", "メラトニン", "Melatonin", "睡眠覚醒リズムや概日リズムの調整に関わるホルモン。")
+            ("NEURO-000071", "inhibitory_control_neural_basis", "抑制制御の神経基盤", "Neural Basis of Inhibitory Control", "衝動的反応や不要な行動を抑える神経メカニズム。"),
+            ("NEURO-000072", "conflict_monitoring", "葛藤モニタリング", "Conflict Monitoring", "複数の反応や目標が競合する状態を検出する神経過程。"),
+            ("NEURO-000073", "error_detection_neural_basis", "エラー検出の神経基盤", "Neural Basis of Error Detection", "行動結果や反応の誤りを検出する神経過程。"),
+            ("NEURO-000074", "cognitive_control_network", "認知制御ネットワーク", "Cognitive Control Network", "目標に沿って注意・記憶・行動を調整する神経ネットワーク。"),
+            ("NEURO-000075", "task_set_maintenance", "課題セット保持", "Task Set Maintenance", "現在のルールや目標状態を維持する神経認知過程。"),
+            ("NEURO-000076", "response_inhibition", "反応抑制", "Response Inhibition", "不適切または早すぎる反応を止める神経認知機能。"),
+            ("NEURO-000077", "performance_monitoring", "パフォーマンスモニタリング", "Performance Monitoring", "行動の正確性・速度・結果を監視する神経認知過程。"),
+            ("NEURO-000078", "cognitive_flexibility_neural_basis", "認知的柔軟性の神経基盤", "Neural Basis of Cognitive Flexibility", "状況変化に応じてルールや方略を切り替える神経メカニズム。"),
+            ("NEURO-000079", "decision_threshold_adjustment", "意思決定閾値調整", "Decision Threshold Adjustment", "速さと正確さのバランスに応じて反応基準を変える神経認知過程。"),
+            ("NEURO-000080", "executive_resource_depletion", "実行資源消耗", "Executive Resource Depletion", "継続的な制御要求によって認知制御の効率が低下する状態。")
         ]
     },
     {
-        "category": "Neuroscience - Reward Learning",
-        "name_ja": "神経科学・報酬学習",
+        "category": "Neuroscience - Social Neuroscience",
+        "name_ja": "神経科学・社会神経科学",
         "items": [
-            ("NEURO-000031", "reward_prediction_error", "報酬予測誤差", "Reward Prediction Error", "期待した報酬と実際の報酬との差に基づいて学習を更新する信号。"),
-            ("NEURO-000032", "reinforcement_signal", "強化信号", "Reinforcement Signal", "行動結果に基づいて将来の行動選択を変えるための神経信号。"),
-            ("NEURO-000033", "approach_system", "接近システム", "Approach System", "報酬や望ましい対象へ近づく行動を促す神経行動システム。"),
-            ("NEURO-000034", "avoidance_system", "回避システム", "Avoidance System", "脅威や損失を避ける行動を促す神経行動システム。"),
-            ("NEURO-000035", "habit_loop", "習慣ループ", "Habit Loop", "手がかり・行動・報酬の反復によって形成される習慣的行動の循環。"),
-            ("NEURO-000036", "cue_reactivity", "手がかり反応性", "Cue Reactivity", "報酬や習慣に結びついた刺激に対して反応しやすくなる性質。"),
-            ("NEURO-000037", "incentive_salience", "誘因顕著性", "Incentive Salience", "報酬に関連する手がかりが注意や接近行動を引きつける性質。"),
-            ("NEURO-000038", "delay_discounting_neural_basis", "遅延割引の神経基盤", "Neural Basis of Delay Discounting", "即時報酬と将来報酬の選択に関わる神経メカニズム。"),
-            ("NEURO-000039", "risk_reward_tradeoff", "リスク報酬トレードオフ", "Risk Reward Tradeoff", "リスクと報酬のバランスを評価する神経認知過程。"),
-            ("NEURO-000040", "motivation_energy_allocation", "動機づけとエネルギー配分", "Motivational Energy Allocation", "報酬期待や価値に応じて努力量を配分する神経認知過程。")
+            ("NEURO-000081", "mentalizing_network", "メンタライジングネットワーク", "Mentalizing Network", "他者の信念・意図・感情を推測する神経ネットワーク。"),
+            ("NEURO-000082", "mirror_neuron_system", "ミラーニューロンシステム", "Mirror Neuron System", "他者の行動観察と自己の行動表象を結びつける神経システム。"),
+            ("NEURO-000083", "empathy_neural_basis", "共感の神経基盤", "Neural Basis of Empathy", "他者の感情や痛みへの反応に関わる神経メカニズム。"),
+            ("NEURO-000084", "social_reward_processing", "社会的報酬処理", "Social Reward Processing", "承認・称賛・所属感など社会的報酬を処理する神経過程。"),
+            ("NEURO-000085", "social_pain_network", "社会的痛みネットワーク", "Social Pain Network", "拒絶・孤立・排除など社会的苦痛に反応する神経ネットワーク。"),
+            ("NEURO-000086", "trust_neural_basis", "信頼判断の神経基盤", "Neural Basis of Trust", "他者や情報源への信頼判断に関わる神経メカニズム。"),
+            ("NEURO-000087", "fairness_processing", "公平性処理", "Fairness Processing", "分配・交換・協力における公平性を評価する神経過程。"),
+            ("NEURO-000088", "reputation_neural_processing", "評判処理の神経基盤", "Neural Processing of Reputation", "他者からの評価や社会的地位を処理する神経過程。"),
+            ("NEURO-000089", "attachment_neural_system", "愛着神経システム", "Attachment Neural System", "親密さ・安心感・結びつきに関わる神経システム。"),
+            ("NEURO-000090", "social_threat_detection", "社会的脅威検知", "Social Threat Detection", "拒絶・批判・評価低下などの社会的脅威を検出する神経過程。")
         ]
     },
     {
-        "category": "Neuroscience - Stress Emotion",
-        "name_ja": "神経科学・ストレス情動",
+        "category": "Neuroscience - Plasticity Development",
+        "name_ja": "神経科学・可塑性発達",
         "items": [
-            ("NEURO-000041", "stress_response_system", "ストレス反応系", "Stress Response System", "脅威や負荷に対して身体と脳を動員する反応システム。"),
-            ("NEURO-000042", "hpa_axis", "HPA軸", "HPA Axis", "視床下部・下垂体・副腎から成るストレス応答システム。"),
-            ("NEURO-000043", "sympathetic_activation", "交感神経活性化", "Sympathetic Activation", "緊張・覚醒・闘争逃走反応に関わる自律神経の活性化。"),
-            ("NEURO-000044", "parasympathetic_recovery", "副交感神経回復", "Parasympathetic Recovery", "休息・回復・鎮静に関わる自律神経の働き。"),
-            ("NEURO-000045", "emotion_regulation_network", "感情調整ネットワーク", "Emotion Regulation Network", "前頭前野と辺縁系などが関わる感情調整の神経ネットワーク。"),
-            ("NEURO-000046", "fear_conditioning", "恐怖条件づけ", "Fear Conditioning", "中立刺激が恐怖や脅威と結びつく学習過程。"),
-            ("NEURO-000047", "extinction_learning", "消去学習", "Extinction Learning", "以前に学習した恐怖や反応が安全経験によって弱まる学習過程。"),
-            ("NEURO-000048", "threat_bias_neural_basis", "脅威バイアスの神経基盤", "Neural Basis of Threat Bias", "脅威刺激へ注意や反応が偏る神経メカニズム。"),
-            ("NEURO-000049", "emotional_arousal", "情動覚醒", "Emotional Arousal", "感情刺激によって身体・注意・記憶が活性化する状態。"),
-            ("NEURO-000050", "allostatic_load", "アロスタティック負荷", "Allostatic Load", "慢性的なストレス適応によって身体脳システムに蓄積する負担。")
+            ("NEURO-000091", "neuroplasticity", "神経可塑性", "Neuroplasticity", "経験や学習によって神経結合や脳機能が変化する性質。"),
+            ("NEURO-000092", "synaptic_plasticity", "シナプス可塑性", "Synaptic Plasticity", "神経細胞間の結合強度が経験により変化する性質。"),
+            ("NEURO-000093", "long_term_potentiation", "長期増強", "Long Term Potentiation", "反復的な神経活動によりシナプス伝達が長期的に強化される現象。"),
+            ("NEURO-000094", "long_term_depression", "長期抑圧", "Long Term Depression", "神経活動パターンによりシナプス伝達が長期的に弱まる現象。"),
+            ("NEURO-000095", "critical_period", "臨界期", "Critical Period", "特定の経験が神経発達や学習に大きな影響を持つ時期。"),
+            ("NEURO-000096", "sensitive_period", "敏感期", "Sensitive Period", "特定の経験に対して学習や発達が起こりやすい時期。"),
+            ("NEURO-000097", "experience_dependent_plasticity", "経験依存的可塑性", "Experience Dependent Plasticity", "個別の経験に応じて神経回路が変化する性質。"),
+            ("NEURO-000098", "experience_expectant_plasticity", "経験期待的可塑性", "Experience Expectant Plasticity", "一般的に期待される環境入力によって発達する神経可塑性。"),
+            ("NEURO-000099", "learning_induced_plasticity", "学習誘導性可塑性", "Learning Induced Plasticity", "学習によって神経活動や結合が変化する過程。"),
+            ("NEURO-000100", "recovery_plasticity", "回復可塑性", "Recovery Plasticity", "損傷・負荷・失敗後に機能を補償・再構成する神経可塑性。")
         ]
     }
 ]
@@ -136,8 +136,8 @@ def main():
     ])
 
     pack = {
-        "output_dir": "vol6_neuroscience/neuroscience_001_050",
-        "index_filename": "neuroscience_001_050_index.yml",
+        "output_dir": "vol6_neuroscience/neuroscience_051_100",
+        "index_filename": "neuroscience_051_100_index.yml",
         "index_content": "\n".join(index_lines) + "\n",
         "items": all_items
     }

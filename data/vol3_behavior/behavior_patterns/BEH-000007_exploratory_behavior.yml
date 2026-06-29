@@ -1,0 +1,34 @@
+id: BEH-000007
+knowledge_type: behavior_pattern
+name_ja: 探索行動
+name_en: Exploratory Behavior
+category: Behavior Patterns
+attribute: Behavior
+definition_ja: 未知の選択肢、領域、情報、方法を試しながら理解を広げる行動傾向。
+tags:
+  - CAT:行動
+  - CAT:探索
+  - ATTR:行動パターン
+parent:
+  - 行動パターン
+related:
+  - 好奇心
+  - 開放性
+  - 情報探索
+  - 試行錯誤
+observable_data:
+  - 探索範囲
+  - 未選択項目選択率
+  - 新規選択率
+  - 寄り道率
+signal_candidates:
+  - 未知の選択肢を試す
+  - 効率より情報収集を優先する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 自由度
+  - 時間制限
+  - 報酬
+  - 経験
+evidence: プレイヤーモデリング・UX研究・学習研究で使用
+status: active

@@ -1,0 +1,33 @@
+id: BEH-000012
+knowledge_type: behavior_pattern
+name_ja: 安全策選択
+name_en: Safety Seeking
+category: Behavior Patterns
+attribute: Behavior
+definition_ja: 損失や失敗の可能性を抑えるため、安全な選択肢を選びやすい行動傾向。
+tags:
+  - CAT:行動
+  - CAT:意思決定
+  - ATTR:行動パターン
+parent:
+  - 意思決定行動
+related:
+  - 安全志向
+  - 損失回避
+  - リスク回避
+observable_data:
+  - 安全選択率
+  - 保険行動
+  - 余裕資源確保
+  - 撤退選択
+signal_candidates:
+  - リスクが低い選択を優先する
+  - 余裕を持った資源配分をする
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 損失経験
+  - 時間制限
+  - 報酬条件
+  - ストレス
+evidence: 行動経済学・意思決定研究・安全行動研究で使用
+status: active

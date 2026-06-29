@@ -1,0 +1,33 @@
+id: BEH-000008
+knowledge_type: behavior_pattern
+name_ja: 試行錯誤
+name_en: Trial and Error
+category: Behavior Patterns
+attribute: Behavior
+definition_ja: 複数の行動を試し、結果から修正しながら解決へ近づく行動パターン。
+tags:
+  - CAT:行動
+  - CAT:学習
+  - ATTR:行動パターン
+parent:
+  - 学習行動
+related:
+  - フィードバック学習
+  - 問題解決
+  - 適応力
+observable_data:
+  - 試行回数
+  - 失敗後変更率
+  - 改善率
+  - 再挑戦率
+signal_candidates:
+  - 失敗後に別方法を試す
+  - 反復ごとに成績が改善する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - フィードバック有無
+  - 失敗コスト
+  - 時間制限
+  - 経験
+evidence: 学習心理学・行動分析学・ゲーム研究で使用
+status: active

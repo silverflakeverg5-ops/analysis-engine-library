@@ -1,0 +1,35 @@
+id: BEH-000010
+knowledge_type: behavior_pattern
+name_ja: 先延ばし
+name_en: Procrastination
+category: Behavior Patterns
+attribute: Behavior
+definition_ja: 必要な行動や課題開始を遅らせる行動傾向。
+tags:
+  - CAT:行動
+  - CAT:自己管理
+  - ATTR:行動パターン
+parent:
+  - 課題開始
+related:
+  - 課題開始
+  - 時間管理
+  - 不安傾向
+  - 自己規律
+observable_data:
+  - 開始遅延
+  - 期限直前開始率
+  - 未着手率
+  - 持ち越し回数
+signal_candidates:
+  - 開始までに時間がかかる
+  - 期限直前に作業が集中する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 不安
+  - 課題難易度
+  - 疲労
+  - 報酬
+  - 時間制限
+evidence: 自己制御研究・教育心理学・ADHD関連評価で使用
+status: active

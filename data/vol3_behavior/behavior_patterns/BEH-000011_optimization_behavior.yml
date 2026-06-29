@@ -1,0 +1,34 @@
+id: BEH-000011
+knowledge_type: behavior_pattern
+name_ja: 最適化行動
+name_en: Optimization Behavior
+category: Behavior Patterns
+attribute: Behavior
+definition_ja: 成果、効率、資源配分、手順を改善し、より良い方法へ調整する行動傾向。
+tags:
+  - CAT:行動
+  - CAT:問題解決
+  - ATTR:行動パターン
+parent:
+  - 改善行動
+related:
+  - 改善
+  - 効率志向
+  - 問題解決
+  - 計画性
+observable_data:
+  - 手順改善回数
+  - 資源配分変更
+  - 効率改善率
+  - 再設計行動
+signal_candidates:
+  - より効率的な方法へ変更する
+  - 成果を見て手順を調整する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 経験
+  - フィードバック
+  - 時間制限
+  - 報酬
+evidence: UX研究・ゲーム研究・問題解決研究で使用
+status: active

@@ -1,0 +1,33 @@
+id: BEH-000009
+knowledge_type: behavior_pattern
+name_ja: 粘り強さ
+name_en: Persistence
+category: Behavior Patterns
+attribute: Behavior
+definition_ja: 困難や失敗があっても行動を継続し、目標達成を試みる行動傾向。
+tags:
+  - CAT:行動
+  - CAT:自己管理
+  - ATTR:行動パターン
+parent:
+  - 継続行動
+related:
+  - 継続力
+  - レジリエンス
+  - 達成動機
+observable_data:
+  - 再挑戦率
+  - 離脱率
+  - 継続時間
+  - 失敗後再開時間
+signal_candidates:
+  - 失敗後も続ける
+  - 難易度が上がっても離脱しにくい
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 報酬
+  - 成功体験
+  - 課題難易度
+evidence: 教育心理学・非認知能力研究・組織心理学で使用
+status: active

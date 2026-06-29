@@ -1,0 +1,29 @@
+id: CORE-INDEX-000001
+name_ja: Vol.1 Core Index
+name_en: Vol.1 Core Index
+description_ja: 認知・記憶・実行機能・処理・推論・空間認知に関する中核カテゴリの索引。
+status: active
+categories:
+  attention:
+    name_ja: 注意
+    path: data/vol1_core/attention/attention_index.yml
+  memory:
+    name_ja: 記憶
+    path: data/vol1_core/memory/memory_index.yml
+  executive_function:
+    name_ja: 実行機能
+    path: data/vol1_core/executive_function/executive_function_index.yml
+  processing:
+    name_ja: 処理
+    path: data/vol1_core/processing/processing_index.yml
+  reasoning:
+    name_ja: 推論
+    path: data/vol1_core/reasoning/reasoning_index.yml
+  spatial:
+    name_ja: 空間認知
+    path: data/vol1_core/spatial/spatial_index.yml
+principles:
+  - 項目は統合しない
+  - 類義語・重複候補はRelationで管理する
+  - Signalは推定候補として扱う
+  - アプリ種別ではなく観測データと必要機材レベルで管理する

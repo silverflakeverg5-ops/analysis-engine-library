@@ -1,0 +1,33 @@
+id: BEH-000031
+knowledge_type: behavior_pattern
+name_ja: 同調行動
+name_en: Conformity Behavior
+category: Social Behavior
+attribute: Behavior
+definition_ja: 周囲の選択・意見・行動に合わせて、自分の行動を調整する行動。
+tags:
+  - CAT:社会行動
+  - CAT:同調
+  - ATTR:行動パターン
+parent:
+  - 社会的行動
+related:
+  - 社会的影響
+  - 協調性
+  - リスク回避
+observable_data:
+  - 多数派選択率
+  - 他者行動確認回数
+  - 選択変更率
+  - ランキング参照率
+signal_candidates:
+  - 他者の選択を見た後に自分の選択を変える
+  - 少数派選択を避ける傾向がある
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 集団圧力
+  - 匿名性
+  - 自信
+  - 失敗コスト
+evidence: 社会的影響研究・意思決定研究・行動科学で使用
+status: active

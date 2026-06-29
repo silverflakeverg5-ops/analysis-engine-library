@@ -1,0 +1,33 @@
+id: BEH-000033
+knowledge_type: behavior_pattern
+name_ja: フォロワーシップ行動
+name_en: Followership Behavior
+category: Social Behavior
+attribute: Behavior
+definition_ja: 他者の方針や集団目標を理解し、支援・実行・調整を通じて集団活動に貢献する行動。
+tags:
+  - CAT:社会行動
+  - CAT:フォロワーシップ
+  - ATTR:行動パターン
+parent:
+  - 社会的行動
+related:
+  - 協力行動
+  - 役割受容
+  - 実行行動
+observable_data:
+  - 指示受容率
+  - 役割遂行率
+  - 補助行動回数
+  - 集団目標追従率
+signal_candidates:
+  - 提示された方針に沿って行動を安定させる
+  - リーダーや集団の不足部分を補う
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - リーダー信頼度
+  - 役割明確性
+  - 納得感
+  - 集団目標の魅力度
+evidence: 組織行動研究・チームワーク研究で使用
+status: active

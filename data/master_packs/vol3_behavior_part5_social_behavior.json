@@ -1,0 +1,301 @@
+{
+  "output_dir": "vol3_behavior/social_behavior",
+  "index_filename": "social_behavior_index.yml",
+  "index_content": "category: Social Behavior\nname_ja: 社会的行動\nitems:\n  - BEH-000028_cooperative_behavior.yml\n  - BEH-000029_help_seeking_behavior.yml\n  - BEH-000030_help_giving_behavior.yml\n  - BEH-000031_conformity_behavior.yml\n  - BEH-000032_leadership_behavior.yml\n  - BEH-000033_followership_behavior.yml\n  - BEH-000034_social_monitoring.yml\nnotes:\n  - 社会的行動は性格特性そのものとは統合しない\n  - 観測可能な行動・Signal候補を中心に管理する\n  - アプリ種別タグは付けない\n",
+  "items": [
+    {
+      "filename": "BEH-000028_cooperative_behavior.yml",
+      "id": "BEH-000028",
+      "knowledge_type": "behavior_pattern",
+      "name_ja": "協力行動",
+      "name_en": "Cooperative Behavior",
+      "category": "Social Behavior",
+      "attribute": "Behavior",
+      "definition_ja": "他者と目標や作業を共有し、相互調整しながら成果を出そうとする行動。",
+      "tags": [
+        "CAT:社会行動",
+        "CAT:協力",
+        "ATTR:行動パターン"
+      ],
+      "parent": [
+        "社会的行動"
+      ],
+      "related": [
+        "協調性",
+        "援助行動",
+        "フォロワーシップ"
+      ],
+      "observable_data": [
+        "共同作業選択率",
+        "他者支援回数",
+        "役割分担受容率",
+        "共同目標達成率"
+      ],
+      "signal_candidates": [
+        "単独行動より共同行動を選びやすい",
+        "他者の進行状況に合わせて行動を調整する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "関係性",
+        "報酬構造",
+        "競争環境",
+        "役割明確性"
+      ],
+      "evidence": "社会心理学・協同学習研究・組織行動研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BEH-000029_help_seeking_behavior.yml",
+      "id": "BEH-000029",
+      "knowledge_type": "behavior_pattern",
+      "name_ja": "援助要請行動",
+      "name_en": "Help Seeking Behavior",
+      "category": "Social Behavior",
+      "attribute": "Behavior",
+      "definition_ja": "困難や不確実性に直面した際に、他者へ助言・支援・情報を求める行動。",
+      "tags": [
+        "CAT:社会行動",
+        "CAT:援助要請",
+        "ATTR:行動パターン"
+      ],
+      "parent": [
+        "社会的行動"
+      ],
+      "related": [
+        "問題解決",
+        "学習行動",
+        "自己制御"
+      ],
+      "observable_data": [
+        "ヘルプ閲覧回数",
+        "質問回数",
+        "ヒント使用率",
+        "他者相談選択率"
+      ],
+      "signal_candidates": [
+        "詰まった時に支援情報を探す",
+        "失敗前後でヒントや説明を確認する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "心理的安全性",
+        "恥ずかしさ",
+        "難易度",
+        "支援へのアクセス性"
+      ],
+      "evidence": "教育心理学・学習支援研究・HCIで使用",
+      "status": "active"
+    },
+    {
+      "filename": "BEH-000030_help_giving_behavior.yml",
+      "id": "BEH-000030",
+      "knowledge_type": "behavior_pattern",
+      "name_ja": "援助提供行動",
+      "name_en": "Help Giving Behavior",
+      "category": "Social Behavior",
+      "attribute": "Behavior",
+      "definition_ja": "他者の困難や不足に気づき、情報・労力・助言などを提供する行動。",
+      "tags": [
+        "CAT:社会行動",
+        "CAT:援助",
+        "ATTR:行動パターン"
+      ],
+      "parent": [
+        "社会的行動"
+      ],
+      "related": [
+        "協力行動",
+        "共感",
+        "利他行動"
+      ],
+      "observable_data": [
+        "支援選択回数",
+        "他者フォロー回数",
+        "共同タスク補助率",
+        "説明提供回数"
+      ],
+      "signal_candidates": [
+        "他者の失敗や停滞に反応して支援する",
+        "自分の利益より全体進行を優先する場面がある"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "余裕時間",
+        "関係性",
+        "報酬設計",
+        "共感喚起"
+      ],
+      "evidence": "利他行動研究・社会心理学・組織行動研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BEH-000031_conformity_behavior.yml",
+      "id": "BEH-000031",
+      "knowledge_type": "behavior_pattern",
+      "name_ja": "同調行動",
+      "name_en": "Conformity Behavior",
+      "category": "Social Behavior",
+      "attribute": "Behavior",
+      "definition_ja": "周囲の選択・意見・行動に合わせて、自分の行動を調整する行動。",
+      "tags": [
+        "CAT:社会行動",
+        "CAT:同調",
+        "ATTR:行動パターン"
+      ],
+      "parent": [
+        "社会的行動"
+      ],
+      "related": [
+        "社会的影響",
+        "協調性",
+        "リスク回避"
+      ],
+      "observable_data": [
+        "多数派選択率",
+        "他者行動確認回数",
+        "選択変更率",
+        "ランキング参照率"
+      ],
+      "signal_candidates": [
+        "他者の選択を見た後に自分の選択を変える",
+        "少数派選択を避ける傾向がある"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "集団圧力",
+        "匿名性",
+        "自信",
+        "失敗コスト"
+      ],
+      "evidence": "社会的影響研究・意思決定研究・行動科学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BEH-000032_leadership_behavior.yml",
+      "id": "BEH-000032",
+      "knowledge_type": "behavior_pattern",
+      "name_ja": "リーダーシップ行動",
+      "name_en": "Leadership Behavior",
+      "category": "Social Behavior",
+      "attribute": "Behavior",
+      "definition_ja": "集団や他者の行動方向を示し、意思決定・役割分担・進行を促す行動。",
+      "tags": [
+        "CAT:社会行動",
+        "CAT:リーダーシップ",
+        "ATTR:行動パターン"
+      ],
+      "parent": [
+        "社会的行動"
+      ],
+      "related": [
+        "自己主張",
+        "目標達成行動",
+        "意思決定"
+      ],
+      "observable_data": [
+        "方針提示回数",
+        "役割分担提案回数",
+        "進行促進回数",
+        "意思決定主導率"
+      ],
+      "signal_candidates": [
+        "曖昧な状況で方針を示す",
+        "他者の行動を整理・誘導する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "役割期待",
+        "集団サイズ",
+        "専門性",
+        "責任範囲"
+      ],
+      "evidence": "組織心理学・リーダーシップ研究・集団行動研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BEH-000033_followership_behavior.yml",
+      "id": "BEH-000033",
+      "knowledge_type": "behavior_pattern",
+      "name_ja": "フォロワーシップ行動",
+      "name_en": "Followership Behavior",
+      "category": "Social Behavior",
+      "attribute": "Behavior",
+      "definition_ja": "他者の方針や集団目標を理解し、支援・実行・調整を通じて集団活動に貢献する行動。",
+      "tags": [
+        "CAT:社会行動",
+        "CAT:フォロワーシップ",
+        "ATTR:行動パターン"
+      ],
+      "parent": [
+        "社会的行動"
+      ],
+      "related": [
+        "協力行動",
+        "役割受容",
+        "実行行動"
+      ],
+      "observable_data": [
+        "指示受容率",
+        "役割遂行率",
+        "補助行動回数",
+        "集団目標追従率"
+      ],
+      "signal_candidates": [
+        "提示された方針に沿って行動を安定させる",
+        "リーダーや集団の不足部分を補う"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "リーダー信頼度",
+        "役割明確性",
+        "納得感",
+        "集団目標の魅力度"
+      ],
+      "evidence": "組織行動研究・チームワーク研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BEH-000034_social_monitoring.yml",
+      "id": "BEH-000034",
+      "knowledge_type": "behavior_pattern",
+      "name_ja": "社会的モニタリング",
+      "name_en": "Social Monitoring",
+      "category": "Social Behavior",
+      "attribute": "Behavior",
+      "definition_ja": "他者の反応・状態・選択・評価を観察し、自分の行動調整に利用する行動。",
+      "tags": [
+        "CAT:社会行動",
+        "CAT:観察",
+        "ATTR:行動パターン"
+      ],
+      "parent": [
+        "社会的行動"
+      ],
+      "related": [
+        "同調行動",
+        "観察学習",
+        "コミュニケーション行動"
+      ],
+      "observable_data": [
+        "他者情報確認回数",
+        "プロフィール閲覧回数",
+        "反応確認回数",
+        "行動前確認時間"
+      ],
+      "signal_candidates": [
+        "行動前に他者の反応や選択を確認する",
+        "評価やリアクション後に行動を変える"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "対人不安",
+        "評価環境",
+        "匿名性",
+        "集団規模"
+      ],
+      "evidence": "社会心理学・自己呈示研究・HCIで使用",
+      "status": "active"
+    }
+  ]
+}

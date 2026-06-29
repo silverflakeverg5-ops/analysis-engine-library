@@ -1,0 +1,33 @@
+id: BEH-000030
+knowledge_type: behavior_pattern
+name_ja: 援助提供行動
+name_en: Help Giving Behavior
+category: Social Behavior
+attribute: Behavior
+definition_ja: 他者の困難や不足に気づき、情報・労力・助言などを提供する行動。
+tags:
+  - CAT:社会行動
+  - CAT:援助
+  - ATTR:行動パターン
+parent:
+  - 社会的行動
+related:
+  - 協力行動
+  - 共感
+  - 利他行動
+observable_data:
+  - 支援選択回数
+  - 他者フォロー回数
+  - 共同タスク補助率
+  - 説明提供回数
+signal_candidates:
+  - 他者の失敗や停滞に反応して支援する
+  - 自分の利益より全体進行を優先する場面がある
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 余裕時間
+  - 関係性
+  - 報酬設計
+  - 共感喚起
+evidence: 利他行動研究・社会心理学・組織行動研究で使用
+status: active

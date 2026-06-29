@@ -1,0 +1,33 @@
+id: BEH-000029
+knowledge_type: behavior_pattern
+name_ja: 援助要請行動
+name_en: Help Seeking Behavior
+category: Social Behavior
+attribute: Behavior
+definition_ja: 困難や不確実性に直面した際に、他者へ助言・支援・情報を求める行動。
+tags:
+  - CAT:社会行動
+  - CAT:援助要請
+  - ATTR:行動パターン
+parent:
+  - 社会的行動
+related:
+  - 問題解決
+  - 学習行動
+  - 自己制御
+observable_data:
+  - ヘルプ閲覧回数
+  - 質問回数
+  - ヒント使用率
+  - 他者相談選択率
+signal_candidates:
+  - 詰まった時に支援情報を探す
+  - 失敗前後でヒントや説明を確認する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 心理的安全性
+  - 恥ずかしさ
+  - 難易度
+  - 支援へのアクセス性
+evidence: 教育心理学・学習支援研究・HCIで使用
+status: active

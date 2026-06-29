@@ -1,0 +1,33 @@
+id: BEH-000032
+knowledge_type: behavior_pattern
+name_ja: リーダーシップ行動
+name_en: Leadership Behavior
+category: Social Behavior
+attribute: Behavior
+definition_ja: 集団や他者の行動方向を示し、意思決定・役割分担・進行を促す行動。
+tags:
+  - CAT:社会行動
+  - CAT:リーダーシップ
+  - ATTR:行動パターン
+parent:
+  - 社会的行動
+related:
+  - 自己主張
+  - 目標達成行動
+  - 意思決定
+observable_data:
+  - 方針提示回数
+  - 役割分担提案回数
+  - 進行促進回数
+  - 意思決定主導率
+signal_candidates:
+  - 曖昧な状況で方針を示す
+  - 他者の行動を整理・誘導する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 役割期待
+  - 集団サイズ
+  - 専門性
+  - 責任範囲
+evidence: 組織心理学・リーダーシップ研究・集団行動研究で使用
+status: active

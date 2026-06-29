@@ -1,0 +1,33 @@
+id: BEH-000034
+knowledge_type: behavior_pattern
+name_ja: 社会的モニタリング
+name_en: Social Monitoring
+category: Social Behavior
+attribute: Behavior
+definition_ja: 他者の反応・状態・選択・評価を観察し、自分の行動調整に利用する行動。
+tags:
+  - CAT:社会行動
+  - CAT:観察
+  - ATTR:行動パターン
+parent:
+  - 社会的行動
+related:
+  - 同調行動
+  - 観察学習
+  - コミュニケーション行動
+observable_data:
+  - 他者情報確認回数
+  - プロフィール閲覧回数
+  - 反応確認回数
+  - 行動前確認時間
+signal_candidates:
+  - 行動前に他者の反応や選択を確認する
+  - 評価やリアクション後に行動を変える
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 対人不安
+  - 評価環境
+  - 匿名性
+  - 集団規模
+evidence: 社会心理学・自己呈示研究・HCIで使用
+status: active

@@ -1,0 +1,33 @@
+id: BEH-000028
+knowledge_type: behavior_pattern
+name_ja: 協力行動
+name_en: Cooperative Behavior
+category: Social Behavior
+attribute: Behavior
+definition_ja: 他者と目標や作業を共有し、相互調整しながら成果を出そうとする行動。
+tags:
+  - CAT:社会行動
+  - CAT:協力
+  - ATTR:行動パターン
+parent:
+  - 社会的行動
+related:
+  - 協調性
+  - 援助行動
+  - フォロワーシップ
+observable_data:
+  - 共同作業選択率
+  - 他者支援回数
+  - 役割分担受容率
+  - 共同目標達成率
+signal_candidates:
+  - 単独行動より共同行動を選びやすい
+  - 他者の進行状況に合わせて行動を調整する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 関係性
+  - 報酬構造
+  - 競争環境
+  - 役割明確性
+evidence: 社会心理学・協同学習研究・組織行動研究で使用
+status: active

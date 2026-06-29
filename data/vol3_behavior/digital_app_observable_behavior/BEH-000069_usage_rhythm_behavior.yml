@@ -1,0 +1,33 @@
+id: BEH-000069
+knowledge_type: behavior_pattern
+name_ja: 利用リズム行動
+name_en: Usage Rhythm Behavior
+category: Digital App Observable Behavior
+attribute: Behavior
+definition_ja: アプリやサービスを利用する時間帯・頻度・周期・継続間隔に現れる行動パターン。
+tags:
+  - CAT:デジタル行動
+  - CAT:利用リズム
+  - ATTR:行動パターン
+parent:
+  - デジタル・アプリ観測行動
+related:
+  - 習慣行動
+  - セッション行動
+  - 生活リズム
+observable_data:
+  - 利用時間帯
+  - 曜日別利用頻度
+  - 連続利用日数
+  - 再訪間隔
+signal_candidates:
+  - 決まった時間帯に利用する
+  - 短い間隔で繰り返し利用する
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 生活リズム
+  - 仕事・学校
+  - 通知
+  - 休日
+evidence: 行動ログ分析・モバイルHCI・習慣形成研究で使用
+status: active

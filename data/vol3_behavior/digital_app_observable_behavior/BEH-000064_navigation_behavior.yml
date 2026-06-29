@@ -1,0 +1,33 @@
+id: BEH-000064
+knowledge_type: behavior_pattern
+name_ja: ナビゲーション行動
+name_en: Navigation Behavior
+category: Digital App Observable Behavior
+attribute: Behavior
+definition_ja: アプリやWeb内で、画面・機能・情報間を移動する行動。
+tags:
+  - CAT:デジタル行動
+  - CAT:ナビゲーション
+  - ATTR:行動パターン
+parent:
+  - デジタル・アプリ観測行動
+related:
+  - 探索行動
+  - 情報探索
+  - 操作習熟
+observable_data:
+  - 画面遷移回数
+  - 戻る操作回数
+  - メニュー閲覧回数
+  - 目的画面到達時間
+signal_candidates:
+  - 複数画面を行き来しながら情報を探す
+  - 目的達成までの移動経路が安定している
+device_level: スマホ・PCで推定可能
+modifiers:
+  - UI複雑性
+  - 経験値
+  - 目的明確性
+  - 情報量
+evidence: HCI・UX研究・情報探索研究で使用
+status: active

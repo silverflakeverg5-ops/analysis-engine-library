@@ -1,0 +1,33 @@
+id: BEH-000067
+knowledge_type: behavior_pattern
+name_ja: 通知反応行動
+name_en: Notification Response Behavior
+category: Digital App Observable Behavior
+attribute: Behavior
+definition_ja: 通知・リマインダー・アラートに対して、確認・無視・遅延・行動開始などで反応する行動。
+tags:
+  - CAT:デジタル行動
+  - CAT:通知反応
+  - ATTR:行動パターン
+parent:
+  - デジタル・アプリ観測行動
+related:
+  - 注意制御
+  - 先延ばし
+  - 利用リズム行動
+observable_data:
+  - 通知開封率
+  - 通知反応時間
+  - 通知無視率
+  - 通知後行動開始率
+signal_candidates:
+  - 通知後すぐ行動する
+  - 通知を確認しても行動を後回しにする
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 通知頻度
+  - 通知重要度
+  - 生活状況
+  - 集中状態
+evidence: モバイルHCI・注意研究・行動設計研究で使用
+status: active

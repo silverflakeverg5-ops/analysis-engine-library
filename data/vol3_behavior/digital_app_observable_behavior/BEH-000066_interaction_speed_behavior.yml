@@ -1,0 +1,33 @@
+id: BEH-000066
+knowledge_type: behavior_pattern
+name_ja: 操作速度行動
+name_en: Interaction Speed Behavior
+category: Digital App Observable Behavior
+attribute: Behavior
+definition_ja: クリック・タップ・入力・選択など、デジタル操作の速度や間隔に現れる行動パターン。
+tags:
+  - CAT:デジタル行動
+  - CAT:操作速度
+  - ATTR:行動パターン
+parent:
+  - デジタル・アプリ観測行動
+related:
+  - 反応速度
+  - 衝動性
+  - 慎重行動
+observable_data:
+  - タップ間隔
+  - クリック速度
+  - 入力速度
+  - 選択までの時間
+signal_candidates:
+  - 選択や反応が速い
+  - 操作前に一定時間確認する
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 端末性能
+  - 慣れ
+  - 疲労
+  - 課題難易度
+evidence: HCI・心理測定・反応時間研究で使用
+status: active

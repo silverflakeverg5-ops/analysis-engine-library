@@ -1,0 +1,14 @@
+category: Digital App Observable Behavior
+name_ja: デジタル・アプリ観測行動
+items:
+  - BEH-000063_session_behavior.yml
+  - BEH-000064_navigation_behavior.yml
+  - BEH-000065_exploration_behavior.yml
+  - BEH-000066_interaction_speed_behavior.yml
+  - BEH-000067_notification_response_behavior.yml
+  - BEH-000068_customization_behavior.yml
+  - BEH-000069_usage_rhythm_behavior.yml
+notes:
+  - デジタル観測行動は性格特性そのものとは統合しない
+  - アプリ・ゲーム・Web上で取得可能な行動ログを中心に管理する
+  - 推論やスコアリングはアプリ側で行う

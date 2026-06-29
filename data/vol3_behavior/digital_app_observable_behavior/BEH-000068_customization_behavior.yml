@@ -1,0 +1,33 @@
+id: BEH-000068
+knowledge_type: behavior_pattern
+name_ja: カスタマイズ行動
+name_en: Customization Behavior
+category: Digital App Observable Behavior
+attribute: Behavior
+definition_ja: 設定・表示・通知・プロフィール・操作環境などを自分に合わせて変更する行動。
+tags:
+  - CAT:デジタル行動
+  - CAT:カスタマイズ
+  - ATTR:行動パターン
+parent:
+  - デジタル・アプリ観測行動
+related:
+  - 自己表現
+  - 環境調整
+  - 操作習熟
+observable_data:
+  - 設定変更回数
+  - テーマ変更回数
+  - 通知設定変更回数
+  - プロフィール編集回数
+signal_candidates:
+  - 初期設定のままにせず自分向けに調整する
+  - 使いやすさや見た目を細かく変更する
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 設定項目の多さ
+  - 操作理解
+  - 自己表現欲求
+  - 不便さ
+evidence: HCI・UX研究・パーソナライゼーション研究で使用
+status: active

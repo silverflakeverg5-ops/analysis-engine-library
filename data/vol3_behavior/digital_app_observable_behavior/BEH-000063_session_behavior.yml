@@ -1,0 +1,33 @@
+id: BEH-000063
+knowledge_type: behavior_pattern
+name_ja: セッション行動
+name_en: Session Behavior
+category: Digital App Observable Behavior
+attribute: Behavior
+definition_ja: アプリやサービスの利用開始・継続・終了に関する行動パターン。
+tags:
+  - CAT:デジタル行動
+  - CAT:セッション
+  - ATTR:行動パターン
+parent:
+  - デジタル・アプリ観測行動
+related:
+  - 利用リズム行動
+  - 継続行動
+  - 離脱行動
+observable_data:
+  - セッション回数
+  - 平均利用時間
+  - 離脱率
+  - 再訪率
+signal_candidates:
+  - 短時間で頻繁に利用する
+  - 一度始めると長く継続する
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 通知
+  - 生活リズム
+  - 利用目的
+  - 疲労
+evidence: HCI・行動ログ分析・UX研究で使用
+status: active

@@ -1,0 +1,33 @@
+id: BEH-000065
+knowledge_type: behavior_pattern
+name_ja: 探索行動
+name_en: Exploration Behavior
+category: Digital App Observable Behavior
+attribute: Behavior
+definition_ja: 未知の機能・情報・選択肢を試しながら、環境や可能性を把握しようとする行動。
+tags:
+  - CAT:デジタル行動
+  - CAT:探索
+  - ATTR:行動パターン
+parent:
+  - デジタル・アプリ観測行動
+related:
+  - 好奇心
+  - 情報探索
+  - 試行錯誤
+observable_data:
+  - 新機能使用回数
+  - 未訪問画面閲覧率
+  - 選択肢試行数
+  - チュートリアル外操作回数
+signal_candidates:
+  - 新しい機能や選択肢を積極的に試す
+  - 説明前に触って確かめる
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 失敗コスト
+  - UI安全性
+  - 報酬設計
+  - 時間余裕
+evidence: 探索行動研究・HCI・ゲーム行動分析で使用
+status: active

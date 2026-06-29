@@ -1,0 +1,33 @@
+id: BIAS-000031
+knowledge_type: cognitive_bias
+name_ja: 選択的注意バイアス
+name_en: Selective Attention Bias
+category: Cognitive Bias
+attribute: Attention Perception Bias
+definition_ja: 多数の情報の中から、自分の関心・目的・感情に合う情報へ注意が偏りやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:注意
+  - ATTR:情報選択
+parent:
+  - 注意知覚バイアス
+related:
+  - 確証バイアス
+  - 頻度錯覚
+  - 情報探索
+observable_data:
+  - 特定カテゴリ閲覧率
+  - 関連情報クリック率
+  - 無関係情報スキップ率
+  - 検索語偏り
+signal_candidates:
+  - 関心のある情報だけを見つけやすい
+  - 目的に合わない情報を見落としやすい
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 関心度
+  - 目的明確性
+  - 感情状態
+  - 情報量
+evidence: 注意研究・認知心理学・HCIで使用
+status: active

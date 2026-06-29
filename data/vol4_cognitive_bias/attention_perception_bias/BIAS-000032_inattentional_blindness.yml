@@ -1,0 +1,33 @@
+id: BIAS-000032
+knowledge_type: cognitive_bias
+name_ja: 非注意性盲目
+name_en: Inattentional Blindness
+category: Cognitive Bias
+attribute: Attention Perception Bias
+definition_ja: 特定の課題や対象に注意を集中しているため、目に入っている別の重要情報に気づきにくくなる現象。
+tags:
+  - CAT:認知バイアス
+  - CAT:注意
+  - ATTR:見落とし
+parent:
+  - 注意知覚バイアス
+related:
+  - 選択的注意
+  - 認知負荷
+  - 視覚探索
+observable_data:
+  - 周辺情報見落とし率
+  - 通知未反応率
+  - 集中課題中の変化検出率
+  - 確認漏れ回数
+signal_candidates:
+  - 集中している時に別情報を見落とす
+  - 目立たない変化に気づかない
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 認知負荷
+  - 集中度
+  - 情報の目立ちやすさ
+  - 時間圧
+evidence: 注意研究・視覚認知研究・HCIで使用
+status: active

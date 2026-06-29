@@ -1,0 +1,33 @@
+id: BIAS-000035
+knowledge_type: cognitive_bias
+name_ja: 顕著性バイアス
+name_en: Salience Bias
+category: Cognitive Bias
+attribute: Attention Perception Bias
+definition_ja: 目立つ・派手・印象的な情報を、重要性以上に重く扱いやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:注意
+  - ATTR:顕著性
+parent:
+  - 注意知覚バイアス
+related:
+  - 利用可能性ヒューリスティック
+  - ネガティビティバイアス
+  - 印象形成
+observable_data:
+  - 強調表示クリック率
+  - 目立つ選択肢選択率
+  - 派手な情報への反応時間
+  - 非強調情報無視率
+signal_candidates:
+  - 目立つ情報を重要だと判断する
+  - 強調表示された選択肢を選びやすい
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 表示デザイン
+  - 色彩
+  - 感情強度
+  - 情報密度
+evidence: 注意研究・UX研究・行動経済学で使用
+status: active

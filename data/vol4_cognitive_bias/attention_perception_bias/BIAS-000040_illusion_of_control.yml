@@ -1,0 +1,33 @@
+id: BIAS-000040
+knowledge_type: cognitive_bias
+name_ja: コントロール幻想
+name_en: Illusion of Control
+category: Cognitive Bias
+attribute: Attention Perception Bias
+definition_ja: 実際には偶然や外部要因に左右される結果を、自分の行動で制御できると過大に感じやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:判断
+  - ATTR:制御感
+parent:
+  - 注意知覚バイアス
+related:
+  - 過信バイアス
+  - パターン認知過剰
+  - 原因帰属
+observable_data:
+  - ランダム課題での操作継続率
+  - 成功後同操作反復率
+  - 制御可能性評価
+  - 結果への自己帰属率
+signal_candidates:
+  - 偶然の成功を自分の操作の結果と感じる
+  - 制御不能な場面でも特定操作を繰り返す
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 成功体験
+  - 操作量
+  - フィードバック曖昧性
+  - 報酬頻度
+evidence: 認知心理学・行動経済学・ギャンブル研究で使用
+status: active

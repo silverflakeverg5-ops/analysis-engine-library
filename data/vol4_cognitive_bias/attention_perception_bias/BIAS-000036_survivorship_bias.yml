@@ -1,0 +1,33 @@
+id: BIAS-000036
+knowledge_type: cognitive_bias
+name_ja: 生存者バイアス
+name_en: Survivorship Bias
+category: Cognitive Bias
+attribute: Attention Perception Bias
+definition_ja: 成功例や残存した事例だけに注目し、失敗例や消えた事例を見落として判断する傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:判断
+  - ATTR:事例選択
+parent:
+  - 注意知覚バイアス
+related:
+  - 選択的注意
+  - 確証バイアス
+  - 成功事例依存
+observable_data:
+  - 成功事例閲覧率
+  - 失敗事例無視率
+  - ランキング上位依存率
+  - 事例母集団確認率
+signal_candidates:
+  - 成功例だけを見て判断する
+  - 見えない失敗例を考慮しにくい
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 情報提示形式
+  - 失敗例の可視性
+  - 成功への憧れ
+  - 知識量
+evidence: 統計判断研究・意思決定研究・行動経済学で使用
+status: active

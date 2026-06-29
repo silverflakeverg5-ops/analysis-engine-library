@@ -1,0 +1,33 @@
+id: BIAS-000037
+knowledge_type: cognitive_bias
+name_ja: パターン認知過剰
+name_en: Patternicity
+category: Cognitive Bias
+attribute: Attention Perception Bias
+definition_ja: 偶然やランダムな出来事の中に、意味のある規則性やパターンを見出しやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:パターン認識
+  - ATTR:意味づけ
+parent:
+  - 注意知覚バイアス
+related:
+  - クラスター錯覚
+  - 錯誤相関
+  - 原因帰属
+observable_data:
+  - 連続結果への意味づけ率
+  - 規則推測回数
+  - 偶然事象の関連付け回数
+  - パターン仮説維持率
+signal_candidates:
+  - 偶然の並びに意味を見出す
+  - 少数の事例から規則を作る
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 不確実性
+  - 情報不足
+  - 期待
+  - 成功体験
+evidence: 認知心理学・パターン認識研究・判断研究で使用
+status: active

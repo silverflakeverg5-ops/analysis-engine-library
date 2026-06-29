@@ -1,0 +1,33 @@
+id: BIAS-000033
+knowledge_type: cognitive_bias
+name_ja: 変化盲
+name_en: Change Blindness
+category: Cognitive Bias
+attribute: Attention Perception Bias
+definition_ja: 視覚場面や情報表示に変化が起きても、その変化に気づきにくい現象。
+tags:
+  - CAT:認知バイアス
+  - CAT:知覚
+  - ATTR:変化検出
+parent:
+  - 注意知覚バイアス
+related:
+  - 非注意性盲目
+  - 視覚探索
+  - 認知負荷
+observable_data:
+  - UI変更未検出率
+  - 更新情報未確認率
+  - 表示差分見落とし率
+  - 再確認回数
+signal_candidates:
+  - 画面や条件の変化に気づきにくい
+  - 変更後も以前と同じ前提で操作する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 変化の大きさ
+  - 注意位置
+  - 画面複雑性
+  - 経験値
+evidence: 視覚認知研究・注意研究・HCIで使用
+status: active

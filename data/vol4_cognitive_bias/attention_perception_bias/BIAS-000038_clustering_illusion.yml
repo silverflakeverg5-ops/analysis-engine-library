@@ -1,0 +1,33 @@
+id: BIAS-000038
+knowledge_type: cognitive_bias
+name_ja: クラスター錯覚
+name_en: Clustering Illusion
+category: Cognitive Bias
+attribute: Attention Perception Bias
+definition_ja: ランダムなデータの局所的な偏りやまとまりを、意味のある傾向として解釈しやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:統計判断
+  - ATTR:ランダム性誤認
+parent:
+  - 注意知覚バイアス
+related:
+  - パターン認知過剰
+  - ギャンブラーの誤謬
+  - 錯誤相関
+observable_data:
+  - 短期連続結果への反応
+  - 局所傾向判断率
+  - 少数サンプル依存率
+  - ランダム性説明後修正率
+signal_candidates:
+  - 短い連続結果から傾向を判断する
+  - 偶然の偏りを規則と見なす
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - サンプル数
+  - 数理知識
+  - 報酬期待
+  - 不確実性
+evidence: 統計認知研究・意思決定研究・認知心理学で使用
+status: active

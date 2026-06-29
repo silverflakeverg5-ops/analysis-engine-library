@@ -1,0 +1,33 @@
+id: BIAS-000039
+knowledge_type: cognitive_bias
+name_ja: 基準率無視
+name_en: Base Rate Neglect
+category: Cognitive Bias
+attribute: Attention Perception Bias
+definition_ja: 個別の印象的情報を重視しすぎて、全体の発生率や基準率を軽視しやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:統計判断
+  - ATTR:基準率
+parent:
+  - 注意知覚バイアス
+related:
+  - 代表性ヒューリスティック
+  - 利用可能性ヒューリスティック
+  - 確率判断
+observable_data:
+  - 個別事例依存率
+  - 統計情報無視率
+  - 基準率提示後修正率
+  - 印象情報選択率
+signal_candidates:
+  - 全体確率より印象的事例を重視する
+  - 統計情報を見ても判断が変わりにくい
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 統計リテラシー
+  - 事例の鮮明さ
+  - 情報提示順序
+  - 時間圧
+evidence: 判断と意思決定研究・確率判断研究で使用
+status: active

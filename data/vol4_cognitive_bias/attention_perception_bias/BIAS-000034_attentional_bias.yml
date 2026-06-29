@@ -1,0 +1,33 @@
+id: BIAS-000034
+knowledge_type: cognitive_bias
+name_ja: 注意バイアス
+name_en: Attentional Bias
+category: Cognitive Bias
+attribute: Attention Perception Bias
+definition_ja: 脅威・報酬・関心対象など特定の刺激へ注意が引き寄せられ、他の情報処理が偏る傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:注意
+  - ATTR:刺激反応
+parent:
+  - 注意知覚バイアス
+related:
+  - 脅威検知
+  - 報酬感受性
+  - 選択的注意
+observable_data:
+  - 特定刺激注視時間
+  - 報酬表示クリック率
+  - 警告表示反応率
+  - 脅威情報閲覧時間
+signal_candidates:
+  - 目立つ報酬や警告に注意が偏る
+  - 特定の刺激を優先して確認する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 不安
+  - 報酬価
+  - 刺激強度
+  - 疲労
+evidence: 注意研究・臨床心理学・認知心理学で使用
+status: active

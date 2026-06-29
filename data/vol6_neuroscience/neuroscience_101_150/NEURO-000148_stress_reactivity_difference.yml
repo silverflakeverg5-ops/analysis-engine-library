@@ -1,0 +1,33 @@
+id: NEURO-000148
+knowledge_type: neuroscience
+name_ja: ストレス反応性の個人差
+name_en: Individual Differences in Stress Reactivity
+category: Neuroscience
+attribute: Individual Differences
+definition_ja: 負荷や脅威に対する身体・神経反応の個人差。
+tags:
+  - CAT:神経科学
+  - CAT:個人差
+  - ATTR:神経基盤
+parent:
+  - 個人差
+related:
+  - 認知科学
+  - 行動観測
+  - 生理
+observable_data:
+  - ストレス反応性の個人差関連反応時間
+  - ストレス反応性の個人差関連行動変化
+  - ストレス反応性の個人差関連注意変化
+  - ストレス反応性の個人差関連ストレス反応
+signal_candidates:
+  - ストレス反応性の個人差に関連する行動・反応パターンが観測される
+  - 負荷や報酬条件の変化に応じて反応が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 睡眠
+  - 疲労
+  - ストレス
+  - 覚醒水準
+evidence: 神経科学・認知神経科学・生理心理学で使用
+status: active

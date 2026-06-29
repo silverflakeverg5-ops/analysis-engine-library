@@ -1,0 +1,33 @@
+id: NEURO-000146
+knowledge_type: neuroscience
+name_ja: 共感の個人差
+name_en: Individual Differences in Empathy
+category: Neuroscience
+attribute: Individual Differences
+definition_ja: 他者感情への反応や理解の強さに関する神経認知的個人差。
+tags:
+  - CAT:神経科学
+  - CAT:個人差
+  - ATTR:神経基盤
+parent:
+  - 個人差
+related:
+  - 認知科学
+  - 行動観測
+  - 生理
+observable_data:
+  - 共感の個人差関連反応時間
+  - 共感の個人差関連行動変化
+  - 共感の個人差関連注意変化
+  - 共感の個人差関連ストレス反応
+signal_candidates:
+  - 共感の個人差に関連する行動・反応パターンが観測される
+  - 負荷や報酬条件の変化に応じて反応が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 睡眠
+  - 疲労
+  - ストレス
+  - 覚醒水準
+evidence: 神経科学・認知神経科学・生理心理学で使用
+status: active

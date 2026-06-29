@@ -1,0 +1,33 @@
+id: NEURO-000129
+knowledge_type: neuroscience
+name_ja: 選択葛藤の神経基盤
+name_en: Neural Choice Conflict
+category: Neuroscience
+attribute: Decision Valuation
+definition_ja: 複数の選択肢が競合する際に生じる神経認知的葛藤。
+tags:
+  - CAT:神経科学
+  - CAT:意思決定価値評価
+  - ATTR:神経基盤
+parent:
+  - 意思決定価値評価
+related:
+  - 認知科学
+  - 行動観測
+  - 生理
+observable_data:
+  - 選択葛藤の神経基盤関連反応時間
+  - 選択葛藤の神経基盤関連行動変化
+  - 選択葛藤の神経基盤関連注意変化
+  - 選択葛藤の神経基盤関連ストレス反応
+signal_candidates:
+  - 選択葛藤の神経基盤に関連する行動・反応パターンが観測される
+  - 負荷や報酬条件の変化に応じて反応が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 睡眠
+  - 疲労
+  - ストレス
+  - 覚醒水準
+evidence: 神経科学・認知神経科学・生理心理学で使用
+status: active

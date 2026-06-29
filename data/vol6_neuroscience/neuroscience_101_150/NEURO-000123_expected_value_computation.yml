@@ -1,0 +1,33 @@
+id: NEURO-000123
+knowledge_type: neuroscience
+name_ja: 期待価値計算
+name_en: Expected Value Computation
+category: Neuroscience
+attribute: Decision Valuation
+definition_ja: 報酬量と確率を統合して選択肢の期待価値を推定する過程。
+tags:
+  - CAT:神経科学
+  - CAT:意思決定価値評価
+  - ATTR:神経基盤
+parent:
+  - 意思決定価値評価
+related:
+  - 認知科学
+  - 行動観測
+  - 生理
+observable_data:
+  - 期待価値計算関連反応時間
+  - 期待価値計算関連行動変化
+  - 期待価値計算関連注意変化
+  - 期待価値計算関連ストレス反応
+signal_candidates:
+  - 期待価値計算に関連する行動・反応パターンが観測される
+  - 負荷や報酬条件の変化に応じて反応が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 睡眠
+  - 疲労
+  - ストレス
+  - 覚醒水準
+evidence: 神経科学・認知神経科学・生理心理学で使用
+status: active

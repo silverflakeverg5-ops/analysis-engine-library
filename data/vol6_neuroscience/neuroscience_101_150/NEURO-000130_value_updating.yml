@@ -1,0 +1,33 @@
+id: NEURO-000130
+knowledge_type: neuroscience
+name_ja: 価値更新
+name_en: Value Updating
+category: Neuroscience
+attribute: Decision Valuation
+definition_ja: 経験やフィードバックにより選択肢の価値評価を更新する過程。
+tags:
+  - CAT:神経科学
+  - CAT:意思決定価値評価
+  - ATTR:神経基盤
+parent:
+  - 意思決定価値評価
+related:
+  - 認知科学
+  - 行動観測
+  - 生理
+observable_data:
+  - 価値更新関連反応時間
+  - 価値更新関連行動変化
+  - 価値更新関連注意変化
+  - 価値更新関連ストレス反応
+signal_candidates:
+  - 価値更新に関連する行動・反応パターンが観測される
+  - 負荷や報酬条件の変化に応じて反応が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 睡眠
+  - 疲労
+  - ストレス
+  - 覚醒水準
+evidence: 神経科学・認知神経科学・生理心理学で使用
+status: active

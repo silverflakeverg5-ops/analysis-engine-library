@@ -1,0 +1,33 @@
+id: BIAS-000047
+knowledge_type: cognitive_bias
+name_ja: 正常性バイアス
+name_en: Normalcy Bias
+category: Cognitive Bias
+attribute: Probability Risk Bias
+definition_ja: 異常や危険の兆候があっても、通常通りであると判断し、対応を遅らせやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:リスク判断
+  - ATTR:危機認知
+parent:
+  - 確率リスクバイアス
+related:
+  - 現状維持バイアス
+  - 楽観バイアス
+  - 回避行動
+observable_data:
+  - 警告無視率
+  - 対応開始遅延
+  - 異常通知後継続率
+  - 確認行動不足
+signal_candidates:
+  - 警告があっても通常通り行動する
+  - 異常を軽く見て対応が遅れる
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 警告の明確性
+  - 過去経験
+  - 集団行動
+  - 危機感
+evidence: 災害心理学・リスク認知研究・行動科学で使用
+status: active

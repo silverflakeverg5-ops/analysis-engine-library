@@ -1,0 +1,33 @@
+id: BIAS-000049
+knowledge_type: cognitive_bias
+name_ja: 曖昧性回避
+name_en: Ambiguity Aversion
+category: Cognitive Bias
+attribute: Probability Risk Bias
+definition_ja: 確率や結果が不明確な選択肢を、確率が分かっている選択肢より避けやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:不確実性
+  - ATTR:曖昧性
+parent:
+  - 確率リスクバイアス
+related:
+  - リスク回避
+  - 不確実性回避
+  - 確認行動
+observable_data:
+  - 情報不足選択肢回避率
+  - 既知確率選択率
+  - 追加情報要求回数
+  - 曖昧条件下離脱率
+signal_candidates:
+  - 中身が分からない選択肢を避ける
+  - 確率や条件が明確な方を選ぶ
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 情報量
+  - 経験値
+  - 失敗コスト
+  - 不安
+evidence: 意思決定研究・行動経済学・リスク認知研究で使用
+status: active

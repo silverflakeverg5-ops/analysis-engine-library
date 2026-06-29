@@ -1,0 +1,33 @@
+id: BIAS-000045
+knowledge_type: cognitive_bias
+name_ja: ゼロリスクバイアス
+name_en: Zero Risk Bias
+category: Cognitive Bias
+attribute: Probability Risk Bias
+definition_ja: リスクを大きく減らす選択よりも、特定のリスクを完全にゼロにする選択を過大評価しやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:リスク判断
+  - ATTR:ゼロリスク
+parent:
+  - 確率リスクバイアス
+related:
+  - 損失回避
+  - リスク回避
+  - 安全策選択
+observable_data:
+  - ゼロ化選択率
+  - 総リスク低減無視率
+  - 安全表示反応率
+  - 小リスク完全回避率
+signal_candidates:
+  - 全体改善より特定リスクゼロを選ぶ
+  - ゼロという表現に強く反応する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - リスクの恐怖感
+  - 表示表現
+  - 情報理解度
+  - 損失経験
+evidence: リスク認知研究・行動経済学・意思決定研究で使用
+status: active

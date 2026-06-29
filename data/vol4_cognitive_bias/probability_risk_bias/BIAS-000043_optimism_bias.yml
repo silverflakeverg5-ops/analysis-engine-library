@@ -1,0 +1,33 @@
+id: BIAS-000043
+knowledge_type: cognitive_bias
+name_ja: 楽観バイアス
+name_en: Optimism Bias
+category: Cognitive Bias
+attribute: Probability Risk Bias
+definition_ja: 自分にとって望ましい結果が起きやすく、悪い結果は起きにくいと見積もりやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:リスク判断
+  - ATTR:楽観
+parent:
+  - 確率リスクバイアス
+related:
+  - 過信バイアス
+  - リスク選好
+  - 将来予測
+observable_data:
+  - 成功確率過大評価
+  - リスク低評価率
+  - 準備不足率
+  - 失敗後予測修正率
+signal_candidates:
+  - 悪い結果の可能性を低く見る
+  - 準備や確認を省略しやすい
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 成功体験
+  - 気分
+  - 情報量
+  - 失敗コスト
+evidence: リスク認知研究・社会心理学・意思決定研究で使用
+status: active

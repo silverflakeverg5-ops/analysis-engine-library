@@ -1,0 +1,33 @@
+id: BIAS-000050
+knowledge_type: cognitive_bias
+name_ja: 後悔回避
+name_en: Regret Aversion
+category: Cognitive Bias
+attribute: Probability Risk Bias
+definition_ja: 将来後悔する可能性を避けるために、選択の変更・挑戦・決断を控えやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:意思決定
+  - ATTR:後悔
+parent:
+  - 確率リスクバイアス
+related:
+  - 損失回避
+  - 現状維持バイアス
+  - 決定回避
+observable_data:
+  - 決定保留率
+  - 選択変更回避率
+  - 安全策選択率
+  - 比較継続時間
+signal_candidates:
+  - 後悔しそうな選択を避ける
+  - 決断前に比較や確認が長くなる
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 選択重要度
+  - 失敗コスト
+  - 可逆性
+  - 社会的評価
+evidence: 後悔理論・意思決定研究・行動経済学で使用
+status: active

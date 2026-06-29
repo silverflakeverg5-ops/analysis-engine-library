@@ -1,0 +1,33 @@
+id: BIAS-000048
+knowledge_type: cognitive_bias
+name_ja: リスク補償
+name_en: Risk Compensation
+category: Cognitive Bias
+attribute: Probability Risk Bias
+definition_ja: 安全対策や保護があると感じることで、より危険な行動や大胆な選択を取りやすくなる傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:リスク判断
+  - ATTR:安全感
+parent:
+  - 確率リスクバイアス
+related:
+  - リスク選好
+  - 過信バイアス
+  - コントロール幻想
+observable_data:
+  - 保護機能使用後リスク選択率
+  - 安全表示後大胆行動率
+  - 失敗保険利用後挑戦率
+  - 警告軽視率
+signal_candidates:
+  - 安全策があると大胆な選択をする
+  - 失敗しても戻せる時にリスクを取りやすい
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 保護機能の強さ
+  - 損失上限
+  - 成功期待
+  - 経験値
+evidence: リスク行動研究・行動経済学・安全心理学で使用
+status: active

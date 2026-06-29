@@ -1,0 +1,33 @@
+id: BIAS-000041
+knowledge_type: cognitive_bias
+name_ja: ギャンブラーの誤謬
+name_en: Gambler's Fallacy
+category: Cognitive Bias
+attribute: Probability Risk Bias
+definition_ja: 独立したランダム事象に対して、過去の結果が次の結果を補正すると誤って判断しやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:確率判断
+  - ATTR:ランダム性誤認
+parent:
+  - 確率リスクバイアス
+related:
+  - クラスター錯覚
+  - パターン認知過剰
+  - 確率判断
+observable_data:
+  - 連続結果後の逆張り選択率
+  - ランダム課題での予測変更率
+  - 短期履歴参照率
+  - 独立事象説明後修正率
+signal_candidates:
+  - 同じ結果が続いた後に反対結果が出やすいと判断する
+  - ランダムな履歴から次の結果を予測する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 確率知識
+  - 連続回数
+  - 報酬期待
+  - 不確実性
+evidence: 確率判断研究・行動経済学・ギャンブル研究で使用
+status: active

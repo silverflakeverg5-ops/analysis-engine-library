@@ -1,0 +1,33 @@
+id: BIAS-000046
+knowledge_type: cognitive_bias
+name_ja: 確率無視
+name_en: Probability Neglect
+category: Cognitive Bias
+attribute: Probability Risk Bias
+definition_ja: 結果の重大さや感情的印象に注意が向き、実際の発生確率を十分に考慮しにくい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:確率判断
+  - ATTR:感情依存
+parent:
+  - 確率リスクバイアス
+related:
+  - 利用可能性ヒューリスティック
+  - 顕著性バイアス
+  - リスク認知
+observable_data:
+  - 低確率高インパクト選択率
+  - 確率情報無視率
+  - 感情的事例参照率
+  - 数値説明後修正率
+signal_candidates:
+  - 確率より結果の怖さや魅力で判断する
+  - 発生率を見ても選択が変わりにくい
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 感情強度
+  - 数値理解
+  - 情報提示形式
+  - 時間圧
+evidence: リスク認知研究・行動経済学・意思決定研究で使用
+status: active

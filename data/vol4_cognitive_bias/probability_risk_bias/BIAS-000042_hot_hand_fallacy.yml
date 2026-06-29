@@ -1,0 +1,33 @@
+id: BIAS-000042
+knowledge_type: cognitive_bias
+name_ja: ホットハンド錯覚
+name_en: Hot Hand Fallacy
+category: Cognitive Bias
+attribute: Probability Risk Bias
+definition_ja: 成功が連続した後に、その成功がさらに続く可能性を実際以上に高く見積もりやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:確率判断
+  - ATTR:連続成功
+parent:
+  - 確率リスクバイアス
+related:
+  - ギャンブラーの誤謬
+  - 過信バイアス
+  - パターン認知過剰
+observable_data:
+  - 連勝後リスク選択率
+  - 成功後同選択反復率
+  - 短期成績依存率
+  - 成功連続後自信上昇
+signal_candidates:
+  - 成功が続くと次も成功しやすいと判断する
+  - 連勝後に同じ選択を強める
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 成功回数
+  - 自己効力感
+  - 報酬頻度
+  - フィードバック明確性
+evidence: 意思決定研究・スポーツ心理学・行動経済学で使用
+status: active

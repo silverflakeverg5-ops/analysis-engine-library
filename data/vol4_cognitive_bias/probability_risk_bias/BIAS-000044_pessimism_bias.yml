@@ -1,0 +1,33 @@
+id: BIAS-000044
+knowledge_type: cognitive_bias
+name_ja: 悲観バイアス
+name_en: Pessimism Bias
+category: Cognitive Bias
+attribute: Probability Risk Bias
+definition_ja: 望ましくない結果や失敗の可能性を実際以上に高く見積もりやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:リスク判断
+  - ATTR:悲観
+parent:
+  - 確率リスクバイアス
+related:
+  - ネガティビティバイアス
+  - 損失回避
+  - 回避行動
+observable_data:
+  - 失敗確率過大評価
+  - 安全策選択率
+  - 挑戦回避率
+  - 否定情報参照率
+signal_candidates:
+  - 失敗や損失の可能性を高く見る
+  - 挑戦より安全策を選びやすい
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 不安
+  - 過去失敗
+  - 疲労
+  - 失敗コスト
+evidence: リスク認知研究・臨床心理学・意思決定研究で使用
+status: active

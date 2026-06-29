@@ -1,0 +1,33 @@
+id: BEH-000061
+knowledge_type: behavior_pattern
+name_ja: 関係修復行動
+name_en: Reconciliation Behavior
+category: Conflict Behavior
+attribute: Behavior
+definition_ja: 対立・失敗・誤解の後に、謝罪・説明・調整を通じて関係や協働状態を回復しようとする行動。
+tags:
+  - CAT:葛藤
+  - CAT:修復
+  - ATTR:行動パターン
+parent:
+  - 葛藤行動
+related:
+  - フィードバックコミュニケーション
+  - 協力行動
+  - 情動調整行動
+observable_data:
+  - 謝罪表現回数
+  - 再接触率
+  - 説明補足回数
+  - 関係回復後協力率
+signal_candidates:
+  - 対立後に説明や謝罪を行う
+  - 関係悪化後に再接触や協力を試みる
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 関係重要度
+  - 責任認識
+  - 心理的安全性
+  - 感情強度
+evidence: 関係修復研究・社会心理学・対人コミュニケーション研究で使用
+status: active

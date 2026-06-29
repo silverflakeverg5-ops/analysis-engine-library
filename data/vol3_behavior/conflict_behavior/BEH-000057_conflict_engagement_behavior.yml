@@ -1,0 +1,33 @@
+id: BEH-000057
+knowledge_type: behavior_pattern
+name_ja: 葛藤関与行動
+name_en: Conflict Engagement Behavior
+category: Conflict Behavior
+attribute: Behavior
+definition_ja: 意見対立や不一致に対して、回避せずに議論・説明・主張を通じて関与する行動。
+tags:
+  - CAT:葛藤
+  - CAT:関与
+  - ATTR:行動パターン
+parent:
+  - 葛藤行動
+related:
+  - アサーティブコミュニケーション
+  - 交渉行動
+  - 自己主張
+observable_data:
+  - 反対意見表明回数
+  - 説明継続回数
+  - 議論参加率
+  - 代替案提示回数
+signal_candidates:
+  - 意見が違う場面でも説明や主張を続ける
+  - 不一致を避けずに解決へ向けて関与する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 心理的安全性
+  - 自信
+  - 対立相手
+  - 議題重要度
+evidence: 葛藤管理研究・交渉研究・組織行動研究で使用
+status: active

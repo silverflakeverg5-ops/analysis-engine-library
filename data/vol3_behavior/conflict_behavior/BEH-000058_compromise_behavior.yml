@@ -1,0 +1,33 @@
+id: BEH-000058
+knowledge_type: behavior_pattern
+name_ja: 妥協行動
+name_en: Compromise Behavior
+category: Conflict Behavior
+attribute: Behavior
+definition_ja: 対立や不一致に対して、双方が一部を譲る形で合意点を探る行動。
+tags:
+  - CAT:葛藤
+  - CAT:妥協
+  - ATTR:行動パターン
+parent:
+  - 葛藤行動
+related:
+  - 交渉行動
+  - 協力行動
+  - 社会的調整
+observable_data:
+  - 選択変更率
+  - 中間案選択率
+  - 譲歩回数
+  - 合意形成率
+signal_candidates:
+  - 自分の希望を一部調整して合意を優先する
+  - 極端な選択より中間案を選ぶ
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 相互依存性
+  - 時間制限
+  - 関係維持動機
+  - 報酬構造
+evidence: 交渉研究・葛藤解決研究・社会心理学で使用
+status: active

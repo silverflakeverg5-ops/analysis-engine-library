@@ -1,0 +1,33 @@
+id: BEH-000062
+knowledge_type: behavior_pattern
+name_ja: 防衛的行動
+name_en: Defensive Behavior
+category: Conflict Behavior
+attribute: Behavior
+definition_ja: 批判・失敗指摘・脅威に対して、自分の立場や評価を守ろうとして説明・否認・反論などを行う行動。
+tags:
+  - CAT:葛藤
+  - CAT:防衛
+  - ATTR:行動パターン
+parent:
+  - 葛藤行動
+related:
+  - 自己防衛
+  - 情動調整行動
+  - 葛藤関与行動
+observable_data:
+  - 反論回数
+  - 説明過多率
+  - 責任回避表現率
+  - 批判後反応速度
+signal_candidates:
+  - 批判や失敗指摘に対してすぐ説明する
+  - 責任や評価低下を避ける反応を示す
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 評価不安
+  - 自尊感情
+  - 責任範囲
+  - 批判の強さ
+evidence: 防衛機制研究・社会心理学・組織行動研究で使用
+status: active

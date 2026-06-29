@@ -1,0 +1,33 @@
+id: BEH-000056
+knowledge_type: behavior_pattern
+name_ja: 葛藤回避行動
+name_en: Conflict Avoidance Behavior
+category: Conflict Behavior
+attribute: Behavior
+definition_ja: 意見対立・不一致・摩擦が生じる可能性のある場面で、直接的な対立を避けようとする行動。
+tags:
+  - CAT:葛藤
+  - CAT:回避
+  - ATTR:行動パターン
+parent:
+  - 葛藤行動
+related:
+  - 間接的コミュニケーション
+  - 同調行動
+  - 回避行動
+observable_data:
+  - 対立場面離脱率
+  - 直接拒否回避率
+  - 意見表明抑制率
+  - 曖昧回答率
+signal_candidates:
+  - 対立しそうな場面で発言や選択を控える
+  - 明確な反対より曖昧な表現を選ぶ
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 関係性
+  - 上下関係
+  - 心理的安全性
+  - 対立コスト
+evidence: 葛藤管理研究・社会心理学・組織心理学で使用
+status: active

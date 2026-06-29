@@ -1,0 +1,33 @@
+id: BEH-000060
+knowledge_type: behavior_pattern
+name_ja: 境界設定行動
+name_en: Boundary Setting Behavior
+category: Conflict Behavior
+attribute: Behavior
+definition_ja: 自分が受け入れられる範囲・役割・負荷・関与度を明確にし、必要に応じて制限を伝える行動。
+tags:
+  - CAT:葛藤
+  - CAT:境界設定
+  - ATTR:行動パターン
+parent:
+  - 葛藤行動
+related:
+  - アサーティブコミュニケーション
+  - 自己制御
+  - 拒否行動
+observable_data:
+  - 拒否表明回数
+  - 条件提示回数
+  - 通知制限設定
+  - 参加範囲設定回数
+signal_candidates:
+  - 無理な要求に対して範囲や条件を示す
+  - 自分の負荷を超える前に制限を設定する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 上下関係
+  - 評価不安
+  - 責任感
+  - 疲労
+evidence: 臨床心理学・対人スキル研究・組織心理学で使用
+status: active

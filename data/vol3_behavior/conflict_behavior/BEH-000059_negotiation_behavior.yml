@@ -1,0 +1,33 @@
+id: BEH-000059
+knowledge_type: behavior_pattern
+name_ja: 交渉行動
+name_en: Negotiation Behavior
+category: Conflict Behavior
+attribute: Behavior
+definition_ja: 利害や意見が異なる相手との間で、条件・役割・資源配分などを調整しようとする行動。
+tags:
+  - CAT:葛藤
+  - CAT:交渉
+  - ATTR:行動パターン
+parent:
+  - 葛藤行動
+related:
+  - 妥協行動
+  - アサーティブコミュニケーション
+  - 意思決定
+observable_data:
+  - 条件提示回数
+  - 代替案提示回数
+  - 譲歩回数
+  - 合意形成率
+signal_candidates:
+  - 一方的な受容や拒否ではなく条件を調整する
+  - 代替案や交換条件を提示する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 交渉余地
+  - 情報非対称性
+  - 関係性
+  - 報酬構造
+evidence: 交渉研究・ゲーム理論・組織心理学で使用
+status: active

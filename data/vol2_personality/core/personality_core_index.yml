@@ -1,0 +1,15 @@
+category: Personality Core
+name_ja: 性格特性コア
+items:
+  - PER-000001_extraversion.yml
+  - PER-000002_agreeableness.yml
+  - PER-000003_conscientiousness.yml
+  - PER-000004_neuroticism.yml
+  - PER-000005_emotional_stability.yml
+  - PER-000006_openness.yml
+  - PER-000007_honesty_humility.yml
+notes:
+  - 性格特性は統合しない
+  - Big Five、HEXACOなどの理論タグで管理する
+  - 診断名ではなく観測データとSignal候補を保持する
+  - アプリ種別タグは付けない

@@ -1,0 +1,34 @@
+id: PER-000007
+knowledge_type: trait
+name_ja: 誠実・謙虚さ
+name_en: Honesty-Humility
+category: Personality
+attribute: Trait
+definition_ja: 公平性、誠実さ、謙虚さ、利己的利益への抑制に関する性格特性。
+tags:
+  - CAT:性格
+  - THEORY:HEXACO
+  - ATTR:特性
+parent:
+  - 性格特性
+related:
+  - 公平性
+  - 謙虚さ
+  - 倫理観
+  - 欲望抑制
+observable_data:
+  - 公平選択
+  - 利他的選択
+  - ルール遵守
+  - 不正回避
+signal_candidates:
+  - 自分だけが得をする選択を避ける
+  - 公平な配分を選ぶ
+  - ルール外の有利行動を避ける
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 報酬条件
+  - 社会環境
+evidence: HEXACOで主要因子
+status: active

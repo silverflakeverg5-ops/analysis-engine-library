@@ -1,0 +1,37 @@
+id: PER-000003
+knowledge_type: trait
+name_ja: 誠実性
+name_en: Conscientiousness
+category: Personality
+attribute: Trait
+definition_ja: 計画性、責任感、自己管理、継続力、規律性に関する性格特性。
+tags:
+  - CAT:性格
+  - THEORY:BigFive
+  - THEORY:HEXACO
+  - ATTR:特性
+parent:
+  - 性格特性
+related:
+  - 計画性
+  - 自己管理
+  - 責任感
+  - 継続力
+  - 抑制制御
+observable_data:
+  - 期限遵守
+  - 継続率
+  - 計画行動
+  - 手順遵守
+signal_candidates:
+  - 事前に計画する
+  - 途中で投げ出しにくい
+  - ルールや手順を守る
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 文化
+  - 職業経験
+  - 疲労
+evidence: Big Five、HEXACOで主要因子
+status: active

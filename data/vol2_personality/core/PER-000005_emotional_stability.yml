@@ -1,0 +1,33 @@
+id: PER-000005
+knowledge_type: trait
+name_ja: 情緒安定性
+name_en: Emotional Stability
+category: Personality
+attribute: Trait
+definition_ja: 感情の揺れにくさ、ストレス下での安定性、落ち着きに関する性格特性。
+tags:
+  - CAT:性格
+  - THEORY:BigFive
+  - ATTR:特性
+parent:
+  - 性格特性
+related:
+  - 神経症傾向
+  - 感情調整
+  - ストレス耐性
+observable_data:
+  - 負荷時のミス変化
+  - 反応の一貫性
+  - 再挑戦率
+  - 回復時間
+signal_candidates:
+  - 失敗後も行動が安定する
+  - 高負荷でも反応が大きく崩れない
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 睡眠
+  - 疲労
+  - ストレス
+  - 環境
+evidence: Big Fiveの神経症傾向の反対概念として広く使用
+status: active

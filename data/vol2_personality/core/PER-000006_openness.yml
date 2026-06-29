@@ -1,0 +1,36 @@
+id: PER-000006
+knowledge_type: trait
+name_ja: 開放性
+name_en: Openness to Experience
+category: Personality
+attribute: Trait
+definition_ja: 好奇心、想像力、創造性、新しい経験への関心に関する性格特性。
+tags:
+  - CAT:性格
+  - THEORY:BigFive
+  - THEORY:HEXACO
+  - ATTR:特性
+parent:
+  - 性格特性
+related:
+  - 好奇心
+  - 創造性
+  - 探索志向
+  - 柔軟性
+observable_data:
+  - 探索行動
+  - 新規選択率
+  - 試行錯誤
+  - 多様な選択
+signal_candidates:
+  - 未知の選択肢を試す
+  - 既存パターンから外れた行動を取る
+  - 探索範囲が広い
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 文化
+  - 教育
+  - 経験
+evidence: Big Five、HEXACOで主要因子
+status: active

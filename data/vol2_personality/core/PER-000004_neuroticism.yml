@@ -1,0 +1,35 @@
+id: PER-000004
+knowledge_type: trait
+name_ja: 神経症傾向
+name_en: Neuroticism
+category: Personality
+attribute: Trait
+definition_ja: 不安、情緒的反応性、ストレス感受性、気分の揺れやすさに関する性格特性。
+tags:
+  - CAT:性格
+  - THEORY:BigFive
+  - ATTR:特性
+parent:
+  - 性格特性
+related:
+  - 不安
+  - ストレス感受性
+  - 感情調整
+  - 情緒安定性
+observable_data:
+  - 反応変動
+  - 回避選択
+  - 中断率
+  - ストレス下のミス変化
+signal_candidates:
+  - 負荷が高い場面で行動が揺れる
+  - 失敗後に慎重化する
+  - 不確実場面を避ける
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 睡眠
+  - 疲労
+  - ストレス
+  - 環境
+evidence: Big Fiveで主要因子
+status: active

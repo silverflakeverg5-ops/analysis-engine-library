@@ -1,0 +1,35 @@
+id: PER-000002
+knowledge_type: trait
+name_ja: 協調性
+name_en: Agreeableness
+category: Personality
+attribute: Trait
+definition_ja: 他者への配慮、信頼、協力、対立回避などに関する性格特性。
+tags:
+  - CAT:性格
+  - THEORY:BigFive
+  - THEORY:HEXACO
+  - ATTR:特性
+parent:
+  - 性格特性
+related:
+  - 共感性
+  - 協力性
+  - 信頼
+  - 調和志向
+observable_data:
+  - 協力選択
+  - 返信内容
+  - 支援行動
+  - 対立回避行動
+signal_candidates:
+  - 協力的な選択をしやすい
+  - 他者利益を考慮する
+  - 対立場面で調整を選ぶ
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 対人環境
+  - ストレス
+evidence: Big Five、HEXACOで主要因子
+status: active

@@ -1,0 +1,34 @@
+id: EMO-000003
+knowledge_type: trait
+name_ja: 不安傾向
+name_en: Anxiety Proneness
+category: Emotion
+attribute: Trait
+definition_ja: 不確実性、失敗、評価、危険に対して不安を感じやすい傾向。
+tags:
+  - CAT:感情
+  - CAT:ストレス
+  - ATTR:特性
+parent:
+  - 神経症傾向
+related:
+  - 回避傾向
+  - 安全志向
+  - ストレス感受性
+observable_data:
+  - 回避選択
+  - 確認回数
+  - 決定遅延
+  - 安全選択率
+signal_candidates:
+  - 何度も確認する
+  - リスクのある選択を避ける
+  - 決定まで時間がかかる
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 環境不安
+  - 評価状況
+  - 睡眠
+  - 疲労
+evidence: 性格心理学・臨床心理学で使用
+status: active

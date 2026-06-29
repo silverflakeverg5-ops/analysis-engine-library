@@ -1,0 +1,34 @@
+id: EMO-000005
+knowledge_type: trait
+name_ja: フラストレーション耐性
+name_en: Frustration Tolerance
+category: Emotion
+attribute: Trait
+definition_ja: 思い通りに進まない状況や失敗に対して、行動を維持する傾向。
+tags:
+  - CAT:感情
+  - CAT:自己制御
+  - ATTR:特性
+parent:
+  - ストレス耐性
+related:
+  - 忍耐力
+  - 感情調整
+  - 継続力
+observable_data:
+  - 失敗後継続率
+  - 中断率
+  - 再挑戦までの時間
+  - 操作の乱れ
+signal_candidates:
+  - 失敗が続くと離脱する
+  - 難局でも継続する
+  - ミス後に操作が荒くなる
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 難易度
+  - 報酬
+  - 時間制限
+evidence: 感情調整・自己制御研究で使用
+status: active

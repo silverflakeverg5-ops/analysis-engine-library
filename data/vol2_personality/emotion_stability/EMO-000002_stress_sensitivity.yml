@@ -1,0 +1,34 @@
+id: EMO-000002
+knowledge_type: trait
+name_ja: ストレス感受性
+name_en: Stress Sensitivity
+category: Emotion
+attribute: Trait
+definition_ja: 心理的・環境的負荷に対して反応しやすい傾向。
+tags:
+  - CAT:感情
+  - CAT:ストレス
+  - ATTR:特性
+parent:
+  - 神経症傾向
+related:
+  - 不安
+  - 疲労
+  - 情緒安定性
+observable_data:
+  - 負荷時ミス率
+  - 回避選択
+  - 反応時間変動
+  - 離脱率
+signal_candidates:
+  - 負荷が高い場面でミスが増える
+  - 不確実な状況を避ける
+  - 圧迫条件で行動が揺れる
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 睡眠
+  - 疲労
+  - 騒音
+  - 時間制限
+evidence: Big Five神経症傾向・ストレス研究で使用
+status: active

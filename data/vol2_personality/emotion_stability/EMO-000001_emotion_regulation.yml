@@ -1,0 +1,34 @@
+id: EMO-000001
+knowledge_type: trait
+name_ja: 感情調整
+name_en: Emotion Regulation
+category: Emotion
+attribute: Trait
+definition_ja: 感情の強さや表出、持続時間を状況に応じて調整する傾向・能力。
+tags:
+  - CAT:感情
+  - CAT:自己管理
+  - ATTR:特性
+parent:
+  - 感情
+related:
+  - 情緒安定性
+  - ストレス耐性
+  - 自己制御
+observable_data:
+  - 失敗後行動
+  - 反応変動
+  - 回復時間
+  - 中断率
+signal_candidates:
+  - 失敗後に行動が乱れる
+  - 高負荷後に回復する
+  - 感情的場面で選択が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 睡眠
+  - 疲労
+  - ストレス
+  - 環境
+evidence: 感情心理学・臨床心理学・自己制御研究で使用
+status: active

@@ -1,0 +1,34 @@
+id: EMO-000004
+knowledge_type: trait
+name_ja: レジリエンス
+name_en: Resilience
+category: Emotion
+attribute: Trait
+definition_ja: 失敗、負荷、ストレス、不利な状況から回復し、行動を再開・継続する傾向。
+tags:
+  - CAT:感情
+  - CAT:適応
+  - ATTR:特性
+parent:
+  - 適応力
+related:
+  - 回復力
+  - 継続力
+  - ストレス耐性
+observable_data:
+  - 再挑戦率
+  - 回復時間
+  - 失敗後改善率
+  - 継続率
+signal_candidates:
+  - 失敗後に再挑戦する
+  - 一時的に崩れても戻る
+  - 負荷後も継続する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 支援環境
+  - 睡眠
+  - 疲労
+  - 成功経験
+evidence: ストレス研究・教育心理学・産業心理学で使用
+status: active

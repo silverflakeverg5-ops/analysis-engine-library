@@ -1,0 +1,33 @@
+id: COGSCI-000160
+knowledge_type: cognitive_science
+name_ja: 目標志向性
+name_en: Goal Orientation
+category: Cognitive Science
+attribute: Motivation Cognition
+definition_ja: 学習・達成・評価など、どのような目標基準で行動するかの傾向。
+tags:
+  - CAT:認知科学
+  - CAT:動機づけ認知
+  - ATTR:認知機能
+parent:
+  - 動機づけ認知
+related:
+  - 認知能力
+  - 行動観測
+  - 認知バイアス
+observable_data:
+  - 目標志向性関連反応時間
+  - 目標志向性関連正答率
+  - 目標志向性関連エラー率
+  - 目標志向性関連行動変化
+signal_candidates:
+  - 目標志向性に関連する行動パターンが観測される
+  - 課題条件の変化に応じて反応や成績が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 注意
+  - ストレス
+  - 課題難易度
+evidence: 認知科学・認知心理学・HCI研究で使用
+status: active

@@ -1,0 +1,33 @@
+id: COGSCI-000196
+knowledge_type: cognitive_science
+name_ja: 行動可塑性
+name_en: Behavioral Plasticity
+category: Cognitive Science
+attribute: Adaptive Behavior
+definition_ja: 経験や環境によって行動パターンが変化し得る性質。
+tags:
+  - CAT:認知科学
+  - CAT:適応行動
+  - ATTR:認知機能
+parent:
+  - 適応行動
+related:
+  - 認知能力
+  - 行動観測
+  - 認知バイアス
+observable_data:
+  - 行動可塑性関連反応時間
+  - 行動可塑性関連正答率
+  - 行動可塑性関連エラー率
+  - 行動可塑性関連行動変化
+signal_candidates:
+  - 行動可塑性に関連する行動パターンが観測される
+  - 課題条件の変化に応じて反応や成績が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 注意
+  - ストレス
+  - 課題難易度
+evidence: 認知科学・認知心理学・HCI研究で使用
+status: active

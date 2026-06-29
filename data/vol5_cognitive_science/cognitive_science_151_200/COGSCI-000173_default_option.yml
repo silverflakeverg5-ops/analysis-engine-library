@@ -1,0 +1,33 @@
+id: COGSCI-000173
+knowledge_type: cognitive_science
+name_ja: デフォルト選択肢
+name_en: Default Option
+category: Cognitive Science
+attribute: Decision Architecture
+definition_ja: 何もしない場合に選ばれる既定の選択肢。
+tags:
+  - CAT:認知科学
+  - CAT:選択設計
+  - ATTR:認知機能
+parent:
+  - 選択設計
+related:
+  - 認知能力
+  - 行動観測
+  - 認知バイアス
+observable_data:
+  - デフォルト選択肢関連反応時間
+  - デフォルト選択肢関連正答率
+  - デフォルト選択肢関連エラー率
+  - デフォルト選択肢関連行動変化
+signal_candidates:
+  - デフォルト選択肢に関連する行動パターンが観測される
+  - 課題条件の変化に応じて反応や成績が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 注意
+  - ストレス
+  - 課題難易度
+evidence: 認知科学・認知心理学・HCI研究で使用
+status: active

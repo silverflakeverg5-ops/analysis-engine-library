@@ -1,0 +1,33 @@
+id: COGSCI-000187
+knowledge_type: cognitive_science
+name_ja: エラー防止
+name_en: Error Prevention
+category: Cognitive Science
+attribute: Human Computer Interaction
+definition_ja: 誤操作や判断ミスを起こしにくくする設計。
+tags:
+  - CAT:認知科学
+  - CAT:HCI
+  - ATTR:認知機能
+parent:
+  - HCI
+related:
+  - 認知能力
+  - 行動観測
+  - 認知バイアス
+observable_data:
+  - エラー防止関連反応時間
+  - エラー防止関連正答率
+  - エラー防止関連エラー率
+  - エラー防止関連行動変化
+signal_candidates:
+  - エラー防止に関連する行動パターンが観測される
+  - 課題条件の変化に応じて反応や成績が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 注意
+  - ストレス
+  - 課題難易度
+evidence: 認知科学・認知心理学・HCI研究で使用
+status: active

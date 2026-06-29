@@ -1,87 +1,87 @@
 import json
 from pathlib import Path
 
-OUT = Path("data/master_packs/vol5_cognitive_science_101_150.json")
+OUT = Path("data/master_packs/vol5_cognitive_science_151_200.json")
 
 SECTIONS = [
     {
-        "category": "Cognitive Science - Memory",
-        "name_ja": "認知科学・記憶",
+        "category": "Cognitive Science - Motivation Cognition",
+        "name_ja": "認知科学・動機づけ認知",
         "items": [
-            ("COGSCI-000101", "episodic_memory", "エピソード記憶", "Episodic Memory", "個人的な出来事や経験を時間・場所・文脈とともに保持する記憶システム。"),
-            ("COGSCI-000102", "semantic_memory", "意味記憶", "Semantic Memory", "言葉・概念・事実・知識などを保持する記憶システム。"),
-            ("COGSCI-000103", "procedural_memory", "手続き記憶", "Procedural Memory", "技能や操作手順など、行動として表れる知識を保持する記憶システム。"),
-            ("COGSCI-000104", "short_term_memory", "短期記憶", "Short Term Memory", "短時間だけ情報を保持する記憶機能。"),
-            ("COGSCI-000105", "long_term_memory", "長期記憶", "Long Term Memory", "長期間にわたって情報を保持する記憶システム。"),
-            ("COGSCI-000106", "encoding", "符号化", "Encoding", "経験や情報を記憶として保存できる形に変換する過程。"),
-            ("COGSCI-000107", "retrieval", "検索・想起", "Retrieval", "保存された記憶情報を取り出して利用する過程。"),
-            ("COGSCI-000108", "recognition_memory", "再認記憶", "Recognition Memory", "以前に見た・経験した情報かどうかを判断する記憶機能。"),
-            ("COGSCI-000109", "recall_memory", "再生記憶", "Recall Memory", "手がかりが少ない状態で記憶内容を思い出す機能。"),
-            ("COGSCI-000110", "memory_consolidation", "記憶固定", "Memory Consolidation", "新しい記憶が安定して長期保持されるようになる過程。")
+            ("COGSCI-000151", "intrinsic_motivation", "内発的動機づけ", "Intrinsic Motivation", "活動そのものへの興味や楽しさによって行動が生じる動機づけ。"),
+            ("COGSCI-000152", "extrinsic_motivation", "外発的動機づけ", "Extrinsic Motivation", "報酬・評価・罰回避など外部要因によって行動が生じる動機づけ。"),
+            ("COGSCI-000153", "self_determination", "自己決定", "Self Determination", "自分で選んで行動している感覚に関わる動機づけ概念。"),
+            ("COGSCI-000154", "competence_need", "有能感欲求", "Competence Need", "自分がうまくできている、成長していると感じたい欲求。"),
+            ("COGSCI-000155", "autonomy_need", "自律性欲求", "Autonomy Need", "自分の意思で選択・行動したいという欲求。"),
+            ("COGSCI-000156", "relatedness_need", "関係性欲求", "Relatedness Need", "他者とつながり、受け入れられていると感じたい欲求。"),
+            ("COGSCI-000157", "achievement_motivation", "達成動機", "Achievement Motivation", "目標達成や能力発揮に向かって努力する動機づけ。"),
+            ("COGSCI-000158", "avoidance_motivation", "回避動機", "Avoidance Motivation", "失敗・損失・不快を避けるために行動する動機づけ。"),
+            ("COGSCI-000159", "approach_motivation", "接近動機", "Approach Motivation", "報酬・成功・好ましい対象へ近づこうとする動機づけ。"),
+            ("COGSCI-000160", "goal_orientation", "目標志向性", "Goal Orientation", "学習・達成・評価など、どのような目標基準で行動するかの傾向。")
         ]
     },
     {
-        "category": "Cognitive Science - Reasoning",
-        "name_ja": "認知科学・推論",
+        "category": "Cognitive Science - Creativity",
+        "name_ja": "認知科学・創造性",
         "items": [
-            ("COGSCI-000111", "deductive_reasoning", "演繹推論", "Deductive Reasoning", "前提が正しければ結論も必然的に導かれる形式の推論過程。"),
-            ("COGSCI-000112", "inductive_reasoning", "帰納推論", "Inductive Reasoning", "複数の事例や観察から一般的な規則や傾向を推測する推論過程。"),
-            ("COGSCI-000113", "abductive_reasoning", "仮説推論", "Abductive Reasoning", "観察された結果を説明するもっともらしい原因や仮説を考える推論過程。"),
-            ("COGSCI-000114", "causal_reasoning", "因果推論", "Causal Reasoning", "出来事同士の原因と結果の関係を推測する認知過程。"),
-            ("COGSCI-000115", "probabilistic_reasoning", "確率推論", "Probabilistic Reasoning", "不確実な情報をもとに発生可能性や期待値を推定する推論過程。"),
-            ("COGSCI-000116", "counterfactual_reasoning", "反実仮想推論", "Counterfactual Reasoning", "もし別の行動や条件だったらどうなったかを考える推論過程。"),
-            ("COGSCI-000117", "conditional_reasoning", "条件推論", "Conditional Reasoning", "もしAならBという条件関係をもとに結論を導く推論過程。"),
-            ("COGSCI-000118", "analogical_mapping", "類推対応づけ", "Analogical Mapping", "異なる対象や状況間の構造的な対応関係を見つける推論過程。"),
-            ("COGSCI-000119", "hypothesis_testing", "仮説検証", "Hypothesis Testing", "仮説を立て、証拠や結果によって妥当性を確認する認知過程。"),
-            ("COGSCI-000120", "evidence_evaluation", "証拠評価", "Evidence Evaluation", "情報や証拠の信頼性・関連性・強さを評価する認知過程。")
+            ("COGSCI-000161", "creativity", "創造性", "Creativity", "新規性と有用性を持つアイデアや解決策を生み出す認知的能力。"),
+            ("COGSCI-000162", "divergent_thinking", "拡散的思考", "Divergent Thinking", "一つの問題に対して多様な可能性や発想を広げる思考過程。"),
+            ("COGSCI-000163", "convergent_thinking", "収束的思考", "Convergent Thinking", "複数の情報や案から最も適切な解を絞り込む思考過程。"),
+            ("COGSCI-000164", "idea_generation", "アイデア生成", "Idea Generation", "新しい選択肢・解決策・表現を生み出す認知過程。"),
+            ("COGSCI-000165", "remote_association", "遠隔連想", "Remote Association", "一見離れた概念同士を結びつけて新しい意味や解を作る認知過程。"),
+            ("COGSCI-000166", "conceptual_combination", "概念結合", "Conceptual Combination", "複数の概念を組み合わせて新しい概念やアイデアを作る過程。"),
+            ("COGSCI-000167", "creative_flexibility", "創造的柔軟性", "Creative Flexibility", "異なる視点や発想カテゴリへ切り替えながら考える性質。"),
+            ("COGSCI-000168", "creative_persistence", "創造的粘り強さ", "Creative Persistence", "アイデア探索を続け、改善や再構成を重ねる性質。"),
+            ("COGSCI-000169", "incubation_effect", "孵化効果", "Incubation Effect", "一度問題から離れた後に解決や発想が促進される現象。"),
+            ("COGSCI-000170", "insight", "洞察", "Insight", "問題構造の再理解により、突然解決や気づきが生じる認知現象。")
         ]
     },
     {
-        "category": "Cognitive Science - Emotion Cognition",
-        "name_ja": "認知科学・感情認知",
+        "category": "Cognitive Science - Decision Architecture",
+        "name_ja": "認知科学・選択設計",
         "items": [
-            ("COGSCI-000121", "emotion_appraisal", "感情評価", "Emotion Appraisal", "出来事や状況を自分にとってどのような意味を持つか評価し感情を生じさせる過程。"),
-            ("COGSCI-000122", "emotion_regulation", "感情調整", "Emotion Regulation", "感情の強さ・持続・表出を調整する認知情動過程。"),
-            ("COGSCI-000123", "affective_attention", "感情的注意", "Affective Attention", "感情的に重要な刺激へ注意が向きやすくなる認知過程。"),
-            ("COGSCI-000124", "mood_congruent_processing", "気分一致処理", "Mood Congruent Processing", "現在の気分と一致する情報が処理・想起されやすくなる認知過程。"),
-            ("COGSCI-000125", "emotional_memory", "感情記憶", "Emotional Memory", "感情を伴う経験が記憶に強く残りやすくなる記憶処理。"),
-            ("COGSCI-000126", "threat_detection", "脅威検知", "Threat Detection", "危険や損失につながる刺激を検出しやすくする認知機能。"),
-            ("COGSCI-000127", "reward_sensitivity", "報酬感受性", "Reward Sensitivity", "報酬や快感につながる刺激へ反応しやすい認知情動特性。"),
-            ("COGSCI-000128", "frustration_tolerance", "欲求不満耐性", "Frustration Tolerance", "期待通りに進まない状況で行動や感情を保つ性質。"),
-            ("COGSCI-000129", "affective_decision_making", "感情的意思決定", "Affective Decision Making", "感情状態や情動反応が選択や判断に影響する意思決定過程。"),
-            ("COGSCI-000130", "emotional_interference", "感情的干渉", "Emotional Interference", "感情刺激が注意・記憶・判断などの認知処理を妨げる現象。")
+            ("COGSCI-000171", "choice_architecture", "選択設計", "Choice Architecture", "選択肢の提示方法や環境設計が意思決定に影響する仕組み。"),
+            ("COGSCI-000172", "nudge", "ナッジ", "Nudge", "選択の自由を残しつつ、望ましい行動を取りやすくする設計。"),
+            ("COGSCI-000173", "default_option", "デフォルト選択肢", "Default Option", "何もしない場合に選ばれる既定の選択肢。"),
+            ("COGSCI-000174", "choice_set", "選択肢集合", "Choice Set", "意思決定場面で提示される選択肢全体。"),
+            ("COGSCI-000175", "option_framing", "選択肢フレーミング", "Option Framing", "選択肢の表現や文脈によって評価が変わる提示設計。"),
+            ("COGSCI-000176", "commitment_device", "コミットメント装置", "Commitment Device", "将来の行動を維持しやすくするための事前制約や約束の仕組み。"),
+            ("COGSCI-000177", "feedback_design", "フィードバック設計", "Feedback Design", "行動結果や進捗を分かりやすく返すことで学習や改善を促す設計。"),
+            ("COGSCI-000178", "progress_visualization", "進捗可視化", "Progress Visualization", "目標までの距離や達成状況を視覚的に示す設計。"),
+            ("COGSCI-000179", "social_proof_design", "社会的証明設計", "Social Proof Design", "他者の選択や評価を提示して判断に影響を与える設計。"),
+            ("COGSCI-000180", "friction_design", "摩擦設計", "Friction Design", "望ましくない行動を抑えるために意図的な手間や確認を加える設計。")
         ]
     },
     {
-        "category": "Cognitive Science - Mental Models",
-        "name_ja": "認知科学・メンタルモデル",
+        "category": "Cognitive Science - Human Computer Interaction",
+        "name_ja": "認知科学・HCI",
         "items": [
-            ("COGSCI-000131", "mental_model", "メンタルモデル", "Mental Model", "対象・仕組み・状況について頭の中に形成される理解の枠組み。"),
-            ("COGSCI-000132", "schema", "スキーマ", "Schema", "経験に基づいて形成された知識構造や解釈の枠組み。"),
-            ("COGSCI-000133", "script_knowledge", "スクリプト知識", "Script Knowledge", "典型的な場面で起きる行動や出来事の順序に関する知識。"),
-            ("COGSCI-000134", "conceptual_model", "概念モデル", "Conceptual Model", "システムや対象がどのように機能するかについての概念的理解。"),
-            ("COGSCI-000135", "situation_model", "状況モデル", "Situation Model", "物語・会話・場面について人物・時間・因果関係を含めて構築される心的表象。"),
-            ("COGSCI-000136", "cognitive_map", "認知地図", "Cognitive Map", "空間・関係・配置について頭の中に形成される地図的表象。"),
-            ("COGSCI-000137", "category_learning", "カテゴリ学習", "Category Learning", "対象を共通特徴や規則に基づいて分類できるようになる学習過程。"),
-            ("COGSCI-000138", "prototype_processing", "プロトタイプ処理", "Prototype Processing", "カテゴリの典型例に基づいて対象を判断する認知過程。"),
-            ("COGSCI-000139", "exemplar_processing", "事例ベース処理", "Exemplar Processing", "過去の具体的事例との類似性に基づいて判断する認知過程。"),
-            ("COGSCI-000140", "concept_formation", "概念形成", "Concept Formation", "複数の経験や情報から抽象的な概念を作る認知過程。")
+            ("COGSCI-000181", "usability", "ユーザビリティ", "Usability", "利用者が目的を効果的・効率的・満足に達成できる度合い。"),
+            ("COGSCI-000182", "learnability", "学習容易性", "Learnability", "初めて利用する人が操作や仕組みをどれだけ早く理解できるかの性質。"),
+            ("COGSCI-000183", "discoverability", "発見可能性", "Discoverability", "機能や操作方法をユーザーが見つけやすい性質。"),
+            ("COGSCI-000184", "affordance", "アフォーダンス", "Affordance", "対象がどのように使えるかを知覚させる手がかり。"),
+            ("COGSCI-000185", "signifier", "シグニファイア", "Signifier", "ユーザーに操作可能性や意味を示す表示上の手がかり。"),
+            ("COGSCI-000186", "cognitive_walkthrough", "認知的ウォークスルー", "Cognitive Walkthrough", "ユーザーが操作手順を理解できるかを検討する評価手法。"),
+            ("COGSCI-000187", "error_prevention", "エラー防止", "Error Prevention", "誤操作や判断ミスを起こしにくくする設計。"),
+            ("COGSCI-000188", "error_recovery", "エラー回復", "Error Recovery", "誤操作や失敗後に元の状態へ戻れるようにする設計。"),
+            ("COGSCI-000189", "interaction_cost", "インタラクションコスト", "Interaction Cost", "目的達成までに必要な操作・注意・判断の負担。"),
+            ("COGSCI-000190", "user_flow", "ユーザーフロー", "User Flow", "ユーザーが目的達成までにたどる画面・操作・判断の流れ。")
         ]
     },
     {
-        "category": "Cognitive Science - Cognitive Load",
-        "name_ja": "認知科学・認知負荷",
+        "category": "Cognitive Science - Adaptive Behavior",
+        "name_ja": "認知科学・適応行動",
         "items": [
-            ("COGSCI-000141", "cognitive_load", "認知負荷", "Cognitive Load", "情報処理や課題遂行に必要な認知資源の負担量。"),
-            ("COGSCI-000142", "intrinsic_load", "内在的負荷", "Intrinsic Load", "課題そのものの複雑さや要素間関係によって生じる認知負荷。"),
-            ("COGSCI-000143", "extraneous_load", "外在的負荷", "Extraneous Load", "不適切な表示・説明・環境によって余分に生じる認知負荷。"),
-            ("COGSCI-000144", "germane_load", "学習関連負荷", "Germane Load", "理解やスキーマ構築に有効に使われる認知負荷。"),
-            ("COGSCI-000145", "dual_task_interference", "二重課題干渉", "Dual Task Interference", "複数課題を同時に行うことで処理効率が低下する現象。"),
-            ("COGSCI-000146", "task_demand", "課題要求", "Task Demand", "課題遂行に必要とされる注意・記憶・判断などの要求量。"),
-            ("COGSCI-000147", "mental_effort", "心的努力", "Mental Effort", "課題遂行のために主観的・客観的に投入される認知的努力。"),
-            ("COGSCI-000148", "processing_capacity", "処理容量", "Processing Capacity", "一定時間内に処理できる情報量や認知的資源の範囲。"),
-            ("COGSCI-000149", "cognitive_fatigue", "認知疲労", "Cognitive Fatigue", "継続的な認知活動によって注意・判断・処理速度が低下する状態。"),
-            ("COGSCI-000150", "load_management", "負荷管理", "Load Management", "情報量・作業量・休憩・手順を調整して認知負荷を制御する過程。")
+            ("COGSCI-000191", "adaptation", "適応", "Adaptation", "環境や課題の変化に合わせて行動や方略を調整する過程。"),
+            ("COGSCI-000192", "behavioral_adaptation", "行動適応", "Behavioral Adaptation", "結果や状況変化に応じて具体的な行動を変える過程。"),
+            ("COGSCI-000193", "cognitive_adaptation", "認知的適応", "Cognitive Adaptation", "考え方・判断基準・注意配分を環境に合わせて変える過程。"),
+            ("COGSCI-000194", "strategy_shift", "方略転換", "Strategy Shift", "既存の方法が有効でない時に別の方略へ切り替える過程。"),
+            ("COGSCI-000195", "resilience_process", "レジリエンス過程", "Resilience Process", "失敗や負荷の後に機能や行動を回復・再構成する過程。"),
+            ("COGSCI-000196", "behavioral_plasticity", "行動可塑性", "Behavioral Plasticity", "経験や環境によって行動パターンが変化し得る性質。"),
+            ("COGSCI-000197", "context_sensitivity", "文脈感受性", "Context Sensitivity", "状況や環境の違いに応じて判断や行動が変わる性質。"),
+            ("COGSCI-000198", "transfer_adaptation", "転移適応", "Transfer Adaptation", "別場面で得た学習を新しい環境に合わせて応用する過程。"),
+            ("COGSCI-000199", "novelty_adaptation", "新奇性適応", "Novelty Adaptation", "新しい刺激や環境に慣れ、適切に反応できるようになる過程。"),
+            ("COGSCI-000200", "uncertainty_adaptation", "不確実性適応", "Uncertainty Adaptation", "不確実な状況で情報収集や試行錯誤を通じて行動を調整する過程。")
         ]
     }
 ]
@@ -136,8 +136,8 @@ def main():
     ])
 
     pack = {
-        "output_dir": "vol5_cognitive_science/cognitive_science_101_150",
-        "index_filename": "cognitive_science_101_150_index.yml",
+        "output_dir": "vol5_cognitive_science/cognitive_science_151_200",
+        "index_filename": "cognitive_science_151_200_index.yml",
         "index_content": "\n".join(index_lines) + "\n",
         "items": all_items
     }

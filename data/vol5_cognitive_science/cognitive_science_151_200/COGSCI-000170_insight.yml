@@ -1,0 +1,33 @@
+id: COGSCI-000170
+knowledge_type: cognitive_science
+name_ja: 洞察
+name_en: Insight
+category: Cognitive Science
+attribute: Creativity
+definition_ja: 問題構造の再理解により、突然解決や気づきが生じる認知現象。
+tags:
+  - CAT:認知科学
+  - CAT:創造性
+  - ATTR:認知機能
+parent:
+  - 創造性
+related:
+  - 認知能力
+  - 行動観測
+  - 認知バイアス
+observable_data:
+  - 洞察関連反応時間
+  - 洞察関連正答率
+  - 洞察関連エラー率
+  - 洞察関連行動変化
+signal_candidates:
+  - 洞察に関連する行動パターンが観測される
+  - 課題条件の変化に応じて反応や成績が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 注意
+  - ストレス
+  - 課題難易度
+evidence: 認知科学・認知心理学・HCI研究で使用
+status: active

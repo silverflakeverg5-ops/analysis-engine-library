@@ -1,0 +1,33 @@
+id: COGSCI-000192
+knowledge_type: cognitive_science
+name_ja: 行動適応
+name_en: Behavioral Adaptation
+category: Cognitive Science
+attribute: Adaptive Behavior
+definition_ja: 結果や状況変化に応じて具体的な行動を変える過程。
+tags:
+  - CAT:認知科学
+  - CAT:適応行動
+  - ATTR:認知機能
+parent:
+  - 適応行動
+related:
+  - 認知能力
+  - 行動観測
+  - 認知バイアス
+observable_data:
+  - 行動適応関連反応時間
+  - 行動適応関連正答率
+  - 行動適応関連エラー率
+  - 行動適応関連行動変化
+signal_candidates:
+  - 行動適応に関連する行動パターンが観測される
+  - 課題条件の変化に応じて反応や成績が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 注意
+  - ストレス
+  - 課題難易度
+evidence: 認知科学・認知心理学・HCI研究で使用
+status: active

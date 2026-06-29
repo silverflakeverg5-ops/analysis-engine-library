@@ -1,0 +1,33 @@
+id: COGSCI-000194
+knowledge_type: cognitive_science
+name_ja: 方略転換
+name_en: Strategy Shift
+category: Cognitive Science
+attribute: Adaptive Behavior
+definition_ja: 既存の方法が有効でない時に別の方略へ切り替える過程。
+tags:
+  - CAT:認知科学
+  - CAT:適応行動
+  - ATTR:認知機能
+parent:
+  - 適応行動
+related:
+  - 認知能力
+  - 行動観測
+  - 認知バイアス
+observable_data:
+  - 方略転換関連反応時間
+  - 方略転換関連正答率
+  - 方略転換関連エラー率
+  - 方略転換関連行動変化
+signal_candidates:
+  - 方略転換に関連する行動パターンが観測される
+  - 課題条件の変化に応じて反応や成績が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 注意
+  - ストレス
+  - 課題難易度
+evidence: 認知科学・認知心理学・HCI研究で使用
+status: active

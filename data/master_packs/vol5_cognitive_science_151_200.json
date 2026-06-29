@@ -1,0 +1,2107 @@
+{
+  "output_dir": "vol5_cognitive_science/cognitive_science_151_200",
+  "index_filename": "cognitive_science_151_200_index.yml",
+  "index_content": "category: Cognitive Science\nname_ja: 認知科学\nitems:\n  - COGSCI-000151_intrinsic_motivation.yml\n  - COGSCI-000152_extrinsic_motivation.yml\n  - COGSCI-000153_self_determination.yml\n  - COGSCI-000154_competence_need.yml\n  - COGSCI-000155_autonomy_need.yml\n  - COGSCI-000156_relatedness_need.yml\n  - COGSCI-000157_achievement_motivation.yml\n  - COGSCI-000158_avoidance_motivation.yml\n  - COGSCI-000159_approach_motivation.yml\n  - COGSCI-000160_goal_orientation.yml\n  - COGSCI-000161_creativity.yml\n  - COGSCI-000162_divergent_thinking.yml\n  - COGSCI-000163_convergent_thinking.yml\n  - COGSCI-000164_idea_generation.yml\n  - COGSCI-000165_remote_association.yml\n  - COGSCI-000166_conceptual_combination.yml\n  - COGSCI-000167_creative_flexibility.yml\n  - COGSCI-000168_creative_persistence.yml\n  - COGSCI-000169_incubation_effect.yml\n  - COGSCI-000170_insight.yml\n  - COGSCI-000171_choice_architecture.yml\n  - COGSCI-000172_nudge.yml\n  - COGSCI-000173_default_option.yml\n  - COGSCI-000174_choice_set.yml\n  - COGSCI-000175_option_framing.yml\n  - COGSCI-000176_commitment_device.yml\n  - COGSCI-000177_feedback_design.yml\n  - COGSCI-000178_progress_visualization.yml\n  - COGSCI-000179_social_proof_design.yml\n  - COGSCI-000180_friction_design.yml\n  - COGSCI-000181_usability.yml\n  - COGSCI-000182_learnability.yml\n  - COGSCI-000183_discoverability.yml\n  - COGSCI-000184_affordance.yml\n  - COGSCI-000185_signifier.yml\n  - COGSCI-000186_cognitive_walkthrough.yml\n  - COGSCI-000187_error_prevention.yml\n  - COGSCI-000188_error_recovery.yml\n  - COGSCI-000189_interaction_cost.yml\n  - COGSCI-000190_user_flow.yml\n  - COGSCI-000191_adaptation.yml\n  - COGSCI-000192_behavioral_adaptation.yml\n  - COGSCI-000193_cognitive_adaptation.yml\n  - COGSCI-000194_strategy_shift.yml\n  - COGSCI-000195_resilience_process.yml\n  - COGSCI-000196_behavioral_plasticity.yml\n  - COGSCI-000197_context_sensitivity.yml\n  - COGSCI-000198_transfer_adaptation.yml\n  - COGSCI-000199_novelty_adaptation.yml\n  - COGSCI-000200_uncertainty_adaptation.yml\nnotes:\n  - 認知科学は能力評価そのものではなく推論材料として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
+  "items": [
+    {
+      "filename": "COGSCI-000151_intrinsic_motivation.yml",
+      "id": "COGSCI-000151",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "内発的動機づけ",
+      "name_en": "Intrinsic Motivation",
+      "category": "Cognitive Science",
+      "attribute": "Motivation Cognition",
+      "definition_ja": "活動そのものへの興味や楽しさによって行動が生じる動機づけ。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:動機づけ認知",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "動機づけ認知"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "内発的動機づけ関連反応時間",
+        "内発的動機づけ関連正答率",
+        "内発的動機づけ関連エラー率",
+        "内発的動機づけ関連行動変化"
+      ],
+      "signal_candidates": [
+        "内発的動機づけに関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000152_extrinsic_motivation.yml",
+      "id": "COGSCI-000152",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "外発的動機づけ",
+      "name_en": "Extrinsic Motivation",
+      "category": "Cognitive Science",
+      "attribute": "Motivation Cognition",
+      "definition_ja": "報酬・評価・罰回避など外部要因によって行動が生じる動機づけ。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:動機づけ認知",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "動機づけ認知"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "外発的動機づけ関連反応時間",
+        "外発的動機づけ関連正答率",
+        "外発的動機づけ関連エラー率",
+        "外発的動機づけ関連行動変化"
+      ],
+      "signal_candidates": [
+        "外発的動機づけに関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000153_self_determination.yml",
+      "id": "COGSCI-000153",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "自己決定",
+      "name_en": "Self Determination",
+      "category": "Cognitive Science",
+      "attribute": "Motivation Cognition",
+      "definition_ja": "自分で選んで行動している感覚に関わる動機づけ概念。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:動機づけ認知",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "動機づけ認知"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "自己決定関連反応時間",
+        "自己決定関連正答率",
+        "自己決定関連エラー率",
+        "自己決定関連行動変化"
+      ],
+      "signal_candidates": [
+        "自己決定に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000154_competence_need.yml",
+      "id": "COGSCI-000154",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "有能感欲求",
+      "name_en": "Competence Need",
+      "category": "Cognitive Science",
+      "attribute": "Motivation Cognition",
+      "definition_ja": "自分がうまくできている、成長していると感じたい欲求。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:動機づけ認知",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "動機づけ認知"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "有能感欲求関連反応時間",
+        "有能感欲求関連正答率",
+        "有能感欲求関連エラー率",
+        "有能感欲求関連行動変化"
+      ],
+      "signal_candidates": [
+        "有能感欲求に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000155_autonomy_need.yml",
+      "id": "COGSCI-000155",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "自律性欲求",
+      "name_en": "Autonomy Need",
+      "category": "Cognitive Science",
+      "attribute": "Motivation Cognition",
+      "definition_ja": "自分の意思で選択・行動したいという欲求。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:動機づけ認知",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "動機づけ認知"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "自律性欲求関連反応時間",
+        "自律性欲求関連正答率",
+        "自律性欲求関連エラー率",
+        "自律性欲求関連行動変化"
+      ],
+      "signal_candidates": [
+        "自律性欲求に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000156_relatedness_need.yml",
+      "id": "COGSCI-000156",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "関係性欲求",
+      "name_en": "Relatedness Need",
+      "category": "Cognitive Science",
+      "attribute": "Motivation Cognition",
+      "definition_ja": "他者とつながり、受け入れられていると感じたい欲求。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:動機づけ認知",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "動機づけ認知"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "関係性欲求関連反応時間",
+        "関係性欲求関連正答率",
+        "関係性欲求関連エラー率",
+        "関係性欲求関連行動変化"
+      ],
+      "signal_candidates": [
+        "関係性欲求に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000157_achievement_motivation.yml",
+      "id": "COGSCI-000157",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "達成動機",
+      "name_en": "Achievement Motivation",
+      "category": "Cognitive Science",
+      "attribute": "Motivation Cognition",
+      "definition_ja": "目標達成や能力発揮に向かって努力する動機づけ。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:動機づけ認知",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "動機づけ認知"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "達成動機関連反応時間",
+        "達成動機関連正答率",
+        "達成動機関連エラー率",
+        "達成動機関連行動変化"
+      ],
+      "signal_candidates": [
+        "達成動機に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000158_avoidance_motivation.yml",
+      "id": "COGSCI-000158",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "回避動機",
+      "name_en": "Avoidance Motivation",
+      "category": "Cognitive Science",
+      "attribute": "Motivation Cognition",
+      "definition_ja": "失敗・損失・不快を避けるために行動する動機づけ。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:動機づけ認知",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "動機づけ認知"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "回避動機関連反応時間",
+        "回避動機関連正答率",
+        "回避動機関連エラー率",
+        "回避動機関連行動変化"
+      ],
+      "signal_candidates": [
+        "回避動機に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000159_approach_motivation.yml",
+      "id": "COGSCI-000159",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "接近動機",
+      "name_en": "Approach Motivation",
+      "category": "Cognitive Science",
+      "attribute": "Motivation Cognition",
+      "definition_ja": "報酬・成功・好ましい対象へ近づこうとする動機づけ。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:動機づけ認知",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "動機づけ認知"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "接近動機関連反応時間",
+        "接近動機関連正答率",
+        "接近動機関連エラー率",
+        "接近動機関連行動変化"
+      ],
+      "signal_candidates": [
+        "接近動機に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000160_goal_orientation.yml",
+      "id": "COGSCI-000160",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "目標志向性",
+      "name_en": "Goal Orientation",
+      "category": "Cognitive Science",
+      "attribute": "Motivation Cognition",
+      "definition_ja": "学習・達成・評価など、どのような目標基準で行動するかの傾向。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:動機づけ認知",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "動機づけ認知"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "目標志向性関連反応時間",
+        "目標志向性関連正答率",
+        "目標志向性関連エラー率",
+        "目標志向性関連行動変化"
+      ],
+      "signal_candidates": [
+        "目標志向性に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000161_creativity.yml",
+      "id": "COGSCI-000161",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "創造性",
+      "name_en": "Creativity",
+      "category": "Cognitive Science",
+      "attribute": "Creativity",
+      "definition_ja": "新規性と有用性を持つアイデアや解決策を生み出す認知的能力。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:創造性",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "創造性"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "創造性関連反応時間",
+        "創造性関連正答率",
+        "創造性関連エラー率",
+        "創造性関連行動変化"
+      ],
+      "signal_candidates": [
+        "創造性に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000162_divergent_thinking.yml",
+      "id": "COGSCI-000162",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "拡散的思考",
+      "name_en": "Divergent Thinking",
+      "category": "Cognitive Science",
+      "attribute": "Creativity",
+      "definition_ja": "一つの問題に対して多様な可能性や発想を広げる思考過程。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:創造性",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "創造性"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "拡散的思考関連反応時間",
+        "拡散的思考関連正答率",
+        "拡散的思考関連エラー率",
+        "拡散的思考関連行動変化"
+      ],
+      "signal_candidates": [
+        "拡散的思考に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000163_convergent_thinking.yml",
+      "id": "COGSCI-000163",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "収束的思考",
+      "name_en": "Convergent Thinking",
+      "category": "Cognitive Science",
+      "attribute": "Creativity",
+      "definition_ja": "複数の情報や案から最も適切な解を絞り込む思考過程。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:創造性",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "創造性"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "収束的思考関連反応時間",
+        "収束的思考関連正答率",
+        "収束的思考関連エラー率",
+        "収束的思考関連行動変化"
+      ],
+      "signal_candidates": [
+        "収束的思考に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000164_idea_generation.yml",
+      "id": "COGSCI-000164",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "アイデア生成",
+      "name_en": "Idea Generation",
+      "category": "Cognitive Science",
+      "attribute": "Creativity",
+      "definition_ja": "新しい選択肢・解決策・表現を生み出す認知過程。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:創造性",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "創造性"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "アイデア生成関連反応時間",
+        "アイデア生成関連正答率",
+        "アイデア生成関連エラー率",
+        "アイデア生成関連行動変化"
+      ],
+      "signal_candidates": [
+        "アイデア生成に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000165_remote_association.yml",
+      "id": "COGSCI-000165",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "遠隔連想",
+      "name_en": "Remote Association",
+      "category": "Cognitive Science",
+      "attribute": "Creativity",
+      "definition_ja": "一見離れた概念同士を結びつけて新しい意味や解を作る認知過程。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:創造性",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "創造性"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "遠隔連想関連反応時間",
+        "遠隔連想関連正答率",
+        "遠隔連想関連エラー率",
+        "遠隔連想関連行動変化"
+      ],
+      "signal_candidates": [
+        "遠隔連想に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000166_conceptual_combination.yml",
+      "id": "COGSCI-000166",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "概念結合",
+      "name_en": "Conceptual Combination",
+      "category": "Cognitive Science",
+      "attribute": "Creativity",
+      "definition_ja": "複数の概念を組み合わせて新しい概念やアイデアを作る過程。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:創造性",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "創造性"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "概念結合関連反応時間",
+        "概念結合関連正答率",
+        "概念結合関連エラー率",
+        "概念結合関連行動変化"
+      ],
+      "signal_candidates": [
+        "概念結合に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000167_creative_flexibility.yml",
+      "id": "COGSCI-000167",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "創造的柔軟性",
+      "name_en": "Creative Flexibility",
+      "category": "Cognitive Science",
+      "attribute": "Creativity",
+      "definition_ja": "異なる視点や発想カテゴリへ切り替えながら考える性質。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:創造性",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "創造性"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "創造的柔軟性関連反応時間",
+        "創造的柔軟性関連正答率",
+        "創造的柔軟性関連エラー率",
+        "創造的柔軟性関連行動変化"
+      ],
+      "signal_candidates": [
+        "創造的柔軟性に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000168_creative_persistence.yml",
+      "id": "COGSCI-000168",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "創造的粘り強さ",
+      "name_en": "Creative Persistence",
+      "category": "Cognitive Science",
+      "attribute": "Creativity",
+      "definition_ja": "アイデア探索を続け、改善や再構成を重ねる性質。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:創造性",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "創造性"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "創造的粘り強さ関連反応時間",
+        "創造的粘り強さ関連正答率",
+        "創造的粘り強さ関連エラー率",
+        "創造的粘り強さ関連行動変化"
+      ],
+      "signal_candidates": [
+        "創造的粘り強さに関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000169_incubation_effect.yml",
+      "id": "COGSCI-000169",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "孵化効果",
+      "name_en": "Incubation Effect",
+      "category": "Cognitive Science",
+      "attribute": "Creativity",
+      "definition_ja": "一度問題から離れた後に解決や発想が促進される現象。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:創造性",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "創造性"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "孵化効果関連反応時間",
+        "孵化効果関連正答率",
+        "孵化効果関連エラー率",
+        "孵化効果関連行動変化"
+      ],
+      "signal_candidates": [
+        "孵化効果に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000170_insight.yml",
+      "id": "COGSCI-000170",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "洞察",
+      "name_en": "Insight",
+      "category": "Cognitive Science",
+      "attribute": "Creativity",
+      "definition_ja": "問題構造の再理解により、突然解決や気づきが生じる認知現象。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:創造性",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "創造性"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "洞察関連反応時間",
+        "洞察関連正答率",
+        "洞察関連エラー率",
+        "洞察関連行動変化"
+      ],
+      "signal_candidates": [
+        "洞察に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000171_choice_architecture.yml",
+      "id": "COGSCI-000171",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "選択設計",
+      "name_en": "Choice Architecture",
+      "category": "Cognitive Science",
+      "attribute": "Decision Architecture",
+      "definition_ja": "選択肢の提示方法や環境設計が意思決定に影響する仕組み。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:選択設計",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "選択設計"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "選択設計関連反応時間",
+        "選択設計関連正答率",
+        "選択設計関連エラー率",
+        "選択設計関連行動変化"
+      ],
+      "signal_candidates": [
+        "選択設計に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000172_nudge.yml",
+      "id": "COGSCI-000172",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "ナッジ",
+      "name_en": "Nudge",
+      "category": "Cognitive Science",
+      "attribute": "Decision Architecture",
+      "definition_ja": "選択の自由を残しつつ、望ましい行動を取りやすくする設計。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:選択設計",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "選択設計"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "ナッジ関連反応時間",
+        "ナッジ関連正答率",
+        "ナッジ関連エラー率",
+        "ナッジ関連行動変化"
+      ],
+      "signal_candidates": [
+        "ナッジに関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000173_default_option.yml",
+      "id": "COGSCI-000173",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "デフォルト選択肢",
+      "name_en": "Default Option",
+      "category": "Cognitive Science",
+      "attribute": "Decision Architecture",
+      "definition_ja": "何もしない場合に選ばれる既定の選択肢。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:選択設計",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "選択設計"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "デフォルト選択肢関連反応時間",
+        "デフォルト選択肢関連正答率",
+        "デフォルト選択肢関連エラー率",
+        "デフォルト選択肢関連行動変化"
+      ],
+      "signal_candidates": [
+        "デフォルト選択肢に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000174_choice_set.yml",
+      "id": "COGSCI-000174",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "選択肢集合",
+      "name_en": "Choice Set",
+      "category": "Cognitive Science",
+      "attribute": "Decision Architecture",
+      "definition_ja": "意思決定場面で提示される選択肢全体。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:選択設計",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "選択設計"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "選択肢集合関連反応時間",
+        "選択肢集合関連正答率",
+        "選択肢集合関連エラー率",
+        "選択肢集合関連行動変化"
+      ],
+      "signal_candidates": [
+        "選択肢集合に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000175_option_framing.yml",
+      "id": "COGSCI-000175",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "選択肢フレーミング",
+      "name_en": "Option Framing",
+      "category": "Cognitive Science",
+      "attribute": "Decision Architecture",
+      "definition_ja": "選択肢の表現や文脈によって評価が変わる提示設計。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:選択設計",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "選択設計"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "選択肢フレーミング関連反応時間",
+        "選択肢フレーミング関連正答率",
+        "選択肢フレーミング関連エラー率",
+        "選択肢フレーミング関連行動変化"
+      ],
+      "signal_candidates": [
+        "選択肢フレーミングに関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000176_commitment_device.yml",
+      "id": "COGSCI-000176",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "コミットメント装置",
+      "name_en": "Commitment Device",
+      "category": "Cognitive Science",
+      "attribute": "Decision Architecture",
+      "definition_ja": "将来の行動を維持しやすくするための事前制約や約束の仕組み。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:選択設計",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "選択設計"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "コミットメント装置関連反応時間",
+        "コミットメント装置関連正答率",
+        "コミットメント装置関連エラー率",
+        "コミットメント装置関連行動変化"
+      ],
+      "signal_candidates": [
+        "コミットメント装置に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000177_feedback_design.yml",
+      "id": "COGSCI-000177",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "フィードバック設計",
+      "name_en": "Feedback Design",
+      "category": "Cognitive Science",
+      "attribute": "Decision Architecture",
+      "definition_ja": "行動結果や進捗を分かりやすく返すことで学習や改善を促す設計。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:選択設計",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "選択設計"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "フィードバック設計関連反応時間",
+        "フィードバック設計関連正答率",
+        "フィードバック設計関連エラー率",
+        "フィードバック設計関連行動変化"
+      ],
+      "signal_candidates": [
+        "フィードバック設計に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000178_progress_visualization.yml",
+      "id": "COGSCI-000178",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "進捗可視化",
+      "name_en": "Progress Visualization",
+      "category": "Cognitive Science",
+      "attribute": "Decision Architecture",
+      "definition_ja": "目標までの距離や達成状況を視覚的に示す設計。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:選択設計",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "選択設計"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "進捗可視化関連反応時間",
+        "進捗可視化関連正答率",
+        "進捗可視化関連エラー率",
+        "進捗可視化関連行動変化"
+      ],
+      "signal_candidates": [
+        "進捗可視化に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000179_social_proof_design.yml",
+      "id": "COGSCI-000179",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "社会的証明設計",
+      "name_en": "Social Proof Design",
+      "category": "Cognitive Science",
+      "attribute": "Decision Architecture",
+      "definition_ja": "他者の選択や評価を提示して判断に影響を与える設計。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:選択設計",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "選択設計"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "社会的証明設計関連反応時間",
+        "社会的証明設計関連正答率",
+        "社会的証明設計関連エラー率",
+        "社会的証明設計関連行動変化"
+      ],
+      "signal_candidates": [
+        "社会的証明設計に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000180_friction_design.yml",
+      "id": "COGSCI-000180",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "摩擦設計",
+      "name_en": "Friction Design",
+      "category": "Cognitive Science",
+      "attribute": "Decision Architecture",
+      "definition_ja": "望ましくない行動を抑えるために意図的な手間や確認を加える設計。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:選択設計",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "選択設計"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "摩擦設計関連反応時間",
+        "摩擦設計関連正答率",
+        "摩擦設計関連エラー率",
+        "摩擦設計関連行動変化"
+      ],
+      "signal_candidates": [
+        "摩擦設計に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000181_usability.yml",
+      "id": "COGSCI-000181",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "ユーザビリティ",
+      "name_en": "Usability",
+      "category": "Cognitive Science",
+      "attribute": "Human Computer Interaction",
+      "definition_ja": "利用者が目的を効果的・効率的・満足に達成できる度合い。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:HCI",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "HCI"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "ユーザビリティ関連反応時間",
+        "ユーザビリティ関連正答率",
+        "ユーザビリティ関連エラー率",
+        "ユーザビリティ関連行動変化"
+      ],
+      "signal_candidates": [
+        "ユーザビリティに関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000182_learnability.yml",
+      "id": "COGSCI-000182",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "学習容易性",
+      "name_en": "Learnability",
+      "category": "Cognitive Science",
+      "attribute": "Human Computer Interaction",
+      "definition_ja": "初めて利用する人が操作や仕組みをどれだけ早く理解できるかの性質。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:HCI",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "HCI"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "学習容易性関連反応時間",
+        "学習容易性関連正答率",
+        "学習容易性関連エラー率",
+        "学習容易性関連行動変化"
+      ],
+      "signal_candidates": [
+        "学習容易性に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000183_discoverability.yml",
+      "id": "COGSCI-000183",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "発見可能性",
+      "name_en": "Discoverability",
+      "category": "Cognitive Science",
+      "attribute": "Human Computer Interaction",
+      "definition_ja": "機能や操作方法をユーザーが見つけやすい性質。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:HCI",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "HCI"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "発見可能性関連反応時間",
+        "発見可能性関連正答率",
+        "発見可能性関連エラー率",
+        "発見可能性関連行動変化"
+      ],
+      "signal_candidates": [
+        "発見可能性に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000184_affordance.yml",
+      "id": "COGSCI-000184",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "アフォーダンス",
+      "name_en": "Affordance",
+      "category": "Cognitive Science",
+      "attribute": "Human Computer Interaction",
+      "definition_ja": "対象がどのように使えるかを知覚させる手がかり。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:HCI",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "HCI"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "アフォーダンス関連反応時間",
+        "アフォーダンス関連正答率",
+        "アフォーダンス関連エラー率",
+        "アフォーダンス関連行動変化"
+      ],
+      "signal_candidates": [
+        "アフォーダンスに関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000185_signifier.yml",
+      "id": "COGSCI-000185",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "シグニファイア",
+      "name_en": "Signifier",
+      "category": "Cognitive Science",
+      "attribute": "Human Computer Interaction",
+      "definition_ja": "ユーザーに操作可能性や意味を示す表示上の手がかり。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:HCI",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "HCI"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "シグニファイア関連反応時間",
+        "シグニファイア関連正答率",
+        "シグニファイア関連エラー率",
+        "シグニファイア関連行動変化"
+      ],
+      "signal_candidates": [
+        "シグニファイアに関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000186_cognitive_walkthrough.yml",
+      "id": "COGSCI-000186",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "認知的ウォークスルー",
+      "name_en": "Cognitive Walkthrough",
+      "category": "Cognitive Science",
+      "attribute": "Human Computer Interaction",
+      "definition_ja": "ユーザーが操作手順を理解できるかを検討する評価手法。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:HCI",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "HCI"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "認知的ウォークスルー関連反応時間",
+        "認知的ウォークスルー関連正答率",
+        "認知的ウォークスルー関連エラー率",
+        "認知的ウォークスルー関連行動変化"
+      ],
+      "signal_candidates": [
+        "認知的ウォークスルーに関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000187_error_prevention.yml",
+      "id": "COGSCI-000187",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "エラー防止",
+      "name_en": "Error Prevention",
+      "category": "Cognitive Science",
+      "attribute": "Human Computer Interaction",
+      "definition_ja": "誤操作や判断ミスを起こしにくくする設計。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:HCI",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "HCI"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "エラー防止関連反応時間",
+        "エラー防止関連正答率",
+        "エラー防止関連エラー率",
+        "エラー防止関連行動変化"
+      ],
+      "signal_candidates": [
+        "エラー防止に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000188_error_recovery.yml",
+      "id": "COGSCI-000188",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "エラー回復",
+      "name_en": "Error Recovery",
+      "category": "Cognitive Science",
+      "attribute": "Human Computer Interaction",
+      "definition_ja": "誤操作や失敗後に元の状態へ戻れるようにする設計。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:HCI",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "HCI"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "エラー回復関連反応時間",
+        "エラー回復関連正答率",
+        "エラー回復関連エラー率",
+        "エラー回復関連行動変化"
+      ],
+      "signal_candidates": [
+        "エラー回復に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000189_interaction_cost.yml",
+      "id": "COGSCI-000189",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "インタラクションコスト",
+      "name_en": "Interaction Cost",
+      "category": "Cognitive Science",
+      "attribute": "Human Computer Interaction",
+      "definition_ja": "目的達成までに必要な操作・注意・判断の負担。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:HCI",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "HCI"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "インタラクションコスト関連反応時間",
+        "インタラクションコスト関連正答率",
+        "インタラクションコスト関連エラー率",
+        "インタラクションコスト関連行動変化"
+      ],
+      "signal_candidates": [
+        "インタラクションコストに関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000190_user_flow.yml",
+      "id": "COGSCI-000190",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "ユーザーフロー",
+      "name_en": "User Flow",
+      "category": "Cognitive Science",
+      "attribute": "Human Computer Interaction",
+      "definition_ja": "ユーザーが目的達成までにたどる画面・操作・判断の流れ。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:HCI",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "HCI"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "ユーザーフロー関連反応時間",
+        "ユーザーフロー関連正答率",
+        "ユーザーフロー関連エラー率",
+        "ユーザーフロー関連行動変化"
+      ],
+      "signal_candidates": [
+        "ユーザーフローに関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000191_adaptation.yml",
+      "id": "COGSCI-000191",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "適応",
+      "name_en": "Adaptation",
+      "category": "Cognitive Science",
+      "attribute": "Adaptive Behavior",
+      "definition_ja": "環境や課題の変化に合わせて行動や方略を調整する過程。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:適応行動",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "適応行動"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "適応関連反応時間",
+        "適応関連正答率",
+        "適応関連エラー率",
+        "適応関連行動変化"
+      ],
+      "signal_candidates": [
+        "適応に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000192_behavioral_adaptation.yml",
+      "id": "COGSCI-000192",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "行動適応",
+      "name_en": "Behavioral Adaptation",
+      "category": "Cognitive Science",
+      "attribute": "Adaptive Behavior",
+      "definition_ja": "結果や状況変化に応じて具体的な行動を変える過程。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:適応行動",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "適応行動"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "行動適応関連反応時間",
+        "行動適応関連正答率",
+        "行動適応関連エラー率",
+        "行動適応関連行動変化"
+      ],
+      "signal_candidates": [
+        "行動適応に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000193_cognitive_adaptation.yml",
+      "id": "COGSCI-000193",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "認知的適応",
+      "name_en": "Cognitive Adaptation",
+      "category": "Cognitive Science",
+      "attribute": "Adaptive Behavior",
+      "definition_ja": "考え方・判断基準・注意配分を環境に合わせて変える過程。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:適応行動",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "適応行動"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "認知的適応関連反応時間",
+        "認知的適応関連正答率",
+        "認知的適応関連エラー率",
+        "認知的適応関連行動変化"
+      ],
+      "signal_candidates": [
+        "認知的適応に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000194_strategy_shift.yml",
+      "id": "COGSCI-000194",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "方略転換",
+      "name_en": "Strategy Shift",
+      "category": "Cognitive Science",
+      "attribute": "Adaptive Behavior",
+      "definition_ja": "既存の方法が有効でない時に別の方略へ切り替える過程。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:適応行動",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "適応行動"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "方略転換関連反応時間",
+        "方略転換関連正答率",
+        "方略転換関連エラー率",
+        "方略転換関連行動変化"
+      ],
+      "signal_candidates": [
+        "方略転換に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000195_resilience_process.yml",
+      "id": "COGSCI-000195",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "レジリエンス過程",
+      "name_en": "Resilience Process",
+      "category": "Cognitive Science",
+      "attribute": "Adaptive Behavior",
+      "definition_ja": "失敗や負荷の後に機能や行動を回復・再構成する過程。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:適応行動",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "適応行動"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "レジリエンス過程関連反応時間",
+        "レジリエンス過程関連正答率",
+        "レジリエンス過程関連エラー率",
+        "レジリエンス過程関連行動変化"
+      ],
+      "signal_candidates": [
+        "レジリエンス過程に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000196_behavioral_plasticity.yml",
+      "id": "COGSCI-000196",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "行動可塑性",
+      "name_en": "Behavioral Plasticity",
+      "category": "Cognitive Science",
+      "attribute": "Adaptive Behavior",
+      "definition_ja": "経験や環境によって行動パターンが変化し得る性質。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:適応行動",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "適応行動"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "行動可塑性関連反応時間",
+        "行動可塑性関連正答率",
+        "行動可塑性関連エラー率",
+        "行動可塑性関連行動変化"
+      ],
+      "signal_candidates": [
+        "行動可塑性に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000197_context_sensitivity.yml",
+      "id": "COGSCI-000197",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "文脈感受性",
+      "name_en": "Context Sensitivity",
+      "category": "Cognitive Science",
+      "attribute": "Adaptive Behavior",
+      "definition_ja": "状況や環境の違いに応じて判断や行動が変わる性質。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:適応行動",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "適応行動"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "文脈感受性関連反応時間",
+        "文脈感受性関連正答率",
+        "文脈感受性関連エラー率",
+        "文脈感受性関連行動変化"
+      ],
+      "signal_candidates": [
+        "文脈感受性に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000198_transfer_adaptation.yml",
+      "id": "COGSCI-000198",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "転移適応",
+      "name_en": "Transfer Adaptation",
+      "category": "Cognitive Science",
+      "attribute": "Adaptive Behavior",
+      "definition_ja": "別場面で得た学習を新しい環境に合わせて応用する過程。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:適応行動",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "適応行動"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "転移適応関連反応時間",
+        "転移適応関連正答率",
+        "転移適応関連エラー率",
+        "転移適応関連行動変化"
+      ],
+      "signal_candidates": [
+        "転移適応に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000199_novelty_adaptation.yml",
+      "id": "COGSCI-000199",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "新奇性適応",
+      "name_en": "Novelty Adaptation",
+      "category": "Cognitive Science",
+      "attribute": "Adaptive Behavior",
+      "definition_ja": "新しい刺激や環境に慣れ、適切に反応できるようになる過程。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:適応行動",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "適応行動"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "新奇性適応関連反応時間",
+        "新奇性適応関連正答率",
+        "新奇性適応関連エラー率",
+        "新奇性適応関連行動変化"
+      ],
+      "signal_candidates": [
+        "新奇性適応に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "COGSCI-000200_uncertainty_adaptation.yml",
+      "id": "COGSCI-000200",
+      "knowledge_type": "cognitive_science",
+      "name_ja": "不確実性適応",
+      "name_en": "Uncertainty Adaptation",
+      "category": "Cognitive Science",
+      "attribute": "Adaptive Behavior",
+      "definition_ja": "不確実な状況で情報収集や試行錯誤を通じて行動を調整する過程。",
+      "tags": [
+        "CAT:認知科学",
+        "CAT:適応行動",
+        "ATTR:認知機能"
+      ],
+      "parent": [
+        "適応行動"
+      ],
+      "related": [
+        "認知能力",
+        "行動観測",
+        "認知バイアス"
+      ],
+      "observable_data": [
+        "不確実性適応関連反応時間",
+        "不確実性適応関連正答率",
+        "不確実性適応関連エラー率",
+        "不確実性適応関連行動変化"
+      ],
+      "signal_candidates": [
+        "不確実性適応に関連する行動パターンが観測される",
+        "課題条件の変化に応じて反応や成績が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "疲労",
+        "注意",
+        "ストレス",
+        "課題難易度"
+      ],
+      "evidence": "認知科学・認知心理学・HCI研究で使用",
+      "status": "active"
+    }
+  ]
+}

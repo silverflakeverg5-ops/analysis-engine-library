@@ -1,0 +1,33 @@
+id: COGSCI-000180
+knowledge_type: cognitive_science
+name_ja: 摩擦設計
+name_en: Friction Design
+category: Cognitive Science
+attribute: Decision Architecture
+definition_ja: 望ましくない行動を抑えるために意図的な手間や確認を加える設計。
+tags:
+  - CAT:認知科学
+  - CAT:選択設計
+  - ATTR:認知機能
+parent:
+  - 選択設計
+related:
+  - 認知能力
+  - 行動観測
+  - 認知バイアス
+observable_data:
+  - 摩擦設計関連反応時間
+  - 摩擦設計関連正答率
+  - 摩擦設計関連エラー率
+  - 摩擦設計関連行動変化
+signal_candidates:
+  - 摩擦設計に関連する行動パターンが観測される
+  - 課題条件の変化に応じて反応や成績が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 注意
+  - ストレス
+  - 課題難易度
+evidence: 認知科学・認知心理学・HCI研究で使用
+status: active

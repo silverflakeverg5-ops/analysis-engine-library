@@ -1,0 +1,33 @@
+id: COGSCI-000151
+knowledge_type: cognitive_science
+name_ja: 内発的動機づけ
+name_en: Intrinsic Motivation
+category: Cognitive Science
+attribute: Motivation Cognition
+definition_ja: 活動そのものへの興味や楽しさによって行動が生じる動機づけ。
+tags:
+  - CAT:認知科学
+  - CAT:動機づけ認知
+  - ATTR:認知機能
+parent:
+  - 動機づけ認知
+related:
+  - 認知能力
+  - 行動観測
+  - 認知バイアス
+observable_data:
+  - 内発的動機づけ関連反応時間
+  - 内発的動機づけ関連正答率
+  - 内発的動機づけ関連エラー率
+  - 内発的動機づけ関連行動変化
+signal_candidates:
+  - 内発的動機づけに関連する行動パターンが観測される
+  - 課題条件の変化に応じて反応や成績が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 注意
+  - ストレス
+  - 課題難易度
+evidence: 認知科学・認知心理学・HCI研究で使用
+status: active

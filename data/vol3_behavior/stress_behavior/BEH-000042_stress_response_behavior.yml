@@ -1,0 +1,33 @@
+id: BEH-000042
+knowledge_type: behavior_pattern
+name_ja: ストレス反応行動
+name_en: Stress Response Behavior
+category: Stress Behavior
+attribute: Behavior
+definition_ja: 負荷・圧力・不確実性に直面した際に生じる行動上の反応。
+tags:
+  - CAT:ストレス
+  - CAT:反応
+  - ATTR:行動パターン
+parent:
+  - ストレス行動
+related:
+  - 情動調整行動
+  - 回避行動
+  - 過負荷行動
+observable_data:
+  - 操作ミス増加率
+  - 反応時間変化
+  - 中断回数
+  - 選択単純化率
+signal_candidates:
+  - 負荷が高い場面で操作や判断が乱れる
+  - 難度上昇後に中断やミスが増える
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 睡眠
+  - 時間制限
+  - 失敗コスト
+evidence: ストレス研究・HCI・認知負荷研究で使用
+status: active

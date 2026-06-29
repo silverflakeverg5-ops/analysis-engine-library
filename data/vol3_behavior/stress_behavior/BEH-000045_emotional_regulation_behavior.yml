@@ -1,0 +1,33 @@
+id: BEH-000045
+knowledge_type: behavior_pattern
+name_ja: 情動調整行動
+name_en: Emotional Regulation Behavior
+category: Stress Behavior
+attribute: Behavior
+definition_ja: 感情の高まりや落ち込みに対して、行動・注意・表現を調整しようとする行動。
+tags:
+  - CAT:ストレス
+  - CAT:情動調整
+  - ATTR:行動パターン
+parent:
+  - ストレス行動
+related:
+  - 感情制御
+  - 切替行動
+  - 回復行動
+observable_data:
+  - 一時停止回数
+  - 深呼吸機能使用回数
+  - 再開率
+  - 反応抑制率
+signal_candidates:
+  - 感情負荷後に一度止まって再開する
+  - 衝動的な操作を抑える場面がある
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 感情強度
+  - 環境刺激
+  - 時間圧
+evidence: 情動調整研究・臨床心理学・行動科学で使用
+status: active

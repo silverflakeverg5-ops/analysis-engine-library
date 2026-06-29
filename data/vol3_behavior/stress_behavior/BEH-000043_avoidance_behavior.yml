@@ -1,0 +1,33 @@
+id: BEH-000043
+knowledge_type: behavior_pattern
+name_ja: 回避行動
+name_en: Avoidance Behavior
+category: Stress Behavior
+attribute: Behavior
+definition_ja: 不快・困難・失敗可能性の高い対象や状況から距離を取る行動。
+tags:
+  - CAT:ストレス
+  - CAT:回避
+  - ATTR:行動パターン
+parent:
+  - ストレス行動
+related:
+  - リスク回避
+  - 先延ばし
+  - 逃避行動
+observable_data:
+  - 難問スキップ率
+  - 離脱率
+  - 再挑戦回避率
+  - 低難度選択率
+signal_candidates:
+  - 失敗しやすい課題を避ける
+  - 負荷上昇後に離脱やスキップが増える
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 自信
+  - 失敗経験
+  - 報酬設計
+  - 心理的安全性
+evidence: 回避行動研究・学習心理学・行動科学で使用
+status: active

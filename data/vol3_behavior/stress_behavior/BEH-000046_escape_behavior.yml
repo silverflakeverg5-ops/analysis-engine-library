@@ -1,0 +1,33 @@
+id: BEH-000046
+knowledge_type: behavior_pattern
+name_ja: 逃避行動
+name_en: Escape Behavior
+category: Stress Behavior
+attribute: Behavior
+definition_ja: 現在の不快・高負荷な状況から、即時に離脱または別行動へ移る行動。
+tags:
+  - CAT:ストレス
+  - CAT:逃避
+  - ATTR:行動パターン
+parent:
+  - ストレス行動
+related:
+  - 回避行動
+  - 離脱行動
+  - 先延ばし
+observable_data:
+  - 即時離脱率
+  - アプリ終了回数
+  - 課題中断率
+  - 別タスク移行率
+signal_candidates:
+  - 負荷が急に上がるとすぐ離脱する
+  - 失敗直後に別行動へ移る
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 失敗コスト
+  - 代替行動の魅力度
+  - 疲労
+  - 時間制限
+evidence: ストレス行動研究・回避学習研究・HCIで使用
+status: active

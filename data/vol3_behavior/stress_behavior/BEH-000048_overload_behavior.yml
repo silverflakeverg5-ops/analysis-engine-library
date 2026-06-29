@@ -1,0 +1,33 @@
+id: BEH-000048
+knowledge_type: behavior_pattern
+name_ja: 過負荷行動
+name_en: Overload Behavior
+category: Stress Behavior
+attribute: Behavior
+definition_ja: 要求量が処理能力を超えた際に、行動の単純化・停止・誤操作などとして現れる行動。
+tags:
+  - CAT:ストレス
+  - CAT:過負荷
+  - ATTR:行動パターン
+parent:
+  - ストレス行動
+related:
+  - 認知負荷
+  - ストレス反応行動
+  - 注意低下
+observable_data:
+  - 操作停止時間
+  - 誤操作率
+  - 選択肢探索減少率
+  - 反応遅延
+signal_candidates:
+  - 情報量が増えると探索が浅くなる
+  - 高負荷場面で反応が遅れる
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 情報量
+  - 時間圧
+  - 疲労
+  - マルチタスク
+evidence: 認知負荷理論・ストレス研究・HCIで使用
+status: active

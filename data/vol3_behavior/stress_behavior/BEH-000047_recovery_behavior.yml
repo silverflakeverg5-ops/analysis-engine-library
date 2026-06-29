@@ -1,0 +1,33 @@
+id: BEH-000047
+knowledge_type: behavior_pattern
+name_ja: 回復行動
+name_en: Recovery Behavior
+category: Stress Behavior
+attribute: Behavior
+definition_ja: 負荷や失敗の後に、休止・調整・再挑戦によって状態や成績を戻そうとする行動。
+tags:
+  - CAT:ストレス
+  - CAT:回復
+  - ATTR:行動パターン
+parent:
+  - ストレス行動
+related:
+  - レジリエンス
+  - 再挑戦行動
+  - 情動調整行動
+observable_data:
+  - 休憩後再開率
+  - 失敗後改善率
+  - 再挑戦率
+  - パフォーマンス回復時間
+signal_candidates:
+  - 失敗後に一定時間を置いて再開する
+  - 中断後に成績が戻る
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 休息時間
+  - 睡眠
+  - 支援
+  - 課題難易度
+evidence: レジリエンス研究・健康心理学・学習研究で使用
+status: active

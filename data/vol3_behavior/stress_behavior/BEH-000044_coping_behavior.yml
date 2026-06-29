@@ -1,0 +1,33 @@
+id: BEH-000044
+knowledge_type: behavior_pattern
+name_ja: 対処行動
+name_en: Coping Behavior
+category: Stress Behavior
+attribute: Behavior
+definition_ja: ストレスや困難に対して、問題解決・調整・支援利用などで負荷を軽減しようとする行動。
+tags:
+  - CAT:ストレス
+  - CAT:対処
+  - ATTR:行動パターン
+parent:
+  - ストレス行動
+related:
+  - 問題解決
+  - 援助要請行動
+  - 自己制御
+observable_data:
+  - 設定変更回数
+  - 休憩選択回数
+  - ヒント使用率
+  - 再計画回数
+signal_candidates:
+  - 困難時にやり方を変える
+  - 負荷を下げるための調整行動を取る
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 利用可能な選択肢
+  - 時間余裕
+  - 支援アクセス性
+  - 経験値
+evidence: ストレスコーピング研究・健康心理学・HCIで使用
+status: active

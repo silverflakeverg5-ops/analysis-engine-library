@@ -1,0 +1,33 @@
+id: COGSCI-000101
+knowledge_type: cognitive_science
+name_ja: エピソード記憶
+name_en: Episodic Memory
+category: Cognitive Science
+attribute: Memory
+definition_ja: 個人的な出来事や経験を時間・場所・文脈とともに保持する記憶システム。
+tags:
+  - CAT:認知科学
+  - CAT:記憶
+  - ATTR:認知機能
+parent:
+  - 記憶
+related:
+  - 認知能力
+  - 行動観測
+  - 認知バイアス
+observable_data:
+  - エピソード記憶関連反応時間
+  - エピソード記憶関連正答率
+  - エピソード記憶関連エラー率
+  - エピソード記憶関連行動変化
+signal_candidates:
+  - エピソード記憶に関連する行動パターンが観測される
+  - 課題条件の変化に応じて反応や成績が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 注意
+  - ストレス
+  - 課題難易度
+evidence: 認知科学・認知心理学・HCI研究で使用
+status: active

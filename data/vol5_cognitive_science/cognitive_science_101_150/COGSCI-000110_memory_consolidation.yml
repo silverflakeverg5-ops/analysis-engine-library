@@ -1,0 +1,33 @@
+id: COGSCI-000110
+knowledge_type: cognitive_science
+name_ja: 記憶固定
+name_en: Memory Consolidation
+category: Cognitive Science
+attribute: Memory
+definition_ja: 新しい記憶が安定して長期保持されるようになる過程。
+tags:
+  - CAT:認知科学
+  - CAT:記憶
+  - ATTR:認知機能
+parent:
+  - 記憶
+related:
+  - 認知能力
+  - 行動観測
+  - 認知バイアス
+observable_data:
+  - 記憶固定関連反応時間
+  - 記憶固定関連正答率
+  - 記憶固定関連エラー率
+  - 記憶固定関連行動変化
+signal_candidates:
+  - 記憶固定に関連する行動パターンが観測される
+  - 課題条件の変化に応じて反応や成績が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 注意
+  - ストレス
+  - 課題難易度
+evidence: 認知科学・認知心理学・HCI研究で使用
+status: active

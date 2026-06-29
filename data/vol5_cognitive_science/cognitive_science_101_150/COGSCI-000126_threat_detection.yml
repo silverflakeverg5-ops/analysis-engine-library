@@ -1,0 +1,33 @@
+id: COGSCI-000126
+knowledge_type: cognitive_science
+name_ja: 脅威検知
+name_en: Threat Detection
+category: Cognitive Science
+attribute: Emotion Cognition
+definition_ja: 危険や損失につながる刺激を検出しやすくする認知機能。
+tags:
+  - CAT:認知科学
+  - CAT:感情認知
+  - ATTR:認知機能
+parent:
+  - 感情認知
+related:
+  - 認知能力
+  - 行動観測
+  - 認知バイアス
+observable_data:
+  - 脅威検知関連反応時間
+  - 脅威検知関連正答率
+  - 脅威検知関連エラー率
+  - 脅威検知関連行動変化
+signal_candidates:
+  - 脅威検知に関連する行動パターンが観測される
+  - 課題条件の変化に応じて反応や成績が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 注意
+  - ストレス
+  - 課題難易度
+evidence: 認知科学・認知心理学・HCI研究で使用
+status: active

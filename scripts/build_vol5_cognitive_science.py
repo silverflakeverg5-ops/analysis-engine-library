@@ -1,87 +1,87 @@
 import json
 from pathlib import Path
 
-OUT = Path("data/master_packs/vol5_cognitive_science_051_100.json")
+OUT = Path("data/master_packs/vol5_cognitive_science_101_150.json")
 
 SECTIONS = [
     {
-        "category": "Cognitive Science - Problem Solving",
-        "name_ja": "認知科学・問題解決",
+        "category": "Cognitive Science - Memory",
+        "name_ja": "認知科学・記憶",
         "items": [
-            ("COGSCI-000051", "problem_solving", "問題解決", "Problem Solving", "目標と現状の差を埋めるために方略を選び実行する認知過程。"),
-            ("COGSCI-000052", "means_end_analysis", "手段目的分析", "Means End Analysis", "目標状態と現在状態の差を分析し、必要な手段を選ぶ問題解決方略。"),
-            ("COGSCI-000053", "problem_representation", "問題表象", "Problem Representation", "問題の構造・条件・制約を心的に表現する認知過程。"),
-            ("COGSCI-000054", "strategy_selection", "方略選択", "Strategy Selection", "課題や状況に応じて有効な解決方法を選ぶ認知過程。"),
-            ("COGSCI-000055", "heuristic_search", "ヒューリスティック探索", "Heuristic Search", "完全探索ではなく経験則や近道を使って解を探す認知過程。"),
-            ("COGSCI-000056", "insight_problem_solving", "洞察的問題解決", "Insight Problem Solving", "突然の気づきや再構成によって解決に至る問題解決過程。"),
-            ("COGSCI-000057", "constraint_relaxation", "制約緩和", "Constraint Relaxation", "固定観念や制約を緩めることで新しい解を見つける認知過程。"),
-            ("COGSCI-000058", "analogical_reasoning", "類推推論", "Analogical Reasoning", "既知の事例や構造を別の問題へ対応づけて考える推論過程。"),
-            ("COGSCI-000059", "debugging_behavior", "デバッグ的思考", "Debugging Thinking", "誤りの原因を特定し、仮説検証しながら修正する思考過程。"),
-            ("COGSCI-000060", "solution_evaluation", "解決策評価", "Solution Evaluation", "導いた解決策の妥当性・効果・リスクを評価する認知過程。")
+            ("COGSCI-000101", "episodic_memory", "エピソード記憶", "Episodic Memory", "個人的な出来事や経験を時間・場所・文脈とともに保持する記憶システム。"),
+            ("COGSCI-000102", "semantic_memory", "意味記憶", "Semantic Memory", "言葉・概念・事実・知識などを保持する記憶システム。"),
+            ("COGSCI-000103", "procedural_memory", "手続き記憶", "Procedural Memory", "技能や操作手順など、行動として表れる知識を保持する記憶システム。"),
+            ("COGSCI-000104", "short_term_memory", "短期記憶", "Short Term Memory", "短時間だけ情報を保持する記憶機能。"),
+            ("COGSCI-000105", "long_term_memory", "長期記憶", "Long Term Memory", "長期間にわたって情報を保持する記憶システム。"),
+            ("COGSCI-000106", "encoding", "符号化", "Encoding", "経験や情報を記憶として保存できる形に変換する過程。"),
+            ("COGSCI-000107", "retrieval", "検索・想起", "Retrieval", "保存された記憶情報を取り出して利用する過程。"),
+            ("COGSCI-000108", "recognition_memory", "再認記憶", "Recognition Memory", "以前に見た・経験した情報かどうかを判断する記憶機能。"),
+            ("COGSCI-000109", "recall_memory", "再生記憶", "Recall Memory", "手がかりが少ない状態で記憶内容を思い出す機能。"),
+            ("COGSCI-000110", "memory_consolidation", "記憶固定", "Memory Consolidation", "新しい記憶が安定して長期保持されるようになる過程。")
         ]
     },
     {
-        "category": "Cognitive Science - Language",
-        "name_ja": "認知科学・言語",
+        "category": "Cognitive Science - Reasoning",
+        "name_ja": "認知科学・推論",
         "items": [
-            ("COGSCI-000061", "language_comprehension", "言語理解", "Language Comprehension", "文字や音声として提示された言語情報の意味を理解する認知過程。"),
-            ("COGSCI-000062", "reading_comprehension", "読解", "Reading Comprehension", "文章の内容・構造・意図を読み取り理解する認知過程。"),
-            ("COGSCI-000063", "semantic_processing", "意味処理", "Semantic Processing", "語句や文の意味を解釈し、既存知識と結びつける認知過程。"),
-            ("COGSCI-000064", "pragmatic_understanding", "語用理解", "Pragmatic Understanding", "文脈や相手の意図を踏まえて発話の意味を理解する認知過程。"),
-            ("COGSCI-000065", "verbal_fluency", "言語流暢性", "Verbal Fluency", "条件に合う語や表現を素早く生成する認知機能。"),
-            ("COGSCI-000066", "narrative_understanding", "物語理解", "Narrative Understanding", "出来事の因果関係や登場人物の意図を含めて物語を理解する認知過程。"),
-            ("COGSCI-000067", "instruction_following", "指示理解", "Instruction Following", "言語的な指示を理解し、適切な行動に変換する認知過程。"),
-            ("COGSCI-000068", "ambiguity_resolution", "曖昧性解消", "Ambiguity Resolution", "複数の意味や解釈がある情報から、文脈に合う解釈を選ぶ認知過程。"),
-            ("COGSCI-000069", "metaphor_understanding", "比喩理解", "Metaphor Understanding", "比喩や象徴表現を、文脈や類似性をもとに理解する認知過程。"),
-            ("COGSCI-000070", "dialogue_context_tracking", "対話文脈追跡", "Dialogue Context Tracking", "会話の流れ・前提・相手の意図を追跡しながら理解する認知過程。")
+            ("COGSCI-000111", "deductive_reasoning", "演繹推論", "Deductive Reasoning", "前提が正しければ結論も必然的に導かれる形式の推論過程。"),
+            ("COGSCI-000112", "inductive_reasoning", "帰納推論", "Inductive Reasoning", "複数の事例や観察から一般的な規則や傾向を推測する推論過程。"),
+            ("COGSCI-000113", "abductive_reasoning", "仮説推論", "Abductive Reasoning", "観察された結果を説明するもっともらしい原因や仮説を考える推論過程。"),
+            ("COGSCI-000114", "causal_reasoning", "因果推論", "Causal Reasoning", "出来事同士の原因と結果の関係を推測する認知過程。"),
+            ("COGSCI-000115", "probabilistic_reasoning", "確率推論", "Probabilistic Reasoning", "不確実な情報をもとに発生可能性や期待値を推定する推論過程。"),
+            ("COGSCI-000116", "counterfactual_reasoning", "反実仮想推論", "Counterfactual Reasoning", "もし別の行動や条件だったらどうなったかを考える推論過程。"),
+            ("COGSCI-000117", "conditional_reasoning", "条件推論", "Conditional Reasoning", "もしAならBという条件関係をもとに結論を導く推論過程。"),
+            ("COGSCI-000118", "analogical_mapping", "類推対応づけ", "Analogical Mapping", "異なる対象や状況間の構造的な対応関係を見つける推論過程。"),
+            ("COGSCI-000119", "hypothesis_testing", "仮説検証", "Hypothesis Testing", "仮説を立て、証拠や結果によって妥当性を確認する認知過程。"),
+            ("COGSCI-000120", "evidence_evaluation", "証拠評価", "Evidence Evaluation", "情報や証拠の信頼性・関連性・強さを評価する認知過程。")
         ]
     },
     {
-        "category": "Cognitive Science - Social Cognition",
-        "name_ja": "認知科学・社会的認知",
+        "category": "Cognitive Science - Emotion Cognition",
+        "name_ja": "認知科学・感情認知",
         "items": [
-            ("COGSCI-000071", "theory_of_mind", "心の理論", "Theory of Mind", "他者の信念・意図・感情などの心的状態を推測する認知機能。"),
-            ("COGSCI-000072", "perspective_taking", "視点取得", "Perspective Taking", "自分とは異なる他者の立場や視点から状況を理解する認知機能。"),
-            ("COGSCI-000073", "empathy_processing", "共感処理", "Empathy Processing", "他者の感情状態を理解し、それに反応する認知情動過程。"),
-            ("COGSCI-000074", "social_inference", "社会的推論", "Social Inference", "他者の行動や状況から意図・関係・規範を推測する認知過程。"),
-            ("COGSCI-000075", "trait_inference", "特性推論", "Trait Inference", "他者の行動から性格や傾向を推測する認知過程。"),
-            ("COGSCI-000076", "emotion_recognition", "感情認識", "Emotion Recognition", "表情・声・言語・行動から感情状態を認識する認知機能。"),
-            ("COGSCI-000077", "social_norm_processing", "社会規範処理", "Social Norm Processing", "集団や場面における暗黙のルールや期待を理解する認知過程。"),
-            ("COGSCI-000078", "reputation_processing", "評判処理", "Reputation Processing", "他者や自分に関する評価・信頼・評判情報を処理する認知過程。"),
-            ("COGSCI-000079", "trust_judgment", "信頼判断", "Trust Judgment", "相手や情報源をどの程度信頼できるか判断する認知過程。"),
-            ("COGSCI-000080", "cooperation_reasoning", "協力推論", "Cooperation Reasoning", "協力・裏切り・相互利益に関する相手の行動を推測する認知過程。")
+            ("COGSCI-000121", "emotion_appraisal", "感情評価", "Emotion Appraisal", "出来事や状況を自分にとってどのような意味を持つか評価し感情を生じさせる過程。"),
+            ("COGSCI-000122", "emotion_regulation", "感情調整", "Emotion Regulation", "感情の強さ・持続・表出を調整する認知情動過程。"),
+            ("COGSCI-000123", "affective_attention", "感情的注意", "Affective Attention", "感情的に重要な刺激へ注意が向きやすくなる認知過程。"),
+            ("COGSCI-000124", "mood_congruent_processing", "気分一致処理", "Mood Congruent Processing", "現在の気分と一致する情報が処理・想起されやすくなる認知過程。"),
+            ("COGSCI-000125", "emotional_memory", "感情記憶", "Emotional Memory", "感情を伴う経験が記憶に強く残りやすくなる記憶処理。"),
+            ("COGSCI-000126", "threat_detection", "脅威検知", "Threat Detection", "危険や損失につながる刺激を検出しやすくする認知機能。"),
+            ("COGSCI-000127", "reward_sensitivity", "報酬感受性", "Reward Sensitivity", "報酬や快感につながる刺激へ反応しやすい認知情動特性。"),
+            ("COGSCI-000128", "frustration_tolerance", "欲求不満耐性", "Frustration Tolerance", "期待通りに進まない状況で行動や感情を保つ性質。"),
+            ("COGSCI-000129", "affective_decision_making", "感情的意思決定", "Affective Decision Making", "感情状態や情動反応が選択や判断に影響する意思決定過程。"),
+            ("COGSCI-000130", "emotional_interference", "感情的干渉", "Emotional Interference", "感情刺激が注意・記憶・判断などの認知処理を妨げる現象。")
         ]
     },
     {
-        "category": "Cognitive Science - Metacognition",
-        "name_ja": "認知科学・メタ認知",
+        "category": "Cognitive Science - Mental Models",
+        "name_ja": "認知科学・メンタルモデル",
         "items": [
-            ("COGSCI-000081", "metacognition", "メタ認知", "Metacognition", "自分の認知状態・理解度・判断の確かさを把握する認知機能。"),
-            ("COGSCI-000082", "confidence_judgment", "確信度判断", "Confidence Judgment", "自分の回答や判断がどの程度正しいか見積もる認知過程。"),
-            ("COGSCI-000083", "error_awareness", "エラー自覚", "Error Awareness", "自分の誤りやズレに気づく認知機能。"),
-            ("COGSCI-000084", "learning_monitoring", "学習モニタリング", "Learning Monitoring", "自分の理解度や習得状況を確認しながら学習する認知過程。"),
-            ("COGSCI-000085", "strategy_monitoring", "方略モニタリング", "Strategy Monitoring", "現在使っている方略が有効かどうか確認する認知過程。"),
-            ("COGSCI-000086", "judgment_of_learning", "学習判断", "Judgment of Learning", "あとで思い出せるか、理解できているかを予測するメタ認知判断。"),
-            ("COGSCI-000087", "feeling_of_knowing", "既知感", "Feeling of Knowing", "今は思い出せなくても知っていると感じるメタ認知的感覚。"),
-            ("COGSCI-000088", "calibration", "キャリブレーション", "Calibration", "自信度と実際の正確性がどの程度一致しているかを示す概念。"),
-            ("COGSCI-000089", "self_explanation", "自己説明", "Self Explanation", "自分で理由や仕組みを説明しながら理解を深める学習方略。"),
-            ("COGSCI-000090", "reflection", "振り返り", "Reflection", "過去の行動や結果を見直し、理解や改善につなげる認知過程。")
+            ("COGSCI-000131", "mental_model", "メンタルモデル", "Mental Model", "対象・仕組み・状況について頭の中に形成される理解の枠組み。"),
+            ("COGSCI-000132", "schema", "スキーマ", "Schema", "経験に基づいて形成された知識構造や解釈の枠組み。"),
+            ("COGSCI-000133", "script_knowledge", "スクリプト知識", "Script Knowledge", "典型的な場面で起きる行動や出来事の順序に関する知識。"),
+            ("COGSCI-000134", "conceptual_model", "概念モデル", "Conceptual Model", "システムや対象がどのように機能するかについての概念的理解。"),
+            ("COGSCI-000135", "situation_model", "状況モデル", "Situation Model", "物語・会話・場面について人物・時間・因果関係を含めて構築される心的表象。"),
+            ("COGSCI-000136", "cognitive_map", "認知地図", "Cognitive Map", "空間・関係・配置について頭の中に形成される地図的表象。"),
+            ("COGSCI-000137", "category_learning", "カテゴリ学習", "Category Learning", "対象を共通特徴や規則に基づいて分類できるようになる学習過程。"),
+            ("COGSCI-000138", "prototype_processing", "プロトタイプ処理", "Prototype Processing", "カテゴリの典型例に基づいて対象を判断する認知過程。"),
+            ("COGSCI-000139", "exemplar_processing", "事例ベース処理", "Exemplar Processing", "過去の具体的事例との類似性に基づいて判断する認知過程。"),
+            ("COGSCI-000140", "concept_formation", "概念形成", "Concept Formation", "複数の経験や情報から抽象的な概念を作る認知過程。")
         ]
     },
     {
-        "category": "Cognitive Science - Perception",
-        "name_ja": "認知科学・知覚",
+        "category": "Cognitive Science - Cognitive Load",
+        "name_ja": "認知科学・認知負荷",
         "items": [
-            ("COGSCI-000091", "visual_perception", "視覚知覚", "Visual Perception", "形・色・動き・位置などの視覚情報を処理する認知機能。"),
-            ("COGSCI-000092", "auditory_perception", "聴覚知覚", "Auditory Perception", "音の高さ・強さ・方向・意味を処理する認知機能。"),
-            ("COGSCI-000093", "pattern_recognition", "パターン認識", "Pattern Recognition", "情報の中から規則性・構造・まとまりを検出する認知機能。"),
-            ("COGSCI-000094", "object_recognition", "物体認識", "Object Recognition", "視覚情報から対象物を識別し意味づける認知機能。"),
-            ("COGSCI-000095", "spatial_perception", "空間知覚", "Spatial Perception", "位置関係・距離・方向などの空間情報を把握する認知機能。"),
-            ("COGSCI-000096", "temporal_perception", "時間知覚", "Temporal Perception", "時間の長さ・順序・タイミングを感じ取る認知機能。"),
-            ("COGSCI-000097", "multisensory_integration", "多感覚統合", "Multisensory Integration", "視覚・聴覚・触覚など複数の感覚情報を統合する認知過程。"),
-            ("COGSCI-000098", "perceptual_grouping", "知覚的群化", "Perceptual Grouping", "近接・類似・連続性などに基づいて情報をまとまりとして知覚する過程。"),
-            ("COGSCI-000099", "signal_detection", "信号検出", "Signal Detection", "ノイズの中から意味のある刺激や変化を検出する認知過程。"),
-            ("COGSCI-000100", "perceptual_learning", "知覚学習", "Perceptual Learning", "経験により知覚判断や識別能力が改善する学習過程。")
+            ("COGSCI-000141", "cognitive_load", "認知負荷", "Cognitive Load", "情報処理や課題遂行に必要な認知資源の負担量。"),
+            ("COGSCI-000142", "intrinsic_load", "内在的負荷", "Intrinsic Load", "課題そのものの複雑さや要素間関係によって生じる認知負荷。"),
+            ("COGSCI-000143", "extraneous_load", "外在的負荷", "Extraneous Load", "不適切な表示・説明・環境によって余分に生じる認知負荷。"),
+            ("COGSCI-000144", "germane_load", "学習関連負荷", "Germane Load", "理解やスキーマ構築に有効に使われる認知負荷。"),
+            ("COGSCI-000145", "dual_task_interference", "二重課題干渉", "Dual Task Interference", "複数課題を同時に行うことで処理効率が低下する現象。"),
+            ("COGSCI-000146", "task_demand", "課題要求", "Task Demand", "課題遂行に必要とされる注意・記憶・判断などの要求量。"),
+            ("COGSCI-000147", "mental_effort", "心的努力", "Mental Effort", "課題遂行のために主観的・客観的に投入される認知的努力。"),
+            ("COGSCI-000148", "processing_capacity", "処理容量", "Processing Capacity", "一定時間内に処理できる情報量や認知的資源の範囲。"),
+            ("COGSCI-000149", "cognitive_fatigue", "認知疲労", "Cognitive Fatigue", "継続的な認知活動によって注意・判断・処理速度が低下する状態。"),
+            ("COGSCI-000150", "load_management", "負荷管理", "Load Management", "情報量・作業量・休憩・手順を調整して認知負荷を制御する過程。")
         ]
     }
 ]
@@ -136,8 +136,8 @@ def main():
     ])
 
     pack = {
-        "output_dir": "vol5_cognitive_science/cognitive_science_051_100",
-        "index_filename": "cognitive_science_051_100_index.yml",
+        "output_dir": "vol5_cognitive_science/cognitive_science_101_150",
+        "index_filename": "cognitive_science_101_150_index.yml",
         "index_content": "\n".join(index_lines) + "\n",
         "items": all_items
     }

@@ -1,0 +1,33 @@
+id: COGSCI-000142
+knowledge_type: cognitive_science
+name_ja: 内在的負荷
+name_en: Intrinsic Load
+category: Cognitive Science
+attribute: Cognitive Load
+definition_ja: 課題そのものの複雑さや要素間関係によって生じる認知負荷。
+tags:
+  - CAT:認知科学
+  - CAT:認知負荷
+  - ATTR:認知機能
+parent:
+  - 認知負荷
+related:
+  - 認知能力
+  - 行動観測
+  - 認知バイアス
+observable_data:
+  - 内在的負荷関連反応時間
+  - 内在的負荷関連正答率
+  - 内在的負荷関連エラー率
+  - 内在的負荷関連行動変化
+signal_candidates:
+  - 内在的負荷に関連する行動パターンが観測される
+  - 課題条件の変化に応じて反応や成績が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 注意
+  - ストレス
+  - 課題難易度
+evidence: 認知科学・認知心理学・HCI研究で使用
+status: active

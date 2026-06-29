@@ -1,0 +1,33 @@
+id: COGSCI-000114
+knowledge_type: cognitive_science
+name_ja: 因果推論
+name_en: Causal Reasoning
+category: Cognitive Science
+attribute: Reasoning
+definition_ja: 出来事同士の原因と結果の関係を推測する認知過程。
+tags:
+  - CAT:認知科学
+  - CAT:推論
+  - ATTR:認知機能
+parent:
+  - 推論
+related:
+  - 認知能力
+  - 行動観測
+  - 認知バイアス
+observable_data:
+  - 因果推論関連反応時間
+  - 因果推論関連正答率
+  - 因果推論関連エラー率
+  - 因果推論関連行動変化
+signal_candidates:
+  - 因果推論に関連する行動パターンが観測される
+  - 課題条件の変化に応じて反応や成績が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 注意
+  - ストレス
+  - 課題難易度
+evidence: 認知科学・認知心理学・HCI研究で使用
+status: active

@@ -1,0 +1,33 @@
+id: COGSCI-000133
+knowledge_type: cognitive_science
+name_ja: スクリプト知識
+name_en: Script Knowledge
+category: Cognitive Science
+attribute: Mental Models
+definition_ja: 典型的な場面で起きる行動や出来事の順序に関する知識。
+tags:
+  - CAT:認知科学
+  - CAT:メンタルモデル
+  - ATTR:認知機能
+parent:
+  - メンタルモデル
+related:
+  - 認知能力
+  - 行動観測
+  - 認知バイアス
+observable_data:
+  - スクリプト知識関連反応時間
+  - スクリプト知識関連正答率
+  - スクリプト知識関連エラー率
+  - スクリプト知識関連行動変化
+signal_candidates:
+  - スクリプト知識に関連する行動パターンが観測される
+  - 課題条件の変化に応じて反応や成績が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 注意
+  - ストレス
+  - 課題難易度
+evidence: 認知科学・認知心理学・HCI研究で使用
+status: active

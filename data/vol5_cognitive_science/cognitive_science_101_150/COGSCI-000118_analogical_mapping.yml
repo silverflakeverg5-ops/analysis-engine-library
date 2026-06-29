@@ -1,0 +1,33 @@
+id: COGSCI-000118
+knowledge_type: cognitive_science
+name_ja: 類推対応づけ
+name_en: Analogical Mapping
+category: Cognitive Science
+attribute: Reasoning
+definition_ja: 異なる対象や状況間の構造的な対応関係を見つける推論過程。
+tags:
+  - CAT:認知科学
+  - CAT:推論
+  - ATTR:認知機能
+parent:
+  - 推論
+related:
+  - 認知能力
+  - 行動観測
+  - 認知バイアス
+observable_data:
+  - 類推対応づけ関連反応時間
+  - 類推対応づけ関連正答率
+  - 類推対応づけ関連エラー率
+  - 類推対応づけ関連行動変化
+signal_candidates:
+  - 類推対応づけに関連する行動パターンが観測される
+  - 課題条件の変化に応じて反応や成績が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 注意
+  - ストレス
+  - 課題難易度
+evidence: 認知科学・認知心理学・HCI研究で使用
+status: active

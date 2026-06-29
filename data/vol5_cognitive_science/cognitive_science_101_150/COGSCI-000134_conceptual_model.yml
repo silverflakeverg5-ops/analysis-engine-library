@@ -1,0 +1,33 @@
+id: COGSCI-000134
+knowledge_type: cognitive_science
+name_ja: 概念モデル
+name_en: Conceptual Model
+category: Cognitive Science
+attribute: Mental Models
+definition_ja: システムや対象がどのように機能するかについての概念的理解。
+tags:
+  - CAT:認知科学
+  - CAT:メンタルモデル
+  - ATTR:認知機能
+parent:
+  - メンタルモデル
+related:
+  - 認知能力
+  - 行動観測
+  - 認知バイアス
+observable_data:
+  - 概念モデル関連反応時間
+  - 概念モデル関連正答率
+  - 概念モデル関連エラー率
+  - 概念モデル関連行動変化
+signal_candidates:
+  - 概念モデルに関連する行動パターンが観測される
+  - 課題条件の変化に応じて反応や成績が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 注意
+  - ストレス
+  - 課題難易度
+evidence: 認知科学・認知心理学・HCI研究で使用
+status: active

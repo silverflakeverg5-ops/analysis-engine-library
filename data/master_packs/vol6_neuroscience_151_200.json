@@ -1,0 +1,2107 @@
+{
+  "output_dir": "vol6_neuroscience/neuroscience_151_200",
+  "index_filename": "neuroscience_151_200_index.yml",
+  "index_content": "category: Neuroscience\nname_ja: 神経科学\nitems:\n  - NEURO-000151_conscious_awareness.yml\n  - NEURO-000152_global_workspace.yml\n  - NEURO-000153_attention_and_consciousness.yml\n  - NEURO-000154_self_awareness.yml\n  - NEURO-000155_agency.yml\n  - NEURO-000156_sense_of_ownership.yml\n  - NEURO-000157_mental_simulation.yml\n  - NEURO-000158_internal_speech.yml\n  - NEURO-000159_mind_wandering.yml\n  - NEURO-000160_meta_awareness.yml\n  - NEURO-000161_predictive_coding.yml\n  - NEURO-000162_prediction_error.yml\n  - NEURO-000163_bayesian_brain.yml\n  - NEURO-000164_active_inference.yml\n  - NEURO-000165_sensory_prediction.yml\n  - NEURO-000166_motor_prediction.yml\n  - NEURO-000167_surprise_processing.yml\n  - NEURO-000168_expectation_updating.yml\n  - NEURO-000169_environmental_modeling.yml\n  - NEURO-000170_adaptive_prediction.yml\n  - NEURO-000171_dopamine_learning_signal.yml\n  - NEURO-000172_error_driven_learning.yml\n  - NEURO-000173_hebbian_learning.yml\n  - NEURO-000174_reinforcement_plasticity.yml\n  - NEURO-000175_reward_expectation.yml\n  - NEURO-000176_punishment_learning.yml\n  - NEURO-000177_novelty_detection.yml\n  - NEURO-000178_salience_coding.yml\n  - NEURO-000179_confidence_signal.yml\n  - NEURO-000180_uncertainty_signal.yml\n  - NEURO-000181_brain_aging.yml\n  - NEURO-000182_cognitive_reserve.yml\n  - NEURO-000183_neurogenesis.yml\n  - NEURO-000184_synaptic_health.yml\n  - NEURO-000185_white_matter_integrity.yml\n  - NEURO-000186_gray_matter_density.yml\n  - NEURO-000187_neuroinflammation.yml\n  - NEURO-000188_oxidative_stress.yml\n  - NEURO-000189_brain_energy_metabolism.yml\n  - NEURO-000190_recovery_processes.yml\n  - NEURO-000191_brain_body_interaction.yml\n  - NEURO-000192_emotion_cognition_integration.yml\n  - NEURO-000193_memory_emotion_integration.yml\n  - NEURO-000194_social_brain_integration.yml\n  - NEURO-000195_decision_integration.yml\n  - NEURO-000196_executive_integration.yml\n  - NEURO-000197_attention_integration.yml\n  - NEURO-000198_learning_integration.yml\n  - NEURO-000199_adaptive_integration.yml\n  - NEURO-000200_human_behavior_integration.yml\nnotes:\n  - 神経科学は医療診断ではなく推論材料として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
+  "items": [
+    {
+      "filename": "NEURO-000151_conscious_awareness.yml",
+      "id": "NEURO-000151",
+      "knowledge_type": "neuroscience",
+      "name_ja": "意識的気づき",
+      "name_en": "Conscious Awareness",
+      "category": "Neuroscience",
+      "attribute": "Consciousness",
+      "definition_ja": "自分の知覚・思考・感情・行動に気づいている状態。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:意識",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "意識"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "意識的気づき関連反応時間",
+        "意識的気づき関連行動変化",
+        "意識的気づき関連注意変化",
+        "意識的気づき関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "意識的気づきに関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000152_global_workspace.yml",
+      "id": "NEURO-000152",
+      "knowledge_type": "neuroscience",
+      "name_ja": "グローバルワークスペース",
+      "name_en": "Global Workspace",
+      "category": "Neuroscience",
+      "attribute": "Consciousness",
+      "definition_ja": "複数の認知処理へ情報を広く共有する意識処理の理論的枠組み。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:意識",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "意識"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "グローバルワークスペース関連反応時間",
+        "グローバルワークスペース関連行動変化",
+        "グローバルワークスペース関連注意変化",
+        "グローバルワークスペース関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "グローバルワークスペースに関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000153_attention_and_consciousness.yml",
+      "id": "NEURO-000153",
+      "knowledge_type": "neuroscience",
+      "name_ja": "注意と意識",
+      "name_en": "Attention and Consciousness",
+      "category": "Neuroscience",
+      "attribute": "Consciousness",
+      "definition_ja": "注意の向け方と意識的経験の関係に関わる神経認知過程。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:意識",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "意識"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "注意と意識関連反応時間",
+        "注意と意識関連行動変化",
+        "注意と意識関連注意変化",
+        "注意と意識関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "注意と意識に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000154_self_awareness.yml",
+      "id": "NEURO-000154",
+      "knowledge_type": "neuroscience",
+      "name_ja": "自己意識",
+      "name_en": "Self Awareness",
+      "category": "Neuroscience",
+      "attribute": "Consciousness",
+      "definition_ja": "自分自身の状態・行動・存在を対象化して認識する能力。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:意識",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "意識"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "自己意識関連反応時間",
+        "自己意識関連行動変化",
+        "自己意識関連注意変化",
+        "自己意識関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "自己意識に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000155_agency.yml",
+      "id": "NEURO-000155",
+      "knowledge_type": "neuroscience",
+      "name_ja": "主体感",
+      "name_en": "Agency",
+      "category": "Neuroscience",
+      "attribute": "Consciousness",
+      "definition_ja": "自分が行動を起こしていると感じる意識経験。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:意識",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "意識"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "主体感関連反応時間",
+        "主体感関連行動変化",
+        "主体感関連注意変化",
+        "主体感関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "主体感に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000156_sense_of_ownership.yml",
+      "id": "NEURO-000156",
+      "knowledge_type": "neuroscience",
+      "name_ja": "所有感",
+      "name_en": "Sense of Ownership",
+      "category": "Neuroscience",
+      "attribute": "Consciousness",
+      "definition_ja": "身体や行動結果が自分に属していると感じる意識経験。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:意識",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "意識"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "所有感関連反応時間",
+        "所有感関連行動変化",
+        "所有感関連注意変化",
+        "所有感関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "所有感に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000157_mental_simulation.yml",
+      "id": "NEURO-000157",
+      "knowledge_type": "neuroscience",
+      "name_ja": "心的シミュレーション",
+      "name_en": "Mental Simulation",
+      "category": "Neuroscience",
+      "attribute": "Consciousness",
+      "definition_ja": "現実には起きていない状況や行動を頭の中で想像・予測する過程。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:意識",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "意識"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "心的シミュレーション関連反応時間",
+        "心的シミュレーション関連行動変化",
+        "心的シミュレーション関連注意変化",
+        "心的シミュレーション関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "心的シミュレーションに関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000158_internal_speech.yml",
+      "id": "NEURO-000158",
+      "knowledge_type": "neuroscience",
+      "name_ja": "内言",
+      "name_en": "Internal Speech",
+      "category": "Neuroscience",
+      "attribute": "Consciousness",
+      "definition_ja": "声に出さずに頭の中で言語的に考える認知過程。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:意識",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "意識"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "内言関連反応時間",
+        "内言関連行動変化",
+        "内言関連注意変化",
+        "内言関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "内言に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000159_mind_wandering.yml",
+      "id": "NEURO-000159",
+      "knowledge_type": "neuroscience",
+      "name_ja": "マインドワンダリング",
+      "name_en": "Mind Wandering",
+      "category": "Neuroscience",
+      "attribute": "Consciousness",
+      "definition_ja": "現在の課題から注意が離れ、内的な思考へ移る状態。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:意識",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "意識"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "マインドワンダリング関連反応時間",
+        "マインドワンダリング関連行動変化",
+        "マインドワンダリング関連注意変化",
+        "マインドワンダリング関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "マインドワンダリングに関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000160_meta_awareness.yml",
+      "id": "NEURO-000160",
+      "knowledge_type": "neuroscience",
+      "name_ja": "メタ的気づき",
+      "name_en": "Meta Awareness",
+      "category": "Neuroscience",
+      "attribute": "Consciousness",
+      "definition_ja": "自分が何を考え、どの状態にあるかに気づく高次の意識過程。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:意識",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "意識"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "メタ的気づき関連反応時間",
+        "メタ的気づき関連行動変化",
+        "メタ的気づき関連注意変化",
+        "メタ的気づき関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "メタ的気づきに関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000161_predictive_coding.yml",
+      "id": "NEURO-000161",
+      "knowledge_type": "neuroscience",
+      "name_ja": "予測符号化",
+      "name_en": "Predictive Coding",
+      "category": "Neuroscience",
+      "attribute": "Predictive Brain",
+      "definition_ja": "脳が予測と入力の差を使って知覚や行動を更新する考え方。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:予測脳",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "予測脳"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "予測符号化関連反応時間",
+        "予測符号化関連行動変化",
+        "予測符号化関連注意変化",
+        "予測符号化関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "予測符号化に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000162_prediction_error.yml",
+      "id": "NEURO-000162",
+      "knowledge_type": "neuroscience",
+      "name_ja": "予測誤差",
+      "name_en": "Prediction Error",
+      "category": "Neuroscience",
+      "attribute": "Predictive Brain",
+      "definition_ja": "予測された入力や結果と実際の入力や結果との差。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:予測脳",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "予測脳"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "予測誤差関連反応時間",
+        "予測誤差関連行動変化",
+        "予測誤差関連注意変化",
+        "予測誤差関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "予測誤差に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000163_bayesian_brain.yml",
+      "id": "NEURO-000163",
+      "knowledge_type": "neuroscience",
+      "name_ja": "ベイズ脳",
+      "name_en": "Bayesian Brain",
+      "category": "Neuroscience",
+      "attribute": "Predictive Brain",
+      "definition_ja": "脳が事前知識と新しい情報を統合して推定するという理論的枠組み。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:予測脳",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "予測脳"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "ベイズ脳関連反応時間",
+        "ベイズ脳関連行動変化",
+        "ベイズ脳関連注意変化",
+        "ベイズ脳関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "ベイズ脳に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000164_active_inference.yml",
+      "id": "NEURO-000164",
+      "knowledge_type": "neuroscience",
+      "name_ja": "能動的推論",
+      "name_en": "Active Inference",
+      "category": "Neuroscience",
+      "attribute": "Predictive Brain",
+      "definition_ja": "予測誤差を減らすために知覚や行動を調整する神経認知過程。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:予測脳",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "予測脳"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "能動的推論関連反応時間",
+        "能動的推論関連行動変化",
+        "能動的推論関連注意変化",
+        "能動的推論関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "能動的推論に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000165_sensory_prediction.yml",
+      "id": "NEURO-000165",
+      "knowledge_type": "neuroscience",
+      "name_ja": "感覚予測",
+      "name_en": "Sensory Prediction",
+      "category": "Neuroscience",
+      "attribute": "Predictive Brain",
+      "definition_ja": "自分の行動や環境変化によって生じる感覚入力を予測する過程。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:予測脳",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "予測脳"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "感覚予測関連反応時間",
+        "感覚予測関連行動変化",
+        "感覚予測関連注意変化",
+        "感覚予測関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "感覚予測に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000166_motor_prediction.yml",
+      "id": "NEURO-000166",
+      "knowledge_type": "neuroscience",
+      "name_ja": "運動予測",
+      "name_en": "Motor Prediction",
+      "category": "Neuroscience",
+      "attribute": "Predictive Brain",
+      "definition_ja": "自分の運動がもたらす結果や感覚変化を予測する過程。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:予測脳",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "予測脳"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "運動予測関連反応時間",
+        "運動予測関連行動変化",
+        "運動予測関連注意変化",
+        "運動予測関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "運動予測に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000167_surprise_processing.yml",
+      "id": "NEURO-000167",
+      "knowledge_type": "neuroscience",
+      "name_ja": "驚き処理",
+      "name_en": "Surprise Processing",
+      "category": "Neuroscience",
+      "attribute": "Predictive Brain",
+      "definition_ja": "予測と異なる出来事に対して注意や学習を更新する処理。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:予測脳",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "予測脳"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "驚き処理関連反応時間",
+        "驚き処理関連行動変化",
+        "驚き処理関連注意変化",
+        "驚き処理関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "驚き処理に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000168_expectation_updating.yml",
+      "id": "NEURO-000168",
+      "knowledge_type": "neuroscience",
+      "name_ja": "期待更新",
+      "name_en": "Expectation Updating",
+      "category": "Neuroscience",
+      "attribute": "Predictive Brain",
+      "definition_ja": "経験や結果に基づいて将来予測や期待値を修正する過程。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:予測脳",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "予測脳"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "期待更新関連反応時間",
+        "期待更新関連行動変化",
+        "期待更新関連注意変化",
+        "期待更新関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "期待更新に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000169_environmental_modeling.yml",
+      "id": "NEURO-000169",
+      "knowledge_type": "neuroscience",
+      "name_ja": "環境モデル化",
+      "name_en": "Environmental Modeling",
+      "category": "Neuroscience",
+      "attribute": "Predictive Brain",
+      "definition_ja": "周囲の規則性や構造を内部モデルとして形成する過程。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:予測脳",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "予測脳"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "環境モデル化関連反応時間",
+        "環境モデル化関連行動変化",
+        "環境モデル化関連注意変化",
+        "環境モデル化関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "環境モデル化に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000170_adaptive_prediction.yml",
+      "id": "NEURO-000170",
+      "knowledge_type": "neuroscience",
+      "name_ja": "適応的予測",
+      "name_en": "Adaptive Prediction",
+      "category": "Neuroscience",
+      "attribute": "Predictive Brain",
+      "definition_ja": "状況変化に合わせて予測モデルを柔軟に更新する過程。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:予測脳",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "予測脳"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "適応的予測関連反応時間",
+        "適応的予測関連行動変化",
+        "適応的予測関連注意変化",
+        "適応的予測関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "適応的予測に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000171_dopamine_learning_signal.yml",
+      "id": "NEURO-000171",
+      "knowledge_type": "neuroscience",
+      "name_ja": "ドーパミン学習信号",
+      "name_en": "Dopamine Learning Signal",
+      "category": "Neuroscience",
+      "attribute": "Learning Signals",
+      "definition_ja": "報酬予測誤差や動機づけの更新に関わるドーパミン系信号。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:学習信号",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "学習信号"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "ドーパミン学習信号関連反応時間",
+        "ドーパミン学習信号関連行動変化",
+        "ドーパミン学習信号関連注意変化",
+        "ドーパミン学習信号関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "ドーパミン学習信号に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000172_error_driven_learning.yml",
+      "id": "NEURO-000172",
+      "knowledge_type": "neuroscience",
+      "name_ja": "誤差駆動学習",
+      "name_en": "Error Driven Learning",
+      "category": "Neuroscience",
+      "attribute": "Learning Signals",
+      "definition_ja": "予測や行動結果の誤差を使って学習を進める過程。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:学習信号",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "学習信号"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "誤差駆動学習関連反応時間",
+        "誤差駆動学習関連行動変化",
+        "誤差駆動学習関連注意変化",
+        "誤差駆動学習関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "誤差駆動学習に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000173_hebbian_learning.yml",
+      "id": "NEURO-000173",
+      "knowledge_type": "neuroscience",
+      "name_ja": "ヘッブ学習",
+      "name_en": "Hebbian Learning",
+      "category": "Neuroscience",
+      "attribute": "Learning Signals",
+      "definition_ja": "同時に活動する神経細胞間の結合が強まる学習原理。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:学習信号",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "学習信号"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "ヘッブ学習関連反応時間",
+        "ヘッブ学習関連行動変化",
+        "ヘッブ学習関連注意変化",
+        "ヘッブ学習関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "ヘッブ学習に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000174_reinforcement_plasticity.yml",
+      "id": "NEURO-000174",
+      "knowledge_type": "neuroscience",
+      "name_ja": "強化可塑性",
+      "name_en": "Reinforcement Plasticity",
+      "category": "Neuroscience",
+      "attribute": "Learning Signals",
+      "definition_ja": "報酬や罰の経験によって神経結合や行動選択が変化する性質。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:学習信号",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "学習信号"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "強化可塑性関連反応時間",
+        "強化可塑性関連行動変化",
+        "強化可塑性関連注意変化",
+        "強化可塑性関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "強化可塑性に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000175_reward_expectation.yml",
+      "id": "NEURO-000175",
+      "knowledge_type": "neuroscience",
+      "name_ja": "報酬期待",
+      "name_en": "Reward Expectation",
+      "category": "Neuroscience",
+      "attribute": "Learning Signals",
+      "definition_ja": "将来得られる報酬の大きさや可能性を予測する神経過程。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:学習信号",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "学習信号"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "報酬期待関連反応時間",
+        "報酬期待関連行動変化",
+        "報酬期待関連注意変化",
+        "報酬期待関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "報酬期待に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000176_punishment_learning.yml",
+      "id": "NEURO-000176",
+      "knowledge_type": "neuroscience",
+      "name_ja": "罰学習",
+      "name_en": "Punishment Learning",
+      "category": "Neuroscience",
+      "attribute": "Learning Signals",
+      "definition_ja": "不快な結果や損失を避けるために行動を調整する学習過程。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:学習信号",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "学習信号"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "罰学習関連反応時間",
+        "罰学習関連行動変化",
+        "罰学習関連注意変化",
+        "罰学習関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "罰学習に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000177_novelty_detection.yml",
+      "id": "NEURO-000177",
+      "knowledge_type": "neuroscience",
+      "name_ja": "新奇性検出",
+      "name_en": "Novelty Detection",
+      "category": "Neuroscience",
+      "attribute": "Learning Signals",
+      "definition_ja": "新しい刺激や予期しない情報を検出し注意や学習を促す過程。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:学習信号",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "学習信号"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "新奇性検出関連反応時間",
+        "新奇性検出関連行動変化",
+        "新奇性検出関連注意変化",
+        "新奇性検出関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "新奇性検出に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000178_salience_coding.yml",
+      "id": "NEURO-000178",
+      "knowledge_type": "neuroscience",
+      "name_ja": "顕著性符号化",
+      "name_en": "Salience Coding",
+      "category": "Neuroscience",
+      "attribute": "Learning Signals",
+      "definition_ja": "重要性や目立ちやすさを神経信号として表現する過程。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:学習信号",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "学習信号"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "顕著性符号化関連反応時間",
+        "顕著性符号化関連行動変化",
+        "顕著性符号化関連注意変化",
+        "顕著性符号化関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "顕著性符号化に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000179_confidence_signal.yml",
+      "id": "NEURO-000179",
+      "knowledge_type": "neuroscience",
+      "name_ja": "確信度信号",
+      "name_en": "Confidence Signal",
+      "category": "Neuroscience",
+      "attribute": "Learning Signals",
+      "definition_ja": "判断や選択の確かさを表す神経認知的信号。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:学習信号",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "学習信号"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "確信度信号関連反応時間",
+        "確信度信号関連行動変化",
+        "確信度信号関連注意変化",
+        "確信度信号関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "確信度信号に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000180_uncertainty_signal.yml",
+      "id": "NEURO-000180",
+      "knowledge_type": "neuroscience",
+      "name_ja": "不確実性信号",
+      "name_en": "Uncertainty Signal",
+      "category": "Neuroscience",
+      "attribute": "Learning Signals",
+      "definition_ja": "結果や環境の不確実性を表す神経認知的信号。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:学習信号",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "学習信号"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "不確実性信号関連反応時間",
+        "不確実性信号関連行動変化",
+        "不確実性信号関連注意変化",
+        "不確実性信号関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "不確実性信号に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000181_brain_aging.yml",
+      "id": "NEURO-000181",
+      "knowledge_type": "neuroscience",
+      "name_ja": "脳の加齢",
+      "name_en": "Brain Aging",
+      "category": "Neuroscience",
+      "attribute": "Brain Health",
+      "definition_ja": "加齢に伴う脳構造・神経機能・認知機能の変化。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:脳健康",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "脳健康"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "脳の加齢関連反応時間",
+        "脳の加齢関連行動変化",
+        "脳の加齢関連注意変化",
+        "脳の加齢関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "脳の加齢に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000182_cognitive_reserve.yml",
+      "id": "NEURO-000182",
+      "knowledge_type": "neuroscience",
+      "name_ja": "認知予備能",
+      "name_en": "Cognitive Reserve",
+      "category": "Neuroscience",
+      "attribute": "Brain Health",
+      "definition_ja": "脳の変化や負荷に対して認知機能を維持する余力。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:脳健康",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "脳健康"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "認知予備能関連反応時間",
+        "認知予備能関連行動変化",
+        "認知予備能関連注意変化",
+        "認知予備能関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "認知予備能に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000183_neurogenesis.yml",
+      "id": "NEURO-000183",
+      "knowledge_type": "neuroscience",
+      "name_ja": "神経新生",
+      "name_en": "Neurogenesis",
+      "category": "Neuroscience",
+      "attribute": "Brain Health",
+      "definition_ja": "新しい神経細胞が生み出される生物学的過程。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:脳健康",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "脳健康"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "神経新生関連反応時間",
+        "神経新生関連行動変化",
+        "神経新生関連注意変化",
+        "神経新生関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "神経新生に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000184_synaptic_health.yml",
+      "id": "NEURO-000184",
+      "knowledge_type": "neuroscience",
+      "name_ja": "シナプス健康",
+      "name_en": "Synaptic Health",
+      "category": "Neuroscience",
+      "attribute": "Brain Health",
+      "definition_ja": "神経細胞間の接続や伝達効率が良好に保たれている状態。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:脳健康",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "脳健康"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "シナプス健康関連反応時間",
+        "シナプス健康関連行動変化",
+        "シナプス健康関連注意変化",
+        "シナプス健康関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "シナプス健康に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000185_white_matter_integrity.yml",
+      "id": "NEURO-000185",
+      "knowledge_type": "neuroscience",
+      "name_ja": "白質健全性",
+      "name_en": "White Matter Integrity",
+      "category": "Neuroscience",
+      "attribute": "Brain Health",
+      "definition_ja": "脳領域間の情報伝達を支える白質構造の健全性。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:脳健康",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "脳健康"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "白質健全性関連反応時間",
+        "白質健全性関連行動変化",
+        "白質健全性関連注意変化",
+        "白質健全性関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "白質健全性に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000186_gray_matter_density.yml",
+      "id": "NEURO-000186",
+      "knowledge_type": "neuroscience",
+      "name_ja": "灰白質密度",
+      "name_en": "Gray Matter Density",
+      "category": "Neuroscience",
+      "attribute": "Brain Health",
+      "definition_ja": "神経細胞体が多く含まれる灰白質領域の構造的特徴。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:脳健康",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "脳健康"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "灰白質密度関連反応時間",
+        "灰白質密度関連行動変化",
+        "灰白質密度関連注意変化",
+        "灰白質密度関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "灰白質密度に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000187_neuroinflammation.yml",
+      "id": "NEURO-000187",
+      "knowledge_type": "neuroscience",
+      "name_ja": "神経炎症",
+      "name_en": "Neuroinflammation",
+      "category": "Neuroscience",
+      "attribute": "Brain Health",
+      "definition_ja": "脳や神経系における炎症反応で、認知や気分に影響し得る状態。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:脳健康",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "脳健康"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "神経炎症関連反応時間",
+        "神経炎症関連行動変化",
+        "神経炎症関連注意変化",
+        "神経炎症関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "神経炎症に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000188_oxidative_stress.yml",
+      "id": "NEURO-000188",
+      "knowledge_type": "neuroscience",
+      "name_ja": "酸化ストレス",
+      "name_en": "Oxidative Stress",
+      "category": "Neuroscience",
+      "attribute": "Brain Health",
+      "definition_ja": "活性酸素などによる細胞への負荷が神経機能に影響する状態。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:脳健康",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "脳健康"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "酸化ストレス関連反応時間",
+        "酸化ストレス関連行動変化",
+        "酸化ストレス関連注意変化",
+        "酸化ストレス関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "酸化ストレスに関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000189_brain_energy_metabolism.yml",
+      "id": "NEURO-000189",
+      "knowledge_type": "neuroscience",
+      "name_ja": "脳エネルギー代謝",
+      "name_en": "Brain Energy Metabolism",
+      "category": "Neuroscience",
+      "attribute": "Brain Health",
+      "definition_ja": "脳活動を支える糖代謝・酸素利用・エネルギー供給の仕組み。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:脳健康",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "脳健康"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "脳エネルギー代謝関連反応時間",
+        "脳エネルギー代謝関連行動変化",
+        "脳エネルギー代謝関連注意変化",
+        "脳エネルギー代謝関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "脳エネルギー代謝に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000190_recovery_processes.yml",
+      "id": "NEURO-000190",
+      "knowledge_type": "neuroscience",
+      "name_ja": "回復過程",
+      "name_en": "Recovery Processes",
+      "category": "Neuroscience",
+      "attribute": "Brain Health",
+      "definition_ja": "睡眠・休息・可塑性などを通じて脳機能が回復する過程。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:脳健康",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "脳健康"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "回復過程関連反応時間",
+        "回復過程関連行動変化",
+        "回復過程関連注意変化",
+        "回復過程関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "回復過程に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000191_brain_body_interaction.yml",
+      "id": "NEURO-000191",
+      "knowledge_type": "neuroscience",
+      "name_ja": "脳身体相互作用",
+      "name_en": "Brain Body Interaction",
+      "category": "Neuroscience",
+      "attribute": "Integration",
+      "definition_ja": "脳と身体状態が相互に影響し合い認知・感情・行動を形作る仕組み。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:統合",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "脳身体相互作用関連反応時間",
+        "脳身体相互作用関連行動変化",
+        "脳身体相互作用関連注意変化",
+        "脳身体相互作用関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "脳身体相互作用に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000192_emotion_cognition_integration.yml",
+      "id": "NEURO-000192",
+      "knowledge_type": "neuroscience",
+      "name_ja": "感情認知統合",
+      "name_en": "Emotion Cognition Integration",
+      "category": "Neuroscience",
+      "attribute": "Integration",
+      "definition_ja": "感情処理と認知処理が統合され判断や行動に影響する過程。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:統合",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "感情認知統合関連反応時間",
+        "感情認知統合関連行動変化",
+        "感情認知統合関連注意変化",
+        "感情認知統合関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "感情認知統合に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000193_memory_emotion_integration.yml",
+      "id": "NEURO-000193",
+      "knowledge_type": "neuroscience",
+      "name_ja": "記憶感情統合",
+      "name_en": "Memory Emotion Integration",
+      "category": "Neuroscience",
+      "attribute": "Integration",
+      "definition_ja": "記憶と感情が相互作用し、想起や評価を変化させる過程。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:統合",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "記憶感情統合関連反応時間",
+        "記憶感情統合関連行動変化",
+        "記憶感情統合関連注意変化",
+        "記憶感情統合関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "記憶感情統合に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000194_social_brain_integration.yml",
+      "id": "NEURO-000194",
+      "knowledge_type": "neuroscience",
+      "name_ja": "社会脳統合",
+      "name_en": "Social Brain Integration",
+      "category": "Neuroscience",
+      "attribute": "Integration",
+      "definition_ja": "他者理解・感情・報酬・規範処理が統合される神経認知過程。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:統合",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "社会脳統合関連反応時間",
+        "社会脳統合関連行動変化",
+        "社会脳統合関連注意変化",
+        "社会脳統合関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "社会脳統合に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000195_decision_integration.yml",
+      "id": "NEURO-000195",
+      "knowledge_type": "neuroscience",
+      "name_ja": "意思決定統合",
+      "name_en": "Decision Integration",
+      "category": "Neuroscience",
+      "attribute": "Integration",
+      "definition_ja": "価値・感情・記憶・リスクを統合して選択を形成する過程。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:統合",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "意思決定統合関連反応時間",
+        "意思決定統合関連行動変化",
+        "意思決定統合関連注意変化",
+        "意思決定統合関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "意思決定統合に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000196_executive_integration.yml",
+      "id": "NEURO-000196",
+      "knowledge_type": "neuroscience",
+      "name_ja": "実行制御統合",
+      "name_en": "Executive Integration",
+      "category": "Neuroscience",
+      "attribute": "Integration",
+      "definition_ja": "注意・抑制・記憶・目標保持を統合して行動を制御する過程。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:統合",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "実行制御統合関連反応時間",
+        "実行制御統合関連行動変化",
+        "実行制御統合関連注意変化",
+        "実行制御統合関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "実行制御統合に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000197_attention_integration.yml",
+      "id": "NEURO-000197",
+      "knowledge_type": "neuroscience",
+      "name_ja": "注意統合",
+      "name_en": "Attention Integration",
+      "category": "Neuroscience",
+      "attribute": "Integration",
+      "definition_ja": "感覚入力・目標・顕著性を統合して注意を配分する過程。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:統合",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "注意統合関連反応時間",
+        "注意統合関連行動変化",
+        "注意統合関連注意変化",
+        "注意統合関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "注意統合に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000198_learning_integration.yml",
+      "id": "NEURO-000198",
+      "knowledge_type": "neuroscience",
+      "name_ja": "学習統合",
+      "name_en": "Learning Integration",
+      "category": "Neuroscience",
+      "attribute": "Integration",
+      "definition_ja": "報酬・誤差・記憶・行動結果を統合して学習を更新する過程。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:統合",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "学習統合関連反応時間",
+        "学習統合関連行動変化",
+        "学習統合関連注意変化",
+        "学習統合関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "学習統合に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000199_adaptive_integration.yml",
+      "id": "NEURO-000199",
+      "knowledge_type": "neuroscience",
+      "name_ja": "適応統合",
+      "name_en": "Adaptive Integration",
+      "category": "Neuroscience",
+      "attribute": "Integration",
+      "definition_ja": "環境変化に対して認知・感情・行動を統合的に調整する過程。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:統合",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "適応統合関連反応時間",
+        "適応統合関連行動変化",
+        "適応統合関連注意変化",
+        "適応統合関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "適応統合に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    },
+    {
+      "filename": "NEURO-000200_human_behavior_integration.yml",
+      "id": "NEURO-000200",
+      "knowledge_type": "neuroscience",
+      "name_ja": "人間行動統合",
+      "name_en": "Human Behavior Integration",
+      "category": "Neuroscience",
+      "attribute": "Integration",
+      "definition_ja": "神経・認知・感情・環境要因を統合して人間行動を理解する枠組み。",
+      "tags": [
+        "CAT:神経科学",
+        "CAT:統合",
+        "ATTR:神経基盤"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "生理"
+      ],
+      "observable_data": [
+        "人間行動統合関連反応時間",
+        "人間行動統合関連行動変化",
+        "人間行動統合関連注意変化",
+        "人間行動統合関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "人間行動統合に関連する行動・反応パターンが観測される",
+        "負荷や報酬条件の変化に応じて反応が変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "睡眠",
+        "疲労",
+        "ストレス",
+        "覚醒水準"
+      ],
+      "evidence": "神経科学・認知神経科学・生理心理学で使用",
+      "status": "active"
+    }
+  ]
+}

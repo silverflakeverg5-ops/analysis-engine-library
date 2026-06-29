@@ -1,87 +1,87 @@
 import json
 from pathlib import Path
 
-OUT = Path("data/master_packs/vol6_neuroscience_101_150.json")
+OUT = Path("data/master_packs/vol6_neuroscience_151_200.json")
 
 SECTIONS = [
     {
-        "category": "Neuroscience - Sleep Circadian",
-        "name_ja": "神経科学・睡眠概日",
+        "category": "Neuroscience - Consciousness",
+        "name_ja": "神経科学・意識",
         "items": [
-            ("NEURO-000101", "sleep_architecture", "睡眠構造", "Sleep Architecture", "ノンレム睡眠・レム睡眠などから成る睡眠段階の構成。"),
-            ("NEURO-000102", "rem_sleep", "レム睡眠", "REM Sleep", "夢見・情動記憶・記憶統合に関わる睡眠段階。"),
-            ("NEURO-000103", "non_rem_sleep", "ノンレム睡眠", "Non REM Sleep", "身体回復・記憶固定・脳の休息に関わる睡眠段階。"),
-            ("NEURO-000104", "slow_wave_sleep", "徐波睡眠", "Slow Wave Sleep", "深いノンレム睡眠で、記憶固定や回復に関わる睡眠状態。"),
-            ("NEURO-000105", "circadian_rhythm", "概日リズム", "Circadian Rhythm", "約24時間周期で睡眠・覚醒・体温・ホルモン分泌などを調整する生体リズム。"),
-            ("NEURO-000106", "sleep_pressure", "睡眠圧", "Sleep Pressure", "覚醒時間の長さに応じて高まる眠気や睡眠欲求。"),
-            ("NEURO-000107", "chronotype", "クロノタイプ", "Chronotype", "朝型・夜型など、活動しやすい時間帯に関する個人差。"),
-            ("NEURO-000108", "sleep_deprivation_effect", "睡眠不足影響", "Sleep Deprivation Effect", "睡眠不足により注意・記憶・感情制御・判断が低下する影響。"),
-            ("NEURO-000109", "sleep_memory_consolidation", "睡眠中記憶固定", "Sleep Memory Consolidation", "睡眠中に学習内容や経験記憶が安定化・再編成される過程。"),
-            ("NEURO-000110", "circadian_misalignment", "概日リズム不一致", "Circadian Misalignment", "生活時間と体内リズムのずれによって覚醒や認知機能が低下する状態。")
+            ("NEURO-000151", "conscious_awareness", "意識的気づき", "Conscious Awareness", "自分の知覚・思考・感情・行動に気づいている状態。"),
+            ("NEURO-000152", "global_workspace", "グローバルワークスペース", "Global Workspace", "複数の認知処理へ情報を広く共有する意識処理の理論的枠組み。"),
+            ("NEURO-000153", "attention_and_consciousness", "注意と意識", "Attention and Consciousness", "注意の向け方と意識的経験の関係に関わる神経認知過程。"),
+            ("NEURO-000154", "self_awareness", "自己意識", "Self Awareness", "自分自身の状態・行動・存在を対象化して認識する能力。"),
+            ("NEURO-000155", "agency", "主体感", "Agency", "自分が行動を起こしていると感じる意識経験。"),
+            ("NEURO-000156", "sense_of_ownership", "所有感", "Sense of Ownership", "身体や行動結果が自分に属していると感じる意識経験。"),
+            ("NEURO-000157", "mental_simulation", "心的シミュレーション", "Mental Simulation", "現実には起きていない状況や行動を頭の中で想像・予測する過程。"),
+            ("NEURO-000158", "internal_speech", "内言", "Internal Speech", "声に出さずに頭の中で言語的に考える認知過程。"),
+            ("NEURO-000159", "mind_wandering", "マインドワンダリング", "Mind Wandering", "現在の課題から注意が離れ、内的な思考へ移る状態。"),
+            ("NEURO-000160", "meta_awareness", "メタ的気づき", "Meta Awareness", "自分が何を考え、どの状態にあるかに気づく高次の意識過程。")
         ]
     },
     {
-        "category": "Neuroscience - Interoception Body Signals",
-        "name_ja": "神経科学・内受容身体信号",
+        "category": "Neuroscience - Predictive Brain",
+        "name_ja": "神経科学・予測脳",
         "items": [
-            ("NEURO-000111", "interoception", "内受容感覚", "Interoception", "心拍・呼吸・空腹・緊張など身体内部状態を感じ取る感覚。"),
-            ("NEURO-000112", "heartbeat_perception", "心拍知覚", "Heartbeat Perception", "心拍の変化や身体的覚醒を感知する内受容過程。"),
-            ("NEURO-000113", "breathing_regulation", "呼吸調整", "Breathing Regulation", "呼吸の深さや速さを通じて覚醒や情動状態を調整する過程。"),
-            ("NEURO-000114", "body_awareness", "身体意識", "Body Awareness", "身体姿勢・緊張・疲労・感覚状態に気づく認知身体過程。"),
-            ("NEURO-000115", "somatic_marker", "ソマティックマーカー", "Somatic Marker", "身体反応が意思決定や価値判断の手がかりになる仕組み。"),
-            ("NEURO-000116", "autonomic_arousal", "自律神経覚醒", "Autonomic Arousal", "交感神経・副交感神経の活動変化による身体的覚醒状態。"),
-            ("NEURO-000117", "heart_rate_variability", "心拍変動", "Heart Rate Variability", "心拍間隔の変動で、ストレス回復や自律神経調整の指標として扱われる。"),
-            ("NEURO-000118", "physiological_stress_signal", "生理的ストレス信号", "Physiological Stress Signal", "心拍・呼吸・皮膚反応などに現れるストレス関連の身体信号。"),
-            ("NEURO-000119", "fatigue_signal", "疲労信号", "Fatigue Signal", "眠気・反応遅延・筋緊張低下などに現れる疲労関連の身体信号。"),
-            ("NEURO-000120", "embodied_cognition", "身体化認知", "Embodied Cognition", "身体状態や身体運動が認知・感情・判断に影響するという考え方。")
+            ("NEURO-000161", "predictive_coding", "予測符号化", "Predictive Coding", "脳が予測と入力の差を使って知覚や行動を更新する考え方。"),
+            ("NEURO-000162", "prediction_error", "予測誤差", "Prediction Error", "予測された入力や結果と実際の入力や結果との差。"),
+            ("NEURO-000163", "bayesian_brain", "ベイズ脳", "Bayesian Brain", "脳が事前知識と新しい情報を統合して推定するという理論的枠組み。"),
+            ("NEURO-000164", "active_inference", "能動的推論", "Active Inference", "予測誤差を減らすために知覚や行動を調整する神経認知過程。"),
+            ("NEURO-000165", "sensory_prediction", "感覚予測", "Sensory Prediction", "自分の行動や環境変化によって生じる感覚入力を予測する過程。"),
+            ("NEURO-000166", "motor_prediction", "運動予測", "Motor Prediction", "自分の運動がもたらす結果や感覚変化を予測する過程。"),
+            ("NEURO-000167", "surprise_processing", "驚き処理", "Surprise Processing", "予測と異なる出来事に対して注意や学習を更新する処理。"),
+            ("NEURO-000168", "expectation_updating", "期待更新", "Expectation Updating", "経験や結果に基づいて将来予測や期待値を修正する過程。"),
+            ("NEURO-000169", "environmental_modeling", "環境モデル化", "Environmental Modeling", "周囲の規則性や構造を内部モデルとして形成する過程。"),
+            ("NEURO-000170", "adaptive_prediction", "適応的予測", "Adaptive Prediction", "状況変化に合わせて予測モデルを柔軟に更新する過程。")
         ]
     },
     {
-        "category": "Neuroscience - Decision Valuation",
-        "name_ja": "神経科学・意思決定価値評価",
+        "category": "Neuroscience - Learning Signals",
+        "name_ja": "神経科学・学習信号",
         "items": [
-            ("NEURO-000121", "valuation_system", "価値評価システム", "Valuation System", "選択肢の価値・報酬・コストを評価する神経システム。"),
-            ("NEURO-000122", "subjective_value", "主観的価値", "Subjective Value", "個人が選択肢に対して感じる価値や魅力度。"),
-            ("NEURO-000123", "expected_value_computation", "期待価値計算", "Expected Value Computation", "報酬量と確率を統合して選択肢の期待価値を推定する過程。"),
-            ("NEURO-000124", "effort_cost_computation", "努力コスト計算", "Effort Cost Computation", "行動に必要な労力や負荷を価値判断に反映する過程。"),
-            ("NEURO-000125", "social_value_computation", "社会的価値計算", "Social Value Computation", "承認・信頼・所属・評判など社会的要素を価値判断に反映する過程。"),
-            ("NEURO-000126", "uncertainty_processing_neural", "不確実性処理の神経基盤", "Neural Uncertainty Processing", "結果や確率が不明確な状況で選択を調整する神経過程。"),
-            ("NEURO-000127", "exploration_exploitation_balance", "探索活用バランス", "Exploration Exploitation Balance", "新しい選択肢を試すか既知の良い選択肢を使うかを調整する過程。"),
-            ("NEURO-000128", "action_selection_neural", "行動選択の神経基盤", "Neural Action Selection", "複数の可能な行動から一つを選ぶ神経認知過程。"),
-            ("NEURO-000129", "choice_conflict_neural", "選択葛藤の神経基盤", "Neural Choice Conflict", "複数の選択肢が競合する際に生じる神経認知的葛藤。"),
-            ("NEURO-000130", "value_updating", "価値更新", "Value Updating", "経験やフィードバックにより選択肢の価値評価を更新する過程。")
+            ("NEURO-000171", "dopamine_learning_signal", "ドーパミン学習信号", "Dopamine Learning Signal", "報酬予測誤差や動機づけの更新に関わるドーパミン系信号。"),
+            ("NEURO-000172", "error_driven_learning", "誤差駆動学習", "Error Driven Learning", "予測や行動結果の誤差を使って学習を進める過程。"),
+            ("NEURO-000173", "hebbian_learning", "ヘッブ学習", "Hebbian Learning", "同時に活動する神経細胞間の結合が強まる学習原理。"),
+            ("NEURO-000174", "reinforcement_plasticity", "強化可塑性", "Reinforcement Plasticity", "報酬や罰の経験によって神経結合や行動選択が変化する性質。"),
+            ("NEURO-000175", "reward_expectation", "報酬期待", "Reward Expectation", "将来得られる報酬の大きさや可能性を予測する神経過程。"),
+            ("NEURO-000176", "punishment_learning", "罰学習", "Punishment Learning", "不快な結果や損失を避けるために行動を調整する学習過程。"),
+            ("NEURO-000177", "novelty_detection", "新奇性検出", "Novelty Detection", "新しい刺激や予期しない情報を検出し注意や学習を促す過程。"),
+            ("NEURO-000178", "salience_coding", "顕著性符号化", "Salience Coding", "重要性や目立ちやすさを神経信号として表現する過程。"),
+            ("NEURO-000179", "confidence_signal", "確信度信号", "Confidence Signal", "判断や選択の確かさを表す神経認知的信号。"),
+            ("NEURO-000180", "uncertainty_signal", "不確実性信号", "Uncertainty Signal", "結果や環境の不確実性を表す神経認知的信号。")
         ]
     },
     {
-        "category": "Neuroscience - Motor Action",
-        "name_ja": "神経科学・運動行動",
+        "category": "Neuroscience - Brain Health",
+        "name_ja": "神経科学・脳健康",
         "items": [
-            ("NEURO-000131", "motor_cortex", "運動皮質", "Motor Cortex", "随意運動の計画と実行に関わる大脳皮質領域。"),
-            ("NEURO-000132", "premotor_cortex", "運動前野", "Premotor Cortex", "運動準備・行動選択・視覚情報に基づく運動制御に関わる領域。"),
-            ("NEURO-000133", "supplementary_motor_area", "補足運動野", "Supplementary Motor Area", "系列運動・自発的行動開始・運動計画に関わる領域。"),
-            ("NEURO-000134", "cerebellum", "小脳", "Cerebellum", "運動調整・タイミング・誤差学習・予測制御に関わる脳領域。"),
-            ("NEURO-000135", "basal_ganglia", "大脳基底核", "Basal Ganglia", "行動選択・習慣・報酬学習・運動開始に関わる神経回路。"),
-            ("NEURO-000136", "motor_learning", "運動学習", "Motor Learning", "練習やフィードバックにより運動技能が改善する学習過程。"),
-            ("NEURO-000137", "procedural_learning_neural", "手続き学習の神経基盤", "Neural Procedural Learning", "技能や操作手順を習得する神経学習過程。"),
-            ("NEURO-000138", "action_planning", "行動計画", "Action Planning", "目標達成のために身体動作や操作手順を準備する神経認知過程。"),
-            ("NEURO-000139", "sensorimotor_prediction", "感覚運動予測", "Sensorimotor Prediction", "自分の行動が生む感覚結果を予測する神経過程。"),
-            ("NEURO-000140", "motor_inhibition", "運動抑制", "Motor Inhibition", "開始された、または準備された運動反応を停止・抑制する神経機能。")
+            ("NEURO-000181", "brain_aging", "脳の加齢", "Brain Aging", "加齢に伴う脳構造・神経機能・認知機能の変化。"),
+            ("NEURO-000182", "cognitive_reserve", "認知予備能", "Cognitive Reserve", "脳の変化や負荷に対して認知機能を維持する余力。"),
+            ("NEURO-000183", "neurogenesis", "神経新生", "Neurogenesis", "新しい神経細胞が生み出される生物学的過程。"),
+            ("NEURO-000184", "synaptic_health", "シナプス健康", "Synaptic Health", "神経細胞間の接続や伝達効率が良好に保たれている状態。"),
+            ("NEURO-000185", "white_matter_integrity", "白質健全性", "White Matter Integrity", "脳領域間の情報伝達を支える白質構造の健全性。"),
+            ("NEURO-000186", "gray_matter_density", "灰白質密度", "Gray Matter Density", "神経細胞体が多く含まれる灰白質領域の構造的特徴。"),
+            ("NEURO-000187", "neuroinflammation", "神経炎症", "Neuroinflammation", "脳や神経系における炎症反応で、認知や気分に影響し得る状態。"),
+            ("NEURO-000188", "oxidative_stress", "酸化ストレス", "Oxidative Stress", "活性酸素などによる細胞への負荷が神経機能に影響する状態。"),
+            ("NEURO-000189", "brain_energy_metabolism", "脳エネルギー代謝", "Brain Energy Metabolism", "脳活動を支える糖代謝・酸素利用・エネルギー供給の仕組み。"),
+            ("NEURO-000190", "recovery_processes", "回復過程", "Recovery Processes", "睡眠・休息・可塑性などを通じて脳機能が回復する過程。")
         ]
     },
     {
-        "category": "Neuroscience - Individual Differences",
-        "name_ja": "神経科学・個人差",
+        "category": "Neuroscience - Integration",
+        "name_ja": "神経科学・統合",
         "items": [
-            ("NEURO-000141", "neural_efficiency", "神経効率性", "Neural Efficiency", "課題遂行に必要な神経資源を効率的に使う性質。"),
-            ("NEURO-000142", "trait_anxiety_neural_basis", "特性不安の神経基盤", "Neural Basis of Trait Anxiety", "不安傾向と脅威処理・情動調整に関わる神経基盤。"),
-            ("NEURO-000143", "impulsivity_neural_basis", "衝動性の神経基盤", "Neural Basis of Impulsivity", "即時反応・抑制困難・報酬接近に関わる神経基盤。"),
-            ("NEURO-000144", "sensation_seeking_neural_basis", "刺激希求の神経基盤", "Neural Basis of Sensation Seeking", "新奇性や強い刺激を求める傾向に関わる神経基盤。"),
-            ("NEURO-000145", "resilience_neural_basis", "レジリエンスの神経基盤", "Neural Basis of Resilience", "ストレスや失敗後の回復に関わる神経基盤。"),
-            ("NEURO-000146", "empathy_individual_difference", "共感の個人差", "Individual Differences in Empathy", "他者感情への反応や理解の強さに関する神経認知的個人差。"),
-            ("NEURO-000147", "reward_sensitivity_difference", "報酬感受性の個人差", "Individual Differences in Reward Sensitivity", "報酬刺激への反応しやすさや接近行動の個人差。"),
-            ("NEURO-000148", "stress_reactivity_difference", "ストレス反応性の個人差", "Individual Differences in Stress Reactivity", "負荷や脅威に対する身体・神経反応の個人差。"),
-            ("NEURO-000149", "cognitive_control_difference", "認知制御の個人差", "Individual Differences in Cognitive Control", "抑制・切替・目標保持など認知制御の強さに関する個人差。"),
-            ("NEURO-000150", "sleep_need_difference", "睡眠必要量の個人差", "Individual Differences in Sleep Need", "十分な回復や認知機能維持に必要な睡眠量の個人差。")
+            ("NEURO-000191", "brain_body_interaction", "脳身体相互作用", "Brain Body Interaction", "脳と身体状態が相互に影響し合い認知・感情・行動を形作る仕組み。"),
+            ("NEURO-000192", "emotion_cognition_integration", "感情認知統合", "Emotion Cognition Integration", "感情処理と認知処理が統合され判断や行動に影響する過程。"),
+            ("NEURO-000193", "memory_emotion_integration", "記憶感情統合", "Memory Emotion Integration", "記憶と感情が相互作用し、想起や評価を変化させる過程。"),
+            ("NEURO-000194", "social_brain_integration", "社会脳統合", "Social Brain Integration", "他者理解・感情・報酬・規範処理が統合される神経認知過程。"),
+            ("NEURO-000195", "decision_integration", "意思決定統合", "Decision Integration", "価値・感情・記憶・リスクを統合して選択を形成する過程。"),
+            ("NEURO-000196", "executive_integration", "実行制御統合", "Executive Integration", "注意・抑制・記憶・目標保持を統合して行動を制御する過程。"),
+            ("NEURO-000197", "attention_integration", "注意統合", "Attention Integration", "感覚入力・目標・顕著性を統合して注意を配分する過程。"),
+            ("NEURO-000198", "learning_integration", "学習統合", "Learning Integration", "報酬・誤差・記憶・行動結果を統合して学習を更新する過程。"),
+            ("NEURO-000199", "adaptive_integration", "適応統合", "Adaptive Integration", "環境変化に対して認知・感情・行動を統合的に調整する過程。"),
+            ("NEURO-000200", "human_behavior_integration", "人間行動統合", "Human Behavior Integration", "神経・認知・感情・環境要因を統合して人間行動を理解する枠組み。")
         ]
     }
 ]
@@ -136,8 +136,8 @@ def main():
     ])
 
     pack = {
-        "output_dir": "vol6_neuroscience/neuroscience_101_150",
-        "index_filename": "neuroscience_101_150_index.yml",
+        "output_dir": "vol6_neuroscience/neuroscience_151_200",
+        "index_filename": "neuroscience_151_200_index.yml",
         "index_content": "\n".join(index_lines) + "\n",
         "items": all_items
     }

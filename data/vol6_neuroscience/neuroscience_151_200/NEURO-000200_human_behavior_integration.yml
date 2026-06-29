@@ -1,0 +1,33 @@
+id: NEURO-000200
+knowledge_type: neuroscience
+name_ja: 人間行動統合
+name_en: Human Behavior Integration
+category: Neuroscience
+attribute: Integration
+definition_ja: 神経・認知・感情・環境要因を統合して人間行動を理解する枠組み。
+tags:
+  - CAT:神経科学
+  - CAT:統合
+  - ATTR:神経基盤
+parent:
+  - 統合
+related:
+  - 認知科学
+  - 行動観測
+  - 生理
+observable_data:
+  - 人間行動統合関連反応時間
+  - 人間行動統合関連行動変化
+  - 人間行動統合関連注意変化
+  - 人間行動統合関連ストレス反応
+signal_candidates:
+  - 人間行動統合に関連する行動・反応パターンが観測される
+  - 負荷や報酬条件の変化に応じて反応が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 睡眠
+  - 疲労
+  - ストレス
+  - 覚醒水準
+evidence: 神経科学・認知神経科学・生理心理学で使用
+status: active

@@ -1,0 +1,33 @@
+id: NEURO-000168
+knowledge_type: neuroscience
+name_ja: 期待更新
+name_en: Expectation Updating
+category: Neuroscience
+attribute: Predictive Brain
+definition_ja: 経験や結果に基づいて将来予測や期待値を修正する過程。
+tags:
+  - CAT:神経科学
+  - CAT:予測脳
+  - ATTR:神経基盤
+parent:
+  - 予測脳
+related:
+  - 認知科学
+  - 行動観測
+  - 生理
+observable_data:
+  - 期待更新関連反応時間
+  - 期待更新関連行動変化
+  - 期待更新関連注意変化
+  - 期待更新関連ストレス反応
+signal_candidates:
+  - 期待更新に関連する行動・反応パターンが観測される
+  - 負荷や報酬条件の変化に応じて反応が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 睡眠
+  - 疲労
+  - ストレス
+  - 覚醒水準
+evidence: 神経科学・認知神経科学・生理心理学で使用
+status: active

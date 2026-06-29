@@ -1,0 +1,33 @@
+id: COGSCI-000050
+knowledge_type: cognitive_science
+name_ja: 意思決定葛藤
+name_en: Decision Conflict
+category: Cognitive Science
+attribute: Decision Making
+definition_ja: 複数の選択肢や価値が競合し、判断が難しくなる状態。
+tags:
+  - CAT:認知科学
+  - CAT:意思決定
+  - ATTR:認知機能
+parent:
+  - 意思決定
+related:
+  - 認知能力
+  - 行動観測
+  - 認知バイアス
+observable_data:
+  - 意思決定葛藤関連反応時間
+  - 意思決定葛藤関連正答率
+  - 意思決定葛藤関連エラー率
+  - 意思決定葛藤関連行動変化
+signal_candidates:
+  - 意思決定葛藤に関連する行動パターンが観測される
+  - 課題条件の変化に応じて反応や成績が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 注意
+  - ストレス
+  - 課題難易度
+evidence: 認知科学・認知心理学・HCI研究で使用
+status: active

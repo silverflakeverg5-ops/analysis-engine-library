@@ -1,0 +1,33 @@
+id: COGSCI-000023
+knowledge_type: cognitive_science
+name_ja: 認知的柔軟性
+name_en: Cognitive Flexibility
+category: Cognitive Science
+attribute: Executive Function
+definition_ja: 状況変化に応じて考え方や方略を切り替える認知機能。
+tags:
+  - CAT:認知科学
+  - CAT:実行機能
+  - ATTR:認知機能
+parent:
+  - 実行機能
+related:
+  - 認知能力
+  - 行動観測
+  - 認知バイアス
+observable_data:
+  - 認知的柔軟性関連反応時間
+  - 認知的柔軟性関連正答率
+  - 認知的柔軟性関連エラー率
+  - 認知的柔軟性関連行動変化
+signal_candidates:
+  - 認知的柔軟性に関連する行動パターンが観測される
+  - 課題条件の変化に応じて反応や成績が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 注意
+  - ストレス
+  - 課題難易度
+evidence: 認知科学・認知心理学・HCI研究で使用
+status: active

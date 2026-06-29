@@ -1,0 +1,33 @@
+id: COGSCI-000048
+knowledge_type: cognitive_science
+name_ja: 選好形成
+name_en: Preference Construction
+category: Cognitive Science
+attribute: Decision Making
+definition_ja: 選択場面や文脈の中で好みや価値判断が形成される過程。
+tags:
+  - CAT:認知科学
+  - CAT:意思決定
+  - ATTR:認知機能
+parent:
+  - 意思決定
+related:
+  - 認知能力
+  - 行動観測
+  - 認知バイアス
+observable_data:
+  - 選好形成関連反応時間
+  - 選好形成関連正答率
+  - 選好形成関連エラー率
+  - 選好形成関連行動変化
+signal_candidates:
+  - 選好形成に関連する行動パターンが観測される
+  - 課題条件の変化に応じて反応や成績が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 注意
+  - ストレス
+  - 課題難易度
+evidence: 認知科学・認知心理学・HCI研究で使用
+status: active

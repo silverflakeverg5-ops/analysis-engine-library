@@ -1,0 +1,33 @@
+id: COGSCI-000010
+knowledge_type: cognitive_science
+name_ja: 集中回復
+name_en: Focus Recovery
+category: Cognitive Science
+attribute: Attention
+definition_ja: 中断や妨害後に元の課題へ注意を戻す認知的機能。
+tags:
+  - CAT:認知科学
+  - CAT:注意
+  - ATTR:認知機能
+parent:
+  - 注意
+related:
+  - 認知能力
+  - 行動観測
+  - 認知バイアス
+observable_data:
+  - 集中回復関連反応時間
+  - 集中回復関連正答率
+  - 集中回復関連エラー率
+  - 集中回復関連行動変化
+signal_candidates:
+  - 集中回復に関連する行動パターンが観測される
+  - 課題条件の変化に応じて反応や成績が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 注意
+  - ストレス
+  - 課題難易度
+evidence: 認知科学・認知心理学・HCI研究で使用
+status: active

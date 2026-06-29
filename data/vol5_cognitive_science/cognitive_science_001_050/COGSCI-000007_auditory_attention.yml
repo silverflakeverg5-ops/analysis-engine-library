@@ -1,0 +1,33 @@
+id: COGSCI-000007
+knowledge_type: cognitive_science
+name_ja: 聴覚的注意
+name_en: Auditory Attention
+category: Cognitive Science
+attribute: Attention
+definition_ja: 音声や環境音の中から重要な情報を選択・処理する認知機能。
+tags:
+  - CAT:認知科学
+  - CAT:注意
+  - ATTR:認知機能
+parent:
+  - 注意
+related:
+  - 認知能力
+  - 行動観測
+  - 認知バイアス
+observable_data:
+  - 聴覚的注意関連反応時間
+  - 聴覚的注意関連正答率
+  - 聴覚的注意関連エラー率
+  - 聴覚的注意関連行動変化
+signal_candidates:
+  - 聴覚的注意に関連する行動パターンが観測される
+  - 課題条件の変化に応じて反応や成績が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 注意
+  - ストレス
+  - 課題難易度
+evidence: 認知科学・認知心理学・HCI研究で使用
+status: active

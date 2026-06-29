@@ -1,0 +1,33 @@
+id: COGSCI-000018
+knowledge_type: cognitive_science
+name_ja: 干渉制御
+name_en: Interference Control
+category: Cognitive Science
+attribute: Working Memory
+definition_ja: 不要な情報が記憶処理を妨げる影響を抑える認知機能。
+tags:
+  - CAT:認知科学
+  - CAT:ワーキングメモリ
+  - ATTR:認知機能
+parent:
+  - ワーキングメモリ
+related:
+  - 認知能力
+  - 行動観測
+  - 認知バイアス
+observable_data:
+  - 干渉制御関連反応時間
+  - 干渉制御関連正答率
+  - 干渉制御関連エラー率
+  - 干渉制御関連行動変化
+signal_candidates:
+  - 干渉制御に関連する行動パターンが観測される
+  - 課題条件の変化に応じて反応や成績が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 注意
+  - ストレス
+  - 課題難易度
+evidence: 認知科学・認知心理学・HCI研究で使用
+status: active

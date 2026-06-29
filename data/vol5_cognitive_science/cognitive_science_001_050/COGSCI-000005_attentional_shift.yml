@@ -1,0 +1,33 @@
+id: COGSCI-000005
+knowledge_type: cognitive_science
+name_ja: 注意切替
+name_en: Attentional Shift
+category: Cognitive Science
+attribute: Attention
+definition_ja: 一つの対象や課題から別の対象へ注意を移す認知機能。
+tags:
+  - CAT:認知科学
+  - CAT:注意
+  - ATTR:認知機能
+parent:
+  - 注意
+related:
+  - 認知能力
+  - 行動観測
+  - 認知バイアス
+observable_data:
+  - 注意切替関連反応時間
+  - 注意切替関連正答率
+  - 注意切替関連エラー率
+  - 注意切替関連行動変化
+signal_candidates:
+  - 注意切替に関連する行動パターンが観測される
+  - 課題条件の変化に応じて反応や成績が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 注意
+  - ストレス
+  - 課題難易度
+evidence: 認知科学・認知心理学・HCI研究で使用
+status: active

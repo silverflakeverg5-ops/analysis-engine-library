@@ -1,0 +1,33 @@
+id: COGSCI-000031
+knowledge_type: cognitive_science
+name_ja: 強化学習
+name_en: Reinforcement Learning
+category: Cognitive Science
+attribute: Learning
+definition_ja: 報酬や罰のフィードバックを通じて行動選択を調整する学習過程。
+tags:
+  - CAT:認知科学
+  - CAT:学習
+  - ATTR:認知機能
+parent:
+  - 学習
+related:
+  - 認知能力
+  - 行動観測
+  - 認知バイアス
+observable_data:
+  - 強化学習関連反応時間
+  - 強化学習関連正答率
+  - 強化学習関連エラー率
+  - 強化学習関連行動変化
+signal_candidates:
+  - 強化学習に関連する行動パターンが観測される
+  - 課題条件の変化に応じて反応や成績が変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 注意
+  - ストレス
+  - 課題難易度
+evidence: 認知科学・認知心理学・HCI研究で使用
+status: active

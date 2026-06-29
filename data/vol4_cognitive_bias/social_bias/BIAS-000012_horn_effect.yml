@@ -1,0 +1,33 @@
+id: BIAS-000012
+knowledge_type: cognitive_bias
+name_ja: ホーン効果
+name_en: Horn Effect
+category: Cognitive Bias
+attribute: Social Bias
+definition_ja: ある目立つ悪い特徴が、他の無関係な評価にも悪影響を与えやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:社会的判断
+  - ATTR:人物評価
+parent:
+  - 社会的バイアス
+related:
+  - 印象形成
+  - 人物評価
+  - ネガティビティバイアス
+observable_data:
+  - 低評価対象への一貫低評価率
+  - 失敗情報後評価低下
+  - 否定的特徴依存評価率
+  - 再評価率
+signal_candidates:
+  - 一つの悪い特徴から全体評価を低くする
+  - 初期失敗後に評価を戻しにくい
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 第一印象
+  - 失敗の目立ちやすさ
+  - 評価不安
+  - 情報更新頻度
+evidence: 社会心理学・印象形成研究・評価研究で使用
+status: active

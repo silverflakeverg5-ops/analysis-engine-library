@@ -1,0 +1,33 @@
+id: BIAS-000014
+knowledge_type: cognitive_bias
+name_ja: 自己奉仕バイアス
+name_en: Self Serving Bias
+category: Cognitive Bias
+attribute: Social Bias
+definition_ja: 成功を自分の能力や努力に、失敗を外部要因や状況に帰属しやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:自己評価
+  - ATTR:原因帰属
+parent:
+  - 社会的バイアス
+related:
+  - 原因帰属
+  - 自己評価
+  - 防衛的行動
+observable_data:
+  - 成功時自己要因選択率
+  - 失敗時外部要因選択率
+  - 責任回避表現率
+  - 失敗後説明回数
+signal_candidates:
+  - 成功は自分の力、失敗は環境のせいと見やすい
+  - 失敗後に外部要因の説明が増える
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 自尊感情
+  - 評価環境
+  - 失敗コスト
+  - 責任範囲
+evidence: 社会心理学・自己評価研究・帰属理論で使用
+status: active

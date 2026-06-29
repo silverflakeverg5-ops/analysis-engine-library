@@ -1,0 +1,33 @@
+id: BIAS-000019
+knowledge_type: cognitive_bias
+name_ja: バンドワゴン効果
+name_en: Bandwagon Effect
+category: Cognitive Bias
+attribute: Social Bias
+definition_ja: 多くの人が支持・選択しているものを、自分も好ましいまたは正しいと判断しやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:社会的影響
+  - ATTR:多数派依存
+parent:
+  - 社会的バイアス
+related:
+  - 同調行動
+  - 社会的証明
+  - 人気効果
+observable_data:
+  - 人気順選択率
+  - レビュー数参照率
+  - 多数派選択率
+  - ランキング表示後選択変化
+signal_candidates:
+  - 人気や多数派表示で選択が変わる
+  - ランキング上位を選びやすい
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 不確実性
+  - レビュー信頼性
+  - 集団規模
+  - 選択コスト
+evidence: 社会的証明研究・消費者行動研究・社会心理学で使用
+status: active

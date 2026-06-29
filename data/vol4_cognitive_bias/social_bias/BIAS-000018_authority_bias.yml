@@ -1,0 +1,33 @@
+id: BIAS-000018
+knowledge_type: cognitive_bias
+name_ja: 権威バイアス
+name_en: Authority Bias
+category: Cognitive Bias
+attribute: Social Bias
+definition_ja: 専門家・肩書き・権威ある人物や機関の意見を、内容の妥当性以上に重視しやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:社会的影響
+  - ATTR:権威依存
+parent:
+  - 社会的バイアス
+related:
+  - ハロー効果
+  - 同調行動
+  - 信頼判断
+observable_data:
+  - 肩書き表示後選択率
+  - 専門家推奨参照率
+  - 権威情報後意見変更率
+  - 内容比較省略率
+signal_candidates:
+  - 肩書きや公式感で判断が変わる
+  - 権威ある情報を優先して選ぶ
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 専門性表示
+  - 自信
+  - 知識量
+  - 不確実性
+evidence: 社会的影響研究・意思決定研究・消費者行動研究で使用
+status: active

@@ -1,0 +1,33 @@
+id: BIAS-000011
+knowledge_type: cognitive_bias
+name_ja: ハロー効果
+name_en: Halo Effect
+category: Cognitive Bias
+attribute: Social Bias
+definition_ja: ある目立つ良い特徴が、他の無関係な評価にも好影響を与えやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:社会的判断
+  - ATTR:人物評価
+parent:
+  - 社会的バイアス
+related:
+  - 印象形成
+  - 人物評価
+  - 権威バイアス
+observable_data:
+  - 高評価対象への一貫高評価率
+  - 外見情報後評価変化
+  - 人気指標参照後選択率
+  - 単一特徴依存評価率
+signal_candidates:
+  - 一つの良い特徴から全体評価を高くする
+  - 人気や見た目に引きずられて判断する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 第一印象
+  - 情報量
+  - 評価対象の魅力度
+  - 専門性表示
+evidence: 社会心理学・印象形成研究・組織心理学で使用
+status: active

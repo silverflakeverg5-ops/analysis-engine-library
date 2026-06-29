@@ -1,0 +1,33 @@
+id: BIAS-000013
+knowledge_type: cognitive_bias
+name_ja: 基本的帰属錯誤
+name_en: Fundamental Attribution Error
+category: Cognitive Bias
+attribute: Social Bias
+definition_ja: 他者の行動原因を状況要因よりも性格・能力・意図など内的要因に帰属しやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:社会的判断
+  - ATTR:原因推定
+parent:
+  - 社会的バイアス
+related:
+  - 原因帰属
+  - 人物評価
+  - 状況要因
+observable_data:
+  - 行動原因の人物要因選択率
+  - 状況説明無視率
+  - 失敗時人物評価低下
+  - 再説明後評価修正率
+signal_candidates:
+  - 他者の失敗を状況より本人の問題として見る
+  - 背景情報があっても人物評価を変えにくい
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 状況情報量
+  - 関係性
+  - 文化規範
+  - 感情強度
+evidence: 社会心理学・帰属理論研究で使用
+status: active

@@ -1,0 +1,33 @@
+id: BIAS-000020
+knowledge_type: cognitive_bias
+name_ja: 偽の合意効果
+name_en: False Consensus Effect
+category: Cognitive Bias
+attribute: Social Bias
+definition_ja: 自分の意見・選好・行動が、他者にも一般的に共有されていると過大に見積もりやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:社会的判断
+  - ATTR:自己投影
+parent:
+  - 社会的バイアス
+related:
+  - 自己中心性バイアス
+  - 同調期待
+  - 意見推定
+observable_data:
+  - 他者予測と実際の乖離
+  - 自分選択の多数派予測率
+  - 反対意見への驚き反応
+  - 一般化表現率
+signal_candidates:
+  - 自分と同じ考えの人が多いと見積もる
+  - 自分の好みを一般的だと判断する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 所属集団
+  - 情報環境
+  - 接触範囲
+  - 自信
+evidence: 社会心理学・自己投影研究・意見推定研究で使用
+status: active

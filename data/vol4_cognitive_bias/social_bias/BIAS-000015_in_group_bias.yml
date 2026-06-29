@@ -1,0 +1,33 @@
+id: BIAS-000015
+knowledge_type: cognitive_bias
+name_ja: 内集団バイアス
+name_en: In Group Bias
+category: Cognitive Bias
+attribute: Social Bias
+definition_ja: 自分が所属する集団や近い立場の人を、外部の人より好意的に評価しやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:集団
+  - ATTR:社会的判断
+parent:
+  - 社会的バイアス
+related:
+  - 集団同一視
+  - 同調行動
+  - 外集団均質性バイアス
+observable_data:
+  - 所属集団対象選択率
+  - 同属性対象高評価率
+  - 外集団比較時評価差
+  - 仲間支援率
+signal_candidates:
+  - 同じ所属や属性の対象を高く評価する
+  - 内輪の意見や選択を優先する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 所属意識
+  - 競争環境
+  - 集団境界の明確さ
+  - 報酬構造
+evidence: 社会的アイデンティティ理論・集団心理学で使用
+status: active

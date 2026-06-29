@@ -1,0 +1,33 @@
+id: BIAS-000016
+knowledge_type: cognitive_bias
+name_ja: 外集団均質性バイアス
+name_en: Out Group Homogeneity Bias
+category: Cognitive Bias
+attribute: Social Bias
+definition_ja: 自分が属さない集団の成員を、実際より似通っている・一括りにできると見なしやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:集団
+  - ATTR:社会的判断
+parent:
+  - 社会的バイアス
+related:
+  - 内集団バイアス
+  - ステレオタイプ
+  - カテゴリー化
+observable_data:
+  - 外集団一括評価率
+  - 属性ラベル依存評価率
+  - 個別情報無視率
+  - 分類後評価固定率
+signal_candidates:
+  - 外部集団を一括りにして判断する
+  - 個別差より所属ラベルを重視する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 接触経験
+  - 情報量
+  - 競争関係
+  - 文化的距離
+evidence: 集団心理学・ステレオタイプ研究・社会認知研究で使用
+status: active

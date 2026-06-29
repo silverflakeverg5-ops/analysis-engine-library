@@ -1,0 +1,33 @@
+id: BIAS-000017
+knowledge_type: cognitive_bias
+name_ja: 社会的望ましさバイアス
+name_en: Social Desirability Bias
+category: Cognitive Bias
+attribute: Social Bias
+definition_ja: 実際の考えや行動よりも、社会的に好ましい・受け入れられやすい回答や表現を選びやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:回答バイアス
+  - ATTR:自己呈示
+parent:
+  - 社会的バイアス
+related:
+  - 自己呈示
+  - 同調行動
+  - 評価不安
+observable_data:
+  - 模範回答選択率
+  - 匿名時回答変化
+  - 建前表現率
+  - 低評価回避回答率
+signal_candidates:
+  - 無難で良く見える回答を選ぶ
+  - 匿名性が上がると回答傾向が変わる
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 匿名性
+  - 評価者の存在
+  - 質問の敏感さ
+  - 文化規範
+evidence: 心理測定・調査研究・社会心理学で使用
+status: active

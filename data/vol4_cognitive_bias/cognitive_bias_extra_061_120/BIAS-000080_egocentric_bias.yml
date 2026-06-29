@@ -1,0 +1,33 @@
+id: BIAS-000080
+knowledge_type: cognitive_bias
+name_ja: 自己中心性バイアス
+name_en: Egocentric Bias
+category: Cognitive Bias
+attribute: Self Evaluation Bias
+definition_ja: 出来事や関係性を、自分の視点や貢献を中心に解釈しやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:自己評価バイアス
+  - ATTR:判断偏り
+parent:
+  - 自己評価バイアス
+related:
+  - 意思決定
+  - 情報処理
+  - 行動観測
+observable_data:
+  - 自己中心性バイアス関連選択率
+  - 自己中心性バイアス関連反応時間
+  - 自己中心性バイアス関連行動変化
+  - フィードバック後修正率
+signal_candidates:
+  - 自己中心性バイアスに関連する判断の偏りが観測される
+  - 条件変更後も同じ判断傾向が続く
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 情報量
+  - 時間圧
+  - 疲労
+  - 自信
+evidence: 認知心理学・行動経済学・HCI研究で使用
+status: active

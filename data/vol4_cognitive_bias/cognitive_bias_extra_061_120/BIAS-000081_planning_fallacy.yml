@@ -1,0 +1,33 @@
+id: BIAS-000081
+knowledge_type: cognitive_bias
+name_ja: 計画錯誤
+name_en: Planning Fallacy
+category: Cognitive Bias
+attribute: Time Planning Bias
+definition_ja: 作業に必要な時間・労力・障害を過小評価し、計画を楽観的に見積もりやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:時間計画バイアス
+  - ATTR:判断偏り
+parent:
+  - 時間計画バイアス
+related:
+  - 意思決定
+  - 情報処理
+  - 行動観測
+observable_data:
+  - 計画錯誤関連選択率
+  - 計画錯誤関連反応時間
+  - 計画錯誤関連行動変化
+  - フィードバック後修正率
+signal_candidates:
+  - 計画錯誤に関連する判断の偏りが観測される
+  - 条件変更後も同じ判断傾向が続く
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 情報量
+  - 時間圧
+  - 疲労
+  - 自信
+evidence: 認知心理学・行動経済学・HCI研究で使用
+status: active

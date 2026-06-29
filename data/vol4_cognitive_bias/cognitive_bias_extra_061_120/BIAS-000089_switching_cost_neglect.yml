@@ -1,0 +1,33 @@
+id: BIAS-000089
+knowledge_type: cognitive_bias
+name_ja: 切替コスト無視
+name_en: Switching Cost Neglect
+category: Cognitive Bias
+attribute: Time Planning Bias
+definition_ja: タスク切替に伴う時間・注意・疲労のコストを過小評価しやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:時間計画バイアス
+  - ATTR:判断偏り
+parent:
+  - 時間計画バイアス
+related:
+  - 意思決定
+  - 情報処理
+  - 行動観測
+observable_data:
+  - 切替コスト無視関連選択率
+  - 切替コスト無視関連反応時間
+  - 切替コスト無視関連行動変化
+  - フィードバック後修正率
+signal_candidates:
+  - 切替コスト無視に関連する判断の偏りが観測される
+  - 条件変更後も同じ判断傾向が続く
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 情報量
+  - 時間圧
+  - 疲労
+  - 自信
+evidence: 認知心理学・行動経済学・HCI研究で使用
+status: active

@@ -1,0 +1,33 @@
+id: BIAS-000109
+knowledge_type: cognitive_bias
+name_ja: 不作為バイアス
+name_en: Omission Bias
+category: Cognitive Bias
+attribute: Moral Norm Bias
+definition_ja: 行動して悪い結果を生むことを、何もしないで悪い結果になることより強く避けやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:道徳規範バイアス
+  - ATTR:判断偏り
+parent:
+  - 道徳規範バイアス
+related:
+  - 意思決定
+  - 情報処理
+  - 行動観測
+observable_data:
+  - 不作為バイアス関連選択率
+  - 不作為バイアス関連反応時間
+  - 不作為バイアス関連行動変化
+  - フィードバック後修正率
+signal_candidates:
+  - 不作為バイアスに関連する判断の偏りが観測される
+  - 条件変更後も同じ判断傾向が続く
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 情報量
+  - 時間圧
+  - 疲労
+  - 自信
+evidence: 認知心理学・行動経済学・HCI研究で使用
+status: active

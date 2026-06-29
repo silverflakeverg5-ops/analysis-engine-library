@@ -1,0 +1,33 @@
+id: BIAS-000119
+knowledge_type: cognitive_bias
+name_ja: 無限スクロールバイアス
+name_en: Infinite Scroll Bias
+category: Cognitive Bias
+attribute: Digital App Response Bias
+definition_ja: 明確な終点がない表示により、探索や閲覧を継続しやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:デジタル反応バイアス
+  - ATTR:判断偏り
+parent:
+  - デジタル反応バイアス
+related:
+  - 意思決定
+  - 情報処理
+  - 行動観測
+observable_data:
+  - 無限スクロールバイアス関連選択率
+  - 無限スクロールバイアス関連反応時間
+  - 無限スクロールバイアス関連行動変化
+  - フィードバック後修正率
+signal_candidates:
+  - 無限スクロールバイアスに関連する判断の偏りが観測される
+  - 条件変更後も同じ判断傾向が続く
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 情報量
+  - 時間圧
+  - 疲労
+  - 自信
+evidence: 認知心理学・行動経済学・HCI研究で使用
+status: active

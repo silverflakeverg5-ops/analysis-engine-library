@@ -1,0 +1,2527 @@
+{
+  "output_dir": "vol4_cognitive_bias/cognitive_bias_extra_061_120",
+  "index_filename": "cognitive_bias_extra_061_120_index.yml",
+  "index_content": "category: Cognitive Bias Extra\nname_ja: 認知バイアス追加パック\nitems:\n  - BIAS-000061_belief_perseverance.yml\n  - BIAS-000062_belief_bias.yml\n  - BIAS-000063_representativeness_heuristic.yml\n  - BIAS-000064_illusion_of_explanatory_depth.yml\n  - BIAS-000065_knowledge_illusion.yml\n  - BIAS-000066_curse_of_knowledge.yml\n  - BIAS-000067_fluency_effect.yml\n  - BIAS-000068_mere_exposure_effect.yml\n  - BIAS-000069_explanatory_coherence_bias.yml\n  - BIAS-000070_causal_oversimplification.yml\n  - BIAS-000071_dunning_kruger_effect.yml\n  - BIAS-000072_impostor_bias.yml\n  - BIAS-000073_spotlight_effect.yml\n  - BIAS-000074_transparency_illusion.yml\n  - BIAS-000075_better_than_average_effect.yml\n  - BIAS-000076_defensive_attribution.yml\n  - BIAS-000077_impact_bias.yml\n  - BIAS-000078_affective_forecasting_error.yml\n  - BIAS-000079_projection_bias.yml\n  - BIAS-000080_egocentric_bias.yml\n  - BIAS-000081_planning_fallacy.yml\n  - BIAS-000082_time_saving_bias.yml\n  - BIAS-000083_procrastination_bias.yml\n  - BIAS-000084_deadline_effect.yml\n  - BIAS-000085_duration_neglect.yml\n  - BIAS-000086_delay_discounting_bias.yml\n  - BIAS-000087_fresh_start_effect.yml\n  - BIAS-000088_completion_bias.yml\n  - BIAS-000089_switching_cost_neglect.yml\n  - BIAS-000090_future_self_discontinuity.yml\n  - BIAS-000091_information_bias.yml\n  - BIAS-000092_recency_frequency_bias.yml\n  - BIAS-000093_search_satisficing.yml\n  - BIAS-000094_information_overload_effect.yml\n  - BIAS-000095_source_credibility_bias.yml\n  - BIAS-000096_repetition_truth_effect.yml\n  - BIAS-000097_medium_bias.yml\n  - BIAS-000098_visual_dominance_bias.yml\n  - BIAS-000099_complexity_bias.yml\n  - BIAS-000100_simplicity_bias.yml\n  - BIAS-000101_moral_licensing.yml\n  - BIAS-000102_moral_credential_effect.yml\n  - BIAS-000103_just_world_bias.yml\n  - BIAS-000104_victim_blaming_bias.yml\n  - BIAS-000105_purity_bias.yml\n  - BIAS-000106_ingroup_moral_bias.yml\n  - BIAS-000107_intentionality_bias.yml\n  - BIAS-000108_outcome_bias.yml\n  - BIAS-000109_omission_bias.yml\n  - BIAS-000110_rule_based_bias.yml\n  - BIAS-000111_notification_salience_bias.yml\n  - BIAS-000112_streak_bias.yml\n  - BIAS-000113_badge_reward_bias.yml\n  - BIAS-000114_ranking_bias.yml\n  - BIAS-000115_review_score_bias.yml\n  - BIAS-000116_scarcity_urgency_bias.yml\n  - BIAS-000117_progress_bar_bias.yml\n  - BIAS-000118_autoplay_bias.yml\n  - BIAS-000119_infinite_scroll_bias.yml\n  - BIAS-000120_personalization_bias.yml\nnotes:\n  - 認知バイアスは診断結果ではなく推論材料として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
+  "items": [
+    {
+      "filename": "BIAS-000061_belief_perseverance.yml",
+      "id": "BIAS-000061",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "信念固執",
+      "name_en": "Belief Perseverance",
+      "category": "Cognitive Bias",
+      "attribute": "Learning Reasoning Bias",
+      "definition_ja": "反証情報が提示されても、既存の信念や判断を維持しやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:学習推論バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "学習推論バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "信念固執関連選択率",
+        "信念固執関連反応時間",
+        "信念固執関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "信念固執に関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000062_belief_bias.yml",
+      "id": "BIAS-000062",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "信念バイアス",
+      "name_en": "Belief Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Learning Reasoning Bias",
+      "definition_ja": "論理的妥当性よりも、結論がもっともらしいかどうかで推論を評価しやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:学習推論バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "学習推論バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "信念バイアス関連選択率",
+        "信念バイアス関連反応時間",
+        "信念バイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "信念バイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000063_representativeness_heuristic.yml",
+      "id": "BIAS-000063",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "代表性ヒューリスティック",
+      "name_en": "Representativeness Heuristic",
+      "category": "Cognitive Bias",
+      "attribute": "Learning Reasoning Bias",
+      "definition_ja": "対象が典型例にどれだけ似ているかをもとに、確率や分類を判断しやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:学習推論バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "学習推論バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "代表性ヒューリスティック関連選択率",
+        "代表性ヒューリスティック関連反応時間",
+        "代表性ヒューリスティック関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "代表性ヒューリスティックに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000064_illusion_of_explanatory_depth.yml",
+      "id": "BIAS-000064",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "説明深度の錯覚",
+      "name_en": "Illusion of Explanatory Depth",
+      "category": "Cognitive Bias",
+      "attribute": "Learning Reasoning Bias",
+      "definition_ja": "自分が物事の仕組みを実際以上に理解していると感じやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:学習推論バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "学習推論バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "説明深度の錯覚関連選択率",
+        "説明深度の錯覚関連反応時間",
+        "説明深度の錯覚関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "説明深度の錯覚に関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000065_knowledge_illusion.yml",
+      "id": "BIAS-000065",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "知識の錯覚",
+      "name_en": "Knowledge Illusion",
+      "category": "Cognitive Bias",
+      "attribute": "Learning Reasoning Bias",
+      "definition_ja": "外部情報や他者の知識に頼っているにもかかわらず、自分が知っていると感じやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:学習推論バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "学習推論バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "知識の錯覚関連選択率",
+        "知識の錯覚関連反応時間",
+        "知識の錯覚関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "知識の錯覚に関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000066_curse_of_knowledge.yml",
+      "id": "BIAS-000066",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "知識の呪い",
+      "name_en": "Curse of Knowledge",
+      "category": "Cognitive Bias",
+      "attribute": "Learning Reasoning Bias",
+      "definition_ja": "自分が知っている情報を、他者も当然理解していると見なしやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:学習推論バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "学習推論バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "知識の呪い関連選択率",
+        "知識の呪い関連反応時間",
+        "知識の呪い関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "知識の呪いに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000067_fluency_effect.yml",
+      "id": "BIAS-000067",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "流暢性効果",
+      "name_en": "Fluency Effect",
+      "category": "Cognitive Bias",
+      "attribute": "Learning Reasoning Bias",
+      "definition_ja": "理解しやすい・処理しやすい情報を、正確・信頼できると判断しやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:学習推論バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "学習推論バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "流暢性効果関連選択率",
+        "流暢性効果関連反応時間",
+        "流暢性効果関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "流暢性効果に関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000068_mere_exposure_effect.yml",
+      "id": "BIAS-000068",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "単純接触効果",
+      "name_en": "Mere Exposure Effect",
+      "category": "Cognitive Bias",
+      "attribute": "Learning Reasoning Bias",
+      "definition_ja": "繰り返し接触した対象に対して好意や親近感を持ちやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:学習推論バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "学習推論バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "単純接触効果関連選択率",
+        "単純接触効果関連反応時間",
+        "単純接触効果関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "単純接触効果に関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000069_explanatory_coherence_bias.yml",
+      "id": "BIAS-000069",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "説明一貫性バイアス",
+      "name_en": "Explanatory Coherence Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Learning Reasoning Bias",
+      "definition_ja": "一貫した説明や物語としてまとまる情報を、妥当だと判断しやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:学習推論バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "学習推論バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "説明一貫性バイアス関連選択率",
+        "説明一貫性バイアス関連反応時間",
+        "説明一貫性バイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "説明一貫性バイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000070_causal_oversimplification.yml",
+      "id": "BIAS-000070",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "原因単純化バイアス",
+      "name_en": "Causal Oversimplification",
+      "category": "Cognitive Bias",
+      "attribute": "Learning Reasoning Bias",
+      "definition_ja": "複雑な出来事を、少数の単純な原因で説明しようとしやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:学習推論バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "学習推論バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "原因単純化バイアス関連選択率",
+        "原因単純化バイアス関連反応時間",
+        "原因単純化バイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "原因単純化バイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000071_dunning_kruger_effect.yml",
+      "id": "BIAS-000071",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "ダニング＝クルーガー効果",
+      "name_en": "Dunning-Kruger Effect",
+      "category": "Cognitive Bias",
+      "attribute": "Self Evaluation Bias",
+      "definition_ja": "能力や知識が不足している領域で、自分の能力を過大評価しやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:自己評価バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "自己評価バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "ダニング＝クルーガー効果関連選択率",
+        "ダニング＝クルーガー効果関連反応時間",
+        "ダニング＝クルーガー効果関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "ダニング＝クルーガー効果に関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000072_impostor_bias.yml",
+      "id": "BIAS-000072",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "インポスター傾向",
+      "name_en": "Impostor Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Self Evaluation Bias",
+      "definition_ja": "成果があっても自分の能力ではなく偶然や周囲のおかげだと感じやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:自己評価バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "自己評価バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "インポスター傾向関連選択率",
+        "インポスター傾向関連反応時間",
+        "インポスター傾向関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "インポスター傾向に関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000073_spotlight_effect.yml",
+      "id": "BIAS-000073",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "スポットライト効果",
+      "name_en": "Spotlight Effect",
+      "category": "Cognitive Bias",
+      "attribute": "Self Evaluation Bias",
+      "definition_ja": "自分の行動や失敗が、実際以上に他者から注目されていると感じやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:自己評価バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "自己評価バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "スポットライト効果関連選択率",
+        "スポットライト効果関連反応時間",
+        "スポットライト効果関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "スポットライト効果に関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000074_transparency_illusion.yml",
+      "id": "BIAS-000074",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "透明性の錯覚",
+      "name_en": "Illusion of Transparency",
+      "category": "Cognitive Bias",
+      "attribute": "Self Evaluation Bias",
+      "definition_ja": "自分の感情や考えが、実際以上に他者へ伝わっていると感じやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:自己評価バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "自己評価バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "透明性の錯覚関連選択率",
+        "透明性の錯覚関連反応時間",
+        "透明性の錯覚関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "透明性の錯覚に関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000075_better_than_average_effect.yml",
+      "id": "BIAS-000075",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "平均以上効果",
+      "name_en": "Better-than-Average Effect",
+      "category": "Cognitive Bias",
+      "attribute": "Self Evaluation Bias",
+      "definition_ja": "自分の能力・判断・道徳性を平均以上だと見積もりやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:自己評価バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "自己評価バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "平均以上効果関連選択率",
+        "平均以上効果関連反応時間",
+        "平均以上効果関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "平均以上効果に関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000076_defensive_attribution.yml",
+      "id": "BIAS-000076",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "防衛的帰属",
+      "name_en": "Defensive Attribution",
+      "category": "Cognitive Bias",
+      "attribute": "Self Evaluation Bias",
+      "definition_ja": "悪い出来事を自分から遠ざける形で原因を解釈し、自尊感情を守ろうとする傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:自己評価バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "自己評価バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "防衛的帰属関連選択率",
+        "防衛的帰属関連反応時間",
+        "防衛的帰属関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "防衛的帰属に関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000077_impact_bias.yml",
+      "id": "BIAS-000077",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "インパクトバイアス",
+      "name_en": "Impact Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Self Evaluation Bias",
+      "definition_ja": "将来の出来事が自分の感情に与える影響の強さや持続時間を過大評価しやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:自己評価バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "自己評価バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "インパクトバイアス関連選択率",
+        "インパクトバイアス関連反応時間",
+        "インパクトバイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "インパクトバイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000078_affective_forecasting_error.yml",
+      "id": "BIAS-000078",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "感情予測誤差",
+      "name_en": "Affective Forecasting Error",
+      "category": "Cognitive Bias",
+      "attribute": "Self Evaluation Bias",
+      "definition_ja": "将来の自分の感情状態を正確に予測しにくい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:自己評価バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "自己評価バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "感情予測誤差関連選択率",
+        "感情予測誤差関連反応時間",
+        "感情予測誤差関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "感情予測誤差に関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000079_projection_bias.yml",
+      "id": "BIAS-000079",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "投影バイアス",
+      "name_en": "Projection Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Self Evaluation Bias",
+      "definition_ja": "現在の好みや感情状態が、将来も続くと見積もりやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:自己評価バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "自己評価バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "投影バイアス関連選択率",
+        "投影バイアス関連反応時間",
+        "投影バイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "投影バイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000080_egocentric_bias.yml",
+      "id": "BIAS-000080",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "自己中心性バイアス",
+      "name_en": "Egocentric Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Self Evaluation Bias",
+      "definition_ja": "出来事や関係性を、自分の視点や貢献を中心に解釈しやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:自己評価バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "自己評価バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "自己中心性バイアス関連選択率",
+        "自己中心性バイアス関連反応時間",
+        "自己中心性バイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "自己中心性バイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000081_planning_fallacy.yml",
+      "id": "BIAS-000081",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "計画錯誤",
+      "name_en": "Planning Fallacy",
+      "category": "Cognitive Bias",
+      "attribute": "Time Planning Bias",
+      "definition_ja": "作業に必要な時間・労力・障害を過小評価し、計画を楽観的に見積もりやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:時間計画バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "時間計画バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "計画錯誤関連選択率",
+        "計画錯誤関連反応時間",
+        "計画錯誤関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "計画錯誤に関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000082_time_saving_bias.yml",
+      "id": "BIAS-000082",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "時間節約バイアス",
+      "name_en": "Time Saving Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Time Planning Bias",
+      "definition_ja": "速度や効率の変化が実際の所要時間に与える影響を誤って見積もりやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:時間計画バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "時間計画バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "時間節約バイアス関連選択率",
+        "時間節約バイアス関連反応時間",
+        "時間節約バイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "時間節約バイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000083_procrastination_bias.yml",
+      "id": "BIAS-000083",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "先延ばしバイアス",
+      "name_en": "Procrastination Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Time Planning Bias",
+      "definition_ja": "重要だが負荷のある行動を、短期的な快適さのために後回しにしやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:時間計画バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "時間計画バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "先延ばしバイアス関連選択率",
+        "先延ばしバイアス関連反応時間",
+        "先延ばしバイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "先延ばしバイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000084_deadline_effect.yml",
+      "id": "BIAS-000084",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "締切効果",
+      "name_en": "Deadline Effect",
+      "category": "Cognitive Bias",
+      "attribute": "Time Planning Bias",
+      "definition_ja": "締切が近づくまで行動開始や集中が高まりにくい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:時間計画バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "時間計画バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "締切効果関連選択率",
+        "締切効果関連反応時間",
+        "締切効果関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "締切効果に関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000085_duration_neglect.yml",
+      "id": "BIAS-000085",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "持続時間無視",
+      "name_en": "Duration Neglect",
+      "category": "Cognitive Bias",
+      "attribute": "Time Planning Bias",
+      "definition_ja": "経験の長さよりもピークや終了時の印象で評価しやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:時間計画バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "時間計画バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "持続時間無視関連選択率",
+        "持続時間無視関連反応時間",
+        "持続時間無視関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "持続時間無視に関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000086_delay_discounting_bias.yml",
+      "id": "BIAS-000086",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "遅延割引バイアス",
+      "name_en": "Delay Discounting Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Time Planning Bias",
+      "definition_ja": "将来得られる大きな報酬より、すぐ得られる小さな報酬を選びやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:時間計画バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "時間計画バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "遅延割引バイアス関連選択率",
+        "遅延割引バイアス関連反応時間",
+        "遅延割引バイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "遅延割引バイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000087_fresh_start_effect.yml",
+      "id": "BIAS-000087",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "フレッシュスタート効果",
+      "name_en": "Fresh Start Effect",
+      "category": "Cognitive Bias",
+      "attribute": "Time Planning Bias",
+      "definition_ja": "区切りのよい時点で、新しい目標や行動を始めやすくなる傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:時間計画バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "時間計画バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "フレッシュスタート効果関連選択率",
+        "フレッシュスタート効果関連反応時間",
+        "フレッシュスタート効果関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "フレッシュスタート効果に関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000088_completion_bias.yml",
+      "id": "BIAS-000088",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "完了バイアス",
+      "name_en": "Completion Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Time Planning Bias",
+      "definition_ja": "重要度よりも、すぐ完了できる小さなタスクを優先しやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:時間計画バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "時間計画バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "完了バイアス関連選択率",
+        "完了バイアス関連反応時間",
+        "完了バイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "完了バイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000089_switching_cost_neglect.yml",
+      "id": "BIAS-000089",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "切替コスト無視",
+      "name_en": "Switching Cost Neglect",
+      "category": "Cognitive Bias",
+      "attribute": "Time Planning Bias",
+      "definition_ja": "タスク切替に伴う時間・注意・疲労のコストを過小評価しやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:時間計画バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "時間計画バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "切替コスト無視関連選択率",
+        "切替コスト無視関連反応時間",
+        "切替コスト無視関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "切替コスト無視に関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000090_future_self_discontinuity.yml",
+      "id": "BIAS-000090",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "未来自己の断絶",
+      "name_en": "Future Self Discontinuity",
+      "category": "Cognitive Bias",
+      "attribute": "Time Planning Bias",
+      "definition_ja": "将来の自分を現在の自分と切り離して感じ、長期的な選択を軽視しやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:時間計画バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "時間計画バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "未来自己の断絶関連選択率",
+        "未来自己の断絶関連反応時間",
+        "未来自己の断絶関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "未来自己の断絶に関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000091_information_bias.yml",
+      "id": "BIAS-000091",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "情報バイアス",
+      "name_en": "Information Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Information Processing Bias",
+      "definition_ja": "判断に必要でない情報でも、多く集めるほど良い判断ができると感じやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:情報処理バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "情報処理バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "情報バイアス関連選択率",
+        "情報バイアス関連反応時間",
+        "情報バイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "情報バイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000092_recency_frequency_bias.yml",
+      "id": "BIAS-000092",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "直近頻度バイアス",
+      "name_en": "Recency Frequency Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Information Processing Bias",
+      "definition_ja": "直近で頻繁に見た情報を、全体でも多い・重要だと判断しやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:情報処理バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "情報処理バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "直近頻度バイアス関連選択率",
+        "直近頻度バイアス関連反応時間",
+        "直近頻度バイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "直近頻度バイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000093_search_satisficing.yml",
+      "id": "BIAS-000093",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "探索満足化",
+      "name_en": "Search Satisficing",
+      "category": "Cognitive Bias",
+      "attribute": "Information Processing Bias",
+      "definition_ja": "十分に良さそうな情報を見つけた時点で探索を止めやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:情報処理バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "情報処理バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "探索満足化関連選択率",
+        "探索満足化関連反応時間",
+        "探索満足化関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "探索満足化に関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000094_information_overload_effect.yml",
+      "id": "BIAS-000094",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "情報過負荷効果",
+      "name_en": "Information Overload Effect",
+      "category": "Cognitive Bias",
+      "attribute": "Information Processing Bias",
+      "definition_ja": "情報量が多すぎることで、判断精度や選択満足度が低下しやすい状態。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:情報処理バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "情報処理バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "情報過負荷効果関連選択率",
+        "情報過負荷効果関連反応時間",
+        "情報過負荷効果関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "情報過負荷効果に関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000095_source_credibility_bias.yml",
+      "id": "BIAS-000095",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "情報源信頼バイアス",
+      "name_en": "Source Credibility Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Information Processing Bias",
+      "definition_ja": "情報内容よりも、発信者・媒体・肩書きの印象で信頼性を判断しやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:情報処理バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "情報処理バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "情報源信頼バイアス関連選択率",
+        "情報源信頼バイアス関連反応時間",
+        "情報源信頼バイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "情報源信頼バイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000096_repetition_truth_effect.yml",
+      "id": "BIAS-000096",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "反復真実効果",
+      "name_en": "Illusory Truth Effect",
+      "category": "Cognitive Bias",
+      "attribute": "Information Processing Bias",
+      "definition_ja": "繰り返し見聞きした情報を、真実らしいと感じやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:情報処理バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "情報処理バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "反復真実効果関連選択率",
+        "反復真実効果関連反応時間",
+        "反復真実効果関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "反復真実効果に関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000097_medium_bias.yml",
+      "id": "BIAS-000097",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "媒体バイアス",
+      "name_en": "Medium Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Information Processing Bias",
+      "definition_ja": "同じ内容でも、提示媒体や形式によって信頼性や重要性の評価が変わりやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:情報処理バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "情報処理バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "媒体バイアス関連選択率",
+        "媒体バイアス関連反応時間",
+        "媒体バイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "媒体バイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000098_visual_dominance_bias.yml",
+      "id": "BIAS-000098",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "視覚優位バイアス",
+      "name_en": "Visual Dominance Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Information Processing Bias",
+      "definition_ja": "文章や数値よりも、画像・グラフ・見た目の印象を強く重視しやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:情報処理バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "情報処理バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "視覚優位バイアス関連選択率",
+        "視覚優位バイアス関連反応時間",
+        "視覚優位バイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "視覚優位バイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000099_complexity_bias.yml",
+      "id": "BIAS-000099",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "複雑性バイアス",
+      "name_en": "Complexity Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Information Processing Bias",
+      "definition_ja": "単純な説明よりも、複雑で専門的に見える説明を高度だと感じやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:情報処理バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "情報処理バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "複雑性バイアス関連選択率",
+        "複雑性バイアス関連反応時間",
+        "複雑性バイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "複雑性バイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000100_simplicity_bias.yml",
+      "id": "BIAS-000100",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "単純化バイアス",
+      "name_en": "Simplicity Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Information Processing Bias",
+      "definition_ja": "複雑な情報を単純な分類や短い説明に置き換えて理解しようとしやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:情報処理バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "情報処理バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "単純化バイアス関連選択率",
+        "単純化バイアス関連反応時間",
+        "単純化バイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "単純化バイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000101_moral_licensing.yml",
+      "id": "BIAS-000101",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "モラルライセンシング",
+      "name_en": "Moral Licensing",
+      "category": "Cognitive Bias",
+      "attribute": "Moral Norm Bias",
+      "definition_ja": "良い行動をした後に、多少望ましくない行動を正当化しやすくなる傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:道徳規範バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "道徳規範バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "モラルライセンシング関連選択率",
+        "モラルライセンシング関連反応時間",
+        "モラルライセンシング関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "モラルライセンシングに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000102_moral_credential_effect.yml",
+      "id": "BIAS-000102",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "道徳的資格効果",
+      "name_en": "Moral Credential Effect",
+      "category": "Cognitive Bias",
+      "attribute": "Moral Norm Bias",
+      "definition_ja": "過去の良い行動や立場を根拠に、現在の判断の偏りを見えにくくする傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:道徳規範バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "道徳規範バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "道徳的資格効果関連選択率",
+        "道徳的資格効果関連反応時間",
+        "道徳的資格効果関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "道徳的資格効果に関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000103_just_world_bias.yml",
+      "id": "BIAS-000103",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "公正世界仮説バイアス",
+      "name_en": "Just World Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Moral Norm Bias",
+      "definition_ja": "人は自分に見合った結果を受けていると考え、不運や被害を本人要因で説明しやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:道徳規範バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "道徳規範バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "公正世界仮説バイアス関連選択率",
+        "公正世界仮説バイアス関連反応時間",
+        "公正世界仮説バイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "公正世界仮説バイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000104_victim_blaming_bias.yml",
+      "id": "BIAS-000104",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "被害者非難バイアス",
+      "name_en": "Victim Blaming Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Moral Norm Bias",
+      "definition_ja": "悪い出来事の被害者に対して、原因や責任を過度に帰属しやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:道徳規範バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "道徳規範バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "被害者非難バイアス関連選択率",
+        "被害者非難バイアス関連反応時間",
+        "被害者非難バイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "被害者非難バイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000105_purity_bias.yml",
+      "id": "BIAS-000105",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "純粋性バイアス",
+      "name_en": "Purity Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Moral Norm Bias",
+      "definition_ja": "清潔・純粋・汚れなどの感覚的印象が、道徳判断に影響しやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:道徳規範バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "道徳規範バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "純粋性バイアス関連選択率",
+        "純粋性バイアス関連反応時間",
+        "純粋性バイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "純粋性バイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000106_ingroup_moral_bias.yml",
+      "id": "BIAS-000106",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "内集団道徳バイアス",
+      "name_en": "Ingroup Moral Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Moral Norm Bias",
+      "definition_ja": "同じ集団の行動を、外集団より道徳的・正当だと評価しやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:道徳規範バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "道徳規範バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "内集団道徳バイアス関連選択率",
+        "内集団道徳バイアス関連反応時間",
+        "内集団道徳バイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "内集団道徳バイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000107_intentionality_bias.yml",
+      "id": "BIAS-000107",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "意図性バイアス",
+      "name_en": "Intentionality Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Moral Norm Bias",
+      "definition_ja": "偶然や過失による出来事にも、意図や悪意を読み取りやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:道徳規範バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "道徳規範バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "意図性バイアス関連選択率",
+        "意図性バイアス関連反応時間",
+        "意図性バイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "意図性バイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000108_outcome_bias.yml",
+      "id": "BIAS-000108",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "結果バイアス",
+      "name_en": "Outcome Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Moral Norm Bias",
+      "definition_ja": "判断や行動の質を、その過程ではなく結果の良し悪しで評価しやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:道徳規範バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "道徳規範バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "結果バイアス関連選択率",
+        "結果バイアス関連反応時間",
+        "結果バイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "結果バイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000109_omission_bias.yml",
+      "id": "BIAS-000109",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "不作為バイアス",
+      "name_en": "Omission Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Moral Norm Bias",
+      "definition_ja": "行動して悪い結果を生むことを、何もしないで悪い結果になることより強く避けやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:道徳規範バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "道徳規範バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "不作為バイアス関連選択率",
+        "不作為バイアス関連反応時間",
+        "不作為バイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "不作為バイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000110_rule_based_bias.yml",
+      "id": "BIAS-000110",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "ルール依存バイアス",
+      "name_en": "Rule-Based Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Moral Norm Bias",
+      "definition_ja": "状況や目的よりも、既存のルールや形式への適合を過度に重視しやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:道徳規範バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "道徳規範バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "ルール依存バイアス関連選択率",
+        "ルール依存バイアス関連反応時間",
+        "ルール依存バイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "ルール依存バイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000111_notification_salience_bias.yml",
+      "id": "BIAS-000111",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "通知顕著性バイアス",
+      "name_en": "Notification Salience Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Digital App Response Bias",
+      "definition_ja": "通知やアラートの表示に注意が引き寄せられ、優先順位が変わりやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:デジタル反応バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "デジタル反応バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "通知顕著性バイアス関連選択率",
+        "通知顕著性バイアス関連反応時間",
+        "通知顕著性バイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "通知顕著性バイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000112_streak_bias.yml",
+      "id": "BIAS-000112",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "連続記録バイアス",
+      "name_en": "Streak Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Digital App Response Bias",
+      "definition_ja": "連続記録や継続日数を失うことを避けるため、行動を継続しやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:デジタル反応バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "デジタル反応バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "連続記録バイアス関連選択率",
+        "連続記録バイアス関連反応時間",
+        "連続記録バイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "連続記録バイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000113_badge_reward_bias.yml",
+      "id": "BIAS-000113",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "バッジ報酬バイアス",
+      "name_en": "Badge Reward Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Digital App Response Bias",
+      "definition_ja": "バッジ・称号・実績などの記号的報酬により、行動選択が影響されやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:デジタル反応バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "デジタル反応バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "バッジ報酬バイアス関連選択率",
+        "バッジ報酬バイアス関連反応時間",
+        "バッジ報酬バイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "バッジ報酬バイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000114_ranking_bias.yml",
+      "id": "BIAS-000114",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "ランキングバイアス",
+      "name_en": "Ranking Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Digital App Response Bias",
+      "definition_ja": "ランキング上位の対象を、実際以上に価値が高いと判断しやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:デジタル反応バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "デジタル反応バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "ランキングバイアス関連選択率",
+        "ランキングバイアス関連反応時間",
+        "ランキングバイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "ランキングバイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000115_review_score_bias.yml",
+      "id": "BIAS-000115",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "レビュー評価バイアス",
+      "name_en": "Review Score Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Digital App Response Bias",
+      "definition_ja": "レビュー数や星評価に判断が引き寄せられ、内容比較が浅くなりやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:デジタル反応バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "デジタル反応バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "レビュー評価バイアス関連選択率",
+        "レビュー評価バイアス関連反応時間",
+        "レビュー評価バイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "レビュー評価バイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000116_scarcity_urgency_bias.yml",
+      "id": "BIAS-000116",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "希少性緊急バイアス",
+      "name_en": "Scarcity Urgency Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Digital App Response Bias",
+      "definition_ja": "数量限定・期限付き表示により、必要性以上に選択や購入を急ぎやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:デジタル反応バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "デジタル反応バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "希少性緊急バイアス関連選択率",
+        "希少性緊急バイアス関連反応時間",
+        "希少性緊急バイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "希少性緊急バイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000117_progress_bar_bias.yml",
+      "id": "BIAS-000117",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "進捗バー効果",
+      "name_en": "Progress Bar Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Digital App Response Bias",
+      "definition_ja": "進捗表示によって、完了まで行動を続けやすくなる傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:デジタル反応バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "デジタル反応バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "進捗バー効果関連選択率",
+        "進捗バー効果関連反応時間",
+        "進捗バー効果関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "進捗バー効果に関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000118_autoplay_bias.yml",
+      "id": "BIAS-000118",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "自動再生バイアス",
+      "name_en": "Autoplay Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Digital App Response Bias",
+      "definition_ja": "自動で次の行動が始まる設計により、停止判断が遅れやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:デジタル反応バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "デジタル反応バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "自動再生バイアス関連選択率",
+        "自動再生バイアス関連反応時間",
+        "自動再生バイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "自動再生バイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000119_infinite_scroll_bias.yml",
+      "id": "BIAS-000119",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "無限スクロールバイアス",
+      "name_en": "Infinite Scroll Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Digital App Response Bias",
+      "definition_ja": "明確な終点がない表示により、探索や閲覧を継続しやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:デジタル反応バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "デジタル反応バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "無限スクロールバイアス関連選択率",
+        "無限スクロールバイアス関連反応時間",
+        "無限スクロールバイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "無限スクロールバイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "BIAS-000120_personalization_bias.yml",
+      "id": "BIAS-000120",
+      "knowledge_type": "cognitive_bias",
+      "name_ja": "パーソナライズバイアス",
+      "name_en": "Personalization Bias",
+      "category": "Cognitive Bias",
+      "attribute": "Digital App Response Bias",
+      "definition_ja": "自分向けに調整された情報を、実際以上に関連性・信頼性が高いと感じやすい傾向。",
+      "tags": [
+        "CAT:認知バイアス",
+        "CAT:デジタル反応バイアス",
+        "ATTR:判断偏り"
+      ],
+      "parent": [
+        "デジタル反応バイアス"
+      ],
+      "related": [
+        "意思決定",
+        "情報処理",
+        "行動観測"
+      ],
+      "observable_data": [
+        "パーソナライズバイアス関連選択率",
+        "パーソナライズバイアス関連反応時間",
+        "パーソナライズバイアス関連行動変化",
+        "フィードバック後修正率"
+      ],
+      "signal_candidates": [
+        "パーソナライズバイアスに関連する判断の偏りが観測される",
+        "条件変更後も同じ判断傾向が続く"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "情報量",
+        "時間圧",
+        "疲労",
+        "自信"
+      ],
+      "evidence": "認知心理学・行動経済学・HCI研究で使用",
+      "status": "active"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+id: BIAS-000066
+knowledge_type: cognitive_bias
+name_ja: 知識の呪い
+name_en: Curse of Knowledge
+category: Cognitive Bias
+attribute: Learning Reasoning Bias
+definition_ja: 自分が知っている情報を、他者も当然理解していると見なしやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:学習推論バイアス
+  - ATTR:判断偏り
+parent:
+  - 学習推論バイアス
+related:
+  - 意思決定
+  - 情報処理
+  - 行動観測
+observable_data:
+  - 知識の呪い関連選択率
+  - 知識の呪い関連反応時間
+  - 知識の呪い関連行動変化
+  - フィードバック後修正率
+signal_candidates:
+  - 知識の呪いに関連する判断の偏りが観測される
+  - 条件変更後も同じ判断傾向が続く
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 情報量
+  - 時間圧
+  - 疲労
+  - 自信
+evidence: 認知心理学・行動経済学・HCI研究で使用
+status: active

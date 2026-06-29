@@ -1,0 +1,33 @@
+id: BIAS-000099
+knowledge_type: cognitive_bias
+name_ja: 複雑性バイアス
+name_en: Complexity Bias
+category: Cognitive Bias
+attribute: Information Processing Bias
+definition_ja: 単純な説明よりも、複雑で専門的に見える説明を高度だと感じやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:情報処理バイアス
+  - ATTR:判断偏り
+parent:
+  - 情報処理バイアス
+related:
+  - 意思決定
+  - 情報処理
+  - 行動観測
+observable_data:
+  - 複雑性バイアス関連選択率
+  - 複雑性バイアス関連反応時間
+  - 複雑性バイアス関連行動変化
+  - フィードバック後修正率
+signal_candidates:
+  - 複雑性バイアスに関連する判断の偏りが観測される
+  - 条件変更後も同じ判断傾向が続く
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 情報量
+  - 時間圧
+  - 疲労
+  - 自信
+evidence: 認知心理学・行動経済学・HCI研究で使用
+status: active

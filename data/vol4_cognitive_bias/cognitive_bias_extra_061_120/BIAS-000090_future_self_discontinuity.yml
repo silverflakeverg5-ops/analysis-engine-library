@@ -1,0 +1,33 @@
+id: BIAS-000090
+knowledge_type: cognitive_bias
+name_ja: 未来自己の断絶
+name_en: Future Self Discontinuity
+category: Cognitive Bias
+attribute: Time Planning Bias
+definition_ja: 将来の自分を現在の自分と切り離して感じ、長期的な選択を軽視しやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:時間計画バイアス
+  - ATTR:判断偏り
+parent:
+  - 時間計画バイアス
+related:
+  - 意思決定
+  - 情報処理
+  - 行動観測
+observable_data:
+  - 未来自己の断絶関連選択率
+  - 未来自己の断絶関連反応時間
+  - 未来自己の断絶関連行動変化
+  - フィードバック後修正率
+signal_candidates:
+  - 未来自己の断絶に関連する判断の偏りが観測される
+  - 条件変更後も同じ判断傾向が続く
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 情報量
+  - 時間圧
+  - 疲労
+  - 自信
+evidence: 認知心理学・行動経済学・HCI研究で使用
+status: active

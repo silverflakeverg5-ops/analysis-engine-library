@@ -1,0 +1,33 @@
+id: BIAS-000064
+knowledge_type: cognitive_bias
+name_ja: 説明深度の錯覚
+name_en: Illusion of Explanatory Depth
+category: Cognitive Bias
+attribute: Learning Reasoning Bias
+definition_ja: 自分が物事の仕組みを実際以上に理解していると感じやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:学習推論バイアス
+  - ATTR:判断偏り
+parent:
+  - 学習推論バイアス
+related:
+  - 意思決定
+  - 情報処理
+  - 行動観測
+observable_data:
+  - 説明深度の錯覚関連選択率
+  - 説明深度の錯覚関連反応時間
+  - 説明深度の錯覚関連行動変化
+  - フィードバック後修正率
+signal_candidates:
+  - 説明深度の錯覚に関連する判断の偏りが観測される
+  - 条件変更後も同じ判断傾向が続く
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 情報量
+  - 時間圧
+  - 疲労
+  - 自信
+evidence: 認知心理学・行動経済学・HCI研究で使用
+status: active

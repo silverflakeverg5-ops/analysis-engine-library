@@ -1,0 +1,33 @@
+id: BIAS-000092
+knowledge_type: cognitive_bias
+name_ja: 直近頻度バイアス
+name_en: Recency Frequency Bias
+category: Cognitive Bias
+attribute: Information Processing Bias
+definition_ja: 直近で頻繁に見た情報を、全体でも多い・重要だと判断しやすい傾向。
+tags:
+  - CAT:認知バイアス
+  - CAT:情報処理バイアス
+  - ATTR:判断偏り
+parent:
+  - 情報処理バイアス
+related:
+  - 意思決定
+  - 情報処理
+  - 行動観測
+observable_data:
+  - 直近頻度バイアス関連選択率
+  - 直近頻度バイアス関連反応時間
+  - 直近頻度バイアス関連行動変化
+  - フィードバック後修正率
+signal_candidates:
+  - 直近頻度バイアスに関連する判断の偏りが観測される
+  - 条件変更後も同じ判断傾向が続く
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 情報量
+  - 時間圧
+  - 疲労
+  - 自信
+evidence: 認知心理学・行動経済学・HCI研究で使用
+status: active

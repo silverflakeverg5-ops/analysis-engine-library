@@ -1,0 +1,31 @@
+id: SOC-000004
+knowledge_type: trait
+name_ja: 利他性
+name_en: Altruism
+category: Social Interpersonal
+attribute: Trait
+definition_ja: 自分の利益だけでなく、他者の利益や支援を重視する傾向。
+tags:
+  - CAT:社会性
+  - CAT:性格
+  - ATTR:特性
+parent:
+  - 協調性
+related:
+  - 共感性
+  - 支援行動
+  - 公平性
+observable_data:
+  - 他者利益選択
+  - 支援行動
+  - 公平配分
+signal_candidates:
+  - 自分の得より他者支援を選ぶ
+  - 不利でも公平な選択をする
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 報酬条件
+  - 対人関係
+evidence: 社会心理学・行動経済学で使用
+status: active

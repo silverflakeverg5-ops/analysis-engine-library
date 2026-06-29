@@ -1,0 +1,31 @@
+id: SOC-000008
+knowledge_type: trait
+name_ja: フォロワーシップ
+name_en: Followership
+category: Social Interpersonal
+attribute: Trait
+definition_ja: 集団やリーダーを支え、役割を理解して協力的に行動する傾向。
+tags:
+  - CAT:社会性
+  - CAT:組織行動
+  - ATTR:特性
+parent:
+  - 対人能力
+related:
+  - 協力性
+  - 役割理解
+  - 支援行動
+observable_data:
+  - 支援行動
+  - 役割遵守
+  - 情報共有
+signal_candidates:
+  - 他者の方針を補助する
+  - 必要な役割を自発的に担う
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - チーム環境
+  - 役割明確性
+  - 文化
+evidence: 組織行動学・チーム研究で使用
+status: active

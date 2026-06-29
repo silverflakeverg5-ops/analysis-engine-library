@@ -1,0 +1,31 @@
+id: SOC-000007
+knowledge_type: trait
+name_ja: リーダーシップ
+name_en: Leadership
+category: Social Interpersonal
+attribute: Trait
+definition_ja: 目標達成や集団行動に向けて、他者を方向づけたり支援したりする傾向。
+tags:
+  - CAT:社会性
+  - CAT:組織行動
+  - ATTR:特性
+parent:
+  - 対人能力
+related:
+  - 主導性
+  - 意思決定
+  - 情報共有
+observable_data:
+  - 提案回数
+  - 役割取得
+  - 方針提示
+signal_candidates:
+  - 自分から方針を示す
+  - 他者の行動を調整する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - チーム構成
+  - 評価状況
+  - 経験
+evidence: 産業・組織心理学で使用
+status: active

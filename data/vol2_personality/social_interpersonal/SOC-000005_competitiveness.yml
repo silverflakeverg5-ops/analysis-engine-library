@@ -1,0 +1,31 @@
+id: SOC-000005
+knowledge_type: trait
+name_ja: 競争性
+name_en: Competitiveness
+category: Social Interpersonal
+attribute: Trait
+definition_ja: 他者との比較、勝敗、順位、成果競争に動機づけられやすい傾向。
+tags:
+  - CAT:社会性
+  - CAT:動機
+  - ATTR:特性
+parent:
+  - 対人傾向
+related:
+  - 達成動機
+  - 挑戦性
+  - 支配性
+observable_data:
+  - 競争選択
+  - ランキング反応
+  - 勝敗後行動
+signal_candidates:
+  - 他者比較があると行動量が増える
+  - 勝敗後に再挑戦する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 報酬
+  - 評価状況
+  - 文化
+evidence: 社会心理学・スポーツ心理学・組織心理学で使用
+status: active

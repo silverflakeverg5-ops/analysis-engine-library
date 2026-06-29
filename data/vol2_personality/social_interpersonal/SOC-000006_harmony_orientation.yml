@@ -1,0 +1,31 @@
+id: SOC-000006
+knowledge_type: trait
+name_ja: 調和志向
+name_en: Harmony Orientation
+category: Social Interpersonal
+attribute: Trait
+definition_ja: 対立を避け、周囲との関係性や安定した雰囲気を重視する傾向。
+tags:
+  - CAT:社会性
+  - CAT:価値観
+  - ATTR:特性
+parent:
+  - 協調性
+related:
+  - 対立回避
+  - 配慮
+  - 協力性
+observable_data:
+  - 対立回避選択
+  - 調整行動
+  - 妥協選択
+signal_candidates:
+  - 衝突を避ける選択をする
+  - 関係維持を優先する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - チーム環境
+  - 評価状況
+evidence: 社会心理学・組織行動学で使用
+status: active

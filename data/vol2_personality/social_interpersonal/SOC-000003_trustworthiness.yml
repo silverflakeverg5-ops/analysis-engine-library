@@ -1,0 +1,31 @@
+id: SOC-000003
+knowledge_type: trait
+name_ja: 信頼性
+name_en: Trustworthiness
+category: Social Interpersonal
+attribute: Trait
+definition_ja: 約束、ルール、役割を安定して守り、他者から信頼されやすい傾向。
+tags:
+  - CAT:社会性
+  - CAT:性格
+  - ATTR:特性
+parent:
+  - 誠実性
+related:
+  - 責任感
+  - 期限遵守
+  - 誠実・謙虚さ
+observable_data:
+  - 約束履行
+  - 期限遵守
+  - ルール遵守
+signal_candidates:
+  - 一貫して約束を守る
+  - 役割を最後まで遂行する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 疲労
+  - 評価状況
+  - 社会環境
+evidence: 性格評価・人材評価で使用
+status: active

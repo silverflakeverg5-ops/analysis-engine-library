@@ -1,0 +1,30 @@
+id: SOC-000002
+knowledge_type: trait
+name_ja: 協力性
+name_en: Cooperation
+category: Social Interpersonal
+attribute: Trait
+definition_ja: 他者と協力し、共同目標の達成に向けて行動する傾向。
+tags:
+  - CAT:社会性
+  - ATTR:特性
+parent:
+  - 協調性
+related:
+  - チームワーク
+  - 情報共有
+  - 支援行動
+observable_data:
+  - 協力選択
+  - 役割分担
+  - 支援行動
+signal_candidates:
+  - 単独利益より共同利益を選ぶ
+  - 他者の行動に合わせる
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - チーム環境
+  - 報酬設計
+  - 文化
+evidence: 社会心理学・組織行動学で使用
+status: active

@@ -1,0 +1,31 @@
+id: SOC-000001
+knowledge_type: trait
+name_ja: 共感性
+name_en: Empathy
+category: Social Interpersonal
+attribute: Trait
+definition_ja: 他者の感情や立場を理解し、配慮しようとする傾向。
+tags:
+  - CAT:社会性
+  - CAT:性格
+  - ATTR:特性
+parent:
+  - 協調性
+related:
+  - 他者視点取得
+  - 感情認識
+  - 配慮
+observable_data:
+  - 支援選択
+  - 共感表現
+  - 他者利益選択
+signal_candidates:
+  - 他者に配慮した選択をする
+  - 感情的文脈へ反応する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 対人環境
+  - 疲労
+evidence: 社会心理学・性格心理学で使用
+status: active

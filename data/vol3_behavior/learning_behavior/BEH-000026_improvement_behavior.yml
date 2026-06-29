@@ -1,0 +1,33 @@
+id: BEH-000026
+knowledge_type: behavior_pattern
+name_ja: 改善行動
+name_en: Improvement Behavior
+category: Learning Behavior
+attribute: Behavior
+definition_ja: 結果や課題を踏まえて、行動・手順・判断をより良くしようとする行動傾向。
+tags:
+  - CAT:学習
+  - CAT:改善
+  - ATTR:行動パターン
+parent:
+  - 学習行動
+related:
+  - 最適化行動
+  - 自己改善
+  - フィードバック学習
+observable_data:
+  - 改善率
+  - 手順変更回数
+  - 再設計行動
+  - 失敗後変更率
+signal_candidates:
+  - 結果を見て手順を変える
+  - 効率や成果を上げるために調整する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - フィードバック
+  - 経験
+  - 報酬
+  - 時間制限
+evidence: 学習科学・UX研究・問題解決研究で使用
+status: active

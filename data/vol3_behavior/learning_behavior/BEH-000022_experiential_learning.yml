@@ -1,0 +1,33 @@
+id: BEH-000022
+knowledge_type: behavior_pattern
+name_ja: 経験学習
+name_en: Experiential Learning
+category: Learning Behavior
+attribute: Behavior
+definition_ja: 直接の体験や実践を通じて理解や行動を改善していく学習行動。
+tags:
+  - CAT:学習
+  - CAT:行動
+  - ATTR:行動パターン
+parent:
+  - 学習行動
+related:
+  - 試行錯誤
+  - 習熟
+  - 転移学習
+observable_data:
+  - 試行回数
+  - 経験後改善率
+  - 再挑戦率
+  - 習熟速度
+signal_candidates:
+  - 説明より実践後に改善する
+  - 繰り返すほど行動が安定する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 経験量
+  - 課題難易度
+  - フィードバック
+  - 疲労
+evidence: 教育心理学・学習科学で使用
+status: active

@@ -1,0 +1,33 @@
+id: BEH-000025
+knowledge_type: behavior_pattern
+name_ja: 転移学習
+name_en: Transfer Learning
+category: Learning Behavior
+attribute: Behavior
+definition_ja: ある課題や経験で得た知識・方略を、別の課題や状況へ応用する学習行動。
+tags:
+  - CAT:学習
+  - CAT:応用
+  - ATTR:行動パターン
+parent:
+  - 学習行動
+related:
+  - 類推
+  - 応用力
+  - 経験学習
+observable_data:
+  - 新課題適応率
+  - 既知方略利用率
+  - 応用成功率
+  - 初見課題改善率
+signal_candidates:
+  - 過去の方法を別課題へ応用する
+  - 似た課題で素早く適応する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 課題類似性
+  - 経験
+  - 抽象化能力
+  - 疲労
+evidence: 教育心理学・学習科学で使用
+status: active

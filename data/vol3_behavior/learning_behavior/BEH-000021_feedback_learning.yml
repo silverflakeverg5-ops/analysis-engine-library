@@ -1,0 +1,33 @@
+id: BEH-000021
+knowledge_type: behavior_pattern
+name_ja: フィードバック学習
+name_en: Feedback Learning
+category: Learning Behavior
+attribute: Behavior
+definition_ja: 結果や評価を手がかりにして、次の行動を修正・改善する学習行動。
+tags:
+  - CAT:学習
+  - CAT:行動
+  - ATTR:行動パターン
+parent:
+  - 学習行動
+related:
+  - 試行錯誤
+  - エラー修正
+  - 改善行動
+observable_data:
+  - 失敗後変更率
+  - 改善率
+  - 再挑戦率
+  - フィードバック確認回数
+signal_candidates:
+  - 結果を見て次の行動を変える
+  - 失敗後に成績が改善する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - フィードバック明確性
+  - 疲労
+  - 経験
+  - 報酬
+evidence: 学習心理学・教育工学・行動科学で使用
+status: active

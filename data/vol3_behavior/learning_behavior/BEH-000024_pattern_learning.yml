@@ -1,0 +1,33 @@
+id: BEH-000024
+knowledge_type: behavior_pattern
+name_ja: パターン学習
+name_en: Pattern Learning
+category: Learning Behavior
+attribute: Behavior
+definition_ja: 反復して現れる構造、順序、規則、配置などを学習する行動。
+tags:
+  - CAT:学習
+  - CAT:認知
+  - ATTR:行動パターン
+parent:
+  - 学習行動
+related:
+  - パターン認識
+  - 帰納推論
+  - 手続き記憶
+observable_data:
+  - パターン発見率
+  - 系列予測率
+  - 反復後改善率
+  - 誤反応減少
+signal_candidates:
+  - 繰り返し構造を予測する
+  - 反復後にミスが減る
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 反復回数
+  - 注意
+  - 疲労
+  - パターン複雑性
+evidence: 認知心理学・技能学習研究で使用
+status: active

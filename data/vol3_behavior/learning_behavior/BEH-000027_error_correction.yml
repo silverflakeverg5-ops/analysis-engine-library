@@ -1,0 +1,34 @@
+id: BEH-000027
+knowledge_type: behavior_pattern
+name_ja: エラー修正
+name_en: Error Correction
+category: Learning Behavior
+attribute: Behavior
+definition_ja: ミスや不一致を検出し、原因を修正して行動を改善する行動。
+tags:
+  - CAT:学習
+  - CAT:エラー
+  - ATTR:行動パターン
+parent:
+  - 学習行動
+related:
+  - 自己モニタリング
+  - エラー検出
+  - 改善行動
+observable_data:
+  - ミス後修正率
+  - 同一ミス再発率
+  - 修正時間
+  - 確認回数
+signal_candidates:
+  - ミス後すぐに修正する
+  - 同じミスを繰り返す
+  - 原因を確認してから再実行する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - フィードバック明確性
+  - 疲労
+  - 注意
+  - ストレス
+evidence: 実行機能研究・学習研究・HCIで使用
+status: active

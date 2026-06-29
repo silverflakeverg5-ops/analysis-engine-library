@@ -1,0 +1,33 @@
+id: BEH-000023
+knowledge_type: behavior_pattern
+name_ja: ルール学習
+name_en: Rule Learning
+category: Learning Behavior
+attribute: Behavior
+definition_ja: 課題や環境に存在する規則性を理解し、行動に反映する学習行動。
+tags:
+  - CAT:学習
+  - CAT:推論
+  - ATTR:行動パターン
+parent:
+  - 学習行動
+related:
+  - 帰納推論
+  - パターン学習
+  - 認知の柔軟性
+observable_data:
+  - ルール発見率
+  - ルール適用率
+  - ルール変更後ミス率
+  - 習得試行数
+signal_candidates:
+  - 少ない試行で規則を見つける
+  - ルール変更後に行動を修正する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - ルール複雑性
+  - フィードバック
+  - 注意
+  - 経験
+evidence: 認知心理学・学習研究で使用
+status: active

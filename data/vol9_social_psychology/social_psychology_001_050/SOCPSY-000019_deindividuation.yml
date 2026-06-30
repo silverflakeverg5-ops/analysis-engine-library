@@ -1,0 +1,33 @@
+id: SOCPSY-000019
+knowledge_type: social_psychology
+name_ja: 没個性化
+name_en: Deindividuation
+category: Social Psychology
+attribute: Group Dynamics
+definition_ja: 集団や匿名性の中で自己意識や責任感が弱まりやすくなる現象。
+tags:
+  - CAT:社会心理
+  - CAT:集団力学
+  - ATTR:社会的要因
+parent:
+  - 集団力学
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 没個性化関連行動変化
+  - 没個性化関連反応時間
+  - 没個性化関連選択率
+  - 没個性化関連対人反応
+signal_candidates:
+  - 没個性化が対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

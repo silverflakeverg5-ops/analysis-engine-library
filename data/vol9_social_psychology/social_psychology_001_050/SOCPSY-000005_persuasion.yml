@@ -1,0 +1,33 @@
+id: SOCPSY-000005
+knowledge_type: social_psychology
+name_ja: 説得
+name_en: Persuasion
+category: Social Psychology
+attribute: Social Influence
+definition_ja: メッセージや相互作用によって態度や行動が変化する過程。
+tags:
+  - CAT:社会心理
+  - CAT:社会的影響
+  - ATTR:社会的要因
+parent:
+  - 社会的影響
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 説得関連行動変化
+  - 説得関連反応時間
+  - 説得関連選択率
+  - 説得関連対人反応
+signal_candidates:
+  - 説得が対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

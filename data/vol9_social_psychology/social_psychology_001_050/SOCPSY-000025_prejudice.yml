@@ -1,0 +1,33 @@
+id: SOCPSY-000025
+knowledge_type: social_psychology
+name_ja: 偏見
+name_en: Prejudice
+category: Social Psychology
+attribute: Interpersonal Perception
+definition_ja: 特定集団や個人に対する事前の否定的または肯定的態度。
+tags:
+  - CAT:社会心理
+  - CAT:対人認知
+  - ATTR:社会的要因
+parent:
+  - 対人認知
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 偏見関連行動変化
+  - 偏見関連反応時間
+  - 偏見関連選択率
+  - 偏見関連対人反応
+signal_candidates:
+  - 偏見が対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

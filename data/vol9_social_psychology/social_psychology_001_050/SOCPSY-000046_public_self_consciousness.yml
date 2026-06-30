@@ -1,0 +1,33 @@
+id: SOCPSY-000046
+knowledge_type: social_psychology
+name_ja: 公的自己意識
+name_en: Public Self Consciousness
+category: Social Psychology
+attribute: Self Presentation
+definition_ja: 他者から見られる自分への意識の強さ。
+tags:
+  - CAT:社会心理
+  - CAT:自己呈示
+  - ATTR:社会的要因
+parent:
+  - 自己呈示
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 公的自己意識関連行動変化
+  - 公的自己意識関連反応時間
+  - 公的自己意識関連選択率
+  - 公的自己意識関連対人反応
+signal_candidates:
+  - 公的自己意識が対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

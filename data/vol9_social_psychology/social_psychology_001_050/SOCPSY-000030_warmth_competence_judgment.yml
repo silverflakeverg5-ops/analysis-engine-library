@@ -1,0 +1,33 @@
+id: SOCPSY-000030
+knowledge_type: social_psychology
+name_ja: 温かさ有能さ判断
+name_en: Warmth Competence Judgment
+category: Social Psychology
+attribute: Interpersonal Perception
+definition_ja: 他者を親しみやすさと能力の軸で評価する対人判断。
+tags:
+  - CAT:社会心理
+  - CAT:対人認知
+  - ATTR:社会的要因
+parent:
+  - 対人認知
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 温かさ有能さ判断関連行動変化
+  - 温かさ有能さ判断関連反応時間
+  - 温かさ有能さ判断関連選択率
+  - 温かさ有能さ判断関連対人反応
+signal_candidates:
+  - 温かさ有能さ判断が対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

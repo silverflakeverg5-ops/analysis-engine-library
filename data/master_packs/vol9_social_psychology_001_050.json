@@ -1,0 +1,2107 @@
+{
+  "output_dir": "vol9_social_psychology/social_psychology_001_050",
+  "index_filename": "social_psychology_001_050_index.yml",
+  "index_content": "category: Social Psychology\nname_ja: 社会心理\nitems:\n  - SOCPSY-000001_social_influence.yml\n  - SOCPSY-000002_conformity.yml\n  - SOCPSY-000003_obedience.yml\n  - SOCPSY-000004_compliance.yml\n  - SOCPSY-000005_persuasion.yml\n  - SOCPSY-000006_social_proof.yml\n  - SOCPSY-000007_normative_influence.yml\n  - SOCPSY-000008_informational_influence.yml\n  - SOCPSY-000009_minority_influence.yml\n  - SOCPSY-000010_social_contagion.yml\n  - SOCPSY-000011_group_dynamics.yml\n  - SOCPSY-000012_group_norms.yml\n  - SOCPSY-000013_group_cohesion.yml\n  - SOCPSY-000014_social_identity.yml\n  - SOCPSY-000015_ingroup_outgroup.yml\n  - SOCPSY-000016_group_polarization.yml\n  - SOCPSY-000017_groupthink.yml\n  - SOCPSY-000018_social_loafing.yml\n  - SOCPSY-000019_deindividuation.yml\n  - SOCPSY-000020_collective_efficacy.yml\n  - SOCPSY-000021_impression_formation.yml\n  - SOCPSY-000022_person_perception.yml\n  - SOCPSY-000023_attribution_process.yml\n  - SOCPSY-000024_stereotype.yml\n  - SOCPSY-000025_prejudice.yml\n  - SOCPSY-000026_discrimination_behavior.yml\n  - SOCPSY-000027_thin_slice_judgment.yml\n  - SOCPSY-000028_nonverbal_cue_reading.yml\n  - SOCPSY-000029_trust_perception.yml\n  - SOCPSY-000030_warmth_competence_judgment.yml\n  - SOCPSY-000031_relationship_quality.yml\n  - SOCPSY-000032_attachment_style.yml\n  - SOCPSY-000033_trust_building.yml\n  - SOCPSY-000034_reciprocity.yml\n  - SOCPSY-000035_self_disclosure.yml\n  - SOCPSY-000036_intimacy_development.yml\n  - SOCPSY-000037_relationship_maintenance.yml\n  - SOCPSY-000038_conflict_resolution.yml\n  - SOCPSY-000039_social_exchange.yml\n  - SOCPSY-000040_relationship_boundary.yml\n  - SOCPSY-000041_self_presentation.yml\n  - SOCPSY-000042_impression_management.yml\n  - SOCPSY-000043_face_saving.yml\n  - SOCPSY-000044_social_approval_need.yml\n  - SOCPSY-000045_evaluation_apprehension.yml\n  - SOCPSY-000046_public_self_consciousness.yml\n  - SOCPSY-000047_private_self_consciousness.yml\n  - SOCPSY-000048_identity_signaling.yml\n  - SOCPSY-000049_authenticity_expression.yml\n  - SOCPSY-000050_social_masking.yml\nnotes:\n  - 社会心理は性格断定ではなく推論材料として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
+  "items": [
+    {
+      "filename": "SOCPSY-000001_social_influence.yml",
+      "id": "SOCPSY-000001",
+      "knowledge_type": "social_psychology",
+      "name_ja": "社会的影響",
+      "name_en": "Social Influence",
+      "category": "Social Psychology",
+      "attribute": "Social Influence",
+      "definition_ja": "他者や集団の存在・期待・行動が個人の判断や行動に影響する現象。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的影響",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的影響"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "社会的影響関連行動変化",
+        "社会的影響関連反応時間",
+        "社会的影響関連選択率",
+        "社会的影響関連対人反応"
+      ],
+      "signal_candidates": [
+        "社会的影響が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000002_conformity.yml",
+      "id": "SOCPSY-000002",
+      "knowledge_type": "social_psychology",
+      "name_ja": "同調",
+      "name_en": "Conformity",
+      "category": "Social Psychology",
+      "attribute": "Social Influence",
+      "definition_ja": "集団や多数派の意見・行動に合わせて自分の判断や行動を変える現象。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的影響",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的影響"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "同調関連行動変化",
+        "同調関連反応時間",
+        "同調関連選択率",
+        "同調関連対人反応"
+      ],
+      "signal_candidates": [
+        "同調が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000003_obedience.yml",
+      "id": "SOCPSY-000003",
+      "knowledge_type": "social_psychology",
+      "name_ja": "服従",
+      "name_en": "Obedience",
+      "category": "Social Psychology",
+      "attribute": "Social Influence",
+      "definition_ja": "権威や命令に従って行動する社会的影響過程。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的影響",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的影響"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "服従関連行動変化",
+        "服従関連反応時間",
+        "服従関連選択率",
+        "服従関連対人反応"
+      ],
+      "signal_candidates": [
+        "服従が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000004_compliance.yml",
+      "id": "SOCPSY-000004",
+      "knowledge_type": "social_psychology",
+      "name_ja": "承諾",
+      "name_en": "Compliance",
+      "category": "Social Psychology",
+      "attribute": "Social Influence",
+      "definition_ja": "明示的または暗黙の依頼に応じて行動を変えること。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的影響",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的影響"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "承諾関連行動変化",
+        "承諾関連反応時間",
+        "承諾関連選択率",
+        "承諾関連対人反応"
+      ],
+      "signal_candidates": [
+        "承諾が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000005_persuasion.yml",
+      "id": "SOCPSY-000005",
+      "knowledge_type": "social_psychology",
+      "name_ja": "説得",
+      "name_en": "Persuasion",
+      "category": "Social Psychology",
+      "attribute": "Social Influence",
+      "definition_ja": "メッセージや相互作用によって態度や行動が変化する過程。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的影響",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的影響"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "説得関連行動変化",
+        "説得関連反応時間",
+        "説得関連選択率",
+        "説得関連対人反応"
+      ],
+      "signal_candidates": [
+        "説得が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000006_social_proof.yml",
+      "id": "SOCPSY-000006",
+      "knowledge_type": "social_psychology",
+      "name_ja": "社会的証明",
+      "name_en": "Social Proof",
+      "category": "Social Psychology",
+      "attribute": "Social Influence",
+      "definition_ja": "他者の行動や選択を根拠に、何が正しいか判断する傾向。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的影響",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的影響"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "社会的証明関連行動変化",
+        "社会的証明関連反応時間",
+        "社会的証明関連選択率",
+        "社会的証明関連対人反応"
+      ],
+      "signal_candidates": [
+        "社会的証明が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000007_normative_influence.yml",
+      "id": "SOCPSY-000007",
+      "knowledge_type": "social_psychology",
+      "name_ja": "規範的影響",
+      "name_en": "Normative Influence",
+      "category": "Social Psychology",
+      "attribute": "Social Influence",
+      "definition_ja": "受け入れられたい、拒絶されたくないという動機による社会的影響。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的影響",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的影響"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "規範的影響関連行動変化",
+        "規範的影響関連反応時間",
+        "規範的影響関連選択率",
+        "規範的影響関連対人反応"
+      ],
+      "signal_candidates": [
+        "規範的影響が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000008_informational_influence.yml",
+      "id": "SOCPSY-000008",
+      "knowledge_type": "social_psychology",
+      "name_ja": "情報的影響",
+      "name_en": "Informational Influence",
+      "category": "Social Psychology",
+      "attribute": "Social Influence",
+      "definition_ja": "他者の判断を情報源として利用することによる社会的影響。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的影響",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的影響"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "情報的影響関連行動変化",
+        "情報的影響関連反応時間",
+        "情報的影響関連選択率",
+        "情報的影響関連対人反応"
+      ],
+      "signal_candidates": [
+        "情報的影響が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000009_minority_influence.yml",
+      "id": "SOCPSY-000009",
+      "knowledge_type": "social_psychology",
+      "name_ja": "少数派影響",
+      "name_en": "Minority Influence",
+      "category": "Social Psychology",
+      "attribute": "Social Influence",
+      "definition_ja": "一貫した少数派の主張が多数派や集団判断に影響する過程。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的影響",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的影響"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "少数派影響関連行動変化",
+        "少数派影響関連反応時間",
+        "少数派影響関連選択率",
+        "少数派影響関連対人反応"
+      ],
+      "signal_candidates": [
+        "少数派影響が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000010_social_contagion.yml",
+      "id": "SOCPSY-000010",
+      "knowledge_type": "social_psychology",
+      "name_ja": "社会的伝染",
+      "name_en": "Social Contagion",
+      "category": "Social Psychology",
+      "attribute": "Social Influence",
+      "definition_ja": "感情・行動・態度が集団内で広がる現象。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的影響",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的影響"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "社会的伝染関連行動変化",
+        "社会的伝染関連反応時間",
+        "社会的伝染関連選択率",
+        "社会的伝染関連対人反応"
+      ],
+      "signal_candidates": [
+        "社会的伝染が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000011_group_dynamics.yml",
+      "id": "SOCPSY-000011",
+      "knowledge_type": "social_psychology",
+      "name_ja": "集団力学",
+      "name_en": "Group Dynamics",
+      "category": "Social Psychology",
+      "attribute": "Group Dynamics",
+      "definition_ja": "集団内の相互作用・役割・規範・意思決定の仕組み。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:集団力学",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "集団力学"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "集団力学関連行動変化",
+        "集団力学関連反応時間",
+        "集団力学関連選択率",
+        "集団力学関連対人反応"
+      ],
+      "signal_candidates": [
+        "集団力学が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000012_group_norms.yml",
+      "id": "SOCPSY-000012",
+      "knowledge_type": "social_psychology",
+      "name_ja": "集団規範",
+      "name_en": "Group Norms",
+      "category": "Social Psychology",
+      "attribute": "Group Dynamics",
+      "definition_ja": "集団内で共有される望ましい行動や判断の基準。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:集団力学",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "集団力学"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "集団規範関連行動変化",
+        "集団規範関連反応時間",
+        "集団規範関連選択率",
+        "集団規範関連対人反応"
+      ],
+      "signal_candidates": [
+        "集団規範が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000013_group_cohesion.yml",
+      "id": "SOCPSY-000013",
+      "knowledge_type": "social_psychology",
+      "name_ja": "集団凝集性",
+      "name_en": "Group Cohesion",
+      "category": "Social Psychology",
+      "attribute": "Group Dynamics",
+      "definition_ja": "集団メンバー同士の結びつきや一体感の強さ。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:集団力学",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "集団力学"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "集団凝集性関連行動変化",
+        "集団凝集性関連反応時間",
+        "集団凝集性関連選択率",
+        "集団凝集性関連対人反応"
+      ],
+      "signal_candidates": [
+        "集団凝集性が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000014_social_identity.yml",
+      "id": "SOCPSY-000014",
+      "knowledge_type": "social_psychology",
+      "name_ja": "社会的アイデンティティ",
+      "name_en": "Social Identity",
+      "category": "Social Psychology",
+      "attribute": "Group Dynamics",
+      "definition_ja": "自分が特定の集団に属しているという自己認識。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:集団力学",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "集団力学"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "社会的アイデンティティ関連行動変化",
+        "社会的アイデンティティ関連反応時間",
+        "社会的アイデンティティ関連選択率",
+        "社会的アイデンティティ関連対人反応"
+      ],
+      "signal_candidates": [
+        "社会的アイデンティティが対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000015_ingroup_outgroup.yml",
+      "id": "SOCPSY-000015",
+      "knowledge_type": "social_psychology",
+      "name_ja": "内集団外集団",
+      "name_en": "Ingroup Outgroup",
+      "category": "Social Psychology",
+      "attribute": "Group Dynamics",
+      "definition_ja": "自分が属する集団と属さない集団を区別する認知枠組み。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:集団力学",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "集団力学"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "内集団外集団関連行動変化",
+        "内集団外集団関連反応時間",
+        "内集団外集団関連選択率",
+        "内集団外集団関連対人反応"
+      ],
+      "signal_candidates": [
+        "内集団外集団が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000016_group_polarization.yml",
+      "id": "SOCPSY-000016",
+      "knowledge_type": "social_psychology",
+      "name_ja": "集団極性化",
+      "name_en": "Group Polarization",
+      "category": "Social Psychology",
+      "attribute": "Group Dynamics",
+      "definition_ja": "集団討議後に意見がより極端な方向へ強まる現象。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:集団力学",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "集団力学"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "集団極性化関連行動変化",
+        "集団極性化関連反応時間",
+        "集団極性化関連選択率",
+        "集団極性化関連対人反応"
+      ],
+      "signal_candidates": [
+        "集団極性化が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000017_groupthink.yml",
+      "id": "SOCPSY-000017",
+      "knowledge_type": "social_psychology",
+      "name_ja": "集団思考",
+      "name_en": "Groupthink",
+      "category": "Social Psychology",
+      "attribute": "Group Dynamics",
+      "definition_ja": "合意や調和を重視しすぎて批判的検討が弱まる集団意思決定現象。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:集団力学",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "集団力学"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "集団思考関連行動変化",
+        "集団思考関連反応時間",
+        "集団思考関連選択率",
+        "集団思考関連対人反応"
+      ],
+      "signal_candidates": [
+        "集団思考が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000018_social_loafing.yml",
+      "id": "SOCPSY-000018",
+      "knowledge_type": "social_psychology",
+      "name_ja": "社会的手抜き",
+      "name_en": "Social Loafing",
+      "category": "Social Psychology",
+      "attribute": "Group Dynamics",
+      "definition_ja": "集団作業で個人の努力量が低下する現象。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:集団力学",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "集団力学"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "社会的手抜き関連行動変化",
+        "社会的手抜き関連反応時間",
+        "社会的手抜き関連選択率",
+        "社会的手抜き関連対人反応"
+      ],
+      "signal_candidates": [
+        "社会的手抜きが対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000019_deindividuation.yml",
+      "id": "SOCPSY-000019",
+      "knowledge_type": "social_psychology",
+      "name_ja": "没個性化",
+      "name_en": "Deindividuation",
+      "category": "Social Psychology",
+      "attribute": "Group Dynamics",
+      "definition_ja": "集団や匿名性の中で自己意識や責任感が弱まりやすくなる現象。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:集団力学",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "集団力学"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "没個性化関連行動変化",
+        "没個性化関連反応時間",
+        "没個性化関連選択率",
+        "没個性化関連対人反応"
+      ],
+      "signal_candidates": [
+        "没個性化が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000020_collective_efficacy.yml",
+      "id": "SOCPSY-000020",
+      "knowledge_type": "social_psychology",
+      "name_ja": "集合的効力感",
+      "name_en": "Collective Efficacy",
+      "category": "Social Psychology",
+      "attribute": "Group Dynamics",
+      "definition_ja": "集団として目標を達成できるという共有された信念。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:集団力学",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "集団力学"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "集合的効力感関連行動変化",
+        "集合的効力感関連反応時間",
+        "集合的効力感関連選択率",
+        "集合的効力感関連対人反応"
+      ],
+      "signal_candidates": [
+        "集合的効力感が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000021_impression_formation.yml",
+      "id": "SOCPSY-000021",
+      "knowledge_type": "social_psychology",
+      "name_ja": "印象形成",
+      "name_en": "Impression Formation",
+      "category": "Social Psychology",
+      "attribute": "Interpersonal Perception",
+      "definition_ja": "他者の外見・発言・行動から全体的な印象を作る過程。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:対人認知",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "対人認知"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "印象形成関連行動変化",
+        "印象形成関連反応時間",
+        "印象形成関連選択率",
+        "印象形成関連対人反応"
+      ],
+      "signal_candidates": [
+        "印象形成が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000022_person_perception.yml",
+      "id": "SOCPSY-000022",
+      "knowledge_type": "social_psychology",
+      "name_ja": "人物知覚",
+      "name_en": "Person Perception",
+      "category": "Social Psychology",
+      "attribute": "Interpersonal Perception",
+      "definition_ja": "他者の性格・意図・能力・感情を推測する認知過程。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:対人認知",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "対人認知"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "人物知覚関連行動変化",
+        "人物知覚関連反応時間",
+        "人物知覚関連選択率",
+        "人物知覚関連対人反応"
+      ],
+      "signal_candidates": [
+        "人物知覚が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000023_attribution_process.yml",
+      "id": "SOCPSY-000023",
+      "knowledge_type": "social_psychology",
+      "name_ja": "原因帰属過程",
+      "name_en": "Attribution Process",
+      "category": "Social Psychology",
+      "attribute": "Interpersonal Perception",
+      "definition_ja": "行動や出来事の原因を内的要因または外的要因に説明する過程。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:対人認知",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "対人認知"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "原因帰属過程関連行動変化",
+        "原因帰属過程関連反応時間",
+        "原因帰属過程関連選択率",
+        "原因帰属過程関連対人反応"
+      ],
+      "signal_candidates": [
+        "原因帰属過程が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000024_stereotype.yml",
+      "id": "SOCPSY-000024",
+      "knowledge_type": "social_psychology",
+      "name_ja": "ステレオタイプ",
+      "name_en": "Stereotype",
+      "category": "Social Psychology",
+      "attribute": "Interpersonal Perception",
+      "definition_ja": "特定集団に対して持たれる一般化された信念や期待。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:対人認知",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "対人認知"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "ステレオタイプ関連行動変化",
+        "ステレオタイプ関連反応時間",
+        "ステレオタイプ関連選択率",
+        "ステレオタイプ関連対人反応"
+      ],
+      "signal_candidates": [
+        "ステレオタイプが対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000025_prejudice.yml",
+      "id": "SOCPSY-000025",
+      "knowledge_type": "social_psychology",
+      "name_ja": "偏見",
+      "name_en": "Prejudice",
+      "category": "Social Psychology",
+      "attribute": "Interpersonal Perception",
+      "definition_ja": "特定集団や個人に対する事前の否定的または肯定的態度。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:対人認知",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "対人認知"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "偏見関連行動変化",
+        "偏見関連反応時間",
+        "偏見関連選択率",
+        "偏見関連対人反応"
+      ],
+      "signal_candidates": [
+        "偏見が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000026_discrimination_behavior.yml",
+      "id": "SOCPSY-000026",
+      "knowledge_type": "social_psychology",
+      "name_ja": "差別行動",
+      "name_en": "Discrimination Behavior",
+      "category": "Social Psychology",
+      "attribute": "Interpersonal Perception",
+      "definition_ja": "集団属性や偏見に基づいて異なる扱いをする行動。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:対人認知",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "対人認知"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "差別行動関連行動変化",
+        "差別行動関連反応時間",
+        "差別行動関連選択率",
+        "差別行動関連対人反応"
+      ],
+      "signal_candidates": [
+        "差別行動が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000027_thin_slice_judgment.yml",
+      "id": "SOCPSY-000027",
+      "knowledge_type": "social_psychology",
+      "name_ja": "薄切り判断",
+      "name_en": "Thin Slice Judgment",
+      "category": "Social Psychology",
+      "attribute": "Interpersonal Perception",
+      "definition_ja": "短い観察情報から他者の特徴や状態を推測する判断。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:対人認知",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "対人認知"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "薄切り判断関連行動変化",
+        "薄切り判断関連反応時間",
+        "薄切り判断関連選択率",
+        "薄切り判断関連対人反応"
+      ],
+      "signal_candidates": [
+        "薄切り判断が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000028_nonverbal_cue_reading.yml",
+      "id": "SOCPSY-000028",
+      "knowledge_type": "social_psychology",
+      "name_ja": "非言語手がかり読解",
+      "name_en": "Nonverbal Cue Reading",
+      "category": "Social Psychology",
+      "attribute": "Interpersonal Perception",
+      "definition_ja": "表情・姿勢・視線・声などから相手の状態を読む過程。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:対人認知",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "対人認知"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "非言語手がかり読解関連行動変化",
+        "非言語手がかり読解関連反応時間",
+        "非言語手がかり読解関連選択率",
+        "非言語手がかり読解関連対人反応"
+      ],
+      "signal_candidates": [
+        "非言語手がかり読解が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000029_trust_perception.yml",
+      "id": "SOCPSY-000029",
+      "knowledge_type": "social_psychology",
+      "name_ja": "信頼知覚",
+      "name_en": "Trust Perception",
+      "category": "Social Psychology",
+      "attribute": "Interpersonal Perception",
+      "definition_ja": "相手が信頼できるかどうかを判断する対人認知過程。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:対人認知",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "対人認知"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "信頼知覚関連行動変化",
+        "信頼知覚関連反応時間",
+        "信頼知覚関連選択率",
+        "信頼知覚関連対人反応"
+      ],
+      "signal_candidates": [
+        "信頼知覚が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000030_warmth_competence_judgment.yml",
+      "id": "SOCPSY-000030",
+      "knowledge_type": "social_psychology",
+      "name_ja": "温かさ有能さ判断",
+      "name_en": "Warmth Competence Judgment",
+      "category": "Social Psychology",
+      "attribute": "Interpersonal Perception",
+      "definition_ja": "他者を親しみやすさと能力の軸で評価する対人判断。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:対人認知",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "対人認知"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "温かさ有能さ判断関連行動変化",
+        "温かさ有能さ判断関連反応時間",
+        "温かさ有能さ判断関連選択率",
+        "温かさ有能さ判断関連対人反応"
+      ],
+      "signal_candidates": [
+        "温かさ有能さ判断が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000031_relationship_quality.yml",
+      "id": "SOCPSY-000031",
+      "knowledge_type": "social_psychology",
+      "name_ja": "関係性の質",
+      "name_en": "Relationship Quality",
+      "category": "Social Psychology",
+      "attribute": "Relationship",
+      "definition_ja": "信頼・安心感・支援・葛藤の少なさなどを含む対人関係の質。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:関係性",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "関係性"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "関係性の質関連行動変化",
+        "関係性の質関連反応時間",
+        "関係性の質関連選択率",
+        "関係性の質関連対人反応"
+      ],
+      "signal_candidates": [
+        "関係性の質が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000032_attachment_style.yml",
+      "id": "SOCPSY-000032",
+      "knowledge_type": "social_psychology",
+      "name_ja": "愛着スタイル",
+      "name_en": "Attachment Style",
+      "category": "Social Psychology",
+      "attribute": "Relationship",
+      "definition_ja": "親密な関係での安心感・距離感・不安に関わる対人傾向。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:関係性",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "関係性"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "愛着スタイル関連行動変化",
+        "愛着スタイル関連反応時間",
+        "愛着スタイル関連選択率",
+        "愛着スタイル関連対人反応"
+      ],
+      "signal_candidates": [
+        "愛着スタイルが対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000033_trust_building.yml",
+      "id": "SOCPSY-000033",
+      "knowledge_type": "social_psychology",
+      "name_ja": "信頼形成",
+      "name_en": "Trust Building",
+      "category": "Social Psychology",
+      "attribute": "Relationship",
+      "definition_ja": "一貫性・誠実性・支援などを通じて信頼が形成される過程。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:関係性",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "関係性"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "信頼形成関連行動変化",
+        "信頼形成関連反応時間",
+        "信頼形成関連選択率",
+        "信頼形成関連対人反応"
+      ],
+      "signal_candidates": [
+        "信頼形成が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000034_reciprocity.yml",
+      "id": "SOCPSY-000034",
+      "knowledge_type": "social_psychology",
+      "name_ja": "互恵性",
+      "name_en": "Reciprocity",
+      "category": "Social Psychology",
+      "attribute": "Relationship",
+      "definition_ja": "相手から受けた行為に対して返報しようとする社会的原理。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:関係性",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "関係性"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "互恵性関連行動変化",
+        "互恵性関連反応時間",
+        "互恵性関連選択率",
+        "互恵性関連対人反応"
+      ],
+      "signal_candidates": [
+        "互恵性が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000035_self_disclosure.yml",
+      "id": "SOCPSY-000035",
+      "knowledge_type": "social_psychology",
+      "name_ja": "自己開示",
+      "name_en": "Self Disclosure",
+      "category": "Social Psychology",
+      "attribute": "Relationship",
+      "definition_ja": "自分の考え・感情・経験を他者に伝える対人行動。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:関係性",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "関係性"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "自己開示関連行動変化",
+        "自己開示関連反応時間",
+        "自己開示関連選択率",
+        "自己開示関連対人反応"
+      ],
+      "signal_candidates": [
+        "自己開示が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000036_intimacy_development.yml",
+      "id": "SOCPSY-000036",
+      "knowledge_type": "social_psychology",
+      "name_ja": "親密性形成",
+      "name_en": "Intimacy Development",
+      "category": "Social Psychology",
+      "attribute": "Relationship",
+      "definition_ja": "相互理解や信頼を通じて関係が深まる過程。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:関係性",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "関係性"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "親密性形成関連行動変化",
+        "親密性形成関連反応時間",
+        "親密性形成関連選択率",
+        "親密性形成関連対人反応"
+      ],
+      "signal_candidates": [
+        "親密性形成が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000037_relationship_maintenance.yml",
+      "id": "SOCPSY-000037",
+      "knowledge_type": "social_psychology",
+      "name_ja": "関係維持",
+      "name_en": "Relationship Maintenance",
+      "category": "Social Psychology",
+      "attribute": "Relationship",
+      "definition_ja": "関係を保つための連絡・配慮・支援・調整行動。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:関係性",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "関係性"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "関係維持関連行動変化",
+        "関係維持関連反応時間",
+        "関係維持関連選択率",
+        "関係維持関連対人反応"
+      ],
+      "signal_candidates": [
+        "関係維持が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000038_conflict_resolution.yml",
+      "id": "SOCPSY-000038",
+      "knowledge_type": "social_psychology",
+      "name_ja": "葛藤解決",
+      "name_en": "Conflict Resolution",
+      "category": "Social Psychology",
+      "attribute": "Relationship",
+      "definition_ja": "対立や不一致を調整し、関係や合意を回復する過程。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:関係性",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "関係性"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "葛藤解決関連行動変化",
+        "葛藤解決関連反応時間",
+        "葛藤解決関連選択率",
+        "葛藤解決関連対人反応"
+      ],
+      "signal_candidates": [
+        "葛藤解決が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000039_social_exchange.yml",
+      "id": "SOCPSY-000039",
+      "knowledge_type": "social_psychology",
+      "name_ja": "社会的交換",
+      "name_en": "Social Exchange",
+      "category": "Social Psychology",
+      "attribute": "Relationship",
+      "definition_ja": "報酬・コスト・公平性に基づいて関係を評価する考え方。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:関係性",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "関係性"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "社会的交換関連行動変化",
+        "社会的交換関連反応時間",
+        "社会的交換関連選択率",
+        "社会的交換関連対人反応"
+      ],
+      "signal_candidates": [
+        "社会的交換が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000040_relationship_boundary.yml",
+      "id": "SOCPSY-000040",
+      "knowledge_type": "social_psychology",
+      "name_ja": "関係境界",
+      "name_en": "Relationship Boundary",
+      "category": "Social Psychology",
+      "attribute": "Relationship",
+      "definition_ja": "親密さ・役割・責任・距離感の範囲を調整する対人要因。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:関係性",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "関係性"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "関係境界関連行動変化",
+        "関係境界関連反応時間",
+        "関係境界関連選択率",
+        "関係境界関連対人反応"
+      ],
+      "signal_candidates": [
+        "関係境界が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000041_self_presentation.yml",
+      "id": "SOCPSY-000041",
+      "knowledge_type": "social_psychology",
+      "name_ja": "自己呈示",
+      "name_en": "Self Presentation",
+      "category": "Social Psychology",
+      "attribute": "Self Presentation",
+      "definition_ja": "他者から望ましく見られるように自分の印象を調整する行動。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:自己呈示",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "自己呈示"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "自己呈示関連行動変化",
+        "自己呈示関連反応時間",
+        "自己呈示関連選択率",
+        "自己呈示関連対人反応"
+      ],
+      "signal_candidates": [
+        "自己呈示が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000042_impression_management.yml",
+      "id": "SOCPSY-000042",
+      "knowledge_type": "social_psychology",
+      "name_ja": "印象管理",
+      "name_en": "Impression Management",
+      "category": "Social Psychology",
+      "attribute": "Self Presentation",
+      "definition_ja": "他者に与える印象を意図的または無意識に調整する過程。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:自己呈示",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "自己呈示"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "印象管理関連行動変化",
+        "印象管理関連反応時間",
+        "印象管理関連選択率",
+        "印象管理関連対人反応"
+      ],
+      "signal_candidates": [
+        "印象管理が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000043_face_saving.yml",
+      "id": "SOCPSY-000043",
+      "knowledge_type": "social_psychology",
+      "name_ja": "面子保持",
+      "name_en": "Face Saving",
+      "category": "Social Psychology",
+      "attribute": "Self Presentation",
+      "definition_ja": "自分や相手の社会的評価や体面を守ろうとする行動。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:自己呈示",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "自己呈示"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "面子保持関連行動変化",
+        "面子保持関連反応時間",
+        "面子保持関連選択率",
+        "面子保持関連対人反応"
+      ],
+      "signal_candidates": [
+        "面子保持が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000044_social_approval_need.yml",
+      "id": "SOCPSY-000044",
+      "knowledge_type": "social_psychology",
+      "name_ja": "承認欲求",
+      "name_en": "Need for Social Approval",
+      "category": "Social Psychology",
+      "attribute": "Self Presentation",
+      "definition_ja": "他者から認められたい、好意的に評価されたいという欲求。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:自己呈示",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "自己呈示"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "承認欲求関連行動変化",
+        "承認欲求関連反応時間",
+        "承認欲求関連選択率",
+        "承認欲求関連対人反応"
+      ],
+      "signal_candidates": [
+        "承認欲求が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000045_evaluation_apprehension.yml",
+      "id": "SOCPSY-000045",
+      "knowledge_type": "social_psychology",
+      "name_ja": "評価懸念",
+      "name_en": "Evaluation Apprehension",
+      "category": "Social Psychology",
+      "attribute": "Self Presentation",
+      "definition_ja": "他者から評価されることへの不安や緊張。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:自己呈示",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "自己呈示"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "評価懸念関連行動変化",
+        "評価懸念関連反応時間",
+        "評価懸念関連選択率",
+        "評価懸念関連対人反応"
+      ],
+      "signal_candidates": [
+        "評価懸念が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000046_public_self_consciousness.yml",
+      "id": "SOCPSY-000046",
+      "knowledge_type": "social_psychology",
+      "name_ja": "公的自己意識",
+      "name_en": "Public Self Consciousness",
+      "category": "Social Psychology",
+      "attribute": "Self Presentation",
+      "definition_ja": "他者から見られる自分への意識の強さ。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:自己呈示",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "自己呈示"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "公的自己意識関連行動変化",
+        "公的自己意識関連反応時間",
+        "公的自己意識関連選択率",
+        "公的自己意識関連対人反応"
+      ],
+      "signal_candidates": [
+        "公的自己意識が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000047_private_self_consciousness.yml",
+      "id": "SOCPSY-000047",
+      "knowledge_type": "social_psychology",
+      "name_ja": "私的自己意識",
+      "name_en": "Private Self Consciousness",
+      "category": "Social Psychology",
+      "attribute": "Self Presentation",
+      "definition_ja": "自分の内面状態や考えへの意識の強さ。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:自己呈示",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "自己呈示"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "私的自己意識関連行動変化",
+        "私的自己意識関連反応時間",
+        "私的自己意識関連選択率",
+        "私的自己意識関連対人反応"
+      ],
+      "signal_candidates": [
+        "私的自己意識が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000048_identity_signaling.yml",
+      "id": "SOCPSY-000048",
+      "knowledge_type": "social_psychology",
+      "name_ja": "アイデンティティシグナリング",
+      "name_en": "Identity Signaling",
+      "category": "Social Psychology",
+      "attribute": "Self Presentation",
+      "definition_ja": "選択・発言・所属を通じて自分らしさや価値観を示す行動。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:自己呈示",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "自己呈示"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "アイデンティティシグナリング関連行動変化",
+        "アイデンティティシグナリング関連反応時間",
+        "アイデンティティシグナリング関連選択率",
+        "アイデンティティシグナリング関連対人反応"
+      ],
+      "signal_candidates": [
+        "アイデンティティシグナリングが対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000049_authenticity_expression.yml",
+      "id": "SOCPSY-000049",
+      "knowledge_type": "social_psychology",
+      "name_ja": "真正性表現",
+      "name_en": "Authenticity Expression",
+      "category": "Social Psychology",
+      "attribute": "Self Presentation",
+      "definition_ja": "自分の本音や価値観に沿って自己を表現すること。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:自己呈示",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "自己呈示"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "真正性表現関連行動変化",
+        "真正性表現関連反応時間",
+        "真正性表現関連選択率",
+        "真正性表現関連対人反応"
+      ],
+      "signal_candidates": [
+        "真正性表現が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000050_social_masking.yml",
+      "id": "SOCPSY-000050",
+      "knowledge_type": "social_psychology",
+      "name_ja": "社会的マスキング",
+      "name_en": "Social Masking",
+      "category": "Social Psychology",
+      "attribute": "Self Presentation",
+      "definition_ja": "場に合わせるために本来の反応や特徴を隠したり調整する行動。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:自己呈示",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "自己呈示"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "社会的マスキング関連行動変化",
+        "社会的マスキング関連反応時間",
+        "社会的マスキング関連選択率",
+        "社会的マスキング関連対人反応"
+      ],
+      "signal_candidates": [
+        "社会的マスキングが対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+id: SOCPSY-000029
+knowledge_type: social_psychology
+name_ja: 信頼知覚
+name_en: Trust Perception
+category: Social Psychology
+attribute: Interpersonal Perception
+definition_ja: 相手が信頼できるかどうかを判断する対人認知過程。
+tags:
+  - CAT:社会心理
+  - CAT:対人認知
+  - ATTR:社会的要因
+parent:
+  - 対人認知
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 信頼知覚関連行動変化
+  - 信頼知覚関連反応時間
+  - 信頼知覚関連選択率
+  - 信頼知覚関連対人反応
+signal_candidates:
+  - 信頼知覚が対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

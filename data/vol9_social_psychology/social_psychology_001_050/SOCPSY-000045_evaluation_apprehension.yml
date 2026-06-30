@@ -1,0 +1,33 @@
+id: SOCPSY-000045
+knowledge_type: social_psychology
+name_ja: 評価懸念
+name_en: Evaluation Apprehension
+category: Social Psychology
+attribute: Self Presentation
+definition_ja: 他者から評価されることへの不安や緊張。
+tags:
+  - CAT:社会心理
+  - CAT:自己呈示
+  - ATTR:社会的要因
+parent:
+  - 自己呈示
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 評価懸念関連行動変化
+  - 評価懸念関連反応時間
+  - 評価懸念関連選択率
+  - 評価懸念関連対人反応
+signal_candidates:
+  - 評価懸念が対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

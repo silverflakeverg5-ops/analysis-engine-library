@@ -1,0 +1,33 @@
+id: SOCPSY-000012
+knowledge_type: social_psychology
+name_ja: 集団規範
+name_en: Group Norms
+category: Social Psychology
+attribute: Group Dynamics
+definition_ja: 集団内で共有される望ましい行動や判断の基準。
+tags:
+  - CAT:社会心理
+  - CAT:集団力学
+  - ATTR:社会的要因
+parent:
+  - 集団力学
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 集団規範関連行動変化
+  - 集団規範関連反応時間
+  - 集団規範関連選択率
+  - 集団規範関連対人反応
+signal_candidates:
+  - 集団規範が対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

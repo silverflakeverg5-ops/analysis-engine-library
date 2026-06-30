@@ -1,0 +1,33 @@
+id: SOCPSY-000048
+knowledge_type: social_psychology
+name_ja: アイデンティティシグナリング
+name_en: Identity Signaling
+category: Social Psychology
+attribute: Self Presentation
+definition_ja: 選択・発言・所属を通じて自分らしさや価値観を示す行動。
+tags:
+  - CAT:社会心理
+  - CAT:自己呈示
+  - ATTR:社会的要因
+parent:
+  - 自己呈示
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - アイデンティティシグナリング関連行動変化
+  - アイデンティティシグナリング関連反応時間
+  - アイデンティティシグナリング関連選択率
+  - アイデンティティシグナリング関連対人反応
+signal_candidates:
+  - アイデンティティシグナリングが対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

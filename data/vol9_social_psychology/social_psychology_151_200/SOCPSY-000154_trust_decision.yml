@@ -1,0 +1,33 @@
+id: SOCPSY-000154
+knowledge_type: social_psychology
+name_ja: 信頼意思決定
+name_en: Trust Decision
+category: Social Psychology
+attribute: Social Decision Making
+definition_ja: 相手に資源・情報・判断を委ねるかどうかの選択。
+tags:
+  - CAT:社会心理
+  - CAT:社会的意思決定
+  - ATTR:社会的要因
+parent:
+  - 社会的意思決定
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 信頼意思決定関連行動変化
+  - 信頼意思決定関連反応時間
+  - 信頼意思決定関連選択率
+  - 信頼意思決定関連対人反応
+signal_candidates:
+  - 信頼意思決定が対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

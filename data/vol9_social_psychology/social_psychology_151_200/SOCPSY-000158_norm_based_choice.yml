@@ -1,0 +1,33 @@
+id: SOCPSY-000158
+knowledge_type: social_psychology
+name_ja: 規範ベース選択
+name_en: Norm Based Choice
+category: Social Psychology
+attribute: Social Decision Making
+definition_ja: 社会的ルールや期待に沿って行動を選ぶこと。
+tags:
+  - CAT:社会心理
+  - CAT:社会的意思決定
+  - ATTR:社会的要因
+parent:
+  - 社会的意思決定
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 規範ベース選択関連行動変化
+  - 規範ベース選択関連反応時間
+  - 規範ベース選択関連選択率
+  - 規範ベース選択関連対人反応
+signal_candidates:
+  - 規範ベース選択が対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

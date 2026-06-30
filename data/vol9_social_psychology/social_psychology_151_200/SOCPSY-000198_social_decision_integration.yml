@@ -1,0 +1,33 @@
+id: SOCPSY-000198
+knowledge_type: social_psychology
+name_ja: 社会的意思決定統合
+name_en: Social Decision Integration
+category: Social Psychology
+attribute: Integration
+definition_ja: 公平性・信頼・評判・関係維持を含む意思決定統合。
+tags:
+  - CAT:社会心理
+  - CAT:統合
+  - ATTR:社会的要因
+parent:
+  - 統合
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 社会的意思決定統合関連行動変化
+  - 社会的意思決定統合関連反応時間
+  - 社会的意思決定統合関連選択率
+  - 社会的意思決定統合関連対人反応
+signal_candidates:
+  - 社会的意思決定統合が対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

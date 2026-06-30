@@ -1,0 +1,33 @@
+id: SOCPSY-000190
+knowledge_type: social_psychology
+name_ja: 認知承認動機
+name_en: Recognition Motivation
+category: Social Psychology
+attribute: Social Motivation
+definition_ja: 努力や存在を周囲に認識されたいという動機づけ。
+tags:
+  - CAT:社会心理
+  - CAT:社会的動機
+  - ATTR:社会的要因
+parent:
+  - 社会的動機
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 認知承認動機関連行動変化
+  - 認知承認動機関連反応時間
+  - 認知承認動機関連選択率
+  - 認知承認動機関連対人反応
+signal_candidates:
+  - 認知承認動機が対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

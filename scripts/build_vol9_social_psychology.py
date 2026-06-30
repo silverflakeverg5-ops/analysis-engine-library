@@ -1,87 +1,87 @@
 import json
 from pathlib import Path
 
-OUT = Path("data/master_packs/vol9_social_psychology_101_150.json")
+OUT = Path("data/master_packs/vol9_social_psychology_151_200.json")
 
 SECTIONS = [
     {
-        "category": "Social Psychology - Leadership Power",
-        "name_ja": "社会心理・リーダーシップ権力",
+        "category": "Social Psychology - Social Decision Making",
+        "name_ja": "社会心理・社会的意思決定",
         "items": [
-            ("SOCPSY-000101", "leadership", "リーダーシップ", "Leadership", "集団や他者の行動・目標・方向性に影響を与える過程。"),
-            ("SOCPSY-000102", "transformational_leadership", "変革型リーダーシップ", "Transformational Leadership", "ビジョンや意味づけを通じて他者の動機づけや成長を促すリーダーシップ。"),
-            ("SOCPSY-000103", "transactional_leadership", "交換型リーダーシップ", "Transactional Leadership", "報酬・評価・役割明確化を通じて行動を調整するリーダーシップ。"),
-            ("SOCPSY-000104", "servant_leadership", "サーバントリーダーシップ", "Servant Leadership", "メンバー支援や成長を優先するリーダーシップ。"),
-            ("SOCPSY-000105", "authoritarian_leadership", "権威主義的リーダーシップ", "Authoritarian Leadership", "強い指示・統制・上下関係に基づくリーダーシップ。"),
-            ("SOCPSY-000106", "participative_leadership", "参加型リーダーシップ", "Participative Leadership", "メンバーの意見や参加を重視するリーダーシップ。"),
-            ("SOCPSY-000107", "power_dynamics", "権力関係", "Power Dynamics", "地位・資源・情報・影響力の差が対人行動に与える関係性。"),
-            ("SOCPSY-000108", "authority_relation", "権威関係", "Authority Relation", "権威を持つ人物や制度との関係が判断や行動に影響する状態。"),
-            ("SOCPSY-000109", "status_influence", "地位影響", "Status Influence", "社会的地位や序列が発言力・評価・行動に影響する現象。"),
-            ("SOCPSY-000110", "followership", "フォロワーシップ", "Followership", "リーダーや集団目標を支え、主体的に貢献する対人行動。")
+            ("SOCPSY-000151", "social_decision_making", "社会的意思決定", "Social Decision Making", "他者・集団・規範・評判を考慮して選択を行う過程。"),
+            ("SOCPSY-000152", "interdependent_decision", "相互依存的意思決定", "Interdependent Decision Making", "自分と他者の結果が互いに影響する状況での意思決定。"),
+            ("SOCPSY-000153", "fairness_preference", "公平性選好", "Fairness Preference", "利益や負担が公平に分配されることを好む傾向。"),
+            ("SOCPSY-000154", "trust_decision", "信頼意思決定", "Trust Decision", "相手に資源・情報・判断を委ねるかどうかの選択。"),
+            ("SOCPSY-000155", "cooperative_choice", "協力選択", "Cooperative Choice", "自己利益だけでなく相互利益や集団利益を考慮して協力を選ぶこと。"),
+            ("SOCPSY-000156", "competitive_choice", "競争選択", "Competitive Choice", "他者より優位に立つことや勝利を重視して選ぶこと。"),
+            ("SOCPSY-000157", "reputation_based_choice", "評判ベース選択", "Reputation Based Choice", "他者からの評価や評判への影響を考慮した選択。"),
+            ("SOCPSY-000158", "norm_based_choice", "規範ベース選択", "Norm Based Choice", "社会的ルールや期待に沿って行動を選ぶこと。"),
+            ("SOCPSY-000159", "relationship_preserving_choice", "関係維持選択", "Relationship Preserving Choice", "短期的利益よりも関係維持を重視して選ぶこと。"),
+            ("SOCPSY-000160", "social_risk_decision", "社会的リスク意思決定", "Social Risk Decision", "拒絶・批判・評価低下などの社会的リスクを考慮した意思決定。")
         ]
     },
     {
-        "category": "Social Psychology - Cooperation Competition",
-        "name_ja": "社会心理・協力競争",
+        "category": "Social Psychology - Social Learning",
+        "name_ja": "社会心理・社会的学習",
         "items": [
-            ("SOCPSY-000111", "cooperation", "協力", "Cooperation", "複数人が共有目標や相互利益のために行動を調整すること。"),
-            ("SOCPSY-000112", "competition", "競争", "Competition", "限られた報酬・地位・成果をめぐって他者と競う状態。"),
-            ("SOCPSY-000113", "coordination", "協調調整", "Coordination", "複数人の行動タイミング・役割・情報を合わせる過程。"),
-            ("SOCPSY-000114", "shared_goal", "共有目標", "Shared Goal", "集団や関係者が共通して目指す成果や状態。"),
-            ("SOCPSY-000115", "collective_action", "集合行動", "Collective Action", "集団が共通目的のためにまとまって行動すること。"),
-            ("SOCPSY-000116", "public_goods_dilemma", "公共財ジレンマ", "Public Goods Dilemma", "個人利益と集団利益が衝突する協力問題。"),
-            ("SOCPSY-000117", "free_riding", "フリーライド", "Free Riding", "集団の利益を受けながら自分の貢献を少なくする行動。"),
-            ("SOCPSY-000118", "trust_game_behavior", "信頼ゲーム行動", "Trust Game Behavior", "相手を信頼して資源や意思決定を委ねる対人選択行動。"),
-            ("SOCPSY-000119", "reciprocal_cooperation", "互恵的協力", "Reciprocal Cooperation", "相手の協力に応じて自分も協力する関係的行動。"),
-            ("SOCPSY-000120", "competitive_arousal", "競争覚醒", "Competitive Arousal", "競争場面で覚醒や興奮が高まり、判断や行動が変化する状態。")
+            ("SOCPSY-000161", "social_learning", "社会的学習", "Social Learning", "他者の行動・結果・評価を観察して学ぶ過程。"),
+            ("SOCPSY-000162", "modeling", "モデリング", "Modeling", "他者の行動を手本として自分の行動を形成する過程。"),
+            ("SOCPSY-000163", "vicarious_reinforcement", "代理強化", "Vicarious Reinforcement", "他者が報酬や罰を受ける様子を見て自分の行動が変わる現象。"),
+            ("SOCPSY-000164", "observational_norm_learning", "観察的規範学習", "Observational Norm Learning", "他者の行動観察を通じて場のルールや期待を学ぶ過程。"),
+            ("SOCPSY-000165", "peer_modeling", "仲間モデリング", "Peer Modeling", "同年代や同じ立場の人の行動を参考にする学習過程。"),
+            ("SOCPSY-000166", "expert_modeling", "専門家モデリング", "Expert Modeling", "熟達者や権威ある人物の行動を参考にする学習過程。"),
+            ("SOCPSY-000167", "social_feedback_learning", "社会的フィードバック学習", "Social Feedback Learning", "称賛・批判・反応など社会的フィードバックを通じて行動を調整する過程。"),
+            ("SOCPSY-000168", "imitation_learning", "模倣学習", "Imitation Learning", "他者の行動を直接まねることで学ぶ過程。"),
+            ("SOCPSY-000169", "cultural_learning", "文化的学習", "Cultural Learning", "集団や文化に共有された知識・価値・行動様式を学ぶ過程。"),
+            ("SOCPSY-000170", "social_trial_and_error", "社会的試行錯誤", "Social Trial and Error", "対人反応を見ながら行動や表現を調整していく過程。")
         ]
     },
     {
-        "category": "Social Psychology - Moral Social Judgment",
-        "name_ja": "社会心理・道徳社会判断",
+        "category": "Social Psychology - Social Stress",
+        "name_ja": "社会心理・社会的ストレス",
         "items": [
-            ("SOCPSY-000121", "moral_judgment_social", "道徳判断", "Moral Judgment", "善悪・公正・責任・危害などに基づいて行動や人物を評価する判断。"),
-            ("SOCPSY-000122", "fairness_judgment", "公平性判断", "Fairness Judgment", "分配・手続き・扱いが公平かどうかを判断する過程。"),
-            ("SOCPSY-000123", "justice_sensitivity", "公正感受性", "Justice Sensitivity", "不公平や不正に気づきやすく反応しやすい傾向。"),
-            ("SOCPSY-000124", "responsibility_attribution", "責任帰属", "Responsibility Attribution", "出来事や結果について誰にどの程度責任があるか判断する過程。"),
-            ("SOCPSY-000125", "blame_judgment", "非難判断", "Blame Judgment", "相手の行動に対して非難や責任をどの程度向けるかの判断。"),
-            ("SOCPSY-000126", "forgiveness", "許し", "Forgiveness", "被害や不満の後に相手への否定的感情を弱める過程。"),
-            ("SOCPSY-000127", "moral_outrage", "道徳的憤り", "Moral Outrage", "不正や規範違反に対して強い怒りや非難を感じる状態。"),
-            ("SOCPSY-000128", "norm_violation_detection", "規範違反検出", "Norm Violation Detection", "社会的ルールや期待から外れた行動に気づく過程。"),
-            ("SOCPSY-000129", "punishment_preference", "罰選好", "Punishment Preference", "規範違反者に罰や制裁を与えることを支持する傾向。"),
-            ("SOCPSY-000130", "restorative_orientation", "修復志向", "Restorative Orientation", "罰よりも関係修復・再発防止・対話を重視する傾向。")
+            ("SOCPSY-000171", "social_stress", "社会的ストレス", "Social Stress", "対人評価・関係葛藤・所属不安など社会的要因によるストレス。"),
+            ("SOCPSY-000172", "evaluation_stress", "評価ストレス", "Evaluation Stress", "他者から評価される状況で生じる緊張や負荷。"),
+            ("SOCPSY-000173", "rejection_stress", "拒絶ストレス", "Rejection Stress", "拒絶・無視・排除の可能性や経験によって生じるストレス。"),
+            ("SOCPSY-000174", "status_stress", "地位ストレス", "Status Stress", "地位・序列・役割の変化や比較によって生じるストレス。"),
+            ("SOCPSY-000175", "role_stress", "役割ストレス", "Role Stress", "期待される役割や責任が過剰または曖昧なことで生じる負荷。"),
+            ("SOCPSY-000176", "minority_stress", "マイノリティストレス", "Minority Stress", "少数派であることや偏見・差別への接触によって生じる慢性的負荷。"),
+            ("SOCPSY-000177", "interpersonal_stress", "対人ストレス", "Interpersonal Stress", "人間関係の摩擦・誤解・緊張によって生じるストレス。"),
+            ("SOCPSY-000178", "social_overload", "社会的過負荷", "Social Overload", "対人要求・連絡・期待が多すぎて処理負荷が高まる状態。"),
+            ("SOCPSY-000179", "social_recovery", "社会的回復", "Social Recovery", "支援的な関係や安心できる場によって社会的負荷から回復する過程。"),
+            ("SOCPSY-000180", "belonging_threat", "所属脅威", "Belonging Threat", "自分が集団や関係から外れる可能性を感じる状態。")
         ]
     },
     {
-        "category": "Social Psychology - Social Emotion",
-        "name_ja": "社会心理・社会的感情",
+        "category": "Social Psychology - Social Motivation",
+        "name_ja": "社会心理・社会的動機",
         "items": [
-            ("SOCPSY-000131", "shame", "恥", "Shame", "自分全体が否定的に見られていると感じる社会的感情。"),
-            ("SOCPSY-000132", "guilt", "罪悪感", "Guilt", "自分の行動が他者や規範に悪影響を与えたと感じる感情。"),
-            ("SOCPSY-000133", "embarrassment", "気まずさ", "Embarrassment", "社会的場面で失敗や逸脱が見られたと感じる一時的な感情。"),
-            ("SOCPSY-000134", "pride", "誇り", "Pride", "自分や所属集団の達成・価値に対して肯定的に感じる感情。"),
-            ("SOCPSY-000135", "envy", "羨望", "Envy", "他者が持つ望ましいものや地位を自分も欲しいと感じる感情。"),
-            ("SOCPSY-000136", "jealousy", "嫉妬", "Jealousy", "大切な関係や地位を他者に奪われる可能性に対する感情。"),
-            ("SOCPSY-000137", "gratitude", "感謝", "Gratitude", "他者から受けた恩恵や支援に対してありがたさを感じる感情。"),
-            ("SOCPSY-000138", "admiration", "賞賛", "Admiration", "他者の能力・行動・人格に対して尊敬や好意を感じる感情。"),
-            ("SOCPSY-000139", "social_anxiety", "社会不安", "Social Anxiety", "他者からの評価や対人場面に対する不安や緊張。"),
-            ("SOCPSY-000140", "rejection_sensitivity", "拒絶感受性", "Rejection Sensitivity", "拒絶や否定的反応を予期しやすく、それに強く反応する傾向。")
+            ("SOCPSY-000181", "affiliation_motivation", "親和動機", "Affiliation Motivation", "他者とつながり、受け入れられたいという動機づけ。"),
+            ("SOCPSY-000182", "power_motivation", "権力動機", "Power Motivation", "他者や状況に影響を与えたいという動機づけ。"),
+            ("SOCPSY-000183", "status_motivation", "地位動機", "Status Motivation", "集団内で高い評価や地位を得たいという動機づけ。"),
+            ("SOCPSY-000184", "approval_motivation", "承認動機", "Approval Motivation", "他者から好意的に評価されたいという動機づけ。"),
+            ("SOCPSY-000185", "belonging_motivation", "所属動機", "Belonging Motivation", "集団や関係の一員でありたいという動機づけ。"),
+            ("SOCPSY-000186", "dominance_motivation", "優位性動機", "Dominance Motivation", "対人関係や集団内で主導権を持ちたいという動機づけ。"),
+            ("SOCPSY-000187", "care_motivation", "ケア動機", "Care Motivation", "他者を支援し守りたいという動機づけ。"),
+            ("SOCPSY-000188", "reciprocity_motivation", "互恵動機", "Reciprocity Motivation", "受けた支援や好意に応えたいという動機づけ。"),
+            ("SOCPSY-000189", "social_avoidance_motivation", "社会的回避動機", "Social Avoidance Motivation", "批判・拒絶・対立を避けるために社会的行動を控える動機づけ。"),
+            ("SOCPSY-000190", "recognition_motivation", "認知承認動機", "Recognition Motivation", "努力や存在を周囲に認識されたいという動機づけ。")
         ]
     },
     {
-        "category": "Social Psychology - Collective Culture",
-        "name_ja": "社会心理・集合文化",
+        "category": "Social Psychology - Integration",
+        "name_ja": "社会心理・統合",
         "items": [
-            ("SOCPSY-000141", "collective_identity", "集合的アイデンティティ", "Collective Identity", "特定の集団や共同体の一員として自己を認識すること。"),
-            ("SOCPSY-000142", "cultural_frame_switching", "文化フレーム切替", "Cultural Frame Switching", "文脈に応じて異なる文化的価値観や行動様式を切り替える現象。"),
-            ("SOCPSY-000143", "acculturation", "文化適応", "Acculturation", "異なる文化環境に接触し、価値観や行動様式が変化する過程。"),
-            ("SOCPSY-000144", "bicultural_identity", "二文化アイデンティティ", "Bicultural Identity", "二つ以上の文化的背景を自己の一部として統合する状態。"),
-            ("SOCPSY-000145", "collective_memory", "集合記憶", "Collective Memory", "集団や社会で共有される過去の出来事に関する記憶や物語。"),
-            ("SOCPSY-000146", "social_ritual", "社会的儀礼", "Social Ritual", "集団の規範・結束・意味づけを支える反復的な社会行動。"),
-            ("SOCPSY-000147", "cultural_script", "文化的スクリプト", "Cultural Script", "特定文化で期待される典型的な行動順序や表現様式。"),
-            ("SOCPSY-000148", "norm_internalization", "規範内在化", "Norm Internalization", "社会的規範が自分の価値観や判断基準として取り込まれる過程。"),
-            ("SOCPSY-000149", "social_capital", "社会関係資本", "Social Capital", "信頼・ネットワーク・互酬性など、社会関係から得られる資源。"),
-            ("SOCPSY-000150", "collective_resilience", "集合的レジリエンス", "Collective Resilience", "集団やコミュニティが困難後に回復し適応する力。")
+            ("SOCPSY-000191", "social_context_integration", "社会文脈統合", "Social Context Integration", "集団・関係・規範・評価が統合して行動に影響する枠組み。"),
+            ("SOCPSY-000192", "relationship_behavior_integration", "関係行動統合", "Relationship Behavior Integration", "信頼・葛藤・支援・距離感が行動に与える影響を統合する視点。"),
+            ("SOCPSY-000193", "group_behavior_integration", "集団行動統合", "Group Behavior Integration", "集団規範・役割・同調・協力が行動に与える影響を統合する視点。"),
+            ("SOCPSY-000194", "online_offline_social_integration", "オンラインオフライン社会統合", "Online Offline Social Integration", "オンラインと現実の社会関係が相互に影響する状態。"),
+            ("SOCPSY-000195", "culture_identity_integration", "文化アイデンティティ統合", "Culture Identity Integration", "文化・集団・自己認識が統合して社会的行動に影響する状態。"),
+            ("SOCPSY-000196", "social_emotion_integration", "社会的感情統合", "Social Emotion Integration", "恥・誇り・罪悪感・承認欲求などが対人行動へ影響する枠組み。"),
+            ("SOCPSY-000197", "social_learning_integration", "社会的学習統合", "Social Learning Integration", "観察・模倣・フィードバック・規範学習が統合して行動を形成する過程。"),
+            ("SOCPSY-000198", "social_decision_integration", "社会的意思決定統合", "Social Decision Integration", "公平性・信頼・評判・関係維持を含む意思決定統合。"),
+            ("SOCPSY-000199", "social_support_integration", "社会的支援統合", "Social Support Integration", "感情的・情報的・実用的支援が行動や回復へ与える影響を統合する視点。"),
+            ("SOCPSY-000200", "human_social_behavior_integration", "人間社会行動統合", "Human Social Behavior Integration", "個人特性・社会環境・文化・対人関係を統合して人間行動を理解する枠組み。")
         ]
     }
 ]
@@ -136,8 +136,8 @@ def main():
     ])
 
     pack = {
-        "output_dir": "vol9_social_psychology/social_psychology_101_150",
-        "index_filename": "social_psychology_101_150_index.yml",
+        "output_dir": "vol9_social_psychology/social_psychology_151_200",
+        "index_filename": "social_psychology_151_200_index.yml",
         "index_content": "\n".join(index_lines) + "\n",
         "items": all_items
     }

@@ -1,0 +1,33 @@
+id: SOCPSY-000156
+knowledge_type: social_psychology
+name_ja: 競争選択
+name_en: Competitive Choice
+category: Social Psychology
+attribute: Social Decision Making
+definition_ja: 他者より優位に立つことや勝利を重視して選ぶこと。
+tags:
+  - CAT:社会心理
+  - CAT:社会的意思決定
+  - ATTR:社会的要因
+parent:
+  - 社会的意思決定
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 競争選択関連行動変化
+  - 競争選択関連反応時間
+  - 競争選択関連選択率
+  - 競争選択関連対人反応
+signal_candidates:
+  - 競争選択が対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

@@ -1,0 +1,33 @@
+id: SOCPSY-000195
+knowledge_type: social_psychology
+name_ja: 文化アイデンティティ統合
+name_en: Culture Identity Integration
+category: Social Psychology
+attribute: Integration
+definition_ja: 文化・集団・自己認識が統合して社会的行動に影響する状態。
+tags:
+  - CAT:社会心理
+  - CAT:統合
+  - ATTR:社会的要因
+parent:
+  - 統合
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 文化アイデンティティ統合関連行動変化
+  - 文化アイデンティティ統合関連反応時間
+  - 文化アイデンティティ統合関連選択率
+  - 文化アイデンティティ統合関連対人反応
+signal_candidates:
+  - 文化アイデンティティ統合が対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

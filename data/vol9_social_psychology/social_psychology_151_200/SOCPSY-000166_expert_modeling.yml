@@ -1,0 +1,33 @@
+id: SOCPSY-000166
+knowledge_type: social_psychology
+name_ja: 専門家モデリング
+name_en: Expert Modeling
+category: Social Psychology
+attribute: Social Learning
+definition_ja: 熟達者や権威ある人物の行動を参考にする学習過程。
+tags:
+  - CAT:社会心理
+  - CAT:社会的学習
+  - ATTR:社会的要因
+parent:
+  - 社会的学習
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 専門家モデリング関連行動変化
+  - 専門家モデリング関連反応時間
+  - 専門家モデリング関連選択率
+  - 専門家モデリング関連対人反応
+signal_candidates:
+  - 専門家モデリングが対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

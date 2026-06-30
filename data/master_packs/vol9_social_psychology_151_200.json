@@ -1,0 +1,2107 @@
+{
+  "output_dir": "vol9_social_psychology/social_psychology_151_200",
+  "index_filename": "social_psychology_151_200_index.yml",
+  "index_content": "category: Social Psychology\nname_ja: 社会心理\nitems:\n  - SOCPSY-000151_social_decision_making.yml\n  - SOCPSY-000152_interdependent_decision.yml\n  - SOCPSY-000153_fairness_preference.yml\n  - SOCPSY-000154_trust_decision.yml\n  - SOCPSY-000155_cooperative_choice.yml\n  - SOCPSY-000156_competitive_choice.yml\n  - SOCPSY-000157_reputation_based_choice.yml\n  - SOCPSY-000158_norm_based_choice.yml\n  - SOCPSY-000159_relationship_preserving_choice.yml\n  - SOCPSY-000160_social_risk_decision.yml\n  - SOCPSY-000161_social_learning.yml\n  - SOCPSY-000162_modeling.yml\n  - SOCPSY-000163_vicarious_reinforcement.yml\n  - SOCPSY-000164_observational_norm_learning.yml\n  - SOCPSY-000165_peer_modeling.yml\n  - SOCPSY-000166_expert_modeling.yml\n  - SOCPSY-000167_social_feedback_learning.yml\n  - SOCPSY-000168_imitation_learning.yml\n  - SOCPSY-000169_cultural_learning.yml\n  - SOCPSY-000170_social_trial_and_error.yml\n  - SOCPSY-000171_social_stress.yml\n  - SOCPSY-000172_evaluation_stress.yml\n  - SOCPSY-000173_rejection_stress.yml\n  - SOCPSY-000174_status_stress.yml\n  - SOCPSY-000175_role_stress.yml\n  - SOCPSY-000176_minority_stress.yml\n  - SOCPSY-000177_interpersonal_stress.yml\n  - SOCPSY-000178_social_overload.yml\n  - SOCPSY-000179_social_recovery.yml\n  - SOCPSY-000180_belonging_threat.yml\n  - SOCPSY-000181_affiliation_motivation.yml\n  - SOCPSY-000182_power_motivation.yml\n  - SOCPSY-000183_status_motivation.yml\n  - SOCPSY-000184_approval_motivation.yml\n  - SOCPSY-000185_belonging_motivation.yml\n  - SOCPSY-000186_dominance_motivation.yml\n  - SOCPSY-000187_care_motivation.yml\n  - SOCPSY-000188_reciprocity_motivation.yml\n  - SOCPSY-000189_social_avoidance_motivation.yml\n  - SOCPSY-000190_recognition_motivation.yml\n  - SOCPSY-000191_social_context_integration.yml\n  - SOCPSY-000192_relationship_behavior_integration.yml\n  - SOCPSY-000193_group_behavior_integration.yml\n  - SOCPSY-000194_online_offline_social_integration.yml\n  - SOCPSY-000195_culture_identity_integration.yml\n  - SOCPSY-000196_social_emotion_integration.yml\n  - SOCPSY-000197_social_learning_integration.yml\n  - SOCPSY-000198_social_decision_integration.yml\n  - SOCPSY-000199_social_support_integration.yml\n  - SOCPSY-000200_human_social_behavior_integration.yml\nnotes:\n  - 社会心理は性格断定ではなく推論材料として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
+  "items": [
+    {
+      "filename": "SOCPSY-000151_social_decision_making.yml",
+      "id": "SOCPSY-000151",
+      "knowledge_type": "social_psychology",
+      "name_ja": "社会的意思決定",
+      "name_en": "Social Decision Making",
+      "category": "Social Psychology",
+      "attribute": "Social Decision Making",
+      "definition_ja": "他者・集団・規範・評判を考慮して選択を行う過程。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的意思決定",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的意思決定"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "社会的意思決定関連行動変化",
+        "社会的意思決定関連反応時間",
+        "社会的意思決定関連選択率",
+        "社会的意思決定関連対人反応"
+      ],
+      "signal_candidates": [
+        "社会的意思決定が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000152_interdependent_decision.yml",
+      "id": "SOCPSY-000152",
+      "knowledge_type": "social_psychology",
+      "name_ja": "相互依存的意思決定",
+      "name_en": "Interdependent Decision Making",
+      "category": "Social Psychology",
+      "attribute": "Social Decision Making",
+      "definition_ja": "自分と他者の結果が互いに影響する状況での意思決定。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的意思決定",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的意思決定"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "相互依存的意思決定関連行動変化",
+        "相互依存的意思決定関連反応時間",
+        "相互依存的意思決定関連選択率",
+        "相互依存的意思決定関連対人反応"
+      ],
+      "signal_candidates": [
+        "相互依存的意思決定が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000153_fairness_preference.yml",
+      "id": "SOCPSY-000153",
+      "knowledge_type": "social_psychology",
+      "name_ja": "公平性選好",
+      "name_en": "Fairness Preference",
+      "category": "Social Psychology",
+      "attribute": "Social Decision Making",
+      "definition_ja": "利益や負担が公平に分配されることを好む傾向。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的意思決定",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的意思決定"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "公平性選好関連行動変化",
+        "公平性選好関連反応時間",
+        "公平性選好関連選択率",
+        "公平性選好関連対人反応"
+      ],
+      "signal_candidates": [
+        "公平性選好が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000154_trust_decision.yml",
+      "id": "SOCPSY-000154",
+      "knowledge_type": "social_psychology",
+      "name_ja": "信頼意思決定",
+      "name_en": "Trust Decision",
+      "category": "Social Psychology",
+      "attribute": "Social Decision Making",
+      "definition_ja": "相手に資源・情報・判断を委ねるかどうかの選択。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的意思決定",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的意思決定"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "信頼意思決定関連行動変化",
+        "信頼意思決定関連反応時間",
+        "信頼意思決定関連選択率",
+        "信頼意思決定関連対人反応"
+      ],
+      "signal_candidates": [
+        "信頼意思決定が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000155_cooperative_choice.yml",
+      "id": "SOCPSY-000155",
+      "knowledge_type": "social_psychology",
+      "name_ja": "協力選択",
+      "name_en": "Cooperative Choice",
+      "category": "Social Psychology",
+      "attribute": "Social Decision Making",
+      "definition_ja": "自己利益だけでなく相互利益や集団利益を考慮して協力を選ぶこと。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的意思決定",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的意思決定"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "協力選択関連行動変化",
+        "協力選択関連反応時間",
+        "協力選択関連選択率",
+        "協力選択関連対人反応"
+      ],
+      "signal_candidates": [
+        "協力選択が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000156_competitive_choice.yml",
+      "id": "SOCPSY-000156",
+      "knowledge_type": "social_psychology",
+      "name_ja": "競争選択",
+      "name_en": "Competitive Choice",
+      "category": "Social Psychology",
+      "attribute": "Social Decision Making",
+      "definition_ja": "他者より優位に立つことや勝利を重視して選ぶこと。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的意思決定",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的意思決定"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "競争選択関連行動変化",
+        "競争選択関連反応時間",
+        "競争選択関連選択率",
+        "競争選択関連対人反応"
+      ],
+      "signal_candidates": [
+        "競争選択が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000157_reputation_based_choice.yml",
+      "id": "SOCPSY-000157",
+      "knowledge_type": "social_psychology",
+      "name_ja": "評判ベース選択",
+      "name_en": "Reputation Based Choice",
+      "category": "Social Psychology",
+      "attribute": "Social Decision Making",
+      "definition_ja": "他者からの評価や評判への影響を考慮した選択。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的意思決定",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的意思決定"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "評判ベース選択関連行動変化",
+        "評判ベース選択関連反応時間",
+        "評判ベース選択関連選択率",
+        "評判ベース選択関連対人反応"
+      ],
+      "signal_candidates": [
+        "評判ベース選択が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000158_norm_based_choice.yml",
+      "id": "SOCPSY-000158",
+      "knowledge_type": "social_psychology",
+      "name_ja": "規範ベース選択",
+      "name_en": "Norm Based Choice",
+      "category": "Social Psychology",
+      "attribute": "Social Decision Making",
+      "definition_ja": "社会的ルールや期待に沿って行動を選ぶこと。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的意思決定",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的意思決定"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "規範ベース選択関連行動変化",
+        "規範ベース選択関連反応時間",
+        "規範ベース選択関連選択率",
+        "規範ベース選択関連対人反応"
+      ],
+      "signal_candidates": [
+        "規範ベース選択が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000159_relationship_preserving_choice.yml",
+      "id": "SOCPSY-000159",
+      "knowledge_type": "social_psychology",
+      "name_ja": "関係維持選択",
+      "name_en": "Relationship Preserving Choice",
+      "category": "Social Psychology",
+      "attribute": "Social Decision Making",
+      "definition_ja": "短期的利益よりも関係維持を重視して選ぶこと。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的意思決定",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的意思決定"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "関係維持選択関連行動変化",
+        "関係維持選択関連反応時間",
+        "関係維持選択関連選択率",
+        "関係維持選択関連対人反応"
+      ],
+      "signal_candidates": [
+        "関係維持選択が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000160_social_risk_decision.yml",
+      "id": "SOCPSY-000160",
+      "knowledge_type": "social_psychology",
+      "name_ja": "社会的リスク意思決定",
+      "name_en": "Social Risk Decision",
+      "category": "Social Psychology",
+      "attribute": "Social Decision Making",
+      "definition_ja": "拒絶・批判・評価低下などの社会的リスクを考慮した意思決定。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的意思決定",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的意思決定"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "社会的リスク意思決定関連行動変化",
+        "社会的リスク意思決定関連反応時間",
+        "社会的リスク意思決定関連選択率",
+        "社会的リスク意思決定関連対人反応"
+      ],
+      "signal_candidates": [
+        "社会的リスク意思決定が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000161_social_learning.yml",
+      "id": "SOCPSY-000161",
+      "knowledge_type": "social_psychology",
+      "name_ja": "社会的学習",
+      "name_en": "Social Learning",
+      "category": "Social Psychology",
+      "attribute": "Social Learning",
+      "definition_ja": "他者の行動・結果・評価を観察して学ぶ過程。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的学習",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的学習"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "社会的学習関連行動変化",
+        "社会的学習関連反応時間",
+        "社会的学習関連選択率",
+        "社会的学習関連対人反応"
+      ],
+      "signal_candidates": [
+        "社会的学習が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000162_modeling.yml",
+      "id": "SOCPSY-000162",
+      "knowledge_type": "social_psychology",
+      "name_ja": "モデリング",
+      "name_en": "Modeling",
+      "category": "Social Psychology",
+      "attribute": "Social Learning",
+      "definition_ja": "他者の行動を手本として自分の行動を形成する過程。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的学習",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的学習"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "モデリング関連行動変化",
+        "モデリング関連反応時間",
+        "モデリング関連選択率",
+        "モデリング関連対人反応"
+      ],
+      "signal_candidates": [
+        "モデリングが対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000163_vicarious_reinforcement.yml",
+      "id": "SOCPSY-000163",
+      "knowledge_type": "social_psychology",
+      "name_ja": "代理強化",
+      "name_en": "Vicarious Reinforcement",
+      "category": "Social Psychology",
+      "attribute": "Social Learning",
+      "definition_ja": "他者が報酬や罰を受ける様子を見て自分の行動が変わる現象。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的学習",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的学習"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "代理強化関連行動変化",
+        "代理強化関連反応時間",
+        "代理強化関連選択率",
+        "代理強化関連対人反応"
+      ],
+      "signal_candidates": [
+        "代理強化が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000164_observational_norm_learning.yml",
+      "id": "SOCPSY-000164",
+      "knowledge_type": "social_psychology",
+      "name_ja": "観察的規範学習",
+      "name_en": "Observational Norm Learning",
+      "category": "Social Psychology",
+      "attribute": "Social Learning",
+      "definition_ja": "他者の行動観察を通じて場のルールや期待を学ぶ過程。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的学習",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的学習"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "観察的規範学習関連行動変化",
+        "観察的規範学習関連反応時間",
+        "観察的規範学習関連選択率",
+        "観察的規範学習関連対人反応"
+      ],
+      "signal_candidates": [
+        "観察的規範学習が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000165_peer_modeling.yml",
+      "id": "SOCPSY-000165",
+      "knowledge_type": "social_psychology",
+      "name_ja": "仲間モデリング",
+      "name_en": "Peer Modeling",
+      "category": "Social Psychology",
+      "attribute": "Social Learning",
+      "definition_ja": "同年代や同じ立場の人の行動を参考にする学習過程。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的学習",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的学習"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "仲間モデリング関連行動変化",
+        "仲間モデリング関連反応時間",
+        "仲間モデリング関連選択率",
+        "仲間モデリング関連対人反応"
+      ],
+      "signal_candidates": [
+        "仲間モデリングが対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000166_expert_modeling.yml",
+      "id": "SOCPSY-000166",
+      "knowledge_type": "social_psychology",
+      "name_ja": "専門家モデリング",
+      "name_en": "Expert Modeling",
+      "category": "Social Psychology",
+      "attribute": "Social Learning",
+      "definition_ja": "熟達者や権威ある人物の行動を参考にする学習過程。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的学習",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的学習"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "専門家モデリング関連行動変化",
+        "専門家モデリング関連反応時間",
+        "専門家モデリング関連選択率",
+        "専門家モデリング関連対人反応"
+      ],
+      "signal_candidates": [
+        "専門家モデリングが対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000167_social_feedback_learning.yml",
+      "id": "SOCPSY-000167",
+      "knowledge_type": "social_psychology",
+      "name_ja": "社会的フィードバック学習",
+      "name_en": "Social Feedback Learning",
+      "category": "Social Psychology",
+      "attribute": "Social Learning",
+      "definition_ja": "称賛・批判・反応など社会的フィードバックを通じて行動を調整する過程。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的学習",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的学習"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "社会的フィードバック学習関連行動変化",
+        "社会的フィードバック学習関連反応時間",
+        "社会的フィードバック学習関連選択率",
+        "社会的フィードバック学習関連対人反応"
+      ],
+      "signal_candidates": [
+        "社会的フィードバック学習が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000168_imitation_learning.yml",
+      "id": "SOCPSY-000168",
+      "knowledge_type": "social_psychology",
+      "name_ja": "模倣学習",
+      "name_en": "Imitation Learning",
+      "category": "Social Psychology",
+      "attribute": "Social Learning",
+      "definition_ja": "他者の行動を直接まねることで学ぶ過程。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的学習",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的学習"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "模倣学習関連行動変化",
+        "模倣学習関連反応時間",
+        "模倣学習関連選択率",
+        "模倣学習関連対人反応"
+      ],
+      "signal_candidates": [
+        "模倣学習が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000169_cultural_learning.yml",
+      "id": "SOCPSY-000169",
+      "knowledge_type": "social_psychology",
+      "name_ja": "文化的学習",
+      "name_en": "Cultural Learning",
+      "category": "Social Psychology",
+      "attribute": "Social Learning",
+      "definition_ja": "集団や文化に共有された知識・価値・行動様式を学ぶ過程。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的学習",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的学習"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "文化的学習関連行動変化",
+        "文化的学習関連反応時間",
+        "文化的学習関連選択率",
+        "文化的学習関連対人反応"
+      ],
+      "signal_candidates": [
+        "文化的学習が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000170_social_trial_and_error.yml",
+      "id": "SOCPSY-000170",
+      "knowledge_type": "social_psychology",
+      "name_ja": "社会的試行錯誤",
+      "name_en": "Social Trial and Error",
+      "category": "Social Psychology",
+      "attribute": "Social Learning",
+      "definition_ja": "対人反応を見ながら行動や表現を調整していく過程。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的学習",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的学習"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "社会的試行錯誤関連行動変化",
+        "社会的試行錯誤関連反応時間",
+        "社会的試行錯誤関連選択率",
+        "社会的試行錯誤関連対人反応"
+      ],
+      "signal_candidates": [
+        "社会的試行錯誤が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000171_social_stress.yml",
+      "id": "SOCPSY-000171",
+      "knowledge_type": "social_psychology",
+      "name_ja": "社会的ストレス",
+      "name_en": "Social Stress",
+      "category": "Social Psychology",
+      "attribute": "Social Stress",
+      "definition_ja": "対人評価・関係葛藤・所属不安など社会的要因によるストレス。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的ストレス",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的ストレス"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "社会的ストレス関連行動変化",
+        "社会的ストレス関連反応時間",
+        "社会的ストレス関連選択率",
+        "社会的ストレス関連対人反応"
+      ],
+      "signal_candidates": [
+        "社会的ストレスが対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000172_evaluation_stress.yml",
+      "id": "SOCPSY-000172",
+      "knowledge_type": "social_psychology",
+      "name_ja": "評価ストレス",
+      "name_en": "Evaluation Stress",
+      "category": "Social Psychology",
+      "attribute": "Social Stress",
+      "definition_ja": "他者から評価される状況で生じる緊張や負荷。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的ストレス",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的ストレス"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "評価ストレス関連行動変化",
+        "評価ストレス関連反応時間",
+        "評価ストレス関連選択率",
+        "評価ストレス関連対人反応"
+      ],
+      "signal_candidates": [
+        "評価ストレスが対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000173_rejection_stress.yml",
+      "id": "SOCPSY-000173",
+      "knowledge_type": "social_psychology",
+      "name_ja": "拒絶ストレス",
+      "name_en": "Rejection Stress",
+      "category": "Social Psychology",
+      "attribute": "Social Stress",
+      "definition_ja": "拒絶・無視・排除の可能性や経験によって生じるストレス。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的ストレス",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的ストレス"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "拒絶ストレス関連行動変化",
+        "拒絶ストレス関連反応時間",
+        "拒絶ストレス関連選択率",
+        "拒絶ストレス関連対人反応"
+      ],
+      "signal_candidates": [
+        "拒絶ストレスが対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000174_status_stress.yml",
+      "id": "SOCPSY-000174",
+      "knowledge_type": "social_psychology",
+      "name_ja": "地位ストレス",
+      "name_en": "Status Stress",
+      "category": "Social Psychology",
+      "attribute": "Social Stress",
+      "definition_ja": "地位・序列・役割の変化や比較によって生じるストレス。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的ストレス",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的ストレス"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "地位ストレス関連行動変化",
+        "地位ストレス関連反応時間",
+        "地位ストレス関連選択率",
+        "地位ストレス関連対人反応"
+      ],
+      "signal_candidates": [
+        "地位ストレスが対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000175_role_stress.yml",
+      "id": "SOCPSY-000175",
+      "knowledge_type": "social_psychology",
+      "name_ja": "役割ストレス",
+      "name_en": "Role Stress",
+      "category": "Social Psychology",
+      "attribute": "Social Stress",
+      "definition_ja": "期待される役割や責任が過剰または曖昧なことで生じる負荷。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的ストレス",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的ストレス"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "役割ストレス関連行動変化",
+        "役割ストレス関連反応時間",
+        "役割ストレス関連選択率",
+        "役割ストレス関連対人反応"
+      ],
+      "signal_candidates": [
+        "役割ストレスが対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000176_minority_stress.yml",
+      "id": "SOCPSY-000176",
+      "knowledge_type": "social_psychology",
+      "name_ja": "マイノリティストレス",
+      "name_en": "Minority Stress",
+      "category": "Social Psychology",
+      "attribute": "Social Stress",
+      "definition_ja": "少数派であることや偏見・差別への接触によって生じる慢性的負荷。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的ストレス",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的ストレス"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "マイノリティストレス関連行動変化",
+        "マイノリティストレス関連反応時間",
+        "マイノリティストレス関連選択率",
+        "マイノリティストレス関連対人反応"
+      ],
+      "signal_candidates": [
+        "マイノリティストレスが対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000177_interpersonal_stress.yml",
+      "id": "SOCPSY-000177",
+      "knowledge_type": "social_psychology",
+      "name_ja": "対人ストレス",
+      "name_en": "Interpersonal Stress",
+      "category": "Social Psychology",
+      "attribute": "Social Stress",
+      "definition_ja": "人間関係の摩擦・誤解・緊張によって生じるストレス。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的ストレス",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的ストレス"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "対人ストレス関連行動変化",
+        "対人ストレス関連反応時間",
+        "対人ストレス関連選択率",
+        "対人ストレス関連対人反応"
+      ],
+      "signal_candidates": [
+        "対人ストレスが対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000178_social_overload.yml",
+      "id": "SOCPSY-000178",
+      "knowledge_type": "social_psychology",
+      "name_ja": "社会的過負荷",
+      "name_en": "Social Overload",
+      "category": "Social Psychology",
+      "attribute": "Social Stress",
+      "definition_ja": "対人要求・連絡・期待が多すぎて処理負荷が高まる状態。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的ストレス",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的ストレス"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "社会的過負荷関連行動変化",
+        "社会的過負荷関連反応時間",
+        "社会的過負荷関連選択率",
+        "社会的過負荷関連対人反応"
+      ],
+      "signal_candidates": [
+        "社会的過負荷が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000179_social_recovery.yml",
+      "id": "SOCPSY-000179",
+      "knowledge_type": "social_psychology",
+      "name_ja": "社会的回復",
+      "name_en": "Social Recovery",
+      "category": "Social Psychology",
+      "attribute": "Social Stress",
+      "definition_ja": "支援的な関係や安心できる場によって社会的負荷から回復する過程。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的ストレス",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的ストレス"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "社会的回復関連行動変化",
+        "社会的回復関連反応時間",
+        "社会的回復関連選択率",
+        "社会的回復関連対人反応"
+      ],
+      "signal_candidates": [
+        "社会的回復が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000180_belonging_threat.yml",
+      "id": "SOCPSY-000180",
+      "knowledge_type": "social_psychology",
+      "name_ja": "所属脅威",
+      "name_en": "Belonging Threat",
+      "category": "Social Psychology",
+      "attribute": "Social Stress",
+      "definition_ja": "自分が集団や関係から外れる可能性を感じる状態。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的ストレス",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的ストレス"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "所属脅威関連行動変化",
+        "所属脅威関連反応時間",
+        "所属脅威関連選択率",
+        "所属脅威関連対人反応"
+      ],
+      "signal_candidates": [
+        "所属脅威が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000181_affiliation_motivation.yml",
+      "id": "SOCPSY-000181",
+      "knowledge_type": "social_psychology",
+      "name_ja": "親和動機",
+      "name_en": "Affiliation Motivation",
+      "category": "Social Psychology",
+      "attribute": "Social Motivation",
+      "definition_ja": "他者とつながり、受け入れられたいという動機づけ。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的動機",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的動機"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "親和動機関連行動変化",
+        "親和動機関連反応時間",
+        "親和動機関連選択率",
+        "親和動機関連対人反応"
+      ],
+      "signal_candidates": [
+        "親和動機が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000182_power_motivation.yml",
+      "id": "SOCPSY-000182",
+      "knowledge_type": "social_psychology",
+      "name_ja": "権力動機",
+      "name_en": "Power Motivation",
+      "category": "Social Psychology",
+      "attribute": "Social Motivation",
+      "definition_ja": "他者や状況に影響を与えたいという動機づけ。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的動機",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的動機"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "権力動機関連行動変化",
+        "権力動機関連反応時間",
+        "権力動機関連選択率",
+        "権力動機関連対人反応"
+      ],
+      "signal_candidates": [
+        "権力動機が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000183_status_motivation.yml",
+      "id": "SOCPSY-000183",
+      "knowledge_type": "social_psychology",
+      "name_ja": "地位動機",
+      "name_en": "Status Motivation",
+      "category": "Social Psychology",
+      "attribute": "Social Motivation",
+      "definition_ja": "集団内で高い評価や地位を得たいという動機づけ。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的動機",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的動機"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "地位動機関連行動変化",
+        "地位動機関連反応時間",
+        "地位動機関連選択率",
+        "地位動機関連対人反応"
+      ],
+      "signal_candidates": [
+        "地位動機が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000184_approval_motivation.yml",
+      "id": "SOCPSY-000184",
+      "knowledge_type": "social_psychology",
+      "name_ja": "承認動機",
+      "name_en": "Approval Motivation",
+      "category": "Social Psychology",
+      "attribute": "Social Motivation",
+      "definition_ja": "他者から好意的に評価されたいという動機づけ。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的動機",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的動機"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "承認動機関連行動変化",
+        "承認動機関連反応時間",
+        "承認動機関連選択率",
+        "承認動機関連対人反応"
+      ],
+      "signal_candidates": [
+        "承認動機が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000185_belonging_motivation.yml",
+      "id": "SOCPSY-000185",
+      "knowledge_type": "social_psychology",
+      "name_ja": "所属動機",
+      "name_en": "Belonging Motivation",
+      "category": "Social Psychology",
+      "attribute": "Social Motivation",
+      "definition_ja": "集団や関係の一員でありたいという動機づけ。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的動機",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的動機"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "所属動機関連行動変化",
+        "所属動機関連反応時間",
+        "所属動機関連選択率",
+        "所属動機関連対人反応"
+      ],
+      "signal_candidates": [
+        "所属動機が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000186_dominance_motivation.yml",
+      "id": "SOCPSY-000186",
+      "knowledge_type": "social_psychology",
+      "name_ja": "優位性動機",
+      "name_en": "Dominance Motivation",
+      "category": "Social Psychology",
+      "attribute": "Social Motivation",
+      "definition_ja": "対人関係や集団内で主導権を持ちたいという動機づけ。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的動機",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的動機"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "優位性動機関連行動変化",
+        "優位性動機関連反応時間",
+        "優位性動機関連選択率",
+        "優位性動機関連対人反応"
+      ],
+      "signal_candidates": [
+        "優位性動機が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000187_care_motivation.yml",
+      "id": "SOCPSY-000187",
+      "knowledge_type": "social_psychology",
+      "name_ja": "ケア動機",
+      "name_en": "Care Motivation",
+      "category": "Social Psychology",
+      "attribute": "Social Motivation",
+      "definition_ja": "他者を支援し守りたいという動機づけ。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的動機",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的動機"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "ケア動機関連行動変化",
+        "ケア動機関連反応時間",
+        "ケア動機関連選択率",
+        "ケア動機関連対人反応"
+      ],
+      "signal_candidates": [
+        "ケア動機が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000188_reciprocity_motivation.yml",
+      "id": "SOCPSY-000188",
+      "knowledge_type": "social_psychology",
+      "name_ja": "互恵動機",
+      "name_en": "Reciprocity Motivation",
+      "category": "Social Psychology",
+      "attribute": "Social Motivation",
+      "definition_ja": "受けた支援や好意に応えたいという動機づけ。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的動機",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的動機"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "互恵動機関連行動変化",
+        "互恵動機関連反応時間",
+        "互恵動機関連選択率",
+        "互恵動機関連対人反応"
+      ],
+      "signal_candidates": [
+        "互恵動機が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000189_social_avoidance_motivation.yml",
+      "id": "SOCPSY-000189",
+      "knowledge_type": "social_psychology",
+      "name_ja": "社会的回避動機",
+      "name_en": "Social Avoidance Motivation",
+      "category": "Social Psychology",
+      "attribute": "Social Motivation",
+      "definition_ja": "批判・拒絶・対立を避けるために社会的行動を控える動機づけ。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的動機",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的動機"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "社会的回避動機関連行動変化",
+        "社会的回避動機関連反応時間",
+        "社会的回避動機関連選択率",
+        "社会的回避動機関連対人反応"
+      ],
+      "signal_candidates": [
+        "社会的回避動機が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000190_recognition_motivation.yml",
+      "id": "SOCPSY-000190",
+      "knowledge_type": "social_psychology",
+      "name_ja": "認知承認動機",
+      "name_en": "Recognition Motivation",
+      "category": "Social Psychology",
+      "attribute": "Social Motivation",
+      "definition_ja": "努力や存在を周囲に認識されたいという動機づけ。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:社会的動機",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "社会的動機"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "認知承認動機関連行動変化",
+        "認知承認動機関連反応時間",
+        "認知承認動機関連選択率",
+        "認知承認動機関連対人反応"
+      ],
+      "signal_candidates": [
+        "認知承認動機が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000191_social_context_integration.yml",
+      "id": "SOCPSY-000191",
+      "knowledge_type": "social_psychology",
+      "name_ja": "社会文脈統合",
+      "name_en": "Social Context Integration",
+      "category": "Social Psychology",
+      "attribute": "Integration",
+      "definition_ja": "集団・関係・規範・評価が統合して行動に影響する枠組み。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:統合",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "社会文脈統合関連行動変化",
+        "社会文脈統合関連反応時間",
+        "社会文脈統合関連選択率",
+        "社会文脈統合関連対人反応"
+      ],
+      "signal_candidates": [
+        "社会文脈統合が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000192_relationship_behavior_integration.yml",
+      "id": "SOCPSY-000192",
+      "knowledge_type": "social_psychology",
+      "name_ja": "関係行動統合",
+      "name_en": "Relationship Behavior Integration",
+      "category": "Social Psychology",
+      "attribute": "Integration",
+      "definition_ja": "信頼・葛藤・支援・距離感が行動に与える影響を統合する視点。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:統合",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "関係行動統合関連行動変化",
+        "関係行動統合関連反応時間",
+        "関係行動統合関連選択率",
+        "関係行動統合関連対人反応"
+      ],
+      "signal_candidates": [
+        "関係行動統合が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000193_group_behavior_integration.yml",
+      "id": "SOCPSY-000193",
+      "knowledge_type": "social_psychology",
+      "name_ja": "集団行動統合",
+      "name_en": "Group Behavior Integration",
+      "category": "Social Psychology",
+      "attribute": "Integration",
+      "definition_ja": "集団規範・役割・同調・協力が行動に与える影響を統合する視点。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:統合",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "集団行動統合関連行動変化",
+        "集団行動統合関連反応時間",
+        "集団行動統合関連選択率",
+        "集団行動統合関連対人反応"
+      ],
+      "signal_candidates": [
+        "集団行動統合が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000194_online_offline_social_integration.yml",
+      "id": "SOCPSY-000194",
+      "knowledge_type": "social_psychology",
+      "name_ja": "オンラインオフライン社会統合",
+      "name_en": "Online Offline Social Integration",
+      "category": "Social Psychology",
+      "attribute": "Integration",
+      "definition_ja": "オンラインと現実の社会関係が相互に影響する状態。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:統合",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "オンラインオフライン社会統合関連行動変化",
+        "オンラインオフライン社会統合関連反応時間",
+        "オンラインオフライン社会統合関連選択率",
+        "オンラインオフライン社会統合関連対人反応"
+      ],
+      "signal_candidates": [
+        "オンラインオフライン社会統合が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000195_culture_identity_integration.yml",
+      "id": "SOCPSY-000195",
+      "knowledge_type": "social_psychology",
+      "name_ja": "文化アイデンティティ統合",
+      "name_en": "Culture Identity Integration",
+      "category": "Social Psychology",
+      "attribute": "Integration",
+      "definition_ja": "文化・集団・自己認識が統合して社会的行動に影響する状態。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:統合",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "文化アイデンティティ統合関連行動変化",
+        "文化アイデンティティ統合関連反応時間",
+        "文化アイデンティティ統合関連選択率",
+        "文化アイデンティティ統合関連対人反応"
+      ],
+      "signal_candidates": [
+        "文化アイデンティティ統合が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000196_social_emotion_integration.yml",
+      "id": "SOCPSY-000196",
+      "knowledge_type": "social_psychology",
+      "name_ja": "社会的感情統合",
+      "name_en": "Social Emotion Integration",
+      "category": "Social Psychology",
+      "attribute": "Integration",
+      "definition_ja": "恥・誇り・罪悪感・承認欲求などが対人行動へ影響する枠組み。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:統合",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "社会的感情統合関連行動変化",
+        "社会的感情統合関連反応時間",
+        "社会的感情統合関連選択率",
+        "社会的感情統合関連対人反応"
+      ],
+      "signal_candidates": [
+        "社会的感情統合が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000197_social_learning_integration.yml",
+      "id": "SOCPSY-000197",
+      "knowledge_type": "social_psychology",
+      "name_ja": "社会的学習統合",
+      "name_en": "Social Learning Integration",
+      "category": "Social Psychology",
+      "attribute": "Integration",
+      "definition_ja": "観察・模倣・フィードバック・規範学習が統合して行動を形成する過程。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:統合",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "社会的学習統合関連行動変化",
+        "社会的学習統合関連反応時間",
+        "社会的学習統合関連選択率",
+        "社会的学習統合関連対人反応"
+      ],
+      "signal_candidates": [
+        "社会的学習統合が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000198_social_decision_integration.yml",
+      "id": "SOCPSY-000198",
+      "knowledge_type": "social_psychology",
+      "name_ja": "社会的意思決定統合",
+      "name_en": "Social Decision Integration",
+      "category": "Social Psychology",
+      "attribute": "Integration",
+      "definition_ja": "公平性・信頼・評判・関係維持を含む意思決定統合。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:統合",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "社会的意思決定統合関連行動変化",
+        "社会的意思決定統合関連反応時間",
+        "社会的意思決定統合関連選択率",
+        "社会的意思決定統合関連対人反応"
+      ],
+      "signal_candidates": [
+        "社会的意思決定統合が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000199_social_support_integration.yml",
+      "id": "SOCPSY-000199",
+      "knowledge_type": "social_psychology",
+      "name_ja": "社会的支援統合",
+      "name_en": "Social Support Integration",
+      "category": "Social Psychology",
+      "attribute": "Integration",
+      "definition_ja": "感情的・情報的・実用的支援が行動や回復へ与える影響を統合する視点。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:統合",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "社会的支援統合関連行動変化",
+        "社会的支援統合関連反応時間",
+        "社会的支援統合関連選択率",
+        "社会的支援統合関連対人反応"
+      ],
+      "signal_candidates": [
+        "社会的支援統合が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SOCPSY-000200_human_social_behavior_integration.yml",
+      "id": "SOCPSY-000200",
+      "knowledge_type": "social_psychology",
+      "name_ja": "人間社会行動統合",
+      "name_en": "Human Social Behavior Integration",
+      "category": "Social Psychology",
+      "attribute": "Integration",
+      "definition_ja": "個人特性・社会環境・文化・対人関係を統合して人間行動を理解する枠組み。",
+      "tags": [
+        "CAT:社会心理",
+        "CAT:統合",
+        "ATTR:社会的要因"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "性格",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "人間社会行動統合関連行動変化",
+        "人間社会行動統合関連反応時間",
+        "人間社会行動統合関連選択率",
+        "人間社会行動統合関連対人反応"
+      ],
+      "signal_candidates": [
+        "人間社会行動統合が対人判断・行動・感情に影響している可能性がある",
+        "社会的条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "文化",
+        "関係性",
+        "集団規範",
+        "評価環境"
+      ],
+      "evidence": "社会心理学・対人心理学・組織心理学・HCI研究で使用",
+      "status": "active"
+    }
+  ]
+}

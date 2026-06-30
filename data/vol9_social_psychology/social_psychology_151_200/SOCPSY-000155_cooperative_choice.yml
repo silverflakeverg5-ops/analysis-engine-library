@@ -1,0 +1,33 @@
+id: SOCPSY-000155
+knowledge_type: social_psychology
+name_ja: 協力選択
+name_en: Cooperative Choice
+category: Social Psychology
+attribute: Social Decision Making
+definition_ja: 自己利益だけでなく相互利益や集団利益を考慮して協力を選ぶこと。
+tags:
+  - CAT:社会心理
+  - CAT:社会的意思決定
+  - ATTR:社会的要因
+parent:
+  - 社会的意思決定
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 協力選択関連行動変化
+  - 協力選択関連反応時間
+  - 協力選択関連選択率
+  - 協力選択関連対人反応
+signal_candidates:
+  - 協力選択が対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

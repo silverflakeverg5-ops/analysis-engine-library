@@ -1,0 +1,33 @@
+id: SOCPSY-000200
+knowledge_type: social_psychology
+name_ja: 人間社会行動統合
+name_en: Human Social Behavior Integration
+category: Social Psychology
+attribute: Integration
+definition_ja: 個人特性・社会環境・文化・対人関係を統合して人間行動を理解する枠組み。
+tags:
+  - CAT:社会心理
+  - CAT:統合
+  - ATTR:社会的要因
+parent:
+  - 統合
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 人間社会行動統合関連行動変化
+  - 人間社会行動統合関連反応時間
+  - 人間社会行動統合関連選択率
+  - 人間社会行動統合関連対人反応
+signal_candidates:
+  - 人間社会行動統合が対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

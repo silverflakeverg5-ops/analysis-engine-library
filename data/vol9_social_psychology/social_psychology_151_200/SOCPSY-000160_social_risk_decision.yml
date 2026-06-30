@@ -1,0 +1,33 @@
+id: SOCPSY-000160
+knowledge_type: social_psychology
+name_ja: 社会的リスク意思決定
+name_en: Social Risk Decision
+category: Social Psychology
+attribute: Social Decision Making
+definition_ja: 拒絶・批判・評価低下などの社会的リスクを考慮した意思決定。
+tags:
+  - CAT:社会心理
+  - CAT:社会的意思決定
+  - ATTR:社会的要因
+parent:
+  - 社会的意思決定
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 社会的リスク意思決定関連行動変化
+  - 社会的リスク意思決定関連反応時間
+  - 社会的リスク意思決定関連選択率
+  - 社会的リスク意思決定関連対人反応
+signal_candidates:
+  - 社会的リスク意思決定が対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

@@ -1,0 +1,33 @@
+id: MOD-000001
+knowledge_type: modifier
+name_ja: 時間帯補正
+name_en: Time of Day Modifier
+category: Modifier
+attribute: Context Correction
+definition_ja: 時間帯による注意・覚醒・行動変化を補正する要因。
+tags:
+  - CAT:補正要因
+  - CAT:文脈補正
+  - ATTR:推論補正
+parent:
+  - 文脈補正
+related:
+  - 観測シグナル
+  - 推論材料
+  - 安全設計
+observable_data:
+  - 時間帯補正適用条件
+  - 時間帯補正補正対象
+  - 時間帯補正信頼度影響
+  - 時間帯補正時系列影響
+signal_candidates:
+  - 時間帯補正が必要な文脈が観測される
+  - 推論結果の強さや表示表現を補正する材料になる
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 文脈
+  - データ品質
+  - 個人差
+  - 安全性
+evidence: 心理測定・HCI・UX研究・安全設計で使用
+status: active

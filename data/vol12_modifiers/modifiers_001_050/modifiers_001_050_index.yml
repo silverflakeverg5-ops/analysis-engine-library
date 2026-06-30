@@ -1,0 +1,57 @@
+category: Modifier
+name_ja: 補正要因
+items:
+  - MOD-000001_time_of_day_modifier.yml
+  - MOD-000002_weekday_weekend_modifier.yml
+  - MOD-000003_location_context_modifier.yml
+  - MOD-000004_device_context_modifier.yml
+  - MOD-000005_task_context_modifier.yml
+  - MOD-000006_social_context_modifier.yml
+  - MOD-000007_notification_context_modifier.yml
+  - MOD-000008_environment_noise_modifier.yml
+  - MOD-000009_recent_event_modifier.yml
+  - MOD-000010_baseline_context_modifier.yml
+  - MOD-000011_fatigue_modifier.yml
+  - MOD-000012_sleep_modifier.yml
+  - MOD-000013_stress_modifier.yml
+  - MOD-000014_arousal_modifier.yml
+  - MOD-000015_mood_modifier.yml
+  - MOD-000016_health_condition_modifier.yml
+  - MOD-000017_cognitive_load_modifier.yml
+  - MOD-000018_emotional_intensity_modifier.yml
+  - MOD-000019_motivation_level_modifier.yml
+  - MOD-000020_recovery_state_modifier.yml
+  - MOD-000021_missing_data_modifier.yml
+  - MOD-000022_sample_size_modifier.yml
+  - MOD-000023_measurement_noise_modifier.yml
+  - MOD-000024_outlier_modifier.yml
+  - MOD-000025_duplicate_event_modifier.yml
+  - MOD-000026_sensor_reliability_modifier.yml
+  - MOD-000027_self_report_bias_modifier.yml
+  - MOD-000028_short_term_variability_modifier.yml
+  - MOD-000029_longitudinal_stability_modifier.yml
+  - MOD-000030_confidence_score_modifier.yml
+  - MOD-000031_age_modifier.yml
+  - MOD-000032_experience_level_modifier.yml
+  - MOD-000033_skill_level_modifier.yml
+  - MOD-000034_language_proficiency_modifier.yml
+  - MOD-000035_accessibility_need_modifier.yml
+  - MOD-000036_cultural_background_modifier.yml
+  - MOD-000037_person_baseline_modifier.yml
+  - MOD-000038_preference_modifier.yml
+  - MOD-000039_life_stage_modifier.yml
+  - MOD-000040_role_context_modifier.yml
+  - MOD-000041_privacy_sensitivity_modifier.yml
+  - MOD-000042_health_sensitivity_modifier.yml
+  - MOD-000043_minor_context_modifier.yml
+  - MOD-000044_high_stakes_modifier.yml
+  - MOD-000045_distress_safety_modifier.yml
+  - MOD-000046_stigma_risk_modifier.yml
+  - MOD-000047_manipulation_risk_modifier.yml
+  - MOD-000048_over_personalization_modifier.yml
+  - MOD-000049_consent_context_modifier.yml
+  - MOD-000050_safe_expression_modifier.yml
+notes:
+  - 補正要因は推論結果ではなく調整材料として扱う
+  - Knowledge DB側ではスコアリングしない
+  - アプリ側で推論強度・信頼度・表示表現を補正する

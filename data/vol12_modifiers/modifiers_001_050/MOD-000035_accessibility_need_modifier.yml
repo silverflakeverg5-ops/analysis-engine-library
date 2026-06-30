@@ -1,0 +1,33 @@
+id: MOD-000035
+knowledge_type: modifier
+name_ja: アクセシビリティ補正
+name_en: Accessibility Need Modifier
+category: Modifier
+attribute: Individual Difference Correction
+definition_ja: 身体的・認知的制約や支援必要性による行動差を補正する要因。
+tags:
+  - CAT:補正要因
+  - CAT:個人差補正
+  - ATTR:推論補正
+parent:
+  - 個人差補正
+related:
+  - 観測シグナル
+  - 推論材料
+  - 安全設計
+observable_data:
+  - アクセシビリティ補正適用条件
+  - アクセシビリティ補正補正対象
+  - アクセシビリティ補正信頼度影響
+  - アクセシビリティ補正時系列影響
+signal_candidates:
+  - アクセシビリティ補正が必要な文脈が観測される
+  - 推論結果の強さや表示表現を補正する材料になる
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 文脈
+  - データ品質
+  - 個人差
+  - 安全性
+evidence: 心理測定・HCI・UX研究・安全設計で使用
+status: active

@@ -1,0 +1,33 @@
+id: MOD-000050
+knowledge_type: modifier
+name_ja: 安全表現補正
+name_en: Safe Expression Modifier
+category: Modifier
+attribute: Ethical Safety Correction
+definition_ja: 断定や評価ではなく、可能性・傾向・支援的表現へ調整する補正要因。
+tags:
+  - CAT:補正要因
+  - CAT:倫理安全補正
+  - ATTR:推論補正
+parent:
+  - 倫理安全補正
+related:
+  - 観測シグナル
+  - 推論材料
+  - 安全設計
+observable_data:
+  - 安全表現補正適用条件
+  - 安全表現補正補正対象
+  - 安全表現補正信頼度影響
+  - 安全表現補正時系列影響
+signal_candidates:
+  - 安全表現補正が必要な文脈が観測される
+  - 推論結果の強さや表示表現を補正する材料になる
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 文脈
+  - データ品質
+  - 個人差
+  - 安全性
+evidence: 心理測定・HCI・UX研究・安全設計で使用
+status: active

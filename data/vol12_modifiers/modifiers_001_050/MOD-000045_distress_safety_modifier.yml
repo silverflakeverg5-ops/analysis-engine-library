@@ -1,0 +1,33 @@
+id: MOD-000045
+knowledge_type: modifier
+name_ja: 苦痛安全補正
+name_en: Distress Safety Modifier
+category: Modifier
+attribute: Ethical Safety Correction
+definition_ja: 強い苦痛や危機的表現がある場合に安全側へ調整する補正要因。
+tags:
+  - CAT:補正要因
+  - CAT:倫理安全補正
+  - ATTR:推論補正
+parent:
+  - 倫理安全補正
+related:
+  - 観測シグナル
+  - 推論材料
+  - 安全設計
+observable_data:
+  - 苦痛安全補正適用条件
+  - 苦痛安全補正補正対象
+  - 苦痛安全補正信頼度影響
+  - 苦痛安全補正時系列影響
+signal_candidates:
+  - 苦痛安全補正が必要な文脈が観測される
+  - 推論結果の強さや表示表現を補正する材料になる
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 文脈
+  - データ品質
+  - 個人差
+  - 安全性
+evidence: 心理測定・HCI・UX研究・安全設計で使用
+status: active

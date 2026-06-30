@@ -1,0 +1,2107 @@
+{
+  "output_dir": "vol7_environment/environment_101_150",
+  "index_filename": "environment_101_150_index.yml",
+  "index_content": "category: Environment\nname_ja: 環境要因\nitems:\n  - ENV-000101_physical_activity_environment.yml\n  - ENV-000102_exercise_access.yml\n  - ENV-000103_sedentary_environment.yml\n  - ENV-000104_nutrition_environment.yml\n  - ENV-000105_substance_exposure_environment.yml\n  - ENV-000106_healthcare_access.yml\n  - ENV-000107_preventive_health_environment.yml\n  - ENV-000108_illness_management_environment.yml\n  - ENV-000109_recovery_support.yml\n  - ENV-000110_health_literacy_environment.yml\n  - ENV-000111_news_exposure.yml\n  - ENV-000112_media_trust_environment.yml\n  - ENV-000113_echo_chamber_environment.yml\n  - ENV-000114_misinformation_exposure.yml\n  - ENV-000115_information_quality.yml\n  - ENV-000116_content_recommendation_environment.yml\n  - ENV-000117_attention_economy_environment.yml\n  - ENV-000118_media_multitasking_environment.yml\n  - ENV-000119_visual_media_environment.yml\n  - ENV-000120_long_form_information_access.yml\n  - ENV-000121_task_complexity.yml\n  - ENV-000122_task_clarity.yml\n  - ENV-000123_task_novelty.yml\n  - ENV-000124_task_autonomy.yml\n  - ENV-000125_task_feedback_availability.yml\n  - ENV-000126_task_consequence.yml\n  - ENV-000127_task_interruptions.yml\n  - ENV-000128_task_resource_fit.yml\n  - ENV-000129_task_repetition.yml\n  - ENV-000130_task_meaningfulness.yml\n  - ENV-000131_evaluation_visibility.yml\n  - ENV-000132_public_performance_context.yml\n  - ENV-000133_reputation_pressure.yml\n  - ENV-000134_comparison_metrics.yml\n  - ENV-000135_approval_environment.yml\n  - ENV-000136_criticism_environment.yml\n  - ENV-000137_accountability_context.yml\n  - ENV-000138_status_hierarchy.yml\n  - ENV-000139_peer_recognition.yml\n  - ENV-000140_social_penalty_risk.yml\n  - ENV-000141_formal_support_system.yml\n  - ENV-000142_informal_support_network.yml\n  - ENV-000143_mental_health_support.yml\n  - ENV-000144_learning_support_system.yml\n  - ENV-000145_career_support_system.yml\n  - ENV-000146_financial_support_system.yml\n  - ENV-000147_accessibility_support.yml\n  - ENV-000148_crisis_support.yml\n  - ENV-000149_community_support.yml\n  - ENV-000150_digital_support_tools.yml\nnotes:\n  - 環境要因は本人特性ではなく補正要因として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
+  "items": [
+    {
+      "filename": "ENV-000101_physical_activity_environment.yml",
+      "id": "ENV-000101",
+      "knowledge_type": "environment_factor",
+      "name_ja": "身体活動環境",
+      "name_en": "Physical Activity Environment",
+      "category": "Environment",
+      "attribute": "Health Lifestyle",
+      "definition_ja": "運動・歩行・身体活動を行いやすい生活環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:健康生活",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "健康生活"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "身体活動環境関連行動変化",
+        "身体活動環境関連反応時間",
+        "身体活動環境関連継続率",
+        "身体活動環境関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "身体活動環境が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000102_exercise_access.yml",
+      "id": "ENV-000102",
+      "knowledge_type": "environment_factor",
+      "name_ja": "運動アクセス",
+      "name_en": "Exercise Access",
+      "category": "Environment",
+      "attribute": "Health Lifestyle",
+      "definition_ja": "ジム・公園・運動施設・時間など運動機会へのアクセス。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:健康生活",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "健康生活"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "運動アクセス関連行動変化",
+        "運動アクセス関連反応時間",
+        "運動アクセス関連継続率",
+        "運動アクセス関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "運動アクセスが行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000103_sedentary_environment.yml",
+      "id": "ENV-000103",
+      "knowledge_type": "environment_factor",
+      "name_ja": "座位中心環境",
+      "name_en": "Sedentary Environment",
+      "category": "Environment",
+      "attribute": "Health Lifestyle",
+      "definition_ja": "長時間座位や低活動状態が続きやすい生活・職場環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:健康生活",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "健康生活"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "座位中心環境関連行動変化",
+        "座位中心環境関連反応時間",
+        "座位中心環境関連継続率",
+        "座位中心環境関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "座位中心環境が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000104_nutrition_environment.yml",
+      "id": "ENV-000104",
+      "knowledge_type": "environment_factor",
+      "name_ja": "栄養環境",
+      "name_en": "Nutrition Environment",
+      "category": "Environment",
+      "attribute": "Health Lifestyle",
+      "definition_ja": "食事内容・栄養バランス・食材選択に影響する環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:健康生活",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "健康生活"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "栄養環境関連行動変化",
+        "栄養環境関連反応時間",
+        "栄養環境関連継続率",
+        "栄養環境関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "栄養環境が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000105_substance_exposure_environment.yml",
+      "id": "ENV-000105",
+      "knowledge_type": "environment_factor",
+      "name_ja": "嗜好品接触環境",
+      "name_en": "Substance Exposure Environment",
+      "category": "Environment",
+      "attribute": "Health Lifestyle",
+      "definition_ja": "飲酒・喫煙・カフェインなど嗜好品に接触しやすい環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:健康生活",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "健康生活"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "嗜好品接触環境関連行動変化",
+        "嗜好品接触環境関連反応時間",
+        "嗜好品接触環境関連継続率",
+        "嗜好品接触環境関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "嗜好品接触環境が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000106_healthcare_access.yml",
+      "id": "ENV-000106",
+      "knowledge_type": "environment_factor",
+      "name_ja": "医療アクセス",
+      "name_en": "Healthcare Access",
+      "category": "Environment",
+      "attribute": "Health Lifestyle",
+      "definition_ja": "医療機関・相談先・予防支援へアクセスできる度合い。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:健康生活",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "健康生活"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "医療アクセス関連行動変化",
+        "医療アクセス関連反応時間",
+        "医療アクセス関連継続率",
+        "医療アクセス関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "医療アクセスが行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000107_preventive_health_environment.yml",
+      "id": "ENV-000107",
+      "knowledge_type": "environment_factor",
+      "name_ja": "予防健康環境",
+      "name_en": "Preventive Health Environment",
+      "category": "Environment",
+      "attribute": "Health Lifestyle",
+      "definition_ja": "健康診断・予防接種・生活改善支援を受けやすい環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:健康生活",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "健康生活"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "予防健康環境関連行動変化",
+        "予防健康環境関連反応時間",
+        "予防健康環境関連継続率",
+        "予防健康環境関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "予防健康環境が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000108_illness_management_environment.yml",
+      "id": "ENV-000108",
+      "knowledge_type": "environment_factor",
+      "name_ja": "疾病管理環境",
+      "name_en": "Illness Management Environment",
+      "category": "Environment",
+      "attribute": "Health Lifestyle",
+      "definition_ja": "体調不良や慢性症状を管理しやすい支援・生活環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:健康生活",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "健康生活"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "疾病管理環境関連行動変化",
+        "疾病管理環境関連反応時間",
+        "疾病管理環境関連継続率",
+        "疾病管理環境関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "疾病管理環境が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000109_recovery_support.yml",
+      "id": "ENV-000109",
+      "knowledge_type": "environment_factor",
+      "name_ja": "回復支援",
+      "name_en": "Recovery Support",
+      "category": "Environment",
+      "attribute": "Health Lifestyle",
+      "definition_ja": "病気・疲労・ストレスから回復するための支援や休息環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:健康生活",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "健康生活"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "回復支援関連行動変化",
+        "回復支援関連反応時間",
+        "回復支援関連継続率",
+        "回復支援関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "回復支援が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000110_health_literacy_environment.yml",
+      "id": "ENV-000110",
+      "knowledge_type": "environment_factor",
+      "name_ja": "健康リテラシー環境",
+      "name_en": "Health Literacy Environment",
+      "category": "Environment",
+      "attribute": "Health Lifestyle",
+      "definition_ja": "健康情報を理解・活用しやすい情報環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:健康生活",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "健康生活"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "健康リテラシー環境関連行動変化",
+        "健康リテラシー環境関連反応時間",
+        "健康リテラシー環境関連継続率",
+        "健康リテラシー環境関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "健康リテラシー環境が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000111_news_exposure.yml",
+      "id": "ENV-000111",
+      "knowledge_type": "environment_factor",
+      "name_ja": "ニュース接触",
+      "name_en": "News Exposure",
+      "category": "Environment",
+      "attribute": "Information Media",
+      "definition_ja": "ニュースや時事情報に接触する頻度・媒体・偏り。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:情報メディア",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "情報メディア"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "ニュース接触関連行動変化",
+        "ニュース接触関連反応時間",
+        "ニュース接触関連継続率",
+        "ニュース接触関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "ニュース接触が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000112_media_trust_environment.yml",
+      "id": "ENV-000112",
+      "knowledge_type": "environment_factor",
+      "name_ja": "メディア信頼環境",
+      "name_en": "Media Trust Environment",
+      "category": "Environment",
+      "attribute": "Information Media",
+      "definition_ja": "情報源や媒体への信頼が形成される情報環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:情報メディア",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "情報メディア"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "メディア信頼環境関連行動変化",
+        "メディア信頼環境関連反応時間",
+        "メディア信頼環境関連継続率",
+        "メディア信頼環境関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "メディア信頼環境が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000113_echo_chamber_environment.yml",
+      "id": "ENV-000113",
+      "knowledge_type": "environment_factor",
+      "name_ja": "エコーチェンバー環境",
+      "name_en": "Echo Chamber Environment",
+      "category": "Environment",
+      "attribute": "Information Media",
+      "definition_ja": "似た意見や価値観の情報に偏って接触しやすい環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:情報メディア",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "情報メディア"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "エコーチェンバー環境関連行動変化",
+        "エコーチェンバー環境関連反応時間",
+        "エコーチェンバー環境関連継続率",
+        "エコーチェンバー環境関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "エコーチェンバー環境が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000114_misinformation_exposure.yml",
+      "id": "ENV-000114",
+      "knowledge_type": "environment_factor",
+      "name_ja": "誤情報接触",
+      "name_en": "Misinformation Exposure",
+      "category": "Environment",
+      "attribute": "Information Media",
+      "definition_ja": "誤情報・不正確情報・誘導的情報に接触しやすい環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:情報メディア",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "情報メディア"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "誤情報接触関連行動変化",
+        "誤情報接触関連反応時間",
+        "誤情報接触関連継続率",
+        "誤情報接触関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "誤情報接触が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000115_information_quality.yml",
+      "id": "ENV-000115",
+      "knowledge_type": "environment_factor",
+      "name_ja": "情報品質",
+      "name_en": "Information Quality",
+      "category": "Environment",
+      "attribute": "Information Media",
+      "definition_ja": "接触する情報の正確性・明確性・根拠の質。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:情報メディア",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "情報メディア"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "情報品質関連行動変化",
+        "情報品質関連反応時間",
+        "情報品質関連継続率",
+        "情報品質関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "情報品質が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000116_content_recommendation_environment.yml",
+      "id": "ENV-000116",
+      "knowledge_type": "environment_factor",
+      "name_ja": "コンテンツ推薦環境",
+      "name_en": "Content Recommendation Environment",
+      "category": "Environment",
+      "attribute": "Information Media",
+      "definition_ja": "推薦システムによって情報接触が形成される環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:情報メディア",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "情報メディア"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "コンテンツ推薦環境関連行動変化",
+        "コンテンツ推薦環境関連反応時間",
+        "コンテンツ推薦環境関連継続率",
+        "コンテンツ推薦環境関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "コンテンツ推薦環境が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000117_attention_economy_environment.yml",
+      "id": "ENV-000117",
+      "knowledge_type": "environment_factor",
+      "name_ja": "注意経済環境",
+      "name_en": "Attention Economy Environment",
+      "category": "Environment",
+      "attribute": "Information Media",
+      "definition_ja": "注意を奪う設計や刺激が多い情報環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:情報メディア",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "情報メディア"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "注意経済環境関連行動変化",
+        "注意経済環境関連反応時間",
+        "注意経済環境関連継続率",
+        "注意経済環境関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "注意経済環境が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000118_media_multitasking_environment.yml",
+      "id": "ENV-000118",
+      "knowledge_type": "environment_factor",
+      "name_ja": "メディアマルチタスク環境",
+      "name_en": "Media Multitasking Environment",
+      "category": "Environment",
+      "attribute": "Information Media",
+      "definition_ja": "複数媒体を同時利用しやすい情報環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:情報メディア",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "情報メディア"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "メディアマルチタスク環境関連行動変化",
+        "メディアマルチタスク環境関連反応時間",
+        "メディアマルチタスク環境関連継続率",
+        "メディアマルチタスク環境関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "メディアマルチタスク環境が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000119_visual_media_environment.yml",
+      "id": "ENV-000119",
+      "knowledge_type": "environment_factor",
+      "name_ja": "視覚メディア環境",
+      "name_en": "Visual Media Environment",
+      "category": "Environment",
+      "attribute": "Information Media",
+      "definition_ja": "画像・動画・短尺コンテンツ中心の情報接触環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:情報メディア",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "情報メディア"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "視覚メディア環境関連行動変化",
+        "視覚メディア環境関連反応時間",
+        "視覚メディア環境関連継続率",
+        "視覚メディア環境関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "視覚メディア環境が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000120_long_form_information_access.yml",
+      "id": "ENV-000120",
+      "knowledge_type": "environment_factor",
+      "name_ja": "長文情報アクセス",
+      "name_en": "Long Form Information Access",
+      "category": "Environment",
+      "attribute": "Information Media",
+      "definition_ja": "書籍・記事・論文など長文情報へ接触できる環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:情報メディア",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "情報メディア"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "長文情報アクセス関連行動変化",
+        "長文情報アクセス関連反応時間",
+        "長文情報アクセス関連継続率",
+        "長文情報アクセス関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "長文情報アクセスが行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000121_task_complexity.yml",
+      "id": "ENV-000121",
+      "knowledge_type": "environment_factor",
+      "name_ja": "課題複雑性",
+      "name_en": "Task Complexity",
+      "category": "Environment",
+      "attribute": "Task Context",
+      "definition_ja": "課題に含まれる要素数・手順・判断量の多さ。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:課題文脈",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "課題文脈"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "課題複雑性関連行動変化",
+        "課題複雑性関連反応時間",
+        "課題複雑性関連継続率",
+        "課題複雑性関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "課題複雑性が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000122_task_clarity.yml",
+      "id": "ENV-000122",
+      "knowledge_type": "environment_factor",
+      "name_ja": "課題明確性",
+      "name_en": "Task Clarity",
+      "category": "Environment",
+      "attribute": "Task Context",
+      "definition_ja": "何をすべきか、成功条件がどれだけ明確かを示す環境要因。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:課題文脈",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "課題文脈"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "課題明確性関連行動変化",
+        "課題明確性関連反応時間",
+        "課題明確性関連継続率",
+        "課題明確性関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "課題明確性が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000123_task_novelty.yml",
+      "id": "ENV-000123",
+      "knowledge_type": "environment_factor",
+      "name_ja": "課題新奇性",
+      "name_en": "Task Novelty",
+      "category": "Environment",
+      "attribute": "Task Context",
+      "definition_ja": "課題が本人にとって新しい・未知である度合い。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:課題文脈",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "課題文脈"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "課題新奇性関連行動変化",
+        "課題新奇性関連反応時間",
+        "課題新奇性関連継続率",
+        "課題新奇性関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "課題新奇性が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000124_task_autonomy.yml",
+      "id": "ENV-000124",
+      "knowledge_type": "environment_factor",
+      "name_ja": "課題裁量",
+      "name_en": "Task Autonomy",
+      "category": "Environment",
+      "attribute": "Task Context",
+      "definition_ja": "課題の進め方や選択に本人が関与できる度合い。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:課題文脈",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "課題文脈"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "課題裁量関連行動変化",
+        "課題裁量関連反応時間",
+        "課題裁量関連継続率",
+        "課題裁量関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "課題裁量が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000125_task_feedback_availability.yml",
+      "id": "ENV-000125",
+      "knowledge_type": "environment_factor",
+      "name_ja": "課題フィードバック利用可能性",
+      "name_en": "Task Feedback Availability",
+      "category": "Environment",
+      "attribute": "Task Context",
+      "definition_ja": "課題遂行中に結果や改善情報を得られる度合い。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:課題文脈",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "課題文脈"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "課題フィードバック利用可能性関連行動変化",
+        "課題フィードバック利用可能性関連反応時間",
+        "課題フィードバック利用可能性関連継続率",
+        "課題フィードバック利用可能性関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "課題フィードバック利用可能性が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000126_task_consequence.yml",
+      "id": "ENV-000126",
+      "knowledge_type": "environment_factor",
+      "name_ja": "課題結果影響度",
+      "name_en": "Task Consequence",
+      "category": "Environment",
+      "attribute": "Task Context",
+      "definition_ja": "課題の成否が本人や周囲に与える影響の大きさ。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:課題文脈",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "課題文脈"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "課題結果影響度関連行動変化",
+        "課題結果影響度関連反応時間",
+        "課題結果影響度関連継続率",
+        "課題結果影響度関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "課題結果影響度が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000127_task_interruptions.yml",
+      "id": "ENV-000127",
+      "knowledge_type": "environment_factor",
+      "name_ja": "課題中断",
+      "name_en": "Task Interruptions",
+      "category": "Environment",
+      "attribute": "Task Context",
+      "definition_ja": "課題中に通知・呼びかけ・割込みが発生する度合い。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:課題文脈",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "課題文脈"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "課題中断関連行動変化",
+        "課題中断関連反応時間",
+        "課題中断関連継続率",
+        "課題中断関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "課題中断が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000128_task_resource_fit.yml",
+      "id": "ENV-000128",
+      "knowledge_type": "environment_factor",
+      "name_ja": "課題資源適合",
+      "name_en": "Task Resource Fit",
+      "category": "Environment",
+      "attribute": "Task Context",
+      "definition_ja": "課題要求に対して時間・知識・道具が足りている度合い。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:課題文脈",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "課題文脈"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "課題資源適合関連行動変化",
+        "課題資源適合関連反応時間",
+        "課題資源適合関連継続率",
+        "課題資源適合関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "課題資源適合が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000129_task_repetition.yml",
+      "id": "ENV-000129",
+      "knowledge_type": "environment_factor",
+      "name_ja": "課題反復性",
+      "name_en": "Task Repetition",
+      "category": "Environment",
+      "attribute": "Task Context",
+      "definition_ja": "同じ課題や類似作業を繰り返す度合い。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:課題文脈",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "課題文脈"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "課題反復性関連行動変化",
+        "課題反復性関連反応時間",
+        "課題反復性関連継続率",
+        "課題反復性関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "課題反復性が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000130_task_meaningfulness.yml",
+      "id": "ENV-000130",
+      "knowledge_type": "environment_factor",
+      "name_ja": "課題意味づけ",
+      "name_en": "Task Meaningfulness",
+      "category": "Environment",
+      "attribute": "Task Context",
+      "definition_ja": "課題が本人にとって価値や意味を持つ度合い。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:課題文脈",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "課題文脈"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "課題意味づけ関連行動変化",
+        "課題意味づけ関連反応時間",
+        "課題意味づけ関連継続率",
+        "課題意味づけ関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "課題意味づけが行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000131_evaluation_visibility.yml",
+      "id": "ENV-000131",
+      "knowledge_type": "environment_factor",
+      "name_ja": "評価可視性",
+      "name_en": "Evaluation Visibility",
+      "category": "Environment",
+      "attribute": "Social Evaluation",
+      "definition_ja": "本人の成果や行動が他者から見える度合い。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:社会的評価",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "社会的評価"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "評価可視性関連行動変化",
+        "評価可視性関連反応時間",
+        "評価可視性関連継続率",
+        "評価可視性関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "評価可視性が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000132_public_performance_context.yml",
+      "id": "ENV-000132",
+      "knowledge_type": "environment_factor",
+      "name_ja": "公開パフォーマンス文脈",
+      "name_en": "Public Performance Context",
+      "category": "Environment",
+      "attribute": "Social Evaluation",
+      "definition_ja": "人前で成果や能力を示す必要がある環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:社会的評価",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "社会的評価"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "公開パフォーマンス文脈関連行動変化",
+        "公開パフォーマンス文脈関連反応時間",
+        "公開パフォーマンス文脈関連継続率",
+        "公開パフォーマンス文脈関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "公開パフォーマンス文脈が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000133_reputation_pressure.yml",
+      "id": "ENV-000133",
+      "knowledge_type": "environment_factor",
+      "name_ja": "評判プレッシャー",
+      "name_en": "Reputation Pressure",
+      "category": "Environment",
+      "attribute": "Social Evaluation",
+      "definition_ja": "周囲からの評価や評判を意識しやすい環境圧。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:社会的評価",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "社会的評価"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "評判プレッシャー関連行動変化",
+        "評判プレッシャー関連反応時間",
+        "評判プレッシャー関連継続率",
+        "評判プレッシャー関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "評判プレッシャーが行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000134_comparison_metrics.yml",
+      "id": "ENV-000134",
+      "knowledge_type": "environment_factor",
+      "name_ja": "比較指標",
+      "name_en": "Comparison Metrics",
+      "category": "Environment",
+      "attribute": "Social Evaluation",
+      "definition_ja": "順位・点数・フォロワー数など他者比較を促す指標。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:社会的評価",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "社会的評価"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "比較指標関連行動変化",
+        "比較指標関連反応時間",
+        "比較指標関連継続率",
+        "比較指標関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "比較指標が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000135_approval_environment.yml",
+      "id": "ENV-000135",
+      "knowledge_type": "environment_factor",
+      "name_ja": "承認環境",
+      "name_en": "Approval Environment",
+      "category": "Environment",
+      "attribute": "Social Evaluation",
+      "definition_ja": "承認・称賛・いいねなどが得られやすい、または重視される環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:社会的評価",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "社会的評価"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "承認環境関連行動変化",
+        "承認環境関連反応時間",
+        "承認環境関連継続率",
+        "承認環境関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "承認環境が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000136_criticism_environment.yml",
+      "id": "ENV-000136",
+      "knowledge_type": "environment_factor",
+      "name_ja": "批判環境",
+      "name_en": "Criticism Environment",
+      "category": "Environment",
+      "attribute": "Social Evaluation",
+      "definition_ja": "批判・指摘・否定的評価を受けやすい環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:社会的評価",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "社会的評価"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "批判環境関連行動変化",
+        "批判環境関連反応時間",
+        "批判環境関連継続率",
+        "批判環境関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "批判環境が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000137_accountability_context.yml",
+      "id": "ENV-000137",
+      "knowledge_type": "environment_factor",
+      "name_ja": "説明責任文脈",
+      "name_en": "Accountability Context",
+      "category": "Environment",
+      "attribute": "Social Evaluation",
+      "definition_ja": "判断や行動について説明責任を求められる環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:社会的評価",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "社会的評価"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "説明責任文脈関連行動変化",
+        "説明責任文脈関連反応時間",
+        "説明責任文脈関連継続率",
+        "説明責任文脈関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "説明責任文脈が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000138_status_hierarchy.yml",
+      "id": "ENV-000138",
+      "knowledge_type": "environment_factor",
+      "name_ja": "地位階層",
+      "name_en": "Status Hierarchy",
+      "category": "Environment",
+      "attribute": "Social Evaluation",
+      "definition_ja": "立場や地位の差が行動や発言に影響する環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:社会的評価",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "社会的評価"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "地位階層関連行動変化",
+        "地位階層関連反応時間",
+        "地位階層関連継続率",
+        "地位階層関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "地位階層が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000139_peer_recognition.yml",
+      "id": "ENV-000139",
+      "knowledge_type": "environment_factor",
+      "name_ja": "仲間からの承認",
+      "name_en": "Peer Recognition",
+      "category": "Environment",
+      "attribute": "Social Evaluation",
+      "definition_ja": "同年代・同僚・仲間からの承認が行動に影響する環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:社会的評価",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "社会的評価"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "仲間からの承認関連行動変化",
+        "仲間からの承認関連反応時間",
+        "仲間からの承認関連継続率",
+        "仲間からの承認関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "仲間からの承認が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000140_social_penalty_risk.yml",
+      "id": "ENV-000140",
+      "knowledge_type": "environment_factor",
+      "name_ja": "社会的ペナルティリスク",
+      "name_en": "Social Penalty Risk",
+      "category": "Environment",
+      "attribute": "Social Evaluation",
+      "definition_ja": "失敗・逸脱・発言によって社会的評価が下がる可能性。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:社会的評価",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "社会的評価"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "社会的ペナルティリスク関連行動変化",
+        "社会的ペナルティリスク関連反応時間",
+        "社会的ペナルティリスク関連継続率",
+        "社会的ペナルティリスク関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "社会的ペナルティリスクが行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000141_formal_support_system.yml",
+      "id": "ENV-000141",
+      "knowledge_type": "environment_factor",
+      "name_ja": "公式支援制度",
+      "name_en": "Formal Support System",
+      "category": "Environment",
+      "attribute": "Support Systems",
+      "definition_ja": "学校・職場・行政などによる制度的支援。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:支援制度",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "支援制度"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "公式支援制度関連行動変化",
+        "公式支援制度関連反応時間",
+        "公式支援制度関連継続率",
+        "公式支援制度関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "公式支援制度が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000142_informal_support_network.yml",
+      "id": "ENV-000142",
+      "knowledge_type": "environment_factor",
+      "name_ja": "非公式支援ネットワーク",
+      "name_en": "Informal Support Network",
+      "category": "Environment",
+      "attribute": "Support Systems",
+      "definition_ja": "家族・友人・知人などによる非制度的支援。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:支援制度",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "支援制度"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "非公式支援ネットワーク関連行動変化",
+        "非公式支援ネットワーク関連反応時間",
+        "非公式支援ネットワーク関連継続率",
+        "非公式支援ネットワーク関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "非公式支援ネットワークが行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000143_mental_health_support.yml",
+      "id": "ENV-000143",
+      "knowledge_type": "environment_factor",
+      "name_ja": "メンタルヘルス支援",
+      "name_en": "Mental Health Support",
+      "category": "Environment",
+      "attribute": "Support Systems",
+      "definition_ja": "心理相談・カウンセリング・相談窓口などの支援環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:支援制度",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "支援制度"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "メンタルヘルス支援関連行動変化",
+        "メンタルヘルス支援関連反応時間",
+        "メンタルヘルス支援関連継続率",
+        "メンタルヘルス支援関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "メンタルヘルス支援が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000144_learning_support_system.yml",
+      "id": "ENV-000144",
+      "knowledge_type": "environment_factor",
+      "name_ja": "学習支援制度",
+      "name_en": "Learning Support System",
+      "category": "Environment",
+      "attribute": "Support Systems",
+      "definition_ja": "補習・教材・チューター・学習相談などの支援。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:支援制度",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "支援制度"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "学習支援制度関連行動変化",
+        "学習支援制度関連反応時間",
+        "学習支援制度関連継続率",
+        "学習支援制度関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "学習支援制度が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000145_career_support_system.yml",
+      "id": "ENV-000145",
+      "knowledge_type": "environment_factor",
+      "name_ja": "キャリア支援制度",
+      "name_en": "Career Support System",
+      "category": "Environment",
+      "attribute": "Support Systems",
+      "definition_ja": "進路・就職・転職・能力開発を支える制度や人材。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:支援制度",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "支援制度"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "キャリア支援制度関連行動変化",
+        "キャリア支援制度関連反応時間",
+        "キャリア支援制度関連継続率",
+        "キャリア支援制度関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "キャリア支援制度が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000146_financial_support_system.yml",
+      "id": "ENV-000146",
+      "knowledge_type": "environment_factor",
+      "name_ja": "経済支援制度",
+      "name_en": "Financial Support System",
+      "category": "Environment",
+      "attribute": "Support Systems",
+      "definition_ja": "奨学金・補助金・扶助・貸付など経済的支援。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:支援制度",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "支援制度"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "経済支援制度関連行動変化",
+        "経済支援制度関連反応時間",
+        "経済支援制度関連継続率",
+        "経済支援制度関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "経済支援制度が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000147_accessibility_support.yml",
+      "id": "ENV-000147",
+      "knowledge_type": "environment_factor",
+      "name_ja": "アクセシビリティ支援",
+      "name_en": "Accessibility Support",
+      "category": "Environment",
+      "attribute": "Support Systems",
+      "definition_ja": "障壁を減らし利用や参加を可能にする支援。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:支援制度",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "支援制度"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "アクセシビリティ支援関連行動変化",
+        "アクセシビリティ支援関連反応時間",
+        "アクセシビリティ支援関連継続率",
+        "アクセシビリティ支援関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "アクセシビリティ支援が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000148_crisis_support.yml",
+      "id": "ENV-000148",
+      "knowledge_type": "environment_factor",
+      "name_ja": "危機時支援",
+      "name_en": "Crisis Support",
+      "category": "Environment",
+      "attribute": "Support Systems",
+      "definition_ja": "急な困難・災害・失業・健康問題への緊急支援。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:支援制度",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "支援制度"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "危機時支援関連行動変化",
+        "危機時支援関連反応時間",
+        "危機時支援関連継続率",
+        "危機時支援関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "危機時支援が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000149_community_support.yml",
+      "id": "ENV-000149",
+      "knowledge_type": "environment_factor",
+      "name_ja": "地域支援",
+      "name_en": "Community Support",
+      "category": "Environment",
+      "attribute": "Support Systems",
+      "definition_ja": "地域やコミュニティによる生活・交流・安心の支援。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:支援制度",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "支援制度"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "地域支援関連行動変化",
+        "地域支援関連反応時間",
+        "地域支援関連継続率",
+        "地域支援関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "地域支援が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000150_digital_support_tools.yml",
+      "id": "ENV-000150",
+      "knowledge_type": "environment_factor",
+      "name_ja": "デジタル支援ツール",
+      "name_en": "Digital Support Tools",
+      "category": "Environment",
+      "attribute": "Support Systems",
+      "definition_ja": "予定管理・学習支援・健康管理などを補助するデジタルツール環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:支援制度",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "支援制度"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "デジタル支援ツール関連行動変化",
+        "デジタル支援ツール関連反応時間",
+        "デジタル支援ツール関連継続率",
+        "デジタル支援ツール関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "デジタル支援ツールが行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    }
+  ]
+}

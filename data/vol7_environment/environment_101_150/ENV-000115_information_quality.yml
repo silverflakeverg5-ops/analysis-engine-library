@@ -1,0 +1,33 @@
+id: ENV-000115
+knowledge_type: environment_factor
+name_ja: 情報品質
+name_en: Information Quality
+category: Environment
+attribute: Information Media
+definition_ja: 接触する情報の正確性・明確性・根拠の質。
+tags:
+  - CAT:環境要因
+  - CAT:情報メディア
+  - ATTR:補正要因
+parent:
+  - 情報メディア
+related:
+  - 行動観測
+  - 性格
+  - 認知科学
+observable_data:
+  - 情報品質関連行動変化
+  - 情報品質関連反応時間
+  - 情報品質関連継続率
+  - 情報品質関連ストレス反応
+signal_candidates:
+  - 情報品質が行動・感情・判断に影響している可能性がある
+  - 環境条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 文化
+  - 生活状況
+  - 個人差
+evidence: 環境心理学・発達心理学・社会心理学・HCI研究で使用
+status: active

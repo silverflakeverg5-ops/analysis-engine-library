@@ -1,0 +1,33 @@
+id: ENV-000139
+knowledge_type: environment_factor
+name_ja: 仲間からの承認
+name_en: Peer Recognition
+category: Environment
+attribute: Social Evaluation
+definition_ja: 同年代・同僚・仲間からの承認が行動に影響する環境。
+tags:
+  - CAT:環境要因
+  - CAT:社会的評価
+  - ATTR:補正要因
+parent:
+  - 社会的評価
+related:
+  - 行動観測
+  - 性格
+  - 認知科学
+observable_data:
+  - 仲間からの承認関連行動変化
+  - 仲間からの承認関連反応時間
+  - 仲間からの承認関連継続率
+  - 仲間からの承認関連ストレス反応
+signal_candidates:
+  - 仲間からの承認が行動・感情・判断に影響している可能性がある
+  - 環境条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 文化
+  - 生活状況
+  - 個人差
+evidence: 環境心理学・発達心理学・社会心理学・HCI研究で使用
+status: active

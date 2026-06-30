@@ -1,0 +1,57 @@
+category: Environment
+name_ja: 環境要因
+items:
+  - ENV-000101_physical_activity_environment.yml
+  - ENV-000102_exercise_access.yml
+  - ENV-000103_sedentary_environment.yml
+  - ENV-000104_nutrition_environment.yml
+  - ENV-000105_substance_exposure_environment.yml
+  - ENV-000106_healthcare_access.yml
+  - ENV-000107_preventive_health_environment.yml
+  - ENV-000108_illness_management_environment.yml
+  - ENV-000109_recovery_support.yml
+  - ENV-000110_health_literacy_environment.yml
+  - ENV-000111_news_exposure.yml
+  - ENV-000112_media_trust_environment.yml
+  - ENV-000113_echo_chamber_environment.yml
+  - ENV-000114_misinformation_exposure.yml
+  - ENV-000115_information_quality.yml
+  - ENV-000116_content_recommendation_environment.yml
+  - ENV-000117_attention_economy_environment.yml
+  - ENV-000118_media_multitasking_environment.yml
+  - ENV-000119_visual_media_environment.yml
+  - ENV-000120_long_form_information_access.yml
+  - ENV-000121_task_complexity.yml
+  - ENV-000122_task_clarity.yml
+  - ENV-000123_task_novelty.yml
+  - ENV-000124_task_autonomy.yml
+  - ENV-000125_task_feedback_availability.yml
+  - ENV-000126_task_consequence.yml
+  - ENV-000127_task_interruptions.yml
+  - ENV-000128_task_resource_fit.yml
+  - ENV-000129_task_repetition.yml
+  - ENV-000130_task_meaningfulness.yml
+  - ENV-000131_evaluation_visibility.yml
+  - ENV-000132_public_performance_context.yml
+  - ENV-000133_reputation_pressure.yml
+  - ENV-000134_comparison_metrics.yml
+  - ENV-000135_approval_environment.yml
+  - ENV-000136_criticism_environment.yml
+  - ENV-000137_accountability_context.yml
+  - ENV-000138_status_hierarchy.yml
+  - ENV-000139_peer_recognition.yml
+  - ENV-000140_social_penalty_risk.yml
+  - ENV-000141_formal_support_system.yml
+  - ENV-000142_informal_support_network.yml
+  - ENV-000143_mental_health_support.yml
+  - ENV-000144_learning_support_system.yml
+  - ENV-000145_career_support_system.yml
+  - ENV-000146_financial_support_system.yml
+  - ENV-000147_accessibility_support.yml
+  - ENV-000148_crisis_support.yml
+  - ENV-000149_community_support.yml
+  - ENV-000150_digital_support_tools.yml
+notes:
+  - 環境要因は本人特性ではなく補正要因として扱う
+  - 観測可能データとSignal候補を中心に管理する
+  - アプリ側でスコアリング・推論・表示を行う

@@ -1,0 +1,33 @@
+id: ENV-000143
+knowledge_type: environment_factor
+name_ja: メンタルヘルス支援
+name_en: Mental Health Support
+category: Environment
+attribute: Support Systems
+definition_ja: 心理相談・カウンセリング・相談窓口などの支援環境。
+tags:
+  - CAT:環境要因
+  - CAT:支援制度
+  - ATTR:補正要因
+parent:
+  - 支援制度
+related:
+  - 行動観測
+  - 性格
+  - 認知科学
+observable_data:
+  - メンタルヘルス支援関連行動変化
+  - メンタルヘルス支援関連反応時間
+  - メンタルヘルス支援関連継続率
+  - メンタルヘルス支援関連ストレス反応
+signal_candidates:
+  - メンタルヘルス支援が行動・感情・判断に影響している可能性がある
+  - 環境条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 文化
+  - 生活状況
+  - 個人差
+evidence: 環境心理学・発達心理学・社会心理学・HCI研究で使用
+status: active

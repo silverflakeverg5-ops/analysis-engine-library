@@ -1,0 +1,57 @@
+category: App Use Case
+name_ja: アプリ用途
+items:
+  - APP-000051_wellbeing_tracking_app.yml
+  - APP-000052_stress_management_app.yml
+  - APP-000053_sleep_support_app.yml
+  - APP-000054_fatigue_monitoring_app.yml
+  - APP-000055_emotion_journal_app.yml
+  - APP-000056_habit_health_app.yml
+  - APP-000057_recovery_support_app.yml
+  - APP-000058_mind_body_awareness_app.yml
+  - APP-000059_lifestyle_balance_app.yml
+  - APP-000060_gentle_support_app.yml
+  - APP-000061_relationship_reflection_app.yml
+  - APP-000062_communication_support_app.yml
+  - APP-000063_conflict_prevention_app.yml
+  - APP-000064_team_relationship_app.yml
+  - APP-000065_social_skill_training_app.yml
+  - APP-000066_empathy_training_app.yml
+  - APP-000067_conversation_analysis_app.yml
+  - APP-000068_social_support_matching_app.yml
+  - APP-000069_online_community_support_app.yml
+  - APP-000070_relationship_boundary_support.yml
+  - APP-000071_personalization_engine_app.yml
+  - APP-000072_adaptive_ui_app.yml
+  - APP-000073_adaptive_notification_app.yml
+  - APP-000074_recommendation_personalization_app.yml
+  - APP-000075_difficulty_adaptation_app.yml
+  - APP-000076_content_adaptation_app.yml
+  - APP-000077_tone_adaptation_app.yml
+  - APP-000078_support_timing_app.yml
+  - APP-000079_user_preference_learning_app.yml
+  - APP-000080_adaptive_experience_app.yml
+  - APP-000081_safe_diagnosis_display.yml
+  - APP-000082_non_diagnostic_feedback_app.yml
+  - APP-000083_privacy_sensitive_app.yml
+  - APP-000084_minor_safe_app.yml
+  - APP-000085_high_stakes_guardrail_app.yml
+  - APP-000086_consent_management_app.yml
+  - APP-000087_explainable_feedback_app.yml
+  - APP-000088_user_correction_app.yml
+  - APP-000089_ethical_audit_app.yml
+  - APP-000090_safe_personalization_app.yml
+  - APP-000091_multi_domain_human_analysis_app.yml
+  - APP-000092_cross_app_knowledge_use.yml
+  - APP-000093_contextual_inference_app.yml
+  - APP-000094_human_state_support_app.yml
+  - APP-000095_behavior_change_support_app.yml
+  - APP-000096_life_design_support_app.yml
+  - APP-000097_personal_growth_app.yml
+  - APP-000098_human_ai_coach_app.yml
+  - APP-000099_knowledge_library_integration.yml
+  - APP-000100_app_use_case_integration.yml
+notes:
+  - アプリ用途はDB分類ではなく利用文脈の管理材料として扱う
+  - Knowledge DB側ではアプリ別推論を行わない
+  - アプリ側で用途に応じた推論・表示・補正を行う

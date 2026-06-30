@@ -1,0 +1,33 @@
+id: APP-000070
+knowledge_type: app_use_case
+name_ja: 関係境界支援
+name_en: Relationship Boundary Support
+category: App Use Case
+attribute: Social Relationship
+definition_ja: 距離感・断り方・情報開示の調整を支援する用途。
+tags:
+  - CAT:アプリ用途
+  - CAT:人間関係
+  - ATTR:利用領域
+parent:
+  - 人間関係
+related:
+  - 観測シグナル
+  - 補正要因
+  - 表示設計
+observable_data:
+  - 関係境界支援利用文脈
+  - 関係境界支援対象シグナル
+  - 関係境界支援補正要因
+  - 関係境界支援表示目的
+signal_candidates:
+  - 関係境界支援で利用可能な知識項目を選定する材料になる
+  - アプリ用途に応じた推論・表示・補正の切り替え材料になる
+device_level: DB管理用
+modifiers:
+  - 用途
+  - 対象ユーザー
+  - 安全性
+  - 表示形式
+evidence: HCI・UX設計・教育工学・行動支援設計で使用
+status: active

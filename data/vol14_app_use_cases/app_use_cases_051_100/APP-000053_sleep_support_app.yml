@@ -1,0 +1,33 @@
+id: APP-000053
+knowledge_type: app_use_case
+name_ja: 睡眠支援アプリ
+name_en: Sleep Support App
+category: App Use Case
+attribute: Wellbeing
+definition_ja: 睡眠時間・規則性・回復感を把握し生活改善を支援する用途。
+tags:
+  - CAT:アプリ用途
+  - CAT:ウェルビーイング
+  - ATTR:利用領域
+parent:
+  - ウェルビーイング
+related:
+  - 観測シグナル
+  - 補正要因
+  - 表示設計
+observable_data:
+  - 睡眠支援アプリ利用文脈
+  - 睡眠支援アプリ対象シグナル
+  - 睡眠支援アプリ補正要因
+  - 睡眠支援アプリ表示目的
+signal_candidates:
+  - 睡眠支援アプリで利用可能な知識項目を選定する材料になる
+  - アプリ用途に応じた推論・表示・補正の切り替え材料になる
+device_level: DB管理用
+modifiers:
+  - 用途
+  - 対象ユーザー
+  - 安全性
+  - 表示形式
+evidence: HCI・UX設計・教育工学・行動支援設計で使用
+status: active

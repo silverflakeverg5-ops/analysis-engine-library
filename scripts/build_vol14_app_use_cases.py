@@ -1,87 +1,87 @@
 import json
 from pathlib import Path
 
-OUT = Path("data/master_packs/vol14_app_use_cases_001_050.json")
+OUT = Path("data/master_packs/vol14_app_use_cases_051_100.json")
 
 SECTIONS = [
     {
-        "category": "App Use Cases - Diagnosis",
-        "name_ja": "アプリ用途・診断",
+        "category": "App Use Cases - Wellbeing",
+        "name_ja": "アプリ用途・ウェルビーイング",
         "items": [
-            ("APP-000001", "personality_diagnosis_app", "性格診断アプリ", "Personality Diagnosis App", "行動・回答・選択傾向から性格傾向を推測して表示するアプリ用途。"),
-            ("APP-000002", "compatibility_diagnosis_app", "相性診断アプリ", "Compatibility Diagnosis App", "複数人の傾向や価値観から相性をエンタメ的に推測するアプリ用途。"),
-            ("APP-000003", "self_understanding_app", "自己理解アプリ", "Self Understanding App", "自分の傾向・強み・注意点を知るためのアプリ用途。"),
-            ("APP-000004", "behavior_style_diagnosis", "行動スタイル診断", "Behavior Style Diagnosis", "意思決定・学習・対人行動などの行動傾向を推測する用途。"),
-            ("APP-000005", "work_style_diagnosis", "仕事スタイル診断", "Work Style Diagnosis", "集中・協力・判断・タスク管理など仕事上の傾向を推測する用途。"),
-            ("APP-000006", "learning_style_diagnosis", "学習スタイル診断", "Learning Style Diagnosis", "学習方略・継続・理解・復習傾向を推測する用途。"),
-            ("APP-000007", "communication_style_diagnosis", "コミュニケーション診断", "Communication Style Diagnosis", "発話・返信・自己主張・共感など対人表現傾向を推測する用途。"),
-            ("APP-000008", "stress_tendency_diagnosis", "ストレス傾向診断", "Stress Tendency Diagnosis", "負荷・回復・回避・感情変化の傾向を推測する用途。"),
-            ("APP-000009", "motivation_tendency_diagnosis", "動機づけ傾向診断", "Motivation Tendency Diagnosis", "報酬・達成・承認・自律性への反応傾向を推測する用途。"),
-            ("APP-000010", "decision_tendency_diagnosis", "意思決定傾向診断", "Decision Tendency Diagnosis", "リスク選択・迷い・即断・慎重さなどの判断傾向を推測する用途。")
+            ("APP-000051", "wellbeing_tracking_app", "ウェルビーイング記録アプリ", "Wellbeing Tracking App", "気分・睡眠・疲労・生活リズムを記録し状態理解を支援する用途。"),
+            ("APP-000052", "stress_management_app", "ストレス管理アプリ", "Stress Management App", "ストレス兆候や回復行動を把握しセルフケアを支援する用途。"),
+            ("APP-000053", "sleep_support_app", "睡眠支援アプリ", "Sleep Support App", "睡眠時間・規則性・回復感を把握し生活改善を支援する用途。"),
+            ("APP-000054", "fatigue_monitoring_app", "疲労モニタリングアプリ", "Fatigue Monitoring App", "疲労兆候や過負荷を観測し休息提案に活用する用途。"),
+            ("APP-000055", "emotion_journal_app", "感情ジャーナルアプリ", "Emotion Journal App", "感情変化や出来事を記録し自己理解を支援する用途。"),
+            ("APP-000056", "habit_health_app", "健康習慣アプリ", "Health Habit App", "運動・食事・睡眠など健康行動の習慣化を支援する用途。"),
+            ("APP-000057", "recovery_support_app", "回復支援アプリ", "Recovery Support App", "負荷後の休息・回復・行動再開を支援する用途。"),
+            ("APP-000058", "mind_body_awareness_app", "心身気づきアプリ", "Mind Body Awareness App", "身体信号や気分の変化への気づきを促す用途。"),
+            ("APP-000059", "lifestyle_balance_app", "生活バランスアプリ", "Lifestyle Balance App", "仕事・学習・休息・余暇のバランス調整を支援する用途。"),
+            ("APP-000060", "gentle_support_app", "やさしい支援アプリ", "Gentle Support App", "断定や評価を避け、穏やかな提案で行動支援を行う用途。")
         ]
     },
     {
-        "category": "App Use Cases - Game",
-        "name_ja": "アプリ用途・ゲーム",
+        "category": "App Use Cases - Social Relationship",
+        "name_ja": "アプリ用途・人間関係",
         "items": [
-            ("APP-000011", "personality_game_app", "性格ゲームアプリ", "Personality Game App", "ゲーム内行動から性格や行動傾向を推測して楽しむアプリ用途。"),
-            ("APP-000012", "choice_based_game_analysis", "選択型ゲーム分析", "Choice Based Game Analysis", "分岐選択や判断履歴から傾向を推測するゲーム用途。"),
-            ("APP-000013", "puzzle_behavior_analysis", "パズル行動分析", "Puzzle Behavior Analysis", "パズルの解き方・試行錯誤・ヒント利用から認知傾向を推測する用途。"),
-            ("APP-000014", "strategy_game_analysis", "戦略ゲーム分析", "Strategy Game Analysis", "計画・資源配分・リスク選択から思考傾向を推測する用途。"),
-            ("APP-000015", "reaction_game_analysis", "反応ゲーム分析", "Reaction Game Analysis", "反応時間・ミス・集中持続から状態や傾向を推測する用途。"),
-            ("APP-000016", "social_game_analysis", "ソーシャルゲーム分析", "Social Game Analysis", "協力・競争・援助・交流から対人傾向を推測する用途。"),
-            ("APP-000017", "simulation_game_analysis", "シミュレーションゲーム分析", "Simulation Game Analysis", "仮想環境での選択・管理・優先順位から傾向を推測する用途。"),
-            ("APP-000018", "mini_game_signal_collection", "ミニゲームシグナル収集", "Mini Game Signal Collection", "短時間ゲームから観測シグナルを取得する用途。"),
-            ("APP-000019", "game_based_learning_support", "ゲーム型学習支援", "Game Based Learning Support", "ゲーム要素を使って学習行動や継続を支援する用途。"),
-            ("APP-000020", "entertainment_analysis_app", "エンタメ分析アプリ", "Entertainment Analysis App", "断定ではなく遊びとして傾向推測を提示するアプリ用途。")
+            ("APP-000061", "relationship_reflection_app", "人間関係振り返りアプリ", "Relationship Reflection App", "対人関係の傾向や距離感を振り返る用途。"),
+            ("APP-000062", "communication_support_app", "コミュニケーション支援アプリ", "Communication Support App", "返信・自己主張・説明・共感表現を支援する用途。"),
+            ("APP-000063", "conflict_prevention_app", "葛藤予防アプリ", "Conflict Prevention App", "対人摩擦や誤解を減らすための行動提案を行う用途。"),
+            ("APP-000064", "team_relationship_app", "チーム関係支援アプリ", "Team Relationship App", "チーム内の協力・役割・信頼形成を支援する用途。"),
+            ("APP-000065", "social_skill_training_app", "社会スキル練習アプリ", "Social Skill Training App", "会話・主張・傾聴・協力などの社会的技能を練習する用途。"),
+            ("APP-000066", "empathy_training_app", "共感トレーニングアプリ", "Empathy Training App", "視点取得や感情理解を練習する用途。"),
+            ("APP-000067", "conversation_analysis_app", "会話分析アプリ", "Conversation Analysis App", "発話量・返信・表現傾向から会話行動を振り返る用途。"),
+            ("APP-000068", "social_support_matching_app", "社会的支援マッチングアプリ", "Social Support Matching App", "相談先・支援先・協力者を見つけやすくする用途。"),
+            ("APP-000069", "online_community_support_app", "オンラインコミュニティ支援アプリ", "Online Community Support App", "オンライン交流の安全性・参加・支援を促す用途。"),
+            ("APP-000070", "relationship_boundary_support", "関係境界支援", "Relationship Boundary Support", "距離感・断り方・情報開示の調整を支援する用途。")
         ]
     },
     {
-        "category": "App Use Cases - Assistant",
-        "name_ja": "アプリ用途・秘書",
+        "category": "App Use Cases - Personalization",
+        "name_ja": "アプリ用途・個別化",
         "items": [
-            ("APP-000021", "personal_assistant_app", "個人秘書アプリ", "Personal Assistant App", "予定・タスク・生活文脈に応じて支援や提案を行うアプリ用途。"),
-            ("APP-000022", "schedule_support_app", "スケジュール支援アプリ", "Schedule Support App", "予定登録・通知・準備・移動を支援する用途。"),
-            ("APP-000023", "task_management_support", "タスク管理支援", "Task Management Support", "優先順位・期限・進捗・中断復帰を支援する用途。"),
-            ("APP-000024", "context_aware_reminder", "文脈対応リマインダー", "Context Aware Reminder", "時間・場所・状態・予定に応じて通知する用途。"),
-            ("APP-000025", "proactive_suggestion_app", "先回り提案アプリ", "Proactive Suggestion App", "予定や行動文脈から必要な提案を先回りして出す用途。"),
-            ("APP-000026", "travel_planning_assistant", "旅行計画秘書", "Travel Planning Assistant", "旅行予定に合わせて準備・移動・天気・候補地を支援する用途。"),
-            ("APP-000027", "daily_briefing_assistant", "日次ブリーフィング秘書", "Daily Briefing Assistant", "予定・天気・タスク・注意点を日次で整理する用途。"),
-            ("APP-000028", "work_assistant_app", "仕事秘書アプリ", "Work Assistant App", "業務予定・集中・会議・タスク整理を支援する用途。"),
-            ("APP-000029", "life_log_assistant", "ライフログ秘書", "Life Log Assistant", "生活リズム・行動履歴・状態変化を記録し支援する用途。"),
-            ("APP-000030", "adaptive_notification_assistant", "適応通知秘書", "Adaptive Notification Assistant", "ユーザー状態や文脈に合わせて通知タイミングを調整する用途。")
+            ("APP-000071", "personalization_engine_app", "個別化エンジン用途", "Personalization Engine App", "行動傾向や文脈に合わせて表示・通知・提案を調整する用途。"),
+            ("APP-000072", "adaptive_ui_app", "適応UIアプリ", "Adaptive UI App", "利用者の状態や熟達度に応じて画面や操作を調整する用途。"),
+            ("APP-000073", "adaptive_notification_app", "適応通知アプリ", "Adaptive Notification App", "通知頻度・タイミング・表現をユーザー文脈に合わせる用途。"),
+            ("APP-000074", "recommendation_personalization_app", "推薦個別化アプリ", "Recommendation Personalization App", "興味・履歴・状態に応じて情報や行動を推薦する用途。"),
+            ("APP-000075", "difficulty_adaptation_app", "難易度適応アプリ", "Difficulty Adaptation App", "課題やゲームの難易度を能力・状態に合わせて調整する用途。"),
+            ("APP-000076", "content_adaptation_app", "コンテンツ適応アプリ", "Content Adaptation App", "説明量・形式・順序を理解度や文脈に応じて変える用途。"),
+            ("APP-000077", "tone_adaptation_app", "表現トーン適応アプリ", "Tone Adaptation App", "ユーザー状態や用途に応じて表示表現の強さを調整する用途。"),
+            ("APP-000078", "support_timing_app", "支援タイミング調整アプリ", "Support Timing App", "介入や提案を出す時点を状態や文脈に合わせる用途。"),
+            ("APP-000079", "user_preference_learning_app", "ユーザー嗜好学習アプリ", "User Preference Learning App", "利用履歴から好みや反応傾向を学習し調整する用途。"),
+            ("APP-000080", "adaptive_experience_app", "適応体験アプリ", "Adaptive Experience App", "アプリ体験全体を個人差と文脈に合わせて調整する用途。")
         ]
     },
     {
-        "category": "App Use Cases - Education",
-        "name_ja": "アプリ用途・教育",
+        "category": "App Use Cases - Safety Ethics",
+        "name_ja": "アプリ用途・安全倫理",
         "items": [
-            ("APP-000031", "learning_support_app", "学習支援アプリ", "Learning Support App", "学習計画・復習・理解確認・継続を支援するアプリ用途。"),
-            ("APP-000032", "adaptive_learning_app", "適応学習アプリ", "Adaptive Learning App", "学習者の成績や状態に応じて内容や難易度を調整する用途。"),
-            ("APP-000033", "study_habit_app", "学習習慣アプリ", "Study Habit App", "学習継続・復習・目標達成を習慣化する用途。"),
-            ("APP-000034", "exam_preparation_app", "試験対策アプリ", "Exam Preparation App", "試験に向けた学習計画・弱点補強・復習管理を支援する用途。"),
-            ("APP-000035", "metacognition_training_app", "メタ認知訓練アプリ", "Metacognition Training App", "理解度判断・振り返り・方略調整を支援する用途。"),
-            ("APP-000036", "feedback_learning_app", "フィードバック学習アプリ", "Feedback Learning App", "正誤・解説・改善提案を通じて学習を支援する用途。"),
-            ("APP-000037", "collaborative_learning_app", "協同学習アプリ", "Collaborative Learning App", "学習者同士の共有・説明・相互支援を促す用途。"),
-            ("APP-000038", "skill_training_app", "技能訓練アプリ", "Skill Training App", "反復練習・熟達化・進捗可視化を支援する用途。"),
-            ("APP-000039", "learning_analytics_app", "学習分析アプリ", "Learning Analytics App", "学習ログを可視化し改善や支援に使う用途。"),
-            ("APP-000040", "career_learning_app", "キャリア学習アプリ", "Career Learning App", "仕事や進路に必要な学習・スキル形成を支援する用途。")
+            ("APP-000081", "safe_diagnosis_display", "安全な診断表示", "Safe Diagnosis Display", "診断結果を断定・序列化せず安全に提示する用途。"),
+            ("APP-000082", "non_diagnostic_feedback_app", "非診断フィードバックアプリ", "Non Diagnostic Feedback App", "医療・性格断定ではなく傾向や可能性として返す用途。"),
+            ("APP-000083", "privacy_sensitive_app", "プライバシー配慮アプリ", "Privacy Sensitive App", "個人情報や機微情報を慎重に扱う用途。"),
+            ("APP-000084", "minor_safe_app", "未成年配慮アプリ", "Minor Safe App", "未成年ユーザーへの表示・推論・提案を慎重化する用途。"),
+            ("APP-000085", "high_stakes_guardrail_app", "高リスク判断ガードレールアプリ", "High Stakes Guardrail App", "進路・健康・雇用など重大判断への過度利用を防ぐ用途。"),
+            ("APP-000086", "consent_management_app", "同意管理アプリ", "Consent Management App", "データ利用・推論表示・個別化に関する同意を管理する用途。"),
+            ("APP-000087", "explainable_feedback_app", "説明可能フィードバックアプリ", "Explainable Feedback App", "推論材料や根拠を分かりやすく説明する用途。"),
+            ("APP-000088", "user_correction_app", "ユーザー修正アプリ", "User Correction App", "ユーザーが推論結果や前提を修正できる用途。"),
+            ("APP-000089", "ethical_audit_app", "倫理監査アプリ", "Ethical Audit App", "推論・表示・データ利用が安全か確認する用途。"),
+            ("APP-000090", "safe_personalization_app", "安全な個別化アプリ", "Safe Personalization App", "過度な誘導や操作を避けて個別化する用途。")
         ]
     },
     {
-        "category": "App Use Cases - Work Support",
-        "name_ja": "アプリ用途・仕事支援",
+        "category": "App Use Cases - Integration",
+        "name_ja": "アプリ用途・統合",
         "items": [
-            ("APP-000041", "productivity_support_app", "生産性支援アプリ", "Productivity Support App", "集中・タスク・優先順位・進捗を支援するアプリ用途。"),
-            ("APP-000042", "focus_support_app", "集中支援アプリ", "Focus Support App", "中断管理・作業時間・休憩・集中維持を支援する用途。"),
-            ("APP-000043", "meeting_support_app", "会議支援アプリ", "Meeting Support App", "議題・発言・要約・次アクション整理を支援する用途。"),
-            ("APP-000044", "team_collaboration_support", "チーム協働支援", "Team Collaboration Support", "役割・進捗・協力・情報共有を支援する用途。"),
-            ("APP-000045", "workload_monitoring_app", "業務負荷モニタリング", "Workload Monitoring App", "業務量・中断・疲労兆候を把握し支援する用途。"),
-            ("APP-000046", "career_support_app", "キャリア支援アプリ", "Career Support App", "スキル・目標・職務適性・成長計画を支援する用途。"),
-            ("APP-000047", "decision_support_app", "意思決定支援アプリ", "Decision Support App", "選択肢比較・リスク・優先順位判断を支援する用途。"),
-            ("APP-000048", "workflow_optimization_app", "ワークフロー最適化アプリ", "Workflow Optimization App", "作業手順・自動化・中断削減を支援する用途。"),
-            ("APP-000049", "work_wellbeing_support", "職場ウェルビーイング支援", "Work Wellbeing Support", "ストレス・疲労・回復・心理的安全性を支援する用途。"),
-            ("APP-000050", "human_performance_support", "人間パフォーマンス支援", "Human Performance Support", "認知・状態・環境を考慮して行動成果を支援する用途。")
+            ("APP-000091", "multi_domain_human_analysis_app", "領域横断人間分析アプリ", "Multi Domain Human Analysis App", "認知・性格・行動・環境を横断して傾向理解を支援する用途。"),
+            ("APP-000092", "cross_app_knowledge_use", "複数アプリ知識利用", "Cross App Knowledge Use", "共通Knowledge DBを複数アプリで利用する用途。"),
+            ("APP-000093", "contextual_inference_app", "文脈推論アプリ", "Contextual Inference App", "観測シグナルを文脈・状態・補正要因と組み合わせる用途。"),
+            ("APP-000094", "human_state_support_app", "人間状態支援アプリ", "Human State Support App", "現在状態を推測し負荷・回復・行動支援に活用する用途。"),
+            ("APP-000095", "behavior_change_support_app", "行動変容支援アプリ", "Behavior Change Support App", "習慣・目標・環境調整を通じて行動変化を支援する用途。"),
+            ("APP-000096", "life_design_support_app", "生活設計支援アプリ", "Life Design Support App", "予定・習慣・学習・仕事・休息を総合的に支援する用途。"),
+            ("APP-000097", "personal_growth_app", "自己成長支援アプリ", "Personal Growth App", "強み・学習・習慣・目標を長期的に支援する用途。"),
+            ("APP-000098", "human_ai_coach_app", "AIコーチアプリ", "Human AI Coach App", "ユーザーの行動や状態に応じて助言・振り返りを行う用途。"),
+            ("APP-000099", "knowledge_library_integration", "知識ライブラリ統合用途", "Knowledge Library Integration", "共通知識DBを各アプリの推論材料として接続する用途。"),
+            ("APP-000100", "app_use_case_integration", "アプリ用途統合", "App Use Case Integration", "診断・ゲーム・秘書・教育・仕事支援などの用途を統合管理する枠組み。")
         ]
     }
 ]
@@ -136,8 +136,8 @@ def main():
     ])
 
     pack = {
-        "output_dir": "vol14_app_use_cases/app_use_cases_001_050",
-        "index_filename": "app_use_cases_001_050_index.yml",
+        "output_dir": "vol14_app_use_cases/app_use_cases_051_100",
+        "index_filename": "app_use_cases_051_100_index.yml",
         "index_content": "\n".join(index_lines) + "\n",
         "items": all_items
     }

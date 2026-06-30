@@ -1,0 +1,2107 @@
+{
+  "output_dir": "vol14_app_use_cases/app_use_cases_051_100",
+  "index_filename": "app_use_cases_051_100_index.yml",
+  "index_content": "category: App Use Case\nname_ja: アプリ用途\nitems:\n  - APP-000051_wellbeing_tracking_app.yml\n  - APP-000052_stress_management_app.yml\n  - APP-000053_sleep_support_app.yml\n  - APP-000054_fatigue_monitoring_app.yml\n  - APP-000055_emotion_journal_app.yml\n  - APP-000056_habit_health_app.yml\n  - APP-000057_recovery_support_app.yml\n  - APP-000058_mind_body_awareness_app.yml\n  - APP-000059_lifestyle_balance_app.yml\n  - APP-000060_gentle_support_app.yml\n  - APP-000061_relationship_reflection_app.yml\n  - APP-000062_communication_support_app.yml\n  - APP-000063_conflict_prevention_app.yml\n  - APP-000064_team_relationship_app.yml\n  - APP-000065_social_skill_training_app.yml\n  - APP-000066_empathy_training_app.yml\n  - APP-000067_conversation_analysis_app.yml\n  - APP-000068_social_support_matching_app.yml\n  - APP-000069_online_community_support_app.yml\n  - APP-000070_relationship_boundary_support.yml\n  - APP-000071_personalization_engine_app.yml\n  - APP-000072_adaptive_ui_app.yml\n  - APP-000073_adaptive_notification_app.yml\n  - APP-000074_recommendation_personalization_app.yml\n  - APP-000075_difficulty_adaptation_app.yml\n  - APP-000076_content_adaptation_app.yml\n  - APP-000077_tone_adaptation_app.yml\n  - APP-000078_support_timing_app.yml\n  - APP-000079_user_preference_learning_app.yml\n  - APP-000080_adaptive_experience_app.yml\n  - APP-000081_safe_diagnosis_display.yml\n  - APP-000082_non_diagnostic_feedback_app.yml\n  - APP-000083_privacy_sensitive_app.yml\n  - APP-000084_minor_safe_app.yml\n  - APP-000085_high_stakes_guardrail_app.yml\n  - APP-000086_consent_management_app.yml\n  - APP-000087_explainable_feedback_app.yml\n  - APP-000088_user_correction_app.yml\n  - APP-000089_ethical_audit_app.yml\n  - APP-000090_safe_personalization_app.yml\n  - APP-000091_multi_domain_human_analysis_app.yml\n  - APP-000092_cross_app_knowledge_use.yml\n  - APP-000093_contextual_inference_app.yml\n  - APP-000094_human_state_support_app.yml\n  - APP-000095_behavior_change_support_app.yml\n  - APP-000096_life_design_support_app.yml\n  - APP-000097_personal_growth_app.yml\n  - APP-000098_human_ai_coach_app.yml\n  - APP-000099_knowledge_library_integration.yml\n  - APP-000100_app_use_case_integration.yml\nnotes:\n  - アプリ用途はDB分類ではなく利用文脈の管理材料として扱う\n  - Knowledge DB側ではアプリ別推論を行わない\n  - アプリ側で用途に応じた推論・表示・補正を行う\n",
+  "items": [
+    {
+      "filename": "APP-000051_wellbeing_tracking_app.yml",
+      "id": "APP-000051",
+      "knowledge_type": "app_use_case",
+      "name_ja": "ウェルビーイング記録アプリ",
+      "name_en": "Wellbeing Tracking App",
+      "category": "App Use Case",
+      "attribute": "Wellbeing",
+      "definition_ja": "気分・睡眠・疲労・生活リズムを記録し状態理解を支援する用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:ウェルビーイング",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "ウェルビーイング"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "ウェルビーイング記録アプリ利用文脈",
+        "ウェルビーイング記録アプリ対象シグナル",
+        "ウェルビーイング記録アプリ補正要因",
+        "ウェルビーイング記録アプリ表示目的"
+      ],
+      "signal_candidates": [
+        "ウェルビーイング記録アプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000052_stress_management_app.yml",
+      "id": "APP-000052",
+      "knowledge_type": "app_use_case",
+      "name_ja": "ストレス管理アプリ",
+      "name_en": "Stress Management App",
+      "category": "App Use Case",
+      "attribute": "Wellbeing",
+      "definition_ja": "ストレス兆候や回復行動を把握しセルフケアを支援する用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:ウェルビーイング",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "ウェルビーイング"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "ストレス管理アプリ利用文脈",
+        "ストレス管理アプリ対象シグナル",
+        "ストレス管理アプリ補正要因",
+        "ストレス管理アプリ表示目的"
+      ],
+      "signal_candidates": [
+        "ストレス管理アプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000053_sleep_support_app.yml",
+      "id": "APP-000053",
+      "knowledge_type": "app_use_case",
+      "name_ja": "睡眠支援アプリ",
+      "name_en": "Sleep Support App",
+      "category": "App Use Case",
+      "attribute": "Wellbeing",
+      "definition_ja": "睡眠時間・規則性・回復感を把握し生活改善を支援する用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:ウェルビーイング",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "ウェルビーイング"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "睡眠支援アプリ利用文脈",
+        "睡眠支援アプリ対象シグナル",
+        "睡眠支援アプリ補正要因",
+        "睡眠支援アプリ表示目的"
+      ],
+      "signal_candidates": [
+        "睡眠支援アプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000054_fatigue_monitoring_app.yml",
+      "id": "APP-000054",
+      "knowledge_type": "app_use_case",
+      "name_ja": "疲労モニタリングアプリ",
+      "name_en": "Fatigue Monitoring App",
+      "category": "App Use Case",
+      "attribute": "Wellbeing",
+      "definition_ja": "疲労兆候や過負荷を観測し休息提案に活用する用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:ウェルビーイング",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "ウェルビーイング"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "疲労モニタリングアプリ利用文脈",
+        "疲労モニタリングアプリ対象シグナル",
+        "疲労モニタリングアプリ補正要因",
+        "疲労モニタリングアプリ表示目的"
+      ],
+      "signal_candidates": [
+        "疲労モニタリングアプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000055_emotion_journal_app.yml",
+      "id": "APP-000055",
+      "knowledge_type": "app_use_case",
+      "name_ja": "感情ジャーナルアプリ",
+      "name_en": "Emotion Journal App",
+      "category": "App Use Case",
+      "attribute": "Wellbeing",
+      "definition_ja": "感情変化や出来事を記録し自己理解を支援する用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:ウェルビーイング",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "ウェルビーイング"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "感情ジャーナルアプリ利用文脈",
+        "感情ジャーナルアプリ対象シグナル",
+        "感情ジャーナルアプリ補正要因",
+        "感情ジャーナルアプリ表示目的"
+      ],
+      "signal_candidates": [
+        "感情ジャーナルアプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000056_habit_health_app.yml",
+      "id": "APP-000056",
+      "knowledge_type": "app_use_case",
+      "name_ja": "健康習慣アプリ",
+      "name_en": "Health Habit App",
+      "category": "App Use Case",
+      "attribute": "Wellbeing",
+      "definition_ja": "運動・食事・睡眠など健康行動の習慣化を支援する用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:ウェルビーイング",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "ウェルビーイング"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "健康習慣アプリ利用文脈",
+        "健康習慣アプリ対象シグナル",
+        "健康習慣アプリ補正要因",
+        "健康習慣アプリ表示目的"
+      ],
+      "signal_candidates": [
+        "健康習慣アプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000057_recovery_support_app.yml",
+      "id": "APP-000057",
+      "knowledge_type": "app_use_case",
+      "name_ja": "回復支援アプリ",
+      "name_en": "Recovery Support App",
+      "category": "App Use Case",
+      "attribute": "Wellbeing",
+      "definition_ja": "負荷後の休息・回復・行動再開を支援する用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:ウェルビーイング",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "ウェルビーイング"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "回復支援アプリ利用文脈",
+        "回復支援アプリ対象シグナル",
+        "回復支援アプリ補正要因",
+        "回復支援アプリ表示目的"
+      ],
+      "signal_candidates": [
+        "回復支援アプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000058_mind_body_awareness_app.yml",
+      "id": "APP-000058",
+      "knowledge_type": "app_use_case",
+      "name_ja": "心身気づきアプリ",
+      "name_en": "Mind Body Awareness App",
+      "category": "App Use Case",
+      "attribute": "Wellbeing",
+      "definition_ja": "身体信号や気分の変化への気づきを促す用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:ウェルビーイング",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "ウェルビーイング"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "心身気づきアプリ利用文脈",
+        "心身気づきアプリ対象シグナル",
+        "心身気づきアプリ補正要因",
+        "心身気づきアプリ表示目的"
+      ],
+      "signal_candidates": [
+        "心身気づきアプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000059_lifestyle_balance_app.yml",
+      "id": "APP-000059",
+      "knowledge_type": "app_use_case",
+      "name_ja": "生活バランスアプリ",
+      "name_en": "Lifestyle Balance App",
+      "category": "App Use Case",
+      "attribute": "Wellbeing",
+      "definition_ja": "仕事・学習・休息・余暇のバランス調整を支援する用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:ウェルビーイング",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "ウェルビーイング"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "生活バランスアプリ利用文脈",
+        "生活バランスアプリ対象シグナル",
+        "生活バランスアプリ補正要因",
+        "生活バランスアプリ表示目的"
+      ],
+      "signal_candidates": [
+        "生活バランスアプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000060_gentle_support_app.yml",
+      "id": "APP-000060",
+      "knowledge_type": "app_use_case",
+      "name_ja": "やさしい支援アプリ",
+      "name_en": "Gentle Support App",
+      "category": "App Use Case",
+      "attribute": "Wellbeing",
+      "definition_ja": "断定や評価を避け、穏やかな提案で行動支援を行う用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:ウェルビーイング",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "ウェルビーイング"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "やさしい支援アプリ利用文脈",
+        "やさしい支援アプリ対象シグナル",
+        "やさしい支援アプリ補正要因",
+        "やさしい支援アプリ表示目的"
+      ],
+      "signal_candidates": [
+        "やさしい支援アプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000061_relationship_reflection_app.yml",
+      "id": "APP-000061",
+      "knowledge_type": "app_use_case",
+      "name_ja": "人間関係振り返りアプリ",
+      "name_en": "Relationship Reflection App",
+      "category": "App Use Case",
+      "attribute": "Social Relationship",
+      "definition_ja": "対人関係の傾向や距離感を振り返る用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:人間関係",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "人間関係"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "人間関係振り返りアプリ利用文脈",
+        "人間関係振り返りアプリ対象シグナル",
+        "人間関係振り返りアプリ補正要因",
+        "人間関係振り返りアプリ表示目的"
+      ],
+      "signal_candidates": [
+        "人間関係振り返りアプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000062_communication_support_app.yml",
+      "id": "APP-000062",
+      "knowledge_type": "app_use_case",
+      "name_ja": "コミュニケーション支援アプリ",
+      "name_en": "Communication Support App",
+      "category": "App Use Case",
+      "attribute": "Social Relationship",
+      "definition_ja": "返信・自己主張・説明・共感表現を支援する用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:人間関係",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "人間関係"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "コミュニケーション支援アプリ利用文脈",
+        "コミュニケーション支援アプリ対象シグナル",
+        "コミュニケーション支援アプリ補正要因",
+        "コミュニケーション支援アプリ表示目的"
+      ],
+      "signal_candidates": [
+        "コミュニケーション支援アプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000063_conflict_prevention_app.yml",
+      "id": "APP-000063",
+      "knowledge_type": "app_use_case",
+      "name_ja": "葛藤予防アプリ",
+      "name_en": "Conflict Prevention App",
+      "category": "App Use Case",
+      "attribute": "Social Relationship",
+      "definition_ja": "対人摩擦や誤解を減らすための行動提案を行う用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:人間関係",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "人間関係"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "葛藤予防アプリ利用文脈",
+        "葛藤予防アプリ対象シグナル",
+        "葛藤予防アプリ補正要因",
+        "葛藤予防アプリ表示目的"
+      ],
+      "signal_candidates": [
+        "葛藤予防アプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000064_team_relationship_app.yml",
+      "id": "APP-000064",
+      "knowledge_type": "app_use_case",
+      "name_ja": "チーム関係支援アプリ",
+      "name_en": "Team Relationship App",
+      "category": "App Use Case",
+      "attribute": "Social Relationship",
+      "definition_ja": "チーム内の協力・役割・信頼形成を支援する用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:人間関係",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "人間関係"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "チーム関係支援アプリ利用文脈",
+        "チーム関係支援アプリ対象シグナル",
+        "チーム関係支援アプリ補正要因",
+        "チーム関係支援アプリ表示目的"
+      ],
+      "signal_candidates": [
+        "チーム関係支援アプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000065_social_skill_training_app.yml",
+      "id": "APP-000065",
+      "knowledge_type": "app_use_case",
+      "name_ja": "社会スキル練習アプリ",
+      "name_en": "Social Skill Training App",
+      "category": "App Use Case",
+      "attribute": "Social Relationship",
+      "definition_ja": "会話・主張・傾聴・協力などの社会的技能を練習する用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:人間関係",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "人間関係"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "社会スキル練習アプリ利用文脈",
+        "社会スキル練習アプリ対象シグナル",
+        "社会スキル練習アプリ補正要因",
+        "社会スキル練習アプリ表示目的"
+      ],
+      "signal_candidates": [
+        "社会スキル練習アプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000066_empathy_training_app.yml",
+      "id": "APP-000066",
+      "knowledge_type": "app_use_case",
+      "name_ja": "共感トレーニングアプリ",
+      "name_en": "Empathy Training App",
+      "category": "App Use Case",
+      "attribute": "Social Relationship",
+      "definition_ja": "視点取得や感情理解を練習する用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:人間関係",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "人間関係"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "共感トレーニングアプリ利用文脈",
+        "共感トレーニングアプリ対象シグナル",
+        "共感トレーニングアプリ補正要因",
+        "共感トレーニングアプリ表示目的"
+      ],
+      "signal_candidates": [
+        "共感トレーニングアプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000067_conversation_analysis_app.yml",
+      "id": "APP-000067",
+      "knowledge_type": "app_use_case",
+      "name_ja": "会話分析アプリ",
+      "name_en": "Conversation Analysis App",
+      "category": "App Use Case",
+      "attribute": "Social Relationship",
+      "definition_ja": "発話量・返信・表現傾向から会話行動を振り返る用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:人間関係",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "人間関係"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "会話分析アプリ利用文脈",
+        "会話分析アプリ対象シグナル",
+        "会話分析アプリ補正要因",
+        "会話分析アプリ表示目的"
+      ],
+      "signal_candidates": [
+        "会話分析アプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000068_social_support_matching_app.yml",
+      "id": "APP-000068",
+      "knowledge_type": "app_use_case",
+      "name_ja": "社会的支援マッチングアプリ",
+      "name_en": "Social Support Matching App",
+      "category": "App Use Case",
+      "attribute": "Social Relationship",
+      "definition_ja": "相談先・支援先・協力者を見つけやすくする用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:人間関係",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "人間関係"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "社会的支援マッチングアプリ利用文脈",
+        "社会的支援マッチングアプリ対象シグナル",
+        "社会的支援マッチングアプリ補正要因",
+        "社会的支援マッチングアプリ表示目的"
+      ],
+      "signal_candidates": [
+        "社会的支援マッチングアプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000069_online_community_support_app.yml",
+      "id": "APP-000069",
+      "knowledge_type": "app_use_case",
+      "name_ja": "オンラインコミュニティ支援アプリ",
+      "name_en": "Online Community Support App",
+      "category": "App Use Case",
+      "attribute": "Social Relationship",
+      "definition_ja": "オンライン交流の安全性・参加・支援を促す用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:人間関係",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "人間関係"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "オンラインコミュニティ支援アプリ利用文脈",
+        "オンラインコミュニティ支援アプリ対象シグナル",
+        "オンラインコミュニティ支援アプリ補正要因",
+        "オンラインコミュニティ支援アプリ表示目的"
+      ],
+      "signal_candidates": [
+        "オンラインコミュニティ支援アプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000070_relationship_boundary_support.yml",
+      "id": "APP-000070",
+      "knowledge_type": "app_use_case",
+      "name_ja": "関係境界支援",
+      "name_en": "Relationship Boundary Support",
+      "category": "App Use Case",
+      "attribute": "Social Relationship",
+      "definition_ja": "距離感・断り方・情報開示の調整を支援する用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:人間関係",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "人間関係"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "関係境界支援利用文脈",
+        "関係境界支援対象シグナル",
+        "関係境界支援補正要因",
+        "関係境界支援表示目的"
+      ],
+      "signal_candidates": [
+        "関係境界支援で利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000071_personalization_engine_app.yml",
+      "id": "APP-000071",
+      "knowledge_type": "app_use_case",
+      "name_ja": "個別化エンジン用途",
+      "name_en": "Personalization Engine App",
+      "category": "App Use Case",
+      "attribute": "Personalization",
+      "definition_ja": "行動傾向や文脈に合わせて表示・通知・提案を調整する用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:個別化",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "個別化"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "個別化エンジン用途利用文脈",
+        "個別化エンジン用途対象シグナル",
+        "個別化エンジン用途補正要因",
+        "個別化エンジン用途表示目的"
+      ],
+      "signal_candidates": [
+        "個別化エンジン用途で利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000072_adaptive_ui_app.yml",
+      "id": "APP-000072",
+      "knowledge_type": "app_use_case",
+      "name_ja": "適応UIアプリ",
+      "name_en": "Adaptive UI App",
+      "category": "App Use Case",
+      "attribute": "Personalization",
+      "definition_ja": "利用者の状態や熟達度に応じて画面や操作を調整する用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:個別化",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "個別化"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "適応UIアプリ利用文脈",
+        "適応UIアプリ対象シグナル",
+        "適応UIアプリ補正要因",
+        "適応UIアプリ表示目的"
+      ],
+      "signal_candidates": [
+        "適応UIアプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000073_adaptive_notification_app.yml",
+      "id": "APP-000073",
+      "knowledge_type": "app_use_case",
+      "name_ja": "適応通知アプリ",
+      "name_en": "Adaptive Notification App",
+      "category": "App Use Case",
+      "attribute": "Personalization",
+      "definition_ja": "通知頻度・タイミング・表現をユーザー文脈に合わせる用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:個別化",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "個別化"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "適応通知アプリ利用文脈",
+        "適応通知アプリ対象シグナル",
+        "適応通知アプリ補正要因",
+        "適応通知アプリ表示目的"
+      ],
+      "signal_candidates": [
+        "適応通知アプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000074_recommendation_personalization_app.yml",
+      "id": "APP-000074",
+      "knowledge_type": "app_use_case",
+      "name_ja": "推薦個別化アプリ",
+      "name_en": "Recommendation Personalization App",
+      "category": "App Use Case",
+      "attribute": "Personalization",
+      "definition_ja": "興味・履歴・状態に応じて情報や行動を推薦する用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:個別化",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "個別化"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "推薦個別化アプリ利用文脈",
+        "推薦個別化アプリ対象シグナル",
+        "推薦個別化アプリ補正要因",
+        "推薦個別化アプリ表示目的"
+      ],
+      "signal_candidates": [
+        "推薦個別化アプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000075_difficulty_adaptation_app.yml",
+      "id": "APP-000075",
+      "knowledge_type": "app_use_case",
+      "name_ja": "難易度適応アプリ",
+      "name_en": "Difficulty Adaptation App",
+      "category": "App Use Case",
+      "attribute": "Personalization",
+      "definition_ja": "課題やゲームの難易度を能力・状態に合わせて調整する用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:個別化",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "個別化"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "難易度適応アプリ利用文脈",
+        "難易度適応アプリ対象シグナル",
+        "難易度適応アプリ補正要因",
+        "難易度適応アプリ表示目的"
+      ],
+      "signal_candidates": [
+        "難易度適応アプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000076_content_adaptation_app.yml",
+      "id": "APP-000076",
+      "knowledge_type": "app_use_case",
+      "name_ja": "コンテンツ適応アプリ",
+      "name_en": "Content Adaptation App",
+      "category": "App Use Case",
+      "attribute": "Personalization",
+      "definition_ja": "説明量・形式・順序を理解度や文脈に応じて変える用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:個別化",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "個別化"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "コンテンツ適応アプリ利用文脈",
+        "コンテンツ適応アプリ対象シグナル",
+        "コンテンツ適応アプリ補正要因",
+        "コンテンツ適応アプリ表示目的"
+      ],
+      "signal_candidates": [
+        "コンテンツ適応アプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000077_tone_adaptation_app.yml",
+      "id": "APP-000077",
+      "knowledge_type": "app_use_case",
+      "name_ja": "表現トーン適応アプリ",
+      "name_en": "Tone Adaptation App",
+      "category": "App Use Case",
+      "attribute": "Personalization",
+      "definition_ja": "ユーザー状態や用途に応じて表示表現の強さを調整する用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:個別化",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "個別化"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "表現トーン適応アプリ利用文脈",
+        "表現トーン適応アプリ対象シグナル",
+        "表現トーン適応アプリ補正要因",
+        "表現トーン適応アプリ表示目的"
+      ],
+      "signal_candidates": [
+        "表現トーン適応アプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000078_support_timing_app.yml",
+      "id": "APP-000078",
+      "knowledge_type": "app_use_case",
+      "name_ja": "支援タイミング調整アプリ",
+      "name_en": "Support Timing App",
+      "category": "App Use Case",
+      "attribute": "Personalization",
+      "definition_ja": "介入や提案を出す時点を状態や文脈に合わせる用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:個別化",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "個別化"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "支援タイミング調整アプリ利用文脈",
+        "支援タイミング調整アプリ対象シグナル",
+        "支援タイミング調整アプリ補正要因",
+        "支援タイミング調整アプリ表示目的"
+      ],
+      "signal_candidates": [
+        "支援タイミング調整アプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000079_user_preference_learning_app.yml",
+      "id": "APP-000079",
+      "knowledge_type": "app_use_case",
+      "name_ja": "ユーザー嗜好学習アプリ",
+      "name_en": "User Preference Learning App",
+      "category": "App Use Case",
+      "attribute": "Personalization",
+      "definition_ja": "利用履歴から好みや反応傾向を学習し調整する用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:個別化",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "個別化"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "ユーザー嗜好学習アプリ利用文脈",
+        "ユーザー嗜好学習アプリ対象シグナル",
+        "ユーザー嗜好学習アプリ補正要因",
+        "ユーザー嗜好学習アプリ表示目的"
+      ],
+      "signal_candidates": [
+        "ユーザー嗜好学習アプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000080_adaptive_experience_app.yml",
+      "id": "APP-000080",
+      "knowledge_type": "app_use_case",
+      "name_ja": "適応体験アプリ",
+      "name_en": "Adaptive Experience App",
+      "category": "App Use Case",
+      "attribute": "Personalization",
+      "definition_ja": "アプリ体験全体を個人差と文脈に合わせて調整する用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:個別化",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "個別化"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "適応体験アプリ利用文脈",
+        "適応体験アプリ対象シグナル",
+        "適応体験アプリ補正要因",
+        "適応体験アプリ表示目的"
+      ],
+      "signal_candidates": [
+        "適応体験アプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000081_safe_diagnosis_display.yml",
+      "id": "APP-000081",
+      "knowledge_type": "app_use_case",
+      "name_ja": "安全な診断表示",
+      "name_en": "Safe Diagnosis Display",
+      "category": "App Use Case",
+      "attribute": "Safety Ethics",
+      "definition_ja": "診断結果を断定・序列化せず安全に提示する用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:安全倫理",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "安全倫理"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "安全な診断表示利用文脈",
+        "安全な診断表示対象シグナル",
+        "安全な診断表示補正要因",
+        "安全な診断表示表示目的"
+      ],
+      "signal_candidates": [
+        "安全な診断表示で利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000082_non_diagnostic_feedback_app.yml",
+      "id": "APP-000082",
+      "knowledge_type": "app_use_case",
+      "name_ja": "非診断フィードバックアプリ",
+      "name_en": "Non Diagnostic Feedback App",
+      "category": "App Use Case",
+      "attribute": "Safety Ethics",
+      "definition_ja": "医療・性格断定ではなく傾向や可能性として返す用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:安全倫理",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "安全倫理"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "非診断フィードバックアプリ利用文脈",
+        "非診断フィードバックアプリ対象シグナル",
+        "非診断フィードバックアプリ補正要因",
+        "非診断フィードバックアプリ表示目的"
+      ],
+      "signal_candidates": [
+        "非診断フィードバックアプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000083_privacy_sensitive_app.yml",
+      "id": "APP-000083",
+      "knowledge_type": "app_use_case",
+      "name_ja": "プライバシー配慮アプリ",
+      "name_en": "Privacy Sensitive App",
+      "category": "App Use Case",
+      "attribute": "Safety Ethics",
+      "definition_ja": "個人情報や機微情報を慎重に扱う用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:安全倫理",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "安全倫理"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "プライバシー配慮アプリ利用文脈",
+        "プライバシー配慮アプリ対象シグナル",
+        "プライバシー配慮アプリ補正要因",
+        "プライバシー配慮アプリ表示目的"
+      ],
+      "signal_candidates": [
+        "プライバシー配慮アプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000084_minor_safe_app.yml",
+      "id": "APP-000084",
+      "knowledge_type": "app_use_case",
+      "name_ja": "未成年配慮アプリ",
+      "name_en": "Minor Safe App",
+      "category": "App Use Case",
+      "attribute": "Safety Ethics",
+      "definition_ja": "未成年ユーザーへの表示・推論・提案を慎重化する用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:安全倫理",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "安全倫理"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "未成年配慮アプリ利用文脈",
+        "未成年配慮アプリ対象シグナル",
+        "未成年配慮アプリ補正要因",
+        "未成年配慮アプリ表示目的"
+      ],
+      "signal_candidates": [
+        "未成年配慮アプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000085_high_stakes_guardrail_app.yml",
+      "id": "APP-000085",
+      "knowledge_type": "app_use_case",
+      "name_ja": "高リスク判断ガードレールアプリ",
+      "name_en": "High Stakes Guardrail App",
+      "category": "App Use Case",
+      "attribute": "Safety Ethics",
+      "definition_ja": "進路・健康・雇用など重大判断への過度利用を防ぐ用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:安全倫理",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "安全倫理"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "高リスク判断ガードレールアプリ利用文脈",
+        "高リスク判断ガードレールアプリ対象シグナル",
+        "高リスク判断ガードレールアプリ補正要因",
+        "高リスク判断ガードレールアプリ表示目的"
+      ],
+      "signal_candidates": [
+        "高リスク判断ガードレールアプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000086_consent_management_app.yml",
+      "id": "APP-000086",
+      "knowledge_type": "app_use_case",
+      "name_ja": "同意管理アプリ",
+      "name_en": "Consent Management App",
+      "category": "App Use Case",
+      "attribute": "Safety Ethics",
+      "definition_ja": "データ利用・推論表示・個別化に関する同意を管理する用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:安全倫理",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "安全倫理"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "同意管理アプリ利用文脈",
+        "同意管理アプリ対象シグナル",
+        "同意管理アプリ補正要因",
+        "同意管理アプリ表示目的"
+      ],
+      "signal_candidates": [
+        "同意管理アプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000087_explainable_feedback_app.yml",
+      "id": "APP-000087",
+      "knowledge_type": "app_use_case",
+      "name_ja": "説明可能フィードバックアプリ",
+      "name_en": "Explainable Feedback App",
+      "category": "App Use Case",
+      "attribute": "Safety Ethics",
+      "definition_ja": "推論材料や根拠を分かりやすく説明する用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:安全倫理",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "安全倫理"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "説明可能フィードバックアプリ利用文脈",
+        "説明可能フィードバックアプリ対象シグナル",
+        "説明可能フィードバックアプリ補正要因",
+        "説明可能フィードバックアプリ表示目的"
+      ],
+      "signal_candidates": [
+        "説明可能フィードバックアプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000088_user_correction_app.yml",
+      "id": "APP-000088",
+      "knowledge_type": "app_use_case",
+      "name_ja": "ユーザー修正アプリ",
+      "name_en": "User Correction App",
+      "category": "App Use Case",
+      "attribute": "Safety Ethics",
+      "definition_ja": "ユーザーが推論結果や前提を修正できる用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:安全倫理",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "安全倫理"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "ユーザー修正アプリ利用文脈",
+        "ユーザー修正アプリ対象シグナル",
+        "ユーザー修正アプリ補正要因",
+        "ユーザー修正アプリ表示目的"
+      ],
+      "signal_candidates": [
+        "ユーザー修正アプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000089_ethical_audit_app.yml",
+      "id": "APP-000089",
+      "knowledge_type": "app_use_case",
+      "name_ja": "倫理監査アプリ",
+      "name_en": "Ethical Audit App",
+      "category": "App Use Case",
+      "attribute": "Safety Ethics",
+      "definition_ja": "推論・表示・データ利用が安全か確認する用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:安全倫理",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "安全倫理"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "倫理監査アプリ利用文脈",
+        "倫理監査アプリ対象シグナル",
+        "倫理監査アプリ補正要因",
+        "倫理監査アプリ表示目的"
+      ],
+      "signal_candidates": [
+        "倫理監査アプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000090_safe_personalization_app.yml",
+      "id": "APP-000090",
+      "knowledge_type": "app_use_case",
+      "name_ja": "安全な個別化アプリ",
+      "name_en": "Safe Personalization App",
+      "category": "App Use Case",
+      "attribute": "Safety Ethics",
+      "definition_ja": "過度な誘導や操作を避けて個別化する用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:安全倫理",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "安全倫理"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "安全な個別化アプリ利用文脈",
+        "安全な個別化アプリ対象シグナル",
+        "安全な個別化アプリ補正要因",
+        "安全な個別化アプリ表示目的"
+      ],
+      "signal_candidates": [
+        "安全な個別化アプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000091_multi_domain_human_analysis_app.yml",
+      "id": "APP-000091",
+      "knowledge_type": "app_use_case",
+      "name_ja": "領域横断人間分析アプリ",
+      "name_en": "Multi Domain Human Analysis App",
+      "category": "App Use Case",
+      "attribute": "Integration",
+      "definition_ja": "認知・性格・行動・環境を横断して傾向理解を支援する用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:統合",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "領域横断人間分析アプリ利用文脈",
+        "領域横断人間分析アプリ対象シグナル",
+        "領域横断人間分析アプリ補正要因",
+        "領域横断人間分析アプリ表示目的"
+      ],
+      "signal_candidates": [
+        "領域横断人間分析アプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000092_cross_app_knowledge_use.yml",
+      "id": "APP-000092",
+      "knowledge_type": "app_use_case",
+      "name_ja": "複数アプリ知識利用",
+      "name_en": "Cross App Knowledge Use",
+      "category": "App Use Case",
+      "attribute": "Integration",
+      "definition_ja": "共通Knowledge DBを複数アプリで利用する用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:統合",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "複数アプリ知識利用利用文脈",
+        "複数アプリ知識利用対象シグナル",
+        "複数アプリ知識利用補正要因",
+        "複数アプリ知識利用表示目的"
+      ],
+      "signal_candidates": [
+        "複数アプリ知識利用で利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000093_contextual_inference_app.yml",
+      "id": "APP-000093",
+      "knowledge_type": "app_use_case",
+      "name_ja": "文脈推論アプリ",
+      "name_en": "Contextual Inference App",
+      "category": "App Use Case",
+      "attribute": "Integration",
+      "definition_ja": "観測シグナルを文脈・状態・補正要因と組み合わせる用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:統合",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "文脈推論アプリ利用文脈",
+        "文脈推論アプリ対象シグナル",
+        "文脈推論アプリ補正要因",
+        "文脈推論アプリ表示目的"
+      ],
+      "signal_candidates": [
+        "文脈推論アプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000094_human_state_support_app.yml",
+      "id": "APP-000094",
+      "knowledge_type": "app_use_case",
+      "name_ja": "人間状態支援アプリ",
+      "name_en": "Human State Support App",
+      "category": "App Use Case",
+      "attribute": "Integration",
+      "definition_ja": "現在状態を推測し負荷・回復・行動支援に活用する用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:統合",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "人間状態支援アプリ利用文脈",
+        "人間状態支援アプリ対象シグナル",
+        "人間状態支援アプリ補正要因",
+        "人間状態支援アプリ表示目的"
+      ],
+      "signal_candidates": [
+        "人間状態支援アプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000095_behavior_change_support_app.yml",
+      "id": "APP-000095",
+      "knowledge_type": "app_use_case",
+      "name_ja": "行動変容支援アプリ",
+      "name_en": "Behavior Change Support App",
+      "category": "App Use Case",
+      "attribute": "Integration",
+      "definition_ja": "習慣・目標・環境調整を通じて行動変化を支援する用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:統合",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "行動変容支援アプリ利用文脈",
+        "行動変容支援アプリ対象シグナル",
+        "行動変容支援アプリ補正要因",
+        "行動変容支援アプリ表示目的"
+      ],
+      "signal_candidates": [
+        "行動変容支援アプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000096_life_design_support_app.yml",
+      "id": "APP-000096",
+      "knowledge_type": "app_use_case",
+      "name_ja": "生活設計支援アプリ",
+      "name_en": "Life Design Support App",
+      "category": "App Use Case",
+      "attribute": "Integration",
+      "definition_ja": "予定・習慣・学習・仕事・休息を総合的に支援する用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:統合",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "生活設計支援アプリ利用文脈",
+        "生活設計支援アプリ対象シグナル",
+        "生活設計支援アプリ補正要因",
+        "生活設計支援アプリ表示目的"
+      ],
+      "signal_candidates": [
+        "生活設計支援アプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000097_personal_growth_app.yml",
+      "id": "APP-000097",
+      "knowledge_type": "app_use_case",
+      "name_ja": "自己成長支援アプリ",
+      "name_en": "Personal Growth App",
+      "category": "App Use Case",
+      "attribute": "Integration",
+      "definition_ja": "強み・学習・習慣・目標を長期的に支援する用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:統合",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "自己成長支援アプリ利用文脈",
+        "自己成長支援アプリ対象シグナル",
+        "自己成長支援アプリ補正要因",
+        "自己成長支援アプリ表示目的"
+      ],
+      "signal_candidates": [
+        "自己成長支援アプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000098_human_ai_coach_app.yml",
+      "id": "APP-000098",
+      "knowledge_type": "app_use_case",
+      "name_ja": "AIコーチアプリ",
+      "name_en": "Human AI Coach App",
+      "category": "App Use Case",
+      "attribute": "Integration",
+      "definition_ja": "ユーザーの行動や状態に応じて助言・振り返りを行う用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:統合",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "AIコーチアプリ利用文脈",
+        "AIコーチアプリ対象シグナル",
+        "AIコーチアプリ補正要因",
+        "AIコーチアプリ表示目的"
+      ],
+      "signal_candidates": [
+        "AIコーチアプリで利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000099_knowledge_library_integration.yml",
+      "id": "APP-000099",
+      "knowledge_type": "app_use_case",
+      "name_ja": "知識ライブラリ統合用途",
+      "name_en": "Knowledge Library Integration",
+      "category": "App Use Case",
+      "attribute": "Integration",
+      "definition_ja": "共通知識DBを各アプリの推論材料として接続する用途。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:統合",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "知識ライブラリ統合用途利用文脈",
+        "知識ライブラリ統合用途対象シグナル",
+        "知識ライブラリ統合用途補正要因",
+        "知識ライブラリ統合用途表示目的"
+      ],
+      "signal_candidates": [
+        "知識ライブラリ統合用途で利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "APP-000100_app_use_case_integration.yml",
+      "id": "APP-000100",
+      "knowledge_type": "app_use_case",
+      "name_ja": "アプリ用途統合",
+      "name_en": "App Use Case Integration",
+      "category": "App Use Case",
+      "attribute": "Integration",
+      "definition_ja": "診断・ゲーム・秘書・教育・仕事支援などの用途を統合管理する枠組み。",
+      "tags": [
+        "CAT:アプリ用途",
+        "CAT:統合",
+        "ATTR:利用領域"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "アプリ用途統合利用文脈",
+        "アプリ用途統合対象シグナル",
+        "アプリ用途統合補正要因",
+        "アプリ用途統合表示目的"
+      ],
+      "signal_candidates": [
+        "アプリ用途統合で利用可能な知識項目を選定する材料になる",
+        "アプリ用途に応じた推論・表示・補正の切り替え材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "対象ユーザー",
+        "安全性",
+        "表示形式"
+      ],
+      "evidence": "HCI・UX設計・教育工学・行動支援設計で使用",
+      "status": "active"
+    }
+  ]
+}

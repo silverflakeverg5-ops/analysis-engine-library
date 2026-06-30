@@ -1,0 +1,33 @@
+id: APP-000091
+knowledge_type: app_use_case
+name_ja: 領域横断人間分析アプリ
+name_en: Multi Domain Human Analysis App
+category: App Use Case
+attribute: Integration
+definition_ja: 認知・性格・行動・環境を横断して傾向理解を支援する用途。
+tags:
+  - CAT:アプリ用途
+  - CAT:統合
+  - ATTR:利用領域
+parent:
+  - 統合
+related:
+  - 観測シグナル
+  - 補正要因
+  - 表示設計
+observable_data:
+  - 領域横断人間分析アプリ利用文脈
+  - 領域横断人間分析アプリ対象シグナル
+  - 領域横断人間分析アプリ補正要因
+  - 領域横断人間分析アプリ表示目的
+signal_candidates:
+  - 領域横断人間分析アプリで利用可能な知識項目を選定する材料になる
+  - アプリ用途に応じた推論・表示・補正の切り替え材料になる
+device_level: DB管理用
+modifiers:
+  - 用途
+  - 対象ユーザー
+  - 安全性
+  - 表示形式
+evidence: HCI・UX設計・教育工学・行動支援設計で使用
+status: active

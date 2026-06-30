@@ -1,0 +1,33 @@
+id: EVID-000016
+knowledge_type: evidence_source
+name_ja: HCI根拠
+name_en: Human Computer Interaction Evidence
+category: Evidence Source
+attribute: Cognitive Science
+definition_ja: 人間とコンピュータの相互作用・操作ログ・UXに関する根拠。
+tags:
+  - CAT:根拠
+  - CAT:認知科学
+  - ATTR:根拠種別
+parent:
+  - 認知科学
+related:
+  - 知識品質
+  - 監査
+  - 推論材料
+observable_data:
+  - HCI根拠参照有無
+  - HCI根拠根拠強度
+  - HCI根拠適用範囲
+  - HCI根拠限界条件
+signal_candidates:
+  - HCI根拠を根拠種別として利用できる
+  - 知識項目の信頼度や適用範囲を判断する材料になる
+device_level: DB管理用
+modifiers:
+  - 根拠強度
+  - 適用範囲
+  - 再現性
+  - 倫理性
+evidence: 研究方法論・心理測定・科学的根拠評価で使用
+status: active

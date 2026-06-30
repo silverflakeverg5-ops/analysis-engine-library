@@ -1,0 +1,33 @@
+id: EVID-000011
+knowledge_type: evidence_source
+name_ja: 認知科学根拠
+name_en: Cognitive Science Evidence
+category: Evidence Source
+attribute: Cognitive Science
+definition_ja: 人間の知覚・記憶・推論・学習を統合的に扱う根拠。
+tags:
+  - CAT:根拠
+  - CAT:認知科学
+  - ATTR:根拠種別
+parent:
+  - 認知科学
+related:
+  - 知識品質
+  - 監査
+  - 推論材料
+observable_data:
+  - 認知科学根拠参照有無
+  - 認知科学根拠根拠強度
+  - 認知科学根拠適用範囲
+  - 認知科学根拠限界条件
+signal_candidates:
+  - 認知科学根拠を根拠種別として利用できる
+  - 知識項目の信頼度や適用範囲を判断する材料になる
+device_level: DB管理用
+modifiers:
+  - 根拠強度
+  - 適用範囲
+  - 再現性
+  - 倫理性
+evidence: 研究方法論・心理測定・科学的根拠評価で使用
+status: active

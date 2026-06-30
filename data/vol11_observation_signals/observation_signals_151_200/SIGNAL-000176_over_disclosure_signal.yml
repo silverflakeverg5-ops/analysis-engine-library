@@ -1,0 +1,33 @@
+id: SIGNAL-000176
+knowledge_type: observation_signal
+name_ja: 過剰開示シグナル
+name_en: Over Disclosure Signal
+category: Observation Signal
+attribute: Safety Ethics
+definition_ja: 必要以上に個人的・機微な情報を開示する傾向。
+tags:
+  - CAT:観測シグナル
+  - CAT:安全倫理
+  - ATTR:観測可能データ
+parent:
+  - 安全倫理
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 過剰開示シグナル
+  - 過剰開示シグナルの増減
+  - 過剰開示シグナルの平均との差
+  - 過剰開示シグナルの時系列変化
+signal_candidates:
+  - 過剰開示シグナルが通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

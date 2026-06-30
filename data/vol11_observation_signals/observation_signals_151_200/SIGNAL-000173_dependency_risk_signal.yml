@@ -1,0 +1,33 @@
+id: SIGNAL-000173
+knowledge_type: observation_signal
+name_ja: 依存リスクシグナル
+name_en: Dependency Risk Signal
+category: Observation Signal
+attribute: Safety Ethics
+definition_ja: 過度な利用・確認・依存的反応が増える兆候。
+tags:
+  - CAT:観測シグナル
+  - CAT:安全倫理
+  - ATTR:観測可能データ
+parent:
+  - 安全倫理
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 依存リスクシグナル
+  - 依存リスクシグナルの増減
+  - 依存リスクシグナルの平均との差
+  - 依存リスクシグナルの時系列変化
+signal_candidates:
+  - 依存リスクシグナルが通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

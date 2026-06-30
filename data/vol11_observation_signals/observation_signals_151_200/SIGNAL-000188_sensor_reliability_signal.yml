@@ -1,0 +1,33 @@
+id: SIGNAL-000188
+knowledge_type: observation_signal
+name_ja: センサー信頼性シグナル
+name_en: Sensor Reliability Signal
+category: Observation Signal
+attribute: Quality Reliability
+definition_ja: 端末・入力・センサー由来データの信頼性。
+tags:
+  - CAT:観測シグナル
+  - CAT:品質信頼性
+  - ATTR:観測可能データ
+parent:
+  - 品質信頼性
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - センサー信頼性シグナル
+  - センサー信頼性シグナルの増減
+  - センサー信頼性シグナルの平均との差
+  - センサー信頼性シグナルの時系列変化
+signal_candidates:
+  - センサー信頼性シグナルが通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

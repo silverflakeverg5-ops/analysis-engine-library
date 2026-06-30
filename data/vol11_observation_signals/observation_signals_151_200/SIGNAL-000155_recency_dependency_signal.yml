@@ -1,0 +1,33 @@
+id: SIGNAL-000155
+knowledge_type: observation_signal
+name_ja: 直近依存シグナル
+name_en: Recency Dependency Signal
+category: Observation Signal
+attribute: Bias
+definition_ja: 直近の結果や情報に選択・評価が引き寄せられる傾向。
+tags:
+  - CAT:観測シグナル
+  - CAT:バイアス
+  - ATTR:観測可能データ
+parent:
+  - バイアス
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 直近依存シグナル
+  - 直近依存シグナルの増減
+  - 直近依存シグナルの平均との差
+  - 直近依存シグナルの時系列変化
+signal_candidates:
+  - 直近依存シグナルが通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

@@ -1,0 +1,33 @@
+id: SIGNAL-000154
+knowledge_type: observation_signal
+name_ja: 損失回避シグナル
+name_en: Loss Avoidance Signal
+category: Observation Signal
+attribute: Bias
+definition_ja: 損失や失敗を避ける選択が増える傾向。
+tags:
+  - CAT:観測シグナル
+  - CAT:バイアス
+  - ATTR:観測可能データ
+parent:
+  - バイアス
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 損失回避シグナル
+  - 損失回避シグナルの増減
+  - 損失回避シグナルの平均との差
+  - 損失回避シグナルの時系列変化
+signal_candidates:
+  - 損失回避シグナルが通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

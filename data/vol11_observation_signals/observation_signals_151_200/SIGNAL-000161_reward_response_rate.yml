@@ -1,0 +1,33 @@
+id: SIGNAL-000161
+knowledge_type: observation_signal
+name_ja: 報酬反応率
+name_en: Reward Response Rate
+category: Observation Signal
+attribute: Motivation
+definition_ja: 報酬表示や達成報酬に対して行動が増える割合。
+tags:
+  - CAT:観測シグナル
+  - CAT:動機づけ
+  - ATTR:観測可能データ
+parent:
+  - 動機づけ
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 報酬反応率
+  - 報酬反応率の増減
+  - 報酬反応率の平均との差
+  - 報酬反応率の時系列変化
+signal_candidates:
+  - 報酬反応率が通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

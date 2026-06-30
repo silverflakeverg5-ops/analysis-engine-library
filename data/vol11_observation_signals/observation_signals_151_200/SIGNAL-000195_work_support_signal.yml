@@ -1,0 +1,33 @@
+id: SIGNAL-000195
+knowledge_type: observation_signal
+name_ja: 仕事支援シグナル
+name_en: Work Support Signal
+category: Observation Signal
+attribute: Application Integration
+definition_ja: タスク・集中・中断・優先順位から得られる仕事支援用観測指標。
+tags:
+  - CAT:観測シグナル
+  - CAT:アプリ統合
+  - ATTR:観測可能データ
+parent:
+  - アプリ統合
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 仕事支援シグナル
+  - 仕事支援シグナルの増減
+  - 仕事支援シグナルの平均との差
+  - 仕事支援シグナルの時系列変化
+signal_candidates:
+  - 仕事支援シグナルが通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

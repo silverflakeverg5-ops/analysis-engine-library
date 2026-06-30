@@ -1,0 +1,33 @@
+id: SIGNAL-000171
+knowledge_type: observation_signal
+name_ja: センシティブ入力シグナル
+name_en: Sensitive Input Signal
+category: Observation Signal
+attribute: Safety Ethics
+definition_ja: 健康・個人情報・人間関係など慎重に扱うべき入力が含まれる兆候。
+tags:
+  - CAT:観測シグナル
+  - CAT:安全倫理
+  - ATTR:観測可能データ
+parent:
+  - 安全倫理
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - センシティブ入力シグナル
+  - センシティブ入力シグナルの増減
+  - センシティブ入力シグナルの平均との差
+  - センシティブ入力シグナルの時系列変化
+signal_candidates:
+  - センシティブ入力シグナルが通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

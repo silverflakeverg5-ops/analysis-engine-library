@@ -1,0 +1,33 @@
+id: SIGNAL-000186
+knowledge_type: observation_signal
+name_ja: 外れ値検出シグナル
+name_en: Outlier Detection Signal
+category: Observation Signal
+attribute: Quality Reliability
+definition_ja: 通常範囲から大きく外れた観測値の検出。
+tags:
+  - CAT:観測シグナル
+  - CAT:品質信頼性
+  - ATTR:観測可能データ
+parent:
+  - 品質信頼性
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 外れ値検出シグナル
+  - 外れ値検出シグナルの増減
+  - 外れ値検出シグナルの平均との差
+  - 外れ値検出シグナルの時系列変化
+signal_candidates:
+  - 外れ値検出シグナルが通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

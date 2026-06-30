@@ -1,0 +1,33 @@
+id: SIGNAL-000177
+knowledge_type: observation_signal
+name_ja: 境界侵害シグナル
+name_en: Boundary Violation Signal
+category: Observation Signal
+attribute: Safety Ethics
+definition_ja: 他者または本人の心理的・情報的境界が侵害される兆候。
+tags:
+  - CAT:観測シグナル
+  - CAT:安全倫理
+  - ATTR:観測可能データ
+parent:
+  - 安全倫理
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 境界侵害シグナル
+  - 境界侵害シグナルの増減
+  - 境界侵害シグナルの平均との差
+  - 境界侵害シグナルの時系列変化
+signal_candidates:
+  - 境界侵害シグナルが通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

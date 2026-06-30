@@ -1,0 +1,33 @@
+id: SIGNAL-000189
+knowledge_type: observation_signal
+name_ja: 自己報告一貫性
+name_en: Self Report Consistency
+category: Observation Signal
+attribute: Quality Reliability
+definition_ja: 本人入力や自己申告が時系列・文脈間で一貫している度合い。
+tags:
+  - CAT:観測シグナル
+  - CAT:品質信頼性
+  - ATTR:観測可能データ
+parent:
+  - 品質信頼性
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 自己報告一貫性
+  - 自己報告一貫性の増減
+  - 自己報告一貫性の平均との差
+  - 自己報告一貫性の時系列変化
+signal_candidates:
+  - 自己報告一貫性が通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

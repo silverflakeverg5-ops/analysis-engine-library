@@ -1,0 +1,33 @@
+id: SIGNAL-000159
+knowledge_type: observation_signal
+name_ja: 選択過多シグナル
+name_en: Choice Overload Signal
+category: Observation Signal
+attribute: Bias
+definition_ja: 選択肢増加時に迷い・離脱・決定遅延が増える傾向。
+tags:
+  - CAT:観測シグナル
+  - CAT:バイアス
+  - ATTR:観測可能データ
+parent:
+  - バイアス
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 選択過多シグナル
+  - 選択過多シグナルの増減
+  - 選択過多シグナルの平均との差
+  - 選択過多シグナルの時系列変化
+signal_candidates:
+  - 選択過多シグナルが通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

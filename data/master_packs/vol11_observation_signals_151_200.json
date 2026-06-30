@@ -1,0 +1,2107 @@
+{
+  "output_dir": "vol11_observation_signals/observation_signals_151_200",
+  "index_filename": "observation_signals_151_200_index.yml",
+  "index_content": "category: Observation Signal\nname_ja: 観測シグナル\nitems:\n  - SIGNAL-000151_confirmation_search_pattern.yml\n  - SIGNAL-000152_anchor_dependency_signal.yml\n  - SIGNAL-000153_default_retention_signal.yml\n  - SIGNAL-000154_loss_avoidance_signal.yml\n  - SIGNAL-000155_recency_dependency_signal.yml\n  - SIGNAL-000156_social_proof_dependency_signal.yml\n  - SIGNAL-000157_authority_reference_signal.yml\n  - SIGNAL-000158_scarcity_response_signal.yml\n  - SIGNAL-000159_choice_overload_signal.yml\n  - SIGNAL-000160_present_bias_signal.yml\n  - SIGNAL-000161_reward_response_rate.yml\n  - SIGNAL-000162_badge_response_rate.yml\n  - SIGNAL-000163_streak_preservation_behavior.yml\n  - SIGNAL-000164_goal_proximity_acceleration.yml\n  - SIGNAL-000165_challenge_acceptance_rate.yml\n  - SIGNAL-000166_challenge_avoidance_rate.yml\n  - SIGNAL-000167_self_initiated_action_count.yml\n  - SIGNAL-000168_reward_removal_drop.yml\n  - SIGNAL-000169_effort_investment_signal.yml\n  - SIGNAL-000170_motivation_recovery_signal.yml\n  - SIGNAL-000171_sensitive_input_signal.yml\n  - SIGNAL-000172_distress_expression_signal.yml\n  - SIGNAL-000173_dependency_risk_signal.yml\n  - SIGNAL-000174_privacy_risk_signal.yml\n  - SIGNAL-000175_manipulation_susceptibility_signal.yml\n  - SIGNAL-000176_over_disclosure_signal.yml\n  - SIGNAL-000177_boundary_violation_signal.yml\n  - SIGNAL-000178_harmful_interaction_signal.yml\n  - SIGNAL-000179_safety_escalation_signal.yml\n  - SIGNAL-000180_ethical_review_signal.yml\n  - SIGNAL-000181_data_missing_rate.yml\n  - SIGNAL-000182_data_noise_level.yml\n  - SIGNAL-000183_signal_confidence_score.yml\n  - SIGNAL-000184_sample_size_signal.yml\n  - SIGNAL-000185_measurement_context_signal.yml\n  - SIGNAL-000186_outlier_detection_signal.yml\n  - SIGNAL-000187_duplicate_event_signal.yml\n  - SIGNAL-000188_sensor_reliability_signal.yml\n  - SIGNAL-000189_self_report_consistency.yml\n  - SIGNAL-000190_behavior_report_gap.yml\n  - SIGNAL-000191_diagnosis_app_signal.yml\n  - SIGNAL-000192_game_behavior_signal.yml\n  - SIGNAL-000193_assistant_app_signal.yml\n  - SIGNAL-000194_education_app_signal.yml\n  - SIGNAL-000195_work_support_signal.yml\n  - SIGNAL-000196_wellbeing_signal.yml\n  - SIGNAL-000197_compatibility_signal.yml\n  - SIGNAL-000198_personalization_signal.yml\n  - SIGNAL-000199_intervention_timing_signal.yml\n  - SIGNAL-000200_observation_signal_integration.yml\nnotes:\n  - 観測シグナルは推論結果ではなく入力材料として扱う\n  - アプリ側でスコアリング・推論・表示を行う\n  - 生データではなく観測可能な指標候補として管理する\n",
+  "items": [
+    {
+      "filename": "SIGNAL-000151_confirmation_search_pattern.yml",
+      "id": "SIGNAL-000151",
+      "knowledge_type": "observation_signal",
+      "name_ja": "確証探索パターン",
+      "name_en": "Confirmation Search Pattern",
+      "category": "Observation Signal",
+      "attribute": "Bias",
+      "definition_ja": "自分の選択や仮説を支持する情報へ検索・閲覧が偏る傾向。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:バイアス",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "バイアス"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "確証探索パターン",
+        "確証探索パターンの増減",
+        "確証探索パターンの平均との差",
+        "確証探索パターンの時系列変化"
+      ],
+      "signal_candidates": [
+        "確証探索パターンが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000152_anchor_dependency_signal.yml",
+      "id": "SIGNAL-000152",
+      "knowledge_type": "observation_signal",
+      "name_ja": "アンカー依存シグナル",
+      "name_en": "Anchor Dependency Signal",
+      "category": "Observation Signal",
+      "attribute": "Bias",
+      "definition_ja": "初期提示値や最初の選択に判断が近づく傾向。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:バイアス",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "バイアス"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "アンカー依存シグナル",
+        "アンカー依存シグナルの増減",
+        "アンカー依存シグナルの平均との差",
+        "アンカー依存シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "アンカー依存シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000153_default_retention_signal.yml",
+      "id": "SIGNAL-000153",
+      "knowledge_type": "observation_signal",
+      "name_ja": "デフォルト維持シグナル",
+      "name_en": "Default Retention Signal",
+      "category": "Observation Signal",
+      "attribute": "Bias",
+      "definition_ja": "初期設定や既定選択肢を変更せず維持する傾向。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:バイアス",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "バイアス"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "デフォルト維持シグナル",
+        "デフォルト維持シグナルの増減",
+        "デフォルト維持シグナルの平均との差",
+        "デフォルト維持シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "デフォルト維持シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000154_loss_avoidance_signal.yml",
+      "id": "SIGNAL-000154",
+      "knowledge_type": "observation_signal",
+      "name_ja": "損失回避シグナル",
+      "name_en": "Loss Avoidance Signal",
+      "category": "Observation Signal",
+      "attribute": "Bias",
+      "definition_ja": "損失や失敗を避ける選択が増える傾向。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:バイアス",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "バイアス"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "損失回避シグナル",
+        "損失回避シグナルの増減",
+        "損失回避シグナルの平均との差",
+        "損失回避シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "損失回避シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000155_recency_dependency_signal.yml",
+      "id": "SIGNAL-000155",
+      "knowledge_type": "observation_signal",
+      "name_ja": "直近依存シグナル",
+      "name_en": "Recency Dependency Signal",
+      "category": "Observation Signal",
+      "attribute": "Bias",
+      "definition_ja": "直近の結果や情報に選択・評価が引き寄せられる傾向。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:バイアス",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "バイアス"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "直近依存シグナル",
+        "直近依存シグナルの増減",
+        "直近依存シグナルの平均との差",
+        "直近依存シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "直近依存シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000156_social_proof_dependency_signal.yml",
+      "id": "SIGNAL-000156",
+      "knowledge_type": "observation_signal",
+      "name_ja": "社会的証明依存シグナル",
+      "name_en": "Social Proof Dependency Signal",
+      "category": "Observation Signal",
+      "attribute": "Bias",
+      "definition_ja": "人気・評価・多数派表示に選択が影響される傾向。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:バイアス",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "バイアス"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "社会的証明依存シグナル",
+        "社会的証明依存シグナルの増減",
+        "社会的証明依存シグナルの平均との差",
+        "社会的証明依存シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "社会的証明依存シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000157_authority_reference_signal.yml",
+      "id": "SIGNAL-000157",
+      "knowledge_type": "observation_signal",
+      "name_ja": "権威参照シグナル",
+      "name_en": "Authority Reference Signal",
+      "category": "Observation Signal",
+      "attribute": "Bias",
+      "definition_ja": "専門家・公式・肩書き表示への反応が強い傾向。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:バイアス",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "バイアス"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "権威参照シグナル",
+        "権威参照シグナルの増減",
+        "権威参照シグナルの平均との差",
+        "権威参照シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "権威参照シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000158_scarcity_response_signal.yml",
+      "id": "SIGNAL-000158",
+      "knowledge_type": "observation_signal",
+      "name_ja": "希少性反応シグナル",
+      "name_en": "Scarcity Response Signal",
+      "category": "Observation Signal",
+      "attribute": "Bias",
+      "definition_ja": "限定・残りわずか・期限表示に反応して選択が変化する傾向。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:バイアス",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "バイアス"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "希少性反応シグナル",
+        "希少性反応シグナルの増減",
+        "希少性反応シグナルの平均との差",
+        "希少性反応シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "希少性反応シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000159_choice_overload_signal.yml",
+      "id": "SIGNAL-000159",
+      "knowledge_type": "observation_signal",
+      "name_ja": "選択過多シグナル",
+      "name_en": "Choice Overload Signal",
+      "category": "Observation Signal",
+      "attribute": "Bias",
+      "definition_ja": "選択肢増加時に迷い・離脱・決定遅延が増える傾向。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:バイアス",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "バイアス"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "選択過多シグナル",
+        "選択過多シグナルの増減",
+        "選択過多シグナルの平均との差",
+        "選択過多シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "選択過多シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000160_present_bias_signal.yml",
+      "id": "SIGNAL-000160",
+      "knowledge_type": "observation_signal",
+      "name_ja": "現在バイアスシグナル",
+      "name_en": "Present Bias Signal",
+      "category": "Observation Signal",
+      "attribute": "Bias",
+      "definition_ja": "将来利益より即時報酬や短期的負担軽減を選ぶ傾向。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:バイアス",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "バイアス"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "現在バイアスシグナル",
+        "現在バイアスシグナルの増減",
+        "現在バイアスシグナルの平均との差",
+        "現在バイアスシグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "現在バイアスシグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000161_reward_response_rate.yml",
+      "id": "SIGNAL-000161",
+      "knowledge_type": "observation_signal",
+      "name_ja": "報酬反応率",
+      "name_en": "Reward Response Rate",
+      "category": "Observation Signal",
+      "attribute": "Motivation",
+      "definition_ja": "報酬表示や達成報酬に対して行動が増える割合。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:動機づけ",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "動機づけ"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "報酬反応率",
+        "報酬反応率の増減",
+        "報酬反応率の平均との差",
+        "報酬反応率の時系列変化"
+      ],
+      "signal_candidates": [
+        "報酬反応率が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000162_badge_response_rate.yml",
+      "id": "SIGNAL-000162",
+      "knowledge_type": "observation_signal",
+      "name_ja": "バッジ反応率",
+      "name_en": "Badge Response Rate",
+      "category": "Observation Signal",
+      "attribute": "Motivation",
+      "definition_ja": "バッジ・称号・実績表示後に行動が増える割合。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:動機づけ",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "動機づけ"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "バッジ反応率",
+        "バッジ反応率の増減",
+        "バッジ反応率の平均との差",
+        "バッジ反応率の時系列変化"
+      ],
+      "signal_candidates": [
+        "バッジ反応率が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000163_streak_preservation_behavior.yml",
+      "id": "SIGNAL-000163",
+      "knowledge_type": "observation_signal",
+      "name_ja": "連続記録維持行動",
+      "name_en": "Streak Preservation Behavior",
+      "category": "Observation Signal",
+      "attribute": "Motivation",
+      "definition_ja": "連続記録を維持するために行動する傾向。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:動機づけ",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "動機づけ"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "連続記録維持行動",
+        "連続記録維持行動の増減",
+        "連続記録維持行動の平均との差",
+        "連続記録維持行動の時系列変化"
+      ],
+      "signal_candidates": [
+        "連続記録維持行動が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000164_goal_proximity_acceleration.yml",
+      "id": "SIGNAL-000164",
+      "knowledge_type": "observation_signal",
+      "name_ja": "目標接近加速",
+      "name_en": "Goal Proximity Acceleration",
+      "category": "Observation Signal",
+      "attribute": "Motivation",
+      "definition_ja": "目標達成が近づくほど行動量や速度が高まる傾向。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:動機づけ",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "動機づけ"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "目標接近加速",
+        "目標接近加速の増減",
+        "目標接近加速の平均との差",
+        "目標接近加速の時系列変化"
+      ],
+      "signal_candidates": [
+        "目標接近加速が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000165_challenge_acceptance_rate.yml",
+      "id": "SIGNAL-000165",
+      "knowledge_type": "observation_signal",
+      "name_ja": "挑戦受諾率",
+      "name_en": "Challenge Acceptance Rate",
+      "category": "Observation Signal",
+      "attribute": "Motivation",
+      "definition_ja": "難度の高い課題や新しい挑戦を受け入れた割合。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:動機づけ",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "動機づけ"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "挑戦受諾率",
+        "挑戦受諾率の増減",
+        "挑戦受諾率の平均との差",
+        "挑戦受諾率の時系列変化"
+      ],
+      "signal_candidates": [
+        "挑戦受諾率が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000166_challenge_avoidance_rate.yml",
+      "id": "SIGNAL-000166",
+      "knowledge_type": "observation_signal",
+      "name_ja": "挑戦回避率",
+      "name_en": "Challenge Avoidance Rate",
+      "category": "Observation Signal",
+      "attribute": "Motivation",
+      "definition_ja": "難度の高い課題や新しい挑戦を避けた割合。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:動機づけ",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "動機づけ"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "挑戦回避率",
+        "挑戦回避率の増減",
+        "挑戦回避率の平均との差",
+        "挑戦回避率の時系列変化"
+      ],
+      "signal_candidates": [
+        "挑戦回避率が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000167_self_initiated_action_count.yml",
+      "id": "SIGNAL-000167",
+      "knowledge_type": "observation_signal",
+      "name_ja": "自発行動回数",
+      "name_en": "Self Initiated Action Count",
+      "category": "Observation Signal",
+      "attribute": "Motivation",
+      "definition_ja": "外部指示や通知なしに本人から開始した行動回数。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:動機づけ",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "動機づけ"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "自発行動回数",
+        "自発行動回数の増減",
+        "自発行動回数の平均との差",
+        "自発行動回数の時系列変化"
+      ],
+      "signal_candidates": [
+        "自発行動回数が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000168_reward_removal_drop.yml",
+      "id": "SIGNAL-000168",
+      "knowledge_type": "observation_signal",
+      "name_ja": "報酬除去後低下",
+      "name_en": "Reward Removal Drop",
+      "category": "Observation Signal",
+      "attribute": "Motivation",
+      "definition_ja": "報酬がなくなった後に行動頻度や継続率が低下する変化。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:動機づけ",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "動機づけ"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "報酬除去後低下",
+        "報酬除去後低下の増減",
+        "報酬除去後低下の平均との差",
+        "報酬除去後低下の時系列変化"
+      ],
+      "signal_candidates": [
+        "報酬除去後低下が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000169_effort_investment_signal.yml",
+      "id": "SIGNAL-000169",
+      "knowledge_type": "observation_signal",
+      "name_ja": "努力投入シグナル",
+      "name_en": "Effort Investment Signal",
+      "category": "Observation Signal",
+      "attribute": "Motivation",
+      "definition_ja": "難所や重要課題に時間・再試行・確認を投入する傾向。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:動機づけ",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "動機づけ"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "努力投入シグナル",
+        "努力投入シグナルの増減",
+        "努力投入シグナルの平均との差",
+        "努力投入シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "努力投入シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000170_motivation_recovery_signal.yml",
+      "id": "SIGNAL-000170",
+      "knowledge_type": "observation_signal",
+      "name_ja": "動機回復シグナル",
+      "name_en": "Motivation Recovery Signal",
+      "category": "Observation Signal",
+      "attribute": "Motivation",
+      "definition_ja": "低下した行動量や継続率が再び通常水準へ戻る兆候。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:動機づけ",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "動機づけ"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "動機回復シグナル",
+        "動機回復シグナルの増減",
+        "動機回復シグナルの平均との差",
+        "動機回復シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "動機回復シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000171_sensitive_input_signal.yml",
+      "id": "SIGNAL-000171",
+      "knowledge_type": "observation_signal",
+      "name_ja": "センシティブ入力シグナル",
+      "name_en": "Sensitive Input Signal",
+      "category": "Observation Signal",
+      "attribute": "Safety Ethics",
+      "definition_ja": "健康・個人情報・人間関係など慎重に扱うべき入力が含まれる兆候。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:安全倫理",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "安全倫理"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "センシティブ入力シグナル",
+        "センシティブ入力シグナルの増減",
+        "センシティブ入力シグナルの平均との差",
+        "センシティブ入力シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "センシティブ入力シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000172_distress_expression_signal.yml",
+      "id": "SIGNAL-000172",
+      "knowledge_type": "observation_signal",
+      "name_ja": "苦痛表現シグナル",
+      "name_en": "Distress Expression Signal",
+      "category": "Observation Signal",
+      "attribute": "Safety Ethics",
+      "definition_ja": "強い苦痛・困難・切迫感を示す表現が観測される兆候。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:安全倫理",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "安全倫理"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "苦痛表現シグナル",
+        "苦痛表現シグナルの増減",
+        "苦痛表現シグナルの平均との差",
+        "苦痛表現シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "苦痛表現シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000173_dependency_risk_signal.yml",
+      "id": "SIGNAL-000173",
+      "knowledge_type": "observation_signal",
+      "name_ja": "依存リスクシグナル",
+      "name_en": "Dependency Risk Signal",
+      "category": "Observation Signal",
+      "attribute": "Safety Ethics",
+      "definition_ja": "過度な利用・確認・依存的反応が増える兆候。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:安全倫理",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "安全倫理"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "依存リスクシグナル",
+        "依存リスクシグナルの増減",
+        "依存リスクシグナルの平均との差",
+        "依存リスクシグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "依存リスクシグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000174_privacy_risk_signal.yml",
+      "id": "SIGNAL-000174",
+      "knowledge_type": "observation_signal",
+      "name_ja": "プライバシーリスクシグナル",
+      "name_en": "Privacy Risk Signal",
+      "category": "Observation Signal",
+      "attribute": "Safety Ethics",
+      "definition_ja": "本人や他者の個人情報が入力・共有されるリスクの兆候。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:安全倫理",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "安全倫理"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "プライバシーリスクシグナル",
+        "プライバシーリスクシグナルの増減",
+        "プライバシーリスクシグナルの平均との差",
+        "プライバシーリスクシグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "プライバシーリスクシグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000175_manipulation_susceptibility_signal.yml",
+      "id": "SIGNAL-000175",
+      "knowledge_type": "observation_signal",
+      "name_ja": "操作影響受容シグナル",
+      "name_en": "Manipulation Susceptibility Signal",
+      "category": "Observation Signal",
+      "attribute": "Safety Ethics",
+      "definition_ja": "誘導・報酬・社会的圧力により判断が過度に動く兆候。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:安全倫理",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "安全倫理"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "操作影響受容シグナル",
+        "操作影響受容シグナルの増減",
+        "操作影響受容シグナルの平均との差",
+        "操作影響受容シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "操作影響受容シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000176_over_disclosure_signal.yml",
+      "id": "SIGNAL-000176",
+      "knowledge_type": "observation_signal",
+      "name_ja": "過剰開示シグナル",
+      "name_en": "Over Disclosure Signal",
+      "category": "Observation Signal",
+      "attribute": "Safety Ethics",
+      "definition_ja": "必要以上に個人的・機微な情報を開示する傾向。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:安全倫理",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "安全倫理"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "過剰開示シグナル",
+        "過剰開示シグナルの増減",
+        "過剰開示シグナルの平均との差",
+        "過剰開示シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "過剰開示シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000177_boundary_violation_signal.yml",
+      "id": "SIGNAL-000177",
+      "knowledge_type": "observation_signal",
+      "name_ja": "境界侵害シグナル",
+      "name_en": "Boundary Violation Signal",
+      "category": "Observation Signal",
+      "attribute": "Safety Ethics",
+      "definition_ja": "他者または本人の心理的・情報的境界が侵害される兆候。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:安全倫理",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "安全倫理"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "境界侵害シグナル",
+        "境界侵害シグナルの増減",
+        "境界侵害シグナルの平均との差",
+        "境界侵害シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "境界侵害シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000178_harmful_interaction_signal.yml",
+      "id": "SIGNAL-000178",
+      "knowledge_type": "observation_signal",
+      "name_ja": "有害相互作用シグナル",
+      "name_en": "Harmful Interaction Signal",
+      "category": "Observation Signal",
+      "attribute": "Safety Ethics",
+      "definition_ja": "攻撃・侮辱・排除・強い否定など有害な対人反応の兆候。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:安全倫理",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "安全倫理"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "有害相互作用シグナル",
+        "有害相互作用シグナルの増減",
+        "有害相互作用シグナルの平均との差",
+        "有害相互作用シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "有害相互作用シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000179_safety_escalation_signal.yml",
+      "id": "SIGNAL-000179",
+      "knowledge_type": "observation_signal",
+      "name_ja": "安全確認強化シグナル",
+      "name_en": "Safety Escalation Signal",
+      "category": "Observation Signal",
+      "attribute": "Safety Ethics",
+      "definition_ja": "通常応答より安全確認や慎重な扱いが必要な入力兆候。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:安全倫理",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "安全倫理"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "安全確認強化シグナル",
+        "安全確認強化シグナルの増減",
+        "安全確認強化シグナルの平均との差",
+        "安全確認強化シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "安全確認強化シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000180_ethical_review_signal.yml",
+      "id": "SIGNAL-000180",
+      "knowledge_type": "observation_signal",
+      "name_ja": "倫理レビューシグナル",
+      "name_en": "Ethical Review Signal",
+      "category": "Observation Signal",
+      "attribute": "Safety Ethics",
+      "definition_ja": "推論・表示・介入前に倫理的確認が必要な状態を示す兆候。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:安全倫理",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "安全倫理"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "倫理レビューシグナル",
+        "倫理レビューシグナルの増減",
+        "倫理レビューシグナルの平均との差",
+        "倫理レビューシグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "倫理レビューシグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000181_data_missing_rate.yml",
+      "id": "SIGNAL-000181",
+      "knowledge_type": "observation_signal",
+      "name_ja": "データ欠損率",
+      "name_en": "Data Missing Rate",
+      "category": "Observation Signal",
+      "attribute": "Quality Reliability",
+      "definition_ja": "必要な観測データが取得できていない割合。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:品質信頼性",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "品質信頼性"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "データ欠損率",
+        "データ欠損率の増減",
+        "データ欠損率の平均との差",
+        "データ欠損率の時系列変化"
+      ],
+      "signal_candidates": [
+        "データ欠損率が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000182_data_noise_level.yml",
+      "id": "SIGNAL-000182",
+      "knowledge_type": "observation_signal",
+      "name_ja": "データノイズ水準",
+      "name_en": "Data Noise Level",
+      "category": "Observation Signal",
+      "attribute": "Quality Reliability",
+      "definition_ja": "観測データに含まれる誤差・ばらつき・不安定性の度合い。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:品質信頼性",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "品質信頼性"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "データノイズ水準",
+        "データノイズ水準の増減",
+        "データノイズ水準の平均との差",
+        "データノイズ水準の時系列変化"
+      ],
+      "signal_candidates": [
+        "データノイズ水準が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000183_signal_confidence_score.yml",
+      "id": "SIGNAL-000183",
+      "knowledge_type": "observation_signal",
+      "name_ja": "シグナル信頼度スコア",
+      "name_en": "Signal Confidence Score",
+      "category": "Observation Signal",
+      "attribute": "Quality Reliability",
+      "definition_ja": "観測シグナルを推論材料として使える信頼度。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:品質信頼性",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "品質信頼性"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "シグナル信頼度スコア",
+        "シグナル信頼度スコアの増減",
+        "シグナル信頼度スコアの平均との差",
+        "シグナル信頼度スコアの時系列変化"
+      ],
+      "signal_candidates": [
+        "シグナル信頼度スコアが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000184_sample_size_signal.yml",
+      "id": "SIGNAL-000184",
+      "knowledge_type": "observation_signal",
+      "name_ja": "サンプル数シグナル",
+      "name_en": "Sample Size Signal",
+      "category": "Observation Signal",
+      "attribute": "Quality Reliability",
+      "definition_ja": "判断に使える観測回数や期間の十分性。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:品質信頼性",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "品質信頼性"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "サンプル数シグナル",
+        "サンプル数シグナルの増減",
+        "サンプル数シグナルの平均との差",
+        "サンプル数シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "サンプル数シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000185_measurement_context_signal.yml",
+      "id": "SIGNAL-000185",
+      "knowledge_type": "observation_signal",
+      "name_ja": "測定文脈シグナル",
+      "name_en": "Measurement Context Signal",
+      "category": "Observation Signal",
+      "attribute": "Quality Reliability",
+      "definition_ja": "観測が行われた端末・時間・状況などの文脈情報。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:品質信頼性",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "品質信頼性"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "測定文脈シグナル",
+        "測定文脈シグナルの増減",
+        "測定文脈シグナルの平均との差",
+        "測定文脈シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "測定文脈シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000186_outlier_detection_signal.yml",
+      "id": "SIGNAL-000186",
+      "knowledge_type": "observation_signal",
+      "name_ja": "外れ値検出シグナル",
+      "name_en": "Outlier Detection Signal",
+      "category": "Observation Signal",
+      "attribute": "Quality Reliability",
+      "definition_ja": "通常範囲から大きく外れた観測値の検出。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:品質信頼性",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "品質信頼性"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "外れ値検出シグナル",
+        "外れ値検出シグナルの増減",
+        "外れ値検出シグナルの平均との差",
+        "外れ値検出シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "外れ値検出シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000187_duplicate_event_signal.yml",
+      "id": "SIGNAL-000187",
+      "knowledge_type": "observation_signal",
+      "name_ja": "重複イベントシグナル",
+      "name_en": "Duplicate Event Signal",
+      "category": "Observation Signal",
+      "attribute": "Quality Reliability",
+      "definition_ja": "同一または近接イベントが重複して記録された可能性。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:品質信頼性",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "品質信頼性"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "重複イベントシグナル",
+        "重複イベントシグナルの増減",
+        "重複イベントシグナルの平均との差",
+        "重複イベントシグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "重複イベントシグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000188_sensor_reliability_signal.yml",
+      "id": "SIGNAL-000188",
+      "knowledge_type": "observation_signal",
+      "name_ja": "センサー信頼性シグナル",
+      "name_en": "Sensor Reliability Signal",
+      "category": "Observation Signal",
+      "attribute": "Quality Reliability",
+      "definition_ja": "端末・入力・センサー由来データの信頼性。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:品質信頼性",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "品質信頼性"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "センサー信頼性シグナル",
+        "センサー信頼性シグナルの増減",
+        "センサー信頼性シグナルの平均との差",
+        "センサー信頼性シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "センサー信頼性シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000189_self_report_consistency.yml",
+      "id": "SIGNAL-000189",
+      "knowledge_type": "observation_signal",
+      "name_ja": "自己報告一貫性",
+      "name_en": "Self Report Consistency",
+      "category": "Observation Signal",
+      "attribute": "Quality Reliability",
+      "definition_ja": "本人入力や自己申告が時系列・文脈間で一貫している度合い。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:品質信頼性",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "品質信頼性"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "自己報告一貫性",
+        "自己報告一貫性の増減",
+        "自己報告一貫性の平均との差",
+        "自己報告一貫性の時系列変化"
+      ],
+      "signal_candidates": [
+        "自己報告一貫性が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000190_behavior_report_gap.yml",
+      "id": "SIGNAL-000190",
+      "knowledge_type": "observation_signal",
+      "name_ja": "行動報告ギャップ",
+      "name_en": "Behavior Report Gap",
+      "category": "Observation Signal",
+      "attribute": "Quality Reliability",
+      "definition_ja": "自己報告と実際の行動ログに差がある状態。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:品質信頼性",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "品質信頼性"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "行動報告ギャップ",
+        "行動報告ギャップの増減",
+        "行動報告ギャップの平均との差",
+        "行動報告ギャップの時系列変化"
+      ],
+      "signal_candidates": [
+        "行動報告ギャップが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000191_diagnosis_app_signal.yml",
+      "id": "SIGNAL-000191",
+      "knowledge_type": "observation_signal",
+      "name_ja": "診断アプリ用シグナル",
+      "name_en": "Diagnosis App Signal",
+      "category": "Observation Signal",
+      "attribute": "Application Integration",
+      "definition_ja": "診断・自己理解アプリで利用しやすい観測指標候補。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:アプリ統合",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "アプリ統合"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "診断アプリ用シグナル",
+        "診断アプリ用シグナルの増減",
+        "診断アプリ用シグナルの平均との差",
+        "診断アプリ用シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "診断アプリ用シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000192_game_behavior_signal.yml",
+      "id": "SIGNAL-000192",
+      "knowledge_type": "observation_signal",
+      "name_ja": "ゲーム行動シグナル",
+      "name_en": "Game Behavior Signal",
+      "category": "Observation Signal",
+      "attribute": "Application Integration",
+      "definition_ja": "ゲーム内選択・探索・再挑戦・反応から得られる観測指標候補。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:アプリ統合",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "アプリ統合"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "ゲーム行動シグナル",
+        "ゲーム行動シグナルの増減",
+        "ゲーム行動シグナルの平均との差",
+        "ゲーム行動シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "ゲーム行動シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000193_assistant_app_signal.yml",
+      "id": "SIGNAL-000193",
+      "knowledge_type": "observation_signal",
+      "name_ja": "秘書アプリ用シグナル",
+      "name_en": "Assistant App Signal",
+      "category": "Observation Signal",
+      "attribute": "Application Integration",
+      "definition_ja": "予定・通知・タスク・生活文脈から得られる観測指標候補。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:アプリ統合",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "アプリ統合"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "秘書アプリ用シグナル",
+        "秘書アプリ用シグナルの増減",
+        "秘書アプリ用シグナルの平均との差",
+        "秘書アプリ用シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "秘書アプリ用シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000194_education_app_signal.yml",
+      "id": "SIGNAL-000194",
+      "knowledge_type": "observation_signal",
+      "name_ja": "教育アプリ用シグナル",
+      "name_en": "Education App Signal",
+      "category": "Observation Signal",
+      "attribute": "Application Integration",
+      "definition_ja": "学習ログ・成績・復習・フィードバックから得られる観測指標候補。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:アプリ統合",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "アプリ統合"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "教育アプリ用シグナル",
+        "教育アプリ用シグナルの増減",
+        "教育アプリ用シグナルの平均との差",
+        "教育アプリ用シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "教育アプリ用シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000195_work_support_signal.yml",
+      "id": "SIGNAL-000195",
+      "knowledge_type": "observation_signal",
+      "name_ja": "仕事支援シグナル",
+      "name_en": "Work Support Signal",
+      "category": "Observation Signal",
+      "attribute": "Application Integration",
+      "definition_ja": "タスク・集中・中断・優先順位から得られる仕事支援用観測指標。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:アプリ統合",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "アプリ統合"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "仕事支援シグナル",
+        "仕事支援シグナルの増減",
+        "仕事支援シグナルの平均との差",
+        "仕事支援シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "仕事支援シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000196_wellbeing_signal.yml",
+      "id": "SIGNAL-000196",
+      "knowledge_type": "observation_signal",
+      "name_ja": "ウェルビーイングシグナル",
+      "name_en": "Wellbeing Signal",
+      "category": "Observation Signal",
+      "attribute": "Application Integration",
+      "definition_ja": "睡眠・疲労・感情・生活リズムから得られる状態推定用指標。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:アプリ統合",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "アプリ統合"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "ウェルビーイングシグナル",
+        "ウェルビーイングシグナルの増減",
+        "ウェルビーイングシグナルの平均との差",
+        "ウェルビーイングシグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "ウェルビーイングシグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000197_compatibility_signal.yml",
+      "id": "SIGNAL-000197",
+      "knowledge_type": "observation_signal",
+      "name_ja": "相性推定シグナル",
+      "name_en": "Compatibility Signal",
+      "category": "Observation Signal",
+      "attribute": "Application Integration",
+      "definition_ja": "対人反応・価値観・行動傾向から相性推定材料となる指標候補。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:アプリ統合",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "アプリ統合"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "相性推定シグナル",
+        "相性推定シグナルの増減",
+        "相性推定シグナルの平均との差",
+        "相性推定シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "相性推定シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000198_personalization_signal.yml",
+      "id": "SIGNAL-000198",
+      "knowledge_type": "observation_signal",
+      "name_ja": "個別化シグナル",
+      "name_en": "Personalization Signal",
+      "category": "Observation Signal",
+      "attribute": "Application Integration",
+      "definition_ja": "表示・通知・難易度・提案を個別調整するための観測指標。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:アプリ統合",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "アプリ統合"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "個別化シグナル",
+        "個別化シグナルの増減",
+        "個別化シグナルの平均との差",
+        "個別化シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "個別化シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000199_intervention_timing_signal.yml",
+      "id": "SIGNAL-000199",
+      "knowledge_type": "observation_signal",
+      "name_ja": "介入タイミングシグナル",
+      "name_en": "Intervention Timing Signal",
+      "category": "Observation Signal",
+      "attribute": "Application Integration",
+      "definition_ja": "通知・提案・支援を出す適切なタイミングを推定する材料。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:アプリ統合",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "アプリ統合"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "介入タイミングシグナル",
+        "介入タイミングシグナルの増減",
+        "介入タイミングシグナルの平均との差",
+        "介入タイミングシグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "介入タイミングシグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000200_observation_signal_integration.yml",
+      "id": "SIGNAL-000200",
+      "knowledge_type": "observation_signal",
+      "name_ja": "観測シグナル統合",
+      "name_en": "Observation Signal Integration",
+      "category": "Observation Signal",
+      "attribute": "Application Integration",
+      "definition_ja": "複数アプリや複数文脈の観測指標を統合して推論材料化する枠組み。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:アプリ統合",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "アプリ統合"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "観測シグナル統合",
+        "観測シグナル統合の増減",
+        "観測シグナル統合の平均との差",
+        "観測シグナル統合の時系列変化"
+      ],
+      "signal_candidates": [
+        "観測シグナル統合が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    }
+  ]
+}

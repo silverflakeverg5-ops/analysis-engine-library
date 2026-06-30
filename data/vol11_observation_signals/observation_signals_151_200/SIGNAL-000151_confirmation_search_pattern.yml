@@ -1,0 +1,33 @@
+id: SIGNAL-000151
+knowledge_type: observation_signal
+name_ja: 確証探索パターン
+name_en: Confirmation Search Pattern
+category: Observation Signal
+attribute: Bias
+definition_ja: 自分の選択や仮説を支持する情報へ検索・閲覧が偏る傾向。
+tags:
+  - CAT:観測シグナル
+  - CAT:バイアス
+  - ATTR:観測可能データ
+parent:
+  - バイアス
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 確証探索パターン
+  - 確証探索パターンの増減
+  - 確証探索パターンの平均との差
+  - 確証探索パターンの時系列変化
+signal_candidates:
+  - 確証探索パターンが通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

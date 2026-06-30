@@ -1,0 +1,33 @@
+id: SIGNAL-000179
+knowledge_type: observation_signal
+name_ja: 安全確認強化シグナル
+name_en: Safety Escalation Signal
+category: Observation Signal
+attribute: Safety Ethics
+definition_ja: 通常応答より安全確認や慎重な扱いが必要な入力兆候。
+tags:
+  - CAT:観測シグナル
+  - CAT:安全倫理
+  - ATTR:観測可能データ
+parent:
+  - 安全倫理
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 安全確認強化シグナル
+  - 安全確認強化シグナルの増減
+  - 安全確認強化シグナルの平均との差
+  - 安全確認強化シグナルの時系列変化
+signal_candidates:
+  - 安全確認強化シグナルが通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

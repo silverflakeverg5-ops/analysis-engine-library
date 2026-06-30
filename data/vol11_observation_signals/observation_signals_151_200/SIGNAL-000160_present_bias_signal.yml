@@ -1,0 +1,33 @@
+id: SIGNAL-000160
+knowledge_type: observation_signal
+name_ja: 現在バイアスシグナル
+name_en: Present Bias Signal
+category: Observation Signal
+attribute: Bias
+definition_ja: 将来利益より即時報酬や短期的負担軽減を選ぶ傾向。
+tags:
+  - CAT:観測シグナル
+  - CAT:バイアス
+  - ATTR:観測可能データ
+parent:
+  - バイアス
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 現在バイアスシグナル
+  - 現在バイアスシグナルの増減
+  - 現在バイアスシグナルの平均との差
+  - 現在バイアスシグナルの時系列変化
+signal_candidates:
+  - 現在バイアスシグナルが通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

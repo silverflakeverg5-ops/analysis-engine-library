@@ -1,0 +1,33 @@
+id: PHYS-000058
+knowledge_type: physiology_factor
+name_ja: 水分バランス
+name_en: Hydration Balance
+category: Physiology
+attribute: Nutrition Metabolism
+definition_ja: 水分摂取と排出のバランスが身体・認知に影響する状態。
+tags:
+  - CAT:生理
+  - CAT:栄養代謝
+  - ATTR:補正要因
+parent:
+  - 栄養代謝
+related:
+  - 神経科学
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 水分バランス関連反応時間
+  - 水分バランス関連行動変化
+  - 水分バランス関連継続率
+  - 水分バランス関連ストレス反応
+signal_candidates:
+  - 水分バランスが注意・感情・判断・行動に影響している可能性がある
+  - 体調条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 睡眠
+  - 疲労
+  - 生活状況
+evidence: 生理心理学・健康心理学・睡眠研究・HCI研究で使用
+status: active

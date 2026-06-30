@@ -1,0 +1,33 @@
+id: PHYS-000085
+knowledge_type: physiology_factor
+name_ja: 副腎活性
+name_en: Adrenal Activation
+category: Physiology
+attribute: Hormonal State
+definition_ja: ストレスや覚醒に伴う副腎系の活性化。
+tags:
+  - CAT:生理
+  - CAT:ホルモン状態
+  - ATTR:補正要因
+parent:
+  - ホルモン状態
+related:
+  - 神経科学
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 副腎活性関連反応時間
+  - 副腎活性関連行動変化
+  - 副腎活性関連継続率
+  - 副腎活性関連ストレス反応
+signal_candidates:
+  - 副腎活性が注意・感情・判断・行動に影響している可能性がある
+  - 体調条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 睡眠
+  - 疲労
+  - 生活状況
+evidence: 生理心理学・健康心理学・睡眠研究・HCI研究で使用
+status: active

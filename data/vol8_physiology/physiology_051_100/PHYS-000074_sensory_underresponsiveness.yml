@@ -1,0 +1,33 @@
+id: PHYS-000074
+knowledge_type: physiology_factor
+name_ja: 感覚低反応
+name_en: Sensory Underresponsiveness
+category: Physiology
+attribute: Sensory Load
+definition_ja: 感覚刺激への気づきや反応が弱くなりやすい状態。
+tags:
+  - CAT:生理
+  - CAT:感覚負荷
+  - ATTR:補正要因
+parent:
+  - 感覚負荷
+related:
+  - 神経科学
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 感覚低反応関連反応時間
+  - 感覚低反応関連行動変化
+  - 感覚低反応関連継続率
+  - 感覚低反応関連ストレス反応
+signal_candidates:
+  - 感覚低反応が注意・感情・判断・行動に影響している可能性がある
+  - 体調条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 睡眠
+  - 疲労
+  - 生活状況
+evidence: 生理心理学・健康心理学・睡眠研究・HCI研究で使用
+status: active

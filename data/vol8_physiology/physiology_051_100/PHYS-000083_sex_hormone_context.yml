@@ -1,0 +1,33 @@
+id: PHYS-000083
+knowledge_type: physiology_factor
+name_ja: 性ホルモン文脈
+name_en: Sex Hormone Context
+category: Physiology
+attribute: Hormonal State
+definition_ja: 性ホルモン変動が気分・体調・認知に影響し得る文脈。
+tags:
+  - CAT:生理
+  - CAT:ホルモン状態
+  - ATTR:補正要因
+parent:
+  - ホルモン状態
+related:
+  - 神経科学
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 性ホルモン文脈関連反応時間
+  - 性ホルモン文脈関連行動変化
+  - 性ホルモン文脈関連継続率
+  - 性ホルモン文脈関連ストレス反応
+signal_candidates:
+  - 性ホルモン文脈が注意・感情・判断・行動に影響している可能性がある
+  - 体調条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 睡眠
+  - 疲労
+  - 生活状況
+evidence: 生理心理学・健康心理学・睡眠研究・HCI研究で使用
+status: active

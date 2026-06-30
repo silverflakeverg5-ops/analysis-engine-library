@@ -1,0 +1,33 @@
+id: PHYS-000075
+knowledge_type: physiology_factor
+name_ja: 画面輝度負荷
+name_en: Screen Brightness Load
+category: Physiology
+attribute: Sensory Load
+definition_ja: 画面の明るさやコントラストが目や疲労に与える負荷。
+tags:
+  - CAT:生理
+  - CAT:感覚負荷
+  - ATTR:補正要因
+parent:
+  - 感覚負荷
+related:
+  - 神経科学
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 画面輝度負荷関連反応時間
+  - 画面輝度負荷関連行動変化
+  - 画面輝度負荷関連継続率
+  - 画面輝度負荷関連ストレス反応
+signal_candidates:
+  - 画面輝度負荷が注意・感情・判断・行動に影響している可能性がある
+  - 体調条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 睡眠
+  - 疲労
+  - 生活状況
+evidence: 生理心理学・健康心理学・睡眠研究・HCI研究で使用
+status: active

@@ -1,0 +1,57 @@
+category: Physiology
+name_ja: 生理
+items:
+  - PHYS-000051_blood_glucose_stability.yml
+  - PHYS-000052_hunger_state.yml
+  - PHYS-000053_satiety_state.yml
+  - PHYS-000054_caffeine_effect.yml
+  - PHYS-000055_alcohol_effect.yml
+  - PHYS-000056_nutrient_deficit.yml
+  - PHYS-000057_metabolic_energy.yml
+  - PHYS-000058_hydration_balance.yml
+  - PHYS-000059_meal_quality.yml
+  - PHYS-000060_digestive_load.yml
+  - PHYS-000061_exercise_frequency.yml
+  - PHYS-000062_exercise_intensity.yml
+  - PHYS-000063_aerobic_condition.yml
+  - PHYS-000064_muscle_strength_condition.yml
+  - PHYS-000065_mobility_condition.yml
+  - PHYS-000066_movement_variability.yml
+  - PHYS-000067_sedentary_load.yml
+  - PHYS-000068_movement_breaks.yml
+  - PHYS-000069_exercise_recovery.yml
+  - PHYS-000070_body_activation.yml
+  - PHYS-000071_visual_load.yml
+  - PHYS-000072_auditory_load.yml
+  - PHYS-000073_sensory_sensitivity.yml
+  - PHYS-000074_sensory_underresponsiveness.yml
+  - PHYS-000075_screen_brightness_load.yml
+  - PHYS-000076_noise_stress.yml
+  - PHYS-000077_multisensory_overload.yml
+  - PHYS-000078_sensory_recovery.yml
+  - PHYS-000079_tactile_comfort.yml
+  - PHYS-000080_environmental_sensory_fit.yml
+  - PHYS-000081_cortisol_rhythm.yml
+  - PHYS-000082_melatonin_rhythm.yml
+  - PHYS-000083_sex_hormone_context.yml
+  - PHYS-000084_thyroid_function_context.yml
+  - PHYS-000085_adrenal_activation.yml
+  - PHYS-000086_hormonal_fluctuation.yml
+  - PHYS-000087_puberty_context.yml
+  - PHYS-000088_menopause_context.yml
+  - PHYS-000089_stress_hormone_load.yml
+  - PHYS-000090_hormonal_recovery.yml
+  - PHYS-000091_mind_body_interaction.yml
+  - PHYS-000092_physiological_baseline.yml
+  - PHYS-000093_physiological_variability.yml
+  - PHYS-000094_physiological_resilience.yml
+  - PHYS-000095_physiological_vulnerability.yml
+  - PHYS-000096_body_signal_awareness.yml
+  - PHYS-000097_behavioral_energy_budget.yml
+  - PHYS-000098_load_recovery_balance.yml
+  - PHYS-000099_physiological_context_dependency.yml
+  - PHYS-000100_physiological_integration.yml
+notes:
+  - 生理要因は医療診断ではなく補正要因として扱う
+  - 観測可能データとSignal候補を中心に管理する
+  - アプリ側でスコアリング・推論・表示を行う

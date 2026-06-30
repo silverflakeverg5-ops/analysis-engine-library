@@ -1,0 +1,33 @@
+id: PHYS-000098
+knowledge_type: physiology_factor
+name_ja: 負荷回復バランス
+name_en: Load Recovery Balance
+category: Physiology
+attribute: Integration
+definition_ja: 活動負荷と回復機会が釣り合っている度合い。
+tags:
+  - CAT:生理
+  - CAT:統合
+  - ATTR:補正要因
+parent:
+  - 統合
+related:
+  - 神経科学
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 負荷回復バランス関連反応時間
+  - 負荷回復バランス関連行動変化
+  - 負荷回復バランス関連継続率
+  - 負荷回復バランス関連ストレス反応
+signal_candidates:
+  - 負荷回復バランスが注意・感情・判断・行動に影響している可能性がある
+  - 体調条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 睡眠
+  - 疲労
+  - 生活状況
+evidence: 生理心理学・健康心理学・睡眠研究・HCI研究で使用
+status: active

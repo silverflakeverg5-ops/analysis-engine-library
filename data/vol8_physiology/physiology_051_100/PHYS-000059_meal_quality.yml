@@ -1,0 +1,33 @@
+id: PHYS-000059
+knowledge_type: physiology_factor
+name_ja: 食事品質
+name_en: Meal Quality
+category: Physiology
+attribute: Nutrition Metabolism
+definition_ja: 食事内容の質がエネルギー・気分・集中に影響する要因。
+tags:
+  - CAT:生理
+  - CAT:栄養代謝
+  - ATTR:補正要因
+parent:
+  - 栄養代謝
+related:
+  - 神経科学
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 食事品質関連反応時間
+  - 食事品質関連行動変化
+  - 食事品質関連継続率
+  - 食事品質関連ストレス反応
+signal_candidates:
+  - 食事品質が注意・感情・判断・行動に影響している可能性がある
+  - 体調条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 睡眠
+  - 疲労
+  - 生活状況
+evidence: 生理心理学・健康心理学・睡眠研究・HCI研究で使用
+status: active

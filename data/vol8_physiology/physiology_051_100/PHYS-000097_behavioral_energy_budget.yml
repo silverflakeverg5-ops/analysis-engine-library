@@ -1,0 +1,33 @@
+id: PHYS-000097
+knowledge_type: physiology_factor
+name_ja: 行動エネルギー予算
+name_en: Behavioral Energy Budget
+category: Physiology
+attribute: Integration
+definition_ja: 一日に使える身体的・精神的エネルギーの配分。
+tags:
+  - CAT:生理
+  - CAT:統合
+  - ATTR:補正要因
+parent:
+  - 統合
+related:
+  - 神経科学
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 行動エネルギー予算関連反応時間
+  - 行動エネルギー予算関連行動変化
+  - 行動エネルギー予算関連継続率
+  - 行動エネルギー予算関連ストレス反応
+signal_candidates:
+  - 行動エネルギー予算が注意・感情・判断・行動に影響している可能性がある
+  - 体調条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 睡眠
+  - 疲労
+  - 生活状況
+evidence: 生理心理学・健康心理学・睡眠研究・HCI研究で使用
+status: active

@@ -1,0 +1,33 @@
+id: PHYS-000051
+knowledge_type: physiology_factor
+name_ja: 血糖安定性
+name_en: Blood Glucose Stability
+category: Physiology
+attribute: Nutrition Metabolism
+definition_ja: 血糖値の上下が集中・眠気・気分・判断に影響する状態。
+tags:
+  - CAT:生理
+  - CAT:栄養代謝
+  - ATTR:補正要因
+parent:
+  - 栄養代謝
+related:
+  - 神経科学
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 血糖安定性関連反応時間
+  - 血糖安定性関連行動変化
+  - 血糖安定性関連継続率
+  - 血糖安定性関連ストレス反応
+signal_candidates:
+  - 血糖安定性が注意・感情・判断・行動に影響している可能性がある
+  - 体調条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 睡眠
+  - 疲労
+  - 生活状況
+evidence: 生理心理学・健康心理学・睡眠研究・HCI研究で使用
+status: active

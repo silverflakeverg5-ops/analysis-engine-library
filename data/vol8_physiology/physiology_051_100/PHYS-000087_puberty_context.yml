@@ -1,0 +1,33 @@
+id: PHYS-000087
+knowledge_type: physiology_factor
+name_ja: 思春期文脈
+name_en: Puberty Context
+category: Physiology
+attribute: Hormonal State
+definition_ja: 成長期のホルモン変化が情動・身体・行動に影響する文脈。
+tags:
+  - CAT:生理
+  - CAT:ホルモン状態
+  - ATTR:補正要因
+parent:
+  - ホルモン状態
+related:
+  - 神経科学
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 思春期文脈関連反応時間
+  - 思春期文脈関連行動変化
+  - 思春期文脈関連継続率
+  - 思春期文脈関連ストレス反応
+signal_candidates:
+  - 思春期文脈が注意・感情・判断・行動に影響している可能性がある
+  - 体調条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 睡眠
+  - 疲労
+  - 生活状況
+evidence: 生理心理学・健康心理学・睡眠研究・HCI研究で使用
+status: active

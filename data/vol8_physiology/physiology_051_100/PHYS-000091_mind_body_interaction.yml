@@ -1,0 +1,33 @@
+id: PHYS-000091
+knowledge_type: physiology_factor
+name_ja: 心身相互作用
+name_en: Mind Body Interaction
+category: Physiology
+attribute: Integration
+definition_ja: 身体状態と認知・感情・行動が相互に影響し合う仕組み。
+tags:
+  - CAT:生理
+  - CAT:統合
+  - ATTR:補正要因
+parent:
+  - 統合
+related:
+  - 神経科学
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 心身相互作用関連反応時間
+  - 心身相互作用関連行動変化
+  - 心身相互作用関連継続率
+  - 心身相互作用関連ストレス反応
+signal_candidates:
+  - 心身相互作用が注意・感情・判断・行動に影響している可能性がある
+  - 体調条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 睡眠
+  - 疲労
+  - 生活状況
+evidence: 生理心理学・健康心理学・睡眠研究・HCI研究で使用
+status: active

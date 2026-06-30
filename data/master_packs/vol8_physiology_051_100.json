@@ -1,0 +1,2107 @@
+{
+  "output_dir": "vol8_physiology/physiology_051_100",
+  "index_filename": "physiology_051_100_index.yml",
+  "index_content": "category: Physiology\nname_ja: 生理\nitems:\n  - PHYS-000051_blood_glucose_stability.yml\n  - PHYS-000052_hunger_state.yml\n  - PHYS-000053_satiety_state.yml\n  - PHYS-000054_caffeine_effect.yml\n  - PHYS-000055_alcohol_effect.yml\n  - PHYS-000056_nutrient_deficit.yml\n  - PHYS-000057_metabolic_energy.yml\n  - PHYS-000058_hydration_balance.yml\n  - PHYS-000059_meal_quality.yml\n  - PHYS-000060_digestive_load.yml\n  - PHYS-000061_exercise_frequency.yml\n  - PHYS-000062_exercise_intensity.yml\n  - PHYS-000063_aerobic_condition.yml\n  - PHYS-000064_muscle_strength_condition.yml\n  - PHYS-000065_mobility_condition.yml\n  - PHYS-000066_movement_variability.yml\n  - PHYS-000067_sedentary_load.yml\n  - PHYS-000068_movement_breaks.yml\n  - PHYS-000069_exercise_recovery.yml\n  - PHYS-000070_body_activation.yml\n  - PHYS-000071_visual_load.yml\n  - PHYS-000072_auditory_load.yml\n  - PHYS-000073_sensory_sensitivity.yml\n  - PHYS-000074_sensory_underresponsiveness.yml\n  - PHYS-000075_screen_brightness_load.yml\n  - PHYS-000076_noise_stress.yml\n  - PHYS-000077_multisensory_overload.yml\n  - PHYS-000078_sensory_recovery.yml\n  - PHYS-000079_tactile_comfort.yml\n  - PHYS-000080_environmental_sensory_fit.yml\n  - PHYS-000081_cortisol_rhythm.yml\n  - PHYS-000082_melatonin_rhythm.yml\n  - PHYS-000083_sex_hormone_context.yml\n  - PHYS-000084_thyroid_function_context.yml\n  - PHYS-000085_adrenal_activation.yml\n  - PHYS-000086_hormonal_fluctuation.yml\n  - PHYS-000087_puberty_context.yml\n  - PHYS-000088_menopause_context.yml\n  - PHYS-000089_stress_hormone_load.yml\n  - PHYS-000090_hormonal_recovery.yml\n  - PHYS-000091_mind_body_interaction.yml\n  - PHYS-000092_physiological_baseline.yml\n  - PHYS-000093_physiological_variability.yml\n  - PHYS-000094_physiological_resilience.yml\n  - PHYS-000095_physiological_vulnerability.yml\n  - PHYS-000096_body_signal_awareness.yml\n  - PHYS-000097_behavioral_energy_budget.yml\n  - PHYS-000098_load_recovery_balance.yml\n  - PHYS-000099_physiological_context_dependency.yml\n  - PHYS-000100_physiological_integration.yml\nnotes:\n  - 生理要因は医療診断ではなく補正要因として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
+  "items": [
+    {
+      "filename": "PHYS-000051_blood_glucose_stability.yml",
+      "id": "PHYS-000051",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "血糖安定性",
+      "name_en": "Blood Glucose Stability",
+      "category": "Physiology",
+      "attribute": "Nutrition Metabolism",
+      "definition_ja": "血糖値の上下が集中・眠気・気分・判断に影響する状態。",
+      "tags": [
+        "CAT:生理",
+        "CAT:栄養代謝",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "栄養代謝"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "血糖安定性関連反応時間",
+        "血糖安定性関連行動変化",
+        "血糖安定性関連継続率",
+        "血糖安定性関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "血糖安定性が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000052_hunger_state.yml",
+      "id": "PHYS-000052",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "空腹状態",
+      "name_en": "Hunger State",
+      "category": "Physiology",
+      "attribute": "Nutrition Metabolism",
+      "definition_ja": "空腹により注意・感情・意思決定が影響を受ける状態。",
+      "tags": [
+        "CAT:生理",
+        "CAT:栄養代謝",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "栄養代謝"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "空腹状態関連反応時間",
+        "空腹状態関連行動変化",
+        "空腹状態関連継続率",
+        "空腹状態関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "空腹状態が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000053_satiety_state.yml",
+      "id": "PHYS-000053",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "満腹状態",
+      "name_en": "Satiety State",
+      "category": "Physiology",
+      "attribute": "Nutrition Metabolism",
+      "definition_ja": "満腹により眠気・集中低下・活動量変化が生じやすい状態。",
+      "tags": [
+        "CAT:生理",
+        "CAT:栄養代謝",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "栄養代謝"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "満腹状態関連反応時間",
+        "満腹状態関連行動変化",
+        "満腹状態関連継続率",
+        "満腹状態関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "満腹状態が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000054_caffeine_effect.yml",
+      "id": "PHYS-000054",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "カフェイン影響",
+      "name_en": "Caffeine Effect",
+      "category": "Physiology",
+      "attribute": "Nutrition Metabolism",
+      "definition_ja": "カフェイン摂取による覚醒・集中・不安・睡眠への影響。",
+      "tags": [
+        "CAT:生理",
+        "CAT:栄養代謝",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "栄養代謝"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "カフェイン影響関連反応時間",
+        "カフェイン影響関連行動変化",
+        "カフェイン影響関連継続率",
+        "カフェイン影響関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "カフェイン影響が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000055_alcohol_effect.yml",
+      "id": "PHYS-000055",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "アルコール影響",
+      "name_en": "Alcohol Effect",
+      "category": "Physiology",
+      "attribute": "Nutrition Metabolism",
+      "definition_ja": "飲酒による判断・抑制・睡眠・感情への影響。",
+      "tags": [
+        "CAT:生理",
+        "CAT:栄養代謝",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "栄養代謝"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "アルコール影響関連反応時間",
+        "アルコール影響関連行動変化",
+        "アルコール影響関連継続率",
+        "アルコール影響関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "アルコール影響が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000056_nutrient_deficit.yml",
+      "id": "PHYS-000056",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "栄養不足",
+      "name_en": "Nutrient Deficit",
+      "category": "Physiology",
+      "attribute": "Nutrition Metabolism",
+      "definition_ja": "必要な栄養素の不足が体調・気分・認知に影響する状態。",
+      "tags": [
+        "CAT:生理",
+        "CAT:栄養代謝",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "栄養代謝"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "栄養不足関連反応時間",
+        "栄養不足関連行動変化",
+        "栄養不足関連継続率",
+        "栄養不足関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "栄養不足が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000057_metabolic_energy.yml",
+      "id": "PHYS-000057",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "代謝エネルギー",
+      "name_en": "Metabolic Energy",
+      "category": "Physiology",
+      "attribute": "Nutrition Metabolism",
+      "definition_ja": "身体と脳の活動を支えるエネルギー利用状態。",
+      "tags": [
+        "CAT:生理",
+        "CAT:栄養代謝",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "栄養代謝"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "代謝エネルギー関連反応時間",
+        "代謝エネルギー関連行動変化",
+        "代謝エネルギー関連継続率",
+        "代謝エネルギー関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "代謝エネルギーが注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000058_hydration_balance.yml",
+      "id": "PHYS-000058",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "水分バランス",
+      "name_en": "Hydration Balance",
+      "category": "Physiology",
+      "attribute": "Nutrition Metabolism",
+      "definition_ja": "水分摂取と排出のバランスが身体・認知に影響する状態。",
+      "tags": [
+        "CAT:生理",
+        "CAT:栄養代謝",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "栄養代謝"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "水分バランス関連反応時間",
+        "水分バランス関連行動変化",
+        "水分バランス関連継続率",
+        "水分バランス関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "水分バランスが注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000059_meal_quality.yml",
+      "id": "PHYS-000059",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "食事品質",
+      "name_en": "Meal Quality",
+      "category": "Physiology",
+      "attribute": "Nutrition Metabolism",
+      "definition_ja": "食事内容の質がエネルギー・気分・集中に影響する要因。",
+      "tags": [
+        "CAT:生理",
+        "CAT:栄養代謝",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "栄養代謝"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "食事品質関連反応時間",
+        "食事品質関連行動変化",
+        "食事品質関連継続率",
+        "食事品質関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "食事品質が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000060_digestive_load.yml",
+      "id": "PHYS-000060",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "消化負荷",
+      "name_en": "Digestive Load",
+      "category": "Physiology",
+      "attribute": "Nutrition Metabolism",
+      "definition_ja": "消化に伴う身体負荷が眠気や集中に影響する状態。",
+      "tags": [
+        "CAT:生理",
+        "CAT:栄養代謝",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "栄養代謝"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "消化負荷関連反応時間",
+        "消化負荷関連行動変化",
+        "消化負荷関連継続率",
+        "消化負荷関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "消化負荷が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000061_exercise_frequency.yml",
+      "id": "PHYS-000061",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "運動頻度",
+      "name_en": "Exercise Frequency",
+      "category": "Physiology",
+      "attribute": "Exercise Movement",
+      "definition_ja": "一定期間内に運動や身体活動を行う頻度。",
+      "tags": [
+        "CAT:生理",
+        "CAT:運動身体活動",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "運動身体活動"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "運動頻度関連反応時間",
+        "運動頻度関連行動変化",
+        "運動頻度関連継続率",
+        "運動頻度関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "運動頻度が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000062_exercise_intensity.yml",
+      "id": "PHYS-000062",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "運動強度",
+      "name_en": "Exercise Intensity",
+      "category": "Physiology",
+      "attribute": "Exercise Movement",
+      "definition_ja": "身体活動時にかかる負荷の強さ。",
+      "tags": [
+        "CAT:生理",
+        "CAT:運動身体活動",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "運動身体活動"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "運動強度関連反応時間",
+        "運動強度関連行動変化",
+        "運動強度関連継続率",
+        "運動強度関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "運動強度が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000063_aerobic_condition.yml",
+      "id": "PHYS-000063",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "有酸素状態",
+      "name_en": "Aerobic Condition",
+      "category": "Physiology",
+      "attribute": "Exercise Movement",
+      "definition_ja": "持久的活動を支える心肺機能や活動耐性の状態。",
+      "tags": [
+        "CAT:生理",
+        "CAT:運動身体活動",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "運動身体活動"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "有酸素状態関連反応時間",
+        "有酸素状態関連行動変化",
+        "有酸素状態関連継続率",
+        "有酸素状態関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "有酸素状態が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000064_muscle_strength_condition.yml",
+      "id": "PHYS-000064",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "筋力状態",
+      "name_en": "Muscle Strength Condition",
+      "category": "Physiology",
+      "attribute": "Exercise Movement",
+      "definition_ja": "身体動作や姿勢保持を支える筋力の状態。",
+      "tags": [
+        "CAT:生理",
+        "CAT:運動身体活動",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "運動身体活動"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "筋力状態関連反応時間",
+        "筋力状態関連行動変化",
+        "筋力状態関連継続率",
+        "筋力状態関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "筋力状態が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000065_mobility_condition.yml",
+      "id": "PHYS-000065",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "可動性状態",
+      "name_en": "Mobility Condition",
+      "category": "Physiology",
+      "attribute": "Exercise Movement",
+      "definition_ja": "関節・筋肉・身体動作の動かしやすさ。",
+      "tags": [
+        "CAT:生理",
+        "CAT:運動身体活動",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "運動身体活動"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "可動性状態関連反応時間",
+        "可動性状態関連行動変化",
+        "可動性状態関連継続率",
+        "可動性状態関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "可動性状態が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000066_movement_variability.yml",
+      "id": "PHYS-000066",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "身体活動変動",
+      "name_en": "Movement Variability",
+      "category": "Physiology",
+      "attribute": "Exercise Movement",
+      "definition_ja": "日々の活動量や移動量の変動パターン。",
+      "tags": [
+        "CAT:生理",
+        "CAT:運動身体活動",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "運動身体活動"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "身体活動変動関連反応時間",
+        "身体活動変動関連行動変化",
+        "身体活動変動関連継続率",
+        "身体活動変動関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "身体活動変動が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000067_sedentary_load.yml",
+      "id": "PHYS-000067",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "座位負荷",
+      "name_en": "Sedentary Load",
+      "category": "Physiology",
+      "attribute": "Exercise Movement",
+      "definition_ja": "長時間座位により身体・集中・疲労へ負荷がかかる状態。",
+      "tags": [
+        "CAT:生理",
+        "CAT:運動身体活動",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "運動身体活動"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "座位負荷関連反応時間",
+        "座位負荷関連行動変化",
+        "座位負荷関連継続率",
+        "座位負荷関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "座位負荷が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000068_movement_breaks.yml",
+      "id": "PHYS-000068",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "身体活動休憩",
+      "name_en": "Movement Breaks",
+      "category": "Physiology",
+      "attribute": "Exercise Movement",
+      "definition_ja": "座位や作業の合間に身体を動かして回復する行動。",
+      "tags": [
+        "CAT:生理",
+        "CAT:運動身体活動",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "運動身体活動"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "身体活動休憩関連反応時間",
+        "身体活動休憩関連行動変化",
+        "身体活動休憩関連継続率",
+        "身体活動休憩関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "身体活動休憩が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000069_exercise_recovery.yml",
+      "id": "PHYS-000069",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "運動後回復",
+      "name_en": "Exercise Recovery",
+      "category": "Physiology",
+      "attribute": "Exercise Movement",
+      "definition_ja": "運動後に疲労・筋緊張・エネルギー状態が回復する過程。",
+      "tags": [
+        "CAT:生理",
+        "CAT:運動身体活動",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "運動身体活動"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "運動後回復関連反応時間",
+        "運動後回復関連行動変化",
+        "運動後回復関連継続率",
+        "運動後回復関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "運動後回復が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000070_body_activation.yml",
+      "id": "PHYS-000070",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "身体活性化",
+      "name_en": "Body Activation",
+      "category": "Physiology",
+      "attribute": "Exercise Movement",
+      "definition_ja": "軽い運動や姿勢変化により覚醒・集中が高まる状態。",
+      "tags": [
+        "CAT:生理",
+        "CAT:運動身体活動",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "運動身体活動"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "身体活性化関連反応時間",
+        "身体活性化関連行動変化",
+        "身体活性化関連継続率",
+        "身体活性化関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "身体活性化が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000071_visual_load.yml",
+      "id": "PHYS-000071",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "視覚負荷",
+      "name_en": "Visual Load",
+      "category": "Physiology",
+      "attribute": "Sensory Load",
+      "definition_ja": "画面・文字・光・細かい情報処理により視覚系へかかる負荷。",
+      "tags": [
+        "CAT:生理",
+        "CAT:感覚負荷",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "感覚負荷"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "視覚負荷関連反応時間",
+        "視覚負荷関連行動変化",
+        "視覚負荷関連継続率",
+        "視覚負荷関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "視覚負荷が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000072_auditory_load.yml",
+      "id": "PHYS-000072",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "聴覚負荷",
+      "name_en": "Auditory Load",
+      "category": "Physiology",
+      "attribute": "Sensory Load",
+      "definition_ja": "音量・騒音・会話・聞き取りにより聴覚系へかかる負荷。",
+      "tags": [
+        "CAT:生理",
+        "CAT:感覚負荷",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "感覚負荷"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "聴覚負荷関連反応時間",
+        "聴覚負荷関連行動変化",
+        "聴覚負荷関連継続率",
+        "聴覚負荷関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "聴覚負荷が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000073_sensory_sensitivity.yml",
+      "id": "PHYS-000073",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "感覚過敏性",
+      "name_en": "Sensory Sensitivity",
+      "category": "Physiology",
+      "attribute": "Sensory Load",
+      "definition_ja": "光・音・匂い・触覚などの刺激に反応しやすい状態。",
+      "tags": [
+        "CAT:生理",
+        "CAT:感覚負荷",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "感覚負荷"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "感覚過敏性関連反応時間",
+        "感覚過敏性関連行動変化",
+        "感覚過敏性関連継続率",
+        "感覚過敏性関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "感覚過敏性が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000074_sensory_underresponsiveness.yml",
+      "id": "PHYS-000074",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "感覚低反応",
+      "name_en": "Sensory Underresponsiveness",
+      "category": "Physiology",
+      "attribute": "Sensory Load",
+      "definition_ja": "感覚刺激への気づきや反応が弱くなりやすい状態。",
+      "tags": [
+        "CAT:生理",
+        "CAT:感覚負荷",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "感覚負荷"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "感覚低反応関連反応時間",
+        "感覚低反応関連行動変化",
+        "感覚低反応関連継続率",
+        "感覚低反応関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "感覚低反応が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000075_screen_brightness_load.yml",
+      "id": "PHYS-000075",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "画面輝度負荷",
+      "name_en": "Screen Brightness Load",
+      "category": "Physiology",
+      "attribute": "Sensory Load",
+      "definition_ja": "画面の明るさやコントラストが目や疲労に与える負荷。",
+      "tags": [
+        "CAT:生理",
+        "CAT:感覚負荷",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "感覚負荷"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "画面輝度負荷関連反応時間",
+        "画面輝度負荷関連行動変化",
+        "画面輝度負荷関連継続率",
+        "画面輝度負荷関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "画面輝度負荷が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000076_noise_stress.yml",
+      "id": "PHYS-000076",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "騒音ストレス",
+      "name_en": "Noise Stress",
+      "category": "Physiology",
+      "attribute": "Sensory Load",
+      "definition_ja": "継続的または突発的な音がストレスや注意低下を引き起こす状態。",
+      "tags": [
+        "CAT:生理",
+        "CAT:感覚負荷",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "感覚負荷"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "騒音ストレス関連反応時間",
+        "騒音ストレス関連行動変化",
+        "騒音ストレス関連継続率",
+        "騒音ストレス関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "騒音ストレスが注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000077_multisensory_overload.yml",
+      "id": "PHYS-000077",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "多感覚過負荷",
+      "name_en": "Multisensory Overload",
+      "category": "Physiology",
+      "attribute": "Sensory Load",
+      "definition_ja": "複数の感覚刺激が同時に多く入り処理負荷が高まる状態。",
+      "tags": [
+        "CAT:生理",
+        "CAT:感覚負荷",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "感覚負荷"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "多感覚過負荷関連反応時間",
+        "多感覚過負荷関連行動変化",
+        "多感覚過負荷関連継続率",
+        "多感覚過負荷関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "多感覚過負荷が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000078_sensory_recovery.yml",
+      "id": "PHYS-000078",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "感覚回復",
+      "name_en": "Sensory Recovery",
+      "category": "Physiology",
+      "attribute": "Sensory Load",
+      "definition_ja": "刺激の少ない環境で感覚負荷や疲労が回復する過程。",
+      "tags": [
+        "CAT:生理",
+        "CAT:感覚負荷",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "感覚負荷"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "感覚回復関連反応時間",
+        "感覚回復関連行動変化",
+        "感覚回復関連継続率",
+        "感覚回復関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "感覚回復が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000079_tactile_comfort.yml",
+      "id": "PHYS-000079",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "触覚快適性",
+      "name_en": "Tactile Comfort",
+      "category": "Physiology",
+      "attribute": "Sensory Load",
+      "definition_ja": "衣服・椅子・端末などの触覚的快適さが行動に影響する状態。",
+      "tags": [
+        "CAT:生理",
+        "CAT:感覚負荷",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "感覚負荷"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "触覚快適性関連反応時間",
+        "触覚快適性関連行動変化",
+        "触覚快適性関連継続率",
+        "触覚快適性関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "触覚快適性が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000080_environmental_sensory_fit.yml",
+      "id": "PHYS-000080",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "感覚環境適合",
+      "name_en": "Environmental Sensory Fit",
+      "category": "Physiology",
+      "attribute": "Sensory Load",
+      "definition_ja": "光・音・温度などの感覚環境が本人に合っている度合い。",
+      "tags": [
+        "CAT:生理",
+        "CAT:感覚負荷",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "感覚負荷"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "感覚環境適合関連反応時間",
+        "感覚環境適合関連行動変化",
+        "感覚環境適合関連継続率",
+        "感覚環境適合関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "感覚環境適合が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000081_cortisol_rhythm.yml",
+      "id": "PHYS-000081",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "コルチゾールリズム",
+      "name_en": "Cortisol Rhythm",
+      "category": "Physiology",
+      "attribute": "Hormonal State",
+      "definition_ja": "ストレスや覚醒に関わるコルチゾール分泌の日内変動。",
+      "tags": [
+        "CAT:生理",
+        "CAT:ホルモン状態",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "ホルモン状態"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "コルチゾールリズム関連反応時間",
+        "コルチゾールリズム関連行動変化",
+        "コルチゾールリズム関連継続率",
+        "コルチゾールリズム関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "コルチゾールリズムが注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000082_melatonin_rhythm.yml",
+      "id": "PHYS-000082",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "メラトニンリズム",
+      "name_en": "Melatonin Rhythm",
+      "category": "Physiology",
+      "attribute": "Hormonal State",
+      "definition_ja": "睡眠覚醒リズムを支えるメラトニン分泌の変動。",
+      "tags": [
+        "CAT:生理",
+        "CAT:ホルモン状態",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "ホルモン状態"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "メラトニンリズム関連反応時間",
+        "メラトニンリズム関連行動変化",
+        "メラトニンリズム関連継続率",
+        "メラトニンリズム関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "メラトニンリズムが注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000083_sex_hormone_context.yml",
+      "id": "PHYS-000083",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "性ホルモン文脈",
+      "name_en": "Sex Hormone Context",
+      "category": "Physiology",
+      "attribute": "Hormonal State",
+      "definition_ja": "性ホルモン変動が気分・体調・認知に影響し得る文脈。",
+      "tags": [
+        "CAT:生理",
+        "CAT:ホルモン状態",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "ホルモン状態"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "性ホルモン文脈関連反応時間",
+        "性ホルモン文脈関連行動変化",
+        "性ホルモン文脈関連継続率",
+        "性ホルモン文脈関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "性ホルモン文脈が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000084_thyroid_function_context.yml",
+      "id": "PHYS-000084",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "甲状腺機能文脈",
+      "name_en": "Thyroid Function Context",
+      "category": "Physiology",
+      "attribute": "Hormonal State",
+      "definition_ja": "代謝・活力・気分に関わる甲状腺機能の文脈。",
+      "tags": [
+        "CAT:生理",
+        "CAT:ホルモン状態",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "ホルモン状態"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "甲状腺機能文脈関連反応時間",
+        "甲状腺機能文脈関連行動変化",
+        "甲状腺機能文脈関連継続率",
+        "甲状腺機能文脈関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "甲状腺機能文脈が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000085_adrenal_activation.yml",
+      "id": "PHYS-000085",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "副腎活性",
+      "name_en": "Adrenal Activation",
+      "category": "Physiology",
+      "attribute": "Hormonal State",
+      "definition_ja": "ストレスや覚醒に伴う副腎系の活性化。",
+      "tags": [
+        "CAT:生理",
+        "CAT:ホルモン状態",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "ホルモン状態"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "副腎活性関連反応時間",
+        "副腎活性関連行動変化",
+        "副腎活性関連継続率",
+        "副腎活性関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "副腎活性が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000086_hormonal_fluctuation.yml",
+      "id": "PHYS-000086",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "ホルモン変動",
+      "name_en": "Hormonal Fluctuation",
+      "category": "Physiology",
+      "attribute": "Hormonal State",
+      "definition_ja": "周期・ストレス・生活リズムに伴うホルモン状態の変化。",
+      "tags": [
+        "CAT:生理",
+        "CAT:ホルモン状態",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "ホルモン状態"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "ホルモン変動関連反応時間",
+        "ホルモン変動関連行動変化",
+        "ホルモン変動関連継続率",
+        "ホルモン変動関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "ホルモン変動が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000087_puberty_context.yml",
+      "id": "PHYS-000087",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "思春期文脈",
+      "name_en": "Puberty Context",
+      "category": "Physiology",
+      "attribute": "Hormonal State",
+      "definition_ja": "成長期のホルモン変化が情動・身体・行動に影響する文脈。",
+      "tags": [
+        "CAT:生理",
+        "CAT:ホルモン状態",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "ホルモン状態"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "思春期文脈関連反応時間",
+        "思春期文脈関連行動変化",
+        "思春期文脈関連継続率",
+        "思春期文脈関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "思春期文脈が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000088_menopause_context.yml",
+      "id": "PHYS-000088",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "更年期文脈",
+      "name_en": "Menopause Context",
+      "category": "Physiology",
+      "attribute": "Hormonal State",
+      "definition_ja": "更年期に伴うホルモン変化が睡眠・気分・体調に影響する文脈。",
+      "tags": [
+        "CAT:生理",
+        "CAT:ホルモン状態",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "ホルモン状態"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "更年期文脈関連反応時間",
+        "更年期文脈関連行動変化",
+        "更年期文脈関連継続率",
+        "更年期文脈関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "更年期文脈が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000089_stress_hormone_load.yml",
+      "id": "PHYS-000089",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "ストレスホルモン負荷",
+      "name_en": "Stress Hormone Load",
+      "category": "Physiology",
+      "attribute": "Hormonal State",
+      "definition_ja": "慢性的ストレスによりホルモン系へ負荷がかかる状態。",
+      "tags": [
+        "CAT:生理",
+        "CAT:ホルモン状態",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "ホルモン状態"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "ストレスホルモン負荷関連反応時間",
+        "ストレスホルモン負荷関連行動変化",
+        "ストレスホルモン負荷関連継続率",
+        "ストレスホルモン負荷関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "ストレスホルモン負荷が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000090_hormonal_recovery.yml",
+      "id": "PHYS-000090",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "ホルモン回復",
+      "name_en": "Hormonal Recovery",
+      "category": "Physiology",
+      "attribute": "Hormonal State",
+      "definition_ja": "負荷やリズム乱れの後にホルモン状態が安定へ戻る過程。",
+      "tags": [
+        "CAT:生理",
+        "CAT:ホルモン状態",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "ホルモン状態"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "ホルモン回復関連反応時間",
+        "ホルモン回復関連行動変化",
+        "ホルモン回復関連継続率",
+        "ホルモン回復関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "ホルモン回復が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000091_mind_body_interaction.yml",
+      "id": "PHYS-000091",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "心身相互作用",
+      "name_en": "Mind Body Interaction",
+      "category": "Physiology",
+      "attribute": "Integration",
+      "definition_ja": "身体状態と認知・感情・行動が相互に影響し合う仕組み。",
+      "tags": [
+        "CAT:生理",
+        "CAT:統合",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "心身相互作用関連反応時間",
+        "心身相互作用関連行動変化",
+        "心身相互作用関連継続率",
+        "心身相互作用関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "心身相互作用が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000092_physiological_baseline.yml",
+      "id": "PHYS-000092",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "生理的ベースライン",
+      "name_en": "Physiological Baseline",
+      "category": "Physiology",
+      "attribute": "Integration",
+      "definition_ja": "通常時の覚醒・疲労・睡眠・体調などの基準状態。",
+      "tags": [
+        "CAT:生理",
+        "CAT:統合",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "生理的ベースライン関連反応時間",
+        "生理的ベースライン関連行動変化",
+        "生理的ベースライン関連継続率",
+        "生理的ベースライン関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "生理的ベースラインが注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000093_physiological_variability.yml",
+      "id": "PHYS-000093",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "生理的変動性",
+      "name_en": "Physiological Variability",
+      "category": "Physiology",
+      "attribute": "Integration",
+      "definition_ja": "日内・日間で生理状態がどの程度変動するか。",
+      "tags": [
+        "CAT:生理",
+        "CAT:統合",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "生理的変動性関連反応時間",
+        "生理的変動性関連行動変化",
+        "生理的変動性関連継続率",
+        "生理的変動性関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "生理的変動性が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000094_physiological_resilience.yml",
+      "id": "PHYS-000094",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "生理的レジリエンス",
+      "name_en": "Physiological Resilience",
+      "category": "Physiology",
+      "attribute": "Integration",
+      "definition_ja": "負荷後に身体状態が回復・安定する力。",
+      "tags": [
+        "CAT:生理",
+        "CAT:統合",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "生理的レジリエンス関連反応時間",
+        "生理的レジリエンス関連行動変化",
+        "生理的レジリエンス関連継続率",
+        "生理的レジリエンス関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "生理的レジリエンスが注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000095_physiological_vulnerability.yml",
+      "id": "PHYS-000095",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "生理的脆弱性",
+      "name_en": "Physiological Vulnerability",
+      "category": "Physiology",
+      "attribute": "Integration",
+      "definition_ja": "睡眠不足・疲労・ストレスなどの影響を受けやすい状態。",
+      "tags": [
+        "CAT:生理",
+        "CAT:統合",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "生理的脆弱性関連反応時間",
+        "生理的脆弱性関連行動変化",
+        "生理的脆弱性関連継続率",
+        "生理的脆弱性関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "生理的脆弱性が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000096_body_signal_awareness.yml",
+      "id": "PHYS-000096",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "身体信号への気づき",
+      "name_en": "Body Signal Awareness",
+      "category": "Physiology",
+      "attribute": "Integration",
+      "definition_ja": "疲労・空腹・緊張など身体サインに気づく度合い。",
+      "tags": [
+        "CAT:生理",
+        "CAT:統合",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "身体信号への気づき関連反応時間",
+        "身体信号への気づき関連行動変化",
+        "身体信号への気づき関連継続率",
+        "身体信号への気づき関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "身体信号への気づきが注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000097_behavioral_energy_budget.yml",
+      "id": "PHYS-000097",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "行動エネルギー予算",
+      "name_en": "Behavioral Energy Budget",
+      "category": "Physiology",
+      "attribute": "Integration",
+      "definition_ja": "一日に使える身体的・精神的エネルギーの配分。",
+      "tags": [
+        "CAT:生理",
+        "CAT:統合",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "行動エネルギー予算関連反応時間",
+        "行動エネルギー予算関連行動変化",
+        "行動エネルギー予算関連継続率",
+        "行動エネルギー予算関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "行動エネルギー予算が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000098_load_recovery_balance.yml",
+      "id": "PHYS-000098",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "負荷回復バランス",
+      "name_en": "Load Recovery Balance",
+      "category": "Physiology",
+      "attribute": "Integration",
+      "definition_ja": "活動負荷と回復機会が釣り合っている度合い。",
+      "tags": [
+        "CAT:生理",
+        "CAT:統合",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "負荷回復バランス関連反応時間",
+        "負荷回復バランス関連行動変化",
+        "負荷回復バランス関連継続率",
+        "負荷回復バランス関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "負荷回復バランスが注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000099_physiological_context_dependency.yml",
+      "id": "PHYS-000099",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "生理文脈依存性",
+      "name_en": "Physiological Context Dependency",
+      "category": "Physiology",
+      "attribute": "Integration",
+      "definition_ja": "体調やリズムによって行動・判断が変化する性質。",
+      "tags": [
+        "CAT:生理",
+        "CAT:統合",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "生理文脈依存性関連反応時間",
+        "生理文脈依存性関連行動変化",
+        "生理文脈依存性関連継続率",
+        "生理文脈依存性関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "生理文脈依存性が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "PHYS-000100_physiological_integration.yml",
+      "id": "PHYS-000100",
+      "knowledge_type": "physiology_factor",
+      "name_ja": "生理統合",
+      "name_en": "Physiological Integration",
+      "category": "Physiology",
+      "attribute": "Integration",
+      "definition_ja": "睡眠・疲労・栄養・ストレス・身体状態が統合して行動に影響する状態。",
+      "tags": [
+        "CAT:生理",
+        "CAT:統合",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "神経科学",
+        "行動観測",
+        "環境要因"
+      ],
+      "observable_data": [
+        "生理統合関連反応時間",
+        "生理統合関連行動変化",
+        "生理統合関連継続率",
+        "生理統合関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "生理統合が注意・感情・判断・行動に影響している可能性がある",
+        "体調条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "睡眠",
+        "疲労",
+        "生活状況"
+      ],
+      "evidence": "生理心理学・健康心理学・睡眠研究・HCI研究で使用",
+      "status": "active"
+    }
+  ]
+}

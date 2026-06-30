@@ -1,0 +1,33 @@
+id: LEARN-000028
+knowledge_type: learning_theory
+name_ja: 興味発達
+name_en: Interest Development
+category: Learning Theory
+attribute: Motivation Learning
+definition_ja: 一時的な関心が継続的な興味へ変化する過程。
+tags:
+  - CAT:学習理論
+  - CAT:学習動機
+  - ATTR:学習要因
+parent:
+  - 学習動機
+related:
+  - 認知科学
+  - 行動観測
+  - 教育環境
+observable_data:
+  - 興味発達関連正答率
+  - 興味発達関連継続率
+  - 興味発達関連改善率
+  - 興味発達関連反応時間
+signal_candidates:
+  - 興味発達が学習行動や成績変化に影響している可能性がある
+  - 学習条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 難易度
+  - フィードバック
+  - 疲労
+  - 動機づけ
+evidence: 教育心理学・学習科学・認知科学・HCI研究で使用
+status: active

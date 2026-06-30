@@ -1,0 +1,2107 @@
+{
+  "output_dir": "vol10_learning_theory/learning_theory_001_050",
+  "index_filename": "learning_theory_001_050_index.yml",
+  "index_content": "category: Learning Theory\nname_ja: 学習理論\nitems:\n  - LEARN-000001_learning.yml\n  - LEARN-000002_acquisition.yml\n  - LEARN-000003_retention.yml\n  - LEARN-000004_retrieval_practice.yml\n  - LEARN-000005_spacing_effect.yml\n  - LEARN-000006_interleaving.yml\n  - LEARN-000007_overlearning.yml\n  - LEARN-000008_distributed_practice.yml\n  - LEARN-000009_massed_practice.yml\n  - LEARN-000010_transfer.yml\n  - LEARN-000011_feedback.yml\n  - LEARN-000012_immediate_feedback.yml\n  - LEARN-000013_delayed_feedback.yml\n  - LEARN-000014_corrective_feedback.yml\n  - LEARN-000015_elaborated_feedback.yml\n  - LEARN-000016_knowledge_of_results.yml\n  - LEARN-000017_knowledge_of_performance.yml\n  - LEARN-000018_feedback_timing.yml\n  - LEARN-000019_feedback_frequency.yml\n  - LEARN-000020_feedback_clarity.yml\n  - LEARN-000021_learning_motivation.yml\n  - LEARN-000022_mastery_goal.yml\n  - LEARN-000023_performance_goal.yml\n  - LEARN-000024_approach_goal.yml\n  - LEARN-000025_avoidance_goal.yml\n  - LEARN-000026_self_efficacy_learning.yml\n  - LEARN-000027_expectancy_value.yml\n  - LEARN-000028_interest_development.yml\n  - LEARN-000029_learning_autonomy.yml\n  - LEARN-000030_learning_persistence.yml\n  - LEARN-000031_self_regulated_learning.yml\n  - LEARN-000032_learning_goal_setting.yml\n  - LEARN-000033_learning_planning.yml\n  - LEARN-000034_learning_monitoring.yml\n  - LEARN-000035_strategy_adjustment.yml\n  - LEARN-000036_help_seeking_learning.yml\n  - LEARN-000037_self_explanation_learning.yml\n  - LEARN-000038_reflection_learning.yml\n  - LEARN-000039_metacognitive_strategy.yml\n  - LEARN-000040_learning_time_management.yml\n  - LEARN-000041_instructional_design.yml\n  - LEARN-000042_scaffolding.yml\n  - LEARN-000043_worked_example.yml\n  - LEARN-000044_guided_discovery.yml\n  - LEARN-000045_direct_instruction.yml\n  - LEARN-000046_inquiry_learning.yml\n  - LEARN-000047_problem_based_learning.yml\n  - LEARN-000048_project_based_learning.yml\n  - LEARN-000049_adaptive_learning.yml\n  - LEARN-000050_personalized_learning.yml\nnotes:\n  - 学習理論は学力判定ではなく推論材料として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
+  "items": [
+    {
+      "filename": "LEARN-000001_learning.yml",
+      "id": "LEARN-000001",
+      "knowledge_type": "learning_theory",
+      "name_ja": "学習",
+      "name_en": "Learning",
+      "category": "Learning Theory",
+      "attribute": "Core Learning",
+      "definition_ja": "経験や練習によって知識・技能・行動が変化する過程。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:基本学習",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "基本学習"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "学習関連正答率",
+        "学習関連継続率",
+        "学習関連改善率",
+        "学習関連反応時間"
+      ],
+      "signal_candidates": [
+        "学習が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000002_acquisition.yml",
+      "id": "LEARN-000002",
+      "knowledge_type": "learning_theory",
+      "name_ja": "獲得",
+      "name_en": "Acquisition",
+      "category": "Learning Theory",
+      "attribute": "Core Learning",
+      "definition_ja": "新しい知識・技能・反応を身につける過程。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:基本学習",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "基本学習"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "獲得関連正答率",
+        "獲得関連継続率",
+        "獲得関連改善率",
+        "獲得関連反応時間"
+      ],
+      "signal_candidates": [
+        "獲得が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000003_retention.yml",
+      "id": "LEARN-000003",
+      "knowledge_type": "learning_theory",
+      "name_ja": "保持",
+      "name_en": "Retention",
+      "category": "Learning Theory",
+      "attribute": "Core Learning",
+      "definition_ja": "学習した内容を一定期間維持する過程。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:基本学習",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "基本学習"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "保持関連正答率",
+        "保持関連継続率",
+        "保持関連改善率",
+        "保持関連反応時間"
+      ],
+      "signal_candidates": [
+        "保持が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000004_retrieval_practice.yml",
+      "id": "LEARN-000004",
+      "knowledge_type": "learning_theory",
+      "name_ja": "検索練習",
+      "name_en": "Retrieval Practice",
+      "category": "Learning Theory",
+      "attribute": "Core Learning",
+      "definition_ja": "思い出す練習によって記憶保持と理解を強める学習方法。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:基本学習",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "基本学習"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "検索練習関連正答率",
+        "検索練習関連継続率",
+        "検索練習関連改善率",
+        "検索練習関連反応時間"
+      ],
+      "signal_candidates": [
+        "検索練習が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000005_spacing_effect.yml",
+      "id": "LEARN-000005",
+      "knowledge_type": "learning_theory",
+      "name_ja": "分散学習効果",
+      "name_en": "Spacing Effect",
+      "category": "Learning Theory",
+      "attribute": "Core Learning",
+      "definition_ja": "学習を時間的に分散することで保持が高まりやすい現象。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:基本学習",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "基本学習"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "分散学習効果関連正答率",
+        "分散学習効果関連継続率",
+        "分散学習効果関連改善率",
+        "分散学習効果関連反応時間"
+      ],
+      "signal_candidates": [
+        "分散学習効果が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000006_interleaving.yml",
+      "id": "LEARN-000006",
+      "knowledge_type": "learning_theory",
+      "name_ja": "交互学習",
+      "name_en": "Interleaving",
+      "category": "Learning Theory",
+      "attribute": "Core Learning",
+      "definition_ja": "複数の課題や内容を混ぜて学ぶことで識別や応用を高める方法。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:基本学習",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "基本学習"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "交互学習関連正答率",
+        "交互学習関連継続率",
+        "交互学習関連改善率",
+        "交互学習関連反応時間"
+      ],
+      "signal_candidates": [
+        "交互学習が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000007_overlearning.yml",
+      "id": "LEARN-000007",
+      "knowledge_type": "learning_theory",
+      "name_ja": "過剰学習",
+      "name_en": "Overlearning",
+      "category": "Learning Theory",
+      "attribute": "Core Learning",
+      "definition_ja": "一度できるようになった後も練習を続けて習熟を安定させる方法。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:基本学習",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "基本学習"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "過剰学習関連正答率",
+        "過剰学習関連継続率",
+        "過剰学習関連改善率",
+        "過剰学習関連反応時間"
+      ],
+      "signal_candidates": [
+        "過剰学習が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000008_distributed_practice.yml",
+      "id": "LEARN-000008",
+      "knowledge_type": "learning_theory",
+      "name_ja": "分散練習",
+      "name_en": "Distributed Practice",
+      "category": "Learning Theory",
+      "attribute": "Core Learning",
+      "definition_ja": "練習を複数回に分けて行い、学習効率と保持を高める方法。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:基本学習",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "基本学習"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "分散練習関連正答率",
+        "分散練習関連継続率",
+        "分散練習関連改善率",
+        "分散練習関連反応時間"
+      ],
+      "signal_candidates": [
+        "分散練習が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000009_massed_practice.yml",
+      "id": "LEARN-000009",
+      "knowledge_type": "learning_theory",
+      "name_ja": "集中練習",
+      "name_en": "Massed Practice",
+      "category": "Learning Theory",
+      "attribute": "Core Learning",
+      "definition_ja": "短時間にまとめて繰り返し練習する学習方法。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:基本学習",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "基本学習"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "集中練習関連正答率",
+        "集中練習関連継続率",
+        "集中練習関連改善率",
+        "集中練習関連反応時間"
+      ],
+      "signal_candidates": [
+        "集中練習が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000010_transfer.yml",
+      "id": "LEARN-000010",
+      "knowledge_type": "learning_theory",
+      "name_ja": "転移",
+      "name_en": "Transfer",
+      "category": "Learning Theory",
+      "attribute": "Core Learning",
+      "definition_ja": "ある場面で学んだ知識や技能を別の場面へ応用すること。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:基本学習",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "基本学習"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "転移関連正答率",
+        "転移関連継続率",
+        "転移関連改善率",
+        "転移関連反応時間"
+      ],
+      "signal_candidates": [
+        "転移が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000011_feedback.yml",
+      "id": "LEARN-000011",
+      "knowledge_type": "learning_theory",
+      "name_ja": "フィードバック",
+      "name_en": "Feedback",
+      "category": "Learning Theory",
+      "attribute": "Feedback",
+      "definition_ja": "行動や成果に対して返される評価・結果・改善情報。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:フィードバック",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "フィードバック"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "フィードバック関連正答率",
+        "フィードバック関連継続率",
+        "フィードバック関連改善率",
+        "フィードバック関連反応時間"
+      ],
+      "signal_candidates": [
+        "フィードバックが学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000012_immediate_feedback.yml",
+      "id": "LEARN-000012",
+      "knowledge_type": "learning_theory",
+      "name_ja": "即時フィードバック",
+      "name_en": "Immediate Feedback",
+      "category": "Learning Theory",
+      "attribute": "Feedback",
+      "definition_ja": "行動や回答の直後に返されるフィードバック。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:フィードバック",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "フィードバック"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "即時フィードバック関連正答率",
+        "即時フィードバック関連継続率",
+        "即時フィードバック関連改善率",
+        "即時フィードバック関連反応時間"
+      ],
+      "signal_candidates": [
+        "即時フィードバックが学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000013_delayed_feedback.yml",
+      "id": "LEARN-000013",
+      "knowledge_type": "learning_theory",
+      "name_ja": "遅延フィードバック",
+      "name_en": "Delayed Feedback",
+      "category": "Learning Theory",
+      "attribute": "Feedback",
+      "definition_ja": "一定時間後に返されるフィードバック。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:フィードバック",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "フィードバック"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "遅延フィードバック関連正答率",
+        "遅延フィードバック関連継続率",
+        "遅延フィードバック関連改善率",
+        "遅延フィードバック関連反応時間"
+      ],
+      "signal_candidates": [
+        "遅延フィードバックが学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000014_corrective_feedback.yml",
+      "id": "LEARN-000014",
+      "knowledge_type": "learning_theory",
+      "name_ja": "修正フィードバック",
+      "name_en": "Corrective Feedback",
+      "category": "Learning Theory",
+      "attribute": "Feedback",
+      "definition_ja": "誤りの内容や正しい方向を示すフィードバック。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:フィードバック",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "フィードバック"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "修正フィードバック関連正答率",
+        "修正フィードバック関連継続率",
+        "修正フィードバック関連改善率",
+        "修正フィードバック関連反応時間"
+      ],
+      "signal_candidates": [
+        "修正フィードバックが学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000015_elaborated_feedback.yml",
+      "id": "LEARN-000015",
+      "knowledge_type": "learning_theory",
+      "name_ja": "精緻化フィードバック",
+      "name_en": "Elaborated Feedback",
+      "category": "Learning Theory",
+      "attribute": "Feedback",
+      "definition_ja": "正誤だけでなく理由や考え方を含むフィードバック。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:フィードバック",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "フィードバック"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "精緻化フィードバック関連正答率",
+        "精緻化フィードバック関連継続率",
+        "精緻化フィードバック関連改善率",
+        "精緻化フィードバック関連反応時間"
+      ],
+      "signal_candidates": [
+        "精緻化フィードバックが学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000016_knowledge_of_results.yml",
+      "id": "LEARN-000016",
+      "knowledge_type": "learning_theory",
+      "name_ja": "結果知識",
+      "name_en": "Knowledge of Results",
+      "category": "Learning Theory",
+      "attribute": "Feedback",
+      "definition_ja": "結果が正しかったか、どの程度達成できたかを示す情報。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:フィードバック",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "フィードバック"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "結果知識関連正答率",
+        "結果知識関連継続率",
+        "結果知識関連改善率",
+        "結果知識関連反応時間"
+      ],
+      "signal_candidates": [
+        "結果知識が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000017_knowledge_of_performance.yml",
+      "id": "LEARN-000017",
+      "knowledge_type": "learning_theory",
+      "name_ja": "遂行知識",
+      "name_en": "Knowledge of Performance",
+      "category": "Learning Theory",
+      "attribute": "Feedback",
+      "definition_ja": "どのように行動・処理したかに関するフィードバック。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:フィードバック",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "フィードバック"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "遂行知識関連正答率",
+        "遂行知識関連継続率",
+        "遂行知識関連改善率",
+        "遂行知識関連反応時間"
+      ],
+      "signal_candidates": [
+        "遂行知識が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000018_feedback_timing.yml",
+      "id": "LEARN-000018",
+      "knowledge_type": "learning_theory",
+      "name_ja": "フィードバックタイミング",
+      "name_en": "Feedback Timing",
+      "category": "Learning Theory",
+      "attribute": "Feedback",
+      "definition_ja": "フィードバックを返す時点が学習に与える影響。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:フィードバック",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "フィードバック"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "フィードバックタイミング関連正答率",
+        "フィードバックタイミング関連継続率",
+        "フィードバックタイミング関連改善率",
+        "フィードバックタイミング関連反応時間"
+      ],
+      "signal_candidates": [
+        "フィードバックタイミングが学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000019_feedback_frequency.yml",
+      "id": "LEARN-000019",
+      "knowledge_type": "learning_theory",
+      "name_ja": "フィードバック頻度",
+      "name_en": "Feedback Frequency",
+      "category": "Learning Theory",
+      "attribute": "Feedback",
+      "definition_ja": "フィードバックがどれくらい頻繁に返されるか。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:フィードバック",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "フィードバック"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "フィードバック頻度関連正答率",
+        "フィードバック頻度関連継続率",
+        "フィードバック頻度関連改善率",
+        "フィードバック頻度関連反応時間"
+      ],
+      "signal_candidates": [
+        "フィードバック頻度が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000020_feedback_clarity.yml",
+      "id": "LEARN-000020",
+      "knowledge_type": "learning_theory",
+      "name_ja": "フィードバック明確性",
+      "name_en": "Feedback Clarity",
+      "category": "Learning Theory",
+      "attribute": "Feedback",
+      "definition_ja": "フィードバック内容が具体的で理解しやすい度合い。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:フィードバック",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "フィードバック"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "フィードバック明確性関連正答率",
+        "フィードバック明確性関連継続率",
+        "フィードバック明確性関連改善率",
+        "フィードバック明確性関連反応時間"
+      ],
+      "signal_candidates": [
+        "フィードバック明確性が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000021_learning_motivation.yml",
+      "id": "LEARN-000021",
+      "knowledge_type": "learning_theory",
+      "name_ja": "学習動機",
+      "name_en": "Learning Motivation",
+      "category": "Learning Theory",
+      "attribute": "Motivation Learning",
+      "definition_ja": "学ぼうとする意欲や行動開始を支える動機づけ。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:学習動機",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "学習動機"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "学習動機関連正答率",
+        "学習動機関連継続率",
+        "学習動機関連改善率",
+        "学習動機関連反応時間"
+      ],
+      "signal_candidates": [
+        "学習動機が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000022_mastery_goal.yml",
+      "id": "LEARN-000022",
+      "knowledge_type": "learning_theory",
+      "name_ja": "熟達目標",
+      "name_en": "Mastery Goal",
+      "category": "Learning Theory",
+      "attribute": "Motivation Learning",
+      "definition_ja": "能力向上や理解の深化を重視する学習目標。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:学習動機",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "学習動機"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "熟達目標関連正答率",
+        "熟達目標関連継続率",
+        "熟達目標関連改善率",
+        "熟達目標関連反応時間"
+      ],
+      "signal_candidates": [
+        "熟達目標が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000023_performance_goal.yml",
+      "id": "LEARN-000023",
+      "knowledge_type": "learning_theory",
+      "name_ja": "遂行目標",
+      "name_en": "Performance Goal",
+      "category": "Learning Theory",
+      "attribute": "Motivation Learning",
+      "definition_ja": "他者評価や成績で能力を示すことを重視する学習目標。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:学習動機",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "学習動機"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "遂行目標関連正答率",
+        "遂行目標関連継続率",
+        "遂行目標関連改善率",
+        "遂行目標関連反応時間"
+      ],
+      "signal_candidates": [
+        "遂行目標が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000024_approach_goal.yml",
+      "id": "LEARN-000024",
+      "knowledge_type": "learning_theory",
+      "name_ja": "接近目標",
+      "name_en": "Approach Goal",
+      "category": "Learning Theory",
+      "attribute": "Motivation Learning",
+      "definition_ja": "成功や達成へ近づくことを重視する目標志向。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:学習動機",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "学習動機"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "接近目標関連正答率",
+        "接近目標関連継続率",
+        "接近目標関連改善率",
+        "接近目標関連反応時間"
+      ],
+      "signal_candidates": [
+        "接近目標が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000025_avoidance_goal.yml",
+      "id": "LEARN-000025",
+      "knowledge_type": "learning_theory",
+      "name_ja": "回避目標",
+      "name_en": "Avoidance Goal",
+      "category": "Learning Theory",
+      "attribute": "Motivation Learning",
+      "definition_ja": "失敗や低評価を避けることを重視する目標志向。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:学習動機",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "学習動機"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "回避目標関連正答率",
+        "回避目標関連継続率",
+        "回避目標関連改善率",
+        "回避目標関連反応時間"
+      ],
+      "signal_candidates": [
+        "回避目標が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000026_self_efficacy_learning.yml",
+      "id": "LEARN-000026",
+      "knowledge_type": "learning_theory",
+      "name_ja": "学習自己効力感",
+      "name_en": "Learning Self Efficacy",
+      "category": "Learning Theory",
+      "attribute": "Motivation Learning",
+      "definition_ja": "自分は学習課題を達成できるという見込み。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:学習動機",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "学習動機"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "学習自己効力感関連正答率",
+        "学習自己効力感関連継続率",
+        "学習自己効力感関連改善率",
+        "学習自己効力感関連反応時間"
+      ],
+      "signal_candidates": [
+        "学習自己効力感が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000027_expectancy_value.yml",
+      "id": "LEARN-000027",
+      "knowledge_type": "learning_theory",
+      "name_ja": "期待価値",
+      "name_en": "Expectancy Value",
+      "category": "Learning Theory",
+      "attribute": "Motivation Learning",
+      "definition_ja": "成功できる見込みと課題の価値が動機づけを左右する考え方。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:学習動機",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "学習動機"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "期待価値関連正答率",
+        "期待価値関連継続率",
+        "期待価値関連改善率",
+        "期待価値関連反応時間"
+      ],
+      "signal_candidates": [
+        "期待価値が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000028_interest_development.yml",
+      "id": "LEARN-000028",
+      "knowledge_type": "learning_theory",
+      "name_ja": "興味発達",
+      "name_en": "Interest Development",
+      "category": "Learning Theory",
+      "attribute": "Motivation Learning",
+      "definition_ja": "一時的な関心が継続的な興味へ変化する過程。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:学習動機",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "学習動機"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "興味発達関連正答率",
+        "興味発達関連継続率",
+        "興味発達関連改善率",
+        "興味発達関連反応時間"
+      ],
+      "signal_candidates": [
+        "興味発達が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000029_learning_autonomy.yml",
+      "id": "LEARN-000029",
+      "knowledge_type": "learning_theory",
+      "name_ja": "学習自律性",
+      "name_en": "Learning Autonomy",
+      "category": "Learning Theory",
+      "attribute": "Motivation Learning",
+      "definition_ja": "自分で学習内容や方法を選び調整できる度合い。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:学習動機",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "学習動機"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "学習自律性関連正答率",
+        "学習自律性関連継続率",
+        "学習自律性関連改善率",
+        "学習自律性関連反応時間"
+      ],
+      "signal_candidates": [
+        "学習自律性が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000030_learning_persistence.yml",
+      "id": "LEARN-000030",
+      "knowledge_type": "learning_theory",
+      "name_ja": "学習継続",
+      "name_en": "Learning Persistence",
+      "category": "Learning Theory",
+      "attribute": "Motivation Learning",
+      "definition_ja": "困難や時間経過があっても学習を続ける行動。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:学習動機",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "学習動機"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "学習継続関連正答率",
+        "学習継続関連継続率",
+        "学習継続関連改善率",
+        "学習継続関連反応時間"
+      ],
+      "signal_candidates": [
+        "学習継続が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000031_self_regulated_learning.yml",
+      "id": "LEARN-000031",
+      "knowledge_type": "learning_theory",
+      "name_ja": "自己調整学習",
+      "name_en": "Self Regulated Learning",
+      "category": "Learning Theory",
+      "attribute": "Self Regulated Learning",
+      "definition_ja": "目標設定・方略選択・進捗確認・修正を自分で行う学習。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:自己調整学習",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "自己調整学習"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "自己調整学習関連正答率",
+        "自己調整学習関連継続率",
+        "自己調整学習関連改善率",
+        "自己調整学習関連反応時間"
+      ],
+      "signal_candidates": [
+        "自己調整学習が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000032_learning_goal_setting.yml",
+      "id": "LEARN-000032",
+      "knowledge_type": "learning_theory",
+      "name_ja": "学習目標設定",
+      "name_en": "Learning Goal Setting",
+      "category": "Learning Theory",
+      "attribute": "Self Regulated Learning",
+      "definition_ja": "学習で達成したい状態や成果を定める行動。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:自己調整学習",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "自己調整学習"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "学習目標設定関連正答率",
+        "学習目標設定関連継続率",
+        "学習目標設定関連改善率",
+        "学習目標設定関連反応時間"
+      ],
+      "signal_candidates": [
+        "学習目標設定が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000033_learning_planning.yml",
+      "id": "LEARN-000033",
+      "knowledge_type": "learning_theory",
+      "name_ja": "学習計画",
+      "name_en": "Learning Planning",
+      "category": "Learning Theory",
+      "attribute": "Self Regulated Learning",
+      "definition_ja": "学習内容・順序・時間配分を事前に整理する行動。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:自己調整学習",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "自己調整学習"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "学習計画関連正答率",
+        "学習計画関連継続率",
+        "学習計画関連改善率",
+        "学習計画関連反応時間"
+      ],
+      "signal_candidates": [
+        "学習計画が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000034_learning_monitoring.yml",
+      "id": "LEARN-000034",
+      "knowledge_type": "learning_theory",
+      "name_ja": "学習モニタリング",
+      "name_en": "Learning Monitoring",
+      "category": "Learning Theory",
+      "attribute": "Self Regulated Learning",
+      "definition_ja": "理解度・進捗・ミスを確認しながら学ぶ行動。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:自己調整学習",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "自己調整学習"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "学習モニタリング関連正答率",
+        "学習モニタリング関連継続率",
+        "学習モニタリング関連改善率",
+        "学習モニタリング関連反応時間"
+      ],
+      "signal_candidates": [
+        "学習モニタリングが学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000035_strategy_adjustment.yml",
+      "id": "LEARN-000035",
+      "knowledge_type": "learning_theory",
+      "name_ja": "学習方略調整",
+      "name_en": "Strategy Adjustment",
+      "category": "Learning Theory",
+      "attribute": "Self Regulated Learning",
+      "definition_ja": "学習方法が有効かを見直し、必要に応じて変更する行動。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:自己調整学習",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "自己調整学習"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "学習方略調整関連正答率",
+        "学習方略調整関連継続率",
+        "学習方略調整関連改善率",
+        "学習方略調整関連反応時間"
+      ],
+      "signal_candidates": [
+        "学習方略調整が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000036_help_seeking_learning.yml",
+      "id": "LEARN-000036",
+      "knowledge_type": "learning_theory",
+      "name_ja": "学習援助要請",
+      "name_en": "Help Seeking in Learning",
+      "category": "Learning Theory",
+      "attribute": "Self Regulated Learning",
+      "definition_ja": "分からない時に説明・ヒント・支援を求める学習行動。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:自己調整学習",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "自己調整学習"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "学習援助要請関連正答率",
+        "学習援助要請関連継続率",
+        "学習援助要請関連改善率",
+        "学習援助要請関連反応時間"
+      ],
+      "signal_candidates": [
+        "学習援助要請が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000037_self_explanation_learning.yml",
+      "id": "LEARN-000037",
+      "knowledge_type": "learning_theory",
+      "name_ja": "自己説明学習",
+      "name_en": "Self Explanation Learning",
+      "category": "Learning Theory",
+      "attribute": "Self Regulated Learning",
+      "definition_ja": "自分で理由や仕組みを説明しながら理解を深める学習方略。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:自己調整学習",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "自己調整学習"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "自己説明学習関連正答率",
+        "自己説明学習関連継続率",
+        "自己説明学習関連改善率",
+        "自己説明学習関連反応時間"
+      ],
+      "signal_candidates": [
+        "自己説明学習が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000038_reflection_learning.yml",
+      "id": "LEARN-000038",
+      "knowledge_type": "learning_theory",
+      "name_ja": "振り返り学習",
+      "name_en": "Reflective Learning",
+      "category": "Learning Theory",
+      "attribute": "Self Regulated Learning",
+      "definition_ja": "学習後に結果や方法を振り返り改善につなげる行動。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:自己調整学習",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "自己調整学習"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "振り返り学習関連正答率",
+        "振り返り学習関連継続率",
+        "振り返り学習関連改善率",
+        "振り返り学習関連反応時間"
+      ],
+      "signal_candidates": [
+        "振り返り学習が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000039_metacognitive_strategy.yml",
+      "id": "LEARN-000039",
+      "knowledge_type": "learning_theory",
+      "name_ja": "メタ認知方略",
+      "name_en": "Metacognitive Strategy",
+      "category": "Learning Theory",
+      "attribute": "Self Regulated Learning",
+      "definition_ja": "自分の理解や記憶を確認しながら学習を調整する方略。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:自己調整学習",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "自己調整学習"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "メタ認知方略関連正答率",
+        "メタ認知方略関連継続率",
+        "メタ認知方略関連改善率",
+        "メタ認知方略関連反応時間"
+      ],
+      "signal_candidates": [
+        "メタ認知方略が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000040_learning_time_management.yml",
+      "id": "LEARN-000040",
+      "knowledge_type": "learning_theory",
+      "name_ja": "学習時間管理",
+      "name_en": "Learning Time Management",
+      "category": "Learning Theory",
+      "attribute": "Self Regulated Learning",
+      "definition_ja": "学習時間・休憩・締切を調整する行動。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:自己調整学習",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "自己調整学習"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "学習時間管理関連正答率",
+        "学習時間管理関連継続率",
+        "学習時間管理関連改善率",
+        "学習時間管理関連反応時間"
+      ],
+      "signal_candidates": [
+        "学習時間管理が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000041_instructional_design.yml",
+      "id": "LEARN-000041",
+      "knowledge_type": "learning_theory",
+      "name_ja": "教授設計",
+      "name_en": "Instructional Design",
+      "category": "Learning Theory",
+      "attribute": "Instruction Design",
+      "definition_ja": "学習目標に合わせて教材・課題・支援を設計する考え方。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:教授設計",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "教授設計"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "教授設計関連正答率",
+        "教授設計関連継続率",
+        "教授設計関連改善率",
+        "教授設計関連反応時間"
+      ],
+      "signal_candidates": [
+        "教授設計が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000042_scaffolding.yml",
+      "id": "LEARN-000042",
+      "knowledge_type": "learning_theory",
+      "name_ja": "足場かけ",
+      "name_en": "Scaffolding",
+      "category": "Learning Theory",
+      "attribute": "Instruction Design",
+      "definition_ja": "学習者の現在の力に合わせて支援を提供し、徐々に減らす方法。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:教授設計",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "教授設計"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "足場かけ関連正答率",
+        "足場かけ関連継続率",
+        "足場かけ関連改善率",
+        "足場かけ関連反応時間"
+      ],
+      "signal_candidates": [
+        "足場かけが学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000043_worked_example.yml",
+      "id": "LEARN-000043",
+      "knowledge_type": "learning_theory",
+      "name_ja": "例題学習",
+      "name_en": "Worked Example",
+      "category": "Learning Theory",
+      "attribute": "Instruction Design",
+      "definition_ja": "解法の手順が示された例を使って理解を促す学習方法。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:教授設計",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "教授設計"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "例題学習関連正答率",
+        "例題学習関連継続率",
+        "例題学習関連改善率",
+        "例題学習関連反応時間"
+      ],
+      "signal_candidates": [
+        "例題学習が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000044_guided_discovery.yml",
+      "id": "LEARN-000044",
+      "knowledge_type": "learning_theory",
+      "name_ja": "ガイド付き発見学習",
+      "name_en": "Guided Discovery",
+      "category": "Learning Theory",
+      "attribute": "Instruction Design",
+      "definition_ja": "支援を受けながら自分で規則や解法を見つける学習方法。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:教授設計",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "教授設計"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "ガイド付き発見学習関連正答率",
+        "ガイド付き発見学習関連継続率",
+        "ガイド付き発見学習関連改善率",
+        "ガイド付き発見学習関連反応時間"
+      ],
+      "signal_candidates": [
+        "ガイド付き発見学習が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000045_direct_instruction.yml",
+      "id": "LEARN-000045",
+      "knowledge_type": "learning_theory",
+      "name_ja": "直接教授",
+      "name_en": "Direct Instruction",
+      "category": "Learning Theory",
+      "attribute": "Instruction Design",
+      "definition_ja": "明確な説明・手順・練習を通じて学習を進める教授方法。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:教授設計",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "教授設計"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "直接教授関連正答率",
+        "直接教授関連継続率",
+        "直接教授関連改善率",
+        "直接教授関連反応時間"
+      ],
+      "signal_candidates": [
+        "直接教授が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000046_inquiry_learning.yml",
+      "id": "LEARN-000046",
+      "knowledge_type": "learning_theory",
+      "name_ja": "探究学習",
+      "name_en": "Inquiry Learning",
+      "category": "Learning Theory",
+      "attribute": "Instruction Design",
+      "definition_ja": "問いを立て、調査・実験・考察を通じて理解を深める学習方法。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:教授設計",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "教授設計"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "探究学習関連正答率",
+        "探究学習関連継続率",
+        "探究学習関連改善率",
+        "探究学習関連反応時間"
+      ],
+      "signal_candidates": [
+        "探究学習が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000047_problem_based_learning.yml",
+      "id": "LEARN-000047",
+      "knowledge_type": "learning_theory",
+      "name_ja": "問題基盤型学習",
+      "name_en": "Problem Based Learning",
+      "category": "Learning Theory",
+      "attribute": "Instruction Design",
+      "definition_ja": "現実的な問題解決を通じて知識や技能を学ぶ方法。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:教授設計",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "教授設計"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "問題基盤型学習関連正答率",
+        "問題基盤型学習関連継続率",
+        "問題基盤型学習関連改善率",
+        "問題基盤型学習関連反応時間"
+      ],
+      "signal_candidates": [
+        "問題基盤型学習が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000048_project_based_learning.yml",
+      "id": "LEARN-000048",
+      "knowledge_type": "learning_theory",
+      "name_ja": "プロジェクト型学習",
+      "name_en": "Project Based Learning",
+      "category": "Learning Theory",
+      "attribute": "Instruction Design",
+      "definition_ja": "成果物や長期課題の制作を通じて学ぶ方法。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:教授設計",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "教授設計"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "プロジェクト型学習関連正答率",
+        "プロジェクト型学習関連継続率",
+        "プロジェクト型学習関連改善率",
+        "プロジェクト型学習関連反応時間"
+      ],
+      "signal_candidates": [
+        "プロジェクト型学習が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000049_adaptive_learning.yml",
+      "id": "LEARN-000049",
+      "knowledge_type": "learning_theory",
+      "name_ja": "適応学習",
+      "name_en": "Adaptive Learning",
+      "category": "Learning Theory",
+      "attribute": "Instruction Design",
+      "definition_ja": "学習者の状態や成績に合わせて内容や難易度を調整する学習設計。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:教授設計",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "教授設計"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "適応学習関連正答率",
+        "適応学習関連継続率",
+        "適応学習関連改善率",
+        "適応学習関連反応時間"
+      ],
+      "signal_candidates": [
+        "適応学習が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "LEARN-000050_personalized_learning.yml",
+      "id": "LEARN-000050",
+      "knowledge_type": "learning_theory",
+      "name_ja": "個別最適化学習",
+      "name_en": "Personalized Learning",
+      "category": "Learning Theory",
+      "attribute": "Instruction Design",
+      "definition_ja": "学習者の特性・進度・興味に合わせて学習内容を調整する方法。",
+      "tags": [
+        "CAT:学習理論",
+        "CAT:教授設計",
+        "ATTR:学習要因"
+      ],
+      "parent": [
+        "教授設計"
+      ],
+      "related": [
+        "認知科学",
+        "行動観測",
+        "教育環境"
+      ],
+      "observable_data": [
+        "個別最適化学習関連正答率",
+        "個別最適化学習関連継続率",
+        "個別最適化学習関連改善率",
+        "個別最適化学習関連反応時間"
+      ],
+      "signal_candidates": [
+        "個別最適化学習が学習行動や成績変化に影響している可能性がある",
+        "学習条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "難易度",
+        "フィードバック",
+        "疲労",
+        "動機づけ"
+      ],
+      "evidence": "教育心理学・学習科学・認知科学・HCI研究で使用",
+      "status": "active"
+    }
+  ]
+}

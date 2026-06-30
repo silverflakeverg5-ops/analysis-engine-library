@@ -1,0 +1,33 @@
+id: LEARN-000027
+knowledge_type: learning_theory
+name_ja: 期待価値
+name_en: Expectancy Value
+category: Learning Theory
+attribute: Motivation Learning
+definition_ja: 成功できる見込みと課題の価値が動機づけを左右する考え方。
+tags:
+  - CAT:学習理論
+  - CAT:学習動機
+  - ATTR:学習要因
+parent:
+  - 学習動機
+related:
+  - 認知科学
+  - 行動観測
+  - 教育環境
+observable_data:
+  - 期待価値関連正答率
+  - 期待価値関連継続率
+  - 期待価値関連改善率
+  - 期待価値関連反応時間
+signal_candidates:
+  - 期待価値が学習行動や成績変化に影響している可能性がある
+  - 学習条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 難易度
+  - フィードバック
+  - 疲労
+  - 動機づけ
+evidence: 教育心理学・学習科学・認知科学・HCI研究で使用
+status: active

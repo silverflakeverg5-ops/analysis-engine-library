@@ -1,0 +1,33 @@
+id: LEARN-000004
+knowledge_type: learning_theory
+name_ja: 検索練習
+name_en: Retrieval Practice
+category: Learning Theory
+attribute: Core Learning
+definition_ja: 思い出す練習によって記憶保持と理解を強める学習方法。
+tags:
+  - CAT:学習理論
+  - CAT:基本学習
+  - ATTR:学習要因
+parent:
+  - 基本学習
+related:
+  - 認知科学
+  - 行動観測
+  - 教育環境
+observable_data:
+  - 検索練習関連正答率
+  - 検索練習関連継続率
+  - 検索練習関連改善率
+  - 検索練習関連反応時間
+signal_candidates:
+  - 検索練習が学習行動や成績変化に影響している可能性がある
+  - 学習条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 難易度
+  - フィードバック
+  - 疲労
+  - 動機づけ
+evidence: 教育心理学・学習科学・認知科学・HCI研究で使用
+status: active

@@ -1,0 +1,33 @@
+id: SOCPSY-000136
+knowledge_type: social_psychology
+name_ja: 嫉妬
+name_en: Jealousy
+category: Social Psychology
+attribute: Social Emotion
+definition_ja: 大切な関係や地位を他者に奪われる可能性に対する感情。
+tags:
+  - CAT:社会心理
+  - CAT:社会的感情
+  - ATTR:社会的要因
+parent:
+  - 社会的感情
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 嫉妬関連行動変化
+  - 嫉妬関連反応時間
+  - 嫉妬関連選択率
+  - 嫉妬関連対人反応
+signal_candidates:
+  - 嫉妬が対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

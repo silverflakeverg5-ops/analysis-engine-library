@@ -1,0 +1,33 @@
+id: SOCPSY-000120
+knowledge_type: social_psychology
+name_ja: 競争覚醒
+name_en: Competitive Arousal
+category: Social Psychology
+attribute: Cooperation Competition
+definition_ja: 競争場面で覚醒や興奮が高まり、判断や行動が変化する状態。
+tags:
+  - CAT:社会心理
+  - CAT:協力競争
+  - ATTR:社会的要因
+parent:
+  - 協力競争
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 競争覚醒関連行動変化
+  - 競争覚醒関連反応時間
+  - 競争覚醒関連選択率
+  - 競争覚醒関連対人反応
+signal_candidates:
+  - 競争覚醒が対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

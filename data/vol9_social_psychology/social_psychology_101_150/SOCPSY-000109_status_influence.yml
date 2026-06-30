@@ -1,0 +1,33 @@
+id: SOCPSY-000109
+knowledge_type: social_psychology
+name_ja: 地位影響
+name_en: Status Influence
+category: Social Psychology
+attribute: Leadership Power
+definition_ja: 社会的地位や序列が発言力・評価・行動に影響する現象。
+tags:
+  - CAT:社会心理
+  - CAT:リーダーシップ権力
+  - ATTR:社会的要因
+parent:
+  - リーダーシップ権力
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 地位影響関連行動変化
+  - 地位影響関連反応時間
+  - 地位影響関連選択率
+  - 地位影響関連対人反応
+signal_candidates:
+  - 地位影響が対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

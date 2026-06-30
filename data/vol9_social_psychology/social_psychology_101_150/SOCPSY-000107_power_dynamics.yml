@@ -1,0 +1,33 @@
+id: SOCPSY-000107
+knowledge_type: social_psychology
+name_ja: 権力関係
+name_en: Power Dynamics
+category: Social Psychology
+attribute: Leadership Power
+definition_ja: 地位・資源・情報・影響力の差が対人行動に与える関係性。
+tags:
+  - CAT:社会心理
+  - CAT:リーダーシップ権力
+  - ATTR:社会的要因
+parent:
+  - リーダーシップ権力
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 権力関係関連行動変化
+  - 権力関係関連反応時間
+  - 権力関係関連選択率
+  - 権力関係関連対人反応
+signal_candidates:
+  - 権力関係が対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

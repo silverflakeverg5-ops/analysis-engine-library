@@ -1,0 +1,33 @@
+id: SOCPSY-000150
+knowledge_type: social_psychology
+name_ja: 集合的レジリエンス
+name_en: Collective Resilience
+category: Social Psychology
+attribute: Collective Culture
+definition_ja: 集団やコミュニティが困難後に回復し適応する力。
+tags:
+  - CAT:社会心理
+  - CAT:集合文化
+  - ATTR:社会的要因
+parent:
+  - 集合文化
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 集合的レジリエンス関連行動変化
+  - 集合的レジリエンス関連反応時間
+  - 集合的レジリエンス関連選択率
+  - 集合的レジリエンス関連対人反応
+signal_candidates:
+  - 集合的レジリエンスが対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

@@ -1,0 +1,33 @@
+id: SOCPSY-000144
+knowledge_type: social_psychology
+name_ja: 二文化アイデンティティ
+name_en: Bicultural Identity
+category: Social Psychology
+attribute: Collective Culture
+definition_ja: 二つ以上の文化的背景を自己の一部として統合する状態。
+tags:
+  - CAT:社会心理
+  - CAT:集合文化
+  - ATTR:社会的要因
+parent:
+  - 集合文化
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 二文化アイデンティティ関連行動変化
+  - 二文化アイデンティティ関連反応時間
+  - 二文化アイデンティティ関連選択率
+  - 二文化アイデンティティ関連対人反応
+signal_candidates:
+  - 二文化アイデンティティが対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

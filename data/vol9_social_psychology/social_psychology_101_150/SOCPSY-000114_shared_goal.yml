@@ -1,0 +1,33 @@
+id: SOCPSY-000114
+knowledge_type: social_psychology
+name_ja: 共有目標
+name_en: Shared Goal
+category: Social Psychology
+attribute: Cooperation Competition
+definition_ja: 集団や関係者が共通して目指す成果や状態。
+tags:
+  - CAT:社会心理
+  - CAT:協力競争
+  - ATTR:社会的要因
+parent:
+  - 協力競争
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 共有目標関連行動変化
+  - 共有目標関連反応時間
+  - 共有目標関連選択率
+  - 共有目標関連対人反応
+signal_candidates:
+  - 共有目標が対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

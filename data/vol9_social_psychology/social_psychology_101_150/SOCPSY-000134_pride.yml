@@ -1,0 +1,33 @@
+id: SOCPSY-000134
+knowledge_type: social_psychology
+name_ja: 誇り
+name_en: Pride
+category: Social Psychology
+attribute: Social Emotion
+definition_ja: 自分や所属集団の達成・価値に対して肯定的に感じる感情。
+tags:
+  - CAT:社会心理
+  - CAT:社会的感情
+  - ATTR:社会的要因
+parent:
+  - 社会的感情
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 誇り関連行動変化
+  - 誇り関連反応時間
+  - 誇り関連選択率
+  - 誇り関連対人反応
+signal_candidates:
+  - 誇りが対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

@@ -1,0 +1,33 @@
+id: APP-000011
+knowledge_type: app_use_case
+name_ja: 性格ゲームアプリ
+name_en: Personality Game App
+category: App Use Case
+attribute: Game
+definition_ja: ゲーム内行動から性格や行動傾向を推測して楽しむアプリ用途。
+tags:
+  - CAT:アプリ用途
+  - CAT:ゲーム
+  - ATTR:利用領域
+parent:
+  - ゲーム
+related:
+  - 観測シグナル
+  - 補正要因
+  - 表示設計
+observable_data:
+  - 性格ゲームアプリ利用文脈
+  - 性格ゲームアプリ対象シグナル
+  - 性格ゲームアプリ補正要因
+  - 性格ゲームアプリ表示目的
+signal_candidates:
+  - 性格ゲームアプリで利用可能な知識項目を選定する材料になる
+  - アプリ用途に応じた推論・表示・補正の切り替え材料になる
+device_level: DB管理用
+modifiers:
+  - 用途
+  - 対象ユーザー
+  - 安全性
+  - 表示形式
+evidence: HCI・UX設計・教育工学・行動支援設計で使用
+status: active

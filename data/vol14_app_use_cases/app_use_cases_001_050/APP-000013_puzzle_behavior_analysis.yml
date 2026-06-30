@@ -1,0 +1,33 @@
+id: APP-000013
+knowledge_type: app_use_case
+name_ja: パズル行動分析
+name_en: Puzzle Behavior Analysis
+category: App Use Case
+attribute: Game
+definition_ja: パズルの解き方・試行錯誤・ヒント利用から認知傾向を推測する用途。
+tags:
+  - CAT:アプリ用途
+  - CAT:ゲーム
+  - ATTR:利用領域
+parent:
+  - ゲーム
+related:
+  - 観測シグナル
+  - 補正要因
+  - 表示設計
+observable_data:
+  - パズル行動分析利用文脈
+  - パズル行動分析対象シグナル
+  - パズル行動分析補正要因
+  - パズル行動分析表示目的
+signal_candidates:
+  - パズル行動分析で利用可能な知識項目を選定する材料になる
+  - アプリ用途に応じた推論・表示・補正の切り替え材料になる
+device_level: DB管理用
+modifiers:
+  - 用途
+  - 対象ユーザー
+  - 安全性
+  - 表示形式
+evidence: HCI・UX設計・教育工学・行動支援設計で使用
+status: active

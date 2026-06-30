@@ -1,0 +1,33 @@
+id: APP-000050
+knowledge_type: app_use_case
+name_ja: 人間パフォーマンス支援
+name_en: Human Performance Support
+category: App Use Case
+attribute: Work Support
+definition_ja: 認知・状態・環境を考慮して行動成果を支援する用途。
+tags:
+  - CAT:アプリ用途
+  - CAT:仕事支援
+  - ATTR:利用領域
+parent:
+  - 仕事支援
+related:
+  - 観測シグナル
+  - 補正要因
+  - 表示設計
+observable_data:
+  - 人間パフォーマンス支援利用文脈
+  - 人間パフォーマンス支援対象シグナル
+  - 人間パフォーマンス支援補正要因
+  - 人間パフォーマンス支援表示目的
+signal_candidates:
+  - 人間パフォーマンス支援で利用可能な知識項目を選定する材料になる
+  - アプリ用途に応じた推論・表示・補正の切り替え材料になる
+device_level: DB管理用
+modifiers:
+  - 用途
+  - 対象ユーザー
+  - 安全性
+  - 表示形式
+evidence: HCI・UX設計・教育工学・行動支援設計で使用
+status: active

@@ -1,0 +1,57 @@
+category: App Use Case
+name_ja: アプリ用途
+items:
+  - APP-000001_personality_diagnosis_app.yml
+  - APP-000002_compatibility_diagnosis_app.yml
+  - APP-000003_self_understanding_app.yml
+  - APP-000004_behavior_style_diagnosis.yml
+  - APP-000005_work_style_diagnosis.yml
+  - APP-000006_learning_style_diagnosis.yml
+  - APP-000007_communication_style_diagnosis.yml
+  - APP-000008_stress_tendency_diagnosis.yml
+  - APP-000009_motivation_tendency_diagnosis.yml
+  - APP-000010_decision_tendency_diagnosis.yml
+  - APP-000011_personality_game_app.yml
+  - APP-000012_choice_based_game_analysis.yml
+  - APP-000013_puzzle_behavior_analysis.yml
+  - APP-000014_strategy_game_analysis.yml
+  - APP-000015_reaction_game_analysis.yml
+  - APP-000016_social_game_analysis.yml
+  - APP-000017_simulation_game_analysis.yml
+  - APP-000018_mini_game_signal_collection.yml
+  - APP-000019_game_based_learning_support.yml
+  - APP-000020_entertainment_analysis_app.yml
+  - APP-000021_personal_assistant_app.yml
+  - APP-000022_schedule_support_app.yml
+  - APP-000023_task_management_support.yml
+  - APP-000024_context_aware_reminder.yml
+  - APP-000025_proactive_suggestion_app.yml
+  - APP-000026_travel_planning_assistant.yml
+  - APP-000027_daily_briefing_assistant.yml
+  - APP-000028_work_assistant_app.yml
+  - APP-000029_life_log_assistant.yml
+  - APP-000030_adaptive_notification_assistant.yml
+  - APP-000031_learning_support_app.yml
+  - APP-000032_adaptive_learning_app.yml
+  - APP-000033_study_habit_app.yml
+  - APP-000034_exam_preparation_app.yml
+  - APP-000035_metacognition_training_app.yml
+  - APP-000036_feedback_learning_app.yml
+  - APP-000037_collaborative_learning_app.yml
+  - APP-000038_skill_training_app.yml
+  - APP-000039_learning_analytics_app.yml
+  - APP-000040_career_learning_app.yml
+  - APP-000041_productivity_support_app.yml
+  - APP-000042_focus_support_app.yml
+  - APP-000043_meeting_support_app.yml
+  - APP-000044_team_collaboration_support.yml
+  - APP-000045_workload_monitoring_app.yml
+  - APP-000046_career_support_app.yml
+  - APP-000047_decision_support_app.yml
+  - APP-000048_workflow_optimization_app.yml
+  - APP-000049_work_wellbeing_support.yml
+  - APP-000050_human_performance_support.yml
+notes:
+  - アプリ用途はDB分類ではなく利用文脈の管理材料として扱う
+  - Knowledge DB側ではアプリ別推論を行わない
+  - アプリ側で用途に応じた推論・表示・補正を行う

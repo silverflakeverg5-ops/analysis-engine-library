@@ -1,0 +1,33 @@
+id: APP-000018
+knowledge_type: app_use_case
+name_ja: ミニゲームシグナル収集
+name_en: Mini Game Signal Collection
+category: App Use Case
+attribute: Game
+definition_ja: 短時間ゲームから観測シグナルを取得する用途。
+tags:
+  - CAT:アプリ用途
+  - CAT:ゲーム
+  - ATTR:利用領域
+parent:
+  - ゲーム
+related:
+  - 観測シグナル
+  - 補正要因
+  - 表示設計
+observable_data:
+  - ミニゲームシグナル収集利用文脈
+  - ミニゲームシグナル収集対象シグナル
+  - ミニゲームシグナル収集補正要因
+  - ミニゲームシグナル収集表示目的
+signal_candidates:
+  - ミニゲームシグナル収集で利用可能な知識項目を選定する材料になる
+  - アプリ用途に応じた推論・表示・補正の切り替え材料になる
+device_level: DB管理用
+modifiers:
+  - 用途
+  - 対象ユーザー
+  - 安全性
+  - 表示形式
+evidence: HCI・UX設計・教育工学・行動支援設計で使用
+status: active

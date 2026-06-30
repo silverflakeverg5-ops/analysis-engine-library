@@ -1,0 +1,33 @@
+id: SIGNAL-000048
+knowledge_type: observation_signal
+name_ja: 継続行動変化
+name_en: Persistence Change
+category: Observation Signal
+attribute: State Change
+definition_ja: 失敗後や困難時の継続・再挑戦行動の変化。
+tags:
+  - CAT:観測シグナル
+  - CAT:状態変化
+  - ATTR:観測可能データ
+parent:
+  - 状態変化
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 継続行動変化
+  - 継続行動変化の増減
+  - 継続行動変化の平均との差
+  - 継続行動変化の時系列変化
+signal_candidates:
+  - 継続行動変化が通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

@@ -1,0 +1,33 @@
+id: SIGNAL-000002
+knowledge_type: observation_signal
+name_ja: セッション時間
+name_en: Session Duration
+category: Observation Signal
+attribute: App Usage
+definition_ja: 一回の利用開始から終了までの継続時間。
+tags:
+  - CAT:観測シグナル
+  - CAT:アプリ利用
+  - ATTR:観測可能データ
+parent:
+  - アプリ利用
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - セッション時間
+  - セッション時間の増減
+  - セッション時間の平均との差
+  - セッション時間の時系列変化
+signal_candidates:
+  - セッション時間が通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

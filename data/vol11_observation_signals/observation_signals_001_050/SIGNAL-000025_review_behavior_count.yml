@@ -1,0 +1,33 @@
+id: SIGNAL-000025
+knowledge_type: observation_signal
+name_ja: 復習行動回数
+name_en: Review Behavior Count
+category: Observation Signal
+attribute: Learning
+definition_ja: 過去内容や間違いを見直した回数。
+tags:
+  - CAT:観測シグナル
+  - CAT:学習
+  - ATTR:観測可能データ
+parent:
+  - 学習
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 復習行動回数
+  - 復習行動回数の増減
+  - 復習行動回数の平均との差
+  - 復習行動回数の時系列変化
+signal_candidates:
+  - 復習行動回数が通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

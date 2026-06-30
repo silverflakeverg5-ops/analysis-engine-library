@@ -1,0 +1,33 @@
+id: SIGNAL-000040
+knowledge_type: observation_signal
+name_ja: 社会的撤退シグナル
+name_en: Social Withdrawal Signal
+category: Observation Signal
+attribute: Social
+definition_ja: 対人反応や参加頻度の低下として現れる撤退傾向。
+tags:
+  - CAT:観測シグナル
+  - CAT:社会行動
+  - ATTR:観測可能データ
+parent:
+  - 社会行動
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 社会的撤退シグナル
+  - 社会的撤退シグナルの増減
+  - 社会的撤退シグナルの平均との差
+  - 社会的撤退シグナルの時系列変化
+signal_candidates:
+  - 社会的撤退シグナルが通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

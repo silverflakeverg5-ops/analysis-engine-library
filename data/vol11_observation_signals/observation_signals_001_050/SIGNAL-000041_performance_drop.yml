@@ -1,0 +1,33 @@
+id: SIGNAL-000041
+knowledge_type: observation_signal
+name_ja: 成績低下
+name_en: Performance Drop
+category: Observation Signal
+attribute: State Change
+definition_ja: 通常水準と比べて成績や正確性が低下した状態。
+tags:
+  - CAT:観測シグナル
+  - CAT:状態変化
+  - ATTR:観測可能データ
+parent:
+  - 状態変化
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 成績低下
+  - 成績低下の増減
+  - 成績低下の平均との差
+  - 成績低下の時系列変化
+signal_candidates:
+  - 成績低下が通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

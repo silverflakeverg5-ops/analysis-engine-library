@@ -1,0 +1,33 @@
+id: SIGNAL-000004
+knowledge_type: observation_signal
+name_ja: 利用日数
+name_en: Active Days
+category: Observation Signal
+attribute: App Usage
+definition_ja: 一定期間内に利用が確認された日数。
+tags:
+  - CAT:観測シグナル
+  - CAT:アプリ利用
+  - ATTR:観測可能データ
+parent:
+  - アプリ利用
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 利用日数
+  - 利用日数の増減
+  - 利用日数の平均との差
+  - 利用日数の時系列変化
+signal_candidates:
+  - 利用日数が通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

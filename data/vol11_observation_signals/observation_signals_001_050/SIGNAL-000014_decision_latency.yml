@@ -1,0 +1,33 @@
+id: SIGNAL-000014
+knowledge_type: observation_signal
+name_ja: 選択潜時
+name_en: Decision Latency
+category: Observation Signal
+attribute: Interaction
+definition_ja: 選択肢提示から意思決定までにかかる時間。
+tags:
+  - CAT:観測シグナル
+  - CAT:操作
+  - ATTR:観測可能データ
+parent:
+  - 操作
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 選択潜時
+  - 選択潜時の増減
+  - 選択潜時の平均との差
+  - 選択潜時の時系列変化
+signal_candidates:
+  - 選択潜時が通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

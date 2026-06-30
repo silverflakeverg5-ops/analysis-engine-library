@@ -1,0 +1,33 @@
+id: SIGNAL-000039
+knowledge_type: observation_signal
+name_ja: 同意率
+name_en: Agreement Rate
+category: Observation Signal
+attribute: Social
+definition_ja: 他者意見や提案に同意した割合。
+tags:
+  - CAT:観測シグナル
+  - CAT:社会行動
+  - ATTR:観測可能データ
+parent:
+  - 社会行動
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 同意率
+  - 同意率の増減
+  - 同意率の平均との差
+  - 同意率の時系列変化
+signal_candidates:
+  - 同意率が通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

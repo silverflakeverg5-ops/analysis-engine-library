@@ -1,0 +1,33 @@
+id: SIGNAL-000007
+knowledge_type: observation_signal
+name_ja: 再関与シグナル
+name_en: Reengagement Signal
+category: Observation Signal
+attribute: App Usage
+definition_ja: 離脱後に再び利用や行動を開始する兆候。
+tags:
+  - CAT:観測シグナル
+  - CAT:アプリ利用
+  - ATTR:観測可能データ
+parent:
+  - アプリ利用
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 再関与シグナル
+  - 再関与シグナルの増減
+  - 再関与シグナルの平均との差
+  - 再関与シグナルの時系列変化
+signal_candidates:
+  - 再関与シグナルが通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

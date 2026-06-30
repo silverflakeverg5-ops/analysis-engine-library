@@ -1,0 +1,33 @@
+id: SIGNAL-000008
+knowledge_type: observation_signal
+name_ja: 機能利用率
+name_en: Feature Usage Rate
+category: Observation Signal
+attribute: App Usage
+definition_ja: 特定機能が利用された割合や頻度。
+tags:
+  - CAT:観測シグナル
+  - CAT:アプリ利用
+  - ATTR:観測可能データ
+parent:
+  - アプリ利用
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 機能利用率
+  - 機能利用率の増減
+  - 機能利用率の平均との差
+  - 機能利用率の時系列変化
+signal_candidates:
+  - 機能利用率が通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

@@ -1,0 +1,33 @@
+id: MOD-000092
+knowledge_type: modifier
+name_ja: 補正競合解決
+name_en: Modifier Conflict Resolution
+category: Modifier
+attribute: Integration
+definition_ja: 補正要因同士が矛盾する場合に解釈を調整する枠組み。
+tags:
+  - CAT:補正要因
+  - CAT:統合
+  - ATTR:推論補正
+parent:
+  - 統合
+related:
+  - 観測シグナル
+  - 推論材料
+  - 安全設計
+observable_data:
+  - 補正競合解決適用条件
+  - 補正競合解決補正対象
+  - 補正競合解決信頼度影響
+  - 補正競合解決時系列影響
+signal_candidates:
+  - 補正競合解決が必要な文脈が観測される
+  - 推論結果の強さや表示表現を補正する材料になる
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 文脈
+  - データ品質
+  - 個人差
+  - 安全性
+evidence: 心理測定・HCI・UX研究・安全設計で使用
+status: active

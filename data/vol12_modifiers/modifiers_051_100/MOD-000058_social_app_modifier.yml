@@ -1,0 +1,33 @@
+id: MOD-000058
+knowledge_type: modifier
+name_ja: SNSアプリ補正
+name_en: Social App Modifier
+category: Modifier
+attribute: App Domain Correction
+definition_ja: SNS上の行動が表示設計・社会的評価・文脈に影響されることを補正する要因。
+tags:
+  - CAT:補正要因
+  - CAT:アプリ領域補正
+  - ATTR:推論補正
+parent:
+  - アプリ領域補正
+related:
+  - 観測シグナル
+  - 推論材料
+  - 安全設計
+observable_data:
+  - SNSアプリ補正適用条件
+  - SNSアプリ補正補正対象
+  - SNSアプリ補正信頼度影響
+  - SNSアプリ補正時系列影響
+signal_candidates:
+  - SNSアプリ補正が必要な文脈が観測される
+  - 推論結果の強さや表示表現を補正する材料になる
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 文脈
+  - データ品質
+  - 個人差
+  - 安全性
+evidence: 心理測定・HCI・UX研究・安全設計で使用
+status: active

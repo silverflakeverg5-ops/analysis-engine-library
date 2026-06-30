@@ -1,0 +1,57 @@
+category: Modifier
+name_ja: 補正要因
+items:
+  - MOD-000051_diagnosis_app_modifier.yml
+  - MOD-000052_game_app_modifier.yml
+  - MOD-000053_assistant_app_modifier.yml
+  - MOD-000054_education_app_modifier.yml
+  - MOD-000055_work_support_modifier.yml
+  - MOD-000056_wellbeing_app_modifier.yml
+  - MOD-000057_compatibility_app_modifier.yml
+  - MOD-000058_social_app_modifier.yml
+  - MOD-000059_productivity_app_modifier.yml
+  - MOD-000060_multi_app_modifier.yml
+  - MOD-000061_short_term_state_modifier.yml
+  - MOD-000062_long_term_trait_modifier.yml
+  - MOD-000063_trend_modifier.yml
+  - MOD-000064_seasonality_modifier.yml
+  - MOD-000065_event_window_modifier.yml
+  - MOD-000066_adaptation_period_modifier.yml
+  - MOD-000067_recency_weight_modifier.yml
+  - MOD-000068_history_length_modifier.yml
+  - MOD-000069_recovery_window_modifier.yml
+  - MOD-000070_change_point_modifier.yml
+  - MOD-000071_public_visibility_modifier.yml
+  - MOD-000072_anonymous_context_modifier.yml
+  - MOD-000073_authority_presence_modifier.yml
+  - MOD-000074_peer_presence_modifier.yml
+  - MOD-000075_group_norm_modifier.yml
+  - MOD-000076_relationship_closeness_modifier.yml
+  - MOD-000077_power_distance_modifier.yml
+  - MOD-000078_social_evaluation_modifier.yml
+  - MOD-000079_conflict_context_modifier.yml
+  - MOD-000080_support_presence_modifier.yml
+  - MOD-000081_non_diagnostic_modifier.yml
+  - MOD-000082_possibility_expression_modifier.yml
+  - MOD-000083_uncertainty_expression_modifier.yml
+  - MOD-000084_strength_scaling_modifier.yml
+  - MOD-000085_alternative_explanation_modifier.yml
+  - MOD-000086_contextual_display_modifier.yml
+  - MOD-000087_supportive_tone_modifier.yml
+  - MOD-000088_user_control_modifier.yml
+  - MOD-000089_explainability_modifier.yml
+  - MOD-000090_feedback_loop_modifier.yml
+  - MOD-000091_modifier_priority.yml
+  - MOD-000092_modifier_conflict_resolution.yml
+  - MOD-000093_modifier_stack.yml
+  - MOD-000094_confidence_adjustment.yml
+  - MOD-000095_interpretation_guardrail.yml
+  - MOD-000096_cross_domain_modifier.yml
+  - MOD-000097_human_review_modifier.yml
+  - MOD-000098_adaptive_modifier.yml
+  - MOD-000099_modifier_audit_signal.yml
+  - MOD-000100_modifier_integration.yml
+notes:
+  - 補正要因は推論結果ではなく調整材料として扱う
+  - Knowledge DB側ではスコアリングしない
+  - アプリ側で推論強度・信頼度・表示表現を補正する

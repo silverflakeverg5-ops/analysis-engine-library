@@ -1,0 +1,2107 @@
+{
+  "output_dir": "vol12_modifiers/modifiers_051_100",
+  "index_filename": "modifiers_051_100_index.yml",
+  "index_content": "category: Modifier\nname_ja: 補正要因\nitems:\n  - MOD-000051_diagnosis_app_modifier.yml\n  - MOD-000052_game_app_modifier.yml\n  - MOD-000053_assistant_app_modifier.yml\n  - MOD-000054_education_app_modifier.yml\n  - MOD-000055_work_support_modifier.yml\n  - MOD-000056_wellbeing_app_modifier.yml\n  - MOD-000057_compatibility_app_modifier.yml\n  - MOD-000058_social_app_modifier.yml\n  - MOD-000059_productivity_app_modifier.yml\n  - MOD-000060_multi_app_modifier.yml\n  - MOD-000061_short_term_state_modifier.yml\n  - MOD-000062_long_term_trait_modifier.yml\n  - MOD-000063_trend_modifier.yml\n  - MOD-000064_seasonality_modifier.yml\n  - MOD-000065_event_window_modifier.yml\n  - MOD-000066_adaptation_period_modifier.yml\n  - MOD-000067_recency_weight_modifier.yml\n  - MOD-000068_history_length_modifier.yml\n  - MOD-000069_recovery_window_modifier.yml\n  - MOD-000070_change_point_modifier.yml\n  - MOD-000071_public_visibility_modifier.yml\n  - MOD-000072_anonymous_context_modifier.yml\n  - MOD-000073_authority_presence_modifier.yml\n  - MOD-000074_peer_presence_modifier.yml\n  - MOD-000075_group_norm_modifier.yml\n  - MOD-000076_relationship_closeness_modifier.yml\n  - MOD-000077_power_distance_modifier.yml\n  - MOD-000078_social_evaluation_modifier.yml\n  - MOD-000079_conflict_context_modifier.yml\n  - MOD-000080_support_presence_modifier.yml\n  - MOD-000081_non_diagnostic_modifier.yml\n  - MOD-000082_possibility_expression_modifier.yml\n  - MOD-000083_uncertainty_expression_modifier.yml\n  - MOD-000084_strength_scaling_modifier.yml\n  - MOD-000085_alternative_explanation_modifier.yml\n  - MOD-000086_contextual_display_modifier.yml\n  - MOD-000087_supportive_tone_modifier.yml\n  - MOD-000088_user_control_modifier.yml\n  - MOD-000089_explainability_modifier.yml\n  - MOD-000090_feedback_loop_modifier.yml\n  - MOD-000091_modifier_priority.yml\n  - MOD-000092_modifier_conflict_resolution.yml\n  - MOD-000093_modifier_stack.yml\n  - MOD-000094_confidence_adjustment.yml\n  - MOD-000095_interpretation_guardrail.yml\n  - MOD-000096_cross_domain_modifier.yml\n  - MOD-000097_human_review_modifier.yml\n  - MOD-000098_adaptive_modifier.yml\n  - MOD-000099_modifier_audit_signal.yml\n  - MOD-000100_modifier_integration.yml\nnotes:\n  - 補正要因は推論結果ではなく調整材料として扱う\n  - Knowledge DB側ではスコアリングしない\n  - アプリ側で推論強度・信頼度・表示表現を補正する\n",
+  "items": [
+    {
+      "filename": "MOD-000051_diagnosis_app_modifier.yml",
+      "id": "MOD-000051",
+      "knowledge_type": "modifier",
+      "name_ja": "診断アプリ補正",
+      "name_en": "Diagnosis App Modifier",
+      "category": "Modifier",
+      "attribute": "App Domain Correction",
+      "definition_ja": "診断・自己理解アプリでの表示や推論強度を補正する要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:アプリ領域補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "アプリ領域補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "診断アプリ補正適用条件",
+        "診断アプリ補正補正対象",
+        "診断アプリ補正信頼度影響",
+        "診断アプリ補正時系列影響"
+      ],
+      "signal_candidates": [
+        "診断アプリ補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000052_game_app_modifier.yml",
+      "id": "MOD-000052",
+      "knowledge_type": "modifier",
+      "name_ja": "ゲームアプリ補正",
+      "name_en": "Game App Modifier",
+      "category": "Modifier",
+      "attribute": "App Domain Correction",
+      "definition_ja": "ゲーム内行動が娯楽文脈で発生していることを補正する要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:アプリ領域補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "アプリ領域補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "ゲームアプリ補正適用条件",
+        "ゲームアプリ補正補正対象",
+        "ゲームアプリ補正信頼度影響",
+        "ゲームアプリ補正時系列影響"
+      ],
+      "signal_candidates": [
+        "ゲームアプリ補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000053_assistant_app_modifier.yml",
+      "id": "MOD-000053",
+      "knowledge_type": "modifier",
+      "name_ja": "秘書アプリ補正",
+      "name_en": "Assistant App Modifier",
+      "category": "Modifier",
+      "attribute": "App Domain Correction",
+      "definition_ja": "予定・通知・タスク支援アプリでの生活文脈を補正する要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:アプリ領域補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "アプリ領域補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "秘書アプリ補正適用条件",
+        "秘書アプリ補正補正対象",
+        "秘書アプリ補正信頼度影響",
+        "秘書アプリ補正時系列影響"
+      ],
+      "signal_candidates": [
+        "秘書アプリ補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000054_education_app_modifier.yml",
+      "id": "MOD-000054",
+      "knowledge_type": "modifier",
+      "name_ja": "教育アプリ補正",
+      "name_en": "Education App Modifier",
+      "category": "Modifier",
+      "attribute": "App Domain Correction",
+      "definition_ja": "学習ログや成績が教材・難易度・評価設計に左右されることを補正する要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:アプリ領域補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "アプリ領域補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "教育アプリ補正適用条件",
+        "教育アプリ補正補正対象",
+        "教育アプリ補正信頼度影響",
+        "教育アプリ補正時系列影響"
+      ],
+      "signal_candidates": [
+        "教育アプリ補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000055_work_support_modifier.yml",
+      "id": "MOD-000055",
+      "knowledge_type": "modifier",
+      "name_ja": "仕事支援補正",
+      "name_en": "Work Support Modifier",
+      "category": "Modifier",
+      "attribute": "App Domain Correction",
+      "definition_ja": "業務文脈での行動が役割・期限・組織要因に左右されることを補正する要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:アプリ領域補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "アプリ領域補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "仕事支援補正適用条件",
+        "仕事支援補正補正対象",
+        "仕事支援補正信頼度影響",
+        "仕事支援補正時系列影響"
+      ],
+      "signal_candidates": [
+        "仕事支援補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000056_wellbeing_app_modifier.yml",
+      "id": "MOD-000056",
+      "knowledge_type": "modifier",
+      "name_ja": "ウェルビーイング補正",
+      "name_en": "Wellbeing App Modifier",
+      "category": "Modifier",
+      "attribute": "App Domain Correction",
+      "definition_ja": "健康・気分・生活記録に関する推論を慎重化する補正要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:アプリ領域補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "アプリ領域補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "ウェルビーイング補正適用条件",
+        "ウェルビーイング補正補正対象",
+        "ウェルビーイング補正信頼度影響",
+        "ウェルビーイング補正時系列影響"
+      ],
+      "signal_candidates": [
+        "ウェルビーイング補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000057_compatibility_app_modifier.yml",
+      "id": "MOD-000057",
+      "knowledge_type": "modifier",
+      "name_ja": "相性アプリ補正",
+      "name_en": "Compatibility App Modifier",
+      "category": "Modifier",
+      "attribute": "App Domain Correction",
+      "definition_ja": "相性推定において断定や優劣評価を避けるための補正要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:アプリ領域補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "アプリ領域補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "相性アプリ補正適用条件",
+        "相性アプリ補正補正対象",
+        "相性アプリ補正信頼度影響",
+        "相性アプリ補正時系列影響"
+      ],
+      "signal_candidates": [
+        "相性アプリ補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000058_social_app_modifier.yml",
+      "id": "MOD-000058",
+      "knowledge_type": "modifier",
+      "name_ja": "SNSアプリ補正",
+      "name_en": "Social App Modifier",
+      "category": "Modifier",
+      "attribute": "App Domain Correction",
+      "definition_ja": "SNS上の行動が表示設計・社会的評価・文脈に影響されることを補正する要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:アプリ領域補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "アプリ領域補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "SNSアプリ補正適用条件",
+        "SNSアプリ補正補正対象",
+        "SNSアプリ補正信頼度影響",
+        "SNSアプリ補正時系列影響"
+      ],
+      "signal_candidates": [
+        "SNSアプリ補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000059_productivity_app_modifier.yml",
+      "id": "MOD-000059",
+      "knowledge_type": "modifier",
+      "name_ja": "生産性アプリ補正",
+      "name_en": "Productivity App Modifier",
+      "category": "Modifier",
+      "attribute": "App Domain Correction",
+      "definition_ja": "タスク・集中・完了率が業務量や外部要求に左右されることを補正する要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:アプリ領域補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "アプリ領域補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "生産性アプリ補正適用条件",
+        "生産性アプリ補正補正対象",
+        "生産性アプリ補正信頼度影響",
+        "生産性アプリ補正時系列影響"
+      ],
+      "signal_candidates": [
+        "生産性アプリ補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000060_multi_app_modifier.yml",
+      "id": "MOD-000060",
+      "knowledge_type": "modifier",
+      "name_ja": "複数アプリ横断補正",
+      "name_en": "Multi App Modifier",
+      "category": "Modifier",
+      "attribute": "App Domain Correction",
+      "definition_ja": "複数アプリ間で観測文脈やデータ粒度が異なることを補正する要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:アプリ領域補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "アプリ領域補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "複数アプリ横断補正適用条件",
+        "複数アプリ横断補正補正対象",
+        "複数アプリ横断補正信頼度影響",
+        "複数アプリ横断補正時系列影響"
+      ],
+      "signal_candidates": [
+        "複数アプリ横断補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000061_short_term_state_modifier.yml",
+      "id": "MOD-000061",
+      "knowledge_type": "modifier",
+      "name_ja": "短期状態補正",
+      "name_en": "Short Term State Modifier",
+      "category": "Modifier",
+      "attribute": "Temporal Correction",
+      "definition_ja": "一時的な状態変化を長期傾向と誤認しないための補正要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:時系列補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "時系列補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "短期状態補正適用条件",
+        "短期状態補正補正対象",
+        "短期状態補正信頼度影響",
+        "短期状態補正時系列影響"
+      ],
+      "signal_candidates": [
+        "短期状態補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000062_long_term_trait_modifier.yml",
+      "id": "MOD-000062",
+      "knowledge_type": "modifier",
+      "name_ja": "長期傾向補正",
+      "name_en": "Long Term Trait Modifier",
+      "category": "Modifier",
+      "attribute": "Temporal Correction",
+      "definition_ja": "長期間安定して観測される傾向を重視する補正要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:時系列補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "時系列補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "長期傾向補正適用条件",
+        "長期傾向補正補正対象",
+        "長期傾向補正信頼度影響",
+        "長期傾向補正時系列影響"
+      ],
+      "signal_candidates": [
+        "長期傾向補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000063_trend_modifier.yml",
+      "id": "MOD-000063",
+      "knowledge_type": "modifier",
+      "name_ja": "傾向変化補正",
+      "name_en": "Trend Modifier",
+      "category": "Modifier",
+      "attribute": "Temporal Correction",
+      "definition_ja": "時系列上の増加・低下・安定傾向を反映する補正要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:時系列補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "時系列補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "傾向変化補正適用条件",
+        "傾向変化補正補正対象",
+        "傾向変化補正信頼度影響",
+        "傾向変化補正時系列影響"
+      ],
+      "signal_candidates": [
+        "傾向変化補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000064_seasonality_modifier.yml",
+      "id": "MOD-000064",
+      "knowledge_type": "modifier",
+      "name_ja": "季節性補正",
+      "name_en": "Seasonality Modifier",
+      "category": "Modifier",
+      "attribute": "Temporal Correction",
+      "definition_ja": "季節・年度・イベント周期による行動変化を補正する要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:時系列補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "時系列補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "季節性補正適用条件",
+        "季節性補正補正対象",
+        "季節性補正信頼度影響",
+        "季節性補正時系列影響"
+      ],
+      "signal_candidates": [
+        "季節性補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000065_event_window_modifier.yml",
+      "id": "MOD-000065",
+      "knowledge_type": "modifier",
+      "name_ja": "イベント期間補正",
+      "name_en": "Event Window Modifier",
+      "category": "Modifier",
+      "attribute": "Temporal Correction",
+      "definition_ja": "試験・繁忙期・旅行・体調不良など特定期間の影響を補正する要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:時系列補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "時系列補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "イベント期間補正適用条件",
+        "イベント期間補正補正対象",
+        "イベント期間補正信頼度影響",
+        "イベント期間補正時系列影響"
+      ],
+      "signal_candidates": [
+        "イベント期間補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000066_adaptation_period_modifier.yml",
+      "id": "MOD-000066",
+      "knowledge_type": "modifier",
+      "name_ja": "適応期間補正",
+      "name_en": "Adaptation Period Modifier",
+      "category": "Modifier",
+      "attribute": "Temporal Correction",
+      "definition_ja": "新環境・新機能・新課題への慣れによる変化を補正する要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:時系列補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "時系列補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "適応期間補正適用条件",
+        "適応期間補正補正対象",
+        "適応期間補正信頼度影響",
+        "適応期間補正時系列影響"
+      ],
+      "signal_candidates": [
+        "適応期間補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000067_recency_weight_modifier.yml",
+      "id": "MOD-000067",
+      "knowledge_type": "modifier",
+      "name_ja": "直近重み補正",
+      "name_en": "Recency Weight Modifier",
+      "category": "Modifier",
+      "attribute": "Temporal Correction",
+      "definition_ja": "直近データをどの程度重視するかを調整する補正要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:時系列補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "時系列補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "直近重み補正適用条件",
+        "直近重み補正補正対象",
+        "直近重み補正信頼度影響",
+        "直近重み補正時系列影響"
+      ],
+      "signal_candidates": [
+        "直近重み補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000068_history_length_modifier.yml",
+      "id": "MOD-000068",
+      "knowledge_type": "modifier",
+      "name_ja": "履歴長補正",
+      "name_en": "History Length Modifier",
+      "category": "Modifier",
+      "attribute": "Temporal Correction",
+      "definition_ja": "利用可能な履歴期間の長短による推論信頼度を補正する要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:時系列補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "時系列補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "履歴長補正適用条件",
+        "履歴長補正補正対象",
+        "履歴長補正信頼度影響",
+        "履歴長補正時系列影響"
+      ],
+      "signal_candidates": [
+        "履歴長補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000069_recovery_window_modifier.yml",
+      "id": "MOD-000069",
+      "knowledge_type": "modifier",
+      "name_ja": "回復期間補正",
+      "name_en": "Recovery Window Modifier",
+      "category": "Modifier",
+      "attribute": "Temporal Correction",
+      "definition_ja": "負荷や低下後に回復するまでの期間を考慮する補正要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:時系列補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "時系列補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "回復期間補正適用条件",
+        "回復期間補正補正対象",
+        "回復期間補正信頼度影響",
+        "回復期間補正時系列影響"
+      ],
+      "signal_candidates": [
+        "回復期間補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000070_change_point_modifier.yml",
+      "id": "MOD-000070",
+      "knowledge_type": "modifier",
+      "name_ja": "変化点補正",
+      "name_en": "Change Point Modifier",
+      "category": "Modifier",
+      "attribute": "Temporal Correction",
+      "definition_ja": "行動や状態が大きく変わった時点を考慮する補正要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:時系列補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "時系列補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "変化点補正適用条件",
+        "変化点補正補正対象",
+        "変化点補正信頼度影響",
+        "変化点補正時系列影響"
+      ],
+      "signal_candidates": [
+        "変化点補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000071_public_visibility_modifier.yml",
+      "id": "MOD-000071",
+      "knowledge_type": "modifier",
+      "name_ja": "公開性補正",
+      "name_en": "Public Visibility Modifier",
+      "category": "Modifier",
+      "attribute": "Social Correction",
+      "definition_ja": "他者から見える場面で行動や表現が変わることを補正する要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:社会補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "社会補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "公開性補正適用条件",
+        "公開性補正補正対象",
+        "公開性補正信頼度影響",
+        "公開性補正時系列影響"
+      ],
+      "signal_candidates": [
+        "公開性補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000072_anonymous_context_modifier.yml",
+      "id": "MOD-000072",
+      "knowledge_type": "modifier",
+      "name_ja": "匿名文脈補正",
+      "name_en": "Anonymous Context Modifier",
+      "category": "Modifier",
+      "attribute": "Social Correction",
+      "definition_ja": "匿名性によって自己開示や攻撃性が変化することを補正する要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:社会補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "社会補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "匿名文脈補正適用条件",
+        "匿名文脈補正補正対象",
+        "匿名文脈補正信頼度影響",
+        "匿名文脈補正時系列影響"
+      ],
+      "signal_candidates": [
+        "匿名文脈補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000073_authority_presence_modifier.yml",
+      "id": "MOD-000073",
+      "knowledge_type": "modifier",
+      "name_ja": "権威存在補正",
+      "name_en": "Authority Presence Modifier",
+      "category": "Modifier",
+      "attribute": "Social Correction",
+      "definition_ja": "上司・教師・専門家など権威の存在による行動差を補正する要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:社会補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "社会補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "権威存在補正適用条件",
+        "権威存在補正補正対象",
+        "権威存在補正信頼度影響",
+        "権威存在補正時系列影響"
+      ],
+      "signal_candidates": [
+        "権威存在補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000074_peer_presence_modifier.yml",
+      "id": "MOD-000074",
+      "knowledge_type": "modifier",
+      "name_ja": "仲間存在補正",
+      "name_en": "Peer Presence Modifier",
+      "category": "Modifier",
+      "attribute": "Social Correction",
+      "definition_ja": "仲間や同年代の存在による同調・競争・自己呈示の影響を補正する要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:社会補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "社会補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "仲間存在補正適用条件",
+        "仲間存在補正補正対象",
+        "仲間存在補正信頼度影響",
+        "仲間存在補正時系列影響"
+      ],
+      "signal_candidates": [
+        "仲間存在補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000075_group_norm_modifier.yml",
+      "id": "MOD-000075",
+      "knowledge_type": "modifier",
+      "name_ja": "集団規範補正",
+      "name_en": "Group Norm Modifier",
+      "category": "Modifier",
+      "attribute": "Social Correction",
+      "definition_ja": "集団の暗黙ルールや期待による行動差を補正する要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:社会補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "社会補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "集団規範補正適用条件",
+        "集団規範補正補正対象",
+        "集団規範補正信頼度影響",
+        "集団規範補正時系列影響"
+      ],
+      "signal_candidates": [
+        "集団規範補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000076_relationship_closeness_modifier.yml",
+      "id": "MOD-000076",
+      "knowledge_type": "modifier",
+      "name_ja": "関係親密度補正",
+      "name_en": "Relationship Closeness Modifier",
+      "category": "Modifier",
+      "attribute": "Social Correction",
+      "definition_ja": "相手との親密さや距離感による表現・反応差を補正する要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:社会補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "社会補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "関係親密度補正適用条件",
+        "関係親密度補正補正対象",
+        "関係親密度補正信頼度影響",
+        "関係親密度補正時系列影響"
+      ],
+      "signal_candidates": [
+        "関係親密度補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000077_power_distance_modifier.yml",
+      "id": "MOD-000077",
+      "knowledge_type": "modifier",
+      "name_ja": "権力距離補正",
+      "name_en": "Power Distance Modifier",
+      "category": "Modifier",
+      "attribute": "Social Correction",
+      "definition_ja": "上下関係や地位差による発言・選択の変化を補正する要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:社会補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "社会補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "権力距離補正適用条件",
+        "権力距離補正補正対象",
+        "権力距離補正信頼度影響",
+        "権力距離補正時系列影響"
+      ],
+      "signal_candidates": [
+        "権力距離補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000078_social_evaluation_modifier.yml",
+      "id": "MOD-000078",
+      "knowledge_type": "modifier",
+      "name_ja": "社会的評価補正",
+      "name_en": "Social Evaluation Modifier",
+      "category": "Modifier",
+      "attribute": "Social Correction",
+      "definition_ja": "評価・評判・承認への意識による行動変化を補正する要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:社会補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "社会補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "社会的評価補正適用条件",
+        "社会的評価補正補正対象",
+        "社会的評価補正信頼度影響",
+        "社会的評価補正時系列影響"
+      ],
+      "signal_candidates": [
+        "社会的評価補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000079_conflict_context_modifier.yml",
+      "id": "MOD-000079",
+      "knowledge_type": "modifier",
+      "name_ja": "葛藤文脈補正",
+      "name_en": "Conflict Context Modifier",
+      "category": "Modifier",
+      "attribute": "Social Correction",
+      "definition_ja": "対立や不和の文脈で行動や感情が変わることを補正する要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:社会補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "社会補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "葛藤文脈補正適用条件",
+        "葛藤文脈補正補正対象",
+        "葛藤文脈補正信頼度影響",
+        "葛藤文脈補正時系列影響"
+      ],
+      "signal_candidates": [
+        "葛藤文脈補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000080_support_presence_modifier.yml",
+      "id": "MOD-000080",
+      "knowledge_type": "modifier",
+      "name_ja": "支援存在補正",
+      "name_en": "Support Presence Modifier",
+      "category": "Modifier",
+      "attribute": "Social Correction",
+      "definition_ja": "周囲の支援や相談先の有無による行動差を補正する要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:社会補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "社会補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "支援存在補正適用条件",
+        "支援存在補正補正対象",
+        "支援存在補正信頼度影響",
+        "支援存在補正時系列影響"
+      ],
+      "signal_candidates": [
+        "支援存在補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000081_non_diagnostic_modifier.yml",
+      "id": "MOD-000081",
+      "knowledge_type": "modifier",
+      "name_ja": "非診断補正",
+      "name_en": "Non Diagnostic Modifier",
+      "category": "Modifier",
+      "attribute": "Interpretation Correction",
+      "definition_ja": "観測結果を診断や断定として扱わないための補正要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:解釈補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "解釈補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "非診断補正適用条件",
+        "非診断補正補正対象",
+        "非診断補正信頼度影響",
+        "非診断補正時系列影響"
+      ],
+      "signal_candidates": [
+        "非診断補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000082_possibility_expression_modifier.yml",
+      "id": "MOD-000082",
+      "knowledge_type": "modifier",
+      "name_ja": "可能性表現補正",
+      "name_en": "Possibility Expression Modifier",
+      "category": "Modifier",
+      "attribute": "Interpretation Correction",
+      "definition_ja": "推論結果を可能性や傾向として表現するための補正要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:解釈補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "解釈補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "可能性表現補正適用条件",
+        "可能性表現補正補正対象",
+        "可能性表現補正信頼度影響",
+        "可能性表現補正時系列影響"
+      ],
+      "signal_candidates": [
+        "可能性表現補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000083_uncertainty_expression_modifier.yml",
+      "id": "MOD-000083",
+      "knowledge_type": "modifier",
+      "name_ja": "不確実性表現補正",
+      "name_en": "Uncertainty Expression Modifier",
+      "category": "Modifier",
+      "attribute": "Interpretation Correction",
+      "definition_ja": "データ不足や文脈不明時に不確実性を明示する補正要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:解釈補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "解釈補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "不確実性表現補正適用条件",
+        "不確実性表現補正補正対象",
+        "不確実性表現補正信頼度影響",
+        "不確実性表現補正時系列影響"
+      ],
+      "signal_candidates": [
+        "不確実性表現補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000084_strength_scaling_modifier.yml",
+      "id": "MOD-000084",
+      "knowledge_type": "modifier",
+      "name_ja": "推論強度調整補正",
+      "name_en": "Strength Scaling Modifier",
+      "category": "Modifier",
+      "attribute": "Interpretation Correction",
+      "definition_ja": "根拠の量や一貫性に応じて推論強度を調整する補正要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:解釈補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "解釈補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "推論強度調整補正適用条件",
+        "推論強度調整補正補正対象",
+        "推論強度調整補正信頼度影響",
+        "推論強度調整補正時系列影響"
+      ],
+      "signal_candidates": [
+        "推論強度調整補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000085_alternative_explanation_modifier.yml",
+      "id": "MOD-000085",
+      "knowledge_type": "modifier",
+      "name_ja": "代替説明補正",
+      "name_en": "Alternative Explanation Modifier",
+      "category": "Modifier",
+      "attribute": "Interpretation Correction",
+      "definition_ja": "一つの解釈に固定せず複数の説明可能性を残す補正要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:解釈補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "解釈補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "代替説明補正適用条件",
+        "代替説明補正補正対象",
+        "代替説明補正信頼度影響",
+        "代替説明補正時系列影響"
+      ],
+      "signal_candidates": [
+        "代替説明補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000086_contextual_display_modifier.yml",
+      "id": "MOD-000086",
+      "knowledge_type": "modifier",
+      "name_ja": "文脈付き表示補正",
+      "name_en": "Contextual Display Modifier",
+      "category": "Modifier",
+      "attribute": "Interpretation Correction",
+      "definition_ja": "結果を文脈条件とセットで表示するための補正要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:解釈補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "解釈補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "文脈付き表示補正適用条件",
+        "文脈付き表示補正補正対象",
+        "文脈付き表示補正信頼度影響",
+        "文脈付き表示補正時系列影響"
+      ],
+      "signal_candidates": [
+        "文脈付き表示補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000087_supportive_tone_modifier.yml",
+      "id": "MOD-000087",
+      "knowledge_type": "modifier",
+      "name_ja": "支援的表現補正",
+      "name_en": "Supportive Tone Modifier",
+      "category": "Modifier",
+      "attribute": "Interpretation Correction",
+      "definition_ja": "評価的・断定的ではなく支援的に表示するための補正要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:解釈補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "解釈補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "支援的表現補正適用条件",
+        "支援的表現補正補正対象",
+        "支援的表現補正信頼度影響",
+        "支援的表現補正時系列影響"
+      ],
+      "signal_candidates": [
+        "支援的表現補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000088_user_control_modifier.yml",
+      "id": "MOD-000088",
+      "knowledge_type": "modifier",
+      "name_ja": "ユーザー主導補正",
+      "name_en": "User Control Modifier",
+      "category": "Modifier",
+      "attribute": "Interpretation Correction",
+      "definition_ja": "推論表示や提案をユーザーが選択・調整できるようにする補正要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:解釈補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "解釈補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "ユーザー主導補正適用条件",
+        "ユーザー主導補正補正対象",
+        "ユーザー主導補正信頼度影響",
+        "ユーザー主導補正時系列影響"
+      ],
+      "signal_candidates": [
+        "ユーザー主導補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000089_explainability_modifier.yml",
+      "id": "MOD-000089",
+      "knowledge_type": "modifier",
+      "name_ja": "説明可能性補正",
+      "name_en": "Explainability Modifier",
+      "category": "Modifier",
+      "attribute": "Interpretation Correction",
+      "definition_ja": "なぜその推論材料が使われたか説明しやすくする補正要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:解釈補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "解釈補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "説明可能性補正適用条件",
+        "説明可能性補正補正対象",
+        "説明可能性補正信頼度影響",
+        "説明可能性補正時系列影響"
+      ],
+      "signal_candidates": [
+        "説明可能性補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000090_feedback_loop_modifier.yml",
+      "id": "MOD-000090",
+      "knowledge_type": "modifier",
+      "name_ja": "フィードバックループ補正",
+      "name_en": "Feedback Loop Modifier",
+      "category": "Modifier",
+      "attribute": "Interpretation Correction",
+      "definition_ja": "ユーザーの修正・否定・確認を次回推論に反映する補正要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:解釈補正",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "解釈補正"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "フィードバックループ補正適用条件",
+        "フィードバックループ補正補正対象",
+        "フィードバックループ補正信頼度影響",
+        "フィードバックループ補正時系列影響"
+      ],
+      "signal_candidates": [
+        "フィードバックループ補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000091_modifier_priority.yml",
+      "id": "MOD-000091",
+      "knowledge_type": "modifier",
+      "name_ja": "補正優先度",
+      "name_en": "Modifier Priority",
+      "category": "Modifier",
+      "attribute": "Integration",
+      "definition_ja": "複数補正要因がある場合にどれを優先するかの管理概念。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:統合",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "補正優先度適用条件",
+        "補正優先度補正対象",
+        "補正優先度信頼度影響",
+        "補正優先度時系列影響"
+      ],
+      "signal_candidates": [
+        "補正優先度が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000092_modifier_conflict_resolution.yml",
+      "id": "MOD-000092",
+      "knowledge_type": "modifier",
+      "name_ja": "補正競合解決",
+      "name_en": "Modifier Conflict Resolution",
+      "category": "Modifier",
+      "attribute": "Integration",
+      "definition_ja": "補正要因同士が矛盾する場合に解釈を調整する枠組み。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:統合",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "補正競合解決適用条件",
+        "補正競合解決補正対象",
+        "補正競合解決信頼度影響",
+        "補正競合解決時系列影響"
+      ],
+      "signal_candidates": [
+        "補正競合解決が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000093_modifier_stack.yml",
+      "id": "MOD-000093",
+      "knowledge_type": "modifier",
+      "name_ja": "補正スタック",
+      "name_en": "Modifier Stack",
+      "category": "Modifier",
+      "attribute": "Integration",
+      "definition_ja": "複数の補正要因を重ねて適用するための管理概念。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:統合",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "補正スタック適用条件",
+        "補正スタック補正対象",
+        "補正スタック信頼度影響",
+        "補正スタック時系列影響"
+      ],
+      "signal_candidates": [
+        "補正スタックが必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000094_confidence_adjustment.yml",
+      "id": "MOD-000094",
+      "knowledge_type": "modifier",
+      "name_ja": "信頼度調整",
+      "name_en": "Confidence Adjustment",
+      "category": "Modifier",
+      "attribute": "Integration",
+      "definition_ja": "観測量・一貫性・文脈をもとに推論信頼度を調整する概念。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:統合",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "信頼度調整適用条件",
+        "信頼度調整補正対象",
+        "信頼度調整信頼度影響",
+        "信頼度調整時系列影響"
+      ],
+      "signal_candidates": [
+        "信頼度調整が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000095_interpretation_guardrail.yml",
+      "id": "MOD-000095",
+      "knowledge_type": "modifier",
+      "name_ja": "解釈ガードレール",
+      "name_en": "Interpretation Guardrail",
+      "category": "Modifier",
+      "attribute": "Integration",
+      "definition_ja": "過度な断定・偏見・不適切表示を防ぐ補正枠組み。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:統合",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "解釈ガードレール適用条件",
+        "解釈ガードレール補正対象",
+        "解釈ガードレール信頼度影響",
+        "解釈ガードレール時系列影響"
+      ],
+      "signal_candidates": [
+        "解釈ガードレールが必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000096_cross_domain_modifier.yml",
+      "id": "MOD-000096",
+      "knowledge_type": "modifier",
+      "name_ja": "領域横断補正",
+      "name_en": "Cross Domain Modifier",
+      "category": "Modifier",
+      "attribute": "Integration",
+      "definition_ja": "複数領域のデータや知識を横断する際の補正要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:統合",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "領域横断補正適用条件",
+        "領域横断補正補正対象",
+        "領域横断補正信頼度影響",
+        "領域横断補正時系列影響"
+      ],
+      "signal_candidates": [
+        "領域横断補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000097_human_review_modifier.yml",
+      "id": "MOD-000097",
+      "knowledge_type": "modifier",
+      "name_ja": "人間確認補正",
+      "name_en": "Human Review Modifier",
+      "category": "Modifier",
+      "attribute": "Integration",
+      "definition_ja": "高リスク推論や曖昧な結果に人間確認を挟む補正要因。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:統合",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "人間確認補正適用条件",
+        "人間確認補正補正対象",
+        "人間確認補正信頼度影響",
+        "人間確認補正時系列影響"
+      ],
+      "signal_candidates": [
+        "人間確認補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000098_adaptive_modifier.yml",
+      "id": "MOD-000098",
+      "knowledge_type": "modifier",
+      "name_ja": "適応的補正",
+      "name_en": "Adaptive Modifier",
+      "category": "Modifier",
+      "attribute": "Integration",
+      "definition_ja": "利用履歴やユーザー反応に応じて補正のかけ方を調整する概念。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:統合",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "適応的補正適用条件",
+        "適応的補正補正対象",
+        "適応的補正信頼度影響",
+        "適応的補正時系列影響"
+      ],
+      "signal_candidates": [
+        "適応的補正が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000099_modifier_audit_signal.yml",
+      "id": "MOD-000099",
+      "knowledge_type": "modifier",
+      "name_ja": "補正監査シグナル",
+      "name_en": "Modifier Audit Signal",
+      "category": "Modifier",
+      "attribute": "Integration",
+      "definition_ja": "補正が適切に適用されたか確認するための監査材料。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:統合",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "補正監査シグナル適用条件",
+        "補正監査シグナル補正対象",
+        "補正監査シグナル信頼度影響",
+        "補正監査シグナル時系列影響"
+      ],
+      "signal_candidates": [
+        "補正監査シグナルが必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MOD-000100_modifier_integration.yml",
+      "id": "MOD-000100",
+      "knowledge_type": "modifier",
+      "name_ja": "補正統合",
+      "name_en": "Modifier Integration",
+      "category": "Modifier",
+      "attribute": "Integration",
+      "definition_ja": "文脈・状態・品質・安全性を統合して推論を調整する枠組み。",
+      "tags": [
+        "CAT:補正要因",
+        "CAT:統合",
+        "ATTR:推論補正"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "観測シグナル",
+        "推論材料",
+        "安全設計"
+      ],
+      "observable_data": [
+        "補正統合適用条件",
+        "補正統合補正対象",
+        "補正統合信頼度影響",
+        "補正統合時系列影響"
+      ],
+      "signal_candidates": [
+        "補正統合が必要な文脈が観測される",
+        "推論結果の強さや表示表現を補正する材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "データ品質",
+        "個人差",
+        "安全性"
+      ],
+      "evidence": "心理測定・HCI・UX研究・安全設計で使用",
+      "status": "active"
+    }
+  ]
+}

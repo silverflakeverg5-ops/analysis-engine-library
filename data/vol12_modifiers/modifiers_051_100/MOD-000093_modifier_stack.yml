@@ -1,0 +1,33 @@
+id: MOD-000093
+knowledge_type: modifier
+name_ja: 補正スタック
+name_en: Modifier Stack
+category: Modifier
+attribute: Integration
+definition_ja: 複数の補正要因を重ねて適用するための管理概念。
+tags:
+  - CAT:補正要因
+  - CAT:統合
+  - ATTR:推論補正
+parent:
+  - 統合
+related:
+  - 観測シグナル
+  - 推論材料
+  - 安全設計
+observable_data:
+  - 補正スタック適用条件
+  - 補正スタック補正対象
+  - 補正スタック信頼度影響
+  - 補正スタック時系列影響
+signal_candidates:
+  - 補正スタックが必要な文脈が観測される
+  - 推論結果の強さや表示表現を補正する材料になる
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 文脈
+  - データ品質
+  - 個人差
+  - 安全性
+evidence: 心理測定・HCI・UX研究・安全設計で使用
+status: active

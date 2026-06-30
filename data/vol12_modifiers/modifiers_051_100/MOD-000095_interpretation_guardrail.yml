@@ -1,0 +1,33 @@
+id: MOD-000095
+knowledge_type: modifier
+name_ja: 解釈ガードレール
+name_en: Interpretation Guardrail
+category: Modifier
+attribute: Integration
+definition_ja: 過度な断定・偏見・不適切表示を防ぐ補正枠組み。
+tags:
+  - CAT:補正要因
+  - CAT:統合
+  - ATTR:推論補正
+parent:
+  - 統合
+related:
+  - 観測シグナル
+  - 推論材料
+  - 安全設計
+observable_data:
+  - 解釈ガードレール適用条件
+  - 解釈ガードレール補正対象
+  - 解釈ガードレール信頼度影響
+  - 解釈ガードレール時系列影響
+signal_candidates:
+  - 解釈ガードレールが必要な文脈が観測される
+  - 推論結果の強さや表示表現を補正する材料になる
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 文脈
+  - データ品質
+  - 個人差
+  - 安全性
+evidence: 心理測定・HCI・UX研究・安全設計で使用
+status: active

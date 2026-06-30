@@ -1,0 +1,33 @@
+id: MOD-000077
+knowledge_type: modifier
+name_ja: 権力距離補正
+name_en: Power Distance Modifier
+category: Modifier
+attribute: Social Correction
+definition_ja: 上下関係や地位差による発言・選択の変化を補正する要因。
+tags:
+  - CAT:補正要因
+  - CAT:社会補正
+  - ATTR:推論補正
+parent:
+  - 社会補正
+related:
+  - 観測シグナル
+  - 推論材料
+  - 安全設計
+observable_data:
+  - 権力距離補正適用条件
+  - 権力距離補正補正対象
+  - 権力距離補正信頼度影響
+  - 権力距離補正時系列影響
+signal_candidates:
+  - 権力距離補正が必要な文脈が観測される
+  - 推論結果の強さや表示表現を補正する材料になる
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 文脈
+  - データ品質
+  - 個人差
+  - 安全性
+evidence: 心理測定・HCI・UX研究・安全設計で使用
+status: active

@@ -1,0 +1,33 @@
+id: EVID-000051
+knowledge_type: evidence_source
+name_ja: ランダム化比較試験
+name_en: Randomized Controlled Trial
+category: Evidence Source
+attribute: Research Design
+definition_ja: 対象をランダムに条件へ割り当て、介入効果を比較する研究設計。
+tags:
+  - CAT:根拠
+  - CAT:研究設計
+  - ATTR:根拠種別
+parent:
+  - 研究設計
+related:
+  - 知識品質
+  - 監査
+  - 推論材料
+observable_data:
+  - ランダム化比較試験参照有無
+  - ランダム化比較試験根拠強度
+  - ランダム化比較試験適用範囲
+  - ランダム化比較試験限界条件
+signal_candidates:
+  - ランダム化比較試験を根拠種別として利用できる
+  - 知識項目の信頼度や適用範囲を判断する材料になる
+device_level: DB管理用
+modifiers:
+  - 根拠強度
+  - 適用範囲
+  - 再現性
+  - 倫理性
+evidence: 研究方法論・心理測定・科学的根拠評価で使用
+status: active

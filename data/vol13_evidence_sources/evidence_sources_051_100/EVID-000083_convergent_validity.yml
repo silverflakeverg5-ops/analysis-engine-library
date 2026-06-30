@@ -1,0 +1,33 @@
+id: EVID-000083
+knowledge_type: evidence_source
+name_ja: 収束的妥当性
+name_en: Convergent Validity
+category: Evidence Source
+attribute: Validity
+definition_ja: 関連する概念や尺度と適切に相関すること。
+tags:
+  - CAT:根拠
+  - CAT:妥当性
+  - ATTR:根拠種別
+parent:
+  - 妥当性
+related:
+  - 知識品質
+  - 監査
+  - 推論材料
+observable_data:
+  - 収束的妥当性参照有無
+  - 収束的妥当性根拠強度
+  - 収束的妥当性適用範囲
+  - 収束的妥当性限界条件
+signal_candidates:
+  - 収束的妥当性を根拠種別として利用できる
+  - 知識項目の信頼度や適用範囲を判断する材料になる
+device_level: DB管理用
+modifiers:
+  - 根拠強度
+  - 適用範囲
+  - 再現性
+  - 倫理性
+evidence: 研究方法論・心理測定・科学的根拠評価で使用
+status: active

@@ -1,0 +1,33 @@
+id: EVID-000071
+knowledge_type: evidence_source
+name_ja: サンプルサイズ品質
+name_en: Sample Size Quality
+category: Evidence Source
+attribute: Statistical Quality
+definition_ja: 分析に使う対象数や観測数が十分かを示す品質概念。
+tags:
+  - CAT:根拠
+  - CAT:統計品質
+  - ATTR:根拠種別
+parent:
+  - 統計品質
+related:
+  - 知識品質
+  - 監査
+  - 推論材料
+observable_data:
+  - サンプルサイズ品質参照有無
+  - サンプルサイズ品質根拠強度
+  - サンプルサイズ品質適用範囲
+  - サンプルサイズ品質限界条件
+signal_candidates:
+  - サンプルサイズ品質を根拠種別として利用できる
+  - 知識項目の信頼度や適用範囲を判断する材料になる
+device_level: DB管理用
+modifiers:
+  - 根拠強度
+  - 適用範囲
+  - 再現性
+  - 倫理性
+evidence: 研究方法論・心理測定・科学的根拠評価で使用
+status: active

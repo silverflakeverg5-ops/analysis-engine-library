@@ -1,0 +1,33 @@
+id: EVID-000069
+knowledge_type: evidence_source
+name_ja: 生理データ
+name_en: Physiological Data
+category: Evidence Source
+attribute: Data Type
+definition_ja: 心拍・睡眠・活動量・ストレス指標など身体状態に関するデータ。
+tags:
+  - CAT:根拠
+  - CAT:データ種別
+  - ATTR:根拠種別
+parent:
+  - データ種別
+related:
+  - 知識品質
+  - 監査
+  - 推論材料
+observable_data:
+  - 生理データ参照有無
+  - 生理データ根拠強度
+  - 生理データ適用範囲
+  - 生理データ限界条件
+signal_candidates:
+  - 生理データを根拠種別として利用できる
+  - 知識項目の信頼度や適用範囲を判断する材料になる
+device_level: DB管理用
+modifiers:
+  - 根拠強度
+  - 適用範囲
+  - 再現性
+  - 倫理性
+evidence: 研究方法論・心理測定・科学的根拠評価で使用
+status: active

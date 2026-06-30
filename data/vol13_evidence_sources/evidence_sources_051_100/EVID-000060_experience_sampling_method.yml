@@ -1,0 +1,33 @@
+id: EVID-000060
+knowledge_type: evidence_source
+name_ja: 経験サンプリング法
+name_en: Experience Sampling Method
+category: Evidence Source
+attribute: Research Design
+definition_ja: 日常生活中に繰り返し状態や行動を記録する研究方法。
+tags:
+  - CAT:根拠
+  - CAT:研究設計
+  - ATTR:根拠種別
+parent:
+  - 研究設計
+related:
+  - 知識品質
+  - 監査
+  - 推論材料
+observable_data:
+  - 経験サンプリング法参照有無
+  - 経験サンプリング法根拠強度
+  - 経験サンプリング法適用範囲
+  - 経験サンプリング法限界条件
+signal_candidates:
+  - 経験サンプリング法を根拠種別として利用できる
+  - 知識項目の信頼度や適用範囲を判断する材料になる
+device_level: DB管理用
+modifiers:
+  - 根拠強度
+  - 適用範囲
+  - 再現性
+  - 倫理性
+evidence: 研究方法論・心理測定・科学的根拠評価で使用
+status: active

@@ -1,0 +1,33 @@
+id: EVID-000072
+knowledge_type: evidence_source
+name_ja: 検出力
+name_en: Statistical Power
+category: Evidence Source
+attribute: Statistical Quality
+definition_ja: 実際に効果がある場合にそれを検出できる確率。
+tags:
+  - CAT:根拠
+  - CAT:統計品質
+  - ATTR:根拠種別
+parent:
+  - 統計品質
+related:
+  - 知識品質
+  - 監査
+  - 推論材料
+observable_data:
+  - 検出力参照有無
+  - 検出力根拠強度
+  - 検出力適用範囲
+  - 検出力限界条件
+signal_candidates:
+  - 検出力を根拠種別として利用できる
+  - 知識項目の信頼度や適用範囲を判断する材料になる
+device_level: DB管理用
+modifiers:
+  - 根拠強度
+  - 適用範囲
+  - 再現性
+  - 倫理性
+evidence: 研究方法論・心理測定・科学的根拠評価で使用
+status: active

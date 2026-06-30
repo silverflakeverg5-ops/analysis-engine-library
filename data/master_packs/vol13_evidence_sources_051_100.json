@@ -1,0 +1,2107 @@
+{
+  "output_dir": "vol13_evidence_sources/evidence_sources_051_100",
+  "index_filename": "evidence_sources_051_100_index.yml",
+  "index_content": "category: Evidence Source\nname_ja: 根拠\nitems:\n  - EVID-000051_randomized_controlled_trial.yml\n  - EVID-000052_quasi_experimental_design.yml\n  - EVID-000053_cross_sectional_study.yml\n  - EVID-000054_longitudinal_study.yml\n  - EVID-000055_cohort_study.yml\n  - EVID-000056_case_control_study.yml\n  - EVID-000057_field_experiment.yml\n  - EVID-000058_lab_experiment.yml\n  - EVID-000059_natural_experiment.yml\n  - EVID-000060_experience_sampling_method.yml\n  - EVID-000061_behavioral_log_data.yml\n  - EVID-000062_questionnaire_data.yml\n  - EVID-000063_interview_data.yml\n  - EVID-000064_observation_data.yml\n  - EVID-000065_sensor_data.yml\n  - EVID-000066_text_data.yml\n  - EVID-000067_interaction_data.yml\n  - EVID-000068_performance_data.yml\n  - EVID-000069_physiological_data.yml\n  - EVID-000070_contextual_data.yml\n  - EVID-000071_sample_size_quality.yml\n  - EVID-000072_statistical_power.yml\n  - EVID-000073_confidence_interval.yml\n  - EVID-000074_effect_size.yml\n  - EVID-000075_p_value.yml\n  - EVID-000076_multiple_comparison_risk.yml\n  - EVID-000077_measurement_error.yml\n  - EVID-000078_internal_consistency.yml\n  - EVID-000079_test_retest_reliability.yml\n  - EVID-000080_inter_rater_reliability.yml\n  - EVID-000081_content_validity.yml\n  - EVID-000082_face_validity.yml\n  - EVID-000083_convergent_validity.yml\n  - EVID-000084_discriminant_validity.yml\n  - EVID-000085_predictive_validity.yml\n  - EVID-000086_concurrent_validity.yml\n  - EVID-000087_incremental_validity.yml\n  - EVID-000088_ecological_validity.yml\n  - EVID-000089_external_validity.yml\n  - EVID-000090_construct_coverage.yml\n  - EVID-000091_evidence_strength_level.yml\n  - EVID-000092_evidence_consistency.yml\n  - EVID-000093_evidence_relevance.yml\n  - EVID-000094_evidence_applicability.yml\n  - EVID-000095_evidence_limitation.yml\n  - EVID-000096_evidence_update_need.yml\n  - EVID-000097_cross_domain_evidence.yml\n  - EVID-000098_triangulation.yml\n  - EVID-000099_evidence_audit.yml\n  - EVID-000100_evidence_source_integration.yml\nnotes:\n  - 根拠は知識項目の品質管理材料として扱う\n  - Knowledge DB側では推論しない\n  - アプリ側で根拠強度や表示の慎重さに利用する\n",
+  "items": [
+    {
+      "filename": "EVID-000051_randomized_controlled_trial.yml",
+      "id": "EVID-000051",
+      "knowledge_type": "evidence_source",
+      "name_ja": "ランダム化比較試験",
+      "name_en": "Randomized Controlled Trial",
+      "category": "Evidence Source",
+      "attribute": "Research Design",
+      "definition_ja": "対象をランダムに条件へ割り当て、介入効果を比較する研究設計。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:研究設計",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "研究設計"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "ランダム化比較試験参照有無",
+        "ランダム化比較試験根拠強度",
+        "ランダム化比較試験適用範囲",
+        "ランダム化比較試験限界条件"
+      ],
+      "signal_candidates": [
+        "ランダム化比較試験を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000052_quasi_experimental_design.yml",
+      "id": "EVID-000052",
+      "knowledge_type": "evidence_source",
+      "name_ja": "準実験デザイン",
+      "name_en": "Quasi Experimental Design",
+      "category": "Evidence Source",
+      "attribute": "Research Design",
+      "definition_ja": "完全なランダム割付なしで条件差や介入効果を検討する研究設計。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:研究設計",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "研究設計"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "準実験デザイン参照有無",
+        "準実験デザイン根拠強度",
+        "準実験デザイン適用範囲",
+        "準実験デザイン限界条件"
+      ],
+      "signal_candidates": [
+        "準実験デザインを根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000053_cross_sectional_study.yml",
+      "id": "EVID-000053",
+      "knowledge_type": "evidence_source",
+      "name_ja": "横断研究",
+      "name_en": "Cross Sectional Study",
+      "category": "Evidence Source",
+      "attribute": "Research Design",
+      "definition_ja": "一時点のデータから変数間の関連を調べる研究設計。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:研究設計",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "研究設計"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "横断研究参照有無",
+        "横断研究根拠強度",
+        "横断研究適用範囲",
+        "横断研究限界条件"
+      ],
+      "signal_candidates": [
+        "横断研究を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000054_longitudinal_study.yml",
+      "id": "EVID-000054",
+      "knowledge_type": "evidence_source",
+      "name_ja": "縦断研究",
+      "name_en": "Longitudinal Study",
+      "category": "Evidence Source",
+      "attribute": "Research Design",
+      "definition_ja": "同じ対象を時間を追って観測し変化や因果可能性を検討する研究設計。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:研究設計",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "研究設計"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "縦断研究参照有無",
+        "縦断研究根拠強度",
+        "縦断研究適用範囲",
+        "縦断研究限界条件"
+      ],
+      "signal_candidates": [
+        "縦断研究を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000055_cohort_study.yml",
+      "id": "EVID-000055",
+      "knowledge_type": "evidence_source",
+      "name_ja": "コホート研究",
+      "name_en": "Cohort Study",
+      "category": "Evidence Source",
+      "attribute": "Research Design",
+      "definition_ja": "特定集団を追跡し要因と結果の関係を調べる研究設計。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:研究設計",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "研究設計"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "コホート研究参照有無",
+        "コホート研究根拠強度",
+        "コホート研究適用範囲",
+        "コホート研究限界条件"
+      ],
+      "signal_candidates": [
+        "コホート研究を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000056_case_control_study.yml",
+      "id": "EVID-000056",
+      "knowledge_type": "evidence_source",
+      "name_ja": "症例対照研究",
+      "name_en": "Case Control Study",
+      "category": "Evidence Source",
+      "attribute": "Research Design",
+      "definition_ja": "結果を持つ群と持たない群を比較し関連要因を調べる研究設計。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:研究設計",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "研究設計"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "症例対照研究参照有無",
+        "症例対照研究根拠強度",
+        "症例対照研究適用範囲",
+        "症例対照研究限界条件"
+      ],
+      "signal_candidates": [
+        "症例対照研究を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000057_field_experiment.yml",
+      "id": "EVID-000057",
+      "knowledge_type": "evidence_source",
+      "name_ja": "フィールド実験",
+      "name_en": "Field Experiment",
+      "category": "Evidence Source",
+      "attribute": "Research Design",
+      "definition_ja": "実際の環境で条件操作を行い行動変化を調べる研究設計。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:研究設計",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "研究設計"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "フィールド実験参照有無",
+        "フィールド実験根拠強度",
+        "フィールド実験適用範囲",
+        "フィールド実験限界条件"
+      ],
+      "signal_candidates": [
+        "フィールド実験を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000058_lab_experiment.yml",
+      "id": "EVID-000058",
+      "knowledge_type": "evidence_source",
+      "name_ja": "実験室実験",
+      "name_en": "Lab Experiment",
+      "category": "Evidence Source",
+      "attribute": "Research Design",
+      "definition_ja": "統制された環境で変数を操作し効果を調べる研究設計。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:研究設計",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "研究設計"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "実験室実験参照有無",
+        "実験室実験根拠強度",
+        "実験室実験適用範囲",
+        "実験室実験限界条件"
+      ],
+      "signal_candidates": [
+        "実験室実験を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000059_natural_experiment.yml",
+      "id": "EVID-000059",
+      "knowledge_type": "evidence_source",
+      "name_ja": "自然実験",
+      "name_en": "Natural Experiment",
+      "category": "Evidence Source",
+      "attribute": "Research Design",
+      "definition_ja": "自然発生した条件差を利用して影響を検討する研究設計。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:研究設計",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "研究設計"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "自然実験参照有無",
+        "自然実験根拠強度",
+        "自然実験適用範囲",
+        "自然実験限界条件"
+      ],
+      "signal_candidates": [
+        "自然実験を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000060_experience_sampling_method.yml",
+      "id": "EVID-000060",
+      "knowledge_type": "evidence_source",
+      "name_ja": "経験サンプリング法",
+      "name_en": "Experience Sampling Method",
+      "category": "Evidence Source",
+      "attribute": "Research Design",
+      "definition_ja": "日常生活中に繰り返し状態や行動を記録する研究方法。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:研究設計",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "研究設計"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "経験サンプリング法参照有無",
+        "経験サンプリング法根拠強度",
+        "経験サンプリング法適用範囲",
+        "経験サンプリング法限界条件"
+      ],
+      "signal_candidates": [
+        "経験サンプリング法を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000061_behavioral_log_data.yml",
+      "id": "EVID-000061",
+      "knowledge_type": "evidence_source",
+      "name_ja": "行動ログデータ",
+      "name_en": "Behavioral Log Data",
+      "category": "Evidence Source",
+      "attribute": "Data Type",
+      "definition_ja": "操作・閲覧・選択・利用頻度など行動から自動記録されるデータ。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:データ種別",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "データ種別"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "行動ログデータ参照有無",
+        "行動ログデータ根拠強度",
+        "行動ログデータ適用範囲",
+        "行動ログデータ限界条件"
+      ],
+      "signal_candidates": [
+        "行動ログデータを根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000062_questionnaire_data.yml",
+      "id": "EVID-000062",
+      "knowledge_type": "evidence_source",
+      "name_ja": "質問紙データ",
+      "name_en": "Questionnaire Data",
+      "category": "Evidence Source",
+      "attribute": "Data Type",
+      "definition_ja": "尺度や設問への回答によって得られる自己報告データ。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:データ種別",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "データ種別"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "質問紙データ参照有無",
+        "質問紙データ根拠強度",
+        "質問紙データ適用範囲",
+        "質問紙データ限界条件"
+      ],
+      "signal_candidates": [
+        "質問紙データを根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000063_interview_data.yml",
+      "id": "EVID-000063",
+      "knowledge_type": "evidence_source",
+      "name_ja": "インタビューデータ",
+      "name_en": "Interview Data",
+      "category": "Evidence Source",
+      "attribute": "Data Type",
+      "definition_ja": "対話や聞き取りから得られる質的情報。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:データ種別",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "データ種別"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "インタビューデータ参照有無",
+        "インタビューデータ根拠強度",
+        "インタビューデータ適用範囲",
+        "インタビューデータ限界条件"
+      ],
+      "signal_candidates": [
+        "インタビューデータを根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000064_observation_data.yml",
+      "id": "EVID-000064",
+      "knowledge_type": "evidence_source",
+      "name_ja": "観察データ",
+      "name_en": "Observation Data",
+      "category": "Evidence Source",
+      "attribute": "Data Type",
+      "definition_ja": "研究者やシステムが行動や状況を観察して記録したデータ。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:データ種別",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "データ種別"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "観察データ参照有無",
+        "観察データ根拠強度",
+        "観察データ適用範囲",
+        "観察データ限界条件"
+      ],
+      "signal_candidates": [
+        "観察データを根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000065_sensor_data.yml",
+      "id": "EVID-000065",
+      "knowledge_type": "evidence_source",
+      "name_ja": "センサーデータ",
+      "name_en": "Sensor Data",
+      "category": "Evidence Source",
+      "attribute": "Data Type",
+      "definition_ja": "端末・ウェアラブル・環境センサーなどから得られる測定データ。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:データ種別",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "データ種別"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "センサーデータ参照有無",
+        "センサーデータ根拠強度",
+        "センサーデータ適用範囲",
+        "センサーデータ限界条件"
+      ],
+      "signal_candidates": [
+        "センサーデータを根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000066_text_data.yml",
+      "id": "EVID-000066",
+      "knowledge_type": "evidence_source",
+      "name_ja": "テキストデータ",
+      "name_en": "Text Data",
+      "category": "Evidence Source",
+      "attribute": "Data Type",
+      "definition_ja": "入力文・発話・メッセージ・記録などの言語データ。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:データ種別",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "データ種別"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "テキストデータ参照有無",
+        "テキストデータ根拠強度",
+        "テキストデータ適用範囲",
+        "テキストデータ限界条件"
+      ],
+      "signal_candidates": [
+        "テキストデータを根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000067_interaction_data.yml",
+      "id": "EVID-000067",
+      "knowledge_type": "evidence_source",
+      "name_ja": "インタラクションデータ",
+      "name_en": "Interaction Data",
+      "category": "Evidence Source",
+      "attribute": "Data Type",
+      "definition_ja": "ユーザーとシステムの相互作用から得られる操作系列データ。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:データ種別",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "データ種別"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "インタラクションデータ参照有無",
+        "インタラクションデータ根拠強度",
+        "インタラクションデータ適用範囲",
+        "インタラクションデータ限界条件"
+      ],
+      "signal_candidates": [
+        "インタラクションデータを根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000068_performance_data.yml",
+      "id": "EVID-000068",
+      "knowledge_type": "evidence_source",
+      "name_ja": "成績データ",
+      "name_en": "Performance Data",
+      "category": "Evidence Source",
+      "attribute": "Data Type",
+      "definition_ja": "正答率・速度・エラー率・達成度など課題遂行から得られるデータ。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:データ種別",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "データ種別"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "成績データ参照有無",
+        "成績データ根拠強度",
+        "成績データ適用範囲",
+        "成績データ限界条件"
+      ],
+      "signal_candidates": [
+        "成績データを根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000069_physiological_data.yml",
+      "id": "EVID-000069",
+      "knowledge_type": "evidence_source",
+      "name_ja": "生理データ",
+      "name_en": "Physiological Data",
+      "category": "Evidence Source",
+      "attribute": "Data Type",
+      "definition_ja": "心拍・睡眠・活動量・ストレス指標など身体状態に関するデータ。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:データ種別",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "データ種別"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "生理データ参照有無",
+        "生理データ根拠強度",
+        "生理データ適用範囲",
+        "生理データ限界条件"
+      ],
+      "signal_candidates": [
+        "生理データを根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000070_contextual_data.yml",
+      "id": "EVID-000070",
+      "knowledge_type": "evidence_source",
+      "name_ja": "文脈データ",
+      "name_en": "Contextual Data",
+      "category": "Evidence Source",
+      "attribute": "Data Type",
+      "definition_ja": "時間・場所・端末・状況など観測の背景に関するデータ。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:データ種別",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "データ種別"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "文脈データ参照有無",
+        "文脈データ根拠強度",
+        "文脈データ適用範囲",
+        "文脈データ限界条件"
+      ],
+      "signal_candidates": [
+        "文脈データを根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000071_sample_size_quality.yml",
+      "id": "EVID-000071",
+      "knowledge_type": "evidence_source",
+      "name_ja": "サンプルサイズ品質",
+      "name_en": "Sample Size Quality",
+      "category": "Evidence Source",
+      "attribute": "Statistical Quality",
+      "definition_ja": "分析に使う対象数や観測数が十分かを示す品質概念。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:統計品質",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "統計品質"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "サンプルサイズ品質参照有無",
+        "サンプルサイズ品質根拠強度",
+        "サンプルサイズ品質適用範囲",
+        "サンプルサイズ品質限界条件"
+      ],
+      "signal_candidates": [
+        "サンプルサイズ品質を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000072_statistical_power.yml",
+      "id": "EVID-000072",
+      "knowledge_type": "evidence_source",
+      "name_ja": "検出力",
+      "name_en": "Statistical Power",
+      "category": "Evidence Source",
+      "attribute": "Statistical Quality",
+      "definition_ja": "実際に効果がある場合にそれを検出できる確率。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:統計品質",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "統計品質"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "検出力参照有無",
+        "検出力根拠強度",
+        "検出力適用範囲",
+        "検出力限界条件"
+      ],
+      "signal_candidates": [
+        "検出力を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000073_confidence_interval.yml",
+      "id": "EVID-000073",
+      "knowledge_type": "evidence_source",
+      "name_ja": "信頼区間",
+      "name_en": "Confidence Interval",
+      "category": "Evidence Source",
+      "attribute": "Statistical Quality",
+      "definition_ja": "推定値の不確実性の範囲を示す統計概念。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:統計品質",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "統計品質"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "信頼区間参照有無",
+        "信頼区間根拠強度",
+        "信頼区間適用範囲",
+        "信頼区間限界条件"
+      ],
+      "signal_candidates": [
+        "信頼区間を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000074_effect_size.yml",
+      "id": "EVID-000074",
+      "knowledge_type": "evidence_source",
+      "name_ja": "効果量",
+      "name_en": "Effect Size",
+      "category": "Evidence Source",
+      "attribute": "Statistical Quality",
+      "definition_ja": "差や関連の大きさを示す統計指標。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:統計品質",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "統計品質"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "効果量参照有無",
+        "効果量根拠強度",
+        "効果量適用範囲",
+        "効果量限界条件"
+      ],
+      "signal_candidates": [
+        "効果量を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000075_p_value.yml",
+      "id": "EVID-000075",
+      "knowledge_type": "evidence_source",
+      "name_ja": "p値",
+      "name_en": "P Value",
+      "category": "Evidence Source",
+      "attribute": "Statistical Quality",
+      "definition_ja": "帰無仮説の下で観測結果以上の結果が得られる確率。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:統計品質",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "統計品質"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "p値参照有無",
+        "p値根拠強度",
+        "p値適用範囲",
+        "p値限界条件"
+      ],
+      "signal_candidates": [
+        "p値を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000076_multiple_comparison_risk.yml",
+      "id": "EVID-000076",
+      "knowledge_type": "evidence_source",
+      "name_ja": "多重比較リスク",
+      "name_en": "Multiple Comparison Risk",
+      "category": "Evidence Source",
+      "attribute": "Statistical Quality",
+      "definition_ja": "多数の検定により偶然の有意結果が出やすくなるリスク。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:統計品質",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "統計品質"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "多重比較リスク参照有無",
+        "多重比較リスク根拠強度",
+        "多重比較リスク適用範囲",
+        "多重比較リスク限界条件"
+      ],
+      "signal_candidates": [
+        "多重比較リスクを根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000077_measurement_error.yml",
+      "id": "EVID-000077",
+      "knowledge_type": "evidence_source",
+      "name_ja": "測定誤差",
+      "name_en": "Measurement Error",
+      "category": "Evidence Source",
+      "attribute": "Statistical Quality",
+      "definition_ja": "測定値と真の値との差やばらつき。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:統計品質",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "統計品質"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "測定誤差参照有無",
+        "測定誤差根拠強度",
+        "測定誤差適用範囲",
+        "測定誤差限界条件"
+      ],
+      "signal_candidates": [
+        "測定誤差を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000078_internal_consistency.yml",
+      "id": "EVID-000078",
+      "knowledge_type": "evidence_source",
+      "name_ja": "内的一貫性",
+      "name_en": "Internal Consistency",
+      "category": "Evidence Source",
+      "attribute": "Statistical Quality",
+      "definition_ja": "同じ概念を測る項目同士が一貫している度合い。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:統計品質",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "統計品質"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "内的一貫性参照有無",
+        "内的一貫性根拠強度",
+        "内的一貫性適用範囲",
+        "内的一貫性限界条件"
+      ],
+      "signal_candidates": [
+        "内的一貫性を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000079_test_retest_reliability.yml",
+      "id": "EVID-000079",
+      "knowledge_type": "evidence_source",
+      "name_ja": "再検査信頼性",
+      "name_en": "Test Retest Reliability",
+      "category": "Evidence Source",
+      "attribute": "Statistical Quality",
+      "definition_ja": "時間を空けて同じ測定を行った時の安定性。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:統計品質",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "統計品質"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "再検査信頼性参照有無",
+        "再検査信頼性根拠強度",
+        "再検査信頼性適用範囲",
+        "再検査信頼性限界条件"
+      ],
+      "signal_candidates": [
+        "再検査信頼性を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000080_inter_rater_reliability.yml",
+      "id": "EVID-000080",
+      "knowledge_type": "evidence_source",
+      "name_ja": "評価者間信頼性",
+      "name_en": "Inter Rater Reliability",
+      "category": "Evidence Source",
+      "attribute": "Statistical Quality",
+      "definition_ja": "複数評価者の判断がどの程度一致するか。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:統計品質",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "統計品質"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "評価者間信頼性参照有無",
+        "評価者間信頼性根拠強度",
+        "評価者間信頼性適用範囲",
+        "評価者間信頼性限界条件"
+      ],
+      "signal_candidates": [
+        "評価者間信頼性を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000081_content_validity.yml",
+      "id": "EVID-000081",
+      "knowledge_type": "evidence_source",
+      "name_ja": "内容的妥当性",
+      "name_en": "Content Validity",
+      "category": "Evidence Source",
+      "attribute": "Validity",
+      "definition_ja": "測定項目が対象概念の内容領域を十分に代表しているか。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:妥当性",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "妥当性"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "内容的妥当性参照有無",
+        "内容的妥当性根拠強度",
+        "内容的妥当性適用範囲",
+        "内容的妥当性限界条件"
+      ],
+      "signal_candidates": [
+        "内容的妥当性を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000082_face_validity.yml",
+      "id": "EVID-000082",
+      "knowledge_type": "evidence_source",
+      "name_ja": "表面的妥当性",
+      "name_en": "Face Validity",
+      "category": "Evidence Source",
+      "attribute": "Validity",
+      "definition_ja": "測定が見た目上その概念を測っているように見える度合い。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:妥当性",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "妥当性"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "表面的妥当性参照有無",
+        "表面的妥当性根拠強度",
+        "表面的妥当性適用範囲",
+        "表面的妥当性限界条件"
+      ],
+      "signal_candidates": [
+        "表面的妥当性を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000083_convergent_validity.yml",
+      "id": "EVID-000083",
+      "knowledge_type": "evidence_source",
+      "name_ja": "収束的妥当性",
+      "name_en": "Convergent Validity",
+      "category": "Evidence Source",
+      "attribute": "Validity",
+      "definition_ja": "関連する概念や尺度と適切に相関すること。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:妥当性",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "妥当性"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "収束的妥当性参照有無",
+        "収束的妥当性根拠強度",
+        "収束的妥当性適用範囲",
+        "収束的妥当性限界条件"
+      ],
+      "signal_candidates": [
+        "収束的妥当性を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000084_discriminant_validity.yml",
+      "id": "EVID-000084",
+      "knowledge_type": "evidence_source",
+      "name_ja": "弁別的妥当性",
+      "name_en": "Discriminant Validity",
+      "category": "Evidence Source",
+      "attribute": "Validity",
+      "definition_ja": "異なる概念や尺度と過度に重ならないこと。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:妥当性",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "妥当性"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "弁別的妥当性参照有無",
+        "弁別的妥当性根拠強度",
+        "弁別的妥当性適用範囲",
+        "弁別的妥当性限界条件"
+      ],
+      "signal_candidates": [
+        "弁別的妥当性を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000085_predictive_validity.yml",
+      "id": "EVID-000085",
+      "knowledge_type": "evidence_source",
+      "name_ja": "予測的妥当性",
+      "name_en": "Predictive Validity",
+      "category": "Evidence Source",
+      "attribute": "Validity",
+      "definition_ja": "測定値が将来の行動や結果を予測できる度合い。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:妥当性",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "妥当性"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "予測的妥当性参照有無",
+        "予測的妥当性根拠強度",
+        "予測的妥当性適用範囲",
+        "予測的妥当性限界条件"
+      ],
+      "signal_candidates": [
+        "予測的妥当性を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000086_concurrent_validity.yml",
+      "id": "EVID-000086",
+      "knowledge_type": "evidence_source",
+      "name_ja": "併存的妥当性",
+      "name_en": "Concurrent Validity",
+      "category": "Evidence Source",
+      "attribute": "Validity",
+      "definition_ja": "同時点の外部基準と適切に関連すること。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:妥当性",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "妥当性"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "併存的妥当性参照有無",
+        "併存的妥当性根拠強度",
+        "併存的妥当性適用範囲",
+        "併存的妥当性限界条件"
+      ],
+      "signal_candidates": [
+        "併存的妥当性を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000087_incremental_validity.yml",
+      "id": "EVID-000087",
+      "knowledge_type": "evidence_source",
+      "name_ja": "増分妥当性",
+      "name_en": "Incremental Validity",
+      "category": "Evidence Source",
+      "attribute": "Validity",
+      "definition_ja": "既存指標に加えて新たな予測力や説明力を持つこと。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:妥当性",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "妥当性"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "増分妥当性参照有無",
+        "増分妥当性根拠強度",
+        "増分妥当性適用範囲",
+        "増分妥当性限界条件"
+      ],
+      "signal_candidates": [
+        "増分妥当性を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000088_ecological_validity.yml",
+      "id": "EVID-000088",
+      "knowledge_type": "evidence_source",
+      "name_ja": "生態学的妥当性",
+      "name_en": "Ecological Validity",
+      "category": "Evidence Source",
+      "attribute": "Validity",
+      "definition_ja": "現実の文脈や日常行動にどの程度適用できるか。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:妥当性",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "妥当性"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "生態学的妥当性参照有無",
+        "生態学的妥当性根拠強度",
+        "生態学的妥当性適用範囲",
+        "生態学的妥当性限界条件"
+      ],
+      "signal_candidates": [
+        "生態学的妥当性を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000089_external_validity.yml",
+      "id": "EVID-000089",
+      "knowledge_type": "evidence_source",
+      "name_ja": "外的妥当性",
+      "name_en": "External Validity",
+      "category": "Evidence Source",
+      "attribute": "Validity",
+      "definition_ja": "結果が他の対象・状況・時期にも一般化できる度合い。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:妥当性",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "妥当性"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "外的妥当性参照有無",
+        "外的妥当性根拠強度",
+        "外的妥当性適用範囲",
+        "外的妥当性限界条件"
+      ],
+      "signal_candidates": [
+        "外的妥当性を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000090_construct_coverage.yml",
+      "id": "EVID-000090",
+      "knowledge_type": "evidence_source",
+      "name_ja": "構成概念カバレッジ",
+      "name_en": "Construct Coverage",
+      "category": "Evidence Source",
+      "attribute": "Validity",
+      "definition_ja": "対象概念を過不足なく捉えているかを示す概念。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:妥当性",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "妥当性"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "構成概念カバレッジ参照有無",
+        "構成概念カバレッジ根拠強度",
+        "構成概念カバレッジ適用範囲",
+        "構成概念カバレッジ限界条件"
+      ],
+      "signal_candidates": [
+        "構成概念カバレッジを根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000091_evidence_strength_level.yml",
+      "id": "EVID-000091",
+      "knowledge_type": "evidence_source",
+      "name_ja": "根拠強度レベル",
+      "name_en": "Evidence Strength Level",
+      "category": "Evidence Source",
+      "attribute": "Evidence Integration",
+      "definition_ja": "根拠の信頼性や確実性を段階的に示す概念。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:統合評価",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "統合評価"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "根拠強度レベル参照有無",
+        "根拠強度レベル根拠強度",
+        "根拠強度レベル適用範囲",
+        "根拠強度レベル限界条件"
+      ],
+      "signal_candidates": [
+        "根拠強度レベルを根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000092_evidence_consistency.yml",
+      "id": "EVID-000092",
+      "knowledge_type": "evidence_source",
+      "name_ja": "根拠一貫性",
+      "name_en": "Evidence Consistency",
+      "category": "Evidence Source",
+      "attribute": "Evidence Integration",
+      "definition_ja": "複数研究や複数データで同じ傾向が示される度合い。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:統合評価",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "統合評価"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "根拠一貫性参照有無",
+        "根拠一貫性根拠強度",
+        "根拠一貫性適用範囲",
+        "根拠一貫性限界条件"
+      ],
+      "signal_candidates": [
+        "根拠一貫性を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000093_evidence_relevance.yml",
+      "id": "EVID-000093",
+      "knowledge_type": "evidence_source",
+      "name_ja": "根拠関連性",
+      "name_en": "Evidence Relevance",
+      "category": "Evidence Source",
+      "attribute": "Evidence Integration",
+      "definition_ja": "根拠が対象概念や利用目的にどの程度関係しているか。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:統合評価",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "統合評価"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "根拠関連性参照有無",
+        "根拠関連性根拠強度",
+        "根拠関連性適用範囲",
+        "根拠関連性限界条件"
+      ],
+      "signal_candidates": [
+        "根拠関連性を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000094_evidence_applicability.yml",
+      "id": "EVID-000094",
+      "knowledge_type": "evidence_source",
+      "name_ja": "根拠適用可能性",
+      "name_en": "Evidence Applicability",
+      "category": "Evidence Source",
+      "attribute": "Evidence Integration",
+      "definition_ja": "根拠を実際のアプリや文脈へ適用できる度合い。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:統合評価",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "統合評価"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "根拠適用可能性参照有無",
+        "根拠適用可能性根拠強度",
+        "根拠適用可能性適用範囲",
+        "根拠適用可能性限界条件"
+      ],
+      "signal_candidates": [
+        "根拠適用可能性を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000095_evidence_limitation.yml",
+      "id": "EVID-000095",
+      "knowledge_type": "evidence_source",
+      "name_ja": "根拠限界",
+      "name_en": "Evidence Limitation",
+      "category": "Evidence Source",
+      "attribute": "Evidence Integration",
+      "definition_ja": "根拠の範囲・不確実性・弱点を示す概念。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:統合評価",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "統合評価"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "根拠限界参照有無",
+        "根拠限界根拠強度",
+        "根拠限界適用範囲",
+        "根拠限界限界条件"
+      ],
+      "signal_candidates": [
+        "根拠限界を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000096_evidence_update_need.yml",
+      "id": "EVID-000096",
+      "knowledge_type": "evidence_source",
+      "name_ja": "根拠更新必要性",
+      "name_en": "Evidence Update Need",
+      "category": "Evidence Source",
+      "attribute": "Evidence Integration",
+      "definition_ja": "新しい研究やデータに応じて根拠を更新する必要性。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:統合評価",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "統合評価"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "根拠更新必要性参照有無",
+        "根拠更新必要性根拠強度",
+        "根拠更新必要性適用範囲",
+        "根拠更新必要性限界条件"
+      ],
+      "signal_candidates": [
+        "根拠更新必要性を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000097_cross_domain_evidence.yml",
+      "id": "EVID-000097",
+      "knowledge_type": "evidence_source",
+      "name_ja": "領域横断根拠",
+      "name_en": "Cross Domain Evidence",
+      "category": "Evidence Source",
+      "attribute": "Evidence Integration",
+      "definition_ja": "複数分野の知見を組み合わせた根拠。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:統合評価",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "統合評価"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "領域横断根拠参照有無",
+        "領域横断根拠根拠強度",
+        "領域横断根拠適用範囲",
+        "領域横断根拠限界条件"
+      ],
+      "signal_candidates": [
+        "領域横断根拠を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000098_triangulation.yml",
+      "id": "EVID-000098",
+      "knowledge_type": "evidence_source",
+      "name_ja": "トライアンギュレーション",
+      "name_en": "Triangulation",
+      "category": "Evidence Source",
+      "attribute": "Evidence Integration",
+      "definition_ja": "複数方法・複数データ源を組み合わせて妥当性を高める方法。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:統合評価",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "統合評価"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "トライアンギュレーション参照有無",
+        "トライアンギュレーション根拠強度",
+        "トライアンギュレーション適用範囲",
+        "トライアンギュレーション限界条件"
+      ],
+      "signal_candidates": [
+        "トライアンギュレーションを根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000099_evidence_audit.yml",
+      "id": "EVID-000099",
+      "knowledge_type": "evidence_source",
+      "name_ja": "根拠監査",
+      "name_en": "Evidence Audit",
+      "category": "Evidence Source",
+      "attribute": "Evidence Integration",
+      "definition_ja": "知識項目の根拠品質・範囲・更新状況を確認する管理過程。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:統合評価",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "統合評価"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "根拠監査参照有無",
+        "根拠監査根拠強度",
+        "根拠監査適用範囲",
+        "根拠監査限界条件"
+      ],
+      "signal_candidates": [
+        "根拠監査を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EVID-000100_evidence_source_integration.yml",
+      "id": "EVID-000100",
+      "knowledge_type": "evidence_source",
+      "name_ja": "根拠ソース統合",
+      "name_en": "Evidence Source Integration",
+      "category": "Evidence Source",
+      "attribute": "Evidence Integration",
+      "definition_ja": "研究設計・データ種別・品質・妥当性を統合して根拠を管理する枠組み。",
+      "tags": [
+        "CAT:根拠",
+        "CAT:統合評価",
+        "ATTR:根拠種別"
+      ],
+      "parent": [
+        "統合評価"
+      ],
+      "related": [
+        "知識品質",
+        "監査",
+        "推論材料"
+      ],
+      "observable_data": [
+        "根拠ソース統合参照有無",
+        "根拠ソース統合根拠強度",
+        "根拠ソース統合適用範囲",
+        "根拠ソース統合限界条件"
+      ],
+      "signal_candidates": [
+        "根拠ソース統合を根拠種別として利用できる",
+        "知識項目の信頼度や適用範囲を判断する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "根拠強度",
+        "適用範囲",
+        "再現性",
+        "倫理性"
+      ],
+      "evidence": "研究方法論・心理測定・科学的根拠評価で使用",
+      "status": "active"
+    }
+  ]
+}

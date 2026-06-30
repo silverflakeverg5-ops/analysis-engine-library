@@ -1,0 +1,33 @@
+id: EVID-000076
+knowledge_type: evidence_source
+name_ja: 多重比較リスク
+name_en: Multiple Comparison Risk
+category: Evidence Source
+attribute: Statistical Quality
+definition_ja: 多数の検定により偶然の有意結果が出やすくなるリスク。
+tags:
+  - CAT:根拠
+  - CAT:統計品質
+  - ATTR:根拠種別
+parent:
+  - 統計品質
+related:
+  - 知識品質
+  - 監査
+  - 推論材料
+observable_data:
+  - 多重比較リスク参照有無
+  - 多重比較リスク根拠強度
+  - 多重比較リスク適用範囲
+  - 多重比較リスク限界条件
+signal_candidates:
+  - 多重比較リスクを根拠種別として利用できる
+  - 知識項目の信頼度や適用範囲を判断する材料になる
+device_level: DB管理用
+modifiers:
+  - 根拠強度
+  - 適用範囲
+  - 再現性
+  - 倫理性
+evidence: 研究方法論・心理測定・科学的根拠評価で使用
+status: active

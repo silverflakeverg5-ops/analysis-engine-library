@@ -1,87 +1,87 @@
 import json
 from pathlib import Path
 
-OUT = Path("data/master_packs/vol13_evidence_sources_001_050.json")
+OUT = Path("data/master_packs/vol13_evidence_sources_051_100.json")
 
 SECTIONS = [
     {
-        "category": "Evidence Sources - Psychology",
-        "name_ja": "根拠・心理学",
+        "category": "Evidence Sources - Research Design",
+        "name_ja": "根拠・研究設計",
         "items": [
-            ("EVID-000001", "cognitive_psychology_evidence", "認知心理学根拠", "Cognitive Psychology Evidence", "注意・記憶・判断・学習などの認知過程に関する心理学的根拠。"),
-            ("EVID-000002", "personality_psychology_evidence", "性格心理学根拠", "Personality Psychology Evidence", "性格特性・個人差・行動傾向に関する心理学的根拠。"),
-            ("EVID-000003", "social_psychology_evidence", "社会心理学根拠", "Social Psychology Evidence", "対人関係・集団・社会的影響に関する心理学的根拠。"),
-            ("EVID-000004", "developmental_psychology_evidence", "発達心理学根拠", "Developmental Psychology Evidence", "年齢・発達段階・成長過程に関する心理学的根拠。"),
-            ("EVID-000005", "educational_psychology_evidence", "教育心理学根拠", "Educational Psychology Evidence", "学習・動機づけ・評価・教育支援に関する心理学的根拠。"),
-            ("EVID-000006", "clinical_psychology_evidence", "臨床心理学根拠", "Clinical Psychology Evidence", "ストレス・感情・心理的困難に関する臨床心理学的根拠。"),
-            ("EVID-000007", "health_psychology_evidence", "健康心理学根拠", "Health Psychology Evidence", "健康行動・ストレス・生活習慣に関する心理学的根拠。"),
-            ("EVID-000008", "organizational_psychology_evidence", "組織心理学根拠", "Organizational Psychology Evidence", "職場行動・リーダーシップ・組織環境に関する心理学的根拠。"),
-            ("EVID-000009", "environmental_psychology_evidence", "環境心理学根拠", "Environmental Psychology Evidence", "物理環境・空間・地域環境が行動へ与える影響に関する根拠。"),
-            ("EVID-000010", "positive_psychology_evidence", "ポジティブ心理学根拠", "Positive Psychology Evidence", "幸福感・強み・レジリエンス・成長に関する心理学的根拠。")
+            ("EVID-000051", "randomized_controlled_trial", "ランダム化比較試験", "Randomized Controlled Trial", "対象をランダムに条件へ割り当て、介入効果を比較する研究設計。"),
+            ("EVID-000052", "quasi_experimental_design", "準実験デザイン", "Quasi Experimental Design", "完全なランダム割付なしで条件差や介入効果を検討する研究設計。"),
+            ("EVID-000053", "cross_sectional_study", "横断研究", "Cross Sectional Study", "一時点のデータから変数間の関連を調べる研究設計。"),
+            ("EVID-000054", "longitudinal_study", "縦断研究", "Longitudinal Study", "同じ対象を時間を追って観測し変化や因果可能性を検討する研究設計。"),
+            ("EVID-000055", "cohort_study", "コホート研究", "Cohort Study", "特定集団を追跡し要因と結果の関係を調べる研究設計。"),
+            ("EVID-000056", "case_control_study", "症例対照研究", "Case Control Study", "結果を持つ群と持たない群を比較し関連要因を調べる研究設計。"),
+            ("EVID-000057", "field_experiment", "フィールド実験", "Field Experiment", "実際の環境で条件操作を行い行動変化を調べる研究設計。"),
+            ("EVID-000058", "lab_experiment", "実験室実験", "Lab Experiment", "統制された環境で変数を操作し効果を調べる研究設計。"),
+            ("EVID-000059", "natural_experiment", "自然実験", "Natural Experiment", "自然発生した条件差を利用して影響を検討する研究設計。"),
+            ("EVID-000060", "experience_sampling_method", "経験サンプリング法", "Experience Sampling Method", "日常生活中に繰り返し状態や行動を記録する研究方法。")
         ]
     },
     {
-        "category": "Evidence Sources - Cognitive Science",
-        "name_ja": "根拠・認知科学",
+        "category": "Evidence Sources - Data Type",
+        "name_ja": "根拠・データ種別",
         "items": [
-            ("EVID-000011", "cognitive_science_evidence", "認知科学根拠", "Cognitive Science Evidence", "人間の知覚・記憶・推論・学習を統合的に扱う根拠。"),
-            ("EVID-000012", "decision_science_evidence", "意思決定科学根拠", "Decision Science Evidence", "選択・リスク・価値判断・バイアスに関する科学的根拠。"),
-            ("EVID-000013", "behavioral_economics_evidence", "行動経済学根拠", "Behavioral Economics Evidence", "限定合理性・損失回避・ナッジなどに関する根拠。"),
-            ("EVID-000014", "learning_science_evidence", "学習科学根拠", "Learning Science Evidence", "人間の学習過程・教材設計・学習支援に関する根拠。"),
-            ("EVID-000015", "human_factors_evidence", "ヒューマンファクター根拠", "Human Factors Evidence", "人間の能力・限界・エラーを考慮した設計に関する根拠。"),
-            ("EVID-000016", "hci_evidence", "HCI根拠", "Human Computer Interaction Evidence", "人間とコンピュータの相互作用・操作ログ・UXに関する根拠。"),
-            ("EVID-000017", "ux_research_evidence", "UX研究根拠", "UX Research Evidence", "ユーザー体験・使いやすさ・満足度・行動観測に関する根拠。"),
-            ("EVID-000018", "information_behavior_evidence", "情報行動研究根拠", "Information Behavior Evidence", "検索・閲覧・情報選択・情報回避に関する根拠。"),
-            ("EVID-000019", "behavior_change_evidence", "行動変容研究根拠", "Behavior Change Evidence", "習慣形成・介入・継続支援に関する根拠。"),
-            ("EVID-000020", "computational_behavior_evidence", "計算行動科学根拠", "Computational Behavioral Science Evidence", "行動ログやモデルを用いた人間行動理解に関する根拠。")
+            ("EVID-000061", "behavioral_log_data", "行動ログデータ", "Behavioral Log Data", "操作・閲覧・選択・利用頻度など行動から自動記録されるデータ。"),
+            ("EVID-000062", "questionnaire_data", "質問紙データ", "Questionnaire Data", "尺度や設問への回答によって得られる自己報告データ。"),
+            ("EVID-000063", "interview_data", "インタビューデータ", "Interview Data", "対話や聞き取りから得られる質的情報。"),
+            ("EVID-000064", "observation_data", "観察データ", "Observation Data", "研究者やシステムが行動や状況を観察して記録したデータ。"),
+            ("EVID-000065", "sensor_data", "センサーデータ", "Sensor Data", "端末・ウェアラブル・環境センサーなどから得られる測定データ。"),
+            ("EVID-000066", "text_data", "テキストデータ", "Text Data", "入力文・発話・メッセージ・記録などの言語データ。"),
+            ("EVID-000067", "interaction_data", "インタラクションデータ", "Interaction Data", "ユーザーとシステムの相互作用から得られる操作系列データ。"),
+            ("EVID-000068", "performance_data", "成績データ", "Performance Data", "正答率・速度・エラー率・達成度など課題遂行から得られるデータ。"),
+            ("EVID-000069", "physiological_data", "生理データ", "Physiological Data", "心拍・睡眠・活動量・ストレス指標など身体状態に関するデータ。"),
+            ("EVID-000070", "contextual_data", "文脈データ", "Contextual Data", "時間・場所・端末・状況など観測の背景に関するデータ。")
         ]
     },
     {
-        "category": "Evidence Sources - Neuroscience Physiology",
-        "name_ja": "根拠・神経生理",
+        "category": "Evidence Sources - Statistical Quality",
+        "name_ja": "根拠・統計品質",
         "items": [
-            ("EVID-000021", "neuroscience_evidence", "神経科学根拠", "Neuroscience Evidence", "脳領域・神経伝達・ネットワークに関する根拠。"),
-            ("EVID-000022", "cognitive_neuroscience_evidence", "認知神経科学根拠", "Cognitive Neuroscience Evidence", "認知機能と神経基盤の関係に関する根拠。"),
-            ("EVID-000023", "affective_neuroscience_evidence", "感情神経科学根拠", "Affective Neuroscience Evidence", "感情・報酬・脅威処理の神経基盤に関する根拠。"),
-            ("EVID-000024", "social_neuroscience_evidence", "社会神経科学根拠", "Social Neuroscience Evidence", "共感・信頼・社会判断の神経基盤に関する根拠。"),
-            ("EVID-000025", "physiological_psychology_evidence", "生理心理学根拠", "Physiological Psychology Evidence", "身体反応と心理・行動の関係に関する根拠。"),
-            ("EVID-000026", "sleep_research_evidence", "睡眠研究根拠", "Sleep Research Evidence", "睡眠・概日リズム・回復と認知行動の関係に関する根拠。"),
-            ("EVID-000027", "stress_research_evidence", "ストレス研究根拠", "Stress Research Evidence", "急性・慢性ストレスと行動・感情・生理反応に関する根拠。"),
-            ("EVID-000028", "psychophysiology_evidence", "精神生理学根拠", "Psychophysiology Evidence", "心拍・皮膚反応・覚醒などの生理指標に関する根拠。"),
-            ("EVID-000029", "exercise_cognition_evidence", "運動認知研究根拠", "Exercise Cognition Evidence", "身体活動や運動が認知・気分に与える影響に関する根拠。"),
-            ("EVID-000030", "nutrition_cognition_evidence", "栄養認知研究根拠", "Nutrition Cognition Evidence", "栄養・血糖・水分状態と認知・気分の関係に関する根拠。")
+            ("EVID-000071", "sample_size_quality", "サンプルサイズ品質", "Sample Size Quality", "分析に使う対象数や観測数が十分かを示す品質概念。"),
+            ("EVID-000072", "statistical_power", "検出力", "Statistical Power", "実際に効果がある場合にそれを検出できる確率。"),
+            ("EVID-000073", "confidence_interval", "信頼区間", "Confidence Interval", "推定値の不確実性の範囲を示す統計概念。"),
+            ("EVID-000074", "effect_size", "効果量", "Effect Size", "差や関連の大きさを示す統計指標。"),
+            ("EVID-000075", "p_value", "p値", "P Value", "帰無仮説の下で観測結果以上の結果が得られる確率。"),
+            ("EVID-000076", "multiple_comparison_risk", "多重比較リスク", "Multiple Comparison Risk", "多数の検定により偶然の有意結果が出やすくなるリスク。"),
+            ("EVID-000077", "measurement_error", "測定誤差", "Measurement Error", "測定値と真の値との差やばらつき。"),
+            ("EVID-000078", "internal_consistency", "内的一貫性", "Internal Consistency", "同じ概念を測る項目同士が一貫している度合い。"),
+            ("EVID-000079", "test_retest_reliability", "再検査信頼性", "Test Retest Reliability", "時間を空けて同じ測定を行った時の安定性。"),
+            ("EVID-000080", "inter_rater_reliability", "評価者間信頼性", "Inter Rater Reliability", "複数評価者の判断がどの程度一致するか。")
         ]
     },
     {
-        "category": "Evidence Sources - Measurement",
-        "name_ja": "根拠・測定",
+        "category": "Evidence Sources - Validity",
+        "name_ja": "根拠・妥当性",
         "items": [
-            ("EVID-000031", "psychometrics_evidence", "心理測定根拠", "Psychometrics Evidence", "尺度・信頼性・妥当性・測定誤差に関する根拠。"),
-            ("EVID-000032", "reliability_evidence", "信頼性根拠", "Reliability Evidence", "測定が一貫しているかを評価するための根拠。"),
-            ("EVID-000033", "validity_evidence", "妥当性根拠", "Validity Evidence", "測定が目的とする概念を適切に捉えているかに関する根拠。"),
-            ("EVID-000034", "construct_validity_evidence", "構成概念妥当性根拠", "Construct Validity Evidence", "概念定義と測定指標の対応に関する根拠。"),
-            ("EVID-000035", "criterion_validity_evidence", "基準関連妥当性根拠", "Criterion Validity Evidence", "外部基準との関連から測定の妥当性を評価する根拠。"),
-            ("EVID-000036", "ecological_validity_evidence", "生態学的妥当性根拠", "Ecological Validity Evidence", "現実場面での行動にどの程度適用できるかに関する根拠。"),
-            ("EVID-000037", "behavior_log_evidence", "行動ログ根拠", "Behavior Log Evidence", "実際の操作・利用・選択ログから得られる根拠。"),
-            ("EVID-000038", "self_report_evidence", "自己報告根拠", "Self Report Evidence", "本人の回答・記録・主観評価から得られる根拠。"),
-            ("EVID-000039", "longitudinal_evidence", "縦断データ根拠", "Longitudinal Evidence", "時系列や長期観測によって得られる根拠。"),
-            ("EVID-000040", "experimental_evidence", "実験研究根拠", "Experimental Evidence", "条件操作と比較により因果推論を支える根拠。")
+            ("EVID-000081", "content_validity", "内容的妥当性", "Content Validity", "測定項目が対象概念の内容領域を十分に代表しているか。"),
+            ("EVID-000082", "face_validity", "表面的妥当性", "Face Validity", "測定が見た目上その概念を測っているように見える度合い。"),
+            ("EVID-000083", "convergent_validity", "収束的妥当性", "Convergent Validity", "関連する概念や尺度と適切に相関すること。"),
+            ("EVID-000084", "discriminant_validity", "弁別的妥当性", "Discriminant Validity", "異なる概念や尺度と過度に重ならないこと。"),
+            ("EVID-000085", "predictive_validity", "予測的妥当性", "Predictive Validity", "測定値が将来の行動や結果を予測できる度合い。"),
+            ("EVID-000086", "concurrent_validity", "併存的妥当性", "Concurrent Validity", "同時点の外部基準と適切に関連すること。"),
+            ("EVID-000087", "incremental_validity", "増分妥当性", "Incremental Validity", "既存指標に加えて新たな予測力や説明力を持つこと。"),
+            ("EVID-000088", "ecological_validity", "生態学的妥当性", "Ecological Validity", "現実の文脈や日常行動にどの程度適用できるか。"),
+            ("EVID-000089", "external_validity", "外的妥当性", "External Validity", "結果が他の対象・状況・時期にも一般化できる度合い。"),
+            ("EVID-000090", "construct_coverage", "構成概念カバレッジ", "Construct Coverage", "対象概念を過不足なく捉えているかを示す概念。")
         ]
     },
     {
-        "category": "Evidence Sources - Quality Safety",
-        "name_ja": "根拠・品質安全",
+        "category": "Evidence Sources - Evidence Integration",
+        "name_ja": "根拠・統合評価",
         "items": [
-            ("EVID-000041", "observational_evidence", "観察研究根拠", "Observational Evidence", "自然発生的なデータ観察から得られる根拠。"),
-            ("EVID-000042", "meta_analysis_evidence", "メタ分析根拠", "Meta Analysis Evidence", "複数研究の結果を統合した高次の根拠。"),
-            ("EVID-000043", "systematic_review_evidence", "系統的レビュー根拠", "Systematic Review Evidence", "明確な手順で研究を収集・評価した根拠。"),
-            ("EVID-000044", "replication_evidence", "再現性根拠", "Replication Evidence", "別データや別研究で同様の結果が得られることに関する根拠。"),
-            ("EVID-000045", "effect_size_evidence", "効果量根拠", "Effect Size Evidence", "影響の大きさを評価するための根拠。"),
-            ("EVID-000046", "confidence_level_evidence", "信頼水準根拠", "Confidence Level Evidence", "根拠の強さや不確実性を扱うための概念。"),
-            ("EVID-000047", "bias_risk_evidence", "バイアスリスク根拠", "Risk of Bias Evidence", "研究や観測に含まれる偏りの可能性を評価する根拠。"),
-            ("EVID-000048", "ethical_evidence_use", "倫理的根拠利用", "Ethical Evidence Use", "根拠を安全・公平・非断定的に利用するための考え方。"),
-            ("EVID-000049", "domain_limit_evidence", "適用範囲根拠", "Domain Limit Evidence", "根拠が適用できる範囲や限界を示す概念。"),
-            ("EVID-000050", "evidence_integration", "根拠統合", "Evidence Integration", "複数の根拠タイプを統合して知識DBの信頼性を高める枠組み。")
+            ("EVID-000091", "evidence_strength_level", "根拠強度レベル", "Evidence Strength Level", "根拠の信頼性や確実性を段階的に示す概念。"),
+            ("EVID-000092", "evidence_consistency", "根拠一貫性", "Evidence Consistency", "複数研究や複数データで同じ傾向が示される度合い。"),
+            ("EVID-000093", "evidence_relevance", "根拠関連性", "Evidence Relevance", "根拠が対象概念や利用目的にどの程度関係しているか。"),
+            ("EVID-000094", "evidence_applicability", "根拠適用可能性", "Evidence Applicability", "根拠を実際のアプリや文脈へ適用できる度合い。"),
+            ("EVID-000095", "evidence_limitation", "根拠限界", "Evidence Limitation", "根拠の範囲・不確実性・弱点を示す概念。"),
+            ("EVID-000096", "evidence_update_need", "根拠更新必要性", "Evidence Update Need", "新しい研究やデータに応じて根拠を更新する必要性。"),
+            ("EVID-000097", "cross_domain_evidence", "領域横断根拠", "Cross Domain Evidence", "複数分野の知見を組み合わせた根拠。"),
+            ("EVID-000098", "triangulation", "トライアンギュレーション", "Triangulation", "複数方法・複数データ源を組み合わせて妥当性を高める方法。"),
+            ("EVID-000099", "evidence_audit", "根拠監査", "Evidence Audit", "知識項目の根拠品質・範囲・更新状況を確認する管理過程。"),
+            ("EVID-000100", "evidence_source_integration", "根拠ソース統合", "Evidence Source Integration", "研究設計・データ種別・品質・妥当性を統合して根拠を管理する枠組み。")
         ]
     }
 ]
@@ -136,8 +136,8 @@ def main():
     ])
 
     pack = {
-        "output_dir": "vol13_evidence_sources/evidence_sources_001_050",
-        "index_filename": "evidence_sources_001_050_index.yml",
+        "output_dir": "vol13_evidence_sources/evidence_sources_051_100",
+        "index_filename": "evidence_sources_051_100_index.yml",
         "index_content": "\n".join(index_lines) + "\n",
         "items": all_items
     }

@@ -1,0 +1,33 @@
+id: EVID-000059
+knowledge_type: evidence_source
+name_ja: 自然実験
+name_en: Natural Experiment
+category: Evidence Source
+attribute: Research Design
+definition_ja: 自然発生した条件差を利用して影響を検討する研究設計。
+tags:
+  - CAT:根拠
+  - CAT:研究設計
+  - ATTR:根拠種別
+parent:
+  - 研究設計
+related:
+  - 知識品質
+  - 監査
+  - 推論材料
+observable_data:
+  - 自然実験参照有無
+  - 自然実験根拠強度
+  - 自然実験適用範囲
+  - 自然実験限界条件
+signal_candidates:
+  - 自然実験を根拠種別として利用できる
+  - 知識項目の信頼度や適用範囲を判断する材料になる
+device_level: DB管理用
+modifiers:
+  - 根拠強度
+  - 適用範囲
+  - 再現性
+  - 倫理性
+evidence: 研究方法論・心理測定・科学的根拠評価で使用
+status: active

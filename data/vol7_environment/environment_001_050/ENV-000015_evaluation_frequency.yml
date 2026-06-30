@@ -1,0 +1,33 @@
+id: ENV-000015
+knowledge_type: environment_factor
+name_ja: 評価頻度
+name_en: Evaluation Frequency
+category: Environment
+attribute: Education
+definition_ja: テスト・成績評価・レビューなど、外部評価を受ける頻度。
+tags:
+  - CAT:環境要因
+  - CAT:教育
+  - ATTR:補正要因
+parent:
+  - 教育
+related:
+  - 行動観測
+  - 性格
+  - 認知科学
+observable_data:
+  - 評価頻度関連行動変化
+  - 評価頻度関連反応時間
+  - 評価頻度関連継続率
+  - 評価頻度関連ストレス反応
+signal_candidates:
+  - 評価頻度が行動・感情・判断に影響している可能性がある
+  - 環境条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 文化
+  - 生活状況
+  - 個人差
+evidence: 環境心理学・発達心理学・社会心理学・HCI研究で使用
+status: active

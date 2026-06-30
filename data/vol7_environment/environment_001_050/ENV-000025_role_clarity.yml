@@ -1,0 +1,33 @@
+id: ENV-000025
+knowledge_type: environment_factor
+name_ja: 役割明確性
+name_en: Role Clarity
+category: Environment
+attribute: Workplace
+definition_ja: 自分の責任範囲・期待成果・判断権限が明確である度合い。
+tags:
+  - CAT:環境要因
+  - CAT:職場
+  - ATTR:補正要因
+parent:
+  - 職場
+related:
+  - 行動観測
+  - 性格
+  - 認知科学
+observable_data:
+  - 役割明確性関連行動変化
+  - 役割明確性関連反応時間
+  - 役割明確性関連継続率
+  - 役割明確性関連ストレス反応
+signal_candidates:
+  - 役割明確性が行動・感情・判断に影響している可能性がある
+  - 環境条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 文化
+  - 生活状況
+  - 個人差
+evidence: 環境心理学・発達心理学・社会心理学・HCI研究で使用
+status: active

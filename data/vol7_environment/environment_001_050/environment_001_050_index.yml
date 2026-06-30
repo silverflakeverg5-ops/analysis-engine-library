@@ -1,0 +1,57 @@
+category: Environment
+name_ja: 環境要因
+items:
+  - ENV-000001_family_structure.yml
+  - ENV-000002_parenting_style.yml
+  - ENV-000003_family_communication.yml
+  - ENV-000004_family_support.yml
+  - ENV-000005_family_conflict.yml
+  - ENV-000006_household_routine.yml
+  - ENV-000007_home_learning_environment.yml
+  - ENV-000008_emotional_safety_at_home.yml
+  - ENV-000009_family_expectations.yml
+  - ENV-000010_caregiving_responsibility.yml
+  - ENV-000011_school_climate.yml
+  - ENV-000012_teacher_support.yml
+  - ENV-000013_peer_learning_environment.yml
+  - ENV-000014_academic_pressure.yml
+  - ENV-000015_evaluation_frequency.yml
+  - ENV-000016_feedback_quality.yml
+  - ENV-000017_learning_resources.yml
+  - ENV-000018_classroom_structure.yml
+  - ENV-000019_autonomy_supportive_education.yml
+  - ENV-000020_competitive_school_environment.yml
+  - ENV-000021_workload.yml
+  - ENV-000022_job_control.yml
+  - ENV-000023_supervisor_support.yml
+  - ENV-000024_coworker_support.yml
+  - ENV-000025_role_clarity.yml
+  - ENV-000026_role_conflict.yml
+  - ENV-000027_psychological_safety_work.yml
+  - ENV-000028_workplace_feedback.yml
+  - ENV-000029_work_time_pressure.yml
+  - ENV-000030_career_uncertainty.yml
+  - ENV-000031_social_support.yml
+  - ENV-000032_friendship_quality.yml
+  - ENV-000033_social_isolation.yml
+  - ENV-000034_loneliness.yml
+  - ENV-000035_peer_pressure.yml
+  - ENV-000036_relationship_conflict.yml
+  - ENV-000037_belongingness.yml
+  - ENV-000038_social_comparison_environment.yml
+  - ENV-000039_mentorship.yml
+  - ENV-000040_community_connection.yml
+  - ENV-000041_screen_time_environment.yml
+  - ENV-000042_notification_environment.yml
+  - ENV-000043_social_media_exposure.yml
+  - ENV-000044_algorithmic_feed_environment.yml
+  - ENV-000045_online_feedback_environment.yml
+  - ENV-000046_digital_distraction.yml
+  - ENV-000047_information_overload_environment.yml
+  - ENV-000048_online_anonymity.yml
+  - ENV-000049_digital_access.yml
+  - ENV-000050_online_community_environment.yml
+notes:
+  - 環境要因は本人特性ではなく補正要因として扱う
+  - 観測可能データとSignal候補を中心に管理する
+  - アプリ側でスコアリング・推論・表示を行う

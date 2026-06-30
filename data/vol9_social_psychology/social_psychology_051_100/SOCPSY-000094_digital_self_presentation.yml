@@ -1,0 +1,33 @@
+id: SOCPSY-000094
+knowledge_type: social_psychology
+name_ja: デジタル自己呈示
+name_en: Digital Self Presentation
+category: Social Psychology
+attribute: Online Social Behavior
+definition_ja: プロフィール・投稿・画像・発言を通じてオンライン上の印象を調整する行動。
+tags:
+  - CAT:社会心理
+  - CAT:オンライン社会行動
+  - ATTR:社会的要因
+parent:
+  - オンライン社会行動
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - デジタル自己呈示関連行動変化
+  - デジタル自己呈示関連反応時間
+  - デジタル自己呈示関連選択率
+  - デジタル自己呈示関連対人反応
+signal_candidates:
+  - デジタル自己呈示が対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

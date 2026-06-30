@@ -1,0 +1,33 @@
+id: SOCPSY-000080
+knowledge_type: social_psychology
+name_ja: アイデンティティベース態度
+name_en: Identity Based Attitude
+category: Social Psychology
+attribute: Attitude Behavior
+definition_ja: 自己認識や所属集団と結びついた態度。
+tags:
+  - CAT:社会心理
+  - CAT:態度行動
+  - ATTR:社会的要因
+parent:
+  - 態度行動
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - アイデンティティベース態度関連行動変化
+  - アイデンティティベース態度関連反応時間
+  - アイデンティティベース態度関連選択率
+  - アイデンティティベース態度関連対人反応
+signal_candidates:
+  - アイデンティティベース態度が対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

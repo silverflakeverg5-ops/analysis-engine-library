@@ -1,0 +1,33 @@
+id: SOCPSY-000087
+knowledge_type: social_psychology
+name_ja: 利得損失メッセージ
+name_en: Gain Loss Message
+category: Social Psychology
+attribute: Communication Persuasion
+definition_ja: 得られる利益または避けられる損失を強調するメッセージ設計。
+tags:
+  - CAT:社会心理
+  - CAT:コミュニケーション説得
+  - ATTR:社会的要因
+parent:
+  - コミュニケーション説得
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 利得損失メッセージ関連行動変化
+  - 利得損失メッセージ関連反応時間
+  - 利得損失メッセージ関連選択率
+  - 利得損失メッセージ関連対人反応
+signal_candidates:
+  - 利得損失メッセージが対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

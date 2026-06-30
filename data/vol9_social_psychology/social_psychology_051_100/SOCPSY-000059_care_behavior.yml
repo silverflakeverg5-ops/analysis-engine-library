@@ -1,0 +1,33 @@
+id: SOCPSY-000059
+knowledge_type: social_psychology
+name_ja: ケア行動
+name_en: Care Behavior
+category: Social Psychology
+attribute: Prosocial Behavior
+definition_ja: 他者の状態や必要に注意を向け、継続的に支える行動。
+tags:
+  - CAT:社会心理
+  - CAT:向社会的行動
+  - ATTR:社会的要因
+parent:
+  - 向社会的行動
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - ケア行動関連行動変化
+  - ケア行動関連反応時間
+  - ケア行動関連選択率
+  - ケア行動関連対人反応
+signal_candidates:
+  - ケア行動が対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

@@ -1,0 +1,33 @@
+id: SOCPSY-000052
+knowledge_type: social_psychology
+name_ja: 援助行動
+name_en: Helping Behavior
+category: Social Psychology
+attribute: Prosocial Behavior
+definition_ja: 困っている他者に対して支援や助けを提供する行動。
+tags:
+  - CAT:社会心理
+  - CAT:向社会的行動
+  - ATTR:社会的要因
+parent:
+  - 向社会的行動
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 援助行動関連行動変化
+  - 援助行動関連反応時間
+  - 援助行動関連選択率
+  - 援助行動関連対人反応
+signal_candidates:
+  - 援助行動が対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

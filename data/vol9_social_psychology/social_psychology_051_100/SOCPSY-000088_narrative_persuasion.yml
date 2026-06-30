@@ -1,0 +1,33 @@
+id: SOCPSY-000088
+knowledge_type: social_psychology
+name_ja: 物語説得
+name_en: Narrative Persuasion
+category: Social Psychology
+attribute: Communication Persuasion
+definition_ja: 物語や事例を通じて態度や行動意図が変化する説得過程。
+tags:
+  - CAT:社会心理
+  - CAT:コミュニケーション説得
+  - ATTR:社会的要因
+parent:
+  - コミュニケーション説得
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 物語説得関連行動変化
+  - 物語説得関連反応時間
+  - 物語説得関連選択率
+  - 物語説得関連対人反応
+signal_candidates:
+  - 物語説得が対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

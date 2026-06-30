@@ -1,0 +1,33 @@
+id: SOCPSY-000067
+knowledge_type: social_psychology
+name_ja: 怒り表出
+name_en: Anger Expression
+category: Social Psychology
+attribute: Aggression Conflict
+definition_ja: 対人場面で怒りや不満を表現する行動。
+tags:
+  - CAT:社会心理
+  - CAT:攻撃葛藤
+  - ATTR:社会的要因
+parent:
+  - 攻撃葛藤
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 怒り表出関連行動変化
+  - 怒り表出関連反応時間
+  - 怒り表出関連選択率
+  - 怒り表出関連対人反応
+signal_candidates:
+  - 怒り表出が対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

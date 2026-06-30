@@ -1,0 +1,33 @@
+id: SOCPSY-000078
+knowledge_type: social_psychology
+name_ja: 習慣態度相互作用
+name_en: Habit Attitude Interaction
+category: Social Psychology
+attribute: Attitude Behavior
+definition_ja: 既存習慣と態度が行動選択に相互に影響する関係。
+tags:
+  - CAT:社会心理
+  - CAT:態度行動
+  - ATTR:社会的要因
+parent:
+  - 態度行動
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 習慣態度相互作用関連行動変化
+  - 習慣態度相互作用関連反応時間
+  - 習慣態度相互作用関連選択率
+  - 習慣態度相互作用関連対人反応
+signal_candidates:
+  - 習慣態度相互作用が対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

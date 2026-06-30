@@ -1,0 +1,33 @@
+id: SOCPSY-000083
+knowledge_type: social_psychology
+name_ja: 精緻化見込み
+name_en: Elaboration Likelihood
+category: Social Psychology
+attribute: Communication Persuasion
+definition_ja: 説得メッセージをどの程度深く処理するかに関する理論的概念。
+tags:
+  - CAT:社会心理
+  - CAT:コミュニケーション説得
+  - ATTR:社会的要因
+parent:
+  - コミュニケーション説得
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 精緻化見込み関連行動変化
+  - 精緻化見込み関連反応時間
+  - 精緻化見込み関連選択率
+  - 精緻化見込み関連対人反応
+signal_candidates:
+  - 精緻化見込みが対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

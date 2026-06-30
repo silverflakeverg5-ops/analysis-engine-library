@@ -1,0 +1,33 @@
+id: SOCPSY-000092
+knowledge_type: social_psychology
+name_ja: パラソーシャル関係
+name_en: Parasocial Relationship
+category: Social Psychology
+attribute: Online Social Behavior
+definition_ja: メディア上の人物や配信者に対して一方向的な親近感を持つ関係。
+tags:
+  - CAT:社会心理
+  - CAT:オンライン社会行動
+  - ATTR:社会的要因
+parent:
+  - オンライン社会行動
+related:
+  - 性格
+  - 行動観測
+  - 環境要因
+observable_data:
+  - パラソーシャル関係関連行動変化
+  - パラソーシャル関係関連反応時間
+  - パラソーシャル関係関連選択率
+  - パラソーシャル関係関連対人反応
+signal_candidates:
+  - パラソーシャル関係が対人判断・行動・感情に影響している可能性がある
+  - 社会的条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 文化
+  - 関係性
+  - 集団規範
+  - 評価環境
+evidence: 社会心理学・対人心理学・組織心理学・HCI研究で使用
+status: active

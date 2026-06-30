@@ -1,0 +1,33 @@
+id: ENV-000156
+knowledge_type: environment_factor
+name_ja: 有能感支援環境
+name_en: Competence Support Environment
+category: Environment
+attribute: Motivation Context
+definition_ja: 成長や達成感を得やすい支援がある環境。
+tags:
+  - CAT:環境要因
+  - CAT:動機づけ文脈
+  - ATTR:補正要因
+parent:
+  - 動機づけ文脈
+related:
+  - 行動観測
+  - 性格
+  - 認知科学
+observable_data:
+  - 有能感支援環境関連行動変化
+  - 有能感支援環境関連反応時間
+  - 有能感支援環境関連継続率
+  - 有能感支援環境関連ストレス反応
+signal_candidates:
+  - 有能感支援環境が行動・感情・判断に影響している可能性がある
+  - 環境条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 文化
+  - 生活状況
+  - 個人差
+evidence: 環境心理学・発達心理学・社会心理学・HCI研究で使用
+status: active

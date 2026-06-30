@@ -1,0 +1,33 @@
+id: ENV-000175
+knowledge_type: environment_factor
+name_ja: 組織透明性
+name_en: Organizational Transparency
+category: Environment
+attribute: Organizational
+definition_ja: 情報共有や意思決定過程が見えやすい環境。
+tags:
+  - CAT:環境要因
+  - CAT:組織
+  - ATTR:補正要因
+parent:
+  - 組織
+related:
+  - 行動観測
+  - 性格
+  - 認知科学
+observable_data:
+  - 組織透明性関連行動変化
+  - 組織透明性関連反応時間
+  - 組織透明性関連継続率
+  - 組織透明性関連ストレス反応
+signal_candidates:
+  - 組織透明性が行動・感情・判断に影響している可能性がある
+  - 環境条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 文化
+  - 生活状況
+  - 個人差
+evidence: 環境心理学・発達心理学・社会心理学・HCI研究で使用
+status: active

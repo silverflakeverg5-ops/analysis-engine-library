@@ -1,0 +1,33 @@
+id: ENV-000197
+knowledge_type: environment_factor
+name_ja: 移動性環境
+name_en: Mobility Environment
+category: Environment
+attribute: Global
+definition_ja: 国内外への移動や生活拠点変更が容易な環境。
+tags:
+  - CAT:環境要因
+  - CAT:グローバル
+  - ATTR:補正要因
+parent:
+  - グローバル
+related:
+  - 行動観測
+  - 性格
+  - 認知科学
+observable_data:
+  - 移動性環境関連行動変化
+  - 移動性環境関連反応時間
+  - 移動性環境関連継続率
+  - 移動性環境関連ストレス反応
+signal_candidates:
+  - 移動性環境が行動・感情・判断に影響している可能性がある
+  - 環境条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 文化
+  - 生活状況
+  - 個人差
+evidence: 環境心理学・発達心理学・社会心理学・HCI研究で使用
+status: active

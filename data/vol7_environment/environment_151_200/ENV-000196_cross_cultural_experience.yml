@@ -1,0 +1,33 @@
+id: ENV-000196
+knowledge_type: environment_factor
+name_ja: 異文化経験
+name_en: Cross Cultural Experience
+category: Environment
+attribute: Global
+definition_ja: 異文化交流や海外経験が得られる環境。
+tags:
+  - CAT:環境要因
+  - CAT:グローバル
+  - ATTR:補正要因
+parent:
+  - グローバル
+related:
+  - 行動観測
+  - 性格
+  - 認知科学
+observable_data:
+  - 異文化経験関連行動変化
+  - 異文化経験関連反応時間
+  - 異文化経験関連継続率
+  - 異文化経験関連ストレス反応
+signal_candidates:
+  - 異文化経験が行動・感情・判断に影響している可能性がある
+  - 環境条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 文化
+  - 生活状況
+  - 個人差
+evidence: 環境心理学・発達心理学・社会心理学・HCI研究で使用
+status: active

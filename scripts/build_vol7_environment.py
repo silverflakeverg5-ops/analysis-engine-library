@@ -86,4 +86,68 @@ SECTIONS = [
     }
 ]
 
-# make_item(), main() は前回と同じなので変更不要
+
+def make_item(item_id, slug, name_ja, name_en, definition_ja, category, parent_ja):
+    return {
+        "filename": f"{item_id}_{slug}.yml",
+        "id": item_id,
+        "knowledge_type": "environment_factor",
+        "name_ja": name_ja,
+        "name_en": name_en,
+        "category": "Environment",
+        "attribute": category.replace("Environment - ", ""),
+        "definition_ja": definition_ja,
+        "tags": ["CAT:環境要因", f"CAT:{parent_ja}", "ATTR:補正要因"],
+        "parent": [parent_ja],
+        "related": ["行動観測", "性格", "認知科学"],
+        "observable_data": [
+            f"{name_ja}関連行動変化",
+            f"{name_ja}関連反応時間",
+            f"{name_ja}関連継続率",
+            f"{name_ja}関連ストレス反応"
+        ],
+        "signal_candidates": [
+            f"{name_ja}が行動・感情・判断に影響している可能性がある",
+            "環境条件の変化に応じて行動パターンが変化する"
+        ],
+        "device_level": "スマホ・PCのみ推定可能",
+        "modifiers": ["年齢", "文化", "生活状況", "個人差"],
+        "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+        "status": "active"
+    }
+
+
+def main():
+    all_items = []
+    index_lines = ["category: Environment", "name_ja: 環境要因", "items:"]
+
+    for section in SECTIONS:
+        parent_ja = section["name_ja"].replace("環境要因・", "")
+        for raw in section["items"]:
+            item = make_item(*raw, category=section["category"], parent_ja=parent_ja)
+            all_items.append(item)
+            index_lines.append(f"  - {item['filename']}")
+
+    index_lines.extend([
+        "notes:",
+        "  - 環境要因は本人特性ではなく補正要因として扱う",
+        "  - 観測可能データとSignal候補を中心に管理する",
+        "  - アプリ側でスコアリング・推論・表示を行う"
+    ])
+
+    pack = {
+        "output_dir": "vol7_environment/environment_151_200",
+        "index_filename": "environment_151_200_index.yml",
+        "index_content": "\n".join(index_lines) + "\n",
+        "items": all_items
+    }
+
+    OUT.parent.mkdir(parents=True, exist_ok=True)
+    OUT.write_text(json.dumps(pack, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    print(f"Created: {OUT}")
+    print(f"Items: {len(all_items)}")
+
+
+if __name__ == "__main__":
+    main()

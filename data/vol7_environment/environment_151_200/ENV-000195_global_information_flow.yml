@@ -1,0 +1,33 @@
+id: ENV-000195
+knowledge_type: environment_factor
+name_ja: 国際情報流通
+name_en: Global Information Flow
+category: Environment
+attribute: Global
+definition_ja: 海外情報へ接触しやすい環境。
+tags:
+  - CAT:環境要因
+  - CAT:グローバル
+  - ATTR:補正要因
+parent:
+  - グローバル
+related:
+  - 行動観測
+  - 性格
+  - 認知科学
+observable_data:
+  - 国際情報流通関連行動変化
+  - 国際情報流通関連反応時間
+  - 国際情報流通関連継続率
+  - 国際情報流通関連ストレス反応
+signal_candidates:
+  - 国際情報流通が行動・感情・判断に影響している可能性がある
+  - 環境条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 文化
+  - 生活状況
+  - 個人差
+evidence: 環境心理学・発達心理学・社会心理学・HCI研究で使用
+status: active

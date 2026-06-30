@@ -1,0 +1,33 @@
+id: ENV-000076
+knowledge_type: environment_factor
+name_ja: 作業空間設計
+name_en: Workspace Design
+category: Environment
+attribute: Physical
+definition_ja: 机・椅子・配置・視界・道具など作業効率に影響する空間設計。
+tags:
+  - CAT:環境要因
+  - CAT:物理環境
+  - ATTR:補正要因
+parent:
+  - 物理環境
+related:
+  - 行動観測
+  - 性格
+  - 認知科学
+observable_data:
+  - 作業空間設計関連行動変化
+  - 作業空間設計関連反応時間
+  - 作業空間設計関連継続率
+  - 作業空間設計関連ストレス反応
+signal_candidates:
+  - 作業空間設計が行動・感情・判断に影響している可能性がある
+  - 環境条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 文化
+  - 生活状況
+  - 個人差
+evidence: 環境心理学・発達心理学・社会心理学・HCI研究で使用
+status: active

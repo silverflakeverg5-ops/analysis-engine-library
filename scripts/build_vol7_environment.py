@@ -1,87 +1,87 @@
 import json
 from pathlib import Path
 
-OUT = Path("data/master_packs/vol7_environment_001_050.json")
+OUT = Path("data/master_packs/vol7_environment_051_100.json")
 
 SECTIONS = [
     {
-        "category": "Environment - Family",
-        "name_ja": "環境要因・家庭",
+        "category": "Environment - Culture",
+        "name_ja": "環境要因・文化",
         "items": [
-            ("ENV-000001", "family_structure", "家族構成", "Family Structure", "同居家族・兄弟姉妹・保護者構成など、家庭内の基本的な人的構成。"),
-            ("ENV-000002", "parenting_style", "養育スタイル", "Parenting Style", "保護者の関わり方・規律・支援・自律性の与え方に関する環境要因。"),
-            ("ENV-000003", "family_communication", "家庭内コミュニケーション", "Family Communication", "家庭内での会話量・感情表現・相談しやすさに関する環境要因。"),
-            ("ENV-000004", "family_support", "家庭内支援", "Family Support", "学習・生活・感情面で家族から得られる支援の度合い。"),
-            ("ENV-000005", "family_conflict", "家庭内葛藤", "Family Conflict", "家庭内での対立・緊張・不和が行動や感情に影響する環境要因。"),
-            ("ENV-000006", "household_routine", "家庭内ルーティン", "Household Routine", "食事・睡眠・学習・家事などの生活リズムや習慣の安定性。"),
-            ("ENV-000007", "home_learning_environment", "家庭学習環境", "Home Learning Environment", "家庭内で学習・読書・作業に取り組みやすい物理的・心理的環境。"),
-            ("ENV-000008", "emotional_safety_at_home", "家庭内心理的安全性", "Emotional Safety at Home", "家庭内で安心して感情や意見を表現できる度合い。"),
-            ("ENV-000009", "family_expectations", "家族からの期待", "Family Expectations", "家族が本人に対して持つ達成・進路・行動面の期待。"),
-            ("ENV-000010", "caregiving_responsibility", "家庭内ケア責任", "Caregiving Responsibility", "家族の世話や家事など、本人が担う家庭内責任の度合い。")
+            ("ENV-000051", "cultural_norms", "文化的規範", "Cultural Norms", "集団や社会で共有される望ましい行動・価値・判断基準。"),
+            ("ENV-000052", "collectivism_environment", "集団主義環境", "Collectivism Environment", "個人より集団調和・役割・関係性が重視されやすい文化環境。"),
+            ("ENV-000053", "individualism_environment", "個人主義環境", "Individualism Environment", "個人の選択・自立・自己表現が重視されやすい文化環境。"),
+            ("ENV-000054", "power_distance", "権力格差", "Power Distance", "上下関係や権威差をどの程度当然視するかに関する文化的環境。"),
+            ("ENV-000055", "uncertainty_avoidance_culture", "不確実性回避文化", "Uncertainty Avoidance Culture", "曖昧さや予測不能な状況を避け、ルールや安定を重視する文化環境。"),
+            ("ENV-000056", "communication_context_culture", "文脈依存コミュニケーション文化", "Communication Context Culture", "明示的表現よりも空気・文脈・関係性を重視する文化環境。"),
+            ("ENV-000057", "achievement_culture", "達成重視文化", "Achievement Culture", "成果・競争・成功・能力証明が強く重視される文化環境。"),
+            ("ENV-000058", "modesty_norm", "謙遜規範", "Modesty Norm", "自己主張や自己評価を控えめに表現することが望まれやすい文化的規範。"),
+            ("ENV-000059", "honor_shame_culture", "名誉恥文化", "Honor Shame Culture", "社会的評価・面子・恥の回避が行動に強く影響する文化環境。"),
+            ("ENV-000060", "cultural_identity", "文化的アイデンティティ", "Cultural Identity", "自分が属する文化・地域・集団への同一視や帰属感。")
         ]
     },
     {
-        "category": "Environment - Education",
-        "name_ja": "環境要因・教育",
+        "category": "Environment - Economic",
+        "name_ja": "環境要因・経済",
         "items": [
-            ("ENV-000011", "school_climate", "学校風土", "School Climate", "学校全体の安全性・支援性・規律・対人関係の雰囲気。"),
-            ("ENV-000012", "teacher_support", "教師支援", "Teacher Support", "教師からの説明・励まし・フィードバック・相談対応の得られやすさ。"),
-            ("ENV-000013", "peer_learning_environment", "ピア学習環境", "Peer Learning Environment", "友人や同級生と学び合い、助け合える学習環境。"),
-            ("ENV-000014", "academic_pressure", "学業プレッシャー", "Academic Pressure", "成績・受験・課題量などによって生じる学業上の圧力。"),
-            ("ENV-000015", "evaluation_frequency", "評価頻度", "Evaluation Frequency", "テスト・成績評価・レビューなど、外部評価を受ける頻度。"),
-            ("ENV-000016", "feedback_quality", "フィードバック品質", "Feedback Quality", "学習や行動に対して得られるフィードバックの具体性・有用性・タイミング。"),
-            ("ENV-000017", "learning_resources", "学習資源", "Learning Resources", "教材・端末・図書・支援者など、学習に使える資源の利用可能性。"),
-            ("ENV-000018", "classroom_structure", "授業構造", "Classroom Structure", "授業の進行・課題設計・ルール・参加形式の明確さ。"),
-            ("ENV-000019", "autonomy_supportive_education", "自律支援的教育", "Autonomy Supportive Education", "学習者の選択・意見・主体性を尊重する教育環境。"),
-            ("ENV-000020", "competitive_school_environment", "競争的学校環境", "Competitive School Environment", "順位・成績・比較が強調される学校や学習環境。")
+            ("ENV-000061", "economic_security", "経済的安定性", "Economic Security", "生活費・収入・雇用などが安定している度合い。"),
+            ("ENV-000062", "financial_stress", "金銭的ストレス", "Financial Stress", "収入不足・支出不安・借入・将来不安などによる経済的負荷。"),
+            ("ENV-000063", "resource_availability", "資源利用可能性", "Resource Availability", "時間・お金・道具・情報・支援など必要資源へアクセスできる度合い。"),
+            ("ENV-000064", "scarcity_environment", "希少性環境", "Scarcity Environment", "お金・時間・支援などの不足が継続し、判断や行動に影響する環境。"),
+            ("ENV-000065", "income_volatility", "収入変動性", "Income Volatility", "収入が不安定で、将来見通しや意思決定に影響する状態。"),
+            ("ENV-000066", "opportunity_access", "機会アクセス", "Opportunity Access", "教育・仕事・成長・交流などの機会へ到達できる度合い。"),
+            ("ENV-000067", "transport_access", "移動アクセス", "Transport Access", "通学・通勤・外出・社会参加に必要な移動手段の利用しやすさ。"),
+            ("ENV-000068", "housing_stability", "住居安定性", "Housing Stability", "住まいの安全性・継続性・快適性が確保されている度合い。"),
+            ("ENV-000069", "food_security", "食の安定性", "Food Security", "十分で安定した食事や栄養へアクセスできる度合い。"),
+            ("ENV-000070", "economic_mobility_context", "経済的流動性環境", "Economic Mobility Context", "努力や選択によって経済状況を改善できる見通しがある環境。")
         ]
     },
     {
-        "category": "Environment - Workplace",
-        "name_ja": "環境要因・職場",
+        "category": "Environment - Physical",
+        "name_ja": "環境要因・物理環境",
         "items": [
-            ("ENV-000021", "workload", "業務負荷", "Workload", "仕事量・難易度・処理期限などによる職務上の負担。"),
-            ("ENV-000022", "job_control", "職務裁量", "Job Control", "仕事の進め方・順序・判断に対して本人が持つ裁量の度合い。"),
-            ("ENV-000023", "supervisor_support", "上司支援", "Supervisor Support", "上司からの相談対応・承認・調整・問題解決支援の得られやすさ。"),
-            ("ENV-000024", "coworker_support", "同僚支援", "Coworker Support", "同僚からの情報共有・協力・感情的支援の得られやすさ。"),
-            ("ENV-000025", "role_clarity", "役割明確性", "Role Clarity", "自分の責任範囲・期待成果・判断権限が明確である度合い。"),
-            ("ENV-000026", "role_conflict", "役割葛藤", "Role Conflict", "複数の期待や指示が矛盾し、行動判断が難しくなる職場環境要因。"),
-            ("ENV-000027", "psychological_safety_work", "職場心理的安全性", "Psychological Safety at Work", "職場で意見・失敗・懸念を安心して表明できる度合い。"),
-            ("ENV-000028", "workplace_feedback", "職場フィードバック", "Workplace Feedback", "仕事の成果や行動に対して得られる評価・助言・修正情報。"),
-            ("ENV-000029", "work_time_pressure", "業務時間圧", "Work Time Pressure", "期限・納期・即応要求によって生じる時間的圧力。"),
-            ("ENV-000030", "career_uncertainty", "キャリア不確実性", "Career Uncertainty", "雇用・昇進・役割・将来見通しが不明確な状態。")
+            ("ENV-000071", "noise_environment", "騒音環境", "Noise Environment", "周囲の音や騒音が注意・睡眠・ストレスに影響する環境。"),
+            ("ENV-000072", "lighting_environment", "照明環境", "Lighting Environment", "明るさ・光の質・時間帯による覚醒や集中への影響。"),
+            ("ENV-000073", "temperature_environment", "温度環境", "Temperature Environment", "暑さ・寒さ・温度変化が快適性や作業効率に影響する環境。"),
+            ("ENV-000074", "crowding_environment", "混雑環境", "Crowding Environment", "人や物が多く、圧迫感・ストレス・注意負荷が生じやすい環境。"),
+            ("ENV-000075", "private_space", "私的空間", "Private Space", "一人で休む・考える・作業するための空間が確保されている度合い。"),
+            ("ENV-000076", "workspace_design", "作業空間設計", "Workspace Design", "机・椅子・配置・視界・道具など作業効率に影響する空間設計。"),
+            ("ENV-000077", "natural_environment_access", "自然環境アクセス", "Natural Environment Access", "緑地・公園・自然光・屋外環境へ接触できる度合い。"),
+            ("ENV-000078", "sleep_environment", "睡眠環境", "Sleep Environment", "騒音・光・温度・寝具など睡眠の質に影響する環境。"),
+            ("ENV-000079", "safety_environment", "安全環境", "Safety Environment", "事故・犯罪・危険への不安が少なく安心して生活できる環境。"),
+            ("ENV-000080", "accessibility_environment", "アクセシビリティ環境", "Accessibility Environment", "身体的・認知的・技術的制約があっても利用や参加がしやすい環境。")
         ]
     },
     {
-        "category": "Environment - Social Relationship",
-        "name_ja": "環境要因・人間関係",
+        "category": "Environment - Life Event",
+        "name_ja": "環境要因・ライフイベント",
         "items": [
-            ("ENV-000031", "social_support", "社会的支援", "Social Support", "家族・友人・同僚などから得られる感情的・実用的・情報的支援。"),
-            ("ENV-000032", "friendship_quality", "友人関係の質", "Friendship Quality", "友人関係における信頼・安心感・相互支援・葛藤の少なさ。"),
-            ("ENV-000033", "social_isolation", "社会的孤立", "Social Isolation", "他者との接点や支援的関係が少ない状態。"),
-            ("ENV-000034", "loneliness", "孤独感", "Loneliness", "望む対人関係と実際の対人関係の差から生じる主観的な孤独感。"),
-            ("ENV-000035", "peer_pressure", "同調圧力", "Peer Pressure", "周囲の期待や集団規範に合わせるよう求められる社会的圧力。"),
-            ("ENV-000036", "relationship_conflict", "対人葛藤", "Relationship Conflict", "他者との意見不一致・感情的対立・摩擦がある状態。"),
-            ("ENV-000037", "belongingness", "所属感", "Belongingness", "集団や関係性の中で受け入れられていると感じる度合い。"),
-            ("ENV-000038", "social_comparison_environment", "社会的比較環境", "Social Comparison Environment", "他者との成績・外見・生活・成果比較が生じやすい環境。"),
-            ("ENV-000039", "mentorship", "メンター関係", "Mentorship", "経験者や支援者から継続的な助言・支援・成長機会を得られる関係。"),
-            ("ENV-000040", "community_connection", "コミュニティ接続", "Community Connection", "地域・趣味・オンライン・職場などの共同体とのつながり。")
+            ("ENV-000081", "transition_event", "移行イベント", "Transition Event", "進学・就職・転職・引越しなど生活構造が変わる出来事。"),
+            ("ENV-000082", "loss_event", "喪失イベント", "Loss Event", "人間関係・役割・所有物・機会などの喪失を伴う出来事。"),
+            ("ENV-000083", "success_event", "成功イベント", "Success Event", "達成・昇進・合格・承認など、自己評価や行動を変える肯定的出来事。"),
+            ("ENV-000084", "failure_event", "失敗イベント", "Failure Event", "不合格・ミス・挫折・拒絶など、感情や判断に影響する出来事。"),
+            ("ENV-000085", "relationship_change_event", "関係変化イベント", "Relationship Change Event", "出会い・別れ・結婚・離婚・人間関係の変化を伴う出来事。"),
+            ("ENV-000086", "health_event", "健康イベント", "Health Event", "病気・怪我・体調変化など生活や行動に影響する健康関連の出来事。"),
+            ("ENV-000087", "caregiving_event", "ケア役割イベント", "Caregiving Event", "家族や他者の世話を担うことで生活負荷が変わる出来事。"),
+            ("ENV-000088", "financial_change_event", "経済変化イベント", "Financial Change Event", "収入増減・失職・借入・支出増など経済状況が変わる出来事。"),
+            ("ENV-000089", "identity_transition", "アイデンティティ移行", "Identity Transition", "役割・所属・自己認識が変わる人生上の移行過程。"),
+            ("ENV-000090", "major_stressor_event", "重大ストレスイベント", "Major Stressor Event", "生活全体に大きな負荷を与える重大な出来事。")
         ]
     },
     {
-        "category": "Environment - Digital",
-        "name_ja": "環境要因・デジタル",
+        "category": "Environment - Time Lifestyle",
+        "name_ja": "環境要因・時間生活",
         "items": [
-            ("ENV-000041", "screen_time_environment", "スクリーン時間環境", "Screen Time Environment", "スマホ・PC・テレビなど画面利用時間に影響する環境。"),
-            ("ENV-000042", "notification_environment", "通知環境", "Notification Environment", "通知・アラート・メッセージが注意や行動を中断しやすい環境。"),
-            ("ENV-000043", "social_media_exposure", "SNS接触", "Social Media Exposure", "SNS上の投稿・反応・比較・情報流入にさらされる度合い。"),
-            ("ENV-000044", "algorithmic_feed_environment", "アルゴリズムフィード環境", "Algorithmic Feed Environment", "推薦アルゴリズムにより情報接触が偏るデジタル環境。"),
-            ("ENV-000045", "online_feedback_environment", "オンライン評価環境", "Online Feedback Environment", "いいね・コメント・レビューなどオンライン反応を受けやすい環境。"),
-            ("ENV-000046", "digital_distraction", "デジタル誘惑", "Digital Distraction", "アプリ・通知・動画・ゲームなどにより注意が逸れやすい環境要因。"),
-            ("ENV-000047", "information_overload_environment", "情報過多環境", "Information Overload Environment", "処理可能量を超える情報量にさらされやすい環境。"),
-            ("ENV-000048", "online_anonymity", "オンライン匿名性", "Online Anonymity", "身元や社会的評価が見えにくいオンライン環境の特性。"),
-            ("ENV-000049", "digital_access", "デジタルアクセス", "Digital Access", "インターネット・端末・アプリ・情報資源へアクセスできる度合い。"),
-            ("ENV-000050", "online_community_environment", "オンラインコミュニティ環境", "Online Community Environment", "オンライン上の集団・交流・規範・支援に関する環境要因。")
+            ("ENV-000091", "daily_schedule_stability", "日課安定性", "Daily Schedule Stability", "起床・食事・作業・休息などの日々の予定が安定している度合い。"),
+            ("ENV-000092", "time_pressure_lifestyle", "生活時間圧", "Lifestyle Time Pressure", "日常生活で常に急ぎや締切に追われる環境要因。"),
+            ("ENV-000093", "commute_burden", "通勤通学負荷", "Commute Burden", "移動時間・混雑・待ち時間などによる日常的負荷。"),
+            ("ENV-000094", "rest_opportunity", "休息機会", "Rest Opportunity", "睡眠以外に休憩・回復・気分転換を取れる機会の多さ。"),
+            ("ENV-000095", "leisure_access", "余暇アクセス", "Leisure Access", "趣味・遊び・リラックス活動へ参加できる時間や資源の利用可能性。"),
+            ("ENV-000096", "work_life_boundary", "仕事生活境界", "Work Life Boundary", "仕事・学業・家庭・私生活の境界が明確に保たれている度合い。"),
+            ("ENV-000097", "sleep_schedule_regularness", "睡眠スケジュール規則性", "Sleep Schedule Regularness", "就寝・起床時間が規則的に保たれている度合い。"),
+            ("ENV-000098", "meal_rhythm", "食事リズム", "Meal Rhythm", "食事の時間・回数・安定性が生活リズムに与える環境要因。"),
+            ("ENV-000099", "activity_rhythm", "活動リズム", "Activity Rhythm", "一日の活動量や集中時間帯のパターン。"),
+            ("ENV-000100", "recovery_environment", "回復環境", "Recovery Environment", "疲労・ストレス・認知負荷から回復しやすい生活環境。")
         ]
     }
 ]
@@ -136,8 +136,8 @@ def main():
     ])
 
     pack = {
-        "output_dir": "vol7_environment/environment_001_050",
-        "index_filename": "environment_001_050_index.yml",
+        "output_dir": "vol7_environment/environment_051_100",
+        "index_filename": "environment_051_100_index.yml",
         "index_content": "\n".join(index_lines) + "\n",
         "items": all_items
     }

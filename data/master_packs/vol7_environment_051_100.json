@@ -1,0 +1,2107 @@
+{
+  "output_dir": "vol7_environment/environment_051_100",
+  "index_filename": "environment_051_100_index.yml",
+  "index_content": "category: Environment\nname_ja: 環境要因\nitems:\n  - ENV-000051_cultural_norms.yml\n  - ENV-000052_collectivism_environment.yml\n  - ENV-000053_individualism_environment.yml\n  - ENV-000054_power_distance.yml\n  - ENV-000055_uncertainty_avoidance_culture.yml\n  - ENV-000056_communication_context_culture.yml\n  - ENV-000057_achievement_culture.yml\n  - ENV-000058_modesty_norm.yml\n  - ENV-000059_honor_shame_culture.yml\n  - ENV-000060_cultural_identity.yml\n  - ENV-000061_economic_security.yml\n  - ENV-000062_financial_stress.yml\n  - ENV-000063_resource_availability.yml\n  - ENV-000064_scarcity_environment.yml\n  - ENV-000065_income_volatility.yml\n  - ENV-000066_opportunity_access.yml\n  - ENV-000067_transport_access.yml\n  - ENV-000068_housing_stability.yml\n  - ENV-000069_food_security.yml\n  - ENV-000070_economic_mobility_context.yml\n  - ENV-000071_noise_environment.yml\n  - ENV-000072_lighting_environment.yml\n  - ENV-000073_temperature_environment.yml\n  - ENV-000074_crowding_environment.yml\n  - ENV-000075_private_space.yml\n  - ENV-000076_workspace_design.yml\n  - ENV-000077_natural_environment_access.yml\n  - ENV-000078_sleep_environment.yml\n  - ENV-000079_safety_environment.yml\n  - ENV-000080_accessibility_environment.yml\n  - ENV-000081_transition_event.yml\n  - ENV-000082_loss_event.yml\n  - ENV-000083_success_event.yml\n  - ENV-000084_failure_event.yml\n  - ENV-000085_relationship_change_event.yml\n  - ENV-000086_health_event.yml\n  - ENV-000087_caregiving_event.yml\n  - ENV-000088_financial_change_event.yml\n  - ENV-000089_identity_transition.yml\n  - ENV-000090_major_stressor_event.yml\n  - ENV-000091_daily_schedule_stability.yml\n  - ENV-000092_time_pressure_lifestyle.yml\n  - ENV-000093_commute_burden.yml\n  - ENV-000094_rest_opportunity.yml\n  - ENV-000095_leisure_access.yml\n  - ENV-000096_work_life_boundary.yml\n  - ENV-000097_sleep_schedule_regularness.yml\n  - ENV-000098_meal_rhythm.yml\n  - ENV-000099_activity_rhythm.yml\n  - ENV-000100_recovery_environment.yml\nnotes:\n  - 環境要因は本人特性ではなく補正要因として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
+  "items": [
+    {
+      "filename": "ENV-000051_cultural_norms.yml",
+      "id": "ENV-000051",
+      "knowledge_type": "environment_factor",
+      "name_ja": "文化的規範",
+      "name_en": "Cultural Norms",
+      "category": "Environment",
+      "attribute": "Culture",
+      "definition_ja": "集団や社会で共有される望ましい行動・価値・判断基準。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:文化",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "文化"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "文化的規範関連行動変化",
+        "文化的規範関連反応時間",
+        "文化的規範関連継続率",
+        "文化的規範関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "文化的規範が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000052_collectivism_environment.yml",
+      "id": "ENV-000052",
+      "knowledge_type": "environment_factor",
+      "name_ja": "集団主義環境",
+      "name_en": "Collectivism Environment",
+      "category": "Environment",
+      "attribute": "Culture",
+      "definition_ja": "個人より集団調和・役割・関係性が重視されやすい文化環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:文化",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "文化"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "集団主義環境関連行動変化",
+        "集団主義環境関連反応時間",
+        "集団主義環境関連継続率",
+        "集団主義環境関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "集団主義環境が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000053_individualism_environment.yml",
+      "id": "ENV-000053",
+      "knowledge_type": "environment_factor",
+      "name_ja": "個人主義環境",
+      "name_en": "Individualism Environment",
+      "category": "Environment",
+      "attribute": "Culture",
+      "definition_ja": "個人の選択・自立・自己表現が重視されやすい文化環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:文化",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "文化"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "個人主義環境関連行動変化",
+        "個人主義環境関連反応時間",
+        "個人主義環境関連継続率",
+        "個人主義環境関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "個人主義環境が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000054_power_distance.yml",
+      "id": "ENV-000054",
+      "knowledge_type": "environment_factor",
+      "name_ja": "権力格差",
+      "name_en": "Power Distance",
+      "category": "Environment",
+      "attribute": "Culture",
+      "definition_ja": "上下関係や権威差をどの程度当然視するかに関する文化的環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:文化",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "文化"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "権力格差関連行動変化",
+        "権力格差関連反応時間",
+        "権力格差関連継続率",
+        "権力格差関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "権力格差が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000055_uncertainty_avoidance_culture.yml",
+      "id": "ENV-000055",
+      "knowledge_type": "environment_factor",
+      "name_ja": "不確実性回避文化",
+      "name_en": "Uncertainty Avoidance Culture",
+      "category": "Environment",
+      "attribute": "Culture",
+      "definition_ja": "曖昧さや予測不能な状況を避け、ルールや安定を重視する文化環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:文化",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "文化"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "不確実性回避文化関連行動変化",
+        "不確実性回避文化関連反応時間",
+        "不確実性回避文化関連継続率",
+        "不確実性回避文化関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "不確実性回避文化が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000056_communication_context_culture.yml",
+      "id": "ENV-000056",
+      "knowledge_type": "environment_factor",
+      "name_ja": "文脈依存コミュニケーション文化",
+      "name_en": "Communication Context Culture",
+      "category": "Environment",
+      "attribute": "Culture",
+      "definition_ja": "明示的表現よりも空気・文脈・関係性を重視する文化環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:文化",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "文化"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "文脈依存コミュニケーション文化関連行動変化",
+        "文脈依存コミュニケーション文化関連反応時間",
+        "文脈依存コミュニケーション文化関連継続率",
+        "文脈依存コミュニケーション文化関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "文脈依存コミュニケーション文化が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000057_achievement_culture.yml",
+      "id": "ENV-000057",
+      "knowledge_type": "environment_factor",
+      "name_ja": "達成重視文化",
+      "name_en": "Achievement Culture",
+      "category": "Environment",
+      "attribute": "Culture",
+      "definition_ja": "成果・競争・成功・能力証明が強く重視される文化環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:文化",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "文化"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "達成重視文化関連行動変化",
+        "達成重視文化関連反応時間",
+        "達成重視文化関連継続率",
+        "達成重視文化関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "達成重視文化が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000058_modesty_norm.yml",
+      "id": "ENV-000058",
+      "knowledge_type": "environment_factor",
+      "name_ja": "謙遜規範",
+      "name_en": "Modesty Norm",
+      "category": "Environment",
+      "attribute": "Culture",
+      "definition_ja": "自己主張や自己評価を控えめに表現することが望まれやすい文化的規範。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:文化",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "文化"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "謙遜規範関連行動変化",
+        "謙遜規範関連反応時間",
+        "謙遜規範関連継続率",
+        "謙遜規範関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "謙遜規範が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000059_honor_shame_culture.yml",
+      "id": "ENV-000059",
+      "knowledge_type": "environment_factor",
+      "name_ja": "名誉恥文化",
+      "name_en": "Honor Shame Culture",
+      "category": "Environment",
+      "attribute": "Culture",
+      "definition_ja": "社会的評価・面子・恥の回避が行動に強く影響する文化環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:文化",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "文化"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "名誉恥文化関連行動変化",
+        "名誉恥文化関連反応時間",
+        "名誉恥文化関連継続率",
+        "名誉恥文化関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "名誉恥文化が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000060_cultural_identity.yml",
+      "id": "ENV-000060",
+      "knowledge_type": "environment_factor",
+      "name_ja": "文化的アイデンティティ",
+      "name_en": "Cultural Identity",
+      "category": "Environment",
+      "attribute": "Culture",
+      "definition_ja": "自分が属する文化・地域・集団への同一視や帰属感。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:文化",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "文化"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "文化的アイデンティティ関連行動変化",
+        "文化的アイデンティティ関連反応時間",
+        "文化的アイデンティティ関連継続率",
+        "文化的アイデンティティ関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "文化的アイデンティティが行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000061_economic_security.yml",
+      "id": "ENV-000061",
+      "knowledge_type": "environment_factor",
+      "name_ja": "経済的安定性",
+      "name_en": "Economic Security",
+      "category": "Environment",
+      "attribute": "Economic",
+      "definition_ja": "生活費・収入・雇用などが安定している度合い。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:経済",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "経済"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "経済的安定性関連行動変化",
+        "経済的安定性関連反応時間",
+        "経済的安定性関連継続率",
+        "経済的安定性関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "経済的安定性が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000062_financial_stress.yml",
+      "id": "ENV-000062",
+      "knowledge_type": "environment_factor",
+      "name_ja": "金銭的ストレス",
+      "name_en": "Financial Stress",
+      "category": "Environment",
+      "attribute": "Economic",
+      "definition_ja": "収入不足・支出不安・借入・将来不安などによる経済的負荷。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:経済",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "経済"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "金銭的ストレス関連行動変化",
+        "金銭的ストレス関連反応時間",
+        "金銭的ストレス関連継続率",
+        "金銭的ストレス関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "金銭的ストレスが行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000063_resource_availability.yml",
+      "id": "ENV-000063",
+      "knowledge_type": "environment_factor",
+      "name_ja": "資源利用可能性",
+      "name_en": "Resource Availability",
+      "category": "Environment",
+      "attribute": "Economic",
+      "definition_ja": "時間・お金・道具・情報・支援など必要資源へアクセスできる度合い。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:経済",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "経済"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "資源利用可能性関連行動変化",
+        "資源利用可能性関連反応時間",
+        "資源利用可能性関連継続率",
+        "資源利用可能性関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "資源利用可能性が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000064_scarcity_environment.yml",
+      "id": "ENV-000064",
+      "knowledge_type": "environment_factor",
+      "name_ja": "希少性環境",
+      "name_en": "Scarcity Environment",
+      "category": "Environment",
+      "attribute": "Economic",
+      "definition_ja": "お金・時間・支援などの不足が継続し、判断や行動に影響する環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:経済",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "経済"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "希少性環境関連行動変化",
+        "希少性環境関連反応時間",
+        "希少性環境関連継続率",
+        "希少性環境関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "希少性環境が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000065_income_volatility.yml",
+      "id": "ENV-000065",
+      "knowledge_type": "environment_factor",
+      "name_ja": "収入変動性",
+      "name_en": "Income Volatility",
+      "category": "Environment",
+      "attribute": "Economic",
+      "definition_ja": "収入が不安定で、将来見通しや意思決定に影響する状態。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:経済",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "経済"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "収入変動性関連行動変化",
+        "収入変動性関連反応時間",
+        "収入変動性関連継続率",
+        "収入変動性関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "収入変動性が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000066_opportunity_access.yml",
+      "id": "ENV-000066",
+      "knowledge_type": "environment_factor",
+      "name_ja": "機会アクセス",
+      "name_en": "Opportunity Access",
+      "category": "Environment",
+      "attribute": "Economic",
+      "definition_ja": "教育・仕事・成長・交流などの機会へ到達できる度合い。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:経済",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "経済"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "機会アクセス関連行動変化",
+        "機会アクセス関連反応時間",
+        "機会アクセス関連継続率",
+        "機会アクセス関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "機会アクセスが行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000067_transport_access.yml",
+      "id": "ENV-000067",
+      "knowledge_type": "environment_factor",
+      "name_ja": "移動アクセス",
+      "name_en": "Transport Access",
+      "category": "Environment",
+      "attribute": "Economic",
+      "definition_ja": "通学・通勤・外出・社会参加に必要な移動手段の利用しやすさ。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:経済",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "経済"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "移動アクセス関連行動変化",
+        "移動アクセス関連反応時間",
+        "移動アクセス関連継続率",
+        "移動アクセス関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "移動アクセスが行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000068_housing_stability.yml",
+      "id": "ENV-000068",
+      "knowledge_type": "environment_factor",
+      "name_ja": "住居安定性",
+      "name_en": "Housing Stability",
+      "category": "Environment",
+      "attribute": "Economic",
+      "definition_ja": "住まいの安全性・継続性・快適性が確保されている度合い。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:経済",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "経済"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "住居安定性関連行動変化",
+        "住居安定性関連反応時間",
+        "住居安定性関連継続率",
+        "住居安定性関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "住居安定性が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000069_food_security.yml",
+      "id": "ENV-000069",
+      "knowledge_type": "environment_factor",
+      "name_ja": "食の安定性",
+      "name_en": "Food Security",
+      "category": "Environment",
+      "attribute": "Economic",
+      "definition_ja": "十分で安定した食事や栄養へアクセスできる度合い。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:経済",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "経済"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "食の安定性関連行動変化",
+        "食の安定性関連反応時間",
+        "食の安定性関連継続率",
+        "食の安定性関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "食の安定性が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000070_economic_mobility_context.yml",
+      "id": "ENV-000070",
+      "knowledge_type": "environment_factor",
+      "name_ja": "経済的流動性環境",
+      "name_en": "Economic Mobility Context",
+      "category": "Environment",
+      "attribute": "Economic",
+      "definition_ja": "努力や選択によって経済状況を改善できる見通しがある環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:経済",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "経済"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "経済的流動性環境関連行動変化",
+        "経済的流動性環境関連反応時間",
+        "経済的流動性環境関連継続率",
+        "経済的流動性環境関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "経済的流動性環境が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000071_noise_environment.yml",
+      "id": "ENV-000071",
+      "knowledge_type": "environment_factor",
+      "name_ja": "騒音環境",
+      "name_en": "Noise Environment",
+      "category": "Environment",
+      "attribute": "Physical",
+      "definition_ja": "周囲の音や騒音が注意・睡眠・ストレスに影響する環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:物理環境",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "物理環境"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "騒音環境関連行動変化",
+        "騒音環境関連反応時間",
+        "騒音環境関連継続率",
+        "騒音環境関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "騒音環境が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000072_lighting_environment.yml",
+      "id": "ENV-000072",
+      "knowledge_type": "environment_factor",
+      "name_ja": "照明環境",
+      "name_en": "Lighting Environment",
+      "category": "Environment",
+      "attribute": "Physical",
+      "definition_ja": "明るさ・光の質・時間帯による覚醒や集中への影響。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:物理環境",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "物理環境"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "照明環境関連行動変化",
+        "照明環境関連反応時間",
+        "照明環境関連継続率",
+        "照明環境関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "照明環境が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000073_temperature_environment.yml",
+      "id": "ENV-000073",
+      "knowledge_type": "environment_factor",
+      "name_ja": "温度環境",
+      "name_en": "Temperature Environment",
+      "category": "Environment",
+      "attribute": "Physical",
+      "definition_ja": "暑さ・寒さ・温度変化が快適性や作業効率に影響する環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:物理環境",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "物理環境"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "温度環境関連行動変化",
+        "温度環境関連反応時間",
+        "温度環境関連継続率",
+        "温度環境関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "温度環境が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000074_crowding_environment.yml",
+      "id": "ENV-000074",
+      "knowledge_type": "environment_factor",
+      "name_ja": "混雑環境",
+      "name_en": "Crowding Environment",
+      "category": "Environment",
+      "attribute": "Physical",
+      "definition_ja": "人や物が多く、圧迫感・ストレス・注意負荷が生じやすい環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:物理環境",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "物理環境"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "混雑環境関連行動変化",
+        "混雑環境関連反応時間",
+        "混雑環境関連継続率",
+        "混雑環境関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "混雑環境が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000075_private_space.yml",
+      "id": "ENV-000075",
+      "knowledge_type": "environment_factor",
+      "name_ja": "私的空間",
+      "name_en": "Private Space",
+      "category": "Environment",
+      "attribute": "Physical",
+      "definition_ja": "一人で休む・考える・作業するための空間が確保されている度合い。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:物理環境",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "物理環境"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "私的空間関連行動変化",
+        "私的空間関連反応時間",
+        "私的空間関連継続率",
+        "私的空間関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "私的空間が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000076_workspace_design.yml",
+      "id": "ENV-000076",
+      "knowledge_type": "environment_factor",
+      "name_ja": "作業空間設計",
+      "name_en": "Workspace Design",
+      "category": "Environment",
+      "attribute": "Physical",
+      "definition_ja": "机・椅子・配置・視界・道具など作業効率に影響する空間設計。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:物理環境",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "物理環境"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "作業空間設計関連行動変化",
+        "作業空間設計関連反応時間",
+        "作業空間設計関連継続率",
+        "作業空間設計関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "作業空間設計が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000077_natural_environment_access.yml",
+      "id": "ENV-000077",
+      "knowledge_type": "environment_factor",
+      "name_ja": "自然環境アクセス",
+      "name_en": "Natural Environment Access",
+      "category": "Environment",
+      "attribute": "Physical",
+      "definition_ja": "緑地・公園・自然光・屋外環境へ接触できる度合い。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:物理環境",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "物理環境"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "自然環境アクセス関連行動変化",
+        "自然環境アクセス関連反応時間",
+        "自然環境アクセス関連継続率",
+        "自然環境アクセス関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "自然環境アクセスが行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000078_sleep_environment.yml",
+      "id": "ENV-000078",
+      "knowledge_type": "environment_factor",
+      "name_ja": "睡眠環境",
+      "name_en": "Sleep Environment",
+      "category": "Environment",
+      "attribute": "Physical",
+      "definition_ja": "騒音・光・温度・寝具など睡眠の質に影響する環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:物理環境",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "物理環境"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "睡眠環境関連行動変化",
+        "睡眠環境関連反応時間",
+        "睡眠環境関連継続率",
+        "睡眠環境関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "睡眠環境が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000079_safety_environment.yml",
+      "id": "ENV-000079",
+      "knowledge_type": "environment_factor",
+      "name_ja": "安全環境",
+      "name_en": "Safety Environment",
+      "category": "Environment",
+      "attribute": "Physical",
+      "definition_ja": "事故・犯罪・危険への不安が少なく安心して生活できる環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:物理環境",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "物理環境"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "安全環境関連行動変化",
+        "安全環境関連反応時間",
+        "安全環境関連継続率",
+        "安全環境関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "安全環境が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000080_accessibility_environment.yml",
+      "id": "ENV-000080",
+      "knowledge_type": "environment_factor",
+      "name_ja": "アクセシビリティ環境",
+      "name_en": "Accessibility Environment",
+      "category": "Environment",
+      "attribute": "Physical",
+      "definition_ja": "身体的・認知的・技術的制約があっても利用や参加がしやすい環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:物理環境",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "物理環境"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "アクセシビリティ環境関連行動変化",
+        "アクセシビリティ環境関連反応時間",
+        "アクセシビリティ環境関連継続率",
+        "アクセシビリティ環境関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "アクセシビリティ環境が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000081_transition_event.yml",
+      "id": "ENV-000081",
+      "knowledge_type": "environment_factor",
+      "name_ja": "移行イベント",
+      "name_en": "Transition Event",
+      "category": "Environment",
+      "attribute": "Life Event",
+      "definition_ja": "進学・就職・転職・引越しなど生活構造が変わる出来事。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:ライフイベント",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "ライフイベント"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "移行イベント関連行動変化",
+        "移行イベント関連反応時間",
+        "移行イベント関連継続率",
+        "移行イベント関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "移行イベントが行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000082_loss_event.yml",
+      "id": "ENV-000082",
+      "knowledge_type": "environment_factor",
+      "name_ja": "喪失イベント",
+      "name_en": "Loss Event",
+      "category": "Environment",
+      "attribute": "Life Event",
+      "definition_ja": "人間関係・役割・所有物・機会などの喪失を伴う出来事。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:ライフイベント",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "ライフイベント"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "喪失イベント関連行動変化",
+        "喪失イベント関連反応時間",
+        "喪失イベント関連継続率",
+        "喪失イベント関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "喪失イベントが行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000083_success_event.yml",
+      "id": "ENV-000083",
+      "knowledge_type": "environment_factor",
+      "name_ja": "成功イベント",
+      "name_en": "Success Event",
+      "category": "Environment",
+      "attribute": "Life Event",
+      "definition_ja": "達成・昇進・合格・承認など、自己評価や行動を変える肯定的出来事。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:ライフイベント",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "ライフイベント"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "成功イベント関連行動変化",
+        "成功イベント関連反応時間",
+        "成功イベント関連継続率",
+        "成功イベント関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "成功イベントが行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000084_failure_event.yml",
+      "id": "ENV-000084",
+      "knowledge_type": "environment_factor",
+      "name_ja": "失敗イベント",
+      "name_en": "Failure Event",
+      "category": "Environment",
+      "attribute": "Life Event",
+      "definition_ja": "不合格・ミス・挫折・拒絶など、感情や判断に影響する出来事。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:ライフイベント",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "ライフイベント"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "失敗イベント関連行動変化",
+        "失敗イベント関連反応時間",
+        "失敗イベント関連継続率",
+        "失敗イベント関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "失敗イベントが行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000085_relationship_change_event.yml",
+      "id": "ENV-000085",
+      "knowledge_type": "environment_factor",
+      "name_ja": "関係変化イベント",
+      "name_en": "Relationship Change Event",
+      "category": "Environment",
+      "attribute": "Life Event",
+      "definition_ja": "出会い・別れ・結婚・離婚・人間関係の変化を伴う出来事。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:ライフイベント",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "ライフイベント"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "関係変化イベント関連行動変化",
+        "関係変化イベント関連反応時間",
+        "関係変化イベント関連継続率",
+        "関係変化イベント関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "関係変化イベントが行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000086_health_event.yml",
+      "id": "ENV-000086",
+      "knowledge_type": "environment_factor",
+      "name_ja": "健康イベント",
+      "name_en": "Health Event",
+      "category": "Environment",
+      "attribute": "Life Event",
+      "definition_ja": "病気・怪我・体調変化など生活や行動に影響する健康関連の出来事。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:ライフイベント",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "ライフイベント"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "健康イベント関連行動変化",
+        "健康イベント関連反応時間",
+        "健康イベント関連継続率",
+        "健康イベント関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "健康イベントが行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000087_caregiving_event.yml",
+      "id": "ENV-000087",
+      "knowledge_type": "environment_factor",
+      "name_ja": "ケア役割イベント",
+      "name_en": "Caregiving Event",
+      "category": "Environment",
+      "attribute": "Life Event",
+      "definition_ja": "家族や他者の世話を担うことで生活負荷が変わる出来事。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:ライフイベント",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "ライフイベント"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "ケア役割イベント関連行動変化",
+        "ケア役割イベント関連反応時間",
+        "ケア役割イベント関連継続率",
+        "ケア役割イベント関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "ケア役割イベントが行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000088_financial_change_event.yml",
+      "id": "ENV-000088",
+      "knowledge_type": "environment_factor",
+      "name_ja": "経済変化イベント",
+      "name_en": "Financial Change Event",
+      "category": "Environment",
+      "attribute": "Life Event",
+      "definition_ja": "収入増減・失職・借入・支出増など経済状況が変わる出来事。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:ライフイベント",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "ライフイベント"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "経済変化イベント関連行動変化",
+        "経済変化イベント関連反応時間",
+        "経済変化イベント関連継続率",
+        "経済変化イベント関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "経済変化イベントが行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000089_identity_transition.yml",
+      "id": "ENV-000089",
+      "knowledge_type": "environment_factor",
+      "name_ja": "アイデンティティ移行",
+      "name_en": "Identity Transition",
+      "category": "Environment",
+      "attribute": "Life Event",
+      "definition_ja": "役割・所属・自己認識が変わる人生上の移行過程。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:ライフイベント",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "ライフイベント"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "アイデンティティ移行関連行動変化",
+        "アイデンティティ移行関連反応時間",
+        "アイデンティティ移行関連継続率",
+        "アイデンティティ移行関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "アイデンティティ移行が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000090_major_stressor_event.yml",
+      "id": "ENV-000090",
+      "knowledge_type": "environment_factor",
+      "name_ja": "重大ストレスイベント",
+      "name_en": "Major Stressor Event",
+      "category": "Environment",
+      "attribute": "Life Event",
+      "definition_ja": "生活全体に大きな負荷を与える重大な出来事。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:ライフイベント",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "ライフイベント"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "重大ストレスイベント関連行動変化",
+        "重大ストレスイベント関連反応時間",
+        "重大ストレスイベント関連継続率",
+        "重大ストレスイベント関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "重大ストレスイベントが行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000091_daily_schedule_stability.yml",
+      "id": "ENV-000091",
+      "knowledge_type": "environment_factor",
+      "name_ja": "日課安定性",
+      "name_en": "Daily Schedule Stability",
+      "category": "Environment",
+      "attribute": "Time Lifestyle",
+      "definition_ja": "起床・食事・作業・休息などの日々の予定が安定している度合い。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:時間生活",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "時間生活"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "日課安定性関連行動変化",
+        "日課安定性関連反応時間",
+        "日課安定性関連継続率",
+        "日課安定性関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "日課安定性が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000092_time_pressure_lifestyle.yml",
+      "id": "ENV-000092",
+      "knowledge_type": "environment_factor",
+      "name_ja": "生活時間圧",
+      "name_en": "Lifestyle Time Pressure",
+      "category": "Environment",
+      "attribute": "Time Lifestyle",
+      "definition_ja": "日常生活で常に急ぎや締切に追われる環境要因。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:時間生活",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "時間生活"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "生活時間圧関連行動変化",
+        "生活時間圧関連反応時間",
+        "生活時間圧関連継続率",
+        "生活時間圧関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "生活時間圧が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000093_commute_burden.yml",
+      "id": "ENV-000093",
+      "knowledge_type": "environment_factor",
+      "name_ja": "通勤通学負荷",
+      "name_en": "Commute Burden",
+      "category": "Environment",
+      "attribute": "Time Lifestyle",
+      "definition_ja": "移動時間・混雑・待ち時間などによる日常的負荷。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:時間生活",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "時間生活"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "通勤通学負荷関連行動変化",
+        "通勤通学負荷関連反応時間",
+        "通勤通学負荷関連継続率",
+        "通勤通学負荷関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "通勤通学負荷が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000094_rest_opportunity.yml",
+      "id": "ENV-000094",
+      "knowledge_type": "environment_factor",
+      "name_ja": "休息機会",
+      "name_en": "Rest Opportunity",
+      "category": "Environment",
+      "attribute": "Time Lifestyle",
+      "definition_ja": "睡眠以外に休憩・回復・気分転換を取れる機会の多さ。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:時間生活",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "時間生活"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "休息機会関連行動変化",
+        "休息機会関連反応時間",
+        "休息機会関連継続率",
+        "休息機会関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "休息機会が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000095_leisure_access.yml",
+      "id": "ENV-000095",
+      "knowledge_type": "environment_factor",
+      "name_ja": "余暇アクセス",
+      "name_en": "Leisure Access",
+      "category": "Environment",
+      "attribute": "Time Lifestyle",
+      "definition_ja": "趣味・遊び・リラックス活動へ参加できる時間や資源の利用可能性。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:時間生活",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "時間生活"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "余暇アクセス関連行動変化",
+        "余暇アクセス関連反応時間",
+        "余暇アクセス関連継続率",
+        "余暇アクセス関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "余暇アクセスが行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000096_work_life_boundary.yml",
+      "id": "ENV-000096",
+      "knowledge_type": "environment_factor",
+      "name_ja": "仕事生活境界",
+      "name_en": "Work Life Boundary",
+      "category": "Environment",
+      "attribute": "Time Lifestyle",
+      "definition_ja": "仕事・学業・家庭・私生活の境界が明確に保たれている度合い。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:時間生活",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "時間生活"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "仕事生活境界関連行動変化",
+        "仕事生活境界関連反応時間",
+        "仕事生活境界関連継続率",
+        "仕事生活境界関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "仕事生活境界が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000097_sleep_schedule_regularness.yml",
+      "id": "ENV-000097",
+      "knowledge_type": "environment_factor",
+      "name_ja": "睡眠スケジュール規則性",
+      "name_en": "Sleep Schedule Regularness",
+      "category": "Environment",
+      "attribute": "Time Lifestyle",
+      "definition_ja": "就寝・起床時間が規則的に保たれている度合い。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:時間生活",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "時間生活"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "睡眠スケジュール規則性関連行動変化",
+        "睡眠スケジュール規則性関連反応時間",
+        "睡眠スケジュール規則性関連継続率",
+        "睡眠スケジュール規則性関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "睡眠スケジュール規則性が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000098_meal_rhythm.yml",
+      "id": "ENV-000098",
+      "knowledge_type": "environment_factor",
+      "name_ja": "食事リズム",
+      "name_en": "Meal Rhythm",
+      "category": "Environment",
+      "attribute": "Time Lifestyle",
+      "definition_ja": "食事の時間・回数・安定性が生活リズムに与える環境要因。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:時間生活",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "時間生活"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "食事リズム関連行動変化",
+        "食事リズム関連反応時間",
+        "食事リズム関連継続率",
+        "食事リズム関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "食事リズムが行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000099_activity_rhythm.yml",
+      "id": "ENV-000099",
+      "knowledge_type": "environment_factor",
+      "name_ja": "活動リズム",
+      "name_en": "Activity Rhythm",
+      "category": "Environment",
+      "attribute": "Time Lifestyle",
+      "definition_ja": "一日の活動量や集中時間帯のパターン。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:時間生活",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "時間生活"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "活動リズム関連行動変化",
+        "活動リズム関連反応時間",
+        "活動リズム関連継続率",
+        "活動リズム関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "活動リズムが行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ENV-000100_recovery_environment.yml",
+      "id": "ENV-000100",
+      "knowledge_type": "environment_factor",
+      "name_ja": "回復環境",
+      "name_en": "Recovery Environment",
+      "category": "Environment",
+      "attribute": "Time Lifestyle",
+      "definition_ja": "疲労・ストレス・認知負荷から回復しやすい生活環境。",
+      "tags": [
+        "CAT:環境要因",
+        "CAT:時間生活",
+        "ATTR:補正要因"
+      ],
+      "parent": [
+        "時間生活"
+      ],
+      "related": [
+        "行動観測",
+        "性格",
+        "認知科学"
+      ],
+      "observable_data": [
+        "回復環境関連行動変化",
+        "回復環境関連反応時間",
+        "回復環境関連継続率",
+        "回復環境関連ストレス反応"
+      ],
+      "signal_candidates": [
+        "回復環境が行動・感情・判断に影響している可能性がある",
+        "環境条件の変化に応じて行動パターンが変化する"
+      ],
+      "device_level": "スマホ・PCのみ推定可能",
+      "modifiers": [
+        "年齢",
+        "文化",
+        "生活状況",
+        "個人差"
+      ],
+      "evidence": "環境心理学・発達心理学・社会心理学・HCI研究で使用",
+      "status": "active"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+id: ENV-000089
+knowledge_type: environment_factor
+name_ja: アイデンティティ移行
+name_en: Identity Transition
+category: Environment
+attribute: Life Event
+definition_ja: 役割・所属・自己認識が変わる人生上の移行過程。
+tags:
+  - CAT:環境要因
+  - CAT:ライフイベント
+  - ATTR:補正要因
+parent:
+  - ライフイベント
+related:
+  - 行動観測
+  - 性格
+  - 認知科学
+observable_data:
+  - アイデンティティ移行関連行動変化
+  - アイデンティティ移行関連反応時間
+  - アイデンティティ移行関連継続率
+  - アイデンティティ移行関連ストレス反応
+signal_candidates:
+  - アイデンティティ移行が行動・感情・判断に影響している可能性がある
+  - 環境条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 文化
+  - 生活状況
+  - 個人差
+evidence: 環境心理学・発達心理学・社会心理学・HCI研究で使用
+status: active

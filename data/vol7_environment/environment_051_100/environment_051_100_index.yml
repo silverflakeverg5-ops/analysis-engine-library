@@ -1,0 +1,57 @@
+category: Environment
+name_ja: 環境要因
+items:
+  - ENV-000051_cultural_norms.yml
+  - ENV-000052_collectivism_environment.yml
+  - ENV-000053_individualism_environment.yml
+  - ENV-000054_power_distance.yml
+  - ENV-000055_uncertainty_avoidance_culture.yml
+  - ENV-000056_communication_context_culture.yml
+  - ENV-000057_achievement_culture.yml
+  - ENV-000058_modesty_norm.yml
+  - ENV-000059_honor_shame_culture.yml
+  - ENV-000060_cultural_identity.yml
+  - ENV-000061_economic_security.yml
+  - ENV-000062_financial_stress.yml
+  - ENV-000063_resource_availability.yml
+  - ENV-000064_scarcity_environment.yml
+  - ENV-000065_income_volatility.yml
+  - ENV-000066_opportunity_access.yml
+  - ENV-000067_transport_access.yml
+  - ENV-000068_housing_stability.yml
+  - ENV-000069_food_security.yml
+  - ENV-000070_economic_mobility_context.yml
+  - ENV-000071_noise_environment.yml
+  - ENV-000072_lighting_environment.yml
+  - ENV-000073_temperature_environment.yml
+  - ENV-000074_crowding_environment.yml
+  - ENV-000075_private_space.yml
+  - ENV-000076_workspace_design.yml
+  - ENV-000077_natural_environment_access.yml
+  - ENV-000078_sleep_environment.yml
+  - ENV-000079_safety_environment.yml
+  - ENV-000080_accessibility_environment.yml
+  - ENV-000081_transition_event.yml
+  - ENV-000082_loss_event.yml
+  - ENV-000083_success_event.yml
+  - ENV-000084_failure_event.yml
+  - ENV-000085_relationship_change_event.yml
+  - ENV-000086_health_event.yml
+  - ENV-000087_caregiving_event.yml
+  - ENV-000088_financial_change_event.yml
+  - ENV-000089_identity_transition.yml
+  - ENV-000090_major_stressor_event.yml
+  - ENV-000091_daily_schedule_stability.yml
+  - ENV-000092_time_pressure_lifestyle.yml
+  - ENV-000093_commute_burden.yml
+  - ENV-000094_rest_opportunity.yml
+  - ENV-000095_leisure_access.yml
+  - ENV-000096_work_life_boundary.yml
+  - ENV-000097_sleep_schedule_regularness.yml
+  - ENV-000098_meal_rhythm.yml
+  - ENV-000099_activity_rhythm.yml
+  - ENV-000100_recovery_environment.yml
+notes:
+  - 環境要因は本人特性ではなく補正要因として扱う
+  - 観測可能データとSignal候補を中心に管理する
+  - アプリ側でスコアリング・推論・表示を行う

@@ -1,0 +1,33 @@
+id: ENV-000052
+knowledge_type: environment_factor
+name_ja: 集団主義環境
+name_en: Collectivism Environment
+category: Environment
+attribute: Culture
+definition_ja: 個人より集団調和・役割・関係性が重視されやすい文化環境。
+tags:
+  - CAT:環境要因
+  - CAT:文化
+  - ATTR:補正要因
+parent:
+  - 文化
+related:
+  - 行動観測
+  - 性格
+  - 認知科学
+observable_data:
+  - 集団主義環境関連行動変化
+  - 集団主義環境関連反応時間
+  - 集団主義環境関連継続率
+  - 集団主義環境関連ストレス反応
+signal_candidates:
+  - 集団主義環境が行動・感情・判断に影響している可能性がある
+  - 環境条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 文化
+  - 生活状況
+  - 個人差
+evidence: 環境心理学・発達心理学・社会心理学・HCI研究で使用
+status: active

@@ -1,0 +1,33 @@
+id: ENV-000057
+knowledge_type: environment_factor
+name_ja: 達成重視文化
+name_en: Achievement Culture
+category: Environment
+attribute: Culture
+definition_ja: 成果・競争・成功・能力証明が強く重視される文化環境。
+tags:
+  - CAT:環境要因
+  - CAT:文化
+  - ATTR:補正要因
+parent:
+  - 文化
+related:
+  - 行動観測
+  - 性格
+  - 認知科学
+observable_data:
+  - 達成重視文化関連行動変化
+  - 達成重視文化関連反応時間
+  - 達成重視文化関連継続率
+  - 達成重視文化関連ストレス反応
+signal_candidates:
+  - 達成重視文化が行動・感情・判断に影響している可能性がある
+  - 環境条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 文化
+  - 生活状況
+  - 個人差
+evidence: 環境心理学・発達心理学・社会心理学・HCI研究で使用
+status: active

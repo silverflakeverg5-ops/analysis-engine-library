@@ -1,0 +1,33 @@
+id: PHYS-000023
+knowledge_type: physiology_factor
+name_ja: 覚醒水準
+name_en: Arousal Level
+category: Physiology
+attribute: Stress Arousal
+definition_ja: 眠気から緊張までを含む心身の活性化度合い。
+tags:
+  - CAT:生理
+  - CAT:ストレス覚醒
+  - ATTR:補正要因
+parent:
+  - ストレス覚醒
+related:
+  - 神経科学
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 覚醒水準関連反応時間
+  - 覚醒水準関連行動変化
+  - 覚醒水準関連継続率
+  - 覚醒水準関連ストレス反応
+signal_candidates:
+  - 覚醒水準が注意・感情・判断・行動に影響している可能性がある
+  - 体調条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 睡眠
+  - 疲労
+  - 生活状況
+evidence: 生理心理学・健康心理学・睡眠研究・HCI研究で使用
+status: active

@@ -1,0 +1,33 @@
+id: PHYS-000045
+knowledge_type: physiology_factor
+name_ja: 姿勢状態
+name_en: Posture Condition
+category: Physiology
+attribute: Physical Condition
+definition_ja: 姿勢や身体配置が疲労・集中・気分に影響する状態。
+tags:
+  - CAT:生理
+  - CAT:体調
+  - ATTR:補正要因
+parent:
+  - 体調
+related:
+  - 神経科学
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 姿勢状態関連反応時間
+  - 姿勢状態関連行動変化
+  - 姿勢状態関連継続率
+  - 姿勢状態関連ストレス反応
+signal_candidates:
+  - 姿勢状態が注意・感情・判断・行動に影響している可能性がある
+  - 体調条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 睡眠
+  - 疲労
+  - 生活状況
+evidence: 生理心理学・健康心理学・睡眠研究・HCI研究で使用
+status: active

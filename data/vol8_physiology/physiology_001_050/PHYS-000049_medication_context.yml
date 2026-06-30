@@ -1,0 +1,33 @@
+id: PHYS-000049
+knowledge_type: physiology_factor
+name_ja: 服薬文脈
+name_en: Medication Context
+category: Physiology
+attribute: Physical Condition
+definition_ja: 薬の使用が眠気・集中・気分・身体状態に影響し得る文脈。
+tags:
+  - CAT:生理
+  - CAT:体調
+  - ATTR:補正要因
+parent:
+  - 体調
+related:
+  - 神経科学
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 服薬文脈関連反応時間
+  - 服薬文脈関連行動変化
+  - 服薬文脈関連継続率
+  - 服薬文脈関連ストレス反応
+signal_candidates:
+  - 服薬文脈が注意・感情・判断・行動に影響している可能性がある
+  - 体調条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 睡眠
+  - 疲労
+  - 生活状況
+evidence: 生理心理学・健康心理学・睡眠研究・HCI研究で使用
+status: active

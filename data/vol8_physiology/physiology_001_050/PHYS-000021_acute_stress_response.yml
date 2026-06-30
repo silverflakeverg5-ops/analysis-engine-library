@@ -1,0 +1,33 @@
+id: PHYS-000021
+knowledge_type: physiology_factor
+name_ja: 急性ストレス反応
+name_en: Acute Stress Response
+category: Physiology
+attribute: Stress Arousal
+definition_ja: 短期的な負荷や脅威に対して生じる身体・認知・情動反応。
+tags:
+  - CAT:生理
+  - CAT:ストレス覚醒
+  - ATTR:補正要因
+parent:
+  - ストレス覚醒
+related:
+  - 神経科学
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 急性ストレス反応関連反応時間
+  - 急性ストレス反応関連行動変化
+  - 急性ストレス反応関連継続率
+  - 急性ストレス反応関連ストレス反応
+signal_candidates:
+  - 急性ストレス反応が注意・感情・判断・行動に影響している可能性がある
+  - 体調条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 睡眠
+  - 疲労
+  - 生活状況
+evidence: 生理心理学・健康心理学・睡眠研究・HCI研究で使用
+status: active

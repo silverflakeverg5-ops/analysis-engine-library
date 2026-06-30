@@ -1,0 +1,57 @@
+category: Physiology
+name_ja: 生理
+items:
+  - PHYS-000001_sleep_duration.yml
+  - PHYS-000002_sleep_quality.yml
+  - PHYS-000003_sleep_regularness.yml
+  - PHYS-000004_sleep_latency.yml
+  - PHYS-000005_night_waking.yml
+  - PHYS-000006_daytime_sleepiness.yml
+  - PHYS-000007_sleep_debt.yml
+  - PHYS-000008_circadian_stability.yml
+  - PHYS-000009_chronotype_tendency.yml
+  - PHYS-000010_sleep_recovery.yml
+  - PHYS-000011_physical_fatigue.yml
+  - PHYS-000012_mental_fatigue.yml
+  - PHYS-000013_fatigue_accumulation.yml
+  - PHYS-000014_recovery_rate.yml
+  - PHYS-000015_energy_level.yml
+  - PHYS-000016_vigor.yml
+  - PHYS-000017_burnout_risk_state.yml
+  - PHYS-000018_rest_deficit.yml
+  - PHYS-000019_overexertion.yml
+  - PHYS-000020_fatigue_sensitivity.yml
+  - PHYS-000021_acute_stress_response.yml
+  - PHYS-000022_chronic_stress_state.yml
+  - PHYS-000023_arousal_level.yml
+  - PHYS-000024_hyperarousal.yml
+  - PHYS-000025_underarousal.yml
+  - PHYS-000026_stress_recovery.yml
+  - PHYS-000027_autonomic_balance.yml
+  - PHYS-000028_tension_state.yml
+  - PHYS-000029_relaxation_state.yml
+  - PHYS-000030_stress_tolerance.yml
+  - PHYS-000031_daily_activity_rhythm.yml
+  - PHYS-000032_meal_timing.yml
+  - PHYS-000033_hydration_state.yml
+  - PHYS-000034_body_temperature_rhythm.yml
+  - PHYS-000035_menstrual_cycle_context.yml
+  - PHYS-000036_seasonal_physiological_change.yml
+  - PHYS-000037_jet_lag_state.yml
+  - PHYS-000038_shift_work_rhythm.yml
+  - PHYS-000039_weekend_social_jetlag.yml
+  - PHYS-000040_recovery_rhythm.yml
+  - PHYS-000041_pain_state.yml
+  - PHYS-000042_headache_state.yml
+  - PHYS-000043_digestive_condition.yml
+  - PHYS-000044_muscle_tension.yml
+  - PHYS-000045_posture_condition.yml
+  - PHYS-000046_visual_strain.yml
+  - PHYS-000047_hearing_load.yml
+  - PHYS-000048_illness_state.yml
+  - PHYS-000049_medication_context.yml
+  - PHYS-000050_physical_condition_integration.yml
+notes:
+  - 生理要因は医療診断ではなく補正要因として扱う
+  - 観測可能データとSignal候補を中心に管理する
+  - アプリ側でスコアリング・推論・表示を行う

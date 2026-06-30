@@ -1,0 +1,33 @@
+id: PHYS-000039
+knowledge_type: physiology_factor
+name_ja: 社会的時差ぼけ
+name_en: Social Jetlag
+category: Physiology
+attribute: Body Rhythm
+definition_ja: 平日と休日の睡眠時間帯のずれによって生じるリズムの不一致。
+tags:
+  - CAT:生理
+  - CAT:身体リズム
+  - ATTR:補正要因
+parent:
+  - 身体リズム
+related:
+  - 神経科学
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 社会的時差ぼけ関連反応時間
+  - 社会的時差ぼけ関連行動変化
+  - 社会的時差ぼけ関連継続率
+  - 社会的時差ぼけ関連ストレス反応
+signal_candidates:
+  - 社会的時差ぼけが注意・感情・判断・行動に影響している可能性がある
+  - 体調条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 睡眠
+  - 疲労
+  - 生活状況
+evidence: 生理心理学・健康心理学・睡眠研究・HCI研究で使用
+status: active

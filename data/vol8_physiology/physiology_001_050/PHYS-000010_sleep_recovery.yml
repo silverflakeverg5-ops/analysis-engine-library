@@ -1,0 +1,33 @@
+id: PHYS-000010
+knowledge_type: physiology_factor
+name_ja: 睡眠回復
+name_en: Sleep Recovery
+category: Physiology
+attribute: Sleep
+definition_ja: 睡眠によって疲労・注意低下・情動負荷が回復する過程。
+tags:
+  - CAT:生理
+  - CAT:睡眠
+  - ATTR:補正要因
+parent:
+  - 睡眠
+related:
+  - 神経科学
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 睡眠回復関連反応時間
+  - 睡眠回復関連行動変化
+  - 睡眠回復関連継続率
+  - 睡眠回復関連ストレス反応
+signal_candidates:
+  - 睡眠回復が注意・感情・判断・行動に影響している可能性がある
+  - 体調条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 睡眠
+  - 疲労
+  - 生活状況
+evidence: 生理心理学・健康心理学・睡眠研究・HCI研究で使用
+status: active

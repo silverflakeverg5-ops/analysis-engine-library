@@ -1,0 +1,33 @@
+id: PHYS-000016
+knowledge_type: physiology_factor
+name_ja: 活力
+name_en: Vigor
+category: Physiology
+attribute: Fatigue
+definition_ja: 身体的・精神的に活動へ向かえる強さや前向きさ。
+tags:
+  - CAT:生理
+  - CAT:疲労
+  - ATTR:補正要因
+parent:
+  - 疲労
+related:
+  - 神経科学
+  - 行動観測
+  - 環境要因
+observable_data:
+  - 活力関連反応時間
+  - 活力関連行動変化
+  - 活力関連継続率
+  - 活力関連ストレス反応
+signal_candidates:
+  - 活力が注意・感情・判断・行動に影響している可能性がある
+  - 体調条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 年齢
+  - 睡眠
+  - 疲労
+  - 生活状況
+evidence: 生理心理学・健康心理学・睡眠研究・HCI研究で使用
+status: active

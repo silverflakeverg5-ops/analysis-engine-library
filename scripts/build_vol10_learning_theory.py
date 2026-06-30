@@ -1,87 +1,87 @@
 import json
 from pathlib import Path
 
-OUT = Path("data/master_packs/vol10_learning_theory_051_100.json")
+OUT = Path("data/master_packs/vol10_learning_theory_101_150.json")
 
 SECTIONS = [
     {
-        "category": "Learning Theory - Cognitive Load Learning",
-        "name_ja": "学習理論・認知負荷学習",
+        "category": "Learning Theory - Digital Learning",
+        "name_ja": "学習理論・デジタル学習",
         "items": [
-            ("LEARN-000051", "cognitive_load_learning", "認知負荷学習", "Cognitive Load Learning", "学習時の情報処理負荷が理解・記憶・成績に影響する考え方。"),
-            ("LEARN-000052", "intrinsic_cognitive_load_learning", "内在的認知負荷", "Intrinsic Cognitive Load", "学習内容そのものの複雑さによって生じる認知負荷。"),
-            ("LEARN-000053", "extraneous_cognitive_load_learning", "外在的認知負荷", "Extraneous Cognitive Load", "教材設計や説明の分かりにくさによって余分に生じる認知負荷。"),
-            ("LEARN-000054", "germane_cognitive_load_learning", "学習関連認知負荷", "Germane Cognitive Load", "理解やスキーマ形成に有効に使われる認知負荷。"),
-            ("LEARN-000055", "split_attention_effect", "注意分割効果", "Split Attention Effect", "関連情報が分散して提示されることで理解負荷が高まる現象。"),
-            ("LEARN-000056", "modality_effect", "モダリティ効果", "Modality Effect", "視覚と聴覚など複数チャネルを適切に使うことで学習効率が変化する現象。"),
-            ("LEARN-000057", "redundancy_effect", "冗長性効果", "Redundancy Effect", "不要な重複情報がかえって理解や処理を妨げる現象。"),
-            ("LEARN-000058", "worked_example_effect", "例題効果", "Worked Example Effect", "解法例を提示することで初学者の学習負荷を下げる効果。"),
-            ("LEARN-000059", "expertise_reversal_effect", "熟達度逆転効果", "Expertise Reversal Effect", "初学者に有効な支援が熟達者には不要または妨げになる現象。"),
-            ("LEARN-000060", "segmenting_effect", "分節化効果", "Segmenting Effect", "情報を小さなまとまりに分けて提示することで理解しやすくなる効果。")
+            ("LEARN-000101", "e_learning", "Eラーニング", "E Learning", "デジタル教材やオンライン環境を用いて行う学習。"),
+            ("LEARN-000102", "mobile_learning", "モバイル学習", "Mobile Learning", "スマホやタブレットなど携帯端末を使って行う学習。"),
+            ("LEARN-000103", "microlearning", "マイクロラーニング", "Microlearning", "短時間・小単位の教材や課題で学ぶ方法。"),
+            ("LEARN-000104", "blended_learning", "ブレンド型学習", "Blended Learning", "対面学習とオンライン学習を組み合わせた学習設計。"),
+            ("LEARN-000105", "flipped_learning", "反転学習", "Flipped Learning", "事前学習と授業・演習を組み合わせて理解を深める学習方法。"),
+            ("LEARN-000106", "asynchronous_learning", "非同期学習", "Asynchronous Learning", "学習者が自分のタイミングで進めるオンライン学習。"),
+            ("LEARN-000107", "synchronous_online_learning", "同期オンライン学習", "Synchronous Online Learning", "リアルタイムで行うオンライン授業や共同学習。"),
+            ("LEARN-000108", "learning_platform_engagement", "学習プラットフォーム関与", "Learning Platform Engagement", "学習システム上でのログイン・閲覧・課題提出などの関与度。"),
+            ("LEARN-000109", "digital_learning_distraction", "デジタル学習誘惑", "Digital Learning Distraction", "通知・別アプリ・動画などがデジタル学習を妨げる要因。"),
+            ("LEARN-000110", "online_learning_self_management", "オンライン学習自己管理", "Online Learning Self Management", "オンライン学習で時間・進捗・集中を自分で管理する行動。")
         ]
     },
     {
-        "category": "Learning Theory - Memory Learning",
-        "name_ja": "学習理論・記憶学習",
+        "category": "Learning Theory - Gamified Learning",
+        "name_ja": "学習理論・ゲーミファイド学習",
         "items": [
-            ("LEARN-000061", "encoding_strategy", "符号化方略", "Encoding Strategy", "情報を記憶しやすい形に変換する学習方略。"),
-            ("LEARN-000062", "elaborative_rehearsal", "精緻化リハーサル", "Elaborative Rehearsal", "新しい情報を既存知識と結びつけて深く記憶する方法。"),
-            ("LEARN-000063", "maintenance_rehearsal", "維持リハーサル", "Maintenance Rehearsal", "情報を繰り返して一時的に保持する方法。"),
-            ("LEARN-000064", "mnemonic_strategy", "記憶術", "Mnemonic Strategy", "語呂・イメージ・場所法などを使って記憶を助ける方法。"),
-            ("LEARN-000065", "dual_coding", "二重符号化", "Dual Coding", "言語情報と視覚情報を組み合わせて記憶を強める方法。"),
-            ("LEARN-000066", "generation_effect", "生成効果", "Generation Effect", "与えられた情報を読むだけでなく、自分で生成することで記憶が高まりやすい現象。"),
-            ("LEARN-000067", "testing_effect", "テスト効果", "Testing Effect", "再学習よりもテストや想起練習によって記憶保持が高まりやすい現象。"),
-            ("LEARN-000068", "retrieval_cue", "検索手がかり", "Retrieval Cue", "記憶を思い出す助けとなる文脈・語句・画像などの手がかり。"),
-            ("LEARN-000069", "forgetting_curve", "忘却曲線", "Forgetting Curve", "時間経過に伴い記憶保持率が低下する一般的傾向。"),
-            ("LEARN-000070", "relearning_effect", "再学習効果", "Relearning Effect", "一度学んだ内容を再び学ぶ時に習得が速くなる現象。")
+            ("LEARN-000111", "gamification_learning", "ゲーミフィケーション学習", "Gamification Learning", "ポイント・バッジ・ランキングなどゲーム要素を使った学習設計。"),
+            ("LEARN-000112", "point_system_learning", "ポイント制学習", "Point System Learning", "学習行動や成果にポイントを付与する設計。"),
+            ("LEARN-000113", "badge_learning", "バッジ学習", "Badge Learning", "達成や技能獲得をバッジで可視化する学習設計。"),
+            ("LEARN-000114", "leaderboard_learning", "ランキング学習", "Leaderboard Learning", "順位表示によって競争や動機づけを促す学習設計。"),
+            ("LEARN-000115", "streak_learning", "連続記録学習", "Streak Learning", "継続日数や連続達成を可視化して学習継続を促す設計。"),
+            ("LEARN-000116", "quest_based_learning", "クエスト型学習", "Quest Based Learning", "課題をクエスト形式で提示し、段階的に達成させる学習設計。"),
+            ("LEARN-000117", "level_progression_learning", "レベル進行学習", "Level Progression Learning", "難易度や内容をレベル形式で段階的に進める学習方法。"),
+            ("LEARN-000118", "challenge_reward_learning", "挑戦報酬学習", "Challenge Reward Learning", "挑戦課題と報酬を組み合わせて学習行動を促す設計。"),
+            ("LEARN-000119", "game_feedback_loop_learning", "ゲーム型フィードバックループ学習", "Game Feedback Loop Learning", "行動・結果・報酬・再挑戦の循環で学習を促す設計。"),
+            ("LEARN-000120", "playful_learning", "遊びを通じた学習", "Playful Learning", "遊びや探索を通じて自然に理解や技能を獲得する学習。")
         ]
     },
     {
-        "category": "Learning Theory - Skill Acquisition",
-        "name_ja": "学習理論・技能習得",
+        "category": "Learning Theory - Error Learning",
+        "name_ja": "学習理論・エラー学習",
         "items": [
-            ("LEARN-000071", "skill_acquisition", "技能習得", "Skill Acquisition", "練習や経験によって技能が向上し自動化される過程。"),
-            ("LEARN-000072", "deliberate_practice", "意図的練習", "Deliberate Practice", "明確な目標・フィードバック・弱点改善を伴う高品質な練習。"),
-            ("LEARN-000073", "automaticity", "自動化", "Automaticity", "反復によって意識的負荷が少なく行動できるようになる状態。"),
-            ("LEARN-000074", "fluency_development", "流暢性発達", "Fluency Development", "処理や技能が速く正確に実行できるようになる過程。"),
-            ("LEARN-000075", "accuracy_speed_tradeoff_learning", "正確性速度トレードオフ学習", "Accuracy Speed Tradeoff Learning", "正確さと速さのバランスを調整しながら技能を改善する過程。"),
-            ("LEARN-000076", "practice_variability", "練習変動性", "Practice Variability", "異なる条件や文脈で練習することにより適応力を高める方法。"),
-            ("LEARN-000077", "blocked_practice", "ブロック練習", "Blocked Practice", "同じ種類の課題を連続して練習する方法。"),
-            ("LEARN-000078", "random_practice", "ランダム練習", "Random Practice", "複数種類の課題をランダムに混ぜて練習する方法。"),
-            ("LEARN-000079", "motor_skill_learning", "運動技能学習", "Motor Skill Learning", "身体動作や操作技能が練習によって向上する学習過程。"),
-            ("LEARN-000080", "cognitive_skill_learning", "認知技能学習", "Cognitive Skill Learning", "判断・計算・問題解決など認知的技能が習得される過程。")
+            ("LEARN-000121", "error_based_learning", "エラー基盤学習", "Error Based Learning", "誤りを手がかりに理解や技能を改善する学習過程。"),
+            ("LEARN-000122", "productive_failure", "生産的失敗", "Productive Failure", "先に失敗や試行錯誤を経験することで後の理解を深める学習方法。"),
+            ("LEARN-000123", "mistake_analysis", "ミス分析", "Mistake Analysis", "誤答や失敗の原因を分析して改善につなげる学習行動。"),
+            ("LEARN-000124", "error_correction_learning", "エラー修正学習", "Error Correction Learning", "誤りを修正しながら正しい理解や手順を身につける学習。"),
+            ("LEARN-000125", "misconception_correction", "誤概念修正", "Misconception Correction", "誤った理解や思い込みを正しい概念へ修正する学習過程。"),
+            ("LEARN-000126", "debugging_learning", "デバッグ学習", "Debugging Learning", "原因特定と修正を通じて問題解決力を高める学習。"),
+            ("LEARN-000127", "near_miss_learning", "ニアミス学習", "Near Miss Learning", "惜しい失敗や部分的成功を手がかりに改善する学習。"),
+            ("LEARN-000128", "failure_reflection", "失敗振り返り", "Failure Reflection", "失敗後に原因・方略・次の行動を振り返る学習行動。"),
+            ("LEARN-000129", "resilience_learning", "レジリエンス学習", "Resilience Learning", "失敗や困難から回復し、次の挑戦へつなげる学習過程。"),
+            ("LEARN-000130", "adaptive_error_feedback", "適応的エラーフィードバック", "Adaptive Error Feedback", "誤りの種類や学習者状態に合わせて返す修正支援。")
         ]
     },
     {
-        "category": "Learning Theory - Social Collaborative Learning",
-        "name_ja": "学習理論・社会協同学習",
+        "category": "Learning Theory - Expertise Development",
+        "name_ja": "学習理論・熟達化",
         "items": [
-            ("LEARN-000081", "collaborative_learning", "協同学習", "Collaborative Learning", "複数人が相互作用しながら理解や成果を高める学習方法。"),
-            ("LEARN-000082", "peer_learning", "ピア学習", "Peer Learning", "同じ立場や近いレベルの学習者同士で教え合い学ぶ方法。"),
-            ("LEARN-000083", "peer_tutoring", "ピアチュータリング", "Peer Tutoring", "学習者同士が教える側と学ぶ側に分かれて支援する方法。"),
-            ("LEARN-000084", "reciprocal_teaching", "相互教授法", "Reciprocal Teaching", "要約・質問・予測・明確化などを交代で行い理解を深める方法。"),
-            ("LEARN-000085", "cooperative_learning", "協力学習", "Cooperative Learning", "役割分担や相互依存を設計して集団で学ぶ方法。"),
-            ("LEARN-000086", "discussion_learning", "討議学習", "Discussion Learning", "意見交換や議論を通じて理解を深める学習方法。"),
-            ("LEARN-000087", "explanation_to_others", "他者説明学習", "Learning by Teaching", "他者に説明することで自分の理解を深める学習方法。"),
-            ("LEARN-000088", "socially_shared_regulation", "社会的共有調整", "Socially Shared Regulation", "集団で目標・進捗・方略を共有しながら学習を調整する過程。"),
-            ("LEARN-000089", "group_knowledge_building", "集団知識構築", "Group Knowledge Building", "複数人の知識や視点を統合して理解を発展させる過程。"),
-            ("LEARN-000090", "learning_community", "学習コミュニティ", "Learning Community", "学習者同士が継続的に支援・共有・成長する集団環境。")
+            ("LEARN-000131", "expertise_development", "熟達化", "Expertise Development", "長期的な練習と経験により高度な技能や判断力が形成される過程。"),
+            ("LEARN-000132", "novice_expert_difference", "初心者熟達者差", "Novice Expert Difference", "初心者と熟達者の知識構造・注意・判断の違い。"),
+            ("LEARN-000133", "domain_knowledge", "領域知識", "Domain Knowledge", "特定分野に関する専門的知識や経験。"),
+            ("LEARN-000134", "pattern_chunking_expertise", "熟達者のパターンチャンク化", "Expert Pattern Chunking", "熟達者が複雑な情報を意味あるまとまりとして処理する能力。"),
+            ("LEARN-000135", "expert_intuition", "熟達者直感", "Expert Intuition", "豊富な経験に基づいて素早く妥当な判断を行う能力。"),
+            ("LEARN-000136", "deliberate_practice_cycle", "意図的練習サイクル", "Deliberate Practice Cycle", "目標設定・練習・フィードバック・修正を繰り返す熟達化サイクル。"),
+            ("LEARN-000137", "performance_plateau", "成績停滞", "Performance Plateau", "練習を続けても成績向上が一時的に鈍化する状態。"),
+            ("LEARN-000138", "expert_feedback", "熟達者フィードバック", "Expert Feedback", "熟達者から得られる具体的で高品質な改善情報。"),
+            ("LEARN-000139", "mental_model_refinement", "メンタルモデル精緻化", "Mental Model Refinement", "経験や説明により対象理解の枠組みをより正確にする過程。"),
+            ("LEARN-000140", "adaptive_expertise", "適応的熟達", "Adaptive Expertise", "既存技能を新しい状況に柔軟に応用できる熟達状態。")
         ]
     },
     {
-        "category": "Learning Theory - Assessment Evaluation",
-        "name_ja": "学習理論・評価測定",
+        "category": "Learning Theory - Integration",
+        "name_ja": "学習理論・統合",
         "items": [
-            ("LEARN-000091", "formative_assessment", "形成的評価", "Formative Assessment", "学習途中で理解度や課題を把握し改善につなげる評価。"),
-            ("LEARN-000092", "summative_assessment", "総括的評価", "Summative Assessment", "学習終了時に到達度や成果を確認する評価。"),
-            ("LEARN-000093", "diagnostic_assessment", "診断的評価", "Diagnostic Assessment", "学習前や途中で強み・弱み・前提知識を把握する評価。"),
-            ("LEARN-000094", "criterion_referenced_assessment", "到達基準評価", "Criterion Referenced Assessment", "定められた基準に対して到達度を評価する方法。"),
-            ("LEARN-000095", "norm_referenced_assessment", "相対評価", "Norm Referenced Assessment", "他者との比較に基づいて成績や位置づけを評価する方法。"),
-            ("LEARN-000096", "self_assessment", "自己評価", "Self Assessment", "学習者自身が理解度・成果・課題を評価する方法。"),
-            ("LEARN-000097", "peer_assessment", "相互評価", "Peer Assessment", "学習者同士が成果や行動を評価し合う方法。"),
-            ("LEARN-000098", "rubric_assessment", "ルーブリック評価", "Rubric Assessment", "評価基準と水準を明示して成果を評価する方法。"),
-            ("LEARN-000099", "learning_analytics", "ラーニングアナリティクス", "Learning Analytics", "学習ログや成績データを分析して学習支援に活用する方法。"),
-            ("LEARN-000100", "competency_based_assessment", "コンピテンシー評価", "Competency Based Assessment", "知識だけでなく実践的能力や行動に基づいて評価する方法。")
+            ("LEARN-000141", "learning_behavior_integration", "学習行動統合", "Learning Behavior Integration", "動機づけ・方略・環境・フィードバックを統合して学習行動を理解する枠組み。"),
+            ("LEARN-000142", "learning_context_integration", "学習文脈統合", "Learning Context Integration", "教材・環境・支援・本人状態が統合して学習に影響する状態。"),
+            ("LEARN-000143", "cognitive_affective_learning_integration", "認知感情学習統合", "Cognitive Affective Learning Integration", "理解・記憶・感情・動機が相互作用して学習に影響する枠組み。"),
+            ("LEARN-000144", "social_learning_integration_theory", "社会的学習統合", "Social Learning Integration", "観察・協同・フィードバック・規範が学習を形成する統合的視点。"),
+            ("LEARN-000145", "digital_learning_integration", "デジタル学習統合", "Digital Learning Integration", "オンライン環境・ログ・教材・支援を統合して学習を支える設計。"),
+            ("LEARN-000146", "self_regulation_integration", "自己調整統合", "Self Regulation Integration", "目標設定・計画・モニタリング・修正を統合する学習過程。"),
+            ("LEARN-000147", "feedback_learning_integration", "フィードバック学習統合", "Feedback Learning Integration", "結果・遂行・修正情報が学習改善に与える影響を統合する枠組み。"),
+            ("LEARN-000148", "transfer_learning_integration", "転移学習統合", "Transfer Learning Integration", "学んだ知識や技能を別場面へ応用する統合的過程。"),
+            ("LEARN-000149", "lifelong_learning", "生涯学習", "Lifelong Learning", "人生を通じて知識・技能・態度を継続的に更新する学習。"),
+            ("LEARN-000150", "human_learning_integration", "人間学習統合", "Human Learning Integration", "認知・感情・社会・環境・生理を統合して人間の学習を理解する枠組み。")
         ]
     }
 ]
@@ -136,8 +136,8 @@ def main():
     ])
 
     pack = {
-        "output_dir": "vol10_learning_theory/learning_theory_051_100",
-        "index_filename": "learning_theory_051_100_index.yml",
+        "output_dir": "vol10_learning_theory/learning_theory_101_150",
+        "index_filename": "learning_theory_101_150_index.yml",
         "index_content": "\n".join(index_lines) + "\n",
         "items": all_items
     }

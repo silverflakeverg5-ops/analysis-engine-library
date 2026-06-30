@@ -1,0 +1,33 @@
+id: LEARN-000130
+knowledge_type: learning_theory
+name_ja: 適応的エラーフィードバック
+name_en: Adaptive Error Feedback
+category: Learning Theory
+attribute: Error Learning
+definition_ja: 誤りの種類や学習者状態に合わせて返す修正支援。
+tags:
+  - CAT:学習理論
+  - CAT:エラー学習
+  - ATTR:学習要因
+parent:
+  - エラー学習
+related:
+  - 認知科学
+  - 行動観測
+  - 教育環境
+observable_data:
+  - 適応的エラーフィードバック関連正答率
+  - 適応的エラーフィードバック関連継続率
+  - 適応的エラーフィードバック関連改善率
+  - 適応的エラーフィードバック関連反応時間
+signal_candidates:
+  - 適応的エラーフィードバックが学習行動や成績変化に影響している可能性がある
+  - 学習条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 難易度
+  - フィードバック
+  - 疲労
+  - 動機づけ
+evidence: 教育心理学・学習科学・認知科学・HCI研究で使用
+status: active

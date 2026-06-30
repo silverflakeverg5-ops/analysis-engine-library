@@ -1,0 +1,33 @@
+id: LEARN-000125
+knowledge_type: learning_theory
+name_ja: 誤概念修正
+name_en: Misconception Correction
+category: Learning Theory
+attribute: Error Learning
+definition_ja: 誤った理解や思い込みを正しい概念へ修正する学習過程。
+tags:
+  - CAT:学習理論
+  - CAT:エラー学習
+  - ATTR:学習要因
+parent:
+  - エラー学習
+related:
+  - 認知科学
+  - 行動観測
+  - 教育環境
+observable_data:
+  - 誤概念修正関連正答率
+  - 誤概念修正関連継続率
+  - 誤概念修正関連改善率
+  - 誤概念修正関連反応時間
+signal_candidates:
+  - 誤概念修正が学習行動や成績変化に影響している可能性がある
+  - 学習条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 難易度
+  - フィードバック
+  - 疲労
+  - 動機づけ
+evidence: 教育心理学・学習科学・認知科学・HCI研究で使用
+status: active

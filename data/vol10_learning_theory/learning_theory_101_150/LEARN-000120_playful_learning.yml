@@ -1,0 +1,33 @@
+id: LEARN-000120
+knowledge_type: learning_theory
+name_ja: 遊びを通じた学習
+name_en: Playful Learning
+category: Learning Theory
+attribute: Gamified Learning
+definition_ja: 遊びや探索を通じて自然に理解や技能を獲得する学習。
+tags:
+  - CAT:学習理論
+  - CAT:ゲーミファイド学習
+  - ATTR:学習要因
+parent:
+  - ゲーミファイド学習
+related:
+  - 認知科学
+  - 行動観測
+  - 教育環境
+observable_data:
+  - 遊びを通じた学習関連正答率
+  - 遊びを通じた学習関連継続率
+  - 遊びを通じた学習関連改善率
+  - 遊びを通じた学習関連反応時間
+signal_candidates:
+  - 遊びを通じた学習が学習行動や成績変化に影響している可能性がある
+  - 学習条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 難易度
+  - フィードバック
+  - 疲労
+  - 動機づけ
+evidence: 教育心理学・学習科学・認知科学・HCI研究で使用
+status: active

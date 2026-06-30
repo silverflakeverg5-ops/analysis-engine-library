@@ -1,0 +1,33 @@
+id: LEARN-000101
+knowledge_type: learning_theory
+name_ja: Eラーニング
+name_en: E Learning
+category: Learning Theory
+attribute: Digital Learning
+definition_ja: デジタル教材やオンライン環境を用いて行う学習。
+tags:
+  - CAT:学習理論
+  - CAT:デジタル学習
+  - ATTR:学習要因
+parent:
+  - デジタル学習
+related:
+  - 認知科学
+  - 行動観測
+  - 教育環境
+observable_data:
+  - Eラーニング関連正答率
+  - Eラーニング関連継続率
+  - Eラーニング関連改善率
+  - Eラーニング関連反応時間
+signal_candidates:
+  - Eラーニングが学習行動や成績変化に影響している可能性がある
+  - 学習条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 難易度
+  - フィードバック
+  - 疲労
+  - 動機づけ
+evidence: 教育心理学・学習科学・認知科学・HCI研究で使用
+status: active

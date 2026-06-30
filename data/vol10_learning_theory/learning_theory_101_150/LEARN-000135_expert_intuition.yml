@@ -1,0 +1,33 @@
+id: LEARN-000135
+knowledge_type: learning_theory
+name_ja: 熟達者直感
+name_en: Expert Intuition
+category: Learning Theory
+attribute: Expertise Development
+definition_ja: 豊富な経験に基づいて素早く妥当な判断を行う能力。
+tags:
+  - CAT:学習理論
+  - CAT:熟達化
+  - ATTR:学習要因
+parent:
+  - 熟達化
+related:
+  - 認知科学
+  - 行動観測
+  - 教育環境
+observable_data:
+  - 熟達者直感関連正答率
+  - 熟達者直感関連継続率
+  - 熟達者直感関連改善率
+  - 熟達者直感関連反応時間
+signal_candidates:
+  - 熟達者直感が学習行動や成績変化に影響している可能性がある
+  - 学習条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 難易度
+  - フィードバック
+  - 疲労
+  - 動機づけ
+evidence: 教育心理学・学習科学・認知科学・HCI研究で使用
+status: active

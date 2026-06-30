@@ -1,0 +1,33 @@
+id: LEARN-000051
+knowledge_type: learning_theory
+name_ja: 認知負荷学習
+name_en: Cognitive Load Learning
+category: Learning Theory
+attribute: Cognitive Load Learning
+definition_ja: 学習時の情報処理負荷が理解・記憶・成績に影響する考え方。
+tags:
+  - CAT:学習理論
+  - CAT:認知負荷学習
+  - ATTR:学習要因
+parent:
+  - 認知負荷学習
+related:
+  - 認知科学
+  - 行動観測
+  - 教育環境
+observable_data:
+  - 認知負荷学習関連正答率
+  - 認知負荷学習関連継続率
+  - 認知負荷学習関連改善率
+  - 認知負荷学習関連反応時間
+signal_candidates:
+  - 認知負荷学習が学習行動や成績変化に影響している可能性がある
+  - 学習条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 難易度
+  - フィードバック
+  - 疲労
+  - 動機づけ
+evidence: 教育心理学・学習科学・認知科学・HCI研究で使用
+status: active

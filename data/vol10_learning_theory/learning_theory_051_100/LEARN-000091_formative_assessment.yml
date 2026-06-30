@@ -1,0 +1,33 @@
+id: LEARN-000091
+knowledge_type: learning_theory
+name_ja: 形成的評価
+name_en: Formative Assessment
+category: Learning Theory
+attribute: Assessment Evaluation
+definition_ja: 学習途中で理解度や課題を把握し改善につなげる評価。
+tags:
+  - CAT:学習理論
+  - CAT:評価測定
+  - ATTR:学習要因
+parent:
+  - 評価測定
+related:
+  - 認知科学
+  - 行動観測
+  - 教育環境
+observable_data:
+  - 形成的評価関連正答率
+  - 形成的評価関連継続率
+  - 形成的評価関連改善率
+  - 形成的評価関連反応時間
+signal_candidates:
+  - 形成的評価が学習行動や成績変化に影響している可能性がある
+  - 学習条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 難易度
+  - フィードバック
+  - 疲労
+  - 動機づけ
+evidence: 教育心理学・学習科学・認知科学・HCI研究で使用
+status: active

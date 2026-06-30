@@ -1,0 +1,33 @@
+id: LEARN-000062
+knowledge_type: learning_theory
+name_ja: 精緻化リハーサル
+name_en: Elaborative Rehearsal
+category: Learning Theory
+attribute: Memory Learning
+definition_ja: 新しい情報を既存知識と結びつけて深く記憶する方法。
+tags:
+  - CAT:学習理論
+  - CAT:記憶学習
+  - ATTR:学習要因
+parent:
+  - 記憶学習
+related:
+  - 認知科学
+  - 行動観測
+  - 教育環境
+observable_data:
+  - 精緻化リハーサル関連正答率
+  - 精緻化リハーサル関連継続率
+  - 精緻化リハーサル関連改善率
+  - 精緻化リハーサル関連反応時間
+signal_candidates:
+  - 精緻化リハーサルが学習行動や成績変化に影響している可能性がある
+  - 学習条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 難易度
+  - フィードバック
+  - 疲労
+  - 動機づけ
+evidence: 教育心理学・学習科学・認知科学・HCI研究で使用
+status: active

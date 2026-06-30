@@ -1,0 +1,33 @@
+id: LEARN-000059
+knowledge_type: learning_theory
+name_ja: 熟達度逆転効果
+name_en: Expertise Reversal Effect
+category: Learning Theory
+attribute: Cognitive Load Learning
+definition_ja: 初学者に有効な支援が熟達者には不要または妨げになる現象。
+tags:
+  - CAT:学習理論
+  - CAT:認知負荷学習
+  - ATTR:学習要因
+parent:
+  - 認知負荷学習
+related:
+  - 認知科学
+  - 行動観測
+  - 教育環境
+observable_data:
+  - 熟達度逆転効果関連正答率
+  - 熟達度逆転効果関連継続率
+  - 熟達度逆転効果関連改善率
+  - 熟達度逆転効果関連反応時間
+signal_candidates:
+  - 熟達度逆転効果が学習行動や成績変化に影響している可能性がある
+  - 学習条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 難易度
+  - フィードバック
+  - 疲労
+  - 動機づけ
+evidence: 教育心理学・学習科学・認知科学・HCI研究で使用
+status: active

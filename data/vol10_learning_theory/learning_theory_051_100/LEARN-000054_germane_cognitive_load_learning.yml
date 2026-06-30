@@ -1,0 +1,33 @@
+id: LEARN-000054
+knowledge_type: learning_theory
+name_ja: 学習関連認知負荷
+name_en: Germane Cognitive Load
+category: Learning Theory
+attribute: Cognitive Load Learning
+definition_ja: 理解やスキーマ形成に有効に使われる認知負荷。
+tags:
+  - CAT:学習理論
+  - CAT:認知負荷学習
+  - ATTR:学習要因
+parent:
+  - 認知負荷学習
+related:
+  - 認知科学
+  - 行動観測
+  - 教育環境
+observable_data:
+  - 学習関連認知負荷関連正答率
+  - 学習関連認知負荷関連継続率
+  - 学習関連認知負荷関連改善率
+  - 学習関連認知負荷関連反応時間
+signal_candidates:
+  - 学習関連認知負荷が学習行動や成績変化に影響している可能性がある
+  - 学習条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 難易度
+  - フィードバック
+  - 疲労
+  - 動機づけ
+evidence: 教育心理学・学習科学・認知科学・HCI研究で使用
+status: active

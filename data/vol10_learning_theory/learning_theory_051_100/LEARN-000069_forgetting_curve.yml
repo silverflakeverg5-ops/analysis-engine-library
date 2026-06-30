@@ -1,0 +1,33 @@
+id: LEARN-000069
+knowledge_type: learning_theory
+name_ja: 忘却曲線
+name_en: Forgetting Curve
+category: Learning Theory
+attribute: Memory Learning
+definition_ja: 時間経過に伴い記憶保持率が低下する一般的傾向。
+tags:
+  - CAT:学習理論
+  - CAT:記憶学習
+  - ATTR:学習要因
+parent:
+  - 記憶学習
+related:
+  - 認知科学
+  - 行動観測
+  - 教育環境
+observable_data:
+  - 忘却曲線関連正答率
+  - 忘却曲線関連継続率
+  - 忘却曲線関連改善率
+  - 忘却曲線関連反応時間
+signal_candidates:
+  - 忘却曲線が学習行動や成績変化に影響している可能性がある
+  - 学習条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 難易度
+  - フィードバック
+  - 疲労
+  - 動機づけ
+evidence: 教育心理学・学習科学・認知科学・HCI研究で使用
+status: active

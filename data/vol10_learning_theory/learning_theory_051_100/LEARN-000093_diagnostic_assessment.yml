@@ -1,0 +1,33 @@
+id: LEARN-000093
+knowledge_type: learning_theory
+name_ja: 診断的評価
+name_en: Diagnostic Assessment
+category: Learning Theory
+attribute: Assessment Evaluation
+definition_ja: 学習前や途中で強み・弱み・前提知識を把握する評価。
+tags:
+  - CAT:学習理論
+  - CAT:評価測定
+  - ATTR:学習要因
+parent:
+  - 評価測定
+related:
+  - 認知科学
+  - 行動観測
+  - 教育環境
+observable_data:
+  - 診断的評価関連正答率
+  - 診断的評価関連継続率
+  - 診断的評価関連改善率
+  - 診断的評価関連反応時間
+signal_candidates:
+  - 診断的評価が学習行動や成績変化に影響している可能性がある
+  - 学習条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 難易度
+  - フィードバック
+  - 疲労
+  - 動機づけ
+evidence: 教育心理学・学習科学・認知科学・HCI研究で使用
+status: active

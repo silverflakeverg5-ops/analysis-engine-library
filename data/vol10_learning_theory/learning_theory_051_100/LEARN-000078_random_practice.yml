@@ -1,0 +1,33 @@
+id: LEARN-000078
+knowledge_type: learning_theory
+name_ja: ランダム練習
+name_en: Random Practice
+category: Learning Theory
+attribute: Skill Acquisition
+definition_ja: 複数種類の課題をランダムに混ぜて練習する方法。
+tags:
+  - CAT:学習理論
+  - CAT:技能習得
+  - ATTR:学習要因
+parent:
+  - 技能習得
+related:
+  - 認知科学
+  - 行動観測
+  - 教育環境
+observable_data:
+  - ランダム練習関連正答率
+  - ランダム練習関連継続率
+  - ランダム練習関連改善率
+  - ランダム練習関連反応時間
+signal_candidates:
+  - ランダム練習が学習行動や成績変化に影響している可能性がある
+  - 学習条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 難易度
+  - フィードバック
+  - 疲労
+  - 動機づけ
+evidence: 教育心理学・学習科学・認知科学・HCI研究で使用
+status: active

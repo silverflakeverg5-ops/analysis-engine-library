@@ -1,87 +1,87 @@
 import json
 from pathlib import Path
 
-OUT = Path("data/master_packs/vol10_learning_theory_001_050.json")
+OUT = Path("data/master_packs/vol10_learning_theory_051_100.json")
 
 SECTIONS = [
     {
-        "category": "Learning Theory - Core Learning",
-        "name_ja": "学習理論・基本学習",
+        "category": "Learning Theory - Cognitive Load Learning",
+        "name_ja": "学習理論・認知負荷学習",
         "items": [
-            ("LEARN-000001", "learning", "学習", "Learning", "経験や練習によって知識・技能・行動が変化する過程。"),
-            ("LEARN-000002", "acquisition", "獲得", "Acquisition", "新しい知識・技能・反応を身につける過程。"),
-            ("LEARN-000003", "retention", "保持", "Retention", "学習した内容を一定期間維持する過程。"),
-            ("LEARN-000004", "retrieval_practice", "検索練習", "Retrieval Practice", "思い出す練習によって記憶保持と理解を強める学習方法。"),
-            ("LEARN-000005", "spacing_effect", "分散学習効果", "Spacing Effect", "学習を時間的に分散することで保持が高まりやすい現象。"),
-            ("LEARN-000006", "interleaving", "交互学習", "Interleaving", "複数の課題や内容を混ぜて学ぶことで識別や応用を高める方法。"),
-            ("LEARN-000007", "overlearning", "過剰学習", "Overlearning", "一度できるようになった後も練習を続けて習熟を安定させる方法。"),
-            ("LEARN-000008", "distributed_practice", "分散練習", "Distributed Practice", "練習を複数回に分けて行い、学習効率と保持を高める方法。"),
-            ("LEARN-000009", "massed_practice", "集中練習", "Massed Practice", "短時間にまとめて繰り返し練習する学習方法。"),
-            ("LEARN-000010", "transfer", "転移", "Transfer", "ある場面で学んだ知識や技能を別の場面へ応用すること。")
+            ("LEARN-000051", "cognitive_load_learning", "認知負荷学習", "Cognitive Load Learning", "学習時の情報処理負荷が理解・記憶・成績に影響する考え方。"),
+            ("LEARN-000052", "intrinsic_cognitive_load_learning", "内在的認知負荷", "Intrinsic Cognitive Load", "学習内容そのものの複雑さによって生じる認知負荷。"),
+            ("LEARN-000053", "extraneous_cognitive_load_learning", "外在的認知負荷", "Extraneous Cognitive Load", "教材設計や説明の分かりにくさによって余分に生じる認知負荷。"),
+            ("LEARN-000054", "germane_cognitive_load_learning", "学習関連認知負荷", "Germane Cognitive Load", "理解やスキーマ形成に有効に使われる認知負荷。"),
+            ("LEARN-000055", "split_attention_effect", "注意分割効果", "Split Attention Effect", "関連情報が分散して提示されることで理解負荷が高まる現象。"),
+            ("LEARN-000056", "modality_effect", "モダリティ効果", "Modality Effect", "視覚と聴覚など複数チャネルを適切に使うことで学習効率が変化する現象。"),
+            ("LEARN-000057", "redundancy_effect", "冗長性効果", "Redundancy Effect", "不要な重複情報がかえって理解や処理を妨げる現象。"),
+            ("LEARN-000058", "worked_example_effect", "例題効果", "Worked Example Effect", "解法例を提示することで初学者の学習負荷を下げる効果。"),
+            ("LEARN-000059", "expertise_reversal_effect", "熟達度逆転効果", "Expertise Reversal Effect", "初学者に有効な支援が熟達者には不要または妨げになる現象。"),
+            ("LEARN-000060", "segmenting_effect", "分節化効果", "Segmenting Effect", "情報を小さなまとまりに分けて提示することで理解しやすくなる効果。")
         ]
     },
     {
-        "category": "Learning Theory - Feedback",
-        "name_ja": "学習理論・フィードバック",
+        "category": "Learning Theory - Memory Learning",
+        "name_ja": "学習理論・記憶学習",
         "items": [
-            ("LEARN-000011", "feedback", "フィードバック", "Feedback", "行動や成果に対して返される評価・結果・改善情報。"),
-            ("LEARN-000012", "immediate_feedback", "即時フィードバック", "Immediate Feedback", "行動や回答の直後に返されるフィードバック。"),
-            ("LEARN-000013", "delayed_feedback", "遅延フィードバック", "Delayed Feedback", "一定時間後に返されるフィードバック。"),
-            ("LEARN-000014", "corrective_feedback", "修正フィードバック", "Corrective Feedback", "誤りの内容や正しい方向を示すフィードバック。"),
-            ("LEARN-000015", "elaborated_feedback", "精緻化フィードバック", "Elaborated Feedback", "正誤だけでなく理由や考え方を含むフィードバック。"),
-            ("LEARN-000016", "knowledge_of_results", "結果知識", "Knowledge of Results", "結果が正しかったか、どの程度達成できたかを示す情報。"),
-            ("LEARN-000017", "knowledge_of_performance", "遂行知識", "Knowledge of Performance", "どのように行動・処理したかに関するフィードバック。"),
-            ("LEARN-000018", "feedback_timing", "フィードバックタイミング", "Feedback Timing", "フィードバックを返す時点が学習に与える影響。"),
-            ("LEARN-000019", "feedback_frequency", "フィードバック頻度", "Feedback Frequency", "フィードバックがどれくらい頻繁に返されるか。"),
-            ("LEARN-000020", "feedback_clarity", "フィードバック明確性", "Feedback Clarity", "フィードバック内容が具体的で理解しやすい度合い。")
+            ("LEARN-000061", "encoding_strategy", "符号化方略", "Encoding Strategy", "情報を記憶しやすい形に変換する学習方略。"),
+            ("LEARN-000062", "elaborative_rehearsal", "精緻化リハーサル", "Elaborative Rehearsal", "新しい情報を既存知識と結びつけて深く記憶する方法。"),
+            ("LEARN-000063", "maintenance_rehearsal", "維持リハーサル", "Maintenance Rehearsal", "情報を繰り返して一時的に保持する方法。"),
+            ("LEARN-000064", "mnemonic_strategy", "記憶術", "Mnemonic Strategy", "語呂・イメージ・場所法などを使って記憶を助ける方法。"),
+            ("LEARN-000065", "dual_coding", "二重符号化", "Dual Coding", "言語情報と視覚情報を組み合わせて記憶を強める方法。"),
+            ("LEARN-000066", "generation_effect", "生成効果", "Generation Effect", "与えられた情報を読むだけでなく、自分で生成することで記憶が高まりやすい現象。"),
+            ("LEARN-000067", "testing_effect", "テスト効果", "Testing Effect", "再学習よりもテストや想起練習によって記憶保持が高まりやすい現象。"),
+            ("LEARN-000068", "retrieval_cue", "検索手がかり", "Retrieval Cue", "記憶を思い出す助けとなる文脈・語句・画像などの手がかり。"),
+            ("LEARN-000069", "forgetting_curve", "忘却曲線", "Forgetting Curve", "時間経過に伴い記憶保持率が低下する一般的傾向。"),
+            ("LEARN-000070", "relearning_effect", "再学習効果", "Relearning Effect", "一度学んだ内容を再び学ぶ時に習得が速くなる現象。")
         ]
     },
     {
-        "category": "Learning Theory - Motivation Learning",
-        "name_ja": "学習理論・学習動機",
+        "category": "Learning Theory - Skill Acquisition",
+        "name_ja": "学習理論・技能習得",
         "items": [
-            ("LEARN-000021", "learning_motivation", "学習動機", "Learning Motivation", "学ぼうとする意欲や行動開始を支える動機づけ。"),
-            ("LEARN-000022", "mastery_goal", "熟達目標", "Mastery Goal", "能力向上や理解の深化を重視する学習目標。"),
-            ("LEARN-000023", "performance_goal", "遂行目標", "Performance Goal", "他者評価や成績で能力を示すことを重視する学習目標。"),
-            ("LEARN-000024", "approach_goal", "接近目標", "Approach Goal", "成功や達成へ近づくことを重視する目標志向。"),
-            ("LEARN-000025", "avoidance_goal", "回避目標", "Avoidance Goal", "失敗や低評価を避けることを重視する目標志向。"),
-            ("LEARN-000026", "self_efficacy_learning", "学習自己効力感", "Learning Self Efficacy", "自分は学習課題を達成できるという見込み。"),
-            ("LEARN-000027", "expectancy_value", "期待価値", "Expectancy Value", "成功できる見込みと課題の価値が動機づけを左右する考え方。"),
-            ("LEARN-000028", "interest_development", "興味発達", "Interest Development", "一時的な関心が継続的な興味へ変化する過程。"),
-            ("LEARN-000029", "learning_autonomy", "学習自律性", "Learning Autonomy", "自分で学習内容や方法を選び調整できる度合い。"),
-            ("LEARN-000030", "learning_persistence", "学習継続", "Learning Persistence", "困難や時間経過があっても学習を続ける行動。")
+            ("LEARN-000071", "skill_acquisition", "技能習得", "Skill Acquisition", "練習や経験によって技能が向上し自動化される過程。"),
+            ("LEARN-000072", "deliberate_practice", "意図的練習", "Deliberate Practice", "明確な目標・フィードバック・弱点改善を伴う高品質な練習。"),
+            ("LEARN-000073", "automaticity", "自動化", "Automaticity", "反復によって意識的負荷が少なく行動できるようになる状態。"),
+            ("LEARN-000074", "fluency_development", "流暢性発達", "Fluency Development", "処理や技能が速く正確に実行できるようになる過程。"),
+            ("LEARN-000075", "accuracy_speed_tradeoff_learning", "正確性速度トレードオフ学習", "Accuracy Speed Tradeoff Learning", "正確さと速さのバランスを調整しながら技能を改善する過程。"),
+            ("LEARN-000076", "practice_variability", "練習変動性", "Practice Variability", "異なる条件や文脈で練習することにより適応力を高める方法。"),
+            ("LEARN-000077", "blocked_practice", "ブロック練習", "Blocked Practice", "同じ種類の課題を連続して練習する方法。"),
+            ("LEARN-000078", "random_practice", "ランダム練習", "Random Practice", "複数種類の課題をランダムに混ぜて練習する方法。"),
+            ("LEARN-000079", "motor_skill_learning", "運動技能学習", "Motor Skill Learning", "身体動作や操作技能が練習によって向上する学習過程。"),
+            ("LEARN-000080", "cognitive_skill_learning", "認知技能学習", "Cognitive Skill Learning", "判断・計算・問題解決など認知的技能が習得される過程。")
         ]
     },
     {
-        "category": "Learning Theory - Self Regulated Learning",
-        "name_ja": "学習理論・自己調整学習",
+        "category": "Learning Theory - Social Collaborative Learning",
+        "name_ja": "学習理論・社会協同学習",
         "items": [
-            ("LEARN-000031", "self_regulated_learning", "自己調整学習", "Self Regulated Learning", "目標設定・方略選択・進捗確認・修正を自分で行う学習。"),
-            ("LEARN-000032", "learning_goal_setting", "学習目標設定", "Learning Goal Setting", "学習で達成したい状態や成果を定める行動。"),
-            ("LEARN-000033", "learning_planning", "学習計画", "Learning Planning", "学習内容・順序・時間配分を事前に整理する行動。"),
-            ("LEARN-000034", "learning_monitoring", "学習モニタリング", "Learning Monitoring", "理解度・進捗・ミスを確認しながら学ぶ行動。"),
-            ("LEARN-000035", "strategy_adjustment", "学習方略調整", "Strategy Adjustment", "学習方法が有効かを見直し、必要に応じて変更する行動。"),
-            ("LEARN-000036", "help_seeking_learning", "学習援助要請", "Help Seeking in Learning", "分からない時に説明・ヒント・支援を求める学習行動。"),
-            ("LEARN-000037", "self_explanation_learning", "自己説明学習", "Self Explanation Learning", "自分で理由や仕組みを説明しながら理解を深める学習方略。"),
-            ("LEARN-000038", "reflection_learning", "振り返り学習", "Reflective Learning", "学習後に結果や方法を振り返り改善につなげる行動。"),
-            ("LEARN-000039", "metacognitive_strategy", "メタ認知方略", "Metacognitive Strategy", "自分の理解や記憶を確認しながら学習を調整する方略。"),
-            ("LEARN-000040", "learning_time_management", "学習時間管理", "Learning Time Management", "学習時間・休憩・締切を調整する行動。")
+            ("LEARN-000081", "collaborative_learning", "協同学習", "Collaborative Learning", "複数人が相互作用しながら理解や成果を高める学習方法。"),
+            ("LEARN-000082", "peer_learning", "ピア学習", "Peer Learning", "同じ立場や近いレベルの学習者同士で教え合い学ぶ方法。"),
+            ("LEARN-000083", "peer_tutoring", "ピアチュータリング", "Peer Tutoring", "学習者同士が教える側と学ぶ側に分かれて支援する方法。"),
+            ("LEARN-000084", "reciprocal_teaching", "相互教授法", "Reciprocal Teaching", "要約・質問・予測・明確化などを交代で行い理解を深める方法。"),
+            ("LEARN-000085", "cooperative_learning", "協力学習", "Cooperative Learning", "役割分担や相互依存を設計して集団で学ぶ方法。"),
+            ("LEARN-000086", "discussion_learning", "討議学習", "Discussion Learning", "意見交換や議論を通じて理解を深める学習方法。"),
+            ("LEARN-000087", "explanation_to_others", "他者説明学習", "Learning by Teaching", "他者に説明することで自分の理解を深める学習方法。"),
+            ("LEARN-000088", "socially_shared_regulation", "社会的共有調整", "Socially Shared Regulation", "集団で目標・進捗・方略を共有しながら学習を調整する過程。"),
+            ("LEARN-000089", "group_knowledge_building", "集団知識構築", "Group Knowledge Building", "複数人の知識や視点を統合して理解を発展させる過程。"),
+            ("LEARN-000090", "learning_community", "学習コミュニティ", "Learning Community", "学習者同士が継続的に支援・共有・成長する集団環境。")
         ]
     },
     {
-        "category": "Learning Theory - Instruction Design",
-        "name_ja": "学習理論・教授設計",
+        "category": "Learning Theory - Assessment Evaluation",
+        "name_ja": "学習理論・評価測定",
         "items": [
-            ("LEARN-000041", "instructional_design", "教授設計", "Instructional Design", "学習目標に合わせて教材・課題・支援を設計する考え方。"),
-            ("LEARN-000042", "scaffolding", "足場かけ", "Scaffolding", "学習者の現在の力に合わせて支援を提供し、徐々に減らす方法。"),
-            ("LEARN-000043", "worked_example", "例題学習", "Worked Example", "解法の手順が示された例を使って理解を促す学習方法。"),
-            ("LEARN-000044", "guided_discovery", "ガイド付き発見学習", "Guided Discovery", "支援を受けながら自分で規則や解法を見つける学習方法。"),
-            ("LEARN-000045", "direct_instruction", "直接教授", "Direct Instruction", "明確な説明・手順・練習を通じて学習を進める教授方法。"),
-            ("LEARN-000046", "inquiry_learning", "探究学習", "Inquiry Learning", "問いを立て、調査・実験・考察を通じて理解を深める学習方法。"),
-            ("LEARN-000047", "problem_based_learning", "問題基盤型学習", "Problem Based Learning", "現実的な問題解決を通じて知識や技能を学ぶ方法。"),
-            ("LEARN-000048", "project_based_learning", "プロジェクト型学習", "Project Based Learning", "成果物や長期課題の制作を通じて学ぶ方法。"),
-            ("LEARN-000049", "adaptive_learning", "適応学習", "Adaptive Learning", "学習者の状態や成績に合わせて内容や難易度を調整する学習設計。"),
-            ("LEARN-000050", "personalized_learning", "個別最適化学習", "Personalized Learning", "学習者の特性・進度・興味に合わせて学習内容を調整する方法。")
+            ("LEARN-000091", "formative_assessment", "形成的評価", "Formative Assessment", "学習途中で理解度や課題を把握し改善につなげる評価。"),
+            ("LEARN-000092", "summative_assessment", "総括的評価", "Summative Assessment", "学習終了時に到達度や成果を確認する評価。"),
+            ("LEARN-000093", "diagnostic_assessment", "診断的評価", "Diagnostic Assessment", "学習前や途中で強み・弱み・前提知識を把握する評価。"),
+            ("LEARN-000094", "criterion_referenced_assessment", "到達基準評価", "Criterion Referenced Assessment", "定められた基準に対して到達度を評価する方法。"),
+            ("LEARN-000095", "norm_referenced_assessment", "相対評価", "Norm Referenced Assessment", "他者との比較に基づいて成績や位置づけを評価する方法。"),
+            ("LEARN-000096", "self_assessment", "自己評価", "Self Assessment", "学習者自身が理解度・成果・課題を評価する方法。"),
+            ("LEARN-000097", "peer_assessment", "相互評価", "Peer Assessment", "学習者同士が成果や行動を評価し合う方法。"),
+            ("LEARN-000098", "rubric_assessment", "ルーブリック評価", "Rubric Assessment", "評価基準と水準を明示して成果を評価する方法。"),
+            ("LEARN-000099", "learning_analytics", "ラーニングアナリティクス", "Learning Analytics", "学習ログや成績データを分析して学習支援に活用する方法。"),
+            ("LEARN-000100", "competency_based_assessment", "コンピテンシー評価", "Competency Based Assessment", "知識だけでなく実践的能力や行動に基づいて評価する方法。")
         ]
     }
 ]
@@ -136,8 +136,8 @@ def main():
     ])
 
     pack = {
-        "output_dir": "vol10_learning_theory/learning_theory_001_050",
-        "index_filename": "learning_theory_001_050_index.yml",
+        "output_dir": "vol10_learning_theory/learning_theory_051_100",
+        "index_filename": "learning_theory_051_100_index.yml",
         "index_content": "\n".join(index_lines) + "\n",
         "items": all_items
     }

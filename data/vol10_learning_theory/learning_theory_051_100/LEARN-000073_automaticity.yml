@@ -1,0 +1,33 @@
+id: LEARN-000073
+knowledge_type: learning_theory
+name_ja: 自動化
+name_en: Automaticity
+category: Learning Theory
+attribute: Skill Acquisition
+definition_ja: 反復によって意識的負荷が少なく行動できるようになる状態。
+tags:
+  - CAT:学習理論
+  - CAT:技能習得
+  - ATTR:学習要因
+parent:
+  - 技能習得
+related:
+  - 認知科学
+  - 行動観測
+  - 教育環境
+observable_data:
+  - 自動化関連正答率
+  - 自動化関連継続率
+  - 自動化関連改善率
+  - 自動化関連反応時間
+signal_candidates:
+  - 自動化が学習行動や成績変化に影響している可能性がある
+  - 学習条件の変化に応じて行動パターンが変化する
+device_level: スマホ・PCのみ推定可能
+modifiers:
+  - 難易度
+  - フィードバック
+  - 疲労
+  - 動機づけ
+evidence: 教育心理学・学習科学・認知科学・HCI研究で使用
+status: active

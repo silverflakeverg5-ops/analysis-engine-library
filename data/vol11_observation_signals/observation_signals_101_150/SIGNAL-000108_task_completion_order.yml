@@ -1,0 +1,33 @@
+id: SIGNAL-000108
+knowledge_type: observation_signal
+name_ja: タスク完了順序
+name_en: Task Completion Order
+category: Observation Signal
+attribute: Goal Achievement
+definition_ja: 複数タスクをどの順序で完了したかを示す指標。
+tags:
+  - CAT:観測シグナル
+  - CAT:目標達成
+  - ATTR:観測可能データ
+parent:
+  - 目標達成
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - タスク完了順序
+  - タスク完了順序の増減
+  - タスク完了順序の平均との差
+  - タスク完了順序の時系列変化
+signal_candidates:
+  - タスク完了順序が通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

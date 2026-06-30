@@ -1,0 +1,33 @@
+id: SIGNAL-000121
+knowledge_type: observation_signal
+name_ja: 新機能試行回数
+name_en: New Feature Trial Count
+category: Observation Signal
+attribute: Exploration
+definition_ja: 未使用または新規機能を試した回数。
+tags:
+  - CAT:観測シグナル
+  - CAT:探索
+  - ATTR:観測可能データ
+parent:
+  - 探索
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 新機能試行回数
+  - 新機能試行回数の増減
+  - 新機能試行回数の平均との差
+  - 新機能試行回数の時系列変化
+signal_candidates:
+  - 新機能試行回数が通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

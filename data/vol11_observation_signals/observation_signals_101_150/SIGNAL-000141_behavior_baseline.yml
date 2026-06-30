@@ -1,0 +1,33 @@
+id: SIGNAL-000141
+knowledge_type: observation_signal
+name_ja: 行動ベースライン
+name_en: Behavior Baseline
+category: Observation Signal
+attribute: Integration
+definition_ja: 本人の通常時の行動・反応・利用傾向。
+tags:
+  - CAT:観測シグナル
+  - CAT:統合
+  - ATTR:観測可能データ
+parent:
+  - 統合
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 行動ベースライン
+  - 行動ベースラインの増減
+  - 行動ベースラインの平均との差
+  - 行動ベースラインの時系列変化
+signal_candidates:
+  - 行動ベースラインが通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

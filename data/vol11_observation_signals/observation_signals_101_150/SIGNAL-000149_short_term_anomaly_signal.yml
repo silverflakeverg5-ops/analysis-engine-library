@@ -1,0 +1,33 @@
+id: SIGNAL-000149
+knowledge_type: observation_signal
+name_ja: 短期異常シグナル
+name_en: Short Term Anomaly Signal
+category: Observation Signal
+attribute: Integration
+definition_ja: 短期間で通常傾向から大きく外れた観測値。
+tags:
+  - CAT:観測シグナル
+  - CAT:統合
+  - ATTR:観測可能データ
+parent:
+  - 統合
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 短期異常シグナル
+  - 短期異常シグナルの増減
+  - 短期異常シグナルの平均との差
+  - 短期異常シグナルの時系列変化
+signal_candidates:
+  - 短期異常シグナルが通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

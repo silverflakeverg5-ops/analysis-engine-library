@@ -1,0 +1,33 @@
+id: SIGNAL-000130
+knowledge_type: observation_signal
+name_ja: 探索後完了率
+name_en: Exploration to Completion Rate
+category: Observation Signal
+attribute: Exploration
+definition_ja: 探索行動後に課題や選択が完了した割合。
+tags:
+  - CAT:観測シグナル
+  - CAT:探索
+  - ATTR:観測可能データ
+parent:
+  - 探索
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 探索後完了率
+  - 探索後完了率の増減
+  - 探索後完了率の平均との差
+  - 探索後完了率の時系列変化
+signal_candidates:
+  - 探索後完了率が通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

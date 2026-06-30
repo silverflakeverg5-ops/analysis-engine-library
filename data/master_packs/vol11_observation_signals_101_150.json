@@ -1,0 +1,2107 @@
+{
+  "output_dir": "vol11_observation_signals/observation_signals_101_150",
+  "index_filename": "observation_signals_101_150_index.yml",
+  "index_content": "category: Observation Signal\nname_ja: 観測シグナル\nitems:\n  - SIGNAL-000101_goal_creation_count.yml\n  - SIGNAL-000102_goal_update_count.yml\n  - SIGNAL-000103_goal_completion_rate.yml\n  - SIGNAL-000104_goal_abandonment_rate.yml\n  - SIGNAL-000105_progress_check_count.yml\n  - SIGNAL-000106_deadline_adherence_rate.yml\n  - SIGNAL-000107_priority_change_count.yml\n  - SIGNAL-000108_task_completion_order.yml\n  - SIGNAL-000109_unfinished_task_count.yml\n  - SIGNAL-000110_restart_after_pause_count.yml\n  - SIGNAL-000111_message_length_average.yml\n  - SIGNAL-000112_clarification_question_count.yml\n  - SIGNAL-000113_assertive_statement_count.yml\n  - SIGNAL-000114_indirect_expression_rate.yml\n  - SIGNAL-000115_feedback_given_count.yml\n  - SIGNAL-000116_feedback_received_count.yml\n  - SIGNAL-000117_apology_expression_count.yml\n  - SIGNAL-000118_gratitude_expression_count.yml\n  - SIGNAL-000119_conversation_initiation_count.yml\n  - SIGNAL-000120_conversation_closure_rate.yml\n  - SIGNAL-000121_new_feature_trial_count.yml\n  - SIGNAL-000122_unknown_option_selection_rate.yml\n  - SIGNAL-000123_search_query_count.yml\n  - SIGNAL-000124_category_breadth.yml\n  - SIGNAL-000125_novelty_response_rate.yml\n  - SIGNAL-000126_exploration_depth.yml\n  - SIGNAL-000127_exploration_breadth.yml\n  - SIGNAL-000128_trial_variation_count.yml\n  - SIGNAL-000129_curiosity_click_rate.yml\n  - SIGNAL-000130_exploration_to_completion_rate.yml\n  - SIGNAL-000131_location_context_change.yml\n  - SIGNAL-000132_time_context_change.yml\n  - SIGNAL-000133_device_context_change.yml\n  - SIGNAL-000134_social_context_presence.yml\n  - SIGNAL-000135_environmental_noise_proxy.yml\n  - SIGNAL-000136_interruption_context_count.yml\n  - SIGNAL-000137_work_context_signal.yml\n  - SIGNAL-000138_leisure_context_signal.yml\n  - SIGNAL-000139_commute_context_signal.yml\n  - SIGNAL-000140_context_stability_score.yml\n  - SIGNAL-000141_behavior_baseline.yml\n  - SIGNAL-000142_baseline_deviation_score.yml\n  - SIGNAL-000143_multi_signal_change.yml\n  - SIGNAL-000144_signal_consistency.yml\n  - SIGNAL-000145_signal_volatility.yml\n  - SIGNAL-000146_state_transition_signal.yml\n  - SIGNAL-000147_context_adjusted_signal.yml\n  - SIGNAL-000148_longitudinal_trend_signal.yml\n  - SIGNAL-000149_short_term_anomaly_signal.yml\n  - SIGNAL-000150_human_state_observation_integration.yml\nnotes:\n  - 観測シグナルは推論結果ではなく入力材料として扱う\n  - アプリ側でスコアリング・推論・表示を行う\n  - 生データではなく観測可能な指標候補として管理する\n",
+  "items": [
+    {
+      "filename": "SIGNAL-000101_goal_creation_count.yml",
+      "id": "SIGNAL-000101",
+      "knowledge_type": "observation_signal",
+      "name_ja": "目標作成回数",
+      "name_en": "Goal Creation Count",
+      "category": "Observation Signal",
+      "attribute": "Goal Achievement",
+      "definition_ja": "一定期間内に新しい目標を作成した回数。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:目標達成",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "目標達成"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "目標作成回数",
+        "目標作成回数の増減",
+        "目標作成回数の平均との差",
+        "目標作成回数の時系列変化"
+      ],
+      "signal_candidates": [
+        "目標作成回数が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000102_goal_update_count.yml",
+      "id": "SIGNAL-000102",
+      "knowledge_type": "observation_signal",
+      "name_ja": "目標更新回数",
+      "name_en": "Goal Update Count",
+      "category": "Observation Signal",
+      "attribute": "Goal Achievement",
+      "definition_ja": "設定済み目標の内容・期限・条件を更新した回数。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:目標達成",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "目標達成"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "目標更新回数",
+        "目標更新回数の増減",
+        "目標更新回数の平均との差",
+        "目標更新回数の時系列変化"
+      ],
+      "signal_candidates": [
+        "目標更新回数が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000103_goal_completion_rate.yml",
+      "id": "SIGNAL-000103",
+      "knowledge_type": "observation_signal",
+      "name_ja": "目標完了率",
+      "name_en": "Goal Completion Rate",
+      "category": "Observation Signal",
+      "attribute": "Goal Achievement",
+      "definition_ja": "設定した目標のうち完了まで到達した割合。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:目標達成",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "目標達成"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "目標完了率",
+        "目標完了率の増減",
+        "目標完了率の平均との差",
+        "目標完了率の時系列変化"
+      ],
+      "signal_candidates": [
+        "目標完了率が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000104_goal_abandonment_rate.yml",
+      "id": "SIGNAL-000104",
+      "knowledge_type": "observation_signal",
+      "name_ja": "目標放棄率",
+      "name_en": "Goal Abandonment Rate",
+      "category": "Observation Signal",
+      "attribute": "Goal Achievement",
+      "definition_ja": "設定した目標が途中で放棄された割合。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:目標達成",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "目標達成"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "目標放棄率",
+        "目標放棄率の増減",
+        "目標放棄率の平均との差",
+        "目標放棄率の時系列変化"
+      ],
+      "signal_candidates": [
+        "目標放棄率が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000105_progress_check_count.yml",
+      "id": "SIGNAL-000105",
+      "knowledge_type": "observation_signal",
+      "name_ja": "進捗確認回数",
+      "name_en": "Progress Check Count",
+      "category": "Observation Signal",
+      "attribute": "Goal Achievement",
+      "definition_ja": "目標や課題の進捗を確認した回数。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:目標達成",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "目標達成"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "進捗確認回数",
+        "進捗確認回数の増減",
+        "進捗確認回数の平均との差",
+        "進捗確認回数の時系列変化"
+      ],
+      "signal_candidates": [
+        "進捗確認回数が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000106_deadline_adherence_rate.yml",
+      "id": "SIGNAL-000106",
+      "knowledge_type": "observation_signal",
+      "name_ja": "期限遵守率",
+      "name_en": "Deadline Adherence Rate",
+      "category": "Observation Signal",
+      "attribute": "Goal Achievement",
+      "definition_ja": "設定期限内に課題や目標を完了した割合。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:目標達成",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "目標達成"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "期限遵守率",
+        "期限遵守率の増減",
+        "期限遵守率の平均との差",
+        "期限遵守率の時系列変化"
+      ],
+      "signal_candidates": [
+        "期限遵守率が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000107_priority_change_count.yml",
+      "id": "SIGNAL-000107",
+      "knowledge_type": "observation_signal",
+      "name_ja": "優先順位変更回数",
+      "name_en": "Priority Change Count",
+      "category": "Observation Signal",
+      "attribute": "Goal Achievement",
+      "definition_ja": "タスクや目標の優先順位を変更した回数。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:目標達成",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "目標達成"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "優先順位変更回数",
+        "優先順位変更回数の増減",
+        "優先順位変更回数の平均との差",
+        "優先順位変更回数の時系列変化"
+      ],
+      "signal_candidates": [
+        "優先順位変更回数が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000108_task_completion_order.yml",
+      "id": "SIGNAL-000108",
+      "knowledge_type": "observation_signal",
+      "name_ja": "タスク完了順序",
+      "name_en": "Task Completion Order",
+      "category": "Observation Signal",
+      "attribute": "Goal Achievement",
+      "definition_ja": "複数タスクをどの順序で完了したかを示す指標。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:目標達成",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "目標達成"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "タスク完了順序",
+        "タスク完了順序の増減",
+        "タスク完了順序の平均との差",
+        "タスク完了順序の時系列変化"
+      ],
+      "signal_candidates": [
+        "タスク完了順序が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000109_unfinished_task_count.yml",
+      "id": "SIGNAL-000109",
+      "knowledge_type": "observation_signal",
+      "name_ja": "未完了タスク数",
+      "name_en": "Unfinished Task Count",
+      "category": "Observation Signal",
+      "attribute": "Goal Achievement",
+      "definition_ja": "開始または登録されたが完了していないタスク数。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:目標達成",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "目標達成"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "未完了タスク数",
+        "未完了タスク数の増減",
+        "未完了タスク数の平均との差",
+        "未完了タスク数の時系列変化"
+      ],
+      "signal_candidates": [
+        "未完了タスク数が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000110_restart_after_pause_count.yml",
+      "id": "SIGNAL-000110",
+      "knowledge_type": "observation_signal",
+      "name_ja": "中断後再開回数",
+      "name_en": "Restart After Pause Count",
+      "category": "Observation Signal",
+      "attribute": "Goal Achievement",
+      "definition_ja": "中断された課題や目標を再開した回数。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:目標達成",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "目標達成"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "中断後再開回数",
+        "中断後再開回数の増減",
+        "中断後再開回数の平均との差",
+        "中断後再開回数の時系列変化"
+      ],
+      "signal_candidates": [
+        "中断後再開回数が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000111_message_length_average.yml",
+      "id": "SIGNAL-000111",
+      "knowledge_type": "observation_signal",
+      "name_ja": "平均メッセージ長",
+      "name_en": "Average Message Length",
+      "category": "Observation Signal",
+      "attribute": "Communication",
+      "definition_ja": "送信されたメッセージや発話の平均文字数・語数。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:コミュニケーション",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "コミュニケーション"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "平均メッセージ長",
+        "平均メッセージ長の増減",
+        "平均メッセージ長の平均との差",
+        "平均メッセージ長の時系列変化"
+      ],
+      "signal_candidates": [
+        "平均メッセージ長が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000112_clarification_question_count.yml",
+      "id": "SIGNAL-000112",
+      "knowledge_type": "observation_signal",
+      "name_ja": "確認質問回数",
+      "name_en": "Clarification Question Count",
+      "category": "Observation Signal",
+      "attribute": "Communication",
+      "definition_ja": "曖昧な情報に対して確認や質問を行った回数。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:コミュニケーション",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "コミュニケーション"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "確認質問回数",
+        "確認質問回数の増減",
+        "確認質問回数の平均との差",
+        "確認質問回数の時系列変化"
+      ],
+      "signal_candidates": [
+        "確認質問回数が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000113_assertive_statement_count.yml",
+      "id": "SIGNAL-000113",
+      "knowledge_type": "observation_signal",
+      "name_ja": "自己主張表現回数",
+      "name_en": "Assertive Statement Count",
+      "category": "Observation Signal",
+      "attribute": "Communication",
+      "definition_ja": "意見・希望・拒否・境界を明確に表現した回数。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:コミュニケーション",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "コミュニケーション"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "自己主張表現回数",
+        "自己主張表現回数の増減",
+        "自己主張表現回数の平均との差",
+        "自己主張表現回数の時系列変化"
+      ],
+      "signal_candidates": [
+        "自己主張表現回数が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000114_indirect_expression_rate.yml",
+      "id": "SIGNAL-000114",
+      "knowledge_type": "observation_signal",
+      "name_ja": "間接表現率",
+      "name_en": "Indirect Expression Rate",
+      "category": "Observation Signal",
+      "attribute": "Communication",
+      "definition_ja": "婉曲・含意・曖昧表現が使われた割合。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:コミュニケーション",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "コミュニケーション"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "間接表現率",
+        "間接表現率の増減",
+        "間接表現率の平均との差",
+        "間接表現率の時系列変化"
+      ],
+      "signal_candidates": [
+        "間接表現率が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000115_feedback_given_count.yml",
+      "id": "SIGNAL-000115",
+      "knowledge_type": "observation_signal",
+      "name_ja": "フィードバック提供回数",
+      "name_en": "Feedback Given Count",
+      "category": "Observation Signal",
+      "attribute": "Communication",
+      "definition_ja": "他者へ評価・助言・反応を返した回数。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:コミュニケーション",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "コミュニケーション"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "フィードバック提供回数",
+        "フィードバック提供回数の増減",
+        "フィードバック提供回数の平均との差",
+        "フィードバック提供回数の時系列変化"
+      ],
+      "signal_candidates": [
+        "フィードバック提供回数が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000116_feedback_received_count.yml",
+      "id": "SIGNAL-000116",
+      "knowledge_type": "observation_signal",
+      "name_ja": "フィードバック受領回数",
+      "name_en": "Feedback Received Count",
+      "category": "Observation Signal",
+      "attribute": "Communication",
+      "definition_ja": "他者から評価・助言・反応を受け取った回数。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:コミュニケーション",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "コミュニケーション"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "フィードバック受領回数",
+        "フィードバック受領回数の増減",
+        "フィードバック受領回数の平均との差",
+        "フィードバック受領回数の時系列変化"
+      ],
+      "signal_candidates": [
+        "フィードバック受領回数が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000117_apology_expression_count.yml",
+      "id": "SIGNAL-000117",
+      "knowledge_type": "observation_signal",
+      "name_ja": "謝罪表現回数",
+      "name_en": "Apology Expression Count",
+      "category": "Observation Signal",
+      "attribute": "Communication",
+      "definition_ja": "謝罪・修復・責任認識を示す表現の回数。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:コミュニケーション",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "コミュニケーション"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "謝罪表現回数",
+        "謝罪表現回数の増減",
+        "謝罪表現回数の平均との差",
+        "謝罪表現回数の時系列変化"
+      ],
+      "signal_candidates": [
+        "謝罪表現回数が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000118_gratitude_expression_count.yml",
+      "id": "SIGNAL-000118",
+      "knowledge_type": "observation_signal",
+      "name_ja": "感謝表現回数",
+      "name_en": "Gratitude Expression Count",
+      "category": "Observation Signal",
+      "attribute": "Communication",
+      "definition_ja": "感謝や謝意を示す表現の回数。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:コミュニケーション",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "コミュニケーション"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "感謝表現回数",
+        "感謝表現回数の増減",
+        "感謝表現回数の平均との差",
+        "感謝表現回数の時系列変化"
+      ],
+      "signal_candidates": [
+        "感謝表現回数が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000119_conversation_initiation_count.yml",
+      "id": "SIGNAL-000119",
+      "knowledge_type": "observation_signal",
+      "name_ja": "会話開始回数",
+      "name_en": "Conversation Initiation Count",
+      "category": "Observation Signal",
+      "attribute": "Communication",
+      "definition_ja": "本人から会話や連絡を開始した回数。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:コミュニケーション",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "コミュニケーション"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "会話開始回数",
+        "会話開始回数の増減",
+        "会話開始回数の平均との差",
+        "会話開始回数の時系列変化"
+      ],
+      "signal_candidates": [
+        "会話開始回数が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000120_conversation_closure_rate.yml",
+      "id": "SIGNAL-000120",
+      "knowledge_type": "observation_signal",
+      "name_ja": "会話完了率",
+      "name_en": "Conversation Closure Rate",
+      "category": "Observation Signal",
+      "attribute": "Communication",
+      "definition_ja": "会話ややり取りが自然に完了した割合。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:コミュニケーション",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "コミュニケーション"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "会話完了率",
+        "会話完了率の増減",
+        "会話完了率の平均との差",
+        "会話完了率の時系列変化"
+      ],
+      "signal_candidates": [
+        "会話完了率が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000121_new_feature_trial_count.yml",
+      "id": "SIGNAL-000121",
+      "knowledge_type": "observation_signal",
+      "name_ja": "新機能試行回数",
+      "name_en": "New Feature Trial Count",
+      "category": "Observation Signal",
+      "attribute": "Exploration",
+      "definition_ja": "未使用または新規機能を試した回数。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:探索",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "探索"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "新機能試行回数",
+        "新機能試行回数の増減",
+        "新機能試行回数の平均との差",
+        "新機能試行回数の時系列変化"
+      ],
+      "signal_candidates": [
+        "新機能試行回数が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000122_unknown_option_selection_rate.yml",
+      "id": "SIGNAL-000122",
+      "knowledge_type": "observation_signal",
+      "name_ja": "未知選択肢選択率",
+      "name_en": "Unknown Option Selection Rate",
+      "category": "Observation Signal",
+      "attribute": "Exploration",
+      "definition_ja": "未知または未経験の選択肢を選んだ割合。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:探索",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "探索"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "未知選択肢選択率",
+        "未知選択肢選択率の増減",
+        "未知選択肢選択率の平均との差",
+        "未知選択肢選択率の時系列変化"
+      ],
+      "signal_candidates": [
+        "未知選択肢選択率が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000123_search_query_count.yml",
+      "id": "SIGNAL-000123",
+      "knowledge_type": "observation_signal",
+      "name_ja": "検索回数",
+      "name_en": "Search Query Count",
+      "category": "Observation Signal",
+      "attribute": "Exploration",
+      "definition_ja": "検索・問い合わせ・探索入力を行った回数。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:探索",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "探索"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "検索回数",
+        "検索回数の増減",
+        "検索回数の平均との差",
+        "検索回数の時系列変化"
+      ],
+      "signal_candidates": [
+        "検索回数が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000124_category_breadth.yml",
+      "id": "SIGNAL-000124",
+      "knowledge_type": "observation_signal",
+      "name_ja": "閲覧カテゴリ幅",
+      "name_en": "Category Breadth",
+      "category": "Observation Signal",
+      "attribute": "Exploration",
+      "definition_ja": "閲覧・選択したカテゴリの広がり。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:探索",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "探索"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "閲覧カテゴリ幅",
+        "閲覧カテゴリ幅の増減",
+        "閲覧カテゴリ幅の平均との差",
+        "閲覧カテゴリ幅の時系列変化"
+      ],
+      "signal_candidates": [
+        "閲覧カテゴリ幅が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000125_novelty_response_rate.yml",
+      "id": "SIGNAL-000125",
+      "knowledge_type": "observation_signal",
+      "name_ja": "新奇反応率",
+      "name_en": "Novelty Response Rate",
+      "category": "Observation Signal",
+      "attribute": "Exploration",
+      "definition_ja": "新しい情報や刺激に反応した割合。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:探索",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "探索"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "新奇反応率",
+        "新奇反応率の増減",
+        "新奇反応率の平均との差",
+        "新奇反応率の時系列変化"
+      ],
+      "signal_candidates": [
+        "新奇反応率が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000126_exploration_depth.yml",
+      "id": "SIGNAL-000126",
+      "knowledge_type": "observation_signal",
+      "name_ja": "探索深度",
+      "name_en": "Exploration Depth",
+      "category": "Observation Signal",
+      "attribute": "Exploration",
+      "definition_ja": "一つの対象やテーマをどの程度深く探索したか。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:探索",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "探索"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "探索深度",
+        "探索深度の増減",
+        "探索深度の平均との差",
+        "探索深度の時系列変化"
+      ],
+      "signal_candidates": [
+        "探索深度が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000127_exploration_breadth.yml",
+      "id": "SIGNAL-000127",
+      "knowledge_type": "observation_signal",
+      "name_ja": "探索幅",
+      "name_en": "Exploration Breadth",
+      "category": "Observation Signal",
+      "attribute": "Exploration",
+      "definition_ja": "複数対象やテーマをどの程度広く探索したか。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:探索",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "探索"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "探索幅",
+        "探索幅の増減",
+        "探索幅の平均との差",
+        "探索幅の時系列変化"
+      ],
+      "signal_candidates": [
+        "探索幅が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000128_trial_variation_count.yml",
+      "id": "SIGNAL-000128",
+      "knowledge_type": "observation_signal",
+      "name_ja": "試行バリエーション数",
+      "name_en": "Trial Variation Count",
+      "category": "Observation Signal",
+      "attribute": "Exploration",
+      "definition_ja": "異なる方法・条件・選択肢を試した数。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:探索",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "探索"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "試行バリエーション数",
+        "試行バリエーション数の増減",
+        "試行バリエーション数の平均との差",
+        "試行バリエーション数の時系列変化"
+      ],
+      "signal_candidates": [
+        "試行バリエーション数が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000129_curiosity_click_rate.yml",
+      "id": "SIGNAL-000129",
+      "knowledge_type": "observation_signal",
+      "name_ja": "好奇心クリック率",
+      "name_en": "Curiosity Click Rate",
+      "category": "Observation Signal",
+      "attribute": "Exploration",
+      "definition_ja": "未知・おすすめ・詳細表示など好奇心を誘う対象へのクリック率。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:探索",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "探索"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "好奇心クリック率",
+        "好奇心クリック率の増減",
+        "好奇心クリック率の平均との差",
+        "好奇心クリック率の時系列変化"
+      ],
+      "signal_candidates": [
+        "好奇心クリック率が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000130_exploration_to_completion_rate.yml",
+      "id": "SIGNAL-000130",
+      "knowledge_type": "observation_signal",
+      "name_ja": "探索後完了率",
+      "name_en": "Exploration to Completion Rate",
+      "category": "Observation Signal",
+      "attribute": "Exploration",
+      "definition_ja": "探索行動後に課題や選択が完了した割合。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:探索",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "探索"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "探索後完了率",
+        "探索後完了率の増減",
+        "探索後完了率の平均との差",
+        "探索後完了率の時系列変化"
+      ],
+      "signal_candidates": [
+        "探索後完了率が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000131_location_context_change.yml",
+      "id": "SIGNAL-000131",
+      "knowledge_type": "observation_signal",
+      "name_ja": "場所文脈変化",
+      "name_en": "Location Context Change",
+      "category": "Observation Signal",
+      "attribute": "Context",
+      "definition_ja": "利用や行動が発生する場所文脈の変化。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:文脈",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "文脈"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "場所文脈変化",
+        "場所文脈変化の増減",
+        "場所文脈変化の平均との差",
+        "場所文脈変化の時系列変化"
+      ],
+      "signal_candidates": [
+        "場所文脈変化が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000132_time_context_change.yml",
+      "id": "SIGNAL-000132",
+      "knowledge_type": "observation_signal",
+      "name_ja": "時間文脈変化",
+      "name_en": "Time Context Change",
+      "category": "Observation Signal",
+      "attribute": "Context",
+      "definition_ja": "利用や行動が発生する時間帯・曜日の変化。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:文脈",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "文脈"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "時間文脈変化",
+        "時間文脈変化の増減",
+        "時間文脈変化の平均との差",
+        "時間文脈変化の時系列変化"
+      ],
+      "signal_candidates": [
+        "時間文脈変化が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000133_device_context_change.yml",
+      "id": "SIGNAL-000133",
+      "knowledge_type": "observation_signal",
+      "name_ja": "端末文脈変化",
+      "name_en": "Device Context Change",
+      "category": "Observation Signal",
+      "attribute": "Context",
+      "definition_ja": "利用端末や入力環境が変化すること。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:文脈",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "文脈"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "端末文脈変化",
+        "端末文脈変化の増減",
+        "端末文脈変化の平均との差",
+        "端末文脈変化の時系列変化"
+      ],
+      "signal_candidates": [
+        "端末文脈変化が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000134_social_context_presence.yml",
+      "id": "SIGNAL-000134",
+      "knowledge_type": "observation_signal",
+      "name_ja": "社会的文脈存在",
+      "name_en": "Social Context Presence",
+      "category": "Observation Signal",
+      "attribute": "Context",
+      "definition_ja": "単独・共同・対人場面など社会的文脈の有無。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:文脈",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "文脈"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "社会的文脈存在",
+        "社会的文脈存在の増減",
+        "社会的文脈存在の平均との差",
+        "社会的文脈存在の時系列変化"
+      ],
+      "signal_candidates": [
+        "社会的文脈存在が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000135_environmental_noise_proxy.yml",
+      "id": "SIGNAL-000135",
+      "knowledge_type": "observation_signal",
+      "name_ja": "環境騒音推定",
+      "name_en": "Environmental Noise Proxy",
+      "category": "Observation Signal",
+      "attribute": "Context",
+      "definition_ja": "音声入力失敗・中断・場所情報などから推定される騒音文脈。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:文脈",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "文脈"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "環境騒音推定",
+        "環境騒音推定の増減",
+        "環境騒音推定の平均との差",
+        "環境騒音推定の時系列変化"
+      ],
+      "signal_candidates": [
+        "環境騒音推定が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000136_interruption_context_count.yml",
+      "id": "SIGNAL-000136",
+      "knowledge_type": "observation_signal",
+      "name_ja": "中断文脈回数",
+      "name_en": "Interruption Context Count",
+      "category": "Observation Signal",
+      "attribute": "Context",
+      "definition_ja": "通知・着信・画面切替など文脈中断が発生した回数。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:文脈",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "文脈"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "中断文脈回数",
+        "中断文脈回数の増減",
+        "中断文脈回数の平均との差",
+        "中断文脈回数の時系列変化"
+      ],
+      "signal_candidates": [
+        "中断文脈回数が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000137_work_context_signal.yml",
+      "id": "SIGNAL-000137",
+      "knowledge_type": "observation_signal",
+      "name_ja": "仕事文脈シグナル",
+      "name_en": "Work Context Signal",
+      "category": "Observation Signal",
+      "attribute": "Context",
+      "definition_ja": "仕事・学業・作業中と推定される利用文脈。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:文脈",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "文脈"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "仕事文脈シグナル",
+        "仕事文脈シグナルの増減",
+        "仕事文脈シグナルの平均との差",
+        "仕事文脈シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "仕事文脈シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000138_leisure_context_signal.yml",
+      "id": "SIGNAL-000138",
+      "knowledge_type": "observation_signal",
+      "name_ja": "余暇文脈シグナル",
+      "name_en": "Leisure Context Signal",
+      "category": "Observation Signal",
+      "attribute": "Context",
+      "definition_ja": "休憩・娯楽・余暇中と推定される利用文脈。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:文脈",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "文脈"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "余暇文脈シグナル",
+        "余暇文脈シグナルの増減",
+        "余暇文脈シグナルの平均との差",
+        "余暇文脈シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "余暇文脈シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000139_commute_context_signal.yml",
+      "id": "SIGNAL-000139",
+      "knowledge_type": "observation_signal",
+      "name_ja": "移動文脈シグナル",
+      "name_en": "Commute Context Signal",
+      "category": "Observation Signal",
+      "attribute": "Context",
+      "definition_ja": "通勤通学や移動中と推定される利用文脈。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:文脈",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "文脈"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "移動文脈シグナル",
+        "移動文脈シグナルの増減",
+        "移動文脈シグナルの平均との差",
+        "移動文脈シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "移動文脈シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000140_context_stability_score.yml",
+      "id": "SIGNAL-000140",
+      "knowledge_type": "observation_signal",
+      "name_ja": "文脈安定スコア",
+      "name_en": "Context Stability Score",
+      "category": "Observation Signal",
+      "attribute": "Context",
+      "definition_ja": "行動が発生する文脈がどの程度安定しているか。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:文脈",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "文脈"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "文脈安定スコア",
+        "文脈安定スコアの増減",
+        "文脈安定スコアの平均との差",
+        "文脈安定スコアの時系列変化"
+      ],
+      "signal_candidates": [
+        "文脈安定スコアが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000141_behavior_baseline.yml",
+      "id": "SIGNAL-000141",
+      "knowledge_type": "observation_signal",
+      "name_ja": "行動ベースライン",
+      "name_en": "Behavior Baseline",
+      "category": "Observation Signal",
+      "attribute": "Integration",
+      "definition_ja": "本人の通常時の行動・反応・利用傾向。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:統合",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "行動ベースライン",
+        "行動ベースラインの増減",
+        "行動ベースラインの平均との差",
+        "行動ベースラインの時系列変化"
+      ],
+      "signal_candidates": [
+        "行動ベースラインが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000142_baseline_deviation_score.yml",
+      "id": "SIGNAL-000142",
+      "knowledge_type": "observation_signal",
+      "name_ja": "ベースライン乖離スコア",
+      "name_en": "Baseline Deviation Score",
+      "category": "Observation Signal",
+      "attribute": "Integration",
+      "definition_ja": "現在の行動指標が通常傾向からどの程度外れているか。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:統合",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "ベースライン乖離スコア",
+        "ベースライン乖離スコアの増減",
+        "ベースライン乖離スコアの平均との差",
+        "ベースライン乖離スコアの時系列変化"
+      ],
+      "signal_candidates": [
+        "ベースライン乖離スコアが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000143_multi_signal_change.yml",
+      "id": "SIGNAL-000143",
+      "knowledge_type": "observation_signal",
+      "name_ja": "複合シグナル変化",
+      "name_en": "Multi Signal Change",
+      "category": "Observation Signal",
+      "attribute": "Integration",
+      "definition_ja": "複数の観測指標が同時に変化すること。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:統合",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "複合シグナル変化",
+        "複合シグナル変化の増減",
+        "複合シグナル変化の平均との差",
+        "複合シグナル変化の時系列変化"
+      ],
+      "signal_candidates": [
+        "複合シグナル変化が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000144_signal_consistency.yml",
+      "id": "SIGNAL-000144",
+      "knowledge_type": "observation_signal",
+      "name_ja": "シグナル一貫性",
+      "name_en": "Signal Consistency",
+      "category": "Observation Signal",
+      "attribute": "Integration",
+      "definition_ja": "複数回または複数文脈で同じ傾向が観測される度合い。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:統合",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "シグナル一貫性",
+        "シグナル一貫性の増減",
+        "シグナル一貫性の平均との差",
+        "シグナル一貫性の時系列変化"
+      ],
+      "signal_candidates": [
+        "シグナル一貫性が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000145_signal_volatility.yml",
+      "id": "SIGNAL-000145",
+      "knowledge_type": "observation_signal",
+      "name_ja": "シグナル変動性",
+      "name_en": "Signal Volatility",
+      "category": "Observation Signal",
+      "attribute": "Integration",
+      "definition_ja": "観測指標が短期間でどの程度変動するか。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:統合",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "シグナル変動性",
+        "シグナル変動性の増減",
+        "シグナル変動性の平均との差",
+        "シグナル変動性の時系列変化"
+      ],
+      "signal_candidates": [
+        "シグナル変動性が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000146_state_transition_signal.yml",
+      "id": "SIGNAL-000146",
+      "knowledge_type": "observation_signal",
+      "name_ja": "状態遷移シグナル",
+      "name_en": "State Transition Signal",
+      "category": "Observation Signal",
+      "attribute": "Integration",
+      "definition_ja": "通常・負荷・回復など状態の移行を示す観測指標。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:統合",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "状態遷移シグナル",
+        "状態遷移シグナルの増減",
+        "状態遷移シグナルの平均との差",
+        "状態遷移シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "状態遷移シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000147_context_adjusted_signal.yml",
+      "id": "SIGNAL-000147",
+      "knowledge_type": "observation_signal",
+      "name_ja": "文脈補正シグナル",
+      "name_en": "Context Adjusted Signal",
+      "category": "Observation Signal",
+      "attribute": "Integration",
+      "definition_ja": "時間・場所・端末・状況を考慮して補正された観測指標。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:統合",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "文脈補正シグナル",
+        "文脈補正シグナルの増減",
+        "文脈補正シグナルの平均との差",
+        "文脈補正シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "文脈補正シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000148_longitudinal_trend_signal.yml",
+      "id": "SIGNAL-000148",
+      "knowledge_type": "observation_signal",
+      "name_ja": "長期傾向シグナル",
+      "name_en": "Longitudinal Trend Signal",
+      "category": "Observation Signal",
+      "attribute": "Integration",
+      "definition_ja": "長期間の時系列で見た行動や状態の変化傾向。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:統合",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "長期傾向シグナル",
+        "長期傾向シグナルの増減",
+        "長期傾向シグナルの平均との差",
+        "長期傾向シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "長期傾向シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000149_short_term_anomaly_signal.yml",
+      "id": "SIGNAL-000149",
+      "knowledge_type": "observation_signal",
+      "name_ja": "短期異常シグナル",
+      "name_en": "Short Term Anomaly Signal",
+      "category": "Observation Signal",
+      "attribute": "Integration",
+      "definition_ja": "短期間で通常傾向から大きく外れた観測値。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:統合",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "短期異常シグナル",
+        "短期異常シグナルの増減",
+        "短期異常シグナルの平均との差",
+        "短期異常シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "短期異常シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000150_human_state_observation_integration.yml",
+      "id": "SIGNAL-000150",
+      "knowledge_type": "observation_signal",
+      "name_ja": "人間状態観測統合",
+      "name_en": "Human State Observation Integration",
+      "category": "Observation Signal",
+      "attribute": "Integration",
+      "definition_ja": "複数の観測シグナルを統合して人間状態の推論材料とする枠組み。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:統合",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "人間状態観測統合",
+        "人間状態観測統合の増減",
+        "人間状態観測統合の平均との差",
+        "人間状態観測統合の時系列変化"
+      ],
+      "signal_candidates": [
+        "人間状態観測統合が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+id: SIGNAL-000139
+knowledge_type: observation_signal
+name_ja: 移動文脈シグナル
+name_en: Commute Context Signal
+category: Observation Signal
+attribute: Context
+definition_ja: 通勤通学や移動中と推定される利用文脈。
+tags:
+  - CAT:観測シグナル
+  - CAT:文脈
+  - ATTR:観測可能データ
+parent:
+  - 文脈
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 移動文脈シグナル
+  - 移動文脈シグナルの増減
+  - 移動文脈シグナルの平均との差
+  - 移動文脈シグナルの時系列変化
+signal_candidates:
+  - 移動文脈シグナルが通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

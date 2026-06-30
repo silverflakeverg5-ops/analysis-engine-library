@@ -1,0 +1,33 @@
+id: SIGNAL-000150
+knowledge_type: observation_signal
+name_ja: 人間状態観測統合
+name_en: Human State Observation Integration
+category: Observation Signal
+attribute: Integration
+definition_ja: 複数の観測シグナルを統合して人間状態の推論材料とする枠組み。
+tags:
+  - CAT:観測シグナル
+  - CAT:統合
+  - ATTR:観測可能データ
+parent:
+  - 統合
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 人間状態観測統合
+  - 人間状態観測統合の増減
+  - 人間状態観測統合の平均との差
+  - 人間状態観測統合の時系列変化
+signal_candidates:
+  - 人間状態観測統合が通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

@@ -1,0 +1,33 @@
+id: SIGNAL-000106
+knowledge_type: observation_signal
+name_ja: 期限遵守率
+name_en: Deadline Adherence Rate
+category: Observation Signal
+attribute: Goal Achievement
+definition_ja: 設定期限内に課題や目標を完了した割合。
+tags:
+  - CAT:観測シグナル
+  - CAT:目標達成
+  - ATTR:観測可能データ
+parent:
+  - 目標達成
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 期限遵守率
+  - 期限遵守率の増減
+  - 期限遵守率の平均との差
+  - 期限遵守率の時系列変化
+signal_candidates:
+  - 期限遵守率が通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

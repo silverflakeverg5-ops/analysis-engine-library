@@ -1,0 +1,33 @@
+id: SIGNAL-000116
+knowledge_type: observation_signal
+name_ja: フィードバック受領回数
+name_en: Feedback Received Count
+category: Observation Signal
+attribute: Communication
+definition_ja: 他者から評価・助言・反応を受け取った回数。
+tags:
+  - CAT:観測シグナル
+  - CAT:コミュニケーション
+  - ATTR:観測可能データ
+parent:
+  - コミュニケーション
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - フィードバック受領回数
+  - フィードバック受領回数の増減
+  - フィードバック受領回数の平均との差
+  - フィードバック受領回数の時系列変化
+signal_candidates:
+  - フィードバック受領回数が通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

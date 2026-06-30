@@ -1,0 +1,33 @@
+id: DISPLAY-000043
+knowledge_type: display_design
+name_ja: 選択余地を残す提案
+name_en: Choice Preserving Suggestion
+category: Display Design
+attribute: Action Suggestion
+definition_ja: 押しつけず複数の選択肢として提案する表示設計。
+tags:
+  - CAT:表示設計
+  - CAT:行動提案
+  - ATTR:表示方針
+parent:
+  - 行動提案
+related:
+  - アプリ用途
+  - 補正要因
+  - 安全設計
+observable_data:
+  - 選択余地を残す提案適用文脈
+  - 選択余地を残す提案対象結果
+  - 選択余地を残す提案安全性条件
+  - 選択余地を残す提案ユーザー反応
+signal_candidates:
+  - 選択余地を残す提案を表示方針として利用できる
+  - アプリ側で結果表示・説明・提案を調整する材料になる
+device_level: DB管理用
+modifiers:
+  - 用途
+  - 安全性
+  - 不確実性
+  - ユーザー状態
+evidence: UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用
+status: active

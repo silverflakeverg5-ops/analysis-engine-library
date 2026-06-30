@@ -1,0 +1,33 @@
+id: DISPLAY-000002
+knowledge_type: display_design
+name_ja: 可能性表現
+name_en: Possibility Expression
+category: Display Design
+attribute: Result Expression
+definition_ja: 推論結果を可能性として示し、不確実性を残す表現設計。
+tags:
+  - CAT:表示設計
+  - CAT:結果表現
+  - ATTR:表示方針
+parent:
+  - 結果表現
+related:
+  - アプリ用途
+  - 補正要因
+  - 安全設計
+observable_data:
+  - 可能性表現適用文脈
+  - 可能性表現対象結果
+  - 可能性表現安全性条件
+  - 可能性表現ユーザー反応
+signal_candidates:
+  - 可能性表現を表示方針として利用できる
+  - アプリ側で結果表示・説明・提案を調整する材料になる
+device_level: DB管理用
+modifiers:
+  - 用途
+  - 安全性
+  - 不確実性
+  - ユーザー状態
+evidence: UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用
+status: active

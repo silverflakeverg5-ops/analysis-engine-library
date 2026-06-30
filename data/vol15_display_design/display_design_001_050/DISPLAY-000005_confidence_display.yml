@@ -1,0 +1,33 @@
+id: DISPLAY-000005
+knowledge_type: display_design
+name_ja: 信頼度表示
+name_en: Confidence Display
+category: Display Design
+attribute: Result Expression
+definition_ja: 観測量や一貫性に基づく信頼度を示す表示設計。
+tags:
+  - CAT:表示設計
+  - CAT:結果表現
+  - ATTR:表示方針
+parent:
+  - 結果表現
+related:
+  - アプリ用途
+  - 補正要因
+  - 安全設計
+observable_data:
+  - 信頼度表示適用文脈
+  - 信頼度表示対象結果
+  - 信頼度表示安全性条件
+  - 信頼度表示ユーザー反応
+signal_candidates:
+  - 信頼度表示を表示方針として利用できる
+  - アプリ側で結果表示・説明・提案を調整する材料になる
+device_level: DB管理用
+modifiers:
+  - 用途
+  - 安全性
+  - 不確実性
+  - ユーザー状態
+evidence: UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用
+status: active

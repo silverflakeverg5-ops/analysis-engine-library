@@ -1,0 +1,33 @@
+id: DISPLAY-000035
+knowledge_type: display_design
+name_ja: タグ表示
+name_en: Tag Display
+category: Display Design
+attribute: Visualization
+definition_ja: 関連概念や状態をタグで示す表示設計。
+tags:
+  - CAT:表示設計
+  - CAT:可視化
+  - ATTR:表示方針
+parent:
+  - 可視化
+related:
+  - アプリ用途
+  - 補正要因
+  - 安全設計
+observable_data:
+  - タグ表示適用文脈
+  - タグ表示対象結果
+  - タグ表示安全性条件
+  - タグ表示ユーザー反応
+signal_candidates:
+  - タグ表示を表示方針として利用できる
+  - アプリ側で結果表示・説明・提案を調整する材料になる
+device_level: DB管理用
+modifiers:
+  - 用途
+  - 安全性
+  - 不確実性
+  - ユーザー状態
+evidence: UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用
+status: active

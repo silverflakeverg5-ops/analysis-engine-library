@@ -1,0 +1,33 @@
+id: DISPLAY-000020
+knowledge_type: display_design
+name_ja: 高リスク安全表現
+name_en: High Stakes Safe Expression
+category: Display Design
+attribute: Safety Tone
+definition_ja: 重大判断に直接使わせないよう慎重化する表現設計。
+tags:
+  - CAT:表示設計
+  - CAT:安全トーン
+  - ATTR:表示方針
+parent:
+  - 安全トーン
+related:
+  - アプリ用途
+  - 補正要因
+  - 安全設計
+observable_data:
+  - 高リスク安全表現適用文脈
+  - 高リスク安全表現対象結果
+  - 高リスク安全表現安全性条件
+  - 高リスク安全表現ユーザー反応
+signal_candidates:
+  - 高リスク安全表現を表示方針として利用できる
+  - アプリ側で結果表示・説明・提案を調整する材料になる
+device_level: DB管理用
+modifiers:
+  - 用途
+  - 安全性
+  - 不確実性
+  - ユーザー状態
+evidence: UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用
+status: active

@@ -1,0 +1,33 @@
+id: DISPLAY-000004
+knowledge_type: display_design
+name_ja: 強度段階表示
+name_en: Strength Level Display
+category: Display Design
+attribute: Result Expression
+definition_ja: 傾向の強さを段階的に示す表示設計。
+tags:
+  - CAT:表示設計
+  - CAT:結果表現
+  - ATTR:表示方針
+parent:
+  - 結果表現
+related:
+  - アプリ用途
+  - 補正要因
+  - 安全設計
+observable_data:
+  - 強度段階表示適用文脈
+  - 強度段階表示対象結果
+  - 強度段階表示安全性条件
+  - 強度段階表示ユーザー反応
+signal_candidates:
+  - 強度段階表示を表示方針として利用できる
+  - アプリ側で結果表示・説明・提案を調整する材料になる
+device_level: DB管理用
+modifiers:
+  - 用途
+  - 安全性
+  - 不確実性
+  - ユーザー状態
+evidence: UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用
+status: active

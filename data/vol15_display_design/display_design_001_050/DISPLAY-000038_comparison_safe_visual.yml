@@ -1,0 +1,33 @@
+id: DISPLAY-000038
+knowledge_type: display_design
+name_ja: 安全な比較可視化
+name_en: Safe Comparison Visual
+category: Display Design
+attribute: Visualization
+definition_ja: 比較による序列感を抑えた可視化設計。
+tags:
+  - CAT:表示設計
+  - CAT:可視化
+  - ATTR:表示方針
+parent:
+  - 可視化
+related:
+  - アプリ用途
+  - 補正要因
+  - 安全設計
+observable_data:
+  - 安全な比較可視化適用文脈
+  - 安全な比較可視化対象結果
+  - 安全な比較可視化安全性条件
+  - 安全な比較可視化ユーザー反応
+signal_candidates:
+  - 安全な比較可視化を表示方針として利用できる
+  - アプリ側で結果表示・説明・提案を調整する材料になる
+device_level: DB管理用
+modifiers:
+  - 用途
+  - 安全性
+  - 不確実性
+  - ユーザー状態
+evidence: UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用
+status: active

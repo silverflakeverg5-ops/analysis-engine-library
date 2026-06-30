@@ -1,0 +1,33 @@
+id: DISPLAY-000013
+knowledge_type: display_design
+name_ja: 非評価的表現
+name_en: Non Judgmental Expression
+category: Display Design
+attribute: Safety Tone
+definition_ja: 良し悪しや優劣ではなく特徴として示す表現設計。
+tags:
+  - CAT:表示設計
+  - CAT:安全トーン
+  - ATTR:表示方針
+parent:
+  - 安全トーン
+related:
+  - アプリ用途
+  - 補正要因
+  - 安全設計
+observable_data:
+  - 非評価的表現適用文脈
+  - 非評価的表現対象結果
+  - 非評価的表現安全性条件
+  - 非評価的表現ユーザー反応
+signal_candidates:
+  - 非評価的表現を表示方針として利用できる
+  - アプリ側で結果表示・説明・提案を調整する材料になる
+device_level: DB管理用
+modifiers:
+  - 用途
+  - 安全性
+  - 不確実性
+  - ユーザー状態
+evidence: UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用
+status: active

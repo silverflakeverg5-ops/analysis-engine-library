@@ -1,0 +1,57 @@
+category: Display Design
+name_ja: 表示設計
+items:
+  - DISPLAY-000001_tendency_expression.yml
+  - DISPLAY-000002_possibility_expression.yml
+  - DISPLAY-000003_non_diagnostic_expression.yml
+  - DISPLAY-000004_strength_level_display.yml
+  - DISPLAY-000005_confidence_display.yml
+  - DISPLAY-000006_contextual_result_display.yml
+  - DISPLAY-000007_range_expression.yml
+  - DISPLAY-000008_comparative_expression_safe.yml
+  - DISPLAY-000009_plain_language_display.yml
+  - DISPLAY-000010_actionable_summary.yml
+  - DISPLAY-000011_supportive_tone.yml
+  - DISPLAY-000012_gentle_feedback.yml
+  - DISPLAY-000013_non_judgmental_expression.yml
+  - DISPLAY-000014_strength_based_expression.yml
+  - DISPLAY-000015_caution_without_alarm.yml
+  - DISPLAY-000016_user_agency_expression.yml
+  - DISPLAY-000017_normalizing_expression.yml
+  - DISPLAY-000018_privacy_sensitive_expression.yml
+  - DISPLAY-000019_minor_safe_expression.yml
+  - DISPLAY-000020_high_stakes_safe_expression.yml
+  - DISPLAY-000021_why_this_result.yml
+  - DISPLAY-000022_used_signal_display.yml
+  - DISPLAY-000023_modifier_display.yml
+  - DISPLAY-000024_evidence_display.yml
+  - DISPLAY-000025_uncertainty_reason_display.yml
+  - DISPLAY-000026_alternative_explanation_display.yml
+  - DISPLAY-000027_data_limit_display.yml
+  - DISPLAY-000028_trend_explanation.yml
+  - DISPLAY-000029_context_explanation.yml
+  - DISPLAY-000030_user_correction_prompt.yml
+  - DISPLAY-000031_radar_chart_display.yml
+  - DISPLAY-000032_trend_line_display.yml
+  - DISPLAY-000033_heatmap_display.yml
+  - DISPLAY-000034_card_summary_display.yml
+  - DISPLAY-000035_tag_display.yml
+  - DISPLAY-000036_confidence_meter.yml
+  - DISPLAY-000037_signal_timeline.yml
+  - DISPLAY-000038_comparison_safe_visual.yml
+  - DISPLAY-000039_progress_visual_display.yml
+  - DISPLAY-000040_context_badge_display.yml
+  - DISPLAY-000041_small_next_action.yml
+  - DISPLAY-000042_reflection_prompt.yml
+  - DISPLAY-000043_choice_preserving_suggestion.yml
+  - DISPLAY-000044_timing_aware_suggestion.yml
+  - DISPLAY-000045_recovery_suggestion.yml
+  - DISPLAY-000046_learning_suggestion.yml
+  - DISPLAY-000047_communication_suggestion.yml
+  - DISPLAY-000048_habit_suggestion.yml
+  - DISPLAY-000049_environment_adjustment_suggestion.yml
+  - DISPLAY-000050_app_display_integration.yml
+notes:
+  - 表示設計は推論結果ではなくアプリ側の表現材料として扱う
+  - Knowledge DB側ではスコアリングしない
+  - アプリ側で用途・安全性・文脈に応じて表示を調整する

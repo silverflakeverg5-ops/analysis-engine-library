@@ -1,0 +1,33 @@
+id: DISPLAY-000050
+knowledge_type: display_design
+name_ja: 表示設計統合
+name_en: App Display Integration
+category: Display Design
+attribute: Action Suggestion
+definition_ja: 結果・説明・安全性・行動提案を統合して表示する枠組み。
+tags:
+  - CAT:表示設計
+  - CAT:行動提案
+  - ATTR:表示方針
+parent:
+  - 行動提案
+related:
+  - アプリ用途
+  - 補正要因
+  - 安全設計
+observable_data:
+  - 表示設計統合適用文脈
+  - 表示設計統合対象結果
+  - 表示設計統合安全性条件
+  - 表示設計統合ユーザー反応
+signal_candidates:
+  - 表示設計統合を表示方針として利用できる
+  - アプリ側で結果表示・説明・提案を調整する材料になる
+device_level: DB管理用
+modifiers:
+  - 用途
+  - 安全性
+  - 不確実性
+  - ユーザー状態
+evidence: UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用
+status: active

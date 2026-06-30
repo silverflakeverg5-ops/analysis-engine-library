@@ -1,0 +1,2107 @@
+{
+  "output_dir": "vol15_display_design/display_design_001_050",
+  "index_filename": "display_design_001_050_index.yml",
+  "index_content": "category: Display Design\nname_ja: 表示設計\nitems:\n  - DISPLAY-000001_tendency_expression.yml\n  - DISPLAY-000002_possibility_expression.yml\n  - DISPLAY-000003_non_diagnostic_expression.yml\n  - DISPLAY-000004_strength_level_display.yml\n  - DISPLAY-000005_confidence_display.yml\n  - DISPLAY-000006_contextual_result_display.yml\n  - DISPLAY-000007_range_expression.yml\n  - DISPLAY-000008_comparative_expression_safe.yml\n  - DISPLAY-000009_plain_language_display.yml\n  - DISPLAY-000010_actionable_summary.yml\n  - DISPLAY-000011_supportive_tone.yml\n  - DISPLAY-000012_gentle_feedback.yml\n  - DISPLAY-000013_non_judgmental_expression.yml\n  - DISPLAY-000014_strength_based_expression.yml\n  - DISPLAY-000015_caution_without_alarm.yml\n  - DISPLAY-000016_user_agency_expression.yml\n  - DISPLAY-000017_normalizing_expression.yml\n  - DISPLAY-000018_privacy_sensitive_expression.yml\n  - DISPLAY-000019_minor_safe_expression.yml\n  - DISPLAY-000020_high_stakes_safe_expression.yml\n  - DISPLAY-000021_why_this_result.yml\n  - DISPLAY-000022_used_signal_display.yml\n  - DISPLAY-000023_modifier_display.yml\n  - DISPLAY-000024_evidence_display.yml\n  - DISPLAY-000025_uncertainty_reason_display.yml\n  - DISPLAY-000026_alternative_explanation_display.yml\n  - DISPLAY-000027_data_limit_display.yml\n  - DISPLAY-000028_trend_explanation.yml\n  - DISPLAY-000029_context_explanation.yml\n  - DISPLAY-000030_user_correction_prompt.yml\n  - DISPLAY-000031_radar_chart_display.yml\n  - DISPLAY-000032_trend_line_display.yml\n  - DISPLAY-000033_heatmap_display.yml\n  - DISPLAY-000034_card_summary_display.yml\n  - DISPLAY-000035_tag_display.yml\n  - DISPLAY-000036_confidence_meter.yml\n  - DISPLAY-000037_signal_timeline.yml\n  - DISPLAY-000038_comparison_safe_visual.yml\n  - DISPLAY-000039_progress_visual_display.yml\n  - DISPLAY-000040_context_badge_display.yml\n  - DISPLAY-000041_small_next_action.yml\n  - DISPLAY-000042_reflection_prompt.yml\n  - DISPLAY-000043_choice_preserving_suggestion.yml\n  - DISPLAY-000044_timing_aware_suggestion.yml\n  - DISPLAY-000045_recovery_suggestion.yml\n  - DISPLAY-000046_learning_suggestion.yml\n  - DISPLAY-000047_communication_suggestion.yml\n  - DISPLAY-000048_habit_suggestion.yml\n  - DISPLAY-000049_environment_adjustment_suggestion.yml\n  - DISPLAY-000050_app_display_integration.yml\nnotes:\n  - 表示設計は推論結果ではなくアプリ側の表現材料として扱う\n  - Knowledge DB側ではスコアリングしない\n  - アプリ側で用途・安全性・文脈に応じて表示を調整する\n",
+  "items": [
+    {
+      "filename": "DISPLAY-000001_tendency_expression.yml",
+      "id": "DISPLAY-000001",
+      "knowledge_type": "display_design",
+      "name_ja": "傾向表現",
+      "name_en": "Tendency Expression",
+      "category": "Display Design",
+      "attribute": "Result Expression",
+      "definition_ja": "結果を断定ではなく傾向として表現する表示設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:結果表現",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "結果表現"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "傾向表現適用文脈",
+        "傾向表現対象結果",
+        "傾向表現安全性条件",
+        "傾向表現ユーザー反応"
+      ],
+      "signal_candidates": [
+        "傾向表現を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000002_possibility_expression.yml",
+      "id": "DISPLAY-000002",
+      "knowledge_type": "display_design",
+      "name_ja": "可能性表現",
+      "name_en": "Possibility Expression",
+      "category": "Display Design",
+      "attribute": "Result Expression",
+      "definition_ja": "推論結果を可能性として示し、不確実性を残す表現設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:結果表現",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "結果表現"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "可能性表現適用文脈",
+        "可能性表現対象結果",
+        "可能性表現安全性条件",
+        "可能性表現ユーザー反応"
+      ],
+      "signal_candidates": [
+        "可能性表現を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000003_non_diagnostic_expression.yml",
+      "id": "DISPLAY-000003",
+      "knowledge_type": "display_design",
+      "name_ja": "非診断表現",
+      "name_en": "Non Diagnostic Expression",
+      "category": "Display Design",
+      "attribute": "Result Expression",
+      "definition_ja": "医療・性格断定ではなく参考情報として示す表現設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:結果表現",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "結果表現"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "非診断表現適用文脈",
+        "非診断表現対象結果",
+        "非診断表現安全性条件",
+        "非診断表現ユーザー反応"
+      ],
+      "signal_candidates": [
+        "非診断表現を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000004_strength_level_display.yml",
+      "id": "DISPLAY-000004",
+      "knowledge_type": "display_design",
+      "name_ja": "強度段階表示",
+      "name_en": "Strength Level Display",
+      "category": "Display Design",
+      "attribute": "Result Expression",
+      "definition_ja": "傾向の強さを段階的に示す表示設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:結果表現",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "結果表現"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "強度段階表示適用文脈",
+        "強度段階表示対象結果",
+        "強度段階表示安全性条件",
+        "強度段階表示ユーザー反応"
+      ],
+      "signal_candidates": [
+        "強度段階表示を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000005_confidence_display.yml",
+      "id": "DISPLAY-000005",
+      "knowledge_type": "display_design",
+      "name_ja": "信頼度表示",
+      "name_en": "Confidence Display",
+      "category": "Display Design",
+      "attribute": "Result Expression",
+      "definition_ja": "観測量や一貫性に基づく信頼度を示す表示設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:結果表現",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "結果表現"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "信頼度表示適用文脈",
+        "信頼度表示対象結果",
+        "信頼度表示安全性条件",
+        "信頼度表示ユーザー反応"
+      ],
+      "signal_candidates": [
+        "信頼度表示を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000006_contextual_result_display.yml",
+      "id": "DISPLAY-000006",
+      "knowledge_type": "display_design",
+      "name_ja": "文脈付き結果表示",
+      "name_en": "Contextual Result Display",
+      "category": "Display Design",
+      "attribute": "Result Expression",
+      "definition_ja": "結果を時間・状況・条件とセットで示す表示設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:結果表現",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "結果表現"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "文脈付き結果表示適用文脈",
+        "文脈付き結果表示対象結果",
+        "文脈付き結果表示安全性条件",
+        "文脈付き結果表示ユーザー反応"
+      ],
+      "signal_candidates": [
+        "文脈付き結果表示を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000007_range_expression.yml",
+      "id": "DISPLAY-000007",
+      "knowledge_type": "display_design",
+      "name_ja": "範囲表現",
+      "name_en": "Range Expression",
+      "category": "Display Design",
+      "attribute": "Result Expression",
+      "definition_ja": "単一値ではなく幅や範囲として結果を示す表現設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:結果表現",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "結果表現"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "範囲表現適用文脈",
+        "範囲表現対象結果",
+        "範囲表現安全性条件",
+        "範囲表現ユーザー反応"
+      ],
+      "signal_candidates": [
+        "範囲表現を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000008_comparative_expression_safe.yml",
+      "id": "DISPLAY-000008",
+      "knowledge_type": "display_design",
+      "name_ja": "安全な比較表現",
+      "name_en": "Safe Comparative Expression",
+      "category": "Display Design",
+      "attribute": "Result Expression",
+      "definition_ja": "他者比較や序列化による悪影響を抑える表現設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:結果表現",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "結果表現"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "安全な比較表現適用文脈",
+        "安全な比較表現対象結果",
+        "安全な比較表現安全性条件",
+        "安全な比較表現ユーザー反応"
+      ],
+      "signal_candidates": [
+        "安全な比較表現を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000009_plain_language_display.yml",
+      "id": "DISPLAY-000009",
+      "knowledge_type": "display_design",
+      "name_ja": "平易な言葉表示",
+      "name_en": "Plain Language Display",
+      "category": "Display Design",
+      "attribute": "Result Expression",
+      "definition_ja": "専門用語を避け、ユーザーが理解しやすく示す表示設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:結果表現",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "結果表現"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "平易な言葉表示適用文脈",
+        "平易な言葉表示対象結果",
+        "平易な言葉表示安全性条件",
+        "平易な言葉表示ユーザー反応"
+      ],
+      "signal_candidates": [
+        "平易な言葉表示を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000010_actionable_summary.yml",
+      "id": "DISPLAY-000010",
+      "knowledge_type": "display_design",
+      "name_ja": "行動可能要約",
+      "name_en": "Actionable Summary",
+      "category": "Display Design",
+      "attribute": "Result Expression",
+      "definition_ja": "結果を次の行動や振り返りにつながる形で要約する表示設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:結果表現",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "結果表現"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "行動可能要約適用文脈",
+        "行動可能要約対象結果",
+        "行動可能要約安全性条件",
+        "行動可能要約ユーザー反応"
+      ],
+      "signal_candidates": [
+        "行動可能要約を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000011_supportive_tone.yml",
+      "id": "DISPLAY-000011",
+      "knowledge_type": "display_design",
+      "name_ja": "支援的トーン",
+      "name_en": "Supportive Tone",
+      "category": "Display Design",
+      "attribute": "Safety Tone",
+      "definition_ja": "評価や断定ではなく支援的に伝える表現方針。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:安全トーン",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "安全トーン"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "支援的トーン適用文脈",
+        "支援的トーン対象結果",
+        "支援的トーン安全性条件",
+        "支援的トーンユーザー反応"
+      ],
+      "signal_candidates": [
+        "支援的トーンを表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000012_gentle_feedback.yml",
+      "id": "DISPLAY-000012",
+      "knowledge_type": "display_design",
+      "name_ja": "やさしいフィードバック",
+      "name_en": "Gentle Feedback",
+      "category": "Display Design",
+      "attribute": "Safety Tone",
+      "definition_ja": "負担感を抑えて改善点や気づきを伝える表示設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:安全トーン",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "安全トーン"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "やさしいフィードバック適用文脈",
+        "やさしいフィードバック対象結果",
+        "やさしいフィードバック安全性条件",
+        "やさしいフィードバックユーザー反応"
+      ],
+      "signal_candidates": [
+        "やさしいフィードバックを表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000013_non_judgmental_expression.yml",
+      "id": "DISPLAY-000013",
+      "knowledge_type": "display_design",
+      "name_ja": "非評価的表現",
+      "name_en": "Non Judgmental Expression",
+      "category": "Display Design",
+      "attribute": "Safety Tone",
+      "definition_ja": "良し悪しや優劣ではなく特徴として示す表現設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:安全トーン",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "安全トーン"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "非評価的表現適用文脈",
+        "非評価的表現対象結果",
+        "非評価的表現安全性条件",
+        "非評価的表現ユーザー反応"
+      ],
+      "signal_candidates": [
+        "非評価的表現を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000014_strength_based_expression.yml",
+      "id": "DISPLAY-000014",
+      "knowledge_type": "display_design",
+      "name_ja": "強みベース表現",
+      "name_en": "Strength Based Expression",
+      "category": "Display Design",
+      "attribute": "Safety Tone",
+      "definition_ja": "欠点よりも活かし方や強みに焦点を当てる表現設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:安全トーン",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "安全トーン"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "強みベース表現適用文脈",
+        "強みベース表現対象結果",
+        "強みベース表現安全性条件",
+        "強みベース表現ユーザー反応"
+      ],
+      "signal_candidates": [
+        "強みベース表現を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000015_caution_without_alarm.yml",
+      "id": "DISPLAY-000015",
+      "knowledge_type": "display_design",
+      "name_ja": "不安を煽らない注意喚起",
+      "name_en": "Caution Without Alarm",
+      "category": "Display Design",
+      "attribute": "Safety Tone",
+      "definition_ja": "注意点を示しつつ不安や恐怖を過度に高めない表現設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:安全トーン",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "安全トーン"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "不安を煽らない注意喚起適用文脈",
+        "不安を煽らない注意喚起対象結果",
+        "不安を煽らない注意喚起安全性条件",
+        "不安を煽らない注意喚起ユーザー反応"
+      ],
+      "signal_candidates": [
+        "不安を煽らない注意喚起を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000016_user_agency_expression.yml",
+      "id": "DISPLAY-000016",
+      "knowledge_type": "display_design",
+      "name_ja": "自己決定尊重表現",
+      "name_en": "User Agency Expression",
+      "category": "Display Design",
+      "attribute": "Safety Tone",
+      "definition_ja": "ユーザーが自分で判断できる余地を残す表現設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:安全トーン",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "安全トーン"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "自己決定尊重表現適用文脈",
+        "自己決定尊重表現対象結果",
+        "自己決定尊重表現安全性条件",
+        "自己決定尊重表現ユーザー反応"
+      ],
+      "signal_candidates": [
+        "自己決定尊重表現を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000017_normalizing_expression.yml",
+      "id": "DISPLAY-000017",
+      "knowledge_type": "display_design",
+      "name_ja": "正常化表現",
+      "name_en": "Normalizing Expression",
+      "category": "Display Design",
+      "attribute": "Safety Tone",
+      "definition_ja": "一時的な揺れや一般的な傾向として安心感を与える表現設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:安全トーン",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "安全トーン"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "正常化表現適用文脈",
+        "正常化表現対象結果",
+        "正常化表現安全性条件",
+        "正常化表現ユーザー反応"
+      ],
+      "signal_candidates": [
+        "正常化表現を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000018_privacy_sensitive_expression.yml",
+      "id": "DISPLAY-000018",
+      "knowledge_type": "display_design",
+      "name_ja": "プライバシー配慮表現",
+      "name_en": "Privacy Sensitive Expression",
+      "category": "Display Design",
+      "attribute": "Safety Tone",
+      "definition_ja": "機微情報を露骨に断定せず慎重に扱う表現設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:安全トーン",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "安全トーン"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "プライバシー配慮表現適用文脈",
+        "プライバシー配慮表現対象結果",
+        "プライバシー配慮表現安全性条件",
+        "プライバシー配慮表現ユーザー反応"
+      ],
+      "signal_candidates": [
+        "プライバシー配慮表現を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000019_minor_safe_expression.yml",
+      "id": "DISPLAY-000019",
+      "knowledge_type": "display_design",
+      "name_ja": "未成年配慮表現",
+      "name_en": "Minor Safe Expression",
+      "category": "Display Design",
+      "attribute": "Safety Tone",
+      "definition_ja": "未成年ユーザーに対して安全で穏当な表現にする設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:安全トーン",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "安全トーン"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "未成年配慮表現適用文脈",
+        "未成年配慮表現対象結果",
+        "未成年配慮表現安全性条件",
+        "未成年配慮表現ユーザー反応"
+      ],
+      "signal_candidates": [
+        "未成年配慮表現を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000020_high_stakes_safe_expression.yml",
+      "id": "DISPLAY-000020",
+      "knowledge_type": "display_design",
+      "name_ja": "高リスク安全表現",
+      "name_en": "High Stakes Safe Expression",
+      "category": "Display Design",
+      "attribute": "Safety Tone",
+      "definition_ja": "重大判断に直接使わせないよう慎重化する表現設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:安全トーン",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "安全トーン"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "高リスク安全表現適用文脈",
+        "高リスク安全表現対象結果",
+        "高リスク安全表現安全性条件",
+        "高リスク安全表現ユーザー反応"
+      ],
+      "signal_candidates": [
+        "高リスク安全表現を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000021_why_this_result.yml",
+      "id": "DISPLAY-000021",
+      "knowledge_type": "display_design",
+      "name_ja": "結果理由説明",
+      "name_en": "Why This Result",
+      "category": "Display Design",
+      "attribute": "Explanation",
+      "definition_ja": "なぜその結果になったかを観測シグナルや根拠から説明する設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:説明",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "説明"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "結果理由説明適用文脈",
+        "結果理由説明対象結果",
+        "結果理由説明安全性条件",
+        "結果理由説明ユーザー反応"
+      ],
+      "signal_candidates": [
+        "結果理由説明を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000022_used_signal_display.yml",
+      "id": "DISPLAY-000022",
+      "knowledge_type": "display_design",
+      "name_ja": "使用シグナル表示",
+      "name_en": "Used Signal Display",
+      "category": "Display Design",
+      "attribute": "Explanation",
+      "definition_ja": "結果に使われた観測シグナルを示す表示設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:説明",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "説明"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "使用シグナル表示適用文脈",
+        "使用シグナル表示対象結果",
+        "使用シグナル表示安全性条件",
+        "使用シグナル表示ユーザー反応"
+      ],
+      "signal_candidates": [
+        "使用シグナル表示を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000023_modifier_display.yml",
+      "id": "DISPLAY-000023",
+      "knowledge_type": "display_design",
+      "name_ja": "補正要因表示",
+      "name_en": "Modifier Display",
+      "category": "Display Design",
+      "attribute": "Explanation",
+      "definition_ja": "結果に影響した補正要因を示す表示設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:説明",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "説明"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "補正要因表示適用文脈",
+        "補正要因表示対象結果",
+        "補正要因表示安全性条件",
+        "補正要因表示ユーザー反応"
+      ],
+      "signal_candidates": [
+        "補正要因表示を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000024_evidence_display.yml",
+      "id": "DISPLAY-000024",
+      "knowledge_type": "display_design",
+      "name_ja": "根拠表示",
+      "name_en": "Evidence Display",
+      "category": "Display Design",
+      "attribute": "Explanation",
+      "definition_ja": "知識項目や推論材料の根拠種別を示す表示設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:説明",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "説明"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "根拠表示適用文脈",
+        "根拠表示対象結果",
+        "根拠表示安全性条件",
+        "根拠表示ユーザー反応"
+      ],
+      "signal_candidates": [
+        "根拠表示を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000025_uncertainty_reason_display.yml",
+      "id": "DISPLAY-000025",
+      "knowledge_type": "display_design",
+      "name_ja": "不確実性理由表示",
+      "name_en": "Uncertainty Reason Display",
+      "category": "Display Design",
+      "attribute": "Explanation",
+      "definition_ja": "なぜ確信度が高くないかを説明する表示設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:説明",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "説明"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "不確実性理由表示適用文脈",
+        "不確実性理由表示対象結果",
+        "不確実性理由表示安全性条件",
+        "不確実性理由表示ユーザー反応"
+      ],
+      "signal_candidates": [
+        "不確実性理由表示を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000026_alternative_explanation_display.yml",
+      "id": "DISPLAY-000026",
+      "knowledge_type": "display_design",
+      "name_ja": "代替説明表示",
+      "name_en": "Alternative Explanation Display",
+      "category": "Display Design",
+      "attribute": "Explanation",
+      "definition_ja": "一つの結果に固定せず別解釈も示す表示設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:説明",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "説明"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "代替説明表示適用文脈",
+        "代替説明表示対象結果",
+        "代替説明表示安全性条件",
+        "代替説明表示ユーザー反応"
+      ],
+      "signal_candidates": [
+        "代替説明表示を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000027_data_limit_display.yml",
+      "id": "DISPLAY-000027",
+      "knowledge_type": "display_design",
+      "name_ja": "データ限界表示",
+      "name_en": "Data Limit Display",
+      "category": "Display Design",
+      "attribute": "Explanation",
+      "definition_ja": "データ不足や観測範囲の限界を示す表示設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:説明",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "説明"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "データ限界表示適用文脈",
+        "データ限界表示対象結果",
+        "データ限界表示安全性条件",
+        "データ限界表示ユーザー反応"
+      ],
+      "signal_candidates": [
+        "データ限界表示を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000028_trend_explanation.yml",
+      "id": "DISPLAY-000028",
+      "knowledge_type": "display_design",
+      "name_ja": "傾向説明",
+      "name_en": "Trend Explanation",
+      "category": "Display Design",
+      "attribute": "Explanation",
+      "definition_ja": "時系列でどのように変化したかを説明する表示設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:説明",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "説明"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "傾向説明適用文脈",
+        "傾向説明対象結果",
+        "傾向説明安全性条件",
+        "傾向説明ユーザー反応"
+      ],
+      "signal_candidates": [
+        "傾向説明を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000029_context_explanation.yml",
+      "id": "DISPLAY-000029",
+      "knowledge_type": "display_design",
+      "name_ja": "文脈説明",
+      "name_en": "Context Explanation",
+      "category": "Display Design",
+      "attribute": "Explanation",
+      "definition_ja": "時間・場所・課題など文脈の影響を説明する表示設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:説明",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "説明"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "文脈説明適用文脈",
+        "文脈説明対象結果",
+        "文脈説明安全性条件",
+        "文脈説明ユーザー反応"
+      ],
+      "signal_candidates": [
+        "文脈説明を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000030_user_correction_prompt.yml",
+      "id": "DISPLAY-000030",
+      "knowledge_type": "display_design",
+      "name_ja": "ユーザー修正促し",
+      "name_en": "User Correction Prompt",
+      "category": "Display Design",
+      "attribute": "Explanation",
+      "definition_ja": "結果や前提が違う場合にユーザーが修正できる導線。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:説明",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "説明"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "ユーザー修正促し適用文脈",
+        "ユーザー修正促し対象結果",
+        "ユーザー修正促し安全性条件",
+        "ユーザー修正促しユーザー反応"
+      ],
+      "signal_candidates": [
+        "ユーザー修正促しを表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000031_radar_chart_display.yml",
+      "id": "DISPLAY-000031",
+      "knowledge_type": "display_design",
+      "name_ja": "レーダーチャート表示",
+      "name_en": "Radar Chart Display",
+      "category": "Display Design",
+      "attribute": "Visualization",
+      "definition_ja": "複数傾向をレーダーチャートで示す表示設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:可視化",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "可視化"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "レーダーチャート表示適用文脈",
+        "レーダーチャート表示対象結果",
+        "レーダーチャート表示安全性条件",
+        "レーダーチャート表示ユーザー反応"
+      ],
+      "signal_candidates": [
+        "レーダーチャート表示を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000032_trend_line_display.yml",
+      "id": "DISPLAY-000032",
+      "knowledge_type": "display_design",
+      "name_ja": "時系列ライン表示",
+      "name_en": "Trend Line Display",
+      "category": "Display Design",
+      "attribute": "Visualization",
+      "definition_ja": "状態や行動の変化を時系列で示す表示設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:可視化",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "可視化"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "時系列ライン表示適用文脈",
+        "時系列ライン表示対象結果",
+        "時系列ライン表示安全性条件",
+        "時系列ライン表示ユーザー反応"
+      ],
+      "signal_candidates": [
+        "時系列ライン表示を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000033_heatmap_display.yml",
+      "id": "DISPLAY-000033",
+      "knowledge_type": "display_design",
+      "name_ja": "ヒートマップ表示",
+      "name_en": "Heatmap Display",
+      "category": "Display Design",
+      "attribute": "Visualization",
+      "definition_ja": "時間帯やカテゴリごとの強弱を色で示す表示設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:可視化",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "可視化"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "ヒートマップ表示適用文脈",
+        "ヒートマップ表示対象結果",
+        "ヒートマップ表示安全性条件",
+        "ヒートマップ表示ユーザー反応"
+      ],
+      "signal_candidates": [
+        "ヒートマップ表示を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000034_card_summary_display.yml",
+      "id": "DISPLAY-000034",
+      "knowledge_type": "display_design",
+      "name_ja": "カード要約表示",
+      "name_en": "Card Summary Display",
+      "category": "Display Design",
+      "attribute": "Visualization",
+      "definition_ja": "結果や提案をカード単位で簡潔に示す表示設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:可視化",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "可視化"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "カード要約表示適用文脈",
+        "カード要約表示対象結果",
+        "カード要約表示安全性条件",
+        "カード要約表示ユーザー反応"
+      ],
+      "signal_candidates": [
+        "カード要約表示を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000035_tag_display.yml",
+      "id": "DISPLAY-000035",
+      "knowledge_type": "display_design",
+      "name_ja": "タグ表示",
+      "name_en": "Tag Display",
+      "category": "Display Design",
+      "attribute": "Visualization",
+      "definition_ja": "関連概念や状態をタグで示す表示設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:可視化",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "可視化"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "タグ表示適用文脈",
+        "タグ表示対象結果",
+        "タグ表示安全性条件",
+        "タグ表示ユーザー反応"
+      ],
+      "signal_candidates": [
+        "タグ表示を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000036_confidence_meter.yml",
+      "id": "DISPLAY-000036",
+      "knowledge_type": "display_design",
+      "name_ja": "信頼度メーター",
+      "name_en": "Confidence Meter",
+      "category": "Display Design",
+      "attribute": "Visualization",
+      "definition_ja": "推論信頼度を視覚的に示す表示設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:可視化",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "可視化"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "信頼度メーター適用文脈",
+        "信頼度メーター対象結果",
+        "信頼度メーター安全性条件",
+        "信頼度メーターユーザー反応"
+      ],
+      "signal_candidates": [
+        "信頼度メーターを表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000037_signal_timeline.yml",
+      "id": "DISPLAY-000037",
+      "knowledge_type": "display_design",
+      "name_ja": "シグナルタイムライン",
+      "name_en": "Signal Timeline",
+      "category": "Display Design",
+      "attribute": "Visualization",
+      "definition_ja": "観測シグナルの発生や変化を時系列で示す表示設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:可視化",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "可視化"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "シグナルタイムライン適用文脈",
+        "シグナルタイムライン対象結果",
+        "シグナルタイムライン安全性条件",
+        "シグナルタイムラインユーザー反応"
+      ],
+      "signal_candidates": [
+        "シグナルタイムラインを表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000038_comparison_safe_visual.yml",
+      "id": "DISPLAY-000038",
+      "knowledge_type": "display_design",
+      "name_ja": "安全な比較可視化",
+      "name_en": "Safe Comparison Visual",
+      "category": "Display Design",
+      "attribute": "Visualization",
+      "definition_ja": "比較による序列感を抑えた可視化設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:可視化",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "可視化"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "安全な比較可視化適用文脈",
+        "安全な比較可視化対象結果",
+        "安全な比較可視化安全性条件",
+        "安全な比較可視化ユーザー反応"
+      ],
+      "signal_candidates": [
+        "安全な比較可視化を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000039_progress_visual_display.yml",
+      "id": "DISPLAY-000039",
+      "knowledge_type": "display_design",
+      "name_ja": "進捗可視化表示",
+      "name_en": "Progress Visual Display",
+      "category": "Display Design",
+      "attribute": "Visualization",
+      "definition_ja": "目標や行動の進捗を分かりやすく示す表示設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:可視化",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "可視化"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "進捗可視化表示適用文脈",
+        "進捗可視化表示対象結果",
+        "進捗可視化表示安全性条件",
+        "進捗可視化表示ユーザー反応"
+      ],
+      "signal_candidates": [
+        "進捗可視化表示を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000040_context_badge_display.yml",
+      "id": "DISPLAY-000040",
+      "knowledge_type": "display_design",
+      "name_ja": "文脈バッジ表示",
+      "name_en": "Context Badge Display",
+      "category": "Display Design",
+      "attribute": "Visualization",
+      "definition_ja": "結果がどの文脈で出たものかをバッジで示す表示設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:可視化",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "可視化"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "文脈バッジ表示適用文脈",
+        "文脈バッジ表示対象結果",
+        "文脈バッジ表示安全性条件",
+        "文脈バッジ表示ユーザー反応"
+      ],
+      "signal_candidates": [
+        "文脈バッジ表示を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000041_small_next_action.yml",
+      "id": "DISPLAY-000041",
+      "knowledge_type": "display_design",
+      "name_ja": "小さな次アクション",
+      "name_en": "Small Next Action",
+      "category": "Display Design",
+      "attribute": "Action Suggestion",
+      "definition_ja": "すぐ実行できる小さな行動を提案する表示設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:行動提案",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "行動提案"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "小さな次アクション適用文脈",
+        "小さな次アクション対象結果",
+        "小さな次アクション安全性条件",
+        "小さな次アクションユーザー反応"
+      ],
+      "signal_candidates": [
+        "小さな次アクションを表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000042_reflection_prompt.yml",
+      "id": "DISPLAY-000042",
+      "knowledge_type": "display_design",
+      "name_ja": "振り返りプロンプト",
+      "name_en": "Reflection Prompt",
+      "category": "Display Design",
+      "attribute": "Action Suggestion",
+      "definition_ja": "ユーザーが自分で考え直すための問いを提示する設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:行動提案",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "行動提案"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "振り返りプロンプト適用文脈",
+        "振り返りプロンプト対象結果",
+        "振り返りプロンプト安全性条件",
+        "振り返りプロンプトユーザー反応"
+      ],
+      "signal_candidates": [
+        "振り返りプロンプトを表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000043_choice_preserving_suggestion.yml",
+      "id": "DISPLAY-000043",
+      "knowledge_type": "display_design",
+      "name_ja": "選択余地を残す提案",
+      "name_en": "Choice Preserving Suggestion",
+      "category": "Display Design",
+      "attribute": "Action Suggestion",
+      "definition_ja": "押しつけず複数の選択肢として提案する表示設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:行動提案",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "行動提案"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "選択余地を残す提案適用文脈",
+        "選択余地を残す提案対象結果",
+        "選択余地を残す提案安全性条件",
+        "選択余地を残す提案ユーザー反応"
+      ],
+      "signal_candidates": [
+        "選択余地を残す提案を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000044_timing_aware_suggestion.yml",
+      "id": "DISPLAY-000044",
+      "knowledge_type": "display_design",
+      "name_ja": "タイミング配慮提案",
+      "name_en": "Timing Aware Suggestion",
+      "category": "Display Design",
+      "attribute": "Action Suggestion",
+      "definition_ja": "ユーザー状態や文脈に合わせて提案タイミングを調整する設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:行動提案",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "行動提案"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "タイミング配慮提案適用文脈",
+        "タイミング配慮提案対象結果",
+        "タイミング配慮提案安全性条件",
+        "タイミング配慮提案ユーザー反応"
+      ],
+      "signal_candidates": [
+        "タイミング配慮提案を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000045_recovery_suggestion.yml",
+      "id": "DISPLAY-000045",
+      "knowledge_type": "display_design",
+      "name_ja": "回復提案",
+      "name_en": "Recovery Suggestion",
+      "category": "Display Design",
+      "attribute": "Action Suggestion",
+      "definition_ja": "疲労・ストレス・低下時に回復行動を提案する設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:行動提案",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "行動提案"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "回復提案適用文脈",
+        "回復提案対象結果",
+        "回復提案安全性条件",
+        "回復提案ユーザー反応"
+      ],
+      "signal_candidates": [
+        "回復提案を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000046_learning_suggestion.yml",
+      "id": "DISPLAY-000046",
+      "knowledge_type": "display_design",
+      "name_ja": "学習提案",
+      "name_en": "Learning Suggestion",
+      "category": "Display Design",
+      "attribute": "Action Suggestion",
+      "definition_ja": "理解・復習・練習・方略改善につながる提案設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:行動提案",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "行動提案"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "学習提案適用文脈",
+        "学習提案対象結果",
+        "学習提案安全性条件",
+        "学習提案ユーザー反応"
+      ],
+      "signal_candidates": [
+        "学習提案を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000047_communication_suggestion.yml",
+      "id": "DISPLAY-000047",
+      "knowledge_type": "display_design",
+      "name_ja": "対話提案",
+      "name_en": "Communication Suggestion",
+      "category": "Display Design",
+      "attribute": "Action Suggestion",
+      "definition_ja": "返信・確認・自己主張・感謝などの対人行動を支援する提案設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:行動提案",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "行動提案"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "対話提案適用文脈",
+        "対話提案対象結果",
+        "対話提案安全性条件",
+        "対話提案ユーザー反応"
+      ],
+      "signal_candidates": [
+        "対話提案を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000048_habit_suggestion.yml",
+      "id": "DISPLAY-000048",
+      "knowledge_type": "display_design",
+      "name_ja": "習慣提案",
+      "name_en": "Habit Suggestion",
+      "category": "Display Design",
+      "attribute": "Action Suggestion",
+      "definition_ja": "継続・再開・ルーティン化を支援する提案設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:行動提案",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "行動提案"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "習慣提案適用文脈",
+        "習慣提案対象結果",
+        "習慣提案安全性条件",
+        "習慣提案ユーザー反応"
+      ],
+      "signal_candidates": [
+        "習慣提案を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000049_environment_adjustment_suggestion.yml",
+      "id": "DISPLAY-000049",
+      "knowledge_type": "display_design",
+      "name_ja": "環境調整提案",
+      "name_en": "Environment Adjustment Suggestion",
+      "category": "Display Design",
+      "attribute": "Action Suggestion",
+      "definition_ja": "集中・睡眠・作業・人間関係の環境調整を提案する設計。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:行動提案",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "行動提案"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "環境調整提案適用文脈",
+        "環境調整提案対象結果",
+        "環境調整提案安全性条件",
+        "環境調整提案ユーザー反応"
+      ],
+      "signal_candidates": [
+        "環境調整提案を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "DISPLAY-000050_app_display_integration.yml",
+      "id": "DISPLAY-000050",
+      "knowledge_type": "display_design",
+      "name_ja": "表示設計統合",
+      "name_en": "App Display Integration",
+      "category": "Display Design",
+      "attribute": "Action Suggestion",
+      "definition_ja": "結果・説明・安全性・行動提案を統合して表示する枠組み。",
+      "tags": [
+        "CAT:表示設計",
+        "CAT:行動提案",
+        "ATTR:表示方針"
+      ],
+      "parent": [
+        "行動提案"
+      ],
+      "related": [
+        "アプリ用途",
+        "補正要因",
+        "安全設計"
+      ],
+      "observable_data": [
+        "表示設計統合適用文脈",
+        "表示設計統合対象結果",
+        "表示設計統合安全性条件",
+        "表示設計統合ユーザー反応"
+      ],
+      "signal_candidates": [
+        "表示設計統合を表示方針として利用できる",
+        "アプリ側で結果表示・説明・提案を調整する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "安全性",
+        "不確実性",
+        "ユーザー状態"
+      ],
+      "evidence": "UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用",
+      "status": "active"
+    }
+  ]
+}

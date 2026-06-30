@@ -1,0 +1,33 @@
+id: DISPLAY-000041
+knowledge_type: display_design
+name_ja: 小さな次アクション
+name_en: Small Next Action
+category: Display Design
+attribute: Action Suggestion
+definition_ja: すぐ実行できる小さな行動を提案する表示設計。
+tags:
+  - CAT:表示設計
+  - CAT:行動提案
+  - ATTR:表示方針
+parent:
+  - 行動提案
+related:
+  - アプリ用途
+  - 補正要因
+  - 安全設計
+observable_data:
+  - 小さな次アクション適用文脈
+  - 小さな次アクション対象結果
+  - 小さな次アクション安全性条件
+  - 小さな次アクションユーザー反応
+signal_candidates:
+  - 小さな次アクションを表示方針として利用できる
+  - アプリ側で結果表示・説明・提案を調整する材料になる
+device_level: DB管理用
+modifiers:
+  - 用途
+  - 安全性
+  - 不確実性
+  - ユーザー状態
+evidence: UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用
+status: active

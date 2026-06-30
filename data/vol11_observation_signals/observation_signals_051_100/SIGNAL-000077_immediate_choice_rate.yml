@@ -1,0 +1,33 @@
+id: SIGNAL-000077
+knowledge_type: observation_signal
+name_ja: 即時報酬選択率
+name_en: Immediate Reward Choice Rate
+category: Observation Signal
+attribute: Decision
+definition_ja: 将来報酬より即時報酬を選んだ割合。
+tags:
+  - CAT:観測シグナル
+  - CAT:意思決定
+  - ATTR:観測可能データ
+parent:
+  - 意思決定
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 即時報酬選択率
+  - 即時報酬選択率の増減
+  - 即時報酬選択率の平均との差
+  - 即時報酬選択率の時系列変化
+signal_candidates:
+  - 即時報酬選択率が通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

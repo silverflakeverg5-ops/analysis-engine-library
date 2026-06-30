@@ -1,0 +1,33 @@
+id: SIGNAL-000087
+knowledge_type: observation_signal
+name_ja: 手がかり反応率
+name_en: Cue Response Rate
+category: Observation Signal
+attribute: Habit Routine
+definition_ja: 通知・時刻・場所などの手がかりに対して行動が起きた割合。
+tags:
+  - CAT:観測シグナル
+  - CAT:習慣ルーティン
+  - ATTR:観測可能データ
+parent:
+  - 習慣ルーティン
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 手がかり反応率
+  - 手がかり反応率の増減
+  - 手がかり反応率の平均との差
+  - 手がかり反応率の時系列変化
+signal_candidates:
+  - 手がかり反応率が通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

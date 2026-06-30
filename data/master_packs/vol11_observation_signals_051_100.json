@@ -1,0 +1,2107 @@
+{
+  "output_dir": "vol11_observation_signals/observation_signals_051_100",
+  "index_filename": "observation_signals_051_100_index.yml",
+  "index_content": "category: Observation Signal\nname_ja: 観測シグナル\nitems:\n  - SIGNAL-000051_emotion_word_rate.yml\n  - SIGNAL-000052_positive_expression_rate.yml\n  - SIGNAL-000053_negative_expression_rate.yml\n  - SIGNAL-000054_emotion_volatility_signal.yml\n  - SIGNAL-000055_frustration_expression_count.yml\n  - SIGNAL-000056_anxiety_expression_count.yml\n  - SIGNAL-000057_confidence_expression_rate.yml\n  - SIGNAL-000058_uncertainty_expression_rate.yml\n  - SIGNAL-000059_sentiment_shift.yml\n  - SIGNAL-000060_emotional_recovery_signal.yml\n  - SIGNAL-000061_focus_duration.yml\n  - SIGNAL-000062_distraction_count.yml\n  - SIGNAL-000063_task_switch_count.yml\n  - SIGNAL-000064_idle_time.yml\n  - SIGNAL-000065_scroll_depth.yml\n  - SIGNAL-000066_content_skip_rate.yml\n  - SIGNAL-000067_reread_count.yml\n  - SIGNAL-000068_attention_recovery_time.yml\n  - SIGNAL-000069_notification_interruption_rate.yml\n  - SIGNAL-000070_focus_variability.yml\n  - SIGNAL-000071_choice_change_count.yml\n  - SIGNAL-000072_option_comparison_count.yml\n  - SIGNAL-000073_default_choice_rate.yml\n  - SIGNAL-000074_risk_option_rate.yml\n  - SIGNAL-000075_safe_option_rate.yml\n  - SIGNAL-000076_delay_choice_rate.yml\n  - SIGNAL-000077_immediate_choice_rate.yml\n  - SIGNAL-000078_decision_reversal_rate.yml\n  - SIGNAL-000079_choice_conflict_signal.yml\n  - SIGNAL-000080_decision_consistency.yml\n  - SIGNAL-000081_routine_consistency.yml\n  - SIGNAL-000082_habit_streak.yml\n  - SIGNAL-000083_habit_break_count.yml\n  - SIGNAL-000084_routine_start_time.yml\n  - SIGNAL-000085_routine_completion_rate.yml\n  - SIGNAL-000086_automatic_action_rate.yml\n  - SIGNAL-000087_cue_response_rate.yml\n  - SIGNAL-000088_routine_recovery_rate.yml\n  - SIGNAL-000089_weekly_pattern_stability.yml\n  - SIGNAL-000090_habit_context_dependency.yml\n  - SIGNAL-000091_sleep_log_duration.yml\n  - SIGNAL-000092_activity_level_proxy.yml\n  - SIGNAL-000093_late_night_usage.yml\n  - SIGNAL-000094_morning_activation_signal.yml\n  - SIGNAL-000095_fatigue_proxy_signal.yml\n  - SIGNAL-000096_stress_proxy_signal.yml\n  - SIGNAL-000097_recovery_proxy_signal.yml\n  - SIGNAL-000098_circadian_disruption_signal.yml\n  - SIGNAL-000099_overload_proxy_signal.yml\n  - SIGNAL-000100_state_baseline_deviation.yml\nnotes:\n  - 観測シグナルは推論結果ではなく入力材料として扱う\n  - アプリ側でスコアリング・推論・表示を行う\n  - 生データではなく観測可能な指標候補として管理する\n",
+  "items": [
+    {
+      "filename": "SIGNAL-000051_emotion_word_rate.yml",
+      "id": "SIGNAL-000051",
+      "knowledge_type": "observation_signal",
+      "name_ja": "感情語使用率",
+      "name_en": "Emotion Word Rate",
+      "category": "Observation Signal",
+      "attribute": "Emotion",
+      "definition_ja": "発話や入力文に含まれる感情語の割合。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:感情",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "感情"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "感情語使用率",
+        "感情語使用率の増減",
+        "感情語使用率の平均との差",
+        "感情語使用率の時系列変化"
+      ],
+      "signal_candidates": [
+        "感情語使用率が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000052_positive_expression_rate.yml",
+      "id": "SIGNAL-000052",
+      "knowledge_type": "observation_signal",
+      "name_ja": "肯定表現率",
+      "name_en": "Positive Expression Rate",
+      "category": "Observation Signal",
+      "attribute": "Emotion",
+      "definition_ja": "肯定的・前向きな表現が使われる割合。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:感情",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "感情"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "肯定表現率",
+        "肯定表現率の増減",
+        "肯定表現率の平均との差",
+        "肯定表現率の時系列変化"
+      ],
+      "signal_candidates": [
+        "肯定表現率が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000053_negative_expression_rate.yml",
+      "id": "SIGNAL-000053",
+      "knowledge_type": "observation_signal",
+      "name_ja": "否定表現率",
+      "name_en": "Negative Expression Rate",
+      "category": "Observation Signal",
+      "attribute": "Emotion",
+      "definition_ja": "否定的・不満・不安を示す表現が使われる割合。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:感情",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "感情"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "否定表現率",
+        "否定表現率の増減",
+        "否定表現率の平均との差",
+        "否定表現率の時系列変化"
+      ],
+      "signal_candidates": [
+        "否定表現率が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000054_emotion_volatility_signal.yml",
+      "id": "SIGNAL-000054",
+      "knowledge_type": "observation_signal",
+      "name_ja": "感情変動シグナル",
+      "name_en": "Emotion Volatility Signal",
+      "category": "Observation Signal",
+      "attribute": "Emotion",
+      "definition_ja": "短期間で感情表現や反応傾向が大きく変化する兆候。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:感情",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "感情"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "感情変動シグナル",
+        "感情変動シグナルの増減",
+        "感情変動シグナルの平均との差",
+        "感情変動シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "感情変動シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000055_frustration_expression_count.yml",
+      "id": "SIGNAL-000055",
+      "knowledge_type": "observation_signal",
+      "name_ja": "苛立ち表現回数",
+      "name_en": "Frustration Expression Count",
+      "category": "Observation Signal",
+      "attribute": "Emotion",
+      "definition_ja": "苛立ち・怒り・不満を示す表現や反応の回数。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:感情",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "感情"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "苛立ち表現回数",
+        "苛立ち表現回数の増減",
+        "苛立ち表現回数の平均との差",
+        "苛立ち表現回数の時系列変化"
+      ],
+      "signal_candidates": [
+        "苛立ち表現回数が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000056_anxiety_expression_count.yml",
+      "id": "SIGNAL-000056",
+      "knowledge_type": "observation_signal",
+      "name_ja": "不安表現回数",
+      "name_en": "Anxiety Expression Count",
+      "category": "Observation Signal",
+      "attribute": "Emotion",
+      "definition_ja": "心配・不安・迷いを示す表現の回数。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:感情",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "感情"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "不安表現回数",
+        "不安表現回数の増減",
+        "不安表現回数の平均との差",
+        "不安表現回数の時系列変化"
+      ],
+      "signal_candidates": [
+        "不安表現回数が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000057_confidence_expression_rate.yml",
+      "id": "SIGNAL-000057",
+      "knowledge_type": "observation_signal",
+      "name_ja": "自信表現率",
+      "name_en": "Confidence Expression Rate",
+      "category": "Observation Signal",
+      "attribute": "Emotion",
+      "definition_ja": "確信・自信・断定を示す表現の割合。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:感情",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "感情"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "自信表現率",
+        "自信表現率の増減",
+        "自信表現率の平均との差",
+        "自信表現率の時系列変化"
+      ],
+      "signal_candidates": [
+        "自信表現率が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000058_uncertainty_expression_rate.yml",
+      "id": "SIGNAL-000058",
+      "knowledge_type": "observation_signal",
+      "name_ja": "不確実表現率",
+      "name_en": "Uncertainty Expression Rate",
+      "category": "Observation Signal",
+      "attribute": "Emotion",
+      "definition_ja": "迷い・保留・曖昧さを示す表現の割合。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:感情",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "感情"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "不確実表現率",
+        "不確実表現率の増減",
+        "不確実表現率の平均との差",
+        "不確実表現率の時系列変化"
+      ],
+      "signal_candidates": [
+        "不確実表現率が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000059_sentiment_shift.yml",
+      "id": "SIGNAL-000059",
+      "knowledge_type": "observation_signal",
+      "name_ja": "感情極性変化",
+      "name_en": "Sentiment Shift",
+      "category": "Observation Signal",
+      "attribute": "Emotion",
+      "definition_ja": "発話や反応の感情極性が時間とともに変化すること。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:感情",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "感情"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "感情極性変化",
+        "感情極性変化の増減",
+        "感情極性変化の平均との差",
+        "感情極性変化の時系列変化"
+      ],
+      "signal_candidates": [
+        "感情極性変化が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000060_emotional_recovery_signal.yml",
+      "id": "SIGNAL-000060",
+      "knowledge_type": "observation_signal",
+      "name_ja": "感情回復シグナル",
+      "name_en": "Emotional Recovery Signal",
+      "category": "Observation Signal",
+      "attribute": "Emotion",
+      "definition_ja": "否定的感情表現の後に通常または肯定的状態へ戻る兆候。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:感情",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "感情"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "感情回復シグナル",
+        "感情回復シグナルの増減",
+        "感情回復シグナルの平均との差",
+        "感情回復シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "感情回復シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000061_focus_duration.yml",
+      "id": "SIGNAL-000061",
+      "knowledge_type": "observation_signal",
+      "name_ja": "集中持続時間",
+      "name_en": "Focus Duration",
+      "category": "Observation Signal",
+      "attribute": "Attention",
+      "definition_ja": "中断なしで一つの課題や画面に集中している時間。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:注意",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "注意"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "集中持続時間",
+        "集中持続時間の増減",
+        "集中持続時間の平均との差",
+        "集中持続時間の時系列変化"
+      ],
+      "signal_candidates": [
+        "集中持続時間が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000062_distraction_count.yml",
+      "id": "SIGNAL-000062",
+      "knowledge_type": "observation_signal",
+      "name_ja": "注意逸脱回数",
+      "name_en": "Distraction Count",
+      "category": "Observation Signal",
+      "attribute": "Attention",
+      "definition_ja": "別画面・別機能・通知などへ注意が逸れた回数。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:注意",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "注意"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "注意逸脱回数",
+        "注意逸脱回数の増減",
+        "注意逸脱回数の平均との差",
+        "注意逸脱回数の時系列変化"
+      ],
+      "signal_candidates": [
+        "注意逸脱回数が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000063_task_switch_count.yml",
+      "id": "SIGNAL-000063",
+      "knowledge_type": "observation_signal",
+      "name_ja": "タスク切替回数",
+      "name_en": "Task Switch Count",
+      "category": "Observation Signal",
+      "attribute": "Attention",
+      "definition_ja": "短時間内に課題や画面を切り替えた回数。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:注意",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "注意"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "タスク切替回数",
+        "タスク切替回数の増減",
+        "タスク切替回数の平均との差",
+        "タスク切替回数の時系列変化"
+      ],
+      "signal_candidates": [
+        "タスク切替回数が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000064_idle_time.yml",
+      "id": "SIGNAL-000064",
+      "knowledge_type": "observation_signal",
+      "name_ja": "無操作時間",
+      "name_en": "Idle Time",
+      "category": "Observation Signal",
+      "attribute": "Attention",
+      "definition_ja": "表示中にもかかわらず操作が止まっている時間。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:注意",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "注意"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "無操作時間",
+        "無操作時間の増減",
+        "無操作時間の平均との差",
+        "無操作時間の時系列変化"
+      ],
+      "signal_candidates": [
+        "無操作時間が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000065_scroll_depth.yml",
+      "id": "SIGNAL-000065",
+      "knowledge_type": "observation_signal",
+      "name_ja": "スクロール深度",
+      "name_en": "Scroll Depth",
+      "category": "Observation Signal",
+      "attribute": "Attention",
+      "definition_ja": "ページやコンテンツをどこまで閲覧したかを示す指標。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:注意",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "注意"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "スクロール深度",
+        "スクロール深度の増減",
+        "スクロール深度の平均との差",
+        "スクロール深度の時系列変化"
+      ],
+      "signal_candidates": [
+        "スクロール深度が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000066_content_skip_rate.yml",
+      "id": "SIGNAL-000066",
+      "knowledge_type": "observation_signal",
+      "name_ja": "コンテンツスキップ率",
+      "name_en": "Content Skip Rate",
+      "category": "Observation Signal",
+      "attribute": "Attention",
+      "definition_ja": "提示された情報や説明を飛ばした割合。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:注意",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "注意"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "コンテンツスキップ率",
+        "コンテンツスキップ率の増減",
+        "コンテンツスキップ率の平均との差",
+        "コンテンツスキップ率の時系列変化"
+      ],
+      "signal_candidates": [
+        "コンテンツスキップ率が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000067_reread_count.yml",
+      "id": "SIGNAL-000067",
+      "knowledge_type": "observation_signal",
+      "name_ja": "再読回数",
+      "name_en": "Reread Count",
+      "category": "Observation Signal",
+      "attribute": "Attention",
+      "definition_ja": "同じ説明・設問・情報を再度確認した回数。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:注意",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "注意"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "再読回数",
+        "再読回数の増減",
+        "再読回数の平均との差",
+        "再読回数の時系列変化"
+      ],
+      "signal_candidates": [
+        "再読回数が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000068_attention_recovery_time.yml",
+      "id": "SIGNAL-000068",
+      "knowledge_type": "observation_signal",
+      "name_ja": "注意回復時間",
+      "name_en": "Attention Recovery Time",
+      "category": "Observation Signal",
+      "attribute": "Attention",
+      "definition_ja": "中断後に元の課題へ戻るまでの時間。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:注意",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "注意"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "注意回復時間",
+        "注意回復時間の増減",
+        "注意回復時間の平均との差",
+        "注意回復時間の時系列変化"
+      ],
+      "signal_candidates": [
+        "注意回復時間が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000069_notification_interruption_rate.yml",
+      "id": "SIGNAL-000069",
+      "knowledge_type": "observation_signal",
+      "name_ja": "通知中断率",
+      "name_en": "Notification Interruption Rate",
+      "category": "Observation Signal",
+      "attribute": "Attention",
+      "definition_ja": "通知によって作業や閲覧が中断された割合。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:注意",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "注意"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "通知中断率",
+        "通知中断率の増減",
+        "通知中断率の平均との差",
+        "通知中断率の時系列変化"
+      ],
+      "signal_candidates": [
+        "通知中断率が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000070_focus_variability.yml",
+      "id": "SIGNAL-000070",
+      "knowledge_type": "observation_signal",
+      "name_ja": "集中変動性",
+      "name_en": "Focus Variability",
+      "category": "Observation Signal",
+      "attribute": "Attention",
+      "definition_ja": "集中時間や操作ペースがどの程度変動するか。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:注意",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "注意"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "集中変動性",
+        "集中変動性の増減",
+        "集中変動性の平均との差",
+        "集中変動性の時系列変化"
+      ],
+      "signal_candidates": [
+        "集中変動性が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000071_choice_change_count.yml",
+      "id": "SIGNAL-000071",
+      "knowledge_type": "observation_signal",
+      "name_ja": "選択変更回数",
+      "name_en": "Choice Change Count",
+      "category": "Observation Signal",
+      "attribute": "Decision",
+      "definition_ja": "一度選んだ選択肢を変更した回数。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:意思決定",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "意思決定"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "選択変更回数",
+        "選択変更回数の増減",
+        "選択変更回数の平均との差",
+        "選択変更回数の時系列変化"
+      ],
+      "signal_candidates": [
+        "選択変更回数が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000072_option_comparison_count.yml",
+      "id": "SIGNAL-000072",
+      "knowledge_type": "observation_signal",
+      "name_ja": "選択肢比較回数",
+      "name_en": "Option Comparison Count",
+      "category": "Observation Signal",
+      "attribute": "Decision",
+      "definition_ja": "複数選択肢を比較・往復確認した回数。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:意思決定",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "意思決定"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "選択肢比較回数",
+        "選択肢比較回数の増減",
+        "選択肢比較回数の平均との差",
+        "選択肢比較回数の時系列変化"
+      ],
+      "signal_candidates": [
+        "選択肢比較回数が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000073_default_choice_rate.yml",
+      "id": "SIGNAL-000073",
+      "knowledge_type": "observation_signal",
+      "name_ja": "デフォルト選択率",
+      "name_en": "Default Choice Rate",
+      "category": "Observation Signal",
+      "attribute": "Decision",
+      "definition_ja": "初期設定や既定選択肢をそのまま選んだ割合。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:意思決定",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "意思決定"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "デフォルト選択率",
+        "デフォルト選択率の増減",
+        "デフォルト選択率の平均との差",
+        "デフォルト選択率の時系列変化"
+      ],
+      "signal_candidates": [
+        "デフォルト選択率が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000074_risk_option_rate.yml",
+      "id": "SIGNAL-000074",
+      "knowledge_type": "observation_signal",
+      "name_ja": "リスク選択率",
+      "name_en": "Risk Option Rate",
+      "category": "Observation Signal",
+      "attribute": "Decision",
+      "definition_ja": "不確実性や損失可能性を含む選択肢を選んだ割合。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:意思決定",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "意思決定"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "リスク選択率",
+        "リスク選択率の増減",
+        "リスク選択率の平均との差",
+        "リスク選択率の時系列変化"
+      ],
+      "signal_candidates": [
+        "リスク選択率が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000075_safe_option_rate.yml",
+      "id": "SIGNAL-000075",
+      "knowledge_type": "observation_signal",
+      "name_ja": "安全選択率",
+      "name_en": "Safe Option Rate",
+      "category": "Observation Signal",
+      "attribute": "Decision",
+      "definition_ja": "損失や失敗を避けやすい安全な選択肢を選んだ割合。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:意思決定",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "意思決定"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "安全選択率",
+        "安全選択率の増減",
+        "安全選択率の平均との差",
+        "安全選択率の時系列変化"
+      ],
+      "signal_candidates": [
+        "安全選択率が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000076_delay_choice_rate.yml",
+      "id": "SIGNAL-000076",
+      "knowledge_type": "observation_signal",
+      "name_ja": "遅延報酬選択率",
+      "name_en": "Delayed Reward Choice Rate",
+      "category": "Observation Signal",
+      "attribute": "Decision",
+      "definition_ja": "即時報酬より将来報酬を選んだ割合。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:意思決定",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "意思決定"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "遅延報酬選択率",
+        "遅延報酬選択率の増減",
+        "遅延報酬選択率の平均との差",
+        "遅延報酬選択率の時系列変化"
+      ],
+      "signal_candidates": [
+        "遅延報酬選択率が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000077_immediate_choice_rate.yml",
+      "id": "SIGNAL-000077",
+      "knowledge_type": "observation_signal",
+      "name_ja": "即時報酬選択率",
+      "name_en": "Immediate Reward Choice Rate",
+      "category": "Observation Signal",
+      "attribute": "Decision",
+      "definition_ja": "将来報酬より即時報酬を選んだ割合。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:意思決定",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "意思決定"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "即時報酬選択率",
+        "即時報酬選択率の増減",
+        "即時報酬選択率の平均との差",
+        "即時報酬選択率の時系列変化"
+      ],
+      "signal_candidates": [
+        "即時報酬選択率が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000078_decision_reversal_rate.yml",
+      "id": "SIGNAL-000078",
+      "knowledge_type": "observation_signal",
+      "name_ja": "判断撤回率",
+      "name_en": "Decision Reversal Rate",
+      "category": "Observation Signal",
+      "attribute": "Decision",
+      "definition_ja": "決定後に判断を撤回・変更した割合。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:意思決定",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "意思決定"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "判断撤回率",
+        "判断撤回率の増減",
+        "判断撤回率の平均との差",
+        "判断撤回率の時系列変化"
+      ],
+      "signal_candidates": [
+        "判断撤回率が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000079_choice_conflict_signal.yml",
+      "id": "SIGNAL-000079",
+      "knowledge_type": "observation_signal",
+      "name_ja": "選択葛藤シグナル",
+      "name_en": "Choice Conflict Signal",
+      "category": "Observation Signal",
+      "attribute": "Decision",
+      "definition_ja": "比較・迷い・保留が増えることで現れる意思決定葛藤の兆候。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:意思決定",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "意思決定"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "選択葛藤シグナル",
+        "選択葛藤シグナルの増減",
+        "選択葛藤シグナルの平均との差",
+        "選択葛藤シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "選択葛藤シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000080_decision_consistency.yml",
+      "id": "SIGNAL-000080",
+      "knowledge_type": "observation_signal",
+      "name_ja": "選択一貫性",
+      "name_en": "Decision Consistency",
+      "category": "Observation Signal",
+      "attribute": "Decision",
+      "definition_ja": "同条件または類似条件で選択傾向がどの程度一貫しているか。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:意思決定",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "意思決定"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "選択一貫性",
+        "選択一貫性の増減",
+        "選択一貫性の平均との差",
+        "選択一貫性の時系列変化"
+      ],
+      "signal_candidates": [
+        "選択一貫性が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000081_routine_consistency.yml",
+      "id": "SIGNAL-000081",
+      "knowledge_type": "observation_signal",
+      "name_ja": "ルーティン一貫性",
+      "name_en": "Routine Consistency",
+      "category": "Observation Signal",
+      "attribute": "Habit Routine",
+      "definition_ja": "同じ時間・順序・文脈で行動が繰り返される度合い。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:習慣ルーティン",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "習慣ルーティン"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "ルーティン一貫性",
+        "ルーティン一貫性の増減",
+        "ルーティン一貫性の平均との差",
+        "ルーティン一貫性の時系列変化"
+      ],
+      "signal_candidates": [
+        "ルーティン一貫性が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000082_habit_streak.yml",
+      "id": "SIGNAL-000082",
+      "knowledge_type": "observation_signal",
+      "name_ja": "習慣連続記録",
+      "name_en": "Habit Streak",
+      "category": "Observation Signal",
+      "attribute": "Habit Routine",
+      "definition_ja": "特定行動が連続して実行された日数や回数。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:習慣ルーティン",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "習慣ルーティン"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "習慣連続記録",
+        "習慣連続記録の増減",
+        "習慣連続記録の平均との差",
+        "習慣連続記録の時系列変化"
+      ],
+      "signal_candidates": [
+        "習慣連続記録が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000083_habit_break_count.yml",
+      "id": "SIGNAL-000083",
+      "knowledge_type": "observation_signal",
+      "name_ja": "習慣中断回数",
+      "name_en": "Habit Break Count",
+      "category": "Observation Signal",
+      "attribute": "Habit Routine",
+      "definition_ja": "継続していた習慣行動が途切れた回数。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:習慣ルーティン",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "習慣ルーティン"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "習慣中断回数",
+        "習慣中断回数の増減",
+        "習慣中断回数の平均との差",
+        "習慣中断回数の時系列変化"
+      ],
+      "signal_candidates": [
+        "習慣中断回数が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000084_routine_start_time.yml",
+      "id": "SIGNAL-000084",
+      "knowledge_type": "observation_signal",
+      "name_ja": "ルーティン開始時刻",
+      "name_en": "Routine Start Time",
+      "category": "Observation Signal",
+      "attribute": "Habit Routine",
+      "definition_ja": "特定行動が開始される時刻の傾向。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:習慣ルーティン",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "習慣ルーティン"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "ルーティン開始時刻",
+        "ルーティン開始時刻の増減",
+        "ルーティン開始時刻の平均との差",
+        "ルーティン開始時刻の時系列変化"
+      ],
+      "signal_candidates": [
+        "ルーティン開始時刻が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000085_routine_completion_rate.yml",
+      "id": "SIGNAL-000085",
+      "knowledge_type": "observation_signal",
+      "name_ja": "ルーティン完了率",
+      "name_en": "Routine Completion Rate",
+      "category": "Observation Signal",
+      "attribute": "Habit Routine",
+      "definition_ja": "予定された習慣や一連の行動が完了した割合。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:習慣ルーティン",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "習慣ルーティン"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "ルーティン完了率",
+        "ルーティン完了率の増減",
+        "ルーティン完了率の平均との差",
+        "ルーティン完了率の時系列変化"
+      ],
+      "signal_candidates": [
+        "ルーティン完了率が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000086_automatic_action_rate.yml",
+      "id": "SIGNAL-000086",
+      "knowledge_type": "observation_signal",
+      "name_ja": "自動化行動率",
+      "name_en": "Automatic Action Rate",
+      "category": "Observation Signal",
+      "attribute": "Habit Routine",
+      "definition_ja": "迷いや確認が少なく実行される行動の割合。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:習慣ルーティン",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "習慣ルーティン"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "自動化行動率",
+        "自動化行動率の増減",
+        "自動化行動率の平均との差",
+        "自動化行動率の時系列変化"
+      ],
+      "signal_candidates": [
+        "自動化行動率が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000087_cue_response_rate.yml",
+      "id": "SIGNAL-000087",
+      "knowledge_type": "observation_signal",
+      "name_ja": "手がかり反応率",
+      "name_en": "Cue Response Rate",
+      "category": "Observation Signal",
+      "attribute": "Habit Routine",
+      "definition_ja": "通知・時刻・場所などの手がかりに対して行動が起きた割合。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:習慣ルーティン",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "習慣ルーティン"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "手がかり反応率",
+        "手がかり反応率の増減",
+        "手がかり反応率の平均との差",
+        "手がかり反応率の時系列変化"
+      ],
+      "signal_candidates": [
+        "手がかり反応率が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000088_routine_recovery_rate.yml",
+      "id": "SIGNAL-000088",
+      "knowledge_type": "observation_signal",
+      "name_ja": "ルーティン回復率",
+      "name_en": "Routine Recovery Rate",
+      "category": "Observation Signal",
+      "attribute": "Habit Routine",
+      "definition_ja": "中断後に元の習慣やリズムへ戻った割合。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:習慣ルーティン",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "習慣ルーティン"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "ルーティン回復率",
+        "ルーティン回復率の増減",
+        "ルーティン回復率の平均との差",
+        "ルーティン回復率の時系列変化"
+      ],
+      "signal_candidates": [
+        "ルーティン回復率が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000089_weekly_pattern_stability.yml",
+      "id": "SIGNAL-000089",
+      "knowledge_type": "observation_signal",
+      "name_ja": "週次パターン安定性",
+      "name_en": "Weekly Pattern Stability",
+      "category": "Observation Signal",
+      "attribute": "Habit Routine",
+      "definition_ja": "曜日ごとの行動パターンがどの程度安定しているか。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:習慣ルーティン",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "習慣ルーティン"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "週次パターン安定性",
+        "週次パターン安定性の増減",
+        "週次パターン安定性の平均との差",
+        "週次パターン安定性の時系列変化"
+      ],
+      "signal_candidates": [
+        "週次パターン安定性が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000090_habit_context_dependency.yml",
+      "id": "SIGNAL-000090",
+      "knowledge_type": "observation_signal",
+      "name_ja": "習慣文脈依存性",
+      "name_en": "Habit Context Dependency",
+      "category": "Observation Signal",
+      "attribute": "Habit Routine",
+      "definition_ja": "場所・時間・状況が変わると習慣行動が変化する度合い。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:習慣ルーティン",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "習慣ルーティン"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "習慣文脈依存性",
+        "習慣文脈依存性の増減",
+        "習慣文脈依存性の平均との差",
+        "習慣文脈依存性の時系列変化"
+      ],
+      "signal_candidates": [
+        "習慣文脈依存性が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000091_sleep_log_duration.yml",
+      "id": "SIGNAL-000091",
+      "knowledge_type": "observation_signal",
+      "name_ja": "睡眠ログ時間",
+      "name_en": "Sleep Log Duration",
+      "category": "Observation Signal",
+      "attribute": "Physiology Proxy",
+      "definition_ja": "記録または推定された睡眠時間。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:生理推定",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "生理推定"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "睡眠ログ時間",
+        "睡眠ログ時間の増減",
+        "睡眠ログ時間の平均との差",
+        "睡眠ログ時間の時系列変化"
+      ],
+      "signal_candidates": [
+        "睡眠ログ時間が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000092_activity_level_proxy.yml",
+      "id": "SIGNAL-000092",
+      "knowledge_type": "observation_signal",
+      "name_ja": "活動量推定",
+      "name_en": "Activity Level Proxy",
+      "category": "Observation Signal",
+      "attribute": "Physiology Proxy",
+      "definition_ja": "歩数・移動・端末利用などから推定される活動量。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:生理推定",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "生理推定"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "活動量推定",
+        "活動量推定の増減",
+        "活動量推定の平均との差",
+        "活動量推定の時系列変化"
+      ],
+      "signal_candidates": [
+        "活動量推定が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000093_late_night_usage.yml",
+      "id": "SIGNAL-000093",
+      "knowledge_type": "observation_signal",
+      "name_ja": "深夜利用",
+      "name_en": "Late Night Usage",
+      "category": "Observation Signal",
+      "attribute": "Physiology Proxy",
+      "definition_ja": "深夜帯にアプリや端末を利用している状態。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:生理推定",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "生理推定"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "深夜利用",
+        "深夜利用の増減",
+        "深夜利用の平均との差",
+        "深夜利用の時系列変化"
+      ],
+      "signal_candidates": [
+        "深夜利用が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000094_morning_activation_signal.yml",
+      "id": "SIGNAL-000094",
+      "knowledge_type": "observation_signal",
+      "name_ja": "朝の活性化シグナル",
+      "name_en": "Morning Activation Signal",
+      "category": "Observation Signal",
+      "attribute": "Physiology Proxy",
+      "definition_ja": "起床後や朝時間帯の利用・反応・行動開始の兆候。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:生理推定",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "生理推定"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "朝の活性化シグナル",
+        "朝の活性化シグナルの増減",
+        "朝の活性化シグナルの平均との差",
+        "朝の活性化シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "朝の活性化シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000095_fatigue_proxy_signal.yml",
+      "id": "SIGNAL-000095",
+      "knowledge_type": "observation_signal",
+      "name_ja": "疲労推定シグナル",
+      "name_en": "Fatigue Proxy Signal",
+      "category": "Observation Signal",
+      "attribute": "Physiology Proxy",
+      "definition_ja": "反応遅延・エラー増加・利用低下などから推定される疲労兆候。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:生理推定",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "生理推定"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "疲労推定シグナル",
+        "疲労推定シグナルの増減",
+        "疲労推定シグナルの平均との差",
+        "疲労推定シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "疲労推定シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000096_stress_proxy_signal.yml",
+      "id": "SIGNAL-000096",
+      "knowledge_type": "observation_signal",
+      "name_ja": "ストレス推定シグナル",
+      "name_en": "Stress Proxy Signal",
+      "category": "Observation Signal",
+      "attribute": "Physiology Proxy",
+      "definition_ja": "操作乱れ・回避増加・感情表現変化などから推定されるストレス兆候。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:生理推定",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "生理推定"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "ストレス推定シグナル",
+        "ストレス推定シグナルの増減",
+        "ストレス推定シグナルの平均との差",
+        "ストレス推定シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "ストレス推定シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000097_recovery_proxy_signal.yml",
+      "id": "SIGNAL-000097",
+      "knowledge_type": "observation_signal",
+      "name_ja": "回復推定シグナル",
+      "name_en": "Recovery Proxy Signal",
+      "category": "Observation Signal",
+      "attribute": "Physiology Proxy",
+      "definition_ja": "反応速度・正答率・利用リズムが通常へ戻る兆候。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:生理推定",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "生理推定"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "回復推定シグナル",
+        "回復推定シグナルの増減",
+        "回復推定シグナルの平均との差",
+        "回復推定シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "回復推定シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000098_circadian_disruption_signal.yml",
+      "id": "SIGNAL-000098",
+      "knowledge_type": "observation_signal",
+      "name_ja": "概日乱れシグナル",
+      "name_en": "Circadian Disruption Signal",
+      "category": "Observation Signal",
+      "attribute": "Physiology Proxy",
+      "definition_ja": "利用時間帯や睡眠推定が通常リズムからずれる兆候。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:生理推定",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "生理推定"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "概日乱れシグナル",
+        "概日乱れシグナルの増減",
+        "概日乱れシグナルの平均との差",
+        "概日乱れシグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "概日乱れシグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000099_overload_proxy_signal.yml",
+      "id": "SIGNAL-000099",
+      "knowledge_type": "observation_signal",
+      "name_ja": "過負荷推定シグナル",
+      "name_en": "Overload Proxy Signal",
+      "category": "Observation Signal",
+      "attribute": "Physiology Proxy",
+      "definition_ja": "エラー・離脱・反応遅延・中断が同時に増える兆候。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:生理推定",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "生理推定"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "過負荷推定シグナル",
+        "過負荷推定シグナルの増減",
+        "過負荷推定シグナルの平均との差",
+        "過負荷推定シグナルの時系列変化"
+      ],
+      "signal_candidates": [
+        "過負荷推定シグナルが通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    },
+    {
+      "filename": "SIGNAL-000100_state_baseline_deviation.yml",
+      "id": "SIGNAL-000100",
+      "knowledge_type": "observation_signal",
+      "name_ja": "状態ベースライン乖離",
+      "name_en": "State Baseline Deviation",
+      "category": "Observation Signal",
+      "attribute": "Physiology Proxy",
+      "definition_ja": "本人の通常状態から行動・反応・利用傾向がどの程度ずれているか。",
+      "tags": [
+        "CAT:観測シグナル",
+        "CAT:生理推定",
+        "ATTR:観測可能データ"
+      ],
+      "parent": [
+        "生理推定"
+      ],
+      "related": [
+        "行動観測",
+        "推論材料",
+        "補正要因"
+      ],
+      "observable_data": [
+        "状態ベースライン乖離",
+        "状態ベースライン乖離の増減",
+        "状態ベースライン乖離の平均との差",
+        "状態ベースライン乖離の時系列変化"
+      ],
+      "signal_candidates": [
+        "状態ベースライン乖離が通常傾向から変化している",
+        "時系列で変化した場合に状態変化の材料になる"
+      ],
+      "device_level": "スマホ・PCで観測可能",
+      "modifiers": [
+        "端末差",
+        "利用文脈",
+        "生活状況",
+        "データ欠損"
+      ],
+      "evidence": "HCI・行動ログ分析・心理測定・学習分析で使用",
+      "status": "active"
+    }
+  ]
+}

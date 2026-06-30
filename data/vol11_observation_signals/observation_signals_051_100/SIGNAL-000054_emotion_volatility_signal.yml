@@ -1,0 +1,33 @@
+id: SIGNAL-000054
+knowledge_type: observation_signal
+name_ja: 感情変動シグナル
+name_en: Emotion Volatility Signal
+category: Observation Signal
+attribute: Emotion
+definition_ja: 短期間で感情表現や反応傾向が大きく変化する兆候。
+tags:
+  - CAT:観測シグナル
+  - CAT:感情
+  - ATTR:観測可能データ
+parent:
+  - 感情
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 感情変動シグナル
+  - 感情変動シグナルの増減
+  - 感情変動シグナルの平均との差
+  - 感情変動シグナルの時系列変化
+signal_candidates:
+  - 感情変動シグナルが通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

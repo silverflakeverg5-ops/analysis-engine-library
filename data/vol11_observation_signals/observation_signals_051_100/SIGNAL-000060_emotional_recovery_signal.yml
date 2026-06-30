@@ -1,0 +1,33 @@
+id: SIGNAL-000060
+knowledge_type: observation_signal
+name_ja: 感情回復シグナル
+name_en: Emotional Recovery Signal
+category: Observation Signal
+attribute: Emotion
+definition_ja: 否定的感情表現の後に通常または肯定的状態へ戻る兆候。
+tags:
+  - CAT:観測シグナル
+  - CAT:感情
+  - ATTR:観測可能データ
+parent:
+  - 感情
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 感情回復シグナル
+  - 感情回復シグナルの増減
+  - 感情回復シグナルの平均との差
+  - 感情回復シグナルの時系列変化
+signal_candidates:
+  - 感情回復シグナルが通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

@@ -1,0 +1,33 @@
+id: SIGNAL-000064
+knowledge_type: observation_signal
+name_ja: 無操作時間
+name_en: Idle Time
+category: Observation Signal
+attribute: Attention
+definition_ja: 表示中にもかかわらず操作が止まっている時間。
+tags:
+  - CAT:観測シグナル
+  - CAT:注意
+  - ATTR:観測可能データ
+parent:
+  - 注意
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 無操作時間
+  - 無操作時間の増減
+  - 無操作時間の平均との差
+  - 無操作時間の時系列変化
+signal_candidates:
+  - 無操作時間が通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

@@ -1,0 +1,33 @@
+id: SIGNAL-000074
+knowledge_type: observation_signal
+name_ja: リスク選択率
+name_en: Risk Option Rate
+category: Observation Signal
+attribute: Decision
+definition_ja: 不確実性や損失可能性を含む選択肢を選んだ割合。
+tags:
+  - CAT:観測シグナル
+  - CAT:意思決定
+  - ATTR:観測可能データ
+parent:
+  - 意思決定
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - リスク選択率
+  - リスク選択率の増減
+  - リスク選択率の平均との差
+  - リスク選択率の時系列変化
+signal_candidates:
+  - リスク選択率が通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

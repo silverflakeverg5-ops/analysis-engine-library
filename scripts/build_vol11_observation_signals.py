@@ -1,87 +1,87 @@
 import json
 from pathlib import Path
 
-OUT = Path("data/master_packs/vol11_observation_signals_001_050.json")
+OUT = Path("data/master_packs/vol11_observation_signals_051_100.json")
 
 SECTIONS = [
     {
-        "category": "Observation Signals - App Usage",
-        "name_ja": "観測シグナル・アプリ利用",
+        "category": "Observation Signals - Emotion",
+        "name_ja": "観測シグナル・感情",
         "items": [
-            ("SIGNAL-000001", "session_frequency", "セッション頻度", "Session Frequency", "一定期間内にアプリやサービスを利用した回数。"),
-            ("SIGNAL-000002", "session_duration", "セッション時間", "Session Duration", "一回の利用開始から終了までの継続時間。"),
-            ("SIGNAL-000003", "return_interval", "再訪間隔", "Return Interval", "前回利用から次回利用までの時間間隔。"),
-            ("SIGNAL-000004", "active_days", "利用日数", "Active Days", "一定期間内に利用が確認された日数。"),
-            ("SIGNAL-000005", "usage_time_of_day", "利用時間帯", "Usage Time of Day", "利用が発生しやすい時刻や時間帯。"),
-            ("SIGNAL-000006", "dropoff_point", "離脱地点", "Dropoff Point", "利用や課題の途中で離脱しやすい画面・手順・段階。"),
-            ("SIGNAL-000007", "reengagement_signal", "再関与シグナル", "Reengagement Signal", "離脱後に再び利用や行動を開始する兆候。"),
-            ("SIGNAL-000008", "feature_usage_rate", "機能利用率", "Feature Usage Rate", "特定機能が利用された割合や頻度。"),
-            ("SIGNAL-000009", "settings_change_count", "設定変更回数", "Settings Change Count", "表示・通知・プロフィールなど設定を変更した回数。"),
-            ("SIGNAL-000010", "notification_response_time", "通知反応時間", "Notification Response Time", "通知表示から開封・行動開始までの時間。")
+            ("SIGNAL-000051", "emotion_word_rate", "感情語使用率", "Emotion Word Rate", "発話や入力文に含まれる感情語の割合。"),
+            ("SIGNAL-000052", "positive_expression_rate", "肯定表現率", "Positive Expression Rate", "肯定的・前向きな表現が使われる割合。"),
+            ("SIGNAL-000053", "negative_expression_rate", "否定表現率", "Negative Expression Rate", "否定的・不満・不安を示す表現が使われる割合。"),
+            ("SIGNAL-000054", "emotion_volatility_signal", "感情変動シグナル", "Emotion Volatility Signal", "短期間で感情表現や反応傾向が大きく変化する兆候。"),
+            ("SIGNAL-000055", "frustration_expression_count", "苛立ち表現回数", "Frustration Expression Count", "苛立ち・怒り・不満を示す表現や反応の回数。"),
+            ("SIGNAL-000056", "anxiety_expression_count", "不安表現回数", "Anxiety Expression Count", "心配・不安・迷いを示す表現の回数。"),
+            ("SIGNAL-000057", "confidence_expression_rate", "自信表現率", "Confidence Expression Rate", "確信・自信・断定を示す表現の割合。"),
+            ("SIGNAL-000058", "uncertainty_expression_rate", "不確実表現率", "Uncertainty Expression Rate", "迷い・保留・曖昧さを示す表現の割合。"),
+            ("SIGNAL-000059", "sentiment_shift", "感情極性変化", "Sentiment Shift", "発話や反応の感情極性が時間とともに変化すること。"),
+            ("SIGNAL-000060", "emotional_recovery_signal", "感情回復シグナル", "Emotional Recovery Signal", "否定的感情表現の後に通常または肯定的状態へ戻る兆候。")
         ]
     },
     {
-        "category": "Observation Signals - Interaction",
-        "name_ja": "観測シグナル・操作",
+        "category": "Observation Signals - Attention",
+        "name_ja": "観測シグナル・注意",
         "items": [
-            ("SIGNAL-000011", "tap_interval", "タップ間隔", "Tap Interval", "タップやクリックの間に生じる時間間隔。"),
-            ("SIGNAL-000012", "input_speed", "入力速度", "Input Speed", "文字入力や選択操作の速さ。"),
-            ("SIGNAL-000013", "reaction_time", "反応時間", "Reaction Time", "刺激や設問提示から反応までにかかる時間。"),
-            ("SIGNAL-000014", "decision_latency", "選択潜時", "Decision Latency", "選択肢提示から意思決定までにかかる時間。"),
-            ("SIGNAL-000015", "correction_count", "修正回数", "Correction Count", "入力・選択・回答を修正した回数。"),
-            ("SIGNAL-000016", "undo_count", "取り消し回数", "Undo Count", "操作の取り消しや戻る操作を行った回数。"),
-            ("SIGNAL-000017", "backtracking_rate", "戻り操作率", "Backtracking Rate", "前画面や前段階へ戻る操作の割合。"),
-            ("SIGNAL-000018", "hover_or_pause_time", "迷い停止時間", "Hover or Pause Time", "操作前に停止・待機・迷いが見られる時間。"),
-            ("SIGNAL-000019", "error_rate", "エラー率", "Error Rate", "誤操作・誤答・失敗が発生した割合。"),
-            ("SIGNAL-000020", "retry_count", "再試行回数", "Retry Count", "失敗後に再挑戦した回数。")
+            ("SIGNAL-000061", "focus_duration", "集中持続時間", "Focus Duration", "中断なしで一つの課題や画面に集中している時間。"),
+            ("SIGNAL-000062", "distraction_count", "注意逸脱回数", "Distraction Count", "別画面・別機能・通知などへ注意が逸れた回数。"),
+            ("SIGNAL-000063", "task_switch_count", "タスク切替回数", "Task Switch Count", "短時間内に課題や画面を切り替えた回数。"),
+            ("SIGNAL-000064", "idle_time", "無操作時間", "Idle Time", "表示中にもかかわらず操作が止まっている時間。"),
+            ("SIGNAL-000065", "scroll_depth", "スクロール深度", "Scroll Depth", "ページやコンテンツをどこまで閲覧したかを示す指標。"),
+            ("SIGNAL-000066", "content_skip_rate", "コンテンツスキップ率", "Content Skip Rate", "提示された情報や説明を飛ばした割合。"),
+            ("SIGNAL-000067", "reread_count", "再読回数", "Reread Count", "同じ説明・設問・情報を再度確認した回数。"),
+            ("SIGNAL-000068", "attention_recovery_time", "注意回復時間", "Attention Recovery Time", "中断後に元の課題へ戻るまでの時間。"),
+            ("SIGNAL-000069", "notification_interruption_rate", "通知中断率", "Notification Interruption Rate", "通知によって作業や閲覧が中断された割合。"),
+            ("SIGNAL-000070", "focus_variability", "集中変動性", "Focus Variability", "集中時間や操作ペースがどの程度変動するか。")
         ]
     },
     {
-        "category": "Observation Signals - Learning",
-        "name_ja": "観測シグナル・学習",
+        "category": "Observation Signals - Decision",
+        "name_ja": "観測シグナル・意思決定",
         "items": [
-            ("SIGNAL-000021", "correct_answer_rate", "正答率", "Correct Answer Rate", "課題や設問に対する正答の割合。"),
-            ("SIGNAL-000022", "improvement_rate", "改善率", "Improvement Rate", "時間経過や練習に伴う成績向上の割合。"),
-            ("SIGNAL-000023", "hint_usage_count", "ヒント使用回数", "Hint Usage Count", "課題中にヒントや支援情報を利用した回数。"),
-            ("SIGNAL-000024", "explanation_view_count", "説明閲覧回数", "Explanation View Count", "説明・解説・ヘルプを閲覧した回数。"),
-            ("SIGNAL-000025", "review_behavior_count", "復習行動回数", "Review Behavior Count", "過去内容や間違いを見直した回数。"),
-            ("SIGNAL-000026", "practice_repetition", "練習反復数", "Practice Repetition", "同じ課題や類似課題を繰り返した回数。"),
-            ("SIGNAL-000027", "learning_streak", "学習連続記録", "Learning Streak", "連続して学習行動が発生した日数や回数。"),
-            ("SIGNAL-000028", "time_on_task", "課題滞在時間", "Time on Task", "特定課題に取り組んだ時間。"),
-            ("SIGNAL-000029", "post_feedback_change", "フィードバック後変化", "Post Feedback Change", "フィードバック後に行動・成績・選択が変化した度合い。"),
-            ("SIGNAL-000030", "transfer_success_rate", "転移成功率", "Transfer Success Rate", "学習済み内容を別課題へ応用できた割合。")
+            ("SIGNAL-000071", "choice_change_count", "選択変更回数", "Choice Change Count", "一度選んだ選択肢を変更した回数。"),
+            ("SIGNAL-000072", "option_comparison_count", "選択肢比較回数", "Option Comparison Count", "複数選択肢を比較・往復確認した回数。"),
+            ("SIGNAL-000073", "default_choice_rate", "デフォルト選択率", "Default Choice Rate", "初期設定や既定選択肢をそのまま選んだ割合。"),
+            ("SIGNAL-000074", "risk_option_rate", "リスク選択率", "Risk Option Rate", "不確実性や損失可能性を含む選択肢を選んだ割合。"),
+            ("SIGNAL-000075", "safe_option_rate", "安全選択率", "Safe Option Rate", "損失や失敗を避けやすい安全な選択肢を選んだ割合。"),
+            ("SIGNAL-000076", "delay_choice_rate", "遅延報酬選択率", "Delayed Reward Choice Rate", "即時報酬より将来報酬を選んだ割合。"),
+            ("SIGNAL-000077", "immediate_choice_rate", "即時報酬選択率", "Immediate Reward Choice Rate", "将来報酬より即時報酬を選んだ割合。"),
+            ("SIGNAL-000078", "decision_reversal_rate", "判断撤回率", "Decision Reversal Rate", "決定後に判断を撤回・変更した割合。"),
+            ("SIGNAL-000079", "choice_conflict_signal", "選択葛藤シグナル", "Choice Conflict Signal", "比較・迷い・保留が増えることで現れる意思決定葛藤の兆候。"),
+            ("SIGNAL-000080", "decision_consistency", "選択一貫性", "Decision Consistency", "同条件または類似条件で選択傾向がどの程度一貫しているか。")
         ]
     },
     {
-        "category": "Observation Signals - Social",
-        "name_ja": "観測シグナル・社会行動",
+        "category": "Observation Signals - Habit Routine",
+        "name_ja": "観測シグナル・習慣ルーティン",
         "items": [
-            ("SIGNAL-000031", "message_frequency", "メッセージ頻度", "Message Frequency", "一定期間内に送信されたメッセージや発話の回数。"),
-            ("SIGNAL-000032", "response_delay", "返信遅延", "Response Delay", "相手の発信から返信までにかかる時間。"),
-            ("SIGNAL-000033", "help_request_count", "援助要請回数", "Help Request Count", "質問・相談・支援依頼が行われた回数。"),
-            ("SIGNAL-000034", "help_offer_count", "援助提供回数", "Help Offer Count", "他者への助言・支援・補助が行われた回数。"),
-            ("SIGNAL-000035", "reaction_count", "リアクション回数", "Reaction Count", "いいね・スタンプ・評価など簡易反応を行った回数。"),
-            ("SIGNAL-000036", "turn_taking_balance", "会話交替バランス", "Turn Taking Balance", "会話や共同作業における発話・反応の分布バランス。"),
-            ("SIGNAL-000037", "group_participation_rate", "集団参加率", "Group Participation Rate", "共同活動やグループ内行動へ参加した割合。"),
-            ("SIGNAL-000038", "conflict_expression_count", "葛藤表出回数", "Conflict Expression Count", "反対意見・拒否・不満表明が観測された回数。"),
-            ("SIGNAL-000039", "agreement_rate", "同意率", "Agreement Rate", "他者意見や提案に同意した割合。"),
-            ("SIGNAL-000040", "social_withdrawal_signal", "社会的撤退シグナル", "Social Withdrawal Signal", "対人反応や参加頻度の低下として現れる撤退傾向。")
+            ("SIGNAL-000081", "routine_consistency", "ルーティン一貫性", "Routine Consistency", "同じ時間・順序・文脈で行動が繰り返される度合い。"),
+            ("SIGNAL-000082", "habit_streak", "習慣連続記録", "Habit Streak", "特定行動が連続して実行された日数や回数。"),
+            ("SIGNAL-000083", "habit_break_count", "習慣中断回数", "Habit Break Count", "継続していた習慣行動が途切れた回数。"),
+            ("SIGNAL-000084", "routine_start_time", "ルーティン開始時刻", "Routine Start Time", "特定行動が開始される時刻の傾向。"),
+            ("SIGNAL-000085", "routine_completion_rate", "ルーティン完了率", "Routine Completion Rate", "予定された習慣や一連の行動が完了した割合。"),
+            ("SIGNAL-000086", "automatic_action_rate", "自動化行動率", "Automatic Action Rate", "迷いや確認が少なく実行される行動の割合。"),
+            ("SIGNAL-000087", "cue_response_rate", "手がかり反応率", "Cue Response Rate", "通知・時刻・場所などの手がかりに対して行動が起きた割合。"),
+            ("SIGNAL-000088", "routine_recovery_rate", "ルーティン回復率", "Routine Recovery Rate", "中断後に元の習慣やリズムへ戻った割合。"),
+            ("SIGNAL-000089", "weekly_pattern_stability", "週次パターン安定性", "Weekly Pattern Stability", "曜日ごとの行動パターンがどの程度安定しているか。"),
+            ("SIGNAL-000090", "habit_context_dependency", "習慣文脈依存性", "Habit Context Dependency", "場所・時間・状況が変わると習慣行動が変化する度合い。")
         ]
     },
     {
-        "category": "Observation Signals - State Change",
-        "name_ja": "観測シグナル・状態変化",
+        "category": "Observation Signals - Physiology Proxy",
+        "name_ja": "観測シグナル・生理推定",
         "items": [
-            ("SIGNAL-000041", "performance_drop", "成績低下", "Performance Drop", "通常水準と比べて成績や正確性が低下した状態。"),
-            ("SIGNAL-000042", "response_slowdown", "反応遅延化", "Response Slowdown", "通常より反応や操作が遅くなる変化。"),
-            ("SIGNAL-000043", "error_spike", "エラー急増", "Error Spike", "短期間に誤答・誤操作・失敗が増加する変化。"),
-            ("SIGNAL-000044", "engagement_drop", "関与低下", "Engagement Drop", "利用・参加・継続行動が低下する変化。"),
-            ("SIGNAL-000045", "avoidance_increase", "回避増加", "Avoidance Increase", "課題・選択・対人行動を避ける行動が増える変化。"),
-            ("SIGNAL-000046", "risk_taking_change", "リスク選択変化", "Risk Taking Change", "安全策またはリスク選択への偏りが変化すること。"),
-            ("SIGNAL-000047", "exploration_change", "探索行動変化", "Exploration Change", "新機能・新情報・未知選択肢を試す頻度の変化。"),
-            ("SIGNAL-000048", "persistence_change", "継続行動変化", "Persistence Change", "失敗後や困難時の継続・再挑戦行動の変化。"),
-            ("SIGNAL-000049", "routine_disruption", "ルーティン乱れ", "Routine Disruption", "通常の利用時間・生活リズム・行動順序が乱れる変化。"),
-            ("SIGNAL-000050", "recovery_signal", "回復シグナル", "Recovery Signal", "低下・中断・負荷後に通常状態へ戻る兆候。")
+            ("SIGNAL-000091", "sleep_log_duration", "睡眠ログ時間", "Sleep Log Duration", "記録または推定された睡眠時間。"),
+            ("SIGNAL-000092", "activity_level_proxy", "活動量推定", "Activity Level Proxy", "歩数・移動・端末利用などから推定される活動量。"),
+            ("SIGNAL-000093", "late_night_usage", "深夜利用", "Late Night Usage", "深夜帯にアプリや端末を利用している状態。"),
+            ("SIGNAL-000094", "morning_activation_signal", "朝の活性化シグナル", "Morning Activation Signal", "起床後や朝時間帯の利用・反応・行動開始の兆候。"),
+            ("SIGNAL-000095", "fatigue_proxy_signal", "疲労推定シグナル", "Fatigue Proxy Signal", "反応遅延・エラー増加・利用低下などから推定される疲労兆候。"),
+            ("SIGNAL-000096", "stress_proxy_signal", "ストレス推定シグナル", "Stress Proxy Signal", "操作乱れ・回避増加・感情表現変化などから推定されるストレス兆候。"),
+            ("SIGNAL-000097", "recovery_proxy_signal", "回復推定シグナル", "Recovery Proxy Signal", "反応速度・正答率・利用リズムが通常へ戻る兆候。"),
+            ("SIGNAL-000098", "circadian_disruption_signal", "概日乱れシグナル", "Circadian Disruption Signal", "利用時間帯や睡眠推定が通常リズムからずれる兆候。"),
+            ("SIGNAL-000099", "overload_proxy_signal", "過負荷推定シグナル", "Overload Proxy Signal", "エラー・離脱・反応遅延・中断が同時に増える兆候。"),
+            ("SIGNAL-000100", "state_baseline_deviation", "状態ベースライン乖離", "State Baseline Deviation", "本人の通常状態から行動・反応・利用傾向がどの程度ずれているか。")
         ]
     }
 ]
@@ -136,8 +136,8 @@ def main():
     ])
 
     pack = {
-        "output_dir": "vol11_observation_signals/observation_signals_001_050",
-        "index_filename": "observation_signals_001_050_index.yml",
+        "output_dir": "vol11_observation_signals/observation_signals_051_100",
+        "index_filename": "observation_signals_051_100_index.yml",
         "index_content": "\n".join(index_lines) + "\n",
         "items": all_items
     }

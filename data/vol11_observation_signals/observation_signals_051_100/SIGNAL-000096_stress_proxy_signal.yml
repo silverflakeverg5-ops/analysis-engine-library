@@ -1,0 +1,33 @@
+id: SIGNAL-000096
+knowledge_type: observation_signal
+name_ja: ストレス推定シグナル
+name_en: Stress Proxy Signal
+category: Observation Signal
+attribute: Physiology Proxy
+definition_ja: 操作乱れ・回避増加・感情表現変化などから推定されるストレス兆候。
+tags:
+  - CAT:観測シグナル
+  - CAT:生理推定
+  - ATTR:観測可能データ
+parent:
+  - 生理推定
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - ストレス推定シグナル
+  - ストレス推定シグナルの増減
+  - ストレス推定シグナルの平均との差
+  - ストレス推定シグナルの時系列変化
+signal_candidates:
+  - ストレス推定シグナルが通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

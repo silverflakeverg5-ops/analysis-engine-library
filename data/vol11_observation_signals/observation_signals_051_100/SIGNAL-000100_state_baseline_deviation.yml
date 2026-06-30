@@ -1,0 +1,33 @@
+id: SIGNAL-000100
+knowledge_type: observation_signal
+name_ja: 状態ベースライン乖離
+name_en: State Baseline Deviation
+category: Observation Signal
+attribute: Physiology Proxy
+definition_ja: 本人の通常状態から行動・反応・利用傾向がどの程度ずれているか。
+tags:
+  - CAT:観測シグナル
+  - CAT:生理推定
+  - ATTR:観測可能データ
+parent:
+  - 生理推定
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 状態ベースライン乖離
+  - 状態ベースライン乖離の増減
+  - 状態ベースライン乖離の平均との差
+  - 状態ベースライン乖離の時系列変化
+signal_candidates:
+  - 状態ベースライン乖離が通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

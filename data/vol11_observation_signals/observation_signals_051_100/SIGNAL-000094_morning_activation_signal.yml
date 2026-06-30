@@ -1,0 +1,33 @@
+id: SIGNAL-000094
+knowledge_type: observation_signal
+name_ja: 朝の活性化シグナル
+name_en: Morning Activation Signal
+category: Observation Signal
+attribute: Physiology Proxy
+definition_ja: 起床後や朝時間帯の利用・反応・行動開始の兆候。
+tags:
+  - CAT:観測シグナル
+  - CAT:生理推定
+  - ATTR:観測可能データ
+parent:
+  - 生理推定
+related:
+  - 行動観測
+  - 推論材料
+  - 補正要因
+observable_data:
+  - 朝の活性化シグナル
+  - 朝の活性化シグナルの増減
+  - 朝の活性化シグナルの平均との差
+  - 朝の活性化シグナルの時系列変化
+signal_candidates:
+  - 朝の活性化シグナルが通常傾向から変化している
+  - 時系列で変化した場合に状態変化の材料になる
+device_level: スマホ・PCで観測可能
+modifiers:
+  - 端末差
+  - 利用文脈
+  - 生活状況
+  - データ欠損
+evidence: HCI・行動ログ分析・心理測定・学習分析で使用
+status: active

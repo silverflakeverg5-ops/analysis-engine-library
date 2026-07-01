@@ -1,0 +1,33 @@
+id: TEST-000086
+knowledge_type: test_case
+name_ja: 生成YAML配置テスト
+name_en: Generated YAML Location Test
+category: Test Case
+attribute: Operations
+definition_ja: 生成YAMLが対応Vol配下に保存されているか確認するテスト。
+tags:
+  - CAT:テストケース
+  - CAT:運用
+  - ATTR:品質確認
+parent:
+  - 運用
+related:
+  - 監査
+  - API契約
+  - 安全設計
+observable_data:
+  - 生成YAML配置テスト入力条件
+  - 生成YAML配置テスト期待結果
+  - 生成YAML配置テスト失敗条件
+  - 生成YAML配置テスト確認対象
+signal_candidates:
+  - 生成YAML配置テストを品質確認テストとして利用できる
+  - Knowledge Libraryの監査・API・安全性を確認する材料になる
+device_level: DB管理用
+modifiers:
+  - 品質
+  - 安全性
+  - 互換性
+  - 監査範囲
+evidence: ソフトウェアテスト・QA・データ監査・安全設計で使用
+status: active

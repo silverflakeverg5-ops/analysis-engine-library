@@ -1,0 +1,57 @@
+category: Test Case
+name_ja: テストケース
+items:
+  - TEST-000051_signal_mapping_test.yml
+  - TEST-000052_modifier_mapping_test.yml
+  - TEST-000053_display_mapping_test.yml
+  - TEST-000054_app_mapping_test.yml
+  - TEST-000055_evidence_mapping_test.yml
+  - TEST-000056_safety_mapping_test.yml
+  - TEST-000057_concept_linking_test.yml
+  - TEST-000058_mapping_conflict_test.yml
+  - TEST-000059_mapping_priority_test.yml
+  - TEST-000060_mapping_integration_test.yml
+  - TEST-000061_tendency_expression_test.yml
+  - TEST-000062_possibility_expression_test.yml
+  - TEST-000063_confidence_display_test.yml
+  - TEST-000064_context_display_test.yml
+  - TEST-000065_explanation_display_test.yml
+  - TEST-000066_alternative_explanation_test.yml
+  - TEST-000067_action_suggestion_test.yml
+  - TEST-000068_notification_display_test.yml
+  - TEST-000069_data_transparency_display_test.yml
+  - TEST-000070_display_integration_test.yml
+  - TEST-000071_diagnosis_app_integration_test.yml
+  - TEST-000072_game_app_integration_test.yml
+  - TEST-000073_assistant_app_integration_test.yml
+  - TEST-000074_education_app_integration_test.yml
+  - TEST-000075_work_support_integration_test.yml
+  - TEST-000076_wellbeing_integration_test.yml
+  - TEST-000077_relationship_app_integration_test.yml
+  - TEST-000078_personalization_integration_test.yml
+  - TEST-000079_multi_app_reuse_test.yml
+  - TEST-000080_app_integration_boundary_test.yml
+  - TEST-000081_git_status_clean_test.yml
+  - TEST-000082_commit_message_test.yml
+  - TEST-000083_push_completion_test.yml
+  - TEST-000084_builder_script_location_test.yml
+  - TEST-000085_master_pack_location_test.yml
+  - TEST-000086_generated_yaml_location_test.yml
+  - TEST-000087_command_sequence_test.yml
+  - TEST-000088_accidental_file_test.yml
+  - TEST-000089_repository_sync_test.yml
+  - TEST-000090_operations_integration_test.yml
+  - TEST-000091_end_to_end_generation_test.yml
+  - TEST-000092_end_to_end_api_test.yml
+  - TEST-000093_end_to_end_display_test.yml
+  - TEST-000094_end_to_end_safety_test.yml
+  - TEST-000095_cross_volume_consistency_test.yml
+  - TEST-000096_large_scale_library_test.yml
+  - TEST-000097_backward_compatibility_integration_test.yml
+  - TEST-000098_quality_gate_integration_test.yml
+  - TEST-000099_release_readiness_test.yml
+  - TEST-000100_test_case_integration.yml
+notes:
+  - テストケースはDB品質確認とアプリ接続検証の材料として扱う
+  - Knowledge DB側では推論しない
+  - 監査・API・安全性・表示の検証に利用する

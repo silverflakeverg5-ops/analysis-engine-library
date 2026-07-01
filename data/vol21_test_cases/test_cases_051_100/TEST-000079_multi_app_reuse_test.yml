@@ -1,0 +1,33 @@
+id: TEST-000079
+knowledge_type: test_case
+name_ja: 複数アプリ再利用テスト
+name_en: Multi App Reuse Test
+category: Test Case
+attribute: App Integration
+definition_ja: 同じ知識項目を複数アプリで一貫して参照できるか確認するテスト。
+tags:
+  - CAT:テストケース
+  - CAT:アプリ連携
+  - ATTR:品質確認
+parent:
+  - アプリ連携
+related:
+  - 監査
+  - API契約
+  - 安全設計
+observable_data:
+  - 複数アプリ再利用テスト入力条件
+  - 複数アプリ再利用テスト期待結果
+  - 複数アプリ再利用テスト失敗条件
+  - 複数アプリ再利用テスト確認対象
+signal_candidates:
+  - 複数アプリ再利用テストを品質確認テストとして利用できる
+  - Knowledge Libraryの監査・API・安全性を確認する材料になる
+device_level: DB管理用
+modifiers:
+  - 品質
+  - 安全性
+  - 互換性
+  - 監査範囲
+evidence: ソフトウェアテスト・QA・データ監査・安全設計で使用
+status: active

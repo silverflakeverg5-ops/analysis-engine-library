@@ -1,0 +1,33 @@
+id: TEST-000064
+knowledge_type: test_case
+name_ja: 文脈表示テスト
+name_en: Context Display Test
+category: Test Case
+attribute: Display
+definition_ja: 時間・場所・状態などの文脈が結果と一緒に表示されるか確認するテスト。
+tags:
+  - CAT:テストケース
+  - CAT:表示
+  - ATTR:品質確認
+parent:
+  - 表示
+related:
+  - 監査
+  - API契約
+  - 安全設計
+observable_data:
+  - 文脈表示テスト入力条件
+  - 文脈表示テスト期待結果
+  - 文脈表示テスト失敗条件
+  - 文脈表示テスト確認対象
+signal_candidates:
+  - 文脈表示テストを品質確認テストとして利用できる
+  - Knowledge Libraryの監査・API・安全性を確認する材料になる
+device_level: DB管理用
+modifiers:
+  - 品質
+  - 安全性
+  - 互換性
+  - 監査範囲
+evidence: ソフトウェアテスト・QA・データ監査・安全設計で使用
+status: active

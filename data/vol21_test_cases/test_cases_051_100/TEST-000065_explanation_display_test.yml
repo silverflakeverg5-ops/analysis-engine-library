@@ -1,0 +1,33 @@
+id: TEST-000065
+knowledge_type: test_case
+name_ja: 説明表示テスト
+name_en: Explanation Display Test
+category: Test Case
+attribute: Display
+definition_ja: 使用シグナル・補正・根拠が説明されるか確認するテスト。
+tags:
+  - CAT:テストケース
+  - CAT:表示
+  - ATTR:品質確認
+parent:
+  - 表示
+related:
+  - 監査
+  - API契約
+  - 安全設計
+observable_data:
+  - 説明表示テスト入力条件
+  - 説明表示テスト期待結果
+  - 説明表示テスト失敗条件
+  - 説明表示テスト確認対象
+signal_candidates:
+  - 説明表示テストを品質確認テストとして利用できる
+  - Knowledge Libraryの監査・API・安全性を確認する材料になる
+device_level: DB管理用
+modifiers:
+  - 品質
+  - 安全性
+  - 互換性
+  - 監査範囲
+evidence: ソフトウェアテスト・QA・データ監査・安全設計で使用
+status: active

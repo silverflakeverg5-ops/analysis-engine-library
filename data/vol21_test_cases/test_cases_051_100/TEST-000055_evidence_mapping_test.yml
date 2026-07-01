@@ -1,0 +1,33 @@
+id: TEST-000055
+knowledge_type: test_case
+name_ja: 根拠対応テスト
+name_en: Evidence Mapping Test
+category: Test Case
+attribute: Mapping
+definition_ja: 知識項目が適切な根拠種別へ対応づけられるか確認するテスト。
+tags:
+  - CAT:テストケース
+  - CAT:対応ルール
+  - ATTR:品質確認
+parent:
+  - 対応ルール
+related:
+  - 監査
+  - API契約
+  - 安全設計
+observable_data:
+  - 根拠対応テスト入力条件
+  - 根拠対応テスト期待結果
+  - 根拠対応テスト失敗条件
+  - 根拠対応テスト確認対象
+signal_candidates:
+  - 根拠対応テストを品質確認テストとして利用できる
+  - Knowledge Libraryの監査・API・安全性を確認する材料になる
+device_level: DB管理用
+modifiers:
+  - 品質
+  - 安全性
+  - 互換性
+  - 監査範囲
+evidence: ソフトウェアテスト・QA・データ監査・安全設計で使用
+status: active

@@ -1,0 +1,33 @@
+id: SAFE-000020
+knowledge_type: safety_ethics
+name_ja: プライバシーリスク確認
+name_en: Privacy Risk Review
+category: Safety Ethics
+attribute: Privacy
+definition_ja: データ利用や推論表示がプライバシーリスクを持たないか確認する過程。
+tags:
+  - CAT:安全倫理
+  - CAT:プライバシー
+  - ATTR:安全設計
+parent:
+  - プライバシー
+related:
+  - 補正要因
+  - 表示設計
+  - アプリ用途
+observable_data:
+  - プライバシーリスク確認適用条件
+  - プライバシーリスク確認リスク兆候
+  - プライバシーリスク確認制御対象
+  - プライバシーリスク確認監査項目
+signal_candidates:
+  - プライバシーリスク確認が必要な文脈が観測される
+  - アプリ側で推論・表示・提案を安全に制御する材料になる
+device_level: DB管理用
+modifiers:
+  - 安全性
+  - プライバシー
+  - 公平性
+  - 高リスク性
+evidence: AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用
+status: active

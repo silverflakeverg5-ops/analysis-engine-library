@@ -1,0 +1,33 @@
+id: SAFE-000015
+knowledge_type: safety_ethics
+name_ja: プライバシー・バイ・デザイン
+name_en: Privacy by Design
+category: Safety Ethics
+attribute: Privacy
+definition_ja: 設計段階からプライバシー保護を組み込む考え方。
+tags:
+  - CAT:安全倫理
+  - CAT:プライバシー
+  - ATTR:安全設計
+parent:
+  - プライバシー
+related:
+  - 補正要因
+  - 表示設計
+  - アプリ用途
+observable_data:
+  - プライバシー・バイ・デザイン適用条件
+  - プライバシー・バイ・デザインリスク兆候
+  - プライバシー・バイ・デザイン制御対象
+  - プライバシー・バイ・デザイン監査項目
+signal_candidates:
+  - プライバシー・バイ・デザインが必要な文脈が観測される
+  - アプリ側で推論・表示・提案を安全に制御する材料になる
+device_level: DB管理用
+modifiers:
+  - 安全性
+  - プライバシー
+  - 公平性
+  - 高リスク性
+evidence: AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用
+status: active

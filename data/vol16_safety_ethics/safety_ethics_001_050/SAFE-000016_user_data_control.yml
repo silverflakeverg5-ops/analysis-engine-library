@@ -1,0 +1,33 @@
+id: SAFE-000016
+knowledge_type: safety_ethics
+name_ja: ユーザーデータ制御
+name_en: User Data Control
+category: Safety Ethics
+attribute: Privacy
+definition_ja: ユーザーがデータ確認・修正・削除・停止を行える設計。
+tags:
+  - CAT:安全倫理
+  - CAT:プライバシー
+  - ATTR:安全設計
+parent:
+  - プライバシー
+related:
+  - 補正要因
+  - 表示設計
+  - アプリ用途
+observable_data:
+  - ユーザーデータ制御適用条件
+  - ユーザーデータ制御リスク兆候
+  - ユーザーデータ制御制御対象
+  - ユーザーデータ制御監査項目
+signal_candidates:
+  - ユーザーデータ制御が必要な文脈が観測される
+  - アプリ側で推論・表示・提案を安全に制御する材料になる
+device_level: DB管理用
+modifiers:
+  - 安全性
+  - プライバシー
+  - 公平性
+  - 高リスク性
+evidence: AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用
+status: active

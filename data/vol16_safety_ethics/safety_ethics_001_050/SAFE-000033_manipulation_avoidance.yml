@@ -1,0 +1,33 @@
+id: SAFE-000033
+knowledge_type: safety_ethics
+name_ja: 操作的誘導回避
+name_en: Manipulation Avoidance
+category: Safety Ethics
+attribute: Risk Control
+definition_ja: ユーザーの弱さや状態を利用して行動を誘導しない原則。
+tags:
+  - CAT:安全倫理
+  - CAT:リスク制御
+  - ATTR:安全設計
+parent:
+  - リスク制御
+related:
+  - 補正要因
+  - 表示設計
+  - アプリ用途
+observable_data:
+  - 操作的誘導回避適用条件
+  - 操作的誘導回避リスク兆候
+  - 操作的誘導回避制御対象
+  - 操作的誘導回避監査項目
+signal_candidates:
+  - 操作的誘導回避が必要な文脈が観測される
+  - アプリ側で推論・表示・提案を安全に制御する材料になる
+device_level: DB管理用
+modifiers:
+  - 安全性
+  - プライバシー
+  - 公平性
+  - 高リスク性
+evidence: AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用
+status: active

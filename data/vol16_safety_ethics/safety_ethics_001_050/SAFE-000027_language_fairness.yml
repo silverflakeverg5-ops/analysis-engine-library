@@ -1,0 +1,33 @@
+id: SAFE-000027
+knowledge_type: safety_ethics
+name_ja: 言語公平性
+name_en: Language Fairness
+category: Safety Ethics
+attribute: Fairness
+definition_ja: 言語能力や表現差による誤解釈を避ける考え方。
+tags:
+  - CAT:安全倫理
+  - CAT:公平性
+  - ATTR:安全設計
+parent:
+  - 公平性
+related:
+  - 補正要因
+  - 表示設計
+  - アプリ用途
+observable_data:
+  - 言語公平性適用条件
+  - 言語公平性リスク兆候
+  - 言語公平性制御対象
+  - 言語公平性監査項目
+signal_candidates:
+  - 言語公平性が必要な文脈が観測される
+  - アプリ側で推論・表示・提案を安全に制御する材料になる
+device_level: DB管理用
+modifiers:
+  - 安全性
+  - プライバシー
+  - 公平性
+  - 高リスク性
+evidence: AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用
+status: active

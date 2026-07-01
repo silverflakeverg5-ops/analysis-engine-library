@@ -1,0 +1,33 @@
+id: SAFE-000035
+knowledge_type: safety_ethics
+name_ja: 過剰個別化リスク
+name_en: Over Personalization Risk
+category: Safety Ethics
+attribute: Risk Control
+definition_ja: 過度に踏み込んだ個別化が不快感や不信を生むリスク。
+tags:
+  - CAT:安全倫理
+  - CAT:リスク制御
+  - ATTR:安全設計
+parent:
+  - リスク制御
+related:
+  - 補正要因
+  - 表示設計
+  - アプリ用途
+observable_data:
+  - 過剰個別化リスク適用条件
+  - 過剰個別化リスクリスク兆候
+  - 過剰個別化リスク制御対象
+  - 過剰個別化リスク監査項目
+signal_candidates:
+  - 過剰個別化リスクが必要な文脈が観測される
+  - アプリ側で推論・表示・提案を安全に制御する材料になる
+device_level: DB管理用
+modifiers:
+  - 安全性
+  - プライバシー
+  - 公平性
+  - 高リスク性
+evidence: AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用
+status: active

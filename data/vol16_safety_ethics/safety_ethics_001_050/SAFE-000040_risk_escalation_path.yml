@@ -1,0 +1,33 @@
+id: SAFE-000040
+knowledge_type: safety_ethics
+name_ja: リスク時エスカレーション導線
+name_en: Risk Escalation Path
+category: Safety Ethics
+attribute: Risk Control
+definition_ja: 高リスク兆候がある場合に安全な支援導線へつなぐ設計。
+tags:
+  - CAT:安全倫理
+  - CAT:リスク制御
+  - ATTR:安全設計
+parent:
+  - リスク制御
+related:
+  - 補正要因
+  - 表示設計
+  - アプリ用途
+observable_data:
+  - リスク時エスカレーション導線適用条件
+  - リスク時エスカレーション導線リスク兆候
+  - リスク時エスカレーション導線制御対象
+  - リスク時エスカレーション導線監査項目
+signal_candidates:
+  - リスク時エスカレーション導線が必要な文脈が観測される
+  - アプリ側で推論・表示・提案を安全に制御する材料になる
+device_level: DB管理用
+modifiers:
+  - 安全性
+  - プライバシー
+  - 公平性
+  - 高リスク性
+evidence: AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用
+status: active

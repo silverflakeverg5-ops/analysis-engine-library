@@ -1,0 +1,33 @@
+id: SAFE-000038
+knowledge_type: safety_ethics
+name_ja: 社会的比較リスク
+name_en: Social Comparison Risk
+category: Safety Ethics
+attribute: Risk Control
+definition_ja: 他者比較によって不安・劣等感・過剰競争が生じるリスク。
+tags:
+  - CAT:安全倫理
+  - CAT:リスク制御
+  - ATTR:安全設計
+parent:
+  - リスク制御
+related:
+  - 補正要因
+  - 表示設計
+  - アプリ用途
+observable_data:
+  - 社会的比較リスク適用条件
+  - 社会的比較リスクリスク兆候
+  - 社会的比較リスク制御対象
+  - 社会的比較リスク監査項目
+signal_candidates:
+  - 社会的比較リスクが必要な文脈が観測される
+  - アプリ側で推論・表示・提案を安全に制御する材料になる
+device_level: DB管理用
+modifiers:
+  - 安全性
+  - プライバシー
+  - 公平性
+  - 高リスク性
+evidence: AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用
+status: active

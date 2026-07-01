@@ -1,0 +1,33 @@
+id: SAFE-000014
+knowledge_type: safety_ethics
+name_ja: 機微情報管理
+name_en: Sensitive Data Handling
+category: Safety Ethics
+attribute: Privacy
+definition_ja: 健康・人間関係・個人属性など慎重に扱うべき情報を保護する考え方。
+tags:
+  - CAT:安全倫理
+  - CAT:プライバシー
+  - ATTR:安全設計
+parent:
+  - プライバシー
+related:
+  - 補正要因
+  - 表示設計
+  - アプリ用途
+observable_data:
+  - 機微情報管理適用条件
+  - 機微情報管理リスク兆候
+  - 機微情報管理制御対象
+  - 機微情報管理監査項目
+signal_candidates:
+  - 機微情報管理が必要な文脈が観測される
+  - アプリ側で推論・表示・提案を安全に制御する材料になる
+device_level: DB管理用
+modifiers:
+  - 安全性
+  - プライバシー
+  - 公平性
+  - 高リスク性
+evidence: AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用
+status: active

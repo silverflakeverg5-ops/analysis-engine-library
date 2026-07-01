@@ -1,0 +1,33 @@
+id: SAFE-000001
+knowledge_type: safety_ethics
+name_ja: 非診断原則
+name_en: Non Diagnostic Principle
+category: Safety Ethics
+attribute: Core
+definition_ja: 人間分析結果を医療診断・性格断定・能力判定として扱わない原則。
+tags:
+  - CAT:安全倫理
+  - CAT:基本
+  - ATTR:安全設計
+parent:
+  - 基本
+related:
+  - 補正要因
+  - 表示設計
+  - アプリ用途
+observable_data:
+  - 非診断原則適用条件
+  - 非診断原則リスク兆候
+  - 非診断原則制御対象
+  - 非診断原則監査項目
+signal_candidates:
+  - 非診断原則が必要な文脈が観測される
+  - アプリ側で推論・表示・提案を安全に制御する材料になる
+device_level: DB管理用
+modifiers:
+  - 安全性
+  - プライバシー
+  - 公平性
+  - 高リスク性
+evidence: AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用
+status: active

@@ -1,0 +1,33 @@
+id: SAFE-000009
+knowledge_type: safety_ethics
+name_ja: 人間確認原則
+name_en: Human Review Principle
+category: Safety Ethics
+attribute: Core
+definition_ja: 高リスク領域では自動推論だけで完結させない原則。
+tags:
+  - CAT:安全倫理
+  - CAT:基本
+  - ATTR:安全設計
+parent:
+  - 基本
+related:
+  - 補正要因
+  - 表示設計
+  - アプリ用途
+observable_data:
+  - 人間確認原則適用条件
+  - 人間確認原則リスク兆候
+  - 人間確認原則制御対象
+  - 人間確認原則監査項目
+signal_candidates:
+  - 人間確認原則が必要な文脈が観測される
+  - アプリ側で推論・表示・提案を安全に制御する材料になる
+device_level: DB管理用
+modifiers:
+  - 安全性
+  - プライバシー
+  - 公平性
+  - 高リスク性
+evidence: AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用
+status: active

@@ -1,0 +1,33 @@
+id: SAFE-000047
+knowledge_type: safety_ethics
+name_ja: 安全な改善反復
+name_en: Safe Iteration
+category: Safety Ethics
+attribute: Integration
+definition_ja: ユーザー反応や監査結果をもとに安全性を改善し続ける過程。
+tags:
+  - CAT:安全倫理
+  - CAT:統合
+  - ATTR:安全設計
+parent:
+  - 統合
+related:
+  - 補正要因
+  - 表示設計
+  - アプリ用途
+observable_data:
+  - 安全な改善反復適用条件
+  - 安全な改善反復リスク兆候
+  - 安全な改善反復制御対象
+  - 安全な改善反復監査項目
+signal_candidates:
+  - 安全な改善反復が必要な文脈が観測される
+  - アプリ側で推論・表示・提案を安全に制御する材料になる
+device_level: DB管理用
+modifiers:
+  - 安全性
+  - プライバシー
+  - 公平性
+  - 高リスク性
+evidence: AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用
+status: active

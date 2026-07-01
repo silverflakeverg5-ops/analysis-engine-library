@@ -1,0 +1,33 @@
+id: SAFE-000012
+knowledge_type: safety_ethics
+name_ja: 目的制限
+name_en: Purpose Limitation
+category: Safety Ethics
+attribute: Privacy
+definition_ja: 取得したデータを明示された目的の範囲内で利用する原則。
+tags:
+  - CAT:安全倫理
+  - CAT:プライバシー
+  - ATTR:安全設計
+parent:
+  - プライバシー
+related:
+  - 補正要因
+  - 表示設計
+  - アプリ用途
+observable_data:
+  - 目的制限適用条件
+  - 目的制限リスク兆候
+  - 目的制限制御対象
+  - 目的制限監査項目
+signal_candidates:
+  - 目的制限が必要な文脈が観測される
+  - アプリ側で推論・表示・提案を安全に制御する材料になる
+device_level: DB管理用
+modifiers:
+  - 安全性
+  - プライバシー
+  - 公平性
+  - 高リスク性
+evidence: AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用
+status: active

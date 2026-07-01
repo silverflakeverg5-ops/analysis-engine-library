@@ -1,0 +1,57 @@
+category: Safety Ethics
+name_ja: 安全倫理
+items:
+  - SAFE-000001_non_diagnostic_principle.yml
+  - SAFE-000002_probabilistic_expression_principle.yml
+  - SAFE-000003_user_autonomy_principle.yml
+  - SAFE-000004_do_no_harm_principle.yml
+  - SAFE-000005_supportive_use_principle.yml
+  - SAFE-000006_context_sensitive_principle.yml
+  - SAFE-000007_uncertainty_disclosure_principle.yml
+  - SAFE-000008_no_ranking_principle.yml
+  - SAFE-000009_human_review_principle.yml
+  - SAFE-000010_knowledge_db_boundary_principle.yml
+  - SAFE-000011_data_minimization.yml
+  - SAFE-000012_purpose_limitation.yml
+  - SAFE-000013_consent_management.yml
+  - SAFE-000014_sensitive_data_handling.yml
+  - SAFE-000015_privacy_by_design.yml
+  - SAFE-000016_user_data_control.yml
+  - SAFE-000017_data_retention_limit.yml
+  - SAFE-000018_anonymization_principle.yml
+  - SAFE-000019_pseudonymization_principle.yml
+  - SAFE-000020_privacy_risk_review.yml
+  - SAFE-000021_fairness_principle.yml
+  - SAFE-000022_bias_awareness.yml
+  - SAFE-000023_stereotype_avoidance.yml
+  - SAFE-000024_cultural_fairness.yml
+  - SAFE-000025_accessibility_fairness.yml
+  - SAFE-000026_data_coverage_fairness.yml
+  - SAFE-000027_language_fairness.yml
+  - SAFE-000028_minor_user_fairness.yml
+  - SAFE-000029_socioeconomic_context_fairness.yml
+  - SAFE-000030_fairness_audit.yml
+  - SAFE-000031_high_stakes_use_limit.yml
+  - SAFE-000032_mental_health_boundary.yml
+  - SAFE-000033_manipulation_avoidance.yml
+  - SAFE-000034_dependency_prevention.yml
+  - SAFE-000035_over_personalization_risk.yml
+  - SAFE-000036_self_fulfilling_risk.yml
+  - SAFE-000037_labeling_risk.yml
+  - SAFE-000038_social_comparison_risk.yml
+  - SAFE-000039_distress_escalation_control.yml
+  - SAFE-000040_risk_escalation_path.yml
+  - SAFE-000041_safety_guardrail.yml
+  - SAFE-000042_ethical_review_process.yml
+  - SAFE-000043_safety_modifier_stack.yml
+  - SAFE-000044_safe_output_policy.yml
+  - SAFE-000045_user_trust_protection.yml
+  - SAFE-000046_harm_monitoring.yml
+  - SAFE-000047_safe_iteration.yml
+  - SAFE-000048_boundary_documentation.yml
+  - SAFE-000049_safety_audit_signal.yml
+  - SAFE-000050_safety_ethics_integration.yml
+notes:
+  - 安全倫理は推論結果ではなく制御材料として扱う
+  - Knowledge DB側ではスコアリングしない
+  - アプリ側で安全性・表現・同意・リスク制御に利用する

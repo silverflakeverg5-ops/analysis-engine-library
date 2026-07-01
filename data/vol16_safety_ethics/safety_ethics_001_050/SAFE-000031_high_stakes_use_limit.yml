@@ -1,0 +1,33 @@
+id: SAFE-000031
+knowledge_type: safety_ethics
+name_ja: 高リスク用途制限
+name_en: High Stakes Use Limit
+category: Safety Ethics
+attribute: Risk Control
+definition_ja: 雇用・進路・医療など重大判断への直接利用を制限する考え方。
+tags:
+  - CAT:安全倫理
+  - CAT:リスク制御
+  - ATTR:安全設計
+parent:
+  - リスク制御
+related:
+  - 補正要因
+  - 表示設計
+  - アプリ用途
+observable_data:
+  - 高リスク用途制限適用条件
+  - 高リスク用途制限リスク兆候
+  - 高リスク用途制限制御対象
+  - 高リスク用途制限監査項目
+signal_candidates:
+  - 高リスク用途制限が必要な文脈が観測される
+  - アプリ側で推論・表示・提案を安全に制御する材料になる
+device_level: DB管理用
+modifiers:
+  - 安全性
+  - プライバシー
+  - 公平性
+  - 高リスク性
+evidence: AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用
+status: active

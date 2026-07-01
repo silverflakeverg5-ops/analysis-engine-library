@@ -1,0 +1,33 @@
+id: GOV-000007
+knowledge_type: library_governance
+name_ja: インデックスファイル方針
+name_en: Index File Policy
+category: Library Governance
+attribute: Schema
+definition_ja: 各カテゴリのindex.ymlに含める内容や構造を管理する方針。
+tags:
+  - CAT:ライブラリ管理
+  - CAT:スキーマ
+  - ATTR:管理方針
+parent:
+  - スキーマ
+related:
+  - 監査
+  - スキーマ
+  - 安全設計
+observable_data:
+  - インデックスファイル方針適用範囲
+  - インデックスファイル方針管理対象
+  - インデックスファイル方針監査条件
+  - インデックスファイル方針更新履歴
+signal_candidates:
+  - インデックスファイル方針をライブラリ運用方針として利用できる
+  - Knowledge DBの品質・拡張性・保守性を管理する材料になる
+device_level: DB管理用
+modifiers:
+  - 品質
+  - 保守性
+  - 互換性
+  - 拡張性
+evidence: 情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用
+status: active

@@ -1,0 +1,33 @@
+id: GOV-000045
+knowledge_type: library_governance
+name_ja: ライブラリ拡張性
+name_en: Library Scalability
+category: Library Governance
+attribute: Integration
+definition_ja: 数千〜一万項目規模へ拡張できる構造と運用性。
+tags:
+  - CAT:ライブラリ管理
+  - CAT:統合
+  - ATTR:管理方針
+parent:
+  - 統合
+related:
+  - 監査
+  - スキーマ
+  - 安全設計
+observable_data:
+  - ライブラリ拡張性適用範囲
+  - ライブラリ拡張性管理対象
+  - ライブラリ拡張性監査条件
+  - ライブラリ拡張性更新履歴
+signal_candidates:
+  - ライブラリ拡張性をライブラリ運用方針として利用できる
+  - Knowledge DBの品質・拡張性・保守性を管理する材料になる
+device_level: DB管理用
+modifiers:
+  - 品質
+  - 保守性
+  - 互換性
+  - 拡張性
+evidence: 情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用
+status: active

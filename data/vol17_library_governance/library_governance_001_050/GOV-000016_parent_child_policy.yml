@@ -1,0 +1,33 @@
+id: GOV-000016
+knowledge_type: library_governance
+name_ja: 親子関係方針
+name_en: Parent Child Policy
+category: Library Governance
+attribute: Taxonomy
+definition_ja: parentフィールドを使って上位概念と下位項目を管理する方針。
+tags:
+  - CAT:ライブラリ管理
+  - CAT:分類体系
+  - ATTR:管理方針
+parent:
+  - 分類体系
+related:
+  - 監査
+  - スキーマ
+  - 安全設計
+observable_data:
+  - 親子関係方針適用範囲
+  - 親子関係方針管理対象
+  - 親子関係方針監査条件
+  - 親子関係方針更新履歴
+signal_candidates:
+  - 親子関係方針をライブラリ運用方針として利用できる
+  - Knowledge DBの品質・拡張性・保守性を管理する材料になる
+device_level: DB管理用
+modifiers:
+  - 品質
+  - 保守性
+  - 互換性
+  - 拡張性
+evidence: 情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用
+status: active

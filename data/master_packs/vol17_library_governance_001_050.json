@@ -1,0 +1,2107 @@
+{
+  "output_dir": "vol17_library_governance/library_governance_001_050",
+  "index_filename": "library_governance_001_050_index.yml",
+  "index_content": "category: Library Governance\nname_ja: ライブラリ管理\nitems:\n  - GOV-000001_knowledge_item_schema.yml\n  - GOV-000002_required_field_policy.yml\n  - GOV-000003_optional_field_policy.yml\n  - GOV-000004_field_naming_convention.yml\n  - GOV-000005_id_format_policy.yml\n  - GOV-000006_filename_policy.yml\n  - GOV-000007_index_file_policy.yml\n  - GOV-000008_master_pack_policy.yml\n  - GOV-000009_yaml_generation_policy.yml\n  - GOV-000010_schema_version_policy.yml\n  - GOV-000011_taxonomy_policy.yml\n  - GOV-000012_knowledge_type_policy.yml\n  - GOV-000013_category_policy.yml\n  - GOV-000014_attribute_policy.yml\n  - GOV-000015_tag_policy.yml\n  - GOV-000016_parent_child_policy.yml\n  - GOV-000017_related_item_policy.yml\n  - GOV-000018_cross_volume_link_policy.yml\n  - GOV-000019_duplicate_concept_policy.yml\n  - GOV-000020_taxonomy_extension_policy.yml\n  - GOV-000021_global_audit.yml\n  - GOV-000022_volume_audit.yml\n  - GOV-000023_required_field_audit.yml\n  - GOV-000024_duplicate_id_audit.yml\n  - GOV-000025_filename_id_consistency_audit.yml\n  - GOV-000026_tag_consistency_audit.yml\n  - GOV-000027_index_reference_audit.yml\n  - GOV-000028_orphan_item_audit.yml\n  - GOV-000029_status_audit.yml\n  - GOV-000030_audit_result_logging.yml\n  - GOV-000031_item_creation_policy.yml\n  - GOV-000032_item_update_policy.yml\n  - GOV-000033_item_deprecation_policy.yml\n  - GOV-000034_item_merge_policy.yml\n  - GOV-000035_item_split_policy.yml\n  - GOV-000036_backward_compatibility_policy.yml\n  - GOV-000037_change_log_policy.yml\n  - GOV-000038_release_policy.yml\n  - GOV-000039_quality_gate_policy.yml\n  - GOV-000040_maintenance_cycle.yml\n  - GOV-000041_knowledge_library_boundary.yml\n  - GOV-000042_app_side_inference_boundary.yml\n  - GOV-000043_common_library_reuse.yml\n  - GOV-000044_cross_app_consistency.yml\n  - GOV-000045_library_scalability.yml\n  - GOV-000046_storage_efficiency.yml\n  - GOV-000047_builder_workflow_integration.yml\n  - GOV-000048_github_workflow_integration.yml\n  - GOV-000049_library_quality_integration.yml\n  - GOV-000050_analysis_engine_library_governance.yml\nnotes:\n  - ライブラリ管理はDB運用と品質維持のための管理材料として扱う\n  - Knowledge DB側では推論しない\n  - Builder・生成・監査・Git管理の一貫性を重視する\n",
+  "items": [
+    {
+      "filename": "GOV-000001_knowledge_item_schema.yml",
+      "id": "GOV-000001",
+      "knowledge_type": "library_governance",
+      "name_ja": "知識項目スキーマ",
+      "name_en": "Knowledge Item Schema",
+      "category": "Library Governance",
+      "attribute": "Schema",
+      "definition_ja": "知識項目に必要なID・名称・定義・タグ・観測データなどの構造定義。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:スキーマ",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "スキーマ"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "知識項目スキーマ適用範囲",
+        "知識項目スキーマ管理対象",
+        "知識項目スキーマ監査条件",
+        "知識項目スキーマ更新履歴"
+      ],
+      "signal_candidates": [
+        "知識項目スキーマをライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000002_required_field_policy.yml",
+      "id": "GOV-000002",
+      "knowledge_type": "library_governance",
+      "name_ja": "必須フィールド方針",
+      "name_en": "Required Field Policy",
+      "category": "Library Governance",
+      "attribute": "Schema",
+      "definition_ja": "各YAML項目に必ず含めるフィールドを管理する方針。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:スキーマ",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "スキーマ"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "必須フィールド方針適用範囲",
+        "必須フィールド方針管理対象",
+        "必須フィールド方針監査条件",
+        "必須フィールド方針更新履歴"
+      ],
+      "signal_candidates": [
+        "必須フィールド方針をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000003_optional_field_policy.yml",
+      "id": "GOV-000003",
+      "knowledge_type": "library_governance",
+      "name_ja": "任意フィールド方針",
+      "name_en": "Optional Field Policy",
+      "category": "Library Governance",
+      "attribute": "Schema",
+      "definition_ja": "将来拡張用の任意フィールドを安全に追加するための方針。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:スキーマ",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "スキーマ"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "任意フィールド方針適用範囲",
+        "任意フィールド方針管理対象",
+        "任意フィールド方針監査条件",
+        "任意フィールド方針更新履歴"
+      ],
+      "signal_candidates": [
+        "任意フィールド方針をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000004_field_naming_convention.yml",
+      "id": "GOV-000004",
+      "knowledge_type": "library_governance",
+      "name_ja": "フィールド命名規則",
+      "name_en": "Field Naming Convention",
+      "category": "Library Governance",
+      "attribute": "Schema",
+      "definition_ja": "YAMLやJSON内のフィールド名を一貫させるための規則。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:スキーマ",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "スキーマ"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "フィールド命名規則適用範囲",
+        "フィールド命名規則管理対象",
+        "フィールド命名規則監査条件",
+        "フィールド命名規則更新履歴"
+      ],
+      "signal_candidates": [
+        "フィールド命名規則をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000005_id_format_policy.yml",
+      "id": "GOV-000005",
+      "knowledge_type": "library_governance",
+      "name_ja": "ID形式方針",
+      "name_en": "ID Format Policy",
+      "category": "Library Governance",
+      "attribute": "Schema",
+      "definition_ja": "知識項目IDの接頭辞・桁数・採番規則を管理する方針。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:スキーマ",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "スキーマ"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "ID形式方針適用範囲",
+        "ID形式方針管理対象",
+        "ID形式方針監査条件",
+        "ID形式方針更新履歴"
+      ],
+      "signal_candidates": [
+        "ID形式方針をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000006_filename_policy.yml",
+      "id": "GOV-000006",
+      "knowledge_type": "library_governance",
+      "name_ja": "ファイル名方針",
+      "name_en": "Filename Policy",
+      "category": "Library Governance",
+      "attribute": "Schema",
+      "definition_ja": "YAMLファイル名の形式・重複防止・可読性を管理する方針。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:スキーマ",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "スキーマ"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "ファイル名方針適用範囲",
+        "ファイル名方針管理対象",
+        "ファイル名方針監査条件",
+        "ファイル名方針更新履歴"
+      ],
+      "signal_candidates": [
+        "ファイル名方針をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000007_index_file_policy.yml",
+      "id": "GOV-000007",
+      "knowledge_type": "library_governance",
+      "name_ja": "インデックスファイル方針",
+      "name_en": "Index File Policy",
+      "category": "Library Governance",
+      "attribute": "Schema",
+      "definition_ja": "各カテゴリのindex.ymlに含める内容や構造を管理する方針。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:スキーマ",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "スキーマ"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "インデックスファイル方針適用範囲",
+        "インデックスファイル方針管理対象",
+        "インデックスファイル方針監査条件",
+        "インデックスファイル方針更新履歴"
+      ],
+      "signal_candidates": [
+        "インデックスファイル方針をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000008_master_pack_policy.yml",
+      "id": "GOV-000008",
+      "knowledge_type": "library_governance",
+      "name_ja": "マスターパック方針",
+      "name_en": "Master Pack Policy",
+      "category": "Library Governance",
+      "attribute": "Schema",
+      "definition_ja": "Builderが出力するJSONマスターパックの構造と運用方針。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:スキーマ",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "スキーマ"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "マスターパック方針適用範囲",
+        "マスターパック方針管理対象",
+        "マスターパック方針監査条件",
+        "マスターパック方針更新履歴"
+      ],
+      "signal_candidates": [
+        "マスターパック方針をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000009_yaml_generation_policy.yml",
+      "id": "GOV-000009",
+      "knowledge_type": "library_governance",
+      "name_ja": "YAML生成方針",
+      "name_en": "YAML Generation Policy",
+      "category": "Library Governance",
+      "attribute": "Schema",
+      "definition_ja": "master_packからYAMLを生成する手順と品質を管理する方針。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:スキーマ",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "スキーマ"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "YAML生成方針適用範囲",
+        "YAML生成方針管理対象",
+        "YAML生成方針監査条件",
+        "YAML生成方針更新履歴"
+      ],
+      "signal_candidates": [
+        "YAML生成方針をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000010_schema_version_policy.yml",
+      "id": "GOV-000010",
+      "knowledge_type": "library_governance",
+      "name_ja": "スキーマ版管理方針",
+      "name_en": "Schema Version Policy",
+      "category": "Library Governance",
+      "attribute": "Schema",
+      "definition_ja": "スキーマ変更時の互換性・履歴・移行を管理する方針。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:スキーマ",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "スキーマ"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "スキーマ版管理方針適用範囲",
+        "スキーマ版管理方針管理対象",
+        "スキーマ版管理方針監査条件",
+        "スキーマ版管理方針更新履歴"
+      ],
+      "signal_candidates": [
+        "スキーマ版管理方針をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000011_taxonomy_policy.yml",
+      "id": "GOV-000011",
+      "knowledge_type": "library_governance",
+      "name_ja": "分類体系方針",
+      "name_en": "Taxonomy Policy",
+      "category": "Library Governance",
+      "attribute": "Taxonomy",
+      "definition_ja": "知識項目を概念・行動・環境・補正要因などに整理する方針。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:分類体系",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "分類体系"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "分類体系方針適用範囲",
+        "分類体系方針管理対象",
+        "分類体系方針監査条件",
+        "分類体系方針更新履歴"
+      ],
+      "signal_candidates": [
+        "分類体系方針をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000012_knowledge_type_policy.yml",
+      "id": "GOV-000012",
+      "knowledge_type": "library_governance",
+      "name_ja": "knowledge_type方針",
+      "name_en": "Knowledge Type Policy",
+      "category": "Library Governance",
+      "attribute": "Taxonomy",
+      "definition_ja": "知識種別を一貫して管理するための方針。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:分類体系",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "分類体系"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "knowledge_type方針適用範囲",
+        "knowledge_type方針管理対象",
+        "knowledge_type方針監査条件",
+        "knowledge_type方針更新履歴"
+      ],
+      "signal_candidates": [
+        "knowledge_type方針をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000013_category_policy.yml",
+      "id": "GOV-000013",
+      "knowledge_type": "library_governance",
+      "name_ja": "カテゴリ方針",
+      "name_en": "Category Policy",
+      "category": "Library Governance",
+      "attribute": "Taxonomy",
+      "definition_ja": "大分類カテゴリの付け方と重複を管理する方針。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:分類体系",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "分類体系"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "カテゴリ方針適用範囲",
+        "カテゴリ方針管理対象",
+        "カテゴリ方針監査条件",
+        "カテゴリ方針更新履歴"
+      ],
+      "signal_candidates": [
+        "カテゴリ方針をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000014_attribute_policy.yml",
+      "id": "GOV-000014",
+      "knowledge_type": "library_governance",
+      "name_ja": "属性方針",
+      "name_en": "Attribute Policy",
+      "category": "Library Governance",
+      "attribute": "Taxonomy",
+      "definition_ja": "項目の属性を分類・検索しやすくするための方針。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:分類体系",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "分類体系"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "属性方針適用範囲",
+        "属性方針管理対象",
+        "属性方針監査条件",
+        "属性方針更新履歴"
+      ],
+      "signal_candidates": [
+        "属性方針をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000015_tag_policy.yml",
+      "id": "GOV-000015",
+      "knowledge_type": "library_governance",
+      "name_ja": "タグ方針",
+      "name_en": "Tag Policy",
+      "category": "Library Governance",
+      "attribute": "Taxonomy",
+      "definition_ja": "CAT・ATTRなどのタグを一貫して付与するための方針。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:分類体系",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "分類体系"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "タグ方針適用範囲",
+        "タグ方針管理対象",
+        "タグ方針監査条件",
+        "タグ方針更新履歴"
+      ],
+      "signal_candidates": [
+        "タグ方針をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000016_parent_child_policy.yml",
+      "id": "GOV-000016",
+      "knowledge_type": "library_governance",
+      "name_ja": "親子関係方針",
+      "name_en": "Parent Child Policy",
+      "category": "Library Governance",
+      "attribute": "Taxonomy",
+      "definition_ja": "parentフィールドを使って上位概念と下位項目を管理する方針。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:分類体系",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "分類体系"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "親子関係方針適用範囲",
+        "親子関係方針管理対象",
+        "親子関係方針監査条件",
+        "親子関係方針更新履歴"
+      ],
+      "signal_candidates": [
+        "親子関係方針をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000017_related_item_policy.yml",
+      "id": "GOV-000017",
+      "knowledge_type": "library_governance",
+      "name_ja": "関連項目方針",
+      "name_en": "Related Item Policy",
+      "category": "Library Governance",
+      "attribute": "Taxonomy",
+      "definition_ja": "relatedフィールドで横断参照を管理する方針。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:分類体系",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "分類体系"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "関連項目方針適用範囲",
+        "関連項目方針管理対象",
+        "関連項目方針監査条件",
+        "関連項目方針更新履歴"
+      ],
+      "signal_candidates": [
+        "関連項目方針をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000018_cross_volume_link_policy.yml",
+      "id": "GOV-000018",
+      "knowledge_type": "library_governance",
+      "name_ja": "Vol横断リンク方針",
+      "name_en": "Cross Volume Link Policy",
+      "category": "Library Governance",
+      "attribute": "Taxonomy",
+      "definition_ja": "複数Vol間の知識項目を関連づける方針。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:分類体系",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "分類体系"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "Vol横断リンク方針適用範囲",
+        "Vol横断リンク方針管理対象",
+        "Vol横断リンク方針監査条件",
+        "Vol横断リンク方針更新履歴"
+      ],
+      "signal_candidates": [
+        "Vol横断リンク方針をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000019_duplicate_concept_policy.yml",
+      "id": "GOV-000019",
+      "knowledge_type": "library_governance",
+      "name_ja": "概念重複方針",
+      "name_en": "Duplicate Concept Policy",
+      "category": "Library Governance",
+      "attribute": "Taxonomy",
+      "definition_ja": "似た概念を統合せずタグと関連で扱うための方針。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:分類体系",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "分類体系"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "概念重複方針適用範囲",
+        "概念重複方針管理対象",
+        "概念重複方針監査条件",
+        "概念重複方針更新履歴"
+      ],
+      "signal_candidates": [
+        "概念重複方針をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000020_taxonomy_extension_policy.yml",
+      "id": "GOV-000020",
+      "knowledge_type": "library_governance",
+      "name_ja": "分類拡張方針",
+      "name_en": "Taxonomy Extension Policy",
+      "category": "Library Governance",
+      "attribute": "Taxonomy",
+      "definition_ja": "将来のVolやカテゴリ追加に対応するための方針。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:分類体系",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "分類体系"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "分類拡張方針適用範囲",
+        "分類拡張方針管理対象",
+        "分類拡張方針監査条件",
+        "分類拡張方針更新履歴"
+      ],
+      "signal_candidates": [
+        "分類拡張方針をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000021_global_audit.yml",
+      "id": "GOV-000021",
+      "knowledge_type": "library_governance",
+      "name_ja": "全体監査",
+      "name_en": "Global Audit",
+      "category": "Library Governance",
+      "attribute": "Audit",
+      "definition_ja": "全YAML項目の必須フィールド・ID重複・構造を確認する監査。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:監査",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "監査"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "全体監査適用範囲",
+        "全体監査管理対象",
+        "全体監査監査条件",
+        "全体監査更新履歴"
+      ],
+      "signal_candidates": [
+        "全体監査をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000022_volume_audit.yml",
+      "id": "GOV-000022",
+      "knowledge_type": "library_governance",
+      "name_ja": "Vol別監査",
+      "name_en": "Volume Audit",
+      "category": "Library Governance",
+      "attribute": "Audit",
+      "definition_ja": "各Vol単位で項目数・構造・カテゴリ整合性を確認する監査。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:監査",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "監査"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "Vol別監査適用範囲",
+        "Vol別監査管理対象",
+        "Vol別監査監査条件",
+        "Vol別監査更新履歴"
+      ],
+      "signal_candidates": [
+        "Vol別監査をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000023_required_field_audit.yml",
+      "id": "GOV-000023",
+      "knowledge_type": "library_governance",
+      "name_ja": "必須項目監査",
+      "name_en": "Required Field Audit",
+      "category": "Library Governance",
+      "attribute": "Audit",
+      "definition_ja": "必須フィールドが欠けていないか確認する監査。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:監査",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "監査"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "必須項目監査適用範囲",
+        "必須項目監査管理対象",
+        "必須項目監査監査条件",
+        "必須項目監査更新履歴"
+      ],
+      "signal_candidates": [
+        "必須項目監査をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000024_duplicate_id_audit.yml",
+      "id": "GOV-000024",
+      "knowledge_type": "library_governance",
+      "name_ja": "ID重複監査",
+      "name_en": "Duplicate ID Audit",
+      "category": "Library Governance",
+      "attribute": "Audit",
+      "definition_ja": "同一IDが複数ファイルに存在しないか確認する監査。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:監査",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "監査"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "ID重複監査適用範囲",
+        "ID重複監査管理対象",
+        "ID重複監査監査条件",
+        "ID重複監査更新履歴"
+      ],
+      "signal_candidates": [
+        "ID重複監査をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000025_filename_id_consistency_audit.yml",
+      "id": "GOV-000025",
+      "knowledge_type": "library_governance",
+      "name_ja": "ファイル名ID整合監査",
+      "name_en": "Filename ID Consistency Audit",
+      "category": "Library Governance",
+      "attribute": "Audit",
+      "definition_ja": "ファイル名とidフィールドが一致しているか確認する監査。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:監査",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "監査"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "ファイル名ID整合監査適用範囲",
+        "ファイル名ID整合監査管理対象",
+        "ファイル名ID整合監査監査条件",
+        "ファイル名ID整合監査更新履歴"
+      ],
+      "signal_candidates": [
+        "ファイル名ID整合監査をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000026_tag_consistency_audit.yml",
+      "id": "GOV-000026",
+      "knowledge_type": "library_governance",
+      "name_ja": "タグ整合監査",
+      "name_en": "Tag Consistency Audit",
+      "category": "Library Governance",
+      "attribute": "Audit",
+      "definition_ja": "タグ形式や分類タグの一貫性を確認する監査。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:監査",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "監査"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "タグ整合監査適用範囲",
+        "タグ整合監査管理対象",
+        "タグ整合監査監査条件",
+        "タグ整合監査更新履歴"
+      ],
+      "signal_candidates": [
+        "タグ整合監査をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000027_index_reference_audit.yml",
+      "id": "GOV-000027",
+      "knowledge_type": "library_governance",
+      "name_ja": "インデックス参照監査",
+      "name_en": "Index Reference Audit",
+      "category": "Library Governance",
+      "attribute": "Audit",
+      "definition_ja": "index.ymlに記載された項目と実ファイルの整合を確認する監査。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:監査",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "監査"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "インデックス参照監査適用範囲",
+        "インデックス参照監査管理対象",
+        "インデックス参照監査監査条件",
+        "インデックス参照監査更新履歴"
+      ],
+      "signal_candidates": [
+        "インデックス参照監査をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000028_orphan_item_audit.yml",
+      "id": "GOV-000028",
+      "knowledge_type": "library_governance",
+      "name_ja": "孤立項目監査",
+      "name_en": "Orphan Item Audit",
+      "category": "Library Governance",
+      "attribute": "Audit",
+      "definition_ja": "indexや関連から参照されない項目を確認する監査。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:監査",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "監査"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "孤立項目監査適用範囲",
+        "孤立項目監査管理対象",
+        "孤立項目監査監査条件",
+        "孤立項目監査更新履歴"
+      ],
+      "signal_candidates": [
+        "孤立項目監査をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000029_status_audit.yml",
+      "id": "GOV-000029",
+      "knowledge_type": "library_governance",
+      "name_ja": "ステータス監査",
+      "name_en": "Status Audit",
+      "category": "Library Governance",
+      "attribute": "Audit",
+      "definition_ja": "active・draft・deprecatedなどの状態管理を確認する監査。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:監査",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "監査"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "ステータス監査適用範囲",
+        "ステータス監査管理対象",
+        "ステータス監査監査条件",
+        "ステータス監査更新履歴"
+      ],
+      "signal_candidates": [
+        "ステータス監査をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000030_audit_result_logging.yml",
+      "id": "GOV-000030",
+      "knowledge_type": "library_governance",
+      "name_ja": "監査結果ログ",
+      "name_en": "Audit Result Logging",
+      "category": "Library Governance",
+      "attribute": "Audit",
+      "definition_ja": "監査結果を記録し、変更履歴や品質確認に使う管理。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:監査",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "監査"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "監査結果ログ適用範囲",
+        "監査結果ログ管理対象",
+        "監査結果ログ監査条件",
+        "監査結果ログ更新履歴"
+      ],
+      "signal_candidates": [
+        "監査結果ログをライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000031_item_creation_policy.yml",
+      "id": "GOV-000031",
+      "knowledge_type": "library_governance",
+      "name_ja": "項目作成方針",
+      "name_en": "Item Creation Policy",
+      "category": "Library Governance",
+      "attribute": "Lifecycle",
+      "definition_ja": "新しい知識項目を追加する際の基準と手順。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:ライフサイクル",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "ライフサイクル"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "項目作成方針適用範囲",
+        "項目作成方針管理対象",
+        "項目作成方針監査条件",
+        "項目作成方針更新履歴"
+      ],
+      "signal_candidates": [
+        "項目作成方針をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000032_item_update_policy.yml",
+      "id": "GOV-000032",
+      "knowledge_type": "library_governance",
+      "name_ja": "項目更新方針",
+      "name_en": "Item Update Policy",
+      "category": "Library Governance",
+      "attribute": "Lifecycle",
+      "definition_ja": "既存項目の定義・タグ・関連を更新する際の方針。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:ライフサイクル",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "ライフサイクル"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "項目更新方針適用範囲",
+        "項目更新方針管理対象",
+        "項目更新方針監査条件",
+        "項目更新方針更新履歴"
+      ],
+      "signal_candidates": [
+        "項目更新方針をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000033_item_deprecation_policy.yml",
+      "id": "GOV-000033",
+      "knowledge_type": "library_governance",
+      "name_ja": "項目非推奨方針",
+      "name_en": "Item Deprecation Policy",
+      "category": "Library Governance",
+      "attribute": "Lifecycle",
+      "definition_ja": "古い項目や低品質項目を削除せず非推奨化する方針。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:ライフサイクル",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "ライフサイクル"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "項目非推奨方針適用範囲",
+        "項目非推奨方針管理対象",
+        "項目非推奨方針監査条件",
+        "項目非推奨方針更新履歴"
+      ],
+      "signal_candidates": [
+        "項目非推奨方針をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000034_item_merge_policy.yml",
+      "id": "GOV-000034",
+      "knowledge_type": "library_governance",
+      "name_ja": "項目統合方針",
+      "name_en": "Item Merge Policy",
+      "category": "Library Governance",
+      "attribute": "Lifecycle",
+      "definition_ja": "重複や近接概念を統合する場合の方針。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:ライフサイクル",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "ライフサイクル"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "項目統合方針適用範囲",
+        "項目統合方針管理対象",
+        "項目統合方針監査条件",
+        "項目統合方針更新履歴"
+      ],
+      "signal_candidates": [
+        "項目統合方針をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000035_item_split_policy.yml",
+      "id": "GOV-000035",
+      "knowledge_type": "library_governance",
+      "name_ja": "項目分割方針",
+      "name_en": "Item Split Policy",
+      "category": "Library Governance",
+      "attribute": "Lifecycle",
+      "definition_ja": "概念が広すぎる場合に複数項目へ分割する方針。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:ライフサイクル",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "ライフサイクル"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "項目分割方針適用範囲",
+        "項目分割方針管理対象",
+        "項目分割方針監査条件",
+        "項目分割方針更新履歴"
+      ],
+      "signal_candidates": [
+        "項目分割方針をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000036_backward_compatibility_policy.yml",
+      "id": "GOV-000036",
+      "knowledge_type": "library_governance",
+      "name_ja": "後方互換方針",
+      "name_en": "Backward Compatibility Policy",
+      "category": "Library Governance",
+      "attribute": "Lifecycle",
+      "definition_ja": "既存アプリが参照するIDや構造を壊さないための方針。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:ライフサイクル",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "ライフサイクル"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "後方互換方針適用範囲",
+        "後方互換方針管理対象",
+        "後方互換方針監査条件",
+        "後方互換方針更新履歴"
+      ],
+      "signal_candidates": [
+        "後方互換方針をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000037_change_log_policy.yml",
+      "id": "GOV-000037",
+      "knowledge_type": "library_governance",
+      "name_ja": "変更履歴方針",
+      "name_en": "Change Log Policy",
+      "category": "Library Governance",
+      "attribute": "Lifecycle",
+      "definition_ja": "知識項目やスキーマ変更を追跡する方針。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:ライフサイクル",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "ライフサイクル"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "変更履歴方針適用範囲",
+        "変更履歴方針管理対象",
+        "変更履歴方針監査条件",
+        "変更履歴方針更新履歴"
+      ],
+      "signal_candidates": [
+        "変更履歴方針をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000038_release_policy.yml",
+      "id": "GOV-000038",
+      "knowledge_type": "library_governance",
+      "name_ja": "リリース方針",
+      "name_en": "Release Policy",
+      "category": "Library Governance",
+      "attribute": "Lifecycle",
+      "definition_ja": "一定単位でKnowledge Libraryを更新・配布する方針。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:ライフサイクル",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "ライフサイクル"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "リリース方針適用範囲",
+        "リリース方針管理対象",
+        "リリース方針監査条件",
+        "リリース方針更新履歴"
+      ],
+      "signal_candidates": [
+        "リリース方針をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000039_quality_gate_policy.yml",
+      "id": "GOV-000039",
+      "knowledge_type": "library_governance",
+      "name_ja": "品質ゲート方針",
+      "name_en": "Quality Gate Policy",
+      "category": "Library Governance",
+      "attribute": "Lifecycle",
+      "definition_ja": "監査OKやレビュー完了など次工程へ進む条件を管理する方針。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:ライフサイクル",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "ライフサイクル"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "品質ゲート方針適用範囲",
+        "品質ゲート方針管理対象",
+        "品質ゲート方針監査条件",
+        "品質ゲート方針更新履歴"
+      ],
+      "signal_candidates": [
+        "品質ゲート方針をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000040_maintenance_cycle.yml",
+      "id": "GOV-000040",
+      "knowledge_type": "library_governance",
+      "name_ja": "保守サイクル",
+      "name_en": "Maintenance Cycle",
+      "category": "Library Governance",
+      "attribute": "Lifecycle",
+      "definition_ja": "定期的に項目・根拠・分類・監査を見直す管理サイクル。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:ライフサイクル",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "ライフサイクル"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "保守サイクル適用範囲",
+        "保守サイクル管理対象",
+        "保守サイクル監査条件",
+        "保守サイクル更新履歴"
+      ],
+      "signal_candidates": [
+        "保守サイクルをライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000041_knowledge_library_boundary.yml",
+      "id": "GOV-000041",
+      "knowledge_type": "library_governance",
+      "name_ja": "知識ライブラリ境界",
+      "name_en": "Knowledge Library Boundary",
+      "category": "Library Governance",
+      "attribute": "Integration",
+      "definition_ja": "Knowledge DBは推論せず材料提供に徹するという境界管理。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:統合",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "知識ライブラリ境界適用範囲",
+        "知識ライブラリ境界管理対象",
+        "知識ライブラリ境界監査条件",
+        "知識ライブラリ境界更新履歴"
+      ],
+      "signal_candidates": [
+        "知識ライブラリ境界をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000042_app_side_inference_boundary.yml",
+      "id": "GOV-000042",
+      "knowledge_type": "library_governance",
+      "name_ja": "アプリ側推論境界",
+      "name_en": "App Side Inference Boundary",
+      "category": "Library Governance",
+      "attribute": "Integration",
+      "definition_ja": "推論・スコアリング・表示は各アプリ側で行うという責任境界。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:統合",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "アプリ側推論境界適用範囲",
+        "アプリ側推論境界管理対象",
+        "アプリ側推論境界監査条件",
+        "アプリ側推論境界更新履歴"
+      ],
+      "signal_candidates": [
+        "アプリ側推論境界をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000043_common_library_reuse.yml",
+      "id": "GOV-000043",
+      "knowledge_type": "library_governance",
+      "name_ja": "共通ライブラリ再利用",
+      "name_en": "Common Library Reuse",
+      "category": "Library Governance",
+      "attribute": "Integration",
+      "definition_ja": "診断・ゲーム・秘書・教育など複数アプリで共通知識を再利用する設計。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:統合",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "共通ライブラリ再利用適用範囲",
+        "共通ライブラリ再利用管理対象",
+        "共通ライブラリ再利用監査条件",
+        "共通ライブラリ再利用更新履歴"
+      ],
+      "signal_candidates": [
+        "共通ライブラリ再利用をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000044_cross_app_consistency.yml",
+      "id": "GOV-000044",
+      "knowledge_type": "library_governance",
+      "name_ja": "複数アプリ整合性",
+      "name_en": "Cross App Consistency",
+      "category": "Library Governance",
+      "attribute": "Integration",
+      "definition_ja": "複数アプリで同じ知識項目を使う際の意味や表示の整合性。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:統合",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "複数アプリ整合性適用範囲",
+        "複数アプリ整合性管理対象",
+        "複数アプリ整合性監査条件",
+        "複数アプリ整合性更新履歴"
+      ],
+      "signal_candidates": [
+        "複数アプリ整合性をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000045_library_scalability.yml",
+      "id": "GOV-000045",
+      "knowledge_type": "library_governance",
+      "name_ja": "ライブラリ拡張性",
+      "name_en": "Library Scalability",
+      "category": "Library Governance",
+      "attribute": "Integration",
+      "definition_ja": "数千〜一万項目規模へ拡張できる構造と運用性。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:統合",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "ライブラリ拡張性適用範囲",
+        "ライブラリ拡張性管理対象",
+        "ライブラリ拡張性監査条件",
+        "ライブラリ拡張性更新履歴"
+      ],
+      "signal_candidates": [
+        "ライブラリ拡張性をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000046_storage_efficiency.yml",
+      "id": "GOV-000046",
+      "knowledge_type": "library_governance",
+      "name_ja": "保存効率",
+      "name_en": "Storage Efficiency",
+      "category": "Library Governance",
+      "attribute": "Integration",
+      "definition_ja": "データ容量を無駄に増やさず管理しやすくする設計。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:統合",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "保存効率適用範囲",
+        "保存効率管理対象",
+        "保存効率監査条件",
+        "保存効率更新履歴"
+      ],
+      "signal_candidates": [
+        "保存効率をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000047_builder_workflow_integration.yml",
+      "id": "GOV-000047",
+      "knowledge_type": "library_governance",
+      "name_ja": "Builderワークフロー統合",
+      "name_en": "Builder Workflow Integration",
+      "category": "Library Governance",
+      "attribute": "Integration",
+      "definition_ja": "Builder・master_pack・YAML生成・監査を一連の流れとして管理する枠組み。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:統合",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "Builderワークフロー統合適用範囲",
+        "Builderワークフロー統合管理対象",
+        "Builderワークフロー統合監査条件",
+        "Builderワークフロー統合更新履歴"
+      ],
+      "signal_candidates": [
+        "Builderワークフロー統合をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000048_github_workflow_integration.yml",
+      "id": "GOV-000048",
+      "knowledge_type": "library_governance",
+      "name_ja": "GitHubワークフロー統合",
+      "name_en": "GitHub Workflow Integration",
+      "category": "Library Governance",
+      "attribute": "Integration",
+      "definition_ja": "生成・監査・commit・pushを一貫して管理する運用。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:統合",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "GitHubワークフロー統合適用範囲",
+        "GitHubワークフロー統合管理対象",
+        "GitHubワークフロー統合監査条件",
+        "GitHubワークフロー統合更新履歴"
+      ],
+      "signal_candidates": [
+        "GitHubワークフロー統合をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000049_library_quality_integration.yml",
+      "id": "GOV-000049",
+      "knowledge_type": "library_governance",
+      "name_ja": "ライブラリ品質統合",
+      "name_en": "Library Quality Integration",
+      "category": "Library Governance",
+      "attribute": "Integration",
+      "definition_ja": "スキーマ・分類・監査・安全性を統合して品質を保つ枠組み。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:統合",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "ライブラリ品質統合適用範囲",
+        "ライブラリ品質統合管理対象",
+        "ライブラリ品質統合監査条件",
+        "ライブラリ品質統合更新履歴"
+      ],
+      "signal_candidates": [
+        "ライブラリ品質統合をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "GOV-000050_analysis_engine_library_governance.yml",
+      "id": "GOV-000050",
+      "knowledge_type": "library_governance",
+      "name_ja": "分析エンジンライブラリ統制",
+      "name_en": "Analysis Engine Library Governance",
+      "category": "Library Governance",
+      "attribute": "Integration",
+      "definition_ja": "Knowledge Library全体の構造・品質・安全性・運用を統合管理する枠組み。",
+      "tags": [
+        "CAT:ライブラリ管理",
+        "CAT:統合",
+        "ATTR:管理方針"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "監査",
+        "スキーマ",
+        "安全設計"
+      ],
+      "observable_data": [
+        "分析エンジンライブラリ統制適用範囲",
+        "分析エンジンライブラリ統制管理対象",
+        "分析エンジンライブラリ統制監査条件",
+        "分析エンジンライブラリ統制更新履歴"
+      ],
+      "signal_candidates": [
+        "分析エンジンライブラリ統制をライブラリ運用方針として利用できる",
+        "Knowledge DBの品質・拡張性・保守性を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "保守性",
+        "互換性",
+        "拡張性"
+      ],
+      "evidence": "情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用",
+      "status": "active"
+    }
+  ]
+}

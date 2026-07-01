@@ -1,0 +1,57 @@
+category: Library Governance
+name_ja: ライブラリ管理
+items:
+  - GOV-000001_knowledge_item_schema.yml
+  - GOV-000002_required_field_policy.yml
+  - GOV-000003_optional_field_policy.yml
+  - GOV-000004_field_naming_convention.yml
+  - GOV-000005_id_format_policy.yml
+  - GOV-000006_filename_policy.yml
+  - GOV-000007_index_file_policy.yml
+  - GOV-000008_master_pack_policy.yml
+  - GOV-000009_yaml_generation_policy.yml
+  - GOV-000010_schema_version_policy.yml
+  - GOV-000011_taxonomy_policy.yml
+  - GOV-000012_knowledge_type_policy.yml
+  - GOV-000013_category_policy.yml
+  - GOV-000014_attribute_policy.yml
+  - GOV-000015_tag_policy.yml
+  - GOV-000016_parent_child_policy.yml
+  - GOV-000017_related_item_policy.yml
+  - GOV-000018_cross_volume_link_policy.yml
+  - GOV-000019_duplicate_concept_policy.yml
+  - GOV-000020_taxonomy_extension_policy.yml
+  - GOV-000021_global_audit.yml
+  - GOV-000022_volume_audit.yml
+  - GOV-000023_required_field_audit.yml
+  - GOV-000024_duplicate_id_audit.yml
+  - GOV-000025_filename_id_consistency_audit.yml
+  - GOV-000026_tag_consistency_audit.yml
+  - GOV-000027_index_reference_audit.yml
+  - GOV-000028_orphan_item_audit.yml
+  - GOV-000029_status_audit.yml
+  - GOV-000030_audit_result_logging.yml
+  - GOV-000031_item_creation_policy.yml
+  - GOV-000032_item_update_policy.yml
+  - GOV-000033_item_deprecation_policy.yml
+  - GOV-000034_item_merge_policy.yml
+  - GOV-000035_item_split_policy.yml
+  - GOV-000036_backward_compatibility_policy.yml
+  - GOV-000037_change_log_policy.yml
+  - GOV-000038_release_policy.yml
+  - GOV-000039_quality_gate_policy.yml
+  - GOV-000040_maintenance_cycle.yml
+  - GOV-000041_knowledge_library_boundary.yml
+  - GOV-000042_app_side_inference_boundary.yml
+  - GOV-000043_common_library_reuse.yml
+  - GOV-000044_cross_app_consistency.yml
+  - GOV-000045_library_scalability.yml
+  - GOV-000046_storage_efficiency.yml
+  - GOV-000047_builder_workflow_integration.yml
+  - GOV-000048_github_workflow_integration.yml
+  - GOV-000049_library_quality_integration.yml
+  - GOV-000050_analysis_engine_library_governance.yml
+notes:
+  - ライブラリ管理はDB運用と品質維持のための管理材料として扱う
+  - Knowledge DB側では推論しない
+  - Builder・生成・監査・Git管理の一貫性を重視する

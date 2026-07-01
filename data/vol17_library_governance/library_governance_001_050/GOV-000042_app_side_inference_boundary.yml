@@ -1,0 +1,33 @@
+id: GOV-000042
+knowledge_type: library_governance
+name_ja: アプリ側推論境界
+name_en: App Side Inference Boundary
+category: Library Governance
+attribute: Integration
+definition_ja: 推論・スコアリング・表示は各アプリ側で行うという責任境界。
+tags:
+  - CAT:ライブラリ管理
+  - CAT:統合
+  - ATTR:管理方針
+parent:
+  - 統合
+related:
+  - 監査
+  - スキーマ
+  - 安全設計
+observable_data:
+  - アプリ側推論境界適用範囲
+  - アプリ側推論境界管理対象
+  - アプリ側推論境界監査条件
+  - アプリ側推論境界更新履歴
+signal_candidates:
+  - アプリ側推論境界をライブラリ運用方針として利用できる
+  - Knowledge DBの品質・拡張性・保守性を管理する材料になる
+device_level: DB管理用
+modifiers:
+  - 品質
+  - 保守性
+  - 互換性
+  - 拡張性
+evidence: 情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用
+status: active

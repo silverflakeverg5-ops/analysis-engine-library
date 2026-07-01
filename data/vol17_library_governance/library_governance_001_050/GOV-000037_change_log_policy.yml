@@ -1,0 +1,33 @@
+id: GOV-000037
+knowledge_type: library_governance
+name_ja: 変更履歴方針
+name_en: Change Log Policy
+category: Library Governance
+attribute: Lifecycle
+definition_ja: 知識項目やスキーマ変更を追跡する方針。
+tags:
+  - CAT:ライブラリ管理
+  - CAT:ライフサイクル
+  - ATTR:管理方針
+parent:
+  - ライフサイクル
+related:
+  - 監査
+  - スキーマ
+  - 安全設計
+observable_data:
+  - 変更履歴方針適用範囲
+  - 変更履歴方針管理対象
+  - 変更履歴方針監査条件
+  - 変更履歴方針更新履歴
+signal_candidates:
+  - 変更履歴方針をライブラリ運用方針として利用できる
+  - Knowledge DBの品質・拡張性・保守性を管理する材料になる
+device_level: DB管理用
+modifiers:
+  - 品質
+  - 保守性
+  - 互換性
+  - 拡張性
+evidence: 情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用
+status: active

@@ -1,0 +1,33 @@
+id: GOV-000011
+knowledge_type: library_governance
+name_ja: 分類体系方針
+name_en: Taxonomy Policy
+category: Library Governance
+attribute: Taxonomy
+definition_ja: 知識項目を概念・行動・環境・補正要因などに整理する方針。
+tags:
+  - CAT:ライブラリ管理
+  - CAT:分類体系
+  - ATTR:管理方針
+parent:
+  - 分類体系
+related:
+  - 監査
+  - スキーマ
+  - 安全設計
+observable_data:
+  - 分類体系方針適用範囲
+  - 分類体系方針管理対象
+  - 分類体系方針監査条件
+  - 分類体系方針更新履歴
+signal_candidates:
+  - 分類体系方針をライブラリ運用方針として利用できる
+  - Knowledge DBの品質・拡張性・保守性を管理する材料になる
+device_level: DB管理用
+modifiers:
+  - 品質
+  - 保守性
+  - 互換性
+  - 拡張性
+evidence: 情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用
+status: active

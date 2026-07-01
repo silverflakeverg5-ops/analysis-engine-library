@@ -1,0 +1,33 @@
+id: GOV-000044
+knowledge_type: library_governance
+name_ja: 複数アプリ整合性
+name_en: Cross App Consistency
+category: Library Governance
+attribute: Integration
+definition_ja: 複数アプリで同じ知識項目を使う際の意味や表示の整合性。
+tags:
+  - CAT:ライブラリ管理
+  - CAT:統合
+  - ATTR:管理方針
+parent:
+  - 統合
+related:
+  - 監査
+  - スキーマ
+  - 安全設計
+observable_data:
+  - 複数アプリ整合性適用範囲
+  - 複数アプリ整合性管理対象
+  - 複数アプリ整合性監査条件
+  - 複数アプリ整合性更新履歴
+signal_candidates:
+  - 複数アプリ整合性をライブラリ運用方針として利用できる
+  - Knowledge DBの品質・拡張性・保守性を管理する材料になる
+device_level: DB管理用
+modifiers:
+  - 品質
+  - 保守性
+  - 互換性
+  - 拡張性
+evidence: 情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用
+status: active

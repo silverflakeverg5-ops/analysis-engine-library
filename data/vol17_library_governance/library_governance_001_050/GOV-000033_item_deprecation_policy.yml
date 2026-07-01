@@ -1,0 +1,33 @@
+id: GOV-000033
+knowledge_type: library_governance
+name_ja: 項目非推奨方針
+name_en: Item Deprecation Policy
+category: Library Governance
+attribute: Lifecycle
+definition_ja: 古い項目や低品質項目を削除せず非推奨化する方針。
+tags:
+  - CAT:ライブラリ管理
+  - CAT:ライフサイクル
+  - ATTR:管理方針
+parent:
+  - ライフサイクル
+related:
+  - 監査
+  - スキーマ
+  - 安全設計
+observable_data:
+  - 項目非推奨方針適用範囲
+  - 項目非推奨方針管理対象
+  - 項目非推奨方針監査条件
+  - 項目非推奨方針更新履歴
+signal_candidates:
+  - 項目非推奨方針をライブラリ運用方針として利用できる
+  - Knowledge DBの品質・拡張性・保守性を管理する材料になる
+device_level: DB管理用
+modifiers:
+  - 品質
+  - 保守性
+  - 互換性
+  - 拡張性
+evidence: 情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用
+status: active

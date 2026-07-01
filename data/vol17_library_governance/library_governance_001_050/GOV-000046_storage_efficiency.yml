@@ -1,0 +1,33 @@
+id: GOV-000046
+knowledge_type: library_governance
+name_ja: 保存効率
+name_en: Storage Efficiency
+category: Library Governance
+attribute: Integration
+definition_ja: データ容量を無駄に増やさず管理しやすくする設計。
+tags:
+  - CAT:ライブラリ管理
+  - CAT:統合
+  - ATTR:管理方針
+parent:
+  - 統合
+related:
+  - 監査
+  - スキーマ
+  - 安全設計
+observable_data:
+  - 保存効率適用範囲
+  - 保存効率管理対象
+  - 保存効率監査条件
+  - 保存効率更新履歴
+signal_candidates:
+  - 保存効率をライブラリ運用方針として利用できる
+  - Knowledge DBの品質・拡張性・保守性を管理する材料になる
+device_level: DB管理用
+modifiers:
+  - 品質
+  - 保守性
+  - 互換性
+  - 拡張性
+evidence: 情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用
+status: active

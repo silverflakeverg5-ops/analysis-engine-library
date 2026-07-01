@@ -1,0 +1,33 @@
+id: GOV-000001
+knowledge_type: library_governance
+name_ja: 知識項目スキーマ
+name_en: Knowledge Item Schema
+category: Library Governance
+attribute: Schema
+definition_ja: 知識項目に必要なID・名称・定義・タグ・観測データなどの構造定義。
+tags:
+  - CAT:ライブラリ管理
+  - CAT:スキーマ
+  - ATTR:管理方針
+parent:
+  - スキーマ
+related:
+  - 監査
+  - スキーマ
+  - 安全設計
+observable_data:
+  - 知識項目スキーマ適用範囲
+  - 知識項目スキーマ管理対象
+  - 知識項目スキーマ監査条件
+  - 知識項目スキーマ更新履歴
+signal_candidates:
+  - 知識項目スキーマをライブラリ運用方針として利用できる
+  - Knowledge DBの品質・拡張性・保守性を管理する材料になる
+device_level: DB管理用
+modifiers:
+  - 品質
+  - 保守性
+  - 互換性
+  - 拡張性
+evidence: 情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用
+status: active

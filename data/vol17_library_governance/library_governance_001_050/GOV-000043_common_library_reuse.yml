@@ -1,0 +1,33 @@
+id: GOV-000043
+knowledge_type: library_governance
+name_ja: 共通ライブラリ再利用
+name_en: Common Library Reuse
+category: Library Governance
+attribute: Integration
+definition_ja: 診断・ゲーム・秘書・教育など複数アプリで共通知識を再利用する設計。
+tags:
+  - CAT:ライブラリ管理
+  - CAT:統合
+  - ATTR:管理方針
+parent:
+  - 統合
+related:
+  - 監査
+  - スキーマ
+  - 安全設計
+observable_data:
+  - 共通ライブラリ再利用適用範囲
+  - 共通ライブラリ再利用管理対象
+  - 共通ライブラリ再利用監査条件
+  - 共通ライブラリ再利用更新履歴
+signal_candidates:
+  - 共通ライブラリ再利用をライブラリ運用方針として利用できる
+  - Knowledge DBの品質・拡張性・保守性を管理する材料になる
+device_level: DB管理用
+modifiers:
+  - 品質
+  - 保守性
+  - 互換性
+  - 拡張性
+evidence: 情報設計・データガバナンス・ナレッジマネジメント・ソフトウェア運用で使用
+status: active

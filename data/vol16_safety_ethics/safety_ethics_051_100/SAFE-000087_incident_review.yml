@@ -1,0 +1,33 @@
+id: SAFE-000087
+knowledge_type: safety_ethics
+name_ja: インシデントレビュー
+name_en: Incident Review
+category: Safety Ethics
+attribute: Audit Governance
+definition_ja: 不適切表示や有害影響が起きた場合に原因と対策を確認する過程。
+tags:
+  - CAT:安全倫理
+  - CAT:監査統制
+  - ATTR:安全設計
+parent:
+  - 監査統制
+related:
+  - 補正要因
+  - 表示設計
+  - アプリ用途
+observable_data:
+  - インシデントレビュー適用条件
+  - インシデントレビューリスク兆候
+  - インシデントレビュー制御対象
+  - インシデントレビュー監査項目
+signal_candidates:
+  - インシデントレビューが必要な文脈が観測される
+  - アプリ側で推論・表示・提案を安全に制御する材料になる
+device_level: DB管理用
+modifiers:
+  - 安全性
+  - プライバシー
+  - 公平性
+  - 高リスク性
+evidence: AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用
+status: active

@@ -1,0 +1,33 @@
+id: SAFE-000074
+knowledge_type: safety_ethics
+name_ja: 個別化オンオフ
+name_en: Personalization Toggle
+category: Safety Ethics
+attribute: User Control
+definition_ja: 個別化機能をユーザーが有効化・無効化できる設計。
+tags:
+  - CAT:安全倫理
+  - CAT:ユーザー制御
+  - ATTR:安全設計
+parent:
+  - ユーザー制御
+related:
+  - 補正要因
+  - 表示設計
+  - アプリ用途
+observable_data:
+  - 個別化オンオフ適用条件
+  - 個別化オンオフリスク兆候
+  - 個別化オンオフ制御対象
+  - 個別化オンオフ監査項目
+signal_candidates:
+  - 個別化オンオフが必要な文脈が観測される
+  - アプリ側で推論・表示・提案を安全に制御する材料になる
+device_level: DB管理用
+modifiers:
+  - 安全性
+  - プライバシー
+  - 公平性
+  - 高リスク性
+evidence: AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用
+status: active

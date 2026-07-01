@@ -1,0 +1,33 @@
+id: SAFE-000054
+knowledge_type: safety_ethics
+name_ja: 同意再確認
+name_en: Consent Refresh
+category: Safety Ethics
+attribute: Consent Control
+definition_ja: 時間経過や用途変更時に同意を再確認する設計。
+tags:
+  - CAT:安全倫理
+  - CAT:同意制御
+  - ATTR:安全設計
+parent:
+  - 同意制御
+related:
+  - 補正要因
+  - 表示設計
+  - アプリ用途
+observable_data:
+  - 同意再確認適用条件
+  - 同意再確認リスク兆候
+  - 同意再確認制御対象
+  - 同意再確認監査項目
+signal_candidates:
+  - 同意再確認が必要な文脈が観測される
+  - アプリ側で推論・表示・提案を安全に制御する材料になる
+device_level: DB管理用
+modifiers:
+  - 安全性
+  - プライバシー
+  - 公平性
+  - 高リスク性
+evidence: AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用
+status: active

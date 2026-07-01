@@ -1,0 +1,33 @@
+id: SAFE-000063
+knowledge_type: safety_ethics
+name_ja: 限界透明性
+name_en: Limitation Transparency
+category: Safety Ethics
+attribute: Transparency
+definition_ja: 推論や表示の限界を明示する安全設計。
+tags:
+  - CAT:安全倫理
+  - CAT:透明性
+  - ATTR:安全設計
+parent:
+  - 透明性
+related:
+  - 補正要因
+  - 表示設計
+  - アプリ用途
+observable_data:
+  - 限界透明性適用条件
+  - 限界透明性リスク兆候
+  - 限界透明性制御対象
+  - 限界透明性監査項目
+signal_candidates:
+  - 限界透明性が必要な文脈が観測される
+  - アプリ側で推論・表示・提案を安全に制御する材料になる
+device_level: DB管理用
+modifiers:
+  - 安全性
+  - プライバシー
+  - 公平性
+  - 高リスク性
+evidence: AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用
+status: active

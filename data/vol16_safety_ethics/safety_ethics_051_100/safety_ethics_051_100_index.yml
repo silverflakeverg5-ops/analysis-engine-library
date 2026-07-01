@@ -1,0 +1,57 @@
+category: Safety Ethics
+name_ja: 安全倫理
+items:
+  - SAFE-000051_explicit_consent.yml
+  - SAFE-000052_granular_consent.yml
+  - SAFE-000053_withdrawal_of_consent.yml
+  - SAFE-000054_consent_refresh.yml
+  - SAFE-000055_informed_consent_display.yml
+  - SAFE-000056_default_privacy_protection.yml
+  - SAFE-000057_optional_data_use.yml
+  - SAFE-000058_consent_scope_clarity.yml
+  - SAFE-000059_consent_log_management.yml
+  - SAFE-000060_consent_control_integration.yml
+  - SAFE-000061_data_transparency.yml
+  - SAFE-000062_inference_transparency.yml
+  - SAFE-000063_limitation_transparency.yml
+  - SAFE-000064_uncertainty_transparency.yml
+  - SAFE-000065_model_boundary_transparency.yml
+  - SAFE-000066_data_source_display.yml
+  - SAFE-000067_reason_code_display.yml
+  - SAFE-000068_audit_trail_visibility.yml
+  - SAFE-000069_user_facing_explanation.yml
+  - SAFE-000070_transparency_integration.yml
+  - SAFE-000071_user_editable_profile.yml
+  - SAFE-000072_result_correction.yml
+  - SAFE-000073_preference_control.yml
+  - SAFE-000074_personalization_toggle.yml
+  - SAFE-000075_data_delete_control.yml
+  - SAFE-000076_data_export_control.yml
+  - SAFE-000077_notification_control.yml
+  - SAFE-000078_analysis_pause_control.yml
+  - SAFE-000079_user_override.yml
+  - SAFE-000080_user_control_integration.yml
+  - SAFE-000081_knowledge_item_audit.yml
+  - SAFE-000082_bias_audit.yml
+  - SAFE-000083_privacy_audit.yml
+  - SAFE-000084_display_safety_audit.yml
+  - SAFE-000085_high_risk_review.yml
+  - SAFE-000086_versioned_safety_policy.yml
+  - SAFE-000087_incident_review.yml
+  - SAFE-000088_human_in_the_loop_review.yml
+  - SAFE-000089_governance_documentation.yml
+  - SAFE-000090_audit_governance_integration.yml
+  - SAFE-000091_entertainment_boundary.yml
+  - SAFE-000092_education_boundary.yml
+  - SAFE-000093_workplace_boundary.yml
+  - SAFE-000094_wellbeing_boundary.yml
+  - SAFE-000095_relationship_boundary_safety.yml
+  - SAFE-000096_minor_use_boundary.yml
+  - SAFE-000097_commercial_use_boundary.yml
+  - SAFE-000098_third_party_sharing_boundary.yml
+  - SAFE-000099_deployment_context_review.yml
+  - SAFE-000100_safety_boundary_integration.yml
+notes:
+  - 安全倫理は推論結果ではなく制御材料として扱う
+  - Knowledge DB側ではスコアリングしない
+  - アプリ側で安全性・表現・同意・リスク制御に利用する

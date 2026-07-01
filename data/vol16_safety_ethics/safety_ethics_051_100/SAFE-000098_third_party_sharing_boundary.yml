@@ -1,0 +1,33 @@
+id: SAFE-000098
+knowledge_type: safety_ethics
+name_ja: 第三者共有境界
+name_en: Third Party Sharing Boundary
+category: Safety Ethics
+attribute: Deployment Boundaries
+definition_ja: 推論結果や個人データを第三者へ共有する際の制限概念。
+tags:
+  - CAT:安全倫理
+  - CAT:運用境界
+  - ATTR:安全設計
+parent:
+  - 運用境界
+related:
+  - 補正要因
+  - 表示設計
+  - アプリ用途
+observable_data:
+  - 第三者共有境界適用条件
+  - 第三者共有境界リスク兆候
+  - 第三者共有境界制御対象
+  - 第三者共有境界監査項目
+signal_candidates:
+  - 第三者共有境界が必要な文脈が観測される
+  - アプリ側で推論・表示・提案を安全に制御する材料になる
+device_level: DB管理用
+modifiers:
+  - 安全性
+  - プライバシー
+  - 公平性
+  - 高リスク性
+evidence: AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用
+status: active

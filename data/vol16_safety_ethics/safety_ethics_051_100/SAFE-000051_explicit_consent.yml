@@ -1,0 +1,33 @@
+id: SAFE-000051
+knowledge_type: safety_ethics
+name_ja: 明示的同意
+name_en: Explicit Consent
+category: Safety Ethics
+attribute: Consent Control
+definition_ja: データ利用や推論表示についてユーザーが明確に同意する仕組み。
+tags:
+  - CAT:安全倫理
+  - CAT:同意制御
+  - ATTR:安全設計
+parent:
+  - 同意制御
+related:
+  - 補正要因
+  - 表示設計
+  - アプリ用途
+observable_data:
+  - 明示的同意適用条件
+  - 明示的同意リスク兆候
+  - 明示的同意制御対象
+  - 明示的同意監査項目
+signal_candidates:
+  - 明示的同意が必要な文脈が観測される
+  - アプリ側で推論・表示・提案を安全に制御する材料になる
+device_level: DB管理用
+modifiers:
+  - 安全性
+  - プライバシー
+  - 公平性
+  - 高リスク性
+evidence: AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用
+status: active

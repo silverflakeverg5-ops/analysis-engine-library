@@ -1,0 +1,33 @@
+id: SAFE-000071
+knowledge_type: safety_ethics
+name_ja: ユーザー編集可能プロフィール
+name_en: User Editable Profile
+category: Safety Ethics
+attribute: User Control
+definition_ja: ユーザーが自分に関する推論前提を確認・修正できる設計。
+tags:
+  - CAT:安全倫理
+  - CAT:ユーザー制御
+  - ATTR:安全設計
+parent:
+  - ユーザー制御
+related:
+  - 補正要因
+  - 表示設計
+  - アプリ用途
+observable_data:
+  - ユーザー編集可能プロフィール適用条件
+  - ユーザー編集可能プロフィールリスク兆候
+  - ユーザー編集可能プロフィール制御対象
+  - ユーザー編集可能プロフィール監査項目
+signal_candidates:
+  - ユーザー編集可能プロフィールが必要な文脈が観測される
+  - アプリ側で推論・表示・提案を安全に制御する材料になる
+device_level: DB管理用
+modifiers:
+  - 安全性
+  - プライバシー
+  - 公平性
+  - 高リスク性
+evidence: AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用
+status: active

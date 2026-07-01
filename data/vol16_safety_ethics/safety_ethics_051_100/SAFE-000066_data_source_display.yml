@@ -1,0 +1,33 @@
+id: SAFE-000066
+knowledge_type: safety_ethics
+name_ja: データソース表示
+name_en: Data Source Display
+category: Safety Ethics
+attribute: Transparency
+definition_ja: 使用したデータ源をユーザーに示す表示設計。
+tags:
+  - CAT:安全倫理
+  - CAT:透明性
+  - ATTR:安全設計
+parent:
+  - 透明性
+related:
+  - 補正要因
+  - 表示設計
+  - アプリ用途
+observable_data:
+  - データソース表示適用条件
+  - データソース表示リスク兆候
+  - データソース表示制御対象
+  - データソース表示監査項目
+signal_candidates:
+  - データソース表示が必要な文脈が観測される
+  - アプリ側で推論・表示・提案を安全に制御する材料になる
+device_level: DB管理用
+modifiers:
+  - 安全性
+  - プライバシー
+  - 公平性
+  - 高リスク性
+evidence: AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用
+status: active

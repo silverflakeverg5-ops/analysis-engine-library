@@ -1,0 +1,33 @@
+id: SAFE-000079
+knowledge_type: safety_ethics
+name_ja: ユーザー上書き
+name_en: User Override
+category: Safety Ethics
+attribute: User Control
+definition_ja: システム推論よりユーザー修正を優先できる設計。
+tags:
+  - CAT:安全倫理
+  - CAT:ユーザー制御
+  - ATTR:安全設計
+parent:
+  - ユーザー制御
+related:
+  - 補正要因
+  - 表示設計
+  - アプリ用途
+observable_data:
+  - ユーザー上書き適用条件
+  - ユーザー上書きリスク兆候
+  - ユーザー上書き制御対象
+  - ユーザー上書き監査項目
+signal_candidates:
+  - ユーザー上書きが必要な文脈が観測される
+  - アプリ側で推論・表示・提案を安全に制御する材料になる
+device_level: DB管理用
+modifiers:
+  - 安全性
+  - プライバシー
+  - 公平性
+  - 高リスク性
+evidence: AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用
+status: active

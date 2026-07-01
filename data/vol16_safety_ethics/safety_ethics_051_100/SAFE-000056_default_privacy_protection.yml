@@ -1,0 +1,33 @@
+id: SAFE-000056
+knowledge_type: safety_ethics
+name_ja: 初期プライバシー保護
+name_en: Default Privacy Protection
+category: Safety Ethics
+attribute: Consent Control
+definition_ja: 初期設定で過剰なデータ利用を避ける安全設計。
+tags:
+  - CAT:安全倫理
+  - CAT:同意制御
+  - ATTR:安全設計
+parent:
+  - 同意制御
+related:
+  - 補正要因
+  - 表示設計
+  - アプリ用途
+observable_data:
+  - 初期プライバシー保護適用条件
+  - 初期プライバシー保護リスク兆候
+  - 初期プライバシー保護制御対象
+  - 初期プライバシー保護監査項目
+signal_candidates:
+  - 初期プライバシー保護が必要な文脈が観測される
+  - アプリ側で推論・表示・提案を安全に制御する材料になる
+device_level: DB管理用
+modifiers:
+  - 安全性
+  - プライバシー
+  - 公平性
+  - 高リスク性
+evidence: AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用
+status: active

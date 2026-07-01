@@ -1,0 +1,2107 @@
+{
+  "output_dir": "vol16_safety_ethics/safety_ethics_051_100",
+  "index_filename": "safety_ethics_051_100_index.yml",
+  "index_content": "category: Safety Ethics\nname_ja: 安全倫理\nitems:\n  - SAFE-000051_explicit_consent.yml\n  - SAFE-000052_granular_consent.yml\n  - SAFE-000053_withdrawal_of_consent.yml\n  - SAFE-000054_consent_refresh.yml\n  - SAFE-000055_informed_consent_display.yml\n  - SAFE-000056_default_privacy_protection.yml\n  - SAFE-000057_optional_data_use.yml\n  - SAFE-000058_consent_scope_clarity.yml\n  - SAFE-000059_consent_log_management.yml\n  - SAFE-000060_consent_control_integration.yml\n  - SAFE-000061_data_transparency.yml\n  - SAFE-000062_inference_transparency.yml\n  - SAFE-000063_limitation_transparency.yml\n  - SAFE-000064_uncertainty_transparency.yml\n  - SAFE-000065_model_boundary_transparency.yml\n  - SAFE-000066_data_source_display.yml\n  - SAFE-000067_reason_code_display.yml\n  - SAFE-000068_audit_trail_visibility.yml\n  - SAFE-000069_user_facing_explanation.yml\n  - SAFE-000070_transparency_integration.yml\n  - SAFE-000071_user_editable_profile.yml\n  - SAFE-000072_result_correction.yml\n  - SAFE-000073_preference_control.yml\n  - SAFE-000074_personalization_toggle.yml\n  - SAFE-000075_data_delete_control.yml\n  - SAFE-000076_data_export_control.yml\n  - SAFE-000077_notification_control.yml\n  - SAFE-000078_analysis_pause_control.yml\n  - SAFE-000079_user_override.yml\n  - SAFE-000080_user_control_integration.yml\n  - SAFE-000081_knowledge_item_audit.yml\n  - SAFE-000082_bias_audit.yml\n  - SAFE-000083_privacy_audit.yml\n  - SAFE-000084_display_safety_audit.yml\n  - SAFE-000085_high_risk_review.yml\n  - SAFE-000086_versioned_safety_policy.yml\n  - SAFE-000087_incident_review.yml\n  - SAFE-000088_human_in_the_loop_review.yml\n  - SAFE-000089_governance_documentation.yml\n  - SAFE-000090_audit_governance_integration.yml\n  - SAFE-000091_entertainment_boundary.yml\n  - SAFE-000092_education_boundary.yml\n  - SAFE-000093_workplace_boundary.yml\n  - SAFE-000094_wellbeing_boundary.yml\n  - SAFE-000095_relationship_boundary_safety.yml\n  - SAFE-000096_minor_use_boundary.yml\n  - SAFE-000097_commercial_use_boundary.yml\n  - SAFE-000098_third_party_sharing_boundary.yml\n  - SAFE-000099_deployment_context_review.yml\n  - SAFE-000100_safety_boundary_integration.yml\nnotes:\n  - 安全倫理は推論結果ではなく制御材料として扱う\n  - Knowledge DB側ではスコアリングしない\n  - アプリ側で安全性・表現・同意・リスク制御に利用する\n",
+  "items": [
+    {
+      "filename": "SAFE-000051_explicit_consent.yml",
+      "id": "SAFE-000051",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "明示的同意",
+      "name_en": "Explicit Consent",
+      "category": "Safety Ethics",
+      "attribute": "Consent Control",
+      "definition_ja": "データ利用や推論表示についてユーザーが明確に同意する仕組み。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:同意制御",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "同意制御"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "明示的同意適用条件",
+        "明示的同意リスク兆候",
+        "明示的同意制御対象",
+        "明示的同意監査項目"
+      ],
+      "signal_candidates": [
+        "明示的同意が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000052_granular_consent.yml",
+      "id": "SAFE-000052",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "細分化同意",
+      "name_en": "Granular Consent",
+      "category": "Safety Ethics",
+      "attribute": "Consent Control",
+      "definition_ja": "データ種別・用途・表示範囲ごとに同意を分けて管理する考え方。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:同意制御",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "同意制御"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "細分化同意適用条件",
+        "細分化同意リスク兆候",
+        "細分化同意制御対象",
+        "細分化同意監査項目"
+      ],
+      "signal_candidates": [
+        "細分化同意が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000053_withdrawal_of_consent.yml",
+      "id": "SAFE-000053",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "同意撤回",
+      "name_en": "Withdrawal of Consent",
+      "category": "Safety Ethics",
+      "attribute": "Consent Control",
+      "definition_ja": "ユーザーがいつでも同意を取り消せる仕組み。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:同意制御",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "同意制御"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "同意撤回適用条件",
+        "同意撤回リスク兆候",
+        "同意撤回制御対象",
+        "同意撤回監査項目"
+      ],
+      "signal_candidates": [
+        "同意撤回が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000054_consent_refresh.yml",
+      "id": "SAFE-000054",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "同意再確認",
+      "name_en": "Consent Refresh",
+      "category": "Safety Ethics",
+      "attribute": "Consent Control",
+      "definition_ja": "時間経過や用途変更時に同意を再確認する設計。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:同意制御",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "同意制御"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "同意再確認適用条件",
+        "同意再確認リスク兆候",
+        "同意再確認制御対象",
+        "同意再確認監査項目"
+      ],
+      "signal_candidates": [
+        "同意再確認が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000055_informed_consent_display.yml",
+      "id": "SAFE-000055",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "説明付き同意表示",
+      "name_en": "Informed Consent Display",
+      "category": "Safety Ethics",
+      "attribute": "Consent Control",
+      "definition_ja": "何に使われるかを理解できる形で同意を求める表示設計。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:同意制御",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "同意制御"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "説明付き同意表示適用条件",
+        "説明付き同意表示リスク兆候",
+        "説明付き同意表示制御対象",
+        "説明付き同意表示監査項目"
+      ],
+      "signal_candidates": [
+        "説明付き同意表示が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000056_default_privacy_protection.yml",
+      "id": "SAFE-000056",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "初期プライバシー保護",
+      "name_en": "Default Privacy Protection",
+      "category": "Safety Ethics",
+      "attribute": "Consent Control",
+      "definition_ja": "初期設定で過剰なデータ利用を避ける安全設計。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:同意制御",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "同意制御"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "初期プライバシー保護適用条件",
+        "初期プライバシー保護リスク兆候",
+        "初期プライバシー保護制御対象",
+        "初期プライバシー保護監査項目"
+      ],
+      "signal_candidates": [
+        "初期プライバシー保護が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000057_optional_data_use.yml",
+      "id": "SAFE-000057",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "任意データ利用",
+      "name_en": "Optional Data Use",
+      "category": "Safety Ethics",
+      "attribute": "Consent Control",
+      "definition_ja": "追加データ提供を必須にせず任意で扱う設計。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:同意制御",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "同意制御"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "任意データ利用適用条件",
+        "任意データ利用リスク兆候",
+        "任意データ利用制御対象",
+        "任意データ利用監査項目"
+      ],
+      "signal_candidates": [
+        "任意データ利用が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000058_consent_scope_clarity.yml",
+      "id": "SAFE-000058",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "同意範囲明確化",
+      "name_en": "Consent Scope Clarity",
+      "category": "Safety Ethics",
+      "attribute": "Consent Control",
+      "definition_ja": "ユーザーが何に同意しているか明確にする管理概念。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:同意制御",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "同意制御"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "同意範囲明確化適用条件",
+        "同意範囲明確化リスク兆候",
+        "同意範囲明確化制御対象",
+        "同意範囲明確化監査項目"
+      ],
+      "signal_candidates": [
+        "同意範囲明確化が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000059_consent_log_management.yml",
+      "id": "SAFE-000059",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "同意ログ管理",
+      "name_en": "Consent Log Management",
+      "category": "Safety Ethics",
+      "attribute": "Consent Control",
+      "definition_ja": "同意・撤回・変更履歴を管理する仕組み。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:同意制御",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "同意制御"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "同意ログ管理適用条件",
+        "同意ログ管理リスク兆候",
+        "同意ログ管理制御対象",
+        "同意ログ管理監査項目"
+      ],
+      "signal_candidates": [
+        "同意ログ管理が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000060_consent_control_integration.yml",
+      "id": "SAFE-000060",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "同意制御統合",
+      "name_en": "Consent Control Integration",
+      "category": "Safety Ethics",
+      "attribute": "Consent Control",
+      "definition_ja": "同意取得・撤回・範囲管理を統合して扱う枠組み。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:同意制御",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "同意制御"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "同意制御統合適用条件",
+        "同意制御統合リスク兆候",
+        "同意制御統合制御対象",
+        "同意制御統合監査項目"
+      ],
+      "signal_candidates": [
+        "同意制御統合が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000061_data_transparency.yml",
+      "id": "SAFE-000061",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "データ透明性",
+      "name_en": "Data Transparency",
+      "category": "Safety Ethics",
+      "attribute": "Transparency",
+      "definition_ja": "どのデータがどの目的で使われたか分かるようにする考え方。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:透明性",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "透明性"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "データ透明性適用条件",
+        "データ透明性リスク兆候",
+        "データ透明性制御対象",
+        "データ透明性監査項目"
+      ],
+      "signal_candidates": [
+        "データ透明性が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000062_inference_transparency.yml",
+      "id": "SAFE-000062",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "推論透明性",
+      "name_en": "Inference Transparency",
+      "category": "Safety Ethics",
+      "attribute": "Transparency",
+      "definition_ja": "推論結果がどの材料から作られたか説明可能にする考え方。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:透明性",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "透明性"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "推論透明性適用条件",
+        "推論透明性リスク兆候",
+        "推論透明性制御対象",
+        "推論透明性監査項目"
+      ],
+      "signal_candidates": [
+        "推論透明性が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000063_limitation_transparency.yml",
+      "id": "SAFE-000063",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "限界透明性",
+      "name_en": "Limitation Transparency",
+      "category": "Safety Ethics",
+      "attribute": "Transparency",
+      "definition_ja": "推論や表示の限界を明示する安全設計。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:透明性",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "透明性"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "限界透明性適用条件",
+        "限界透明性リスク兆候",
+        "限界透明性制御対象",
+        "限界透明性監査項目"
+      ],
+      "signal_candidates": [
+        "限界透明性が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000064_uncertainty_transparency.yml",
+      "id": "SAFE-000064",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "不確実性透明性",
+      "name_en": "Uncertainty Transparency",
+      "category": "Safety Ethics",
+      "attribute": "Transparency",
+      "definition_ja": "結果の確信度や曖昧さをユーザーに示す考え方。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:透明性",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "透明性"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "不確実性透明性適用条件",
+        "不確実性透明性リスク兆候",
+        "不確実性透明性制御対象",
+        "不確実性透明性監査項目"
+      ],
+      "signal_candidates": [
+        "不確実性透明性が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000065_model_boundary_transparency.yml",
+      "id": "SAFE-000065",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "モデル境界透明性",
+      "name_en": "Model Boundary Transparency",
+      "category": "Safety Ethics",
+      "attribute": "Transparency",
+      "definition_ja": "システムができることとできないことを明確にする設計。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:透明性",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "透明性"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "モデル境界透明性適用条件",
+        "モデル境界透明性リスク兆候",
+        "モデル境界透明性制御対象",
+        "モデル境界透明性監査項目"
+      ],
+      "signal_candidates": [
+        "モデル境界透明性が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000066_data_source_display.yml",
+      "id": "SAFE-000066",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "データソース表示",
+      "name_en": "Data Source Display",
+      "category": "Safety Ethics",
+      "attribute": "Transparency",
+      "definition_ja": "使用したデータ源をユーザーに示す表示設計。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:透明性",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "透明性"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "データソース表示適用条件",
+        "データソース表示リスク兆候",
+        "データソース表示制御対象",
+        "データソース表示監査項目"
+      ],
+      "signal_candidates": [
+        "データソース表示が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000067_reason_code_display.yml",
+      "id": "SAFE-000067",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "理由コード表示",
+      "name_en": "Reason Code Display",
+      "category": "Safety Ethics",
+      "attribute": "Transparency",
+      "definition_ja": "推論に使われた主要理由を簡潔に示す表示設計。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:透明性",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "透明性"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "理由コード表示適用条件",
+        "理由コード表示リスク兆候",
+        "理由コード表示制御対象",
+        "理由コード表示監査項目"
+      ],
+      "signal_candidates": [
+        "理由コード表示が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000068_audit_trail_visibility.yml",
+      "id": "SAFE-000068",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "監査経路可視化",
+      "name_en": "Audit Trail Visibility",
+      "category": "Safety Ethics",
+      "attribute": "Transparency",
+      "definition_ja": "データ利用や表示判断の履歴を確認できる状態。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:透明性",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "透明性"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "監査経路可視化適用条件",
+        "監査経路可視化リスク兆候",
+        "監査経路可視化制御対象",
+        "監査経路可視化監査項目"
+      ],
+      "signal_candidates": [
+        "監査経路可視化が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000069_user_facing_explanation.yml",
+      "id": "SAFE-000069",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "ユーザー向け説明",
+      "name_en": "User Facing Explanation",
+      "category": "Safety Ethics",
+      "attribute": "Transparency",
+      "definition_ja": "技術的詳細を平易な言葉で説明する設計。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:透明性",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "透明性"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "ユーザー向け説明適用条件",
+        "ユーザー向け説明リスク兆候",
+        "ユーザー向け説明制御対象",
+        "ユーザー向け説明監査項目"
+      ],
+      "signal_candidates": [
+        "ユーザー向け説明が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000070_transparency_integration.yml",
+      "id": "SAFE-000070",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "透明性統合",
+      "name_en": "Transparency Integration",
+      "category": "Safety Ethics",
+      "attribute": "Transparency",
+      "definition_ja": "データ・推論・限界・同意を統合して説明する枠組み。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:透明性",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "透明性"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "透明性統合適用条件",
+        "透明性統合リスク兆候",
+        "透明性統合制御対象",
+        "透明性統合監査項目"
+      ],
+      "signal_candidates": [
+        "透明性統合が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000071_user_editable_profile.yml",
+      "id": "SAFE-000071",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "ユーザー編集可能プロフィール",
+      "name_en": "User Editable Profile",
+      "category": "Safety Ethics",
+      "attribute": "User Control",
+      "definition_ja": "ユーザーが自分に関する推論前提を確認・修正できる設計。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:ユーザー制御",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "ユーザー制御"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "ユーザー編集可能プロフィール適用条件",
+        "ユーザー編集可能プロフィールリスク兆候",
+        "ユーザー編集可能プロフィール制御対象",
+        "ユーザー編集可能プロフィール監査項目"
+      ],
+      "signal_candidates": [
+        "ユーザー編集可能プロフィールが必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000072_result_correction.yml",
+      "id": "SAFE-000072",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "結果修正",
+      "name_en": "Result Correction",
+      "category": "Safety Ethics",
+      "attribute": "User Control",
+      "definition_ja": "ユーザーが推論結果に対して違う・近いなどの修正を返せる仕組み。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:ユーザー制御",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "ユーザー制御"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "結果修正適用条件",
+        "結果修正リスク兆候",
+        "結果修正制御対象",
+        "結果修正監査項目"
+      ],
+      "signal_candidates": [
+        "結果修正が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000073_preference_control.yml",
+      "id": "SAFE-000073",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "嗜好制御",
+      "name_en": "Preference Control",
+      "category": "Safety Ethics",
+      "attribute": "User Control",
+      "definition_ja": "通知・表示・提案の好みをユーザーが調整できる仕組み。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:ユーザー制御",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "ユーザー制御"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "嗜好制御適用条件",
+        "嗜好制御リスク兆候",
+        "嗜好制御制御対象",
+        "嗜好制御監査項目"
+      ],
+      "signal_candidates": [
+        "嗜好制御が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000074_personalization_toggle.yml",
+      "id": "SAFE-000074",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "個別化オンオフ",
+      "name_en": "Personalization Toggle",
+      "category": "Safety Ethics",
+      "attribute": "User Control",
+      "definition_ja": "個別化機能をユーザーが有効化・無効化できる設計。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:ユーザー制御",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "ユーザー制御"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "個別化オンオフ適用条件",
+        "個別化オンオフリスク兆候",
+        "個別化オンオフ制御対象",
+        "個別化オンオフ監査項目"
+      ],
+      "signal_candidates": [
+        "個別化オンオフが必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000075_data_delete_control.yml",
+      "id": "SAFE-000075",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "データ削除制御",
+      "name_en": "Data Delete Control",
+      "category": "Safety Ethics",
+      "attribute": "User Control",
+      "definition_ja": "ユーザーが自分のデータ削除を行える仕組み。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:ユーザー制御",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "ユーザー制御"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "データ削除制御適用条件",
+        "データ削除制御リスク兆候",
+        "データ削除制御制御対象",
+        "データ削除制御監査項目"
+      ],
+      "signal_candidates": [
+        "データ削除制御が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000076_data_export_control.yml",
+      "id": "SAFE-000076",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "データ確認制御",
+      "name_en": "Data Export Control",
+      "category": "Safety Ethics",
+      "attribute": "User Control",
+      "definition_ja": "ユーザーが自分のデータを確認・取得できる仕組み。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:ユーザー制御",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "ユーザー制御"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "データ確認制御適用条件",
+        "データ確認制御リスク兆候",
+        "データ確認制御制御対象",
+        "データ確認制御監査項目"
+      ],
+      "signal_candidates": [
+        "データ確認制御が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000077_notification_control.yml",
+      "id": "SAFE-000077",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "通知制御",
+      "name_en": "Notification Control",
+      "category": "Safety Ethics",
+      "attribute": "User Control",
+      "definition_ja": "通知頻度・種類・時間帯をユーザーが調整できる設計。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:ユーザー制御",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "ユーザー制御"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "通知制御適用条件",
+        "通知制御リスク兆候",
+        "通知制御制御対象",
+        "通知制御監査項目"
+      ],
+      "signal_candidates": [
+        "通知制御が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000078_analysis_pause_control.yml",
+      "id": "SAFE-000078",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "分析停止制御",
+      "name_en": "Analysis Pause Control",
+      "category": "Safety Ethics",
+      "attribute": "User Control",
+      "definition_ja": "一時的に分析や観測利用を停止できる仕組み。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:ユーザー制御",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "ユーザー制御"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "分析停止制御適用条件",
+        "分析停止制御リスク兆候",
+        "分析停止制御制御対象",
+        "分析停止制御監査項目"
+      ],
+      "signal_candidates": [
+        "分析停止制御が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000079_user_override.yml",
+      "id": "SAFE-000079",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "ユーザー上書き",
+      "name_en": "User Override",
+      "category": "Safety Ethics",
+      "attribute": "User Control",
+      "definition_ja": "システム推論よりユーザー修正を優先できる設計。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:ユーザー制御",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "ユーザー制御"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "ユーザー上書き適用条件",
+        "ユーザー上書きリスク兆候",
+        "ユーザー上書き制御対象",
+        "ユーザー上書き監査項目"
+      ],
+      "signal_candidates": [
+        "ユーザー上書きが必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000080_user_control_integration.yml",
+      "id": "SAFE-000080",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "ユーザー制御統合",
+      "name_en": "User Control Integration",
+      "category": "Safety Ethics",
+      "attribute": "User Control",
+      "definition_ja": "修正・停止・削除・個別化制御を統合して扱う枠組み。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:ユーザー制御",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "ユーザー制御"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "ユーザー制御統合適用条件",
+        "ユーザー制御統合リスク兆候",
+        "ユーザー制御統合制御対象",
+        "ユーザー制御統合監査項目"
+      ],
+      "signal_candidates": [
+        "ユーザー制御統合が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000081_knowledge_item_audit.yml",
+      "id": "SAFE-000081",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "知識項目監査",
+      "name_en": "Knowledge Item Audit",
+      "category": "Safety Ethics",
+      "attribute": "Audit Governance",
+      "definition_ja": "知識項目の定義・根拠・安全性を確認する管理過程。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:監査統制",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "監査統制"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "知識項目監査適用条件",
+        "知識項目監査リスク兆候",
+        "知識項目監査制御対象",
+        "知識項目監査監査項目"
+      ],
+      "signal_candidates": [
+        "知識項目監査が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000082_bias_audit.yml",
+      "id": "SAFE-000082",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "バイアス監査",
+      "name_en": "Bias Audit",
+      "category": "Safety Ethics",
+      "attribute": "Audit Governance",
+      "definition_ja": "知識・データ・表示に含まれる偏りを確認する過程。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:監査統制",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "監査統制"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "バイアス監査適用条件",
+        "バイアス監査リスク兆候",
+        "バイアス監査制御対象",
+        "バイアス監査監査項目"
+      ],
+      "signal_candidates": [
+        "バイアス監査が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000083_privacy_audit.yml",
+      "id": "SAFE-000083",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "プライバシー監査",
+      "name_en": "Privacy Audit",
+      "category": "Safety Ethics",
+      "attribute": "Audit Governance",
+      "definition_ja": "データ利用や表示がプライバシーを侵害しないか確認する過程。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:監査統制",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "監査統制"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "プライバシー監査適用条件",
+        "プライバシー監査リスク兆候",
+        "プライバシー監査制御対象",
+        "プライバシー監査監査項目"
+      ],
+      "signal_candidates": [
+        "プライバシー監査が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000084_display_safety_audit.yml",
+      "id": "SAFE-000084",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "表示安全監査",
+      "name_en": "Display Safety Audit",
+      "category": "Safety Ethics",
+      "attribute": "Audit Governance",
+      "definition_ja": "結果表示が断定的・不安誘発的・不公平でないか確認する過程。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:監査統制",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "監査統制"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "表示安全監査適用条件",
+        "表示安全監査リスク兆候",
+        "表示安全監査制御対象",
+        "表示安全監査監査項目"
+      ],
+      "signal_candidates": [
+        "表示安全監査が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000085_high_risk_review.yml",
+      "id": "SAFE-000085",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "高リスクレビュー",
+      "name_en": "High Risk Review",
+      "category": "Safety Ethics",
+      "attribute": "Audit Governance",
+      "definition_ja": "重大判断や機微領域に関わる用途を追加確認する過程。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:監査統制",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "監査統制"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "高リスクレビュー適用条件",
+        "高リスクレビューリスク兆候",
+        "高リスクレビュー制御対象",
+        "高リスクレビュー監査項目"
+      ],
+      "signal_candidates": [
+        "高リスクレビューが必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000086_versioned_safety_policy.yml",
+      "id": "SAFE-000086",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "安全方針バージョン管理",
+      "name_en": "Versioned Safety Policy",
+      "category": "Safety Ethics",
+      "attribute": "Audit Governance",
+      "definition_ja": "安全方針や表示方針の変更履歴を管理する考え方。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:監査統制",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "監査統制"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "安全方針バージョン管理適用条件",
+        "安全方針バージョン管理リスク兆候",
+        "安全方針バージョン管理制御対象",
+        "安全方針バージョン管理監査項目"
+      ],
+      "signal_candidates": [
+        "安全方針バージョン管理が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000087_incident_review.yml",
+      "id": "SAFE-000087",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "インシデントレビュー",
+      "name_en": "Incident Review",
+      "category": "Safety Ethics",
+      "attribute": "Audit Governance",
+      "definition_ja": "不適切表示や有害影響が起きた場合に原因と対策を確認する過程。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:監査統制",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "監査統制"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "インシデントレビュー適用条件",
+        "インシデントレビューリスク兆候",
+        "インシデントレビュー制御対象",
+        "インシデントレビュー監査項目"
+      ],
+      "signal_candidates": [
+        "インシデントレビューが必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000088_human_in_the_loop_review.yml",
+      "id": "SAFE-000088",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "人間参加レビュー",
+      "name_en": "Human in the Loop Review",
+      "category": "Safety Ethics",
+      "attribute": "Audit Governance",
+      "definition_ja": "必要時に人間が推論や表示の妥当性を確認する仕組み。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:監査統制",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "監査統制"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "人間参加レビュー適用条件",
+        "人間参加レビューリスク兆候",
+        "人間参加レビュー制御対象",
+        "人間参加レビュー監査項目"
+      ],
+      "signal_candidates": [
+        "人間参加レビューが必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000089_governance_documentation.yml",
+      "id": "SAFE-000089",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "統制文書化",
+      "name_en": "Governance Documentation",
+      "category": "Safety Ethics",
+      "attribute": "Audit Governance",
+      "definition_ja": "安全ルール・責任範囲・監査結果を文書化する管理。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:監査統制",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "監査統制"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "統制文書化適用条件",
+        "統制文書化リスク兆候",
+        "統制文書化制御対象",
+        "統制文書化監査項目"
+      ],
+      "signal_candidates": [
+        "統制文書化が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000090_audit_governance_integration.yml",
+      "id": "SAFE-000090",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "監査統制統合",
+      "name_en": "Audit Governance Integration",
+      "category": "Safety Ethics",
+      "attribute": "Audit Governance",
+      "definition_ja": "監査・レビュー・文書化・改善を統合して管理する枠組み。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:監査統制",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "監査統制"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "監査統制統合適用条件",
+        "監査統制統合リスク兆候",
+        "監査統制統合制御対象",
+        "監査統制統合監査項目"
+      ],
+      "signal_candidates": [
+        "監査統制統合が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000091_entertainment_boundary.yml",
+      "id": "SAFE-000091",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "エンタメ用途境界",
+      "name_en": "Entertainment Boundary",
+      "category": "Safety Ethics",
+      "attribute": "Deployment Boundaries",
+      "definition_ja": "診断風コンテンツを娯楽として扱うための境界設計。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:運用境界",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "運用境界"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "エンタメ用途境界適用条件",
+        "エンタメ用途境界リスク兆候",
+        "エンタメ用途境界制御対象",
+        "エンタメ用途境界監査項目"
+      ],
+      "signal_candidates": [
+        "エンタメ用途境界が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000092_education_boundary.yml",
+      "id": "SAFE-000092",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "教育用途境界",
+      "name_en": "Education Boundary",
+      "category": "Safety Ethics",
+      "attribute": "Deployment Boundaries",
+      "definition_ja": "学習支援を成績断定や能力固定化に使わないための境界設計。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:運用境界",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "運用境界"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "教育用途境界適用条件",
+        "教育用途境界リスク兆候",
+        "教育用途境界制御対象",
+        "教育用途境界監査項目"
+      ],
+      "signal_candidates": [
+        "教育用途境界が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000093_workplace_boundary.yml",
+      "id": "SAFE-000093",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "職場用途境界",
+      "name_en": "Workplace Boundary",
+      "category": "Safety Ethics",
+      "attribute": "Deployment Boundaries",
+      "definition_ja": "職場支援を人事評価や選別に直結させないための境界設計。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:運用境界",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "運用境界"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "職場用途境界適用条件",
+        "職場用途境界リスク兆候",
+        "職場用途境界制御対象",
+        "職場用途境界監査項目"
+      ],
+      "signal_candidates": [
+        "職場用途境界が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000094_wellbeing_boundary.yml",
+      "id": "SAFE-000094",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "ウェルビーイング境界",
+      "name_en": "Wellbeing Boundary",
+      "category": "Safety Ethics",
+      "attribute": "Deployment Boundaries",
+      "definition_ja": "健康支援を医療診断や治療判断にしないための境界設計。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:運用境界",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "運用境界"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "ウェルビーイング境界適用条件",
+        "ウェルビーイング境界リスク兆候",
+        "ウェルビーイング境界制御対象",
+        "ウェルビーイング境界監査項目"
+      ],
+      "signal_candidates": [
+        "ウェルビーイング境界が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000095_relationship_boundary_safety.yml",
+      "id": "SAFE-000095",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "関係性用途境界",
+      "name_en": "Relationship Boundary Safety",
+      "category": "Safety Ethics",
+      "attribute": "Deployment Boundaries",
+      "definition_ja": "相性や関係推定を断定や排除に使わないための境界設計。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:運用境界",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "運用境界"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "関係性用途境界適用条件",
+        "関係性用途境界リスク兆候",
+        "関係性用途境界制御対象",
+        "関係性用途境界監査項目"
+      ],
+      "signal_candidates": [
+        "関係性用途境界が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000096_minor_use_boundary.yml",
+      "id": "SAFE-000096",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "未成年利用境界",
+      "name_en": "Minor Use Boundary",
+      "category": "Safety Ethics",
+      "attribute": "Deployment Boundaries",
+      "definition_ja": "未成年向け用途で表示・データ利用・提案を慎重化する境界設計。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:運用境界",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "運用境界"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "未成年利用境界適用条件",
+        "未成年利用境界リスク兆候",
+        "未成年利用境界制御対象",
+        "未成年利用境界監査項目"
+      ],
+      "signal_candidates": [
+        "未成年利用境界が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000097_commercial_use_boundary.yml",
+      "id": "SAFE-000097",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "商用利用境界",
+      "name_en": "Commercial Use Boundary",
+      "category": "Safety Ethics",
+      "attribute": "Deployment Boundaries",
+      "definition_ja": "収益化や推薦が操作的誘導にならないよう制限する境界設計。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:運用境界",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "運用境界"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "商用利用境界適用条件",
+        "商用利用境界リスク兆候",
+        "商用利用境界制御対象",
+        "商用利用境界監査項目"
+      ],
+      "signal_candidates": [
+        "商用利用境界が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000098_third_party_sharing_boundary.yml",
+      "id": "SAFE-000098",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "第三者共有境界",
+      "name_en": "Third Party Sharing Boundary",
+      "category": "Safety Ethics",
+      "attribute": "Deployment Boundaries",
+      "definition_ja": "推論結果や個人データを第三者へ共有する際の制限概念。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:運用境界",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "運用境界"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "第三者共有境界適用条件",
+        "第三者共有境界リスク兆候",
+        "第三者共有境界制御対象",
+        "第三者共有境界監査項目"
+      ],
+      "signal_candidates": [
+        "第三者共有境界が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000099_deployment_context_review.yml",
+      "id": "SAFE-000099",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "運用文脈レビュー",
+      "name_en": "Deployment Context Review",
+      "category": "Safety Ethics",
+      "attribute": "Deployment Boundaries",
+      "definition_ja": "実際のアプリ運用文脈が安全範囲内か確認する過程。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:運用境界",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "運用境界"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "運用文脈レビュー適用条件",
+        "運用文脈レビューリスク兆候",
+        "運用文脈レビュー制御対象",
+        "運用文脈レビュー監査項目"
+      ],
+      "signal_candidates": [
+        "運用文脈レビューが必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    },
+    {
+      "filename": "SAFE-000100_safety_boundary_integration.yml",
+      "id": "SAFE-000100",
+      "knowledge_type": "safety_ethics",
+      "name_ja": "安全境界統合",
+      "name_en": "Safety Boundary Integration",
+      "category": "Safety Ethics",
+      "attribute": "Deployment Boundaries",
+      "definition_ja": "用途・対象・データ・表示の境界を統合して管理する枠組み。",
+      "tags": [
+        "CAT:安全倫理",
+        "CAT:運用境界",
+        "ATTR:安全設計"
+      ],
+      "parent": [
+        "運用境界"
+      ],
+      "related": [
+        "補正要因",
+        "表示設計",
+        "アプリ用途"
+      ],
+      "observable_data": [
+        "安全境界統合適用条件",
+        "安全境界統合リスク兆候",
+        "安全境界統合制御対象",
+        "安全境界統合監査項目"
+      ],
+      "signal_candidates": [
+        "安全境界統合が必要な文脈が観測される",
+        "アプリ側で推論・表示・提案を安全に制御する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "安全性",
+        "プライバシー",
+        "公平性",
+        "高リスク性"
+      ],
+      "evidence": "AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用",
+      "status": "active"
+    }
+  ]
+}

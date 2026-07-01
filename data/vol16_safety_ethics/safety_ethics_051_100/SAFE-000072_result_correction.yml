@@ -1,0 +1,33 @@
+id: SAFE-000072
+knowledge_type: safety_ethics
+name_ja: 結果修正
+name_en: Result Correction
+category: Safety Ethics
+attribute: User Control
+definition_ja: ユーザーが推論結果に対して違う・近いなどの修正を返せる仕組み。
+tags:
+  - CAT:安全倫理
+  - CAT:ユーザー制御
+  - ATTR:安全設計
+parent:
+  - ユーザー制御
+related:
+  - 補正要因
+  - 表示設計
+  - アプリ用途
+observable_data:
+  - 結果修正適用条件
+  - 結果修正リスク兆候
+  - 結果修正制御対象
+  - 結果修正監査項目
+signal_candidates:
+  - 結果修正が必要な文脈が観測される
+  - アプリ側で推論・表示・提案を安全に制御する材料になる
+device_level: DB管理用
+modifiers:
+  - 安全性
+  - プライバシー
+  - 公平性
+  - 高リスク性
+evidence: AI安全性・UX倫理・プライバシー設計・リスクコミュニケーションで使用
+status: active

@@ -1,0 +1,57 @@
+category: API Contract
+name_ja: API契約
+items:
+  - API-000051_id_lookup_endpoint.yml
+  - API-000052_tag_search_endpoint.yml
+  - API-000053_category_search_endpoint.yml
+  - API-000054_attribute_search_endpoint.yml
+  - API-000055_keyword_search_endpoint.yml
+  - API-000056_related_items_endpoint.yml
+  - API-000057_parent_items_endpoint.yml
+  - API-000058_children_items_endpoint.yml
+  - API-000059_cross_volume_search_endpoint.yml
+  - API-000060_search_endpoint_integration.yml
+  - API-000061_safe_response_contract.yml
+  - API-000062_non_inference_response.yml
+  - API-000063_no_score_response_contract.yml
+  - API-000064_no_ranking_response_contract.yml
+  - API-000065_sensitive_field_guard.yml
+  - API-000066_safety_note_response.yml
+  - API-000067_limitation_response.yml
+  - API-000068_display_boundary_response.yml
+  - API-000069_high_risk_warning_response.yml
+  - API-000070_response_safety_integration.yml
+  - API-000071_bulk_export_contract.yml
+  - API-000072_volume_export_contract.yml
+  - API-000073_category_export_contract.yml
+  - API-000074_tag_export_contract.yml
+  - API-000075_diff_export_contract.yml
+  - API-000076_full_library_export_contract.yml
+  - API-000077_compressed_export_contract.yml
+  - API-000078_export_manifest_contract.yml
+  - API-000079_export_integrity_check.yml
+  - API-000080_bulk_export_integration.yml
+  - API-000081_client_app_registration.yml
+  - API-000082_client_capability_contract.yml
+  - API-000083_client_use_case_declaration.yml
+  - API-000084_client_safety_profile.yml
+  - API-000085_client_version_contract.yml
+  - API-000086_client_cache_contract.yml
+  - API-000087_client_update_notification.yml
+  - API-000088_client_error_handling.yml
+  - API-000089_client_fallback_contract.yml
+  - API-000090_client_contract_integration.yml
+  - API-000091_api_schema_manifest.yml
+  - API-000092_api_contract_audit.yml
+  - API-000093_api_test_case_contract.yml
+  - API-000094_api_mock_response_contract.yml
+  - API-000095_api_documentation_contract.yml
+  - API-000096_api_change_management.yml
+  - API-000097_api_security_boundary.yml
+  - API-000098_api_observability.yml
+  - API-000099_api_release_gate.yml
+  - API-000100_api_contracts_integration.yml
+notes:
+  - API契約はDBとアプリの接続仕様として扱う
+  - Knowledge DB側では推論しない
+  - アプリ側で取得データを使って推論・表示・補正を行う

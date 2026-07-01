@@ -1,0 +1,33 @@
+id: API-000059
+knowledge_type: api_contract
+name_ja: Vol横断検索エンドポイント
+name_en: Cross Volume Search Endpoint
+category: API Contract
+attribute: Search
+definition_ja: 複数Volを横断して知識項目を検索するAPI仕様。
+tags:
+  - CAT:API契約
+  - CAT:検索
+  - ATTR:接続仕様
+parent:
+  - 検索
+related:
+  - 対応ルール
+  - ライブラリ管理
+  - アプリ用途
+observable_data:
+  - Vol横断検索エンドポイント入力仕様
+  - Vol横断検索エンドポイント出力仕様
+  - Vol横断検索エンドポイント適用範囲
+  - Vol横断検索エンドポイント互換性条件
+signal_candidates:
+  - Vol横断検索エンドポイントをAPI接続仕様として利用できる
+  - Knowledge DBとアプリを安全に接続する材料になる
+device_level: DB管理用
+modifiers:
+  - 互換性
+  - 安全性
+  - 用途
+  - 版管理
+evidence: API設計・ソフトウェア設計・データガバナンス・HCIで使用
+status: active

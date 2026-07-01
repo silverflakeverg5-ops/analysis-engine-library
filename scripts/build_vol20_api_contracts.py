@@ -1,87 +1,87 @@
 import json
 from pathlib import Path
 
-OUT = Path("data/master_packs/vol20_api_contracts_001_050.json")
+OUT = Path("data/master_packs/vol20_api_contracts_051_100.json")
 
 SECTIONS = [
     {
-        "category": "API Contracts - Core",
-        "name_ja": "API契約・基本",
+        "category": "API Contracts - Search",
+        "name_ja": "API契約・検索",
         "items": [
-            ("API-000001", "knowledge_api_contract", "知識API契約", "Knowledge API Contract", "アプリがKnowledge Libraryを参照するための入出力仕様。"),
-            ("API-000002", "read_only_api_principle", "読み取り専用API原則", "Read Only API Principle", "Knowledge DBをアプリ側から直接変更せず参照専用にする原則。"),
-            ("API-000003", "app_side_inference_contract", "アプリ側推論契約", "App Side Inference Contract", "推論・スコアリング・表示はアプリ側で行うというAPI責任範囲。"),
-            ("API-000004", "knowledge_item_response", "知識項目レスポンス", "Knowledge Item Response", "単一知識項目を取得するレスポンス構造。"),
-            ("API-000005", "knowledge_list_response", "知識一覧レスポンス", "Knowledge List Response", "条件に合う知識項目一覧を返すレスポンス構造。"),
-            ("API-000006", "search_query_contract", "検索クエリ契約", "Search Query Contract", "タグ・カテゴリ・ID・キーワードで検索するための入力仕様。"),
-            ("API-000007", "filter_contract", "フィルター契約", "Filter Contract", "knowledge_type・category・attribute・statusなどで絞り込む仕様。"),
-            ("API-000008", "pagination_contract", "ページング契約", "Pagination Contract", "大量項目を分割取得するためのlimit・offset等の仕様。"),
-            ("API-000009", "sort_contract", "並び順契約", "Sort Contract", "ID・カテゴリ・名称・更新日などで並び替える仕様。"),
-            ("API-000010", "api_contract_integration", "API契約統合", "API Contract Integration", "Knowledge Library参照APIの基本仕様を統合管理する枠組み。")
+            ("API-000051", "id_lookup_endpoint", "ID検索エンドポイント", "ID Lookup Endpoint", "知識項目IDから単一項目を取得するAPI仕様。"),
+            ("API-000052", "tag_search_endpoint", "タグ検索エンドポイント", "Tag Search Endpoint", "タグを条件に知識項目を検索するAPI仕様。"),
+            ("API-000053", "category_search_endpoint", "カテゴリ検索エンドポイント", "Category Search Endpoint", "カテゴリを条件に知識項目を検索するAPI仕様。"),
+            ("API-000054", "attribute_search_endpoint", "属性検索エンドポイント", "Attribute Search Endpoint", "attributeを条件に知識項目を検索するAPI仕様。"),
+            ("API-000055", "keyword_search_endpoint", "キーワード検索エンドポイント", "Keyword Search Endpoint", "名称・定義・タグを対象にキーワード検索するAPI仕様。"),
+            ("API-000056", "related_items_endpoint", "関連項目取得エンドポイント", "Related Items Endpoint", "relatedに基づいて関連知識項目を取得するAPI仕様。"),
+            ("API-000057", "parent_items_endpoint", "親項目取得エンドポイント", "Parent Items Endpoint", "parent情報から上位概念を取得するAPI仕様。"),
+            ("API-000058", "children_items_endpoint", "子項目取得エンドポイント", "Children Items Endpoint", "親概念に紐づく下位項目を取得するAPI仕様。"),
+            ("API-000059", "cross_volume_search_endpoint", "Vol横断検索エンドポイント", "Cross Volume Search Endpoint", "複数Volを横断して知識項目を検索するAPI仕様。"),
+            ("API-000060", "search_endpoint_integration", "検索エンドポイント統合", "Search Endpoint Integration", "ID・タグ・カテゴリ・関連項目検索を統合管理するAPI仕様。")
         ]
     },
     {
-        "category": "API Contracts - Item Fields",
-        "name_ja": "API契約・項目フィールド",
+        "category": "API Contracts - Response Safety",
+        "name_ja": "API契約・応答安全",
         "items": [
-            ("API-000011", "id_field_contract", "IDフィールド契約", "ID Field Contract", "知識項目IDを返すためのフィールド仕様。"),
-            ("API-000012", "name_field_contract", "名称フィールド契約", "Name Field Contract", "日本語名・英語名を返すためのフィールド仕様。"),
-            ("API-000013", "definition_field_contract", "定義フィールド契約", "Definition Field Contract", "定義文を返すためのフィールド仕様。"),
-            ("API-000014", "category_field_contract", "カテゴリフィールド契約", "Category Field Contract", "カテゴリ情報を返すためのフィールド仕様。"),
-            ("API-000015", "attribute_field_contract", "属性フィールド契約", "Attribute Field Contract", "属性情報を返すためのフィールド仕様。"),
-            ("API-000016", "tag_field_contract", "タグフィールド契約", "Tag Field Contract", "検索・分類用タグを返すためのフィールド仕様。"),
-            ("API-000017", "parent_field_contract", "親項目フィールド契約", "Parent Field Contract", "上位概念や親カテゴリを返すためのフィールド仕様。"),
-            ("API-000018", "related_field_contract", "関連項目フィールド契約", "Related Field Contract", "関連概念や横断参照を返すためのフィールド仕様。"),
-            ("API-000019", "status_field_contract", "ステータスフィールド契約", "Status Field Contract", "active・draft・deprecatedなどの状態を返す仕様。"),
-            ("API-000020", "field_contract_integration", "フィールド契約統合", "Field Contract Integration", "知識項目フィールド仕様を統合管理する枠組み。")
+            ("API-000061", "safe_response_contract", "安全応答契約", "Safe Response Contract", "API応答が診断・断定・不適切表示を直接返さないための仕様。"),
+            ("API-000062", "non_inference_response", "非推論応答", "Non Inference Response", "Knowledge DBが推論結果ではなく材料のみ返す応答仕様。"),
+            ("API-000063", "no_score_response_contract", "スコア非返却契約", "No Score Response Contract", "DB APIが性格スコアや適性スコアを返さないための仕様。"),
+            ("API-000064", "no_ranking_response_contract", "順位非返却契約", "No Ranking Response Contract", "DB APIが人や項目を優劣順位として返さないための仕様。"),
+            ("API-000065", "sensitive_field_guard", "機微フィールド保護", "Sensitive Field Guard", "機微情報に関わる項目を慎重に返すための応答制御仕様。"),
+            ("API-000066", "safety_note_response", "安全注記応答", "Safety Note Response", "安全上の注意や利用境界をAPI応答に含める仕様。"),
+            ("API-000067", "limitation_response", "限界情報応答", "Limitation Response", "知識項目の限界や適用範囲を返すAPI仕様。"),
+            ("API-000068", "display_boundary_response", "表示境界応答", "Display Boundary Response", "アプリ側表示で注意すべき境界条件を返す仕様。"),
+            ("API-000069", "high_risk_warning_response", "高リスク注意応答", "High Risk Warning Response", "高リスク用途に関係する項目で注意情報を返す仕様。"),
+            ("API-000070", "response_safety_integration", "応答安全統合", "Response Safety Integration", "非推論・非診断・安全注記を統合した応答仕様。")
         ]
     },
     {
-        "category": "API Contracts - Signal Access",
-        "name_ja": "API契約・シグナル参照",
+        "category": "API Contracts - Bulk Export",
+        "name_ja": "API契約・一括出力",
         "items": [
-            ("API-000021", "observable_data_access", "観測データ参照", "Observable Data Access", "知識項目に紐づく観測可能データ候補を取得する仕様。"),
-            ("API-000022", "signal_candidate_access", "Signal候補参照", "Signal Candidate Access", "推論材料となるSignal候補を取得する仕様。"),
-            ("API-000023", "signal_by_app_use_case", "用途別Signal参照", "Signal by App Use Case", "アプリ用途に応じて関連Signal候補を取得する仕様。"),
-            ("API-000024", "signal_by_knowledge_type", "知識種別別Signal参照", "Signal by Knowledge Type", "知識種別ごとにSignal候補を取得する仕様。"),
-            ("API-000025", "signal_mapping_access", "Signal対応参照", "Signal Mapping Access", "観測シグナルと知識項目の対応ルールを取得する仕様。"),
-            ("API-000026", "baseline_signal_access", "ベースラインSignal参照", "Baseline Signal Access", "本人通常傾向と比較するためのSignal候補を取得する仕様。"),
-            ("API-000027", "state_change_signal_access", "状態変化Signal参照", "State Change Signal Access", "状態変化に関わるSignal候補を取得する仕様。"),
-            ("API-000028", "safety_signal_access", "安全Signal参照", "Safety Signal Access", "安全確認や慎重表示に関わるSignal候補を取得する仕様。"),
-            ("API-000029", "signal_metadata_access", "Signalメタデータ参照", "Signal Metadata Access", "Signalの用途・限界・補正条件などを取得する仕様。"),
-            ("API-000030", "signal_access_integration", "Signal参照統合", "Signal Access Integration", "観測シグナル参照仕様を統合管理する枠組み。")
+            ("API-000071", "bulk_export_contract", "一括出力契約", "Bulk Export Contract", "複数知識項目をまとめて取得するAPI仕様。"),
+            ("API-000072", "volume_export_contract", "Vol単位出力契約", "Volume Export Contract", "特定Vol全体を取得するAPI仕様。"),
+            ("API-000073", "category_export_contract", "カテゴリ単位出力契約", "Category Export Contract", "カテゴリ単位で知識項目を取得するAPI仕様。"),
+            ("API-000074", "tag_export_contract", "タグ単位出力契約", "Tag Export Contract", "指定タグに該当する項目を一括取得するAPI仕様。"),
+            ("API-000075", "diff_export_contract", "差分出力契約", "Diff Export Contract", "前回版から変更された項目だけを取得するAPI仕様。"),
+            ("API-000076", "full_library_export_contract", "全ライブラリ出力契約", "Full Library Export Contract", "Knowledge Library全体を取得するAPI仕様。"),
+            ("API-000077", "compressed_export_contract", "圧縮出力契約", "Compressed Export Contract", "大量データを圧縮して取得するAPI仕様。"),
+            ("API-000078", "export_manifest_contract", "出力マニフェスト契約", "Export Manifest Contract", "出力対象・件数・版・生成日時を示す仕様。"),
+            ("API-000079", "export_integrity_check", "出力整合性確認", "Export Integrity Check", "一括出力データの欠損や破損を確認する仕様。"),
+            ("API-000080", "bulk_export_integration", "一括出力統合", "Bulk Export Integration", "Vol・カテゴリ・タグ・差分出力を統合管理するAPI仕様。")
         ]
     },
     {
-        "category": "API Contracts - Modifier Display",
-        "name_ja": "API契約・補正表示",
+        "category": "API Contracts - App Client",
+        "name_ja": "API契約・アプリクライアント",
         "items": [
-            ("API-000031", "modifier_access", "補正要因参照", "Modifier Access", "知識項目に関係する補正要因を取得する仕様。"),
-            ("API-000032", "modifier_mapping_access", "補正対応参照", "Modifier Mapping Access", "文脈・状態・安全性に応じた補正ルールを取得する仕様。"),
-            ("API-000033", "display_design_access", "表示設計参照", "Display Design Access", "結果表示や説明に使う表示設計項目を取得する仕様。"),
-            ("API-000034", "safe_expression_access", "安全表現参照", "Safe Expression Access", "非断定・支援的表現の表示設計を取得する仕様。"),
-            ("API-000035", "explanation_template_access", "説明テンプレート参照", "Explanation Template Access", "理由説明や根拠表示に使うテンプレートを取得する仕様。"),
-            ("API-000036", "notification_design_access", "通知設計参照", "Notification Design Access", "通知タイミングや通知表現に関する項目を取得する仕様。"),
-            ("API-000037", "app_use_case_access", "アプリ用途参照", "App Use Case Access", "利用文脈や用途別設計項目を取得する仕様。"),
-            ("API-000038", "safety_ethics_access", "安全倫理参照", "Safety Ethics Access", "安全倫理・境界・制御項目を取得する仕様。"),
-            ("API-000039", "evidence_source_access", "根拠ソース参照", "Evidence Source Access", "根拠種別や品質管理項目を取得する仕様。"),
-            ("API-000040", "modifier_display_access_integration", "補正表示参照統合", "Modifier Display Access Integration", "補正・表示・安全・根拠の参照仕様を統合管理する枠組み。")
+            ("API-000081", "client_app_registration", "アプリ登録契約", "Client App Registration", "Knowledge Libraryを参照するアプリを登録・識別する仕様。"),
+            ("API-000082", "client_capability_contract", "クライアント機能契約", "Client Capability Contract", "アプリ側が利用可能な機能や表示能力を示す仕様。"),
+            ("API-000083", "client_use_case_declaration", "用途宣言契約", "Client Use Case Declaration", "アプリが診断・教育・秘書など利用目的を宣言する仕様。"),
+            ("API-000084", "client_safety_profile", "クライアント安全プロファイル", "Client Safety Profile", "アプリ側の安全設計や制限を示す仕様。"),
+            ("API-000085", "client_version_contract", "クライアント版契約", "Client Version Contract", "アプリ版とAPI版の互換性を管理する仕様。"),
+            ("API-000086", "client_cache_contract", "クライアントキャッシュ契約", "Client Cache Contract", "アプリ側で取得データをキャッシュする際の仕様。"),
+            ("API-000087", "client_update_notification", "クライアント更新通知", "Client Update Notification", "Library更新時にアプリ側へ更新必要性を伝える仕様。"),
+            ("API-000088", "client_error_handling", "クライアントエラー処理", "Client Error Handling", "API取得失敗時にアプリ側で安全に処理する仕様。"),
+            ("API-000089", "client_fallback_contract", "クライアントフォールバック契約", "Client Fallback Contract", "API未取得時に既存データや安全表示へ戻す仕様。"),
+            ("API-000090", "client_contract_integration", "クライアント契約統合", "Client Contract Integration", "アプリ登録・用途宣言・互換性・安全性を統合管理する仕様。")
         ]
     },
     {
-        "category": "API Contracts - Versioning Operations",
-        "name_ja": "API契約・版管理運用",
+        "category": "API Contracts - Integration",
+        "name_ja": "API契約・統合",
         "items": [
-            ("API-000041", "api_version_contract", "APIバージョン契約", "API Version Contract", "API仕様のバージョンを管理する契約。"),
-            ("API-000042", "schema_version_response", "スキーマバージョン応答", "Schema Version Response", "現在のスキーマ版を返すレスポンス仕様。"),
-            ("API-000043", "library_version_response", "ライブラリバージョン応答", "Library Version Response", "Knowledge Libraryの版や更新状態を返す仕様。"),
-            ("API-000044", "deprecated_item_response", "非推奨項目応答", "Deprecated Item Response", "非推奨項目の扱いと代替項目を返す仕様。"),
-            ("API-000045", "error_response_contract", "エラー応答契約", "Error Response Contract", "存在しないIDや不正クエリへのエラー応答仕様。"),
-            ("API-000046", "rate_limit_contract", "レート制限契約", "Rate Limit Contract", "API利用頻度や制限を管理する仕様。"),
-            ("API-000047", "cache_policy_contract", "キャッシュ方針契約", "Cache Policy Contract", "参照結果をキャッシュする際の方針。"),
-            ("API-000048", "backward_compatibility_contract", "後方互換契約", "Backward Compatibility Contract", "既存アプリを壊さずAPI変更するための契約。"),
-            ("API-000049", "api_audit_contract", "API監査契約", "API Audit Contract", "API出力がスキーマと安全方針に合うか確認する契約。"),
-            ("API-000050", "api_operations_integration", "API運用統合", "API Operations Integration", "版管理・互換性・監査・運用を統合する枠組み。")
+            ("API-000091", "api_schema_manifest", "APIスキーママニフェスト", "API Schema Manifest", "APIで返されるフィールド・型・版を一覧管理する仕様。"),
+            ("API-000092", "api_contract_audit", "API契約監査", "API Contract Audit", "API契約がスキーマ・安全境界・互換性を満たすか確認する監査。"),
+            ("API-000093", "api_test_case_contract", "APIテストケース契約", "API Test Case Contract", "API応答が期待仕様を満たすか確認するテスト仕様。"),
+            ("API-000094", "api_mock_response_contract", "APIモック応答契約", "API Mock Response Contract", "アプリ開発時に使う仮API応答の仕様。"),
+            ("API-000095", "api_documentation_contract", "API文書化契約", "API Documentation Contract", "API仕様を開発者が理解できる形で文書化する方針。"),
+            ("API-000096", "api_change_management", "API変更管理", "API Change Management", "API仕様変更の影響・告知・移行を管理する方針。"),
+            ("API-000097", "api_security_boundary", "API安全境界", "API Security Boundary", "APIが返す情報範囲とアプリ側責任範囲を分ける境界設計。"),
+            ("API-000098", "api_observability", "API観測性", "API Observability", "API利用状況・エラー・応答時間を監視するための設計。"),
+            ("API-000099", "api_release_gate", "APIリリースゲート", "API Release Gate", "API仕様を公開する前に満たすべき品質条件。"),
+            ("API-000100", "api_contracts_integration", "API契約統合", "API Contracts Integration", "検索・応答安全・一括出力・クライアント契約を統合管理する枠組み。")
         ]
     }
 ]
@@ -136,8 +136,8 @@ def main():
     ])
 
     pack = {
-        "output_dir": "vol20_api_contracts/api_contracts_001_050",
-        "index_filename": "api_contracts_001_050_index.yml",
+        "output_dir": "vol20_api_contracts/api_contracts_051_100",
+        "index_filename": "api_contracts_051_100_index.yml",
         "index_content": "\n".join(index_lines) + "\n",
         "items": all_items
     }

@@ -1,0 +1,33 @@
+id: API-000084
+knowledge_type: api_contract
+name_ja: クライアント安全プロファイル
+name_en: Client Safety Profile
+category: API Contract
+attribute: App Client
+definition_ja: アプリ側の安全設計や制限を示す仕様。
+tags:
+  - CAT:API契約
+  - CAT:アプリクライアント
+  - ATTR:接続仕様
+parent:
+  - アプリクライアント
+related:
+  - 対応ルール
+  - ライブラリ管理
+  - アプリ用途
+observable_data:
+  - クライアント安全プロファイル入力仕様
+  - クライアント安全プロファイル出力仕様
+  - クライアント安全プロファイル適用範囲
+  - クライアント安全プロファイル互換性条件
+signal_candidates:
+  - クライアント安全プロファイルをAPI接続仕様として利用できる
+  - Knowledge DBとアプリを安全に接続する材料になる
+device_level: DB管理用
+modifiers:
+  - 互換性
+  - 安全性
+  - 用途
+  - 版管理
+evidence: API設計・ソフトウェア設計・データガバナンス・HCIで使用
+status: active

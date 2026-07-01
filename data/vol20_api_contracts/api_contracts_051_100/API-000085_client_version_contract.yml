@@ -1,0 +1,33 @@
+id: API-000085
+knowledge_type: api_contract
+name_ja: クライアント版契約
+name_en: Client Version Contract
+category: API Contract
+attribute: App Client
+definition_ja: アプリ版とAPI版の互換性を管理する仕様。
+tags:
+  - CAT:API契約
+  - CAT:アプリクライアント
+  - ATTR:接続仕様
+parent:
+  - アプリクライアント
+related:
+  - 対応ルール
+  - ライブラリ管理
+  - アプリ用途
+observable_data:
+  - クライアント版契約入力仕様
+  - クライアント版契約出力仕様
+  - クライアント版契約適用範囲
+  - クライアント版契約互換性条件
+signal_candidates:
+  - クライアント版契約をAPI接続仕様として利用できる
+  - Knowledge DBとアプリを安全に接続する材料になる
+device_level: DB管理用
+modifiers:
+  - 互換性
+  - 安全性
+  - 用途
+  - 版管理
+evidence: API設計・ソフトウェア設計・データガバナンス・HCIで使用
+status: active

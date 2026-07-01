@@ -1,0 +1,33 @@
+id: TEST-000005
+knowledge_type: test_case
+name_ja: インデックス参照テスト
+name_en: Index Reference Test
+category: Test Case
+attribute: Data Audit
+definition_ja: index.ymlに記載された項目ファイルが存在するか確認するテスト。
+tags:
+  - CAT:テストケース
+  - CAT:データ監査
+  - ATTR:品質確認
+parent:
+  - データ監査
+related:
+  - 監査
+  - API契約
+  - 安全設計
+observable_data:
+  - インデックス参照テスト入力条件
+  - インデックス参照テスト期待結果
+  - インデックス参照テスト失敗条件
+  - インデックス参照テスト確認対象
+signal_candidates:
+  - インデックス参照テストを品質確認テストとして利用できる
+  - Knowledge Libraryの監査・API・安全性を確認する材料になる
+device_level: DB管理用
+modifiers:
+  - 品質
+  - 安全性
+  - 互換性
+  - 監査範囲
+evidence: ソフトウェアテスト・QA・データ監査・安全設計で使用
+status: active

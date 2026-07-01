@@ -1,0 +1,33 @@
+id: TEST-000016
+knowledge_type: test_case
+name_ja: ファイル名形式テスト
+name_en: Filename Format Test
+category: Test Case
+attribute: Schema
+definition_ja: ファイル名がIDとslugを含む形式になっているか確認するテスト。
+tags:
+  - CAT:テストケース
+  - CAT:スキーマ
+  - ATTR:品質確認
+parent:
+  - スキーマ
+related:
+  - 監査
+  - API契約
+  - 安全設計
+observable_data:
+  - ファイル名形式テスト入力条件
+  - ファイル名形式テスト期待結果
+  - ファイル名形式テスト失敗条件
+  - ファイル名形式テスト確認対象
+signal_candidates:
+  - ファイル名形式テストを品質確認テストとして利用できる
+  - Knowledge Libraryの監査・API・安全性を確認する材料になる
+device_level: DB管理用
+modifiers:
+  - 品質
+  - 安全性
+  - 互換性
+  - 監査範囲
+evidence: ソフトウェアテスト・QA・データ監査・安全設計で使用
+status: active

@@ -1,0 +1,33 @@
+id: TEST-000008
+knowledge_type: test_case
+name_ja: knowledge_typeテスト
+name_en: Knowledge Type Test
+category: Test Case
+attribute: Data Audit
+definition_ja: knowledge_typeが定義済み種別に収まっているか確認するテスト。
+tags:
+  - CAT:テストケース
+  - CAT:データ監査
+  - ATTR:品質確認
+parent:
+  - データ監査
+related:
+  - 監査
+  - API契約
+  - 安全設計
+observable_data:
+  - knowledge_typeテスト入力条件
+  - knowledge_typeテスト期待結果
+  - knowledge_typeテスト失敗条件
+  - knowledge_typeテスト確認対象
+signal_candidates:
+  - knowledge_typeテストを品質確認テストとして利用できる
+  - Knowledge Libraryの監査・API・安全性を確認する材料になる
+device_level: DB管理用
+modifiers:
+  - 品質
+  - 安全性
+  - 互換性
+  - 監査範囲
+evidence: ソフトウェアテスト・QA・データ監査・安全設計で使用
+status: active

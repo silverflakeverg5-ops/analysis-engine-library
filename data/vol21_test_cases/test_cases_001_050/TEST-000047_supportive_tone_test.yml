@@ -1,0 +1,33 @@
+id: TEST-000047
+knowledge_type: test_case
+name_ja: 支援的トーンテスト
+name_en: Supportive Tone Test
+category: Test Case
+attribute: Safety
+definition_ja: 評価的・攻撃的ではなく支援的表現になっているか確認するテスト。
+tags:
+  - CAT:テストケース
+  - CAT:安全
+  - ATTR:品質確認
+parent:
+  - 安全
+related:
+  - 監査
+  - API契約
+  - 安全設計
+observable_data:
+  - 支援的トーンテスト入力条件
+  - 支援的トーンテスト期待結果
+  - 支援的トーンテスト失敗条件
+  - 支援的トーンテスト確認対象
+signal_candidates:
+  - 支援的トーンテストを品質確認テストとして利用できる
+  - Knowledge Libraryの監査・API・安全性を確認する材料になる
+device_level: DB管理用
+modifiers:
+  - 品質
+  - 安全性
+  - 互換性
+  - 監査範囲
+evidence: ソフトウェアテスト・QA・データ監査・安全設計で使用
+status: active

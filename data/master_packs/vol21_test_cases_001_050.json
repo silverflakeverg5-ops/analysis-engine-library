@@ -1,0 +1,2107 @@
+{
+  "output_dir": "vol21_test_cases/test_cases_001_050",
+  "index_filename": "test_cases_001_050_index.yml",
+  "index_content": "category: Test Case\nname_ja: テストケース\nitems:\n  - TEST-000001_required_fields_test.yml\n  - TEST-000002_duplicate_id_test.yml\n  - TEST-000003_filename_id_match_test.yml\n  - TEST-000004_yaml_parse_test.yml\n  - TEST-000005_index_reference_test.yml\n  - TEST-000006_orphan_file_test.yml\n  - TEST-000007_status_value_test.yml\n  - TEST-000008_knowledge_type_test.yml\n  - TEST-000009_empty_field_test.yml\n  - TEST-000010_global_audit_test.yml\n  - TEST-000011_schema_contract_test.yml\n  - TEST-000012_field_type_test.yml\n  - TEST-000013_array_field_test.yml\n  - TEST-000014_string_field_test.yml\n  - TEST-000015_id_format_test.yml\n  - TEST-000016_filename_format_test.yml\n  - TEST-000017_tag_format_test.yml\n  - TEST-000018_device_level_test.yml\n  - TEST-000019_evidence_field_test.yml\n  - TEST-000020_schema_integration_test.yml\n  - TEST-000021_master_pack_json_test.yml\n  - TEST-000022_master_pack_required_key_test.yml\n  - TEST-000023_yaml_generation_test.yml\n  - TEST-000024_index_generation_test.yml\n  - TEST-000025_output_dir_creation_test.yml\n  - TEST-000026_generated_item_count_test.yml\n  - TEST-000027_overwrite_behavior_test.yml\n  - TEST-000028_encoding_test.yml\n  - TEST-000029_builder_output_test.yml\n  - TEST-000030_generation_pipeline_test.yml\n  - TEST-000031_api_item_response_test.yml\n  - TEST-000032_api_list_response_test.yml\n  - TEST-000033_api_search_filter_test.yml\n  - TEST-000034_api_pagination_test.yml\n  - TEST-000035_api_error_response_test.yml\n  - TEST-000036_api_no_inference_test.yml\n  - TEST-000037_api_safety_note_test.yml\n  - TEST-000038_api_version_test.yml\n  - TEST-000039_api_backward_compatibility_test.yml\n  - TEST-000040_api_contract_integration_test.yml\n  - TEST-000041_non_diagnostic_display_test.yml\n  - TEST-000042_no_ranking_output_test.yml\n  - TEST-000043_privacy_sensitive_test.yml\n  - TEST-000044_minor_safety_test.yml\n  - TEST-000045_high_stakes_guardrail_test.yml\n  - TEST-000046_uncertainty_expression_test.yml\n  - TEST-000047_supportive_tone_test.yml\n  - TEST-000048_manipulation_risk_test.yml\n  - TEST-000049_user_control_test.yml\n  - TEST-000050_safety_test_integration.yml\nnotes:\n  - テストケースはDB品質確認とアプリ接続検証の材料として扱う\n  - Knowledge DB側では推論しない\n  - 監査・API・安全性・表示の検証に利用する\n",
+  "items": [
+    {
+      "filename": "TEST-000001_required_fields_test.yml",
+      "id": "TEST-000001",
+      "knowledge_type": "test_case",
+      "name_ja": "必須フィールドテスト",
+      "name_en": "Required Fields Test",
+      "category": "Test Case",
+      "attribute": "Data Audit",
+      "definition_ja": "全YAMLに必須フィールドが存在するか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:データ監査",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "データ監査"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "必須フィールドテスト入力条件",
+        "必須フィールドテスト期待結果",
+        "必須フィールドテスト失敗条件",
+        "必須フィールドテスト確認対象"
+      ],
+      "signal_candidates": [
+        "必須フィールドテストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000002_duplicate_id_test.yml",
+      "id": "TEST-000002",
+      "knowledge_type": "test_case",
+      "name_ja": "ID重複テスト",
+      "name_en": "Duplicate ID Test",
+      "category": "Test Case",
+      "attribute": "Data Audit",
+      "definition_ja": "同じIDが複数項目に存在しないか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:データ監査",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "データ監査"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "ID重複テスト入力条件",
+        "ID重複テスト期待結果",
+        "ID重複テスト失敗条件",
+        "ID重複テスト確認対象"
+      ],
+      "signal_candidates": [
+        "ID重複テストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000003_filename_id_match_test.yml",
+      "id": "TEST-000003",
+      "knowledge_type": "test_case",
+      "name_ja": "ファイル名ID一致テスト",
+      "name_en": "Filename ID Match Test",
+      "category": "Test Case",
+      "attribute": "Data Audit",
+      "definition_ja": "ファイル名のID部分とidフィールドが一致するか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:データ監査",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "データ監査"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "ファイル名ID一致テスト入力条件",
+        "ファイル名ID一致テスト期待結果",
+        "ファイル名ID一致テスト失敗条件",
+        "ファイル名ID一致テスト確認対象"
+      ],
+      "signal_candidates": [
+        "ファイル名ID一致テストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000004_yaml_parse_test.yml",
+      "id": "TEST-000004",
+      "knowledge_type": "test_case",
+      "name_ja": "YAML解析テスト",
+      "name_en": "YAML Parse Test",
+      "category": "Test Case",
+      "attribute": "Data Audit",
+      "definition_ja": "YAMLファイルが正しく読み込める構造か確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:データ監査",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "データ監査"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "YAML解析テスト入力条件",
+        "YAML解析テスト期待結果",
+        "YAML解析テスト失敗条件",
+        "YAML解析テスト確認対象"
+      ],
+      "signal_candidates": [
+        "YAML解析テストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000005_index_reference_test.yml",
+      "id": "TEST-000005",
+      "knowledge_type": "test_case",
+      "name_ja": "インデックス参照テスト",
+      "name_en": "Index Reference Test",
+      "category": "Test Case",
+      "attribute": "Data Audit",
+      "definition_ja": "index.ymlに記載された項目ファイルが存在するか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:データ監査",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "データ監査"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "インデックス参照テスト入力条件",
+        "インデックス参照テスト期待結果",
+        "インデックス参照テスト失敗条件",
+        "インデックス参照テスト確認対象"
+      ],
+      "signal_candidates": [
+        "インデックス参照テストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000006_orphan_file_test.yml",
+      "id": "TEST-000006",
+      "knowledge_type": "test_case",
+      "name_ja": "孤立ファイルテスト",
+      "name_en": "Orphan File Test",
+      "category": "Test Case",
+      "attribute": "Data Audit",
+      "definition_ja": "どのindexからも参照されない項目ファイルを確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:データ監査",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "データ監査"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "孤立ファイルテスト入力条件",
+        "孤立ファイルテスト期待結果",
+        "孤立ファイルテスト失敗条件",
+        "孤立ファイルテスト確認対象"
+      ],
+      "signal_candidates": [
+        "孤立ファイルテストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000007_status_value_test.yml",
+      "id": "TEST-000007",
+      "knowledge_type": "test_case",
+      "name_ja": "ステータス値テスト",
+      "name_en": "Status Value Test",
+      "category": "Test Case",
+      "attribute": "Data Audit",
+      "definition_ja": "statusフィールドが許可値であるか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:データ監査",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "データ監査"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "ステータス値テスト入力条件",
+        "ステータス値テスト期待結果",
+        "ステータス値テスト失敗条件",
+        "ステータス値テスト確認対象"
+      ],
+      "signal_candidates": [
+        "ステータス値テストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000008_knowledge_type_test.yml",
+      "id": "TEST-000008",
+      "knowledge_type": "test_case",
+      "name_ja": "knowledge_typeテスト",
+      "name_en": "Knowledge Type Test",
+      "category": "Test Case",
+      "attribute": "Data Audit",
+      "definition_ja": "knowledge_typeが定義済み種別に収まっているか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:データ監査",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "データ監査"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "knowledge_typeテスト入力条件",
+        "knowledge_typeテスト期待結果",
+        "knowledge_typeテスト失敗条件",
+        "knowledge_typeテスト確認対象"
+      ],
+      "signal_candidates": [
+        "knowledge_typeテストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000009_empty_field_test.yml",
+      "id": "TEST-000009",
+      "knowledge_type": "test_case",
+      "name_ja": "空フィールドテスト",
+      "name_en": "Empty Field Test",
+      "category": "Test Case",
+      "attribute": "Data Audit",
+      "definition_ja": "必須フィールドが空欄になっていないか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:データ監査",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "データ監査"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "空フィールドテスト入力条件",
+        "空フィールドテスト期待結果",
+        "空フィールドテスト失敗条件",
+        "空フィールドテスト確認対象"
+      ],
+      "signal_candidates": [
+        "空フィールドテストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000010_global_audit_test.yml",
+      "id": "TEST-000010",
+      "knowledge_type": "test_case",
+      "name_ja": "全体監査テスト",
+      "name_en": "Global Audit Test",
+      "category": "Test Case",
+      "attribute": "Data Audit",
+      "definition_ja": "全データに対して基本監査をまとめて実行するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:データ監査",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "データ監査"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "全体監査テスト入力条件",
+        "全体監査テスト期待結果",
+        "全体監査テスト失敗条件",
+        "全体監査テスト確認対象"
+      ],
+      "signal_candidates": [
+        "全体監査テストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000011_schema_contract_test.yml",
+      "id": "TEST-000011",
+      "knowledge_type": "test_case",
+      "name_ja": "スキーマ契約テスト",
+      "name_en": "Schema Contract Test",
+      "category": "Test Case",
+      "attribute": "Schema",
+      "definition_ja": "知識項目が定義済みスキーマに従っているか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:スキーマ",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "スキーマ"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "スキーマ契約テスト入力条件",
+        "スキーマ契約テスト期待結果",
+        "スキーマ契約テスト失敗条件",
+        "スキーマ契約テスト確認対象"
+      ],
+      "signal_candidates": [
+        "スキーマ契約テストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000012_field_type_test.yml",
+      "id": "TEST-000012",
+      "knowledge_type": "test_case",
+      "name_ja": "フィールド型テスト",
+      "name_en": "Field Type Test",
+      "category": "Test Case",
+      "attribute": "Schema",
+      "definition_ja": "文字列・配列などフィールド型が想定通りか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:スキーマ",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "スキーマ"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "フィールド型テスト入力条件",
+        "フィールド型テスト期待結果",
+        "フィールド型テスト失敗条件",
+        "フィールド型テスト確認対象"
+      ],
+      "signal_candidates": [
+        "フィールド型テストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000013_array_field_test.yml",
+      "id": "TEST-000013",
+      "knowledge_type": "test_case",
+      "name_ja": "配列フィールドテスト",
+      "name_en": "Array Field Test",
+      "category": "Test Case",
+      "attribute": "Schema",
+      "definition_ja": "tags・parent・relatedなどが配列として管理されているか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:スキーマ",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "スキーマ"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "配列フィールドテスト入力条件",
+        "配列フィールドテスト期待結果",
+        "配列フィールドテスト失敗条件",
+        "配列フィールドテスト確認対象"
+      ],
+      "signal_candidates": [
+        "配列フィールドテストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000014_string_field_test.yml",
+      "id": "TEST-000014",
+      "knowledge_type": "test_case",
+      "name_ja": "文字列フィールドテスト",
+      "name_en": "String Field Test",
+      "category": "Test Case",
+      "attribute": "Schema",
+      "definition_ja": "nameやdefinitionなどが文字列として管理されているか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:スキーマ",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "スキーマ"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "文字列フィールドテスト入力条件",
+        "文字列フィールドテスト期待結果",
+        "文字列フィールドテスト失敗条件",
+        "文字列フィールドテスト確認対象"
+      ],
+      "signal_candidates": [
+        "文字列フィールドテストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000015_id_format_test.yml",
+      "id": "TEST-000015",
+      "knowledge_type": "test_case",
+      "name_ja": "ID形式テスト",
+      "name_en": "ID Format Test",
+      "category": "Test Case",
+      "attribute": "Schema",
+      "definition_ja": "IDが接頭辞と桁数のルールに従っているか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:スキーマ",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "スキーマ"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "ID形式テスト入力条件",
+        "ID形式テスト期待結果",
+        "ID形式テスト失敗条件",
+        "ID形式テスト確認対象"
+      ],
+      "signal_candidates": [
+        "ID形式テストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000016_filename_format_test.yml",
+      "id": "TEST-000016",
+      "knowledge_type": "test_case",
+      "name_ja": "ファイル名形式テスト",
+      "name_en": "Filename Format Test",
+      "category": "Test Case",
+      "attribute": "Schema",
+      "definition_ja": "ファイル名がIDとslugを含む形式になっているか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:スキーマ",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "スキーマ"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "ファイル名形式テスト入力条件",
+        "ファイル名形式テスト期待結果",
+        "ファイル名形式テスト失敗条件",
+        "ファイル名形式テスト確認対象"
+      ],
+      "signal_candidates": [
+        "ファイル名形式テストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000017_tag_format_test.yml",
+      "id": "TEST-000017",
+      "knowledge_type": "test_case",
+      "name_ja": "タグ形式テスト",
+      "name_en": "Tag Format Test",
+      "category": "Test Case",
+      "attribute": "Schema",
+      "definition_ja": "CATやATTRなどのタグ形式が一貫しているか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:スキーマ",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "スキーマ"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "タグ形式テスト入力条件",
+        "タグ形式テスト期待結果",
+        "タグ形式テスト失敗条件",
+        "タグ形式テスト確認対象"
+      ],
+      "signal_candidates": [
+        "タグ形式テストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000018_device_level_test.yml",
+      "id": "TEST-000018",
+      "knowledge_type": "test_case",
+      "name_ja": "device_levelテスト",
+      "name_en": "Device Level Test",
+      "category": "Test Case",
+      "attribute": "Schema",
+      "definition_ja": "device_levelが用途に合った表現になっているか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:スキーマ",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "スキーマ"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "device_levelテスト入力条件",
+        "device_levelテスト期待結果",
+        "device_levelテスト失敗条件",
+        "device_levelテスト確認対象"
+      ],
+      "signal_candidates": [
+        "device_levelテストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000019_evidence_field_test.yml",
+      "id": "TEST-000019",
+      "knowledge_type": "test_case",
+      "name_ja": "根拠フィールドテスト",
+      "name_en": "Evidence Field Test",
+      "category": "Test Case",
+      "attribute": "Schema",
+      "definition_ja": "evidenceが空でなく、根拠種別を示しているか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:スキーマ",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "スキーマ"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "根拠フィールドテスト入力条件",
+        "根拠フィールドテスト期待結果",
+        "根拠フィールドテスト失敗条件",
+        "根拠フィールドテスト確認対象"
+      ],
+      "signal_candidates": [
+        "根拠フィールドテストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000020_schema_integration_test.yml",
+      "id": "TEST-000020",
+      "knowledge_type": "test_case",
+      "name_ja": "スキーマ統合テスト",
+      "name_en": "Schema Integration Test",
+      "category": "Test Case",
+      "attribute": "Schema",
+      "definition_ja": "フィールド・型・ID・タグの整合性を統合確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:スキーマ",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "スキーマ"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "スキーマ統合テスト入力条件",
+        "スキーマ統合テスト期待結果",
+        "スキーマ統合テスト失敗条件",
+        "スキーマ統合テスト確認対象"
+      ],
+      "signal_candidates": [
+        "スキーマ統合テストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000021_master_pack_json_test.yml",
+      "id": "TEST-000021",
+      "knowledge_type": "test_case",
+      "name_ja": "マスターパックJSONテスト",
+      "name_en": "Master Pack JSON Test",
+      "category": "Test Case",
+      "attribute": "Generation",
+      "definition_ja": "master_pack JSONが正しく読み込めるか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:生成",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "生成"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "マスターパックJSONテスト入力条件",
+        "マスターパックJSONテスト期待結果",
+        "マスターパックJSONテスト失敗条件",
+        "マスターパックJSONテスト確認対象"
+      ],
+      "signal_candidates": [
+        "マスターパックJSONテストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000022_master_pack_required_key_test.yml",
+      "id": "TEST-000022",
+      "knowledge_type": "test_case",
+      "name_ja": "マスターパック必須キー確認",
+      "name_en": "Master Pack Required Key Test",
+      "category": "Test Case",
+      "attribute": "Generation",
+      "definition_ja": "output_dir・index_filename・itemsなどの必須キーを確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:生成",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "生成"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "マスターパック必須キー確認入力条件",
+        "マスターパック必須キー確認期待結果",
+        "マスターパック必須キー確認失敗条件",
+        "マスターパック必須キー確認確認対象"
+      ],
+      "signal_candidates": [
+        "マスターパック必須キー確認を品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000023_yaml_generation_test.yml",
+      "id": "TEST-000023",
+      "knowledge_type": "test_case",
+      "name_ja": "YAML生成テスト",
+      "name_en": "YAML Generation Test",
+      "category": "Test Case",
+      "attribute": "Generation",
+      "definition_ja": "master_packからYAMLファイルが生成されるか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:生成",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "生成"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "YAML生成テスト入力条件",
+        "YAML生成テスト期待結果",
+        "YAML生成テスト失敗条件",
+        "YAML生成テスト確認対象"
+      ],
+      "signal_candidates": [
+        "YAML生成テストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000024_index_generation_test.yml",
+      "id": "TEST-000024",
+      "knowledge_type": "test_case",
+      "name_ja": "インデックス生成テスト",
+      "name_en": "Index Generation Test",
+      "category": "Test Case",
+      "attribute": "Generation",
+      "definition_ja": "index.ymlが正しく生成されるか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:生成",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "生成"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "インデックス生成テスト入力条件",
+        "インデックス生成テスト期待結果",
+        "インデックス生成テスト失敗条件",
+        "インデックス生成テスト確認対象"
+      ],
+      "signal_candidates": [
+        "インデックス生成テストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000025_output_dir_creation_test.yml",
+      "id": "TEST-000025",
+      "knowledge_type": "test_case",
+      "name_ja": "出力フォルダ生成テスト",
+      "name_en": "Output Directory Creation Test",
+      "category": "Test Case",
+      "attribute": "Generation",
+      "definition_ja": "指定された出力フォルダが作成されるか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:生成",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "生成"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "出力フォルダ生成テスト入力条件",
+        "出力フォルダ生成テスト期待結果",
+        "出力フォルダ生成テスト失敗条件",
+        "出力フォルダ生成テスト確認対象"
+      ],
+      "signal_candidates": [
+        "出力フォルダ生成テストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000026_generated_item_count_test.yml",
+      "id": "TEST-000026",
+      "knowledge_type": "test_case",
+      "name_ja": "生成項目数テスト",
+      "name_en": "Generated Item Count Test",
+      "category": "Test Case",
+      "attribute": "Generation",
+      "definition_ja": "master_packのitems数と生成ファイル数が一致するか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:生成",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "生成"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "生成項目数テスト入力条件",
+        "生成項目数テスト期待結果",
+        "生成項目数テスト失敗条件",
+        "生成項目数テスト確認対象"
+      ],
+      "signal_candidates": [
+        "生成項目数テストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000027_overwrite_behavior_test.yml",
+      "id": "TEST-000027",
+      "knowledge_type": "test_case",
+      "name_ja": "上書き挙動テスト",
+      "name_en": "Overwrite Behavior Test",
+      "category": "Test Case",
+      "attribute": "Generation",
+      "definition_ja": "同じmaster_packを再実行しても安全に上書きできるか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:生成",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "生成"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "上書き挙動テスト入力条件",
+        "上書き挙動テスト期待結果",
+        "上書き挙動テスト失敗条件",
+        "上書き挙動テスト確認対象"
+      ],
+      "signal_candidates": [
+        "上書き挙動テストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000028_encoding_test.yml",
+      "id": "TEST-000028",
+      "knowledge_type": "test_case",
+      "name_ja": "文字コードテスト",
+      "name_en": "Encoding Test",
+      "category": "Test Case",
+      "attribute": "Generation",
+      "definition_ja": "日本語を含むJSON・YAMLがUTF-8で正しく扱えるか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:生成",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "生成"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "文字コードテスト入力条件",
+        "文字コードテスト期待結果",
+        "文字コードテスト失敗条件",
+        "文字コードテスト確認対象"
+      ],
+      "signal_candidates": [
+        "文字コードテストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000029_builder_output_test.yml",
+      "id": "TEST-000029",
+      "knowledge_type": "test_case",
+      "name_ja": "Builder出力テスト",
+      "name_en": "Builder Output Test",
+      "category": "Test Case",
+      "attribute": "Generation",
+      "definition_ja": "Builderスクリプトが期待するmaster_packを出力するか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:生成",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "生成"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "Builder出力テスト入力条件",
+        "Builder出力テスト期待結果",
+        "Builder出力テスト失敗条件",
+        "Builder出力テスト確認対象"
+      ],
+      "signal_candidates": [
+        "Builder出力テストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000030_generation_pipeline_test.yml",
+      "id": "TEST-000030",
+      "knowledge_type": "test_case",
+      "name_ja": "生成パイプラインテスト",
+      "name_en": "Generation Pipeline Test",
+      "category": "Test Case",
+      "attribute": "Generation",
+      "definition_ja": "BuilderからYAML生成までの一連の流れを確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:生成",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "生成"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "生成パイプラインテスト入力条件",
+        "生成パイプラインテスト期待結果",
+        "生成パイプラインテスト失敗条件",
+        "生成パイプラインテスト確認対象"
+      ],
+      "signal_candidates": [
+        "生成パイプラインテストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000031_api_item_response_test.yml",
+      "id": "TEST-000031",
+      "knowledge_type": "test_case",
+      "name_ja": "API項目応答テスト",
+      "name_en": "API Item Response Test",
+      "category": "Test Case",
+      "attribute": "API Contract",
+      "definition_ja": "単一知識項目のAPI応答が契約通りか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:API契約",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "API契約"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "API項目応答テスト入力条件",
+        "API項目応答テスト期待結果",
+        "API項目応答テスト失敗条件",
+        "API項目応答テスト確認対象"
+      ],
+      "signal_candidates": [
+        "API項目応答テストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000032_api_list_response_test.yml",
+      "id": "TEST-000032",
+      "knowledge_type": "test_case",
+      "name_ja": "API一覧応答テスト",
+      "name_en": "API List Response Test",
+      "category": "Test Case",
+      "attribute": "API Contract",
+      "definition_ja": "複数項目取得APIの応答構造を確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:API契約",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "API契約"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "API一覧応答テスト入力条件",
+        "API一覧応答テスト期待結果",
+        "API一覧応答テスト失敗条件",
+        "API一覧応答テスト確認対象"
+      ],
+      "signal_candidates": [
+        "API一覧応答テストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000033_api_search_filter_test.yml",
+      "id": "TEST-000033",
+      "knowledge_type": "test_case",
+      "name_ja": "API検索絞込テスト",
+      "name_en": "API Search Filter Test",
+      "category": "Test Case",
+      "attribute": "API Contract",
+      "definition_ja": "タグ・カテゴリ・attributeによる検索結果を確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:API契約",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "API契約"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "API検索絞込テスト入力条件",
+        "API検索絞込テスト期待結果",
+        "API検索絞込テスト失敗条件",
+        "API検索絞込テスト確認対象"
+      ],
+      "signal_candidates": [
+        "API検索絞込テストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000034_api_pagination_test.yml",
+      "id": "TEST-000034",
+      "knowledge_type": "test_case",
+      "name_ja": "APIページングテスト",
+      "name_en": "API Pagination Test",
+      "category": "Test Case",
+      "attribute": "API Contract",
+      "definition_ja": "limit・offsetなどページング仕様を確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:API契約",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "API契約"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "APIページングテスト入力条件",
+        "APIページングテスト期待結果",
+        "APIページングテスト失敗条件",
+        "APIページングテスト確認対象"
+      ],
+      "signal_candidates": [
+        "APIページングテストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000035_api_error_response_test.yml",
+      "id": "TEST-000035",
+      "knowledge_type": "test_case",
+      "name_ja": "APIエラー応答テスト",
+      "name_en": "API Error Response Test",
+      "category": "Test Case",
+      "attribute": "API Contract",
+      "definition_ja": "存在しないIDや不正クエリへの応答を確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:API契約",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "API契約"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "APIエラー応答テスト入力条件",
+        "APIエラー応答テスト期待結果",
+        "APIエラー応答テスト失敗条件",
+        "APIエラー応答テスト確認対象"
+      ],
+      "signal_candidates": [
+        "APIエラー応答テストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000036_api_no_inference_test.yml",
+      "id": "TEST-000036",
+      "knowledge_type": "test_case",
+      "name_ja": "API非推論テスト",
+      "name_en": "API No Inference Test",
+      "category": "Test Case",
+      "attribute": "API Contract",
+      "definition_ja": "APIがスコアや診断結果を返していないか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:API契約",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "API契約"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "API非推論テスト入力条件",
+        "API非推論テスト期待結果",
+        "API非推論テスト失敗条件",
+        "API非推論テスト確認対象"
+      ],
+      "signal_candidates": [
+        "API非推論テストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000037_api_safety_note_test.yml",
+      "id": "TEST-000037",
+      "knowledge_type": "test_case",
+      "name_ja": "API安全注記テスト",
+      "name_en": "API Safety Note Test",
+      "category": "Test Case",
+      "attribute": "API Contract",
+      "definition_ja": "必要な安全注記や境界情報が返るか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:API契約",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "API契約"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "API安全注記テスト入力条件",
+        "API安全注記テスト期待結果",
+        "API安全注記テスト失敗条件",
+        "API安全注記テスト確認対象"
+      ],
+      "signal_candidates": [
+        "API安全注記テストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000038_api_version_test.yml",
+      "id": "TEST-000038",
+      "knowledge_type": "test_case",
+      "name_ja": "API版管理テスト",
+      "name_en": "API Version Test",
+      "category": "Test Case",
+      "attribute": "API Contract",
+      "definition_ja": "API版・スキーマ版・ライブラリ版が取得できるか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:API契約",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "API契約"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "API版管理テスト入力条件",
+        "API版管理テスト期待結果",
+        "API版管理テスト失敗条件",
+        "API版管理テスト確認対象"
+      ],
+      "signal_candidates": [
+        "API版管理テストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000039_api_backward_compatibility_test.yml",
+      "id": "TEST-000039",
+      "knowledge_type": "test_case",
+      "name_ja": "API後方互換テスト",
+      "name_en": "API Backward Compatibility Test",
+      "category": "Test Case",
+      "attribute": "API Contract",
+      "definition_ja": "既存アプリ参照を壊さないか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:API契約",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "API契約"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "API後方互換テスト入力条件",
+        "API後方互換テスト期待結果",
+        "API後方互換テスト失敗条件",
+        "API後方互換テスト確認対象"
+      ],
+      "signal_candidates": [
+        "API後方互換テストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000040_api_contract_integration_test.yml",
+      "id": "TEST-000040",
+      "knowledge_type": "test_case",
+      "name_ja": "API契約統合テスト",
+      "name_en": "API Contract Integration Test",
+      "category": "Test Case",
+      "attribute": "API Contract",
+      "definition_ja": "検索・応答・安全・版管理を統合確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:API契約",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "API契約"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "API契約統合テスト入力条件",
+        "API契約統合テスト期待結果",
+        "API契約統合テスト失敗条件",
+        "API契約統合テスト確認対象"
+      ],
+      "signal_candidates": [
+        "API契約統合テストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000041_non_diagnostic_display_test.yml",
+      "id": "TEST-000041",
+      "knowledge_type": "test_case",
+      "name_ja": "非診断表示テスト",
+      "name_en": "Non Diagnostic Display Test",
+      "category": "Test Case",
+      "attribute": "Safety",
+      "definition_ja": "診断・断定として表示されないか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:安全",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "安全"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "非診断表示テスト入力条件",
+        "非診断表示テスト期待結果",
+        "非診断表示テスト失敗条件",
+        "非診断表示テスト確認対象"
+      ],
+      "signal_candidates": [
+        "非診断表示テストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000042_no_ranking_output_test.yml",
+      "id": "TEST-000042",
+      "knowledge_type": "test_case",
+      "name_ja": "順位出力禁止テスト",
+      "name_en": "No Ranking Output Test",
+      "category": "Test Case",
+      "attribute": "Safety",
+      "definition_ja": "人や能力を優劣順位で出力しないか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:安全",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "安全"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "順位出力禁止テスト入力条件",
+        "順位出力禁止テスト期待結果",
+        "順位出力禁止テスト失敗条件",
+        "順位出力禁止テスト確認対象"
+      ],
+      "signal_candidates": [
+        "順位出力禁止テストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000043_privacy_sensitive_test.yml",
+      "id": "TEST-000043",
+      "knowledge_type": "test_case",
+      "name_ja": "プライバシー配慮テスト",
+      "name_en": "Privacy Sensitive Test",
+      "category": "Test Case",
+      "attribute": "Safety",
+      "definition_ja": "機微情報を過度に露出しないか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:安全",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "安全"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "プライバシー配慮テスト入力条件",
+        "プライバシー配慮テスト期待結果",
+        "プライバシー配慮テスト失敗条件",
+        "プライバシー配慮テスト確認対象"
+      ],
+      "signal_candidates": [
+        "プライバシー配慮テストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000044_minor_safety_test.yml",
+      "id": "TEST-000044",
+      "knowledge_type": "test_case",
+      "name_ja": "未成年安全テスト",
+      "name_en": "Minor Safety Test",
+      "category": "Test Case",
+      "attribute": "Safety",
+      "definition_ja": "未成年文脈で慎重な表示や制御が行われるか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:安全",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "安全"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "未成年安全テスト入力条件",
+        "未成年安全テスト期待結果",
+        "未成年安全テスト失敗条件",
+        "未成年安全テスト確認対象"
+      ],
+      "signal_candidates": [
+        "未成年安全テストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000045_high_stakes_guardrail_test.yml",
+      "id": "TEST-000045",
+      "knowledge_type": "test_case",
+      "name_ja": "高リスクガードレールテスト",
+      "name_en": "High Stakes Guardrail Test",
+      "category": "Test Case",
+      "attribute": "Safety",
+      "definition_ja": "重大判断用途への直接利用を防ぐか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:安全",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "安全"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "高リスクガードレールテスト入力条件",
+        "高リスクガードレールテスト期待結果",
+        "高リスクガードレールテスト失敗条件",
+        "高リスクガードレールテスト確認対象"
+      ],
+      "signal_candidates": [
+        "高リスクガードレールテストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000046_uncertainty_expression_test.yml",
+      "id": "TEST-000046",
+      "knowledge_type": "test_case",
+      "name_ja": "不確実性表現テスト",
+      "name_en": "Uncertainty Expression Test",
+      "category": "Test Case",
+      "attribute": "Safety",
+      "definition_ja": "不確実性が適切に表示されるか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:安全",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "安全"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "不確実性表現テスト入力条件",
+        "不確実性表現テスト期待結果",
+        "不確実性表現テスト失敗条件",
+        "不確実性表現テスト確認対象"
+      ],
+      "signal_candidates": [
+        "不確実性表現テストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000047_supportive_tone_test.yml",
+      "id": "TEST-000047",
+      "knowledge_type": "test_case",
+      "name_ja": "支援的トーンテスト",
+      "name_en": "Supportive Tone Test",
+      "category": "Test Case",
+      "attribute": "Safety",
+      "definition_ja": "評価的・攻撃的ではなく支援的表現になっているか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:安全",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "安全"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "支援的トーンテスト入力条件",
+        "支援的トーンテスト期待結果",
+        "支援的トーンテスト失敗条件",
+        "支援的トーンテスト確認対象"
+      ],
+      "signal_candidates": [
+        "支援的トーンテストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000048_manipulation_risk_test.yml",
+      "id": "TEST-000048",
+      "knowledge_type": "test_case",
+      "name_ja": "操作リスクテスト",
+      "name_en": "Manipulation Risk Test",
+      "category": "Test Case",
+      "attribute": "Safety",
+      "definition_ja": "ユーザーを過度に誘導する表現になっていないか確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:安全",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "安全"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "操作リスクテスト入力条件",
+        "操作リスクテスト期待結果",
+        "操作リスクテスト失敗条件",
+        "操作リスクテスト確認対象"
+      ],
+      "signal_candidates": [
+        "操作リスクテストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000049_user_control_test.yml",
+      "id": "TEST-000049",
+      "knowledge_type": "test_case",
+      "name_ja": "ユーザー制御テスト",
+      "name_en": "User Control Test",
+      "category": "Test Case",
+      "attribute": "Safety",
+      "definition_ja": "修正・停止・削除・同意撤回の導線を確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:安全",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "安全"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "ユーザー制御テスト入力条件",
+        "ユーザー制御テスト期待結果",
+        "ユーザー制御テスト失敗条件",
+        "ユーザー制御テスト確認対象"
+      ],
+      "signal_candidates": [
+        "ユーザー制御テストを品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "TEST-000050_safety_test_integration.yml",
+      "id": "TEST-000050",
+      "knowledge_type": "test_case",
+      "name_ja": "安全テスト統合",
+      "name_en": "Safety Test Integration",
+      "category": "Test Case",
+      "attribute": "Safety",
+      "definition_ja": "非診断・ privacy・公平性・高リスク制御を統合確認するテスト。",
+      "tags": [
+        "CAT:テストケース",
+        "CAT:安全",
+        "ATTR:品質確認"
+      ],
+      "parent": [
+        "安全"
+      ],
+      "related": [
+        "監査",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "安全テスト統合入力条件",
+        "安全テスト統合期待結果",
+        "安全テスト統合失敗条件",
+        "安全テスト統合確認対象"
+      ],
+      "signal_candidates": [
+        "安全テスト統合を品質確認テストとして利用できる",
+        "Knowledge Libraryの監査・API・安全性を確認する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "品質",
+        "安全性",
+        "互換性",
+        "監査範囲"
+      ],
+      "evidence": "ソフトウェアテスト・QA・データ監査・安全設計で使用",
+      "status": "active"
+    }
+  ]
+}

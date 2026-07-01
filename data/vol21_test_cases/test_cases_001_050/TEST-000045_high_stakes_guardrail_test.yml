@@ -1,0 +1,33 @@
+id: TEST-000045
+knowledge_type: test_case
+name_ja: 高リスクガードレールテスト
+name_en: High Stakes Guardrail Test
+category: Test Case
+attribute: Safety
+definition_ja: 重大判断用途への直接利用を防ぐか確認するテスト。
+tags:
+  - CAT:テストケース
+  - CAT:安全
+  - ATTR:品質確認
+parent:
+  - 安全
+related:
+  - 監査
+  - API契約
+  - 安全設計
+observable_data:
+  - 高リスクガードレールテスト入力条件
+  - 高リスクガードレールテスト期待結果
+  - 高リスクガードレールテスト失敗条件
+  - 高リスクガードレールテスト確認対象
+signal_candidates:
+  - 高リスクガードレールテストを品質確認テストとして利用できる
+  - Knowledge Libraryの監査・API・安全性を確認する材料になる
+device_level: DB管理用
+modifiers:
+  - 品質
+  - 安全性
+  - 互換性
+  - 監査範囲
+evidence: ソフトウェアテスト・QA・データ監査・安全設計で使用
+status: active

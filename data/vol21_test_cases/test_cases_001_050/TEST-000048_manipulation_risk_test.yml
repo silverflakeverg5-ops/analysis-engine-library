@@ -1,0 +1,33 @@
+id: TEST-000048
+knowledge_type: test_case
+name_ja: 操作リスクテスト
+name_en: Manipulation Risk Test
+category: Test Case
+attribute: Safety
+definition_ja: ユーザーを過度に誘導する表現になっていないか確認するテスト。
+tags:
+  - CAT:テストケース
+  - CAT:安全
+  - ATTR:品質確認
+parent:
+  - 安全
+related:
+  - 監査
+  - API契約
+  - 安全設計
+observable_data:
+  - 操作リスクテスト入力条件
+  - 操作リスクテスト期待結果
+  - 操作リスクテスト失敗条件
+  - 操作リスクテスト確認対象
+signal_candidates:
+  - 操作リスクテストを品質確認テストとして利用できる
+  - Knowledge Libraryの監査・API・安全性を確認する材料になる
+device_level: DB管理用
+modifiers:
+  - 品質
+  - 安全性
+  - 互換性
+  - 監査範囲
+evidence: ソフトウェアテスト・QA・データ監査・安全設計で使用
+status: active

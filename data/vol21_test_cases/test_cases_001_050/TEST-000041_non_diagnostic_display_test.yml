@@ -1,0 +1,33 @@
+id: TEST-000041
+knowledge_type: test_case
+name_ja: 非診断表示テスト
+name_en: Non Diagnostic Display Test
+category: Test Case
+attribute: Safety
+definition_ja: 診断・断定として表示されないか確認するテスト。
+tags:
+  - CAT:テストケース
+  - CAT:安全
+  - ATTR:品質確認
+parent:
+  - 安全
+related:
+  - 監査
+  - API契約
+  - 安全設計
+observable_data:
+  - 非診断表示テスト入力条件
+  - 非診断表示テスト期待結果
+  - 非診断表示テスト失敗条件
+  - 非診断表示テスト確認対象
+signal_candidates:
+  - 非診断表示テストを品質確認テストとして利用できる
+  - Knowledge Libraryの監査・API・安全性を確認する材料になる
+device_level: DB管理用
+modifiers:
+  - 品質
+  - 安全性
+  - 互換性
+  - 監査範囲
+evidence: ソフトウェアテスト・QA・データ監査・安全設計で使用
+status: active

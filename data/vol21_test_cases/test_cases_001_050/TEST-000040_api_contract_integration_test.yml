@@ -1,0 +1,33 @@
+id: TEST-000040
+knowledge_type: test_case
+name_ja: API契約統合テスト
+name_en: API Contract Integration Test
+category: Test Case
+attribute: API Contract
+definition_ja: 検索・応答・安全・版管理を統合確認するテスト。
+tags:
+  - CAT:テストケース
+  - CAT:API契約
+  - ATTR:品質確認
+parent:
+  - API契約
+related:
+  - 監査
+  - API契約
+  - 安全設計
+observable_data:
+  - API契約統合テスト入力条件
+  - API契約統合テスト期待結果
+  - API契約統合テスト失敗条件
+  - API契約統合テスト確認対象
+signal_candidates:
+  - API契約統合テストを品質確認テストとして利用できる
+  - Knowledge Libraryの監査・API・安全性を確認する材料になる
+device_level: DB管理用
+modifiers:
+  - 品質
+  - 安全性
+  - 互換性
+  - 監査範囲
+evidence: ソフトウェアテスト・QA・データ監査・安全設計で使用
+status: active

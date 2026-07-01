@@ -1,0 +1,33 @@
+id: TEST-000032
+knowledge_type: test_case
+name_ja: API一覧応答テスト
+name_en: API List Response Test
+category: Test Case
+attribute: API Contract
+definition_ja: 複数項目取得APIの応答構造を確認するテスト。
+tags:
+  - CAT:テストケース
+  - CAT:API契約
+  - ATTR:品質確認
+parent:
+  - API契約
+related:
+  - 監査
+  - API契約
+  - 安全設計
+observable_data:
+  - API一覧応答テスト入力条件
+  - API一覧応答テスト期待結果
+  - API一覧応答テスト失敗条件
+  - API一覧応答テスト確認対象
+signal_candidates:
+  - API一覧応答テストを品質確認テストとして利用できる
+  - Knowledge Libraryの監査・API・安全性を確認する材料になる
+device_level: DB管理用
+modifiers:
+  - 品質
+  - 安全性
+  - 互換性
+  - 監査範囲
+evidence: ソフトウェアテスト・QA・データ監査・安全設計で使用
+status: active

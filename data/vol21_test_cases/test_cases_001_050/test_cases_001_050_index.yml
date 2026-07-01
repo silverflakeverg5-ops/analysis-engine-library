@@ -1,0 +1,57 @@
+category: Test Case
+name_ja: テストケース
+items:
+  - TEST-000001_required_fields_test.yml
+  - TEST-000002_duplicate_id_test.yml
+  - TEST-000003_filename_id_match_test.yml
+  - TEST-000004_yaml_parse_test.yml
+  - TEST-000005_index_reference_test.yml
+  - TEST-000006_orphan_file_test.yml
+  - TEST-000007_status_value_test.yml
+  - TEST-000008_knowledge_type_test.yml
+  - TEST-000009_empty_field_test.yml
+  - TEST-000010_global_audit_test.yml
+  - TEST-000011_schema_contract_test.yml
+  - TEST-000012_field_type_test.yml
+  - TEST-000013_array_field_test.yml
+  - TEST-000014_string_field_test.yml
+  - TEST-000015_id_format_test.yml
+  - TEST-000016_filename_format_test.yml
+  - TEST-000017_tag_format_test.yml
+  - TEST-000018_device_level_test.yml
+  - TEST-000019_evidence_field_test.yml
+  - TEST-000020_schema_integration_test.yml
+  - TEST-000021_master_pack_json_test.yml
+  - TEST-000022_master_pack_required_key_test.yml
+  - TEST-000023_yaml_generation_test.yml
+  - TEST-000024_index_generation_test.yml
+  - TEST-000025_output_dir_creation_test.yml
+  - TEST-000026_generated_item_count_test.yml
+  - TEST-000027_overwrite_behavior_test.yml
+  - TEST-000028_encoding_test.yml
+  - TEST-000029_builder_output_test.yml
+  - TEST-000030_generation_pipeline_test.yml
+  - TEST-000031_api_item_response_test.yml
+  - TEST-000032_api_list_response_test.yml
+  - TEST-000033_api_search_filter_test.yml
+  - TEST-000034_api_pagination_test.yml
+  - TEST-000035_api_error_response_test.yml
+  - TEST-000036_api_no_inference_test.yml
+  - TEST-000037_api_safety_note_test.yml
+  - TEST-000038_api_version_test.yml
+  - TEST-000039_api_backward_compatibility_test.yml
+  - TEST-000040_api_contract_integration_test.yml
+  - TEST-000041_non_diagnostic_display_test.yml
+  - TEST-000042_no_ranking_output_test.yml
+  - TEST-000043_privacy_sensitive_test.yml
+  - TEST-000044_minor_safety_test.yml
+  - TEST-000045_high_stakes_guardrail_test.yml
+  - TEST-000046_uncertainty_expression_test.yml
+  - TEST-000047_supportive_tone_test.yml
+  - TEST-000048_manipulation_risk_test.yml
+  - TEST-000049_user_control_test.yml
+  - TEST-000050_safety_test_integration.yml
+notes:
+  - テストケースはDB品質確認とアプリ接続検証の材料として扱う
+  - Knowledge DB側では推論しない
+  - 監査・API・安全性・表示の検証に利用する

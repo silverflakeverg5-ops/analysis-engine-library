@@ -1,0 +1,33 @@
+id: TEST-000049
+knowledge_type: test_case
+name_ja: ユーザー制御テスト
+name_en: User Control Test
+category: Test Case
+attribute: Safety
+definition_ja: 修正・停止・削除・同意撤回の導線を確認するテスト。
+tags:
+  - CAT:テストケース
+  - CAT:安全
+  - ATTR:品質確認
+parent:
+  - 安全
+related:
+  - 監査
+  - API契約
+  - 安全設計
+observable_data:
+  - ユーザー制御テスト入力条件
+  - ユーザー制御テスト期待結果
+  - ユーザー制御テスト失敗条件
+  - ユーザー制御テスト確認対象
+signal_candidates:
+  - ユーザー制御テストを品質確認テストとして利用できる
+  - Knowledge Libraryの監査・API・安全性を確認する材料になる
+device_level: DB管理用
+modifiers:
+  - 品質
+  - 安全性
+  - 互換性
+  - 監査範囲
+evidence: ソフトウェアテスト・QA・データ監査・安全設計で使用
+status: active

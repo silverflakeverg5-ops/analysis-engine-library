@@ -1,0 +1,33 @@
+id: TEST-000023
+knowledge_type: test_case
+name_ja: YAML生成テスト
+name_en: YAML Generation Test
+category: Test Case
+attribute: Generation
+definition_ja: master_packからYAMLファイルが生成されるか確認するテスト。
+tags:
+  - CAT:テストケース
+  - CAT:生成
+  - ATTR:品質確認
+parent:
+  - 生成
+related:
+  - 監査
+  - API契約
+  - 安全設計
+observable_data:
+  - YAML生成テスト入力条件
+  - YAML生成テスト期待結果
+  - YAML生成テスト失敗条件
+  - YAML生成テスト確認対象
+signal_candidates:
+  - YAML生成テストを品質確認テストとして利用できる
+  - Knowledge Libraryの監査・API・安全性を確認する材料になる
+device_level: DB管理用
+modifiers:
+  - 品質
+  - 安全性
+  - 互換性
+  - 監査範囲
+evidence: ソフトウェアテスト・QA・データ監査・安全設計で使用
+status: active

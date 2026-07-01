@@ -1,87 +1,87 @@
 import json
 from pathlib import Path
 
-OUT = Path("data/master_packs/vol19_mapping_rules_001_050.json")
+OUT = Path("data/master_packs/vol19_mapping_rules_051_100.json")
 
 SECTIONS = [
     {
-        "category": "Mapping Rules - Signal Mapping",
-        "name_ja": "対応ルール・シグナル対応",
+        "category": "Mapping Rules - Concept Linking",
+        "name_ja": "対応ルール・概念接続",
         "items": [
-            ("MAP-000001", "signal_to_concept_mapping", "シグナル概念対応", "Signal to Concept Mapping", "観測シグナルを関連する知識概念へ対応づけるルール。"),
-            ("MAP-000002", "signal_to_behavior_mapping", "シグナル行動対応", "Signal to Behavior Mapping", "観測シグナルを行動パターン項目へ対応づけるルール。"),
-            ("MAP-000003", "signal_to_personality_mapping", "シグナル性格対応", "Signal to Personality Mapping", "観測シグナルを性格傾向の推論材料へ対応づけるルール。"),
-            ("MAP-000004", "signal_to_state_mapping", "シグナル状態対応", "Signal to State Mapping", "観測シグナルを一時的状態の推論材料へ対応づけるルール。"),
-            ("MAP-000005", "signal_to_context_mapping", "シグナル文脈対応", "Signal to Context Mapping", "観測シグナルを時間・場所・課題などの文脈へ対応づけるルール。"),
-            ("MAP-000006", "multi_signal_mapping", "複合シグナル対応", "Multi Signal Mapping", "複数シグナルの同時変化を知識項目へ対応づけるルール。"),
-            ("MAP-000007", "baseline_deviation_mapping", "ベースライン乖離対応", "Baseline Deviation Mapping", "本人の通常傾向からのズレを推論材料へ対応づけるルール。"),
-            ("MAP-000008", "trend_mapping", "時系列傾向対応", "Trend Mapping", "長期的な増減や安定傾向を知識項目へ対応づけるルール。"),
-            ("MAP-000009", "anomaly_mapping", "異常値対応", "Anomaly Mapping", "短期的な外れ値や急変を状態変化材料へ対応づけるルール。"),
-            ("MAP-000010", "signal_mapping_integration", "シグナル対応統合", "Signal Mapping Integration", "観測シグナルと知識項目の対応づけ全体を管理する枠組み。")
+            ("MAP-000051", "concept_to_concept_mapping", "概念間対応", "Concept to Concept Mapping", "関連する知識概念同士を対応づけるルール。"),
+            ("MAP-000052", "concept_to_observable_mapping", "概念観測対応", "Concept to Observable Mapping", "知識概念を観測可能データへ対応づけるルール。"),
+            ("MAP-000053", "concept_to_modifier_mapping", "概念補正対応", "Concept to Modifier Mapping", "知識概念に必要な補正要因を対応づけるルール。"),
+            ("MAP-000054", "concept_to_evidence_mapping", "概念根拠対応", "Concept to Evidence Mapping", "知識概念を根拠種別や研究領域へ対応づけるルール。"),
+            ("MAP-000055", "concept_to_app_use_case_mapping", "概念用途対応", "Concept to App Use Case Mapping", "知識概念を利用可能なアプリ用途へ対応づけるルール。"),
+            ("MAP-000056", "parent_child_mapping", "親子概念対応", "Parent Child Mapping", "上位概念と下位概念の関係を対応づけるルール。"),
+            ("MAP-000057", "related_concept_mapping", "関連概念対応", "Related Concept Mapping", "横断的に関連する概念同士を対応づけるルール。"),
+            ("MAP-000058", "near_duplicate_mapping", "近接概念対応", "Near Duplicate Mapping", "似ているが統合しない概念同士を関連として扱うルール。"),
+            ("MAP-000059", "concept_scope_mapping", "概念範囲対応", "Concept Scope Mapping", "概念の適用範囲や限界条件を対応づけるルール。"),
+            ("MAP-000060", "concept_linking_integration", "概念接続統合", "Concept Linking Integration", "知識概念同士の接続を統合管理する枠組み。")
         ]
     },
     {
-        "category": "Mapping Rules - Modifier Mapping",
-        "name_ja": "対応ルール・補正対応",
+        "category": "Mapping Rules - Evidence Mapping",
+        "name_ja": "対応ルール・根拠対応",
         "items": [
-            ("MAP-000011", "context_modifier_mapping", "文脈補正対応", "Context Modifier Mapping", "時間・場所・端末・課題文脈に応じて補正要因を対応づけるルール。"),
-            ("MAP-000012", "state_modifier_mapping", "状態補正対応", "State Modifier Mapping", "睡眠・疲労・ストレスなどの状態要因を対応づけるルール。"),
-            ("MAP-000013", "data_quality_modifier_mapping", "データ品質補正対応", "Data Quality Modifier Mapping", "欠損・ノイズ・サンプル数に応じて補正要因を対応づけるルール。"),
-            ("MAP-000014", "individual_modifier_mapping", "個人差補正対応", "Individual Difference Modifier Mapping", "年齢・経験・文化・技能水準に応じて補正要因を対応づけるルール。"),
-            ("MAP-000015", "safety_modifier_mapping", "安全補正対応", "Safety Modifier Mapping", "プライバシー・高リスク・未成年などの安全補正を対応づけるルール。"),
-            ("MAP-000016", "app_domain_modifier_mapping", "アプリ領域補正対応", "App Domain Modifier Mapping", "診断・ゲーム・秘書・教育など用途別補正を対応づけるルール。"),
-            ("MAP-000017", "temporal_modifier_mapping", "時系列補正対応", "Temporal Modifier Mapping", "短期状態・長期傾向・変化点を補正要因へ対応づけるルール。"),
-            ("MAP-000018", "social_modifier_mapping", "社会補正対応", "Social Modifier Mapping", "公開性・関係性・権威・集団規範を補正要因へ対応づけるルール。"),
-            ("MAP-000019", "modifier_priority_mapping", "補正優先度対応", "Modifier Priority Mapping", "複数補正要因の適用優先度を対応づけるルール。"),
-            ("MAP-000020", "modifier_mapping_integration", "補正対応統合", "Modifier Mapping Integration", "補正要因と推論材料の対応づけ全体を管理する枠組み。")
+            ("MAP-000061", "evidence_strength_mapping", "根拠強度対応", "Evidence Strength Mapping", "知識項目に対する根拠の強さを対応づけるルール。"),
+            ("MAP-000062", "evidence_type_mapping", "根拠種別対応", "Evidence Type Mapping", "研究設計・データ種別・測定根拠を知識項目へ対応づけるルール。"),
+            ("MAP-000063", "evidence_quality_mapping", "根拠品質対応", "Evidence Quality Mapping", "信頼性・妥当性・再現性を知識項目へ対応づけるルール。"),
+            ("MAP-000064", "evidence_limitation_mapping", "根拠限界対応", "Evidence Limitation Mapping", "根拠の適用範囲や限界を知識項目へ対応づけるルール。"),
+            ("MAP-000065", "evidence_update_mapping", "根拠更新対応", "Evidence Update Mapping", "根拠の更新必要性や見直し周期を対応づけるルール。"),
+            ("MAP-000066", "evidence_domain_mapping", "根拠領域対応", "Evidence Domain Mapping", "心理学・認知科学・神経科学などの根拠領域を対応づけるルール。"),
+            ("MAP-000067", "evidence_to_display_mapping", "根拠表示対応", "Evidence to Display Mapping", "根拠の強さや種類を表示設計へ対応づけるルール。"),
+            ("MAP-000068", "evidence_to_confidence_mapping", "根拠信頼度対応", "Evidence to Confidence Mapping", "根拠品質を推論信頼度の材料へ対応づけるルール。"),
+            ("MAP-000069", "evidence_to_safety_mapping", "根拠安全対応", "Evidence to Safety Mapping", "根拠が弱い場合に安全表現や慎重表示へ対応づけるルール。"),
+            ("MAP-000070", "evidence_mapping_integration", "根拠対応統合", "Evidence Mapping Integration", "根拠情報と知識項目・表示・信頼度を統合する枠組み。")
         ]
     },
     {
-        "category": "Mapping Rules - Display Mapping",
-        "name_ja": "対応ルール・表示対応",
+        "category": "Mapping Rules - Safety Mapping",
+        "name_ja": "対応ルール・安全対応",
         "items": [
-            ("MAP-000021", "result_to_display_mapping", "結果表示対応", "Result to Display Mapping", "推論結果を適切な表示形式へ対応づけるルール。"),
-            ("MAP-000022", "confidence_to_display_mapping", "信頼度表示対応", "Confidence to Display Mapping", "信頼度に応じて表示の強さや説明量を変えるルール。"),
-            ("MAP-000023", "uncertainty_to_expression_mapping", "不確実性表現対応", "Uncertainty to Expression Mapping", "不確実性が高い場合に慎重な表現へ対応づけるルール。"),
-            ("MAP-000024", "safety_to_display_mapping", "安全表示対応", "Safety to Display Mapping", "安全リスクに応じて非断定・支援的表現へ対応づけるルール。"),
-            ("MAP-000025", "app_use_case_display_mapping", "用途別表示対応", "App Use Case Display Mapping", "アプリ用途に応じて表示設計を対応づけるルール。"),
-            ("MAP-000026", "signal_explanation_mapping", "シグナル説明対応", "Signal Explanation Mapping", "使用シグナルをユーザー向け説明へ対応づけるルール。"),
-            ("MAP-000027", "modifier_explanation_mapping", "補正説明対応", "Modifier Explanation Mapping", "補正要因をユーザー向け説明へ対応づけるルール。"),
-            ("MAP-000028", "action_suggestion_mapping", "行動提案対応", "Action Suggestion Mapping", "結果や状態に応じて小さな次アクションへ対応づけるルール。"),
-            ("MAP-000029", "notification_mapping", "通知対応", "Notification Mapping", "文脈や状態に応じて通知タイミング・内容を対応づけるルール。"),
-            ("MAP-000030", "display_mapping_integration", "表示対応統合", "Display Mapping Integration", "推論材料・安全性・用途を表示設計へ接続する枠組み。")
+            ("MAP-000071", "risk_to_guardrail_mapping", "リスクガードレール対応", "Risk to Guardrail Mapping", "観測されたリスクを安全ガードレールへ対応づけるルール。"),
+            ("MAP-000072", "sensitive_context_mapping", "機微文脈対応", "Sensitive Context Mapping", "健康・未成年・人間関係など慎重文脈を安全制御へ対応づけるルール。"),
+            ("MAP-000073", "privacy_risk_mapping", "プライバシーリスク対応", "Privacy Risk Mapping", "個人情報や機微情報の扱いを安全制御へ対応づけるルール。"),
+            ("MAP-000074", "high_stakes_mapping", "高リスク用途対応", "High Stakes Mapping", "重大判断に関わる用途を慎重表示や利用制限へ対応づけるルール。"),
+            ("MAP-000075", "minor_safety_mapping", "未成年安全対応", "Minor Safety Mapping", "未成年利用文脈を安全表示・同意・制限へ対応づけるルール。"),
+            ("MAP-000076", "distress_safety_mapping", "苦痛安全対応", "Distress Safety Mapping", "強い苦痛表現を安全導線や慎重応答へ対応づけるルール。"),
+            ("MAP-000077", "non_diagnostic_mapping", "非診断対応", "Non Diagnostic Mapping", "診断的に見える結果を非診断表現へ対応づけるルール。"),
+            ("MAP-000078", "labeling_risk_mapping", "ラベリングリスク対応", "Labeling Risk Mapping", "固定的ラベル化を避ける表示や補正へ対応づけるルール。"),
+            ("MAP-000079", "manipulation_risk_mapping", "操作リスク対応", "Manipulation Risk Mapping", "過度な誘導や依存を避ける制御へ対応づけるルール。"),
+            ("MAP-000080", "safety_mapping_integration", "安全対応統合", "Safety Mapping Integration", "リスク・用途・表示・補正を安全制御へ統合する枠組み。")
         ]
     },
     {
-        "category": "Mapping Rules - App Mapping",
-        "name_ja": "対応ルール・アプリ対応",
+        "category": "Mapping Rules - Data Pipeline Mapping",
+        "name_ja": "対応ルール・データ処理対応",
         "items": [
-            ("MAP-000031", "diagnosis_app_mapping", "診断アプリ対応", "Diagnosis App Mapping", "診断アプリで利用する知識・シグナル・表示を対応づけるルール。"),
-            ("MAP-000032", "game_app_mapping", "ゲームアプリ対応", "Game App Mapping", "ゲーム行動から取得するシグナルと知識項目を対応づけるルール。"),
-            ("MAP-000033", "assistant_app_mapping", "秘書アプリ対応", "Assistant App Mapping", "予定・タスク・通知文脈と知識項目を対応づけるルール。"),
-            ("MAP-000034", "education_app_mapping", "教育アプリ対応", "Education App Mapping", "学習ログ・教材・評価と知識項目を対応づけるルール。"),
-            ("MAP-000035", "work_support_mapping", "仕事支援対応", "Work Support Mapping", "業務・集中・タスク管理のシグナルを知識項目へ対応づけるルール。"),
-            ("MAP-000036", "wellbeing_app_mapping", "ウェルビーイング対応", "Wellbeing App Mapping", "睡眠・疲労・感情・回復系シグナルを知識項目へ対応づけるルール。"),
-            ("MAP-000037", "relationship_app_mapping", "人間関係アプリ対応", "Relationship App Mapping", "対人反応や会話シグナルを知識項目へ対応づけるルール。"),
-            ("MAP-000038", "personalization_mapping", "個別化対応", "Personalization Mapping", "ユーザー状態や嗜好に応じて個別化材料を対応づけるルール。"),
-            ("MAP-000039", "cross_app_mapping", "複数アプリ横断対応", "Cross App Mapping", "複数アプリで共通知識を再利用するための対応ルール。"),
-            ("MAP-000040", "app_mapping_integration", "アプリ対応統合", "App Mapping Integration", "アプリ用途と知識DBの接続を統合管理する枠組み。")
+            ("MAP-000081", "raw_data_to_signal_mapping", "生データシグナル対応", "Raw Data to Signal Mapping", "操作ログや入力データを観測シグナルへ変換する対応ルール。"),
+            ("MAP-000082", "signal_to_feature_mapping", "シグナル特徴量対応", "Signal to Feature Mapping", "観測シグナルをアプリ側特徴量へ対応づけるルール。"),
+            ("MAP-000083", "feature_to_inference_material_mapping", "特徴量推論材料対応", "Feature to Inference Material Mapping", "特徴量を推論材料として使える形へ対応づけるルール。"),
+            ("MAP-000084", "baseline_calculation_mapping", "ベースライン算出対応", "Baseline Calculation Mapping", "本人通常傾向を算出するための対応ルール。"),
+            ("MAP-000085", "normalization_mapping", "正規化対応", "Normalization Mapping", "端末差・個人差・単位差をそろえるための対応ルール。"),
+            ("MAP-000086", "aggregation_window_mapping", "集計期間対応", "Aggregation Window Mapping", "日次・週次・月次など集計期間を対応づけるルール。"),
+            ("MAP-000087", "missing_data_handling_mapping", "欠損処理対応", "Missing Data Handling Mapping", "欠損データを補正・除外・低信頼化する対応ルール。"),
+            ("MAP-000088", "outlier_handling_mapping", "外れ値処理対応", "Outlier Handling Mapping", "外れ値を検出し推論材料として扱うか調整するルール。"),
+            ("MAP-000089", "data_quality_to_confidence_mapping", "データ品質信頼度対応", "Data Quality to Confidence Mapping", "データ品質を推論信頼度へ反映する対応ルール。"),
+            ("MAP-000090", "data_pipeline_mapping_integration", "データ処理対応統合", "Data Pipeline Mapping Integration", "生データから推論材料までの対応を統合管理する枠組み。")
         ]
     },
     {
-        "category": "Mapping Rules - Integration",
-        "name_ja": "対応ルール・統合",
+        "category": "Mapping Rules - Governance Mapping",
+        "name_ja": "対応ルール・管理対応",
         "items": [
-            ("MAP-000041", "mapping_schema", "対応スキーマ", "Mapping Schema", "シグナル・知識・補正・表示の対応関係を表す構造定義。"),
-            ("MAP-000042", "mapping_confidence", "対応信頼度", "Mapping Confidence", "対応づけの根拠量や一貫性を示す信頼度概念。"),
-            ("MAP-000043", "mapping_priority", "対応優先度", "Mapping Priority", "複数対応候補がある場合の優先順位を管理する概念。"),
-            ("MAP-000044", "mapping_conflict_resolution", "対応競合解決", "Mapping Conflict Resolution", "矛盾する対応候補を調整するための管理概念。"),
-            ("MAP-000045", "mapping_audit", "対応監査", "Mapping Audit", "対応ルールが安全・一貫・妥当か確認する監査。"),
-            ("MAP-000046", "mapping_versioning", "対応ルール版管理", "Mapping Versioning", "対応ルールの変更履歴と互換性を管理する考え方。"),
-            ("MAP-000047", "mapping_test_case", "対応テストケース", "Mapping Test Case", "観測入力から期待される対応結果を確認するテスト材料。"),
-            ("MAP-000048", "mapping_update_cycle", "対応更新サイクル", "Mapping Update Cycle", "アプリ実装や観測結果に応じて対応ルールを見直す周期。"),
-            ("MAP-000049", "mapping_library_boundary", "対応ライブラリ境界", "Mapping Library Boundary", "DBは対応材料を持つが推論処理はアプリ側で行う境界管理。"),
-            ("MAP-000050", "mapping_rules_integration", "対応ルール統合", "Mapping Rules Integration", "シグナル・補正・表示・アプリ接続を統合する対応管理枠組み。")
+            ("MAP-000091", "mapping_to_audit_mapping", "対応監査接続", "Mapping to Audit Mapping", "対応ルールを監査対象へ接続する管理ルール。"),
+            ("MAP-000092", "mapping_to_schema_mapping", "対応スキーマ接続", "Mapping to Schema Mapping", "対応ルールをスキーマ項目や必須フィールドへ接続する管理ルール。"),
+            ("MAP-000093", "mapping_to_version_mapping", "対応版管理接続", "Mapping to Version Mapping", "対応ルール変更をバージョン管理へ接続するルール。"),
+            ("MAP-000094", "mapping_to_release_mapping", "対応リリース接続", "Mapping to Release Mapping", "対応ルールをリリース単位や変更履歴へ接続する管理ルール。"),
+            ("MAP-000095", "mapping_to_documentation_mapping", "対応文書化接続", "Mapping to Documentation Mapping", "対応ルールを説明資料や仕様へ接続する管理ルール。"),
+            ("MAP-000096", "mapping_to_test_mapping", "対応テスト接続", "Mapping to Test Mapping", "対応ルールをテストケースや検証条件へ接続する管理ルール。"),
+            ("MAP-000097", "mapping_to_app_contract_mapping", "対応アプリ契約接続", "Mapping to App Contract Mapping", "アプリ側が参照する対応ルールの入出力契約を管理するルール。"),
+            ("MAP-000098", "mapping_to_library_boundary_mapping", "対応境界接続", "Mapping to Library Boundary Mapping", "DB側材料提供とアプリ側推論の境界を対応ルールに反映する管理。"),
+            ("MAP-000099", "mapping_to_quality_gate_mapping", "対応品質ゲート接続", "Mapping to Quality Gate Mapping", "対応ルールの品質確認条件を管理するルール。"),
+            ("MAP-000100", "governance_mapping_integration", "管理対応統合", "Governance Mapping Integration", "対応ルールの監査・版管理・テスト・文書化を統合する枠組み。")
         ]
     }
 ]
@@ -136,8 +136,8 @@ def main():
     ])
 
     pack = {
-        "output_dir": "vol19_mapping_rules/mapping_rules_001_050",
-        "index_filename": "mapping_rules_001_050_index.yml",
+        "output_dir": "vol19_mapping_rules/mapping_rules_051_100",
+        "index_filename": "mapping_rules_051_100_index.yml",
         "index_content": "\n".join(index_lines) + "\n",
         "items": all_items
     }

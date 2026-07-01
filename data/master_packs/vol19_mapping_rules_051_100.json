@@ -1,0 +1,2107 @@
+{
+  "output_dir": "vol19_mapping_rules/mapping_rules_051_100",
+  "index_filename": "mapping_rules_051_100_index.yml",
+  "index_content": "category: Mapping Rule\nname_ja: 対応ルール\nitems:\n  - MAP-000051_concept_to_concept_mapping.yml\n  - MAP-000052_concept_to_observable_mapping.yml\n  - MAP-000053_concept_to_modifier_mapping.yml\n  - MAP-000054_concept_to_evidence_mapping.yml\n  - MAP-000055_concept_to_app_use_case_mapping.yml\n  - MAP-000056_parent_child_mapping.yml\n  - MAP-000057_related_concept_mapping.yml\n  - MAP-000058_near_duplicate_mapping.yml\n  - MAP-000059_concept_scope_mapping.yml\n  - MAP-000060_concept_linking_integration.yml\n  - MAP-000061_evidence_strength_mapping.yml\n  - MAP-000062_evidence_type_mapping.yml\n  - MAP-000063_evidence_quality_mapping.yml\n  - MAP-000064_evidence_limitation_mapping.yml\n  - MAP-000065_evidence_update_mapping.yml\n  - MAP-000066_evidence_domain_mapping.yml\n  - MAP-000067_evidence_to_display_mapping.yml\n  - MAP-000068_evidence_to_confidence_mapping.yml\n  - MAP-000069_evidence_to_safety_mapping.yml\n  - MAP-000070_evidence_mapping_integration.yml\n  - MAP-000071_risk_to_guardrail_mapping.yml\n  - MAP-000072_sensitive_context_mapping.yml\n  - MAP-000073_privacy_risk_mapping.yml\n  - MAP-000074_high_stakes_mapping.yml\n  - MAP-000075_minor_safety_mapping.yml\n  - MAP-000076_distress_safety_mapping.yml\n  - MAP-000077_non_diagnostic_mapping.yml\n  - MAP-000078_labeling_risk_mapping.yml\n  - MAP-000079_manipulation_risk_mapping.yml\n  - MAP-000080_safety_mapping_integration.yml\n  - MAP-000081_raw_data_to_signal_mapping.yml\n  - MAP-000082_signal_to_feature_mapping.yml\n  - MAP-000083_feature_to_inference_material_mapping.yml\n  - MAP-000084_baseline_calculation_mapping.yml\n  - MAP-000085_normalization_mapping.yml\n  - MAP-000086_aggregation_window_mapping.yml\n  - MAP-000087_missing_data_handling_mapping.yml\n  - MAP-000088_outlier_handling_mapping.yml\n  - MAP-000089_data_quality_to_confidence_mapping.yml\n  - MAP-000090_data_pipeline_mapping_integration.yml\n  - MAP-000091_mapping_to_audit_mapping.yml\n  - MAP-000092_mapping_to_schema_mapping.yml\n  - MAP-000093_mapping_to_version_mapping.yml\n  - MAP-000094_mapping_to_release_mapping.yml\n  - MAP-000095_mapping_to_documentation_mapping.yml\n  - MAP-000096_mapping_to_test_mapping.yml\n  - MAP-000097_mapping_to_app_contract_mapping.yml\n  - MAP-000098_mapping_to_library_boundary_mapping.yml\n  - MAP-000099_mapping_to_quality_gate_mapping.yml\n  - MAP-000100_governance_mapping_integration.yml\nnotes:\n  - 対応ルールはDBとアプリ推論を接続する管理材料として扱う\n  - Knowledge DB側ではスコアリングしない\n  - アプリ側で対応ルールを参照して推論・表示・補正を行う\n",
+  "items": [
+    {
+      "filename": "MAP-000051_concept_to_concept_mapping.yml",
+      "id": "MAP-000051",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "概念間対応",
+      "name_en": "Concept to Concept Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Concept Linking",
+      "definition_ja": "関連する知識概念同士を対応づけるルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:概念接続",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "概念接続"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "概念間対応入力条件",
+        "概念間対応対応先",
+        "概念間対応信頼度",
+        "概念間対応適用範囲"
+      ],
+      "signal_candidates": [
+        "概念間対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000052_concept_to_observable_mapping.yml",
+      "id": "MAP-000052",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "概念観測対応",
+      "name_en": "Concept to Observable Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Concept Linking",
+      "definition_ja": "知識概念を観測可能データへ対応づけるルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:概念接続",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "概念接続"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "概念観測対応入力条件",
+        "概念観測対応対応先",
+        "概念観測対応信頼度",
+        "概念観測対応適用範囲"
+      ],
+      "signal_candidates": [
+        "概念観測対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000053_concept_to_modifier_mapping.yml",
+      "id": "MAP-000053",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "概念補正対応",
+      "name_en": "Concept to Modifier Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Concept Linking",
+      "definition_ja": "知識概念に必要な補正要因を対応づけるルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:概念接続",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "概念接続"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "概念補正対応入力条件",
+        "概念補正対応対応先",
+        "概念補正対応信頼度",
+        "概念補正対応適用範囲"
+      ],
+      "signal_candidates": [
+        "概念補正対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000054_concept_to_evidence_mapping.yml",
+      "id": "MAP-000054",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "概念根拠対応",
+      "name_en": "Concept to Evidence Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Concept Linking",
+      "definition_ja": "知識概念を根拠種別や研究領域へ対応づけるルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:概念接続",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "概念接続"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "概念根拠対応入力条件",
+        "概念根拠対応対応先",
+        "概念根拠対応信頼度",
+        "概念根拠対応適用範囲"
+      ],
+      "signal_candidates": [
+        "概念根拠対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000055_concept_to_app_use_case_mapping.yml",
+      "id": "MAP-000055",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "概念用途対応",
+      "name_en": "Concept to App Use Case Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Concept Linking",
+      "definition_ja": "知識概念を利用可能なアプリ用途へ対応づけるルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:概念接続",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "概念接続"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "概念用途対応入力条件",
+        "概念用途対応対応先",
+        "概念用途対応信頼度",
+        "概念用途対応適用範囲"
+      ],
+      "signal_candidates": [
+        "概念用途対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000056_parent_child_mapping.yml",
+      "id": "MAP-000056",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "親子概念対応",
+      "name_en": "Parent Child Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Concept Linking",
+      "definition_ja": "上位概念と下位概念の関係を対応づけるルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:概念接続",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "概念接続"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "親子概念対応入力条件",
+        "親子概念対応対応先",
+        "親子概念対応信頼度",
+        "親子概念対応適用範囲"
+      ],
+      "signal_candidates": [
+        "親子概念対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000057_related_concept_mapping.yml",
+      "id": "MAP-000057",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "関連概念対応",
+      "name_en": "Related Concept Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Concept Linking",
+      "definition_ja": "横断的に関連する概念同士を対応づけるルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:概念接続",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "概念接続"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "関連概念対応入力条件",
+        "関連概念対応対応先",
+        "関連概念対応信頼度",
+        "関連概念対応適用範囲"
+      ],
+      "signal_candidates": [
+        "関連概念対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000058_near_duplicate_mapping.yml",
+      "id": "MAP-000058",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "近接概念対応",
+      "name_en": "Near Duplicate Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Concept Linking",
+      "definition_ja": "似ているが統合しない概念同士を関連として扱うルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:概念接続",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "概念接続"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "近接概念対応入力条件",
+        "近接概念対応対応先",
+        "近接概念対応信頼度",
+        "近接概念対応適用範囲"
+      ],
+      "signal_candidates": [
+        "近接概念対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000059_concept_scope_mapping.yml",
+      "id": "MAP-000059",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "概念範囲対応",
+      "name_en": "Concept Scope Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Concept Linking",
+      "definition_ja": "概念の適用範囲や限界条件を対応づけるルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:概念接続",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "概念接続"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "概念範囲対応入力条件",
+        "概念範囲対応対応先",
+        "概念範囲対応信頼度",
+        "概念範囲対応適用範囲"
+      ],
+      "signal_candidates": [
+        "概念範囲対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000060_concept_linking_integration.yml",
+      "id": "MAP-000060",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "概念接続統合",
+      "name_en": "Concept Linking Integration",
+      "category": "Mapping Rule",
+      "attribute": "Concept Linking",
+      "definition_ja": "知識概念同士の接続を統合管理する枠組み。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:概念接続",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "概念接続"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "概念接続統合入力条件",
+        "概念接続統合対応先",
+        "概念接続統合信頼度",
+        "概念接続統合適用範囲"
+      ],
+      "signal_candidates": [
+        "概念接続統合を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000061_evidence_strength_mapping.yml",
+      "id": "MAP-000061",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "根拠強度対応",
+      "name_en": "Evidence Strength Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Evidence Mapping",
+      "definition_ja": "知識項目に対する根拠の強さを対応づけるルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:根拠対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "根拠対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "根拠強度対応入力条件",
+        "根拠強度対応対応先",
+        "根拠強度対応信頼度",
+        "根拠強度対応適用範囲"
+      ],
+      "signal_candidates": [
+        "根拠強度対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000062_evidence_type_mapping.yml",
+      "id": "MAP-000062",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "根拠種別対応",
+      "name_en": "Evidence Type Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Evidence Mapping",
+      "definition_ja": "研究設計・データ種別・測定根拠を知識項目へ対応づけるルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:根拠対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "根拠対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "根拠種別対応入力条件",
+        "根拠種別対応対応先",
+        "根拠種別対応信頼度",
+        "根拠種別対応適用範囲"
+      ],
+      "signal_candidates": [
+        "根拠種別対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000063_evidence_quality_mapping.yml",
+      "id": "MAP-000063",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "根拠品質対応",
+      "name_en": "Evidence Quality Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Evidence Mapping",
+      "definition_ja": "信頼性・妥当性・再現性を知識項目へ対応づけるルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:根拠対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "根拠対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "根拠品質対応入力条件",
+        "根拠品質対応対応先",
+        "根拠品質対応信頼度",
+        "根拠品質対応適用範囲"
+      ],
+      "signal_candidates": [
+        "根拠品質対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000064_evidence_limitation_mapping.yml",
+      "id": "MAP-000064",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "根拠限界対応",
+      "name_en": "Evidence Limitation Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Evidence Mapping",
+      "definition_ja": "根拠の適用範囲や限界を知識項目へ対応づけるルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:根拠対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "根拠対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "根拠限界対応入力条件",
+        "根拠限界対応対応先",
+        "根拠限界対応信頼度",
+        "根拠限界対応適用範囲"
+      ],
+      "signal_candidates": [
+        "根拠限界対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000065_evidence_update_mapping.yml",
+      "id": "MAP-000065",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "根拠更新対応",
+      "name_en": "Evidence Update Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Evidence Mapping",
+      "definition_ja": "根拠の更新必要性や見直し周期を対応づけるルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:根拠対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "根拠対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "根拠更新対応入力条件",
+        "根拠更新対応対応先",
+        "根拠更新対応信頼度",
+        "根拠更新対応適用範囲"
+      ],
+      "signal_candidates": [
+        "根拠更新対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000066_evidence_domain_mapping.yml",
+      "id": "MAP-000066",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "根拠領域対応",
+      "name_en": "Evidence Domain Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Evidence Mapping",
+      "definition_ja": "心理学・認知科学・神経科学などの根拠領域を対応づけるルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:根拠対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "根拠対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "根拠領域対応入力条件",
+        "根拠領域対応対応先",
+        "根拠領域対応信頼度",
+        "根拠領域対応適用範囲"
+      ],
+      "signal_candidates": [
+        "根拠領域対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000067_evidence_to_display_mapping.yml",
+      "id": "MAP-000067",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "根拠表示対応",
+      "name_en": "Evidence to Display Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Evidence Mapping",
+      "definition_ja": "根拠の強さや種類を表示設計へ対応づけるルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:根拠対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "根拠対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "根拠表示対応入力条件",
+        "根拠表示対応対応先",
+        "根拠表示対応信頼度",
+        "根拠表示対応適用範囲"
+      ],
+      "signal_candidates": [
+        "根拠表示対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000068_evidence_to_confidence_mapping.yml",
+      "id": "MAP-000068",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "根拠信頼度対応",
+      "name_en": "Evidence to Confidence Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Evidence Mapping",
+      "definition_ja": "根拠品質を推論信頼度の材料へ対応づけるルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:根拠対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "根拠対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "根拠信頼度対応入力条件",
+        "根拠信頼度対応対応先",
+        "根拠信頼度対応信頼度",
+        "根拠信頼度対応適用範囲"
+      ],
+      "signal_candidates": [
+        "根拠信頼度対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000069_evidence_to_safety_mapping.yml",
+      "id": "MAP-000069",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "根拠安全対応",
+      "name_en": "Evidence to Safety Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Evidence Mapping",
+      "definition_ja": "根拠が弱い場合に安全表現や慎重表示へ対応づけるルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:根拠対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "根拠対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "根拠安全対応入力条件",
+        "根拠安全対応対応先",
+        "根拠安全対応信頼度",
+        "根拠安全対応適用範囲"
+      ],
+      "signal_candidates": [
+        "根拠安全対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000070_evidence_mapping_integration.yml",
+      "id": "MAP-000070",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "根拠対応統合",
+      "name_en": "Evidence Mapping Integration",
+      "category": "Mapping Rule",
+      "attribute": "Evidence Mapping",
+      "definition_ja": "根拠情報と知識項目・表示・信頼度を統合する枠組み。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:根拠対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "根拠対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "根拠対応統合入力条件",
+        "根拠対応統合対応先",
+        "根拠対応統合信頼度",
+        "根拠対応統合適用範囲"
+      ],
+      "signal_candidates": [
+        "根拠対応統合を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000071_risk_to_guardrail_mapping.yml",
+      "id": "MAP-000071",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "リスクガードレール対応",
+      "name_en": "Risk to Guardrail Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Safety Mapping",
+      "definition_ja": "観測されたリスクを安全ガードレールへ対応づけるルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:安全対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "安全対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "リスクガードレール対応入力条件",
+        "リスクガードレール対応対応先",
+        "リスクガードレール対応信頼度",
+        "リスクガードレール対応適用範囲"
+      ],
+      "signal_candidates": [
+        "リスクガードレール対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000072_sensitive_context_mapping.yml",
+      "id": "MAP-000072",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "機微文脈対応",
+      "name_en": "Sensitive Context Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Safety Mapping",
+      "definition_ja": "健康・未成年・人間関係など慎重文脈を安全制御へ対応づけるルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:安全対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "安全対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "機微文脈対応入力条件",
+        "機微文脈対応対応先",
+        "機微文脈対応信頼度",
+        "機微文脈対応適用範囲"
+      ],
+      "signal_candidates": [
+        "機微文脈対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000073_privacy_risk_mapping.yml",
+      "id": "MAP-000073",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "プライバシーリスク対応",
+      "name_en": "Privacy Risk Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Safety Mapping",
+      "definition_ja": "個人情報や機微情報の扱いを安全制御へ対応づけるルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:安全対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "安全対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "プライバシーリスク対応入力条件",
+        "プライバシーリスク対応対応先",
+        "プライバシーリスク対応信頼度",
+        "プライバシーリスク対応適用範囲"
+      ],
+      "signal_candidates": [
+        "プライバシーリスク対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000074_high_stakes_mapping.yml",
+      "id": "MAP-000074",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "高リスク用途対応",
+      "name_en": "High Stakes Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Safety Mapping",
+      "definition_ja": "重大判断に関わる用途を慎重表示や利用制限へ対応づけるルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:安全対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "安全対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "高リスク用途対応入力条件",
+        "高リスク用途対応対応先",
+        "高リスク用途対応信頼度",
+        "高リスク用途対応適用範囲"
+      ],
+      "signal_candidates": [
+        "高リスク用途対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000075_minor_safety_mapping.yml",
+      "id": "MAP-000075",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "未成年安全対応",
+      "name_en": "Minor Safety Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Safety Mapping",
+      "definition_ja": "未成年利用文脈を安全表示・同意・制限へ対応づけるルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:安全対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "安全対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "未成年安全対応入力条件",
+        "未成年安全対応対応先",
+        "未成年安全対応信頼度",
+        "未成年安全対応適用範囲"
+      ],
+      "signal_candidates": [
+        "未成年安全対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000076_distress_safety_mapping.yml",
+      "id": "MAP-000076",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "苦痛安全対応",
+      "name_en": "Distress Safety Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Safety Mapping",
+      "definition_ja": "強い苦痛表現を安全導線や慎重応答へ対応づけるルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:安全対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "安全対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "苦痛安全対応入力条件",
+        "苦痛安全対応対応先",
+        "苦痛安全対応信頼度",
+        "苦痛安全対応適用範囲"
+      ],
+      "signal_candidates": [
+        "苦痛安全対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000077_non_diagnostic_mapping.yml",
+      "id": "MAP-000077",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "非診断対応",
+      "name_en": "Non Diagnostic Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Safety Mapping",
+      "definition_ja": "診断的に見える結果を非診断表現へ対応づけるルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:安全対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "安全対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "非診断対応入力条件",
+        "非診断対応対応先",
+        "非診断対応信頼度",
+        "非診断対応適用範囲"
+      ],
+      "signal_candidates": [
+        "非診断対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000078_labeling_risk_mapping.yml",
+      "id": "MAP-000078",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "ラベリングリスク対応",
+      "name_en": "Labeling Risk Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Safety Mapping",
+      "definition_ja": "固定的ラベル化を避ける表示や補正へ対応づけるルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:安全対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "安全対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "ラベリングリスク対応入力条件",
+        "ラベリングリスク対応対応先",
+        "ラベリングリスク対応信頼度",
+        "ラベリングリスク対応適用範囲"
+      ],
+      "signal_candidates": [
+        "ラベリングリスク対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000079_manipulation_risk_mapping.yml",
+      "id": "MAP-000079",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "操作リスク対応",
+      "name_en": "Manipulation Risk Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Safety Mapping",
+      "definition_ja": "過度な誘導や依存を避ける制御へ対応づけるルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:安全対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "安全対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "操作リスク対応入力条件",
+        "操作リスク対応対応先",
+        "操作リスク対応信頼度",
+        "操作リスク対応適用範囲"
+      ],
+      "signal_candidates": [
+        "操作リスク対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000080_safety_mapping_integration.yml",
+      "id": "MAP-000080",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "安全対応統合",
+      "name_en": "Safety Mapping Integration",
+      "category": "Mapping Rule",
+      "attribute": "Safety Mapping",
+      "definition_ja": "リスク・用途・表示・補正を安全制御へ統合する枠組み。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:安全対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "安全対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "安全対応統合入力条件",
+        "安全対応統合対応先",
+        "安全対応統合信頼度",
+        "安全対応統合適用範囲"
+      ],
+      "signal_candidates": [
+        "安全対応統合を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000081_raw_data_to_signal_mapping.yml",
+      "id": "MAP-000081",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "生データシグナル対応",
+      "name_en": "Raw Data to Signal Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Data Pipeline Mapping",
+      "definition_ja": "操作ログや入力データを観測シグナルへ変換する対応ルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:データ処理対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "データ処理対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "生データシグナル対応入力条件",
+        "生データシグナル対応対応先",
+        "生データシグナル対応信頼度",
+        "生データシグナル対応適用範囲"
+      ],
+      "signal_candidates": [
+        "生データシグナル対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000082_signal_to_feature_mapping.yml",
+      "id": "MAP-000082",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "シグナル特徴量対応",
+      "name_en": "Signal to Feature Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Data Pipeline Mapping",
+      "definition_ja": "観測シグナルをアプリ側特徴量へ対応づけるルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:データ処理対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "データ処理対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "シグナル特徴量対応入力条件",
+        "シグナル特徴量対応対応先",
+        "シグナル特徴量対応信頼度",
+        "シグナル特徴量対応適用範囲"
+      ],
+      "signal_candidates": [
+        "シグナル特徴量対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000083_feature_to_inference_material_mapping.yml",
+      "id": "MAP-000083",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "特徴量推論材料対応",
+      "name_en": "Feature to Inference Material Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Data Pipeline Mapping",
+      "definition_ja": "特徴量を推論材料として使える形へ対応づけるルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:データ処理対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "データ処理対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "特徴量推論材料対応入力条件",
+        "特徴量推論材料対応対応先",
+        "特徴量推論材料対応信頼度",
+        "特徴量推論材料対応適用範囲"
+      ],
+      "signal_candidates": [
+        "特徴量推論材料対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000084_baseline_calculation_mapping.yml",
+      "id": "MAP-000084",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "ベースライン算出対応",
+      "name_en": "Baseline Calculation Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Data Pipeline Mapping",
+      "definition_ja": "本人通常傾向を算出するための対応ルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:データ処理対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "データ処理対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "ベースライン算出対応入力条件",
+        "ベースライン算出対応対応先",
+        "ベースライン算出対応信頼度",
+        "ベースライン算出対応適用範囲"
+      ],
+      "signal_candidates": [
+        "ベースライン算出対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000085_normalization_mapping.yml",
+      "id": "MAP-000085",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "正規化対応",
+      "name_en": "Normalization Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Data Pipeline Mapping",
+      "definition_ja": "端末差・個人差・単位差をそろえるための対応ルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:データ処理対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "データ処理対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "正規化対応入力条件",
+        "正規化対応対応先",
+        "正規化対応信頼度",
+        "正規化対応適用範囲"
+      ],
+      "signal_candidates": [
+        "正規化対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000086_aggregation_window_mapping.yml",
+      "id": "MAP-000086",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "集計期間対応",
+      "name_en": "Aggregation Window Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Data Pipeline Mapping",
+      "definition_ja": "日次・週次・月次など集計期間を対応づけるルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:データ処理対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "データ処理対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "集計期間対応入力条件",
+        "集計期間対応対応先",
+        "集計期間対応信頼度",
+        "集計期間対応適用範囲"
+      ],
+      "signal_candidates": [
+        "集計期間対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000087_missing_data_handling_mapping.yml",
+      "id": "MAP-000087",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "欠損処理対応",
+      "name_en": "Missing Data Handling Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Data Pipeline Mapping",
+      "definition_ja": "欠損データを補正・除外・低信頼化する対応ルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:データ処理対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "データ処理対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "欠損処理対応入力条件",
+        "欠損処理対応対応先",
+        "欠損処理対応信頼度",
+        "欠損処理対応適用範囲"
+      ],
+      "signal_candidates": [
+        "欠損処理対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000088_outlier_handling_mapping.yml",
+      "id": "MAP-000088",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "外れ値処理対応",
+      "name_en": "Outlier Handling Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Data Pipeline Mapping",
+      "definition_ja": "外れ値を検出し推論材料として扱うか調整するルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:データ処理対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "データ処理対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "外れ値処理対応入力条件",
+        "外れ値処理対応対応先",
+        "外れ値処理対応信頼度",
+        "外れ値処理対応適用範囲"
+      ],
+      "signal_candidates": [
+        "外れ値処理対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000089_data_quality_to_confidence_mapping.yml",
+      "id": "MAP-000089",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "データ品質信頼度対応",
+      "name_en": "Data Quality to Confidence Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Data Pipeline Mapping",
+      "definition_ja": "データ品質を推論信頼度へ反映する対応ルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:データ処理対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "データ処理対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "データ品質信頼度対応入力条件",
+        "データ品質信頼度対応対応先",
+        "データ品質信頼度対応信頼度",
+        "データ品質信頼度対応適用範囲"
+      ],
+      "signal_candidates": [
+        "データ品質信頼度対応を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000090_data_pipeline_mapping_integration.yml",
+      "id": "MAP-000090",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "データ処理対応統合",
+      "name_en": "Data Pipeline Mapping Integration",
+      "category": "Mapping Rule",
+      "attribute": "Data Pipeline Mapping",
+      "definition_ja": "生データから推論材料までの対応を統合管理する枠組み。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:データ処理対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "データ処理対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "データ処理対応統合入力条件",
+        "データ処理対応統合対応先",
+        "データ処理対応統合信頼度",
+        "データ処理対応統合適用範囲"
+      ],
+      "signal_candidates": [
+        "データ処理対応統合を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000091_mapping_to_audit_mapping.yml",
+      "id": "MAP-000091",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "対応監査接続",
+      "name_en": "Mapping to Audit Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Governance Mapping",
+      "definition_ja": "対応ルールを監査対象へ接続する管理ルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:管理対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "管理対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "対応監査接続入力条件",
+        "対応監査接続対応先",
+        "対応監査接続信頼度",
+        "対応監査接続適用範囲"
+      ],
+      "signal_candidates": [
+        "対応監査接続を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000092_mapping_to_schema_mapping.yml",
+      "id": "MAP-000092",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "対応スキーマ接続",
+      "name_en": "Mapping to Schema Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Governance Mapping",
+      "definition_ja": "対応ルールをスキーマ項目や必須フィールドへ接続する管理ルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:管理対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "管理対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "対応スキーマ接続入力条件",
+        "対応スキーマ接続対応先",
+        "対応スキーマ接続信頼度",
+        "対応スキーマ接続適用範囲"
+      ],
+      "signal_candidates": [
+        "対応スキーマ接続を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000093_mapping_to_version_mapping.yml",
+      "id": "MAP-000093",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "対応版管理接続",
+      "name_en": "Mapping to Version Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Governance Mapping",
+      "definition_ja": "対応ルール変更をバージョン管理へ接続するルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:管理対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "管理対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "対応版管理接続入力条件",
+        "対応版管理接続対応先",
+        "対応版管理接続信頼度",
+        "対応版管理接続適用範囲"
+      ],
+      "signal_candidates": [
+        "対応版管理接続を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000094_mapping_to_release_mapping.yml",
+      "id": "MAP-000094",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "対応リリース接続",
+      "name_en": "Mapping to Release Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Governance Mapping",
+      "definition_ja": "対応ルールをリリース単位や変更履歴へ接続する管理ルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:管理対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "管理対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "対応リリース接続入力条件",
+        "対応リリース接続対応先",
+        "対応リリース接続信頼度",
+        "対応リリース接続適用範囲"
+      ],
+      "signal_candidates": [
+        "対応リリース接続を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000095_mapping_to_documentation_mapping.yml",
+      "id": "MAP-000095",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "対応文書化接続",
+      "name_en": "Mapping to Documentation Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Governance Mapping",
+      "definition_ja": "対応ルールを説明資料や仕様へ接続する管理ルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:管理対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "管理対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "対応文書化接続入力条件",
+        "対応文書化接続対応先",
+        "対応文書化接続信頼度",
+        "対応文書化接続適用範囲"
+      ],
+      "signal_candidates": [
+        "対応文書化接続を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000096_mapping_to_test_mapping.yml",
+      "id": "MAP-000096",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "対応テスト接続",
+      "name_en": "Mapping to Test Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Governance Mapping",
+      "definition_ja": "対応ルールをテストケースや検証条件へ接続する管理ルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:管理対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "管理対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "対応テスト接続入力条件",
+        "対応テスト接続対応先",
+        "対応テスト接続信頼度",
+        "対応テスト接続適用範囲"
+      ],
+      "signal_candidates": [
+        "対応テスト接続を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000097_mapping_to_app_contract_mapping.yml",
+      "id": "MAP-000097",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "対応アプリ契約接続",
+      "name_en": "Mapping to App Contract Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Governance Mapping",
+      "definition_ja": "アプリ側が参照する対応ルールの入出力契約を管理するルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:管理対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "管理対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "対応アプリ契約接続入力条件",
+        "対応アプリ契約接続対応先",
+        "対応アプリ契約接続信頼度",
+        "対応アプリ契約接続適用範囲"
+      ],
+      "signal_candidates": [
+        "対応アプリ契約接続を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000098_mapping_to_library_boundary_mapping.yml",
+      "id": "MAP-000098",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "対応境界接続",
+      "name_en": "Mapping to Library Boundary Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Governance Mapping",
+      "definition_ja": "DB側材料提供とアプリ側推論の境界を対応ルールに反映する管理。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:管理対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "管理対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "対応境界接続入力条件",
+        "対応境界接続対応先",
+        "対応境界接続信頼度",
+        "対応境界接続適用範囲"
+      ],
+      "signal_candidates": [
+        "対応境界接続を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000099_mapping_to_quality_gate_mapping.yml",
+      "id": "MAP-000099",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "対応品質ゲート接続",
+      "name_en": "Mapping to Quality Gate Mapping",
+      "category": "Mapping Rule",
+      "attribute": "Governance Mapping",
+      "definition_ja": "対応ルールの品質確認条件を管理するルール。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:管理対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "管理対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "対応品質ゲート接続入力条件",
+        "対応品質ゲート接続対応先",
+        "対応品質ゲート接続信頼度",
+        "対応品質ゲート接続適用範囲"
+      ],
+      "signal_candidates": [
+        "対応品質ゲート接続を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    },
+    {
+      "filename": "MAP-000100_governance_mapping_integration.yml",
+      "id": "MAP-000100",
+      "knowledge_type": "mapping_rule",
+      "name_ja": "管理対応統合",
+      "name_en": "Governance Mapping Integration",
+      "category": "Mapping Rule",
+      "attribute": "Governance Mapping",
+      "definition_ja": "対応ルールの監査・版管理・テスト・文書化を統合する枠組み。",
+      "tags": [
+        "CAT:対応ルール",
+        "CAT:管理対応",
+        "ATTR:接続設計"
+      ],
+      "parent": [
+        "管理対応"
+      ],
+      "related": [
+        "観測シグナル",
+        "補正要因",
+        "表示設計"
+      ],
+      "observable_data": [
+        "管理対応統合入力条件",
+        "管理対応統合対応先",
+        "管理対応統合信頼度",
+        "管理対応統合適用範囲"
+      ],
+      "signal_candidates": [
+        "管理対応統合を対応ルールとして利用できる",
+        "Knowledge DBとアプリ側推論を接続する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "用途",
+        "信頼度",
+        "安全性",
+        "文脈"
+      ],
+      "evidence": "情報設計・HCI・知識工学・アプリ設計で使用",
+      "status": "active"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+category: Mapping Rule
+name_ja: 対応ルール
+items:
+  - MAP-000051_concept_to_concept_mapping.yml
+  - MAP-000052_concept_to_observable_mapping.yml
+  - MAP-000053_concept_to_modifier_mapping.yml
+  - MAP-000054_concept_to_evidence_mapping.yml
+  - MAP-000055_concept_to_app_use_case_mapping.yml
+  - MAP-000056_parent_child_mapping.yml
+  - MAP-000057_related_concept_mapping.yml
+  - MAP-000058_near_duplicate_mapping.yml
+  - MAP-000059_concept_scope_mapping.yml
+  - MAP-000060_concept_linking_integration.yml
+  - MAP-000061_evidence_strength_mapping.yml
+  - MAP-000062_evidence_type_mapping.yml
+  - MAP-000063_evidence_quality_mapping.yml
+  - MAP-000064_evidence_limitation_mapping.yml
+  - MAP-000065_evidence_update_mapping.yml
+  - MAP-000066_evidence_domain_mapping.yml
+  - MAP-000067_evidence_to_display_mapping.yml
+  - MAP-000068_evidence_to_confidence_mapping.yml
+  - MAP-000069_evidence_to_safety_mapping.yml
+  - MAP-000070_evidence_mapping_integration.yml
+  - MAP-000071_risk_to_guardrail_mapping.yml
+  - MAP-000072_sensitive_context_mapping.yml
+  - MAP-000073_privacy_risk_mapping.yml
+  - MAP-000074_high_stakes_mapping.yml
+  - MAP-000075_minor_safety_mapping.yml
+  - MAP-000076_distress_safety_mapping.yml
+  - MAP-000077_non_diagnostic_mapping.yml
+  - MAP-000078_labeling_risk_mapping.yml
+  - MAP-000079_manipulation_risk_mapping.yml
+  - MAP-000080_safety_mapping_integration.yml
+  - MAP-000081_raw_data_to_signal_mapping.yml
+  - MAP-000082_signal_to_feature_mapping.yml
+  - MAP-000083_feature_to_inference_material_mapping.yml
+  - MAP-000084_baseline_calculation_mapping.yml
+  - MAP-000085_normalization_mapping.yml
+  - MAP-000086_aggregation_window_mapping.yml
+  - MAP-000087_missing_data_handling_mapping.yml
+  - MAP-000088_outlier_handling_mapping.yml
+  - MAP-000089_data_quality_to_confidence_mapping.yml
+  - MAP-000090_data_pipeline_mapping_integration.yml
+  - MAP-000091_mapping_to_audit_mapping.yml
+  - MAP-000092_mapping_to_schema_mapping.yml
+  - MAP-000093_mapping_to_version_mapping.yml
+  - MAP-000094_mapping_to_release_mapping.yml
+  - MAP-000095_mapping_to_documentation_mapping.yml
+  - MAP-000096_mapping_to_test_mapping.yml
+  - MAP-000097_mapping_to_app_contract_mapping.yml
+  - MAP-000098_mapping_to_library_boundary_mapping.yml
+  - MAP-000099_mapping_to_quality_gate_mapping.yml
+  - MAP-000100_governance_mapping_integration.yml
+notes:
+  - 対応ルールはDBとアプリ推論を接続する管理材料として扱う
+  - Knowledge DB側ではスコアリングしない
+  - アプリ側で対応ルールを参照して推論・表示・補正を行う

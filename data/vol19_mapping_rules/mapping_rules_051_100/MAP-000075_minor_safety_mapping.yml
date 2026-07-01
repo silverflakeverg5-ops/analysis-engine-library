@@ -1,0 +1,33 @@
+id: MAP-000075
+knowledge_type: mapping_rule
+name_ja: 未成年安全対応
+name_en: Minor Safety Mapping
+category: Mapping Rule
+attribute: Safety Mapping
+definition_ja: 未成年利用文脈を安全表示・同意・制限へ対応づけるルール。
+tags:
+  - CAT:対応ルール
+  - CAT:安全対応
+  - ATTR:接続設計
+parent:
+  - 安全対応
+related:
+  - 観測シグナル
+  - 補正要因
+  - 表示設計
+observable_data:
+  - 未成年安全対応入力条件
+  - 未成年安全対応対応先
+  - 未成年安全対応信頼度
+  - 未成年安全対応適用範囲
+signal_candidates:
+  - 未成年安全対応を対応ルールとして利用できる
+  - Knowledge DBとアプリ側推論を接続する材料になる
+device_level: DB管理用
+modifiers:
+  - 用途
+  - 信頼度
+  - 安全性
+  - 文脈
+evidence: 情報設計・HCI・知識工学・アプリ設計で使用
+status: active

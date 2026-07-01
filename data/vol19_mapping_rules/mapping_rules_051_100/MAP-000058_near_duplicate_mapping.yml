@@ -1,0 +1,33 @@
+id: MAP-000058
+knowledge_type: mapping_rule
+name_ja: 近接概念対応
+name_en: Near Duplicate Mapping
+category: Mapping Rule
+attribute: Concept Linking
+definition_ja: 似ているが統合しない概念同士を関連として扱うルール。
+tags:
+  - CAT:対応ルール
+  - CAT:概念接続
+  - ATTR:接続設計
+parent:
+  - 概念接続
+related:
+  - 観測シグナル
+  - 補正要因
+  - 表示設計
+observable_data:
+  - 近接概念対応入力条件
+  - 近接概念対応対応先
+  - 近接概念対応信頼度
+  - 近接概念対応適用範囲
+signal_candidates:
+  - 近接概念対応を対応ルールとして利用できる
+  - Knowledge DBとアプリ側推論を接続する材料になる
+device_level: DB管理用
+modifiers:
+  - 用途
+  - 信頼度
+  - 安全性
+  - 文脈
+evidence: 情報設計・HCI・知識工学・アプリ設計で使用
+status: active

@@ -1,0 +1,33 @@
+id: MAP-000027
+knowledge_type: mapping_rule
+name_ja: 補正説明対応
+name_en: Modifier Explanation Mapping
+category: Mapping Rule
+attribute: Display Mapping
+definition_ja: 補正要因をユーザー向け説明へ対応づけるルール。
+tags:
+  - CAT:対応ルール
+  - CAT:表示対応
+  - ATTR:接続設計
+parent:
+  - 表示対応
+related:
+  - 観測シグナル
+  - 補正要因
+  - 表示設計
+observable_data:
+  - 補正説明対応入力条件
+  - 補正説明対応対応先
+  - 補正説明対応信頼度
+  - 補正説明対応適用範囲
+signal_candidates:
+  - 補正説明対応を対応ルールとして利用できる
+  - Knowledge DBとアプリ側推論を接続する材料になる
+device_level: DB管理用
+modifiers:
+  - 用途
+  - 信頼度
+  - 安全性
+  - 文脈
+evidence: 情報設計・HCI・知識工学・アプリ設計で使用
+status: active

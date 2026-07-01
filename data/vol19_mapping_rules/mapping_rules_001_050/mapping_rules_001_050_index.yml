@@ -1,0 +1,57 @@
+category: Mapping Rule
+name_ja: 対応ルール
+items:
+  - MAP-000001_signal_to_concept_mapping.yml
+  - MAP-000002_signal_to_behavior_mapping.yml
+  - MAP-000003_signal_to_personality_mapping.yml
+  - MAP-000004_signal_to_state_mapping.yml
+  - MAP-000005_signal_to_context_mapping.yml
+  - MAP-000006_multi_signal_mapping.yml
+  - MAP-000007_baseline_deviation_mapping.yml
+  - MAP-000008_trend_mapping.yml
+  - MAP-000009_anomaly_mapping.yml
+  - MAP-000010_signal_mapping_integration.yml
+  - MAP-000011_context_modifier_mapping.yml
+  - MAP-000012_state_modifier_mapping.yml
+  - MAP-000013_data_quality_modifier_mapping.yml
+  - MAP-000014_individual_modifier_mapping.yml
+  - MAP-000015_safety_modifier_mapping.yml
+  - MAP-000016_app_domain_modifier_mapping.yml
+  - MAP-000017_temporal_modifier_mapping.yml
+  - MAP-000018_social_modifier_mapping.yml
+  - MAP-000019_modifier_priority_mapping.yml
+  - MAP-000020_modifier_mapping_integration.yml
+  - MAP-000021_result_to_display_mapping.yml
+  - MAP-000022_confidence_to_display_mapping.yml
+  - MAP-000023_uncertainty_to_expression_mapping.yml
+  - MAP-000024_safety_to_display_mapping.yml
+  - MAP-000025_app_use_case_display_mapping.yml
+  - MAP-000026_signal_explanation_mapping.yml
+  - MAP-000027_modifier_explanation_mapping.yml
+  - MAP-000028_action_suggestion_mapping.yml
+  - MAP-000029_notification_mapping.yml
+  - MAP-000030_display_mapping_integration.yml
+  - MAP-000031_diagnosis_app_mapping.yml
+  - MAP-000032_game_app_mapping.yml
+  - MAP-000033_assistant_app_mapping.yml
+  - MAP-000034_education_app_mapping.yml
+  - MAP-000035_work_support_mapping.yml
+  - MAP-000036_wellbeing_app_mapping.yml
+  - MAP-000037_relationship_app_mapping.yml
+  - MAP-000038_personalization_mapping.yml
+  - MAP-000039_cross_app_mapping.yml
+  - MAP-000040_app_mapping_integration.yml
+  - MAP-000041_mapping_schema.yml
+  - MAP-000042_mapping_confidence.yml
+  - MAP-000043_mapping_priority.yml
+  - MAP-000044_mapping_conflict_resolution.yml
+  - MAP-000045_mapping_audit.yml
+  - MAP-000046_mapping_versioning.yml
+  - MAP-000047_mapping_test_case.yml
+  - MAP-000048_mapping_update_cycle.yml
+  - MAP-000049_mapping_library_boundary.yml
+  - MAP-000050_mapping_rules_integration.yml
+notes:
+  - 対応ルールはDBとアプリ推論を接続する管理材料として扱う
+  - Knowledge DB側ではスコアリングしない
+  - アプリ側で対応ルールを参照して推論・表示・補正を行う

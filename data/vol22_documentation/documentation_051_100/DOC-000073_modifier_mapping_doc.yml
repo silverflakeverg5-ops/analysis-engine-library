@@ -1,0 +1,33 @@
+id: DOC-000073
+knowledge_type: documentation
+name_ja: 補正対応文書
+name_en: Modifier Mapping Documentation
+category: Documentation
+attribute: Mapping
+definition_ja: 文脈・状態・データ品質に応じた補正対応を説明する文書。
+tags:
+  - CAT:文書化
+  - CAT:対応ルール
+  - ATTR:説明資料
+parent:
+  - 対応ルール
+related:
+  - ライブラリ管理
+  - API契約
+  - 安全設計
+observable_data:
+  - 補正対応文書対象範囲
+  - 補正対応文書読者
+  - 補正対応文書更新条件
+  - 補正対応文書参照先
+signal_candidates:
+  - 補正対応文書を説明資料として利用できる
+  - Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる
+device_level: DB管理用
+modifiers:
+  - 読者
+  - 更新頻度
+  - 安全性
+  - 保守性
+evidence: ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用
+status: active

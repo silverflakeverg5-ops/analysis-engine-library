@@ -1,0 +1,33 @@
+id: DOC-000087
+knowledge_type: documentation
+name_ja: 安全テスト文書
+name_en: Safety Test Documentation
+category: Documentation
+attribute: Testing QA
+definition_ja: プライバシー・高リスク・未成年・操作リスクを確認するテスト文書。
+tags:
+  - CAT:文書化
+  - CAT:テストQA
+  - ATTR:説明資料
+parent:
+  - テストQA
+related:
+  - ライブラリ管理
+  - API契約
+  - 安全設計
+observable_data:
+  - 安全テスト文書対象範囲
+  - 安全テスト文書読者
+  - 安全テスト文書更新条件
+  - 安全テスト文書参照先
+signal_candidates:
+  - 安全テスト文書を説明資料として利用できる
+  - Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる
+device_level: DB管理用
+modifiers:
+  - 読者
+  - 更新頻度
+  - 安全性
+  - 保守性
+evidence: ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用
+status: active

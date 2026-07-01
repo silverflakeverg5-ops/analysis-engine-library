@@ -1,0 +1,2107 @@
+{
+  "output_dir": "vol22_documentation/documentation_051_100",
+  "index_filename": "documentation_051_100_index.yml",
+  "index_content": "category: Documentation\nname_ja: 文書化\nitems:\n  - DOC-000051_daily_operation_doc.yml\n  - DOC-000052_release_operation_doc.yml\n  - DOC-000053_backup_operation_doc.yml\n  - DOC-000054_restore_operation_doc.yml\n  - DOC-000055_storage_operation_doc.yml\n  - DOC-000056_audit_operation_doc.yml\n  - DOC-000057_branch_operation_doc.yml\n  - DOC-000058_commit_operation_doc.yml\n  - DOC-000059_cleanup_operation_doc.yml\n  - DOC-000060_operations_documentation_integration.yml\n  - DOC-000061_app_integration_overview_doc.yml\n  - DOC-000062_diagnosis_app_integration_doc.yml\n  - DOC-000063_game_app_integration_doc.yml\n  - DOC-000064_assistant_app_integration_doc.yml\n  - DOC-000065_education_app_integration_doc.yml\n  - DOC-000066_work_support_integration_doc.yml\n  - DOC-000067_wellbeing_integration_doc.yml\n  - DOC-000068_multi_app_reuse_doc.yml\n  - DOC-000069_app_side_inference_doc.yml\n  - DOC-000070_app_integration_documentation.yml\n  - DOC-000071_mapping_rule_overview_doc.yml\n  - DOC-000072_signal_mapping_doc.yml\n  - DOC-000073_modifier_mapping_doc.yml\n  - DOC-000074_display_mapping_doc.yml\n  - DOC-000075_safety_mapping_doc.yml\n  - DOC-000076_evidence_mapping_doc.yml\n  - DOC-000077_concept_linking_doc.yml\n  - DOC-000078_mapping_conflict_doc.yml\n  - DOC-000079_mapping_audit_doc.yml\n  - DOC-000080_mapping_documentation_integration.yml\n  - DOC-000081_test_strategy_doc.yml\n  - DOC-000082_data_audit_test_doc.yml\n  - DOC-000083_schema_test_doc.yml\n  - DOC-000084_generation_test_doc.yml\n  - DOC-000085_api_test_doc.yml\n  - DOC-000086_display_test_doc.yml\n  - DOC-000087_safety_test_doc.yml\n  - DOC-000088_integration_test_doc.yml\n  - DOC-000089_quality_gate_doc.yml\n  - DOC-000090_testing_documentation_integration.yml\n  - DOC-000091_readme_documentation.yml\n  - DOC-000092_contributing_documentation.yml\n  - DOC-000093_changelog_documentation.yml\n  - DOC-000094_release_notes_documentation.yml\n  - DOC-000095_governance_documentation.yml\n  - DOC-000096_architecture_decision_record.yml\n  - DOC-000097_faq_documentation.yml\n  - DOC-000098_troubleshooting_documentation.yml\n  - DOC-000099_documentation_audit.yml\n  - DOC-000100_documentation_system_integration.yml\nnotes:\n  - 文書化は運用・引継ぎ・安全確認の材料として扱う\n  - Knowledge DB側では推論しない\n  - 開発者・アプリ実装者・管理者が参照できる形を目指す\n",
+  "items": [
+    {
+      "filename": "DOC-000051_daily_operation_doc.yml",
+      "id": "DOC-000051",
+      "knowledge_type": "documentation",
+      "name_ja": "日常運用文書",
+      "name_en": "Daily Operation Documentation",
+      "category": "Documentation",
+      "attribute": "Operations",
+      "definition_ja": "通常作業で行う生成・監査・Git反映の手順を説明する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:運用",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "運用"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "日常運用文書対象範囲",
+        "日常運用文書読者",
+        "日常運用文書更新条件",
+        "日常運用文書参照先"
+      ],
+      "signal_candidates": [
+        "日常運用文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000052_release_operation_doc.yml",
+      "id": "DOC-000052",
+      "knowledge_type": "documentation",
+      "name_ja": "リリース運用文書",
+      "name_en": "Release Operation Documentation",
+      "category": "Documentation",
+      "attribute": "Operations",
+      "definition_ja": "一定単位でKnowledge Libraryを更新・反映する手順を説明する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:運用",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "運用"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "リリース運用文書対象範囲",
+        "リリース運用文書読者",
+        "リリース運用文書更新条件",
+        "リリース運用文書参照先"
+      ],
+      "signal_candidates": [
+        "リリース運用文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000053_backup_operation_doc.yml",
+      "id": "DOC-000053",
+      "knowledge_type": "documentation",
+      "name_ja": "バックアップ運用文書",
+      "name_en": "Backup Operation Documentation",
+      "category": "Documentation",
+      "attribute": "Operations",
+      "definition_ja": "データ消失を避けるためのバックアップ方針を説明する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:運用",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "運用"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "バックアップ運用文書対象範囲",
+        "バックアップ運用文書読者",
+        "バックアップ運用文書更新条件",
+        "バックアップ運用文書参照先"
+      ],
+      "signal_candidates": [
+        "バックアップ運用文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000054_restore_operation_doc.yml",
+      "id": "DOC-000054",
+      "knowledge_type": "documentation",
+      "name_ja": "復元運用文書",
+      "name_en": "Restore Operation Documentation",
+      "category": "Documentation",
+      "attribute": "Operations",
+      "definition_ja": "誤削除や破損時に復元する手順を説明する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:運用",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "運用"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "復元運用文書対象範囲",
+        "復元運用文書読者",
+        "復元運用文書更新条件",
+        "復元運用文書参照先"
+      ],
+      "signal_candidates": [
+        "復元運用文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000055_storage_operation_doc.yml",
+      "id": "DOC-000055",
+      "knowledge_type": "documentation",
+      "name_ja": "保存容量運用文書",
+      "name_en": "Storage Operation Documentation",
+      "category": "Documentation",
+      "attribute": "Operations",
+      "definition_ja": "容量増加を管理し、不要データを整理する手順を説明する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:運用",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "運用"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "保存容量運用文書対象範囲",
+        "保存容量運用文書読者",
+        "保存容量運用文書更新条件",
+        "保存容量運用文書参照先"
+      ],
+      "signal_candidates": [
+        "保存容量運用文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000056_audit_operation_doc.yml",
+      "id": "DOC-000056",
+      "knowledge_type": "documentation",
+      "name_ja": "監査運用文書",
+      "name_en": "Audit Operation Documentation",
+      "category": "Documentation",
+      "attribute": "Operations",
+      "definition_ja": "監査の実行タイミング・結果確認・修正方法を説明する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:運用",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "運用"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "監査運用文書対象範囲",
+        "監査運用文書読者",
+        "監査運用文書更新条件",
+        "監査運用文書参照先"
+      ],
+      "signal_candidates": [
+        "監査運用文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000057_branch_operation_doc.yml",
+      "id": "DOC-000057",
+      "knowledge_type": "documentation",
+      "name_ja": "ブランチ運用文書",
+      "name_en": "Branch Operation Documentation",
+      "category": "Documentation",
+      "attribute": "Operations",
+      "definition_ja": "mainや作業ブランチの使い分けを説明する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:運用",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "運用"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "ブランチ運用文書対象範囲",
+        "ブランチ運用文書読者",
+        "ブランチ運用文書更新条件",
+        "ブランチ運用文書参照先"
+      ],
+      "signal_candidates": [
+        "ブランチ運用文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000058_commit_operation_doc.yml",
+      "id": "DOC-000058",
+      "knowledge_type": "documentation",
+      "name_ja": "コミット運用文書",
+      "name_en": "Commit Operation Documentation",
+      "category": "Documentation",
+      "attribute": "Operations",
+      "definition_ja": "変更単位・コミットメッセージ・push手順を説明する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:運用",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "運用"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "コミット運用文書対象範囲",
+        "コミット運用文書読者",
+        "コミット運用文書更新条件",
+        "コミット運用文書参照先"
+      ],
+      "signal_candidates": [
+        "コミット運用文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000059_cleanup_operation_doc.yml",
+      "id": "DOC-000059",
+      "knowledge_type": "documentation",
+      "name_ja": "クリーンアップ運用文書",
+      "name_en": "Cleanup Operation Documentation",
+      "category": "Documentation",
+      "attribute": "Operations",
+      "definition_ja": "誤作成ファイルや不要ファイルを整理する手順を説明する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:運用",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "運用"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "クリーンアップ運用文書対象範囲",
+        "クリーンアップ運用文書読者",
+        "クリーンアップ運用文書更新条件",
+        "クリーンアップ運用文書参照先"
+      ],
+      "signal_candidates": [
+        "クリーンアップ運用文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000060_operations_documentation_integration.yml",
+      "id": "DOC-000060",
+      "knowledge_type": "documentation",
+      "name_ja": "運用文書統合",
+      "name_en": "Operations Documentation Integration",
+      "category": "Documentation",
+      "attribute": "Operations",
+      "definition_ja": "日常運用・監査・Git・保守文書を統合管理する枠組み。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:運用",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "運用"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "運用文書統合対象範囲",
+        "運用文書統合読者",
+        "運用文書統合更新条件",
+        "運用文書統合参照先"
+      ],
+      "signal_candidates": [
+        "運用文書統合を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000061_app_integration_overview_doc.yml",
+      "id": "DOC-000061",
+      "knowledge_type": "documentation",
+      "name_ja": "アプリ連携概要文書",
+      "name_en": "App Integration Overview Documentation",
+      "category": "Documentation",
+      "attribute": "App Integration",
+      "definition_ja": "Knowledge Libraryを各アプリで利用する考え方を説明する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:アプリ連携",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "アプリ連携"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "アプリ連携概要文書対象範囲",
+        "アプリ連携概要文書読者",
+        "アプリ連携概要文書更新条件",
+        "アプリ連携概要文書参照先"
+      ],
+      "signal_candidates": [
+        "アプリ連携概要文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000062_diagnosis_app_integration_doc.yml",
+      "id": "DOC-000062",
+      "knowledge_type": "documentation",
+      "name_ja": "診断アプリ連携文書",
+      "name_en": "Diagnosis App Integration Documentation",
+      "category": "Documentation",
+      "attribute": "App Integration",
+      "definition_ja": "診断アプリでのDB参照・推論・表示の流れを説明する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:アプリ連携",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "アプリ連携"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "診断アプリ連携文書対象範囲",
+        "診断アプリ連携文書読者",
+        "診断アプリ連携文書更新条件",
+        "診断アプリ連携文書参照先"
+      ],
+      "signal_candidates": [
+        "診断アプリ連携文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000063_game_app_integration_doc.yml",
+      "id": "DOC-000063",
+      "knowledge_type": "documentation",
+      "name_ja": "ゲームアプリ連携文書",
+      "name_en": "Game App Integration Documentation",
+      "category": "Documentation",
+      "attribute": "App Integration",
+      "definition_ja": "ゲーム内行動シグナルとDB接続の方法を説明する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:アプリ連携",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "アプリ連携"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "ゲームアプリ連携文書対象範囲",
+        "ゲームアプリ連携文書読者",
+        "ゲームアプリ連携文書更新条件",
+        "ゲームアプリ連携文書参照先"
+      ],
+      "signal_candidates": [
+        "ゲームアプリ連携文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000064_assistant_app_integration_doc.yml",
+      "id": "DOC-000064",
+      "knowledge_type": "documentation",
+      "name_ja": "秘書アプリ連携文書",
+      "name_en": "Assistant App Integration Documentation",
+      "category": "Documentation",
+      "attribute": "App Integration",
+      "definition_ja": "予定・通知・生活文脈とDB接続の方法を説明する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:アプリ連携",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "アプリ連携"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "秘書アプリ連携文書対象範囲",
+        "秘書アプリ連携文書読者",
+        "秘書アプリ連携文書更新条件",
+        "秘書アプリ連携文書参照先"
+      ],
+      "signal_candidates": [
+        "秘書アプリ連携文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000065_education_app_integration_doc.yml",
+      "id": "DOC-000065",
+      "knowledge_type": "documentation",
+      "name_ja": "教育アプリ連携文書",
+      "name_en": "Education App Integration Documentation",
+      "category": "Documentation",
+      "attribute": "App Integration",
+      "definition_ja": "学習ログ・教材・フィードバックとDB接続の方法を説明する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:アプリ連携",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "アプリ連携"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "教育アプリ連携文書対象範囲",
+        "教育アプリ連携文書読者",
+        "教育アプリ連携文書更新条件",
+        "教育アプリ連携文書参照先"
+      ],
+      "signal_candidates": [
+        "教育アプリ連携文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000066_work_support_integration_doc.yml",
+      "id": "DOC-000066",
+      "knowledge_type": "documentation",
+      "name_ja": "仕事支援連携文書",
+      "name_en": "Work Support Integration Documentation",
+      "category": "Documentation",
+      "attribute": "App Integration",
+      "definition_ja": "業務・集中・タスク文脈とDB接続の方法を説明する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:アプリ連携",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "アプリ連携"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "仕事支援連携文書対象範囲",
+        "仕事支援連携文書読者",
+        "仕事支援連携文書更新条件",
+        "仕事支援連携文書参照先"
+      ],
+      "signal_candidates": [
+        "仕事支援連携文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000067_wellbeing_integration_doc.yml",
+      "id": "DOC-000067",
+      "knowledge_type": "documentation",
+      "name_ja": "ウェルビーイング連携文書",
+      "name_en": "Wellbeing Integration Documentation",
+      "category": "Documentation",
+      "attribute": "App Integration",
+      "definition_ja": "睡眠・疲労・感情・回復支援とDB接続の方法を説明する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:アプリ連携",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "アプリ連携"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "ウェルビーイング連携文書対象範囲",
+        "ウェルビーイング連携文書読者",
+        "ウェルビーイング連携文書更新条件",
+        "ウェルビーイング連携文書参照先"
+      ],
+      "signal_candidates": [
+        "ウェルビーイング連携文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000068_multi_app_reuse_doc.yml",
+      "id": "DOC-000068",
+      "knowledge_type": "documentation",
+      "name_ja": "複数アプリ再利用文書",
+      "name_en": "Multi App Reuse Documentation",
+      "category": "Documentation",
+      "attribute": "App Integration",
+      "definition_ja": "共通知識DBを複数アプリで再利用する設計を説明する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:アプリ連携",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "アプリ連携"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "複数アプリ再利用文書対象範囲",
+        "複数アプリ再利用文書読者",
+        "複数アプリ再利用文書更新条件",
+        "複数アプリ再利用文書参照先"
+      ],
+      "signal_candidates": [
+        "複数アプリ再利用文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000069_app_side_inference_doc.yml",
+      "id": "DOC-000069",
+      "knowledge_type": "documentation",
+      "name_ja": "アプリ側推論文書",
+      "name_en": "App Side Inference Documentation",
+      "category": "Documentation",
+      "attribute": "App Integration",
+      "definition_ja": "推論・スコアリング・表示をアプリ側で実装する方針を説明する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:アプリ連携",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "アプリ連携"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "アプリ側推論文書対象範囲",
+        "アプリ側推論文書読者",
+        "アプリ側推論文書更新条件",
+        "アプリ側推論文書参照先"
+      ],
+      "signal_candidates": [
+        "アプリ側推論文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000070_app_integration_documentation.yml",
+      "id": "DOC-000070",
+      "knowledge_type": "documentation",
+      "name_ja": "アプリ連携文書統合",
+      "name_en": "App Integration Documentation",
+      "category": "Documentation",
+      "attribute": "App Integration",
+      "definition_ja": "アプリ連携に関する文書群を統合管理する枠組み。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:アプリ連携",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "アプリ連携"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "アプリ連携文書統合対象範囲",
+        "アプリ連携文書統合読者",
+        "アプリ連携文書統合更新条件",
+        "アプリ連携文書統合参照先"
+      ],
+      "signal_candidates": [
+        "アプリ連携文書統合を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000071_mapping_rule_overview_doc.yml",
+      "id": "DOC-000071",
+      "knowledge_type": "documentation",
+      "name_ja": "対応ルール概要文書",
+      "name_en": "Mapping Rule Overview Documentation",
+      "category": "Documentation",
+      "attribute": "Mapping",
+      "definition_ja": "観測シグナル・補正・表示・用途の対応ルールを説明する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:対応ルール",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "対応ルール"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "対応ルール概要文書対象範囲",
+        "対応ルール概要文書読者",
+        "対応ルール概要文書更新条件",
+        "対応ルール概要文書参照先"
+      ],
+      "signal_candidates": [
+        "対応ルール概要文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000072_signal_mapping_doc.yml",
+      "id": "DOC-000072",
+      "knowledge_type": "documentation",
+      "name_ja": "Signal対応文書",
+      "name_en": "Signal Mapping Documentation",
+      "category": "Documentation",
+      "attribute": "Mapping",
+      "definition_ja": "観測シグナルを知識項目へ対応づける考え方を説明する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:対応ルール",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "対応ルール"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "Signal対応文書対象範囲",
+        "Signal対応文書読者",
+        "Signal対応文書更新条件",
+        "Signal対応文書参照先"
+      ],
+      "signal_candidates": [
+        "Signal対応文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000073_modifier_mapping_doc.yml",
+      "id": "DOC-000073",
+      "knowledge_type": "documentation",
+      "name_ja": "補正対応文書",
+      "name_en": "Modifier Mapping Documentation",
+      "category": "Documentation",
+      "attribute": "Mapping",
+      "definition_ja": "文脈・状態・データ品質に応じた補正対応を説明する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:対応ルール",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "対応ルール"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "補正対応文書対象範囲",
+        "補正対応文書読者",
+        "補正対応文書更新条件",
+        "補正対応文書参照先"
+      ],
+      "signal_candidates": [
+        "補正対応文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000074_display_mapping_doc.yml",
+      "id": "DOC-000074",
+      "knowledge_type": "documentation",
+      "name_ja": "表示対応文書",
+      "name_en": "Display Mapping Documentation",
+      "category": "Documentation",
+      "attribute": "Mapping",
+      "definition_ja": "推論材料を表示設計へ接続する考え方を説明する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:対応ルール",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "対応ルール"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "表示対応文書対象範囲",
+        "表示対応文書読者",
+        "表示対応文書更新条件",
+        "表示対応文書参照先"
+      ],
+      "signal_candidates": [
+        "表示対応文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000075_safety_mapping_doc.yml",
+      "id": "DOC-000075",
+      "knowledge_type": "documentation",
+      "name_ja": "安全対応文書",
+      "name_en": "Safety Mapping Documentation",
+      "category": "Documentation",
+      "attribute": "Mapping",
+      "definition_ja": "高リスク文脈を安全制御へ接続する考え方を説明する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:対応ルール",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "対応ルール"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "安全対応文書対象範囲",
+        "安全対応文書読者",
+        "安全対応文書更新条件",
+        "安全対応文書参照先"
+      ],
+      "signal_candidates": [
+        "安全対応文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000076_evidence_mapping_doc.yml",
+      "id": "DOC-000076",
+      "knowledge_type": "documentation",
+      "name_ja": "根拠対応文書",
+      "name_en": "Evidence Mapping Documentation",
+      "category": "Documentation",
+      "attribute": "Mapping",
+      "definition_ja": "知識項目と根拠種別・根拠強度の接続を説明する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:対応ルール",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "対応ルール"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "根拠対応文書対象範囲",
+        "根拠対応文書読者",
+        "根拠対応文書更新条件",
+        "根拠対応文書参照先"
+      ],
+      "signal_candidates": [
+        "根拠対応文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000077_concept_linking_doc.yml",
+      "id": "DOC-000077",
+      "knowledge_type": "documentation",
+      "name_ja": "概念接続文書",
+      "name_en": "Concept Linking Documentation",
+      "category": "Documentation",
+      "attribute": "Mapping",
+      "definition_ja": "親子・関連・近接概念の接続方針を説明する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:対応ルール",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "対応ルール"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "概念接続文書対象範囲",
+        "概念接続文書読者",
+        "概念接続文書更新条件",
+        "概念接続文書参照先"
+      ],
+      "signal_candidates": [
+        "概念接続文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000078_mapping_conflict_doc.yml",
+      "id": "DOC-000078",
+      "knowledge_type": "documentation",
+      "name_ja": "対応競合文書",
+      "name_en": "Mapping Conflict Documentation",
+      "category": "Documentation",
+      "attribute": "Mapping",
+      "definition_ja": "複数対応候補が矛盾する場合の扱いを説明する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:対応ルール",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "対応ルール"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "対応競合文書対象範囲",
+        "対応競合文書読者",
+        "対応競合文書更新条件",
+        "対応競合文書参照先"
+      ],
+      "signal_candidates": [
+        "対応競合文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000079_mapping_audit_doc.yml",
+      "id": "DOC-000079",
+      "knowledge_type": "documentation",
+      "name_ja": "対応監査文書",
+      "name_en": "Mapping Audit Documentation",
+      "category": "Documentation",
+      "attribute": "Mapping",
+      "definition_ja": "対応ルールの妥当性・安全性・整合性を確認する手順文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:対応ルール",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "対応ルール"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "対応監査文書対象範囲",
+        "対応監査文書読者",
+        "対応監査文書更新条件",
+        "対応監査文書参照先"
+      ],
+      "signal_candidates": [
+        "対応監査文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000080_mapping_documentation_integration.yml",
+      "id": "DOC-000080",
+      "knowledge_type": "documentation",
+      "name_ja": "対応ルール文書統合",
+      "name_en": "Mapping Documentation Integration",
+      "category": "Documentation",
+      "attribute": "Mapping",
+      "definition_ja": "対応ルール文書を統合管理する枠組み。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:対応ルール",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "対応ルール"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "対応ルール文書統合対象範囲",
+        "対応ルール文書統合読者",
+        "対応ルール文書統合更新条件",
+        "対応ルール文書統合参照先"
+      ],
+      "signal_candidates": [
+        "対応ルール文書統合を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000081_test_strategy_doc.yml",
+      "id": "DOC-000081",
+      "knowledge_type": "documentation",
+      "name_ja": "テスト戦略文書",
+      "name_en": "Test Strategy Documentation",
+      "category": "Documentation",
+      "attribute": "Testing QA",
+      "definition_ja": "データ監査・API・表示・安全テストの全体方針を説明する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:テストQA",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "テストQA"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "テスト戦略文書対象範囲",
+        "テスト戦略文書読者",
+        "テスト戦略文書更新条件",
+        "テスト戦略文書参照先"
+      ],
+      "signal_candidates": [
+        "テスト戦略文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000082_data_audit_test_doc.yml",
+      "id": "DOC-000082",
+      "knowledge_type": "documentation",
+      "name_ja": "データ監査テスト文書",
+      "name_en": "Data Audit Test Documentation",
+      "category": "Documentation",
+      "attribute": "Testing QA",
+      "definition_ja": "必須フィールド・ID・YAML構造を確認するテスト手順文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:テストQA",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "テストQA"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "データ監査テスト文書対象範囲",
+        "データ監査テスト文書読者",
+        "データ監査テスト文書更新条件",
+        "データ監査テスト文書参照先"
+      ],
+      "signal_candidates": [
+        "データ監査テスト文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000083_schema_test_doc.yml",
+      "id": "DOC-000083",
+      "knowledge_type": "documentation",
+      "name_ja": "スキーマテスト文書",
+      "name_en": "Schema Test Documentation",
+      "category": "Documentation",
+      "attribute": "Testing QA",
+      "definition_ja": "フィールド型・ID形式・タグ形式を確認する手順文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:テストQA",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "テストQA"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "スキーマテスト文書対象範囲",
+        "スキーマテスト文書読者",
+        "スキーマテスト文書更新条件",
+        "スキーマテスト文書参照先"
+      ],
+      "signal_candidates": [
+        "スキーマテスト文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000084_generation_test_doc.yml",
+      "id": "DOC-000084",
+      "knowledge_type": "documentation",
+      "name_ja": "生成テスト文書",
+      "name_en": "Generation Test Documentation",
+      "category": "Documentation",
+      "attribute": "Testing QA",
+      "definition_ja": "BuilderからYAML生成までを確認するテスト文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:テストQA",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "テストQA"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "生成テスト文書対象範囲",
+        "生成テスト文書読者",
+        "生成テスト文書更新条件",
+        "生成テスト文書参照先"
+      ],
+      "signal_candidates": [
+        "生成テスト文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000085_api_test_doc.yml",
+      "id": "DOC-000085",
+      "knowledge_type": "documentation",
+      "name_ja": "APIテスト文書",
+      "name_en": "API Test Documentation",
+      "category": "Documentation",
+      "attribute": "Testing QA",
+      "definition_ja": "API応答・検索・安全境界を確認するテスト文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:テストQA",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "テストQA"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "APIテスト文書対象範囲",
+        "APIテスト文書読者",
+        "APIテスト文書更新条件",
+        "APIテスト文書参照先"
+      ],
+      "signal_candidates": [
+        "APIテスト文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000086_display_test_doc.yml",
+      "id": "DOC-000086",
+      "knowledge_type": "documentation",
+      "name_ja": "表示テスト文書",
+      "name_en": "Display Test Documentation",
+      "category": "Documentation",
+      "attribute": "Testing QA",
+      "definition_ja": "非断定・説明・提案・透明性表示を確認するテスト文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:テストQA",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "テストQA"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "表示テスト文書対象範囲",
+        "表示テスト文書読者",
+        "表示テスト文書更新条件",
+        "表示テスト文書参照先"
+      ],
+      "signal_candidates": [
+        "表示テスト文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000087_safety_test_doc.yml",
+      "id": "DOC-000087",
+      "knowledge_type": "documentation",
+      "name_ja": "安全テスト文書",
+      "name_en": "Safety Test Documentation",
+      "category": "Documentation",
+      "attribute": "Testing QA",
+      "definition_ja": "プライバシー・高リスク・未成年・操作リスクを確認するテスト文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:テストQA",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "テストQA"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "安全テスト文書対象範囲",
+        "安全テスト文書読者",
+        "安全テスト文書更新条件",
+        "安全テスト文書参照先"
+      ],
+      "signal_candidates": [
+        "安全テスト文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000088_integration_test_doc.yml",
+      "id": "DOC-000088",
+      "knowledge_type": "documentation",
+      "name_ja": "統合テスト文書",
+      "name_en": "Integration Test Documentation",
+      "category": "Documentation",
+      "attribute": "Testing QA",
+      "definition_ja": "生成・API・表示・安全性を横断確認するテスト文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:テストQA",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "テストQA"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "統合テスト文書対象範囲",
+        "統合テスト文書読者",
+        "統合テスト文書更新条件",
+        "統合テスト文書参照先"
+      ],
+      "signal_candidates": [
+        "統合テスト文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000089_quality_gate_doc.yml",
+      "id": "DOC-000089",
+      "knowledge_type": "documentation",
+      "name_ja": "品質ゲート文書",
+      "name_en": "Quality Gate Documentation",
+      "category": "Documentation",
+      "attribute": "Testing QA",
+      "definition_ja": "次工程へ進むための監査OK条件や確認項目を説明する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:テストQA",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "テストQA"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "品質ゲート文書対象範囲",
+        "品質ゲート文書読者",
+        "品質ゲート文書更新条件",
+        "品質ゲート文書参照先"
+      ],
+      "signal_candidates": [
+        "品質ゲート文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000090_testing_documentation_integration.yml",
+      "id": "DOC-000090",
+      "knowledge_type": "documentation",
+      "name_ja": "テスト文書統合",
+      "name_en": "Testing Documentation Integration",
+      "category": "Documentation",
+      "attribute": "Testing QA",
+      "definition_ja": "テスト・QA関連文書を統合管理する枠組み。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:テストQA",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "テストQA"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "テスト文書統合対象範囲",
+        "テスト文書統合読者",
+        "テスト文書統合更新条件",
+        "テスト文書統合参照先"
+      ],
+      "signal_candidates": [
+        "テスト文書統合を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000091_readme_documentation.yml",
+      "id": "DOC-000091",
+      "knowledge_type": "documentation",
+      "name_ja": "README文書",
+      "name_en": "README Documentation",
+      "category": "Documentation",
+      "attribute": "Integration",
+      "definition_ja": "リポジトリの目的・使い方・基本コマンドを説明する入口文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:統合",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "README文書対象範囲",
+        "README文書読者",
+        "README文書更新条件",
+        "README文書参照先"
+      ],
+      "signal_candidates": [
+        "README文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000092_contributing_documentation.yml",
+      "id": "DOC-000092",
+      "knowledge_type": "documentation",
+      "name_ja": "CONTRIBUTING文書",
+      "name_en": "CONTRIBUTING Documentation",
+      "category": "Documentation",
+      "attribute": "Integration",
+      "definition_ja": "項目追加・修正・監査・Git運用の貢献手順を説明する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:統合",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "CONTRIBUTING文書対象範囲",
+        "CONTRIBUTING文書読者",
+        "CONTRIBUTING文書更新条件",
+        "CONTRIBUTING文書参照先"
+      ],
+      "signal_candidates": [
+        "CONTRIBUTING文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000093_changelog_documentation.yml",
+      "id": "DOC-000093",
+      "knowledge_type": "documentation",
+      "name_ja": "CHANGELOG文書",
+      "name_en": "CHANGELOG Documentation",
+      "category": "Documentation",
+      "attribute": "Integration",
+      "definition_ja": "変更履歴・追加Vol・修正内容を記録する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:統合",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "CHANGELOG文書対象範囲",
+        "CHANGELOG文書読者",
+        "CHANGELOG文書更新条件",
+        "CHANGELOG文書参照先"
+      ],
+      "signal_candidates": [
+        "CHANGELOG文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000094_release_notes_documentation.yml",
+      "id": "DOC-000094",
+      "knowledge_type": "documentation",
+      "name_ja": "リリースノート文書",
+      "name_en": "Release Notes Documentation",
+      "category": "Documentation",
+      "attribute": "Integration",
+      "definition_ja": "リリースごとの追加内容・注意点を説明する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:統合",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "リリースノート文書対象範囲",
+        "リリースノート文書読者",
+        "リリースノート文書更新条件",
+        "リリースノート文書参照先"
+      ],
+      "signal_candidates": [
+        "リリースノート文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000095_governance_documentation.yml",
+      "id": "DOC-000095",
+      "knowledge_type": "documentation",
+      "name_ja": "ガバナンス文書",
+      "name_en": "Governance Documentation",
+      "category": "Documentation",
+      "attribute": "Integration",
+      "definition_ja": "ライブラリ管理・安全・監査・責任範囲を説明する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:統合",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "ガバナンス文書対象範囲",
+        "ガバナンス文書読者",
+        "ガバナンス文書更新条件",
+        "ガバナンス文書参照先"
+      ],
+      "signal_candidates": [
+        "ガバナンス文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000096_architecture_decision_record.yml",
+      "id": "DOC-000096",
+      "knowledge_type": "documentation",
+      "name_ja": "設計判断記録",
+      "name_en": "Architecture Decision Record",
+      "category": "Documentation",
+      "attribute": "Integration",
+      "definition_ja": "重要な設計判断と理由を記録する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:統合",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "設計判断記録対象範囲",
+        "設計判断記録読者",
+        "設計判断記録更新条件",
+        "設計判断記録参照先"
+      ],
+      "signal_candidates": [
+        "設計判断記録を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000097_faq_documentation.yml",
+      "id": "DOC-000097",
+      "knowledge_type": "documentation",
+      "name_ja": "FAQ文書",
+      "name_en": "FAQ Documentation",
+      "category": "Documentation",
+      "attribute": "Integration",
+      "definition_ja": "よくある疑問や作業ミスへの回答を整理する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:統合",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "FAQ文書対象範囲",
+        "FAQ文書読者",
+        "FAQ文書更新条件",
+        "FAQ文書参照先"
+      ],
+      "signal_candidates": [
+        "FAQ文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000098_troubleshooting_documentation.yml",
+      "id": "DOC-000098",
+      "knowledge_type": "documentation",
+      "name_ja": "トラブルシューティング文書",
+      "name_en": "Troubleshooting Documentation",
+      "category": "Documentation",
+      "attribute": "Integration",
+      "definition_ja": "エラーや誤操作時の対処法を整理する文書。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:統合",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "トラブルシューティング文書対象範囲",
+        "トラブルシューティング文書読者",
+        "トラブルシューティング文書更新条件",
+        "トラブルシューティング文書参照先"
+      ],
+      "signal_candidates": [
+        "トラブルシューティング文書を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000099_documentation_audit.yml",
+      "id": "DOC-000099",
+      "knowledge_type": "documentation",
+      "name_ja": "文書監査",
+      "name_en": "Documentation Audit",
+      "category": "Documentation",
+      "attribute": "Integration",
+      "definition_ja": "文書が最新で正確か確認する管理過程。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:統合",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "文書監査対象範囲",
+        "文書監査読者",
+        "文書監査更新条件",
+        "文書監査参照先"
+      ],
+      "signal_candidates": [
+        "文書監査を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    },
+    {
+      "filename": "DOC-000100_documentation_system_integration.yml",
+      "id": "DOC-000100",
+      "knowledge_type": "documentation",
+      "name_ja": "文書化システム統合",
+      "name_en": "Documentation System Integration",
+      "category": "Documentation",
+      "attribute": "Integration",
+      "definition_ja": "プロジェクト・開発・API・安全・テスト文書を統合管理する枠組み。",
+      "tags": [
+        "CAT:文書化",
+        "CAT:統合",
+        "ATTR:説明資料"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "API契約",
+        "安全設計"
+      ],
+      "observable_data": [
+        "文書化システム統合対象範囲",
+        "文書化システム統合読者",
+        "文書化システム統合更新条件",
+        "文書化システム統合参照先"
+      ],
+      "signal_candidates": [
+        "文書化システム統合を説明資料として利用できる",
+        "Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "読者",
+        "更新頻度",
+        "安全性",
+        "保守性"
+      ],
+      "evidence": "ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用",
+      "status": "active"
+    }
+  ]
+}

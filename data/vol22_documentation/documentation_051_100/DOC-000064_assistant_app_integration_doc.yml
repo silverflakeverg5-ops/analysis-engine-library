@@ -1,0 +1,33 @@
+id: DOC-000064
+knowledge_type: documentation
+name_ja: 秘書アプリ連携文書
+name_en: Assistant App Integration Documentation
+category: Documentation
+attribute: App Integration
+definition_ja: 予定・通知・生活文脈とDB接続の方法を説明する文書。
+tags:
+  - CAT:文書化
+  - CAT:アプリ連携
+  - ATTR:説明資料
+parent:
+  - アプリ連携
+related:
+  - ライブラリ管理
+  - API契約
+  - 安全設計
+observable_data:
+  - 秘書アプリ連携文書対象範囲
+  - 秘書アプリ連携文書読者
+  - 秘書アプリ連携文書更新条件
+  - 秘書アプリ連携文書参照先
+signal_candidates:
+  - 秘書アプリ連携文書を説明資料として利用できる
+  - Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる
+device_level: DB管理用
+modifiers:
+  - 読者
+  - 更新頻度
+  - 安全性
+  - 保守性
+evidence: ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用
+status: active

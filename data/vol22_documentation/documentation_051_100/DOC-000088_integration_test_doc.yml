@@ -1,0 +1,33 @@
+id: DOC-000088
+knowledge_type: documentation
+name_ja: 統合テスト文書
+name_en: Integration Test Documentation
+category: Documentation
+attribute: Testing QA
+definition_ja: 生成・API・表示・安全性を横断確認するテスト文書。
+tags:
+  - CAT:文書化
+  - CAT:テストQA
+  - ATTR:説明資料
+parent:
+  - テストQA
+related:
+  - ライブラリ管理
+  - API契約
+  - 安全設計
+observable_data:
+  - 統合テスト文書対象範囲
+  - 統合テスト文書読者
+  - 統合テスト文書更新条件
+  - 統合テスト文書参照先
+signal_candidates:
+  - 統合テスト文書を説明資料として利用できる
+  - Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる
+device_level: DB管理用
+modifiers:
+  - 読者
+  - 更新頻度
+  - 安全性
+  - 保守性
+evidence: ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用
+status: active

@@ -1,0 +1,33 @@
+id: DOC-000068
+knowledge_type: documentation
+name_ja: 複数アプリ再利用文書
+name_en: Multi App Reuse Documentation
+category: Documentation
+attribute: App Integration
+definition_ja: 共通知識DBを複数アプリで再利用する設計を説明する文書。
+tags:
+  - CAT:文書化
+  - CAT:アプリ連携
+  - ATTR:説明資料
+parent:
+  - アプリ連携
+related:
+  - ライブラリ管理
+  - API契約
+  - 安全設計
+observable_data:
+  - 複数アプリ再利用文書対象範囲
+  - 複数アプリ再利用文書読者
+  - 複数アプリ再利用文書更新条件
+  - 複数アプリ再利用文書参照先
+signal_candidates:
+  - 複数アプリ再利用文書を説明資料として利用できる
+  - Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる
+device_level: DB管理用
+modifiers:
+  - 読者
+  - 更新頻度
+  - 安全性
+  - 保守性
+evidence: ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用
+status: active

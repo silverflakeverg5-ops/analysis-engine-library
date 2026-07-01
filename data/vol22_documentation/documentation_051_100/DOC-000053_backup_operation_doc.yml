@@ -1,0 +1,33 @@
+id: DOC-000053
+knowledge_type: documentation
+name_ja: バックアップ運用文書
+name_en: Backup Operation Documentation
+category: Documentation
+attribute: Operations
+definition_ja: データ消失を避けるためのバックアップ方針を説明する文書。
+tags:
+  - CAT:文書化
+  - CAT:運用
+  - ATTR:説明資料
+parent:
+  - 運用
+related:
+  - ライブラリ管理
+  - API契約
+  - 安全設計
+observable_data:
+  - バックアップ運用文書対象範囲
+  - バックアップ運用文書読者
+  - バックアップ運用文書更新条件
+  - バックアップ運用文書参照先
+signal_candidates:
+  - バックアップ運用文書を説明資料として利用できる
+  - Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる
+device_level: DB管理用
+modifiers:
+  - 読者
+  - 更新頻度
+  - 安全性
+  - 保守性
+evidence: ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用
+status: active

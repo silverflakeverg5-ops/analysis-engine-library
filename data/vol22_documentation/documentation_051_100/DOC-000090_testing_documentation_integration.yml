@@ -1,0 +1,33 @@
+id: DOC-000090
+knowledge_type: documentation
+name_ja: テスト文書統合
+name_en: Testing Documentation Integration
+category: Documentation
+attribute: Testing QA
+definition_ja: テスト・QA関連文書を統合管理する枠組み。
+tags:
+  - CAT:文書化
+  - CAT:テストQA
+  - ATTR:説明資料
+parent:
+  - テストQA
+related:
+  - ライブラリ管理
+  - API契約
+  - 安全設計
+observable_data:
+  - テスト文書統合対象範囲
+  - テスト文書統合読者
+  - テスト文書統合更新条件
+  - テスト文書統合参照先
+signal_candidates:
+  - テスト文書統合を説明資料として利用できる
+  - Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる
+device_level: DB管理用
+modifiers:
+  - 読者
+  - 更新頻度
+  - 安全性
+  - 保守性
+evidence: ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用
+status: active

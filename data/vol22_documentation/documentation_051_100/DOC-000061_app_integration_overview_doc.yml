@@ -1,0 +1,33 @@
+id: DOC-000061
+knowledge_type: documentation
+name_ja: アプリ連携概要文書
+name_en: App Integration Overview Documentation
+category: Documentation
+attribute: App Integration
+definition_ja: Knowledge Libraryを各アプリで利用する考え方を説明する文書。
+tags:
+  - CAT:文書化
+  - CAT:アプリ連携
+  - ATTR:説明資料
+parent:
+  - アプリ連携
+related:
+  - ライブラリ管理
+  - API契約
+  - 安全設計
+observable_data:
+  - アプリ連携概要文書対象範囲
+  - アプリ連携概要文書読者
+  - アプリ連携概要文書更新条件
+  - アプリ連携概要文書参照先
+signal_candidates:
+  - アプリ連携概要文書を説明資料として利用できる
+  - Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる
+device_level: DB管理用
+modifiers:
+  - 読者
+  - 更新頻度
+  - 安全性
+  - 保守性
+evidence: ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用
+status: active

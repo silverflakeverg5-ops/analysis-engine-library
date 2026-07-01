@@ -1,0 +1,33 @@
+id: DOC-000062
+knowledge_type: documentation
+name_ja: 診断アプリ連携文書
+name_en: Diagnosis App Integration Documentation
+category: Documentation
+attribute: App Integration
+definition_ja: 診断アプリでのDB参照・推論・表示の流れを説明する文書。
+tags:
+  - CAT:文書化
+  - CAT:アプリ連携
+  - ATTR:説明資料
+parent:
+  - アプリ連携
+related:
+  - ライブラリ管理
+  - API契約
+  - 安全設計
+observable_data:
+  - 診断アプリ連携文書対象範囲
+  - 診断アプリ連携文書読者
+  - 診断アプリ連携文書更新条件
+  - 診断アプリ連携文書参照先
+signal_candidates:
+  - 診断アプリ連携文書を説明資料として利用できる
+  - Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる
+device_level: DB管理用
+modifiers:
+  - 読者
+  - 更新頻度
+  - 安全性
+  - 保守性
+evidence: ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用
+status: active

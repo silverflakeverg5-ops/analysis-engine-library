@@ -1,0 +1,33 @@
+id: DOC-000071
+knowledge_type: documentation
+name_ja: 対応ルール概要文書
+name_en: Mapping Rule Overview Documentation
+category: Documentation
+attribute: Mapping
+definition_ja: 観測シグナル・補正・表示・用途の対応ルールを説明する文書。
+tags:
+  - CAT:文書化
+  - CAT:対応ルール
+  - ATTR:説明資料
+parent:
+  - 対応ルール
+related:
+  - ライブラリ管理
+  - API契約
+  - 安全設計
+observable_data:
+  - 対応ルール概要文書対象範囲
+  - 対応ルール概要文書読者
+  - 対応ルール概要文書更新条件
+  - 対応ルール概要文書参照先
+signal_candidates:
+  - 対応ルール概要文書を説明資料として利用できる
+  - Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる
+device_level: DB管理用
+modifiers:
+  - 読者
+  - 更新頻度
+  - 安全性
+  - 保守性
+evidence: ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用
+status: active

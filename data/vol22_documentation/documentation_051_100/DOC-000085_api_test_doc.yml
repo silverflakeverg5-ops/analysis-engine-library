@@ -1,0 +1,33 @@
+id: DOC-000085
+knowledge_type: documentation
+name_ja: APIテスト文書
+name_en: API Test Documentation
+category: Documentation
+attribute: Testing QA
+definition_ja: API応答・検索・安全境界を確認するテスト文書。
+tags:
+  - CAT:文書化
+  - CAT:テストQA
+  - ATTR:説明資料
+parent:
+  - テストQA
+related:
+  - ライブラリ管理
+  - API契約
+  - 安全設計
+observable_data:
+  - APIテスト文書対象範囲
+  - APIテスト文書読者
+  - APIテスト文書更新条件
+  - APIテスト文書参照先
+signal_candidates:
+  - APIテスト文書を説明資料として利用できる
+  - Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる
+device_level: DB管理用
+modifiers:
+  - 読者
+  - 更新頻度
+  - 安全性
+  - 保守性
+evidence: ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用
+status: active

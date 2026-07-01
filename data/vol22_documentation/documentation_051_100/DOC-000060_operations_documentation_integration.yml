@@ -1,0 +1,33 @@
+id: DOC-000060
+knowledge_type: documentation
+name_ja: 運用文書統合
+name_en: Operations Documentation Integration
+category: Documentation
+attribute: Operations
+definition_ja: 日常運用・監査・Git・保守文書を統合管理する枠組み。
+tags:
+  - CAT:文書化
+  - CAT:運用
+  - ATTR:説明資料
+parent:
+  - 運用
+related:
+  - ライブラリ管理
+  - API契約
+  - 安全設計
+observable_data:
+  - 運用文書統合対象範囲
+  - 運用文書統合読者
+  - 運用文書統合更新条件
+  - 運用文書統合参照先
+signal_candidates:
+  - 運用文書統合を説明資料として利用できる
+  - Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる
+device_level: DB管理用
+modifiers:
+  - 読者
+  - 更新頻度
+  - 安全性
+  - 保守性
+evidence: ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用
+status: active

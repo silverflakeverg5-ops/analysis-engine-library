@@ -1,0 +1,33 @@
+id: DOC-000097
+knowledge_type: documentation
+name_ja: FAQ文書
+name_en: FAQ Documentation
+category: Documentation
+attribute: Integration
+definition_ja: よくある疑問や作業ミスへの回答を整理する文書。
+tags:
+  - CAT:文書化
+  - CAT:統合
+  - ATTR:説明資料
+parent:
+  - 統合
+related:
+  - ライブラリ管理
+  - API契約
+  - 安全設計
+observable_data:
+  - FAQ文書対象範囲
+  - FAQ文書読者
+  - FAQ文書更新条件
+  - FAQ文書参照先
+signal_candidates:
+  - FAQ文書を説明資料として利用できる
+  - Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる
+device_level: DB管理用
+modifiers:
+  - 読者
+  - 更新頻度
+  - 安全性
+  - 保守性
+evidence: ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用
+status: active

@@ -1,0 +1,33 @@
+id: DOC-000074
+knowledge_type: documentation
+name_ja: 表示対応文書
+name_en: Display Mapping Documentation
+category: Documentation
+attribute: Mapping
+definition_ja: 推論材料を表示設計へ接続する考え方を説明する文書。
+tags:
+  - CAT:文書化
+  - CAT:対応ルール
+  - ATTR:説明資料
+parent:
+  - 対応ルール
+related:
+  - ライブラリ管理
+  - API契約
+  - 安全設計
+observable_data:
+  - 表示対応文書対象範囲
+  - 表示対応文書読者
+  - 表示対応文書更新条件
+  - 表示対応文書参照先
+signal_candidates:
+  - 表示対応文書を説明資料として利用できる
+  - Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる
+device_level: DB管理用
+modifiers:
+  - 読者
+  - 更新頻度
+  - 安全性
+  - 保守性
+evidence: ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用
+status: active

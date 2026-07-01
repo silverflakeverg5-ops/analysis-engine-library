@@ -1,0 +1,33 @@
+id: DOC-000070
+knowledge_type: documentation
+name_ja: アプリ連携文書統合
+name_en: App Integration Documentation
+category: Documentation
+attribute: App Integration
+definition_ja: アプリ連携に関する文書群を統合管理する枠組み。
+tags:
+  - CAT:文書化
+  - CAT:アプリ連携
+  - ATTR:説明資料
+parent:
+  - アプリ連携
+related:
+  - ライブラリ管理
+  - API契約
+  - 安全設計
+observable_data:
+  - アプリ連携文書統合対象範囲
+  - アプリ連携文書統合読者
+  - アプリ連携文書統合更新条件
+  - アプリ連携文書統合参照先
+signal_candidates:
+  - アプリ連携文書統合を説明資料として利用できる
+  - Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる
+device_level: DB管理用
+modifiers:
+  - 読者
+  - 更新頻度
+  - 安全性
+  - 保守性
+evidence: ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用
+status: active

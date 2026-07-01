@@ -1,0 +1,57 @@
+category: Documentation
+name_ja: 文書化
+items:
+  - DOC-000051_daily_operation_doc.yml
+  - DOC-000052_release_operation_doc.yml
+  - DOC-000053_backup_operation_doc.yml
+  - DOC-000054_restore_operation_doc.yml
+  - DOC-000055_storage_operation_doc.yml
+  - DOC-000056_audit_operation_doc.yml
+  - DOC-000057_branch_operation_doc.yml
+  - DOC-000058_commit_operation_doc.yml
+  - DOC-000059_cleanup_operation_doc.yml
+  - DOC-000060_operations_documentation_integration.yml
+  - DOC-000061_app_integration_overview_doc.yml
+  - DOC-000062_diagnosis_app_integration_doc.yml
+  - DOC-000063_game_app_integration_doc.yml
+  - DOC-000064_assistant_app_integration_doc.yml
+  - DOC-000065_education_app_integration_doc.yml
+  - DOC-000066_work_support_integration_doc.yml
+  - DOC-000067_wellbeing_integration_doc.yml
+  - DOC-000068_multi_app_reuse_doc.yml
+  - DOC-000069_app_side_inference_doc.yml
+  - DOC-000070_app_integration_documentation.yml
+  - DOC-000071_mapping_rule_overview_doc.yml
+  - DOC-000072_signal_mapping_doc.yml
+  - DOC-000073_modifier_mapping_doc.yml
+  - DOC-000074_display_mapping_doc.yml
+  - DOC-000075_safety_mapping_doc.yml
+  - DOC-000076_evidence_mapping_doc.yml
+  - DOC-000077_concept_linking_doc.yml
+  - DOC-000078_mapping_conflict_doc.yml
+  - DOC-000079_mapping_audit_doc.yml
+  - DOC-000080_mapping_documentation_integration.yml
+  - DOC-000081_test_strategy_doc.yml
+  - DOC-000082_data_audit_test_doc.yml
+  - DOC-000083_schema_test_doc.yml
+  - DOC-000084_generation_test_doc.yml
+  - DOC-000085_api_test_doc.yml
+  - DOC-000086_display_test_doc.yml
+  - DOC-000087_safety_test_doc.yml
+  - DOC-000088_integration_test_doc.yml
+  - DOC-000089_quality_gate_doc.yml
+  - DOC-000090_testing_documentation_integration.yml
+  - DOC-000091_readme_documentation.yml
+  - DOC-000092_contributing_documentation.yml
+  - DOC-000093_changelog_documentation.yml
+  - DOC-000094_release_notes_documentation.yml
+  - DOC-000095_governance_documentation.yml
+  - DOC-000096_architecture_decision_record.yml
+  - DOC-000097_faq_documentation.yml
+  - DOC-000098_troubleshooting_documentation.yml
+  - DOC-000099_documentation_audit.yml
+  - DOC-000100_documentation_system_integration.yml
+notes:
+  - 文書化は運用・引継ぎ・安全確認の材料として扱う
+  - Knowledge DB側では推論しない
+  - 開発者・アプリ実装者・管理者が参照できる形を目指す

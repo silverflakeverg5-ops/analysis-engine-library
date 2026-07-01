@@ -1,0 +1,33 @@
+id: DOC-000098
+knowledge_type: documentation
+name_ja: トラブルシューティング文書
+name_en: Troubleshooting Documentation
+category: Documentation
+attribute: Integration
+definition_ja: エラーや誤操作時の対処法を整理する文書。
+tags:
+  - CAT:文書化
+  - CAT:統合
+  - ATTR:説明資料
+parent:
+  - 統合
+related:
+  - ライブラリ管理
+  - API契約
+  - 安全設計
+observable_data:
+  - トラブルシューティング文書対象範囲
+  - トラブルシューティング文書読者
+  - トラブルシューティング文書更新条件
+  - トラブルシューティング文書参照先
+signal_candidates:
+  - トラブルシューティング文書を説明資料として利用できる
+  - Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる
+device_level: DB管理用
+modifiers:
+  - 読者
+  - 更新頻度
+  - 安全性
+  - 保守性
+evidence: ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用
+status: active

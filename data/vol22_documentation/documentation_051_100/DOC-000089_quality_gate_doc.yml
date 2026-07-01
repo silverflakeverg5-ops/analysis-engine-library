@@ -1,0 +1,33 @@
+id: DOC-000089
+knowledge_type: documentation
+name_ja: 品質ゲート文書
+name_en: Quality Gate Documentation
+category: Documentation
+attribute: Testing QA
+definition_ja: 次工程へ進むための監査OK条件や確認項目を説明する文書。
+tags:
+  - CAT:文書化
+  - CAT:テストQA
+  - ATTR:説明資料
+parent:
+  - テストQA
+related:
+  - ライブラリ管理
+  - API契約
+  - 安全設計
+observable_data:
+  - 品質ゲート文書対象範囲
+  - 品質ゲート文書読者
+  - 品質ゲート文書更新条件
+  - 品質ゲート文書参照先
+signal_candidates:
+  - 品質ゲート文書を説明資料として利用できる
+  - Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる
+device_level: DB管理用
+modifiers:
+  - 読者
+  - 更新頻度
+  - 安全性
+  - 保守性
+evidence: ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用
+status: active

@@ -1,0 +1,33 @@
+id: DOC-000095
+knowledge_type: documentation
+name_ja: ガバナンス文書
+name_en: Governance Documentation
+category: Documentation
+attribute: Integration
+definition_ja: ライブラリ管理・安全・監査・責任範囲を説明する文書。
+tags:
+  - CAT:文書化
+  - CAT:統合
+  - ATTR:説明資料
+parent:
+  - 統合
+related:
+  - ライブラリ管理
+  - API契約
+  - 安全設計
+observable_data:
+  - ガバナンス文書対象範囲
+  - ガバナンス文書読者
+  - ガバナンス文書更新条件
+  - ガバナンス文書参照先
+signal_candidates:
+  - ガバナンス文書を説明資料として利用できる
+  - Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる
+device_level: DB管理用
+modifiers:
+  - 読者
+  - 更新頻度
+  - 安全性
+  - 保守性
+evidence: ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用
+status: active

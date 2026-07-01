@@ -1,87 +1,87 @@
 import json
 from pathlib import Path
 
-OUT = Path("data/master_packs/vol22_documentation_001_050.json")
+OUT = Path("data/master_packs/vol22_documentation_051_100.json")
 
 SECTIONS = [
     {
-        "category": "Documentation - Project",
-        "name_ja": "文書化・プロジェクト",
+        "category": "Documentation - Operations",
+        "name_ja": "文書化・運用",
         "items": [
-            ("DOC-000001", "project_overview_doc", "プロジェクト概要文書", "Project Overview Documentation", "Knowledge Libraryの目的・範囲・基本方針を説明する文書。"),
-            ("DOC-000002", "architecture_doc", "アーキテクチャ文書", "Architecture Documentation", "Knowledge DB・Builder・YAML生成・アプリ側推論の構成を説明する文書。"),
-            ("DOC-000003", "folder_structure_doc", "フォルダ構成文書", "Folder Structure Documentation", "data・scripts・master_packsなどの役割を説明する文書。"),
-            ("DOC-000004", "workflow_doc", "作業手順文書", "Workflow Documentation", "Builder作成から生成・監査・Git反映までの手順を説明する文書。"),
-            ("DOC-000005", "handoff_doc", "引継ぎ文書", "Handoff Documentation", "別チャットや別作業者へ進捗を引き継ぐための文書。"),
-            ("DOC-000006", "progress_doc", "進捗文書", "Progress Documentation", "各Volの完成状況・項目数・未着手領域を記録する文書。"),
-            ("DOC-000007", "design_principle_doc", "設計原則文書", "Design Principle Documentation", "統合しない・タグ管理・アプリ側推論などの設計原則を残す文書。"),
-            ("DOC-000008", "scope_boundary_doc", "範囲境界文書", "Scope Boundary Documentation", "DB側とアプリ側の責任範囲を明確にする文書。"),
-            ("DOC-000009", "terminology_doc", "用語集文書", "Terminology Documentation", "プロジェクト内で使う用語と意味を整理する文書。"),
-            ("DOC-000010", "documentation_integration", "文書化統合", "Documentation Integration", "プロジェクト文書を体系的に管理する枠組み。")
+            ("DOC-000051", "daily_operation_doc", "日常運用文書", "Daily Operation Documentation", "通常作業で行う生成・監査・Git反映の手順を説明する文書。"),
+            ("DOC-000052", "release_operation_doc", "リリース運用文書", "Release Operation Documentation", "一定単位でKnowledge Libraryを更新・反映する手順を説明する文書。"),
+            ("DOC-000053", "backup_operation_doc", "バックアップ運用文書", "Backup Operation Documentation", "データ消失を避けるためのバックアップ方針を説明する文書。"),
+            ("DOC-000054", "restore_operation_doc", "復元運用文書", "Restore Operation Documentation", "誤削除や破損時に復元する手順を説明する文書。"),
+            ("DOC-000055", "storage_operation_doc", "保存容量運用文書", "Storage Operation Documentation", "容量増加を管理し、不要データを整理する手順を説明する文書。"),
+            ("DOC-000056", "audit_operation_doc", "監査運用文書", "Audit Operation Documentation", "監査の実行タイミング・結果確認・修正方法を説明する文書。"),
+            ("DOC-000057", "branch_operation_doc", "ブランチ運用文書", "Branch Operation Documentation", "mainや作業ブランチの使い分けを説明する文書。"),
+            ("DOC-000058", "commit_operation_doc", "コミット運用文書", "Commit Operation Documentation", "変更単位・コミットメッセージ・push手順を説明する文書。"),
+            ("DOC-000059", "cleanup_operation_doc", "クリーンアップ運用文書", "Cleanup Operation Documentation", "誤作成ファイルや不要ファイルを整理する手順を説明する文書。"),
+            ("DOC-000060", "operations_documentation_integration", "運用文書統合", "Operations Documentation Integration", "日常運用・監査・Git・保守文書を統合管理する枠組み。")
         ]
     },
     {
-        "category": "Documentation - Developer Guide",
-        "name_ja": "文書化・開発者ガイド",
+        "category": "Documentation - App Integration",
+        "name_ja": "文書化・アプリ連携",
         "items": [
-            ("DOC-000011", "developer_setup_doc", "開発環境セットアップ文書", "Developer Setup Documentation", "Codespacesやローカル環境で作業を始めるための文書。"),
-            ("DOC-000012", "builder_creation_doc", "Builder作成文書", "Builder Creation Documentation", "Builderスクリプトの作成・上書き・実行方法を説明する文書。"),
-            ("DOC-000013", "master_pack_doc", "master_pack仕様文書", "Master Pack Documentation", "master_pack JSONの構造と使い方を説明する文書。"),
-            ("DOC-000014", "yaml_generation_doc", "YAML生成文書", "YAML Generation Documentation", "generate_from_master.pyの使い方を説明する文書。"),
-            ("DOC-000015", "audit_command_doc", "監査コマンド文書", "Audit Command Documentation", "audit_all_data.pyなど監査コマンドの使い方を説明する文書。"),
-            ("DOC-000016", "git_command_doc", "Gitコマンド文書", "Git Command Documentation", "git add・commit・pushの実行手順を説明する文書。"),
-            ("DOC-000017", "error_recovery_doc", "エラー復旧文書", "Error Recovery Documentation", "生成・監査・Gitでエラーが出た時の復旧手順を説明する文書。"),
-            ("DOC-000018", "overwrite_policy_doc", "上書き方針文書", "Overwrite Policy Documentation", "Builderを上書きして使う運用方針を説明する文書。"),
-            ("DOC-000019", "command_sequence_doc", "コマンド順序文書", "Command Sequence Documentation", "実行順序を間違えないための手順文書。"),
-            ("DOC-000020", "developer_guide_integration", "開発者ガイド統合", "Developer Guide Integration", "開発者向け手順を統合管理する枠組み。")
+            ("DOC-000061", "app_integration_overview_doc", "アプリ連携概要文書", "App Integration Overview Documentation", "Knowledge Libraryを各アプリで利用する考え方を説明する文書。"),
+            ("DOC-000062", "diagnosis_app_integration_doc", "診断アプリ連携文書", "Diagnosis App Integration Documentation", "診断アプリでのDB参照・推論・表示の流れを説明する文書。"),
+            ("DOC-000063", "game_app_integration_doc", "ゲームアプリ連携文書", "Game App Integration Documentation", "ゲーム内行動シグナルとDB接続の方法を説明する文書。"),
+            ("DOC-000064", "assistant_app_integration_doc", "秘書アプリ連携文書", "Assistant App Integration Documentation", "予定・通知・生活文脈とDB接続の方法を説明する文書。"),
+            ("DOC-000065", "education_app_integration_doc", "教育アプリ連携文書", "Education App Integration Documentation", "学習ログ・教材・フィードバックとDB接続の方法を説明する文書。"),
+            ("DOC-000066", "work_support_integration_doc", "仕事支援連携文書", "Work Support Integration Documentation", "業務・集中・タスク文脈とDB接続の方法を説明する文書。"),
+            ("DOC-000067", "wellbeing_integration_doc", "ウェルビーイング連携文書", "Wellbeing Integration Documentation", "睡眠・疲労・感情・回復支援とDB接続の方法を説明する文書。"),
+            ("DOC-000068", "multi_app_reuse_doc", "複数アプリ再利用文書", "Multi App Reuse Documentation", "共通知識DBを複数アプリで再利用する設計を説明する文書。"),
+            ("DOC-000069", "app_side_inference_doc", "アプリ側推論文書", "App Side Inference Documentation", "推論・スコアリング・表示をアプリ側で実装する方針を説明する文書。"),
+            ("DOC-000070", "app_integration_documentation", "アプリ連携文書統合", "App Integration Documentation", "アプリ連携に関する文書群を統合管理する枠組み。")
         ]
     },
     {
-        "category": "Documentation - Data Dictionary",
-        "name_ja": "文書化・データ辞書",
+        "category": "Documentation - Mapping",
+        "name_ja": "文書化・対応ルール",
         "items": [
-            ("DOC-000021", "field_dictionary_doc", "フィールド辞書文書", "Field Dictionary Documentation", "id・name・category・tagsなど各フィールドの意味を説明する文書。"),
-            ("DOC-000022", "knowledge_type_dictionary_doc", "knowledge_type辞書文書", "Knowledge Type Dictionary Documentation", "knowledge_typeの種類と使い分けを説明する文書。"),
-            ("DOC-000023", "category_dictionary_doc", "カテゴリ辞書文書", "Category Dictionary Documentation", "カテゴリ体系と分類基準を説明する文書。"),
-            ("DOC-000024", "tag_dictionary_doc", "タグ辞書文書", "Tag Dictionary Documentation", "CAT・ATTRなどタグ体系を説明する文書。"),
-            ("DOC-000025", "status_dictionary_doc", "ステータス辞書文書", "Status Dictionary Documentation", "active・draft・deprecatedなどの状態管理を説明する文書。"),
-            ("DOC-000026", "device_level_dictionary_doc", "device_level辞書文書", "Device Level Dictionary Documentation", "観測可能性やDB管理用の区分を説明する文書。"),
-            ("DOC-000027", "observable_data_doc", "observable_data文書", "Observable Data Documentation", "観測可能データ候補の意味と使い方を説明する文書。"),
-            ("DOC-000028", "signal_candidates_doc", "signal_candidates文書", "Signal Candidates Documentation", "Signal候補の意味とアプリ側利用方法を説明する文書。"),
-            ("DOC-000029", "modifiers_field_doc", "modifiersフィールド文書", "Modifiers Field Documentation", "補正要因フィールドの意味と扱いを説明する文書。"),
-            ("DOC-000030", "data_dictionary_integration", "データ辞書統合", "Data Dictionary Integration", "フィールド・分類・タグ辞書を統合管理する枠組み。")
+            ("DOC-000071", "mapping_rule_overview_doc", "対応ルール概要文書", "Mapping Rule Overview Documentation", "観測シグナル・補正・表示・用途の対応ルールを説明する文書。"),
+            ("DOC-000072", "signal_mapping_doc", "Signal対応文書", "Signal Mapping Documentation", "観測シグナルを知識項目へ対応づける考え方を説明する文書。"),
+            ("DOC-000073", "modifier_mapping_doc", "補正対応文書", "Modifier Mapping Documentation", "文脈・状態・データ品質に応じた補正対応を説明する文書。"),
+            ("DOC-000074", "display_mapping_doc", "表示対応文書", "Display Mapping Documentation", "推論材料を表示設計へ接続する考え方を説明する文書。"),
+            ("DOC-000075", "safety_mapping_doc", "安全対応文書", "Safety Mapping Documentation", "高リスク文脈を安全制御へ接続する考え方を説明する文書。"),
+            ("DOC-000076", "evidence_mapping_doc", "根拠対応文書", "Evidence Mapping Documentation", "知識項目と根拠種別・根拠強度の接続を説明する文書。"),
+            ("DOC-000077", "concept_linking_doc", "概念接続文書", "Concept Linking Documentation", "親子・関連・近接概念の接続方針を説明する文書。"),
+            ("DOC-000078", "mapping_conflict_doc", "対応競合文書", "Mapping Conflict Documentation", "複数対応候補が矛盾する場合の扱いを説明する文書。"),
+            ("DOC-000079", "mapping_audit_doc", "対応監査文書", "Mapping Audit Documentation", "対応ルールの妥当性・安全性・整合性を確認する手順文書。"),
+            ("DOC-000080", "mapping_documentation_integration", "対応ルール文書統合", "Mapping Documentation Integration", "対応ルール文書を統合管理する枠組み。")
         ]
     },
     {
-        "category": "Documentation - API",
-        "name_ja": "文書化・API",
+        "category": "Documentation - Testing QA",
+        "name_ja": "文書化・テストQA",
         "items": [
-            ("DOC-000031", "api_overview_doc", "API概要文書", "API Overview Documentation", "Knowledge Library APIの目的と基本仕様を説明する文書。"),
-            ("DOC-000032", "api_endpoint_doc", "APIエンドポイント文書", "API Endpoint Documentation", "検索・ID取得・一括出力などのエンドポイントを説明する文書。"),
-            ("DOC-000033", "api_request_doc", "APIリクエスト文書", "API Request Documentation", "リクエストパラメータや検索条件を説明する文書。"),
-            ("DOC-000034", "api_response_doc", "APIレスポンス文書", "API Response Documentation", "API応答形式と各フィールドを説明する文書。"),
-            ("DOC-000035", "api_error_doc", "APIエラー文書", "API Error Documentation", "エラーコード・原因・対処を説明する文書。"),
-            ("DOC-000036", "api_version_doc", "APIバージョン文書", "API Version Documentation", "API版管理と互換性を説明する文書。"),
-            ("DOC-000037", "api_safety_boundary_doc", "API安全境界文書", "API Safety Boundary Documentation", "APIが推論結果を返さない境界を説明する文書。"),
-            ("DOC-000038", "api_example_doc", "API利用例文書", "API Example Documentation", "アプリ側からの参照例を説明する文書。"),
-            ("DOC-000039", "api_client_doc", "APIクライアント文書", "API Client Documentation", "アプリ側クライアントの実装方針を説明する文書。"),
-            ("DOC-000040", "api_documentation_integration", "API文書化統合", "API Documentation Integration", "API関連文書を統合管理する枠組み。")
+            ("DOC-000081", "test_strategy_doc", "テスト戦略文書", "Test Strategy Documentation", "データ監査・API・表示・安全テストの全体方針を説明する文書。"),
+            ("DOC-000082", "data_audit_test_doc", "データ監査テスト文書", "Data Audit Test Documentation", "必須フィールド・ID・YAML構造を確認するテスト手順文書。"),
+            ("DOC-000083", "schema_test_doc", "スキーマテスト文書", "Schema Test Documentation", "フィールド型・ID形式・タグ形式を確認する手順文書。"),
+            ("DOC-000084", "generation_test_doc", "生成テスト文書", "Generation Test Documentation", "BuilderからYAML生成までを確認するテスト文書。"),
+            ("DOC-000085", "api_test_doc", "APIテスト文書", "API Test Documentation", "API応答・検索・安全境界を確認するテスト文書。"),
+            ("DOC-000086", "display_test_doc", "表示テスト文書", "Display Test Documentation", "非断定・説明・提案・透明性表示を確認するテスト文書。"),
+            ("DOC-000087", "safety_test_doc", "安全テスト文書", "Safety Test Documentation", "プライバシー・高リスク・未成年・操作リスクを確認するテスト文書。"),
+            ("DOC-000088", "integration_test_doc", "統合テスト文書", "Integration Test Documentation", "生成・API・表示・安全性を横断確認するテスト文書。"),
+            ("DOC-000089", "quality_gate_doc", "品質ゲート文書", "Quality Gate Documentation", "次工程へ進むための監査OK条件や確認項目を説明する文書。"),
+            ("DOC-000090", "testing_documentation_integration", "テスト文書統合", "Testing Documentation Integration", "テスト・QA関連文書を統合管理する枠組み。")
         ]
     },
     {
-        "category": "Documentation - Safety",
-        "name_ja": "文書化・安全",
+        "category": "Documentation - Integration",
+        "name_ja": "文書化・統合",
         "items": [
-            ("DOC-000041", "safety_policy_doc", "安全方針文書", "Safety Policy Documentation", "非診断・非断定・支援目的など安全方針を説明する文書。"),
-            ("DOC-000042", "privacy_policy_doc", "プライバシー方針文書", "Privacy Policy Documentation", "データ最小化・同意・削除などの方針を説明する文書。"),
-            ("DOC-000043", "fairness_policy_doc", "公平性方針文書", "Fairness Policy Documentation", "不公平や偏見を避けるための方針を説明する文書。"),
-            ("DOC-000044", "high_risk_boundary_doc", "高リスク境界文書", "High Risk Boundary Documentation", "医療・雇用・進路など重大判断への利用境界を説明する文書。"),
-            ("DOC-000045", "minor_safety_doc", "未成年安全文書", "Minor Safety Documentation", "未成年利用時の注意点や制御を説明する文書。"),
-            ("DOC-000046", "display_safety_doc", "表示安全文書", "Display Safety Documentation", "断定を避ける表示・支援的トーンを説明する文書。"),
-            ("DOC-000047", "consent_doc", "同意管理文書", "Consent Documentation", "データ利用や個別化の同意管理を説明する文書。"),
-            ("DOC-000048", "audit_policy_doc", "監査方針文書", "Audit Policy Documentation", "安全・品質・APIの監査方針を説明する文書。"),
-            ("DOC-000049", "incident_response_doc", "インシデント対応文書", "Incident Response Documentation", "不適切表示やデータ問題が起きた時の対応を説明する文書。"),
-            ("DOC-000050", "safety_documentation_integration", "安全文書化統合", "Safety Documentation Integration", "安全方針・プライバシー・監査文書を統合管理する枠組み。")
+            ("DOC-000091", "readme_documentation", "README文書", "README Documentation", "リポジトリの目的・使い方・基本コマンドを説明する入口文書。"),
+            ("DOC-000092", "contributing_documentation", "CONTRIBUTING文書", "CONTRIBUTING Documentation", "項目追加・修正・監査・Git運用の貢献手順を説明する文書。"),
+            ("DOC-000093", "changelog_documentation", "CHANGELOG文書", "CHANGELOG Documentation", "変更履歴・追加Vol・修正内容を記録する文書。"),
+            ("DOC-000094", "release_notes_documentation", "リリースノート文書", "Release Notes Documentation", "リリースごとの追加内容・注意点を説明する文書。"),
+            ("DOC-000095", "governance_documentation", "ガバナンス文書", "Governance Documentation", "ライブラリ管理・安全・監査・責任範囲を説明する文書。"),
+            ("DOC-000096", "architecture_decision_record", "設計判断記録", "Architecture Decision Record", "重要な設計判断と理由を記録する文書。"),
+            ("DOC-000097", "faq_documentation", "FAQ文書", "FAQ Documentation", "よくある疑問や作業ミスへの回答を整理する文書。"),
+            ("DOC-000098", "troubleshooting_documentation", "トラブルシューティング文書", "Troubleshooting Documentation", "エラーや誤操作時の対処法を整理する文書。"),
+            ("DOC-000099", "documentation_audit", "文書監査", "Documentation Audit", "文書が最新で正確か確認する管理過程。"),
+            ("DOC-000100", "documentation_system_integration", "文書化システム統合", "Documentation System Integration", "プロジェクト・開発・API・安全・テスト文書を統合管理する枠組み。")
         ]
     }
 ]
@@ -136,8 +136,8 @@ def main():
     ])
 
     pack = {
-        "output_dir": "vol22_documentation/documentation_001_050",
-        "index_filename": "documentation_001_050_index.yml",
+        "output_dir": "vol22_documentation/documentation_051_100",
+        "index_filename": "documentation_051_100_index.yml",
         "index_content": "\n".join(index_lines) + "\n",
         "items": all_items
     }

@@ -1,0 +1,33 @@
+id: ROAD-000037
+knowledge_type: roadmap
+name_ja: スクリプト保守計画
+name_en: Script Maintenance Plan
+category: Roadmap
+attribute: Operations
+definition_ja: Builder・生成・監査スクリプトを保守する計画。
+tags:
+  - CAT:ロードマップ
+  - CAT:運用
+  - ATTR:開発計画
+parent:
+  - 運用
+related:
+  - ライブラリ管理
+  - アプリ用途
+  - 監査
+observable_data:
+  - スクリプト保守計画進捗
+  - スクリプト保守計画対象範囲
+  - スクリプト保守計画完了条件
+  - スクリプト保守計画依存関係
+signal_candidates:
+  - スクリプト保守計画を開発計画として利用できる
+  - Knowledge Libraryの拡張・品質・運用を管理する材料になる
+device_level: DB管理用
+modifiers:
+  - 優先度
+  - 進捗
+  - 依存関係
+  - 品質
+evidence: プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用
+status: active

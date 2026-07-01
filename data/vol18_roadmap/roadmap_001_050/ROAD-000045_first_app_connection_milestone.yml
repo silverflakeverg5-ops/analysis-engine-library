@@ -1,0 +1,33 @@
+id: ROAD-000045
+knowledge_type: roadmap
+name_ja: 初回アプリ接続マイルストーン
+name_en: First App Connection Milestone
+category: Roadmap
+attribute: Milestones
+definition_ja: 最初のアプリがKnowledge Libraryを参照できる状態。
+tags:
+  - CAT:ロードマップ
+  - CAT:マイルストーン
+  - ATTR:開発計画
+parent:
+  - マイルストーン
+related:
+  - ライブラリ管理
+  - アプリ用途
+  - 監査
+observable_data:
+  - 初回アプリ接続マイルストーン進捗
+  - 初回アプリ接続マイルストーン対象範囲
+  - 初回アプリ接続マイルストーン完了条件
+  - 初回アプリ接続マイルストーン依存関係
+signal_candidates:
+  - 初回アプリ接続マイルストーンを開発計画として利用できる
+  - Knowledge Libraryの拡張・品質・運用を管理する材料になる
+device_level: DB管理用
+modifiers:
+  - 優先度
+  - 進捗
+  - 依存関係
+  - 品質
+evidence: プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用
+status: active

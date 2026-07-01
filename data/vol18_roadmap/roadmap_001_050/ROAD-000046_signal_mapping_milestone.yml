@@ -1,0 +1,33 @@
+id: ROAD-000046
+knowledge_type: roadmap
+name_ja: シグナル対応付けマイルストーン
+name_en: Signal Mapping Milestone
+category: Roadmap
+attribute: Milestones
+definition_ja: 観測シグナルと知識項目の対応付けが整った状態。
+tags:
+  - CAT:ロードマップ
+  - CAT:マイルストーン
+  - ATTR:開発計画
+parent:
+  - マイルストーン
+related:
+  - ライブラリ管理
+  - アプリ用途
+  - 監査
+observable_data:
+  - シグナル対応付けマイルストーン進捗
+  - シグナル対応付けマイルストーン対象範囲
+  - シグナル対応付けマイルストーン完了条件
+  - シグナル対応付けマイルストーン依存関係
+signal_candidates:
+  - シグナル対応付けマイルストーンを開発計画として利用できる
+  - Knowledge Libraryの拡張・品質・運用を管理する材料になる
+device_level: DB管理用
+modifiers:
+  - 優先度
+  - 進捗
+  - 依存関係
+  - 品質
+evidence: プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用
+status: active

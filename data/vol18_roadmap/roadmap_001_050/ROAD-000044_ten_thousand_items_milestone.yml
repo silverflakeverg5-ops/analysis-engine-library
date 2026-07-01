@@ -1,0 +1,33 @@
+id: ROAD-000044
+knowledge_type: roadmap
+name_ja: 10000項目マイルストーン
+name_en: Ten Thousand Items Milestone
+category: Roadmap
+attribute: Milestones
+definition_ja: 大規模Knowledge Libraryとして多用途に対応できる状態。
+tags:
+  - CAT:ロードマップ
+  - CAT:マイルストーン
+  - ATTR:開発計画
+parent:
+  - マイルストーン
+related:
+  - ライブラリ管理
+  - アプリ用途
+  - 監査
+observable_data:
+  - 10000項目マイルストーン進捗
+  - 10000項目マイルストーン対象範囲
+  - 10000項目マイルストーン完了条件
+  - 10000項目マイルストーン依存関係
+signal_candidates:
+  - 10000項目マイルストーンを開発計画として利用できる
+  - Knowledge Libraryの拡張・品質・運用を管理する材料になる
+device_level: DB管理用
+modifiers:
+  - 優先度
+  - 進捗
+  - 依存関係
+  - 品質
+evidence: プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用
+status: active

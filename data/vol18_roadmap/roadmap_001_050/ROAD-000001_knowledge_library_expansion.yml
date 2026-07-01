@@ -1,0 +1,33 @@
+id: ROAD-000001
+knowledge_type: roadmap
+name_ja: 知識ライブラリ拡張
+name_en: Knowledge Library Expansion
+category: Roadmap
+attribute: Expansion
+definition_ja: Knowledge Libraryを段階的に拡張していく開発方針。
+tags:
+  - CAT:ロードマップ
+  - CAT:拡張
+  - ATTR:開発計画
+parent:
+  - 拡張
+related:
+  - ライブラリ管理
+  - アプリ用途
+  - 監査
+observable_data:
+  - 知識ライブラリ拡張進捗
+  - 知識ライブラリ拡張対象範囲
+  - 知識ライブラリ拡張完了条件
+  - 知識ライブラリ拡張依存関係
+signal_candidates:
+  - 知識ライブラリ拡張を開発計画として利用できる
+  - Knowledge Libraryの拡張・品質・運用を管理する材料になる
+device_level: DB管理用
+modifiers:
+  - 優先度
+  - 進捗
+  - 依存関係
+  - 品質
+evidence: プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用
+status: active

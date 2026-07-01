@@ -1,0 +1,33 @@
+id: ROAD-000043
+knowledge_type: roadmap
+name_ja: 3000項目マイルストーン
+name_en: Three Thousand Items Milestone
+category: Roadmap
+attribute: Milestones
+definition_ja: 実用的な分析アプリに使える知識量へ到達した状態。
+tags:
+  - CAT:ロードマップ
+  - CAT:マイルストーン
+  - ATTR:開発計画
+parent:
+  - マイルストーン
+related:
+  - ライブラリ管理
+  - アプリ用途
+  - 監査
+observable_data:
+  - 3000項目マイルストーン進捗
+  - 3000項目マイルストーン対象範囲
+  - 3000項目マイルストーン完了条件
+  - 3000項目マイルストーン依存関係
+signal_candidates:
+  - 3000項目マイルストーンを開発計画として利用できる
+  - Knowledge Libraryの拡張・品質・運用を管理する材料になる
+device_level: DB管理用
+modifiers:
+  - 優先度
+  - 進捗
+  - 依存関係
+  - 品質
+evidence: プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用
+status: active

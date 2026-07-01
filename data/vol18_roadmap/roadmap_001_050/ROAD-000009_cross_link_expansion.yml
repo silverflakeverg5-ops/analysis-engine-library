@@ -1,0 +1,33 @@
+id: ROAD-000009
+knowledge_type: roadmap
+name_ja: 横断リンク拡張
+name_en: Cross Link Expansion
+category: Roadmap
+attribute: Expansion
+definition_ja: Vol間のrelatedやparentを拡張して知識接続を強化する方針。
+tags:
+  - CAT:ロードマップ
+  - CAT:拡張
+  - ATTR:開発計画
+parent:
+  - 拡張
+related:
+  - ライブラリ管理
+  - アプリ用途
+  - 監査
+observable_data:
+  - 横断リンク拡張進捗
+  - 横断リンク拡張対象範囲
+  - 横断リンク拡張完了条件
+  - 横断リンク拡張依存関係
+signal_candidates:
+  - 横断リンク拡張を開発計画として利用できる
+  - Knowledge Libraryの拡張・品質・運用を管理する材料になる
+device_level: DB管理用
+modifiers:
+  - 優先度
+  - 進捗
+  - 依存関係
+  - 品質
+evidence: プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用
+status: active

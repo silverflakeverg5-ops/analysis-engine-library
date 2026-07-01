@@ -1,0 +1,33 @@
+id: ROAD-000027
+knowledge_type: roadmap
+name_ja: 複数アプリ再利用計画
+name_en: Multi App Reuse Plan
+category: Roadmap
+attribute: App Integration
+definition_ja: 共通知識DBを複数アプリで再利用する計画。
+tags:
+  - CAT:ロードマップ
+  - CAT:アプリ連携
+  - ATTR:開発計画
+parent:
+  - アプリ連携
+related:
+  - ライブラリ管理
+  - アプリ用途
+  - 監査
+observable_data:
+  - 複数アプリ再利用計画進捗
+  - 複数アプリ再利用計画対象範囲
+  - 複数アプリ再利用計画完了条件
+  - 複数アプリ再利用計画依存関係
+signal_candidates:
+  - 複数アプリ再利用計画を開発計画として利用できる
+  - Knowledge Libraryの拡張・品質・運用を管理する材料になる
+device_level: DB管理用
+modifiers:
+  - 優先度
+  - 進捗
+  - 依存関係
+  - 品質
+evidence: プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用
+status: active

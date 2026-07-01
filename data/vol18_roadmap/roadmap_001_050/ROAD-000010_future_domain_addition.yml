@@ -1,0 +1,33 @@
+id: ROAD-000010
+knowledge_type: roadmap
+name_ja: 将来領域追加
+name_en: Future Domain Addition
+category: Roadmap
+attribute: Expansion
+definition_ja: 未整備の知識領域を将来追加するための拡張方針。
+tags:
+  - CAT:ロードマップ
+  - CAT:拡張
+  - ATTR:開発計画
+parent:
+  - 拡張
+related:
+  - ライブラリ管理
+  - アプリ用途
+  - 監査
+observable_data:
+  - 将来領域追加進捗
+  - 将来領域追加対象範囲
+  - 将来領域追加完了条件
+  - 将来領域追加依存関係
+signal_candidates:
+  - 将来領域追加を開発計画として利用できる
+  - Knowledge Libraryの拡張・品質・運用を管理する材料になる
+device_level: DB管理用
+modifiers:
+  - 優先度
+  - 進捗
+  - 依存関係
+  - 品質
+evidence: プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用
+status: active

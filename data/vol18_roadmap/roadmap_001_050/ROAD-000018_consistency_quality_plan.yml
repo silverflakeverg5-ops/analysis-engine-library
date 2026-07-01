@@ -1,0 +1,33 @@
+id: ROAD-000018
+knowledge_type: roadmap
+name_ja: 整合性品質計画
+name_en: Consistency Quality Plan
+category: Roadmap
+attribute: Quality
+definition_ja: ID・タグ・カテゴリ・用語の整合性を維持する計画。
+tags:
+  - CAT:ロードマップ
+  - CAT:品質
+  - ATTR:開発計画
+parent:
+  - 品質
+related:
+  - ライブラリ管理
+  - アプリ用途
+  - 監査
+observable_data:
+  - 整合性品質計画進捗
+  - 整合性品質計画対象範囲
+  - 整合性品質計画完了条件
+  - 整合性品質計画依存関係
+signal_candidates:
+  - 整合性品質計画を開発計画として利用できる
+  - Knowledge Libraryの拡張・品質・運用を管理する材料になる
+device_level: DB管理用
+modifiers:
+  - 優先度
+  - 進捗
+  - 依存関係
+  - 品質
+evidence: プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用
+status: active

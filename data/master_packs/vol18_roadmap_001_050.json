@@ -1,0 +1,2107 @@
+{
+  "output_dir": "vol18_roadmap/roadmap_001_050",
+  "index_filename": "roadmap_001_050_index.yml",
+  "index_content": "category: Roadmap\nname_ja: ロードマップ\nitems:\n  - ROAD-000001_knowledge_library_expansion.yml\n  - ROAD-000002_volume_expansion_plan.yml\n  - ROAD-000003_item_count_growth_plan.yml\n  - ROAD-000004_core_quality_preservation.yml\n  - ROAD-000005_master_pack_scaling.yml\n  - ROAD-000006_builder_scaling.yml\n  - ROAD-000007_audit_scaling.yml\n  - ROAD-000008_tag_expansion.yml\n  - ROAD-000009_cross_link_expansion.yml\n  - ROAD-000010_future_domain_addition.yml\n  - ROAD-000011_quality_first_policy.yml\n  - ROAD-000012_definition_quality_plan.yml\n  - ROAD-000013_observable_data_quality_plan.yml\n  - ROAD-000014_signal_candidate_quality_plan.yml\n  - ROAD-000015_modifier_quality_plan.yml\n  - ROAD-000016_evidence_quality_plan.yml\n  - ROAD-000017_safety_quality_plan.yml\n  - ROAD-000018_consistency_quality_plan.yml\n  - ROAD-000019_review_cycle_plan.yml\n  - ROAD-000020_quality_roadmap_integration.yml\n  - ROAD-000021_diagnosis_app_integration_plan.yml\n  - ROAD-000022_game_app_integration_plan.yml\n  - ROAD-000023_assistant_app_integration_plan.yml\n  - ROAD-000024_education_app_integration_plan.yml\n  - ROAD-000025_work_support_integration_plan.yml\n  - ROAD-000026_wellbeing_integration_plan.yml\n  - ROAD-000027_multi_app_reuse_plan.yml\n  - ROAD-000028_app_side_inference_plan.yml\n  - ROAD-000029_api_connection_plan.yml\n  - ROAD-000030_app_integration_roadmap.yml\n  - ROAD-000031_generation_workflow_plan.yml\n  - ROAD-000032_audit_workflow_plan.yml\n  - ROAD-000033_git_workflow_plan.yml\n  - ROAD-000034_release_cycle_plan.yml\n  - ROAD-000035_backup_plan.yml\n  - ROAD-000036_storage_management_plan.yml\n  - ROAD-000037_script_maintenance_plan.yml\n  - ROAD-000038_documentation_plan.yml\n  - ROAD-000039_handoff_plan.yml\n  - ROAD-000040_operation_roadmap_integration.yml\n  - ROAD-000041_foundation_complete_milestone.yml\n  - ROAD-000042_one_thousand_items_milestone.yml\n  - ROAD-000043_three_thousand_items_milestone.yml\n  - ROAD-000044_ten_thousand_items_milestone.yml\n  - ROAD-000045_first_app_connection_milestone.yml\n  - ROAD-000046_signal_mapping_milestone.yml\n  - ROAD-000047_modifier_mapping_milestone.yml\n  - ROAD-000048_display_mapping_milestone.yml\n  - ROAD-000049_safety_review_milestone.yml\n  - ROAD-000050_roadmap_integration.yml\nnotes:\n  - ロードマップは開発計画と管理材料として扱う\n  - Knowledge DB側では推論しない\n  - 今後の拡張・品質管理・アプリ接続に利用する\n",
+  "items": [
+    {
+      "filename": "ROAD-000001_knowledge_library_expansion.yml",
+      "id": "ROAD-000001",
+      "knowledge_type": "roadmap",
+      "name_ja": "知識ライブラリ拡張",
+      "name_en": "Knowledge Library Expansion",
+      "category": "Roadmap",
+      "attribute": "Expansion",
+      "definition_ja": "Knowledge Libraryを段階的に拡張していく開発方針。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:拡張",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "拡張"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "知識ライブラリ拡張進捗",
+        "知識ライブラリ拡張対象範囲",
+        "知識ライブラリ拡張完了条件",
+        "知識ライブラリ拡張依存関係"
+      ],
+      "signal_candidates": [
+        "知識ライブラリ拡張を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000002_volume_expansion_plan.yml",
+      "id": "ROAD-000002",
+      "knowledge_type": "roadmap",
+      "name_ja": "Vol拡張計画",
+      "name_en": "Volume Expansion Plan",
+      "category": "Roadmap",
+      "attribute": "Expansion",
+      "definition_ja": "新しいVolを追加して知識領域を広げる計画。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:拡張",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "拡張"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "Vol拡張計画進捗",
+        "Vol拡張計画対象範囲",
+        "Vol拡張計画完了条件",
+        "Vol拡張計画依存関係"
+      ],
+      "signal_candidates": [
+        "Vol拡張計画を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000003_item_count_growth_plan.yml",
+      "id": "ROAD-000003",
+      "knowledge_type": "roadmap",
+      "name_ja": "項目数拡張計画",
+      "name_en": "Item Count Growth Plan",
+      "category": "Roadmap",
+      "attribute": "Expansion",
+      "definition_ja": "3000〜10000項目規模へ拡張するための項目追加計画。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:拡張",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "拡張"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "項目数拡張計画進捗",
+        "項目数拡張計画対象範囲",
+        "項目数拡張計画完了条件",
+        "項目数拡張計画依存関係"
+      ],
+      "signal_candidates": [
+        "項目数拡張計画を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000004_core_quality_preservation.yml",
+      "id": "ROAD-000004",
+      "knowledge_type": "roadmap",
+      "name_ja": "基盤品質維持",
+      "name_en": "Core Quality Preservation",
+      "category": "Roadmap",
+      "attribute": "Expansion",
+      "definition_ja": "項目数を増やしても基本設計と品質を維持する方針。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:拡張",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "拡張"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "基盤品質維持進捗",
+        "基盤品質維持対象範囲",
+        "基盤品質維持完了条件",
+        "基盤品質維持依存関係"
+      ],
+      "signal_candidates": [
+        "基盤品質維持を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000005_master_pack_scaling.yml",
+      "id": "ROAD-000005",
+      "knowledge_type": "roadmap",
+      "name_ja": "マスターパック拡張",
+      "name_en": "Master Pack Scaling",
+      "category": "Roadmap",
+      "attribute": "Expansion",
+      "definition_ja": "100〜300項目単位でマスターパックを増やす運用方針。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:拡張",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "拡張"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "マスターパック拡張進捗",
+        "マスターパック拡張対象範囲",
+        "マスターパック拡張完了条件",
+        "マスターパック拡張依存関係"
+      ],
+      "signal_candidates": [
+        "マスターパック拡張を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000006_builder_scaling.yml",
+      "id": "ROAD-000006",
+      "knowledge_type": "roadmap",
+      "name_ja": "Builder拡張",
+      "name_en": "Builder Scaling",
+      "category": "Roadmap",
+      "attribute": "Expansion",
+      "definition_ja": "Builder方式で大量項目を生成・管理する開発方針。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:拡張",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "拡張"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "Builder拡張進捗",
+        "Builder拡張対象範囲",
+        "Builder拡張完了条件",
+        "Builder拡張依存関係"
+      ],
+      "signal_candidates": [
+        "Builder拡張を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000007_audit_scaling.yml",
+      "id": "ROAD-000007",
+      "knowledge_type": "roadmap",
+      "name_ja": "監査拡張",
+      "name_en": "Audit Scaling",
+      "category": "Roadmap",
+      "attribute": "Expansion",
+      "definition_ja": "項目数増加に対応して監査範囲や精度を強化する方針。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:拡張",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "拡張"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "監査拡張進捗",
+        "監査拡張対象範囲",
+        "監査拡張完了条件",
+        "監査拡張依存関係"
+      ],
+      "signal_candidates": [
+        "監査拡張を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000008_tag_expansion.yml",
+      "id": "ROAD-000008",
+      "knowledge_type": "roadmap",
+      "name_ja": "タグ拡張",
+      "name_en": "Tag Expansion",
+      "category": "Roadmap",
+      "attribute": "Expansion",
+      "definition_ja": "後から検索・逆引きしやすいタグ体系を拡張する方針。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:拡張",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "拡張"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "タグ拡張進捗",
+        "タグ拡張対象範囲",
+        "タグ拡張完了条件",
+        "タグ拡張依存関係"
+      ],
+      "signal_candidates": [
+        "タグ拡張を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000009_cross_link_expansion.yml",
+      "id": "ROAD-000009",
+      "knowledge_type": "roadmap",
+      "name_ja": "横断リンク拡張",
+      "name_en": "Cross Link Expansion",
+      "category": "Roadmap",
+      "attribute": "Expansion",
+      "definition_ja": "Vol間のrelatedやparentを拡張して知識接続を強化する方針。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:拡張",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "拡張"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "横断リンク拡張進捗",
+        "横断リンク拡張対象範囲",
+        "横断リンク拡張完了条件",
+        "横断リンク拡張依存関係"
+      ],
+      "signal_candidates": [
+        "横断リンク拡張を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000010_future_domain_addition.yml",
+      "id": "ROAD-000010",
+      "knowledge_type": "roadmap",
+      "name_ja": "将来領域追加",
+      "name_en": "Future Domain Addition",
+      "category": "Roadmap",
+      "attribute": "Expansion",
+      "definition_ja": "未整備の知識領域を将来追加するための拡張方針。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:拡張",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "拡張"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "将来領域追加進捗",
+        "将来領域追加対象範囲",
+        "将来領域追加完了条件",
+        "将来領域追加依存関係"
+      ],
+      "signal_candidates": [
+        "将来領域追加を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000011_quality_first_policy.yml",
+      "id": "ROAD-000011",
+      "knowledge_type": "roadmap",
+      "name_ja": "品質優先方針",
+      "name_en": "Quality First Policy",
+      "category": "Roadmap",
+      "attribute": "Quality",
+      "definition_ja": "単純な項目数増加より分析精度に貢献する知識品質を優先する方針。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:品質",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "品質"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "品質優先方針進捗",
+        "品質優先方針対象範囲",
+        "品質優先方針完了条件",
+        "品質優先方針依存関係"
+      ],
+      "signal_candidates": [
+        "品質優先方針を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000012_definition_quality_plan.yml",
+      "id": "ROAD-000012",
+      "knowledge_type": "roadmap",
+      "name_ja": "定義品質計画",
+      "name_en": "Definition Quality Plan",
+      "category": "Roadmap",
+      "attribute": "Quality",
+      "definition_ja": "各項目の定義を簡潔かつ実用的に保つ計画。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:品質",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "品質"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "定義品質計画進捗",
+        "定義品質計画対象範囲",
+        "定義品質計画完了条件",
+        "定義品質計画依存関係"
+      ],
+      "signal_candidates": [
+        "定義品質計画を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000013_observable_data_quality_plan.yml",
+      "id": "ROAD-000013",
+      "knowledge_type": "roadmap",
+      "name_ja": "観測データ品質計画",
+      "name_en": "Observable Data Quality Plan",
+      "category": "Roadmap",
+      "attribute": "Quality",
+      "definition_ja": "観測可能データをアプリ実装に使いやすく整える計画。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:品質",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "品質"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "観測データ品質計画進捗",
+        "観測データ品質計画対象範囲",
+        "観測データ品質計画完了条件",
+        "観測データ品質計画依存関係"
+      ],
+      "signal_candidates": [
+        "観測データ品質計画を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000014_signal_candidate_quality_plan.yml",
+      "id": "ROAD-000014",
+      "knowledge_type": "roadmap",
+      "name_ja": "Signal候補品質計画",
+      "name_en": "Signal Candidate Quality Plan",
+      "category": "Roadmap",
+      "attribute": "Quality",
+      "definition_ja": "Signal候補を推論材料として利用しやすく整備する計画。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:品質",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "品質"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "Signal候補品質計画進捗",
+        "Signal候補品質計画対象範囲",
+        "Signal候補品質計画完了条件",
+        "Signal候補品質計画依存関係"
+      ],
+      "signal_candidates": [
+        "Signal候補品質計画を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000015_modifier_quality_plan.yml",
+      "id": "ROAD-000015",
+      "knowledge_type": "roadmap",
+      "name_ja": "補正要因品質計画",
+      "name_en": "Modifier Quality Plan",
+      "category": "Roadmap",
+      "attribute": "Quality",
+      "definition_ja": "補正要因を安全で実装しやすく整理する計画。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:品質",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "品質"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "補正要因品質計画進捗",
+        "補正要因品質計画対象範囲",
+        "補正要因品質計画完了条件",
+        "補正要因品質計画依存関係"
+      ],
+      "signal_candidates": [
+        "補正要因品質計画を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000016_evidence_quality_plan.yml",
+      "id": "ROAD-000016",
+      "knowledge_type": "roadmap",
+      "name_ja": "根拠品質計画",
+      "name_en": "Evidence Quality Plan",
+      "category": "Roadmap",
+      "attribute": "Quality",
+      "definition_ja": "根拠種別や適用範囲を整えて信頼性を高める計画。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:品質",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "品質"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "根拠品質計画進捗",
+        "根拠品質計画対象範囲",
+        "根拠品質計画完了条件",
+        "根拠品質計画依存関係"
+      ],
+      "signal_candidates": [
+        "根拠品質計画を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000017_safety_quality_plan.yml",
+      "id": "ROAD-000017",
+      "knowledge_type": "roadmap",
+      "name_ja": "安全品質計画",
+      "name_en": "Safety Quality Plan",
+      "category": "Roadmap",
+      "attribute": "Quality",
+      "definition_ja": "断定・偏見・高リスク利用を避ける品質管理計画。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:品質",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "品質"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "安全品質計画進捗",
+        "安全品質計画対象範囲",
+        "安全品質計画完了条件",
+        "安全品質計画依存関係"
+      ],
+      "signal_candidates": [
+        "安全品質計画を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000018_consistency_quality_plan.yml",
+      "id": "ROAD-000018",
+      "knowledge_type": "roadmap",
+      "name_ja": "整合性品質計画",
+      "name_en": "Consistency Quality Plan",
+      "category": "Roadmap",
+      "attribute": "Quality",
+      "definition_ja": "ID・タグ・カテゴリ・用語の整合性を維持する計画。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:品質",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "品質"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "整合性品質計画進捗",
+        "整合性品質計画対象範囲",
+        "整合性品質計画完了条件",
+        "整合性品質計画依存関係"
+      ],
+      "signal_candidates": [
+        "整合性品質計画を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000019_review_cycle_plan.yml",
+      "id": "ROAD-000019",
+      "knowledge_type": "roadmap",
+      "name_ja": "レビュー周期計画",
+      "name_en": "Review Cycle Plan",
+      "category": "Roadmap",
+      "attribute": "Quality",
+      "definition_ja": "定期的に項目・根拠・安全性を見直す計画。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:品質",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "品質"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "レビュー周期計画進捗",
+        "レビュー周期計画対象範囲",
+        "レビュー周期計画完了条件",
+        "レビュー周期計画依存関係"
+      ],
+      "signal_candidates": [
+        "レビュー周期計画を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000020_quality_roadmap_integration.yml",
+      "id": "ROAD-000020",
+      "knowledge_type": "roadmap",
+      "name_ja": "品質ロードマップ統合",
+      "name_en": "Quality Roadmap Integration",
+      "category": "Roadmap",
+      "attribute": "Quality",
+      "definition_ja": "定義・観測・根拠・安全性を統合して品質を高める方針。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:品質",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "品質"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "品質ロードマップ統合進捗",
+        "品質ロードマップ統合対象範囲",
+        "品質ロードマップ統合完了条件",
+        "品質ロードマップ統合依存関係"
+      ],
+      "signal_candidates": [
+        "品質ロードマップ統合を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000021_diagnosis_app_integration_plan.yml",
+      "id": "ROAD-000021",
+      "knowledge_type": "roadmap",
+      "name_ja": "診断アプリ連携計画",
+      "name_en": "Diagnosis App Integration Plan",
+      "category": "Roadmap",
+      "attribute": "App Integration",
+      "definition_ja": "診断アプリがKnowledge Libraryを推論材料として使うための計画。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:アプリ連携",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "アプリ連携"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "診断アプリ連携計画進捗",
+        "診断アプリ連携計画対象範囲",
+        "診断アプリ連携計画完了条件",
+        "診断アプリ連携計画依存関係"
+      ],
+      "signal_candidates": [
+        "診断アプリ連携計画を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000022_game_app_integration_plan.yml",
+      "id": "ROAD-000022",
+      "knowledge_type": "roadmap",
+      "name_ja": "ゲームアプリ連携計画",
+      "name_en": "Game App Integration Plan",
+      "category": "Roadmap",
+      "attribute": "App Integration",
+      "definition_ja": "ゲーム内行動からシグナルを取得し知識DBと接続する計画。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:アプリ連携",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "アプリ連携"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "ゲームアプリ連携計画進捗",
+        "ゲームアプリ連携計画対象範囲",
+        "ゲームアプリ連携計画完了条件",
+        "ゲームアプリ連携計画依存関係"
+      ],
+      "signal_candidates": [
+        "ゲームアプリ連携計画を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000023_assistant_app_integration_plan.yml",
+      "id": "ROAD-000023",
+      "knowledge_type": "roadmap",
+      "name_ja": "秘書アプリ連携計画",
+      "name_en": "Assistant App Integration Plan",
+      "category": "Roadmap",
+      "attribute": "App Integration",
+      "definition_ja": "予定・通知・生活文脈とKnowledge Libraryを接続する計画。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:アプリ連携",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "アプリ連携"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "秘書アプリ連携計画進捗",
+        "秘書アプリ連携計画対象範囲",
+        "秘書アプリ連携計画完了条件",
+        "秘書アプリ連携計画依存関係"
+      ],
+      "signal_candidates": [
+        "秘書アプリ連携計画を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000024_education_app_integration_plan.yml",
+      "id": "ROAD-000024",
+      "knowledge_type": "roadmap",
+      "name_ja": "教育アプリ連携計画",
+      "name_en": "Education App Integration Plan",
+      "category": "Roadmap",
+      "attribute": "App Integration",
+      "definition_ja": "学習ログ・教材・フィードバックと知識DBを接続する計画。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:アプリ連携",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "アプリ連携"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "教育アプリ連携計画進捗",
+        "教育アプリ連携計画対象範囲",
+        "教育アプリ連携計画完了条件",
+        "教育アプリ連携計画依存関係"
+      ],
+      "signal_candidates": [
+        "教育アプリ連携計画を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000025_work_support_integration_plan.yml",
+      "id": "ROAD-000025",
+      "knowledge_type": "roadmap",
+      "name_ja": "仕事支援連携計画",
+      "name_en": "Work Support Integration Plan",
+      "category": "Roadmap",
+      "attribute": "App Integration",
+      "definition_ja": "タスク・集中・業務文脈とKnowledge Libraryを接続する計画。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:アプリ連携",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "アプリ連携"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "仕事支援連携計画進捗",
+        "仕事支援連携計画対象範囲",
+        "仕事支援連携計画完了条件",
+        "仕事支援連携計画依存関係"
+      ],
+      "signal_candidates": [
+        "仕事支援連携計画を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000026_wellbeing_integration_plan.yml",
+      "id": "ROAD-000026",
+      "knowledge_type": "roadmap",
+      "name_ja": "ウェルビーイング連携計画",
+      "name_en": "Wellbeing Integration Plan",
+      "category": "Roadmap",
+      "attribute": "App Integration",
+      "definition_ja": "睡眠・疲労・感情・回復支援と知識DBを接続する計画。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:アプリ連携",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "アプリ連携"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "ウェルビーイング連携計画進捗",
+        "ウェルビーイング連携計画対象範囲",
+        "ウェルビーイング連携計画完了条件",
+        "ウェルビーイング連携計画依存関係"
+      ],
+      "signal_candidates": [
+        "ウェルビーイング連携計画を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000027_multi_app_reuse_plan.yml",
+      "id": "ROAD-000027",
+      "knowledge_type": "roadmap",
+      "name_ja": "複数アプリ再利用計画",
+      "name_en": "Multi App Reuse Plan",
+      "category": "Roadmap",
+      "attribute": "App Integration",
+      "definition_ja": "共通知識DBを複数アプリで再利用する計画。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:アプリ連携",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "アプリ連携"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "複数アプリ再利用計画進捗",
+        "複数アプリ再利用計画対象範囲",
+        "複数アプリ再利用計画完了条件",
+        "複数アプリ再利用計画依存関係"
+      ],
+      "signal_candidates": [
+        "複数アプリ再利用計画を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000028_app_side_inference_plan.yml",
+      "id": "ROAD-000028",
+      "knowledge_type": "roadmap",
+      "name_ja": "アプリ側推論計画",
+      "name_en": "App Side Inference Plan",
+      "category": "Roadmap",
+      "attribute": "App Integration",
+      "definition_ja": "推論・スコアリング・表示を各アプリ側で実装する計画。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:アプリ連携",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "アプリ連携"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "アプリ側推論計画進捗",
+        "アプリ側推論計画対象範囲",
+        "アプリ側推論計画完了条件",
+        "アプリ側推論計画依存関係"
+      ],
+      "signal_candidates": [
+        "アプリ側推論計画を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000029_api_connection_plan.yml",
+      "id": "ROAD-000029",
+      "knowledge_type": "roadmap",
+      "name_ja": "API接続計画",
+      "name_en": "API Connection Plan",
+      "category": "Roadmap",
+      "attribute": "App Integration",
+      "definition_ja": "Knowledge Libraryをアプリから参照しやすくする接続設計。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:アプリ連携",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "アプリ連携"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "API接続計画進捗",
+        "API接続計画対象範囲",
+        "API接続計画完了条件",
+        "API接続計画依存関係"
+      ],
+      "signal_candidates": [
+        "API接続計画を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000030_app_integration_roadmap.yml",
+      "id": "ROAD-000030",
+      "knowledge_type": "roadmap",
+      "name_ja": "アプリ連携ロードマップ",
+      "name_en": "App Integration Roadmap",
+      "category": "Roadmap",
+      "attribute": "App Integration",
+      "definition_ja": "複数アプリとKnowledge Libraryの連携を段階的に進める計画。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:アプリ連携",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "アプリ連携"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "アプリ連携ロードマップ進捗",
+        "アプリ連携ロードマップ対象範囲",
+        "アプリ連携ロードマップ完了条件",
+        "アプリ連携ロードマップ依存関係"
+      ],
+      "signal_candidates": [
+        "アプリ連携ロードマップを開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000031_generation_workflow_plan.yml",
+      "id": "ROAD-000031",
+      "knowledge_type": "roadmap",
+      "name_ja": "生成ワークフロー計画",
+      "name_en": "Generation Workflow Plan",
+      "category": "Roadmap",
+      "attribute": "Operations",
+      "definition_ja": "Builder・master_pack・YAML生成を安定運用する計画。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:運用",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "運用"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "生成ワークフロー計画進捗",
+        "生成ワークフロー計画対象範囲",
+        "生成ワークフロー計画完了条件",
+        "生成ワークフロー計画依存関係"
+      ],
+      "signal_candidates": [
+        "生成ワークフロー計画を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000032_audit_workflow_plan.yml",
+      "id": "ROAD-000032",
+      "knowledge_type": "roadmap",
+      "name_ja": "監査ワークフロー計画",
+      "name_en": "Audit Workflow Plan",
+      "category": "Roadmap",
+      "attribute": "Operations",
+      "definition_ja": "生成後に監査を実行し品質確認する運用計画。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:運用",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "運用"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "監査ワークフロー計画進捗",
+        "監査ワークフロー計画対象範囲",
+        "監査ワークフロー計画完了条件",
+        "監査ワークフロー計画依存関係"
+      ],
+      "signal_candidates": [
+        "監査ワークフロー計画を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000033_git_workflow_plan.yml",
+      "id": "ROAD-000033",
+      "knowledge_type": "roadmap",
+      "name_ja": "Git運用計画",
+      "name_en": "Git Workflow Plan",
+      "category": "Roadmap",
+      "attribute": "Operations",
+      "definition_ja": "変更をcommit・pushして履歴管理する運用計画。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:運用",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "運用"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "Git運用計画進捗",
+        "Git運用計画対象範囲",
+        "Git運用計画完了条件",
+        "Git運用計画依存関係"
+      ],
+      "signal_candidates": [
+        "Git運用計画を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000034_release_cycle_plan.yml",
+      "id": "ROAD-000034",
+      "knowledge_type": "roadmap",
+      "name_ja": "リリースサイクル計画",
+      "name_en": "Release Cycle Plan",
+      "category": "Roadmap",
+      "attribute": "Operations",
+      "definition_ja": "一定単位でKnowledge Libraryを更新・公開する計画。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:運用",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "運用"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "リリースサイクル計画進捗",
+        "リリースサイクル計画対象範囲",
+        "リリースサイクル計画完了条件",
+        "リリースサイクル計画依存関係"
+      ],
+      "signal_candidates": [
+        "リリースサイクル計画を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000035_backup_plan.yml",
+      "id": "ROAD-000035",
+      "knowledge_type": "roadmap",
+      "name_ja": "バックアップ計画",
+      "name_en": "Backup Plan",
+      "category": "Roadmap",
+      "attribute": "Operations",
+      "definition_ja": "データ消失を防ぐために保存・復元手段を確保する計画。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:運用",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "運用"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "バックアップ計画進捗",
+        "バックアップ計画対象範囲",
+        "バックアップ計画完了条件",
+        "バックアップ計画依存関係"
+      ],
+      "signal_candidates": [
+        "バックアップ計画を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000036_storage_management_plan.yml",
+      "id": "ROAD-000036",
+      "knowledge_type": "roadmap",
+      "name_ja": "保存容量管理計画",
+      "name_en": "Storage Management Plan",
+      "category": "Roadmap",
+      "attribute": "Operations",
+      "definition_ja": "容量を無駄に増やさず管理する運用計画。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:運用",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "運用"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "保存容量管理計画進捗",
+        "保存容量管理計画対象範囲",
+        "保存容量管理計画完了条件",
+        "保存容量管理計画依存関係"
+      ],
+      "signal_candidates": [
+        "保存容量管理計画を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000037_script_maintenance_plan.yml",
+      "id": "ROAD-000037",
+      "knowledge_type": "roadmap",
+      "name_ja": "スクリプト保守計画",
+      "name_en": "Script Maintenance Plan",
+      "category": "Roadmap",
+      "attribute": "Operations",
+      "definition_ja": "Builder・生成・監査スクリプトを保守する計画。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:運用",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "運用"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "スクリプト保守計画進捗",
+        "スクリプト保守計画対象範囲",
+        "スクリプト保守計画完了条件",
+        "スクリプト保守計画依存関係"
+      ],
+      "signal_candidates": [
+        "スクリプト保守計画を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000038_documentation_plan.yml",
+      "id": "ROAD-000038",
+      "knowledge_type": "roadmap",
+      "name_ja": "文書化計画",
+      "name_en": "Documentation Plan",
+      "category": "Roadmap",
+      "attribute": "Operations",
+      "definition_ja": "構造・手順・方針を文書として残す計画。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:運用",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "運用"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "文書化計画進捗",
+        "文書化計画対象範囲",
+        "文書化計画完了条件",
+        "文書化計画依存関係"
+      ],
+      "signal_candidates": [
+        "文書化計画を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000039_handoff_plan.yml",
+      "id": "ROAD-000039",
+      "knowledge_type": "roadmap",
+      "name_ja": "引継ぎ計画",
+      "name_en": "Handoff Plan",
+      "category": "Roadmap",
+      "attribute": "Operations",
+      "definition_ja": "チャットや作業環境をまたいで進捗を引き継ぐ計画。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:運用",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "運用"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "引継ぎ計画進捗",
+        "引継ぎ計画対象範囲",
+        "引継ぎ計画完了条件",
+        "引継ぎ計画依存関係"
+      ],
+      "signal_candidates": [
+        "引継ぎ計画を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000040_operation_roadmap_integration.yml",
+      "id": "ROAD-000040",
+      "knowledge_type": "roadmap",
+      "name_ja": "運用ロードマップ統合",
+      "name_en": "Operation Roadmap Integration",
+      "category": "Roadmap",
+      "attribute": "Operations",
+      "definition_ja": "生成・監査・Git・文書化を統合して進める運用方針。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:運用",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "運用"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "運用ロードマップ統合進捗",
+        "運用ロードマップ統合対象範囲",
+        "運用ロードマップ統合完了条件",
+        "運用ロードマップ統合依存関係"
+      ],
+      "signal_candidates": [
+        "運用ロードマップ統合を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000041_foundation_complete_milestone.yml",
+      "id": "ROAD-000041",
+      "knowledge_type": "roadmap",
+      "name_ja": "基盤完成マイルストーン",
+      "name_en": "Foundation Complete Milestone",
+      "category": "Roadmap",
+      "attribute": "Milestones",
+      "definition_ja": "基本設計・Builder・監査・主要Volが整った状態。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:マイルストーン",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "マイルストーン"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "基盤完成マイルストーン進捗",
+        "基盤完成マイルストーン対象範囲",
+        "基盤完成マイルストーン完了条件",
+        "基盤完成マイルストーン依存関係"
+      ],
+      "signal_candidates": [
+        "基盤完成マイルストーンを開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000042_one_thousand_items_milestone.yml",
+      "id": "ROAD-000042",
+      "knowledge_type": "roadmap",
+      "name_ja": "1000項目マイルストーン",
+      "name_en": "One Thousand Items Milestone",
+      "category": "Roadmap",
+      "attribute": "Milestones",
+      "definition_ja": "Knowledge Libraryが1000項目規模に到達した状態。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:マイルストーン",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "マイルストーン"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "1000項目マイルストーン進捗",
+        "1000項目マイルストーン対象範囲",
+        "1000項目マイルストーン完了条件",
+        "1000項目マイルストーン依存関係"
+      ],
+      "signal_candidates": [
+        "1000項目マイルストーンを開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000043_three_thousand_items_milestone.yml",
+      "id": "ROAD-000043",
+      "knowledge_type": "roadmap",
+      "name_ja": "3000項目マイルストーン",
+      "name_en": "Three Thousand Items Milestone",
+      "category": "Roadmap",
+      "attribute": "Milestones",
+      "definition_ja": "実用的な分析アプリに使える知識量へ到達した状態。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:マイルストーン",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "マイルストーン"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "3000項目マイルストーン進捗",
+        "3000項目マイルストーン対象範囲",
+        "3000項目マイルストーン完了条件",
+        "3000項目マイルストーン依存関係"
+      ],
+      "signal_candidates": [
+        "3000項目マイルストーンを開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000044_ten_thousand_items_milestone.yml",
+      "id": "ROAD-000044",
+      "knowledge_type": "roadmap",
+      "name_ja": "10000項目マイルストーン",
+      "name_en": "Ten Thousand Items Milestone",
+      "category": "Roadmap",
+      "attribute": "Milestones",
+      "definition_ja": "大規模Knowledge Libraryとして多用途に対応できる状態。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:マイルストーン",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "マイルストーン"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "10000項目マイルストーン進捗",
+        "10000項目マイルストーン対象範囲",
+        "10000項目マイルストーン完了条件",
+        "10000項目マイルストーン依存関係"
+      ],
+      "signal_candidates": [
+        "10000項目マイルストーンを開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000045_first_app_connection_milestone.yml",
+      "id": "ROAD-000045",
+      "knowledge_type": "roadmap",
+      "name_ja": "初回アプリ接続マイルストーン",
+      "name_en": "First App Connection Milestone",
+      "category": "Roadmap",
+      "attribute": "Milestones",
+      "definition_ja": "最初のアプリがKnowledge Libraryを参照できる状態。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:マイルストーン",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "マイルストーン"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "初回アプリ接続マイルストーン進捗",
+        "初回アプリ接続マイルストーン対象範囲",
+        "初回アプリ接続マイルストーン完了条件",
+        "初回アプリ接続マイルストーン依存関係"
+      ],
+      "signal_candidates": [
+        "初回アプリ接続マイルストーンを開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000046_signal_mapping_milestone.yml",
+      "id": "ROAD-000046",
+      "knowledge_type": "roadmap",
+      "name_ja": "シグナル対応付けマイルストーン",
+      "name_en": "Signal Mapping Milestone",
+      "category": "Roadmap",
+      "attribute": "Milestones",
+      "definition_ja": "観測シグナルと知識項目の対応付けが整った状態。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:マイルストーン",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "マイルストーン"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "シグナル対応付けマイルストーン進捗",
+        "シグナル対応付けマイルストーン対象範囲",
+        "シグナル対応付けマイルストーン完了条件",
+        "シグナル対応付けマイルストーン依存関係"
+      ],
+      "signal_candidates": [
+        "シグナル対応付けマイルストーンを開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000047_modifier_mapping_milestone.yml",
+      "id": "ROAD-000047",
+      "knowledge_type": "roadmap",
+      "name_ja": "補正対応付けマイルストーン",
+      "name_en": "Modifier Mapping Milestone",
+      "category": "Roadmap",
+      "attribute": "Milestones",
+      "definition_ja": "補正要因と推論材料の対応付けが整った状態。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:マイルストーン",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "マイルストーン"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "補正対応付けマイルストーン進捗",
+        "補正対応付けマイルストーン対象範囲",
+        "補正対応付けマイルストーン完了条件",
+        "補正対応付けマイルストーン依存関係"
+      ],
+      "signal_candidates": [
+        "補正対応付けマイルストーンを開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000048_display_mapping_milestone.yml",
+      "id": "ROAD-000048",
+      "knowledge_type": "roadmap",
+      "name_ja": "表示対応付けマイルストーン",
+      "name_en": "Display Mapping Milestone",
+      "category": "Roadmap",
+      "attribute": "Milestones",
+      "definition_ja": "表示設計と用途・安全性の対応付けが整った状態。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:マイルストーン",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "マイルストーン"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "表示対応付けマイルストーン進捗",
+        "表示対応付けマイルストーン対象範囲",
+        "表示対応付けマイルストーン完了条件",
+        "表示対応付けマイルストーン依存関係"
+      ],
+      "signal_candidates": [
+        "表示対応付けマイルストーンを開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000049_safety_review_milestone.yml",
+      "id": "ROAD-000049",
+      "knowledge_type": "roadmap",
+      "name_ja": "安全レビュー完了マイルストーン",
+      "name_en": "Safety Review Milestone",
+      "category": "Roadmap",
+      "attribute": "Milestones",
+      "definition_ja": "安全倫理・表示・補正がレビュー済みの状態。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:マイルストーン",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "マイルストーン"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "安全レビュー完了マイルストーン進捗",
+        "安全レビュー完了マイルストーン対象範囲",
+        "安全レビュー完了マイルストーン完了条件",
+        "安全レビュー完了マイルストーン依存関係"
+      ],
+      "signal_candidates": [
+        "安全レビュー完了マイルストーンを開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    },
+    {
+      "filename": "ROAD-000050_roadmap_integration.yml",
+      "id": "ROAD-000050",
+      "knowledge_type": "roadmap",
+      "name_ja": "ロードマップ統合",
+      "name_en": "Roadmap Integration",
+      "category": "Roadmap",
+      "attribute": "Milestones",
+      "definition_ja": "拡張・品質・アプリ連携・運用・マイルストーンを統合管理する枠組み。",
+      "tags": [
+        "CAT:ロードマップ",
+        "CAT:マイルストーン",
+        "ATTR:開発計画"
+      ],
+      "parent": [
+        "マイルストーン"
+      ],
+      "related": [
+        "ライブラリ管理",
+        "アプリ用途",
+        "監査"
+      ],
+      "observable_data": [
+        "ロードマップ統合進捗",
+        "ロードマップ統合対象範囲",
+        "ロードマップ統合完了条件",
+        "ロードマップ統合依存関係"
+      ],
+      "signal_candidates": [
+        "ロードマップ統合を開発計画として利用できる",
+        "Knowledge Libraryの拡張・品質・運用を管理する材料になる"
+      ],
+      "device_level": "DB管理用",
+      "modifiers": [
+        "優先度",
+        "進捗",
+        "依存関係",
+        "品質"
+      ],
+      "evidence": "プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用",
+      "status": "active"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+id: ROAD-000049
+knowledge_type: roadmap
+name_ja: 安全レビュー完了マイルストーン
+name_en: Safety Review Milestone
+category: Roadmap
+attribute: Milestones
+definition_ja: 安全倫理・表示・補正がレビュー済みの状態。
+tags:
+  - CAT:ロードマップ
+  - CAT:マイルストーン
+  - ATTR:開発計画
+parent:
+  - マイルストーン
+related:
+  - ライブラリ管理
+  - アプリ用途
+  - 監査
+observable_data:
+  - 安全レビュー完了マイルストーン進捗
+  - 安全レビュー完了マイルストーン対象範囲
+  - 安全レビュー完了マイルストーン完了条件
+  - 安全レビュー完了マイルストーン依存関係
+signal_candidates:
+  - 安全レビュー完了マイルストーンを開発計画として利用できる
+  - Knowledge Libraryの拡張・品質・運用を管理する材料になる
+device_level: DB管理用
+modifiers:
+  - 優先度
+  - 進捗
+  - 依存関係
+  - 品質
+evidence: プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用
+status: active

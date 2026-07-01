@@ -1,0 +1,33 @@
+id: ROAD-000020
+knowledge_type: roadmap
+name_ja: 品質ロードマップ統合
+name_en: Quality Roadmap Integration
+category: Roadmap
+attribute: Quality
+definition_ja: 定義・観測・根拠・安全性を統合して品質を高める方針。
+tags:
+  - CAT:ロードマップ
+  - CAT:品質
+  - ATTR:開発計画
+parent:
+  - 品質
+related:
+  - ライブラリ管理
+  - アプリ用途
+  - 監査
+observable_data:
+  - 品質ロードマップ統合進捗
+  - 品質ロードマップ統合対象範囲
+  - 品質ロードマップ統合完了条件
+  - 品質ロードマップ統合依存関係
+signal_candidates:
+  - 品質ロードマップ統合を開発計画として利用できる
+  - Knowledge Libraryの拡張・品質・運用を管理する材料になる
+device_level: DB管理用
+modifiers:
+  - 優先度
+  - 進捗
+  - 依存関係
+  - 品質
+evidence: プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用
+status: active

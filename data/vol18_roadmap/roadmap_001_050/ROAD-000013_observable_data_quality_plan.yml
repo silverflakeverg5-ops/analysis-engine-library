@@ -1,0 +1,33 @@
+id: ROAD-000013
+knowledge_type: roadmap
+name_ja: 観測データ品質計画
+name_en: Observable Data Quality Plan
+category: Roadmap
+attribute: Quality
+definition_ja: 観測可能データをアプリ実装に使いやすく整える計画。
+tags:
+  - CAT:ロードマップ
+  - CAT:品質
+  - ATTR:開発計画
+parent:
+  - 品質
+related:
+  - ライブラリ管理
+  - アプリ用途
+  - 監査
+observable_data:
+  - 観測データ品質計画進捗
+  - 観測データ品質計画対象範囲
+  - 観測データ品質計画完了条件
+  - 観測データ品質計画依存関係
+signal_candidates:
+  - 観測データ品質計画を開発計画として利用できる
+  - Knowledge Libraryの拡張・品質・運用を管理する材料になる
+device_level: DB管理用
+modifiers:
+  - 優先度
+  - 進捗
+  - 依存関係
+  - 品質
+evidence: プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用
+status: active

@@ -1,0 +1,33 @@
+id: ROAD-000050
+knowledge_type: roadmap
+name_ja: ロードマップ統合
+name_en: Roadmap Integration
+category: Roadmap
+attribute: Milestones
+definition_ja: 拡張・品質・アプリ連携・運用・マイルストーンを統合管理する枠組み。
+tags:
+  - CAT:ロードマップ
+  - CAT:マイルストーン
+  - ATTR:開発計画
+parent:
+  - マイルストーン
+related:
+  - ライブラリ管理
+  - アプリ用途
+  - 監査
+observable_data:
+  - ロードマップ統合進捗
+  - ロードマップ統合対象範囲
+  - ロードマップ統合完了条件
+  - ロードマップ統合依存関係
+signal_candidates:
+  - ロードマップ統合を開発計画として利用できる
+  - Knowledge Libraryの拡張・品質・運用を管理する材料になる
+device_level: DB管理用
+modifiers:
+  - 優先度
+  - 進捗
+  - 依存関係
+  - 品質
+evidence: プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用
+status: active

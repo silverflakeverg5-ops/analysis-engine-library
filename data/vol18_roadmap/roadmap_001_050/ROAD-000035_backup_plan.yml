@@ -1,0 +1,33 @@
+id: ROAD-000035
+knowledge_type: roadmap
+name_ja: バックアップ計画
+name_en: Backup Plan
+category: Roadmap
+attribute: Operations
+definition_ja: データ消失を防ぐために保存・復元手段を確保する計画。
+tags:
+  - CAT:ロードマップ
+  - CAT:運用
+  - ATTR:開発計画
+parent:
+  - 運用
+related:
+  - ライブラリ管理
+  - アプリ用途
+  - 監査
+observable_data:
+  - バックアップ計画進捗
+  - バックアップ計画対象範囲
+  - バックアップ計画完了条件
+  - バックアップ計画依存関係
+signal_candidates:
+  - バックアップ計画を開発計画として利用できる
+  - Knowledge Libraryの拡張・品質・運用を管理する材料になる
+device_level: DB管理用
+modifiers:
+  - 優先度
+  - 進捗
+  - 依存関係
+  - 品質
+evidence: プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用
+status: active

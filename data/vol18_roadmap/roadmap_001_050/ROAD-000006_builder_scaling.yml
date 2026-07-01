@@ -1,0 +1,33 @@
+id: ROAD-000006
+knowledge_type: roadmap
+name_ja: Builder拡張
+name_en: Builder Scaling
+category: Roadmap
+attribute: Expansion
+definition_ja: Builder方式で大量項目を生成・管理する開発方針。
+tags:
+  - CAT:ロードマップ
+  - CAT:拡張
+  - ATTR:開発計画
+parent:
+  - 拡張
+related:
+  - ライブラリ管理
+  - アプリ用途
+  - 監査
+observable_data:
+  - Builder拡張進捗
+  - Builder拡張対象範囲
+  - Builder拡張完了条件
+  - Builder拡張依存関係
+signal_candidates:
+  - Builder拡張を開発計画として利用できる
+  - Knowledge Libraryの拡張・品質・運用を管理する材料になる
+device_level: DB管理用
+modifiers:
+  - 優先度
+  - 進捗
+  - 依存関係
+  - 品質
+evidence: プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用
+status: active

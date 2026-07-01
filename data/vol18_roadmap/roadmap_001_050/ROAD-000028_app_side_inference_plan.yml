@@ -1,0 +1,33 @@
+id: ROAD-000028
+knowledge_type: roadmap
+name_ja: アプリ側推論計画
+name_en: App Side Inference Plan
+category: Roadmap
+attribute: App Integration
+definition_ja: 推論・スコアリング・表示を各アプリ側で実装する計画。
+tags:
+  - CAT:ロードマップ
+  - CAT:アプリ連携
+  - ATTR:開発計画
+parent:
+  - アプリ連携
+related:
+  - ライブラリ管理
+  - アプリ用途
+  - 監査
+observable_data:
+  - アプリ側推論計画進捗
+  - アプリ側推論計画対象範囲
+  - アプリ側推論計画完了条件
+  - アプリ側推論計画依存関係
+signal_candidates:
+  - アプリ側推論計画を開発計画として利用できる
+  - Knowledge Libraryの拡張・品質・運用を管理する材料になる
+device_level: DB管理用
+modifiers:
+  - 優先度
+  - 進捗
+  - 依存関係
+  - 品質
+evidence: プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用
+status: active

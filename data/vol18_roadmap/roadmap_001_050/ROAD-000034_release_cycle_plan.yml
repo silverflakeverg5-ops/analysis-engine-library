@@ -1,0 +1,33 @@
+id: ROAD-000034
+knowledge_type: roadmap
+name_ja: リリースサイクル計画
+name_en: Release Cycle Plan
+category: Roadmap
+attribute: Operations
+definition_ja: 一定単位でKnowledge Libraryを更新・公開する計画。
+tags:
+  - CAT:ロードマップ
+  - CAT:運用
+  - ATTR:開発計画
+parent:
+  - 運用
+related:
+  - ライブラリ管理
+  - アプリ用途
+  - 監査
+observable_data:
+  - リリースサイクル計画進捗
+  - リリースサイクル計画対象範囲
+  - リリースサイクル計画完了条件
+  - リリースサイクル計画依存関係
+signal_candidates:
+  - リリースサイクル計画を開発計画として利用できる
+  - Knowledge Libraryの拡張・品質・運用を管理する材料になる
+device_level: DB管理用
+modifiers:
+  - 優先度
+  - 進捗
+  - 依存関係
+  - 品質
+evidence: プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用
+status: active

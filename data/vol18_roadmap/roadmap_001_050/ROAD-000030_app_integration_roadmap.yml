@@ -1,0 +1,33 @@
+id: ROAD-000030
+knowledge_type: roadmap
+name_ja: アプリ連携ロードマップ
+name_en: App Integration Roadmap
+category: Roadmap
+attribute: App Integration
+definition_ja: 複数アプリとKnowledge Libraryの連携を段階的に進める計画。
+tags:
+  - CAT:ロードマップ
+  - CAT:アプリ連携
+  - ATTR:開発計画
+parent:
+  - アプリ連携
+related:
+  - ライブラリ管理
+  - アプリ用途
+  - 監査
+observable_data:
+  - アプリ連携ロードマップ進捗
+  - アプリ連携ロードマップ対象範囲
+  - アプリ連携ロードマップ完了条件
+  - アプリ連携ロードマップ依存関係
+signal_candidates:
+  - アプリ連携ロードマップを開発計画として利用できる
+  - Knowledge Libraryの拡張・品質・運用を管理する材料になる
+device_level: DB管理用
+modifiers:
+  - 優先度
+  - 進捗
+  - 依存関係
+  - 品質
+evidence: プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用
+status: active

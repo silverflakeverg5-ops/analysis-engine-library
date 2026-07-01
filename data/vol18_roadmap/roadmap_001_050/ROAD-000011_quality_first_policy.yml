@@ -1,0 +1,33 @@
+id: ROAD-000011
+knowledge_type: roadmap
+name_ja: 品質優先方針
+name_en: Quality First Policy
+category: Roadmap
+attribute: Quality
+definition_ja: 単純な項目数増加より分析精度に貢献する知識品質を優先する方針。
+tags:
+  - CAT:ロードマップ
+  - CAT:品質
+  - ATTR:開発計画
+parent:
+  - 品質
+related:
+  - ライブラリ管理
+  - アプリ用途
+  - 監査
+observable_data:
+  - 品質優先方針進捗
+  - 品質優先方針対象範囲
+  - 品質優先方針完了条件
+  - 品質優先方針依存関係
+signal_candidates:
+  - 品質優先方針を開発計画として利用できる
+  - Knowledge Libraryの拡張・品質・運用を管理する材料になる
+device_level: DB管理用
+modifiers:
+  - 優先度
+  - 進捗
+  - 依存関係
+  - 品質
+evidence: プロジェクト管理・ナレッジマネジメント・ソフトウェア開発運用で使用
+status: active

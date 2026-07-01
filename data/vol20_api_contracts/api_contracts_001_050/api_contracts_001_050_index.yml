@@ -1,0 +1,57 @@
+category: API Contract
+name_ja: API契約
+items:
+  - API-000001_knowledge_api_contract.yml
+  - API-000002_read_only_api_principle.yml
+  - API-000003_app_side_inference_contract.yml
+  - API-000004_knowledge_item_response.yml
+  - API-000005_knowledge_list_response.yml
+  - API-000006_search_query_contract.yml
+  - API-000007_filter_contract.yml
+  - API-000008_pagination_contract.yml
+  - API-000009_sort_contract.yml
+  - API-000010_api_contract_integration.yml
+  - API-000011_id_field_contract.yml
+  - API-000012_name_field_contract.yml
+  - API-000013_definition_field_contract.yml
+  - API-000014_category_field_contract.yml
+  - API-000015_attribute_field_contract.yml
+  - API-000016_tag_field_contract.yml
+  - API-000017_parent_field_contract.yml
+  - API-000018_related_field_contract.yml
+  - API-000019_status_field_contract.yml
+  - API-000020_field_contract_integration.yml
+  - API-000021_observable_data_access.yml
+  - API-000022_signal_candidate_access.yml
+  - API-000023_signal_by_app_use_case.yml
+  - API-000024_signal_by_knowledge_type.yml
+  - API-000025_signal_mapping_access.yml
+  - API-000026_baseline_signal_access.yml
+  - API-000027_state_change_signal_access.yml
+  - API-000028_safety_signal_access.yml
+  - API-000029_signal_metadata_access.yml
+  - API-000030_signal_access_integration.yml
+  - API-000031_modifier_access.yml
+  - API-000032_modifier_mapping_access.yml
+  - API-000033_display_design_access.yml
+  - API-000034_safe_expression_access.yml
+  - API-000035_explanation_template_access.yml
+  - API-000036_notification_design_access.yml
+  - API-000037_app_use_case_access.yml
+  - API-000038_safety_ethics_access.yml
+  - API-000039_evidence_source_access.yml
+  - API-000040_modifier_display_access_integration.yml
+  - API-000041_api_version_contract.yml
+  - API-000042_schema_version_response.yml
+  - API-000043_library_version_response.yml
+  - API-000044_deprecated_item_response.yml
+  - API-000045_error_response_contract.yml
+  - API-000046_rate_limit_contract.yml
+  - API-000047_cache_policy_contract.yml
+  - API-000048_backward_compatibility_contract.yml
+  - API-000049_api_audit_contract.yml
+  - API-000050_api_operations_integration.yml
+notes:
+  - API契約はDBとアプリの接続仕様として扱う
+  - Knowledge DB側では推論しない
+  - アプリ側で取得データを使って推論・表示・補正を行う

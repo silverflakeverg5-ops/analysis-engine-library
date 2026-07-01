@@ -1,0 +1,33 @@
+id: API-000042
+knowledge_type: api_contract
+name_ja: スキーマバージョン応答
+name_en: Schema Version Response
+category: API Contract
+attribute: Versioning Operations
+definition_ja: 現在のスキーマ版を返すレスポンス仕様。
+tags:
+  - CAT:API契約
+  - CAT:版管理運用
+  - ATTR:接続仕様
+parent:
+  - 版管理運用
+related:
+  - 対応ルール
+  - ライブラリ管理
+  - アプリ用途
+observable_data:
+  - スキーマバージョン応答入力仕様
+  - スキーマバージョン応答出力仕様
+  - スキーマバージョン応答適用範囲
+  - スキーマバージョン応答互換性条件
+signal_candidates:
+  - スキーマバージョン応答をAPI接続仕様として利用できる
+  - Knowledge DBとアプリを安全に接続する材料になる
+device_level: DB管理用
+modifiers:
+  - 互換性
+  - 安全性
+  - 用途
+  - 版管理
+evidence: API設計・ソフトウェア設計・データガバナンス・HCIで使用
+status: active

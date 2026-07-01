@@ -1,0 +1,33 @@
+id: DISPLAY-000068
+knowledge_type: display_design
+name_ja: フィードバック履歴表示
+name_en: Feedback History Display
+category: Display Design
+attribute: Feedback Loop
+definition_ja: 過去の修正や反応を確認できる表示設計。
+tags:
+  - CAT:表示設計
+  - CAT:フィードバックループ
+  - ATTR:表示方針
+parent:
+  - フィードバックループ
+related:
+  - アプリ用途
+  - 補正要因
+  - 安全設計
+observable_data:
+  - フィードバック履歴表示適用文脈
+  - フィードバック履歴表示対象結果
+  - フィードバック履歴表示安全性条件
+  - フィードバック履歴表示ユーザー反応
+signal_candidates:
+  - フィードバック履歴表示を表示方針として利用できる
+  - アプリ側で結果表示・説明・提案を調整する材料になる
+device_level: DB管理用
+modifiers:
+  - 用途
+  - 安全性
+  - 不確実性
+  - ユーザー状態
+evidence: UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用
+status: active

@@ -1,0 +1,33 @@
+id: DISPLAY-000086
+knowledge_type: display_design
+name_ja: プライバシー範囲表示
+name_en: Privacy Scope Display
+category: Display Design
+attribute: Data Transparency
+definition_ja: どの範囲の情報が扱われるかを示す表示設計。
+tags:
+  - CAT:表示設計
+  - CAT:データ透明性
+  - ATTR:表示方針
+parent:
+  - データ透明性
+related:
+  - アプリ用途
+  - 補正要因
+  - 安全設計
+observable_data:
+  - プライバシー範囲表示適用文脈
+  - プライバシー範囲表示対象結果
+  - プライバシー範囲表示安全性条件
+  - プライバシー範囲表示ユーザー反応
+signal_candidates:
+  - プライバシー範囲表示を表示方針として利用できる
+  - アプリ側で結果表示・説明・提案を調整する材料になる
+device_level: DB管理用
+modifiers:
+  - 用途
+  - 安全性
+  - 不確実性
+  - ユーザー状態
+evidence: UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用
+status: active

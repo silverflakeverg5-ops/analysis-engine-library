@@ -1,0 +1,33 @@
+id: DISPLAY-000056
+knowledge_type: display_design
+name_ja: 詳細モード表示
+name_en: Expert Mode Display
+category: Display Design
+attribute: Personalization
+definition_ja: より詳しい根拠やシグナルを確認できる表示設計。
+tags:
+  - CAT:表示設計
+  - CAT:個別化
+  - ATTR:表示方針
+parent:
+  - 個別化
+related:
+  - アプリ用途
+  - 補正要因
+  - 安全設計
+observable_data:
+  - 詳細モード表示適用文脈
+  - 詳細モード表示対象結果
+  - 詳細モード表示安全性条件
+  - 詳細モード表示ユーザー反応
+signal_candidates:
+  - 詳細モード表示を表示方針として利用できる
+  - アプリ側で結果表示・説明・提案を調整する材料になる
+device_level: DB管理用
+modifiers:
+  - 用途
+  - 安全性
+  - 不確実性
+  - ユーザー状態
+evidence: UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用
+status: active

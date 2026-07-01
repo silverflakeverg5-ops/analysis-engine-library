@@ -1,0 +1,33 @@
+id: DISPLAY-000094
+knowledge_type: display_design
+name_ja: 説明テンプレート
+name_en: Explanation Template
+category: Display Design
+attribute: Integration
+definition_ja: 使用シグナル・補正・根拠を説明するテンプレート。
+tags:
+  - CAT:表示設計
+  - CAT:統合
+  - ATTR:表示方針
+parent:
+  - 統合
+related:
+  - アプリ用途
+  - 補正要因
+  - 安全設計
+observable_data:
+  - 説明テンプレート適用文脈
+  - 説明テンプレート対象結果
+  - 説明テンプレート安全性条件
+  - 説明テンプレートユーザー反応
+signal_candidates:
+  - 説明テンプレートを表示方針として利用できる
+  - アプリ側で結果表示・説明・提案を調整する材料になる
+device_level: DB管理用
+modifiers:
+  - 用途
+  - 安全性
+  - 不確実性
+  - ユーザー状態
+evidence: UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用
+status: active

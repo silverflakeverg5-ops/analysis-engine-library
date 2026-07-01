@@ -1,0 +1,33 @@
+id: DISPLAY-000060
+knowledge_type: display_design
+name_ja: 個別化制御表示
+name_en: Personalization Control Display
+category: Display Design
+attribute: Personalization
+definition_ja: 個別化の有無や範囲をユーザーが確認・変更できる表示設計。
+tags:
+  - CAT:表示設計
+  - CAT:個別化
+  - ATTR:表示方針
+parent:
+  - 個別化
+related:
+  - アプリ用途
+  - 補正要因
+  - 安全設計
+observable_data:
+  - 個別化制御表示適用文脈
+  - 個別化制御表示対象結果
+  - 個別化制御表示安全性条件
+  - 個別化制御表示ユーザー反応
+signal_candidates:
+  - 個別化制御表示を表示方針として利用できる
+  - アプリ側で結果表示・説明・提案を調整する材料になる
+device_level: DB管理用
+modifiers:
+  - 用途
+  - 安全性
+  - 不確実性
+  - ユーザー状態
+evidence: UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用
+status: active

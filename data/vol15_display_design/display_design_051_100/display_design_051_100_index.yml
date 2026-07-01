@@ -1,0 +1,57 @@
+category: Display Design
+name_ja: 表示設計
+items:
+  - DISPLAY-000051_personalized_result_display.yml
+  - DISPLAY-000052_adaptive_detail_level.yml
+  - DISPLAY-000053_adaptive_tone_display.yml
+  - DISPLAY-000054_user_selected_display_mode.yml
+  - DISPLAY-000055_beginner_friendly_display.yml
+  - DISPLAY-000056_expert_mode_display.yml
+  - DISPLAY-000057_accessibility_display.yml
+  - DISPLAY-000058_low_cognitive_load_display.yml
+  - DISPLAY-000059_context_aware_copy.yml
+  - DISPLAY-000060_personalization_control_display.yml
+  - DISPLAY-000061_result_feedback_button.yml
+  - DISPLAY-000062_not_applicable_option.yml
+  - DISPLAY-000063_correction_input_display.yml
+  - DISPLAY-000064_preference_feedback_display.yml
+  - DISPLAY-000065_explanation_request_button.yml
+  - DISPLAY-000066_dismiss_reason_prompt.yml
+  - DISPLAY-000067_usefulness_rating.yml
+  - DISPLAY-000068_feedback_history_display.yml
+  - DISPLAY-000069_adaptive_learning_notice.yml
+  - DISPLAY-000070_feedback_loop_integration.yml
+  - DISPLAY-000071_gentle_notification.yml
+  - DISPLAY-000072_timely_notification.yml
+  - DISPLAY-000073_low_priority_notification.yml
+  - DISPLAY-000074_high_importance_notification.yml
+  - DISPLAY-000075_notification_frequency_control.yml
+  - DISPLAY-000076_notification_batching.yml
+  - DISPLAY-000077_snooze_option.yml
+  - DISPLAY-000078_notification_reason_display.yml
+  - DISPLAY-000079_context_sensitive_reminder.yml
+  - DISPLAY-000080_notification_safety_guard.yml
+  - DISPLAY-000081_data_used_display.yml
+  - DISPLAY-000082_data_not_used_display.yml
+  - DISPLAY-000083_data_recency_display.yml
+  - DISPLAY-000084_data_amount_display.yml
+  - DISPLAY-000085_data_quality_warning.yml
+  - DISPLAY-000086_privacy_scope_display.yml
+  - DISPLAY-000087_consent_status_display.yml
+  - DISPLAY-000088_delete_data_path_display.yml
+  - DISPLAY-000089_data_export_notice.yml
+  - DISPLAY-000090_transparency_integration.yml
+  - DISPLAY-000091_display_policy.yml
+  - DISPLAY-000092_result_card_template.yml
+  - DISPLAY-000093_safe_result_template.yml
+  - DISPLAY-000094_explanation_template.yml
+  - DISPLAY-000095_suggestion_template.yml
+  - DISPLAY-000096_uncertainty_template.yml
+  - DISPLAY-000097_user_control_template.yml
+  - DISPLAY-000098_multi_app_display_consistency.yml
+  - DISPLAY-000099_display_audit.yml
+  - DISPLAY-000100_display_design_integration.yml
+notes:
+  - 表示設計は推論結果ではなくアプリ側の表現材料として扱う
+  - Knowledge DB側ではスコアリングしない
+  - アプリ側で用途・安全性・文脈に応じて表示を調整する

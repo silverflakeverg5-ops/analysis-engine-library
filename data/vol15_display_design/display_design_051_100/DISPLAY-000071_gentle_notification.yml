@@ -1,0 +1,33 @@
+id: DISPLAY-000071
+knowledge_type: display_design
+name_ja: やさしい通知
+name_en: Gentle Notification
+category: Display Design
+attribute: Notification
+definition_ja: 負担感や圧迫感を抑えた通知表現。
+tags:
+  - CAT:表示設計
+  - CAT:通知
+  - ATTR:表示方針
+parent:
+  - 通知
+related:
+  - アプリ用途
+  - 補正要因
+  - 安全設計
+observable_data:
+  - やさしい通知適用文脈
+  - やさしい通知対象結果
+  - やさしい通知安全性条件
+  - やさしい通知ユーザー反応
+signal_candidates:
+  - やさしい通知を表示方針として利用できる
+  - アプリ側で結果表示・説明・提案を調整する材料になる
+device_level: DB管理用
+modifiers:
+  - 用途
+  - 安全性
+  - 不確実性
+  - ユーザー状態
+evidence: UXライティング・HCI・リスクコミュニケーション・行動支援設計で使用
+status: active

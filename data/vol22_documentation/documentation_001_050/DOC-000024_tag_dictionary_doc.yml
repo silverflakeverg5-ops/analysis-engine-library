@@ -1,0 +1,33 @@
+id: DOC-000024
+knowledge_type: documentation
+name_ja: タグ辞書文書
+name_en: Tag Dictionary Documentation
+category: Documentation
+attribute: Data Dictionary
+definition_ja: CAT・ATTRなどタグ体系を説明する文書。
+tags:
+  - CAT:文書化
+  - CAT:データ辞書
+  - ATTR:説明資料
+parent:
+  - データ辞書
+related:
+  - ライブラリ管理
+  - API契約
+  - 安全設計
+observable_data:
+  - タグ辞書文書対象範囲
+  - タグ辞書文書読者
+  - タグ辞書文書更新条件
+  - タグ辞書文書参照先
+signal_candidates:
+  - タグ辞書文書を説明資料として利用できる
+  - Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる
+device_level: DB管理用
+modifiers:
+  - 読者
+  - 更新頻度
+  - 安全性
+  - 保守性
+evidence: ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用
+status: active

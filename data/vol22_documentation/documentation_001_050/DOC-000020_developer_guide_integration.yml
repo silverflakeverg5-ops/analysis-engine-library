@@ -1,0 +1,33 @@
+id: DOC-000020
+knowledge_type: documentation
+name_ja: 開発者ガイド統合
+name_en: Developer Guide Integration
+category: Documentation
+attribute: Developer Guide
+definition_ja: 開発者向け手順を統合管理する枠組み。
+tags:
+  - CAT:文書化
+  - CAT:開発者ガイド
+  - ATTR:説明資料
+parent:
+  - 開発者ガイド
+related:
+  - ライブラリ管理
+  - API契約
+  - 安全設計
+observable_data:
+  - 開発者ガイド統合対象範囲
+  - 開発者ガイド統合読者
+  - 開発者ガイド統合更新条件
+  - 開発者ガイド統合参照先
+signal_candidates:
+  - 開発者ガイド統合を説明資料として利用できる
+  - Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる
+device_level: DB管理用
+modifiers:
+  - 読者
+  - 更新頻度
+  - 安全性
+  - 保守性
+evidence: ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用
+status: active

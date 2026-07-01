@@ -1,0 +1,33 @@
+id: DOC-000035
+knowledge_type: documentation
+name_ja: APIエラー文書
+name_en: API Error Documentation
+category: Documentation
+attribute: API
+definition_ja: エラーコード・原因・対処を説明する文書。
+tags:
+  - CAT:文書化
+  - CAT:API
+  - ATTR:説明資料
+parent:
+  - API
+related:
+  - ライブラリ管理
+  - API契約
+  - 安全設計
+observable_data:
+  - APIエラー文書対象範囲
+  - APIエラー文書読者
+  - APIエラー文書更新条件
+  - APIエラー文書参照先
+signal_candidates:
+  - APIエラー文書を説明資料として利用できる
+  - Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる
+device_level: DB管理用
+modifiers:
+  - 読者
+  - 更新頻度
+  - 安全性
+  - 保守性
+evidence: ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用
+status: active

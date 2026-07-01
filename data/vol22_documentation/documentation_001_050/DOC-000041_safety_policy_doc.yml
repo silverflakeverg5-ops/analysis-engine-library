@@ -1,0 +1,33 @@
+id: DOC-000041
+knowledge_type: documentation
+name_ja: 安全方針文書
+name_en: Safety Policy Documentation
+category: Documentation
+attribute: Safety
+definition_ja: 非診断・非断定・支援目的など安全方針を説明する文書。
+tags:
+  - CAT:文書化
+  - CAT:安全
+  - ATTR:説明資料
+parent:
+  - 安全
+related:
+  - ライブラリ管理
+  - API契約
+  - 安全設計
+observable_data:
+  - 安全方針文書対象範囲
+  - 安全方針文書読者
+  - 安全方針文書更新条件
+  - 安全方針文書参照先
+signal_candidates:
+  - 安全方針文書を説明資料として利用できる
+  - Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる
+device_level: DB管理用
+modifiers:
+  - 読者
+  - 更新頻度
+  - 安全性
+  - 保守性
+evidence: ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用
+status: active

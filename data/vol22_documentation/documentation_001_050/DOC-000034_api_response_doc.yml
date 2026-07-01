@@ -1,0 +1,33 @@
+id: DOC-000034
+knowledge_type: documentation
+name_ja: APIレスポンス文書
+name_en: API Response Documentation
+category: Documentation
+attribute: API
+definition_ja: API応答形式と各フィールドを説明する文書。
+tags:
+  - CAT:文書化
+  - CAT:API
+  - ATTR:説明資料
+parent:
+  - API
+related:
+  - ライブラリ管理
+  - API契約
+  - 安全設計
+observable_data:
+  - APIレスポンス文書対象範囲
+  - APIレスポンス文書読者
+  - APIレスポンス文書更新条件
+  - APIレスポンス文書参照先
+signal_candidates:
+  - APIレスポンス文書を説明資料として利用できる
+  - Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる
+device_level: DB管理用
+modifiers:
+  - 読者
+  - 更新頻度
+  - 安全性
+  - 保守性
+evidence: ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用
+status: active

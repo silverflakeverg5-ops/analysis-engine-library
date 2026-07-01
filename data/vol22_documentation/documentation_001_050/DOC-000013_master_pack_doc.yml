@@ -1,0 +1,33 @@
+id: DOC-000013
+knowledge_type: documentation
+name_ja: master_pack仕様文書
+name_en: Master Pack Documentation
+category: Documentation
+attribute: Developer Guide
+definition_ja: master_pack JSONの構造と使い方を説明する文書。
+tags:
+  - CAT:文書化
+  - CAT:開発者ガイド
+  - ATTR:説明資料
+parent:
+  - 開発者ガイド
+related:
+  - ライブラリ管理
+  - API契約
+  - 安全設計
+observable_data:
+  - master_pack仕様文書対象範囲
+  - master_pack仕様文書読者
+  - master_pack仕様文書更新条件
+  - master_pack仕様文書参照先
+signal_candidates:
+  - master_pack仕様文書を説明資料として利用できる
+  - Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる
+device_level: DB管理用
+modifiers:
+  - 読者
+  - 更新頻度
+  - 安全性
+  - 保守性
+evidence: ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用
+status: active

@@ -1,0 +1,33 @@
+id: DOC-000004
+knowledge_type: documentation
+name_ja: 作業手順文書
+name_en: Workflow Documentation
+category: Documentation
+attribute: Project
+definition_ja: Builder作成から生成・監査・Git反映までの手順を説明する文書。
+tags:
+  - CAT:文書化
+  - CAT:プロジェクト
+  - ATTR:説明資料
+parent:
+  - プロジェクト
+related:
+  - ライブラリ管理
+  - API契約
+  - 安全設計
+observable_data:
+  - 作業手順文書対象範囲
+  - 作業手順文書読者
+  - 作業手順文書更新条件
+  - 作業手順文書参照先
+signal_candidates:
+  - 作業手順文書を説明資料として利用できる
+  - Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる
+device_level: DB管理用
+modifiers:
+  - 読者
+  - 更新頻度
+  - 安全性
+  - 保守性
+evidence: ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用
+status: active

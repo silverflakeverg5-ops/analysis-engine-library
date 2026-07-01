@@ -1,0 +1,33 @@
+id: DOC-000012
+knowledge_type: documentation
+name_ja: Builder作成文書
+name_en: Builder Creation Documentation
+category: Documentation
+attribute: Developer Guide
+definition_ja: Builderスクリプトの作成・上書き・実行方法を説明する文書。
+tags:
+  - CAT:文書化
+  - CAT:開発者ガイド
+  - ATTR:説明資料
+parent:
+  - 開発者ガイド
+related:
+  - ライブラリ管理
+  - API契約
+  - 安全設計
+observable_data:
+  - Builder作成文書対象範囲
+  - Builder作成文書読者
+  - Builder作成文書更新条件
+  - Builder作成文書参照先
+signal_candidates:
+  - Builder作成文書を説明資料として利用できる
+  - Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる
+device_level: DB管理用
+modifiers:
+  - 読者
+  - 更新頻度
+  - 安全性
+  - 保守性
+evidence: ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用
+status: active

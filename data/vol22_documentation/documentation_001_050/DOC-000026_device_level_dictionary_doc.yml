@@ -1,0 +1,33 @@
+id: DOC-000026
+knowledge_type: documentation
+name_ja: device_level辞書文書
+name_en: Device Level Dictionary Documentation
+category: Documentation
+attribute: Data Dictionary
+definition_ja: 観測可能性やDB管理用の区分を説明する文書。
+tags:
+  - CAT:文書化
+  - CAT:データ辞書
+  - ATTR:説明資料
+parent:
+  - データ辞書
+related:
+  - ライブラリ管理
+  - API契約
+  - 安全設計
+observable_data:
+  - device_level辞書文書対象範囲
+  - device_level辞書文書読者
+  - device_level辞書文書更新条件
+  - device_level辞書文書参照先
+signal_candidates:
+  - device_level辞書文書を説明資料として利用できる
+  - Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる
+device_level: DB管理用
+modifiers:
+  - 読者
+  - 更新頻度
+  - 安全性
+  - 保守性
+evidence: ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用
+status: active

@@ -1,0 +1,33 @@
+id: DOC-000036
+knowledge_type: documentation
+name_ja: APIバージョン文書
+name_en: API Version Documentation
+category: Documentation
+attribute: API
+definition_ja: API版管理と互換性を説明する文書。
+tags:
+  - CAT:文書化
+  - CAT:API
+  - ATTR:説明資料
+parent:
+  - API
+related:
+  - ライブラリ管理
+  - API契約
+  - 安全設計
+observable_data:
+  - APIバージョン文書対象範囲
+  - APIバージョン文書読者
+  - APIバージョン文書更新条件
+  - APIバージョン文書参照先
+signal_candidates:
+  - APIバージョン文書を説明資料として利用できる
+  - Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる
+device_level: DB管理用
+modifiers:
+  - 読者
+  - 更新頻度
+  - 安全性
+  - 保守性
+evidence: ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用
+status: active

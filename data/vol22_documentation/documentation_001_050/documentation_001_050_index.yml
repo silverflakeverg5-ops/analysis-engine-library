@@ -1,0 +1,57 @@
+category: Documentation
+name_ja: 文書化
+items:
+  - DOC-000001_project_overview_doc.yml
+  - DOC-000002_architecture_doc.yml
+  - DOC-000003_folder_structure_doc.yml
+  - DOC-000004_workflow_doc.yml
+  - DOC-000005_handoff_doc.yml
+  - DOC-000006_progress_doc.yml
+  - DOC-000007_design_principle_doc.yml
+  - DOC-000008_scope_boundary_doc.yml
+  - DOC-000009_terminology_doc.yml
+  - DOC-000010_documentation_integration.yml
+  - DOC-000011_developer_setup_doc.yml
+  - DOC-000012_builder_creation_doc.yml
+  - DOC-000013_master_pack_doc.yml
+  - DOC-000014_yaml_generation_doc.yml
+  - DOC-000015_audit_command_doc.yml
+  - DOC-000016_git_command_doc.yml
+  - DOC-000017_error_recovery_doc.yml
+  - DOC-000018_overwrite_policy_doc.yml
+  - DOC-000019_command_sequence_doc.yml
+  - DOC-000020_developer_guide_integration.yml
+  - DOC-000021_field_dictionary_doc.yml
+  - DOC-000022_knowledge_type_dictionary_doc.yml
+  - DOC-000023_category_dictionary_doc.yml
+  - DOC-000024_tag_dictionary_doc.yml
+  - DOC-000025_status_dictionary_doc.yml
+  - DOC-000026_device_level_dictionary_doc.yml
+  - DOC-000027_observable_data_doc.yml
+  - DOC-000028_signal_candidates_doc.yml
+  - DOC-000029_modifiers_field_doc.yml
+  - DOC-000030_data_dictionary_integration.yml
+  - DOC-000031_api_overview_doc.yml
+  - DOC-000032_api_endpoint_doc.yml
+  - DOC-000033_api_request_doc.yml
+  - DOC-000034_api_response_doc.yml
+  - DOC-000035_api_error_doc.yml
+  - DOC-000036_api_version_doc.yml
+  - DOC-000037_api_safety_boundary_doc.yml
+  - DOC-000038_api_example_doc.yml
+  - DOC-000039_api_client_doc.yml
+  - DOC-000040_api_documentation_integration.yml
+  - DOC-000041_safety_policy_doc.yml
+  - DOC-000042_privacy_policy_doc.yml
+  - DOC-000043_fairness_policy_doc.yml
+  - DOC-000044_high_risk_boundary_doc.yml
+  - DOC-000045_minor_safety_doc.yml
+  - DOC-000046_display_safety_doc.yml
+  - DOC-000047_consent_doc.yml
+  - DOC-000048_audit_policy_doc.yml
+  - DOC-000049_incident_response_doc.yml
+  - DOC-000050_safety_documentation_integration.yml
+notes:
+  - 文書化は運用・引継ぎ・安全確認の材料として扱う
+  - Knowledge DB側では推論しない
+  - 開発者・アプリ実装者・管理者が参照できる形を目指す

@@ -1,0 +1,33 @@
+id: DOC-000019
+knowledge_type: documentation
+name_ja: コマンド順序文書
+name_en: Command Sequence Documentation
+category: Documentation
+attribute: Developer Guide
+definition_ja: 実行順序を間違えないための手順文書。
+tags:
+  - CAT:文書化
+  - CAT:開発者ガイド
+  - ATTR:説明資料
+parent:
+  - 開発者ガイド
+related:
+  - ライブラリ管理
+  - API契約
+  - 安全設計
+observable_data:
+  - コマンド順序文書対象範囲
+  - コマンド順序文書読者
+  - コマンド順序文書更新条件
+  - コマンド順序文書参照先
+signal_candidates:
+  - コマンド順序文書を説明資料として利用できる
+  - Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる
+device_level: DB管理用
+modifiers:
+  - 読者
+  - 更新頻度
+  - 安全性
+  - 保守性
+evidence: ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用
+status: active

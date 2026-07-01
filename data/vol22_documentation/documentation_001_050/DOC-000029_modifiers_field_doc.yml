@@ -1,0 +1,33 @@
+id: DOC-000029
+knowledge_type: documentation
+name_ja: modifiersフィールド文書
+name_en: Modifiers Field Documentation
+category: Documentation
+attribute: Data Dictionary
+definition_ja: 補正要因フィールドの意味と扱いを説明する文書。
+tags:
+  - CAT:文書化
+  - CAT:データ辞書
+  - ATTR:説明資料
+parent:
+  - データ辞書
+related:
+  - ライブラリ管理
+  - API契約
+  - 安全設計
+observable_data:
+  - modifiersフィールド文書対象範囲
+  - modifiersフィールド文書読者
+  - modifiersフィールド文書更新条件
+  - modifiersフィールド文書参照先
+signal_candidates:
+  - modifiersフィールド文書を説明資料として利用できる
+  - Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる
+device_level: DB管理用
+modifiers:
+  - 読者
+  - 更新頻度
+  - 安全性
+  - 保守性
+evidence: ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用
+status: active

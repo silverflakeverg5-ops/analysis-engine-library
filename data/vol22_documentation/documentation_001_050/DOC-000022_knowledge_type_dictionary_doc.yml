@@ -1,0 +1,33 @@
+id: DOC-000022
+knowledge_type: documentation
+name_ja: knowledge_type辞書文書
+name_en: Knowledge Type Dictionary Documentation
+category: Documentation
+attribute: Data Dictionary
+definition_ja: knowledge_typeの種類と使い分けを説明する文書。
+tags:
+  - CAT:文書化
+  - CAT:データ辞書
+  - ATTR:説明資料
+parent:
+  - データ辞書
+related:
+  - ライブラリ管理
+  - API契約
+  - 安全設計
+observable_data:
+  - knowledge_type辞書文書対象範囲
+  - knowledge_type辞書文書読者
+  - knowledge_type辞書文書更新条件
+  - knowledge_type辞書文書参照先
+signal_candidates:
+  - knowledge_type辞書文書を説明資料として利用できる
+  - Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる
+device_level: DB管理用
+modifiers:
+  - 読者
+  - 更新頻度
+  - 安全性
+  - 保守性
+evidence: ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用
+status: active

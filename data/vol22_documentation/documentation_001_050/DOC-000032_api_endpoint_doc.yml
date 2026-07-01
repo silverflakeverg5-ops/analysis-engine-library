@@ -1,0 +1,33 @@
+id: DOC-000032
+knowledge_type: documentation
+name_ja: APIエンドポイント文書
+name_en: API Endpoint Documentation
+category: Documentation
+attribute: API
+definition_ja: 検索・ID取得・一括出力などのエンドポイントを説明する文書。
+tags:
+  - CAT:文書化
+  - CAT:API
+  - ATTR:説明資料
+parent:
+  - API
+related:
+  - ライブラリ管理
+  - API契約
+  - 安全設計
+observable_data:
+  - APIエンドポイント文書対象範囲
+  - APIエンドポイント文書読者
+  - APIエンドポイント文書更新条件
+  - APIエンドポイント文書参照先
+signal_candidates:
+  - APIエンドポイント文書を説明資料として利用できる
+  - Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる
+device_level: DB管理用
+modifiers:
+  - 読者
+  - 更新頻度
+  - 安全性
+  - 保守性
+evidence: ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用
+status: active

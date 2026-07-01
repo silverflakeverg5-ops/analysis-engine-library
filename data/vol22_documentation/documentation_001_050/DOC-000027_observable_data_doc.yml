@@ -1,0 +1,33 @@
+id: DOC-000027
+knowledge_type: documentation
+name_ja: observable_data文書
+name_en: Observable Data Documentation
+category: Documentation
+attribute: Data Dictionary
+definition_ja: 観測可能データ候補の意味と使い方を説明する文書。
+tags:
+  - CAT:文書化
+  - CAT:データ辞書
+  - ATTR:説明資料
+parent:
+  - データ辞書
+related:
+  - ライブラリ管理
+  - API契約
+  - 安全設計
+observable_data:
+  - observable_data文書対象範囲
+  - observable_data文書読者
+  - observable_data文書更新条件
+  - observable_data文書参照先
+signal_candidates:
+  - observable_data文書を説明資料として利用できる
+  - Knowledge Libraryの保守・引継ぎ・安全運用を支える材料になる
+device_level: DB管理用
+modifiers:
+  - 読者
+  - 更新頻度
+  - 安全性
+  - 保守性
+evidence: ドキュメンテーション・ソフトウェア運用・ナレッジマネジメントで使用
+status: active

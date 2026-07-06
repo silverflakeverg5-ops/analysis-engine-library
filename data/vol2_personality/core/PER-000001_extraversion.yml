@@ -6,31 +6,31 @@ category: Personality
 attribute: Trait
 definition_ja: 社交性、活動性、刺激への反応性、外界への関心の強さに関する性格特性。
 tags:
-  - CAT:性格
-  - THEORY:BigFive
-  - THEORY:HEXACO
-  - ATTR:特性
+- CAT:性格
+- THEORY:BigFive
+- THEORY:HEXACO
+- ATTR:特性
 parent:
-  - 性格特性
+- 性格特性
 related:
-  - 社交性
-  - 活動性
-  - 刺激希求
-  - ポジティブ感情
+- 社交性
+- 活動性
+- 刺激希求
+- ポジティブ感情
 observable_data:
-  - 会話量
-  - 反応頻度
-  - 選択行動
-  - 交流行動
+- 会話量
+- 反応頻度
+- 選択行動
+- 交流行動
 signal_candidates:
-  - 他者との接点を選びやすい
-  - 外部刺激への反応が多い
-  - 活動量が高い
+- 他者との接点を選びやすい
+- 外部刺激への反応が多い
+- 活動量が高い
 device_level: スマホ・PCのみ推定可能
 modifiers:
-  - 文化
-  - 年齢
-  - 環境
-  - 状態
+- 文化
+- 年齢
+- 環境
+- 状態
 evidence: Big Five、HEXACOで主要因子
 status: active

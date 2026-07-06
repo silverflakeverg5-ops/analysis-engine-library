@@ -6,28 +6,28 @@ category: Habits Self Control
 attribute: Behavior
 definition_ja: 形成された行動習慣を長期的に継続する行動傾向。
 tags:
-  - CAT:習慣
-  - CAT:継続
-  - ATTR:行動パターン
+- CAT:習慣
+- CAT:継続
+- ATTR:行動パターン
 parent:
-  - 習慣
+- 習慣
 related:
-  - 継続力
-  - 自己規律
-  - 行動維持
+- 継続力
+- 自己規律
+- 行動維持
 observable_data:
-  - 継続率
-  - 中断率
-  - 再開率
-  - 長期実行回数
+- 継続率
+- 中断率
+- 再開率
+- 長期実行回数
 signal_candidates:
-  - 一定期間継続する
-  - 中断しても戻る
+- 一定期間継続する
+- 中断しても戻る
 device_level: スマホ・PCのみ推定可能
 modifiers:
-  - 疲労
-  - 報酬
-  - 環境変化
-  - ストレス
+- 疲労
+- 報酬
+- 環境変化
+- ストレス
 evidence: 行動科学・健康心理学で使用
 status: active

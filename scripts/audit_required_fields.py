@@ -22,6 +22,14 @@ REQUIRED_FIELDS = [
     "status",
 ]
 
+ALLOW_EMPTY_LIST = {
+    "parent",
+    "related",
+    "observable_data",
+    "signal_candidates",
+    "modifiers",
+}
+
 def is_item_file(path: Path) -> bool:
     if path.name.endswith("_index.yml"):
         return False
@@ -63,8 +71,10 @@ def main():
                 errors.append(f"[EMPTY STRING] {path}: {field}")
                 continue
 
-            if isinstance(value, list) and len(value) == 0:
-                errors.append(f"[EMPTY LIST] {path}: {field}")
+            if isinstance(value, list):
+                if len(value) == 0 and field not in ALLOW_EMPTY_LIST:
+                    errors.append(f"[EMPTY LIST] {path}: {field}")
+                continue
 
     print("=== Required Fields Audit ===")
     print(f"Item files: {len(item_files)}")

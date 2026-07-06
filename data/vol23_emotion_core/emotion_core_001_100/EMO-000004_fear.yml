@@ -1,0 +1,33 @@
+id: EMO-000004
+knowledge_type: emotion_core
+name_ja: 恐怖
+name_en: Fear
+category: Emotion Core
+attribute: Basic Emotions
+definition_ja: 危険・脅威・不確実な害に対して生じる回避的感情。
+tags:
+  - CAT:感情
+  - CAT:基本感情
+  - ATTR:感情要因
+parent:
+  - 基本感情
+related:
+  - 行動観測
+  - 感情調整
+  - 対人関係
+observable_data:
+  - 恐怖表現頻度
+  - 恐怖関連語使用
+  - 恐怖発生文脈
+  - 恐怖後の行動変化
+signal_candidates:
+  - 恐怖に関連する言語表現や行動変化が観測される
+  - 感情状態や感情反応傾向の推論材料になる
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 文脈
+  - 疲労
+  - 睡眠
+  - ストレス
+evidence: 感情心理学・社会心理学・認知科学・HCI研究で使用
+status: active

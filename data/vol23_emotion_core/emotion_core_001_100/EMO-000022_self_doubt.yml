@@ -1,0 +1,33 @@
+id: EMO-000022
+knowledge_type: emotion_core
+name_ja: 自己疑念
+name_en: Self Doubt
+category: Emotion Core
+attribute: Self Related Emotions
+definition_ja: 自分の能力・判断・価値に疑いを持つ感情状態。
+tags:
+  - CAT:感情
+  - CAT:自己関連感情
+  - ATTR:感情要因
+parent:
+  - 自己関連感情
+related:
+  - 行動観測
+  - 感情調整
+  - 対人関係
+observable_data:
+  - 自己疑念表現頻度
+  - 自己疑念関連語使用
+  - 自己疑念発生文脈
+  - 自己疑念後の行動変化
+signal_candidates:
+  - 自己疑念に関連する言語表現や行動変化が観測される
+  - 感情状態や感情反応傾向の推論材料になる
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 文脈
+  - 疲労
+  - 睡眠
+  - ストレス
+evidence: 感情心理学・社会心理学・認知科学・HCI研究で使用
+status: active

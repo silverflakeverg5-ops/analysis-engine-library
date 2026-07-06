@@ -1,0 +1,33 @@
+id: EMO-000100
+knowledge_type: emotion_core
+name_ja: 感情コア統合
+name_en: Emotion Core Integration
+category: Emotion Core
+attribute: Integration
+definition_ja: 感情の種類・強度・変化・調整・表現・行動連結を統合する枠組み。
+tags:
+  - CAT:感情
+  - CAT:統合
+  - ATTR:感情要因
+parent:
+  - 統合
+related:
+  - 行動観測
+  - 感情調整
+  - 対人関係
+observable_data:
+  - 感情コア統合表現頻度
+  - 感情コア統合関連語使用
+  - 感情コア統合発生文脈
+  - 感情コア統合後の行動変化
+signal_candidates:
+  - 感情コア統合に関連する言語表現や行動変化が観測される
+  - 感情状態や感情反応傾向の推論材料になる
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 文脈
+  - 疲労
+  - 睡眠
+  - ストレス
+evidence: 感情心理学・社会心理学・認知科学・HCI研究で使用
+status: active

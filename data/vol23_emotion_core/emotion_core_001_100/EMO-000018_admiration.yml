@@ -1,0 +1,33 @@
+id: EMO-000018
+knowledge_type: emotion_core
+name_ja: 憧れ
+name_en: Admiration
+category: Emotion Core
+attribute: Social Emotions
+definition_ja: 他者の能力・姿勢・成果に価値を感じる感情。
+tags:
+  - CAT:感情
+  - CAT:社会的感情
+  - ATTR:感情要因
+parent:
+  - 社会的感情
+related:
+  - 行動観測
+  - 感情調整
+  - 対人関係
+observable_data:
+  - 憧れ表現頻度
+  - 憧れ関連語使用
+  - 憧れ発生文脈
+  - 憧れ後の行動変化
+signal_candidates:
+  - 憧れに関連する言語表現や行動変化が観測される
+  - 感情状態や感情反応傾向の推論材料になる
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 文脈
+  - 疲労
+  - 睡眠
+  - ストレス
+evidence: 感情心理学・社会心理学・認知科学・HCI研究で使用
+status: active

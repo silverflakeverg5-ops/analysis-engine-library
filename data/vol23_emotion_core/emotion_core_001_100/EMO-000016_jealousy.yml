@@ -1,0 +1,33 @@
+id: EMO-000016
+knowledge_type: emotion_core
+name_ja: 嫉妬
+name_en: Jealousy
+category: Emotion Core
+attribute: Social Emotions
+definition_ja: 大切な関係や立場を他者に奪われる恐れから生じる感情。
+tags:
+  - CAT:感情
+  - CAT:社会的感情
+  - ATTR:感情要因
+parent:
+  - 社会的感情
+related:
+  - 行動観測
+  - 感情調整
+  - 対人関係
+observable_data:
+  - 嫉妬表現頻度
+  - 嫉妬関連語使用
+  - 嫉妬発生文脈
+  - 嫉妬後の行動変化
+signal_candidates:
+  - 嫉妬に関連する言語表現や行動変化が観測される
+  - 感情状態や感情反応傾向の推論材料になる
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 文脈
+  - 疲労
+  - 睡眠
+  - ストレス
+evidence: 感情心理学・社会心理学・認知科学・HCI研究で使用
+status: active

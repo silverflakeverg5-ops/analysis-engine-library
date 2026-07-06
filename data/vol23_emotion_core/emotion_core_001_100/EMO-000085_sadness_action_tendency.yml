@@ -1,0 +1,33 @@
+id: EMO-000085
+knowledge_type: emotion_core
+name_ja: 悲しみ行動傾向
+name_en: Sadness Action Tendency
+category: Emotion Core
+attribute: Emotion Behavior Link
+definition_ja: 悲しみによって撤退・支援要請・内省が起きやすくなる傾向。
+tags:
+  - CAT:感情
+  - CAT:感情行動連結
+  - ATTR:感情要因
+parent:
+  - 感情行動連結
+related:
+  - 行動観測
+  - 感情調整
+  - 対人関係
+observable_data:
+  - 悲しみ行動傾向表現頻度
+  - 悲しみ行動傾向関連語使用
+  - 悲しみ行動傾向発生文脈
+  - 悲しみ行動傾向後の行動変化
+signal_candidates:
+  - 悲しみ行動傾向に関連する言語表現や行動変化が観測される
+  - 感情状態や感情反応傾向の推論材料になる
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 文脈
+  - 疲労
+  - 睡眠
+  - ストレス
+evidence: 感情心理学・社会心理学・認知科学・HCI研究で使用
+status: active

@@ -1,0 +1,33 @@
+id: EMO-000031
+knowledge_type: emotion_core
+name_ja: ポジティブ価
+name_en: Positive Valence
+category: Emotion Core
+attribute: Arousal Valence
+definition_ja: 快・好ましさ・接近を伴う感情の方向性。
+tags:
+  - CAT:感情
+  - CAT:覚醒価
+  - ATTR:感情要因
+parent:
+  - 覚醒価
+related:
+  - 行動観測
+  - 感情調整
+  - 対人関係
+observable_data:
+  - ポジティブ価表現頻度
+  - ポジティブ価関連語使用
+  - ポジティブ価発生文脈
+  - ポジティブ価後の行動変化
+signal_candidates:
+  - ポジティブ価に関連する言語表現や行動変化が観測される
+  - 感情状態や感情反応傾向の推論材料になる
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 文脈
+  - 疲労
+  - 睡眠
+  - ストレス
+evidence: 感情心理学・社会心理学・認知科学・HCI研究で使用
+status: active

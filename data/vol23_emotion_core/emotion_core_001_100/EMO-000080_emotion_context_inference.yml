@@ -1,0 +1,33 @@
+id: EMO-000080
+knowledge_type: emotion_core
+name_ja: 感情文脈推論
+name_en: Emotion Context Inference
+category: Emotion Core
+attribute: Recognition
+definition_ja: 状況や背景から感情の意味を推測すること。
+tags:
+  - CAT:感情
+  - CAT:感情認識
+  - ATTR:感情要因
+parent:
+  - 感情認識
+related:
+  - 行動観測
+  - 感情調整
+  - 対人関係
+observable_data:
+  - 感情文脈推論表現頻度
+  - 感情文脈推論関連語使用
+  - 感情文脈推論発生文脈
+  - 感情文脈推論後の行動変化
+signal_candidates:
+  - 感情文脈推論に関連する言語表現や行動変化が観測される
+  - 感情状態や感情反応傾向の推論材料になる
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 文脈
+  - 疲労
+  - 睡眠
+  - ストレス
+evidence: 感情心理学・社会心理学・認知科学・HCI研究で使用
+status: active

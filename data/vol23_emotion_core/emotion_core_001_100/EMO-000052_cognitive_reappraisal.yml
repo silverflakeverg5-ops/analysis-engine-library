@@ -1,0 +1,33 @@
+id: EMO-000052
+knowledge_type: emotion_core
+name_ja: 認知的再評価
+name_en: Cognitive Reappraisal
+category: Emotion Core
+attribute: Emotion Regulation
+definition_ja: 状況の意味づけを変えて感情を調整する方略。
+tags:
+  - CAT:感情
+  - CAT:感情調整
+  - ATTR:感情要因
+parent:
+  - 感情調整
+related:
+  - 行動観測
+  - 感情調整
+  - 対人関係
+observable_data:
+  - 認知的再評価表現頻度
+  - 認知的再評価関連語使用
+  - 認知的再評価発生文脈
+  - 認知的再評価後の行動変化
+signal_candidates:
+  - 認知的再評価に関連する言語表現や行動変化が観測される
+  - 感情状態や感情反応傾向の推論材料になる
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 文脈
+  - 疲労
+  - 睡眠
+  - ストレス
+evidence: 感情心理学・社会心理学・認知科学・HCI研究で使用
+status: active

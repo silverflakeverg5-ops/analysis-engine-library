@@ -1,0 +1,33 @@
+id: EMO-000036
+knowledge_type: emotion_core
+name_ja: 快低覚醒
+name_en: Pleasant Low Arousal
+category: Emotion Core
+attribute: Arousal Valence
+definition_ja: 安心やリラックスのように快で穏やかな感情状態。
+tags:
+  - CAT:感情
+  - CAT:覚醒価
+  - ATTR:感情要因
+parent:
+  - 覚醒価
+related:
+  - 行動観測
+  - 感情調整
+  - 対人関係
+observable_data:
+  - 快低覚醒表現頻度
+  - 快低覚醒関連語使用
+  - 快低覚醒発生文脈
+  - 快低覚醒後の行動変化
+signal_candidates:
+  - 快低覚醒に関連する言語表現や行動変化が観測される
+  - 感情状態や感情反応傾向の推論材料になる
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 文脈
+  - 疲労
+  - 睡眠
+  - ストレス
+evidence: 感情心理学・社会心理学・認知科学・HCI研究で使用
+status: active

@@ -1,0 +1,33 @@
+id: EMO-000013
+knowledge_type: emotion_core
+name_ja: 気まずさ
+name_en: Embarrassment
+category: Emotion Core
+attribute: Social Emotions
+definition_ja: 社会的場面で失敗や不自然さを意識した時の感情。
+tags:
+  - CAT:感情
+  - CAT:社会的感情
+  - ATTR:感情要因
+parent:
+  - 社会的感情
+related:
+  - 行動観測
+  - 感情調整
+  - 対人関係
+observable_data:
+  - 気まずさ表現頻度
+  - 気まずさ関連語使用
+  - 気まずさ発生文脈
+  - 気まずさ後の行動変化
+signal_candidates:
+  - 気まずさに関連する言語表現や行動変化が観測される
+  - 感情状態や感情反応傾向の推論材料になる
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 文脈
+  - 疲労
+  - 睡眠
+  - ストレス
+evidence: 感情心理学・社会心理学・認知科学・HCI研究で使用
+status: active

@@ -1,0 +1,33 @@
+id: EMO-000009
+knowledge_type: emotion_core
+name_ja: 興味
+name_en: Interest
+category: Emotion Core
+attribute: Basic Emotions
+definition_ja: 新しい情報や対象に注意を向け探索したくなる感情。
+tags:
+  - CAT:感情
+  - CAT:基本感情
+  - ATTR:感情要因
+parent:
+  - 基本感情
+related:
+  - 行動観測
+  - 感情調整
+  - 対人関係
+observable_data:
+  - 興味表現頻度
+  - 興味関連語使用
+  - 興味発生文脈
+  - 興味後の行動変化
+signal_candidates:
+  - 興味に関連する言語表現や行動変化が観測される
+  - 感情状態や感情反応傾向の推論材料になる
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 文脈
+  - 疲労
+  - 睡眠
+  - ストレス
+evidence: 感情心理学・社会心理学・認知科学・HCI研究で使用
+status: active

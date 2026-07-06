@@ -1,0 +1,33 @@
+id: EMO-000045
+knowledge_type: emotion_core
+name_ja: 感情回復
+name_en: Emotional Recovery
+category: Emotion Core
+attribute: Emotion Dynamics
+definition_ja: 否定的感情から通常状態へ戻る過程。
+tags:
+  - CAT:感情
+  - CAT:感情変化
+  - ATTR:感情要因
+parent:
+  - 感情変化
+related:
+  - 行動観測
+  - 感情調整
+  - 対人関係
+observable_data:
+  - 感情回復表現頻度
+  - 感情回復関連語使用
+  - 感情回復発生文脈
+  - 感情回復後の行動変化
+signal_candidates:
+  - 感情回復に関連する言語表現や行動変化が観測される
+  - 感情状態や感情反応傾向の推論材料になる
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 文脈
+  - 疲労
+  - 睡眠
+  - ストレス
+evidence: 感情心理学・社会心理学・認知科学・HCI研究で使用
+status: active

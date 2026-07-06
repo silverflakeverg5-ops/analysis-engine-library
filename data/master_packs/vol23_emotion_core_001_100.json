@@ -1,0 +1,4207 @@
+{
+  "output_dir": "vol23_emotion_core/emotion_core_001_100",
+  "index_filename": "emotion_core_001_100_index.yml",
+  "index_content": "category: Emotion Core\nname_ja: 感情コア\nitems:\n  - EMO-000001_joy.yml\n  - EMO-000002_sadness.yml\n  - EMO-000003_anger.yml\n  - EMO-000004_fear.yml\n  - EMO-000005_surprise.yml\n  - EMO-000006_disgust.yml\n  - EMO-000007_trust.yml\n  - EMO-000008_anticipation.yml\n  - EMO-000009_interest.yml\n  - EMO-000010_calmness.yml\n  - EMO-000011_shame.yml\n  - EMO-000012_guilt.yml\n  - EMO-000013_embarrassment.yml\n  - EMO-000014_pride.yml\n  - EMO-000015_envy.yml\n  - EMO-000016_jealousy.yml\n  - EMO-000017_gratitude.yml\n  - EMO-000018_admiration.yml\n  - EMO-000019_contempt.yml\n  - EMO-000020_compassion.yml\n  - EMO-000021_self_confidence.yml\n  - EMO-000022_self_doubt.yml\n  - EMO-000023_regret.yml\n  - EMO-000024_relief.yml\n  - EMO-000025_hope.yml\n  - EMO-000026_hopelessness.yml\n  - EMO-000027_loneliness.yml\n  - EMO-000028_belonging.yml\n  - EMO-000029_insecurity.yml\n  - EMO-000030_self_acceptance.yml\n  - EMO-000031_positive_valence.yml\n  - EMO-000032_negative_valence.yml\n  - EMO-000033_high_arousal.yml\n  - EMO-000034_low_arousal.yml\n  - EMO-000035_pleasant_high_arousal.yml\n  - EMO-000036_pleasant_low_arousal.yml\n  - EMO-000037_unpleasant_high_arousal.yml\n  - EMO-000038_unpleasant_low_arousal.yml\n  - EMO-000039_emotional_intensity.yml\n  - EMO-000040_emotional_clarity.yml\n  - EMO-000041_emotional_duration.yml\n  - EMO-000042_emotional_volatility.yml\n  - EMO-000043_emotional_stability.yml\n  - EMO-000044_emotional_reactivity.yml\n  - EMO-000045_emotional_recovery.yml\n  - EMO-000046_emotional_inertia.yml\n  - EMO-000047_mood_shift.yml\n  - EMO-000048_trigger_sensitivity.yml\n  - EMO-000049_emotional_baseline.yml\n  - EMO-000050_emotional_deviation.yml\n  - EMO-000051_emotion_regulation.yml\n  - EMO-000052_cognitive_reappraisal.yml\n  - EMO-000053_expressive_suppression.yml\n  - EMO-000054_distraction_regulation.yml\n  - EMO-000055_problem_focused_coping.yml\n  - EMO-000056_emotion_focused_coping.yml\n  - EMO-000057_rumination.yml\n  - EMO-000058_emotional_avoidance.yml\n  - EMO-000059_acceptance_regulation.yml\n  - EMO-000060_self_soothing.yml\n  - EMO-000061_emotional_expression.yml\n  - EMO-000062_verbal_emotion_expression.yml\n  - EMO-000063_nonverbal_emotion_expression.yml\n  - EMO-000064_emotional_disclosure.yml\n  - EMO-000065_emotional_withholding.yml\n  - EMO-000066_emotional_masking.yml\n  - EMO-000067_emotional_amplification.yml\n  - EMO-000068_emotional_minimization.yml\n  - EMO-000069_emotion_word_use.yml\n  - EMO-000070_affective_tone.yml\n  - EMO-000071_emotion_recognition.yml\n  - EMO-000072_self_emotion_awareness.yml\n  - EMO-000073_other_emotion_recognition.yml\n  - EMO-000074_emotional_accuracy.yml\n  - EMO-000075_emotion_misattribution.yml\n  - EMO-000076_alexithymia_tendency.yml\n  - EMO-000077_emotional_granularity.yml\n  - EMO-000078_empathy_accuracy.yml\n  - EMO-000079_emotional_perspective_taking.yml\n  - EMO-000080_emotion_context_inference.yml\n  - EMO-000081_approach_emotion.yml\n  - EMO-000082_avoidance_emotion.yml\n  - EMO-000083_anger_action_tendency.yml\n  - EMO-000084_fear_action_tendency.yml\n  - EMO-000085_sadness_action_tendency.yml\n  - EMO-000086_joy_action_tendency.yml\n  - EMO-000087_anxiety_checking_behavior.yml\n  - EMO-000088_frustration_quit_behavior.yml\n  - EMO-000089_relief_continuation_behavior.yml\n  - EMO-000090_emotion_driven_choice.yml\n  - EMO-000091_emotion_profile.yml\n  - EMO-000092_emotion_pattern.yml\n  - EMO-000093_emotion_context_mapping.yml\n  - EMO-000094_emotion_signal_mapping.yml\n  - EMO-000095_emotion_modifier_integration.yml\n  - EMO-000096_emotion_display_safety.yml\n  - EMO-000097_emotion_app_use_case.yml\n  - EMO-000098_emotion_behavior_analysis.yml\n  - EMO-000099_emotion_knowledge_boundary.yml\n  - EMO-000100_emotion_core_integration.yml\nnotes:\n  - 感情コアは感情推定の材料として扱う\n  - Knowledge DB側では感情判定や診断を行わない\n  - アプリ側で観測シグナル・補正要因・表示設計と組み合わせて利用する\n",
+  "items": [
+    {
+      "filename": "EMO-000001_joy.yml",
+      "id": "EMO-000001",
+      "knowledge_type": "emotion_core",
+      "name_ja": "喜び",
+      "name_en": "Joy",
+      "category": "Emotion Core",
+      "attribute": "Basic Emotions",
+      "definition_ja": "望ましい出来事や達成によって生じる肯定的感情。",
+      "tags": [
+        "CAT:感情",
+        "CAT:基本感情",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "基本感情"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "喜び表現頻度",
+        "喜び関連語使用",
+        "喜び発生文脈",
+        "喜び後の行動変化"
+      ],
+      "signal_candidates": [
+        "喜びに関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000002_sadness.yml",
+      "id": "EMO-000002",
+      "knowledge_type": "emotion_core",
+      "name_ja": "悲しみ",
+      "name_en": "Sadness",
+      "category": "Emotion Core",
+      "attribute": "Basic Emotions",
+      "definition_ja": "喪失・失敗・期待外れによって生じる否定的感情。",
+      "tags": [
+        "CAT:感情",
+        "CAT:基本感情",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "基本感情"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "悲しみ表現頻度",
+        "悲しみ関連語使用",
+        "悲しみ発生文脈",
+        "悲しみ後の行動変化"
+      ],
+      "signal_candidates": [
+        "悲しみに関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000003_anger.yml",
+      "id": "EMO-000003",
+      "knowledge_type": "emotion_core",
+      "name_ja": "怒り",
+      "name_en": "Anger",
+      "category": "Emotion Core",
+      "attribute": "Basic Emotions",
+      "definition_ja": "妨害・不公平・侵害に対して生じる攻撃的または防衛的感情。",
+      "tags": [
+        "CAT:感情",
+        "CAT:基本感情",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "基本感情"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "怒り表現頻度",
+        "怒り関連語使用",
+        "怒り発生文脈",
+        "怒り後の行動変化"
+      ],
+      "signal_candidates": [
+        "怒りに関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000004_fear.yml",
+      "id": "EMO-000004",
+      "knowledge_type": "emotion_core",
+      "name_ja": "恐怖",
+      "name_en": "Fear",
+      "category": "Emotion Core",
+      "attribute": "Basic Emotions",
+      "definition_ja": "危険・脅威・不確実な害に対して生じる回避的感情。",
+      "tags": [
+        "CAT:感情",
+        "CAT:基本感情",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "基本感情"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "恐怖表現頻度",
+        "恐怖関連語使用",
+        "恐怖発生文脈",
+        "恐怖後の行動変化"
+      ],
+      "signal_candidates": [
+        "恐怖に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000005_surprise.yml",
+      "id": "EMO-000005",
+      "knowledge_type": "emotion_core",
+      "name_ja": "驚き",
+      "name_en": "Surprise",
+      "category": "Emotion Core",
+      "attribute": "Basic Emotions",
+      "definition_ja": "予想外の出来事に対して一時的に注意が向く感情反応。",
+      "tags": [
+        "CAT:感情",
+        "CAT:基本感情",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "基本感情"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "驚き表現頻度",
+        "驚き関連語使用",
+        "驚き発生文脈",
+        "驚き後の行動変化"
+      ],
+      "signal_candidates": [
+        "驚きに関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000006_disgust.yml",
+      "id": "EMO-000006",
+      "knowledge_type": "emotion_core",
+      "name_ja": "嫌悪",
+      "name_en": "Disgust",
+      "category": "Emotion Core",
+      "attribute": "Basic Emotions",
+      "definition_ja": "不快・汚染・拒否したい対象に対して生じる感情。",
+      "tags": [
+        "CAT:感情",
+        "CAT:基本感情",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "基本感情"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "嫌悪表現頻度",
+        "嫌悪関連語使用",
+        "嫌悪発生文脈",
+        "嫌悪後の行動変化"
+      ],
+      "signal_candidates": [
+        "嫌悪に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000007_trust.yml",
+      "id": "EMO-000007",
+      "knowledge_type": "emotion_core",
+      "name_ja": "信頼",
+      "name_en": "Trust",
+      "category": "Emotion Core",
+      "attribute": "Basic Emotions",
+      "definition_ja": "相手や状況が安全で期待可能だと感じる肯定的感情。",
+      "tags": [
+        "CAT:感情",
+        "CAT:基本感情",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "基本感情"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "信頼表現頻度",
+        "信頼関連語使用",
+        "信頼発生文脈",
+        "信頼後の行動変化"
+      ],
+      "signal_candidates": [
+        "信頼に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000008_anticipation.yml",
+      "id": "EMO-000008",
+      "knowledge_type": "emotion_core",
+      "name_ja": "期待",
+      "name_en": "Anticipation",
+      "category": "Emotion Core",
+      "attribute": "Basic Emotions",
+      "definition_ja": "未来の出来事や結果を予測して生じる感情。",
+      "tags": [
+        "CAT:感情",
+        "CAT:基本感情",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "基本感情"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "期待表現頻度",
+        "期待関連語使用",
+        "期待発生文脈",
+        "期待後の行動変化"
+      ],
+      "signal_candidates": [
+        "期待に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000009_interest.yml",
+      "id": "EMO-000009",
+      "knowledge_type": "emotion_core",
+      "name_ja": "興味",
+      "name_en": "Interest",
+      "category": "Emotion Core",
+      "attribute": "Basic Emotions",
+      "definition_ja": "新しい情報や対象に注意を向け探索したくなる感情。",
+      "tags": [
+        "CAT:感情",
+        "CAT:基本感情",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "基本感情"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "興味表現頻度",
+        "興味関連語使用",
+        "興味発生文脈",
+        "興味後の行動変化"
+      ],
+      "signal_candidates": [
+        "興味に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000010_calmness.yml",
+      "id": "EMO-000010",
+      "knowledge_type": "emotion_core",
+      "name_ja": "落ち着き",
+      "name_en": "Calmness",
+      "category": "Emotion Core",
+      "attribute": "Basic Emotions",
+      "definition_ja": "脅威や緊張が低く安定している感情状態。",
+      "tags": [
+        "CAT:感情",
+        "CAT:基本感情",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "基本感情"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "落ち着き表現頻度",
+        "落ち着き関連語使用",
+        "落ち着き発生文脈",
+        "落ち着き後の行動変化"
+      ],
+      "signal_candidates": [
+        "落ち着きに関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000011_shame.yml",
+      "id": "EMO-000011",
+      "knowledge_type": "emotion_core",
+      "name_ja": "恥",
+      "name_en": "Shame",
+      "category": "Emotion Core",
+      "attribute": "Social Emotions",
+      "definition_ja": "自己全体が否定的に評価されたと感じる社会的感情。",
+      "tags": [
+        "CAT:感情",
+        "CAT:社会的感情",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "社会的感情"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "恥表現頻度",
+        "恥関連語使用",
+        "恥発生文脈",
+        "恥後の行動変化"
+      ],
+      "signal_candidates": [
+        "恥に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000012_guilt.yml",
+      "id": "EMO-000012",
+      "knowledge_type": "emotion_core",
+      "name_ja": "罪悪感",
+      "name_en": "Guilt",
+      "category": "Emotion Core",
+      "attribute": "Social Emotions",
+      "definition_ja": "自分の行動が他者や規範に反したと感じる感情。",
+      "tags": [
+        "CAT:感情",
+        "CAT:社会的感情",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "社会的感情"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "罪悪感表現頻度",
+        "罪悪感関連語使用",
+        "罪悪感発生文脈",
+        "罪悪感後の行動変化"
+      ],
+      "signal_candidates": [
+        "罪悪感に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000013_embarrassment.yml",
+      "id": "EMO-000013",
+      "knowledge_type": "emotion_core",
+      "name_ja": "気まずさ",
+      "name_en": "Embarrassment",
+      "category": "Emotion Core",
+      "attribute": "Social Emotions",
+      "definition_ja": "社会的場面で失敗や不自然さを意識した時の感情。",
+      "tags": [
+        "CAT:感情",
+        "CAT:社会的感情",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "社会的感情"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "気まずさ表現頻度",
+        "気まずさ関連語使用",
+        "気まずさ発生文脈",
+        "気まずさ後の行動変化"
+      ],
+      "signal_candidates": [
+        "気まずさに関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000014_pride.yml",
+      "id": "EMO-000014",
+      "knowledge_type": "emotion_core",
+      "name_ja": "誇り",
+      "name_en": "Pride",
+      "category": "Emotion Core",
+      "attribute": "Social Emotions",
+      "definition_ja": "達成や評価によって自己価値が高まる感情。",
+      "tags": [
+        "CAT:感情",
+        "CAT:社会的感情",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "社会的感情"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "誇り表現頻度",
+        "誇り関連語使用",
+        "誇り発生文脈",
+        "誇り後の行動変化"
+      ],
+      "signal_candidates": [
+        "誇りに関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000015_envy.yml",
+      "id": "EMO-000015",
+      "knowledge_type": "emotion_core",
+      "name_ja": "羨望",
+      "name_en": "Envy",
+      "category": "Emotion Core",
+      "attribute": "Social Emotions",
+      "definition_ja": "他者が持つ望ましいものを自分も欲しいと感じる感情。",
+      "tags": [
+        "CAT:感情",
+        "CAT:社会的感情",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "社会的感情"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "羨望表現頻度",
+        "羨望関連語使用",
+        "羨望発生文脈",
+        "羨望後の行動変化"
+      ],
+      "signal_candidates": [
+        "羨望に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000016_jealousy.yml",
+      "id": "EMO-000016",
+      "knowledge_type": "emotion_core",
+      "name_ja": "嫉妬",
+      "name_en": "Jealousy",
+      "category": "Emotion Core",
+      "attribute": "Social Emotions",
+      "definition_ja": "大切な関係や立場を他者に奪われる恐れから生じる感情。",
+      "tags": [
+        "CAT:感情",
+        "CAT:社会的感情",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "社会的感情"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "嫉妬表現頻度",
+        "嫉妬関連語使用",
+        "嫉妬発生文脈",
+        "嫉妬後の行動変化"
+      ],
+      "signal_candidates": [
+        "嫉妬に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000017_gratitude.yml",
+      "id": "EMO-000017",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感謝",
+      "name_en": "Gratitude",
+      "category": "Emotion Core",
+      "attribute": "Social Emotions",
+      "definition_ja": "他者からの支援や好意を価値あるものとして感じる感情。",
+      "tags": [
+        "CAT:感情",
+        "CAT:社会的感情",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "社会的感情"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感謝表現頻度",
+        "感謝関連語使用",
+        "感謝発生文脈",
+        "感謝後の行動変化"
+      ],
+      "signal_candidates": [
+        "感謝に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000018_admiration.yml",
+      "id": "EMO-000018",
+      "knowledge_type": "emotion_core",
+      "name_ja": "憧れ",
+      "name_en": "Admiration",
+      "category": "Emotion Core",
+      "attribute": "Social Emotions",
+      "definition_ja": "他者の能力・姿勢・成果に価値を感じる感情。",
+      "tags": [
+        "CAT:感情",
+        "CAT:社会的感情",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "社会的感情"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "憧れ表現頻度",
+        "憧れ関連語使用",
+        "憧れ発生文脈",
+        "憧れ後の行動変化"
+      ],
+      "signal_candidates": [
+        "憧れに関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000019_contempt.yml",
+      "id": "EMO-000019",
+      "knowledge_type": "emotion_core",
+      "name_ja": "軽蔑",
+      "name_en": "Contempt",
+      "category": "Emotion Core",
+      "attribute": "Social Emotions",
+      "definition_ja": "相手を低く評価し距離を置こうとする社会的感情。",
+      "tags": [
+        "CAT:感情",
+        "CAT:社会的感情",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "社会的感情"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "軽蔑表現頻度",
+        "軽蔑関連語使用",
+        "軽蔑発生文脈",
+        "軽蔑後の行動変化"
+      ],
+      "signal_candidates": [
+        "軽蔑に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000020_compassion.yml",
+      "id": "EMO-000020",
+      "knowledge_type": "emotion_core",
+      "name_ja": "思いやり",
+      "name_en": "Compassion",
+      "category": "Emotion Core",
+      "attribute": "Social Emotions",
+      "definition_ja": "他者の苦痛を理解し助けたいと感じる感情。",
+      "tags": [
+        "CAT:感情",
+        "CAT:社会的感情",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "社会的感情"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "思いやり表現頻度",
+        "思いやり関連語使用",
+        "思いやり発生文脈",
+        "思いやり後の行動変化"
+      ],
+      "signal_candidates": [
+        "思いやりに関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000021_self_confidence.yml",
+      "id": "EMO-000021",
+      "knowledge_type": "emotion_core",
+      "name_ja": "自信",
+      "name_en": "Self Confidence",
+      "category": "Emotion Core",
+      "attribute": "Self Related Emotions",
+      "definition_ja": "自分の能力や判断に対して肯定的に感じる状態。",
+      "tags": [
+        "CAT:感情",
+        "CAT:自己関連感情",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "自己関連感情"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "自信表現頻度",
+        "自信関連語使用",
+        "自信発生文脈",
+        "自信後の行動変化"
+      ],
+      "signal_candidates": [
+        "自信に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000022_self_doubt.yml",
+      "id": "EMO-000022",
+      "knowledge_type": "emotion_core",
+      "name_ja": "自己疑念",
+      "name_en": "Self Doubt",
+      "category": "Emotion Core",
+      "attribute": "Self Related Emotions",
+      "definition_ja": "自分の能力・判断・価値に疑いを持つ感情状態。",
+      "tags": [
+        "CAT:感情",
+        "CAT:自己関連感情",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "自己関連感情"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "自己疑念表現頻度",
+        "自己疑念関連語使用",
+        "自己疑念発生文脈",
+        "自己疑念後の行動変化"
+      ],
+      "signal_candidates": [
+        "自己疑念に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000023_regret.yml",
+      "id": "EMO-000023",
+      "knowledge_type": "emotion_core",
+      "name_ja": "後悔",
+      "name_en": "Regret",
+      "category": "Emotion Core",
+      "attribute": "Self Related Emotions",
+      "definition_ja": "過去の選択や行動を別にすべきだったと感じる感情。",
+      "tags": [
+        "CAT:感情",
+        "CAT:自己関連感情",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "自己関連感情"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "後悔表現頻度",
+        "後悔関連語使用",
+        "後悔発生文脈",
+        "後悔後の行動変化"
+      ],
+      "signal_candidates": [
+        "後悔に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000024_relief.yml",
+      "id": "EMO-000024",
+      "knowledge_type": "emotion_core",
+      "name_ja": "安堵",
+      "name_en": "Relief",
+      "category": "Emotion Core",
+      "attribute": "Self Related Emotions",
+      "definition_ja": "脅威や不安が解消された時に生じる感情。",
+      "tags": [
+        "CAT:感情",
+        "CAT:自己関連感情",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "自己関連感情"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "安堵表現頻度",
+        "安堵関連語使用",
+        "安堵発生文脈",
+        "安堵後の行動変化"
+      ],
+      "signal_candidates": [
+        "安堵に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000025_hope.yml",
+      "id": "EMO-000025",
+      "knowledge_type": "emotion_core",
+      "name_ja": "希望",
+      "name_en": "Hope",
+      "category": "Emotion Core",
+      "attribute": "Self Related Emotions",
+      "definition_ja": "望ましい未来が実現する可能性を感じる感情。",
+      "tags": [
+        "CAT:感情",
+        "CAT:自己関連感情",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "自己関連感情"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "希望表現頻度",
+        "希望関連語使用",
+        "希望発生文脈",
+        "希望後の行動変化"
+      ],
+      "signal_candidates": [
+        "希望に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000026_hopelessness.yml",
+      "id": "EMO-000026",
+      "knowledge_type": "emotion_core",
+      "name_ja": "絶望感",
+      "name_en": "Hopelessness",
+      "category": "Emotion Core",
+      "attribute": "Self Related Emotions",
+      "definition_ja": "望ましい変化が起きないと感じる強い否定的状態。",
+      "tags": [
+        "CAT:感情",
+        "CAT:自己関連感情",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "自己関連感情"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "絶望感表現頻度",
+        "絶望感関連語使用",
+        "絶望感発生文脈",
+        "絶望感後の行動変化"
+      ],
+      "signal_candidates": [
+        "絶望感に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000027_loneliness.yml",
+      "id": "EMO-000027",
+      "knowledge_type": "emotion_core",
+      "name_ja": "孤独感",
+      "name_en": "Loneliness",
+      "category": "Emotion Core",
+      "attribute": "Self Related Emotions",
+      "definition_ja": "望むつながりが不足していると感じる感情。",
+      "tags": [
+        "CAT:感情",
+        "CAT:自己関連感情",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "自己関連感情"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "孤独感表現頻度",
+        "孤独感関連語使用",
+        "孤独感発生文脈",
+        "孤独感後の行動変化"
+      ],
+      "signal_candidates": [
+        "孤独感に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000028_belonging.yml",
+      "id": "EMO-000028",
+      "knowledge_type": "emotion_core",
+      "name_ja": "所属感",
+      "name_en": "Belonging",
+      "category": "Emotion Core",
+      "attribute": "Self Related Emotions",
+      "definition_ja": "集団や関係の中に受け入れられていると感じる感情。",
+      "tags": [
+        "CAT:感情",
+        "CAT:自己関連感情",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "自己関連感情"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "所属感表現頻度",
+        "所属感関連語使用",
+        "所属感発生文脈",
+        "所属感後の行動変化"
+      ],
+      "signal_candidates": [
+        "所属感に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000029_insecurity.yml",
+      "id": "EMO-000029",
+      "knowledge_type": "emotion_core",
+      "name_ja": "不安定感",
+      "name_en": "Insecurity",
+      "category": "Emotion Core",
+      "attribute": "Self Related Emotions",
+      "definition_ja": "自分や状況に確かさがなく安心できない感情状態。",
+      "tags": [
+        "CAT:感情",
+        "CAT:自己関連感情",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "自己関連感情"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "不安定感表現頻度",
+        "不安定感関連語使用",
+        "不安定感発生文脈",
+        "不安定感後の行動変化"
+      ],
+      "signal_candidates": [
+        "不安定感に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000030_self_acceptance.yml",
+      "id": "EMO-000030",
+      "knowledge_type": "emotion_core",
+      "name_ja": "自己受容",
+      "name_en": "Self Acceptance",
+      "category": "Emotion Core",
+      "attribute": "Self Related Emotions",
+      "definition_ja": "自分の特徴や状態を否定せず受け止める感情状態。",
+      "tags": [
+        "CAT:感情",
+        "CAT:自己関連感情",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "自己関連感情"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "自己受容表現頻度",
+        "自己受容関連語使用",
+        "自己受容発生文脈",
+        "自己受容後の行動変化"
+      ],
+      "signal_candidates": [
+        "自己受容に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000031_positive_valence.yml",
+      "id": "EMO-000031",
+      "knowledge_type": "emotion_core",
+      "name_ja": "ポジティブ価",
+      "name_en": "Positive Valence",
+      "category": "Emotion Core",
+      "attribute": "Arousal Valence",
+      "definition_ja": "快・好ましさ・接近を伴う感情の方向性。",
+      "tags": [
+        "CAT:感情",
+        "CAT:覚醒価",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "覚醒価"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "ポジティブ価表現頻度",
+        "ポジティブ価関連語使用",
+        "ポジティブ価発生文脈",
+        "ポジティブ価後の行動変化"
+      ],
+      "signal_candidates": [
+        "ポジティブ価に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000032_negative_valence.yml",
+      "id": "EMO-000032",
+      "knowledge_type": "emotion_core",
+      "name_ja": "ネガティブ価",
+      "name_en": "Negative Valence",
+      "category": "Emotion Core",
+      "attribute": "Arousal Valence",
+      "definition_ja": "不快・拒否・回避を伴う感情の方向性。",
+      "tags": [
+        "CAT:感情",
+        "CAT:覚醒価",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "覚醒価"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "ネガティブ価表現頻度",
+        "ネガティブ価関連語使用",
+        "ネガティブ価発生文脈",
+        "ネガティブ価後の行動変化"
+      ],
+      "signal_candidates": [
+        "ネガティブ価に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000033_high_arousal.yml",
+      "id": "EMO-000033",
+      "knowledge_type": "emotion_core",
+      "name_ja": "高覚醒感情",
+      "name_en": "High Arousal Emotion",
+      "category": "Emotion Core",
+      "attribute": "Arousal Valence",
+      "definition_ja": "興奮・緊張・怒りなど活動水準が高い感情状態。",
+      "tags": [
+        "CAT:感情",
+        "CAT:覚醒価",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "覚醒価"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "高覚醒感情表現頻度",
+        "高覚醒感情関連語使用",
+        "高覚醒感情発生文脈",
+        "高覚醒感情後の行動変化"
+      ],
+      "signal_candidates": [
+        "高覚醒感情に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000034_low_arousal.yml",
+      "id": "EMO-000034",
+      "knowledge_type": "emotion_core",
+      "name_ja": "低覚醒感情",
+      "name_en": "Low Arousal Emotion",
+      "category": "Emotion Core",
+      "attribute": "Arousal Valence",
+      "definition_ja": "落ち着き・退屈・疲労など活動水準が低い感情状態。",
+      "tags": [
+        "CAT:感情",
+        "CAT:覚醒価",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "覚醒価"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "低覚醒感情表現頻度",
+        "低覚醒感情関連語使用",
+        "低覚醒感情発生文脈",
+        "低覚醒感情後の行動変化"
+      ],
+      "signal_candidates": [
+        "低覚醒感情に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000035_pleasant_high_arousal.yml",
+      "id": "EMO-000035",
+      "knowledge_type": "emotion_core",
+      "name_ja": "快高覚醒",
+      "name_en": "Pleasant High Arousal",
+      "category": "Emotion Core",
+      "attribute": "Arousal Valence",
+      "definition_ja": "楽しい興奮や熱中のように快で活動的な感情状態。",
+      "tags": [
+        "CAT:感情",
+        "CAT:覚醒価",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "覚醒価"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "快高覚醒表現頻度",
+        "快高覚醒関連語使用",
+        "快高覚醒発生文脈",
+        "快高覚醒後の行動変化"
+      ],
+      "signal_candidates": [
+        "快高覚醒に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000036_pleasant_low_arousal.yml",
+      "id": "EMO-000036",
+      "knowledge_type": "emotion_core",
+      "name_ja": "快低覚醒",
+      "name_en": "Pleasant Low Arousal",
+      "category": "Emotion Core",
+      "attribute": "Arousal Valence",
+      "definition_ja": "安心やリラックスのように快で穏やかな感情状態。",
+      "tags": [
+        "CAT:感情",
+        "CAT:覚醒価",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "覚醒価"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "快低覚醒表現頻度",
+        "快低覚醒関連語使用",
+        "快低覚醒発生文脈",
+        "快低覚醒後の行動変化"
+      ],
+      "signal_candidates": [
+        "快低覚醒に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000037_unpleasant_high_arousal.yml",
+      "id": "EMO-000037",
+      "knowledge_type": "emotion_core",
+      "name_ja": "不快高覚醒",
+      "name_en": "Unpleasant High Arousal",
+      "category": "Emotion Core",
+      "attribute": "Arousal Valence",
+      "definition_ja": "怒りや恐怖のように不快で活動水準が高い感情状態。",
+      "tags": [
+        "CAT:感情",
+        "CAT:覚醒価",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "覚醒価"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "不快高覚醒表現頻度",
+        "不快高覚醒関連語使用",
+        "不快高覚醒発生文脈",
+        "不快高覚醒後の行動変化"
+      ],
+      "signal_candidates": [
+        "不快高覚醒に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000038_unpleasant_low_arousal.yml",
+      "id": "EMO-000038",
+      "knowledge_type": "emotion_core",
+      "name_ja": "不快低覚醒",
+      "name_en": "Unpleasant Low Arousal",
+      "category": "Emotion Core",
+      "attribute": "Arousal Valence",
+      "definition_ja": "落胆や無気力のように不快で活動水準が低い感情状態。",
+      "tags": [
+        "CAT:感情",
+        "CAT:覚醒価",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "覚醒価"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "不快低覚醒表現頻度",
+        "不快低覚醒関連語使用",
+        "不快低覚醒発生文脈",
+        "不快低覚醒後の行動変化"
+      ],
+      "signal_candidates": [
+        "不快低覚醒に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000039_emotional_intensity.yml",
+      "id": "EMO-000039",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情強度",
+      "name_en": "Emotional Intensity",
+      "category": "Emotion Core",
+      "attribute": "Arousal Valence",
+      "definition_ja": "感情がどれほど強く経験されているかを示す概念。",
+      "tags": [
+        "CAT:感情",
+        "CAT:覚醒価",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "覚醒価"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情強度表現頻度",
+        "感情強度関連語使用",
+        "感情強度発生文脈",
+        "感情強度後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情強度に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000040_emotional_clarity.yml",
+      "id": "EMO-000040",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情明瞭性",
+      "name_en": "Emotional Clarity",
+      "category": "Emotion Core",
+      "attribute": "Arousal Valence",
+      "definition_ja": "自分の感情をどの程度はっきり認識できているか。",
+      "tags": [
+        "CAT:感情",
+        "CAT:覚醒価",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "覚醒価"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情明瞭性表現頻度",
+        "感情明瞭性関連語使用",
+        "感情明瞭性発生文脈",
+        "感情明瞭性後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情明瞭性に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000041_emotional_duration.yml",
+      "id": "EMO-000041",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情持続",
+      "name_en": "Emotional Duration",
+      "category": "Emotion Core",
+      "attribute": "Emotion Dynamics",
+      "definition_ja": "感情がどの程度の時間続くかを示す概念。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情変化",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情変化"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情持続表現頻度",
+        "感情持続関連語使用",
+        "感情持続発生文脈",
+        "感情持続後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情持続に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000042_emotional_volatility.yml",
+      "id": "EMO-000042",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情変動性",
+      "name_en": "Emotional Volatility",
+      "category": "Emotion Core",
+      "attribute": "Emotion Dynamics",
+      "definition_ja": "感情が短時間で大きく変化する傾向。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情変化",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情変化"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情変動性表現頻度",
+        "感情変動性関連語使用",
+        "感情変動性発生文脈",
+        "感情変動性後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情変動性に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000043_emotional_stability.yml",
+      "id": "EMO-000043",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情安定性",
+      "name_en": "Emotional Stability",
+      "category": "Emotion Core",
+      "attribute": "Emotion Dynamics",
+      "definition_ja": "感情が過度に揺れず安定している傾向。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情変化",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情変化"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情安定性表現頻度",
+        "感情安定性関連語使用",
+        "感情安定性発生文脈",
+        "感情安定性後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情安定性に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000044_emotional_reactivity.yml",
+      "id": "EMO-000044",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情反応性",
+      "name_en": "Emotional Reactivity",
+      "category": "Emotion Core",
+      "attribute": "Emotion Dynamics",
+      "definition_ja": "刺激や出来事に対して感情が強く反応する傾向。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情変化",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情変化"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情反応性表現頻度",
+        "感情反応性関連語使用",
+        "感情反応性発生文脈",
+        "感情反応性後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情反応性に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000045_emotional_recovery.yml",
+      "id": "EMO-000045",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情回復",
+      "name_en": "Emotional Recovery",
+      "category": "Emotion Core",
+      "attribute": "Emotion Dynamics",
+      "definition_ja": "否定的感情から通常状態へ戻る過程。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情変化",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情変化"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情回復表現頻度",
+        "感情回復関連語使用",
+        "感情回復発生文脈",
+        "感情回復後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情回復に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000046_emotional_inertia.yml",
+      "id": "EMO-000046",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情慣性",
+      "name_en": "Emotional Inertia",
+      "category": "Emotion Core",
+      "attribute": "Emotion Dynamics",
+      "definition_ja": "一度生じた感情状態が変わりにくい傾向。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情変化",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情変化"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情慣性表現頻度",
+        "感情慣性関連語使用",
+        "感情慣性発生文脈",
+        "感情慣性後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情慣性に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000047_mood_shift.yml",
+      "id": "EMO-000047",
+      "knowledge_type": "emotion_core",
+      "name_ja": "気分転換",
+      "name_en": "Mood Shift",
+      "category": "Emotion Core",
+      "attribute": "Emotion Dynamics",
+      "definition_ja": "持続的な気分状態が別の状態へ移ること。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情変化",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情変化"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "気分転換表現頻度",
+        "気分転換関連語使用",
+        "気分転換発生文脈",
+        "気分転換後の行動変化"
+      ],
+      "signal_candidates": [
+        "気分転換に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000048_trigger_sensitivity.yml",
+      "id": "EMO-000048",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情トリガー感受性",
+      "name_en": "Trigger Sensitivity",
+      "category": "Emotion Core",
+      "attribute": "Emotion Dynamics",
+      "definition_ja": "特定の刺激や文脈で感情が生じやすい傾向。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情変化",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情変化"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情トリガー感受性表現頻度",
+        "感情トリガー感受性関連語使用",
+        "感情トリガー感受性発生文脈",
+        "感情トリガー感受性後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情トリガー感受性に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000049_emotional_baseline.yml",
+      "id": "EMO-000049",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情ベースライン",
+      "name_en": "Emotional Baseline",
+      "category": "Emotion Core",
+      "attribute": "Emotion Dynamics",
+      "definition_ja": "本人の通常時の感情傾向や平均的状態。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情変化",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情変化"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情ベースライン表現頻度",
+        "感情ベースライン関連語使用",
+        "感情ベースライン発生文脈",
+        "感情ベースライン後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情ベースラインに関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000050_emotional_deviation.yml",
+      "id": "EMO-000050",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情ベースライン乖離",
+      "name_en": "Emotional Deviation",
+      "category": "Emotion Core",
+      "attribute": "Emotion Dynamics",
+      "definition_ja": "現在の感情状態が通常傾向からどの程度外れているか。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情変化",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情変化"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情ベースライン乖離表現頻度",
+        "感情ベースライン乖離関連語使用",
+        "感情ベースライン乖離発生文脈",
+        "感情ベースライン乖離後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情ベースライン乖離に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000051_emotion_regulation.yml",
+      "id": "EMO-000051",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情調整",
+      "name_en": "Emotion Regulation",
+      "category": "Emotion Core",
+      "attribute": "Emotion Regulation",
+      "definition_ja": "感情の強さ・持続・表現を調整する過程。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情調整",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情調整"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情調整表現頻度",
+        "感情調整関連語使用",
+        "感情調整発生文脈",
+        "感情調整後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情調整に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000052_cognitive_reappraisal.yml",
+      "id": "EMO-000052",
+      "knowledge_type": "emotion_core",
+      "name_ja": "認知的再評価",
+      "name_en": "Cognitive Reappraisal",
+      "category": "Emotion Core",
+      "attribute": "Emotion Regulation",
+      "definition_ja": "状況の意味づけを変えて感情を調整する方略。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情調整",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情調整"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "認知的再評価表現頻度",
+        "認知的再評価関連語使用",
+        "認知的再評価発生文脈",
+        "認知的再評価後の行動変化"
+      ],
+      "signal_candidates": [
+        "認知的再評価に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000053_expressive_suppression.yml",
+      "id": "EMO-000053",
+      "knowledge_type": "emotion_core",
+      "name_ja": "表出抑制",
+      "name_en": "Expressive Suppression",
+      "category": "Emotion Core",
+      "attribute": "Emotion Regulation",
+      "definition_ja": "感情を外に出さないよう抑える方略。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情調整",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情調整"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "表出抑制表現頻度",
+        "表出抑制関連語使用",
+        "表出抑制発生文脈",
+        "表出抑制後の行動変化"
+      ],
+      "signal_candidates": [
+        "表出抑制に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000054_distraction_regulation.yml",
+      "id": "EMO-000054",
+      "knowledge_type": "emotion_core",
+      "name_ja": "注意そらし調整",
+      "name_en": "Distraction Regulation",
+      "category": "Emotion Core",
+      "attribute": "Emotion Regulation",
+      "definition_ja": "注意を別対象へ向けて感情を弱める方略。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情調整",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情調整"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "注意そらし調整表現頻度",
+        "注意そらし調整関連語使用",
+        "注意そらし調整発生文脈",
+        "注意そらし調整後の行動変化"
+      ],
+      "signal_candidates": [
+        "注意そらし調整に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000055_problem_focused_coping.yml",
+      "id": "EMO-000055",
+      "knowledge_type": "emotion_core",
+      "name_ja": "問題焦点型対処",
+      "name_en": "Problem Focused Coping",
+      "category": "Emotion Core",
+      "attribute": "Emotion Regulation",
+      "definition_ja": "感情の原因となる問題を解決して感情を調整する方略。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情調整",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情調整"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "問題焦点型対処表現頻度",
+        "問題焦点型対処関連語使用",
+        "問題焦点型対処発生文脈",
+        "問題焦点型対処後の行動変化"
+      ],
+      "signal_candidates": [
+        "問題焦点型対処に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000056_emotion_focused_coping.yml",
+      "id": "EMO-000056",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情焦点型対処",
+      "name_en": "Emotion Focused Coping",
+      "category": "Emotion Core",
+      "attribute": "Emotion Regulation",
+      "definition_ja": "感情そのものをなだめたり受け止めたりする対処方略。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情調整",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情調整"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情焦点型対処表現頻度",
+        "感情焦点型対処関連語使用",
+        "感情焦点型対処発生文脈",
+        "感情焦点型対処後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情焦点型対処に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000057_rumination.yml",
+      "id": "EMO-000057",
+      "knowledge_type": "emotion_core",
+      "name_ja": "反すう",
+      "name_en": "Rumination",
+      "category": "Emotion Core",
+      "attribute": "Emotion Regulation",
+      "definition_ja": "否定的出来事や感情について繰り返し考え続ける傾向。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情調整",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情調整"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "反すう表現頻度",
+        "反すう関連語使用",
+        "反すう発生文脈",
+        "反すう後の行動変化"
+      ],
+      "signal_candidates": [
+        "反すうに関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000058_emotional_avoidance.yml",
+      "id": "EMO-000058",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情回避",
+      "name_en": "Emotional Avoidance",
+      "category": "Emotion Core",
+      "attribute": "Emotion Regulation",
+      "definition_ja": "不快な感情や関連状況を避けようとする傾向。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情調整",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情調整"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情回避表現頻度",
+        "感情回避関連語使用",
+        "感情回避発生文脈",
+        "感情回避後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情回避に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000059_acceptance_regulation.yml",
+      "id": "EMO-000059",
+      "knowledge_type": "emotion_core",
+      "name_ja": "受容的調整",
+      "name_en": "Acceptance Regulation",
+      "category": "Emotion Core",
+      "attribute": "Emotion Regulation",
+      "definition_ja": "感情を否定せず受け止めて調整する方略。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情調整",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情調整"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "受容的調整表現頻度",
+        "受容的調整関連語使用",
+        "受容的調整発生文脈",
+        "受容的調整後の行動変化"
+      ],
+      "signal_candidates": [
+        "受容的調整に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000060_self_soothing.yml",
+      "id": "EMO-000060",
+      "knowledge_type": "emotion_core",
+      "name_ja": "自己鎮静",
+      "name_en": "Self Soothing",
+      "category": "Emotion Core",
+      "attribute": "Emotion Regulation",
+      "definition_ja": "自分を落ち着かせる行動や思考によって感情を調整すること。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情調整",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情調整"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "自己鎮静表現頻度",
+        "自己鎮静関連語使用",
+        "自己鎮静発生文脈",
+        "自己鎮静後の行動変化"
+      ],
+      "signal_candidates": [
+        "自己鎮静に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000061_emotional_expression.yml",
+      "id": "EMO-000061",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情表現",
+      "name_en": "Emotional Expression",
+      "category": "Emotion Core",
+      "attribute": "Expression",
+      "definition_ja": "表情・言葉・行動を通じて感情を外に示すこと。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情表現",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情表現"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情表現表現頻度",
+        "感情表現関連語使用",
+        "感情表現発生文脈",
+        "感情表現後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情表現に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000062_verbal_emotion_expression.yml",
+      "id": "EMO-000062",
+      "knowledge_type": "emotion_core",
+      "name_ja": "言語的感情表現",
+      "name_en": "Verbal Emotion Expression",
+      "category": "Emotion Core",
+      "attribute": "Expression",
+      "definition_ja": "言葉や文章で感情を表すこと。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情表現",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情表現"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "言語的感情表現表現頻度",
+        "言語的感情表現関連語使用",
+        "言語的感情表現発生文脈",
+        "言語的感情表現後の行動変化"
+      ],
+      "signal_candidates": [
+        "言語的感情表現に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000063_nonverbal_emotion_expression.yml",
+      "id": "EMO-000063",
+      "knowledge_type": "emotion_core",
+      "name_ja": "非言語的感情表現",
+      "name_en": "Nonverbal Emotion Expression",
+      "category": "Emotion Core",
+      "attribute": "Expression",
+      "definition_ja": "表情・姿勢・声色・動作で感情を表すこと。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情表現",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情表現"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "非言語的感情表現表現頻度",
+        "非言語的感情表現関連語使用",
+        "非言語的感情表現発生文脈",
+        "非言語的感情表現後の行動変化"
+      ],
+      "signal_candidates": [
+        "非言語的感情表現に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000064_emotional_disclosure.yml",
+      "id": "EMO-000064",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情開示",
+      "name_en": "Emotional Disclosure",
+      "category": "Emotion Core",
+      "attribute": "Expression",
+      "definition_ja": "自分の感情を他者に伝える行動。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情表現",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情表現"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情開示表現頻度",
+        "感情開示関連語使用",
+        "感情開示発生文脈",
+        "感情開示後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情開示に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000065_emotional_withholding.yml",
+      "id": "EMO-000065",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情保留",
+      "name_en": "Emotional Withholding",
+      "category": "Emotion Core",
+      "attribute": "Expression",
+      "definition_ja": "感情をあえて伝えず内側に留める行動。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情表現",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情表現"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情保留表現頻度",
+        "感情保留関連語使用",
+        "感情保留発生文脈",
+        "感情保留後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情保留に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000066_emotional_masking.yml",
+      "id": "EMO-000066",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情マスキング",
+      "name_en": "Emotional Masking",
+      "category": "Emotion Core",
+      "attribute": "Expression",
+      "definition_ja": "本来の感情と異なる表情や態度を示すこと。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情表現",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情表現"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情マスキング表現頻度",
+        "感情マスキング関連語使用",
+        "感情マスキング発生文脈",
+        "感情マスキング後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情マスキングに関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000067_emotional_amplification.yml",
+      "id": "EMO-000067",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情増幅表現",
+      "name_en": "Emotional Amplification",
+      "category": "Emotion Core",
+      "attribute": "Expression",
+      "definition_ja": "感情を実際より強く表現すること。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情表現",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情表現"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情増幅表現表現頻度",
+        "感情増幅表現関連語使用",
+        "感情増幅表現発生文脈",
+        "感情増幅表現後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情増幅表現に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000068_emotional_minimization.yml",
+      "id": "EMO-000068",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情縮小表現",
+      "name_en": "Emotional Minimization",
+      "category": "Emotion Core",
+      "attribute": "Expression",
+      "definition_ja": "感情を実際より弱く表現すること。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情表現",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情表現"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情縮小表現表現頻度",
+        "感情縮小表現関連語使用",
+        "感情縮小表現発生文脈",
+        "感情縮小表現後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情縮小表現に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000069_emotion_word_use.yml",
+      "id": "EMO-000069",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情語使用",
+      "name_en": "Emotion Word Use",
+      "category": "Emotion Core",
+      "attribute": "Expression",
+      "definition_ja": "喜び・不安・怒りなど感情語を使って状態を表すこと。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情表現",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情表現"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情語使用表現頻度",
+        "感情語使用関連語使用",
+        "感情語使用発生文脈",
+        "感情語使用後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情語使用に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000070_affective_tone.yml",
+      "id": "EMO-000070",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情トーン",
+      "name_en": "Affective Tone",
+      "category": "Emotion Core",
+      "attribute": "Expression",
+      "definition_ja": "文章・声・反応全体から伝わる感情的雰囲気。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情表現",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情表現"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情トーン表現頻度",
+        "感情トーン関連語使用",
+        "感情トーン発生文脈",
+        "感情トーン後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情トーンに関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000071_emotion_recognition.yml",
+      "id": "EMO-000071",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情認識",
+      "name_en": "Emotion Recognition",
+      "category": "Emotion Core",
+      "attribute": "Recognition",
+      "definition_ja": "自分や他者の感情を識別する能力や過程。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情認識",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情認識"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情認識表現頻度",
+        "感情認識関連語使用",
+        "感情認識発生文脈",
+        "感情認識後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情認識に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000072_self_emotion_awareness.yml",
+      "id": "EMO-000072",
+      "knowledge_type": "emotion_core",
+      "name_ja": "自己感情認識",
+      "name_en": "Self Emotion Awareness",
+      "category": "Emotion Core",
+      "attribute": "Recognition",
+      "definition_ja": "自分の感情状態に気づくこと。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情認識",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情認識"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "自己感情認識表現頻度",
+        "自己感情認識関連語使用",
+        "自己感情認識発生文脈",
+        "自己感情認識後の行動変化"
+      ],
+      "signal_candidates": [
+        "自己感情認識に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000073_other_emotion_recognition.yml",
+      "id": "EMO-000073",
+      "knowledge_type": "emotion_core",
+      "name_ja": "他者感情認識",
+      "name_en": "Other Emotion Recognition",
+      "category": "Emotion Core",
+      "attribute": "Recognition",
+      "definition_ja": "他者の表情・言葉・行動から感情を読み取ること。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情認識",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情認識"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "他者感情認識表現頻度",
+        "他者感情認識関連語使用",
+        "他者感情認識発生文脈",
+        "他者感情認識後の行動変化"
+      ],
+      "signal_candidates": [
+        "他者感情認識に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000074_emotional_accuracy.yml",
+      "id": "EMO-000074",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情認識精度",
+      "name_en": "Emotional Accuracy",
+      "category": "Emotion Core",
+      "attribute": "Recognition",
+      "definition_ja": "感情をどれほど正確に識別できるか。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情認識",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情認識"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情認識精度表現頻度",
+        "感情認識精度関連語使用",
+        "感情認識精度発生文脈",
+        "感情認識精度後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情認識精度に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000075_emotion_misattribution.yml",
+      "id": "EMO-000075",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情誤帰属",
+      "name_en": "Emotion Misattribution",
+      "category": "Emotion Core",
+      "attribute": "Recognition",
+      "definition_ja": "感情の原因や対象を誤って解釈すること。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情認識",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情認識"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情誤帰属表現頻度",
+        "感情誤帰属関連語使用",
+        "感情誤帰属発生文脈",
+        "感情誤帰属後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情誤帰属に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000076_alexithymia_tendency.yml",
+      "id": "EMO-000076",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情同定困難傾向",
+      "name_en": "Alexithymia Tendency",
+      "category": "Emotion Core",
+      "attribute": "Recognition",
+      "definition_ja": "自分の感情を言語化・識別しにくい傾向。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情認識",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情認識"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情同定困難傾向表現頻度",
+        "感情同定困難傾向関連語使用",
+        "感情同定困難傾向発生文脈",
+        "感情同定困難傾向後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情同定困難傾向に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000077_emotional_granularity.yml",
+      "id": "EMO-000077",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情粒度",
+      "name_en": "Emotional Granularity",
+      "category": "Emotion Core",
+      "attribute": "Recognition",
+      "definition_ja": "感情を細かく区別して認識できる度合い。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情認識",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情認識"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情粒度表現頻度",
+        "感情粒度関連語使用",
+        "感情粒度発生文脈",
+        "感情粒度後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情粒度に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000078_empathy_accuracy.yml",
+      "id": "EMO-000078",
+      "knowledge_type": "emotion_core",
+      "name_ja": "共感的正確性",
+      "name_en": "Empathic Accuracy",
+      "category": "Emotion Core",
+      "attribute": "Recognition",
+      "definition_ja": "他者の感情や意図を正確に推測する力。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情認識",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情認識"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "共感的正確性表現頻度",
+        "共感的正確性関連語使用",
+        "共感的正確性発生文脈",
+        "共感的正確性後の行動変化"
+      ],
+      "signal_candidates": [
+        "共感的正確性に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000079_emotional_perspective_taking.yml",
+      "id": "EMO-000079",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情的視点取得",
+      "name_en": "Emotional Perspective Taking",
+      "category": "Emotion Core",
+      "attribute": "Recognition",
+      "definition_ja": "相手の立場から感情を理解しようとする過程。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情認識",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情認識"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情的視点取得表現頻度",
+        "感情的視点取得関連語使用",
+        "感情的視点取得発生文脈",
+        "感情的視点取得後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情的視点取得に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000080_emotion_context_inference.yml",
+      "id": "EMO-000080",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情文脈推論",
+      "name_en": "Emotion Context Inference",
+      "category": "Emotion Core",
+      "attribute": "Recognition",
+      "definition_ja": "状況や背景から感情の意味を推測すること。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情認識",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情認識"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情文脈推論表現頻度",
+        "感情文脈推論関連語使用",
+        "感情文脈推論発生文脈",
+        "感情文脈推論後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情文脈推論に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000081_approach_emotion.yml",
+      "id": "EMO-000081",
+      "knowledge_type": "emotion_core",
+      "name_ja": "接近感情",
+      "name_en": "Approach Emotion",
+      "category": "Emotion Core",
+      "attribute": "Emotion Behavior Link",
+      "definition_ja": "対象に近づく・試す・関わる行動を促す感情。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情行動連結",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情行動連結"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "接近感情表現頻度",
+        "接近感情関連語使用",
+        "接近感情発生文脈",
+        "接近感情後の行動変化"
+      ],
+      "signal_candidates": [
+        "接近感情に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000082_avoidance_emotion.yml",
+      "id": "EMO-000082",
+      "knowledge_type": "emotion_core",
+      "name_ja": "回避感情",
+      "name_en": "Avoidance Emotion",
+      "category": "Emotion Core",
+      "attribute": "Emotion Behavior Link",
+      "definition_ja": "対象から離れる・避ける・中断する行動を促す感情。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情行動連結",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情行動連結"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "回避感情表現頻度",
+        "回避感情関連語使用",
+        "回避感情発生文脈",
+        "回避感情後の行動変化"
+      ],
+      "signal_candidates": [
+        "回避感情に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000083_anger_action_tendency.yml",
+      "id": "EMO-000083",
+      "knowledge_type": "emotion_core",
+      "name_ja": "怒り行動傾向",
+      "name_en": "Anger Action Tendency",
+      "category": "Emotion Core",
+      "attribute": "Emotion Behavior Link",
+      "definition_ja": "怒りによって抗議・攻撃・境界主張が起きやすくなる傾向。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情行動連結",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情行動連結"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "怒り行動傾向表現頻度",
+        "怒り行動傾向関連語使用",
+        "怒り行動傾向発生文脈",
+        "怒り行動傾向後の行動変化"
+      ],
+      "signal_candidates": [
+        "怒り行動傾向に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000084_fear_action_tendency.yml",
+      "id": "EMO-000084",
+      "knowledge_type": "emotion_core",
+      "name_ja": "恐怖行動傾向",
+      "name_en": "Fear Action Tendency",
+      "category": "Emotion Core",
+      "attribute": "Emotion Behavior Link",
+      "definition_ja": "恐怖によって逃避・停止・確認行動が起きやすくなる傾向。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情行動連結",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情行動連結"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "恐怖行動傾向表現頻度",
+        "恐怖行動傾向関連語使用",
+        "恐怖行動傾向発生文脈",
+        "恐怖行動傾向後の行動変化"
+      ],
+      "signal_candidates": [
+        "恐怖行動傾向に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000085_sadness_action_tendency.yml",
+      "id": "EMO-000085",
+      "knowledge_type": "emotion_core",
+      "name_ja": "悲しみ行動傾向",
+      "name_en": "Sadness Action Tendency",
+      "category": "Emotion Core",
+      "attribute": "Emotion Behavior Link",
+      "definition_ja": "悲しみによって撤退・支援要請・内省が起きやすくなる傾向。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情行動連結",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情行動連結"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "悲しみ行動傾向表現頻度",
+        "悲しみ行動傾向関連語使用",
+        "悲しみ行動傾向発生文脈",
+        "悲しみ行動傾向後の行動変化"
+      ],
+      "signal_candidates": [
+        "悲しみ行動傾向に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000086_joy_action_tendency.yml",
+      "id": "EMO-000086",
+      "knowledge_type": "emotion_core",
+      "name_ja": "喜び行動傾向",
+      "name_en": "Joy Action Tendency",
+      "category": "Emotion Core",
+      "attribute": "Emotion Behavior Link",
+      "definition_ja": "喜びによって共有・探索・継続行動が起きやすくなる傾向。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情行動連結",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情行動連結"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "喜び行動傾向表現頻度",
+        "喜び行動傾向関連語使用",
+        "喜び行動傾向発生文脈",
+        "喜び行動傾向後の行動変化"
+      ],
+      "signal_candidates": [
+        "喜び行動傾向に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000087_anxiety_checking_behavior.yml",
+      "id": "EMO-000087",
+      "knowledge_type": "emotion_core",
+      "name_ja": "不安確認行動",
+      "name_en": "Anxiety Checking Behavior",
+      "category": "Emotion Core",
+      "attribute": "Emotion Behavior Link",
+      "definition_ja": "不安によって確認・検索・再確認が増える行動傾向。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情行動連結",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情行動連結"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "不安確認行動表現頻度",
+        "不安確認行動関連語使用",
+        "不安確認行動発生文脈",
+        "不安確認行動後の行動変化"
+      ],
+      "signal_candidates": [
+        "不安確認行動に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000088_frustration_quit_behavior.yml",
+      "id": "EMO-000088",
+      "knowledge_type": "emotion_core",
+      "name_ja": "苛立ち離脱行動",
+      "name_en": "Frustration Quit Behavior",
+      "category": "Emotion Core",
+      "attribute": "Emotion Behavior Link",
+      "definition_ja": "苛立ちによって中断・離脱・攻撃的反応が起きやすくなる傾向。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情行動連結",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情行動連結"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "苛立ち離脱行動表現頻度",
+        "苛立ち離脱行動関連語使用",
+        "苛立ち離脱行動発生文脈",
+        "苛立ち離脱行動後の行動変化"
+      ],
+      "signal_candidates": [
+        "苛立ち離脱行動に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000089_relief_continuation_behavior.yml",
+      "id": "EMO-000089",
+      "knowledge_type": "emotion_core",
+      "name_ja": "安堵後継続行動",
+      "name_en": "Relief Continuation Behavior",
+      "category": "Emotion Core",
+      "attribute": "Emotion Behavior Link",
+      "definition_ja": "不安解消後に行動継続や再挑戦がしやすくなる傾向。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情行動連結",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情行動連結"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "安堵後継続行動表現頻度",
+        "安堵後継続行動関連語使用",
+        "安堵後継続行動発生文脈",
+        "安堵後継続行動後の行動変化"
+      ],
+      "signal_candidates": [
+        "安堵後継続行動に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000090_emotion_driven_choice.yml",
+      "id": "EMO-000090",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情駆動選択",
+      "name_en": "Emotion Driven Choice",
+      "category": "Emotion Core",
+      "attribute": "Emotion Behavior Link",
+      "definition_ja": "理性的比較より感情状態に強く影響された選択。",
+      "tags": [
+        "CAT:感情",
+        "CAT:感情行動連結",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "感情行動連結"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情駆動選択表現頻度",
+        "感情駆動選択関連語使用",
+        "感情駆動選択発生文脈",
+        "感情駆動選択後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情駆動選択に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000091_emotion_profile.yml",
+      "id": "EMO-000091",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情プロフィール",
+      "name_en": "Emotion Profile",
+      "category": "Emotion Core",
+      "attribute": "Integration",
+      "definition_ja": "個人の感情反応・表現・調整・回復傾向をまとめた枠組み。",
+      "tags": [
+        "CAT:感情",
+        "CAT:統合",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情プロフィール表現頻度",
+        "感情プロフィール関連語使用",
+        "感情プロフィール発生文脈",
+        "感情プロフィール後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情プロフィールに関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000092_emotion_pattern.yml",
+      "id": "EMO-000092",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情パターン",
+      "name_en": "Emotion Pattern",
+      "category": "Emotion Core",
+      "attribute": "Integration",
+      "definition_ja": "特定状況で繰り返し現れる感情反応の傾向。",
+      "tags": [
+        "CAT:感情",
+        "CAT:統合",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情パターン表現頻度",
+        "感情パターン関連語使用",
+        "感情パターン発生文脈",
+        "感情パターン後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情パターンに関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000093_emotion_context_mapping.yml",
+      "id": "EMO-000093",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情文脈対応",
+      "name_en": "Emotion Context Mapping",
+      "category": "Emotion Core",
+      "attribute": "Integration",
+      "definition_ja": "感情を状況・相手・課題・時間帯と結びつけて理解する枠組み。",
+      "tags": [
+        "CAT:感情",
+        "CAT:統合",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情文脈対応表現頻度",
+        "感情文脈対応関連語使用",
+        "感情文脈対応発生文脈",
+        "感情文脈対応後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情文脈対応に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000094_emotion_signal_mapping.yml",
+      "id": "EMO-000094",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情シグナル対応",
+      "name_en": "Emotion Signal Mapping",
+      "category": "Emotion Core",
+      "attribute": "Integration",
+      "definition_ja": "行動ログや言語表現を感情推定材料へ対応づける考え方。",
+      "tags": [
+        "CAT:感情",
+        "CAT:統合",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情シグナル対応表現頻度",
+        "感情シグナル対応関連語使用",
+        "感情シグナル対応発生文脈",
+        "感情シグナル対応後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情シグナル対応に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000095_emotion_modifier_integration.yml",
+      "id": "EMO-000095",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情補正統合",
+      "name_en": "Emotion Modifier Integration",
+      "category": "Emotion Core",
+      "attribute": "Integration",
+      "definition_ja": "疲労・睡眠・ストレス・環境を考慮して感情解釈を補正する枠組み。",
+      "tags": [
+        "CAT:感情",
+        "CAT:統合",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情補正統合表現頻度",
+        "感情補正統合関連語使用",
+        "感情補正統合発生文脈",
+        "感情補正統合後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情補正統合に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000096_emotion_display_safety.yml",
+      "id": "EMO-000096",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情表示安全",
+      "name_en": "Emotion Display Safety",
+      "category": "Emotion Core",
+      "attribute": "Integration",
+      "definition_ja": "感情推定を断定せず安全に表示する考え方。",
+      "tags": [
+        "CAT:感情",
+        "CAT:統合",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情表示安全表現頻度",
+        "感情表示安全関連語使用",
+        "感情表示安全発生文脈",
+        "感情表示安全後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情表示安全に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000097_emotion_app_use_case.yml",
+      "id": "EMO-000097",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情アプリ利用",
+      "name_en": "Emotion App Use Case",
+      "category": "Emotion Core",
+      "attribute": "Integration",
+      "definition_ja": "診断・ゲーム・秘書・教育などで感情知識を活用する枠組み。",
+      "tags": [
+        "CAT:感情",
+        "CAT:統合",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情アプリ利用表現頻度",
+        "感情アプリ利用関連語使用",
+        "感情アプリ利用発生文脈",
+        "感情アプリ利用後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情アプリ利用に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000098_emotion_behavior_analysis.yml",
+      "id": "EMO-000098",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情行動分析",
+      "name_en": "Emotion Behavior Analysis",
+      "category": "Emotion Core",
+      "attribute": "Integration",
+      "definition_ja": "感情と選択・継続・回避・対人行動の関係を分析する枠組み。",
+      "tags": [
+        "CAT:感情",
+        "CAT:統合",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情行動分析表現頻度",
+        "感情行動分析関連語使用",
+        "感情行動分析発生文脈",
+        "感情行動分析後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情行動分析に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000099_emotion_knowledge_boundary.yml",
+      "id": "EMO-000099",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情知識境界",
+      "name_en": "Emotion Knowledge Boundary",
+      "category": "Emotion Core",
+      "attribute": "Integration",
+      "definition_ja": "DBは感情推定を行わず、推論材料だけを提供する境界概念。",
+      "tags": [
+        "CAT:感情",
+        "CAT:統合",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情知識境界表現頻度",
+        "感情知識境界関連語使用",
+        "感情知識境界発生文脈",
+        "感情知識境界後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情知識境界に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    },
+    {
+      "filename": "EMO-000100_emotion_core_integration.yml",
+      "id": "EMO-000100",
+      "knowledge_type": "emotion_core",
+      "name_ja": "感情コア統合",
+      "name_en": "Emotion Core Integration",
+      "category": "Emotion Core",
+      "attribute": "Integration",
+      "definition_ja": "感情の種類・強度・変化・調整・表現・行動連結を統合する枠組み。",
+      "tags": [
+        "CAT:感情",
+        "CAT:統合",
+        "ATTR:感情要因"
+      ],
+      "parent": [
+        "統合"
+      ],
+      "related": [
+        "行動観測",
+        "感情調整",
+        "対人関係"
+      ],
+      "observable_data": [
+        "感情コア統合表現頻度",
+        "感情コア統合関連語使用",
+        "感情コア統合発生文脈",
+        "感情コア統合後の行動変化"
+      ],
+      "signal_candidates": [
+        "感情コア統合に関連する言語表現や行動変化が観測される",
+        "感情状態や感情反応傾向の推論材料になる"
+      ],
+      "device_level": "スマホ・PCで推定可能",
+      "modifiers": [
+        "文脈",
+        "疲労",
+        "睡眠",
+        "ストレス"
+      ],
+      "evidence": "感情心理学・社会心理学・認知科学・HCI研究で使用",
+      "status": "active"
+    }
+  ]
+}

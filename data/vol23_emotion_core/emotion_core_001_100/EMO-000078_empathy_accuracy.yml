@@ -1,0 +1,33 @@
+id: EMO-000078
+knowledge_type: emotion_core
+name_ja: 共感的正確性
+name_en: Empathic Accuracy
+category: Emotion Core
+attribute: Recognition
+definition_ja: 他者の感情や意図を正確に推測する力。
+tags:
+  - CAT:感情
+  - CAT:感情認識
+  - ATTR:感情要因
+parent:
+  - 感情認識
+related:
+  - 行動観測
+  - 感情調整
+  - 対人関係
+observable_data:
+  - 共感的正確性表現頻度
+  - 共感的正確性関連語使用
+  - 共感的正確性発生文脈
+  - 共感的正確性後の行動変化
+signal_candidates:
+  - 共感的正確性に関連する言語表現や行動変化が観測される
+  - 感情状態や感情反応傾向の推論材料になる
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 文脈
+  - 疲労
+  - 睡眠
+  - ストレス
+evidence: 感情心理学・社会心理学・認知科学・HCI研究で使用
+status: active

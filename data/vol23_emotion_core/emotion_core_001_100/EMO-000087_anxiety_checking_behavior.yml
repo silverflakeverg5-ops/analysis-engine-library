@@ -1,0 +1,33 @@
+id: EMO-000087
+knowledge_type: emotion_core
+name_ja: 不安確認行動
+name_en: Anxiety Checking Behavior
+category: Emotion Core
+attribute: Emotion Behavior Link
+definition_ja: 不安によって確認・検索・再確認が増える行動傾向。
+tags:
+  - CAT:感情
+  - CAT:感情行動連結
+  - ATTR:感情要因
+parent:
+  - 感情行動連結
+related:
+  - 行動観測
+  - 感情調整
+  - 対人関係
+observable_data:
+  - 不安確認行動表現頻度
+  - 不安確認行動関連語使用
+  - 不安確認行動発生文脈
+  - 不安確認行動後の行動変化
+signal_candidates:
+  - 不安確認行動に関連する言語表現や行動変化が観測される
+  - 感情状態や感情反応傾向の推論材料になる
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 文脈
+  - 疲労
+  - 睡眠
+  - ストレス
+evidence: 感情心理学・社会心理学・認知科学・HCI研究で使用
+status: active

@@ -1,0 +1,33 @@
+id: EMO-000050
+knowledge_type: emotion_core
+name_ja: 感情ベースライン乖離
+name_en: Emotional Deviation
+category: Emotion Core
+attribute: Emotion Dynamics
+definition_ja: 現在の感情状態が通常傾向からどの程度外れているか。
+tags:
+  - CAT:感情
+  - CAT:感情変化
+  - ATTR:感情要因
+parent:
+  - 感情変化
+related:
+  - 行動観測
+  - 感情調整
+  - 対人関係
+observable_data:
+  - 感情ベースライン乖離表現頻度
+  - 感情ベースライン乖離関連語使用
+  - 感情ベースライン乖離発生文脈
+  - 感情ベースライン乖離後の行動変化
+signal_candidates:
+  - 感情ベースライン乖離に関連する言語表現や行動変化が観測される
+  - 感情状態や感情反応傾向の推論材料になる
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 文脈
+  - 疲労
+  - 睡眠
+  - ストレス
+evidence: 感情心理学・社会心理学・認知科学・HCI研究で使用
+status: active

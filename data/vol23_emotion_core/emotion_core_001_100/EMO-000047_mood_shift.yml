@@ -1,0 +1,33 @@
+id: EMO-000047
+knowledge_type: emotion_core
+name_ja: 気分転換
+name_en: Mood Shift
+category: Emotion Core
+attribute: Emotion Dynamics
+definition_ja: 持続的な気分状態が別の状態へ移ること。
+tags:
+  - CAT:感情
+  - CAT:感情変化
+  - ATTR:感情要因
+parent:
+  - 感情変化
+related:
+  - 行動観測
+  - 感情調整
+  - 対人関係
+observable_data:
+  - 気分転換表現頻度
+  - 気分転換関連語使用
+  - 気分転換発生文脈
+  - 気分転換後の行動変化
+signal_candidates:
+  - 気分転換に関連する言語表現や行動変化が観測される
+  - 感情状態や感情反応傾向の推論材料になる
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 文脈
+  - 疲労
+  - 睡眠
+  - ストレス
+evidence: 感情心理学・社会心理学・認知科学・HCI研究で使用
+status: active

@@ -1,0 +1,33 @@
+id: EMO-000020
+knowledge_type: emotion_core
+name_ja: 思いやり
+name_en: Compassion
+category: Emotion Core
+attribute: Social Emotions
+definition_ja: 他者の苦痛を理解し助けたいと感じる感情。
+tags:
+  - CAT:感情
+  - CAT:社会的感情
+  - ATTR:感情要因
+parent:
+  - 社会的感情
+related:
+  - 行動観測
+  - 感情調整
+  - 対人関係
+observable_data:
+  - 思いやり表現頻度
+  - 思いやり関連語使用
+  - 思いやり発生文脈
+  - 思いやり後の行動変化
+signal_candidates:
+  - 思いやりに関連する言語表現や行動変化が観測される
+  - 感情状態や感情反応傾向の推論材料になる
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 文脈
+  - 疲労
+  - 睡眠
+  - ストレス
+evidence: 感情心理学・社会心理学・認知科学・HCI研究で使用
+status: active

@@ -1,0 +1,33 @@
+id: EMO-000027
+knowledge_type: emotion_core
+name_ja: 孤独感
+name_en: Loneliness
+category: Emotion Core
+attribute: Self Related Emotions
+definition_ja: 望むつながりが不足していると感じる感情。
+tags:
+  - CAT:感情
+  - CAT:自己関連感情
+  - ATTR:感情要因
+parent:
+  - 自己関連感情
+related:
+  - 行動観測
+  - 感情調整
+  - 対人関係
+observable_data:
+  - 孤独感表現頻度
+  - 孤独感関連語使用
+  - 孤独感発生文脈
+  - 孤独感後の行動変化
+signal_candidates:
+  - 孤独感に関連する言語表現や行動変化が観測される
+  - 感情状態や感情反応傾向の推論材料になる
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 文脈
+  - 疲労
+  - 睡眠
+  - ストレス
+evidence: 感情心理学・社会心理学・認知科学・HCI研究で使用
+status: active

@@ -1,0 +1,33 @@
+id: EMO-000051
+knowledge_type: emotion_core
+name_ja: 感情調整
+name_en: Emotion Regulation
+category: Emotion Core
+attribute: Emotion Regulation
+definition_ja: 感情の強さ・持続・表現を調整する過程。
+tags:
+  - CAT:感情
+  - CAT:感情調整
+  - ATTR:感情要因
+parent:
+  - 感情調整
+related:
+  - 行動観測
+  - 感情調整
+  - 対人関係
+observable_data:
+  - 感情調整表現頻度
+  - 感情調整関連語使用
+  - 感情調整発生文脈
+  - 感情調整後の行動変化
+signal_candidates:
+  - 感情調整に関連する言語表現や行動変化が観測される
+  - 感情状態や感情反応傾向の推論材料になる
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 文脈
+  - 疲労
+  - 睡眠
+  - ストレス
+evidence: 感情心理学・社会心理学・認知科学・HCI研究で使用
+status: active

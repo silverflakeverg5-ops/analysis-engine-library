@@ -1,0 +1,33 @@
+id: EMO-000094
+knowledge_type: emotion_core
+name_ja: 感情シグナル対応
+name_en: Emotion Signal Mapping
+category: Emotion Core
+attribute: Integration
+definition_ja: 行動ログや言語表現を感情推定材料へ対応づける考え方。
+tags:
+  - CAT:感情
+  - CAT:統合
+  - ATTR:感情要因
+parent:
+  - 統合
+related:
+  - 行動観測
+  - 感情調整
+  - 対人関係
+observable_data:
+  - 感情シグナル対応表現頻度
+  - 感情シグナル対応関連語使用
+  - 感情シグナル対応発生文脈
+  - 感情シグナル対応後の行動変化
+signal_candidates:
+  - 感情シグナル対応に関連する言語表現や行動変化が観測される
+  - 感情状態や感情反応傾向の推論材料になる
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 文脈
+  - 疲労
+  - 睡眠
+  - ストレス
+evidence: 感情心理学・社会心理学・認知科学・HCI研究で使用
+status: active

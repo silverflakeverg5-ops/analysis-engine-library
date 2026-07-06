@@ -1,0 +1,33 @@
+id: EMO-000003
+knowledge_type: emotion_core
+name_ja: 怒り
+name_en: Anger
+category: Emotion Core
+attribute: Basic Emotions
+definition_ja: 妨害・不公平・侵害に対して生じる攻撃的または防衛的感情。
+tags:
+  - CAT:感情
+  - CAT:基本感情
+  - ATTR:感情要因
+parent:
+  - 基本感情
+related:
+  - 行動観測
+  - 感情調整
+  - 対人関係
+observable_data:
+  - 怒り表現頻度
+  - 怒り関連語使用
+  - 怒り発生文脈
+  - 怒り後の行動変化
+signal_candidates:
+  - 怒りに関連する言語表現や行動変化が観測される
+  - 感情状態や感情反応傾向の推論材料になる
+device_level: スマホ・PCで推定可能
+modifiers:
+  - 文脈
+  - 疲労
+  - 睡眠
+  - ストレス
+evidence: 感情心理学・社会心理学・認知科学・HCI研究で使用
+status: active

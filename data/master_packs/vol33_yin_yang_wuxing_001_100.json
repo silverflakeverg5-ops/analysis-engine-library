@@ -1,0 +1,6307 @@
+{
+  "output_dir": "vol33_yin_yang_wuxing/yin_yang_wuxing_001_100",
+  "index_filename": "yin_yang_wuxing_001_100_index.yml",
+  "index_content": "category: Yin Yang and Five Phases\nname_ja: 陰陽五行\nitems:\n  - WUX-000001_yin.yml\n  - WUX-000002_yang.yml\n  - WUX-000003_polarity.yml\n  - WUX-000004_waxing_waning.yml\n  - WUX-000005_dynamic_balance.yml\n  - WUX-000006_correlative_cosmology.yml\n  - WUX-000007_five_phases.yml\n  - WUX-000008_qi_context.yml\n  - WUX-000009_seasonal_change.yml\n  - WUX-000010_school_context.yml\n  - WUX-000011_wood.yml\n  - WUX-000012_fire.yml\n  - WUX-000013_earth.yml\n  - WUX-000014_metal.yml\n  - WUX-000015_water.yml\n  - WUX-000016_wood_generates_fire.yml\n  - WUX-000017_fire_generates_earth.yml\n  - WUX-000018_earth_generates_metal.yml\n  - WUX-000019_metal_generates_water.yml\n  - WUX-000020_water_generates_wood.yml\n  - WUX-000021_wood_overcomes_earth.yml\n  - WUX-000022_earth_overcomes_water.yml\n  - WUX-000023_water_overcomes_fire.yml\n  - WUX-000024_fire_overcomes_metal.yml\n  - WUX-000025_metal_overcomes_wood.yml\n  - WUX-000026_yang_wood.yml\n  - WUX-000027_yin_wood.yml\n  - WUX-000028_yang_fire.yml\n  - WUX-000029_yin_fire.yml\n  - WUX-000030_yang_earth.yml\n  - WUX-000031_yin_earth.yml\n  - WUX-000032_yang_metal.yml\n  - WUX-000033_yin_metal.yml\n  - WUX-000034_yang_water.yml\n  - WUX-000035_yin_water.yml\n  - WUX-000036_jia.yml\n  - WUX-000037_yi.yml\n  - WUX-000038_bing.yml\n  - WUX-000039_ding.yml\n  - WUX-000040_wu.yml\n  - WUX-000041_ji.yml\n  - WUX-000042_geng.yml\n  - WUX-000043_xin.yml\n  - WUX-000044_ren.yml\n  - WUX-000045_gui.yml\n  - WUX-000046_zi.yml\n  - WUX-000047_chou.yml\n  - WUX-000048_yin.yml\n  - WUX-000049_mao.yml\n  - WUX-000050_chen.yml\n  - WUX-000051_si.yml\n  - WUX-000052_wu.yml\n  - WUX-000053_wei.yml\n  - WUX-000054_shen.yml\n  - WUX-000055_you.yml\n  - WUX-000056_xu.yml\n  - WUX-000057_hai.yml\n  - WUX-000058_six_harmonies.yml\n  - WUX-000059_three_harmonies.yml\n  - WUX-000060_six_clashes.yml\n  - WUX-000061_six_harms.yml\n  - WUX-000062_punishments.yml\n  - WUX-000063_destructions.yml\n  - WUX-000064_branch_combinations.yml\n  - WUX-000065_seasonal_frames.yml\n  - WUX-000066_hidden_stems.yml\n  - WUX-000067_branch_polarity.yml\n  - WUX-000068_branch_phase.yml\n  - WUX-000069_branch_time.yml\n  - WUX-000070_spring_phase.yml\n  - WUX-000071_summer_phase.yml\n  - WUX-000072_seasonal_earth.yml\n  - WUX-000073_autumn_phase.yml\n  - WUX-000074_winter_phase.yml\n  - WUX-000075_birth_stage.yml\n  - WUX-000076_growth_stage.yml\n  - WUX-000077_peak_stage.yml\n  - WUX-000078_decline_stage.yml\n  - WUX-000079_storage_stage.yml\n  - WUX-000080_directions.yml\n  - WUX-000081_colors.yml\n  - WUX-000082_tastes.yml\n  - WUX-000083_body_symbols.yml\n  - WUX-000084_emotion_symbols.yml\n  - WUX-000085_climates.yml\n  - WUX-000086_planets.yml\n  - WUX-000087_numbers.yml\n  - WUX-000088_sounds.yml\n  - WUX-000089_social_roles.yml\n  - WUX-000090_phase_not_substance.yml\n  - WUX-000091_relational_reading.yml\n  - WUX-000092_contextual_correspondence.yml\n  - WUX-000093_school_variation.yml\n  - WUX-000094_source_provenance.yml\n  - WUX-000095_translation_variation.yml\n  - WUX-000096_calendar_precision.yml\n  - WUX-000097_cross_cultural_boundary.yml\n  - WUX-000098_non_diagnostic_use.yml\n  - WUX-000099_no_medical_inference.yml\n  - WUX-000100_dynamic_synthesis.yml\nnotes:\n  - 伝統的・文化的解釈として扱い心理学的エビデンスと混同しない\n  - 計算方式・流派・入力精度・出典を結果とともに保持する\n  - 医療・雇用・教育・保険・信用・法執行など高影響判断には利用しない\n",
+  "items": [
+    {
+      "filename": "WUX-000001_yin.yml",
+      "id": "WUX-000001",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "陰",
+      "name_en": "Yin",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Foundations",
+      "definition_ja": "陰は、相対的な受容・収縮・内向の側面を表す分類を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、陰を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000002_yang.yml",
+      "id": "WUX-000002",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "陽",
+      "name_en": "Yang",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Foundations",
+      "definition_ja": "陽は、相対的な能動・拡張・外向の側面を表す分類を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、陽を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000003_polarity.yml",
+      "id": "WUX-000003",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "陰陽極性",
+      "name_en": "Yin-Yang Polarity",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Foundations",
+      "definition_ja": "陰陽極性は、陰陽を相互依存する対として扱うことを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、陰陽極性を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000004_waxing_waning.yml",
+      "id": "WUX-000004",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "消長",
+      "name_en": "Waxing and Waning",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Foundations",
+      "definition_ja": "消長は、陰陽が固定されず増減し転化する過程を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、消長を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000005_dynamic_balance.yml",
+      "id": "WUX-000005",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "動的均衡",
+      "name_en": "Dynamic Balance",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Foundations",
+      "definition_ja": "動的均衡は、均等ではなく状況に応じた釣り合いを扱うことを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、動的均衡を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000006_correlative_cosmology.yml",
+      "id": "WUX-000006",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "相関的宇宙論",
+      "name_en": "Correlative Cosmology",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Foundations",
+      "definition_ja": "相関的宇宙論は、異なる領域を分類上の対応関係で結ぶ伝統的枠組みを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、相関的宇宙論を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000007_five_phases.yml",
+      "id": "WUX-000007",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "五行",
+      "name_en": "Five Phases",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Foundations",
+      "definition_ja": "五行は、木火土金水を物質でなく変化の様式として扱う分類を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、五行を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000008_qi_context.yml",
+      "id": "WUX-000008",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "気の文脈",
+      "name_en": "Qi Context",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Foundations",
+      "definition_ja": "気の文脈は、変化と関係を説明する伝統的概念として気を位置づけることを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、気の文脈を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000009_seasonal_change.yml",
+      "id": "WUX-000009",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "季節変化",
+      "name_en": "Seasonal Change",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Foundations",
+      "definition_ja": "季節変化は、季節循環を陰陽五行の変化と対応づけることを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、季節変化を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000010_school_context.yml",
+      "id": "WUX-000010",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "学派文脈",
+      "name_en": "School Context",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Foundations",
+      "definition_ja": "学派文脈は、時代・地域・思想・占術ごとの差を明示することを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、学派文脈を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000011_wood.yml",
+      "id": "WUX-000011",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "木",
+      "name_en": "Wood",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Five Phases",
+      "definition_ja": "木は、五行の木に帰属する伝統的な運動・季節・方位などの対応を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:五行",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "五行"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、木を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000012_fire.yml",
+      "id": "WUX-000012",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "火",
+      "name_en": "Fire",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Five Phases",
+      "definition_ja": "火は、五行の火に帰属する伝統的な運動・季節・方位などの対応を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:五行",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "五行"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、火を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000013_earth.yml",
+      "id": "WUX-000013",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "土",
+      "name_en": "Earth",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Five Phases",
+      "definition_ja": "土は、五行の土に帰属する伝統的な運動・季節・方位などの対応を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:五行",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "五行"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、土を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000014_metal.yml",
+      "id": "WUX-000014",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "金",
+      "name_en": "Metal",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Five Phases",
+      "definition_ja": "金は、五行の金に帰属する伝統的な運動・季節・方位などの対応を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:五行",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "五行"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、金を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000015_water.yml",
+      "id": "WUX-000015",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "水",
+      "name_en": "Water",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Five Phases",
+      "definition_ja": "水は、五行の水に帰属する伝統的な運動・季節・方位などの対応を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:五行",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "五行"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、水を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000016_wood_generates_fire.yml",
+      "id": "WUX-000016",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "木生火",
+      "name_en": "Wood Generates Fire",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Generating Cycle",
+      "definition_ja": "木生火は、木生火という五行の生成関係を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:相生",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "相生"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、木生火を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000017_fire_generates_earth.yml",
+      "id": "WUX-000017",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "火生土",
+      "name_en": "Fire Generates Earth",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Generating Cycle",
+      "definition_ja": "火生土は、火生土という五行の生成関係を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:相生",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "相生"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、火生土を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000018_earth_generates_metal.yml",
+      "id": "WUX-000018",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "土生金",
+      "name_en": "Earth Generates Metal",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Generating Cycle",
+      "definition_ja": "土生金は、土生金という五行の生成関係を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:相生",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "相生"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、土生金を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000019_metal_generates_water.yml",
+      "id": "WUX-000019",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "金生水",
+      "name_en": "Metal Generates Water",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Generating Cycle",
+      "definition_ja": "金生水は、金生水という五行の生成関係を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:相生",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "相生"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、金生水を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000020_water_generates_wood.yml",
+      "id": "WUX-000020",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "水生木",
+      "name_en": "Water Generates Wood",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Generating Cycle",
+      "definition_ja": "水生木は、水生木という五行の生成関係を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:相生",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "相生"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、水生木を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000021_wood_overcomes_earth.yml",
+      "id": "WUX-000021",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "木剋土",
+      "name_en": "Wood Overcomes Earth",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Overcoming Cycle",
+      "definition_ja": "木剋土は、木剋土という五行の制御関係を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:相剋",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "相剋"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、木剋土を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000022_earth_overcomes_water.yml",
+      "id": "WUX-000022",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "土剋水",
+      "name_en": "Earth Overcomes Water",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Overcoming Cycle",
+      "definition_ja": "土剋水は、土剋水という五行の制御関係を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:相剋",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "相剋"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、土剋水を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000023_water_overcomes_fire.yml",
+      "id": "WUX-000023",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "水剋火",
+      "name_en": "Water Overcomes Fire",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Overcoming Cycle",
+      "definition_ja": "水剋火は、水剋火という五行の制御関係を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:相剋",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "相剋"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、水剋火を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000024_fire_overcomes_metal.yml",
+      "id": "WUX-000024",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "火剋金",
+      "name_en": "Fire Overcomes Metal",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Overcoming Cycle",
+      "definition_ja": "火剋金は、火剋金という五行の制御関係を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:相剋",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "相剋"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、火剋金を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000025_metal_overcomes_wood.yml",
+      "id": "WUX-000025",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "金剋木",
+      "name_en": "Metal Overcomes Wood",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Overcoming Cycle",
+      "definition_ja": "金剋木は、金剋木という五行の制御関係を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:相剋",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "相剋"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、金剋木を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000026_yang_wood.yml",
+      "id": "WUX-000026",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "陽の木",
+      "name_en": "Yang Wood",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Phase Polarities",
+      "definition_ja": "陽の木は、陽の木として分類される十干・五行の組合せを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:五行陰陽",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "五行陰陽"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、陽の木を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000027_yin_wood.yml",
+      "id": "WUX-000027",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "陰の木",
+      "name_en": "Yin Wood",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Phase Polarities",
+      "definition_ja": "陰の木は、陰の木として分類される十干・五行の組合せを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:五行陰陽",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "五行陰陽"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、陰の木を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000028_yang_fire.yml",
+      "id": "WUX-000028",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "陽の火",
+      "name_en": "Yang Fire",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Phase Polarities",
+      "definition_ja": "陽の火は、陽の火として分類される十干・五行の組合せを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:五行陰陽",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "五行陰陽"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、陽の火を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000029_yin_fire.yml",
+      "id": "WUX-000029",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "陰の火",
+      "name_en": "Yin Fire",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Phase Polarities",
+      "definition_ja": "陰の火は、陰の火として分類される十干・五行の組合せを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:五行陰陽",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "五行陰陽"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、陰の火を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000030_yang_earth.yml",
+      "id": "WUX-000030",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "陽の土",
+      "name_en": "Yang Earth",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Phase Polarities",
+      "definition_ja": "陽の土は、陽の土として分類される十干・五行の組合せを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:五行陰陽",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "五行陰陽"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、陽の土を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000031_yin_earth.yml",
+      "id": "WUX-000031",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "陰の土",
+      "name_en": "Yin Earth",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Phase Polarities",
+      "definition_ja": "陰の土は、陰の土として分類される十干・五行の組合せを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:五行陰陽",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "五行陰陽"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、陰の土を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000032_yang_metal.yml",
+      "id": "WUX-000032",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "陽の金",
+      "name_en": "Yang Metal",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Phase Polarities",
+      "definition_ja": "陽の金は、陽の金として分類される十干・五行の組合せを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:五行陰陽",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "五行陰陽"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、陽の金を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000033_yin_metal.yml",
+      "id": "WUX-000033",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "陰の金",
+      "name_en": "Yin Metal",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Phase Polarities",
+      "definition_ja": "陰の金は、陰の金として分類される十干・五行の組合せを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:五行陰陽",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "五行陰陽"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、陰の金を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000034_yang_water.yml",
+      "id": "WUX-000034",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "陽の水",
+      "name_en": "Yang Water",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Phase Polarities",
+      "definition_ja": "陽の水は、陽の水として分類される十干・五行の組合せを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:五行陰陽",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "五行陰陽"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、陽の水を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000035_yin_water.yml",
+      "id": "WUX-000035",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "陰の水",
+      "name_en": "Yin Water",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Phase Polarities",
+      "definition_ja": "陰の水は、陰の水として分類される十干・五行の組合せを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:五行陰陽",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "五行陰陽"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、陰の水を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000036_jia.yml",
+      "id": "WUX-000036",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "甲",
+      "name_en": "Jia",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Heavenly Stems",
+      "definition_ja": "甲は、十干の甲に割り当てられる陰陽五行と暦上の位置を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:十干",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十干"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、甲を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000037_yi.yml",
+      "id": "WUX-000037",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "乙",
+      "name_en": "Yi",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Heavenly Stems",
+      "definition_ja": "乙は、十干の乙に割り当てられる陰陽五行と暦上の位置を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:十干",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十干"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、乙を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000038_bing.yml",
+      "id": "WUX-000038",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "丙",
+      "name_en": "Bing",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Heavenly Stems",
+      "definition_ja": "丙は、十干の丙に割り当てられる陰陽五行と暦上の位置を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:十干",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十干"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、丙を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000039_ding.yml",
+      "id": "WUX-000039",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "丁",
+      "name_en": "Ding",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Heavenly Stems",
+      "definition_ja": "丁は、十干の丁に割り当てられる陰陽五行と暦上の位置を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:十干",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十干"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、丁を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000040_wu.yml",
+      "id": "WUX-000040",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "戊",
+      "name_en": "Wu",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Heavenly Stems",
+      "definition_ja": "戊は、十干の戊に割り当てられる陰陽五行と暦上の位置を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:十干",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十干"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、戊を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000041_ji.yml",
+      "id": "WUX-000041",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "己",
+      "name_en": "Ji",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Heavenly Stems",
+      "definition_ja": "己は、十干の己に割り当てられる陰陽五行と暦上の位置を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:十干",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十干"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、己を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000042_geng.yml",
+      "id": "WUX-000042",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "庚",
+      "name_en": "Geng",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Heavenly Stems",
+      "definition_ja": "庚は、十干の庚に割り当てられる陰陽五行と暦上の位置を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:十干",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十干"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、庚を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000043_xin.yml",
+      "id": "WUX-000043",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "辛",
+      "name_en": "Xin",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Heavenly Stems",
+      "definition_ja": "辛は、十干の辛に割り当てられる陰陽五行と暦上の位置を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:十干",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十干"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、辛を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000044_ren.yml",
+      "id": "WUX-000044",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "壬",
+      "name_en": "Ren",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Heavenly Stems",
+      "definition_ja": "壬は、十干の壬に割り当てられる陰陽五行と暦上の位置を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:十干",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十干"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、壬を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000045_gui.yml",
+      "id": "WUX-000045",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "癸",
+      "name_en": "Gui",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Heavenly Stems",
+      "definition_ja": "癸は、十干の癸に割り当てられる陰陽五行と暦上の位置を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:十干",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十干"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、癸を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000046_zi.yml",
+      "id": "WUX-000046",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "子",
+      "name_en": "Zi",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Earthly Branches",
+      "definition_ja": "子は、十二支の子に割り当てられる時刻・月・方位・五行などの対応を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:十二支",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二支"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、子を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000047_chou.yml",
+      "id": "WUX-000047",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "丑",
+      "name_en": "Chou",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Earthly Branches",
+      "definition_ja": "丑は、十二支の丑に割り当てられる時刻・月・方位・五行などの対応を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:十二支",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二支"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、丑を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000048_yin.yml",
+      "id": "WUX-000048",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "寅",
+      "name_en": "Yin",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Earthly Branches",
+      "definition_ja": "寅は、十二支の寅に割り当てられる時刻・月・方位・五行などの対応を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:十二支",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二支"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、寅を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000049_mao.yml",
+      "id": "WUX-000049",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "卯",
+      "name_en": "Mao",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Earthly Branches",
+      "definition_ja": "卯は、十二支の卯に割り当てられる時刻・月・方位・五行などの対応を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:十二支",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二支"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、卯を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000050_chen.yml",
+      "id": "WUX-000050",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "辰",
+      "name_en": "Chen",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Earthly Branches",
+      "definition_ja": "辰は、十二支の辰に割り当てられる時刻・月・方位・五行などの対応を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:十二支",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二支"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、辰を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000051_si.yml",
+      "id": "WUX-000051",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "巳",
+      "name_en": "Si",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Earthly Branches",
+      "definition_ja": "巳は、十二支の巳に割り当てられる時刻・月・方位・五行などの対応を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:十二支",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二支"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、巳を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000052_wu.yml",
+      "id": "WUX-000052",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "午",
+      "name_en": "Wu",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Earthly Branches",
+      "definition_ja": "午は、十二支の午に割り当てられる時刻・月・方位・五行などの対応を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:十二支",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二支"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、午を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000053_wei.yml",
+      "id": "WUX-000053",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "未",
+      "name_en": "Wei",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Earthly Branches",
+      "definition_ja": "未は、十二支の未に割り当てられる時刻・月・方位・五行などの対応を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:十二支",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二支"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、未を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000054_shen.yml",
+      "id": "WUX-000054",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "申",
+      "name_en": "Shen",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Earthly Branches",
+      "definition_ja": "申は、十二支の申に割り当てられる時刻・月・方位・五行などの対応を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:十二支",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二支"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、申を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000055_you.yml",
+      "id": "WUX-000055",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "酉",
+      "name_en": "You",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Earthly Branches",
+      "definition_ja": "酉は、十二支の酉に割り当てられる時刻・月・方位・五行などの対応を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:十二支",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二支"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、酉を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000056_xu.yml",
+      "id": "WUX-000056",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "戌",
+      "name_en": "Xu",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Earthly Branches",
+      "definition_ja": "戌は、十二支の戌に割り当てられる時刻・月・方位・五行などの対応を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:十二支",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二支"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、戌を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000057_hai.yml",
+      "id": "WUX-000057",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "亥",
+      "name_en": "Hai",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Earthly Branches",
+      "definition_ja": "亥は、十二支の亥に割り当てられる時刻・月・方位・五行などの対応を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:十二支",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二支"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、亥を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000058_six_harmonies.yml",
+      "id": "WUX-000058",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "六合",
+      "name_en": "Six Harmonies",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Branch Relations",
+      "definition_ja": "六合は、二支間の結びつきを表す伝統的関係群を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:地支関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "地支関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、六合を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000059_three_harmonies.yml",
+      "id": "WUX-000059",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "三合",
+      "name_en": "Three Harmonies",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Branch Relations",
+      "definition_ja": "三合は、三支が五行局を形成するとする伝統的関係群を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:地支関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "地支関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、三合を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000060_six_clashes.yml",
+      "id": "WUX-000060",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "六冲",
+      "name_en": "Six Clashes",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Branch Relations",
+      "definition_ja": "六冲は、向かい合う地支間の変動関係群を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:地支関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "地支関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、六冲を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000061_six_harms.yml",
+      "id": "WUX-000061",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "六害",
+      "name_en": "Six Harms",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Branch Relations",
+      "definition_ja": "六害は、地支間の害と呼ばれる伝統的関係群を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:地支関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "地支関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、六害を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000062_punishments.yml",
+      "id": "WUX-000062",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "刑",
+      "name_en": "Punishments",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Branch Relations",
+      "definition_ja": "刑は、地支間の刑と呼ばれる伝統的関係群を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:地支関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "地支関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、刑を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000063_destructions.yml",
+      "id": "WUX-000063",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "破",
+      "name_en": "Destructions",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Branch Relations",
+      "definition_ja": "破は、地支間の破と呼ばれる伝統的関係群を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:地支関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "地支関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、破を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000064_branch_combinations.yml",
+      "id": "WUX-000064",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "地支合",
+      "name_en": "Branch Combinations",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Branch Relations",
+      "definition_ja": "地支合は、複数地支の結合を読む総称を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:地支関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "地支関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、地支合を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000065_seasonal_frames.yml",
+      "id": "WUX-000065",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "方合",
+      "name_en": "Seasonal Frames",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Branch Relations",
+      "definition_ja": "方合は、同季節の地支が方向局を形成する関係を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:地支関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "地支関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、方合を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000066_hidden_stems.yml",
+      "id": "WUX-000066",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "蔵干",
+      "name_en": "Hidden Stems",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Branch Relations",
+      "definition_ja": "蔵干は、地支内部に天干を配当する伝統的対応を表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:地支関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "地支関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、蔵干を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000067_branch_polarity.yml",
+      "id": "WUX-000067",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "地支陰陽",
+      "name_en": "Branch Polarity",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Branch Relations",
+      "definition_ja": "地支陰陽は、各地支を陰または陽へ分類することを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:地支関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "地支関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、地支陰陽を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000068_branch_phase.yml",
+      "id": "WUX-000068",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "地支五行",
+      "name_en": "Branch Phase",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Branch Relations",
+      "definition_ja": "地支五行は、各地支へ主要な五行を配当することを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:地支関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "地支関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、地支五行を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000069_branch_time.yml",
+      "id": "WUX-000069",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "地支時刻",
+      "name_en": "Branch Time",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Branch Relations",
+      "definition_ja": "地支時刻は、一日を十二の時刻帯へ配当することを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:地支関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "地支関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、地支時刻を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000070_spring_phase.yml",
+      "id": "WUX-000070",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "春の木",
+      "name_en": "Spring Wood",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Season and Process",
+      "definition_ja": "春の木は、春と木の成長過程を対応づけることを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:季節と過程",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "季節と過程"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、春の木を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000071_summer_phase.yml",
+      "id": "WUX-000071",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "夏の火",
+      "name_en": "Summer Fire",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Season and Process",
+      "definition_ja": "夏の火は、夏と火の発現過程を対応づけることを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:季節と過程",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "季節と過程"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、夏の火を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000072_seasonal_earth.yml",
+      "id": "WUX-000072",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "季節移行の土",
+      "name_en": "Seasonal Earth",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Season and Process",
+      "definition_ja": "季節移行の土は、季節間の移行と土を対応づけることを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:季節と過程",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "季節と過程"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、季節移行の土を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000073_autumn_phase.yml",
+      "id": "WUX-000073",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "秋の金",
+      "name_en": "Autumn Metal",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Season and Process",
+      "definition_ja": "秋の金は、秋と金の収斂過程を対応づけることを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:季節と過程",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "季節と過程"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、秋の金を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000074_winter_phase.yml",
+      "id": "WUX-000074",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "冬の水",
+      "name_en": "Winter Water",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Season and Process",
+      "definition_ja": "冬の水は、冬と水の蓄積過程を対応づけることを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:季節と過程",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "季節と過程"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、冬の水を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000075_birth_stage.yml",
+      "id": "WUX-000075",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "発生段階",
+      "name_en": "Emergence Stage",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Season and Process",
+      "definition_ja": "発生段階は、過程が生じ始める段階を分類することを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:季節と過程",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "季節と過程"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、発生段階を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000076_growth_stage.yml",
+      "id": "WUX-000076",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "成長段階",
+      "name_en": "Growth Stage",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Season and Process",
+      "definition_ja": "成長段階は、過程が展開する段階を分類することを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:季節と過程",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "季節と過程"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、成長段階を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000077_peak_stage.yml",
+      "id": "WUX-000077",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "旺盛段階",
+      "name_en": "Peak Stage",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Season and Process",
+      "definition_ja": "旺盛段階は、過程が最も明瞭になる段階を分類することを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:季節と過程",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "季節と過程"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、旺盛段階を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000078_decline_stage.yml",
+      "id": "WUX-000078",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "衰退段階",
+      "name_en": "Decline Stage",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Season and Process",
+      "definition_ja": "衰退段階は、過程が収まり始める段階を分類することを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:季節と過程",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "季節と過程"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、衰退段階を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000079_storage_stage.yml",
+      "id": "WUX-000079",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "収蔵段階",
+      "name_en": "Storage Stage",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Season and Process",
+      "definition_ja": "収蔵段階は、過程が蓄えられ次へ移る段階を分類することを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:季節と過程",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "季節と過程"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、収蔵段階を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000080_directions.yml",
+      "id": "WUX-000080",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "方位対応",
+      "name_en": "Direction Correspondence",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Correspondence Domains",
+      "definition_ja": "方位対応は、五行と方位対応を結ぶ伝統的分類であり因果関係を意味しないを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:対応領域",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "対応領域"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、方位対応を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000081_colors.yml",
+      "id": "WUX-000081",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "色対応",
+      "name_en": "Color Correspondence",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Correspondence Domains",
+      "definition_ja": "色対応は、五行と色対応を結ぶ伝統的分類であり因果関係を意味しないを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:対応領域",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "対応領域"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、色対応を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000082_tastes.yml",
+      "id": "WUX-000082",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "味対応",
+      "name_en": "Taste Correspondence",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Correspondence Domains",
+      "definition_ja": "味対応は、五行と味対応を結ぶ伝統的分類であり因果関係を意味しないを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:対応領域",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "対応領域"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、味対応を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000083_body_symbols.yml",
+      "id": "WUX-000083",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "身体象徴対応",
+      "name_en": "Body Symbol Correspondence",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Correspondence Domains",
+      "definition_ja": "身体象徴対応は、五行と身体象徴対応を結ぶ伝統的分類であり因果関係を意味しないを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:対応領域",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "対応領域"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、身体象徴対応を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000084_emotion_symbols.yml",
+      "id": "WUX-000084",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "感情象徴対応",
+      "name_en": "Emotion Symbol Correspondence",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Correspondence Domains",
+      "definition_ja": "感情象徴対応は、五行と感情象徴対応を結ぶ伝統的分類であり因果関係を意味しないを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:対応領域",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "対応領域"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、感情象徴対応を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000085_climates.yml",
+      "id": "WUX-000085",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "気候対応",
+      "name_en": "Climate Correspondence",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Correspondence Domains",
+      "definition_ja": "気候対応は、五行と気候対応を結ぶ伝統的分類であり因果関係を意味しないを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:対応領域",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "対応領域"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、気候対応を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000086_planets.yml",
+      "id": "WUX-000086",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "惑星対応",
+      "name_en": "Planet Correspondence",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Correspondence Domains",
+      "definition_ja": "惑星対応は、五行と惑星対応を結ぶ伝統的分類であり因果関係を意味しないを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:対応領域",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "対応領域"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、惑星対応を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000087_numbers.yml",
+      "id": "WUX-000087",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "数対応",
+      "name_en": "Number Correspondence",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Correspondence Domains",
+      "definition_ja": "数対応は、五行と数対応を結ぶ伝統的分類であり因果関係を意味しないを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:対応領域",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "対応領域"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、数対応を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000088_sounds.yml",
+      "id": "WUX-000088",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "音対応",
+      "name_en": "Sound Correspondence",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Correspondence Domains",
+      "definition_ja": "音対応は、五行と音対応を結ぶ伝統的分類であり因果関係を意味しないを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:対応領域",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "対応領域"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、音対応を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000089_social_roles.yml",
+      "id": "WUX-000089",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "役割対応",
+      "name_en": "Social Role Correspondence",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Correspondence Domains",
+      "definition_ja": "役割対応は、五行と役割対応を結ぶ伝統的分類であり因果関係を意味しないを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:対応領域",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "対応領域"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、役割対応を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000090_phase_not_substance.yml",
+      "id": "WUX-000090",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "五行非物質原則",
+      "name_en": "Phases Are Not Substances",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Interpretation Limits",
+      "definition_ja": "五行非物質原則は、五行を固定物質ではなく変化の分類として扱うことを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:解釈限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "解釈限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、五行非物質原則を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000091_relational_reading.yml",
+      "id": "WUX-000091",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "関係的解釈",
+      "name_en": "Relational Reading",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Interpretation Limits",
+      "definition_ja": "関係的解釈は、単独要素より相互関係と時期を優先することを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:解釈限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "解釈限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、関係的解釈を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000092_contextual_correspondence.yml",
+      "id": "WUX-000092",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "文脈的対応",
+      "name_en": "Contextual Correspondence",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Interpretation Limits",
+      "definition_ja": "文脈的対応は、対応表を普遍的因果法則とみなさないことを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:解釈限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "解釈限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、文脈的対応を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000093_school_variation.yml",
+      "id": "WUX-000093",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "流派差表示",
+      "name_en": "School Variation Disclosure",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Interpretation Limits",
+      "definition_ja": "流派差表示は、配当や関係規則の流派差を表示することを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:解釈限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "解釈限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、流派差表示を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000094_source_provenance.yml",
+      "id": "WUX-000094",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "出典来歴",
+      "name_en": "Source Provenance",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Interpretation Limits",
+      "definition_ja": "出典来歴は、対応関係の時代・地域・文献を記録することを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:解釈限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "解釈限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、出典来歴を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000095_translation_variation.yml",
+      "id": "WUX-000095",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "訳語差",
+      "name_en": "Translation Variation",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Interpretation Limits",
+      "definition_ja": "訳語差は、element・phase・agent等の訳語差を記録することを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:解釈限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "解釈限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、訳語差を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000096_calendar_precision.yml",
+      "id": "WUX-000096",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "暦精度",
+      "name_en": "Calendar Precision",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Interpretation Limits",
+      "definition_ja": "暦精度は、暦変換と節気境界の計算精度を記録することを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:解釈限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "解釈限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、暦精度を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000097_cross_cultural_boundary.yml",
+      "id": "WUX-000097",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "文化横断境界",
+      "name_en": "Cross-Cultural Boundary",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Interpretation Limits",
+      "definition_ja": "文化横断境界は、文化的分類を普遍的人格類型へ変換しないことを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:解釈限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "解釈限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、文化横断境界を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000098_non_diagnostic_use.yml",
+      "id": "WUX-000098",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "非診断利用",
+      "name_en": "Non-Diagnostic Use",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Interpretation Limits",
+      "definition_ja": "非診断利用は、精神・身体状態の診断へ用いないことを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:解釈限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "解釈限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、非診断利用を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000099_no_medical_inference.yml",
+      "id": "WUX-000099",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "医療推論禁止",
+      "name_en": "No Medical Inference",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Interpretation Limits",
+      "definition_ja": "医療推論禁止は、身体象徴対応から疾患や体質を推定しないことを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:解釈限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "解釈限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、医療推論禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    },
+    {
+      "filename": "WUX-000100_dynamic_synthesis.yml",
+      "id": "WUX-000100",
+      "knowledge_type": "yin_yang_wuxing",
+      "name_ja": "動的統合",
+      "name_en": "Dynamic Synthesis",
+      "category": "Yin Yang and Five Phases",
+      "attribute": "Interpretation Limits",
+      "definition_ja": "動的統合は、陰陽五行を固定ラベルでなく変化する象徴関係として提示することを表す陰陽五行参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:陰陽五行",
+        "CAT:解釈限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "解釈限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行・干支体系",
+      "source_type": "暦・節気・伝統的分類規則",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象時点",
+        "使用暦",
+        "適用する流派",
+        "参照目的"
+      ],
+      "calculation_basis": "陰陽・五行・十干十二支・季節循環の対応規則を流派別に適用する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行・干支体系では、動的統合を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と東アジアに展開した諸伝統"
+    }
+  ]
+}

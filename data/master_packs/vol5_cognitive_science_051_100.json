@@ -1,11 +1,11 @@
 {
   "output_dir": "vol5_cognitive_science/cognitive_science_051_100",
   "index_filename": "cognitive_science_051_100_index.yml",
-  "index_content": "category: Cognitive Science\nname_ja: 認知科学\nitems:\n  - COGSCI-000051_problem_solving.yml\n  - COGSCI-000052_means_end_analysis.yml\n  - COGSCI-000053_problem_representation.yml\n  - COGSCI-000054_strategy_selection.yml\n  - COGSCI-000055_heuristic_search.yml\n  - COGSCI-000056_insight_problem_solving.yml\n  - COGSCI-000057_constraint_relaxation.yml\n  - COGSCI-000058_analogical_reasoning.yml\n  - COGSCI-000059_debugging_behavior.yml\n  - COGSCI-000060_solution_evaluation.yml\n  - COGSCI-000061_language_comprehension.yml\n  - COGSCI-000062_reading_comprehension.yml\n  - COGSCI-000063_semantic_processing.yml\n  - COGSCI-000064_pragmatic_understanding.yml\n  - COGSCI-000065_verbal_fluency.yml\n  - COGSCI-000066_narrative_understanding.yml\n  - COGSCI-000067_instruction_following.yml\n  - COGSCI-000068_ambiguity_resolution.yml\n  - COGSCI-000069_metaphor_understanding.yml\n  - COGSCI-000070_dialogue_context_tracking.yml\n  - COGSCI-000071_theory_of_mind.yml\n  - COGSCI-000072_perspective_taking.yml\n  - COGSCI-000073_empathy_processing.yml\n  - COGSCI-000074_social_inference.yml\n  - COGSCI-000075_trait_inference.yml\n  - COGSCI-000076_emotion_recognition.yml\n  - COGSCI-000077_social_norm_processing.yml\n  - COGSCI-000078_reputation_processing.yml\n  - COGSCI-000079_trust_judgment.yml\n  - COGSCI-000080_cooperation_reasoning.yml\n  - COGSCI-000081_metacognition.yml\n  - COGSCI-000082_confidence_judgment.yml\n  - COGSCI-000083_error_awareness.yml\n  - COGSCI-000084_learning_monitoring.yml\n  - COGSCI-000085_strategy_monitoring.yml\n  - COGSCI-000086_judgment_of_learning.yml\n  - COGSCI-000087_feeling_of_knowing.yml\n  - COGSCI-000088_calibration.yml\n  - COGSCI-000089_self_explanation.yml\n  - COGSCI-000090_reflection.yml\n  - COGSCI-000091_visual_perception.yml\n  - COGSCI-000092_auditory_perception.yml\n  - COGSCI-000093_pattern_recognition.yml\n  - COGSCI-000094_object_recognition.yml\n  - COGSCI-000095_spatial_perception.yml\n  - COGSCI-000096_temporal_perception.yml\n  - COGSCI-000097_multisensory_integration.yml\n  - COGSCI-000098_perceptual_grouping.yml\n  - COGSCI-000099_signal_detection.yml\n  - COGSCI-000100_perceptual_learning.yml\nnotes:\n  - 認知科学は能力評価そのものではなく推論材料として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
+  "index_content": "category: Cognitive Science\nname_ja: 認知科学\nitems:\n  - CSC-000051_problem_solving.yml\n  - CSC-000052_means_end_analysis.yml\n  - CSC-000053_problem_representation.yml\n  - CSC-000054_strategy_selection.yml\n  - CSC-000055_heuristic_search.yml\n  - CSC-000056_insight_problem_solving.yml\n  - CSC-000057_constraint_relaxation.yml\n  - CSC-000058_analogical_reasoning.yml\n  - CSC-000059_debugging_behavior.yml\n  - CSC-000060_solution_evaluation.yml\n  - CSC-000061_language_comprehension.yml\n  - CSC-000062_reading_comprehension.yml\n  - CSC-000063_semantic_processing.yml\n  - CSC-000064_pragmatic_understanding.yml\n  - CSC-000065_verbal_fluency.yml\n  - CSC-000066_narrative_understanding.yml\n  - CSC-000067_instruction_following.yml\n  - CSC-000068_ambiguity_resolution.yml\n  - CSC-000069_metaphor_understanding.yml\n  - CSC-000070_dialogue_context_tracking.yml\n  - CSC-000071_theory_of_mind.yml\n  - CSC-000072_perspective_taking.yml\n  - CSC-000073_empathy_processing.yml\n  - CSC-000074_social_inference.yml\n  - CSC-000075_trait_inference.yml\n  - CSC-000076_emotion_recognition.yml\n  - CSC-000077_social_norm_processing.yml\n  - CSC-000078_reputation_processing.yml\n  - CSC-000079_trust_judgment.yml\n  - CSC-000080_cooperation_reasoning.yml\n  - CSC-000081_metacognition.yml\n  - CSC-000082_confidence_judgment.yml\n  - CSC-000083_error_awareness.yml\n  - CSC-000084_learning_monitoring.yml\n  - CSC-000085_strategy_monitoring.yml\n  - CSC-000086_judgment_of_learning.yml\n  - CSC-000087_feeling_of_knowing.yml\n  - CSC-000088_calibration.yml\n  - CSC-000089_self_explanation.yml\n  - CSC-000090_reflection.yml\n  - CSC-000091_visual_perception.yml\n  - CSC-000092_auditory_perception.yml\n  - CSC-000093_pattern_recognition.yml\n  - CSC-000094_object_recognition.yml\n  - CSC-000095_spatial_perception.yml\n  - CSC-000096_temporal_perception.yml\n  - CSC-000097_multisensory_integration.yml\n  - CSC-000098_perceptual_grouping.yml\n  - CSC-000099_signal_detection.yml\n  - CSC-000100_perceptual_learning.yml\nnotes:\n  - 認知科学は能力評価そのものではなく推論材料として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
   "items": [
     {
-      "filename": "COGSCI-000051_problem_solving.yml",
-      "id": "COGSCI-000051",
+      "filename": "CSC-000051_problem_solving.yml",
+      "id": "CSC-000051",
       "knowledge_type": "cognitive_science",
       "name_ja": "問題解決",
       "name_en": "Problem Solving",
@@ -46,8 +46,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000052_means_end_analysis.yml",
-      "id": "COGSCI-000052",
+      "filename": "CSC-000052_means_end_analysis.yml",
+      "id": "CSC-000052",
       "knowledge_type": "cognitive_science",
       "name_ja": "手段目的分析",
       "name_en": "Means End Analysis",
@@ -88,8 +88,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000053_problem_representation.yml",
-      "id": "COGSCI-000053",
+      "filename": "CSC-000053_problem_representation.yml",
+      "id": "CSC-000053",
       "knowledge_type": "cognitive_science",
       "name_ja": "問題表象",
       "name_en": "Problem Representation",
@@ -130,8 +130,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000054_strategy_selection.yml",
-      "id": "COGSCI-000054",
+      "filename": "CSC-000054_strategy_selection.yml",
+      "id": "CSC-000054",
       "knowledge_type": "cognitive_science",
       "name_ja": "方略選択",
       "name_en": "Strategy Selection",
@@ -172,8 +172,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000055_heuristic_search.yml",
-      "id": "COGSCI-000055",
+      "filename": "CSC-000055_heuristic_search.yml",
+      "id": "CSC-000055",
       "knowledge_type": "cognitive_science",
       "name_ja": "ヒューリスティック探索",
       "name_en": "Heuristic Search",
@@ -214,8 +214,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000056_insight_problem_solving.yml",
-      "id": "COGSCI-000056",
+      "filename": "CSC-000056_insight_problem_solving.yml",
+      "id": "CSC-000056",
       "knowledge_type": "cognitive_science",
       "name_ja": "洞察的問題解決",
       "name_en": "Insight Problem Solving",
@@ -256,8 +256,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000057_constraint_relaxation.yml",
-      "id": "COGSCI-000057",
+      "filename": "CSC-000057_constraint_relaxation.yml",
+      "id": "CSC-000057",
       "knowledge_type": "cognitive_science",
       "name_ja": "制約緩和",
       "name_en": "Constraint Relaxation",
@@ -298,8 +298,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000058_analogical_reasoning.yml",
-      "id": "COGSCI-000058",
+      "filename": "CSC-000058_analogical_reasoning.yml",
+      "id": "CSC-000058",
       "knowledge_type": "cognitive_science",
       "name_ja": "類推推論",
       "name_en": "Analogical Reasoning",
@@ -340,8 +340,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000059_debugging_behavior.yml",
-      "id": "COGSCI-000059",
+      "filename": "CSC-000059_debugging_behavior.yml",
+      "id": "CSC-000059",
       "knowledge_type": "cognitive_science",
       "name_ja": "デバッグ的思考",
       "name_en": "Debugging Thinking",
@@ -382,8 +382,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000060_solution_evaluation.yml",
-      "id": "COGSCI-000060",
+      "filename": "CSC-000060_solution_evaluation.yml",
+      "id": "CSC-000060",
       "knowledge_type": "cognitive_science",
       "name_ja": "解決策評価",
       "name_en": "Solution Evaluation",
@@ -424,8 +424,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000061_language_comprehension.yml",
-      "id": "COGSCI-000061",
+      "filename": "CSC-000061_language_comprehension.yml",
+      "id": "CSC-000061",
       "knowledge_type": "cognitive_science",
       "name_ja": "言語理解",
       "name_en": "Language Comprehension",
@@ -466,8 +466,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000062_reading_comprehension.yml",
-      "id": "COGSCI-000062",
+      "filename": "CSC-000062_reading_comprehension.yml",
+      "id": "CSC-000062",
       "knowledge_type": "cognitive_science",
       "name_ja": "読解",
       "name_en": "Reading Comprehension",
@@ -508,8 +508,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000063_semantic_processing.yml",
-      "id": "COGSCI-000063",
+      "filename": "CSC-000063_semantic_processing.yml",
+      "id": "CSC-000063",
       "knowledge_type": "cognitive_science",
       "name_ja": "意味処理",
       "name_en": "Semantic Processing",
@@ -550,8 +550,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000064_pragmatic_understanding.yml",
-      "id": "COGSCI-000064",
+      "filename": "CSC-000064_pragmatic_understanding.yml",
+      "id": "CSC-000064",
       "knowledge_type": "cognitive_science",
       "name_ja": "語用理解",
       "name_en": "Pragmatic Understanding",
@@ -592,8 +592,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000065_verbal_fluency.yml",
-      "id": "COGSCI-000065",
+      "filename": "CSC-000065_verbal_fluency.yml",
+      "id": "CSC-000065",
       "knowledge_type": "cognitive_science",
       "name_ja": "言語流暢性",
       "name_en": "Verbal Fluency",
@@ -634,8 +634,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000066_narrative_understanding.yml",
-      "id": "COGSCI-000066",
+      "filename": "CSC-000066_narrative_understanding.yml",
+      "id": "CSC-000066",
       "knowledge_type": "cognitive_science",
       "name_ja": "物語理解",
       "name_en": "Narrative Understanding",
@@ -676,8 +676,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000067_instruction_following.yml",
-      "id": "COGSCI-000067",
+      "filename": "CSC-000067_instruction_following.yml",
+      "id": "CSC-000067",
       "knowledge_type": "cognitive_science",
       "name_ja": "指示理解",
       "name_en": "Instruction Following",
@@ -718,8 +718,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000068_ambiguity_resolution.yml",
-      "id": "COGSCI-000068",
+      "filename": "CSC-000068_ambiguity_resolution.yml",
+      "id": "CSC-000068",
       "knowledge_type": "cognitive_science",
       "name_ja": "曖昧性解消",
       "name_en": "Ambiguity Resolution",
@@ -760,8 +760,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000069_metaphor_understanding.yml",
-      "id": "COGSCI-000069",
+      "filename": "CSC-000069_metaphor_understanding.yml",
+      "id": "CSC-000069",
       "knowledge_type": "cognitive_science",
       "name_ja": "比喩理解",
       "name_en": "Metaphor Understanding",
@@ -802,8 +802,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000070_dialogue_context_tracking.yml",
-      "id": "COGSCI-000070",
+      "filename": "CSC-000070_dialogue_context_tracking.yml",
+      "id": "CSC-000070",
       "knowledge_type": "cognitive_science",
       "name_ja": "対話文脈追跡",
       "name_en": "Dialogue Context Tracking",
@@ -844,8 +844,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000071_theory_of_mind.yml",
-      "id": "COGSCI-000071",
+      "filename": "CSC-000071_theory_of_mind.yml",
+      "id": "CSC-000071",
       "knowledge_type": "cognitive_science",
       "name_ja": "心の理論",
       "name_en": "Theory of Mind",
@@ -886,8 +886,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000072_perspective_taking.yml",
-      "id": "COGSCI-000072",
+      "filename": "CSC-000072_perspective_taking.yml",
+      "id": "CSC-000072",
       "knowledge_type": "cognitive_science",
       "name_ja": "視点取得",
       "name_en": "Perspective Taking",
@@ -928,8 +928,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000073_empathy_processing.yml",
-      "id": "COGSCI-000073",
+      "filename": "CSC-000073_empathy_processing.yml",
+      "id": "CSC-000073",
       "knowledge_type": "cognitive_science",
       "name_ja": "共感処理",
       "name_en": "Empathy Processing",
@@ -970,8 +970,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000074_social_inference.yml",
-      "id": "COGSCI-000074",
+      "filename": "CSC-000074_social_inference.yml",
+      "id": "CSC-000074",
       "knowledge_type": "cognitive_science",
       "name_ja": "社会的推論",
       "name_en": "Social Inference",
@@ -1012,8 +1012,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000075_trait_inference.yml",
-      "id": "COGSCI-000075",
+      "filename": "CSC-000075_trait_inference.yml",
+      "id": "CSC-000075",
       "knowledge_type": "cognitive_science",
       "name_ja": "特性推論",
       "name_en": "Trait Inference",
@@ -1054,8 +1054,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000076_emotion_recognition.yml",
-      "id": "COGSCI-000076",
+      "filename": "CSC-000076_emotion_recognition.yml",
+      "id": "CSC-000076",
       "knowledge_type": "cognitive_science",
       "name_ja": "感情認識",
       "name_en": "Emotion Recognition",
@@ -1096,8 +1096,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000077_social_norm_processing.yml",
-      "id": "COGSCI-000077",
+      "filename": "CSC-000077_social_norm_processing.yml",
+      "id": "CSC-000077",
       "knowledge_type": "cognitive_science",
       "name_ja": "社会規範処理",
       "name_en": "Social Norm Processing",
@@ -1138,8 +1138,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000078_reputation_processing.yml",
-      "id": "COGSCI-000078",
+      "filename": "CSC-000078_reputation_processing.yml",
+      "id": "CSC-000078",
       "knowledge_type": "cognitive_science",
       "name_ja": "評判処理",
       "name_en": "Reputation Processing",
@@ -1180,8 +1180,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000079_trust_judgment.yml",
-      "id": "COGSCI-000079",
+      "filename": "CSC-000079_trust_judgment.yml",
+      "id": "CSC-000079",
       "knowledge_type": "cognitive_science",
       "name_ja": "信頼判断",
       "name_en": "Trust Judgment",
@@ -1222,8 +1222,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000080_cooperation_reasoning.yml",
-      "id": "COGSCI-000080",
+      "filename": "CSC-000080_cooperation_reasoning.yml",
+      "id": "CSC-000080",
       "knowledge_type": "cognitive_science",
       "name_ja": "協力推論",
       "name_en": "Cooperation Reasoning",
@@ -1264,8 +1264,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000081_metacognition.yml",
-      "id": "COGSCI-000081",
+      "filename": "CSC-000081_metacognition.yml",
+      "id": "CSC-000081",
       "knowledge_type": "cognitive_science",
       "name_ja": "メタ認知",
       "name_en": "Metacognition",
@@ -1306,8 +1306,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000082_confidence_judgment.yml",
-      "id": "COGSCI-000082",
+      "filename": "CSC-000082_confidence_judgment.yml",
+      "id": "CSC-000082",
       "knowledge_type": "cognitive_science",
       "name_ja": "確信度判断",
       "name_en": "Confidence Judgment",
@@ -1348,8 +1348,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000083_error_awareness.yml",
-      "id": "COGSCI-000083",
+      "filename": "CSC-000083_error_awareness.yml",
+      "id": "CSC-000083",
       "knowledge_type": "cognitive_science",
       "name_ja": "エラー自覚",
       "name_en": "Error Awareness",
@@ -1390,8 +1390,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000084_learning_monitoring.yml",
-      "id": "COGSCI-000084",
+      "filename": "CSC-000084_learning_monitoring.yml",
+      "id": "CSC-000084",
       "knowledge_type": "cognitive_science",
       "name_ja": "学習モニタリング",
       "name_en": "Learning Monitoring",
@@ -1432,8 +1432,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000085_strategy_monitoring.yml",
-      "id": "COGSCI-000085",
+      "filename": "CSC-000085_strategy_monitoring.yml",
+      "id": "CSC-000085",
       "knowledge_type": "cognitive_science",
       "name_ja": "方略モニタリング",
       "name_en": "Strategy Monitoring",
@@ -1474,8 +1474,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000086_judgment_of_learning.yml",
-      "id": "COGSCI-000086",
+      "filename": "CSC-000086_judgment_of_learning.yml",
+      "id": "CSC-000086",
       "knowledge_type": "cognitive_science",
       "name_ja": "学習判断",
       "name_en": "Judgment of Learning",
@@ -1516,8 +1516,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000087_feeling_of_knowing.yml",
-      "id": "COGSCI-000087",
+      "filename": "CSC-000087_feeling_of_knowing.yml",
+      "id": "CSC-000087",
       "knowledge_type": "cognitive_science",
       "name_ja": "既知感",
       "name_en": "Feeling of Knowing",
@@ -1558,8 +1558,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000088_calibration.yml",
-      "id": "COGSCI-000088",
+      "filename": "CSC-000088_calibration.yml",
+      "id": "CSC-000088",
       "knowledge_type": "cognitive_science",
       "name_ja": "キャリブレーション",
       "name_en": "Calibration",
@@ -1600,8 +1600,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000089_self_explanation.yml",
-      "id": "COGSCI-000089",
+      "filename": "CSC-000089_self_explanation.yml",
+      "id": "CSC-000089",
       "knowledge_type": "cognitive_science",
       "name_ja": "自己説明",
       "name_en": "Self Explanation",
@@ -1642,8 +1642,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000090_reflection.yml",
-      "id": "COGSCI-000090",
+      "filename": "CSC-000090_reflection.yml",
+      "id": "CSC-000090",
       "knowledge_type": "cognitive_science",
       "name_ja": "振り返り",
       "name_en": "Reflection",
@@ -1684,8 +1684,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000091_visual_perception.yml",
-      "id": "COGSCI-000091",
+      "filename": "CSC-000091_visual_perception.yml",
+      "id": "CSC-000091",
       "knowledge_type": "cognitive_science",
       "name_ja": "視覚知覚",
       "name_en": "Visual Perception",
@@ -1726,8 +1726,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000092_auditory_perception.yml",
-      "id": "COGSCI-000092",
+      "filename": "CSC-000092_auditory_perception.yml",
+      "id": "CSC-000092",
       "knowledge_type": "cognitive_science",
       "name_ja": "聴覚知覚",
       "name_en": "Auditory Perception",
@@ -1768,8 +1768,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000093_pattern_recognition.yml",
-      "id": "COGSCI-000093",
+      "filename": "CSC-000093_pattern_recognition.yml",
+      "id": "CSC-000093",
       "knowledge_type": "cognitive_science",
       "name_ja": "パターン認識",
       "name_en": "Pattern Recognition",
@@ -1810,8 +1810,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000094_object_recognition.yml",
-      "id": "COGSCI-000094",
+      "filename": "CSC-000094_object_recognition.yml",
+      "id": "CSC-000094",
       "knowledge_type": "cognitive_science",
       "name_ja": "物体認識",
       "name_en": "Object Recognition",
@@ -1852,8 +1852,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000095_spatial_perception.yml",
-      "id": "COGSCI-000095",
+      "filename": "CSC-000095_spatial_perception.yml",
+      "id": "CSC-000095",
       "knowledge_type": "cognitive_science",
       "name_ja": "空間知覚",
       "name_en": "Spatial Perception",
@@ -1894,8 +1894,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000096_temporal_perception.yml",
-      "id": "COGSCI-000096",
+      "filename": "CSC-000096_temporal_perception.yml",
+      "id": "CSC-000096",
       "knowledge_type": "cognitive_science",
       "name_ja": "時間知覚",
       "name_en": "Temporal Perception",
@@ -1936,8 +1936,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000097_multisensory_integration.yml",
-      "id": "COGSCI-000097",
+      "filename": "CSC-000097_multisensory_integration.yml",
+      "id": "CSC-000097",
       "knowledge_type": "cognitive_science",
       "name_ja": "多感覚統合",
       "name_en": "Multisensory Integration",
@@ -1978,8 +1978,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000098_perceptual_grouping.yml",
-      "id": "COGSCI-000098",
+      "filename": "CSC-000098_perceptual_grouping.yml",
+      "id": "CSC-000098",
       "knowledge_type": "cognitive_science",
       "name_ja": "知覚的群化",
       "name_en": "Perceptual Grouping",
@@ -2020,8 +2020,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000099_signal_detection.yml",
-      "id": "COGSCI-000099",
+      "filename": "CSC-000099_signal_detection.yml",
+      "id": "CSC-000099",
       "knowledge_type": "cognitive_science",
       "name_ja": "信号検出",
       "name_en": "Signal Detection",
@@ -2062,8 +2062,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000100_perceptual_learning.yml",
-      "id": "COGSCI-000100",
+      "filename": "CSC-000100_perceptual_learning.yml",
+      "id": "CSC-000100",
       "knowledge_type": "cognitive_science",
       "name_ja": "知覚学習",
       "name_en": "Perceptual Learning",

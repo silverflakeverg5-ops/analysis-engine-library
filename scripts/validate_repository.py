@@ -5,16 +5,40 @@ import sys
 ROOT = Path(".")
 
 REQUIRED_DIRS = [
+    "analysis_engine",
     "data",
     "data/master_packs",
     "scripts",
+    "tests",
 ]
 
 REQUIRED_SCRIPTS = [
     "scripts/generate_from_master.py",
     "scripts/audit_all_data.py",
+    "scripts/audit_runtime_safety.py",
+    "scripts/audit_runtime_contract.py",
     "scripts/run_all_audits.py",
     "scripts/run_quality_checks.py",
+]
+
+REQUIRED_RUNTIME_FILES = [
+    "analysis_engine/__init__.py",
+    "analysis_engine/__main__.py",
+    "analysis_engine/bundles.py",
+    "analysis_engine/contracts.py",
+    "analysis_engine/guidance.py",
+    "analysis_engine/library.py",
+    "analysis_engine/matching.py",
+    "analysis_engine/pipeline.py",
+    "analysis_engine/safety.py",
+    "tests/test_knowledge_library.py",
+    "tests/test_interpretation_bundles.py",
+    "tests/test_application_guidance.py",
+    "tests/test_signal_matching.py",
+    "tests/test_application_pipeline.py",
+    "tests/test_runtime_contract.py",
+    "tests/test_safety_contract.py",
+    "docs/08_runtime_api_contract_v1.json",
 ]
 
 def check_paths():
@@ -27,6 +51,10 @@ def check_paths():
     for s in REQUIRED_SCRIPTS:
         if not Path(s).is_file():
             errors.append(f"[MISSING SCRIPT] {s}")
+
+    for runtime_file in REQUIRED_RUNTIME_FILES:
+        if not Path(runtime_file).is_file():
+            errors.append(f"[MISSING RUNTIME FILE] {runtime_file}")
 
     return errors
 

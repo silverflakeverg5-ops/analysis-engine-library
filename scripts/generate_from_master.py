@@ -1,4 +1,5 @@
 from pathlib import Path
+import argparse
 import json
 
 ROOT = Path("data/master_packs")
@@ -23,6 +24,18 @@ REQUIRED_FIELDS = [
     "status",
 ]
 
+OPTIONAL_FIELD_ORDER = [
+    "tradition",
+    "source_type",
+    "evidence_class",
+    "required_inputs",
+    "calculation_basis",
+    "trait_links",
+    "interpretive_scope",
+    "safe_expression",
+    "provenance",
+]
+
 def to_yaml_value(value, indent=0):
     space = "  " * indent
     if isinstance(value, list):
@@ -42,7 +55,16 @@ def item_to_yaml(item):
         raise ValueError(f"{item.get('id', 'NO_ID')} missing fields: {missing}")
 
     lines = []
-    for field in REQUIRED_FIELDS:
+    ordered_fields = REQUIRED_FIELDS + [
+        field for field in OPTIONAL_FIELD_ORDER if field in item
+    ] + [
+        field
+        for field in item
+        if field not in REQUIRED_FIELDS
+        and field not in OPTIONAL_FIELD_ORDER
+        and field != "filename"
+    ]
+    for field in ordered_fields:
         value = item[field]
         if isinstance(value, list):
             lines.append(f"{field}:")
@@ -52,11 +74,35 @@ def item_to_yaml(item):
             lines.append(f"{field}: {value}")
     return "\n".join(lines) + "\n"
 
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description="Generate Knowledge Item YAML from one or all master packs."
+    )
+    parser.add_argument(
+        "--master",
+        action="append",
+        default=[],
+        help="Master-pack path relative to data/master_packs; repeatable",
+    )
+    return parser.parse_args()
+
+
 def main():
-    master_files = sorted(ROOT.rglob("*.json"))
+    args = parse_args()
+    master_files = (
+        [ROOT / path for path in args.master]
+        if args.master
+        else sorted(ROOT.rglob("*.json"))
+    )
     if not master_files:
         print("No master pack files found.")
         return
+
+    missing = [path for path in master_files if not path.is_file()]
+    if missing:
+        raise FileNotFoundError(
+            "Missing master pack(s): " + ", ".join(str(path) for path in missing)
+        )
 
     generated = 0
 

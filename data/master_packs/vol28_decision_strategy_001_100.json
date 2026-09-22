@@ -1,0 +1,4607 @@
+{
+  "output_dir": "vol28_decision_strategy/decision_strategy_001_100",
+  "index_filename": "decision_strategy_001_100_index.yml",
+  "index_content": "category: Decision Strategy\nname_ja: 意思決定戦略\nitems:\n  - DEC-000001_problem_recognition.yml\n  - DEC-000002_goal_clarification.yml\n  - DEC-000003_constraint_identification.yml\n  - DEC-000004_decision_scope_setting.yml\n  - DEC-000005_stakeholder_identification.yml\n  - DEC-000006_time_horizon_setting.yml\n  - DEC-000007_success_criteria_setting.yml\n  - DEC-000008_assumption_explication.yml\n  - DEC-000009_reframing_behavior.yml\n  - DEC-000010_priority_definition.yml\n  - DEC-000011_information_need_recognition.yml\n  - DEC-000012_targeted_information_search.yml\n  - DEC-000013_broad_information_search.yml\n  - DEC-000014_source_diversification.yml\n  - DEC-000015_source_credibility_check.yml\n  - DEC-000016_evidence_comparison.yml\n  - DEC-000017_missing_information_awareness.yml\n  - DEC-000018_search_stopping.yml\n  - DEC-000019_information_overload_management.yml\n  - DEC-000020_information_search_integration.yml\n  - DEC-000021_option_generation.yml\n  - DEC-000022_alternative_diversity.yml\n  - DEC-000023_default_option_acceptance.yml\n  - DEC-000024_creative_alternative_generation.yml\n  - DEC-000025_outside_option_consideration.yml\n  - DEC-000026_option_decomposition.yml\n  - DEC-000027_option_combination.yml\n  - DEC-000028_contingency_option_generation.yml\n  - DEC-000029_reversible_option_design.yml\n  - DEC-000030_option_set_sufficiency.yml\n  - DEC-000031_criteria_weighting.yml\n  - DEC-000032_benefit_cost_comparison.yml\n  - DEC-000033_tradeoff_acceptance.yml\n  - DEC-000034_multi_criteria_evaluation.yml\n  - DEC-000035_opportunity_cost_awareness.yml\n  - DEC-000036_threshold_based_choice.yml\n  - DEC-000037_lexicographic_choice.yml\n  - DEC-000038_satisficing_strategy.yml\n  - DEC-000039_maximizing_strategy.yml\n  - DEC-000040_value_alignment_check.yml\n  - DEC-000041_uncertainty_tolerance.yml\n  - DEC-000042_probability_estimation.yml\n  - DEC-000043_confidence_calibration.yml\n  - DEC-000044_base_rate_consideration.yml\n  - DEC-000045_scenario_analysis.yml\n  - DEC-000046_sensitivity_analysis.yml\n  - DEC-000047_ambiguity_management.yml\n  - DEC-000048_worst_case_consideration.yml\n  - DEC-000049_best_case_consideration.yml\n  - DEC-000050_expected_outcome_reasoning.yml\n  - DEC-000051_risk_identification.yml\n  - DEC-000052_risk_appetite_expression.yml\n  - DEC-000053_loss_avoidance_strategy.yml\n  - DEC-000054_downside_protection.yml\n  - DEC-000055_risk_diversification.yml\n  - DEC-000056_risk_reversibility.yml\n  - DEC-000057_risk_control_planning.yml\n  - DEC-000058_risk_reward_balance.yml\n  - DEC-000059_regret_anticipation.yml\n  - DEC-000060_safety_margin_setting.yml\n  - DEC-000061_decision_urgency.yml\n  - DEC-000062_deliberation_time_allocation.yml\n  - DEC-000063_decision_delay.yml\n  - DEC-000064_deadline_response.yml\n  - DEC-000065_effort_budgeting.yml\n  - DEC-000066_cognitive_load_management.yml\n  - DEC-000067_decision_routine_use.yml\n  - DEC-000068_automation_preference.yml\n  - DEC-000069_delegation_decision.yml\n  - DEC-000070_timing_strategy.yml\n  - DEC-000071_advice_seeking.yml\n  - DEC-000072_expert_consultation.yml\n  - DEC-000073_peer_consultation.yml\n  - DEC-000074_consensus_seeking.yml\n  - DEC-000075_independent_judgment.yml\n  - DEC-000076_perspective_taking.yml\n  - DEC-000077_dissent_consideration.yml\n  - DEC-000078_group_influence_awareness.yml\n  - DEC-000079_accountability_communication.yml\n  - DEC-000080_shared_decision_making.yml\n  - DEC-000081_commitment_strength.yml\n  - DEC-000082_implementation_intention.yml\n  - DEC-000083_decision_follow_through.yml\n  - DEC-000084_post_decision_monitoring.yml\n  - DEC-000085_feedback_based_revision.yml\n  - DEC-000086_decision_reversal.yml\n  - DEC-000087_sunk_cost_disengagement.yml\n  - DEC-000088_error_acknowledgment.yml\n  - DEC-000089_learning_from_outcomes.yml\n  - DEC-000090_decision_recording.yml\n  - DEC-000091_decision_latency_signal.yml\n  - DEC-000092_option_count_signal.yml\n  - DEC-000093_information_search_depth_signal.yml\n  - DEC-000094_comparison_pattern_signal.yml\n  - DEC-000095_confidence_expression_signal.yml\n  - DEC-000096_revision_pattern_signal.yml\n  - DEC-000097_context_dependency.yml\n  - DEC-000098_cross_situation_consistency.yml\n  - DEC-000099_decision_strategy_profile.yml\n  - DEC-000100_decision_strategy_integration.yml\nnotes:\n  - 意思決定戦略は文脈・重要度・知識・時間圧に依存し、能力や人格を単独で断定しない\n  - 複数場面・複数時点の観測とModifierを組み合わせ、推論アプリ側で慎重に扱う\n  - 医療・法律・採用・金融など高影響領域の自動判断には直接利用しない\n",
+  "items": [
+    {
+      "filename": "DEC-000001_problem_recognition.yml",
+      "id": "DEC-000001",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "問題認識",
+      "name_en": "Problem Recognition",
+      "category": "Decision Strategy",
+      "attribute": "Problem Framing",
+      "definition_ja": "問題認識は、判断が必要な問題や機会を捉える過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:問題設定",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "問題設定"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "問題認識と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000002_goal_clarification.yml",
+      "id": "DEC-000002",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "目標明確化",
+      "name_en": "Goal Clarification",
+      "category": "Decision Strategy",
+      "attribute": "Problem Framing",
+      "definition_ja": "目標明確化は、判断によって達成したい状態を具体化する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:問題設定",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "問題設定"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "目標明確化と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000003_constraint_identification.yml",
+      "id": "DEC-000003",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "制約特定",
+      "name_en": "Constraint Identification",
+      "category": "Decision Strategy",
+      "attribute": "Problem Framing",
+      "definition_ja": "制約特定は、利用可能な時間・資源・規則などの制約を把握する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:問題設定",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "問題設定"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "制約特定と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000004_decision_scope_setting.yml",
+      "id": "DEC-000004",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "判断範囲設定",
+      "name_en": "Decision Scope Setting",
+      "category": "Decision Strategy",
+      "attribute": "Problem Framing",
+      "definition_ja": "判断範囲設定は、今回の判断に含める対象と含めない対象を区切る過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:問題設定",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "問題設定"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "判断範囲設定と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000005_stakeholder_identification.yml",
+      "id": "DEC-000005",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "利害関係者特定",
+      "name_en": "Stakeholder Identification",
+      "category": "Decision Strategy",
+      "attribute": "Problem Framing",
+      "definition_ja": "利害関係者特定は、判断の影響を受ける関係者を把握する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:問題設定",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "問題設定"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "利害関係者特定と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000006_time_horizon_setting.yml",
+      "id": "DEC-000006",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "時間軸設定",
+      "name_en": "Time Horizon Setting",
+      "category": "Decision Strategy",
+      "attribute": "Problem Framing",
+      "definition_ja": "時間軸設定は、短期・中期・長期のどこまで結果を考慮するか定める過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:問題設定",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "問題設定"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "時間軸設定と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000007_success_criteria_setting.yml",
+      "id": "DEC-000007",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "成功基準設定",
+      "name_en": "Success Criteria Setting",
+      "category": "Decision Strategy",
+      "attribute": "Problem Framing",
+      "definition_ja": "成功基準設定は、望ましい結果を評価する基準を設定する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:問題設定",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "問題設定"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "成功基準設定と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000008_assumption_explication.yml",
+      "id": "DEC-000008",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "前提明示",
+      "name_en": "Assumption Explication",
+      "category": "Decision Strategy",
+      "attribute": "Problem Framing",
+      "definition_ja": "前提明示は、判断の土台となる仮定を言語化する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:問題設定",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "問題設定"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "前提明示と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000009_reframing_behavior.yml",
+      "id": "DEC-000009",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "問題再構成",
+      "name_en": "Problem Reframing",
+      "category": "Decision Strategy",
+      "attribute": "Problem Framing",
+      "definition_ja": "問題再構成は、別の視点から問題の捉え方を組み替える過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:問題設定",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "問題設定"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "問題再構成と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000010_priority_definition.yml",
+      "id": "DEC-000010",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "優先事項定義",
+      "name_en": "Priority Definition",
+      "category": "Decision Strategy",
+      "attribute": "Problem Framing",
+      "definition_ja": "優先事項定義は、複数の目的や制約の優先順位を定める過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:問題設定",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "問題設定"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "優先事項定義と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000011_information_need_recognition.yml",
+      "id": "DEC-000011",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "情報必要性認識",
+      "name_en": "Information Need Recognition",
+      "category": "Decision Strategy",
+      "attribute": "Information Search",
+      "definition_ja": "情報必要性認識は、判断に不足している情報を認識する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:情報探索",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "情報探索"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "情報必要性認識と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000012_targeted_information_search.yml",
+      "id": "DEC-000012",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "焦点型情報探索",
+      "name_en": "Targeted Information Search",
+      "category": "Decision Strategy",
+      "attribute": "Information Search",
+      "definition_ja": "焦点型情報探索は、特定の疑問に答える情報を絞って探す過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:情報探索",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "情報探索"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "焦点型情報探索と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000013_broad_information_search.yml",
+      "id": "DEC-000013",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "広域型情報探索",
+      "name_en": "Broad Information Search",
+      "category": "Decision Strategy",
+      "attribute": "Information Search",
+      "definition_ja": "広域型情報探索は、未知の選択肢や論点を広く探す過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:情報探索",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "情報探索"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "広域型情報探索と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000014_source_diversification.yml",
+      "id": "DEC-000014",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "情報源多様化",
+      "name_en": "Source Diversification",
+      "category": "Decision Strategy",
+      "attribute": "Information Search",
+      "definition_ja": "情報源多様化は、異なる立場や種類の情報源を組み合わせる過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:情報探索",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "情報探索"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "情報源多様化と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000015_source_credibility_check.yml",
+      "id": "DEC-000015",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "情報源信頼性確認",
+      "name_en": "Source Credibility Check",
+      "category": "Decision Strategy",
+      "attribute": "Information Search",
+      "definition_ja": "情報源信頼性確認は、情報源の専門性・独立性・更新性を確かめる過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:情報探索",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "情報探索"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "情報源信頼性確認と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000016_evidence_comparison.yml",
+      "id": "DEC-000016",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "根拠比較",
+      "name_en": "Evidence Comparison",
+      "category": "Decision Strategy",
+      "attribute": "Information Search",
+      "definition_ja": "根拠比較は、複数の根拠の一致点と相違点を比較する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:情報探索",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "情報探索"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "根拠比較と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000017_missing_information_awareness.yml",
+      "id": "DEC-000017",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "欠落情報認識",
+      "name_en": "Missing Information Awareness",
+      "category": "Decision Strategy",
+      "attribute": "Information Search",
+      "definition_ja": "欠落情報認識は、確認できていない情報や不明点を明示する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:情報探索",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "情報探索"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "欠落情報認識と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000018_search_stopping.yml",
+      "id": "DEC-000018",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "探索終了判断",
+      "name_en": "Search Stopping",
+      "category": "Decision Strategy",
+      "attribute": "Information Search",
+      "definition_ja": "探索終了判断は、追加探索の費用と価値を比べて探索を終える過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:情報探索",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "情報探索"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "探索終了判断と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000019_information_overload_management.yml",
+      "id": "DEC-000019",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "情報過多管理",
+      "name_en": "Information Overload Management",
+      "category": "Decision Strategy",
+      "attribute": "Information Search",
+      "definition_ja": "情報過多管理は、情報量が多い状況で整理・選別する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:情報探索",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "情報探索"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "情報過多管理と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000020_information_search_integration.yml",
+      "id": "DEC-000020",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "情報探索統合",
+      "name_en": "Information Search Integration",
+      "category": "Decision Strategy",
+      "attribute": "Information Search",
+      "definition_ja": "情報探索統合は、集めた情報を判断可能な形へ統合する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:情報探索",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "情報探索"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "情報探索統合と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000021_option_generation.yml",
+      "id": "DEC-000021",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "選択肢生成",
+      "name_en": "Option Generation",
+      "category": "Decision Strategy",
+      "attribute": "Option Generation",
+      "definition_ja": "選択肢生成は、実行可能な代替案を作り出す過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:選択肢生成",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "選択肢生成"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "選択肢生成と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000022_alternative_diversity.yml",
+      "id": "DEC-000022",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "代替案多様性",
+      "name_en": "Alternative Diversity",
+      "category": "Decision Strategy",
+      "attribute": "Option Generation",
+      "definition_ja": "代替案多様性は、性質の異なる複数の代替案を揃える過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:選択肢生成",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "選択肢生成"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "代替案多様性と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000023_default_option_acceptance.yml",
+      "id": "DEC-000023",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "既定選択受容",
+      "name_en": "Default Option Acceptance",
+      "category": "Decision Strategy",
+      "attribute": "Option Generation",
+      "definition_ja": "既定選択受容は、あらかじめ提示された選択肢を採用する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:選択肢生成",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "選択肢生成"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "既定選択受容と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000024_creative_alternative_generation.yml",
+      "id": "DEC-000024",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "創造的代替案生成",
+      "name_en": "Creative Alternative Generation",
+      "category": "Decision Strategy",
+      "attribute": "Option Generation",
+      "definition_ja": "創造的代替案生成は、既存案にない新しい選択肢を考える過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:選択肢生成",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "選択肢生成"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "創造的代替案生成と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000025_outside_option_consideration.yml",
+      "id": "DEC-000025",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "選択外案検討",
+      "name_en": "Outside Option Consideration",
+      "category": "Decision Strategy",
+      "attribute": "Option Generation",
+      "definition_ja": "選択外案検討は、選ばない・延期するなど提示外の案を検討する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:選択肢生成",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "選択肢生成"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "選択外案検討と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000026_option_decomposition.yml",
+      "id": "DEC-000026",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "選択肢分解",
+      "name_en": "Option Decomposition",
+      "category": "Decision Strategy",
+      "attribute": "Option Generation",
+      "definition_ja": "選択肢分解は、複雑な案を構成要素や段階へ分ける過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:選択肢生成",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "選択肢生成"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "選択肢分解と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000027_option_combination.yml",
+      "id": "DEC-000027",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "選択肢組合せ",
+      "name_en": "Option Combination",
+      "category": "Decision Strategy",
+      "attribute": "Option Generation",
+      "definition_ja": "選択肢組合せは、複数案の長所を組み合わせる過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:選択肢生成",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "選択肢生成"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "選択肢組合せと整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000028_contingency_option_generation.yml",
+      "id": "DEC-000028",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "条件分岐案生成",
+      "name_en": "Contingency Option Generation",
+      "category": "Decision Strategy",
+      "attribute": "Option Generation",
+      "definition_ja": "条件分岐案生成は、状況変化に応じた予備案を用意する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:選択肢生成",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "選択肢生成"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "条件分岐案生成と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000029_reversible_option_design.yml",
+      "id": "DEC-000029",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "可逆案設計",
+      "name_en": "Reversible Option Design",
+      "category": "Decision Strategy",
+      "attribute": "Option Generation",
+      "definition_ja": "可逆案設計は、後から戻したり変更したりできる案を設計する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:選択肢生成",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "選択肢生成"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "可逆案設計と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000030_option_set_sufficiency.yml",
+      "id": "DEC-000030",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "選択肢集合充足性",
+      "name_en": "Option Set Sufficiency",
+      "category": "Decision Strategy",
+      "attribute": "Option Generation",
+      "definition_ja": "選択肢集合充足性は、比較に十分な選択肢が揃ったかを判断する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:選択肢生成",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "選択肢生成"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "選択肢集合充足性と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000031_criteria_weighting.yml",
+      "id": "DEC-000031",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "評価基準重みづけ",
+      "name_en": "Criteria Weighting",
+      "category": "Decision Strategy",
+      "attribute": "Evaluation and Tradeoffs",
+      "definition_ja": "評価基準重みづけは、評価基準ごとの重要度を定める過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:評価とトレードオフ",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "評価とトレードオフ"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "評価基準重みづけと整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000032_benefit_cost_comparison.yml",
+      "id": "DEC-000032",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "便益費用比較",
+      "name_en": "Benefit Cost Comparison",
+      "category": "Decision Strategy",
+      "attribute": "Evaluation and Tradeoffs",
+      "definition_ja": "便益費用比較は、期待される利点と必要な負担を比較する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:評価とトレードオフ",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "評価とトレードオフ"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "便益費用比較と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000033_tradeoff_acceptance.yml",
+      "id": "DEC-000033",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "トレードオフ受容",
+      "name_en": "Tradeoff Acceptance",
+      "category": "Decision Strategy",
+      "attribute": "Evaluation and Tradeoffs",
+      "definition_ja": "トレードオフ受容は、一方を得るために別の価値を譲る必要性を扱う過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:評価とトレードオフ",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "評価とトレードオフ"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "トレードオフ受容と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000034_multi_criteria_evaluation.yml",
+      "id": "DEC-000034",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "多基準評価",
+      "name_en": "Multi-Criteria Evaluation",
+      "category": "Decision Strategy",
+      "attribute": "Evaluation and Tradeoffs",
+      "definition_ja": "多基準評価は、複数の評価軸を併用して選択肢を比べる過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:評価とトレードオフ",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "評価とトレードオフ"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "多基準評価と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000035_opportunity_cost_awareness.yml",
+      "id": "DEC-000035",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "機会費用認識",
+      "name_en": "Opportunity Cost Awareness",
+      "category": "Decision Strategy",
+      "attribute": "Evaluation and Tradeoffs",
+      "definition_ja": "機会費用認識は、ある案を選ぶことで失う別の可能性を考慮する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:評価とトレードオフ",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "評価とトレードオフ"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "機会費用認識と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000036_threshold_based_choice.yml",
+      "id": "DEC-000036",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "閾値型選択",
+      "name_en": "Threshold-Based Choice",
+      "category": "Decision Strategy",
+      "attribute": "Evaluation and Tradeoffs",
+      "definition_ja": "閾値型選択は、必要条件を満たす案から選ぶ過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:評価とトレードオフ",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "評価とトレードオフ"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "閾値型選択と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000037_lexicographic_choice.yml",
+      "id": "DEC-000037",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "辞書式選択",
+      "name_en": "Lexicographic Choice",
+      "category": "Decision Strategy",
+      "attribute": "Evaluation and Tradeoffs",
+      "definition_ja": "辞書式選択は、最重要基準を優先し同点時に次の基準を見る過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:評価とトレードオフ",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "評価とトレードオフ"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "辞書式選択と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000038_satisficing_strategy.yml",
+      "id": "DEC-000038",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "満足化戦略",
+      "name_en": "Satisficing Strategy",
+      "category": "Decision Strategy",
+      "attribute": "Evaluation and Tradeoffs",
+      "definition_ja": "満足化戦略は、十分な基準を満たした案を採用する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:評価とトレードオフ",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "評価とトレードオフ"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "満足化戦略と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000039_maximizing_strategy.yml",
+      "id": "DEC-000039",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "最大化戦略",
+      "name_en": "Maximizing Strategy",
+      "category": "Decision Strategy",
+      "attribute": "Evaluation and Tradeoffs",
+      "definition_ja": "最大化戦略は、比較可能な範囲で最良の案を探す過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:評価とトレードオフ",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "評価とトレードオフ"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "最大化戦略と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000040_value_alignment_check.yml",
+      "id": "DEC-000040",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "価値整合確認",
+      "name_en": "Value Alignment Check",
+      "category": "Decision Strategy",
+      "attribute": "Evaluation and Tradeoffs",
+      "definition_ja": "価値整合確認は、選択肢が本人や組織の価値・目的に沿うか確かめる過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:評価とトレードオフ",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "評価とトレードオフ"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "価値整合確認と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000041_uncertainty_tolerance.yml",
+      "id": "DEC-000041",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "不確実性許容",
+      "name_en": "Uncertainty Tolerance",
+      "category": "Decision Strategy",
+      "attribute": "Uncertainty and Probability",
+      "definition_ja": "不確実性許容は、結果が確定しない状態を抱えながら判断する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:不確実性と確率",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "不確実性と確率"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "不確実性許容と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000042_probability_estimation.yml",
+      "id": "DEC-000042",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "確率推定",
+      "name_en": "Probability Estimation",
+      "category": "Decision Strategy",
+      "attribute": "Uncertainty and Probability",
+      "definition_ja": "確率推定は、複数の結果が起こる見込みを推定する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:不確実性と確率",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "不確実性と確率"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "確率推定と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000043_confidence_calibration.yml",
+      "id": "DEC-000043",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "確信度較正",
+      "name_en": "Confidence Calibration",
+      "category": "Decision Strategy",
+      "attribute": "Uncertainty and Probability",
+      "definition_ja": "確信度較正は、判断への確信度を根拠の強さに合わせる過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:不確実性と確率",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "不確実性と確率"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "確信度較正と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000044_base_rate_consideration.yml",
+      "id": "DEC-000044",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "基準率考慮",
+      "name_en": "Base Rate Consideration",
+      "category": "Decision Strategy",
+      "attribute": "Uncertainty and Probability",
+      "definition_ja": "基準率考慮は、個別情報とあわせて一般的な発生頻度を考慮する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:不確実性と確率",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "不確実性と確率"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "基準率考慮と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000045_scenario_analysis.yml",
+      "id": "DEC-000045",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "シナリオ分析",
+      "name_en": "Scenario Analysis",
+      "category": "Decision Strategy",
+      "attribute": "Uncertainty and Probability",
+      "definition_ja": "シナリオ分析は、複数の将来状況を想定して結果を検討する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:不確実性と確率",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "不確実性と確率"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "シナリオ分析と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000046_sensitivity_analysis.yml",
+      "id": "DEC-000046",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "感度分析",
+      "name_en": "Sensitivity Analysis",
+      "category": "Decision Strategy",
+      "attribute": "Uncertainty and Probability",
+      "definition_ja": "感度分析は、前提の変化が結論へ与える影響を確かめる過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:不確実性と確率",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "不確実性と確率"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "感度分析と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000047_ambiguity_management.yml",
+      "id": "DEC-000047",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "曖昧性管理",
+      "name_en": "Ambiguity Management",
+      "category": "Decision Strategy",
+      "attribute": "Uncertainty and Probability",
+      "definition_ja": "曖昧性管理は、確率自体が不明な状況を整理して扱う過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:不確実性と確率",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "不確実性と確率"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "曖昧性管理と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000048_worst_case_consideration.yml",
+      "id": "DEC-000048",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "最悪ケース考慮",
+      "name_en": "Worst-Case Consideration",
+      "category": "Decision Strategy",
+      "attribute": "Uncertainty and Probability",
+      "definition_ja": "最悪ケース考慮は、重大な不利益が生じる状況を検討する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:不確実性と確率",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "不確実性と確率"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "最悪ケース考慮と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000049_best_case_consideration.yml",
+      "id": "DEC-000049",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "最良ケース考慮",
+      "name_en": "Best-Case Consideration",
+      "category": "Decision Strategy",
+      "attribute": "Uncertainty and Probability",
+      "definition_ja": "最良ケース考慮は、望ましい結果が生じる条件を検討する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:不確実性と確率",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "不確実性と確率"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "最良ケース考慮と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000050_expected_outcome_reasoning.yml",
+      "id": "DEC-000050",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "期待結果推論",
+      "name_en": "Expected Outcome Reasoning",
+      "category": "Decision Strategy",
+      "attribute": "Uncertainty and Probability",
+      "definition_ja": "期待結果推論は、結果の価値と起こりやすさを組み合わせて考える過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:不確実性と確率",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "不確実性と確率"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "期待結果推論と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000051_risk_identification.yml",
+      "id": "DEC-000051",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "リスク特定",
+      "name_en": "Risk Identification",
+      "category": "Decision Strategy",
+      "attribute": "Risk and Loss",
+      "definition_ja": "リスク特定は、選択に伴う不利益や障害を洗い出す過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:リスクと損失",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "リスクと損失"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "リスク特定と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000052_risk_appetite_expression.yml",
+      "id": "DEC-000052",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "リスク許容方針表明",
+      "name_en": "Risk Appetite Expression",
+      "category": "Decision Strategy",
+      "attribute": "Risk and Loss",
+      "definition_ja": "リスク許容方針表明は、どの程度のリスクを受け入れるか明示する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:リスクと損失",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "リスクと損失"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "リスク許容方針表明と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000053_loss_avoidance_strategy.yml",
+      "id": "DEC-000053",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "損失回避戦略",
+      "name_en": "Loss Avoidance Strategy",
+      "category": "Decision Strategy",
+      "attribute": "Risk and Loss",
+      "definition_ja": "損失回避戦略は、損失の発生確率や規模を抑える案を選ぶ過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:リスクと損失",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "リスクと損失"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "損失回避戦略と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000054_downside_protection.yml",
+      "id": "DEC-000054",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "下方保護",
+      "name_en": "Downside Protection",
+      "category": "Decision Strategy",
+      "attribute": "Risk and Loss",
+      "definition_ja": "下方保護は、不利な結果になった場合の影響を限定する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:リスクと損失",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "リスクと損失"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "下方保護と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000055_risk_diversification.yml",
+      "id": "DEC-000055",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "リスク分散",
+      "name_en": "Risk Diversification",
+      "category": "Decision Strategy",
+      "attribute": "Risk and Loss",
+      "definition_ja": "リスク分散は、資源や選択を分けて単一失敗への依存を減らす過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:リスクと損失",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "リスクと損失"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "リスク分散と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000056_risk_reversibility.yml",
+      "id": "DEC-000056",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "リスク可逆性",
+      "name_en": "Risk Reversibility",
+      "category": "Decision Strategy",
+      "attribute": "Risk and Loss",
+      "definition_ja": "リスク可逆性は、失敗時に撤回・修正できる度合いを考慮する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:リスクと損失",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "リスクと損失"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "リスク可逆性と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000057_risk_control_planning.yml",
+      "id": "DEC-000057",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "リスク統制計画",
+      "name_en": "Risk Control Planning",
+      "category": "Decision Strategy",
+      "attribute": "Risk and Loss",
+      "definition_ja": "リスク統制計画は、検知・予防・対応の手段を事前に定める過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:リスクと損失",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "リスクと損失"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "リスク統制計画と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000058_risk_reward_balance.yml",
+      "id": "DEC-000058",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "リスク報酬均衡",
+      "name_en": "Risk Reward Balance",
+      "category": "Decision Strategy",
+      "attribute": "Risk and Loss",
+      "definition_ja": "リスク報酬均衡は、見込まれる利益と不利益の釣り合いを評価する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:リスクと損失",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "リスクと損失"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "リスク報酬均衡と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000059_regret_anticipation.yml",
+      "id": "DEC-000059",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "後悔予期",
+      "name_en": "Regret Anticipation",
+      "category": "Decision Strategy",
+      "attribute": "Risk and Loss",
+      "definition_ja": "後悔予期は、選択後に生じうる後悔を事前に考慮する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:リスクと損失",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "リスクと損失"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "後悔予期と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000060_safety_margin_setting.yml",
+      "id": "DEC-000060",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "安全余裕設定",
+      "name_en": "Safety Margin Setting",
+      "category": "Decision Strategy",
+      "attribute": "Risk and Loss",
+      "definition_ja": "安全余裕設定は、予測誤差や変動に備えて余裕を確保する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:リスクと損失",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "リスクと損失"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "安全余裕設定と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000061_decision_urgency.yml",
+      "id": "DEC-000061",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "判断緊急度評価",
+      "name_en": "Decision Urgency",
+      "category": "Decision Strategy",
+      "attribute": "Time and Effort",
+      "definition_ja": "判断緊急度評価は、判断を急ぐ必要性を評価する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:時間と労力",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "時間と労力"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "判断緊急度評価と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000062_deliberation_time_allocation.yml",
+      "id": "DEC-000062",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "熟慮時間配分",
+      "name_en": "Deliberation Time Allocation",
+      "category": "Decision Strategy",
+      "attribute": "Time and Effort",
+      "definition_ja": "熟慮時間配分は、判断の重要度に応じて考える時間を配分する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:時間と労力",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "時間と労力"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "熟慮時間配分と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000063_decision_delay.yml",
+      "id": "DEC-000063",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "判断延期",
+      "name_en": "Decision Delay",
+      "category": "Decision Strategy",
+      "attribute": "Time and Effort",
+      "definition_ja": "判断延期は、追加情報や適切な時機を待って判断を保留する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:時間と労力",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "時間と労力"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "判断延期と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000064_deadline_response.yml",
+      "id": "DEC-000064",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "期限対応",
+      "name_en": "Deadline Response",
+      "category": "Decision Strategy",
+      "attribute": "Time and Effort",
+      "definition_ja": "期限対応は、残り時間に応じて探索や比較方法を調整する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:時間と労力",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "時間と労力"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "期限対応と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000065_effort_budgeting.yml",
+      "id": "DEC-000065",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "判断労力配分",
+      "name_en": "Effort Budgeting",
+      "category": "Decision Strategy",
+      "attribute": "Time and Effort",
+      "definition_ja": "判断労力配分は、判断へ投入する認知的・実務的労力を配分する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:時間と労力",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "時間と労力"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "判断労力配分と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000066_cognitive_load_management.yml",
+      "id": "DEC-000066",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "認知負荷管理",
+      "name_en": "Cognitive Load Management",
+      "category": "Decision Strategy",
+      "attribute": "Time and Effort",
+      "definition_ja": "認知負荷管理は、複雑さを減らして判断可能な状態を保つ過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:時間と労力",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "時間と労力"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "認知負荷管理と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000067_decision_routine_use.yml",
+      "id": "DEC-000067",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "判断ルーチン利用",
+      "name_en": "Decision Routine Use",
+      "category": "Decision Strategy",
+      "attribute": "Time and Effort",
+      "definition_ja": "判断ルーチン利用は、反復的な判断に定型手順を利用する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:時間と労力",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "時間と労力"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "判断ルーチン利用と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000068_automation_preference.yml",
+      "id": "DEC-000068",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "自動化選好",
+      "name_en": "Automation Preference",
+      "category": "Decision Strategy",
+      "attribute": "Time and Effort",
+      "definition_ja": "自動化選好は、規則やシステムに判断の一部を委ねる過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:時間と労力",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "時間と労力"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "自動化選好と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000069_delegation_decision.yml",
+      "id": "DEC-000069",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "判断委任",
+      "name_en": "Delegation Decision",
+      "category": "Decision Strategy",
+      "attribute": "Time and Effort",
+      "definition_ja": "判断委任は、適切な知識・権限を持つ相手へ判断を委ねる過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:時間と労力",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "時間と労力"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "判断委任と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000070_timing_strategy.yml",
+      "id": "DEC-000070",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "判断時機戦略",
+      "name_en": "Timing Strategy",
+      "category": "Decision Strategy",
+      "attribute": "Time and Effort",
+      "definition_ja": "判断時機戦略は、実行や確定に適した時点を選ぶ過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:時間と労力",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "時間と労力"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "判断時機戦略と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000071_advice_seeking.yml",
+      "id": "DEC-000071",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "助言探索",
+      "name_en": "Advice Seeking",
+      "category": "Decision Strategy",
+      "attribute": "Social Decision Process",
+      "definition_ja": "助言探索は、判断前に他者の意見や経験を求める過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:社会的判断過程",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "社会的判断過程"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "助言探索と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000072_expert_consultation.yml",
+      "id": "DEC-000072",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "専門家相談",
+      "name_en": "Expert Consultation",
+      "category": "Decision Strategy",
+      "attribute": "Social Decision Process",
+      "definition_ja": "専門家相談は、専門知識を持つ相手の見解を判断へ取り入れる過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:社会的判断過程",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "社会的判断過程"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "専門家相談と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000073_peer_consultation.yml",
+      "id": "DEC-000073",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "同輩相談",
+      "name_en": "Peer Consultation",
+      "category": "Decision Strategy",
+      "attribute": "Social Decision Process",
+      "definition_ja": "同輩相談は、近い立場や経験を持つ相手と選択肢を検討する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:社会的判断過程",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "社会的判断過程"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "同輩相談と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000074_consensus_seeking.yml",
+      "id": "DEC-000074",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "合意探索",
+      "name_en": "Consensus Seeking",
+      "category": "Decision Strategy",
+      "attribute": "Social Decision Process",
+      "definition_ja": "合意探索は、関係者が受け入れられる共通案を探る過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:社会的判断過程",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "社会的判断過程"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "合意探索と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000075_independent_judgment.yml",
+      "id": "DEC-000075",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "独立判断",
+      "name_en": "Independent Judgment",
+      "category": "Decision Strategy",
+      "attribute": "Social Decision Process",
+      "definition_ja": "独立判断は、他者の意見を参照しつつ自ら結論を形成する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:社会的判断過程",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "社会的判断過程"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "独立判断と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000076_perspective_taking.yml",
+      "id": "DEC-000076",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "視点取得",
+      "name_en": "Perspective Taking",
+      "category": "Decision Strategy",
+      "attribute": "Social Decision Process",
+      "definition_ja": "視点取得は、異なる立場から選択の影響を考える過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:社会的判断過程",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "社会的判断過程"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "視点取得と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000077_dissent_consideration.yml",
+      "id": "DEC-000077",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "異論考慮",
+      "name_en": "Dissent Consideration",
+      "category": "Decision Strategy",
+      "attribute": "Social Decision Process",
+      "definition_ja": "異論考慮は、反対意見や少数意見を検討材料に含める過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:社会的判断過程",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "社会的判断過程"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "異論考慮と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000078_group_influence_awareness.yml",
+      "id": "DEC-000078",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "集団影響認識",
+      "name_en": "Group Influence Awareness",
+      "category": "Decision Strategy",
+      "attribute": "Social Decision Process",
+      "definition_ja": "集団影響認識は、同調・権威・役割が判断へ与える影響を意識する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:社会的判断過程",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "社会的判断過程"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "集団影響認識と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000079_accountability_communication.yml",
+      "id": "DEC-000079",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "説明責任伝達",
+      "name_en": "Accountability Communication",
+      "category": "Decision Strategy",
+      "attribute": "Social Decision Process",
+      "definition_ja": "説明責任伝達は、判断理由と責任範囲を関係者へ説明する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:社会的判断過程",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "社会的判断過程"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "説明責任伝達と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000080_shared_decision_making.yml",
+      "id": "DEC-000080",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "共同意思決定",
+      "name_en": "Shared Decision Making",
+      "category": "Decision Strategy",
+      "attribute": "Social Decision Process",
+      "definition_ja": "共同意思決定は、関係者が情報・価値・責任を共有して判断する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:社会的判断過程",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "社会的判断過程"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "共同意思決定と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000081_commitment_strength.yml",
+      "id": "DEC-000081",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "決定確定度",
+      "name_en": "Commitment Strength",
+      "category": "Decision Strategy",
+      "attribute": "Commitment and Revision",
+      "definition_ja": "決定確定度は、選んだ案へ資源と注意を向ける度合いを定める過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:確定と修正",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "確定と修正"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "決定確定度と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000082_implementation_intention.yml",
+      "id": "DEC-000082",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "実行意図形成",
+      "name_en": "Implementation Intention",
+      "category": "Decision Strategy",
+      "attribute": "Commitment and Revision",
+      "definition_ja": "実行意図形成は、いつ・どこで・どのように実行するか具体化する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:確定と修正",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "確定と修正"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "実行意図形成と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000083_decision_follow_through.yml",
+      "id": "DEC-000083",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "決定遂行",
+      "name_en": "Decision Follow-Through",
+      "category": "Decision Strategy",
+      "attribute": "Commitment and Revision",
+      "definition_ja": "決定遂行は、確定した選択を実際の行動へ移す過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:確定と修正",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "確定と修正"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "決定遂行と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000084_post_decision_monitoring.yml",
+      "id": "DEC-000084",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "決定後監視",
+      "name_en": "Post-Decision Monitoring",
+      "category": "Decision Strategy",
+      "attribute": "Commitment and Revision",
+      "definition_ja": "決定後監視は、実行後の結果や前提変化を継続して確認する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:確定と修正",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "確定と修正"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "決定後監視と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000085_feedback_based_revision.yml",
+      "id": "DEC-000085",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "フィードバック修正",
+      "name_en": "Feedback-Based Revision",
+      "category": "Decision Strategy",
+      "attribute": "Commitment and Revision",
+      "definition_ja": "フィードバック修正は、新しい結果や情報に基づいて判断を調整する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:確定と修正",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "確定と修正"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "フィードバック修正と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000086_decision_reversal.yml",
+      "id": "DEC-000086",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "決定撤回",
+      "name_en": "Decision Reversal",
+      "category": "Decision Strategy",
+      "attribute": "Commitment and Revision",
+      "definition_ja": "決定撤回は、条件変化や誤りを受けて以前の決定を取り消す過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:確定と修正",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "確定と修正"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "決定撤回と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000087_sunk_cost_disengagement.yml",
+      "id": "DEC-000087",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "埋没費用離脱",
+      "name_en": "Sunk Cost Disengagement",
+      "category": "Decision Strategy",
+      "attribute": "Commitment and Revision",
+      "definition_ja": "埋没費用離脱は、回収不能な過去の投入と今後の判断を分ける過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:確定と修正",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "確定と修正"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "埋没費用離脱と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000088_error_acknowledgment.yml",
+      "id": "DEC-000088",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "判断誤り認識",
+      "name_en": "Error Acknowledgment",
+      "category": "Decision Strategy",
+      "attribute": "Commitment and Revision",
+      "definition_ja": "判断誤り認識は、期待と結果のずれから判断上の誤りを認める過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:確定と修正",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "確定と修正"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "判断誤り認識と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000089_learning_from_outcomes.yml",
+      "id": "DEC-000089",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "結果学習",
+      "name_en": "Learning from Outcomes",
+      "category": "Decision Strategy",
+      "attribute": "Commitment and Revision",
+      "definition_ja": "結果学習は、判断結果から次の判断に使える知見を抽出する過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:確定と修正",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "確定と修正"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "結果学習と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000090_decision_recording.yml",
+      "id": "DEC-000090",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "判断記録",
+      "name_en": "Decision Recording",
+      "category": "Decision Strategy",
+      "attribute": "Commitment and Revision",
+      "definition_ja": "判断記録は、前提・選択肢・理由・結果を追跡可能な形で残す過程を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:確定と修正",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "確定と修正"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "判断記録と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000091_decision_latency_signal.yml",
+      "id": "DEC-000091",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "判断潜時シグナル",
+      "name_en": "Decision Latency Signal",
+      "category": "Decision Strategy",
+      "attribute": "Observation and Integration",
+      "definition_ja": "判断潜時シグナルは、選択肢提示から確定までの時間を捉える観測概念を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:観測と統合",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "観測と統合"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "判断潜時シグナルと整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000092_option_count_signal.yml",
+      "id": "DEC-000092",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "選択肢数シグナル",
+      "name_en": "Option Count Signal",
+      "category": "Decision Strategy",
+      "attribute": "Observation and Integration",
+      "definition_ja": "選択肢数シグナルは、生成・閲覧・比較された選択肢数を捉える観測概念を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:観測と統合",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "観測と統合"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "選択肢数シグナルと整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000093_information_search_depth_signal.yml",
+      "id": "DEC-000093",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "情報探索深度シグナル",
+      "name_en": "Information Search Depth Signal",
+      "category": "Decision Strategy",
+      "attribute": "Observation and Integration",
+      "definition_ja": "情報探索深度シグナルは、情報源・閲覧量・確認段階の深さを捉える観測概念を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:観測と統合",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "観測と統合"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "情報探索深度シグナルと整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000094_comparison_pattern_signal.yml",
+      "id": "DEC-000094",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "比較パターンシグナル",
+      "name_en": "Comparison Pattern Signal",
+      "category": "Decision Strategy",
+      "attribute": "Observation and Integration",
+      "definition_ja": "比較パターンシグナルは、選択肢間の往復や評価軸の使い方を捉える観測概念を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:観測と統合",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "観測と統合"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "比較パターンシグナルと整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000095_confidence_expression_signal.yml",
+      "id": "DEC-000095",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "確信表明シグナル",
+      "name_en": "Confidence Expression Signal",
+      "category": "Decision Strategy",
+      "attribute": "Observation and Integration",
+      "definition_ja": "確信表明シグナルは、選択時に示される確信度や保留表現を捉える観測概念を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:観測と統合",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "観測と統合"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "確信表明シグナルと整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000096_revision_pattern_signal.yml",
+      "id": "DEC-000096",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "修正パターンシグナル",
+      "name_en": "Revision Pattern Signal",
+      "category": "Decision Strategy",
+      "attribute": "Observation and Integration",
+      "definition_ja": "修正パターンシグナルは、新情報後の変更・維持・撤回を捉える観測概念を表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:観測と統合",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "観測と統合"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "修正パターンシグナルと整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000097_context_dependency.yml",
+      "id": "DEC-000097",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "判断文脈依存性",
+      "name_en": "Decision Context Dependency",
+      "category": "Decision Strategy",
+      "attribute": "Observation and Integration",
+      "definition_ja": "判断文脈依存性は、領域・重要度・時間圧などにより戦略が変わる度合いを表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:観測と統合",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "観測と統合"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "判断文脈依存性と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000098_cross_situation_consistency.yml",
+      "id": "DEC-000098",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "状況横断一貫性",
+      "name_en": "Cross-Situation Consistency",
+      "category": "Decision Strategy",
+      "attribute": "Observation and Integration",
+      "definition_ja": "状況横断一貫性は、異なる判断場面で似た過程が再現する度合いを表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:観測と統合",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "観測と統合"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "状況横断一貫性と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000099_decision_strategy_profile.yml",
+      "id": "DEC-000099",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "意思決定戦略プロファイル",
+      "name_en": "Decision Strategy Profile",
+      "category": "Decision Strategy",
+      "attribute": "Observation and Integration",
+      "definition_ja": "意思決定戦略プロファイルは、複数の判断過程を文脈別に整理する枠組みを表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:観測と統合",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "観測と統合"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "意思決定戦略プロファイルと整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "DEC-000100_decision_strategy_integration.yml",
+      "id": "DEC-000100",
+      "knowledge_type": "decision_strategy",
+      "name_ja": "意思決定戦略統合",
+      "name_en": "Decision Strategy Integration",
+      "category": "Decision Strategy",
+      "attribute": "Observation and Integration",
+      "definition_ja": "意思決定戦略統合は、観測・補正・根拠を安全に接続するための統合枠組みを表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。",
+      "tags": [
+        "CAT:意思決定戦略",
+        "CAT:観測と統合",
+        "ATTR:判断過程"
+      ],
+      "parent": [
+        "観測と統合"
+      ],
+      "related": [
+        "意思決定",
+        "行動観測",
+        "認知過程"
+      ],
+      "observable_data": [
+        "選択肢の提示・閲覧・比較ログ",
+        "情報探索と確認の時系列",
+        "判断・保留・変更の時刻",
+        "選択後の実行と結果"
+      ],
+      "signal_candidates": [
+        "意思決定戦略統合と整合する判断過程が複数場面で観測される",
+        "重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する"
+      ],
+      "device_level": "アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能",
+      "modifiers": [
+        "判断領域",
+        "結果の重要度",
+        "領域知識",
+        "情報利用可能性",
+        "時間圧",
+        "感情・身体状態",
+        "社会的役割",
+        "可逆性"
+      ],
+      "evidence": "意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照",
+      "status": "active"
+    }
+  ]
+}

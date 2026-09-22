@@ -1,11 +1,11 @@
 {
   "output_dir": "vol5_cognitive_science/cognitive_science_151_200",
   "index_filename": "cognitive_science_151_200_index.yml",
-  "index_content": "category: Cognitive Science\nname_ja: 認知科学\nitems:\n  - COGSCI-000151_intrinsic_motivation.yml\n  - COGSCI-000152_extrinsic_motivation.yml\n  - COGSCI-000153_self_determination.yml\n  - COGSCI-000154_competence_need.yml\n  - COGSCI-000155_autonomy_need.yml\n  - COGSCI-000156_relatedness_need.yml\n  - COGSCI-000157_achievement_motivation.yml\n  - COGSCI-000158_avoidance_motivation.yml\n  - COGSCI-000159_approach_motivation.yml\n  - COGSCI-000160_goal_orientation.yml\n  - COGSCI-000161_creativity.yml\n  - COGSCI-000162_divergent_thinking.yml\n  - COGSCI-000163_convergent_thinking.yml\n  - COGSCI-000164_idea_generation.yml\n  - COGSCI-000165_remote_association.yml\n  - COGSCI-000166_conceptual_combination.yml\n  - COGSCI-000167_creative_flexibility.yml\n  - COGSCI-000168_creative_persistence.yml\n  - COGSCI-000169_incubation_effect.yml\n  - COGSCI-000170_insight.yml\n  - COGSCI-000171_choice_architecture.yml\n  - COGSCI-000172_nudge.yml\n  - COGSCI-000173_default_option.yml\n  - COGSCI-000174_choice_set.yml\n  - COGSCI-000175_option_framing.yml\n  - COGSCI-000176_commitment_device.yml\n  - COGSCI-000177_feedback_design.yml\n  - COGSCI-000178_progress_visualization.yml\n  - COGSCI-000179_social_proof_design.yml\n  - COGSCI-000180_friction_design.yml\n  - COGSCI-000181_usability.yml\n  - COGSCI-000182_learnability.yml\n  - COGSCI-000183_discoverability.yml\n  - COGSCI-000184_affordance.yml\n  - COGSCI-000185_signifier.yml\n  - COGSCI-000186_cognitive_walkthrough.yml\n  - COGSCI-000187_error_prevention.yml\n  - COGSCI-000188_error_recovery.yml\n  - COGSCI-000189_interaction_cost.yml\n  - COGSCI-000190_user_flow.yml\n  - COGSCI-000191_adaptation.yml\n  - COGSCI-000192_behavioral_adaptation.yml\n  - COGSCI-000193_cognitive_adaptation.yml\n  - COGSCI-000194_strategy_shift.yml\n  - COGSCI-000195_resilience_process.yml\n  - COGSCI-000196_behavioral_plasticity.yml\n  - COGSCI-000197_context_sensitivity.yml\n  - COGSCI-000198_transfer_adaptation.yml\n  - COGSCI-000199_novelty_adaptation.yml\n  - COGSCI-000200_uncertainty_adaptation.yml\nnotes:\n  - 認知科学は能力評価そのものではなく推論材料として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
+  "index_content": "category: Cognitive Science\nname_ja: 認知科学\nitems:\n  - CSC-000151_intrinsic_motivation.yml\n  - CSC-000152_extrinsic_motivation.yml\n  - CSC-000153_self_determination.yml\n  - CSC-000154_competence_need.yml\n  - CSC-000155_autonomy_need.yml\n  - CSC-000156_relatedness_need.yml\n  - CSC-000157_achievement_motivation.yml\n  - CSC-000158_avoidance_motivation.yml\n  - CSC-000159_approach_motivation.yml\n  - CSC-000160_goal_orientation.yml\n  - CSC-000161_creativity.yml\n  - CSC-000162_divergent_thinking.yml\n  - CSC-000163_convergent_thinking.yml\n  - CSC-000164_idea_generation.yml\n  - CSC-000165_remote_association.yml\n  - CSC-000166_conceptual_combination.yml\n  - CSC-000167_creative_flexibility.yml\n  - CSC-000168_creative_persistence.yml\n  - CSC-000169_incubation_effect.yml\n  - CSC-000170_insight.yml\n  - CSC-000171_choice_architecture.yml\n  - CSC-000172_nudge.yml\n  - CSC-000173_default_option.yml\n  - CSC-000174_choice_set.yml\n  - CSC-000175_option_framing.yml\n  - CSC-000176_commitment_device.yml\n  - CSC-000177_feedback_design.yml\n  - CSC-000178_progress_visualization.yml\n  - CSC-000179_social_proof_design.yml\n  - CSC-000180_friction_design.yml\n  - CSC-000181_usability.yml\n  - CSC-000182_learnability.yml\n  - CSC-000183_discoverability.yml\n  - CSC-000184_affordance.yml\n  - CSC-000185_signifier.yml\n  - CSC-000186_cognitive_walkthrough.yml\n  - CSC-000187_error_prevention.yml\n  - CSC-000188_error_recovery.yml\n  - CSC-000189_interaction_cost.yml\n  - CSC-000190_user_flow.yml\n  - CSC-000191_adaptation.yml\n  - CSC-000192_behavioral_adaptation.yml\n  - CSC-000193_cognitive_adaptation.yml\n  - CSC-000194_strategy_shift.yml\n  - CSC-000195_resilience_process.yml\n  - CSC-000196_behavioral_plasticity.yml\n  - CSC-000197_context_sensitivity.yml\n  - CSC-000198_transfer_adaptation.yml\n  - CSC-000199_novelty_adaptation.yml\n  - CSC-000200_uncertainty_adaptation.yml\nnotes:\n  - 認知科学は能力評価そのものではなく推論材料として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
   "items": [
     {
-      "filename": "COGSCI-000151_intrinsic_motivation.yml",
-      "id": "COGSCI-000151",
+      "filename": "CSC-000151_intrinsic_motivation.yml",
+      "id": "CSC-000151",
       "knowledge_type": "cognitive_science",
       "name_ja": "内発的動機づけ",
       "name_en": "Intrinsic Motivation",
@@ -46,8 +46,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000152_extrinsic_motivation.yml",
-      "id": "COGSCI-000152",
+      "filename": "CSC-000152_extrinsic_motivation.yml",
+      "id": "CSC-000152",
       "knowledge_type": "cognitive_science",
       "name_ja": "外発的動機づけ",
       "name_en": "Extrinsic Motivation",
@@ -88,8 +88,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000153_self_determination.yml",
-      "id": "COGSCI-000153",
+      "filename": "CSC-000153_self_determination.yml",
+      "id": "CSC-000153",
       "knowledge_type": "cognitive_science",
       "name_ja": "自己決定",
       "name_en": "Self Determination",
@@ -130,8 +130,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000154_competence_need.yml",
-      "id": "COGSCI-000154",
+      "filename": "CSC-000154_competence_need.yml",
+      "id": "CSC-000154",
       "knowledge_type": "cognitive_science",
       "name_ja": "有能感欲求",
       "name_en": "Competence Need",
@@ -172,8 +172,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000155_autonomy_need.yml",
-      "id": "COGSCI-000155",
+      "filename": "CSC-000155_autonomy_need.yml",
+      "id": "CSC-000155",
       "knowledge_type": "cognitive_science",
       "name_ja": "自律性欲求",
       "name_en": "Autonomy Need",
@@ -214,8 +214,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000156_relatedness_need.yml",
-      "id": "COGSCI-000156",
+      "filename": "CSC-000156_relatedness_need.yml",
+      "id": "CSC-000156",
       "knowledge_type": "cognitive_science",
       "name_ja": "関係性欲求",
       "name_en": "Relatedness Need",
@@ -256,8 +256,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000157_achievement_motivation.yml",
-      "id": "COGSCI-000157",
+      "filename": "CSC-000157_achievement_motivation.yml",
+      "id": "CSC-000157",
       "knowledge_type": "cognitive_science",
       "name_ja": "達成動機",
       "name_en": "Achievement Motivation",
@@ -298,8 +298,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000158_avoidance_motivation.yml",
-      "id": "COGSCI-000158",
+      "filename": "CSC-000158_avoidance_motivation.yml",
+      "id": "CSC-000158",
       "knowledge_type": "cognitive_science",
       "name_ja": "回避動機",
       "name_en": "Avoidance Motivation",
@@ -340,8 +340,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000159_approach_motivation.yml",
-      "id": "COGSCI-000159",
+      "filename": "CSC-000159_approach_motivation.yml",
+      "id": "CSC-000159",
       "knowledge_type": "cognitive_science",
       "name_ja": "接近動機",
       "name_en": "Approach Motivation",
@@ -382,8 +382,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000160_goal_orientation.yml",
-      "id": "COGSCI-000160",
+      "filename": "CSC-000160_goal_orientation.yml",
+      "id": "CSC-000160",
       "knowledge_type": "cognitive_science",
       "name_ja": "目標志向性",
       "name_en": "Goal Orientation",
@@ -424,8 +424,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000161_creativity.yml",
-      "id": "COGSCI-000161",
+      "filename": "CSC-000161_creativity.yml",
+      "id": "CSC-000161",
       "knowledge_type": "cognitive_science",
       "name_ja": "創造性",
       "name_en": "Creativity",
@@ -466,8 +466,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000162_divergent_thinking.yml",
-      "id": "COGSCI-000162",
+      "filename": "CSC-000162_divergent_thinking.yml",
+      "id": "CSC-000162",
       "knowledge_type": "cognitive_science",
       "name_ja": "拡散的思考",
       "name_en": "Divergent Thinking",
@@ -508,8 +508,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000163_convergent_thinking.yml",
-      "id": "COGSCI-000163",
+      "filename": "CSC-000163_convergent_thinking.yml",
+      "id": "CSC-000163",
       "knowledge_type": "cognitive_science",
       "name_ja": "収束的思考",
       "name_en": "Convergent Thinking",
@@ -550,8 +550,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000164_idea_generation.yml",
-      "id": "COGSCI-000164",
+      "filename": "CSC-000164_idea_generation.yml",
+      "id": "CSC-000164",
       "knowledge_type": "cognitive_science",
       "name_ja": "アイデア生成",
       "name_en": "Idea Generation",
@@ -592,8 +592,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000165_remote_association.yml",
-      "id": "COGSCI-000165",
+      "filename": "CSC-000165_remote_association.yml",
+      "id": "CSC-000165",
       "knowledge_type": "cognitive_science",
       "name_ja": "遠隔連想",
       "name_en": "Remote Association",
@@ -634,8 +634,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000166_conceptual_combination.yml",
-      "id": "COGSCI-000166",
+      "filename": "CSC-000166_conceptual_combination.yml",
+      "id": "CSC-000166",
       "knowledge_type": "cognitive_science",
       "name_ja": "概念結合",
       "name_en": "Conceptual Combination",
@@ -676,8 +676,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000167_creative_flexibility.yml",
-      "id": "COGSCI-000167",
+      "filename": "CSC-000167_creative_flexibility.yml",
+      "id": "CSC-000167",
       "knowledge_type": "cognitive_science",
       "name_ja": "創造的柔軟性",
       "name_en": "Creative Flexibility",
@@ -718,8 +718,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000168_creative_persistence.yml",
-      "id": "COGSCI-000168",
+      "filename": "CSC-000168_creative_persistence.yml",
+      "id": "CSC-000168",
       "knowledge_type": "cognitive_science",
       "name_ja": "創造的粘り強さ",
       "name_en": "Creative Persistence",
@@ -760,8 +760,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000169_incubation_effect.yml",
-      "id": "COGSCI-000169",
+      "filename": "CSC-000169_incubation_effect.yml",
+      "id": "CSC-000169",
       "knowledge_type": "cognitive_science",
       "name_ja": "孵化効果",
       "name_en": "Incubation Effect",
@@ -802,8 +802,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000170_insight.yml",
-      "id": "COGSCI-000170",
+      "filename": "CSC-000170_insight.yml",
+      "id": "CSC-000170",
       "knowledge_type": "cognitive_science",
       "name_ja": "洞察",
       "name_en": "Insight",
@@ -844,8 +844,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000171_choice_architecture.yml",
-      "id": "COGSCI-000171",
+      "filename": "CSC-000171_choice_architecture.yml",
+      "id": "CSC-000171",
       "knowledge_type": "cognitive_science",
       "name_ja": "選択設計",
       "name_en": "Choice Architecture",
@@ -886,8 +886,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000172_nudge.yml",
-      "id": "COGSCI-000172",
+      "filename": "CSC-000172_nudge.yml",
+      "id": "CSC-000172",
       "knowledge_type": "cognitive_science",
       "name_ja": "ナッジ",
       "name_en": "Nudge",
@@ -928,8 +928,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000173_default_option.yml",
-      "id": "COGSCI-000173",
+      "filename": "CSC-000173_default_option.yml",
+      "id": "CSC-000173",
       "knowledge_type": "cognitive_science",
       "name_ja": "デフォルト選択肢",
       "name_en": "Default Option",
@@ -970,8 +970,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000174_choice_set.yml",
-      "id": "COGSCI-000174",
+      "filename": "CSC-000174_choice_set.yml",
+      "id": "CSC-000174",
       "knowledge_type": "cognitive_science",
       "name_ja": "選択肢集合",
       "name_en": "Choice Set",
@@ -1012,8 +1012,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000175_option_framing.yml",
-      "id": "COGSCI-000175",
+      "filename": "CSC-000175_option_framing.yml",
+      "id": "CSC-000175",
       "knowledge_type": "cognitive_science",
       "name_ja": "選択肢フレーミング",
       "name_en": "Option Framing",
@@ -1054,8 +1054,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000176_commitment_device.yml",
-      "id": "COGSCI-000176",
+      "filename": "CSC-000176_commitment_device.yml",
+      "id": "CSC-000176",
       "knowledge_type": "cognitive_science",
       "name_ja": "コミットメント装置",
       "name_en": "Commitment Device",
@@ -1096,8 +1096,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000177_feedback_design.yml",
-      "id": "COGSCI-000177",
+      "filename": "CSC-000177_feedback_design.yml",
+      "id": "CSC-000177",
       "knowledge_type": "cognitive_science",
       "name_ja": "フィードバック設計",
       "name_en": "Feedback Design",
@@ -1138,8 +1138,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000178_progress_visualization.yml",
-      "id": "COGSCI-000178",
+      "filename": "CSC-000178_progress_visualization.yml",
+      "id": "CSC-000178",
       "knowledge_type": "cognitive_science",
       "name_ja": "進捗可視化",
       "name_en": "Progress Visualization",
@@ -1180,8 +1180,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000179_social_proof_design.yml",
-      "id": "COGSCI-000179",
+      "filename": "CSC-000179_social_proof_design.yml",
+      "id": "CSC-000179",
       "knowledge_type": "cognitive_science",
       "name_ja": "社会的証明設計",
       "name_en": "Social Proof Design",
@@ -1222,8 +1222,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000180_friction_design.yml",
-      "id": "COGSCI-000180",
+      "filename": "CSC-000180_friction_design.yml",
+      "id": "CSC-000180",
       "knowledge_type": "cognitive_science",
       "name_ja": "摩擦設計",
       "name_en": "Friction Design",
@@ -1264,8 +1264,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000181_usability.yml",
-      "id": "COGSCI-000181",
+      "filename": "CSC-000181_usability.yml",
+      "id": "CSC-000181",
       "knowledge_type": "cognitive_science",
       "name_ja": "ユーザビリティ",
       "name_en": "Usability",
@@ -1306,8 +1306,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000182_learnability.yml",
-      "id": "COGSCI-000182",
+      "filename": "CSC-000182_learnability.yml",
+      "id": "CSC-000182",
       "knowledge_type": "cognitive_science",
       "name_ja": "学習容易性",
       "name_en": "Learnability",
@@ -1348,8 +1348,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000183_discoverability.yml",
-      "id": "COGSCI-000183",
+      "filename": "CSC-000183_discoverability.yml",
+      "id": "CSC-000183",
       "knowledge_type": "cognitive_science",
       "name_ja": "発見可能性",
       "name_en": "Discoverability",
@@ -1390,8 +1390,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000184_affordance.yml",
-      "id": "COGSCI-000184",
+      "filename": "CSC-000184_affordance.yml",
+      "id": "CSC-000184",
       "knowledge_type": "cognitive_science",
       "name_ja": "アフォーダンス",
       "name_en": "Affordance",
@@ -1432,8 +1432,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000185_signifier.yml",
-      "id": "COGSCI-000185",
+      "filename": "CSC-000185_signifier.yml",
+      "id": "CSC-000185",
       "knowledge_type": "cognitive_science",
       "name_ja": "シグニファイア",
       "name_en": "Signifier",
@@ -1474,8 +1474,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000186_cognitive_walkthrough.yml",
-      "id": "COGSCI-000186",
+      "filename": "CSC-000186_cognitive_walkthrough.yml",
+      "id": "CSC-000186",
       "knowledge_type": "cognitive_science",
       "name_ja": "認知的ウォークスルー",
       "name_en": "Cognitive Walkthrough",
@@ -1516,8 +1516,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000187_error_prevention.yml",
-      "id": "COGSCI-000187",
+      "filename": "CSC-000187_error_prevention.yml",
+      "id": "CSC-000187",
       "knowledge_type": "cognitive_science",
       "name_ja": "エラー防止",
       "name_en": "Error Prevention",
@@ -1558,8 +1558,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000188_error_recovery.yml",
-      "id": "COGSCI-000188",
+      "filename": "CSC-000188_error_recovery.yml",
+      "id": "CSC-000188",
       "knowledge_type": "cognitive_science",
       "name_ja": "エラー回復",
       "name_en": "Error Recovery",
@@ -1600,8 +1600,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000189_interaction_cost.yml",
-      "id": "COGSCI-000189",
+      "filename": "CSC-000189_interaction_cost.yml",
+      "id": "CSC-000189",
       "knowledge_type": "cognitive_science",
       "name_ja": "インタラクションコスト",
       "name_en": "Interaction Cost",
@@ -1642,8 +1642,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000190_user_flow.yml",
-      "id": "COGSCI-000190",
+      "filename": "CSC-000190_user_flow.yml",
+      "id": "CSC-000190",
       "knowledge_type": "cognitive_science",
       "name_ja": "ユーザーフロー",
       "name_en": "User Flow",
@@ -1684,8 +1684,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000191_adaptation.yml",
-      "id": "COGSCI-000191",
+      "filename": "CSC-000191_adaptation.yml",
+      "id": "CSC-000191",
       "knowledge_type": "cognitive_science",
       "name_ja": "適応",
       "name_en": "Adaptation",
@@ -1726,8 +1726,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000192_behavioral_adaptation.yml",
-      "id": "COGSCI-000192",
+      "filename": "CSC-000192_behavioral_adaptation.yml",
+      "id": "CSC-000192",
       "knowledge_type": "cognitive_science",
       "name_ja": "行動適応",
       "name_en": "Behavioral Adaptation",
@@ -1768,8 +1768,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000193_cognitive_adaptation.yml",
-      "id": "COGSCI-000193",
+      "filename": "CSC-000193_cognitive_adaptation.yml",
+      "id": "CSC-000193",
       "knowledge_type": "cognitive_science",
       "name_ja": "認知的適応",
       "name_en": "Cognitive Adaptation",
@@ -1810,8 +1810,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000194_strategy_shift.yml",
-      "id": "COGSCI-000194",
+      "filename": "CSC-000194_strategy_shift.yml",
+      "id": "CSC-000194",
       "knowledge_type": "cognitive_science",
       "name_ja": "方略転換",
       "name_en": "Strategy Shift",
@@ -1852,8 +1852,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000195_resilience_process.yml",
-      "id": "COGSCI-000195",
+      "filename": "CSC-000195_resilience_process.yml",
+      "id": "CSC-000195",
       "knowledge_type": "cognitive_science",
       "name_ja": "レジリエンス過程",
       "name_en": "Resilience Process",
@@ -1894,8 +1894,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000196_behavioral_plasticity.yml",
-      "id": "COGSCI-000196",
+      "filename": "CSC-000196_behavioral_plasticity.yml",
+      "id": "CSC-000196",
       "knowledge_type": "cognitive_science",
       "name_ja": "行動可塑性",
       "name_en": "Behavioral Plasticity",
@@ -1936,8 +1936,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000197_context_sensitivity.yml",
-      "id": "COGSCI-000197",
+      "filename": "CSC-000197_context_sensitivity.yml",
+      "id": "CSC-000197",
       "knowledge_type": "cognitive_science",
       "name_ja": "文脈感受性",
       "name_en": "Context Sensitivity",
@@ -1978,8 +1978,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000198_transfer_adaptation.yml",
-      "id": "COGSCI-000198",
+      "filename": "CSC-000198_transfer_adaptation.yml",
+      "id": "CSC-000198",
       "knowledge_type": "cognitive_science",
       "name_ja": "転移適応",
       "name_en": "Transfer Adaptation",
@@ -2020,8 +2020,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000199_novelty_adaptation.yml",
-      "id": "COGSCI-000199",
+      "filename": "CSC-000199_novelty_adaptation.yml",
+      "id": "CSC-000199",
       "knowledge_type": "cognitive_science",
       "name_ja": "新奇性適応",
       "name_en": "Novelty Adaptation",
@@ -2062,8 +2062,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000200_uncertainty_adaptation.yml",
-      "id": "COGSCI-000200",
+      "filename": "CSC-000200_uncertainty_adaptation.yml",
+      "id": "CSC-000200",
       "knowledge_type": "cognitive_science",
       "name_ja": "不確実性適応",
       "name_en": "Uncertainty Adaptation",

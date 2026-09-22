@@ -1,11 +1,11 @@
 {
   "output_dir": "vol13_evidence_sources/evidence_sources_001_050",
   "index_filename": "evidence_sources_001_050_index.yml",
-  "index_content": "category: Evidence Source\nname_ja: 根拠\nitems:\n  - EVID-000001_cognitive_psychology_evidence.yml\n  - EVID-000002_personality_psychology_evidence.yml\n  - EVID-000003_social_psychology_evidence.yml\n  - EVID-000004_developmental_psychology_evidence.yml\n  - EVID-000005_educational_psychology_evidence.yml\n  - EVID-000006_clinical_psychology_evidence.yml\n  - EVID-000007_health_psychology_evidence.yml\n  - EVID-000008_organizational_psychology_evidence.yml\n  - EVID-000009_environmental_psychology_evidence.yml\n  - EVID-000010_positive_psychology_evidence.yml\n  - EVID-000011_cognitive_science_evidence.yml\n  - EVID-000012_decision_science_evidence.yml\n  - EVID-000013_behavioral_economics_evidence.yml\n  - EVID-000014_learning_science_evidence.yml\n  - EVID-000015_human_factors_evidence.yml\n  - EVID-000016_hci_evidence.yml\n  - EVID-000017_ux_research_evidence.yml\n  - EVID-000018_information_behavior_evidence.yml\n  - EVID-000019_behavior_change_evidence.yml\n  - EVID-000020_computational_behavior_evidence.yml\n  - EVID-000021_neuroscience_evidence.yml\n  - EVID-000022_cognitive_neuroscience_evidence.yml\n  - EVID-000023_affective_neuroscience_evidence.yml\n  - EVID-000024_social_neuroscience_evidence.yml\n  - EVID-000025_physiological_psychology_evidence.yml\n  - EVID-000026_sleep_research_evidence.yml\n  - EVID-000027_stress_research_evidence.yml\n  - EVID-000028_psychophysiology_evidence.yml\n  - EVID-000029_exercise_cognition_evidence.yml\n  - EVID-000030_nutrition_cognition_evidence.yml\n  - EVID-000031_psychometrics_evidence.yml\n  - EVID-000032_reliability_evidence.yml\n  - EVID-000033_validity_evidence.yml\n  - EVID-000034_construct_validity_evidence.yml\n  - EVID-000035_criterion_validity_evidence.yml\n  - EVID-000036_ecological_validity_evidence.yml\n  - EVID-000037_behavior_log_evidence.yml\n  - EVID-000038_self_report_evidence.yml\n  - EVID-000039_longitudinal_evidence.yml\n  - EVID-000040_experimental_evidence.yml\n  - EVID-000041_observational_evidence.yml\n  - EVID-000042_meta_analysis_evidence.yml\n  - EVID-000043_systematic_review_evidence.yml\n  - EVID-000044_replication_evidence.yml\n  - EVID-000045_effect_size_evidence.yml\n  - EVID-000046_confidence_level_evidence.yml\n  - EVID-000047_bias_risk_evidence.yml\n  - EVID-000048_ethical_evidence_use.yml\n  - EVID-000049_domain_limit_evidence.yml\n  - EVID-000050_evidence_integration.yml\nnotes:\n  - 根拠は知識項目の品質管理材料として扱う\n  - Knowledge DB側では推論しない\n  - アプリ側で根拠強度や表示の慎重さに利用する\n",
+  "index_content": "category: Evidence Source\nname_ja: 根拠\nitems:\n  - EVD-000001_cognitive_psychology_evidence.yml\n  - EVD-000002_personality_psychology_evidence.yml\n  - EVD-000003_social_psychology_evidence.yml\n  - EVD-000004_developmental_psychology_evidence.yml\n  - EVD-000005_educational_psychology_evidence.yml\n  - EVD-000006_clinical_psychology_evidence.yml\n  - EVD-000007_health_psychology_evidence.yml\n  - EVD-000008_organizational_psychology_evidence.yml\n  - EVD-000009_environmental_psychology_evidence.yml\n  - EVD-000010_positive_psychology_evidence.yml\n  - EVD-000011_cognitive_science_evidence.yml\n  - EVD-000012_decision_science_evidence.yml\n  - EVD-000013_behavioral_economics_evidence.yml\n  - EVD-000014_learning_science_evidence.yml\n  - EVD-000015_human_factors_evidence.yml\n  - EVD-000016_hci_evidence.yml\n  - EVD-000017_ux_research_evidence.yml\n  - EVD-000018_information_behavior_evidence.yml\n  - EVD-000019_behavior_change_evidence.yml\n  - EVD-000020_computational_behavior_evidence.yml\n  - EVD-000021_neuroscience_evidence.yml\n  - EVD-000022_cognitive_neuroscience_evidence.yml\n  - EVD-000023_affective_neuroscience_evidence.yml\n  - EVD-000024_social_neuroscience_evidence.yml\n  - EVD-000025_physiological_psychology_evidence.yml\n  - EVD-000026_sleep_research_evidence.yml\n  - EVD-000027_stress_research_evidence.yml\n  - EVD-000028_psychophysiology_evidence.yml\n  - EVD-000029_exercise_cognition_evidence.yml\n  - EVD-000030_nutrition_cognition_evidence.yml\n  - EVD-000031_psychometrics_evidence.yml\n  - EVD-000032_reliability_evidence.yml\n  - EVD-000033_validity_evidence.yml\n  - EVD-000034_construct_validity_evidence.yml\n  - EVD-000035_criterion_validity_evidence.yml\n  - EVD-000036_ecological_validity_evidence.yml\n  - EVD-000037_behavior_log_evidence.yml\n  - EVD-000038_self_report_evidence.yml\n  - EVD-000039_longitudinal_evidence.yml\n  - EVD-000040_experimental_evidence.yml\n  - EVD-000041_observational_evidence.yml\n  - EVD-000042_meta_analysis_evidence.yml\n  - EVD-000043_systematic_review_evidence.yml\n  - EVD-000044_replication_evidence.yml\n  - EVD-000045_effect_size_evidence.yml\n  - EVD-000046_confidence_level_evidence.yml\n  - EVD-000047_bias_risk_evidence.yml\n  - EVD-000048_ethical_evidence_use.yml\n  - EVD-000049_domain_limit_evidence.yml\n  - EVD-000050_evidence_integration.yml\nnotes:\n  - 根拠は知識項目の品質管理材料として扱う\n  - Knowledge DB側では推論しない\n  - アプリ側で根拠強度や表示の慎重さに利用する\n",
   "items": [
     {
-      "filename": "EVID-000001_cognitive_psychology_evidence.yml",
-      "id": "EVID-000001",
+      "filename": "EVD-000001_cognitive_psychology_evidence.yml",
+      "id": "EVD-000001",
       "knowledge_type": "evidence_source",
       "name_ja": "認知心理学根拠",
       "name_en": "Cognitive Psychology Evidence",
@@ -46,8 +46,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000002_personality_psychology_evidence.yml",
-      "id": "EVID-000002",
+      "filename": "EVD-000002_personality_psychology_evidence.yml",
+      "id": "EVD-000002",
       "knowledge_type": "evidence_source",
       "name_ja": "性格心理学根拠",
       "name_en": "Personality Psychology Evidence",
@@ -88,8 +88,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000003_social_psychology_evidence.yml",
-      "id": "EVID-000003",
+      "filename": "EVD-000003_social_psychology_evidence.yml",
+      "id": "EVD-000003",
       "knowledge_type": "evidence_source",
       "name_ja": "社会心理学根拠",
       "name_en": "Social Psychology Evidence",
@@ -130,8 +130,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000004_developmental_psychology_evidence.yml",
-      "id": "EVID-000004",
+      "filename": "EVD-000004_developmental_psychology_evidence.yml",
+      "id": "EVD-000004",
       "knowledge_type": "evidence_source",
       "name_ja": "発達心理学根拠",
       "name_en": "Developmental Psychology Evidence",
@@ -172,8 +172,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000005_educational_psychology_evidence.yml",
-      "id": "EVID-000005",
+      "filename": "EVD-000005_educational_psychology_evidence.yml",
+      "id": "EVD-000005",
       "knowledge_type": "evidence_source",
       "name_ja": "教育心理学根拠",
       "name_en": "Educational Psychology Evidence",
@@ -214,8 +214,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000006_clinical_psychology_evidence.yml",
-      "id": "EVID-000006",
+      "filename": "EVD-000006_clinical_psychology_evidence.yml",
+      "id": "EVD-000006",
       "knowledge_type": "evidence_source",
       "name_ja": "臨床心理学根拠",
       "name_en": "Clinical Psychology Evidence",
@@ -256,8 +256,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000007_health_psychology_evidence.yml",
-      "id": "EVID-000007",
+      "filename": "EVD-000007_health_psychology_evidence.yml",
+      "id": "EVD-000007",
       "knowledge_type": "evidence_source",
       "name_ja": "健康心理学根拠",
       "name_en": "Health Psychology Evidence",
@@ -298,8 +298,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000008_organizational_psychology_evidence.yml",
-      "id": "EVID-000008",
+      "filename": "EVD-000008_organizational_psychology_evidence.yml",
+      "id": "EVD-000008",
       "knowledge_type": "evidence_source",
       "name_ja": "組織心理学根拠",
       "name_en": "Organizational Psychology Evidence",
@@ -340,8 +340,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000009_environmental_psychology_evidence.yml",
-      "id": "EVID-000009",
+      "filename": "EVD-000009_environmental_psychology_evidence.yml",
+      "id": "EVD-000009",
       "knowledge_type": "evidence_source",
       "name_ja": "環境心理学根拠",
       "name_en": "Environmental Psychology Evidence",
@@ -382,8 +382,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000010_positive_psychology_evidence.yml",
-      "id": "EVID-000010",
+      "filename": "EVD-000010_positive_psychology_evidence.yml",
+      "id": "EVD-000010",
       "knowledge_type": "evidence_source",
       "name_ja": "ポジティブ心理学根拠",
       "name_en": "Positive Psychology Evidence",
@@ -424,8 +424,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000011_cognitive_science_evidence.yml",
-      "id": "EVID-000011",
+      "filename": "EVD-000011_cognitive_science_evidence.yml",
+      "id": "EVD-000011",
       "knowledge_type": "evidence_source",
       "name_ja": "認知科学根拠",
       "name_en": "Cognitive Science Evidence",
@@ -466,8 +466,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000012_decision_science_evidence.yml",
-      "id": "EVID-000012",
+      "filename": "EVD-000012_decision_science_evidence.yml",
+      "id": "EVD-000012",
       "knowledge_type": "evidence_source",
       "name_ja": "意思決定科学根拠",
       "name_en": "Decision Science Evidence",
@@ -508,8 +508,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000013_behavioral_economics_evidence.yml",
-      "id": "EVID-000013",
+      "filename": "EVD-000013_behavioral_economics_evidence.yml",
+      "id": "EVD-000013",
       "knowledge_type": "evidence_source",
       "name_ja": "行動経済学根拠",
       "name_en": "Behavioral Economics Evidence",
@@ -550,8 +550,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000014_learning_science_evidence.yml",
-      "id": "EVID-000014",
+      "filename": "EVD-000014_learning_science_evidence.yml",
+      "id": "EVD-000014",
       "knowledge_type": "evidence_source",
       "name_ja": "学習科学根拠",
       "name_en": "Learning Science Evidence",
@@ -592,8 +592,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000015_human_factors_evidence.yml",
-      "id": "EVID-000015",
+      "filename": "EVD-000015_human_factors_evidence.yml",
+      "id": "EVD-000015",
       "knowledge_type": "evidence_source",
       "name_ja": "ヒューマンファクター根拠",
       "name_en": "Human Factors Evidence",
@@ -634,8 +634,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000016_hci_evidence.yml",
-      "id": "EVID-000016",
+      "filename": "EVD-000016_hci_evidence.yml",
+      "id": "EVD-000016",
       "knowledge_type": "evidence_source",
       "name_ja": "HCI根拠",
       "name_en": "Human Computer Interaction Evidence",
@@ -676,8 +676,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000017_ux_research_evidence.yml",
-      "id": "EVID-000017",
+      "filename": "EVD-000017_ux_research_evidence.yml",
+      "id": "EVD-000017",
       "knowledge_type": "evidence_source",
       "name_ja": "UX研究根拠",
       "name_en": "UX Research Evidence",
@@ -718,8 +718,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000018_information_behavior_evidence.yml",
-      "id": "EVID-000018",
+      "filename": "EVD-000018_information_behavior_evidence.yml",
+      "id": "EVD-000018",
       "knowledge_type": "evidence_source",
       "name_ja": "情報行動研究根拠",
       "name_en": "Information Behavior Evidence",
@@ -760,8 +760,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000019_behavior_change_evidence.yml",
-      "id": "EVID-000019",
+      "filename": "EVD-000019_behavior_change_evidence.yml",
+      "id": "EVD-000019",
       "knowledge_type": "evidence_source",
       "name_ja": "行動変容研究根拠",
       "name_en": "Behavior Change Evidence",
@@ -802,8 +802,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000020_computational_behavior_evidence.yml",
-      "id": "EVID-000020",
+      "filename": "EVD-000020_computational_behavior_evidence.yml",
+      "id": "EVD-000020",
       "knowledge_type": "evidence_source",
       "name_ja": "計算行動科学根拠",
       "name_en": "Computational Behavioral Science Evidence",
@@ -844,8 +844,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000021_neuroscience_evidence.yml",
-      "id": "EVID-000021",
+      "filename": "EVD-000021_neuroscience_evidence.yml",
+      "id": "EVD-000021",
       "knowledge_type": "evidence_source",
       "name_ja": "神経科学根拠",
       "name_en": "Neuroscience Evidence",
@@ -886,8 +886,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000022_cognitive_neuroscience_evidence.yml",
-      "id": "EVID-000022",
+      "filename": "EVD-000022_cognitive_neuroscience_evidence.yml",
+      "id": "EVD-000022",
       "knowledge_type": "evidence_source",
       "name_ja": "認知神経科学根拠",
       "name_en": "Cognitive Neuroscience Evidence",
@@ -928,8 +928,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000023_affective_neuroscience_evidence.yml",
-      "id": "EVID-000023",
+      "filename": "EVD-000023_affective_neuroscience_evidence.yml",
+      "id": "EVD-000023",
       "knowledge_type": "evidence_source",
       "name_ja": "感情神経科学根拠",
       "name_en": "Affective Neuroscience Evidence",
@@ -970,8 +970,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000024_social_neuroscience_evidence.yml",
-      "id": "EVID-000024",
+      "filename": "EVD-000024_social_neuroscience_evidence.yml",
+      "id": "EVD-000024",
       "knowledge_type": "evidence_source",
       "name_ja": "社会神経科学根拠",
       "name_en": "Social Neuroscience Evidence",
@@ -1012,8 +1012,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000025_physiological_psychology_evidence.yml",
-      "id": "EVID-000025",
+      "filename": "EVD-000025_physiological_psychology_evidence.yml",
+      "id": "EVD-000025",
       "knowledge_type": "evidence_source",
       "name_ja": "生理心理学根拠",
       "name_en": "Physiological Psychology Evidence",
@@ -1054,8 +1054,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000026_sleep_research_evidence.yml",
-      "id": "EVID-000026",
+      "filename": "EVD-000026_sleep_research_evidence.yml",
+      "id": "EVD-000026",
       "knowledge_type": "evidence_source",
       "name_ja": "睡眠研究根拠",
       "name_en": "Sleep Research Evidence",
@@ -1096,8 +1096,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000027_stress_research_evidence.yml",
-      "id": "EVID-000027",
+      "filename": "EVD-000027_stress_research_evidence.yml",
+      "id": "EVD-000027",
       "knowledge_type": "evidence_source",
       "name_ja": "ストレス研究根拠",
       "name_en": "Stress Research Evidence",
@@ -1138,8 +1138,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000028_psychophysiology_evidence.yml",
-      "id": "EVID-000028",
+      "filename": "EVD-000028_psychophysiology_evidence.yml",
+      "id": "EVD-000028",
       "knowledge_type": "evidence_source",
       "name_ja": "精神生理学根拠",
       "name_en": "Psychophysiology Evidence",
@@ -1180,8 +1180,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000029_exercise_cognition_evidence.yml",
-      "id": "EVID-000029",
+      "filename": "EVD-000029_exercise_cognition_evidence.yml",
+      "id": "EVD-000029",
       "knowledge_type": "evidence_source",
       "name_ja": "運動認知研究根拠",
       "name_en": "Exercise Cognition Evidence",
@@ -1222,8 +1222,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000030_nutrition_cognition_evidence.yml",
-      "id": "EVID-000030",
+      "filename": "EVD-000030_nutrition_cognition_evidence.yml",
+      "id": "EVD-000030",
       "knowledge_type": "evidence_source",
       "name_ja": "栄養認知研究根拠",
       "name_en": "Nutrition Cognition Evidence",
@@ -1264,8 +1264,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000031_psychometrics_evidence.yml",
-      "id": "EVID-000031",
+      "filename": "EVD-000031_psychometrics_evidence.yml",
+      "id": "EVD-000031",
       "knowledge_type": "evidence_source",
       "name_ja": "心理測定根拠",
       "name_en": "Psychometrics Evidence",
@@ -1306,8 +1306,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000032_reliability_evidence.yml",
-      "id": "EVID-000032",
+      "filename": "EVD-000032_reliability_evidence.yml",
+      "id": "EVD-000032",
       "knowledge_type": "evidence_source",
       "name_ja": "信頼性根拠",
       "name_en": "Reliability Evidence",
@@ -1348,8 +1348,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000033_validity_evidence.yml",
-      "id": "EVID-000033",
+      "filename": "EVD-000033_validity_evidence.yml",
+      "id": "EVD-000033",
       "knowledge_type": "evidence_source",
       "name_ja": "妥当性根拠",
       "name_en": "Validity Evidence",
@@ -1390,8 +1390,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000034_construct_validity_evidence.yml",
-      "id": "EVID-000034",
+      "filename": "EVD-000034_construct_validity_evidence.yml",
+      "id": "EVD-000034",
       "knowledge_type": "evidence_source",
       "name_ja": "構成概念妥当性根拠",
       "name_en": "Construct Validity Evidence",
@@ -1432,8 +1432,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000035_criterion_validity_evidence.yml",
-      "id": "EVID-000035",
+      "filename": "EVD-000035_criterion_validity_evidence.yml",
+      "id": "EVD-000035",
       "knowledge_type": "evidence_source",
       "name_ja": "基準関連妥当性根拠",
       "name_en": "Criterion Validity Evidence",
@@ -1474,8 +1474,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000036_ecological_validity_evidence.yml",
-      "id": "EVID-000036",
+      "filename": "EVD-000036_ecological_validity_evidence.yml",
+      "id": "EVD-000036",
       "knowledge_type": "evidence_source",
       "name_ja": "生態学的妥当性根拠",
       "name_en": "Ecological Validity Evidence",
@@ -1516,8 +1516,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000037_behavior_log_evidence.yml",
-      "id": "EVID-000037",
+      "filename": "EVD-000037_behavior_log_evidence.yml",
+      "id": "EVD-000037",
       "knowledge_type": "evidence_source",
       "name_ja": "行動ログ根拠",
       "name_en": "Behavior Log Evidence",
@@ -1558,8 +1558,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000038_self_report_evidence.yml",
-      "id": "EVID-000038",
+      "filename": "EVD-000038_self_report_evidence.yml",
+      "id": "EVD-000038",
       "knowledge_type": "evidence_source",
       "name_ja": "自己報告根拠",
       "name_en": "Self Report Evidence",
@@ -1600,8 +1600,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000039_longitudinal_evidence.yml",
-      "id": "EVID-000039",
+      "filename": "EVD-000039_longitudinal_evidence.yml",
+      "id": "EVD-000039",
       "knowledge_type": "evidence_source",
       "name_ja": "縦断データ根拠",
       "name_en": "Longitudinal Evidence",
@@ -1642,8 +1642,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000040_experimental_evidence.yml",
-      "id": "EVID-000040",
+      "filename": "EVD-000040_experimental_evidence.yml",
+      "id": "EVD-000040",
       "knowledge_type": "evidence_source",
       "name_ja": "実験研究根拠",
       "name_en": "Experimental Evidence",
@@ -1684,8 +1684,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000041_observational_evidence.yml",
-      "id": "EVID-000041",
+      "filename": "EVD-000041_observational_evidence.yml",
+      "id": "EVD-000041",
       "knowledge_type": "evidence_source",
       "name_ja": "観察研究根拠",
       "name_en": "Observational Evidence",
@@ -1726,8 +1726,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000042_meta_analysis_evidence.yml",
-      "id": "EVID-000042",
+      "filename": "EVD-000042_meta_analysis_evidence.yml",
+      "id": "EVD-000042",
       "knowledge_type": "evidence_source",
       "name_ja": "メタ分析根拠",
       "name_en": "Meta Analysis Evidence",
@@ -1768,8 +1768,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000043_systematic_review_evidence.yml",
-      "id": "EVID-000043",
+      "filename": "EVD-000043_systematic_review_evidence.yml",
+      "id": "EVD-000043",
       "knowledge_type": "evidence_source",
       "name_ja": "系統的レビュー根拠",
       "name_en": "Systematic Review Evidence",
@@ -1810,8 +1810,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000044_replication_evidence.yml",
-      "id": "EVID-000044",
+      "filename": "EVD-000044_replication_evidence.yml",
+      "id": "EVD-000044",
       "knowledge_type": "evidence_source",
       "name_ja": "再現性根拠",
       "name_en": "Replication Evidence",
@@ -1852,8 +1852,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000045_effect_size_evidence.yml",
-      "id": "EVID-000045",
+      "filename": "EVD-000045_effect_size_evidence.yml",
+      "id": "EVD-000045",
       "knowledge_type": "evidence_source",
       "name_ja": "効果量根拠",
       "name_en": "Effect Size Evidence",
@@ -1894,8 +1894,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000046_confidence_level_evidence.yml",
-      "id": "EVID-000046",
+      "filename": "EVD-000046_confidence_level_evidence.yml",
+      "id": "EVD-000046",
       "knowledge_type": "evidence_source",
       "name_ja": "信頼水準根拠",
       "name_en": "Confidence Level Evidence",
@@ -1936,8 +1936,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000047_bias_risk_evidence.yml",
-      "id": "EVID-000047",
+      "filename": "EVD-000047_bias_risk_evidence.yml",
+      "id": "EVD-000047",
       "knowledge_type": "evidence_source",
       "name_ja": "バイアスリスク根拠",
       "name_en": "Risk of Bias Evidence",
@@ -1978,8 +1978,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000048_ethical_evidence_use.yml",
-      "id": "EVID-000048",
+      "filename": "EVD-000048_ethical_evidence_use.yml",
+      "id": "EVD-000048",
       "knowledge_type": "evidence_source",
       "name_ja": "倫理的根拠利用",
       "name_en": "Ethical Evidence Use",
@@ -2020,8 +2020,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000049_domain_limit_evidence.yml",
-      "id": "EVID-000049",
+      "filename": "EVD-000049_domain_limit_evidence.yml",
+      "id": "EVD-000049",
       "knowledge_type": "evidence_source",
       "name_ja": "適用範囲根拠",
       "name_en": "Domain Limit Evidence",
@@ -2062,8 +2062,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000050_evidence_integration.yml",
-      "id": "EVID-000050",
+      "filename": "EVD-000050_evidence_integration.yml",
+      "id": "EVD-000050",
       "knowledge_type": "evidence_source",
       "name_ja": "根拠統合",
       "name_en": "Evidence Integration",

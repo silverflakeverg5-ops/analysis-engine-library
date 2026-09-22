@@ -1,0 +1,35 @@
+id: MOT-000003
+knowledge_type: motivation_core
+name_ja: 動因
+name_en: Drive
+category: Motivation Core
+attribute: Basic Processes
+definition_ja: 動因は、不足や緊張を低減しようとする力を表す動機づけ概念。単独で人格や特性を断定しない。
+tags:
+  - CAT:動機づけ
+  - CAT:基本過程
+  - ATTR:動機要因
+parent:
+  - 基本過程
+related:
+  - 行動観測
+  - 目標選択
+  - 文脈依存性
+observable_data:
+  - 選択頻度
+  - 開始までの時間
+  - 努力投入量
+  - 継続と離脱の推移
+signal_candidates:
+  - 動因と整合する選択や努力が複数場面で観測される
+  - 報酬・難度・時間制約の変化に伴って行動量が変化する
+device_level: スマートフォン・PC・ゲーム機の行動ログから観測可能
+modifiers:
+  - 疲労
+  - 睡眠
+  - ストレス
+  - 報酬設計
+  - 課題難度
+  - 社会的文脈
+evidence: 動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照
+status: active

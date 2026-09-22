@@ -1,11 +1,11 @@
 {
   "output_dir": "vol5_cognitive_science/cognitive_science_001_050",
   "index_filename": "cognitive_science_001_050_index.yml",
-  "index_content": "category: Cognitive Science\nname_ja: 認知科学\nitems:\n  - COGSCI-000001_selective_attention.yml\n  - COGSCI-000002_sustained_attention.yml\n  - COGSCI-000003_divided_attention.yml\n  - COGSCI-000004_attentional_control.yml\n  - COGSCI-000005_attentional_shift.yml\n  - COGSCI-000006_visual_attention.yml\n  - COGSCI-000007_auditory_attention.yml\n  - COGSCI-000008_attention_span.yml\n  - COGSCI-000009_distractor_resistance.yml\n  - COGSCI-000010_focus_recovery.yml\n  - COGSCI-000011_working_memory.yml\n  - COGSCI-000012_verbal_working_memory.yml\n  - COGSCI-000013_visuospatial_working_memory.yml\n  - COGSCI-000014_memory_updating.yml\n  - COGSCI-000015_chunking.yml\n  - COGSCI-000016_rehearsal.yml\n  - COGSCI-000017_memory_load.yml\n  - COGSCI-000018_interference_control.yml\n  - COGSCI-000019_serial_order_memory.yml\n  - COGSCI-000020_mental_manipulation.yml\n  - COGSCI-000021_executive_function.yml\n  - COGSCI-000022_inhibitory_control.yml\n  - COGSCI-000023_cognitive_flexibility.yml\n  - COGSCI-000024_task_switching.yml\n  - COGSCI-000025_planning_function.yml\n  - COGSCI-000026_monitoring_function.yml\n  - COGSCI-000027_error_monitoring.yml\n  - COGSCI-000028_goal_maintenance.yml\n  - COGSCI-000029_self_regulation.yml\n  - COGSCI-000030_response_selection.yml\n  - COGSCI-000031_reinforcement_learning.yml\n  - COGSCI-000032_observational_learning.yml\n  - COGSCI-000033_implicit_learning.yml\n  - COGSCI-000034_explicit_learning.yml\n  - COGSCI-000035_trial_and_error_learning.yml\n  - COGSCI-000036_feedback_learning_process.yml\n  - COGSCI-000037_habit_learning.yml\n  - COGSCI-000038_rule_acquisition.yml\n  - COGSCI-000039_transfer_of_learning.yml\n  - COGSCI-000040_metacognitive_learning.yml\n  - COGSCI-000041_decision_making.yml\n  - COGSCI-000042_risk_decision.yml\n  - COGSCI-000043_uncertainty_decision.yml\n  - COGSCI-000044_value_based_decision.yml\n  - COGSCI-000045_cost_benefit_analysis.yml\n  - COGSCI-000046_deliberative_decision.yml\n  - COGSCI-000047_intuitive_decision.yml\n  - COGSCI-000048_preference_construction.yml\n  - COGSCI-000049_choice_consistency.yml\n  - COGSCI-000050_decision_conflict.yml\nnotes:\n  - 認知科学は能力評価そのものではなく推論材料として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
+  "index_content": "category: Cognitive Science\nname_ja: 認知科学\nitems:\n  - CSC-000001_selective_attention.yml\n  - CSC-000002_sustained_attention.yml\n  - CSC-000003_divided_attention.yml\n  - CSC-000004_attentional_control.yml\n  - CSC-000005_attentional_shift.yml\n  - CSC-000006_visual_attention.yml\n  - CSC-000007_auditory_attention.yml\n  - CSC-000008_attention_span.yml\n  - CSC-000009_distractor_resistance.yml\n  - CSC-000010_focus_recovery.yml\n  - CSC-000011_working_memory.yml\n  - CSC-000012_verbal_working_memory.yml\n  - CSC-000013_visuospatial_working_memory.yml\n  - CSC-000014_memory_updating.yml\n  - CSC-000015_chunking.yml\n  - CSC-000016_rehearsal.yml\n  - CSC-000017_memory_load.yml\n  - CSC-000018_interference_control.yml\n  - CSC-000019_serial_order_memory.yml\n  - CSC-000020_mental_manipulation.yml\n  - CSC-000021_executive_function.yml\n  - CSC-000022_inhibitory_control.yml\n  - CSC-000023_cognitive_flexibility.yml\n  - CSC-000024_task_switching.yml\n  - CSC-000025_planning_function.yml\n  - CSC-000026_monitoring_function.yml\n  - CSC-000027_error_monitoring.yml\n  - CSC-000028_goal_maintenance.yml\n  - CSC-000029_self_regulation.yml\n  - CSC-000030_response_selection.yml\n  - CSC-000031_reinforcement_learning.yml\n  - CSC-000032_observational_learning.yml\n  - CSC-000033_implicit_learning.yml\n  - CSC-000034_explicit_learning.yml\n  - CSC-000035_trial_and_error_learning.yml\n  - CSC-000036_feedback_learning_process.yml\n  - CSC-000037_habit_learning.yml\n  - CSC-000038_rule_acquisition.yml\n  - CSC-000039_transfer_of_learning.yml\n  - CSC-000040_metacognitive_learning.yml\n  - CSC-000041_decision_making.yml\n  - CSC-000042_risk_decision.yml\n  - CSC-000043_uncertainty_decision.yml\n  - CSC-000044_value_based_decision.yml\n  - CSC-000045_cost_benefit_analysis.yml\n  - CSC-000046_deliberative_decision.yml\n  - CSC-000047_intuitive_decision.yml\n  - CSC-000048_preference_construction.yml\n  - CSC-000049_choice_consistency.yml\n  - CSC-000050_decision_conflict.yml\nnotes:\n  - 認知科学は能力評価そのものではなく推論材料として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
   "items": [
     {
-      "filename": "COGSCI-000001_selective_attention.yml",
-      "id": "COGSCI-000001",
+      "filename": "CSC-000001_selective_attention.yml",
+      "id": "CSC-000001",
       "knowledge_type": "cognitive_science",
       "name_ja": "選択的注意",
       "name_en": "Selective Attention",
@@ -46,8 +46,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000002_sustained_attention.yml",
-      "id": "COGSCI-000002",
+      "filename": "CSC-000002_sustained_attention.yml",
+      "id": "CSC-000002",
       "knowledge_type": "cognitive_science",
       "name_ja": "持続的注意",
       "name_en": "Sustained Attention",
@@ -88,8 +88,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000003_divided_attention.yml",
-      "id": "COGSCI-000003",
+      "filename": "CSC-000003_divided_attention.yml",
+      "id": "CSC-000003",
       "knowledge_type": "cognitive_science",
       "name_ja": "分割注意",
       "name_en": "Divided Attention",
@@ -130,8 +130,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000004_attentional_control.yml",
-      "id": "COGSCI-000004",
+      "filename": "CSC-000004_attentional_control.yml",
+      "id": "CSC-000004",
       "knowledge_type": "cognitive_science",
       "name_ja": "注意制御",
       "name_en": "Attentional Control",
@@ -172,8 +172,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000005_attentional_shift.yml",
-      "id": "COGSCI-000005",
+      "filename": "CSC-000005_attentional_shift.yml",
+      "id": "CSC-000005",
       "knowledge_type": "cognitive_science",
       "name_ja": "注意切替",
       "name_en": "Attentional Shift",
@@ -214,8 +214,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000006_visual_attention.yml",
-      "id": "COGSCI-000006",
+      "filename": "CSC-000006_visual_attention.yml",
+      "id": "CSC-000006",
       "knowledge_type": "cognitive_science",
       "name_ja": "視覚的注意",
       "name_en": "Visual Attention",
@@ -256,8 +256,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000007_auditory_attention.yml",
-      "id": "COGSCI-000007",
+      "filename": "CSC-000007_auditory_attention.yml",
+      "id": "CSC-000007",
       "knowledge_type": "cognitive_science",
       "name_ja": "聴覚的注意",
       "name_en": "Auditory Attention",
@@ -298,8 +298,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000008_attention_span.yml",
-      "id": "COGSCI-000008",
+      "filename": "CSC-000008_attention_span.yml",
+      "id": "CSC-000008",
       "knowledge_type": "cognitive_science",
       "name_ja": "注意持続幅",
       "name_en": "Attention Span",
@@ -340,8 +340,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000009_distractor_resistance.yml",
-      "id": "COGSCI-000009",
+      "filename": "CSC-000009_distractor_resistance.yml",
+      "id": "CSC-000009",
       "knowledge_type": "cognitive_science",
       "name_ja": "妨害刺激耐性",
       "name_en": "Distractor Resistance",
@@ -382,8 +382,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000010_focus_recovery.yml",
-      "id": "COGSCI-000010",
+      "filename": "CSC-000010_focus_recovery.yml",
+      "id": "CSC-000010",
       "knowledge_type": "cognitive_science",
       "name_ja": "集中回復",
       "name_en": "Focus Recovery",
@@ -424,8 +424,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000011_working_memory.yml",
-      "id": "COGSCI-000011",
+      "filename": "CSC-000011_working_memory.yml",
+      "id": "CSC-000011",
       "knowledge_type": "cognitive_science",
       "name_ja": "ワーキングメモリ",
       "name_en": "Working Memory",
@@ -466,8 +466,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000012_verbal_working_memory.yml",
-      "id": "COGSCI-000012",
+      "filename": "CSC-000012_verbal_working_memory.yml",
+      "id": "CSC-000012",
       "knowledge_type": "cognitive_science",
       "name_ja": "言語性ワーキングメモリ",
       "name_en": "Verbal Working Memory",
@@ -508,8 +508,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000013_visuospatial_working_memory.yml",
-      "id": "COGSCI-000013",
+      "filename": "CSC-000013_visuospatial_working_memory.yml",
+      "id": "CSC-000013",
       "knowledge_type": "cognitive_science",
       "name_ja": "視空間ワーキングメモリ",
       "name_en": "Visuospatial Working Memory",
@@ -550,8 +550,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000014_memory_updating.yml",
-      "id": "COGSCI-000014",
+      "filename": "CSC-000014_memory_updating.yml",
+      "id": "CSC-000014",
       "knowledge_type": "cognitive_science",
       "name_ja": "記憶更新",
       "name_en": "Memory Updating",
@@ -592,8 +592,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000015_chunking.yml",
-      "id": "COGSCI-000015",
+      "filename": "CSC-000015_chunking.yml",
+      "id": "CSC-000015",
       "knowledge_type": "cognitive_science",
       "name_ja": "チャンク化",
       "name_en": "Chunking",
@@ -634,8 +634,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000016_rehearsal.yml",
-      "id": "COGSCI-000016",
+      "filename": "CSC-000016_rehearsal.yml",
+      "id": "CSC-000016",
       "knowledge_type": "cognitive_science",
       "name_ja": "リハーサル",
       "name_en": "Rehearsal",
@@ -676,8 +676,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000017_memory_load.yml",
-      "id": "COGSCI-000017",
+      "filename": "CSC-000017_memory_load.yml",
+      "id": "CSC-000017",
       "knowledge_type": "cognitive_science",
       "name_ja": "記憶負荷",
       "name_en": "Memory Load",
@@ -718,8 +718,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000018_interference_control.yml",
-      "id": "COGSCI-000018",
+      "filename": "CSC-000018_interference_control.yml",
+      "id": "CSC-000018",
       "knowledge_type": "cognitive_science",
       "name_ja": "干渉制御",
       "name_en": "Interference Control",
@@ -760,8 +760,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000019_serial_order_memory.yml",
-      "id": "COGSCI-000019",
+      "filename": "CSC-000019_serial_order_memory.yml",
+      "id": "CSC-000019",
       "knowledge_type": "cognitive_science",
       "name_ja": "系列順序記憶",
       "name_en": "Serial Order Memory",
@@ -802,8 +802,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000020_mental_manipulation.yml",
-      "id": "COGSCI-000020",
+      "filename": "CSC-000020_mental_manipulation.yml",
+      "id": "CSC-000020",
       "knowledge_type": "cognitive_science",
       "name_ja": "心的操作",
       "name_en": "Mental Manipulation",
@@ -844,8 +844,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000021_executive_function.yml",
-      "id": "COGSCI-000021",
+      "filename": "CSC-000021_executive_function.yml",
+      "id": "CSC-000021",
       "knowledge_type": "cognitive_science",
       "name_ja": "実行機能",
       "name_en": "Executive Function",
@@ -886,8 +886,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000022_inhibitory_control.yml",
-      "id": "COGSCI-000022",
+      "filename": "CSC-000022_inhibitory_control.yml",
+      "id": "CSC-000022",
       "knowledge_type": "cognitive_science",
       "name_ja": "抑制制御",
       "name_en": "Inhibitory Control",
@@ -928,8 +928,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000023_cognitive_flexibility.yml",
-      "id": "COGSCI-000023",
+      "filename": "CSC-000023_cognitive_flexibility.yml",
+      "id": "CSC-000023",
       "knowledge_type": "cognitive_science",
       "name_ja": "認知的柔軟性",
       "name_en": "Cognitive Flexibility",
@@ -970,8 +970,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000024_task_switching.yml",
-      "id": "COGSCI-000024",
+      "filename": "CSC-000024_task_switching.yml",
+      "id": "CSC-000024",
       "knowledge_type": "cognitive_science",
       "name_ja": "タスク切替",
       "name_en": "Task Switching",
@@ -1012,8 +1012,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000025_planning_function.yml",
-      "id": "COGSCI-000025",
+      "filename": "CSC-000025_planning_function.yml",
+      "id": "CSC-000025",
       "knowledge_type": "cognitive_science",
       "name_ja": "計画機能",
       "name_en": "Planning Function",
@@ -1054,8 +1054,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000026_monitoring_function.yml",
-      "id": "COGSCI-000026",
+      "filename": "CSC-000026_monitoring_function.yml",
+      "id": "CSC-000026",
       "knowledge_type": "cognitive_science",
       "name_ja": "モニタリング機能",
       "name_en": "Monitoring Function",
@@ -1096,8 +1096,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000027_error_monitoring.yml",
-      "id": "COGSCI-000027",
+      "filename": "CSC-000027_error_monitoring.yml",
+      "id": "CSC-000027",
       "knowledge_type": "cognitive_science",
       "name_ja": "エラーモニタリング",
       "name_en": "Error Monitoring",
@@ -1138,8 +1138,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000028_goal_maintenance.yml",
-      "id": "COGSCI-000028",
+      "filename": "CSC-000028_goal_maintenance.yml",
+      "id": "CSC-000028",
       "knowledge_type": "cognitive_science",
       "name_ja": "目標保持",
       "name_en": "Goal Maintenance",
@@ -1180,8 +1180,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000029_self_regulation.yml",
-      "id": "COGSCI-000029",
+      "filename": "CSC-000029_self_regulation.yml",
+      "id": "CSC-000029",
       "knowledge_type": "cognitive_science",
       "name_ja": "自己調整",
       "name_en": "Self Regulation",
@@ -1222,8 +1222,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000030_response_selection.yml",
-      "id": "COGSCI-000030",
+      "filename": "CSC-000030_response_selection.yml",
+      "id": "CSC-000030",
       "knowledge_type": "cognitive_science",
       "name_ja": "反応選択",
       "name_en": "Response Selection",
@@ -1264,8 +1264,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000031_reinforcement_learning.yml",
-      "id": "COGSCI-000031",
+      "filename": "CSC-000031_reinforcement_learning.yml",
+      "id": "CSC-000031",
       "knowledge_type": "cognitive_science",
       "name_ja": "強化学習",
       "name_en": "Reinforcement Learning",
@@ -1306,8 +1306,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000032_observational_learning.yml",
-      "id": "COGSCI-000032",
+      "filename": "CSC-000032_observational_learning.yml",
+      "id": "CSC-000032",
       "knowledge_type": "cognitive_science",
       "name_ja": "観察学習",
       "name_en": "Observational Learning",
@@ -1348,8 +1348,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000033_implicit_learning.yml",
-      "id": "COGSCI-000033",
+      "filename": "CSC-000033_implicit_learning.yml",
+      "id": "CSC-000033",
       "knowledge_type": "cognitive_science",
       "name_ja": "潜在学習",
       "name_en": "Implicit Learning",
@@ -1390,8 +1390,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000034_explicit_learning.yml",
-      "id": "COGSCI-000034",
+      "filename": "CSC-000034_explicit_learning.yml",
+      "id": "CSC-000034",
       "knowledge_type": "cognitive_science",
       "name_ja": "明示的学習",
       "name_en": "Explicit Learning",
@@ -1432,8 +1432,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000035_trial_and_error_learning.yml",
-      "id": "COGSCI-000035",
+      "filename": "CSC-000035_trial_and_error_learning.yml",
+      "id": "CSC-000035",
       "knowledge_type": "cognitive_science",
       "name_ja": "試行錯誤学習",
       "name_en": "Trial and Error Learning",
@@ -1474,8 +1474,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000036_feedback_learning_process.yml",
-      "id": "COGSCI-000036",
+      "filename": "CSC-000036_feedback_learning_process.yml",
+      "id": "CSC-000036",
       "knowledge_type": "cognitive_science",
       "name_ja": "フィードバック学習過程",
       "name_en": "Feedback Learning Process",
@@ -1516,8 +1516,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000037_habit_learning.yml",
-      "id": "COGSCI-000037",
+      "filename": "CSC-000037_habit_learning.yml",
+      "id": "CSC-000037",
       "knowledge_type": "cognitive_science",
       "name_ja": "習慣学習",
       "name_en": "Habit Learning",
@@ -1558,8 +1558,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000038_rule_acquisition.yml",
-      "id": "COGSCI-000038",
+      "filename": "CSC-000038_rule_acquisition.yml",
+      "id": "CSC-000038",
       "knowledge_type": "cognitive_science",
       "name_ja": "ルール獲得",
       "name_en": "Rule Acquisition",
@@ -1600,8 +1600,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000039_transfer_of_learning.yml",
-      "id": "COGSCI-000039",
+      "filename": "CSC-000039_transfer_of_learning.yml",
+      "id": "CSC-000039",
       "knowledge_type": "cognitive_science",
       "name_ja": "学習転移",
       "name_en": "Transfer of Learning",
@@ -1642,8 +1642,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000040_metacognitive_learning.yml",
-      "id": "COGSCI-000040",
+      "filename": "CSC-000040_metacognitive_learning.yml",
+      "id": "CSC-000040",
       "knowledge_type": "cognitive_science",
       "name_ja": "メタ認知的学習",
       "name_en": "Metacognitive Learning",
@@ -1684,8 +1684,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000041_decision_making.yml",
-      "id": "COGSCI-000041",
+      "filename": "CSC-000041_decision_making.yml",
+      "id": "CSC-000041",
       "knowledge_type": "cognitive_science",
       "name_ja": "意思決定",
       "name_en": "Decision Making",
@@ -1726,8 +1726,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000042_risk_decision.yml",
-      "id": "COGSCI-000042",
+      "filename": "CSC-000042_risk_decision.yml",
+      "id": "CSC-000042",
       "knowledge_type": "cognitive_science",
       "name_ja": "リスク下の意思決定",
       "name_en": "Decision Under Risk",
@@ -1768,8 +1768,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000043_uncertainty_decision.yml",
-      "id": "COGSCI-000043",
+      "filename": "CSC-000043_uncertainty_decision.yml",
+      "id": "CSC-000043",
       "knowledge_type": "cognitive_science",
       "name_ja": "不確実性下の意思決定",
       "name_en": "Decision Under Uncertainty",
@@ -1810,8 +1810,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000044_value_based_decision.yml",
-      "id": "COGSCI-000044",
+      "filename": "CSC-000044_value_based_decision.yml",
+      "id": "CSC-000044",
       "knowledge_type": "cognitive_science",
       "name_ja": "価値ベース意思決定",
       "name_en": "Value Based Decision Making",
@@ -1852,8 +1852,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000045_cost_benefit_analysis.yml",
-      "id": "COGSCI-000045",
+      "filename": "CSC-000045_cost_benefit_analysis.yml",
+      "id": "CSC-000045",
       "knowledge_type": "cognitive_science",
       "name_ja": "費用便益判断",
       "name_en": "Cost Benefit Analysis",
@@ -1894,8 +1894,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000046_deliberative_decision.yml",
-      "id": "COGSCI-000046",
+      "filename": "CSC-000046_deliberative_decision.yml",
+      "id": "CSC-000046",
       "knowledge_type": "cognitive_science",
       "name_ja": "熟慮的意思決定",
       "name_en": "Deliberative Decision Making",
@@ -1936,8 +1936,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000047_intuitive_decision.yml",
-      "id": "COGSCI-000047",
+      "filename": "CSC-000047_intuitive_decision.yml",
+      "id": "CSC-000047",
       "knowledge_type": "cognitive_science",
       "name_ja": "直感的意思決定",
       "name_en": "Intuitive Decision Making",
@@ -1978,8 +1978,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000048_preference_construction.yml",
-      "id": "COGSCI-000048",
+      "filename": "CSC-000048_preference_construction.yml",
+      "id": "CSC-000048",
       "knowledge_type": "cognitive_science",
       "name_ja": "選好形成",
       "name_en": "Preference Construction",
@@ -2020,8 +2020,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000049_choice_consistency.yml",
-      "id": "COGSCI-000049",
+      "filename": "CSC-000049_choice_consistency.yml",
+      "id": "CSC-000049",
       "knowledge_type": "cognitive_science",
       "name_ja": "選択一貫性",
       "name_en": "Choice Consistency",
@@ -2062,8 +2062,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000050_decision_conflict.yml",
-      "id": "COGSCI-000050",
+      "filename": "CSC-000050_decision_conflict.yml",
+      "id": "CSC-000050",
       "knowledge_type": "cognitive_science",
       "name_ja": "意思決定葛藤",
       "name_en": "Decision Conflict",

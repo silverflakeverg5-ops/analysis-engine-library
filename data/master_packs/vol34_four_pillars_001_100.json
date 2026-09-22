@@ -1,0 +1,6507 @@
+{
+  "output_dir": "vol34_four_pillars/four_pillars_001_100",
+  "index_filename": "four_pillars_001_100_index.yml",
+  "index_content": "category: Four Pillars\nname_ja: 四柱推命\nitems:\n  - BAZ-000001_birth_date_input.yml\n  - BAZ-000002_birth_time_input.yml\n  - BAZ-000003_birth_place_input.yml\n  - BAZ-000004_time_zone_rule.yml\n  - BAZ-000005_local_solar_time.yml\n  - BAZ-000006_calendar_conversion.yml\n  - BAZ-000007_solar_term_boundary.yml\n  - BAZ-000008_day_boundary.yml\n  - BAZ-000009_hour_branch_boundary.yml\n  - BAZ-000010_input_uncertainty.yml\n  - BAZ-000011_year_stem.yml\n  - BAZ-000012_year_branch.yml\n  - BAZ-000013_month_stem.yml\n  - BAZ-000014_month_branch.yml\n  - BAZ-000015_day_stem.yml\n  - BAZ-000016_day_branch.yml\n  - BAZ-000017_hour_stem.yml\n  - BAZ-000018_hour_branch.yml\n  - BAZ-000019_day_master.yml\n  - BAZ-000020_seasonal_support.yml\n  - BAZ-000021_root_support.yml\n  - BAZ-000022_resource_support.yml\n  - BAZ-000023_peer_support.yml\n  - BAZ-000024_drain_by_output.yml\n  - BAZ-000025_control_by_officer.yml\n  - BAZ-000026_wealth_control.yml\n  - BAZ-000027_strength_assessment.yml\n  - BAZ-000028_balance_not_score.yml\n  - BAZ-000029_friend.yml\n  - BAZ-000030_rob_wealth.yml\n  - BAZ-000031_eating_god.yml\n  - BAZ-000032_hurting_officer.yml\n  - BAZ-000033_direct_wealth.yml\n  - BAZ-000034_indirect_wealth.yml\n  - BAZ-000035_direct_officer.yml\n  - BAZ-000036_seven_killings.yml\n  - BAZ-000037_direct_resource.yml\n  - BAZ-000038_indirect_resource.yml\n  - BAZ-000039_hidden_stem_primary.yml\n  - BAZ-000040_hidden_stem_middle.yml\n  - BAZ-000041_hidden_stem_residual.yml\n  - BAZ-000042_branch_season.yml\n  - BAZ-000043_branch_phase.yml\n  - BAZ-000044_branch_polarity.yml\n  - BAZ-000045_branch_combination.yml\n  - BAZ-000046_branch_clash.yml\n  - BAZ-000047_branch_harm.yml\n  - BAZ-000048_branch_punishment.yml\n  - BAZ-000049_branch_destruction.yml\n  - BAZ-000050_branch_relation_priority.yml\n  - BAZ-000051_stem_combination.yml\n  - BAZ-000052_stem_control.yml\n  - BAZ-000053_combination_transformation.yml\n  - BAZ-000054_three_harmony_frame.yml\n  - BAZ-000055_seasonal_frame.yml\n  - BAZ-000056_six_harmony_pair.yml\n  - BAZ-000057_six_clash_pair.yml\n  - BAZ-000058_interaction_activation.yml\n  - BAZ-000059_interaction_resolution.yml\n  - BAZ-000060_interaction_uncertainty.yml\n  - BAZ-000061_structure_identification.yml\n  - BAZ-000062_regular_structure.yml\n  - BAZ-000063_special_structure.yml\n  - BAZ-000064_follow_structure.yml\n  - BAZ-000065_transformation_structure.yml\n  - BAZ-000066_useful_god.yml\n  - BAZ-000067_favorable_element.yml\n  - BAZ-000068_unfavorable_element.yml\n  - BAZ-000069_climate_adjustment.yml\n  - BAZ-000070_structure_school_variation.yml\n  - BAZ-000071_luck_pillar.yml\n  - BAZ-000072_luck_direction.yml\n  - BAZ-000073_luck_start_age.yml\n  - BAZ-000074_annual_pillar.yml\n  - BAZ-000075_monthly_pillar.yml\n  - BAZ-000076_daily_pillar.yml\n  - BAZ-000077_cycle_overlap.yml\n  - BAZ-000078_cycle_transition.yml\n  - BAZ-000079_timing_uncertainty.yml\n  - BAZ-000080_non_deterministic_timing.yml\n  - BAZ-000081_whole_chart_synthesis.yml\n  - BAZ-000082_season_first_context.yml\n  - BAZ-000083_relation_network.yml\n  - BAZ-000084_contradictory_symbols.yml\n  - BAZ-000085_school_specific_result.yml\n  - BAZ-000086_calculation_trace.yml\n  - BAZ-000087_trait_link_boundary.yml\n  - BAZ-000088_narrative_prompt.yml\n  - BAZ-000089_multiple_hypotheses.yml\n  - BAZ-000090_user_resonance.yml\n  - BAZ-000091_traditional_evidence_label.yml\n  - BAZ-000092_no_mental_diagnosis.yml\n  - BAZ-000093_no_health_prediction.yml\n  - BAZ-000094_no_ability_ranking.yml\n  - BAZ-000095_no_relationship_determinism.yml\n  - BAZ-000096_no_fatalism.yml\n  - BAZ-000097_high_impact_exclusion.yml\n  - BAZ-000098_birth_data_minimization.yml\n  - BAZ-000099_consent_and_deletion.yml\n  - BAZ-000100_human_readable_disclaimer.yml\nnotes:\n  - 伝統的・文化的解釈として扱い心理学的エビデンスと混同しない\n  - 計算方式・流派・入力精度・出典を結果とともに保持する\n  - 医療・雇用・教育・保険・信用・法執行など高影響判断には利用しない\n",
+  "items": [
+    {
+      "filename": "BAZ-000001_birth_date_input.yml",
+      "id": "BAZ-000001",
+      "knowledge_type": "four_pillars",
+      "name_ja": "生年月日入力",
+      "name_en": "Birth Date Input",
+      "category": "Four Pillars",
+      "attribute": "Inputs and Calendar",
+      "definition_ja": "生年月日入力は、出生年月日と使用暦を記録することを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:入力と暦",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "入力と暦"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、生年月日入力を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000002_birth_time_input.yml",
+      "id": "BAZ-000002",
+      "knowledge_type": "four_pillars",
+      "name_ja": "出生時刻入力",
+      "name_en": "Birth Time Input",
+      "category": "Four Pillars",
+      "attribute": "Inputs and Calendar",
+      "definition_ja": "出生時刻入力は、出生時刻と精度を記録することを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:入力と暦",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "入力と暦"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、出生時刻入力を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000003_birth_place_input.yml",
+      "id": "BAZ-000003",
+      "knowledge_type": "four_pillars",
+      "name_ja": "出生地入力",
+      "name_en": "Birth Place Input",
+      "category": "Four Pillars",
+      "attribute": "Inputs and Calendar",
+      "definition_ja": "出生地入力は、時差計算に必要な出生地を記録することを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:入力と暦",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "入力と暦"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、出生地入力を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000004_time_zone_rule.yml",
+      "id": "BAZ-000004",
+      "knowledge_type": "four_pillars",
+      "name_ja": "時間帯規則",
+      "name_en": "Time-Zone Rule",
+      "category": "Four Pillars",
+      "attribute": "Inputs and Calendar",
+      "definition_ja": "時間帯規則は、出生時点の標準時と夏時間を適用することを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:入力と暦",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "入力と暦"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、時間帯規則を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000005_local_solar_time.yml",
+      "id": "BAZ-000005",
+      "knowledge_type": "four_pillars",
+      "name_ja": "地方太陽時",
+      "name_en": "Local Solar Time",
+      "category": "Four Pillars",
+      "attribute": "Inputs and Calendar",
+      "definition_ja": "地方太陽時は、採用流派に応じた地方時補正を明示することを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:入力と暦",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "入力と暦"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、地方太陽時を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000006_calendar_conversion.yml",
+      "id": "BAZ-000006",
+      "knowledge_type": "four_pillars",
+      "name_ja": "暦変換",
+      "name_en": "Calendar Conversion",
+      "category": "Four Pillars",
+      "attribute": "Inputs and Calendar",
+      "definition_ja": "暦変換は、入力暦を計算に用いる暦へ変換することを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:入力と暦",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "入力と暦"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、暦変換を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000007_solar_term_boundary.yml",
+      "id": "BAZ-000007",
+      "knowledge_type": "four_pillars",
+      "name_ja": "節気境界",
+      "name_en": "Solar-Term Boundary",
+      "category": "Four Pillars",
+      "attribute": "Inputs and Calendar",
+      "definition_ja": "節気境界は、月柱決定に用いる節入り時刻を扱うことを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:入力と暦",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "入力と暦"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、節気境界を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000008_day_boundary.yml",
+      "id": "BAZ-000008",
+      "knowledge_type": "four_pillars",
+      "name_ja": "日界",
+      "name_en": "Day Boundary",
+      "category": "Four Pillars",
+      "attribute": "Inputs and Calendar",
+      "definition_ja": "日界は、日柱が切り替わる時刻規則を明示することを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:入力と暦",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "入力と暦"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、日界を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000009_hour_branch_boundary.yml",
+      "id": "BAZ-000009",
+      "knowledge_type": "four_pillars",
+      "name_ja": "時支境界",
+      "name_en": "Hour-Branch Boundary",
+      "category": "Four Pillars",
+      "attribute": "Inputs and Calendar",
+      "definition_ja": "時支境界は、出生時刻を十二時辰へ割り当てる境界を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:入力と暦",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "入力と暦"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、時支境界を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000010_input_uncertainty.yml",
+      "id": "BAZ-000010",
+      "knowledge_type": "four_pillars",
+      "name_ja": "入力不確実性",
+      "name_en": "Input Uncertainty",
+      "category": "Four Pillars",
+      "attribute": "Inputs and Calendar",
+      "definition_ja": "入力不確実性は、不明時刻・推定値・境界付近を結果へ反映することを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:入力と暦",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "入力と暦"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、入力不確実性を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000011_year_stem.yml",
+      "id": "BAZ-000011",
+      "knowledge_type": "four_pillars",
+      "name_ja": "年干",
+      "name_en": "Year Stem",
+      "category": "Four Pillars",
+      "attribute": "Pillars",
+      "definition_ja": "年干は、年柱の天干を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:四柱",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "四柱"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、年干を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000012_year_branch.yml",
+      "id": "BAZ-000012",
+      "knowledge_type": "four_pillars",
+      "name_ja": "年支",
+      "name_en": "Year Branch",
+      "category": "Four Pillars",
+      "attribute": "Pillars",
+      "definition_ja": "年支は、年柱の地支を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:四柱",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "四柱"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、年支を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000013_month_stem.yml",
+      "id": "BAZ-000013",
+      "knowledge_type": "four_pillars",
+      "name_ja": "月干",
+      "name_en": "Month Stem",
+      "category": "Four Pillars",
+      "attribute": "Pillars",
+      "definition_ja": "月干は、月柱の天干を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:四柱",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "四柱"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、月干を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000014_month_branch.yml",
+      "id": "BAZ-000014",
+      "knowledge_type": "four_pillars",
+      "name_ja": "月支",
+      "name_en": "Month Branch",
+      "category": "Four Pillars",
+      "attribute": "Pillars",
+      "definition_ja": "月支は、月柱の地支を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:四柱",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "四柱"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、月支を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000015_day_stem.yml",
+      "id": "BAZ-000015",
+      "knowledge_type": "four_pillars",
+      "name_ja": "日干",
+      "name_en": "Day Stem",
+      "category": "Four Pillars",
+      "attribute": "Pillars",
+      "definition_ja": "日干は、日柱の天干で日主として扱う基準を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:四柱",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "四柱"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、日干を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000016_day_branch.yml",
+      "id": "BAZ-000016",
+      "knowledge_type": "four_pillars",
+      "name_ja": "日支",
+      "name_en": "Day Branch",
+      "category": "Four Pillars",
+      "attribute": "Pillars",
+      "definition_ja": "日支は、日柱の地支を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:四柱",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "四柱"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、日支を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000017_hour_stem.yml",
+      "id": "BAZ-000017",
+      "knowledge_type": "four_pillars",
+      "name_ja": "時干",
+      "name_en": "Hour Stem",
+      "category": "Four Pillars",
+      "attribute": "Pillars",
+      "definition_ja": "時干は、時柱の天干を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:四柱",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "四柱"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、時干を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000018_hour_branch.yml",
+      "id": "BAZ-000018",
+      "knowledge_type": "four_pillars",
+      "name_ja": "時支",
+      "name_en": "Hour Branch",
+      "category": "Four Pillars",
+      "attribute": "Pillars",
+      "definition_ja": "時支は、時柱の地支を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:四柱",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "四柱"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、時支を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000019_day_master.yml",
+      "id": "BAZ-000019",
+      "knowledge_type": "four_pillars",
+      "name_ja": "日主",
+      "name_en": "Day Master",
+      "category": "Four Pillars",
+      "attribute": "Day Master Context",
+      "definition_ja": "日主は、日干を命式内の関係を整理する基準点とすることを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:日主文脈",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "日主文脈"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、日主を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000020_seasonal_support.yml",
+      "id": "BAZ-000020",
+      "knowledge_type": "four_pillars",
+      "name_ja": "月令",
+      "name_en": "Seasonal Command",
+      "category": "Four Pillars",
+      "attribute": "Day Master Context",
+      "definition_ja": "月令は、月支が示す季節的文脈を重視することを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:日主文脈",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "日主文脈"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、月令を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000021_root_support.yml",
+      "id": "BAZ-000021",
+      "knowledge_type": "four_pillars",
+      "name_ja": "通根",
+      "name_en": "Root Support",
+      "category": "Four Pillars",
+      "attribute": "Day Master Context",
+      "definition_ja": "通根は、日主と同類の気が地支に存在すると読む概念を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:日主文脈",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "日主文脈"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、通根を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000022_resource_support.yml",
+      "id": "BAZ-000022",
+      "knowledge_type": "four_pillars",
+      "name_ja": "印の扶助",
+      "name_en": "Resource Support",
+      "category": "Four Pillars",
+      "attribute": "Day Master Context",
+      "definition_ja": "印の扶助は、日主を生じる五行との関係を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:日主文脈",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "日主文脈"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、印の扶助を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000023_peer_support.yml",
+      "id": "BAZ-000023",
+      "knowledge_type": "four_pillars",
+      "name_ja": "比劫の扶助",
+      "name_en": "Peer Support",
+      "category": "Four Pillars",
+      "attribute": "Day Master Context",
+      "definition_ja": "比劫の扶助は、日主と同じ五行との関係を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:日主文脈",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "日主文脈"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、比劫の扶助を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000024_drain_by_output.yml",
+      "id": "BAZ-000024",
+      "knowledge_type": "four_pillars",
+      "name_ja": "食傷への泄",
+      "name_en": "Drain by Output",
+      "category": "Four Pillars",
+      "attribute": "Day Master Context",
+      "definition_ja": "食傷への泄は、日主が生じる五行へ力が移ると読む関係を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:日主文脈",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "日主文脈"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、食傷への泄を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000025_control_by_officer.yml",
+      "id": "BAZ-000025",
+      "knowledge_type": "four_pillars",
+      "name_ja": "官殺からの剋",
+      "name_en": "Control by Officer",
+      "category": "Four Pillars",
+      "attribute": "Day Master Context",
+      "definition_ja": "官殺からの剋は、日主を剋す五行との関係を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:日主文脈",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "日主文脈"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、官殺からの剋を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000026_wealth_control.yml",
+      "id": "BAZ-000026",
+      "knowledge_type": "four_pillars",
+      "name_ja": "財への剋",
+      "name_en": "Wealth Control",
+      "category": "Four Pillars",
+      "attribute": "Day Master Context",
+      "definition_ja": "財への剋は、日主が剋す五行との関係を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:日主文脈",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "日主文脈"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、財への剋を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000027_strength_assessment.yml",
+      "id": "BAZ-000027",
+      "knowledge_type": "four_pillars",
+      "name_ja": "身強身弱評価",
+      "name_en": "Strength Assessment",
+      "category": "Four Pillars",
+      "attribute": "Day Master Context",
+      "definition_ja": "身強身弱評価は、季節・根・扶助・泄剋を合わせて日主の相対状態を読むことを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:日主文脈",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "日主文脈"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、身強身弱評価を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000028_balance_not_score.yml",
+      "id": "BAZ-000028",
+      "knowledge_type": "four_pillars",
+      "name_ja": "強弱非得点原則",
+      "name_en": "Strength Is Not a Person Score",
+      "category": "Four Pillars",
+      "attribute": "Day Master Context",
+      "definition_ja": "強弱非得点原則は、身強身弱を人物の優劣や能力値に変換しないことを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:日主文脈",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "日主文脈"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、強弱非得点原則を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000029_friend.yml",
+      "id": "BAZ-000029",
+      "knowledge_type": "four_pillars",
+      "name_ja": "比肩",
+      "name_en": "Friend",
+      "category": "Four Pillars",
+      "attribute": "Ten Gods",
+      "definition_ja": "比肩は、日主と他の天干の陰陽五行関係を比肩として分類することを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:十神",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十神"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、比肩を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000030_rob_wealth.yml",
+      "id": "BAZ-000030",
+      "knowledge_type": "four_pillars",
+      "name_ja": "劫財",
+      "name_en": "Rob Wealth",
+      "category": "Four Pillars",
+      "attribute": "Ten Gods",
+      "definition_ja": "劫財は、日主と他の天干の陰陽五行関係を劫財として分類することを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:十神",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十神"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、劫財を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000031_eating_god.yml",
+      "id": "BAZ-000031",
+      "knowledge_type": "four_pillars",
+      "name_ja": "食神",
+      "name_en": "Eating God",
+      "category": "Four Pillars",
+      "attribute": "Ten Gods",
+      "definition_ja": "食神は、日主と他の天干の陰陽五行関係を食神として分類することを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:十神",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十神"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、食神を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000032_hurting_officer.yml",
+      "id": "BAZ-000032",
+      "knowledge_type": "four_pillars",
+      "name_ja": "傷官",
+      "name_en": "Hurting Officer",
+      "category": "Four Pillars",
+      "attribute": "Ten Gods",
+      "definition_ja": "傷官は、日主と他の天干の陰陽五行関係を傷官として分類することを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:十神",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十神"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、傷官を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000033_direct_wealth.yml",
+      "id": "BAZ-000033",
+      "knowledge_type": "four_pillars",
+      "name_ja": "正財",
+      "name_en": "Direct Wealth",
+      "category": "Four Pillars",
+      "attribute": "Ten Gods",
+      "definition_ja": "正財は、日主と他の天干の陰陽五行関係を正財として分類することを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:十神",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十神"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、正財を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000034_indirect_wealth.yml",
+      "id": "BAZ-000034",
+      "knowledge_type": "four_pillars",
+      "name_ja": "偏財",
+      "name_en": "Indirect Wealth",
+      "category": "Four Pillars",
+      "attribute": "Ten Gods",
+      "definition_ja": "偏財は、日主と他の天干の陰陽五行関係を偏財として分類することを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:十神",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十神"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、偏財を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000035_direct_officer.yml",
+      "id": "BAZ-000035",
+      "knowledge_type": "four_pillars",
+      "name_ja": "正官",
+      "name_en": "Direct Officer",
+      "category": "Four Pillars",
+      "attribute": "Ten Gods",
+      "definition_ja": "正官は、日主と他の天干の陰陽五行関係を正官として分類することを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:十神",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十神"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、正官を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000036_seven_killings.yml",
+      "id": "BAZ-000036",
+      "knowledge_type": "four_pillars",
+      "name_ja": "偏官・七殺",
+      "name_en": "Seven Killings",
+      "category": "Four Pillars",
+      "attribute": "Ten Gods",
+      "definition_ja": "偏官・七殺は、日主と他の天干の陰陽五行関係を偏官・七殺として分類することを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:十神",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十神"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、偏官・七殺を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000037_direct_resource.yml",
+      "id": "BAZ-000037",
+      "knowledge_type": "four_pillars",
+      "name_ja": "正印",
+      "name_en": "Direct Resource",
+      "category": "Four Pillars",
+      "attribute": "Ten Gods",
+      "definition_ja": "正印は、日主と他の天干の陰陽五行関係を正印として分類することを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:十神",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十神"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、正印を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000038_indirect_resource.yml",
+      "id": "BAZ-000038",
+      "knowledge_type": "four_pillars",
+      "name_ja": "偏印",
+      "name_en": "Indirect Resource",
+      "category": "Four Pillars",
+      "attribute": "Ten Gods",
+      "definition_ja": "偏印は、日主と他の天干の陰陽五行関係を偏印として分類することを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:十神",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十神"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、偏印を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000039_hidden_stem_primary.yml",
+      "id": "BAZ-000039",
+      "knowledge_type": "four_pillars",
+      "name_ja": "本気",
+      "name_en": "Primary Hidden Stem",
+      "category": "Four Pillars",
+      "attribute": "Branches and Hidden Stems",
+      "definition_ja": "本気は、地支の蔵干で中心とされる干を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:地支と蔵干",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "地支と蔵干"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、本気を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000040_hidden_stem_middle.yml",
+      "id": "BAZ-000040",
+      "knowledge_type": "four_pillars",
+      "name_ja": "中気",
+      "name_en": "Middle Hidden Stem",
+      "category": "Four Pillars",
+      "attribute": "Branches and Hidden Stems",
+      "definition_ja": "中気は、地支の蔵干で中間的に配当される干を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:地支と蔵干",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "地支と蔵干"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、中気を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000041_hidden_stem_residual.yml",
+      "id": "BAZ-000041",
+      "knowledge_type": "four_pillars",
+      "name_ja": "余気",
+      "name_en": "Residual Hidden Stem",
+      "category": "Four Pillars",
+      "attribute": "Branches and Hidden Stems",
+      "definition_ja": "余気は、地支の蔵干で補助的に配当される干を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:地支と蔵干",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "地支と蔵干"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、余気を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000042_branch_season.yml",
+      "id": "BAZ-000042",
+      "knowledge_type": "four_pillars",
+      "name_ja": "地支季節",
+      "name_en": "Branch Season",
+      "category": "Four Pillars",
+      "attribute": "Branches and Hidden Stems",
+      "definition_ja": "地支季節は、月支と季節の対応を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:地支と蔵干",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "地支と蔵干"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、地支季節を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000043_branch_phase.yml",
+      "id": "BAZ-000043",
+      "knowledge_type": "four_pillars",
+      "name_ja": "地支五行",
+      "name_en": "Branch Phase",
+      "category": "Four Pillars",
+      "attribute": "Branches and Hidden Stems",
+      "definition_ja": "地支五行は、地支に配当される主要五行を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:地支と蔵干",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "地支と蔵干"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、地支五行を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000044_branch_polarity.yml",
+      "id": "BAZ-000044",
+      "knowledge_type": "four_pillars",
+      "name_ja": "地支陰陽",
+      "name_en": "Branch Polarity",
+      "category": "Four Pillars",
+      "attribute": "Branches and Hidden Stems",
+      "definition_ja": "地支陰陽は、地支に配当される陰陽を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:地支と蔵干",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "地支と蔵干"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、地支陰陽を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000045_branch_combination.yml",
+      "id": "BAZ-000045",
+      "knowledge_type": "four_pillars",
+      "name_ja": "地支合",
+      "name_en": "Branch Combination",
+      "category": "Four Pillars",
+      "attribute": "Branches and Hidden Stems",
+      "definition_ja": "地支合は、地支間の結合関係を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:地支と蔵干",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "地支と蔵干"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、地支合を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000046_branch_clash.yml",
+      "id": "BAZ-000046",
+      "knowledge_type": "four_pillars",
+      "name_ja": "地支冲",
+      "name_en": "Branch Clash",
+      "category": "Four Pillars",
+      "attribute": "Branches and Hidden Stems",
+      "definition_ja": "地支冲は、地支間の対向・変動関係を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:地支と蔵干",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "地支と蔵干"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、地支冲を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000047_branch_harm.yml",
+      "id": "BAZ-000047",
+      "knowledge_type": "four_pillars",
+      "name_ja": "地支害",
+      "name_en": "Branch Harm",
+      "category": "Four Pillars",
+      "attribute": "Branches and Hidden Stems",
+      "definition_ja": "地支害は、地支間の害と呼ばれる関係を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:地支と蔵干",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "地支と蔵干"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、地支害を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000048_branch_punishment.yml",
+      "id": "BAZ-000048",
+      "knowledge_type": "four_pillars",
+      "name_ja": "地支刑",
+      "name_en": "Branch Punishment",
+      "category": "Four Pillars",
+      "attribute": "Branches and Hidden Stems",
+      "definition_ja": "地支刑は、地支間の刑と呼ばれる関係を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:地支と蔵干",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "地支と蔵干"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、地支刑を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000049_branch_destruction.yml",
+      "id": "BAZ-000049",
+      "knowledge_type": "four_pillars",
+      "name_ja": "地支破",
+      "name_en": "Branch Destruction",
+      "category": "Four Pillars",
+      "attribute": "Branches and Hidden Stems",
+      "definition_ja": "地支破は、地支間の破と呼ばれる関係を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:地支と蔵干",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "地支と蔵干"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、地支破を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000050_branch_relation_priority.yml",
+      "id": "BAZ-000050",
+      "knowledge_type": "four_pillars",
+      "name_ja": "地支関係優先度",
+      "name_en": "Branch Relation Priority",
+      "category": "Four Pillars",
+      "attribute": "Branches and Hidden Stems",
+      "definition_ja": "地支関係優先度は、複数関係が成立するときの流派規則を明示することを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:地支と蔵干",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "地支と蔵干"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、地支関係優先度を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000051_stem_combination.yml",
+      "id": "BAZ-000051",
+      "knowledge_type": "four_pillars",
+      "name_ja": "天干合",
+      "name_en": "Stem Combination",
+      "category": "Four Pillars",
+      "attribute": "Stem and Branch Interactions",
+      "definition_ja": "天干合は、天干間の五合関係を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:干支作用",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "干支作用"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、天干合を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000052_stem_control.yml",
+      "id": "BAZ-000052",
+      "knowledge_type": "four_pillars",
+      "name_ja": "天干剋",
+      "name_en": "Stem Control",
+      "category": "Four Pillars",
+      "attribute": "Stem and Branch Interactions",
+      "definition_ja": "天干剋は、天干間の相剋関係を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:干支作用",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "干支作用"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、天干剋を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000053_combination_transformation.yml",
+      "id": "BAZ-000053",
+      "knowledge_type": "four_pillars",
+      "name_ja": "合化",
+      "name_en": "Combination Transformation",
+      "category": "Four Pillars",
+      "attribute": "Stem and Branch Interactions",
+      "definition_ja": "合化は、合が別の五行へ化すと読む条件を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:干支作用",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "干支作用"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、合化を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000054_three_harmony_frame.yml",
+      "id": "BAZ-000054",
+      "knowledge_type": "four_pillars",
+      "name_ja": "三合局",
+      "name_en": "Three-Harmony Frame",
+      "category": "Four Pillars",
+      "attribute": "Stem and Branch Interactions",
+      "definition_ja": "三合局は、三支が五行局を形成すると読む関係を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:干支作用",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "干支作用"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、三合局を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000055_seasonal_frame.yml",
+      "id": "BAZ-000055",
+      "knowledge_type": "four_pillars",
+      "name_ja": "方局",
+      "name_en": "Seasonal Frame",
+      "category": "Four Pillars",
+      "attribute": "Stem and Branch Interactions",
+      "definition_ja": "方局は、同季節の三支が方向局を形成すると読む関係を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:干支作用",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "干支作用"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、方局を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000056_six_harmony_pair.yml",
+      "id": "BAZ-000056",
+      "knowledge_type": "four_pillars",
+      "name_ja": "六合",
+      "name_en": "Six-Harmony Pair",
+      "category": "Four Pillars",
+      "attribute": "Stem and Branch Interactions",
+      "definition_ja": "六合は、二支間の六合関係を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:干支作用",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "干支作用"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、六合を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000057_six_clash_pair.yml",
+      "id": "BAZ-000057",
+      "knowledge_type": "four_pillars",
+      "name_ja": "六冲",
+      "name_en": "Six-Clash Pair",
+      "category": "Four Pillars",
+      "attribute": "Stem and Branch Interactions",
+      "definition_ja": "六冲は、二支間の六冲関係を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:干支作用",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "干支作用"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、六冲を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000058_interaction_activation.yml",
+      "id": "BAZ-000058",
+      "knowledge_type": "four_pillars",
+      "name_ja": "作用発動",
+      "name_en": "Interaction Activation",
+      "category": "Four Pillars",
+      "attribute": "Stem and Branch Interactions",
+      "definition_ja": "作用発動は、原局と運の重なりで関係が強調されると読むことを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:干支作用",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "干支作用"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、作用発動を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000059_interaction_resolution.yml",
+      "id": "BAZ-000059",
+      "knowledge_type": "four_pillars",
+      "name_ja": "作用解消",
+      "name_en": "Interaction Resolution",
+      "category": "Four Pillars",
+      "attribute": "Stem and Branch Interactions",
+      "definition_ja": "作用解消は、合・冲等が別の関係で変化すると読む流派規則を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:干支作用",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "干支作用"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、作用解消を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000060_interaction_uncertainty.yml",
+      "id": "BAZ-000060",
+      "knowledge_type": "four_pillars",
+      "name_ja": "作用不確実性",
+      "name_en": "Interaction Uncertainty",
+      "category": "Four Pillars",
+      "attribute": "Stem and Branch Interactions",
+      "definition_ja": "作用不確実性は、成立条件と優先順位の流派差を表示することを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:干支作用",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "干支作用"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、作用不確実性を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000061_structure_identification.yml",
+      "id": "BAZ-000061",
+      "knowledge_type": "four_pillars",
+      "name_ja": "格局判定",
+      "name_en": "Structure Identification",
+      "category": "Four Pillars",
+      "attribute": "Chart Structures",
+      "definition_ja": "格局判定は、月令等を基準に命式構造を分類する伝統的手続きを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:格局",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "格局"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、格局判定を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000062_regular_structure.yml",
+      "id": "BAZ-000062",
+      "knowledge_type": "four_pillars",
+      "name_ja": "普通格局",
+      "name_en": "Regular Structure",
+      "category": "Four Pillars",
+      "attribute": "Chart Structures",
+      "definition_ja": "普通格局は、一般的な十神関係から構造を分類する枠組みを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:格局",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "格局"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、普通格局を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000063_special_structure.yml",
+      "id": "BAZ-000063",
+      "knowledge_type": "four_pillars",
+      "name_ja": "特殊格局",
+      "name_en": "Special Structure",
+      "category": "Four Pillars",
+      "attribute": "Chart Structures",
+      "definition_ja": "特殊格局は、特定条件で通常と異なる規則を用いる構造分類を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:格局",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "格局"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、特殊格局を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000064_follow_structure.yml",
+      "id": "BAZ-000064",
+      "knowledge_type": "four_pillars",
+      "name_ja": "従格",
+      "name_en": "Follow Structure",
+      "category": "Four Pillars",
+      "attribute": "Chart Structures",
+      "definition_ja": "従格は、特定の五行傾向へ従うと読む特殊構造を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:格局",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "格局"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、従格を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000065_transformation_structure.yml",
+      "id": "BAZ-000065",
+      "knowledge_type": "four_pillars",
+      "name_ja": "化格",
+      "name_en": "Transformation Structure",
+      "category": "Four Pillars",
+      "attribute": "Chart Structures",
+      "definition_ja": "化格は、天干合化を中心に読む特殊構造を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:格局",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "格局"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、化格を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000066_useful_god.yml",
+      "id": "BAZ-000066",
+      "knowledge_type": "four_pillars",
+      "name_ja": "用神",
+      "name_en": "Useful God",
+      "category": "Four Pillars",
+      "attribute": "Chart Structures",
+      "definition_ja": "用神は、命式の調整上重視する五行・十神を選ぶ伝統概念を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:格局",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "格局"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、用神を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000067_favorable_element.yml",
+      "id": "BAZ-000067",
+      "knowledge_type": "four_pillars",
+      "name_ja": "喜神",
+      "name_en": "Favorable Element",
+      "category": "Four Pillars",
+      "attribute": "Chart Structures",
+      "definition_ja": "喜神は、用神を補助すると読む五行を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:格局",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "格局"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、喜神を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000068_unfavorable_element.yml",
+      "id": "BAZ-000068",
+      "knowledge_type": "four_pillars",
+      "name_ja": "忌神",
+      "name_en": "Unfavorable Element",
+      "category": "Four Pillars",
+      "attribute": "Chart Structures",
+      "definition_ja": "忌神は、調整上過剰または阻害と読む五行を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:格局",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "格局"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、忌神を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000069_climate_adjustment.yml",
+      "id": "BAZ-000069",
+      "knowledge_type": "four_pillars",
+      "name_ja": "調候",
+      "name_en": "Climate Adjustment",
+      "category": "Four Pillars",
+      "attribute": "Chart Structures",
+      "definition_ja": "調候は、季節の寒暖燥湿を象徴的に調整する読みを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:格局",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "格局"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、調候を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000070_structure_school_variation.yml",
+      "id": "BAZ-000070",
+      "knowledge_type": "four_pillars",
+      "name_ja": "格局流派差",
+      "name_en": "Structure School Variation",
+      "category": "Four Pillars",
+      "attribute": "Chart Structures",
+      "definition_ja": "格局流派差は、格局・用神判定の流派差を明示することを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:格局",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "格局"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、格局流派差を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000071_luck_pillar.yml",
+      "id": "BAZ-000071",
+      "knowledge_type": "four_pillars",
+      "name_ja": "大運",
+      "name_en": "Luck Pillar",
+      "category": "Four Pillars",
+      "attribute": "Time Cycles",
+      "definition_ja": "大運は、一定期間ごとの干支を原局との関係で読むモデルを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:運勢周期",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "運勢周期"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、大運を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000072_luck_direction.yml",
+      "id": "BAZ-000072",
+      "knowledge_type": "four_pillars",
+      "name_ja": "大運順逆",
+      "name_en": "Luck Direction",
+      "category": "Four Pillars",
+      "attribute": "Time Cycles",
+      "definition_ja": "大運順逆は、大運配列を順行・逆行とする規則を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:運勢周期",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "運勢周期"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、大運順逆を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000073_luck_start_age.yml",
+      "id": "BAZ-000073",
+      "knowledge_type": "four_pillars",
+      "name_ja": "起運年齢",
+      "name_en": "Luck Start Age",
+      "category": "Four Pillars",
+      "attribute": "Time Cycles",
+      "definition_ja": "起運年齢は、節気までの時間等から開始年齢を求める流派計算を表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:運勢周期",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "運勢周期"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、起運年齢を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000074_annual_pillar.yml",
+      "id": "BAZ-000074",
+      "knowledge_type": "four_pillars",
+      "name_ja": "流年",
+      "name_en": "Annual Pillar",
+      "category": "Four Pillars",
+      "attribute": "Time Cycles",
+      "definition_ja": "流年は、各年の干支を原局・大運との関係で読むモデルを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:運勢周期",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "運勢周期"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、流年を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000075_monthly_pillar.yml",
+      "id": "BAZ-000075",
+      "knowledge_type": "four_pillars",
+      "name_ja": "流月",
+      "name_en": "Monthly Pillar",
+      "category": "Four Pillars",
+      "attribute": "Time Cycles",
+      "definition_ja": "流月は、各月の干支を時期文脈として読むモデルを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:運勢周期",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "運勢周期"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、流月を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000076_daily_pillar.yml",
+      "id": "BAZ-000076",
+      "knowledge_type": "four_pillars",
+      "name_ja": "流日",
+      "name_en": "Daily Pillar",
+      "category": "Four Pillars",
+      "attribute": "Time Cycles",
+      "definition_ja": "流日は、各日の干支を短期文脈として読むモデルを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:運勢周期",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "運勢周期"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、流日を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000077_cycle_overlap.yml",
+      "id": "BAZ-000077",
+      "knowledge_type": "four_pillars",
+      "name_ja": "運周期重合",
+      "name_en": "Cycle Overlap",
+      "category": "Four Pillars",
+      "attribute": "Time Cycles",
+      "definition_ja": "運周期重合は、原局・大運・流年等の関係が重なることを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:運勢周期",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "運勢周期"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、運周期重合を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000078_cycle_transition.yml",
+      "id": "BAZ-000078",
+      "knowledge_type": "four_pillars",
+      "name_ja": "運切替",
+      "name_en": "Cycle Transition",
+      "category": "Four Pillars",
+      "attribute": "Time Cycles",
+      "definition_ja": "運切替は、大運等の境界時期を不連続な運命決定とみなさず扱うことを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:運勢周期",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "運勢周期"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、運切替を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000079_timing_uncertainty.yml",
+      "id": "BAZ-000079",
+      "knowledge_type": "four_pillars",
+      "name_ja": "時期不確実性",
+      "name_en": "Timing Uncertainty",
+      "category": "Four Pillars",
+      "attribute": "Time Cycles",
+      "definition_ja": "時期不確実性は、起運・日界・節気境界の計算差を表示することを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:運勢周期",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "運勢周期"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、時期不確実性を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000080_non_deterministic_timing.yml",
+      "id": "BAZ-000080",
+      "knowledge_type": "four_pillars",
+      "name_ja": "非決定論的時期表示",
+      "name_en": "Non-Deterministic Timing",
+      "category": "Four Pillars",
+      "attribute": "Time Cycles",
+      "definition_ja": "非決定論的時期表示は、時期モデルを出来事の確定予言として表示しないことを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:運勢周期",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "運勢周期"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、非決定論的時期表示を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000081_whole_chart_synthesis.yml",
+      "id": "BAZ-000081",
+      "knowledge_type": "four_pillars",
+      "name_ja": "命式全体統合",
+      "name_en": "Whole-Chart Synthesis",
+      "category": "Four Pillars",
+      "attribute": "Synthesis",
+      "definition_ja": "命式全体統合は、単一の干支や十神だけで結論を出さないことを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:命式統合",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "命式統合"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、命式全体統合を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000082_season_first_context.yml",
+      "id": "BAZ-000082",
+      "knowledge_type": "four_pillars",
+      "name_ja": "季節優先文脈",
+      "name_en": "Season-First Context",
+      "category": "Four Pillars",
+      "attribute": "Synthesis",
+      "definition_ja": "季節優先文脈は、月令と季節を他要素の解釈文脈として扱うことを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:命式統合",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "命式統合"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、季節優先文脈を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000083_relation_network.yml",
+      "id": "BAZ-000083",
+      "knowledge_type": "four_pillars",
+      "name_ja": "関係ネットワーク",
+      "name_en": "Relation Network",
+      "category": "Four Pillars",
+      "attribute": "Synthesis",
+      "definition_ja": "関係ネットワークは、五行・十神・干支作用を関係網として整理することを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:命式統合",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "命式統合"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、関係ネットワークを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000084_contradictory_symbols.yml",
+      "id": "BAZ-000084",
+      "knowledge_type": "four_pillars",
+      "name_ja": "矛盾象徴併記",
+      "name_en": "Contradictory Symbols",
+      "category": "Four Pillars",
+      "attribute": "Synthesis",
+      "definition_ja": "矛盾象徴併記は、異なる方向の象徴を消去せず併記することを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:命式統合",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "命式統合"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、矛盾象徴併記を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000085_school_specific_result.yml",
+      "id": "BAZ-000085",
+      "knowledge_type": "four_pillars",
+      "name_ja": "流派別結果",
+      "name_en": "School-Specific Result",
+      "category": "Four Pillars",
+      "attribute": "Synthesis",
+      "definition_ja": "流派別結果は、流派ごとの結果を混ぜず個別に保持することを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:命式統合",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "命式統合"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、流派別結果を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000086_calculation_trace.yml",
+      "id": "BAZ-000086",
+      "knowledge_type": "four_pillars",
+      "name_ja": "計算追跡",
+      "name_en": "Calculation Trace",
+      "category": "Four Pillars",
+      "attribute": "Synthesis",
+      "definition_ja": "計算追跡は、入力から四柱・関係・解釈までの計算経路を保存することを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:命式統合",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "命式統合"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、計算追跡を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000087_trait_link_boundary.yml",
+      "id": "BAZ-000087",
+      "knowledge_type": "four_pillars",
+      "name_ja": "性格リンク境界",
+      "name_en": "Trait-Link Boundary",
+      "category": "Four Pillars",
+      "attribute": "Synthesis",
+      "definition_ja": "性格リンク境界は、心理概念へのリンクを検索補助とし実証的関連とみなさないことを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:命式統合",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "命式統合"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、性格リンク境界を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000088_narrative_prompt.yml",
+      "id": "BAZ-000088",
+      "knowledge_type": "four_pillars",
+      "name_ja": "物語プロンプト",
+      "name_en": "Narrative Prompt",
+      "category": "Four Pillars",
+      "attribute": "Synthesis",
+      "definition_ja": "物語プロンプトは、象徴を内省や会話の問いへ変換することを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:命式統合",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "命式統合"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、物語プロンプトを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000089_multiple_hypotheses.yml",
+      "id": "BAZ-000089",
+      "knowledge_type": "four_pillars",
+      "name_ja": "複数仮説表示",
+      "name_en": "Multiple Hypotheses",
+      "category": "Four Pillars",
+      "attribute": "Synthesis",
+      "definition_ja": "複数仮説表示は、一つの配置から複数の解釈候補を提示することを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:命式統合",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "命式統合"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、複数仮説表示を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000090_user_resonance.yml",
+      "id": "BAZ-000090",
+      "knowledge_type": "four_pillars",
+      "name_ja": "本人照合",
+      "name_en": "User Resonance",
+      "category": "Four Pillars",
+      "attribute": "Synthesis",
+      "definition_ja": "本人照合は、利用者が当てはまり方を選び修正できるようにすることを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:命式統合",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "命式統合"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、本人照合を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000091_traditional_evidence_label.yml",
+      "id": "BAZ-000091",
+      "knowledge_type": "four_pillars",
+      "name_ja": "伝統根拠表示",
+      "name_en": "Traditional Evidence Label",
+      "category": "Four Pillars",
+      "attribute": "Safety and Governance",
+      "definition_ja": "伝統根拠表示は、伝統的解釈であることを常に表示することを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:安全と統制",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と統制"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、伝統根拠表示を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000092_no_mental_diagnosis.yml",
+      "id": "BAZ-000092",
+      "knowledge_type": "four_pillars",
+      "name_ja": "精神診断禁止",
+      "name_en": "No Mental Diagnosis",
+      "category": "Four Pillars",
+      "attribute": "Safety and Governance",
+      "definition_ja": "精神診断禁止は、命式から精神疾患や心理状態を診断しないことを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:安全と統制",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と統制"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、精神診断禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000093_no_health_prediction.yml",
+      "id": "BAZ-000093",
+      "knowledge_type": "four_pillars",
+      "name_ja": "健康予測禁止",
+      "name_en": "No Health Prediction",
+      "category": "Four Pillars",
+      "attribute": "Safety and Governance",
+      "definition_ja": "健康予測禁止は、命式から病気・寿命・妊娠等を予測しないことを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:安全と統制",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と統制"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、健康予測禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000094_no_ability_ranking.yml",
+      "id": "BAZ-000094",
+      "knowledge_type": "four_pillars",
+      "name_ja": "能力序列化禁止",
+      "name_en": "No Ability Ranking",
+      "category": "Four Pillars",
+      "attribute": "Safety and Governance",
+      "definition_ja": "能力序列化禁止は、命式から知能・適性・価値を序列化しないことを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:安全と統制",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と統制"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、能力序列化禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000095_no_relationship_determinism.yml",
+      "id": "BAZ-000095",
+      "knowledge_type": "four_pillars",
+      "name_ja": "相性決定論禁止",
+      "name_en": "No Relationship Determinism",
+      "category": "Four Pillars",
+      "attribute": "Safety and Governance",
+      "definition_ja": "相性決定論禁止は、関係の成否や危険性を確定しないことを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:安全と統制",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と統制"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、相性決定論禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000096_no_fatalism.yml",
+      "id": "BAZ-000096",
+      "knowledge_type": "four_pillars",
+      "name_ja": "宿命論回避",
+      "name_en": "Avoid Fatalism",
+      "category": "Four Pillars",
+      "attribute": "Safety and Governance",
+      "definition_ja": "宿命論回避は、不可避・絶対・運命確定という表示を避けることを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:安全と統制",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と統制"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、宿命論回避を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000097_high_impact_exclusion.yml",
+      "id": "BAZ-000097",
+      "knowledge_type": "four_pillars",
+      "name_ja": "高影響利用禁止",
+      "name_en": "High-Impact Exclusion",
+      "category": "Four Pillars",
+      "attribute": "Safety and Governance",
+      "definition_ja": "高影響利用禁止は、雇用・教育・保険・信用・法執行等に利用しないことを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:安全と統制",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と統制"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、高影響利用禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000098_birth_data_minimization.yml",
+      "id": "BAZ-000098",
+      "knowledge_type": "four_pillars",
+      "name_ja": "出生情報最小化",
+      "name_en": "Birth-Data Minimization",
+      "category": "Four Pillars",
+      "attribute": "Safety and Governance",
+      "definition_ja": "出生情報最小化は、出生情報の収集・保持を必要最小限にすることを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:安全と統制",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と統制"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、出生情報最小化を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000099_consent_and_deletion.yml",
+      "id": "BAZ-000099",
+      "knowledge_type": "four_pillars",
+      "name_ja": "同意と削除",
+      "name_en": "Consent and Deletion",
+      "category": "Four Pillars",
+      "attribute": "Safety and Governance",
+      "definition_ja": "同意と削除は、利用目的への同意と入力・派生データの削除手段を用意することを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:安全と統制",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と統制"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、同意と削除を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    },
+    {
+      "filename": "BAZ-000100_human_readable_disclaimer.yml",
+      "id": "BAZ-000100",
+      "knowledge_type": "four_pillars",
+      "name_ja": "平易な注意表示",
+      "name_en": "Human-Readable Disclaimer",
+      "category": "Four Pillars",
+      "attribute": "Safety and Governance",
+      "definition_ja": "平易な注意表示は、専門用語で隠さず限界を利用者へ明示することを表す四柱推命参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:四柱推命",
+        "CAT:安全と統制",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と統制"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命・八字",
+      "source_type": "生年月日・出生時刻・出生地・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "日界と節気規則"
+      ],
+      "calculation_basis": "出生情報を四柱の干支へ変換し陰陽五行・十神・干支関係を流派規則で整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命・八字では、平易な注意表示を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の子平法・八字・四柱推命と東アジアに展開した諸流派"
+    }
+  ]
+}

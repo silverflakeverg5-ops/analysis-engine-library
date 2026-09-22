@@ -1,0 +1,6407 @@
+{
+  "output_dir": "vol36_zi_wei_dou_shu/zi_wei_dou_shu_001_100",
+  "index_filename": "zi_wei_dou_shu_001_100_index.yml",
+  "index_content": "category: Zi Wei Dou Shu\nname_ja: 紫微斗数\nitems:\n  - ZWD-000001_zi_wei_dou_shu.yml\n  - ZWD-000002_lunar_calendar_input.yml\n  - ZWD-000003_birth_hour_branch.yml\n  - ZWD-000004_chart_grid.yml\n  - ZWD-000005_life_palace_anchor.yml\n  - ZWD-000006_body_palace.yml\n  - ZWD-000007_star_placement_rules.yml\n  - ZWD-000008_virtual_stars.yml\n  - ZWD-000009_school_lineage.yml\n  - ZWD-000010_calculation_trace.yml\n  - ZWD-000011_life_palace.yml\n  - ZWD-000012_siblings_palace.yml\n  - ZWD-000013_spouse_palace.yml\n  - ZWD-000014_children_palace.yml\n  - ZWD-000015_wealth_palace.yml\n  - ZWD-000016_health_palace.yml\n  - ZWD-000017_travel_palace.yml\n  - ZWD-000018_friends_palace.yml\n  - ZWD-000019_career_palace.yml\n  - ZWD-000020_property_palace.yml\n  - ZWD-000021_fortune_palace.yml\n  - ZWD-000022_parents_palace.yml\n  - ZWD-000023_ziwei.yml\n  - ZWD-000024_tianji.yml\n  - ZWD-000025_taiyang.yml\n  - ZWD-000026_wuqu.yml\n  - ZWD-000027_tiantong.yml\n  - ZWD-000028_lianzhen.yml\n  - ZWD-000029_tianfu.yml\n  - ZWD-000030_taiyin.yml\n  - ZWD-000031_tanlang.yml\n  - ZWD-000032_jumen.yml\n  - ZWD-000033_tianxiang.yml\n  - ZWD-000034_tianliang.yml\n  - ZWD-000035_qisha.yml\n  - ZWD-000036_pojun.yml\n  - ZWD-000037_zuofu.yml\n  - ZWD-000038_youbi.yml\n  - ZWD-000039_wenchang.yml\n  - ZWD-000040_wenqu.yml\n  - ZWD-000041_tiankui.yml\n  - ZWD-000042_tianyue.yml\n  - ZWD-000043_lucun.yml\n  - ZWD-000044_tianma.yml\n  - ZWD-000045_qingyang.yml\n  - ZWD-000046_tuoluo.yml\n  - ZWD-000047_huoxing.yml\n  - ZWD-000048_lingxing.yml\n  - ZWD-000049_dikong.yml\n  - ZWD-000050_dijie.yml\n  - ZWD-000051_hongluan.yml\n  - ZWD-000052_tianxi.yml\n  - ZWD-000053_tianxing.yml\n  - ZWD-000054_tianyao.yml\n  - ZWD-000055_tianku.yml\n  - ZWD-000056_tianxu.yml\n  - ZWD-000057_hua_lu.yml\n  - ZWD-000058_hua_quan.yml\n  - ZWD-000059_hua_ke.yml\n  - ZWD-000060_hua_ji.yml\n  - ZWD-000061_brightness.yml\n  - ZWD-000062_five_phase_bureau.yml\n  - ZWD-000063_stem_assignment.yml\n  - ZWD-000064_branch_assignment.yml\n  - ZWD-000065_major_minor_priority.yml\n  - ZWD-000066_benefic_malefic_label.yml\n  - ZWD-000067_same_palace.yml\n  - ZWD-000068_opposite_palace.yml\n  - ZWD-000069_empty_palace.yml\n  - ZWD-000070_school_table_version.yml\n  - ZWD-000071_san_fang_si_zheng.yml\n  - ZWD-000072_trine_palaces.yml\n  - ZWD-000073_adjacent_palaces.yml\n  - ZWD-000074_life_body_relation.yml\n  - ZWD-000075_life_fortune_relation.yml\n  - ZWD-000076_life_travel_axis.yml\n  - ZWD-000077_wealth_fortune_axis.yml\n  - ZWD-000078_career_spouse_axis.yml\n  - ZWD-000079_palace_borrowing.yml\n  - ZWD-000080_whole_chart_relation.yml\n  - ZWD-000081_major_limit.yml\n  - ZWD-000082_annual_limit.yml\n  - ZWD-000083_monthly_limit.yml\n  - ZWD-000084_daily_limit.yml\n  - ZWD-000085_decade_palace.yml\n  - ZWD-000086_annual_transformations.yml\n  - ZWD-000087_flying_transformations.yml\n  - ZWD-000088_timing_overlap.yml\n  - ZWD-000089_timing_boundary.yml\n  - ZWD-000090_non_deterministic_timing.yml\n  - ZWD-000091_virtual_star_disclosure.yml\n  - ZWD-000092_calendar_uncertainty.yml\n  - ZWD-000093_school_variation.yml\n  - ZWD-000094_no_health_diagnosis.yml\n  - ZWD-000095_no_relationship_determinism.yml\n  - ZWD-000096_no_wealth_prediction.yml\n  - ZWD-000097_no_ability_ranking.yml\n  - ZWD-000098_no_fatalism.yml\n  - ZWD-000099_high_impact_exclusion.yml\n  - ZWD-000100_reflective_use.yml\nnotes:\n  - 伝統的・文化的解釈として扱い心理学的エビデンスと混同しない\n  - 計算方式・流派・入力精度・出典を結果とともに保持する\n  - 医療・雇用・教育・保険・信用・法執行など高影響判断には利用しない\n",
+  "items": [
+    {
+      "filename": "ZWD-000001_zi_wei_dou_shu.yml",
+      "id": "ZWD-000001",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "紫微斗数",
+      "name_en": "Zi Wei Dou Shu",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Foundations",
+      "definition_ja": "紫微斗数は、出生情報から十二宮へ星曜を配置する中国占術体系を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、紫微斗数を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000002_lunar_calendar_input.yml",
+      "id": "ZWD-000002",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "太陰太陽暦入力",
+      "name_en": "Lunisolar Calendar Input",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Foundations",
+      "definition_ja": "太陰太陽暦入力は、出生年月日を採用暦へ変換して用いることを表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、太陰太陽暦入力を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000003_birth_hour_branch.yml",
+      "id": "ZWD-000003",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "出生時支",
+      "name_en": "Birth Hour Branch",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Foundations",
+      "definition_ja": "出生時支は、出生時刻を十二支の時刻帯へ割り当てることを表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、出生時支を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000004_chart_grid.yml",
+      "id": "ZWD-000004",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "命盤十二宮",
+      "name_en": "Twelve-Palace Chart",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Foundations",
+      "definition_ja": "命盤十二宮は、十二の宮位を地支上へ配置する命盤構造を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、命盤十二宮を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000005_life_palace_anchor.yml",
+      "id": "ZWD-000005",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "命宮起点",
+      "name_en": "Life Palace Anchor",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Foundations",
+      "definition_ja": "命宮起点は、出生月と時刻から命宮位置を定めることを表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、命宮起点を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000006_body_palace.yml",
+      "id": "ZWD-000006",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "身宮",
+      "name_en": "Body Palace",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Foundations",
+      "definition_ja": "身宮は、命宮とは別に配置される伝統的な補助宮位を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、身宮を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000007_star_placement_rules.yml",
+      "id": "ZWD-000007",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "安星法",
+      "name_en": "Star Placement Rules",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Foundations",
+      "definition_ja": "安星法は、出生情報と表にもとづき星曜を配置する規則を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、安星法を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000008_virtual_stars.yml",
+      "id": "ZWD-000008",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "虚星体系",
+      "name_en": "Virtual Star System",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Foundations",
+      "definition_ja": "虚星体系は、天体の実位置ではなく計算上の星名を用いることを表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、虚星体系を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000009_school_lineage.yml",
+      "id": "ZWD-000009",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "流派系譜",
+      "name_en": "School Lineage",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Foundations",
+      "definition_ja": "流派系譜は、三合派・飛星派等の解釈規則を区別することを表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、流派系譜を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000010_calculation_trace.yml",
+      "id": "ZWD-000010",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "排盤追跡",
+      "name_en": "Chart Calculation Trace",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Foundations",
+      "definition_ja": "排盤追跡は、暦変換から星曜配置までを再現可能にすることを表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、排盤追跡を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000011_life_palace.yml",
+      "id": "ZWD-000011",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "命宮",
+      "name_en": "Life Palace",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Twelve Palaces",
+      "definition_ja": "命宮は、十二宮の命宮に割り当てられる伝統的テーマ領域を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、命宮を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000012_siblings_palace.yml",
+      "id": "ZWD-000012",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "兄弟宮",
+      "name_en": "Siblings Palace",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Twelve Palaces",
+      "definition_ja": "兄弟宮は、十二宮の兄弟宮に割り当てられる伝統的テーマ領域を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、兄弟宮を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000013_spouse_palace.yml",
+      "id": "ZWD-000013",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "夫妻宮",
+      "name_en": "Spouse Palace",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Twelve Palaces",
+      "definition_ja": "夫妻宮は、十二宮の夫妻宮に割り当てられる伝統的テーマ領域を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、夫妻宮を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000014_children_palace.yml",
+      "id": "ZWD-000014",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "子女宮",
+      "name_en": "Children Palace",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Twelve Palaces",
+      "definition_ja": "子女宮は、十二宮の子女宮に割り当てられる伝統的テーマ領域を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、子女宮を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000015_wealth_palace.yml",
+      "id": "ZWD-000015",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "財帛宮",
+      "name_en": "Wealth Palace",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Twelve Palaces",
+      "definition_ja": "財帛宮は、十二宮の財帛宮に割り当てられる伝統的テーマ領域を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、財帛宮を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000016_health_palace.yml",
+      "id": "ZWD-000016",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "疾厄宮",
+      "name_en": "Health Palace",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Twelve Palaces",
+      "definition_ja": "疾厄宮は、十二宮の疾厄宮に割り当てられる伝統的テーマ領域を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、疾厄宮を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000017_travel_palace.yml",
+      "id": "ZWD-000017",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "遷移宮",
+      "name_en": "Travel Palace",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Twelve Palaces",
+      "definition_ja": "遷移宮は、十二宮の遷移宮に割り当てられる伝統的テーマ領域を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、遷移宮を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000018_friends_palace.yml",
+      "id": "ZWD-000018",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "交友宮",
+      "name_en": "Friends Palace",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Twelve Palaces",
+      "definition_ja": "交友宮は、十二宮の交友宮に割り当てられる伝統的テーマ領域を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、交友宮を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000019_career_palace.yml",
+      "id": "ZWD-000019",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "官禄宮",
+      "name_en": "Career Palace",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Twelve Palaces",
+      "definition_ja": "官禄宮は、十二宮の官禄宮に割り当てられる伝統的テーマ領域を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、官禄宮を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000020_property_palace.yml",
+      "id": "ZWD-000020",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "田宅宮",
+      "name_en": "Property Palace",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Twelve Palaces",
+      "definition_ja": "田宅宮は、十二宮の田宅宮に割り当てられる伝統的テーマ領域を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、田宅宮を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000021_fortune_palace.yml",
+      "id": "ZWD-000021",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "福徳宮",
+      "name_en": "Fortune Palace",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Twelve Palaces",
+      "definition_ja": "福徳宮は、十二宮の福徳宮に割り当てられる伝統的テーマ領域を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、福徳宮を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000022_parents_palace.yml",
+      "id": "ZWD-000022",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "父母宮",
+      "name_en": "Parents Palace",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Twelve Palaces",
+      "definition_ja": "父母宮は、十二宮の父母宮に割り当てられる伝統的テーマ領域を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、父母宮を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000023_ziwei.yml",
+      "id": "ZWD-000023",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "紫微",
+      "name_en": "Zi Wei",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Fourteen Major Stars",
+      "definition_ja": "紫微は、十四主星の紫微に割り当てられる伝統的象徴機能を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:十四主星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十四主星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、紫微を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000024_tianji.yml",
+      "id": "ZWD-000024",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "天機",
+      "name_en": "Tian Ji",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Fourteen Major Stars",
+      "definition_ja": "天機は、十四主星の天機に割り当てられる伝統的象徴機能を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:十四主星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十四主星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、天機を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000025_taiyang.yml",
+      "id": "ZWD-000025",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "太陽",
+      "name_en": "Tai Yang",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Fourteen Major Stars",
+      "definition_ja": "太陽は、十四主星の太陽に割り当てられる伝統的象徴機能を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:十四主星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十四主星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、太陽を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000026_wuqu.yml",
+      "id": "ZWD-000026",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "武曲",
+      "name_en": "Wu Qu",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Fourteen Major Stars",
+      "definition_ja": "武曲は、十四主星の武曲に割り当てられる伝統的象徴機能を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:十四主星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十四主星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、武曲を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000027_tiantong.yml",
+      "id": "ZWD-000027",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "天同",
+      "name_en": "Tian Tong",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Fourteen Major Stars",
+      "definition_ja": "天同は、十四主星の天同に割り当てられる伝統的象徴機能を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:十四主星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十四主星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、天同を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000028_lianzhen.yml",
+      "id": "ZWD-000028",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "廉貞",
+      "name_en": "Lian Zhen",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Fourteen Major Stars",
+      "definition_ja": "廉貞は、十四主星の廉貞に割り当てられる伝統的象徴機能を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:十四主星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十四主星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、廉貞を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000029_tianfu.yml",
+      "id": "ZWD-000029",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "天府",
+      "name_en": "Tian Fu",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Fourteen Major Stars",
+      "definition_ja": "天府は、十四主星の天府に割り当てられる伝統的象徴機能を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:十四主星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十四主星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、天府を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000030_taiyin.yml",
+      "id": "ZWD-000030",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "太陰",
+      "name_en": "Tai Yin",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Fourteen Major Stars",
+      "definition_ja": "太陰は、十四主星の太陰に割り当てられる伝統的象徴機能を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:十四主星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十四主星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、太陰を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000031_tanlang.yml",
+      "id": "ZWD-000031",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "貪狼",
+      "name_en": "Tan Lang",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Fourteen Major Stars",
+      "definition_ja": "貪狼は、十四主星の貪狼に割り当てられる伝統的象徴機能を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:十四主星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十四主星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、貪狼を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000032_jumen.yml",
+      "id": "ZWD-000032",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "巨門",
+      "name_en": "Ju Men",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Fourteen Major Stars",
+      "definition_ja": "巨門は、十四主星の巨門に割り当てられる伝統的象徴機能を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:十四主星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十四主星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、巨門を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000033_tianxiang.yml",
+      "id": "ZWD-000033",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "天相",
+      "name_en": "Tian Xiang",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Fourteen Major Stars",
+      "definition_ja": "天相は、十四主星の天相に割り当てられる伝統的象徴機能を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:十四主星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十四主星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、天相を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000034_tianliang.yml",
+      "id": "ZWD-000034",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "天梁",
+      "name_en": "Tian Liang",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Fourteen Major Stars",
+      "definition_ja": "天梁は、十四主星の天梁に割り当てられる伝統的象徴機能を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:十四主星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十四主星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、天梁を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000035_qisha.yml",
+      "id": "ZWD-000035",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "七殺",
+      "name_en": "Qi Sha",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Fourteen Major Stars",
+      "definition_ja": "七殺は、十四主星の七殺に割り当てられる伝統的象徴機能を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:十四主星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十四主星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、七殺を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000036_pojun.yml",
+      "id": "ZWD-000036",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "破軍",
+      "name_en": "Po Jun",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Fourteen Major Stars",
+      "definition_ja": "破軍は、十四主星の破軍に割り当てられる伝統的象徴機能を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:十四主星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十四主星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、破軍を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000037_zuofu.yml",
+      "id": "ZWD-000037",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "左輔",
+      "name_en": "Zuo Fu",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Auxiliary Stars",
+      "definition_ja": "左輔は、補助星曜左輔に割り当てられる伝統的象徴を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:補助星曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "補助星曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、左輔を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000038_youbi.yml",
+      "id": "ZWD-000038",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "右弼",
+      "name_en": "You Bi",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Auxiliary Stars",
+      "definition_ja": "右弼は、補助星曜右弼に割り当てられる伝統的象徴を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:補助星曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "補助星曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、右弼を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000039_wenchang.yml",
+      "id": "ZWD-000039",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "文昌",
+      "name_en": "Wen Chang",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Auxiliary Stars",
+      "definition_ja": "文昌は、補助星曜文昌に割り当てられる伝統的象徴を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:補助星曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "補助星曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、文昌を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000040_wenqu.yml",
+      "id": "ZWD-000040",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "文曲",
+      "name_en": "Wen Qu",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Auxiliary Stars",
+      "definition_ja": "文曲は、補助星曜文曲に割り当てられる伝統的象徴を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:補助星曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "補助星曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、文曲を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000041_tiankui.yml",
+      "id": "ZWD-000041",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "天魁",
+      "name_en": "Tian Kui",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Auxiliary Stars",
+      "definition_ja": "天魁は、補助星曜天魁に割り当てられる伝統的象徴を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:補助星曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "補助星曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、天魁を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000042_tianyue.yml",
+      "id": "ZWD-000042",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "天鉞",
+      "name_en": "Tian Yue",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Auxiliary Stars",
+      "definition_ja": "天鉞は、補助星曜天鉞に割り当てられる伝統的象徴を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:補助星曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "補助星曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、天鉞を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000043_lucun.yml",
+      "id": "ZWD-000043",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "禄存",
+      "name_en": "Lu Cun",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Auxiliary Stars",
+      "definition_ja": "禄存は、補助星曜禄存に割り当てられる伝統的象徴を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:補助星曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "補助星曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、禄存を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000044_tianma.yml",
+      "id": "ZWD-000044",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "天馬",
+      "name_en": "Tian Ma",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Auxiliary Stars",
+      "definition_ja": "天馬は、補助星曜天馬に割り当てられる伝統的象徴を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:補助星曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "補助星曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、天馬を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000045_qingyang.yml",
+      "id": "ZWD-000045",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "擎羊",
+      "name_en": "Qing Yang",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Auxiliary Stars",
+      "definition_ja": "擎羊は、補助星曜擎羊に割り当てられる伝統的象徴を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:補助星曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "補助星曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、擎羊を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000046_tuoluo.yml",
+      "id": "ZWD-000046",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "陀羅",
+      "name_en": "Tuo Luo",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Auxiliary Stars",
+      "definition_ja": "陀羅は、補助星曜陀羅に割り当てられる伝統的象徴を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:補助星曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "補助星曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、陀羅を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000047_huoxing.yml",
+      "id": "ZWD-000047",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "火星",
+      "name_en": "Huo Xing",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Auxiliary Stars",
+      "definition_ja": "火星は、補助星曜火星に割り当てられる伝統的象徴を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:補助星曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "補助星曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、火星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000048_lingxing.yml",
+      "id": "ZWD-000048",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "鈴星",
+      "name_en": "Ling Xing",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Auxiliary Stars",
+      "definition_ja": "鈴星は、補助星曜鈴星に割り当てられる伝統的象徴を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:補助星曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "補助星曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、鈴星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000049_dikong.yml",
+      "id": "ZWD-000049",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "地空",
+      "name_en": "Di Kong",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Auxiliary Stars",
+      "definition_ja": "地空は、補助星曜地空に割り当てられる伝統的象徴を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:補助星曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "補助星曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、地空を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000050_dijie.yml",
+      "id": "ZWD-000050",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "地劫",
+      "name_en": "Di Jie",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Auxiliary Stars",
+      "definition_ja": "地劫は、補助星曜地劫に割り当てられる伝統的象徴を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:補助星曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "補助星曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、地劫を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000051_hongluan.yml",
+      "id": "ZWD-000051",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "紅鸞",
+      "name_en": "Hong Luan",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Auxiliary Stars",
+      "definition_ja": "紅鸞は、補助星曜紅鸞に割り当てられる伝統的象徴を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:補助星曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "補助星曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、紅鸞を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000052_tianxi.yml",
+      "id": "ZWD-000052",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "天喜",
+      "name_en": "Tian Xi",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Auxiliary Stars",
+      "definition_ja": "天喜は、補助星曜天喜に割り当てられる伝統的象徴を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:補助星曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "補助星曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、天喜を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000053_tianxing.yml",
+      "id": "ZWD-000053",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "天刑",
+      "name_en": "Tian Xing",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Auxiliary Stars",
+      "definition_ja": "天刑は、補助星曜天刑に割り当てられる伝統的象徴を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:補助星曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "補助星曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、天刑を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000054_tianyao.yml",
+      "id": "ZWD-000054",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "天姚",
+      "name_en": "Tian Yao",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Auxiliary Stars",
+      "definition_ja": "天姚は、補助星曜天姚に割り当てられる伝統的象徴を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:補助星曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "補助星曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、天姚を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000055_tianku.yml",
+      "id": "ZWD-000055",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "天哭",
+      "name_en": "Tian Ku",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Auxiliary Stars",
+      "definition_ja": "天哭は、補助星曜天哭に割り当てられる伝統的象徴を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:補助星曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "補助星曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、天哭を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000056_tianxu.yml",
+      "id": "ZWD-000056",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "天虚",
+      "name_en": "Tian Xu",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Auxiliary Stars",
+      "definition_ja": "天虚は、補助星曜天虚に割り当てられる伝統的象徴を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:補助星曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "補助星曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、天虚を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000057_hua_lu.yml",
+      "id": "ZWD-000057",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "化禄",
+      "name_en": "Hua Lu",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Four Transformations",
+      "definition_ja": "化禄は、天干に応じて特定星曜へ付与する禄の変化を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:四化",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "四化"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、化禄を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000058_hua_quan.yml",
+      "id": "ZWD-000058",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "化権",
+      "name_en": "Hua Quan",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Four Transformations",
+      "definition_ja": "化権は、天干に応じて特定星曜へ付与する権の変化を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:四化",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "四化"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、化権を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000059_hua_ke.yml",
+      "id": "ZWD-000059",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "化科",
+      "name_en": "Hua Ke",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Four Transformations",
+      "definition_ja": "化科は、天干に応じて特定星曜へ付与する科の変化を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:四化",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "四化"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、化科を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000060_hua_ji.yml",
+      "id": "ZWD-000060",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "化忌",
+      "name_en": "Hua Ji",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Four Transformations",
+      "definition_ja": "化忌は、天干に応じて特定星曜へ付与する忌の変化を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:四化",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "四化"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、化忌を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000061_brightness.yml",
+      "id": "ZWD-000061",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "廟旺利陥",
+      "name_en": "Star Brightness",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Star Conditions",
+      "definition_ja": "廟旺利陥は、宮位に応じた星曜状態を段階表示する流派表を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:星曜条件",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "星曜条件"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、廟旺利陥を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000062_five_phase_bureau.yml",
+      "id": "ZWD-000062",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "五行局",
+      "name_en": "Five-Phase Bureau",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Star Conditions",
+      "definition_ja": "五行局は、命盤から定める五行と局数の分類を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:星曜条件",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "星曜条件"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、五行局を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000063_stem_assignment.yml",
+      "id": "ZWD-000063",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "宮干配置",
+      "name_en": "Palace Stem Assignment",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Star Conditions",
+      "definition_ja": "宮干配置は、各宮へ天干を割り当てる規則を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:星曜条件",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "星曜条件"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、宮干配置を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000064_branch_assignment.yml",
+      "id": "ZWD-000064",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "宮支配置",
+      "name_en": "Palace Branch Assignment",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Star Conditions",
+      "definition_ja": "宮支配置は、各宮を地支位置へ割り当てる規則を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:星曜条件",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "星曜条件"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、宮支配置を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000065_major_minor_priority.yml",
+      "id": "ZWD-000065",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "主星補星優先度",
+      "name_en": "Major-Minor Star Priority",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Star Conditions",
+      "definition_ja": "主星補星優先度は、主星と補助星の解釈優先度を定めることを表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:星曜条件",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "星曜条件"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、主星補星優先度を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000066_benefic_malefic_label.yml",
+      "id": "ZWD-000066",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "吉曜煞曜分類",
+      "name_en": "Benefic-Malefic Label",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Star Conditions",
+      "definition_ja": "吉曜煞曜分類は、星曜を吉凶へ分類する伝統的ラベルを表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:星曜条件",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "星曜条件"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、吉曜煞曜分類を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000067_same_palace.yml",
+      "id": "ZWD-000067",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "同宮",
+      "name_en": "Same-Palace Relation",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Star Conditions",
+      "definition_ja": "同宮は、複数星曜が同じ宮に配置される関係を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:星曜条件",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "星曜条件"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、同宮を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000068_opposite_palace.yml",
+      "id": "ZWD-000068",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "対宮",
+      "name_en": "Opposite-Palace Relation",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Star Conditions",
+      "definition_ja": "対宮は、向かい合う二宮の関係を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:星曜条件",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "星曜条件"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、対宮を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000069_empty_palace.yml",
+      "id": "ZWD-000069",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "空宮",
+      "name_en": "Empty Palace",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Star Conditions",
+      "definition_ja": "空宮は、主星が配置されない宮を対宮等から読む規則を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:星曜条件",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "星曜条件"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、空宮を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000070_school_table_version.yml",
+      "id": "ZWD-000070",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "星表版管理",
+      "name_en": "Star-Table Version",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Star Conditions",
+      "definition_ja": "星表版管理は、安星表・四化表・明度表の流派版を保持することを表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:星曜条件",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "星曜条件"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、星表版管理を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000071_san_fang_si_zheng.yml",
+      "id": "ZWD-000071",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "三方四正",
+      "name_en": "Three Directions and Four Positions",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Palace Relations",
+      "definition_ja": "三方四正は、本宮・対宮・三合宮を一単位で読むことを表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:宮位関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "宮位関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、三方四正を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000072_trine_palaces.yml",
+      "id": "ZWD-000072",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "三合宮",
+      "name_en": "Trine Palaces",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Palace Relations",
+      "definition_ja": "三合宮は、地支三合に位置する宮同士の関係を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:宮位関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "宮位関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、三合宮を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000073_adjacent_palaces.yml",
+      "id": "ZWD-000073",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "隣宮",
+      "name_en": "Adjacent Palaces",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Palace Relations",
+      "definition_ja": "隣宮は、隣接する宮位の補助的関係を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:宮位関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "宮位関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、隣宮を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000074_life_body_relation.yml",
+      "id": "ZWD-000074",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "命身関係",
+      "name_en": "Life-Body Relation",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Palace Relations",
+      "definition_ja": "命身関係は、命宮と身宮の配置関係を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:宮位関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "宮位関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、命身関係を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000075_life_fortune_relation.yml",
+      "id": "ZWD-000075",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "命福関係",
+      "name_en": "Life-Fortune Relation",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Palace Relations",
+      "definition_ja": "命福関係は、命宮と福徳宮を対照する読みを表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:宮位関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "宮位関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、命福関係を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000076_life_travel_axis.yml",
+      "id": "ZWD-000076",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "命遷軸",
+      "name_en": "Life-Travel Axis",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Palace Relations",
+      "definition_ja": "命遷軸は、命宮と遷移宮の対宮関係を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:宮位関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "宮位関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、命遷軸を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000077_wealth_fortune_axis.yml",
+      "id": "ZWD-000077",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "財福軸",
+      "name_en": "Wealth-Fortune Axis",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Palace Relations",
+      "definition_ja": "財福軸は、財帛宮と福徳宮等を合わせて読む関係を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:宮位関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "宮位関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、財福軸を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000078_career_spouse_axis.yml",
+      "id": "ZWD-000078",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "官夫軸",
+      "name_en": "Career-Spouse Axis",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Palace Relations",
+      "definition_ja": "官夫軸は、官禄宮と夫妻宮等の相互文脈を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:宮位関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "宮位関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、官夫軸を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000079_palace_borrowing.yml",
+      "id": "ZWD-000079",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "借星安宮",
+      "name_en": "Borrowed-Star Reading",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Palace Relations",
+      "definition_ja": "借星安宮は、空宮を対宮の主星から補助的に読む方法を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:宮位関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "宮位関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、借星安宮を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000080_whole_chart_relation.yml",
+      "id": "ZWD-000080",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "全盤関係",
+      "name_en": "Whole-Chart Relation",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Palace Relations",
+      "definition_ja": "全盤関係は、一宮だけで断定せず十二宮全体を参照することを表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:宮位関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "宮位関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、全盤関係を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000081_major_limit.yml",
+      "id": "ZWD-000081",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "大限",
+      "name_en": "Major Limit",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Timing",
+      "definition_ja": "大限は、十年単位などの期間宮を用いる時期層を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:時期運",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "時期運"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、大限を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000082_annual_limit.yml",
+      "id": "ZWD-000082",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "流年",
+      "name_en": "Annual Limit",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Timing",
+      "definition_ja": "流年は、年単位の星曜・宮位変化を扱う時期層を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:時期運",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "時期運"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、流年を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000083_monthly_limit.yml",
+      "id": "ZWD-000083",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "流月",
+      "name_en": "Monthly Limit",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Timing",
+      "definition_ja": "流月は、月単位の変化を扱う時期層を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:時期運",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "時期運"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、流月を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000084_daily_limit.yml",
+      "id": "ZWD-000084",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "流日",
+      "name_en": "Daily Limit",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Timing",
+      "definition_ja": "流日は、日単位の変化を扱う時期層を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:時期運",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "時期運"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、流日を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000085_decade_palace.yml",
+      "id": "ZWD-000085",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "大限命宮",
+      "name_en": "Decade Life Palace",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Timing",
+      "definition_ja": "大限命宮は、大限ごとに命宮役割を移すことを表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:時期運",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "時期運"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、大限命宮を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000086_annual_transformations.yml",
+      "id": "ZWD-000086",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "流年四化",
+      "name_en": "Annual Transformations",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Timing",
+      "definition_ja": "流年四化は、年干に応じた四化配置を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:時期運",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "時期運"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、流年四化を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000087_flying_transformations.yml",
+      "id": "ZWD-000087",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "飛化",
+      "name_en": "Flying Transformations",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Timing",
+      "definition_ja": "飛化は、宮干四化の飛入・飛出を読む流派技法を表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:時期運",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "時期運"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、飛化を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000088_timing_overlap.yml",
+      "id": "ZWD-000088",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "限運重畳",
+      "name_en": "Timing Overlap",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Timing",
+      "definition_ja": "限運重畳は、本命・大限・流年等を重ねて扱うことを表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:時期運",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "時期運"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、限運重畳を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000089_timing_boundary.yml",
+      "id": "ZWD-000089",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "時期境界",
+      "name_en": "Timing Boundary",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Timing",
+      "definition_ja": "時期境界は、旧暦年・節気等の切替規則を明示することを表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:時期運",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "時期運"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、時期境界を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000090_non_deterministic_timing.yml",
+      "id": "ZWD-000090",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "非決定論的時期表示",
+      "name_en": "Non-Deterministic Timing",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Timing",
+      "definition_ja": "非決定論的時期表示は、時期層を出来事の確定予言として表示しないことを表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:時期運",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "時期運"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、非決定論的時期表示を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000091_virtual_star_disclosure.yml",
+      "id": "ZWD-000091",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "虚星表示",
+      "name_en": "Virtual-Star Disclosure",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Safety and Limits",
+      "definition_ja": "虚星表示は、星曜が実天体位置ではないことを明示することを表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、虚星表示を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000092_calendar_uncertainty.yml",
+      "id": "ZWD-000092",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "暦変換不確実性",
+      "name_en": "Calendar Uncertainty",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Safety and Limits",
+      "definition_ja": "暦変換不確実性は、閏月・日界・時支境界の規則を表示することを表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、暦変換不確実性を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000093_school_variation.yml",
+      "id": "ZWD-000093",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "流派差",
+      "name_en": "School Variation",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Safety and Limits",
+      "definition_ja": "流派差は、星表・四化・飛星等の流派差を保持することを表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、流派差を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000094_no_health_diagnosis.yml",
+      "id": "ZWD-000094",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "疾厄宮診断禁止",
+      "name_en": "No Health Diagnosis",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Safety and Limits",
+      "definition_ja": "疾厄宮診断禁止は、疾厄宮や星曜から病気・寿命を診断しないことを表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、疾厄宮診断禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000095_no_relationship_determinism.yml",
+      "id": "ZWD-000095",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "関係決定論禁止",
+      "name_en": "No Relationship Determinism",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Safety and Limits",
+      "definition_ja": "関係決定論禁止は、夫妻宮等から関係の成否を確定しないことを表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、関係決定論禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000096_no_wealth_prediction.yml",
+      "id": "ZWD-000096",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "財産保証禁止",
+      "name_en": "No Wealth Guarantee",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Safety and Limits",
+      "definition_ja": "財産保証禁止は、財帛宮等から収入や投資成果を保証しないことを表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、財産保証禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000097_no_ability_ranking.yml",
+      "id": "ZWD-000097",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "能力序列化禁止",
+      "name_en": "No Ability Ranking",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Safety and Limits",
+      "definition_ja": "能力序列化禁止は、官禄宮等から能力や価値を序列化しないことを表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、能力序列化禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000098_no_fatalism.yml",
+      "id": "ZWD-000098",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "宿命論回避",
+      "name_en": "Avoid Fatalism",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Safety and Limits",
+      "definition_ja": "宿命論回避は、煞曜や化忌を不可避の災厄として表示しないことを表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、宿命論回避を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000099_high_impact_exclusion.yml",
+      "id": "ZWD-000099",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "高影響利用禁止",
+      "name_en": "High-Impact Exclusion",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Safety and Limits",
+      "definition_ja": "高影響利用禁止は、雇用・教育・保険・信用等に利用しないことを表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、高影響利用禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    },
+    {
+      "filename": "ZWD-000100_reflective_use.yml",
+      "id": "ZWD-000100",
+      "knowledge_type": "zi_wei_dou_shu",
+      "name_ja": "内省用途",
+      "name_en": "Reflective Use",
+      "category": "Zi Wei Dou Shu",
+      "attribute": "Safety and Limits",
+      "definition_ja": "内省用途は、命盤を本人が選択・修正できる会話材料として示すことを表す紫微斗数参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:紫微斗数",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "紫微斗数",
+      "source_type": "生年月日・出生時刻・太陰太陽暦・干支",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地と時間帯",
+        "暦変換規則",
+        "流派星表"
+      ],
+      "calculation_basis": "出生月日・時支・干支等から十二宮と星曜を流派表に従い配置する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "紫微斗数では、内省用途を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "明代以後に確認される紫微斗数文献と中国語圏の諸流派"
+    }
+  ]
+}

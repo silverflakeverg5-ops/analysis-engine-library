@@ -1,11 +1,11 @@
 {
   "output_dir": "vol16_safety_ethics/safety_ethics_001_050",
   "index_filename": "safety_ethics_001_050_index.yml",
-  "index_content": "category: Safety Ethics\nname_ja: 安全倫理\nitems:\n  - SAFE-000001_non_diagnostic_principle.yml\n  - SAFE-000002_probabilistic_expression_principle.yml\n  - SAFE-000003_user_autonomy_principle.yml\n  - SAFE-000004_do_no_harm_principle.yml\n  - SAFE-000005_supportive_use_principle.yml\n  - SAFE-000006_context_sensitive_principle.yml\n  - SAFE-000007_uncertainty_disclosure_principle.yml\n  - SAFE-000008_no_ranking_principle.yml\n  - SAFE-000009_human_review_principle.yml\n  - SAFE-000010_knowledge_db_boundary_principle.yml\n  - SAFE-000011_data_minimization.yml\n  - SAFE-000012_purpose_limitation.yml\n  - SAFE-000013_consent_management.yml\n  - SAFE-000014_sensitive_data_handling.yml\n  - SAFE-000015_privacy_by_design.yml\n  - SAFE-000016_user_data_control.yml\n  - SAFE-000017_data_retention_limit.yml\n  - SAFE-000018_anonymization_principle.yml\n  - SAFE-000019_pseudonymization_principle.yml\n  - SAFE-000020_privacy_risk_review.yml\n  - SAFE-000021_fairness_principle.yml\n  - SAFE-000022_bias_awareness.yml\n  - SAFE-000023_stereotype_avoidance.yml\n  - SAFE-000024_cultural_fairness.yml\n  - SAFE-000025_accessibility_fairness.yml\n  - SAFE-000026_data_coverage_fairness.yml\n  - SAFE-000027_language_fairness.yml\n  - SAFE-000028_minor_user_fairness.yml\n  - SAFE-000029_socioeconomic_context_fairness.yml\n  - SAFE-000030_fairness_audit.yml\n  - SAFE-000031_high_stakes_use_limit.yml\n  - SAFE-000032_mental_health_boundary.yml\n  - SAFE-000033_manipulation_avoidance.yml\n  - SAFE-000034_dependency_prevention.yml\n  - SAFE-000035_over_personalization_risk.yml\n  - SAFE-000036_self_fulfilling_risk.yml\n  - SAFE-000037_labeling_risk.yml\n  - SAFE-000038_social_comparison_risk.yml\n  - SAFE-000039_distress_escalation_control.yml\n  - SAFE-000040_risk_escalation_path.yml\n  - SAFE-000041_safety_guardrail.yml\n  - SAFE-000042_ethical_review_process.yml\n  - SAFE-000043_safety_modifier_stack.yml\n  - SAFE-000044_safe_output_policy.yml\n  - SAFE-000045_user_trust_protection.yml\n  - SAFE-000046_harm_monitoring.yml\n  - SAFE-000047_safe_iteration.yml\n  - SAFE-000048_boundary_documentation.yml\n  - SAFE-000049_safety_audit_signal.yml\n  - SAFE-000050_safety_ethics_integration.yml\nnotes:\n  - 安全倫理は推論結果ではなく制御材料として扱う\n  - Knowledge DB側ではスコアリングしない\n  - アプリ側で安全性・表現・同意・リスク制御に利用する\n",
+  "index_content": "category: Safety Ethics\nname_ja: 安全倫理\nitems:\n  - SAF-000001_non_diagnostic_principle.yml\n  - SAF-000002_probabilistic_expression_principle.yml\n  - SAF-000003_user_autonomy_principle.yml\n  - SAF-000004_do_no_harm_principle.yml\n  - SAF-000005_supportive_use_principle.yml\n  - SAF-000006_context_sensitive_principle.yml\n  - SAF-000007_uncertainty_disclosure_principle.yml\n  - SAF-000008_no_ranking_principle.yml\n  - SAF-000009_human_review_principle.yml\n  - SAF-000010_knowledge_db_boundary_principle.yml\n  - SAF-000011_data_minimization.yml\n  - SAF-000012_purpose_limitation.yml\n  - SAF-000013_consent_management.yml\n  - SAF-000014_sensitive_data_handling.yml\n  - SAF-000015_privacy_by_design.yml\n  - SAF-000016_user_data_control.yml\n  - SAF-000017_data_retention_limit.yml\n  - SAF-000018_anonymization_principle.yml\n  - SAF-000019_pseudonymization_principle.yml\n  - SAF-000020_privacy_risk_review.yml\n  - SAF-000021_fairness_principle.yml\n  - SAF-000022_bias_awareness.yml\n  - SAF-000023_stereotype_avoidance.yml\n  - SAF-000024_cultural_fairness.yml\n  - SAF-000025_accessibility_fairness.yml\n  - SAF-000026_data_coverage_fairness.yml\n  - SAF-000027_language_fairness.yml\n  - SAF-000028_minor_user_fairness.yml\n  - SAF-000029_socioeconomic_context_fairness.yml\n  - SAF-000030_fairness_audit.yml\n  - SAF-000031_high_stakes_use_limit.yml\n  - SAF-000032_mental_health_boundary.yml\n  - SAF-000033_manipulation_avoidance.yml\n  - SAF-000034_dependency_prevention.yml\n  - SAF-000035_over_personalization_risk.yml\n  - SAF-000036_self_fulfilling_risk.yml\n  - SAF-000037_labeling_risk.yml\n  - SAF-000038_social_comparison_risk.yml\n  - SAF-000039_distress_escalation_control.yml\n  - SAF-000040_risk_escalation_path.yml\n  - SAF-000041_safety_guardrail.yml\n  - SAF-000042_ethical_review_process.yml\n  - SAF-000043_safety_modifier_stack.yml\n  - SAF-000044_safe_output_policy.yml\n  - SAF-000045_user_trust_protection.yml\n  - SAF-000046_harm_monitoring.yml\n  - SAF-000047_safe_iteration.yml\n  - SAF-000048_boundary_documentation.yml\n  - SAF-000049_safety_audit_signal.yml\n  - SAF-000050_safety_ethics_integration.yml\nnotes:\n  - 安全倫理は推論結果ではなく制御材料として扱う\n  - Knowledge DB側ではスコアリングしない\n  - アプリ側で安全性・表現・同意・リスク制御に利用する\n",
   "items": [
     {
-      "filename": "SAFE-000001_non_diagnostic_principle.yml",
-      "id": "SAFE-000001",
+      "filename": "SAF-000001_non_diagnostic_principle.yml",
+      "id": "SAF-000001",
       "knowledge_type": "safety_ethics",
       "name_ja": "非診断原則",
       "name_en": "Non Diagnostic Principle",
@@ -46,8 +46,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000002_probabilistic_expression_principle.yml",
-      "id": "SAFE-000002",
+      "filename": "SAF-000002_probabilistic_expression_principle.yml",
+      "id": "SAF-000002",
       "knowledge_type": "safety_ethics",
       "name_ja": "確率的表現原則",
       "name_en": "Probabilistic Expression Principle",
@@ -88,8 +88,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000003_user_autonomy_principle.yml",
-      "id": "SAFE-000003",
+      "filename": "SAF-000003_user_autonomy_principle.yml",
+      "id": "SAF-000003",
       "knowledge_type": "safety_ethics",
       "name_ja": "ユーザー自律原則",
       "name_en": "User Autonomy Principle",
@@ -130,8 +130,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000004_do_no_harm_principle.yml",
-      "id": "SAFE-000004",
+      "filename": "SAF-000004_do_no_harm_principle.yml",
+      "id": "SAF-000004",
       "knowledge_type": "safety_ethics",
       "name_ja": "危害回避原則",
       "name_en": "Do No Harm Principle",
@@ -172,8 +172,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000005_supportive_use_principle.yml",
-      "id": "SAFE-000005",
+      "filename": "SAF-000005_supportive_use_principle.yml",
+      "id": "SAF-000005",
       "knowledge_type": "safety_ethics",
       "name_ja": "支援目的原則",
       "name_en": "Supportive Use Principle",
@@ -214,8 +214,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000006_context_sensitive_principle.yml",
-      "id": "SAFE-000006",
+      "filename": "SAF-000006_context_sensitive_principle.yml",
+      "id": "SAF-000006",
       "knowledge_type": "safety_ethics",
       "name_ja": "文脈配慮原則",
       "name_en": "Context Sensitive Principle",
@@ -256,8 +256,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000007_uncertainty_disclosure_principle.yml",
-      "id": "SAFE-000007",
+      "filename": "SAF-000007_uncertainty_disclosure_principle.yml",
+      "id": "SAF-000007",
       "knowledge_type": "safety_ethics",
       "name_ja": "不確実性開示原則",
       "name_en": "Uncertainty Disclosure Principle",
@@ -298,8 +298,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000008_no_ranking_principle.yml",
-      "id": "SAFE-000008",
+      "filename": "SAF-000008_no_ranking_principle.yml",
+      "id": "SAF-000008",
       "knowledge_type": "safety_ethics",
       "name_ja": "序列化回避原則",
       "name_en": "No Ranking Principle",
@@ -340,8 +340,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000009_human_review_principle.yml",
-      "id": "SAFE-000009",
+      "filename": "SAF-000009_human_review_principle.yml",
+      "id": "SAF-000009",
       "knowledge_type": "safety_ethics",
       "name_ja": "人間確認原則",
       "name_en": "Human Review Principle",
@@ -382,8 +382,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000010_knowledge_db_boundary_principle.yml",
-      "id": "SAFE-000010",
+      "filename": "SAF-000010_knowledge_db_boundary_principle.yml",
+      "id": "SAF-000010",
       "knowledge_type": "safety_ethics",
       "name_ja": "知識DB境界原則",
       "name_en": "Knowledge DB Boundary Principle",
@@ -424,8 +424,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000011_data_minimization.yml",
-      "id": "SAFE-000011",
+      "filename": "SAF-000011_data_minimization.yml",
+      "id": "SAF-000011",
       "knowledge_type": "safety_ethics",
       "name_ja": "データ最小化",
       "name_en": "Data Minimization",
@@ -466,8 +466,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000012_purpose_limitation.yml",
-      "id": "SAFE-000012",
+      "filename": "SAF-000012_purpose_limitation.yml",
+      "id": "SAF-000012",
       "knowledge_type": "safety_ethics",
       "name_ja": "目的制限",
       "name_en": "Purpose Limitation",
@@ -508,8 +508,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000013_consent_management.yml",
-      "id": "SAFE-000013",
+      "filename": "SAF-000013_consent_management.yml",
+      "id": "SAF-000013",
       "knowledge_type": "safety_ethics",
       "name_ja": "同意管理",
       "name_en": "Consent Management",
@@ -550,8 +550,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000014_sensitive_data_handling.yml",
-      "id": "SAFE-000014",
+      "filename": "SAF-000014_sensitive_data_handling.yml",
+      "id": "SAF-000014",
       "knowledge_type": "safety_ethics",
       "name_ja": "機微情報管理",
       "name_en": "Sensitive Data Handling",
@@ -592,8 +592,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000015_privacy_by_design.yml",
-      "id": "SAFE-000015",
+      "filename": "SAF-000015_privacy_by_design.yml",
+      "id": "SAF-000015",
       "knowledge_type": "safety_ethics",
       "name_ja": "プライバシー・バイ・デザイン",
       "name_en": "Privacy by Design",
@@ -634,8 +634,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000016_user_data_control.yml",
-      "id": "SAFE-000016",
+      "filename": "SAF-000016_user_data_control.yml",
+      "id": "SAF-000016",
       "knowledge_type": "safety_ethics",
       "name_ja": "ユーザーデータ制御",
       "name_en": "User Data Control",
@@ -676,8 +676,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000017_data_retention_limit.yml",
-      "id": "SAFE-000017",
+      "filename": "SAF-000017_data_retention_limit.yml",
+      "id": "SAF-000017",
       "knowledge_type": "safety_ethics",
       "name_ja": "データ保持制限",
       "name_en": "Data Retention Limit",
@@ -718,8 +718,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000018_anonymization_principle.yml",
-      "id": "SAFE-000018",
+      "filename": "SAF-000018_anonymization_principle.yml",
+      "id": "SAF-000018",
       "knowledge_type": "safety_ethics",
       "name_ja": "匿名化原則",
       "name_en": "Anonymization Principle",
@@ -760,8 +760,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000019_pseudonymization_principle.yml",
-      "id": "SAFE-000019",
+      "filename": "SAF-000019_pseudonymization_principle.yml",
+      "id": "SAF-000019",
       "knowledge_type": "safety_ethics",
       "name_ja": "仮名化原則",
       "name_en": "Pseudonymization Principle",
@@ -802,8 +802,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000020_privacy_risk_review.yml",
-      "id": "SAFE-000020",
+      "filename": "SAF-000020_privacy_risk_review.yml",
+      "id": "SAF-000020",
       "knowledge_type": "safety_ethics",
       "name_ja": "プライバシーリスク確認",
       "name_en": "Privacy Risk Review",
@@ -844,8 +844,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000021_fairness_principle.yml",
-      "id": "SAFE-000021",
+      "filename": "SAF-000021_fairness_principle.yml",
+      "id": "SAF-000021",
       "knowledge_type": "safety_ethics",
       "name_ja": "公平性原則",
       "name_en": "Fairness Principle",
@@ -886,8 +886,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000022_bias_awareness.yml",
-      "id": "SAFE-000022",
+      "filename": "SAF-000022_bias_awareness.yml",
+      "id": "SAF-000022",
       "knowledge_type": "safety_ethics",
       "name_ja": "バイアス認識",
       "name_en": "Bias Awareness",
@@ -928,8 +928,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000023_stereotype_avoidance.yml",
-      "id": "SAFE-000023",
+      "filename": "SAF-000023_stereotype_avoidance.yml",
+      "id": "SAF-000023",
       "knowledge_type": "safety_ethics",
       "name_ja": "ステレオタイプ回避",
       "name_en": "Stereotype Avoidance",
@@ -970,8 +970,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000024_cultural_fairness.yml",
-      "id": "SAFE-000024",
+      "filename": "SAF-000024_cultural_fairness.yml",
+      "id": "SAF-000024",
       "knowledge_type": "safety_ethics",
       "name_ja": "文化的公平性",
       "name_en": "Cultural Fairness",
@@ -1012,8 +1012,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000025_accessibility_fairness.yml",
-      "id": "SAFE-000025",
+      "filename": "SAF-000025_accessibility_fairness.yml",
+      "id": "SAF-000025",
       "knowledge_type": "safety_ethics",
       "name_ja": "アクセシビリティ公平性",
       "name_en": "Accessibility Fairness",
@@ -1054,8 +1054,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000026_data_coverage_fairness.yml",
-      "id": "SAFE-000026",
+      "filename": "SAF-000026_data_coverage_fairness.yml",
+      "id": "SAF-000026",
       "knowledge_type": "safety_ethics",
       "name_ja": "データカバレッジ公平性",
       "name_en": "Data Coverage Fairness",
@@ -1096,8 +1096,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000027_language_fairness.yml",
-      "id": "SAFE-000027",
+      "filename": "SAF-000027_language_fairness.yml",
+      "id": "SAF-000027",
       "knowledge_type": "safety_ethics",
       "name_ja": "言語公平性",
       "name_en": "Language Fairness",
@@ -1138,8 +1138,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000028_minor_user_fairness.yml",
-      "id": "SAFE-000028",
+      "filename": "SAF-000028_minor_user_fairness.yml",
+      "id": "SAF-000028",
       "knowledge_type": "safety_ethics",
       "name_ja": "未成年公平性",
       "name_en": "Minor User Fairness",
@@ -1180,8 +1180,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000029_socioeconomic_context_fairness.yml",
-      "id": "SAFE-000029",
+      "filename": "SAF-000029_socioeconomic_context_fairness.yml",
+      "id": "SAF-000029",
       "knowledge_type": "safety_ethics",
       "name_ja": "社会経済文脈公平性",
       "name_en": "Socioeconomic Context Fairness",
@@ -1222,8 +1222,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000030_fairness_audit.yml",
-      "id": "SAFE-000030",
+      "filename": "SAF-000030_fairness_audit.yml",
+      "id": "SAF-000030",
       "knowledge_type": "safety_ethics",
       "name_ja": "公平性監査",
       "name_en": "Fairness Audit",
@@ -1264,8 +1264,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000031_high_stakes_use_limit.yml",
-      "id": "SAFE-000031",
+      "filename": "SAF-000031_high_stakes_use_limit.yml",
+      "id": "SAF-000031",
       "knowledge_type": "safety_ethics",
       "name_ja": "高リスク用途制限",
       "name_en": "High Stakes Use Limit",
@@ -1306,8 +1306,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000032_mental_health_boundary.yml",
-      "id": "SAFE-000032",
+      "filename": "SAF-000032_mental_health_boundary.yml",
+      "id": "SAF-000032",
       "knowledge_type": "safety_ethics",
       "name_ja": "メンタルヘルス境界",
       "name_en": "Mental Health Boundary",
@@ -1348,8 +1348,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000033_manipulation_avoidance.yml",
-      "id": "SAFE-000033",
+      "filename": "SAF-000033_manipulation_avoidance.yml",
+      "id": "SAF-000033",
       "knowledge_type": "safety_ethics",
       "name_ja": "操作的誘導回避",
       "name_en": "Manipulation Avoidance",
@@ -1390,8 +1390,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000034_dependency_prevention.yml",
-      "id": "SAFE-000034",
+      "filename": "SAF-000034_dependency_prevention.yml",
+      "id": "SAF-000034",
       "knowledge_type": "safety_ethics",
       "name_ja": "依存予防",
       "name_en": "Dependency Prevention",
@@ -1432,8 +1432,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000035_over_personalization_risk.yml",
-      "id": "SAFE-000035",
+      "filename": "SAF-000035_over_personalization_risk.yml",
+      "id": "SAF-000035",
       "knowledge_type": "safety_ethics",
       "name_ja": "過剰個別化リスク",
       "name_en": "Over Personalization Risk",
@@ -1474,8 +1474,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000036_self_fulfilling_risk.yml",
-      "id": "SAFE-000036",
+      "filename": "SAF-000036_self_fulfilling_risk.yml",
+      "id": "SAF-000036",
       "knowledge_type": "safety_ethics",
       "name_ja": "自己成就リスク",
       "name_en": "Self Fulfilling Risk",
@@ -1516,8 +1516,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000037_labeling_risk.yml",
-      "id": "SAFE-000037",
+      "filename": "SAF-000037_labeling_risk.yml",
+      "id": "SAF-000037",
       "knowledge_type": "safety_ethics",
       "name_ja": "ラベリングリスク",
       "name_en": "Labeling Risk",
@@ -1558,8 +1558,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000038_social_comparison_risk.yml",
-      "id": "SAFE-000038",
+      "filename": "SAF-000038_social_comparison_risk.yml",
+      "id": "SAF-000038",
       "knowledge_type": "safety_ethics",
       "name_ja": "社会的比較リスク",
       "name_en": "Social Comparison Risk",
@@ -1600,8 +1600,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000039_distress_escalation_control.yml",
-      "id": "SAFE-000039",
+      "filename": "SAF-000039_distress_escalation_control.yml",
+      "id": "SAF-000039",
       "knowledge_type": "safety_ethics",
       "name_ja": "苦痛悪化制御",
       "name_en": "Distress Escalation Control",
@@ -1642,8 +1642,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000040_risk_escalation_path.yml",
-      "id": "SAFE-000040",
+      "filename": "SAF-000040_risk_escalation_path.yml",
+      "id": "SAF-000040",
       "knowledge_type": "safety_ethics",
       "name_ja": "リスク時エスカレーション導線",
       "name_en": "Risk Escalation Path",
@@ -1684,8 +1684,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000041_safety_guardrail.yml",
-      "id": "SAFE-000041",
+      "filename": "SAF-000041_safety_guardrail.yml",
+      "id": "SAF-000041",
       "knowledge_type": "safety_ethics",
       "name_ja": "安全ガードレール",
       "name_en": "Safety Guardrail",
@@ -1726,8 +1726,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000042_ethical_review_process.yml",
-      "id": "SAFE-000042",
+      "filename": "SAF-000042_ethical_review_process.yml",
+      "id": "SAF-000042",
       "knowledge_type": "safety_ethics",
       "name_ja": "倫理レビュー過程",
       "name_en": "Ethical Review Process",
@@ -1768,8 +1768,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000043_safety_modifier_stack.yml",
-      "id": "SAFE-000043",
+      "filename": "SAF-000043_safety_modifier_stack.yml",
+      "id": "SAF-000043",
       "knowledge_type": "safety_ethics",
       "name_ja": "安全補正スタック",
       "name_en": "Safety Modifier Stack",
@@ -1810,8 +1810,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000044_safe_output_policy.yml",
-      "id": "SAFE-000044",
+      "filename": "SAF-000044_safe_output_policy.yml",
+      "id": "SAF-000044",
       "knowledge_type": "safety_ethics",
       "name_ja": "安全出力方針",
       "name_en": "Safe Output Policy",
@@ -1852,8 +1852,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000045_user_trust_protection.yml",
-      "id": "SAFE-000045",
+      "filename": "SAF-000045_user_trust_protection.yml",
+      "id": "SAF-000045",
       "knowledge_type": "safety_ethics",
       "name_ja": "ユーザー信頼保護",
       "name_en": "User Trust Protection",
@@ -1894,8 +1894,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000046_harm_monitoring.yml",
-      "id": "SAFE-000046",
+      "filename": "SAF-000046_harm_monitoring.yml",
+      "id": "SAF-000046",
       "knowledge_type": "safety_ethics",
       "name_ja": "有害影響モニタリング",
       "name_en": "Harm Monitoring",
@@ -1936,8 +1936,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000047_safe_iteration.yml",
-      "id": "SAFE-000047",
+      "filename": "SAF-000047_safe_iteration.yml",
+      "id": "SAF-000047",
       "knowledge_type": "safety_ethics",
       "name_ja": "安全な改善反復",
       "name_en": "Safe Iteration",
@@ -1978,8 +1978,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000048_boundary_documentation.yml",
-      "id": "SAFE-000048",
+      "filename": "SAF-000048_boundary_documentation.yml",
+      "id": "SAF-000048",
       "knowledge_type": "safety_ethics",
       "name_ja": "境界文書化",
       "name_en": "Boundary Documentation",
@@ -2020,8 +2020,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000049_safety_audit_signal.yml",
-      "id": "SAFE-000049",
+      "filename": "SAF-000049_safety_audit_signal.yml",
+      "id": "SAF-000049",
       "knowledge_type": "safety_ethics",
       "name_ja": "安全監査シグナル",
       "name_en": "Safety Audit Signal",
@@ -2062,8 +2062,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000050_safety_ethics_integration.yml",
-      "id": "SAFE-000050",
+      "filename": "SAF-000050_safety_ethics_integration.yml",
+      "id": "SAF-000050",
       "knowledge_type": "safety_ethics",
       "name_ja": "安全倫理統合",
       "name_en": "Safety Ethics Integration",

@@ -1,0 +1,6507 @@
+{
+  "output_dir": "vol41_feng_shui/feng_shui_001_100",
+  "index_filename": "feng_shui_001_100_index.yml",
+  "index_content": "category: Feng Shui\nname_ja: 風水\nitems:\n  - FSH-000001_feng_shui.yml\n  - FSH-000002_kanyu.yml\n  - FSH-000003_qi_flow.yml\n  - FSH-000004_yin_yang_context.yml\n  - FSH-000005_five_phase_context.yml\n  - FSH-000006_form_school.yml\n  - FSH-000007_compass_school.yml\n  - FSH-000008_living_site.yml\n  - FSH-000009_burial_site.yml\n  - FSH-000010_school_declaration.yml\n  - FSH-000011_mountain_form.yml\n  - FSH-000012_water_form.yml\n  - FSH-000013_dragon_vein.yml\n  - FSH-000014_lair.yml\n  - FSH-000015_sand.yml\n  - FSH-000016_facing_water.yml\n  - FSH-000017_back_support.yml\n  - FSH-000018_left_dragon.yml\n  - FSH-000019_right_tiger.yml\n  - FSH-000020_front_bird.yml\n  - FSH-000021_rear_tortoise.yml\n  - FSH-000022_bright_hall.yml\n  - FSH-000023_poison_arrow.yml\n  - FSH-000024_site_enclosure.yml\n  - FSH-000025_form_context.yml\n  - FSH-000026_luopan.yml\n  - FSH-000027_sitting_direction.yml\n  - FSH-000028_facing_direction.yml\n  - FSH-000029_twenty_four_mountains.yml\n  - FSH-000030_heaven_plate.yml\n  - FSH-000031_earth_plate.yml\n  - FSH-000032_human_plate.yml\n  - FSH-000033_magnetic_bearing.yml\n  - FSH-000034_true_north.yml\n  - FSH-000035_declination.yml\n  - FSH-000036_measurement_point.yml\n  - FSH-000037_building_facing.yml\n  - FSH-000038_compass_interference.yml\n  - FSH-000039_bearing_uncertainty.yml\n  - FSH-000040_compass_school_context.yml\n  - FSH-000041_north.yml\n  - FSH-000042_northeast.yml\n  - FSH-000043_east.yml\n  - FSH-000044_southeast.yml\n  - FSH-000045_south.yml\n  - FSH-000046_southwest.yml\n  - FSH-000047_west.yml\n  - FSH-000048_northwest.yml\n  - FSH-000049_kan.yml\n  - FSH-000050_gen.yml\n  - FSH-000051_zhen.yml\n  - FSH-000052_xun.yml\n  - FSH-000053_li.yml\n  - FSH-000054_kun.yml\n  - FSH-000055_dui.yml\n  - FSH-000056_qian.yml\n  - FSH-000057_wood_environment.yml\n  - FSH-000058_fire_environment.yml\n  - FSH-000059_earth_environment.yml\n  - FSH-000060_metal_environment.yml\n  - FSH-000061_water_environment.yml\n  - FSH-000062_generating_relation.yml\n  - FSH-000063_controlling_relation.yml\n  - FSH-000064_phase_balance.yml\n  - FSH-000065_material_symbolism.yml\n  - FSH-000066_color_symbolism.yml\n  - FSH-000067_east_group.yml\n  - FSH-000068_west_group.yml\n  - FSH-000069_life_gua.yml\n  - FSH-000070_house_gua.yml\n  - FSH-000071_sheng_qi.yml\n  - FSH-000072_tian_yi.yml\n  - FSH-000073_yan_nian.yml\n  - FSH-000074_fu_wei.yml\n  - FSH-000075_four_challenging_sectors.yml\n  - FSH-000076_eight_mansions_variation.yml\n  - FSH-000077_flying_star_grid.yml\n  - FSH-000078_period.yml\n  - FSH-000079_base_star.yml\n  - FSH-000080_mountain_star.yml\n  - FSH-000081_water_star.yml\n  - FSH-000082_annual_star.yml\n  - FSH-000083_monthly_star.yml\n  - FSH-000084_forward_reverse_flight.yml\n  - FSH-000085_building_period_change.yml\n  - FSH-000086_flying_star_version.yml\n  - FSH-000087_entrance_context.yml\n  - FSH-000088_room_function.yml\n  - FSH-000089_circulation.yml\n  - FSH-000090_light_ventilation.yml\n  - FSH-000091_building_safety_priority.yml\n  - FSH-000092_environmental_health_priority.yml\n  - FSH-000093_no_disaster_prediction.yml\n  - FSH-000094_no_health_claim.yml\n  - FSH-000095_no_property_value_claim.yml\n  - FSH-000096_no_resident_inference.yml\n  - FSH-000097_school_variation.yml\n  - FSH-000098_location_privacy.yml\n  - FSH-000099_professional_boundary.yml\n  - FSH-000100_reflective_design_use.yml\nnotes:\n  - 伝統的・文化的解釈として扱い心理学的エビデンスと混同しない\n  - 計算方式・流派・入力精度・出典を結果とともに保持する\n  - 医療・雇用・教育・保険・信用・法執行など高影響判断には利用しない\n",
+  "items": [
+    {
+      "filename": "FSH-000001_feng_shui.yml",
+      "id": "FSH-000001",
+      "knowledge_type": "feng_shui",
+      "name_ja": "風水",
+      "name_en": "Feng Shui",
+      "category": "Feng Shui",
+      "attribute": "Foundations",
+      "definition_ja": "風水は、地形・方位・建物・時間を扱う中国由来の伝統的環境解釈体系を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、風水を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000002_kanyu.yml",
+      "id": "FSH-000002",
+      "knowledge_type": "feng_shui",
+      "name_ja": "堪輿",
+      "name_en": "Kanyu",
+      "category": "Feng Shui",
+      "attribute": "Foundations",
+      "definition_ja": "堪輿は、天地と場所を扱う風水の歴史的呼称を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、堪輿を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000003_qi_flow.yml",
+      "id": "FSH-000003",
+      "knowledge_type": "feng_shui",
+      "name_ja": "気の流れ",
+      "name_en": "Qi Flow",
+      "category": "Feng Shui",
+      "attribute": "Foundations",
+      "definition_ja": "気の流れは、場所の配置と動きを説明する伝統的象徴概念を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、気の流れを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000004_yin_yang_context.yml",
+      "id": "FSH-000004",
+      "knowledge_type": "feng_shui",
+      "name_ja": "陰陽環境",
+      "name_en": "Yin-Yang Environmental Context",
+      "category": "Feng Shui",
+      "attribute": "Foundations",
+      "definition_ja": "陰陽環境は、明暗・動静・開閉等を陰陽で分類することを表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、陰陽環境を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000005_five_phase_context.yml",
+      "id": "FSH-000005",
+      "knowledge_type": "feng_shui",
+      "name_ja": "五行環境",
+      "name_en": "Five-Phase Environmental Context",
+      "category": "Feng Shui",
+      "attribute": "Foundations",
+      "definition_ja": "五行環境は、方位・形・色・素材等を五行へ対応づけることを表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、五行環境を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000006_form_school.yml",
+      "id": "FSH-000006",
+      "knowledge_type": "feng_shui",
+      "name_ja": "形勢派",
+      "name_en": "Form School",
+      "category": "Feng Shui",
+      "attribute": "Foundations",
+      "definition_ja": "形勢派は、山水や地形・形状を重視する風水系統を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、形勢派を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000007_compass_school.yml",
+      "id": "FSH-000007",
+      "knowledge_type": "feng_shui",
+      "name_ja": "理気派",
+      "name_en": "Compass School",
+      "category": "Feng Shui",
+      "attribute": "Foundations",
+      "definition_ja": "理気派は、羅盤・方位・時間計算を重視する風水系統を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、理気派を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000008_living_site.yml",
+      "id": "FSH-000008",
+      "knowledge_type": "feng_shui",
+      "name_ja": "陽宅",
+      "name_en": "Yang Dwelling",
+      "category": "Feng Shui",
+      "attribute": "Foundations",
+      "definition_ja": "陽宅は、住居・都市等の生者の環境を扱う領域を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、陽宅を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000009_burial_site.yml",
+      "id": "FSH-000009",
+      "knowledge_type": "feng_shui",
+      "name_ja": "陰宅",
+      "name_en": "Yin Dwelling",
+      "category": "Feng Shui",
+      "attribute": "Foundations",
+      "definition_ja": "陰宅は、墓地等を扱う歴史的風水領域を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、陰宅を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000010_school_declaration.yml",
+      "id": "FSH-000010",
+      "knowledge_type": "feng_shui",
+      "name_ja": "流派宣言",
+      "name_en": "School Declaration",
+      "category": "Feng Shui",
+      "attribute": "Foundations",
+      "definition_ja": "流派宣言は、形勢・八宅・玄空等の採用方式を明示することを表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、流派宣言を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000011_mountain_form.yml",
+      "id": "FSH-000011",
+      "knowledge_type": "feng_shui",
+      "name_ja": "山形",
+      "name_en": "Mountain Form",
+      "category": "Feng Shui",
+      "attribute": "Form School",
+      "definition_ja": "山形は、周囲の山地形状を読む伝統的概念を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:形勢",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "形勢"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、山形を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000012_water_form.yml",
+      "id": "FSH-000012",
+      "knowledge_type": "feng_shui",
+      "name_ja": "水勢",
+      "name_en": "Water Form",
+      "category": "Feng Shui",
+      "attribute": "Form School",
+      "definition_ja": "水勢は、河川・湖沼・水路の形と流れを読む概念を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:形勢",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "形勢"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、水勢を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000013_dragon_vein.yml",
+      "id": "FSH-000013",
+      "knowledge_type": "feng_shui",
+      "name_ja": "龍脈",
+      "name_en": "Dragon Vein",
+      "category": "Feng Shui",
+      "attribute": "Form School",
+      "definition_ja": "龍脈は、山脈の連なりを気の経路として捉える象徴を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:形勢",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "形勢"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、龍脈を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000014_lair.yml",
+      "id": "FSH-000014",
+      "knowledge_type": "feng_shui",
+      "name_ja": "穴",
+      "name_en": "Lair",
+      "category": "Feng Shui",
+      "attribute": "Form School",
+      "definition_ja": "穴は、地形上の気が集まるとされる地点概念を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:形勢",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "形勢"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、穴を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000015_sand.yml",
+      "id": "FSH-000015",
+      "knowledge_type": "feng_shui",
+      "name_ja": "砂",
+      "name_en": "Sand Forms",
+      "category": "Feng Shui",
+      "attribute": "Form School",
+      "definition_ja": "砂は、中心地点を囲む丘陵等を扱う概念を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:形勢",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "形勢"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、砂を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000016_facing_water.yml",
+      "id": "FSH-000016",
+      "knowledge_type": "feng_shui",
+      "name_ja": "向水",
+      "name_en": "Facing Water",
+      "category": "Feng Shui",
+      "attribute": "Form School",
+      "definition_ja": "向水は、正面側の水との位置関係を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:形勢",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "形勢"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、向水を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000017_back_support.yml",
+      "id": "FSH-000017",
+      "knowledge_type": "feng_shui",
+      "name_ja": "背山",
+      "name_en": "Back Support",
+      "category": "Feng Shui",
+      "attribute": "Form School",
+      "definition_ja": "背山は、背後の地形や建物による支えの象徴を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:形勢",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "形勢"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、背山を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000018_left_dragon.yml",
+      "id": "FSH-000018",
+      "knowledge_type": "feng_shui",
+      "name_ja": "青龍方",
+      "name_en": "Azure Dragon Side",
+      "category": "Feng Shui",
+      "attribute": "Form School",
+      "definition_ja": "青龍方は、中心から見た左側の形勢分類を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:形勢",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "形勢"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、青龍方を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000019_right_tiger.yml",
+      "id": "FSH-000019",
+      "knowledge_type": "feng_shui",
+      "name_ja": "白虎方",
+      "name_en": "White Tiger Side",
+      "category": "Feng Shui",
+      "attribute": "Form School",
+      "definition_ja": "白虎方は、中心から見た右側の形勢分類を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:形勢",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "形勢"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、白虎方を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000020_front_bird.yml",
+      "id": "FSH-000020",
+      "knowledge_type": "feng_shui",
+      "name_ja": "朱雀方",
+      "name_en": "Vermilion Bird Side",
+      "category": "Feng Shui",
+      "attribute": "Form School",
+      "definition_ja": "朱雀方は、中心から見た前方の形勢分類を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:形勢",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "形勢"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、朱雀方を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000021_rear_tortoise.yml",
+      "id": "FSH-000021",
+      "knowledge_type": "feng_shui",
+      "name_ja": "玄武方",
+      "name_en": "Black Tortoise Side",
+      "category": "Feng Shui",
+      "attribute": "Form School",
+      "definition_ja": "玄武方は、中心から見た後方の形勢分類を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:形勢",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "形勢"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、玄武方を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000022_bright_hall.yml",
+      "id": "FSH-000022",
+      "knowledge_type": "feng_shui",
+      "name_ja": "明堂",
+      "name_en": "Bright Hall",
+      "category": "Feng Shui",
+      "attribute": "Form School",
+      "definition_ja": "明堂は、建物・地点前方の開けた空間概念を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:形勢",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "形勢"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、明堂を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000023_poison_arrow.yml",
+      "id": "FSH-000023",
+      "knowledge_type": "feng_shui",
+      "name_ja": "形煞",
+      "name_en": "Form Sha",
+      "category": "Feng Shui",
+      "attribute": "Form School",
+      "definition_ja": "形煞は、鋭角・直線等を不調和として読む伝統的形状概念を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:形勢",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "形勢"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、形煞を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000024_site_enclosure.yml",
+      "id": "FSH-000024",
+      "knowledge_type": "feng_shui",
+      "name_ja": "環抱",
+      "name_en": "Site Enclosure",
+      "category": "Feng Shui",
+      "attribute": "Form School",
+      "definition_ja": "環抱は、周囲が包むような地形・配置を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:形勢",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "形勢"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、環抱を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000025_form_context.yml",
+      "id": "FSH-000025",
+      "knowledge_type": "feng_shui",
+      "name_ja": "形勢総合",
+      "name_en": "Form Context",
+      "category": "Feng Shui",
+      "attribute": "Form School",
+      "definition_ja": "形勢総合は、一つの形だけでなく周辺環境全体を扱うことを表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:形勢",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "形勢"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、形勢総合を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000026_luopan.yml",
+      "id": "FSH-000026",
+      "knowledge_type": "feng_shui",
+      "name_ja": "羅盤",
+      "name_en": "Luopan",
+      "category": "Feng Shui",
+      "attribute": "Compass School",
+      "definition_ja": "羅盤は、方位と複数の伝統的尺度を同心円状に示す風水羅盤を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:理気",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "理気"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、羅盤を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000027_sitting_direction.yml",
+      "id": "FSH-000027",
+      "knowledge_type": "feng_shui",
+      "name_ja": "坐",
+      "name_en": "Sitting Direction",
+      "category": "Feng Shui",
+      "attribute": "Compass School",
+      "definition_ja": "坐は、建物の背面側として定義する方位を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:理気",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "理気"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、坐を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000028_facing_direction.yml",
+      "id": "FSH-000028",
+      "knowledge_type": "feng_shui",
+      "name_ja": "向",
+      "name_en": "Facing Direction",
+      "category": "Feng Shui",
+      "attribute": "Compass School",
+      "definition_ja": "向は、建物の正面側として定義する方位を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:理気",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "理気"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、向を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000029_twenty_four_mountains.yml",
+      "id": "FSH-000029",
+      "knowledge_type": "feng_shui",
+      "name_ja": "二十四山",
+      "name_en": "Twenty-Four Mountains",
+      "category": "Feng Shui",
+      "attribute": "Compass School",
+      "definition_ja": "二十四山は、全方位を二十四区画へ分ける方式を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:理気",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "理気"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、二十四山を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000030_heaven_plate.yml",
+      "id": "FSH-000030",
+      "knowledge_type": "feng_shui",
+      "name_ja": "天盤",
+      "name_en": "Heaven Plate",
+      "category": "Feng Shui",
+      "attribute": "Compass School",
+      "definition_ja": "天盤は、羅盤上の天盤系方位層を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:理気",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "理気"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、天盤を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000031_earth_plate.yml",
+      "id": "FSH-000031",
+      "knowledge_type": "feng_shui",
+      "name_ja": "地盤",
+      "name_en": "Earth Plate",
+      "category": "Feng Shui",
+      "attribute": "Compass School",
+      "definition_ja": "地盤は、羅盤上の地盤系方位層を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:理気",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "理気"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、地盤を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000032_human_plate.yml",
+      "id": "FSH-000032",
+      "knowledge_type": "feng_shui",
+      "name_ja": "人盤",
+      "name_en": "Human Plate",
+      "category": "Feng Shui",
+      "attribute": "Compass School",
+      "definition_ja": "人盤は、羅盤上の人盤系方位層を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:理気",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "理気"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、人盤を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000033_magnetic_bearing.yml",
+      "id": "FSH-000033",
+      "knowledge_type": "feng_shui",
+      "name_ja": "磁気方位",
+      "name_en": "Magnetic Bearing",
+      "category": "Feng Shui",
+      "attribute": "Compass School",
+      "definition_ja": "磁気方位は、磁北を基準に測る方位角を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:理気",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "理気"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、磁気方位を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000034_true_north.yml",
+      "id": "FSH-000034",
+      "knowledge_type": "feng_shui",
+      "name_ja": "真北",
+      "name_en": "True North",
+      "category": "Feng Shui",
+      "attribute": "Compass School",
+      "definition_ja": "真北は、地理上の北を基準とする方位を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:理気",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "理気"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、真北を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000035_declination.yml",
+      "id": "FSH-000035",
+      "knowledge_type": "feng_shui",
+      "name_ja": "磁気偏角",
+      "name_en": "Magnetic Declination",
+      "category": "Feng Shui",
+      "attribute": "Compass School",
+      "definition_ja": "磁気偏角は、磁北と真北の角度差を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:理気",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "理気"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、磁気偏角を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000036_measurement_point.yml",
+      "id": "FSH-000036",
+      "knowledge_type": "feng_shui",
+      "name_ja": "測定地点",
+      "name_en": "Measurement Point",
+      "category": "Feng Shui",
+      "attribute": "Compass School",
+      "definition_ja": "測定地点は、方位を測定する建物内外の基準位置を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:理気",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "理気"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、測定地点を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000037_building_facing.yml",
+      "id": "FSH-000037",
+      "knowledge_type": "feng_shui",
+      "name_ja": "建物向判定",
+      "name_en": "Building Facing",
+      "category": "Feng Shui",
+      "attribute": "Compass School",
+      "definition_ja": "建物向判定は、入口・採光・道路等から向きを定める流派規則を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:理気",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "理気"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、建物向判定を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000038_compass_interference.yml",
+      "id": "FSH-000038",
+      "knowledge_type": "feng_shui",
+      "name_ja": "磁気干渉",
+      "name_en": "Compass Interference",
+      "category": "Feng Shui",
+      "attribute": "Compass School",
+      "definition_ja": "磁気干渉は、金属・電気設備等が羅盤測定へ与える影響を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:理気",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "理気"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、磁気干渉を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000039_bearing_uncertainty.yml",
+      "id": "FSH-000039",
+      "knowledge_type": "feng_shui",
+      "name_ja": "方位測定不確実性",
+      "name_en": "Bearing Uncertainty",
+      "category": "Feng Shui",
+      "attribute": "Compass School",
+      "definition_ja": "方位測定不確実性は、測定誤差と境界付近を表示することを表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:理気",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "理気"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、方位測定不確実性を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000040_compass_school_context.yml",
+      "id": "FSH-000040",
+      "knowledge_type": "feng_shui",
+      "name_ja": "理気総合",
+      "name_en": "Compass-School Context",
+      "category": "Feng Shui",
+      "attribute": "Compass School",
+      "definition_ja": "理気総合は、方位・時間・流派の複数規則を分けて扱うことを表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:理気",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "理気"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、理気総合を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000041_north.yml",
+      "id": "FSH-000041",
+      "knowledge_type": "feng_shui",
+      "name_ja": "北",
+      "name_en": "North",
+      "category": "Feng Shui",
+      "attribute": "Eight Directions",
+      "definition_ja": "北は、風水の八方位北に割り当てられる卦・五行・象徴対応を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:八方位",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "八方位"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、北を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000042_northeast.yml",
+      "id": "FSH-000042",
+      "knowledge_type": "feng_shui",
+      "name_ja": "北東",
+      "name_en": "Northeast",
+      "category": "Feng Shui",
+      "attribute": "Eight Directions",
+      "definition_ja": "北東は、風水の八方位北東に割り当てられる卦・五行・象徴対応を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:八方位",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "八方位"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、北東を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000043_east.yml",
+      "id": "FSH-000043",
+      "knowledge_type": "feng_shui",
+      "name_ja": "東",
+      "name_en": "East",
+      "category": "Feng Shui",
+      "attribute": "Eight Directions",
+      "definition_ja": "東は、風水の八方位東に割り当てられる卦・五行・象徴対応を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:八方位",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "八方位"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、東を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000044_southeast.yml",
+      "id": "FSH-000044",
+      "knowledge_type": "feng_shui",
+      "name_ja": "南東",
+      "name_en": "Southeast",
+      "category": "Feng Shui",
+      "attribute": "Eight Directions",
+      "definition_ja": "南東は、風水の八方位南東に割り当てられる卦・五行・象徴対応を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:八方位",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "八方位"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、南東を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000045_south.yml",
+      "id": "FSH-000045",
+      "knowledge_type": "feng_shui",
+      "name_ja": "南",
+      "name_en": "South",
+      "category": "Feng Shui",
+      "attribute": "Eight Directions",
+      "definition_ja": "南は、風水の八方位南に割り当てられる卦・五行・象徴対応を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:八方位",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "八方位"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、南を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000046_southwest.yml",
+      "id": "FSH-000046",
+      "knowledge_type": "feng_shui",
+      "name_ja": "南西",
+      "name_en": "Southwest",
+      "category": "Feng Shui",
+      "attribute": "Eight Directions",
+      "definition_ja": "南西は、風水の八方位南西に割り当てられる卦・五行・象徴対応を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:八方位",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "八方位"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、南西を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000047_west.yml",
+      "id": "FSH-000047",
+      "knowledge_type": "feng_shui",
+      "name_ja": "西",
+      "name_en": "West",
+      "category": "Feng Shui",
+      "attribute": "Eight Directions",
+      "definition_ja": "西は、風水の八方位西に割り当てられる卦・五行・象徴対応を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:八方位",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "八方位"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、西を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000048_northwest.yml",
+      "id": "FSH-000048",
+      "knowledge_type": "feng_shui",
+      "name_ja": "北西",
+      "name_en": "Northwest",
+      "category": "Feng Shui",
+      "attribute": "Eight Directions",
+      "definition_ja": "北西は、風水の八方位北西に割り当てられる卦・五行・象徴対応を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:八方位",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "八方位"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、北西を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000049_kan.yml",
+      "id": "FSH-000049",
+      "knowledge_type": "feng_shui",
+      "name_ja": "坎",
+      "name_en": "Kan",
+      "category": "Feng Shui",
+      "attribute": "Eight Trigrams",
+      "definition_ja": "坎は、後天八卦の坎に割り当てられる方位・五行・象徴を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:八卦",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "八卦"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、坎を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000050_gen.yml",
+      "id": "FSH-000050",
+      "knowledge_type": "feng_shui",
+      "name_ja": "艮",
+      "name_en": "Gen",
+      "category": "Feng Shui",
+      "attribute": "Eight Trigrams",
+      "definition_ja": "艮は、後天八卦の艮に割り当てられる方位・五行・象徴を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:八卦",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "八卦"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、艮を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000051_zhen.yml",
+      "id": "FSH-000051",
+      "knowledge_type": "feng_shui",
+      "name_ja": "震",
+      "name_en": "Zhen",
+      "category": "Feng Shui",
+      "attribute": "Eight Trigrams",
+      "definition_ja": "震は、後天八卦の震に割り当てられる方位・五行・象徴を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:八卦",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "八卦"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、震を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000052_xun.yml",
+      "id": "FSH-000052",
+      "knowledge_type": "feng_shui",
+      "name_ja": "巽",
+      "name_en": "Xun",
+      "category": "Feng Shui",
+      "attribute": "Eight Trigrams",
+      "definition_ja": "巽は、後天八卦の巽に割り当てられる方位・五行・象徴を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:八卦",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "八卦"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、巽を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000053_li.yml",
+      "id": "FSH-000053",
+      "knowledge_type": "feng_shui",
+      "name_ja": "離",
+      "name_en": "Li",
+      "category": "Feng Shui",
+      "attribute": "Eight Trigrams",
+      "definition_ja": "離は、後天八卦の離に割り当てられる方位・五行・象徴を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:八卦",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "八卦"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、離を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000054_kun.yml",
+      "id": "FSH-000054",
+      "knowledge_type": "feng_shui",
+      "name_ja": "坤",
+      "name_en": "Kun",
+      "category": "Feng Shui",
+      "attribute": "Eight Trigrams",
+      "definition_ja": "坤は、後天八卦の坤に割り当てられる方位・五行・象徴を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:八卦",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "八卦"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、坤を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000055_dui.yml",
+      "id": "FSH-000055",
+      "knowledge_type": "feng_shui",
+      "name_ja": "兌",
+      "name_en": "Dui",
+      "category": "Feng Shui",
+      "attribute": "Eight Trigrams",
+      "definition_ja": "兌は、後天八卦の兌に割り当てられる方位・五行・象徴を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:八卦",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "八卦"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、兌を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000056_qian.yml",
+      "id": "FSH-000056",
+      "knowledge_type": "feng_shui",
+      "name_ja": "乾",
+      "name_en": "Qian",
+      "category": "Feng Shui",
+      "attribute": "Eight Trigrams",
+      "definition_ja": "乾は、後天八卦の乾に割り当てられる方位・五行・象徴を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:八卦",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "八卦"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、乾を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000057_wood_environment.yml",
+      "id": "FSH-000057",
+      "knowledge_type": "feng_shui",
+      "name_ja": "木の環境象徴",
+      "name_en": "Wood Environment",
+      "category": "Feng Shui",
+      "attribute": "Five-Phase Relations",
+      "definition_ja": "木の環境象徴は、成長・植物・東等へ対応づける環境象徴を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:五行関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "五行関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、木の環境象徴を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000058_fire_environment.yml",
+      "id": "FSH-000058",
+      "knowledge_type": "feng_shui",
+      "name_ja": "火の環境象徴",
+      "name_en": "Fire Environment",
+      "category": "Feng Shui",
+      "attribute": "Five-Phase Relations",
+      "definition_ja": "火の環境象徴は、光・熱・南等へ対応づける環境象徴を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:五行関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "五行関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、火の環境象徴を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000059_earth_environment.yml",
+      "id": "FSH-000059",
+      "knowledge_type": "feng_shui",
+      "name_ja": "土の環境象徴",
+      "name_en": "Earth Environment",
+      "category": "Feng Shui",
+      "attribute": "Five-Phase Relations",
+      "definition_ja": "土の環境象徴は、地面・中央・安定等へ対応づける環境象徴を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:五行関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "五行関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、土の環境象徴を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000060_metal_environment.yml",
+      "id": "FSH-000060",
+      "knowledge_type": "feng_shui",
+      "name_ja": "金の環境象徴",
+      "name_en": "Metal Environment",
+      "category": "Feng Shui",
+      "attribute": "Five-Phase Relations",
+      "definition_ja": "金の環境象徴は、金属・円形・西等へ対応づける環境象徴を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:五行関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "五行関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、金の環境象徴を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000061_water_environment.yml",
+      "id": "FSH-000061",
+      "knowledge_type": "feng_shui",
+      "name_ja": "水の環境象徴",
+      "name_en": "Water Environment",
+      "category": "Feng Shui",
+      "attribute": "Five-Phase Relations",
+      "definition_ja": "水の環境象徴は、水流・曲線・北等へ対応づける環境象徴を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:五行関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "五行関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、水の環境象徴を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000062_generating_relation.yml",
+      "id": "FSH-000062",
+      "knowledge_type": "feng_shui",
+      "name_ja": "環境相生",
+      "name_en": "Environmental Generation",
+      "category": "Feng Shui",
+      "attribute": "Five-Phase Relations",
+      "definition_ja": "環境相生は、空間要素間の相生関係を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:五行関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "五行関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、環境相生を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000063_controlling_relation.yml",
+      "id": "FSH-000063",
+      "knowledge_type": "feng_shui",
+      "name_ja": "環境相剋",
+      "name_en": "Environmental Control",
+      "category": "Feng Shui",
+      "attribute": "Five-Phase Relations",
+      "definition_ja": "環境相剋は、空間要素間の相剋関係を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:五行関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "五行関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、環境相剋を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000064_phase_balance.yml",
+      "id": "FSH-000064",
+      "knowledge_type": "feng_shui",
+      "name_ja": "五行配分",
+      "name_en": "Phase Balance",
+      "category": "Feng Shui",
+      "attribute": "Five-Phase Relations",
+      "definition_ja": "五行配分は、空間内の五行象徴を配分として整理することを表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:五行関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "五行関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、五行配分を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000065_material_symbolism.yml",
+      "id": "FSH-000065",
+      "knowledge_type": "feng_shui",
+      "name_ja": "素材象徴",
+      "name_en": "Material Symbolism",
+      "category": "Feng Shui",
+      "attribute": "Five-Phase Relations",
+      "definition_ja": "素材象徴は、素材を五行へ対応づける伝統的分類を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:五行関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "五行関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、素材象徴を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000066_color_symbolism.yml",
+      "id": "FSH-000066",
+      "knowledge_type": "feng_shui",
+      "name_ja": "色彩象徴",
+      "name_en": "Color Symbolism",
+      "category": "Feng Shui",
+      "attribute": "Five-Phase Relations",
+      "definition_ja": "色彩象徴は、色を五行へ対応づける伝統的分類を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:五行関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "五行関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、色彩象徴を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000067_east_group.yml",
+      "id": "FSH-000067",
+      "knowledge_type": "feng_shui",
+      "name_ja": "東四命・東四宅",
+      "name_en": "East Group",
+      "category": "Feng Shui",
+      "attribute": "Eight Mansions",
+      "definition_ja": "東四命・東四宅は、八卦を東系グループへ分類する方式を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:八宅",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "八宅"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、東四命・東四宅を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000068_west_group.yml",
+      "id": "FSH-000068",
+      "knowledge_type": "feng_shui",
+      "name_ja": "西四命・西四宅",
+      "name_en": "West Group",
+      "category": "Feng Shui",
+      "attribute": "Eight Mansions",
+      "definition_ja": "西四命・西四宅は、八卦を西系グループへ分類する方式を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:八宅",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "八宅"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、西四命・西四宅を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000069_life_gua.yml",
+      "id": "FSH-000069",
+      "knowledge_type": "feng_shui",
+      "name_ja": "命卦",
+      "name_en": "Life Gua",
+      "category": "Feng Shui",
+      "attribute": "Eight Mansions",
+      "definition_ja": "命卦は、生年等から求める八宅上の個人卦を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:八宅",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "八宅"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、命卦を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000070_house_gua.yml",
+      "id": "FSH-000070",
+      "knowledge_type": "feng_shui",
+      "name_ja": "宅卦",
+      "name_en": "House Gua",
+      "category": "Feng Shui",
+      "attribute": "Eight Mansions",
+      "definition_ja": "宅卦は、建物の坐向から求める八宅分類を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:八宅",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "八宅"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、宅卦を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000071_sheng_qi.yml",
+      "id": "FSH-000071",
+      "knowledge_type": "feng_shui",
+      "name_ja": "生気",
+      "name_en": "Sheng Qi",
+      "category": "Feng Shui",
+      "attribute": "Eight Mansions",
+      "definition_ja": "生気は、八宅で用いる伝統的方位分類の一つを表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:八宅",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "八宅"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、生気を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000072_tian_yi.yml",
+      "id": "FSH-000072",
+      "knowledge_type": "feng_shui",
+      "name_ja": "天医",
+      "name_en": "Tian Yi",
+      "category": "Feng Shui",
+      "attribute": "Eight Mansions",
+      "definition_ja": "天医は、八宅で用いる伝統的方位分類の一つを表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:八宅",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "八宅"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、天医を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000073_yan_nian.yml",
+      "id": "FSH-000073",
+      "knowledge_type": "feng_shui",
+      "name_ja": "延年",
+      "name_en": "Yan Nian",
+      "category": "Feng Shui",
+      "attribute": "Eight Mansions",
+      "definition_ja": "延年は、八宅で用いる伝統的方位分類の一つを表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:八宅",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "八宅"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、延年を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000074_fu_wei.yml",
+      "id": "FSH-000074",
+      "knowledge_type": "feng_shui",
+      "name_ja": "伏位",
+      "name_en": "Fu Wei",
+      "category": "Feng Shui",
+      "attribute": "Eight Mansions",
+      "definition_ja": "伏位は、八宅で用いる伝統的方位分類の一つを表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:八宅",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "八宅"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、伏位を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000075_four_challenging_sectors.yml",
+      "id": "FSH-000075",
+      "knowledge_type": "feng_shui",
+      "name_ja": "四凶方分類",
+      "name_en": "Four Challenging Sectors",
+      "category": "Feng Shui",
+      "attribute": "Eight Mansions",
+      "definition_ja": "四凶方分類は、八宅で用いる四つの注意方位分類を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:八宅",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "八宅"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、四凶方分類を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000076_eight_mansions_variation.yml",
+      "id": "FSH-000076",
+      "knowledge_type": "feng_shui",
+      "name_ja": "八宅流派差",
+      "name_en": "Eight-Mansions Variation",
+      "category": "Feng Shui",
+      "attribute": "Eight Mansions",
+      "definition_ja": "八宅流派差は、命卦・宅卦・方位割当の流派差を表示することを表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:八宅",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "八宅"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、八宅流派差を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000077_flying_star_grid.yml",
+      "id": "FSH-000077",
+      "knowledge_type": "feng_shui",
+      "name_ja": "飛星盤",
+      "name_en": "Flying-Star Grid",
+      "category": "Feng Shui",
+      "attribute": "Flying Stars",
+      "definition_ja": "飛星盤は、九宮へ星数を配置する玄空飛星の盤を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:玄空飛星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "玄空飛星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、飛星盤を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000078_period.yml",
+      "id": "FSH-000078",
+      "knowledge_type": "feng_shui",
+      "name_ja": "運",
+      "name_en": "Period",
+      "category": "Feng Shui",
+      "attribute": "Flying Stars",
+      "definition_ja": "運は、建物時期を一定期間へ分類する方式を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:玄空飛星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "玄空飛星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、運を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000079_base_star.yml",
+      "id": "FSH-000079",
+      "knowledge_type": "feng_shui",
+      "name_ja": "運星",
+      "name_en": "Base Star",
+      "category": "Feng Shui",
+      "attribute": "Flying Stars",
+      "definition_ja": "運星は、各宮の基礎となる期間星を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:玄空飛星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "玄空飛星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、運星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000080_mountain_star.yml",
+      "id": "FSH-000080",
+      "knowledge_type": "feng_shui",
+      "name_ja": "山星",
+      "name_en": "Mountain Star",
+      "category": "Feng Shui",
+      "attribute": "Flying Stars",
+      "definition_ja": "山星は、坐側の計算から配置する星を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:玄空飛星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "玄空飛星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、山星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000081_water_star.yml",
+      "id": "FSH-000081",
+      "knowledge_type": "feng_shui",
+      "name_ja": "向星",
+      "name_en": "Water Star",
+      "category": "Feng Shui",
+      "attribute": "Flying Stars",
+      "definition_ja": "向星は、向側の計算から配置する星を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:玄空飛星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "玄空飛星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、向星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000082_annual_star.yml",
+      "id": "FSH-000082",
+      "knowledge_type": "feng_shui",
+      "name_ja": "年飛星",
+      "name_en": "Annual Flying Star",
+      "category": "Feng Shui",
+      "attribute": "Flying Stars",
+      "definition_ja": "年飛星は、年ごとに移る九星配置を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:玄空飛星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "玄空飛星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、年飛星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000083_monthly_star.yml",
+      "id": "FSH-000083",
+      "knowledge_type": "feng_shui",
+      "name_ja": "月飛星",
+      "name_en": "Monthly Flying Star",
+      "category": "Feng Shui",
+      "attribute": "Flying Stars",
+      "definition_ja": "月飛星は、月ごとに移る九星配置を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:玄空飛星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "玄空飛星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、月飛星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000084_forward_reverse_flight.yml",
+      "id": "FSH-000084",
+      "knowledge_type": "feng_shui",
+      "name_ja": "順飛逆飛",
+      "name_en": "Forward-Reverse Flight",
+      "category": "Feng Shui",
+      "attribute": "Flying Stars",
+      "definition_ja": "順飛逆飛は、陰陽等に応じて九星を巡らせる方向を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:玄空飛星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "玄空飛星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、順飛逆飛を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000085_building_period_change.yml",
+      "id": "FSH-000085",
+      "knowledge_type": "feng_shui",
+      "name_ja": "建物運変更",
+      "name_en": "Building-Period Change",
+      "category": "Feng Shui",
+      "attribute": "Flying Stars",
+      "definition_ja": "建物運変更は、改築等で建物の運を変更するとみなす流派規則を表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:玄空飛星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "玄空飛星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、建物運変更を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000086_flying_star_version.yml",
+      "id": "FSH-000086",
+      "knowledge_type": "feng_shui",
+      "name_ja": "飛星方式版管理",
+      "name_en": "Flying-Star Method Version",
+      "category": "Feng Shui",
+      "attribute": "Flying Stars",
+      "definition_ja": "飛星方式版管理は、運区分・起星・替星等の採用規則を保持することを表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:玄空飛星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "玄空飛星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、飛星方式版管理を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000087_entrance_context.yml",
+      "id": "FSH-000087",
+      "knowledge_type": "feng_shui",
+      "name_ja": "入口文脈",
+      "name_en": "Entrance Context",
+      "category": "Feng Shui",
+      "attribute": "Built Environment",
+      "definition_ja": "入口文脈は、入口の位置・動線・採光を環境として整理することを表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:建築環境",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "建築環境"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、入口文脈を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000088_room_function.yml",
+      "id": "FSH-000088",
+      "knowledge_type": "feng_shui",
+      "name_ja": "室用途",
+      "name_en": "Room Function",
+      "category": "Feng Shui",
+      "attribute": "Built Environment",
+      "definition_ja": "室用途は、寝室・仕事場等の用途と配置を扱うことを表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:建築環境",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "建築環境"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、室用途を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000089_circulation.yml",
+      "id": "FSH-000089",
+      "knowledge_type": "feng_shui",
+      "name_ja": "動線",
+      "name_en": "Circulation",
+      "category": "Feng Shui",
+      "attribute": "Built Environment",
+      "definition_ja": "動線は、人の移動経路と障害を整理することを表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:建築環境",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "建築環境"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、動線を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000090_light_ventilation.yml",
+      "id": "FSH-000090",
+      "knowledge_type": "feng_shui",
+      "name_ja": "採光換気",
+      "name_en": "Light and Ventilation",
+      "category": "Feng Shui",
+      "attribute": "Built Environment",
+      "definition_ja": "採光換気は、光・換気・湿気等の実際の環境条件を記録することを表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:建築環境",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "建築環境"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、採光換気を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000091_building_safety_priority.yml",
+      "id": "FSH-000091",
+      "knowledge_type": "feng_shui",
+      "name_ja": "建築安全優先",
+      "name_en": "Building Safety Priority",
+      "category": "Feng Shui",
+      "attribute": "Safety and Limits",
+      "definition_ja": "建築安全優先は、耐震・防火・避難・法令を風水より優先することを表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、建築安全優先を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000092_environmental_health_priority.yml",
+      "id": "FSH-000092",
+      "knowledge_type": "feng_shui",
+      "name_ja": "環境衛生優先",
+      "name_en": "Environmental Health Priority",
+      "category": "Feng Shui",
+      "attribute": "Safety and Limits",
+      "definition_ja": "環境衛生優先は、換気・カビ・有害物質等を専門基準で判断することを表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、環境衛生優先を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000093_no_disaster_prediction.yml",
+      "id": "FSH-000093",
+      "knowledge_type": "feng_shui",
+      "name_ja": "災害予測禁止",
+      "name_en": "No Disaster Prediction",
+      "category": "Feng Shui",
+      "attribute": "Safety and Limits",
+      "definition_ja": "災害予測禁止は、地形・方位から災害を確定予測しないことを表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、災害予測禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000094_no_health_claim.yml",
+      "id": "FSH-000094",
+      "knowledge_type": "feng_shui",
+      "name_ja": "健康効果保証禁止",
+      "name_en": "No Health Claim",
+      "category": "Feng Shui",
+      "attribute": "Safety and Limits",
+      "definition_ja": "健康効果保証禁止は、配置や色で治療・健康効果を保証しないことを表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、健康効果保証禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000095_no_property_value_claim.yml",
+      "id": "FSH-000095",
+      "knowledge_type": "feng_shui",
+      "name_ja": "資産価値保証禁止",
+      "name_en": "No Property-Value Claim",
+      "category": "Feng Shui",
+      "attribute": "Safety and Limits",
+      "definition_ja": "資産価値保証禁止は、風水で不動産価値や投資成果を保証しないことを表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、資産価値保証禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000096_no_resident_inference.yml",
+      "id": "FSH-000096",
+      "knowledge_type": "feng_shui",
+      "name_ja": "居住者推定禁止",
+      "name_en": "No Resident Inference",
+      "category": "Feng Shui",
+      "attribute": "Safety and Limits",
+      "definition_ja": "居住者推定禁止は、住環境から居住者の性格・民族・宗教等を推定しないことを表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、居住者推定禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000097_school_variation.yml",
+      "id": "FSH-000097",
+      "knowledge_type": "feng_shui",
+      "name_ja": "流派差",
+      "name_en": "School Variation",
+      "category": "Feng Shui",
+      "attribute": "Safety and Limits",
+      "definition_ja": "流派差は、形勢・八宅・飛星等の結果を混同しないことを表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、流派差を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000098_location_privacy.yml",
+      "id": "FSH-000098",
+      "knowledge_type": "feng_shui",
+      "name_ja": "住所情報保護",
+      "name_en": "Location Privacy",
+      "category": "Feng Shui",
+      "attribute": "Safety and Limits",
+      "definition_ja": "住所情報保護は、住所・間取り・方位データの収集と保持を最小化することを表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、住所情報保護を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000099_professional_boundary.yml",
+      "id": "FSH-000099",
+      "knowledge_type": "feng_shui",
+      "name_ja": "専門家境界",
+      "name_en": "Professional Boundary",
+      "category": "Feng Shui",
+      "attribute": "Safety and Limits",
+      "definition_ja": "専門家境界は、建築・構造・医療・環境の専門判断を代替しないことを表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、専門家境界を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    },
+    {
+      "filename": "FSH-000100_reflective_design_use.yml",
+      "id": "FSH-000100",
+      "knowledge_type": "feng_shui",
+      "name_ja": "内省的設計用途",
+      "name_en": "Reflective Design Use",
+      "category": "Feng Shui",
+      "attribute": "Safety and Limits",
+      "definition_ja": "内省的設計用途は、結果を任意の空間対話・文化的デザイン参考として示すことを表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:風水",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "中国風水・堪輿",
+      "source_type": "地形・建物・間取り・方位・時間・流派",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象地点",
+        "建物用途",
+        "方位測定",
+        "周辺環境",
+        "建築時期",
+        "採用流派"
+      ],
+      "calculation_basis": "形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "中国風水・堪輿では、内省的設計用途を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派"
+    }
+  ]
+}

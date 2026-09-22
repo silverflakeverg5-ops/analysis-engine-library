@@ -1,11 +1,11 @@
 {
   "output_dir": "vol9_social_psychology/social_psychology_101_150",
   "index_filename": "social_psychology_101_150_index.yml",
-  "index_content": "category: Social Psychology\nname_ja: 社会心理\nitems:\n  - SOCPSY-000101_leadership.yml\n  - SOCPSY-000102_transformational_leadership.yml\n  - SOCPSY-000103_transactional_leadership.yml\n  - SOCPSY-000104_servant_leadership.yml\n  - SOCPSY-000105_authoritarian_leadership.yml\n  - SOCPSY-000106_participative_leadership.yml\n  - SOCPSY-000107_power_dynamics.yml\n  - SOCPSY-000108_authority_relation.yml\n  - SOCPSY-000109_status_influence.yml\n  - SOCPSY-000110_followership.yml\n  - SOCPSY-000111_cooperation.yml\n  - SOCPSY-000112_competition.yml\n  - SOCPSY-000113_coordination.yml\n  - SOCPSY-000114_shared_goal.yml\n  - SOCPSY-000115_collective_action.yml\n  - SOCPSY-000116_public_goods_dilemma.yml\n  - SOCPSY-000117_free_riding.yml\n  - SOCPSY-000118_trust_game_behavior.yml\n  - SOCPSY-000119_reciprocal_cooperation.yml\n  - SOCPSY-000120_competitive_arousal.yml\n  - SOCPSY-000121_moral_judgment_social.yml\n  - SOCPSY-000122_fairness_judgment.yml\n  - SOCPSY-000123_justice_sensitivity.yml\n  - SOCPSY-000124_responsibility_attribution.yml\n  - SOCPSY-000125_blame_judgment.yml\n  - SOCPSY-000126_forgiveness.yml\n  - SOCPSY-000127_moral_outrage.yml\n  - SOCPSY-000128_norm_violation_detection.yml\n  - SOCPSY-000129_punishment_preference.yml\n  - SOCPSY-000130_restorative_orientation.yml\n  - SOCPSY-000131_shame.yml\n  - SOCPSY-000132_guilt.yml\n  - SOCPSY-000133_embarrassment.yml\n  - SOCPSY-000134_pride.yml\n  - SOCPSY-000135_envy.yml\n  - SOCPSY-000136_jealousy.yml\n  - SOCPSY-000137_gratitude.yml\n  - SOCPSY-000138_admiration.yml\n  - SOCPSY-000139_social_anxiety.yml\n  - SOCPSY-000140_rejection_sensitivity.yml\n  - SOCPSY-000141_collective_identity.yml\n  - SOCPSY-000142_cultural_frame_switching.yml\n  - SOCPSY-000143_acculturation.yml\n  - SOCPSY-000144_bicultural_identity.yml\n  - SOCPSY-000145_collective_memory.yml\n  - SOCPSY-000146_social_ritual.yml\n  - SOCPSY-000147_cultural_script.yml\n  - SOCPSY-000148_norm_internalization.yml\n  - SOCPSY-000149_social_capital.yml\n  - SOCPSY-000150_collective_resilience.yml\nnotes:\n  - 社会心理は性格断定ではなく推論材料として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
+  "index_content": "category: Social Psychology\nname_ja: 社会心理\nitems:\n  - SOC-000101_leadership.yml\n  - SOC-000102_transformational_leadership.yml\n  - SOC-000103_transactional_leadership.yml\n  - SOC-000104_servant_leadership.yml\n  - SOC-000105_authoritarian_leadership.yml\n  - SOC-000106_participative_leadership.yml\n  - SOC-000107_power_dynamics.yml\n  - SOC-000108_authority_relation.yml\n  - SOC-000109_status_influence.yml\n  - SOC-000110_followership.yml\n  - SOC-000111_cooperation.yml\n  - SOC-000112_competition.yml\n  - SOC-000113_coordination.yml\n  - SOC-000114_shared_goal.yml\n  - SOC-000115_collective_action.yml\n  - SOC-000116_public_goods_dilemma.yml\n  - SOC-000117_free_riding.yml\n  - SOC-000118_trust_game_behavior.yml\n  - SOC-000119_reciprocal_cooperation.yml\n  - SOC-000120_competitive_arousal.yml\n  - SOC-000121_moral_judgment_social.yml\n  - SOC-000122_fairness_judgment.yml\n  - SOC-000123_justice_sensitivity.yml\n  - SOC-000124_responsibility_attribution.yml\n  - SOC-000125_blame_judgment.yml\n  - SOC-000126_forgiveness.yml\n  - SOC-000127_moral_outrage.yml\n  - SOC-000128_norm_violation_detection.yml\n  - SOC-000129_punishment_preference.yml\n  - SOC-000130_restorative_orientation.yml\n  - SOC-000131_shame.yml\n  - SOC-000132_guilt.yml\n  - SOC-000133_embarrassment.yml\n  - SOC-000134_pride.yml\n  - SOC-000135_envy.yml\n  - SOC-000136_jealousy.yml\n  - SOC-000137_gratitude.yml\n  - SOC-000138_admiration.yml\n  - SOC-000139_social_anxiety.yml\n  - SOC-000140_rejection_sensitivity.yml\n  - SOC-000141_collective_identity.yml\n  - SOC-000142_cultural_frame_switching.yml\n  - SOC-000143_acculturation.yml\n  - SOC-000144_bicultural_identity.yml\n  - SOC-000145_collective_memory.yml\n  - SOC-000146_social_ritual.yml\n  - SOC-000147_cultural_script.yml\n  - SOC-000148_norm_internalization.yml\n  - SOC-000149_social_capital.yml\n  - SOC-000150_collective_resilience.yml\nnotes:\n  - 社会心理は性格断定ではなく推論材料として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
   "items": [
     {
-      "filename": "SOCPSY-000101_leadership.yml",
-      "id": "SOCPSY-000101",
+      "filename": "SOC-000101_leadership.yml",
+      "id": "SOC-000101",
       "knowledge_type": "social_psychology",
       "name_ja": "リーダーシップ",
       "name_en": "Leadership",
@@ -46,8 +46,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000102_transformational_leadership.yml",
-      "id": "SOCPSY-000102",
+      "filename": "SOC-000102_transformational_leadership.yml",
+      "id": "SOC-000102",
       "knowledge_type": "social_psychology",
       "name_ja": "変革型リーダーシップ",
       "name_en": "Transformational Leadership",
@@ -88,8 +88,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000103_transactional_leadership.yml",
-      "id": "SOCPSY-000103",
+      "filename": "SOC-000103_transactional_leadership.yml",
+      "id": "SOC-000103",
       "knowledge_type": "social_psychology",
       "name_ja": "交換型リーダーシップ",
       "name_en": "Transactional Leadership",
@@ -130,8 +130,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000104_servant_leadership.yml",
-      "id": "SOCPSY-000104",
+      "filename": "SOC-000104_servant_leadership.yml",
+      "id": "SOC-000104",
       "knowledge_type": "social_psychology",
       "name_ja": "サーバントリーダーシップ",
       "name_en": "Servant Leadership",
@@ -172,8 +172,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000105_authoritarian_leadership.yml",
-      "id": "SOCPSY-000105",
+      "filename": "SOC-000105_authoritarian_leadership.yml",
+      "id": "SOC-000105",
       "knowledge_type": "social_psychology",
       "name_ja": "権威主義的リーダーシップ",
       "name_en": "Authoritarian Leadership",
@@ -214,8 +214,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000106_participative_leadership.yml",
-      "id": "SOCPSY-000106",
+      "filename": "SOC-000106_participative_leadership.yml",
+      "id": "SOC-000106",
       "knowledge_type": "social_psychology",
       "name_ja": "参加型リーダーシップ",
       "name_en": "Participative Leadership",
@@ -256,8 +256,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000107_power_dynamics.yml",
-      "id": "SOCPSY-000107",
+      "filename": "SOC-000107_power_dynamics.yml",
+      "id": "SOC-000107",
       "knowledge_type": "social_psychology",
       "name_ja": "権力関係",
       "name_en": "Power Dynamics",
@@ -298,8 +298,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000108_authority_relation.yml",
-      "id": "SOCPSY-000108",
+      "filename": "SOC-000108_authority_relation.yml",
+      "id": "SOC-000108",
       "knowledge_type": "social_psychology",
       "name_ja": "権威関係",
       "name_en": "Authority Relation",
@@ -340,8 +340,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000109_status_influence.yml",
-      "id": "SOCPSY-000109",
+      "filename": "SOC-000109_status_influence.yml",
+      "id": "SOC-000109",
       "knowledge_type": "social_psychology",
       "name_ja": "地位影響",
       "name_en": "Status Influence",
@@ -382,8 +382,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000110_followership.yml",
-      "id": "SOCPSY-000110",
+      "filename": "SOC-000110_followership.yml",
+      "id": "SOC-000110",
       "knowledge_type": "social_psychology",
       "name_ja": "フォロワーシップ",
       "name_en": "Followership",
@@ -424,8 +424,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000111_cooperation.yml",
-      "id": "SOCPSY-000111",
+      "filename": "SOC-000111_cooperation.yml",
+      "id": "SOC-000111",
       "knowledge_type": "social_psychology",
       "name_ja": "協力",
       "name_en": "Cooperation",
@@ -466,8 +466,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000112_competition.yml",
-      "id": "SOCPSY-000112",
+      "filename": "SOC-000112_competition.yml",
+      "id": "SOC-000112",
       "knowledge_type": "social_psychology",
       "name_ja": "競争",
       "name_en": "Competition",
@@ -508,8 +508,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000113_coordination.yml",
-      "id": "SOCPSY-000113",
+      "filename": "SOC-000113_coordination.yml",
+      "id": "SOC-000113",
       "knowledge_type": "social_psychology",
       "name_ja": "協調調整",
       "name_en": "Coordination",
@@ -550,8 +550,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000114_shared_goal.yml",
-      "id": "SOCPSY-000114",
+      "filename": "SOC-000114_shared_goal.yml",
+      "id": "SOC-000114",
       "knowledge_type": "social_psychology",
       "name_ja": "共有目標",
       "name_en": "Shared Goal",
@@ -592,8 +592,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000115_collective_action.yml",
-      "id": "SOCPSY-000115",
+      "filename": "SOC-000115_collective_action.yml",
+      "id": "SOC-000115",
       "knowledge_type": "social_psychology",
       "name_ja": "集合行動",
       "name_en": "Collective Action",
@@ -634,8 +634,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000116_public_goods_dilemma.yml",
-      "id": "SOCPSY-000116",
+      "filename": "SOC-000116_public_goods_dilemma.yml",
+      "id": "SOC-000116",
       "knowledge_type": "social_psychology",
       "name_ja": "公共財ジレンマ",
       "name_en": "Public Goods Dilemma",
@@ -676,8 +676,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000117_free_riding.yml",
-      "id": "SOCPSY-000117",
+      "filename": "SOC-000117_free_riding.yml",
+      "id": "SOC-000117",
       "knowledge_type": "social_psychology",
       "name_ja": "フリーライド",
       "name_en": "Free Riding",
@@ -718,8 +718,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000118_trust_game_behavior.yml",
-      "id": "SOCPSY-000118",
+      "filename": "SOC-000118_trust_game_behavior.yml",
+      "id": "SOC-000118",
       "knowledge_type": "social_psychology",
       "name_ja": "信頼ゲーム行動",
       "name_en": "Trust Game Behavior",
@@ -760,8 +760,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000119_reciprocal_cooperation.yml",
-      "id": "SOCPSY-000119",
+      "filename": "SOC-000119_reciprocal_cooperation.yml",
+      "id": "SOC-000119",
       "knowledge_type": "social_psychology",
       "name_ja": "互恵的協力",
       "name_en": "Reciprocal Cooperation",
@@ -802,8 +802,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000120_competitive_arousal.yml",
-      "id": "SOCPSY-000120",
+      "filename": "SOC-000120_competitive_arousal.yml",
+      "id": "SOC-000120",
       "knowledge_type": "social_psychology",
       "name_ja": "競争覚醒",
       "name_en": "Competitive Arousal",
@@ -844,8 +844,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000121_moral_judgment_social.yml",
-      "id": "SOCPSY-000121",
+      "filename": "SOC-000121_moral_judgment_social.yml",
+      "id": "SOC-000121",
       "knowledge_type": "social_psychology",
       "name_ja": "道徳判断",
       "name_en": "Moral Judgment",
@@ -886,8 +886,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000122_fairness_judgment.yml",
-      "id": "SOCPSY-000122",
+      "filename": "SOC-000122_fairness_judgment.yml",
+      "id": "SOC-000122",
       "knowledge_type": "social_psychology",
       "name_ja": "公平性判断",
       "name_en": "Fairness Judgment",
@@ -928,8 +928,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000123_justice_sensitivity.yml",
-      "id": "SOCPSY-000123",
+      "filename": "SOC-000123_justice_sensitivity.yml",
+      "id": "SOC-000123",
       "knowledge_type": "social_psychology",
       "name_ja": "公正感受性",
       "name_en": "Justice Sensitivity",
@@ -970,8 +970,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000124_responsibility_attribution.yml",
-      "id": "SOCPSY-000124",
+      "filename": "SOC-000124_responsibility_attribution.yml",
+      "id": "SOC-000124",
       "knowledge_type": "social_psychology",
       "name_ja": "責任帰属",
       "name_en": "Responsibility Attribution",
@@ -1012,8 +1012,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000125_blame_judgment.yml",
-      "id": "SOCPSY-000125",
+      "filename": "SOC-000125_blame_judgment.yml",
+      "id": "SOC-000125",
       "knowledge_type": "social_psychology",
       "name_ja": "非難判断",
       "name_en": "Blame Judgment",
@@ -1054,8 +1054,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000126_forgiveness.yml",
-      "id": "SOCPSY-000126",
+      "filename": "SOC-000126_forgiveness.yml",
+      "id": "SOC-000126",
       "knowledge_type": "social_psychology",
       "name_ja": "許し",
       "name_en": "Forgiveness",
@@ -1096,8 +1096,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000127_moral_outrage.yml",
-      "id": "SOCPSY-000127",
+      "filename": "SOC-000127_moral_outrage.yml",
+      "id": "SOC-000127",
       "knowledge_type": "social_psychology",
       "name_ja": "道徳的憤り",
       "name_en": "Moral Outrage",
@@ -1138,8 +1138,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000128_norm_violation_detection.yml",
-      "id": "SOCPSY-000128",
+      "filename": "SOC-000128_norm_violation_detection.yml",
+      "id": "SOC-000128",
       "knowledge_type": "social_psychology",
       "name_ja": "規範違反検出",
       "name_en": "Norm Violation Detection",
@@ -1180,8 +1180,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000129_punishment_preference.yml",
-      "id": "SOCPSY-000129",
+      "filename": "SOC-000129_punishment_preference.yml",
+      "id": "SOC-000129",
       "knowledge_type": "social_psychology",
       "name_ja": "罰選好",
       "name_en": "Punishment Preference",
@@ -1222,8 +1222,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000130_restorative_orientation.yml",
-      "id": "SOCPSY-000130",
+      "filename": "SOC-000130_restorative_orientation.yml",
+      "id": "SOC-000130",
       "knowledge_type": "social_psychology",
       "name_ja": "修復志向",
       "name_en": "Restorative Orientation",
@@ -1264,8 +1264,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000131_shame.yml",
-      "id": "SOCPSY-000131",
+      "filename": "SOC-000131_shame.yml",
+      "id": "SOC-000131",
       "knowledge_type": "social_psychology",
       "name_ja": "恥",
       "name_en": "Shame",
@@ -1306,8 +1306,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000132_guilt.yml",
-      "id": "SOCPSY-000132",
+      "filename": "SOC-000132_guilt.yml",
+      "id": "SOC-000132",
       "knowledge_type": "social_psychology",
       "name_ja": "罪悪感",
       "name_en": "Guilt",
@@ -1348,8 +1348,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000133_embarrassment.yml",
-      "id": "SOCPSY-000133",
+      "filename": "SOC-000133_embarrassment.yml",
+      "id": "SOC-000133",
       "knowledge_type": "social_psychology",
       "name_ja": "気まずさ",
       "name_en": "Embarrassment",
@@ -1390,8 +1390,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000134_pride.yml",
-      "id": "SOCPSY-000134",
+      "filename": "SOC-000134_pride.yml",
+      "id": "SOC-000134",
       "knowledge_type": "social_psychology",
       "name_ja": "誇り",
       "name_en": "Pride",
@@ -1432,8 +1432,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000135_envy.yml",
-      "id": "SOCPSY-000135",
+      "filename": "SOC-000135_envy.yml",
+      "id": "SOC-000135",
       "knowledge_type": "social_psychology",
       "name_ja": "羨望",
       "name_en": "Envy",
@@ -1474,8 +1474,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000136_jealousy.yml",
-      "id": "SOCPSY-000136",
+      "filename": "SOC-000136_jealousy.yml",
+      "id": "SOC-000136",
       "knowledge_type": "social_psychology",
       "name_ja": "嫉妬",
       "name_en": "Jealousy",
@@ -1516,8 +1516,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000137_gratitude.yml",
-      "id": "SOCPSY-000137",
+      "filename": "SOC-000137_gratitude.yml",
+      "id": "SOC-000137",
       "knowledge_type": "social_psychology",
       "name_ja": "感謝",
       "name_en": "Gratitude",
@@ -1558,8 +1558,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000138_admiration.yml",
-      "id": "SOCPSY-000138",
+      "filename": "SOC-000138_admiration.yml",
+      "id": "SOC-000138",
       "knowledge_type": "social_psychology",
       "name_ja": "賞賛",
       "name_en": "Admiration",
@@ -1600,8 +1600,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000139_social_anxiety.yml",
-      "id": "SOCPSY-000139",
+      "filename": "SOC-000139_social_anxiety.yml",
+      "id": "SOC-000139",
       "knowledge_type": "social_psychology",
       "name_ja": "社会不安",
       "name_en": "Social Anxiety",
@@ -1642,8 +1642,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000140_rejection_sensitivity.yml",
-      "id": "SOCPSY-000140",
+      "filename": "SOC-000140_rejection_sensitivity.yml",
+      "id": "SOC-000140",
       "knowledge_type": "social_psychology",
       "name_ja": "拒絶感受性",
       "name_en": "Rejection Sensitivity",
@@ -1684,8 +1684,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000141_collective_identity.yml",
-      "id": "SOCPSY-000141",
+      "filename": "SOC-000141_collective_identity.yml",
+      "id": "SOC-000141",
       "knowledge_type": "social_psychology",
       "name_ja": "集合的アイデンティティ",
       "name_en": "Collective Identity",
@@ -1726,8 +1726,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000142_cultural_frame_switching.yml",
-      "id": "SOCPSY-000142",
+      "filename": "SOC-000142_cultural_frame_switching.yml",
+      "id": "SOC-000142",
       "knowledge_type": "social_psychology",
       "name_ja": "文化フレーム切替",
       "name_en": "Cultural Frame Switching",
@@ -1768,8 +1768,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000143_acculturation.yml",
-      "id": "SOCPSY-000143",
+      "filename": "SOC-000143_acculturation.yml",
+      "id": "SOC-000143",
       "knowledge_type": "social_psychology",
       "name_ja": "文化適応",
       "name_en": "Acculturation",
@@ -1810,8 +1810,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000144_bicultural_identity.yml",
-      "id": "SOCPSY-000144",
+      "filename": "SOC-000144_bicultural_identity.yml",
+      "id": "SOC-000144",
       "knowledge_type": "social_psychology",
       "name_ja": "二文化アイデンティティ",
       "name_en": "Bicultural Identity",
@@ -1852,8 +1852,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000145_collective_memory.yml",
-      "id": "SOCPSY-000145",
+      "filename": "SOC-000145_collective_memory.yml",
+      "id": "SOC-000145",
       "knowledge_type": "social_psychology",
       "name_ja": "集合記憶",
       "name_en": "Collective Memory",
@@ -1894,8 +1894,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000146_social_ritual.yml",
-      "id": "SOCPSY-000146",
+      "filename": "SOC-000146_social_ritual.yml",
+      "id": "SOC-000146",
       "knowledge_type": "social_psychology",
       "name_ja": "社会的儀礼",
       "name_en": "Social Ritual",
@@ -1936,8 +1936,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000147_cultural_script.yml",
-      "id": "SOCPSY-000147",
+      "filename": "SOC-000147_cultural_script.yml",
+      "id": "SOC-000147",
       "knowledge_type": "social_psychology",
       "name_ja": "文化的スクリプト",
       "name_en": "Cultural Script",
@@ -1978,8 +1978,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000148_norm_internalization.yml",
-      "id": "SOCPSY-000148",
+      "filename": "SOC-000148_norm_internalization.yml",
+      "id": "SOC-000148",
       "knowledge_type": "social_psychology",
       "name_ja": "規範内在化",
       "name_en": "Norm Internalization",
@@ -2020,8 +2020,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000149_social_capital.yml",
-      "id": "SOCPSY-000149",
+      "filename": "SOC-000149_social_capital.yml",
+      "id": "SOC-000149",
       "knowledge_type": "social_psychology",
       "name_ja": "社会関係資本",
       "name_en": "Social Capital",
@@ -2062,8 +2062,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000150_collective_resilience.yml",
-      "id": "SOCPSY-000150",
+      "filename": "SOC-000150_collective_resilience.yml",
+      "id": "SOC-000150",
       "knowledge_type": "social_psychology",
       "name_ja": "集合的レジリエンス",
       "name_en": "Collective Resilience",

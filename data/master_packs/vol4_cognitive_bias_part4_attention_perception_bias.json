@@ -1,11 +1,11 @@
 {
   "output_dir": "vol4_cognitive_bias/attention_perception_bias",
   "index_filename": "attention_perception_bias_index.yml",
-  "index_content": "category: Cognitive Bias - Attention Perception Bias\nname_ja: 認知バイアス・注意知覚バイアス\nitems:\n  - BIAS-000031_selective_attention_bias.yml\n  - BIAS-000032_inattentional_blindness.yml\n  - BIAS-000033_change_blindness.yml\n  - BIAS-000034_attentional_bias.yml\n  - BIAS-000035_salience_bias.yml\n  - BIAS-000036_survivorship_bias.yml\n  - BIAS-000037_patternicity.yml\n  - BIAS-000038_clustering_illusion.yml\n  - BIAS-000039_base_rate_neglect.yml\n  - BIAS-000040_illusion_of_control.yml\nnotes:\n  - 注意知覚バイアスは知覚能力そのものとは統合しない\n  - 観測可能な注視・見落とし・選択偏りを中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
+  "index_content": "category: Cognitive Bias - Attention Perception Bias\nname_ja: 認知バイアス・注意知覚バイアス\nitems:\n  - COG-000031_selective_attention_bias.yml\n  - COG-000032_inattentional_blindness.yml\n  - COG-000033_change_blindness.yml\n  - COG-000034_attentional_bias.yml\n  - COG-000035_salience_bias.yml\n  - COG-000036_survivorship_bias.yml\n  - COG-000037_patternicity.yml\n  - COG-000038_clustering_illusion.yml\n  - COG-000039_base_rate_neglect.yml\n  - COG-000040_illusion_of_control.yml\nnotes:\n  - 注意知覚バイアスは知覚能力そのものとは統合しない\n  - 観測可能な注視・見落とし・選択偏りを中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
   "items": [
     {
-      "filename": "BIAS-000031_selective_attention_bias.yml",
-      "id": "BIAS-000031",
+      "filename": "COG-000031_selective_attention_bias.yml",
+      "id": "COG-000031",
       "knowledge_type": "cognitive_bias",
       "name_ja": "選択的注意バイアス",
       "name_en": "Selective Attention Bias",
@@ -23,8 +23,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000032_inattentional_blindness.yml",
-      "id": "BIAS-000032",
+      "filename": "COG-000032_inattentional_blindness.yml",
+      "id": "COG-000032",
       "knowledge_type": "cognitive_bias",
       "name_ja": "非注意性盲目",
       "name_en": "Inattentional Blindness",
@@ -42,8 +42,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000033_change_blindness.yml",
-      "id": "BIAS-000033",
+      "filename": "COG-000033_change_blindness.yml",
+      "id": "COG-000033",
       "knowledge_type": "cognitive_bias",
       "name_ja": "変化盲",
       "name_en": "Change Blindness",
@@ -61,8 +61,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000034_attentional_bias.yml",
-      "id": "BIAS-000034",
+      "filename": "COG-000034_attentional_bias.yml",
+      "id": "COG-000034",
       "knowledge_type": "cognitive_bias",
       "name_ja": "注意バイアス",
       "name_en": "Attentional Bias",
@@ -80,8 +80,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000035_salience_bias.yml",
-      "id": "BIAS-000035",
+      "filename": "COG-000035_salience_bias.yml",
+      "id": "COG-000035",
       "knowledge_type": "cognitive_bias",
       "name_ja": "顕著性バイアス",
       "name_en": "Salience Bias",
@@ -99,8 +99,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000036_survivorship_bias.yml",
-      "id": "BIAS-000036",
+      "filename": "COG-000036_survivorship_bias.yml",
+      "id": "COG-000036",
       "knowledge_type": "cognitive_bias",
       "name_ja": "生存者バイアス",
       "name_en": "Survivorship Bias",
@@ -118,8 +118,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000037_patternicity.yml",
-      "id": "BIAS-000037",
+      "filename": "COG-000037_patternicity.yml",
+      "id": "COG-000037",
       "knowledge_type": "cognitive_bias",
       "name_ja": "パターン認知過剰",
       "name_en": "Patternicity",
@@ -137,8 +137,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000038_clustering_illusion.yml",
-      "id": "BIAS-000038",
+      "filename": "COG-000038_clustering_illusion.yml",
+      "id": "COG-000038",
       "knowledge_type": "cognitive_bias",
       "name_ja": "クラスター錯覚",
       "name_en": "Clustering Illusion",
@@ -156,8 +156,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000039_base_rate_neglect.yml",
-      "id": "BIAS-000039",
+      "filename": "COG-000039_base_rate_neglect.yml",
+      "id": "COG-000039",
       "knowledge_type": "cognitive_bias",
       "name_ja": "基準率無視",
       "name_en": "Base Rate Neglect",
@@ -175,8 +175,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000040_illusion_of_control.yml",
-      "id": "BIAS-000040",
+      "filename": "COG-000040_illusion_of_control.yml",
+      "id": "COG-000040",
       "knowledge_type": "cognitive_bias",
       "name_ja": "コントロール幻想",
       "name_en": "Illusion of Control",

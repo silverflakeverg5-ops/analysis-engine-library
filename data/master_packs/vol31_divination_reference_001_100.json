@@ -1,0 +1,6267 @@
+{
+  "output_dir": "vol31_divination_reference/divination_reference_001_100",
+  "index_filename": "divination_reference_001_100_index.yml",
+  "index_content": "category: Divination Reference\nname_ja: 占術参照\nitems:\n  - DIV-000001_interpretive_framework.yml\n  - DIV-000002_tradition_identity.yml\n  - DIV-000003_school_variant.yml\n  - DIV-000004_symbolic_correspondence.yml\n  - DIV-000005_source_provenance.yml\n  - DIV-000006_evidence_classification.yml\n  - DIV-000007_interpretive_uncertainty.yml\n  - DIV-000008_non_diagnostic_boundary.yml\n  - DIV-000009_birth_date.yml\n  - DIV-000010_birth_time.yml\n  - DIV-000011_birth_place.yml\n  - DIV-000012_time_zone.yml\n  - DIV-000013_calendar_system.yml\n  - DIV-000014_ephemeris.yml\n  - DIV-000015_solar_terms.yml\n  - DIV-000016_input_precision.yml\n  - DIV-000017_aries.yml\n  - DIV-000018_taurus.yml\n  - DIV-000019_gemini.yml\n  - DIV-000020_cancer.yml\n  - DIV-000021_leo.yml\n  - DIV-000022_virgo.yml\n  - DIV-000023_libra.yml\n  - DIV-000024_scorpio.yml\n  - DIV-000025_sagittarius.yml\n  - DIV-000026_capricorn.yml\n  - DIV-000027_aquarius.yml\n  - DIV-000028_pisces.yml\n  - DIV-000029_sun.yml\n  - DIV-000030_moon.yml\n  - DIV-000031_mercury.yml\n  - DIV-000032_venus.yml\n  - DIV-000033_mars.yml\n  - DIV-000034_jupiter.yml\n  - DIV-000035_saturn.yml\n  - DIV-000036_uranus.yml\n  - DIV-000037_neptune.yml\n  - DIV-000038_pluto.yml\n  - DIV-000039_ascendant.yml\n  - DIV-000040_midheaven.yml\n  - DIV-000041_first_house.yml\n  - DIV-000042_second_house.yml\n  - DIV-000043_third_house.yml\n  - DIV-000044_fourth_house.yml\n  - DIV-000045_fifth_house.yml\n  - DIV-000046_sixth_house.yml\n  - DIV-000047_seventh_house.yml\n  - DIV-000048_eighth_house.yml\n  - DIV-000049_ninth_house.yml\n  - DIV-000050_tenth_house.yml\n  - DIV-000051_eleventh_house.yml\n  - DIV-000052_twelfth_house.yml\n  - DIV-000053_conjunction.yml\n  - DIV-000054_opposition.yml\n  - DIV-000055_trine.yml\n  - DIV-000056_square.yml\n  - DIV-000057_sextile.yml\n  - DIV-000058_aspect_orb.yml\n  - DIV-000059_rulership.yml\n  - DIV-000060_chart_synthesis.yml\n  - DIV-000061_yin.yml\n  - DIV-000062_yang.yml\n  - DIV-000063_yin_yang_interaction.yml\n  - DIV-000064_wood_phase.yml\n  - DIV-000065_fire_phase.yml\n  - DIV-000066_earth_phase.yml\n  - DIV-000067_metal_phase.yml\n  - DIV-000068_water_phase.yml\n  - DIV-000069_generating_cycle.yml\n  - DIV-000070_overcoming_cycle.yml\n  - DIV-000071_jia.yml\n  - DIV-000072_yi.yml\n  - DIV-000073_bing.yml\n  - DIV-000074_ding.yml\n  - DIV-000075_wu.yml\n  - DIV-000076_ji.yml\n  - DIV-000077_geng.yml\n  - DIV-000078_xin.yml\n  - DIV-000079_ren.yml\n  - DIV-000080_gui.yml\n  - DIV-000081_zi.yml\n  - DIV-000082_chou.yml\n  - DIV-000083_yin_branch.yml\n  - DIV-000084_mao.yml\n  - DIV-000085_chen.yml\n  - DIV-000086_si.yml\n  - DIV-000087_wu_branch.yml\n  - DIV-000088_wei.yml\n  - DIV-000089_shen.yml\n  - DIV-000090_you.yml\n  - DIV-000091_xu.yml\n  - DIV-000092_hai.yml\n  - DIV-000093_year_pillar.yml\n  - DIV-000094_month_pillar.yml\n  - DIV-000095_day_pillar.yml\n  - DIV-000096_hour_pillar.yml\n  - DIV-000097_day_master.yml\n  - DIV-000098_ten_gods.yml\n  - DIV-000099_luck_pillars.yml\n  - DIV-000100_four_pillars_synthesis.yml\nnotes:\n  - 心理学的知識項目と占術項目を根拠上同一に扱わない\n  - 占術項目は内省・会話・物語生成・娯楽の参照用途に限定する\n  - 出生時刻・出生地などの個人情報は明示的同意と最小化原則に従う\n  - 医療・雇用・教育・保険・信用・法執行など高影響判断には利用しない\n",
+  "items": [
+    {
+      "filename": "DIV-000001_interpretive_framework.yml",
+      "id": "DIV-000001",
+      "knowledge_type": "divination_reference",
+      "name_ja": "解釈体系",
+      "name_en": "Interpretive Framework",
+      "category": "Divination Reference",
+      "attribute": "Reference Foundations",
+      "definition_ja": "解釈体系は、象徴と規則を組み合わせて意味を組み立てる枠組みを表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:参照基盤",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "参照基盤"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "占術横断",
+      "source_type": "伝統資料・流派規則・利用者入力",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "利用目的",
+        "同意",
+        "採用する占術体系",
+        "流派",
+        "出典"
+      ],
+      "calculation_basis": "体系ごとの規則を混同せず、入力から結果までの変換過程を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "占術横断では、解釈体系を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "比較文化・宗教史・占術史と各伝統の一次・二次資料"
+    },
+    {
+      "filename": "DIV-000002_tradition_identity.yml",
+      "id": "DIV-000002",
+      "knowledge_type": "divination_reference",
+      "name_ja": "伝統体系の識別",
+      "name_en": "Tradition Identity",
+      "category": "Divination Reference",
+      "attribute": "Reference Foundations",
+      "definition_ja": "伝統体系の識別は、異なる占術体系を混同せず名称と文化的背景を記録することを表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:参照基盤",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "参照基盤"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "占術横断",
+      "source_type": "伝統資料・流派規則・利用者入力",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "利用目的",
+        "同意",
+        "採用する占術体系",
+        "流派",
+        "出典"
+      ],
+      "calculation_basis": "体系ごとの規則を混同せず、入力から結果までの変換過程を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "占術横断では、伝統体系の識別を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "比較文化・宗教史・占術史と各伝統の一次・二次資料"
+    },
+    {
+      "filename": "DIV-000003_school_variant.yml",
+      "id": "DIV-000003",
+      "knowledge_type": "divination_reference",
+      "name_ja": "流派差",
+      "name_en": "School Variant",
+      "category": "Divination Reference",
+      "attribute": "Reference Foundations",
+      "definition_ja": "流派差は、同じ名称でも流派により計算規則や意味づけが異なることを表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:参照基盤",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "参照基盤"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "占術横断",
+      "source_type": "伝統資料・流派規則・利用者入力",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "利用目的",
+        "同意",
+        "採用する占術体系",
+        "流派",
+        "出典"
+      ],
+      "calculation_basis": "体系ごとの規則を混同せず、入力から結果までの変換過程を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "占術横断では、流派差を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "比較文化・宗教史・占術史と各伝統の一次・二次資料"
+    },
+    {
+      "filename": "DIV-000004_symbolic_correspondence.yml",
+      "id": "DIV-000004",
+      "knowledge_type": "divination_reference",
+      "name_ja": "象徴対応",
+      "name_en": "Symbolic Correspondence",
+      "category": "Divination Reference",
+      "attribute": "Reference Foundations",
+      "definition_ja": "象徴対応は、天体・暦・自然現象と人間経験を象徴的に対応づけることを表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:参照基盤",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "参照基盤"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "占術横断",
+      "source_type": "伝統資料・流派規則・利用者入力",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "利用目的",
+        "同意",
+        "採用する占術体系",
+        "流派",
+        "出典"
+      ],
+      "calculation_basis": "体系ごとの規則を混同せず、入力から結果までの変換過程を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "占術横断では、象徴対応を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "比較文化・宗教史・占術史と各伝統の一次・二次資料"
+    },
+    {
+      "filename": "DIV-000005_source_provenance.yml",
+      "id": "DIV-000005",
+      "knowledge_type": "divination_reference",
+      "name_ja": "出典来歴",
+      "name_en": "Source Provenance",
+      "category": "Divination Reference",
+      "attribute": "Reference Foundations",
+      "definition_ja": "出典来歴は、解釈がどの文献・地域・時代・流派に由来するかを追跡することを表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:参照基盤",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "参照基盤"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "占術横断",
+      "source_type": "伝統資料・流派規則・利用者入力",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "利用目的",
+        "同意",
+        "採用する占術体系",
+        "流派",
+        "出典"
+      ],
+      "calculation_basis": "体系ごとの規則を混同せず、入力から結果までの変換過程を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "占術横断では、出典来歴を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "比較文化・宗教史・占術史と各伝統の一次・二次資料"
+    },
+    {
+      "filename": "DIV-000006_evidence_classification.yml",
+      "id": "DIV-000006",
+      "knowledge_type": "divination_reference",
+      "name_ja": "根拠区分",
+      "name_en": "Evidence Classification",
+      "category": "Divination Reference",
+      "attribute": "Reference Foundations",
+      "definition_ja": "根拠区分は、科学的知見と歴史的・文化的・伝統的解釈を区別することを表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:参照基盤",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "参照基盤"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "占術横断",
+      "source_type": "伝統資料・流派規則・利用者入力",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "利用目的",
+        "同意",
+        "採用する占術体系",
+        "流派",
+        "出典"
+      ],
+      "calculation_basis": "体系ごとの規則を混同せず、入力から結果までの変換過程を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "占術横断では、根拠区分を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "比較文化・宗教史・占術史と各伝統の一次・二次資料"
+    },
+    {
+      "filename": "DIV-000007_interpretive_uncertainty.yml",
+      "id": "DIV-000007",
+      "knowledge_type": "divination_reference",
+      "name_ja": "解釈不確実性",
+      "name_en": "Interpretive Uncertainty",
+      "category": "Divination Reference",
+      "attribute": "Reference Foundations",
+      "definition_ja": "解釈不確実性は、入力精度と流派差と解釈者差による不確実性を明示することを表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:参照基盤",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "参照基盤"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "占術横断",
+      "source_type": "伝統資料・流派規則・利用者入力",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "利用目的",
+        "同意",
+        "採用する占術体系",
+        "流派",
+        "出典"
+      ],
+      "calculation_basis": "体系ごとの規則を混同せず、入力から結果までの変換過程を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "占術横断では、解釈不確実性を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "比較文化・宗教史・占術史と各伝統の一次・二次資料"
+    },
+    {
+      "filename": "DIV-000008_non_diagnostic_boundary.yml",
+      "id": "DIV-000008",
+      "knowledge_type": "divination_reference",
+      "name_ja": "非診断境界",
+      "name_en": "Non-Diagnostic Boundary",
+      "category": "Divination Reference",
+      "attribute": "Reference Foundations",
+      "definition_ja": "非診断境界は、占術を医療診断・心理判定・能力評価に使用しない境界を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:参照基盤",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "参照基盤"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "占術横断",
+      "source_type": "伝統資料・流派規則・利用者入力",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "利用目的",
+        "同意",
+        "採用する占術体系",
+        "流派",
+        "出典"
+      ],
+      "calculation_basis": "体系ごとの規則を混同せず、入力から結果までの変換過程を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "占術横断では、非診断境界を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "比較文化・宗教史・占術史と各伝統の一次・二次資料"
+    },
+    {
+      "filename": "DIV-000009_birth_date.yml",
+      "id": "DIV-000009",
+      "knowledge_type": "divination_reference",
+      "name_ja": "生年月日",
+      "name_en": "Birth Date",
+      "category": "Divination Reference",
+      "attribute": "Birth Data and Calculation",
+      "definition_ja": "生年月日は、暦上の日付を計算の基礎入力として扱うことを表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:出生データと計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "出生データと計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "占術共通計算基盤",
+      "source_type": "利用者が明示的に提供した出生データ",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "利用目的",
+        "同意",
+        "利用可能な出生データ",
+        "入力精度"
+      ],
+      "calculation_basis": "採用する暦・時間帯・位置計算・境界規則を再現可能な形で記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "占術共通計算基盤では、生年月日を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "暦法・時刻制度・天体位置計算の記録仕様"
+    },
+    {
+      "filename": "DIV-000010_birth_time.yml",
+      "id": "DIV-000010",
+      "knowledge_type": "divination_reference",
+      "name_ja": "出生時刻",
+      "name_en": "Birth Time",
+      "category": "Divination Reference",
+      "attribute": "Birth Data and Calculation",
+      "definition_ja": "出生時刻は、記録された出生時刻とその精度を扱うことを表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:出生データと計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "出生データと計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "占術共通計算基盤",
+      "source_type": "利用者が明示的に提供した出生データ",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "利用目的",
+        "同意",
+        "利用可能な出生データ",
+        "入力精度"
+      ],
+      "calculation_basis": "採用する暦・時間帯・位置計算・境界規則を再現可能な形で記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "占術共通計算基盤では、出生時刻を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "暦法・時刻制度・天体位置計算の記録仕様"
+    },
+    {
+      "filename": "DIV-000011_birth_place.yml",
+      "id": "DIV-000011",
+      "knowledge_type": "divination_reference",
+      "name_ja": "出生地",
+      "name_en": "Birth Place",
+      "category": "Divination Reference",
+      "attribute": "Birth Data and Calculation",
+      "definition_ja": "出生地は、天体位置や地方時の計算に用いる地理的位置を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:出生データと計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "出生データと計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "占術共通計算基盤",
+      "source_type": "利用者が明示的に提供した出生データ",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "利用目的",
+        "同意",
+        "利用可能な出生データ",
+        "入力精度"
+      ],
+      "calculation_basis": "採用する暦・時間帯・位置計算・境界規則を再現可能な形で記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "占術共通計算基盤では、出生地を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "暦法・時刻制度・天体位置計算の記録仕様"
+    },
+    {
+      "filename": "DIV-000012_time_zone.yml",
+      "id": "DIV-000012",
+      "knowledge_type": "divination_reference",
+      "name_ja": "時間帯",
+      "name_en": "Time Zone",
+      "category": "Divination Reference",
+      "attribute": "Birth Data and Calculation",
+      "definition_ja": "時間帯は、出生時点の標準時と夏時間を含む時差情報を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:出生データと計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "出生データと計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "占術共通計算基盤",
+      "source_type": "利用者が明示的に提供した出生データ",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "利用目的",
+        "同意",
+        "利用可能な出生データ",
+        "入力精度"
+      ],
+      "calculation_basis": "採用する暦・時間帯・位置計算・境界規則を再現可能な形で記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "占術共通計算基盤では、時間帯を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "暦法・時刻制度・天体位置計算の記録仕様"
+    },
+    {
+      "filename": "DIV-000013_calendar_system.yml",
+      "id": "DIV-000013",
+      "knowledge_type": "divination_reference",
+      "name_ja": "暦法",
+      "name_en": "Calendar System",
+      "category": "Divination Reference",
+      "attribute": "Birth Data and Calculation",
+      "definition_ja": "暦法は、グレゴリオ暦・太陰太陽暦など使用する暦を識別することを表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:出生データと計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "出生データと計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "占術共通計算基盤",
+      "source_type": "利用者が明示的に提供した出生データ",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "利用目的",
+        "同意",
+        "利用可能な出生データ",
+        "入力精度"
+      ],
+      "calculation_basis": "採用する暦・時間帯・位置計算・境界規則を再現可能な形で記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "占術共通計算基盤では、暦法を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "暦法・時刻制度・天体位置計算の記録仕様"
+    },
+    {
+      "filename": "DIV-000014_ephemeris.yml",
+      "id": "DIV-000014",
+      "knowledge_type": "divination_reference",
+      "name_ja": "天体暦",
+      "name_en": "Ephemeris",
+      "category": "Divination Reference",
+      "attribute": "Birth Data and Calculation",
+      "definition_ja": "天体暦は、指定時刻の天体位置を得るための計算表またはデータを表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:出生データと計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "出生データと計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "占術共通計算基盤",
+      "source_type": "利用者が明示的に提供した出生データ",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "利用目的",
+        "同意",
+        "利用可能な出生データ",
+        "入力精度"
+      ],
+      "calculation_basis": "採用する暦・時間帯・位置計算・境界規則を再現可能な形で記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "占術共通計算基盤では、天体暦を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "暦法・時刻制度・天体位置計算の記録仕様"
+    },
+    {
+      "filename": "DIV-000015_solar_terms.yml",
+      "id": "DIV-000015",
+      "knowledge_type": "divination_reference",
+      "name_ja": "二十四節気",
+      "name_en": "Twenty-Four Solar Terms",
+      "category": "Divination Reference",
+      "attribute": "Birth Data and Calculation",
+      "definition_ja": "二十四節気は、太陽黄経にもとづく季節区分を暦計算に用いることを表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:出生データと計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "出生データと計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "占術共通計算基盤",
+      "source_type": "利用者が明示的に提供した出生データ",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "利用目的",
+        "同意",
+        "利用可能な出生データ",
+        "入力精度"
+      ],
+      "calculation_basis": "採用する暦・時間帯・位置計算・境界規則を再現可能な形で記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "占術共通計算基盤では、二十四節気を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "暦法・時刻制度・天体位置計算の記録仕様"
+    },
+    {
+      "filename": "DIV-000016_input_precision.yml",
+      "id": "DIV-000016",
+      "knowledge_type": "divination_reference",
+      "name_ja": "入力精度",
+      "name_en": "Input Precision",
+      "category": "Divination Reference",
+      "attribute": "Birth Data and Calculation",
+      "definition_ja": "入力精度は、時刻不明・推定値・丸めなど入力の確からしさを記録することを表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:出生データと計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "出生データと計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "占術共通計算基盤",
+      "source_type": "利用者が明示的に提供した出生データ",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "利用目的",
+        "同意",
+        "利用可能な出生データ",
+        "入力精度"
+      ],
+      "calculation_basis": "採用する暦・時間帯・位置計算・境界規則を再現可能な形で記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "占術共通計算基盤では、入力精度を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "暦法・時刻制度・天体位置計算の記録仕様"
+    },
+    {
+      "filename": "DIV-000017_aries.yml",
+      "id": "DIV-000017",
+      "knowledge_type": "divination_reference",
+      "name_ja": "牡羊座",
+      "name_en": "Aries",
+      "category": "Divination Reference",
+      "attribute": "Western Zodiac Signs",
+      "definition_ja": "牡羊座は、黄道十二宮の牡羊座に帰属する伝統的象徴を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、牡羊座を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000018_taurus.yml",
+      "id": "DIV-000018",
+      "knowledge_type": "divination_reference",
+      "name_ja": "牡牛座",
+      "name_en": "Taurus",
+      "category": "Divination Reference",
+      "attribute": "Western Zodiac Signs",
+      "definition_ja": "牡牛座は、黄道十二宮の牡牛座に帰属する伝統的象徴を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、牡牛座を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000019_gemini.yml",
+      "id": "DIV-000019",
+      "knowledge_type": "divination_reference",
+      "name_ja": "双子座",
+      "name_en": "Gemini",
+      "category": "Divination Reference",
+      "attribute": "Western Zodiac Signs",
+      "definition_ja": "双子座は、黄道十二宮の双子座に帰属する伝統的象徴を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、双子座を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000020_cancer.yml",
+      "id": "DIV-000020",
+      "knowledge_type": "divination_reference",
+      "name_ja": "蟹座",
+      "name_en": "Cancer",
+      "category": "Divination Reference",
+      "attribute": "Western Zodiac Signs",
+      "definition_ja": "蟹座は、黄道十二宮の蟹座に帰属する伝統的象徴を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、蟹座を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000021_leo.yml",
+      "id": "DIV-000021",
+      "knowledge_type": "divination_reference",
+      "name_ja": "獅子座",
+      "name_en": "Leo",
+      "category": "Divination Reference",
+      "attribute": "Western Zodiac Signs",
+      "definition_ja": "獅子座は、黄道十二宮の獅子座に帰属する伝統的象徴を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、獅子座を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000022_virgo.yml",
+      "id": "DIV-000022",
+      "knowledge_type": "divination_reference",
+      "name_ja": "乙女座",
+      "name_en": "Virgo",
+      "category": "Divination Reference",
+      "attribute": "Western Zodiac Signs",
+      "definition_ja": "乙女座は、黄道十二宮の乙女座に帰属する伝統的象徴を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、乙女座を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000023_libra.yml",
+      "id": "DIV-000023",
+      "knowledge_type": "divination_reference",
+      "name_ja": "天秤座",
+      "name_en": "Libra",
+      "category": "Divination Reference",
+      "attribute": "Western Zodiac Signs",
+      "definition_ja": "天秤座は、黄道十二宮の天秤座に帰属する伝統的象徴を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、天秤座を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000024_scorpio.yml",
+      "id": "DIV-000024",
+      "knowledge_type": "divination_reference",
+      "name_ja": "蠍座",
+      "name_en": "Scorpio",
+      "category": "Divination Reference",
+      "attribute": "Western Zodiac Signs",
+      "definition_ja": "蠍座は、黄道十二宮の蠍座に帰属する伝統的象徴を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、蠍座を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000025_sagittarius.yml",
+      "id": "DIV-000025",
+      "knowledge_type": "divination_reference",
+      "name_ja": "射手座",
+      "name_en": "Sagittarius",
+      "category": "Divination Reference",
+      "attribute": "Western Zodiac Signs",
+      "definition_ja": "射手座は、黄道十二宮の射手座に帰属する伝統的象徴を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、射手座を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000026_capricorn.yml",
+      "id": "DIV-000026",
+      "knowledge_type": "divination_reference",
+      "name_ja": "山羊座",
+      "name_en": "Capricorn",
+      "category": "Divination Reference",
+      "attribute": "Western Zodiac Signs",
+      "definition_ja": "山羊座は、黄道十二宮の山羊座に帰属する伝統的象徴を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、山羊座を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000027_aquarius.yml",
+      "id": "DIV-000027",
+      "knowledge_type": "divination_reference",
+      "name_ja": "水瓶座",
+      "name_en": "Aquarius",
+      "category": "Divination Reference",
+      "attribute": "Western Zodiac Signs",
+      "definition_ja": "水瓶座は、黄道十二宮の水瓶座に帰属する伝統的象徴を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、水瓶座を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000028_pisces.yml",
+      "id": "DIV-000028",
+      "knowledge_type": "divination_reference",
+      "name_ja": "魚座",
+      "name_en": "Pisces",
+      "category": "Divination Reference",
+      "attribute": "Western Zodiac Signs",
+      "definition_ja": "魚座は、黄道十二宮の魚座に帰属する伝統的象徴を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、魚座を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000029_sun.yml",
+      "id": "DIV-000029",
+      "knowledge_type": "divination_reference",
+      "name_ja": "太陽",
+      "name_en": "Sun",
+      "category": "Divination Reference",
+      "attribute": "Western Planets and Angles",
+      "definition_ja": "太陽は、出生図における太陽の伝統的象徴を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・天体と感受点",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・天体と感受点"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、太陽を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000030_moon.yml",
+      "id": "DIV-000030",
+      "knowledge_type": "divination_reference",
+      "name_ja": "月",
+      "name_en": "Moon",
+      "category": "Divination Reference",
+      "attribute": "Western Planets and Angles",
+      "definition_ja": "月は、出生図における月の伝統的象徴を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・天体と感受点",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・天体と感受点"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、月を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000031_mercury.yml",
+      "id": "DIV-000031",
+      "knowledge_type": "divination_reference",
+      "name_ja": "水星",
+      "name_en": "Mercury",
+      "category": "Divination Reference",
+      "attribute": "Western Planets and Angles",
+      "definition_ja": "水星は、出生図における水星の伝統的象徴を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・天体と感受点",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・天体と感受点"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、水星を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000032_venus.yml",
+      "id": "DIV-000032",
+      "knowledge_type": "divination_reference",
+      "name_ja": "金星",
+      "name_en": "Venus",
+      "category": "Divination Reference",
+      "attribute": "Western Planets and Angles",
+      "definition_ja": "金星は、出生図における金星の伝統的象徴を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・天体と感受点",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・天体と感受点"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、金星を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000033_mars.yml",
+      "id": "DIV-000033",
+      "knowledge_type": "divination_reference",
+      "name_ja": "火星",
+      "name_en": "Mars",
+      "category": "Divination Reference",
+      "attribute": "Western Planets and Angles",
+      "definition_ja": "火星は、出生図における火星の伝統的象徴を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・天体と感受点",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・天体と感受点"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、火星を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000034_jupiter.yml",
+      "id": "DIV-000034",
+      "knowledge_type": "divination_reference",
+      "name_ja": "木星",
+      "name_en": "Jupiter",
+      "category": "Divination Reference",
+      "attribute": "Western Planets and Angles",
+      "definition_ja": "木星は、出生図における木星の伝統的象徴を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・天体と感受点",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・天体と感受点"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、木星を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000035_saturn.yml",
+      "id": "DIV-000035",
+      "knowledge_type": "divination_reference",
+      "name_ja": "土星",
+      "name_en": "Saturn",
+      "category": "Divination Reference",
+      "attribute": "Western Planets and Angles",
+      "definition_ja": "土星は、出生図における土星の伝統的象徴を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・天体と感受点",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・天体と感受点"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、土星を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000036_uranus.yml",
+      "id": "DIV-000036",
+      "knowledge_type": "divination_reference",
+      "name_ja": "天王星",
+      "name_en": "Uranus",
+      "category": "Divination Reference",
+      "attribute": "Western Planets and Angles",
+      "definition_ja": "天王星は、近現代占星術における天王星の象徴を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・天体と感受点",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・天体と感受点"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、天王星を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000037_neptune.yml",
+      "id": "DIV-000037",
+      "knowledge_type": "divination_reference",
+      "name_ja": "海王星",
+      "name_en": "Neptune",
+      "category": "Divination Reference",
+      "attribute": "Western Planets and Angles",
+      "definition_ja": "海王星は、近現代占星術における海王星の象徴を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・天体と感受点",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・天体と感受点"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、海王星を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000038_pluto.yml",
+      "id": "DIV-000038",
+      "knowledge_type": "divination_reference",
+      "name_ja": "冥王星",
+      "name_en": "Pluto",
+      "category": "Divination Reference",
+      "attribute": "Western Planets and Angles",
+      "definition_ja": "冥王星は、近現代占星術における冥王星の象徴を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・天体と感受点",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・天体と感受点"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、冥王星を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000039_ascendant.yml",
+      "id": "DIV-000039",
+      "knowledge_type": "divination_reference",
+      "name_ja": "アセンダント",
+      "name_en": "Ascendant",
+      "category": "Divination Reference",
+      "attribute": "Western Planets and Angles",
+      "definition_ja": "アセンダントは、出生地点で東の地平線に昇る黄道上の感受点を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・天体と感受点",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・天体と感受点"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、アセンダントを象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000040_midheaven.yml",
+      "id": "DIV-000040",
+      "knowledge_type": "divination_reference",
+      "name_ja": "ミッドヘブン",
+      "name_en": "Midheaven",
+      "category": "Divination Reference",
+      "attribute": "Western Planets and Angles",
+      "definition_ja": "ミッドヘブンは、出生図の天頂方向に関係する主要感受点を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・天体と感受点",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・天体と感受点"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、ミッドヘブンを象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000041_first_house.yml",
+      "id": "DIV-000041",
+      "knowledge_type": "divination_reference",
+      "name_ja": "第1ハウス",
+      "name_en": "First House",
+      "category": "Divination Reference",
+      "attribute": "Western Houses",
+      "definition_ja": "第1ハウスは、自己表現や出発に対応づける伝統的生活領域を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・ハウス",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・ハウス"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、第1ハウスを象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000042_second_house.yml",
+      "id": "DIV-000042",
+      "knowledge_type": "divination_reference",
+      "name_ja": "第2ハウス",
+      "name_en": "Second House",
+      "category": "Divination Reference",
+      "attribute": "Western Houses",
+      "definition_ja": "第2ハウスは、所有や価値に対応づける伝統的生活領域を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・ハウス",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・ハウス"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、第2ハウスを象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000043_third_house.yml",
+      "id": "DIV-000043",
+      "knowledge_type": "divination_reference",
+      "name_ja": "第3ハウス",
+      "name_en": "Third House",
+      "category": "Divination Reference",
+      "attribute": "Western Houses",
+      "definition_ja": "第3ハウスは、学習や近距離交流に対応づける伝統的生活領域を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・ハウス",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・ハウス"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、第3ハウスを象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000044_fourth_house.yml",
+      "id": "DIV-000044",
+      "knowledge_type": "divination_reference",
+      "name_ja": "第4ハウス",
+      "name_en": "Fourth House",
+      "category": "Divination Reference",
+      "attribute": "Western Houses",
+      "definition_ja": "第4ハウスは、家庭や基盤に対応づける伝統的生活領域を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・ハウス",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・ハウス"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、第4ハウスを象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000045_fifth_house.yml",
+      "id": "DIV-000045",
+      "knowledge_type": "divination_reference",
+      "name_ja": "第5ハウス",
+      "name_en": "Fifth House",
+      "category": "Divination Reference",
+      "attribute": "Western Houses",
+      "definition_ja": "第5ハウスは、創造や遊びに対応づける伝統的生活領域を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・ハウス",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・ハウス"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、第5ハウスを象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000046_sixth_house.yml",
+      "id": "DIV-000046",
+      "knowledge_type": "divination_reference",
+      "name_ja": "第6ハウス",
+      "name_en": "Sixth House",
+      "category": "Divination Reference",
+      "attribute": "Western Houses",
+      "definition_ja": "第6ハウスは、日課や奉仕に対応づける伝統的生活領域を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・ハウス",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・ハウス"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、第6ハウスを象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000047_seventh_house.yml",
+      "id": "DIV-000047",
+      "knowledge_type": "divination_reference",
+      "name_ja": "第7ハウス",
+      "name_en": "Seventh House",
+      "category": "Divination Reference",
+      "attribute": "Western Houses",
+      "definition_ja": "第7ハウスは、対人関係や契約に対応づける伝統的生活領域を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・ハウス",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・ハウス"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、第7ハウスを象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000048_eighth_house.yml",
+      "id": "DIV-000048",
+      "knowledge_type": "divination_reference",
+      "name_ja": "第8ハウス",
+      "name_en": "Eighth House",
+      "category": "Divination Reference",
+      "attribute": "Western Houses",
+      "definition_ja": "第8ハウスは、共有資源や変化に対応づける伝統的生活領域を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・ハウス",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・ハウス"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、第8ハウスを象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000049_ninth_house.yml",
+      "id": "DIV-000049",
+      "knowledge_type": "divination_reference",
+      "name_ja": "第9ハウス",
+      "name_en": "Ninth House",
+      "category": "Divination Reference",
+      "attribute": "Western Houses",
+      "definition_ja": "第9ハウスは、探究や遠方に対応づける伝統的生活領域を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・ハウス",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・ハウス"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、第9ハウスを象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000050_tenth_house.yml",
+      "id": "DIV-000050",
+      "knowledge_type": "divination_reference",
+      "name_ja": "第10ハウス",
+      "name_en": "Tenth House",
+      "category": "Divination Reference",
+      "attribute": "Western Houses",
+      "definition_ja": "第10ハウスは、公的役割や達成に対応づける伝統的生活領域を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・ハウス",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・ハウス"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、第10ハウスを象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000051_eleventh_house.yml",
+      "id": "DIV-000051",
+      "knowledge_type": "divination_reference",
+      "name_ja": "第11ハウス",
+      "name_en": "Eleventh House",
+      "category": "Divination Reference",
+      "attribute": "Western Houses",
+      "definition_ja": "第11ハウスは、仲間や共同目標に対応づける伝統的生活領域を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・ハウス",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・ハウス"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、第11ハウスを象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000052_twelfth_house.yml",
+      "id": "DIV-000052",
+      "knowledge_type": "divination_reference",
+      "name_ja": "第12ハウス",
+      "name_en": "Twelfth House",
+      "category": "Divination Reference",
+      "attribute": "Western Houses",
+      "definition_ja": "第12ハウスは、内省や境界の曖昧な領域に対応づける伝統的生活領域を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・ハウス",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・ハウス"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、第12ハウスを象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000053_conjunction.yml",
+      "id": "DIV-000053",
+      "knowledge_type": "divination_reference",
+      "name_ja": "コンジャンクション",
+      "name_en": "Conjunction",
+      "category": "Divination Reference",
+      "attribute": "Western Relations and Synthesis",
+      "definition_ja": "コンジャンクションは、二つの感受点が近い黄経に位置する関係を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・関係と統合",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・関係と統合"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、コンジャンクションを象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000054_opposition.yml",
+      "id": "DIV-000054",
+      "knowledge_type": "divination_reference",
+      "name_ja": "オポジション",
+      "name_en": "Opposition",
+      "category": "Divination Reference",
+      "attribute": "Western Relations and Synthesis",
+      "definition_ja": "オポジションは、二つの感受点がおよそ180度離れる関係を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・関係と統合",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・関係と統合"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、オポジションを象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000055_trine.yml",
+      "id": "DIV-000055",
+      "knowledge_type": "divination_reference",
+      "name_ja": "トライン",
+      "name_en": "Trine",
+      "category": "Divination Reference",
+      "attribute": "Western Relations and Synthesis",
+      "definition_ja": "トラインは、二つの感受点がおよそ120度離れる関係を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・関係と統合",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・関係と統合"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、トラインを象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000056_square.yml",
+      "id": "DIV-000056",
+      "knowledge_type": "divination_reference",
+      "name_ja": "スクエア",
+      "name_en": "Square",
+      "category": "Divination Reference",
+      "attribute": "Western Relations and Synthesis",
+      "definition_ja": "スクエアは、二つの感受点がおよそ90度離れる関係を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・関係と統合",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・関係と統合"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、スクエアを象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000057_sextile.yml",
+      "id": "DIV-000057",
+      "knowledge_type": "divination_reference",
+      "name_ja": "セクスタイル",
+      "name_en": "Sextile",
+      "category": "Divination Reference",
+      "attribute": "Western Relations and Synthesis",
+      "definition_ja": "セクスタイルは、二つの感受点がおよそ60度離れる関係を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・関係と統合",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・関係と統合"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、セクスタイルを象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000058_aspect_orb.yml",
+      "id": "DIV-000058",
+      "knowledge_type": "divination_reference",
+      "name_ja": "アスペクト許容度",
+      "name_en": "Aspect Orb",
+      "category": "Divination Reference",
+      "attribute": "Western Relations and Synthesis",
+      "definition_ja": "アスペクト許容度は、角度関係を成立とみなす許容範囲を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・関係と統合",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・関係と統合"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、アスペクト許容度を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000059_rulership.yml",
+      "id": "DIV-000059",
+      "knowledge_type": "divination_reference",
+      "name_ja": "支配星",
+      "name_en": "Rulership",
+      "category": "Divination Reference",
+      "attribute": "Western Relations and Synthesis",
+      "definition_ja": "支配星は、惑星とサインを結びつける伝統的対応関係を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・関係と統合",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・関係と統合"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、支配星を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000060_chart_synthesis.yml",
+      "id": "DIV-000060",
+      "knowledge_type": "divination_reference",
+      "name_ja": "出生図統合",
+      "name_en": "Natal Chart Synthesis",
+      "category": "Divination Reference",
+      "attribute": "Western Relations and Synthesis",
+      "definition_ja": "出生図統合は、単一要素で断定せず配置全体を流派規則に沿って読むことを表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:西洋占星術・関係と統合",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "西洋占星術・関係と統合"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "出生日時・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯"
+      ],
+      "calculation_basis": "黄道上の天体・感受点・ハウス・角度関係。採用する黄道とハウス方式を別途記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、出生図統合を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と近現代の諸流派"
+    },
+    {
+      "filename": "DIV-000061_yin.yml",
+      "id": "DIV-000061",
+      "knowledge_type": "divination_reference",
+      "name_ja": "陰",
+      "name_en": "Yin",
+      "category": "Divination Reference",
+      "attribute": "Yin Yang and Five Phases",
+      "definition_ja": "陰は、相対的に受容・収縮・内向などへ対応づけられる陰の概念を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:陰陽五行",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "陰陽五行"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行思想",
+      "source_type": "暦・伝統的分類体系",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "使用する暦・時点",
+        "適用する流派規則"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行思想では、陰を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000062_yang.yml",
+      "id": "DIV-000062",
+      "knowledge_type": "divination_reference",
+      "name_ja": "陽",
+      "name_en": "Yang",
+      "category": "Divination Reference",
+      "attribute": "Yin Yang and Five Phases",
+      "definition_ja": "陽は、相対的に能動・拡張・外向などへ対応づけられる陽の概念を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:陰陽五行",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "陰陽五行"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行思想",
+      "source_type": "暦・伝統的分類体系",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "使用する暦・時点",
+        "適用する流派規則"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行思想では、陽を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000063_yin_yang_interaction.yml",
+      "id": "DIV-000063",
+      "knowledge_type": "divination_reference",
+      "name_ja": "陰陽相互作用",
+      "name_en": "Yin-Yang Interaction",
+      "category": "Divination Reference",
+      "attribute": "Yin Yang and Five Phases",
+      "definition_ja": "陰陽相互作用は、陰と陽を固定属性でなく相互依存し変化する関係として捉えることを表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:陰陽五行",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "陰陽五行"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行思想",
+      "source_type": "暦・伝統的分類体系",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "使用する暦・時点",
+        "適用する流派規則"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行思想では、陰陽相互作用を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000064_wood_phase.yml",
+      "id": "DIV-000064",
+      "knowledge_type": "divination_reference",
+      "name_ja": "木",
+      "name_en": "Wood Phase",
+      "category": "Divination Reference",
+      "attribute": "Yin Yang and Five Phases",
+      "definition_ja": "木は、五行の木に帰属する成長と展開の伝統的対応を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:陰陽五行",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "陰陽五行"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行思想",
+      "source_type": "暦・伝統的分類体系",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "使用する暦・時点",
+        "適用する流派規則"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行思想では、木を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000065_fire_phase.yml",
+      "id": "DIV-000065",
+      "knowledge_type": "divination_reference",
+      "name_ja": "火",
+      "name_en": "Fire Phase",
+      "category": "Divination Reference",
+      "attribute": "Yin Yang and Five Phases",
+      "definition_ja": "火は、五行の火に帰属する上昇と発現の伝統的対応を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:陰陽五行",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "陰陽五行"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行思想",
+      "source_type": "暦・伝統的分類体系",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "使用する暦・時点",
+        "適用する流派規則"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行思想では、火を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000066_earth_phase.yml",
+      "id": "DIV-000066",
+      "knowledge_type": "divination_reference",
+      "name_ja": "土",
+      "name_en": "Earth Phase",
+      "category": "Divination Reference",
+      "attribute": "Yin Yang and Five Phases",
+      "definition_ja": "土は、五行の土に帰属する媒介と育成の伝統的対応を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:陰陽五行",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "陰陽五行"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行思想",
+      "source_type": "暦・伝統的分類体系",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "使用する暦・時点",
+        "適用する流派規則"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行思想では、土を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000067_metal_phase.yml",
+      "id": "DIV-000067",
+      "knowledge_type": "divination_reference",
+      "name_ja": "金",
+      "name_en": "Metal Phase",
+      "category": "Divination Reference",
+      "attribute": "Yin Yang and Five Phases",
+      "definition_ja": "金は、五行の金に帰属する収斂と変化の伝統的対応を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:陰陽五行",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "陰陽五行"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行思想",
+      "source_type": "暦・伝統的分類体系",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "使用する暦・時点",
+        "適用する流派規則"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行思想では、金を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000068_water_phase.yml",
+      "id": "DIV-000068",
+      "knowledge_type": "divination_reference",
+      "name_ja": "水",
+      "name_en": "Water Phase",
+      "category": "Divination Reference",
+      "attribute": "Yin Yang and Five Phases",
+      "definition_ja": "水は、五行の水に帰属する下降と潤下の伝統的対応を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:陰陽五行",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "陰陽五行"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行思想",
+      "source_type": "暦・伝統的分類体系",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "使用する暦・時点",
+        "適用する流派規則"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行思想では、水を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000069_generating_cycle.yml",
+      "id": "DIV-000069",
+      "knowledge_type": "divination_reference",
+      "name_ja": "相生",
+      "name_en": "Generating Cycle",
+      "category": "Divination Reference",
+      "attribute": "Yin Yang and Five Phases",
+      "definition_ja": "相生は、木火土金水を生成関係として循環させる五行モデルを表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:陰陽五行",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "陰陽五行"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行思想",
+      "source_type": "暦・伝統的分類体系",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "使用する暦・時点",
+        "適用する流派規則"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行思想では、相生を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000070_overcoming_cycle.yml",
+      "id": "DIV-000070",
+      "knowledge_type": "divination_reference",
+      "name_ja": "相剋",
+      "name_en": "Overcoming Cycle",
+      "category": "Divination Reference",
+      "attribute": "Yin Yang and Five Phases",
+      "definition_ja": "相剋は、木土水火金を制御関係として循環させる五行モデルを表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:陰陽五行",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "陰陽五行"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "陰陽五行思想",
+      "source_type": "暦・伝統的分類体系",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "使用する暦・時点",
+        "適用する流派規則"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "陰陽五行思想では、相剋を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000071_jia.yml",
+      "id": "DIV-000071",
+      "knowledge_type": "divination_reference",
+      "name_ja": "甲",
+      "name_en": "Jia",
+      "category": "Divination Reference",
+      "attribute": "Heavenly Stems",
+      "definition_ja": "甲は、十干の甲に割り当てられる陽の木という暦上の分類を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:十干",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十干"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "干支暦法",
+      "source_type": "暦・伝統的分類体系",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "使用する暦・時点",
+        "適用する流派規則"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "干支暦法では、甲を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000072_yi.yml",
+      "id": "DIV-000072",
+      "knowledge_type": "divination_reference",
+      "name_ja": "乙",
+      "name_en": "Yi",
+      "category": "Divination Reference",
+      "attribute": "Heavenly Stems",
+      "definition_ja": "乙は、十干の乙に割り当てられる陰の木という暦上の分類を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:十干",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十干"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "干支暦法",
+      "source_type": "暦・伝統的分類体系",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "使用する暦・時点",
+        "適用する流派規則"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "干支暦法では、乙を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000073_bing.yml",
+      "id": "DIV-000073",
+      "knowledge_type": "divination_reference",
+      "name_ja": "丙",
+      "name_en": "Bing",
+      "category": "Divination Reference",
+      "attribute": "Heavenly Stems",
+      "definition_ja": "丙は、十干の丙に割り当てられる陽の火という暦上の分類を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:十干",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十干"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "干支暦法",
+      "source_type": "暦・伝統的分類体系",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "使用する暦・時点",
+        "適用する流派規則"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "干支暦法では、丙を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000074_ding.yml",
+      "id": "DIV-000074",
+      "knowledge_type": "divination_reference",
+      "name_ja": "丁",
+      "name_en": "Ding",
+      "category": "Divination Reference",
+      "attribute": "Heavenly Stems",
+      "definition_ja": "丁は、十干の丁に割り当てられる陰の火という暦上の分類を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:十干",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十干"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "干支暦法",
+      "source_type": "暦・伝統的分類体系",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "使用する暦・時点",
+        "適用する流派規則"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "干支暦法では、丁を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000075_wu.yml",
+      "id": "DIV-000075",
+      "knowledge_type": "divination_reference",
+      "name_ja": "戊",
+      "name_en": "Wu",
+      "category": "Divination Reference",
+      "attribute": "Heavenly Stems",
+      "definition_ja": "戊は、十干の戊に割り当てられる陽の土という暦上の分類を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:十干",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十干"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "干支暦法",
+      "source_type": "暦・伝統的分類体系",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "使用する暦・時点",
+        "適用する流派規則"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "干支暦法では、戊を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000076_ji.yml",
+      "id": "DIV-000076",
+      "knowledge_type": "divination_reference",
+      "name_ja": "己",
+      "name_en": "Ji",
+      "category": "Divination Reference",
+      "attribute": "Heavenly Stems",
+      "definition_ja": "己は、十干の己に割り当てられる陰の土という暦上の分類を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:十干",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十干"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "干支暦法",
+      "source_type": "暦・伝統的分類体系",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "使用する暦・時点",
+        "適用する流派規則"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "干支暦法では、己を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000077_geng.yml",
+      "id": "DIV-000077",
+      "knowledge_type": "divination_reference",
+      "name_ja": "庚",
+      "name_en": "Geng",
+      "category": "Divination Reference",
+      "attribute": "Heavenly Stems",
+      "definition_ja": "庚は、十干の庚に割り当てられる陽の金という暦上の分類を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:十干",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十干"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "干支暦法",
+      "source_type": "暦・伝統的分類体系",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "使用する暦・時点",
+        "適用する流派規則"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "干支暦法では、庚を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000078_xin.yml",
+      "id": "DIV-000078",
+      "knowledge_type": "divination_reference",
+      "name_ja": "辛",
+      "name_en": "Xin",
+      "category": "Divination Reference",
+      "attribute": "Heavenly Stems",
+      "definition_ja": "辛は、十干の辛に割り当てられる陰の金という暦上の分類を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:十干",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十干"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "干支暦法",
+      "source_type": "暦・伝統的分類体系",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "使用する暦・時点",
+        "適用する流派規則"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "干支暦法では、辛を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000079_ren.yml",
+      "id": "DIV-000079",
+      "knowledge_type": "divination_reference",
+      "name_ja": "壬",
+      "name_en": "Ren",
+      "category": "Divination Reference",
+      "attribute": "Heavenly Stems",
+      "definition_ja": "壬は、十干の壬に割り当てられる陽の水という暦上の分類を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:十干",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十干"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "干支暦法",
+      "source_type": "暦・伝統的分類体系",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "使用する暦・時点",
+        "適用する流派規則"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "干支暦法では、壬を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000080_gui.yml",
+      "id": "DIV-000080",
+      "knowledge_type": "divination_reference",
+      "name_ja": "癸",
+      "name_en": "Gui",
+      "category": "Divination Reference",
+      "attribute": "Heavenly Stems",
+      "definition_ja": "癸は、十干の癸に割り当てられる陰の水という暦上の分類を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:十干",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十干"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "干支暦法",
+      "source_type": "暦・伝統的分類体系",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "使用する暦・時点",
+        "適用する流派規則"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "干支暦法では、癸を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000081_zi.yml",
+      "id": "DIV-000081",
+      "knowledge_type": "divination_reference",
+      "name_ja": "子",
+      "name_en": "Zi",
+      "category": "Divination Reference",
+      "attribute": "Earthly Branches",
+      "definition_ja": "子は、十二支の子という暦上の分類を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:十二支",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二支"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "干支暦法",
+      "source_type": "暦・伝統的分類体系",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "使用する暦・時点",
+        "適用する流派規則"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "干支暦法では、子を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000082_chou.yml",
+      "id": "DIV-000082",
+      "knowledge_type": "divination_reference",
+      "name_ja": "丑",
+      "name_en": "Chou",
+      "category": "Divination Reference",
+      "attribute": "Earthly Branches",
+      "definition_ja": "丑は、十二支の丑という暦上の分類を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:十二支",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二支"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "干支暦法",
+      "source_type": "暦・伝統的分類体系",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "使用する暦・時点",
+        "適用する流派規則"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "干支暦法では、丑を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000083_yin_branch.yml",
+      "id": "DIV-000083",
+      "knowledge_type": "divination_reference",
+      "name_ja": "寅",
+      "name_en": "Yin Branch",
+      "category": "Divination Reference",
+      "attribute": "Earthly Branches",
+      "definition_ja": "寅は、十二支の寅という暦上の分類を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:十二支",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二支"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "干支暦法",
+      "source_type": "暦・伝統的分類体系",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "使用する暦・時点",
+        "適用する流派規則"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "干支暦法では、寅を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000084_mao.yml",
+      "id": "DIV-000084",
+      "knowledge_type": "divination_reference",
+      "name_ja": "卯",
+      "name_en": "Mao",
+      "category": "Divination Reference",
+      "attribute": "Earthly Branches",
+      "definition_ja": "卯は、十二支の卯という暦上の分類を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:十二支",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二支"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "干支暦法",
+      "source_type": "暦・伝統的分類体系",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "使用する暦・時点",
+        "適用する流派規則"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "干支暦法では、卯を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000085_chen.yml",
+      "id": "DIV-000085",
+      "knowledge_type": "divination_reference",
+      "name_ja": "辰",
+      "name_en": "Chen",
+      "category": "Divination Reference",
+      "attribute": "Earthly Branches",
+      "definition_ja": "辰は、十二支の辰という暦上の分類を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:十二支",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二支"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "干支暦法",
+      "source_type": "暦・伝統的分類体系",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "使用する暦・時点",
+        "適用する流派規則"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "干支暦法では、辰を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000086_si.yml",
+      "id": "DIV-000086",
+      "knowledge_type": "divination_reference",
+      "name_ja": "巳",
+      "name_en": "Si",
+      "category": "Divination Reference",
+      "attribute": "Earthly Branches",
+      "definition_ja": "巳は、十二支の巳という暦上の分類を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:十二支",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二支"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "干支暦法",
+      "source_type": "暦・伝統的分類体系",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "使用する暦・時点",
+        "適用する流派規則"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "干支暦法では、巳を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000087_wu_branch.yml",
+      "id": "DIV-000087",
+      "knowledge_type": "divination_reference",
+      "name_ja": "午",
+      "name_en": "Wu Branch",
+      "category": "Divination Reference",
+      "attribute": "Earthly Branches",
+      "definition_ja": "午は、十二支の午という暦上の分類を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:十二支",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二支"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "干支暦法",
+      "source_type": "暦・伝統的分類体系",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "使用する暦・時点",
+        "適用する流派規則"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "干支暦法では、午を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000088_wei.yml",
+      "id": "DIV-000088",
+      "knowledge_type": "divination_reference",
+      "name_ja": "未",
+      "name_en": "Wei",
+      "category": "Divination Reference",
+      "attribute": "Earthly Branches",
+      "definition_ja": "未は、十二支の未という暦上の分類を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:十二支",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二支"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "干支暦法",
+      "source_type": "暦・伝統的分類体系",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "使用する暦・時点",
+        "適用する流派規則"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "干支暦法では、未を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000089_shen.yml",
+      "id": "DIV-000089",
+      "knowledge_type": "divination_reference",
+      "name_ja": "申",
+      "name_en": "Shen",
+      "category": "Divination Reference",
+      "attribute": "Earthly Branches",
+      "definition_ja": "申は、十二支の申という暦上の分類を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:十二支",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二支"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "干支暦法",
+      "source_type": "暦・伝統的分類体系",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "使用する暦・時点",
+        "適用する流派規則"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "干支暦法では、申を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000090_you.yml",
+      "id": "DIV-000090",
+      "knowledge_type": "divination_reference",
+      "name_ja": "酉",
+      "name_en": "You",
+      "category": "Divination Reference",
+      "attribute": "Earthly Branches",
+      "definition_ja": "酉は、十二支の酉という暦上の分類を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:十二支",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二支"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "干支暦法",
+      "source_type": "暦・伝統的分類体系",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "使用する暦・時点",
+        "適用する流派規則"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "干支暦法では、酉を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000091_xu.yml",
+      "id": "DIV-000091",
+      "knowledge_type": "divination_reference",
+      "name_ja": "戌",
+      "name_en": "Xu",
+      "category": "Divination Reference",
+      "attribute": "Earthly Branches",
+      "definition_ja": "戌は、十二支の戌という暦上の分類を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:十二支",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二支"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "干支暦法",
+      "source_type": "暦・伝統的分類体系",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "使用する暦・時点",
+        "適用する流派規則"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "干支暦法では、戌を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000092_hai.yml",
+      "id": "DIV-000092",
+      "knowledge_type": "divination_reference",
+      "name_ja": "亥",
+      "name_en": "Hai",
+      "category": "Divination Reference",
+      "attribute": "Earthly Branches",
+      "definition_ja": "亥は、十二支の亥という暦上の分類を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:十二支",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二支"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "干支暦法",
+      "source_type": "暦・伝統的分類体系",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "使用する暦・時点",
+        "適用する流派規則"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "干支暦法では、亥を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000093_year_pillar.yml",
+      "id": "DIV-000093",
+      "knowledge_type": "divination_reference",
+      "name_ja": "年柱",
+      "name_en": "Year Pillar",
+      "category": "Divination Reference",
+      "attribute": "Four Pillars",
+      "definition_ja": "年柱は、出生年を干支の組として表す四柱の一部を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:四柱推命",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "四柱推命"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命",
+      "source_type": "生年月日時・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "節気境界"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命では、年柱を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000094_month_pillar.yml",
+      "id": "DIV-000094",
+      "knowledge_type": "divination_reference",
+      "name_ja": "月柱",
+      "name_en": "Month Pillar",
+      "category": "Divination Reference",
+      "attribute": "Four Pillars",
+      "definition_ja": "月柱は、節気にもとづく出生月を干支の組として表す四柱の一部を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:四柱推命",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "四柱推命"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命",
+      "source_type": "生年月日時・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "節気境界"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命では、月柱を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000095_day_pillar.yml",
+      "id": "DIV-000095",
+      "knowledge_type": "divination_reference",
+      "name_ja": "日柱",
+      "name_en": "Day Pillar",
+      "category": "Divination Reference",
+      "attribute": "Four Pillars",
+      "definition_ja": "日柱は、出生日を干支の組として表す四柱の一部を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:四柱推命",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "四柱推命"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命",
+      "source_type": "生年月日時・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "節気境界"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命では、日柱を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000096_hour_pillar.yml",
+      "id": "DIV-000096",
+      "knowledge_type": "divination_reference",
+      "name_ja": "時柱",
+      "name_en": "Hour Pillar",
+      "category": "Divination Reference",
+      "attribute": "Four Pillars",
+      "definition_ja": "時柱は、出生時刻を干支の組として表す四柱の一部を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:四柱推命",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "四柱推命"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命",
+      "source_type": "生年月日時・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "節気境界"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命では、時柱を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000097_day_master.yml",
+      "id": "DIV-000097",
+      "knowledge_type": "divination_reference",
+      "name_ja": "日主",
+      "name_en": "Day Master",
+      "category": "Divination Reference",
+      "attribute": "Four Pillars",
+      "definition_ja": "日主は、日柱の天干を命式解釈の基準点とする概念を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:四柱推命",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "四柱推命"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命",
+      "source_type": "生年月日時・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "節気境界"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命では、日主を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000098_ten_gods.yml",
+      "id": "DIV-000098",
+      "knowledge_type": "divination_reference",
+      "name_ja": "通変星・十神",
+      "name_en": "Ten Gods",
+      "category": "Divination Reference",
+      "attribute": "Four Pillars",
+      "definition_ja": "通変星・十神は、日主と他の干の陰陽五行関係を類型化する枠組みを表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:四柱推命",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "四柱推命"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命",
+      "source_type": "生年月日時・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "節気境界"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命では、通変星・十神を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000099_luck_pillars.yml",
+      "id": "DIV-000099",
+      "knowledge_type": "divination_reference",
+      "name_ja": "大運",
+      "name_en": "Luck Pillars",
+      "category": "Divination Reference",
+      "attribute": "Four Pillars",
+      "definition_ja": "大運は、一定期間ごとの干支を命式との関係で扱う伝統的時間モデルを表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:四柱推命",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "四柱推命"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命",
+      "source_type": "生年月日時・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "節気境界"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命では、大運を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    },
+    {
+      "filename": "DIV-000100_four_pillars_synthesis.yml",
+      "id": "DIV-000100",
+      "knowledge_type": "divination_reference",
+      "name_ja": "命式統合",
+      "name_en": "Four Pillars Synthesis",
+      "category": "Divination Reference",
+      "attribute": "Four Pillars",
+      "definition_ja": "命式統合は、四柱・五行・季節・関係規則を単一要素へ還元せず統合することを表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。",
+      "tags": [
+        "CAT:占術参照",
+        "CAT:四柱推命",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "四柱推命"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した入力",
+        "採用した計算規則と流派",
+        "入力精度と欠測",
+        "生成された象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と計算規則から再現可能な象徴配置を取得する",
+        "複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦法",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "四柱推命",
+      "source_type": "生年月日時・暦・節気",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "使用暦",
+        "節気境界"
+      ],
+      "calculation_basis": "十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "四柱推命では、命式統合を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。",
+      "provenance": "中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統"
+    }
+  ]
+}

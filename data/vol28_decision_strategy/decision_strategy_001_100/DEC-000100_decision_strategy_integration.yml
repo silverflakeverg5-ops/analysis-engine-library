@@ -1,0 +1,37 @@
+id: DEC-000100
+knowledge_type: decision_strategy
+name_ja: 意思決定戦略統合
+name_en: Decision Strategy Integration
+category: Decision Strategy
+attribute: Observation and Integration
+definition_ja: 意思決定戦略統合は、観測・補正・根拠を安全に接続するための統合枠組みを表す意思決定概念。単独の選択から能力・人格・合理性を断定しない。
+tags:
+  - CAT:意思決定戦略
+  - CAT:観測と統合
+  - ATTR:判断過程
+parent:
+  - 観測と統合
+related:
+  - 意思決定
+  - 行動観測
+  - 認知過程
+observable_data:
+  - 選択肢の提示・閲覧・比較ログ
+  - 情報探索と確認の時系列
+  - 判断・保留・変更の時刻
+  - 選択後の実行と結果
+signal_candidates:
+  - 意思決定戦略統合と整合する判断過程が複数場面で観測される
+  - 重要度・時間圧・知識量・可逆性の変化に伴って判断過程が変化する
+device_level: アプリまたはゲーム内の同意済みイベントログ、明示回答、操作系列から観測可能
+modifiers:
+  - 判断領域
+  - 結果の重要度
+  - 領域知識
+  - 情報利用可能性
+  - 時間圧
+  - 感情・身体状態
+  - 社会的役割
+  - 可逆性
+evidence: 意思決定科学・認知心理学・行動経済学・組織行動・HCI研究を参照
+status: active

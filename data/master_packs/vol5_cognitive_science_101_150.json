@@ -1,11 +1,11 @@
 {
   "output_dir": "vol5_cognitive_science/cognitive_science_101_150",
   "index_filename": "cognitive_science_101_150_index.yml",
-  "index_content": "category: Cognitive Science\nname_ja: 認知科学\nitems:\n  - COGSCI-000101_episodic_memory.yml\n  - COGSCI-000102_semantic_memory.yml\n  - COGSCI-000103_procedural_memory.yml\n  - COGSCI-000104_short_term_memory.yml\n  - COGSCI-000105_long_term_memory.yml\n  - COGSCI-000106_encoding.yml\n  - COGSCI-000107_retrieval.yml\n  - COGSCI-000108_recognition_memory.yml\n  - COGSCI-000109_recall_memory.yml\n  - COGSCI-000110_memory_consolidation.yml\n  - COGSCI-000111_deductive_reasoning.yml\n  - COGSCI-000112_inductive_reasoning.yml\n  - COGSCI-000113_abductive_reasoning.yml\n  - COGSCI-000114_causal_reasoning.yml\n  - COGSCI-000115_probabilistic_reasoning.yml\n  - COGSCI-000116_counterfactual_reasoning.yml\n  - COGSCI-000117_conditional_reasoning.yml\n  - COGSCI-000118_analogical_mapping.yml\n  - COGSCI-000119_hypothesis_testing.yml\n  - COGSCI-000120_evidence_evaluation.yml\n  - COGSCI-000121_emotion_appraisal.yml\n  - COGSCI-000122_emotion_regulation.yml\n  - COGSCI-000123_affective_attention.yml\n  - COGSCI-000124_mood_congruent_processing.yml\n  - COGSCI-000125_emotional_memory.yml\n  - COGSCI-000126_threat_detection.yml\n  - COGSCI-000127_reward_sensitivity.yml\n  - COGSCI-000128_frustration_tolerance.yml\n  - COGSCI-000129_affective_decision_making.yml\n  - COGSCI-000130_emotional_interference.yml\n  - COGSCI-000131_mental_model.yml\n  - COGSCI-000132_schema.yml\n  - COGSCI-000133_script_knowledge.yml\n  - COGSCI-000134_conceptual_model.yml\n  - COGSCI-000135_situation_model.yml\n  - COGSCI-000136_cognitive_map.yml\n  - COGSCI-000137_category_learning.yml\n  - COGSCI-000138_prototype_processing.yml\n  - COGSCI-000139_exemplar_processing.yml\n  - COGSCI-000140_concept_formation.yml\n  - COGSCI-000141_cognitive_load.yml\n  - COGSCI-000142_intrinsic_load.yml\n  - COGSCI-000143_extraneous_load.yml\n  - COGSCI-000144_germane_load.yml\n  - COGSCI-000145_dual_task_interference.yml\n  - COGSCI-000146_task_demand.yml\n  - COGSCI-000147_mental_effort.yml\n  - COGSCI-000148_processing_capacity.yml\n  - COGSCI-000149_cognitive_fatigue.yml\n  - COGSCI-000150_load_management.yml\nnotes:\n  - 認知科学は能力評価そのものではなく推論材料として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
+  "index_content": "category: Cognitive Science\nname_ja: 認知科学\nitems:\n  - CSC-000101_episodic_memory.yml\n  - CSC-000102_semantic_memory.yml\n  - CSC-000103_procedural_memory.yml\n  - CSC-000104_short_term_memory.yml\n  - CSC-000105_long_term_memory.yml\n  - CSC-000106_encoding.yml\n  - CSC-000107_retrieval.yml\n  - CSC-000108_recognition_memory.yml\n  - CSC-000109_recall_memory.yml\n  - CSC-000110_memory_consolidation.yml\n  - CSC-000111_deductive_reasoning.yml\n  - CSC-000112_inductive_reasoning.yml\n  - CSC-000113_abductive_reasoning.yml\n  - CSC-000114_causal_reasoning.yml\n  - CSC-000115_probabilistic_reasoning.yml\n  - CSC-000116_counterfactual_reasoning.yml\n  - CSC-000117_conditional_reasoning.yml\n  - CSC-000118_analogical_mapping.yml\n  - CSC-000119_hypothesis_testing.yml\n  - CSC-000120_evidence_evaluation.yml\n  - CSC-000121_emotion_appraisal.yml\n  - CSC-000122_emotion_regulation.yml\n  - CSC-000123_affective_attention.yml\n  - CSC-000124_mood_congruent_processing.yml\n  - CSC-000125_emotional_memory.yml\n  - CSC-000126_threat_detection.yml\n  - CSC-000127_reward_sensitivity.yml\n  - CSC-000128_frustration_tolerance.yml\n  - CSC-000129_affective_decision_making.yml\n  - CSC-000130_emotional_interference.yml\n  - CSC-000131_mental_model.yml\n  - CSC-000132_schema.yml\n  - CSC-000133_script_knowledge.yml\n  - CSC-000134_conceptual_model.yml\n  - CSC-000135_situation_model.yml\n  - CSC-000136_cognitive_map.yml\n  - CSC-000137_category_learning.yml\n  - CSC-000138_prototype_processing.yml\n  - CSC-000139_exemplar_processing.yml\n  - CSC-000140_concept_formation.yml\n  - CSC-000141_cognitive_load.yml\n  - CSC-000142_intrinsic_load.yml\n  - CSC-000143_extraneous_load.yml\n  - CSC-000144_germane_load.yml\n  - CSC-000145_dual_task_interference.yml\n  - CSC-000146_task_demand.yml\n  - CSC-000147_mental_effort.yml\n  - CSC-000148_processing_capacity.yml\n  - CSC-000149_cognitive_fatigue.yml\n  - CSC-000150_load_management.yml\nnotes:\n  - 認知科学は能力評価そのものではなく推論材料として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
   "items": [
     {
-      "filename": "COGSCI-000101_episodic_memory.yml",
-      "id": "COGSCI-000101",
+      "filename": "CSC-000101_episodic_memory.yml",
+      "id": "CSC-000101",
       "knowledge_type": "cognitive_science",
       "name_ja": "エピソード記憶",
       "name_en": "Episodic Memory",
@@ -46,8 +46,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000102_semantic_memory.yml",
-      "id": "COGSCI-000102",
+      "filename": "CSC-000102_semantic_memory.yml",
+      "id": "CSC-000102",
       "knowledge_type": "cognitive_science",
       "name_ja": "意味記憶",
       "name_en": "Semantic Memory",
@@ -88,8 +88,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000103_procedural_memory.yml",
-      "id": "COGSCI-000103",
+      "filename": "CSC-000103_procedural_memory.yml",
+      "id": "CSC-000103",
       "knowledge_type": "cognitive_science",
       "name_ja": "手続き記憶",
       "name_en": "Procedural Memory",
@@ -130,8 +130,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000104_short_term_memory.yml",
-      "id": "COGSCI-000104",
+      "filename": "CSC-000104_short_term_memory.yml",
+      "id": "CSC-000104",
       "knowledge_type": "cognitive_science",
       "name_ja": "短期記憶",
       "name_en": "Short Term Memory",
@@ -172,8 +172,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000105_long_term_memory.yml",
-      "id": "COGSCI-000105",
+      "filename": "CSC-000105_long_term_memory.yml",
+      "id": "CSC-000105",
       "knowledge_type": "cognitive_science",
       "name_ja": "長期記憶",
       "name_en": "Long Term Memory",
@@ -214,8 +214,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000106_encoding.yml",
-      "id": "COGSCI-000106",
+      "filename": "CSC-000106_encoding.yml",
+      "id": "CSC-000106",
       "knowledge_type": "cognitive_science",
       "name_ja": "符号化",
       "name_en": "Encoding",
@@ -256,8 +256,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000107_retrieval.yml",
-      "id": "COGSCI-000107",
+      "filename": "CSC-000107_retrieval.yml",
+      "id": "CSC-000107",
       "knowledge_type": "cognitive_science",
       "name_ja": "検索・想起",
       "name_en": "Retrieval",
@@ -298,8 +298,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000108_recognition_memory.yml",
-      "id": "COGSCI-000108",
+      "filename": "CSC-000108_recognition_memory.yml",
+      "id": "CSC-000108",
       "knowledge_type": "cognitive_science",
       "name_ja": "再認記憶",
       "name_en": "Recognition Memory",
@@ -340,8 +340,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000109_recall_memory.yml",
-      "id": "COGSCI-000109",
+      "filename": "CSC-000109_recall_memory.yml",
+      "id": "CSC-000109",
       "knowledge_type": "cognitive_science",
       "name_ja": "再生記憶",
       "name_en": "Recall Memory",
@@ -382,8 +382,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000110_memory_consolidation.yml",
-      "id": "COGSCI-000110",
+      "filename": "CSC-000110_memory_consolidation.yml",
+      "id": "CSC-000110",
       "knowledge_type": "cognitive_science",
       "name_ja": "記憶固定",
       "name_en": "Memory Consolidation",
@@ -424,8 +424,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000111_deductive_reasoning.yml",
-      "id": "COGSCI-000111",
+      "filename": "CSC-000111_deductive_reasoning.yml",
+      "id": "CSC-000111",
       "knowledge_type": "cognitive_science",
       "name_ja": "演繹推論",
       "name_en": "Deductive Reasoning",
@@ -466,8 +466,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000112_inductive_reasoning.yml",
-      "id": "COGSCI-000112",
+      "filename": "CSC-000112_inductive_reasoning.yml",
+      "id": "CSC-000112",
       "knowledge_type": "cognitive_science",
       "name_ja": "帰納推論",
       "name_en": "Inductive Reasoning",
@@ -508,8 +508,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000113_abductive_reasoning.yml",
-      "id": "COGSCI-000113",
+      "filename": "CSC-000113_abductive_reasoning.yml",
+      "id": "CSC-000113",
       "knowledge_type": "cognitive_science",
       "name_ja": "仮説推論",
       "name_en": "Abductive Reasoning",
@@ -550,8 +550,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000114_causal_reasoning.yml",
-      "id": "COGSCI-000114",
+      "filename": "CSC-000114_causal_reasoning.yml",
+      "id": "CSC-000114",
       "knowledge_type": "cognitive_science",
       "name_ja": "因果推論",
       "name_en": "Causal Reasoning",
@@ -592,8 +592,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000115_probabilistic_reasoning.yml",
-      "id": "COGSCI-000115",
+      "filename": "CSC-000115_probabilistic_reasoning.yml",
+      "id": "CSC-000115",
       "knowledge_type": "cognitive_science",
       "name_ja": "確率推論",
       "name_en": "Probabilistic Reasoning",
@@ -634,8 +634,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000116_counterfactual_reasoning.yml",
-      "id": "COGSCI-000116",
+      "filename": "CSC-000116_counterfactual_reasoning.yml",
+      "id": "CSC-000116",
       "knowledge_type": "cognitive_science",
       "name_ja": "反実仮想推論",
       "name_en": "Counterfactual Reasoning",
@@ -676,8 +676,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000117_conditional_reasoning.yml",
-      "id": "COGSCI-000117",
+      "filename": "CSC-000117_conditional_reasoning.yml",
+      "id": "CSC-000117",
       "knowledge_type": "cognitive_science",
       "name_ja": "条件推論",
       "name_en": "Conditional Reasoning",
@@ -718,8 +718,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000118_analogical_mapping.yml",
-      "id": "COGSCI-000118",
+      "filename": "CSC-000118_analogical_mapping.yml",
+      "id": "CSC-000118",
       "knowledge_type": "cognitive_science",
       "name_ja": "類推対応づけ",
       "name_en": "Analogical Mapping",
@@ -760,8 +760,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000119_hypothesis_testing.yml",
-      "id": "COGSCI-000119",
+      "filename": "CSC-000119_hypothesis_testing.yml",
+      "id": "CSC-000119",
       "knowledge_type": "cognitive_science",
       "name_ja": "仮説検証",
       "name_en": "Hypothesis Testing",
@@ -802,8 +802,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000120_evidence_evaluation.yml",
-      "id": "COGSCI-000120",
+      "filename": "CSC-000120_evidence_evaluation.yml",
+      "id": "CSC-000120",
       "knowledge_type": "cognitive_science",
       "name_ja": "証拠評価",
       "name_en": "Evidence Evaluation",
@@ -844,8 +844,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000121_emotion_appraisal.yml",
-      "id": "COGSCI-000121",
+      "filename": "CSC-000121_emotion_appraisal.yml",
+      "id": "CSC-000121",
       "knowledge_type": "cognitive_science",
       "name_ja": "感情評価",
       "name_en": "Emotion Appraisal",
@@ -886,8 +886,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000122_emotion_regulation.yml",
-      "id": "COGSCI-000122",
+      "filename": "CSC-000122_emotion_regulation.yml",
+      "id": "CSC-000122",
       "knowledge_type": "cognitive_science",
       "name_ja": "感情調整",
       "name_en": "Emotion Regulation",
@@ -928,8 +928,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000123_affective_attention.yml",
-      "id": "COGSCI-000123",
+      "filename": "CSC-000123_affective_attention.yml",
+      "id": "CSC-000123",
       "knowledge_type": "cognitive_science",
       "name_ja": "感情的注意",
       "name_en": "Affective Attention",
@@ -970,8 +970,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000124_mood_congruent_processing.yml",
-      "id": "COGSCI-000124",
+      "filename": "CSC-000124_mood_congruent_processing.yml",
+      "id": "CSC-000124",
       "knowledge_type": "cognitive_science",
       "name_ja": "気分一致処理",
       "name_en": "Mood Congruent Processing",
@@ -1012,8 +1012,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000125_emotional_memory.yml",
-      "id": "COGSCI-000125",
+      "filename": "CSC-000125_emotional_memory.yml",
+      "id": "CSC-000125",
       "knowledge_type": "cognitive_science",
       "name_ja": "感情記憶",
       "name_en": "Emotional Memory",
@@ -1054,8 +1054,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000126_threat_detection.yml",
-      "id": "COGSCI-000126",
+      "filename": "CSC-000126_threat_detection.yml",
+      "id": "CSC-000126",
       "knowledge_type": "cognitive_science",
       "name_ja": "脅威検知",
       "name_en": "Threat Detection",
@@ -1096,8 +1096,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000127_reward_sensitivity.yml",
-      "id": "COGSCI-000127",
+      "filename": "CSC-000127_reward_sensitivity.yml",
+      "id": "CSC-000127",
       "knowledge_type": "cognitive_science",
       "name_ja": "報酬感受性",
       "name_en": "Reward Sensitivity",
@@ -1138,8 +1138,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000128_frustration_tolerance.yml",
-      "id": "COGSCI-000128",
+      "filename": "CSC-000128_frustration_tolerance.yml",
+      "id": "CSC-000128",
       "knowledge_type": "cognitive_science",
       "name_ja": "欲求不満耐性",
       "name_en": "Frustration Tolerance",
@@ -1180,8 +1180,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000129_affective_decision_making.yml",
-      "id": "COGSCI-000129",
+      "filename": "CSC-000129_affective_decision_making.yml",
+      "id": "CSC-000129",
       "knowledge_type": "cognitive_science",
       "name_ja": "感情的意思決定",
       "name_en": "Affective Decision Making",
@@ -1222,8 +1222,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000130_emotional_interference.yml",
-      "id": "COGSCI-000130",
+      "filename": "CSC-000130_emotional_interference.yml",
+      "id": "CSC-000130",
       "knowledge_type": "cognitive_science",
       "name_ja": "感情的干渉",
       "name_en": "Emotional Interference",
@@ -1264,8 +1264,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000131_mental_model.yml",
-      "id": "COGSCI-000131",
+      "filename": "CSC-000131_mental_model.yml",
+      "id": "CSC-000131",
       "knowledge_type": "cognitive_science",
       "name_ja": "メンタルモデル",
       "name_en": "Mental Model",
@@ -1306,8 +1306,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000132_schema.yml",
-      "id": "COGSCI-000132",
+      "filename": "CSC-000132_schema.yml",
+      "id": "CSC-000132",
       "knowledge_type": "cognitive_science",
       "name_ja": "スキーマ",
       "name_en": "Schema",
@@ -1348,8 +1348,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000133_script_knowledge.yml",
-      "id": "COGSCI-000133",
+      "filename": "CSC-000133_script_knowledge.yml",
+      "id": "CSC-000133",
       "knowledge_type": "cognitive_science",
       "name_ja": "スクリプト知識",
       "name_en": "Script Knowledge",
@@ -1390,8 +1390,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000134_conceptual_model.yml",
-      "id": "COGSCI-000134",
+      "filename": "CSC-000134_conceptual_model.yml",
+      "id": "CSC-000134",
       "knowledge_type": "cognitive_science",
       "name_ja": "概念モデル",
       "name_en": "Conceptual Model",
@@ -1432,8 +1432,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000135_situation_model.yml",
-      "id": "COGSCI-000135",
+      "filename": "CSC-000135_situation_model.yml",
+      "id": "CSC-000135",
       "knowledge_type": "cognitive_science",
       "name_ja": "状況モデル",
       "name_en": "Situation Model",
@@ -1474,8 +1474,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000136_cognitive_map.yml",
-      "id": "COGSCI-000136",
+      "filename": "CSC-000136_cognitive_map.yml",
+      "id": "CSC-000136",
       "knowledge_type": "cognitive_science",
       "name_ja": "認知地図",
       "name_en": "Cognitive Map",
@@ -1516,8 +1516,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000137_category_learning.yml",
-      "id": "COGSCI-000137",
+      "filename": "CSC-000137_category_learning.yml",
+      "id": "CSC-000137",
       "knowledge_type": "cognitive_science",
       "name_ja": "カテゴリ学習",
       "name_en": "Category Learning",
@@ -1558,8 +1558,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000138_prototype_processing.yml",
-      "id": "COGSCI-000138",
+      "filename": "CSC-000138_prototype_processing.yml",
+      "id": "CSC-000138",
       "knowledge_type": "cognitive_science",
       "name_ja": "プロトタイプ処理",
       "name_en": "Prototype Processing",
@@ -1600,8 +1600,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000139_exemplar_processing.yml",
-      "id": "COGSCI-000139",
+      "filename": "CSC-000139_exemplar_processing.yml",
+      "id": "CSC-000139",
       "knowledge_type": "cognitive_science",
       "name_ja": "事例ベース処理",
       "name_en": "Exemplar Processing",
@@ -1642,8 +1642,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000140_concept_formation.yml",
-      "id": "COGSCI-000140",
+      "filename": "CSC-000140_concept_formation.yml",
+      "id": "CSC-000140",
       "knowledge_type": "cognitive_science",
       "name_ja": "概念形成",
       "name_en": "Concept Formation",
@@ -1684,8 +1684,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000141_cognitive_load.yml",
-      "id": "COGSCI-000141",
+      "filename": "CSC-000141_cognitive_load.yml",
+      "id": "CSC-000141",
       "knowledge_type": "cognitive_science",
       "name_ja": "認知負荷",
       "name_en": "Cognitive Load",
@@ -1726,8 +1726,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000142_intrinsic_load.yml",
-      "id": "COGSCI-000142",
+      "filename": "CSC-000142_intrinsic_load.yml",
+      "id": "CSC-000142",
       "knowledge_type": "cognitive_science",
       "name_ja": "内在的負荷",
       "name_en": "Intrinsic Load",
@@ -1768,8 +1768,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000143_extraneous_load.yml",
-      "id": "COGSCI-000143",
+      "filename": "CSC-000143_extraneous_load.yml",
+      "id": "CSC-000143",
       "knowledge_type": "cognitive_science",
       "name_ja": "外在的負荷",
       "name_en": "Extraneous Load",
@@ -1810,8 +1810,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000144_germane_load.yml",
-      "id": "COGSCI-000144",
+      "filename": "CSC-000144_germane_load.yml",
+      "id": "CSC-000144",
       "knowledge_type": "cognitive_science",
       "name_ja": "学習関連負荷",
       "name_en": "Germane Load",
@@ -1852,8 +1852,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000145_dual_task_interference.yml",
-      "id": "COGSCI-000145",
+      "filename": "CSC-000145_dual_task_interference.yml",
+      "id": "CSC-000145",
       "knowledge_type": "cognitive_science",
       "name_ja": "二重課題干渉",
       "name_en": "Dual Task Interference",
@@ -1894,8 +1894,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000146_task_demand.yml",
-      "id": "COGSCI-000146",
+      "filename": "CSC-000146_task_demand.yml",
+      "id": "CSC-000146",
       "knowledge_type": "cognitive_science",
       "name_ja": "課題要求",
       "name_en": "Task Demand",
@@ -1936,8 +1936,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000147_mental_effort.yml",
-      "id": "COGSCI-000147",
+      "filename": "CSC-000147_mental_effort.yml",
+      "id": "CSC-000147",
       "knowledge_type": "cognitive_science",
       "name_ja": "心的努力",
       "name_en": "Mental Effort",
@@ -1978,8 +1978,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000148_processing_capacity.yml",
-      "id": "COGSCI-000148",
+      "filename": "CSC-000148_processing_capacity.yml",
+      "id": "CSC-000148",
       "knowledge_type": "cognitive_science",
       "name_ja": "処理容量",
       "name_en": "Processing Capacity",
@@ -2020,8 +2020,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000149_cognitive_fatigue.yml",
-      "id": "COGSCI-000149",
+      "filename": "CSC-000149_cognitive_fatigue.yml",
+      "id": "CSC-000149",
       "knowledge_type": "cognitive_science",
       "name_ja": "認知疲労",
       "name_en": "Cognitive Fatigue",
@@ -2062,8 +2062,8 @@
       "status": "active"
     },
     {
-      "filename": "COGSCI-000150_load_management.yml",
-      "id": "COGSCI-000150",
+      "filename": "CSC-000150_load_management.yml",
+      "id": "CSC-000150",
       "knowledge_type": "cognitive_science",
       "name_ja": "負荷管理",
       "name_en": "Load Management",

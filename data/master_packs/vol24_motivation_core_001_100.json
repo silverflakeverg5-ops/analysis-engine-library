@@ -1,0 +1,4407 @@
+{
+  "output_dir": "vol24_motivation_core/motivation_core_001_100",
+  "index_filename": "motivation_core_001_100_index.yml",
+  "index_content": "category: Motivation Core\nname_ja: 動機づけコア\nitems:\n  - MOT-000001_motivation.yml\n  - MOT-000002_motive.yml\n  - MOT-000003_drive.yml\n  - MOT-000004_goal.yml\n  - MOT-000005_incentive.yml\n  - MOT-000006_need.yml\n  - MOT-000007_desire.yml\n  - MOT-000008_behavioral_intention.yml\n  - MOT-000009_effort.yml\n  - MOT-000010_persistence.yml\n  - MOT-000011_approach_motivation.yml\n  - MOT-000012_avoidance_motivation.yml\n  - MOT-000013_promotion_focus.yml\n  - MOT-000014_prevention_focus.yml\n  - MOT-000015_gain_seeking.yml\n  - MOT-000016_loss_avoidance.yml\n  - MOT-000017_challenge_approach.yml\n  - MOT-000018_threat_avoidance.yml\n  - MOT-000019_exploration_motivation.yml\n  - MOT-000020_withdrawal_motivation.yml\n  - MOT-000021_intrinsic_motivation.yml\n  - MOT-000022_extrinsic_motivation.yml\n  - MOT-000023_autonomy_need.yml\n  - MOT-000024_competence_need.yml\n  - MOT-000025_relatedness_need.yml\n  - MOT-000026_identified_regulation.yml\n  - MOT-000027_integrated_regulation.yml\n  - MOT-000028_introjected_regulation.yml\n  - MOT-000029_external_regulation.yml\n  - MOT-000030_amotivation.yml\n  - MOT-000031_achievement_motivation.yml\n  - MOT-000032_mastery_goal.yml\n  - MOT-000033_performance_approach_goal.yml\n  - MOT-000034_performance_avoidance_goal.yml\n  - MOT-000035_task_orientation.yml\n  - MOT-000036_ego_orientation.yml\n  - MOT-000037_motivational_self_efficacy.yml\n  - MOT-000038_outcome_expectancy.yml\n  - MOT-000039_task_value.yml\n  - MOT-000040_goal_commitment.yml\n  - MOT-000041_reward_sensitivity.yml\n  - MOT-000042_punishment_sensitivity.yml\n  - MOT-000043_incentive_salience.yml\n  - MOT-000044_reward_anticipation.yml\n  - MOT-000045_reward_learning.yml\n  - MOT-000046_delayed_gratification.yml\n  - MOT-000047_effort_discounting.yml\n  - MOT-000048_temporal_discounting.yml\n  - MOT-000049_goal_gradient.yml\n  - MOT-000050_reward_satiation.yml\n  - MOT-000051_grit.yml\n  - MOT-000052_perseverance.yml\n  - MOT-000053_tenacity.yml\n  - MOT-000054_self_control_motivation.yml\n  - MOT-000055_implementation_intention.yml\n  - MOT-000056_action_initiation.yml\n  - MOT-000057_goal_reengagement.yml\n  - MOT-000058_goal_disengagement.yml\n  - MOT-000059_recovery_motivation.yml\n  - MOT-000060_habit_support.yml\n  - MOT-000061_affiliation_motivation.yml\n  - MOT-000062_belonging_motivation.yml\n  - MOT-000063_approval_motivation.yml\n  - MOT-000064_status_motivation.yml\n  - MOT-000065_power_motivation.yml\n  - MOT-000066_dominance_motivation.yml\n  - MOT-000067_care_motivation.yml\n  - MOT-000068_altruistic_motivation.yml\n  - MOT-000069_reciprocity_motivation.yml\n  - MOT-000070_recognition_motivation.yml\n  - MOT-000071_value_congruence.yml\n  - MOT-000072_meaning_motivation.yml\n  - MOT-000073_purpose_motivation.yml\n  - MOT-000074_identity_motivation.yml\n  - MOT-000075_moral_motivation.yml\n  - MOT-000076_growth_motivation.yml\n  - MOT-000077_security_motivation.yml\n  - MOT-000078_novelty_motivation.yml\n  - MOT-000079_stability_motivation.yml\n  - MOT-000080_contribution_motivation.yml\n  - MOT-000081_context_dependent_motivation.yml\n  - MOT-000082_state_motivation.yml\n  - MOT-000083_trait_motivation.yml\n  - MOT-000084_motivational_intensity.yml\n  - MOT-000085_motivational_conflict.yml\n  - MOT-000086_motivational_ambivalence.yml\n  - MOT-000087_motivational_fatigue.yml\n  - MOT-000088_motivational_recovery.yml\n  - MOT-000089_environmental_motivation_support.yml\n  - MOT-000090_barrier_sensitivity.yml\n  - MOT-000091_choice_preference_signal.yml\n  - MOT-000092_effort_investment_signal.yml\n  - MOT-000093_persistence_signal.yml\n  - MOT-000094_retry_signal.yml\n  - MOT-000095_abandonment_signal.yml\n  - MOT-000096_optional_engagement_signal.yml\n  - MOT-000097_reward_response_signal.yml\n  - MOT-000098_difficulty_response_signal.yml\n  - MOT-000099_motivation_profile.yml\n  - MOT-000100_motivation_core_integration.yml\nnotes:\n  - 動機づけコアは推論材料であり、人格や性格を単独で断定しない\n  - 単一シグナルではなく複数場面・時間変化・Modifierを組み合わせる\n  - アプリ側で目的に応じた重み付けと安全な表示を行う\n",
+  "items": [
+    {
+      "filename": "MOT-000001_motivation.yml",
+      "id": "MOT-000001",
+      "knowledge_type": "motivation_core",
+      "name_ja": "動機づけ",
+      "name_en": "Motivation",
+      "category": "Motivation Core",
+      "attribute": "Basic Processes",
+      "definition_ja": "動機づけは、行動を開始し方向づけ維持する過程を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:基本過程",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "基本過程"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "動機づけと整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000002_motive.yml",
+      "id": "MOT-000002",
+      "knowledge_type": "motivation_core",
+      "name_ja": "動機",
+      "name_en": "Motive",
+      "category": "Motivation Core",
+      "attribute": "Basic Processes",
+      "definition_ja": "動機は、特定の行動へ向かわせる内的な理由を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:基本過程",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "基本過程"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "動機と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000003_drive.yml",
+      "id": "MOT-000003",
+      "knowledge_type": "motivation_core",
+      "name_ja": "動因",
+      "name_en": "Drive",
+      "category": "Motivation Core",
+      "attribute": "Basic Processes",
+      "definition_ja": "動因は、不足や緊張を低減しようとする力を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:基本過程",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "基本過程"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "動因と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000004_goal.yml",
+      "id": "MOT-000004",
+      "knowledge_type": "motivation_core",
+      "name_ja": "目標",
+      "name_en": "Goal",
+      "category": "Motivation Core",
+      "attribute": "Basic Processes",
+      "definition_ja": "目標は、行動が目指す将来の状態を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:基本過程",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "基本過程"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "目標と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000005_incentive.yml",
+      "id": "MOT-000005",
+      "knowledge_type": "motivation_core",
+      "name_ja": "誘因",
+      "name_en": "Incentive",
+      "category": "Motivation Core",
+      "attribute": "Basic Processes",
+      "definition_ja": "誘因は、行動を引き出す外的な魅力や条件を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:基本過程",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "基本過程"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "誘因と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000006_need.yml",
+      "id": "MOT-000006",
+      "knowledge_type": "motivation_core",
+      "name_ja": "欲求",
+      "name_en": "Need",
+      "category": "Motivation Core",
+      "attribute": "Basic Processes",
+      "definition_ja": "欲求は、充足を求める心理的または身体的必要を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:基本過程",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "基本過程"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "欲求と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000007_desire.yml",
+      "id": "MOT-000007",
+      "knowledge_type": "motivation_core",
+      "name_ja": "願望",
+      "name_en": "Desire",
+      "category": "Motivation Core",
+      "attribute": "Basic Processes",
+      "definition_ja": "願望は、ある結果や状態を望む主観的な強さを表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:基本過程",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "基本過程"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "願望と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000008_behavioral_intention.yml",
+      "id": "MOT-000008",
+      "knowledge_type": "motivation_core",
+      "name_ja": "行動意図",
+      "name_en": "Behavioral Intention",
+      "category": "Motivation Core",
+      "attribute": "Basic Processes",
+      "definition_ja": "行動意図は、行動を実行しようとする意思を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:基本過程",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "基本過程"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "行動意図と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000009_effort.yml",
+      "id": "MOT-000009",
+      "knowledge_type": "motivation_core",
+      "name_ja": "努力投入",
+      "name_en": "Effort",
+      "category": "Motivation Core",
+      "attribute": "Basic Processes",
+      "definition_ja": "努力投入は、目標達成へ投入する資源や負荷を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:基本過程",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "基本過程"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "努力投入と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000010_persistence.yml",
+      "id": "MOT-000010",
+      "knowledge_type": "motivation_core",
+      "name_ja": "持続性",
+      "name_en": "Persistence",
+      "category": "Motivation Core",
+      "attribute": "Basic Processes",
+      "definition_ja": "持続性は、障害があっても行動を続ける傾向を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:基本過程",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "基本過程"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "持続性と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000011_approach_motivation.yml",
+      "id": "MOT-000011",
+      "knowledge_type": "motivation_core",
+      "name_ja": "接近動機",
+      "name_en": "Approach Motivation",
+      "category": "Motivation Core",
+      "attribute": "Approach and Avoidance",
+      "definition_ja": "接近動機は、望ましい結果へ近づこうとする力を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:接近と回避",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "接近と回避"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "接近動機と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000012_avoidance_motivation.yml",
+      "id": "MOT-000012",
+      "knowledge_type": "motivation_core",
+      "name_ja": "回避動機",
+      "name_en": "Avoidance Motivation",
+      "category": "Motivation Core",
+      "attribute": "Approach and Avoidance",
+      "definition_ja": "回避動機は、望ましくない結果から離れようとする力を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:接近と回避",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "接近と回避"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "回避動機と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000013_promotion_focus.yml",
+      "id": "MOT-000013",
+      "knowledge_type": "motivation_core",
+      "name_ja": "促進焦点",
+      "name_en": "Promotion Focus",
+      "category": "Motivation Core",
+      "attribute": "Approach and Avoidance",
+      "definition_ja": "促進焦点は、成長や獲得を重視する自己調整を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:接近と回避",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "接近と回避"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "促進焦点と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000014_prevention_focus.yml",
+      "id": "MOT-000014",
+      "knowledge_type": "motivation_core",
+      "name_ja": "予防焦点",
+      "name_en": "Prevention Focus",
+      "category": "Motivation Core",
+      "attribute": "Approach and Avoidance",
+      "definition_ja": "予防焦点は、安全や損失防止を重視する自己調整を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:接近と回避",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "接近と回避"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "予防焦点と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000015_gain_seeking.yml",
+      "id": "MOT-000015",
+      "knowledge_type": "motivation_core",
+      "name_ja": "利得追求",
+      "name_en": "Gain Seeking",
+      "category": "Motivation Core",
+      "attribute": "Approach and Avoidance",
+      "definition_ja": "利得追求は、利益や好結果を得ようとする方向性を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:接近と回避",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "接近と回避"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "利得追求と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000016_loss_avoidance.yml",
+      "id": "MOT-000016",
+      "knowledge_type": "motivation_core",
+      "name_ja": "損失回避動機",
+      "name_en": "Loss Avoidance",
+      "category": "Motivation Core",
+      "attribute": "Approach and Avoidance",
+      "definition_ja": "損失回避動機は、損失や悪化を防ごうとする方向性を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:接近と回避",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "接近と回避"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "損失回避動機と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000017_challenge_approach.yml",
+      "id": "MOT-000017",
+      "knowledge_type": "motivation_core",
+      "name_ja": "挑戦接近",
+      "name_en": "Challenge Approach",
+      "category": "Motivation Core",
+      "attribute": "Approach and Avoidance",
+      "definition_ja": "挑戦接近は、難しい課題を成長機会として選ぶ方向性を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:接近と回避",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "接近と回避"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "挑戦接近と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000018_threat_avoidance.yml",
+      "id": "MOT-000018",
+      "knowledge_type": "motivation_core",
+      "name_ja": "脅威回避",
+      "name_en": "Threat Avoidance",
+      "category": "Motivation Core",
+      "attribute": "Approach and Avoidance",
+      "definition_ja": "脅威回避は、危険や評価低下を避ける方向性を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:接近と回避",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "接近と回避"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "脅威回避と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000019_exploration_motivation.yml",
+      "id": "MOT-000019",
+      "knowledge_type": "motivation_core",
+      "name_ja": "探索動機",
+      "name_en": "Exploration Motivation",
+      "category": "Motivation Core",
+      "attribute": "Approach and Avoidance",
+      "definition_ja": "探索動機は、未知の選択肢や情報を調べようとする力を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:接近と回避",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "接近と回避"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "探索動機と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000020_withdrawal_motivation.yml",
+      "id": "MOT-000020",
+      "knowledge_type": "motivation_core",
+      "name_ja": "撤退動機",
+      "name_en": "Withdrawal Motivation",
+      "category": "Motivation Core",
+      "attribute": "Approach and Avoidance",
+      "definition_ja": "撤退動機は、負荷の高い対象から距離を取ろうとする力を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:接近と回避",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "接近と回避"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "撤退動機と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000021_intrinsic_motivation.yml",
+      "id": "MOT-000021",
+      "knowledge_type": "motivation_core",
+      "name_ja": "内発的動機づけ",
+      "name_en": "Intrinsic Motivation",
+      "category": "Motivation Core",
+      "attribute": "Self Determination",
+      "definition_ja": "内発的動機づけは、活動そのものの興味や楽しさによる動機を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:自己決定",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "自己決定"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "内発的動機づけと整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000022_extrinsic_motivation.yml",
+      "id": "MOT-000022",
+      "knowledge_type": "motivation_core",
+      "name_ja": "外発的動機づけ",
+      "name_en": "Extrinsic Motivation",
+      "category": "Motivation Core",
+      "attribute": "Self Determination",
+      "definition_ja": "外発的動機づけは、報酬や評価など外的結果による動機を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:自己決定",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "自己決定"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "外発的動機づけと整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000023_autonomy_need.yml",
+      "id": "MOT-000023",
+      "knowledge_type": "motivation_core",
+      "name_ja": "自律性欲求",
+      "name_en": "Autonomy Need",
+      "category": "Motivation Core",
+      "attribute": "Self Determination",
+      "definition_ja": "自律性欲求は、自分で選び決めたいという心理的欲求を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:自己決定",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "自己決定"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "自律性欲求と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000024_competence_need.yml",
+      "id": "MOT-000024",
+      "knowledge_type": "motivation_core",
+      "name_ja": "有能感欲求",
+      "name_en": "Competence Need",
+      "category": "Motivation Core",
+      "attribute": "Self Determination",
+      "definition_ja": "有能感欲求は、能力を発揮し上達したいという心理的欲求を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:自己決定",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "自己決定"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "有能感欲求と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000025_relatedness_need.yml",
+      "id": "MOT-000025",
+      "knowledge_type": "motivation_core",
+      "name_ja": "関係性欲求",
+      "name_en": "Relatedness Need",
+      "category": "Motivation Core",
+      "attribute": "Self Determination",
+      "definition_ja": "関係性欲求は、他者とつながり受容されたいという心理的欲求を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:自己決定",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "自己決定"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "関係性欲求と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000026_identified_regulation.yml",
+      "id": "MOT-000026",
+      "knowledge_type": "motivation_core",
+      "name_ja": "同一化的調整",
+      "name_en": "Identified Regulation",
+      "category": "Motivation Core",
+      "attribute": "Self Determination",
+      "definition_ja": "同一化的調整は、価値を自分で認めて行動する調整を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:自己決定",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "自己決定"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "同一化的調整と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000027_integrated_regulation.yml",
+      "id": "MOT-000027",
+      "knowledge_type": "motivation_core",
+      "name_ja": "統合的調整",
+      "name_en": "Integrated Regulation",
+      "category": "Motivation Core",
+      "attribute": "Self Determination",
+      "definition_ja": "統合的調整は、行動価値を自己の一部として統合した調整を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:自己決定",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "自己決定"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "統合的調整と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000028_introjected_regulation.yml",
+      "id": "MOT-000028",
+      "knowledge_type": "motivation_core",
+      "name_ja": "取り入れ的調整",
+      "name_en": "Introjected Regulation",
+      "category": "Motivation Core",
+      "attribute": "Self Determination",
+      "definition_ja": "取り入れ的調整は、罪悪感や自尊心維持に押される調整を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:自己決定",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "自己決定"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "取り入れ的調整と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000029_external_regulation.yml",
+      "id": "MOT-000029",
+      "knowledge_type": "motivation_core",
+      "name_ja": "外的調整",
+      "name_en": "External Regulation",
+      "category": "Motivation Core",
+      "attribute": "Self Determination",
+      "definition_ja": "外的調整は、報酬や罰など外部統制による調整を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:自己決定",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "自己決定"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "外的調整と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000030_amotivation.yml",
+      "id": "MOT-000030",
+      "knowledge_type": "motivation_core",
+      "name_ja": "無動機",
+      "name_en": "Amotivation",
+      "category": "Motivation Core",
+      "attribute": "Self Determination",
+      "definition_ja": "無動機は、行動と結果の結びつきや意欲が弱い状態を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:自己決定",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "自己決定"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "無動機と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000031_achievement_motivation.yml",
+      "id": "MOT-000031",
+      "knowledge_type": "motivation_core",
+      "name_ja": "達成動機",
+      "name_en": "Achievement Motivation",
+      "category": "Motivation Core",
+      "attribute": "Achievement",
+      "definition_ja": "達成動機は、基準を満たし成果を上げようとする力を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:達成",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "達成"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "達成動機と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000032_mastery_goal.yml",
+      "id": "MOT-000032",
+      "knowledge_type": "motivation_core",
+      "name_ja": "熟達目標",
+      "name_en": "Mastery Goal",
+      "category": "Motivation Core",
+      "attribute": "Achievement",
+      "definition_ja": "熟達目標は、理解や技能向上を目指す目標志向を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:達成",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "達成"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "熟達目標と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000033_performance_approach_goal.yml",
+      "id": "MOT-000033",
+      "knowledge_type": "motivation_core",
+      "name_ja": "遂行接近目標",
+      "name_en": "Performance Approach Goal",
+      "category": "Motivation Core",
+      "attribute": "Achievement",
+      "definition_ja": "遂行接近目標は、他者より良い成績を目指す目標志向を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:達成",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "達成"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "遂行接近目標と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000034_performance_avoidance_goal.yml",
+      "id": "MOT-000034",
+      "knowledge_type": "motivation_core",
+      "name_ja": "遂行回避目標",
+      "name_en": "Performance Avoidance Goal",
+      "category": "Motivation Core",
+      "attribute": "Achievement",
+      "definition_ja": "遂行回避目標は、能力不足の露呈を避ける目標志向を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:達成",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "達成"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "遂行回避目標と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000035_task_orientation.yml",
+      "id": "MOT-000035",
+      "knowledge_type": "motivation_core",
+      "name_ja": "課題志向",
+      "name_en": "Task Orientation",
+      "category": "Motivation Core",
+      "attribute": "Achievement",
+      "definition_ja": "課題志向は、課題の達成や改善を基準にする方向性を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:達成",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "達成"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "課題志向と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000036_ego_orientation.yml",
+      "id": "MOT-000036",
+      "knowledge_type": "motivation_core",
+      "name_ja": "自我志向",
+      "name_en": "Ego Orientation",
+      "category": "Motivation Core",
+      "attribute": "Achievement",
+      "definition_ja": "自我志向は、他者との比較を基準にする方向性を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:達成",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "達成"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "自我志向と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000037_motivational_self_efficacy.yml",
+      "id": "MOT-000037",
+      "knowledge_type": "motivation_core",
+      "name_ja": "動機的自己効力感",
+      "name_en": "Motivational Self Efficacy",
+      "category": "Motivation Core",
+      "attribute": "Achievement",
+      "definition_ja": "動機的自己効力感は、必要な行動を実行できるという見込みを表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:達成",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "達成"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "動機的自己効力感と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000038_outcome_expectancy.yml",
+      "id": "MOT-000038",
+      "knowledge_type": "motivation_core",
+      "name_ja": "結果期待",
+      "name_en": "Outcome Expectancy",
+      "category": "Motivation Core",
+      "attribute": "Achievement",
+      "definition_ja": "結果期待は、行動が望む結果につながるという期待を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:達成",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "達成"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "結果期待と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000039_task_value.yml",
+      "id": "MOT-000039",
+      "knowledge_type": "motivation_core",
+      "name_ja": "課題価値",
+      "name_en": "Task Value",
+      "category": "Motivation Core",
+      "attribute": "Achievement",
+      "definition_ja": "課題価値は、課題を重要または有用とみなす評価を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:達成",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "達成"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "課題価値と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000040_goal_commitment.yml",
+      "id": "MOT-000040",
+      "knowledge_type": "motivation_core",
+      "name_ja": "目標コミットメント",
+      "name_en": "Goal Commitment",
+      "category": "Motivation Core",
+      "attribute": "Achievement",
+      "definition_ja": "目標コミットメントは、選んだ目標を維持しようとする強さを表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:達成",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "達成"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "目標コミットメントと整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000041_reward_sensitivity.yml",
+      "id": "MOT-000041",
+      "knowledge_type": "motivation_core",
+      "name_ja": "報酬感受性",
+      "name_en": "Reward Sensitivity",
+      "category": "Motivation Core",
+      "attribute": "Reward",
+      "definition_ja": "報酬感受性は、報酬の手がかりへ反応する度合いを表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:報酬",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "報酬"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "報酬感受性と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000042_punishment_sensitivity.yml",
+      "id": "MOT-000042",
+      "knowledge_type": "motivation_core",
+      "name_ja": "罰感受性",
+      "name_en": "Punishment Sensitivity",
+      "category": "Motivation Core",
+      "attribute": "Reward",
+      "definition_ja": "罰感受性は、罰や否定的結果の手がかりへ反応する度合いを表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:報酬",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "報酬"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "罰感受性と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000043_incentive_salience.yml",
+      "id": "MOT-000043",
+      "knowledge_type": "motivation_core",
+      "name_ja": "誘因顕著性",
+      "name_en": "Incentive Salience",
+      "category": "Motivation Core",
+      "attribute": "Reward",
+      "definition_ja": "誘因顕著性は、報酬対象が注意と欲求を引きつける強さを表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:報酬",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "報酬"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "誘因顕著性と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000044_reward_anticipation.yml",
+      "id": "MOT-000044",
+      "knowledge_type": "motivation_core",
+      "name_ja": "報酬予期",
+      "name_en": "Reward Anticipation",
+      "category": "Motivation Core",
+      "attribute": "Reward",
+      "definition_ja": "報酬予期は、将来の報酬を予想して生じる動機を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:報酬",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "報酬"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "報酬予期と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000045_reward_learning.yml",
+      "id": "MOT-000045",
+      "knowledge_type": "motivation_core",
+      "name_ja": "報酬学習",
+      "name_en": "Reward Learning",
+      "category": "Motivation Core",
+      "attribute": "Reward",
+      "definition_ja": "報酬学習は、結果に応じて選択価値を更新する過程を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:報酬",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "報酬"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "報酬学習と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000046_delayed_gratification.yml",
+      "id": "MOT-000046",
+      "knowledge_type": "motivation_core",
+      "name_ja": "満足遅延",
+      "name_en": "Delayed Gratification",
+      "category": "Motivation Core",
+      "attribute": "Reward",
+      "definition_ja": "満足遅延は、大きな将来報酬のため即時報酬を待つ傾向を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:報酬",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "報酬"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "満足遅延と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000047_effort_discounting.yml",
+      "id": "MOT-000047",
+      "knowledge_type": "motivation_core",
+      "name_ja": "努力割引",
+      "name_en": "Effort Discounting",
+      "category": "Motivation Core",
+      "attribute": "Reward",
+      "definition_ja": "努力割引は、必要努力が大きいほど報酬価値を低く見る傾向を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:報酬",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "報酬"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "努力割引と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000048_temporal_discounting.yml",
+      "id": "MOT-000048",
+      "knowledge_type": "motivation_core",
+      "name_ja": "時間割引",
+      "name_en": "Temporal Discounting",
+      "category": "Motivation Core",
+      "attribute": "Reward",
+      "definition_ja": "時間割引は、受け取りが遅いほど報酬価値を低く見る傾向を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:報酬",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "報酬"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "時間割引と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000049_goal_gradient.yml",
+      "id": "MOT-000049",
+      "knowledge_type": "motivation_core",
+      "name_ja": "目標勾配",
+      "name_en": "Goal Gradient",
+      "category": "Motivation Core",
+      "attribute": "Reward",
+      "definition_ja": "目標勾配は、目標へ近づくほど行動が加速する傾向を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:報酬",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "報酬"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "目標勾配と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000050_reward_satiation.yml",
+      "id": "MOT-000050",
+      "knowledge_type": "motivation_core",
+      "name_ja": "報酬飽和",
+      "name_en": "Reward Satiation",
+      "category": "Motivation Core",
+      "attribute": "Reward",
+      "definition_ja": "報酬飽和は、反復した報酬の動機づけ効果が弱まる状態を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:報酬",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "報酬"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "報酬飽和と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000051_grit.yml",
+      "id": "MOT-000051",
+      "knowledge_type": "motivation_core",
+      "name_ja": "グリット",
+      "name_en": "Grit",
+      "category": "Motivation Core",
+      "attribute": "Persistence and Regulation",
+      "definition_ja": "グリットは、長期目標へ情熱と努力を維持する傾向を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:持続と調整",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "持続と調整"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "グリットと整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000052_perseverance.yml",
+      "id": "MOT-000052",
+      "knowledge_type": "motivation_core",
+      "name_ja": "忍耐的持続",
+      "name_en": "Perseverance",
+      "category": "Motivation Core",
+      "attribute": "Persistence and Regulation",
+      "definition_ja": "忍耐的持続は、困難の中でも試行を続ける傾向を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:持続と調整",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "持続と調整"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "忍耐的持続と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000053_tenacity.yml",
+      "id": "MOT-000053",
+      "knowledge_type": "motivation_core",
+      "name_ja": "粘り強さ",
+      "name_en": "Tenacity",
+      "category": "Motivation Core",
+      "attribute": "Persistence and Regulation",
+      "definition_ja": "粘り強さは、抵抗があっても目標から離れにくい傾向を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:持続と調整",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "持続と調整"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "粘り強さと整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000054_self_control_motivation.yml",
+      "id": "MOT-000054",
+      "knowledge_type": "motivation_core",
+      "name_ja": "自己統制動機",
+      "name_en": "Self Control Motivation",
+      "category": "Motivation Core",
+      "attribute": "Persistence and Regulation",
+      "definition_ja": "自己統制動機は、短期衝動を抑え長期目標を守る力を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:持続と調整",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "持続と調整"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "自己統制動機と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000055_implementation_intention.yml",
+      "id": "MOT-000055",
+      "knowledge_type": "motivation_core",
+      "name_ja": "実行意図",
+      "name_en": "Implementation Intention",
+      "category": "Motivation Core",
+      "attribute": "Persistence and Regulation",
+      "definition_ja": "実行意図は、状況と行動を事前に結びつける計画を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:持続と調整",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "持続と調整"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "実行意図と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000056_action_initiation.yml",
+      "id": "MOT-000056",
+      "knowledge_type": "motivation_core",
+      "name_ja": "行動開始",
+      "name_en": "Action Initiation",
+      "category": "Motivation Core",
+      "attribute": "Persistence and Regulation",
+      "definition_ja": "行動開始は、意図を実際の最初の行動へ移す過程を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:持続と調整",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "持続と調整"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "行動開始と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000057_goal_reengagement.yml",
+      "id": "MOT-000057",
+      "knowledge_type": "motivation_core",
+      "name_ja": "目標再関与",
+      "name_en": "Goal Reengagement",
+      "category": "Motivation Core",
+      "attribute": "Persistence and Regulation",
+      "definition_ja": "目標再関与は、代替目標へ再び努力を向ける過程を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:持続と調整",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "持続と調整"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "目標再関与と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000058_goal_disengagement.yml",
+      "id": "MOT-000058",
+      "knowledge_type": "motivation_core",
+      "name_ja": "目標離脱",
+      "name_en": "Goal Disengagement",
+      "category": "Motivation Core",
+      "attribute": "Persistence and Regulation",
+      "definition_ja": "目標離脱は、達成困難な目標から努力を引き上げる過程を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:持続と調整",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "持続と調整"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "目標離脱と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000059_recovery_motivation.yml",
+      "id": "MOT-000059",
+      "knowledge_type": "motivation_core",
+      "name_ja": "回復動機",
+      "name_en": "Recovery Motivation",
+      "category": "Motivation Core",
+      "attribute": "Persistence and Regulation",
+      "definition_ja": "回復動機は、低下した活動や状態を戻そうとする力を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:持続と調整",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "持続と調整"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "回復動機と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000060_habit_support.yml",
+      "id": "MOT-000060",
+      "knowledge_type": "motivation_core",
+      "name_ja": "習慣支援動機",
+      "name_en": "Habit Support",
+      "category": "Motivation Core",
+      "attribute": "Persistence and Regulation",
+      "definition_ja": "習慣支援動機は、反復しやすい条件によって継続を支える作用を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:持続と調整",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "持続と調整"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "習慣支援動機と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000061_affiliation_motivation.yml",
+      "id": "MOT-000061",
+      "knowledge_type": "motivation_core",
+      "name_ja": "親和動機",
+      "name_en": "Affiliation Motivation",
+      "category": "Motivation Core",
+      "attribute": "Social Motives",
+      "definition_ja": "親和動機は、他者と良好な関係を持とうとする力を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:社会的動機",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "社会的動機"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "親和動機と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000062_belonging_motivation.yml",
+      "id": "MOT-000062",
+      "knowledge_type": "motivation_core",
+      "name_ja": "所属動機",
+      "name_en": "Belonging Motivation",
+      "category": "Motivation Core",
+      "attribute": "Social Motives",
+      "definition_ja": "所属動機は、集団の一員として受容されようとする力を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:社会的動機",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "社会的動機"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "所属動機と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000063_approval_motivation.yml",
+      "id": "MOT-000063",
+      "knowledge_type": "motivation_core",
+      "name_ja": "承認動機",
+      "name_en": "Approval Motivation",
+      "category": "Motivation Core",
+      "attribute": "Social Motives",
+      "definition_ja": "承認動機は、他者から肯定的評価を得ようとする力を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:社会的動機",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "社会的動機"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "承認動機と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000064_status_motivation.yml",
+      "id": "MOT-000064",
+      "knowledge_type": "motivation_core",
+      "name_ja": "地位動機",
+      "name_en": "Status Motivation",
+      "category": "Motivation Core",
+      "attribute": "Social Motives",
+      "definition_ja": "地位動機は、集団内の地位や影響力を高めようとする力を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:社会的動機",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "社会的動機"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "地位動機と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000065_power_motivation.yml",
+      "id": "MOT-000065",
+      "knowledge_type": "motivation_core",
+      "name_ja": "権力動機",
+      "name_en": "Power Motivation",
+      "category": "Motivation Core",
+      "attribute": "Social Motives",
+      "definition_ja": "権力動機は、他者や結果へ影響を及ぼそうとする力を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:社会的動機",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "社会的動機"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "権力動機と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000066_dominance_motivation.yml",
+      "id": "MOT-000066",
+      "knowledge_type": "motivation_core",
+      "name_ja": "優位動機",
+      "name_en": "Dominance Motivation",
+      "category": "Motivation Core",
+      "attribute": "Social Motives",
+      "definition_ja": "優位動機は、相対的な主導権を得ようとする力を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:社会的動機",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "社会的動機"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "優位動機と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000067_care_motivation.yml",
+      "id": "MOT-000067",
+      "knowledge_type": "motivation_core",
+      "name_ja": "ケア動機",
+      "name_en": "Care Motivation",
+      "category": "Motivation Core",
+      "attribute": "Social Motives",
+      "definition_ja": "ケア動機は、他者を守り支援しようとする力を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:社会的動機",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "社会的動機"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "ケア動機と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000068_altruistic_motivation.yml",
+      "id": "MOT-000068",
+      "knowledge_type": "motivation_core",
+      "name_ja": "利他的動機",
+      "name_en": "Altruistic Motivation",
+      "category": "Motivation Core",
+      "attribute": "Social Motives",
+      "definition_ja": "利他的動機は、自分の直接利益を越えて他者へ貢献する力を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:社会的動機",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "社会的動機"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "利他的動機と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000069_reciprocity_motivation.yml",
+      "id": "MOT-000069",
+      "knowledge_type": "motivation_core",
+      "name_ja": "互恵動機",
+      "name_en": "Reciprocity Motivation",
+      "category": "Motivation Core",
+      "attribute": "Social Motives",
+      "definition_ja": "互恵動機は、受けた行為へ応え交換関係を保とうとする力を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:社会的動機",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "社会的動機"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "互恵動機と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000070_recognition_motivation.yml",
+      "id": "MOT-000070",
+      "knowledge_type": "motivation_core",
+      "name_ja": "認知獲得動機",
+      "name_en": "Recognition Motivation",
+      "category": "Motivation Core",
+      "attribute": "Social Motives",
+      "definition_ja": "認知獲得動機は、成果や存在を他者に認められようとする力を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:社会的動機",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "社会的動機"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "認知獲得動機と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000071_value_congruence.yml",
+      "id": "MOT-000071",
+      "knowledge_type": "motivation_core",
+      "name_ja": "価値整合",
+      "name_en": "Value Congruence",
+      "category": "Motivation Core",
+      "attribute": "Values and Meaning",
+      "definition_ja": "価値整合は、行動と本人の価値観が一致する度合いを表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:価値と意味",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "価値と意味"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "価値整合と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000072_meaning_motivation.yml",
+      "id": "MOT-000072",
+      "knowledge_type": "motivation_core",
+      "name_ja": "意味動機",
+      "name_en": "Meaning Motivation",
+      "category": "Motivation Core",
+      "attribute": "Values and Meaning",
+      "definition_ja": "意味動機は、活動に意味や一貫性を見いだそうとする力を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:価値と意味",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "価値と意味"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "意味動機と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000073_purpose_motivation.yml",
+      "id": "MOT-000073",
+      "knowledge_type": "motivation_core",
+      "name_ja": "目的動機",
+      "name_en": "Purpose Motivation",
+      "category": "Motivation Core",
+      "attribute": "Values and Meaning",
+      "definition_ja": "目的動機は、長期的な目的へ行動を結びつける力を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:価値と意味",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "価値と意味"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "目的動機と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000074_identity_motivation.yml",
+      "id": "MOT-000074",
+      "knowledge_type": "motivation_core",
+      "name_ja": "同一性動機",
+      "name_en": "Identity Motivation",
+      "category": "Motivation Core",
+      "attribute": "Values and Meaning",
+      "definition_ja": "同一性動機は、自己像と整合する行動を選ぼうとする力を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:価値と意味",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "価値と意味"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "同一性動機と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000075_moral_motivation.yml",
+      "id": "MOT-000075",
+      "knowledge_type": "motivation_core",
+      "name_ja": "道徳的動機",
+      "name_en": "Moral Motivation",
+      "category": "Motivation Core",
+      "attribute": "Values and Meaning",
+      "definition_ja": "道徳的動機は、倫理的基準に沿って行動しようとする力を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:価値と意味",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "価値と意味"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "道徳的動機と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000076_growth_motivation.yml",
+      "id": "MOT-000076",
+      "knowledge_type": "motivation_core",
+      "name_ja": "成長動機",
+      "name_en": "Growth Motivation",
+      "category": "Motivation Core",
+      "attribute": "Values and Meaning",
+      "definition_ja": "成長動機は、能力や理解を広げようとする力を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:価値と意味",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "価値と意味"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "成長動機と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000077_security_motivation.yml",
+      "id": "MOT-000077",
+      "knowledge_type": "motivation_core",
+      "name_ja": "安全動機",
+      "name_en": "Security Motivation",
+      "category": "Motivation Core",
+      "attribute": "Values and Meaning",
+      "definition_ja": "安全動機は、安定と予測可能性を確保しようとする力を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:価値と意味",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "価値と意味"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "安全動機と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000078_novelty_motivation.yml",
+      "id": "MOT-000078",
+      "knowledge_type": "motivation_core",
+      "name_ja": "新奇動機",
+      "name_en": "Novelty Motivation",
+      "category": "Motivation Core",
+      "attribute": "Values and Meaning",
+      "definition_ja": "新奇動機は、新しい刺激や経験を求めようとする力を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:価値と意味",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "価値と意味"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "新奇動機と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000079_stability_motivation.yml",
+      "id": "MOT-000079",
+      "knowledge_type": "motivation_core",
+      "name_ja": "安定維持動機",
+      "name_en": "Stability Motivation",
+      "category": "Motivation Core",
+      "attribute": "Values and Meaning",
+      "definition_ja": "安定維持動機は、現在の秩序や状態を保とうとする力を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:価値と意味",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "価値と意味"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "安定維持動機と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000080_contribution_motivation.yml",
+      "id": "MOT-000080",
+      "knowledge_type": "motivation_core",
+      "name_ja": "貢献動機",
+      "name_en": "Contribution Motivation",
+      "category": "Motivation Core",
+      "attribute": "Values and Meaning",
+      "definition_ja": "貢献動機は、他者や共同体へ価値を提供しようとする力を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:価値と意味",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "価値と意味"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "貢献動機と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000081_context_dependent_motivation.yml",
+      "id": "MOT-000081",
+      "knowledge_type": "motivation_core",
+      "name_ja": "文脈依存動機",
+      "name_en": "Context Dependent Motivation",
+      "category": "Motivation Core",
+      "attribute": "Context and Dynamics",
+      "definition_ja": "文脈依存動機は、状況や課題に応じて変わる動機を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:文脈と変動",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "文脈と変動"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "文脈依存動機と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000082_state_motivation.yml",
+      "id": "MOT-000082",
+      "knowledge_type": "motivation_core",
+      "name_ja": "状態動機",
+      "name_en": "State Motivation",
+      "category": "Motivation Core",
+      "attribute": "Context and Dynamics",
+      "definition_ja": "状態動機は、短期的な状況によって生じる動機状態を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:文脈と変動",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "文脈と変動"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "状態動機と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000083_trait_motivation.yml",
+      "id": "MOT-000083",
+      "knowledge_type": "motivation_core",
+      "name_ja": "特性的動機",
+      "name_en": "Trait Motivation",
+      "category": "Motivation Core",
+      "attribute": "Context and Dynamics",
+      "definition_ja": "特性的動機は、複数場面で比較的安定して現れる動機傾向を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:文脈と変動",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "文脈と変動"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "特性的動機と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000084_motivational_intensity.yml",
+      "id": "MOT-000084",
+      "knowledge_type": "motivation_core",
+      "name_ja": "動機強度",
+      "name_en": "Motivational Intensity",
+      "category": "Motivation Core",
+      "attribute": "Context and Dynamics",
+      "definition_ja": "動機強度は、行動を駆動する力の強さを表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:文脈と変動",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "文脈と変動"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "動機強度と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000085_motivational_conflict.yml",
+      "id": "MOT-000085",
+      "knowledge_type": "motivation_core",
+      "name_ja": "動機葛藤",
+      "name_en": "Motivational Conflict",
+      "category": "Motivation Core",
+      "attribute": "Context and Dynamics",
+      "definition_ja": "動機葛藤は、複数の動機が競合する状態を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:文脈と変動",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "文脈と変動"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "動機葛藤と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000086_motivational_ambivalence.yml",
+      "id": "MOT-000086",
+      "knowledge_type": "motivation_core",
+      "name_ja": "動機的両価性",
+      "name_en": "Motivational Ambivalence",
+      "category": "Motivation Core",
+      "attribute": "Context and Dynamics",
+      "definition_ja": "動機的両価性は、接近と回避が同時に存在する状態を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:文脈と変動",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "文脈と変動"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "動機的両価性と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000087_motivational_fatigue.yml",
+      "id": "MOT-000087",
+      "knowledge_type": "motivation_core",
+      "name_ja": "動機疲労",
+      "name_en": "Motivational Fatigue",
+      "category": "Motivation Core",
+      "attribute": "Context and Dynamics",
+      "definition_ja": "動機疲労は、継続負荷によって意欲が低下した状態を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:文脈と変動",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "文脈と変動"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "動機疲労と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000088_motivational_recovery.yml",
+      "id": "MOT-000088",
+      "knowledge_type": "motivation_core",
+      "name_ja": "動機回復",
+      "name_en": "Motivational Recovery",
+      "category": "Motivation Core",
+      "attribute": "Context and Dynamics",
+      "definition_ja": "動機回復は、低下した意欲が再び戻る過程を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:文脈と変動",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "文脈と変動"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "動機回復と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000089_environmental_motivation_support.yml",
+      "id": "MOT-000089",
+      "knowledge_type": "motivation_core",
+      "name_ja": "環境的動機支援",
+      "name_en": "Environmental Motivation Support",
+      "category": "Motivation Core",
+      "attribute": "Context and Dynamics",
+      "definition_ja": "環境的動機支援は、環境条件が自発性や継続を支える作用を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:文脈と変動",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "文脈と変動"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "環境的動機支援と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000090_barrier_sensitivity.yml",
+      "id": "MOT-000090",
+      "knowledge_type": "motivation_core",
+      "name_ja": "障壁感受性",
+      "name_en": "Barrier Sensitivity",
+      "category": "Motivation Core",
+      "attribute": "Context and Dynamics",
+      "definition_ja": "障壁感受性は、手間や困難によって意欲が低下する度合いを表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:文脈と変動",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "文脈と変動"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "障壁感受性と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000091_choice_preference_signal.yml",
+      "id": "MOT-000091",
+      "knowledge_type": "motivation_core",
+      "name_ja": "選択選好シグナル",
+      "name_en": "Choice Preference Signal",
+      "category": "Motivation Core",
+      "attribute": "Observation and Integration",
+      "definition_ja": "選択選好シグナルは、反復選択から動機候補を捉える観測概念を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:観測と統合",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "観測と統合"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "選択選好シグナルと整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000092_effort_investment_signal.yml",
+      "id": "MOT-000092",
+      "knowledge_type": "motivation_core",
+      "name_ja": "努力投入シグナル",
+      "name_en": "Effort Investment Signal",
+      "category": "Motivation Core",
+      "attribute": "Observation and Integration",
+      "definition_ja": "努力投入シグナルは、投入時間や試行量から動機候補を捉える観測概念を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:観測と統合",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "観測と統合"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "努力投入シグナルと整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000093_persistence_signal.yml",
+      "id": "MOT-000093",
+      "knowledge_type": "motivation_core",
+      "name_ja": "持続シグナル",
+      "name_en": "Persistence Signal",
+      "category": "Motivation Core",
+      "attribute": "Observation and Integration",
+      "definition_ja": "持続シグナルは、継続期間や中断耐性から動機候補を捉える観測概念を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:観測と統合",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "観測と統合"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "持続シグナルと整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000094_retry_signal.yml",
+      "id": "MOT-000094",
+      "knowledge_type": "motivation_core",
+      "name_ja": "再試行シグナル",
+      "name_en": "Retry Signal",
+      "category": "Motivation Core",
+      "attribute": "Observation and Integration",
+      "definition_ja": "再試行シグナルは、失敗後の再試行から動機候補を捉える観測概念を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:観測と統合",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "観測と統合"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "再試行シグナルと整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000095_abandonment_signal.yml",
+      "id": "MOT-000095",
+      "knowledge_type": "motivation_core",
+      "name_ja": "離脱シグナル",
+      "name_en": "Abandonment Signal",
+      "category": "Motivation Core",
+      "attribute": "Observation and Integration",
+      "definition_ja": "離脱シグナルは、中断や放棄の文脈から動機候補を捉える観測概念を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:観測と統合",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "観測と統合"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "離脱シグナルと整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000096_optional_engagement_signal.yml",
+      "id": "MOT-000096",
+      "knowledge_type": "motivation_core",
+      "name_ja": "任意参加シグナル",
+      "name_en": "Optional Engagement Signal",
+      "category": "Motivation Core",
+      "attribute": "Observation and Integration",
+      "definition_ja": "任意参加シグナルは、強制されない参加から自発性候補を捉える観測概念を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:観測と統合",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "観測と統合"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "任意参加シグナルと整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000097_reward_response_signal.yml",
+      "id": "MOT-000097",
+      "knowledge_type": "motivation_core",
+      "name_ja": "報酬反応シグナル",
+      "name_en": "Reward Response Signal",
+      "category": "Motivation Core",
+      "attribute": "Observation and Integration",
+      "definition_ja": "報酬反応シグナルは、報酬前後の行動差から動機候補を捉える観測概念を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:観測と統合",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "観測と統合"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "報酬反応シグナルと整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000098_difficulty_response_signal.yml",
+      "id": "MOT-000098",
+      "knowledge_type": "motivation_core",
+      "name_ja": "難度反応シグナル",
+      "name_en": "Difficulty Response Signal",
+      "category": "Motivation Core",
+      "attribute": "Observation and Integration",
+      "definition_ja": "難度反応シグナルは、難度変化への反応から動機候補を捉える観測概念を表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:観測と統合",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "観測と統合"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "難度反応シグナルと整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000099_motivation_profile.yml",
+      "id": "MOT-000099",
+      "knowledge_type": "motivation_core",
+      "name_ja": "動機プロファイル",
+      "name_en": "Motivation Profile",
+      "category": "Motivation Core",
+      "attribute": "Observation and Integration",
+      "definition_ja": "動機プロファイルは、複数の動機候補を文脈別に整理する枠組みを表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:観測と統合",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "観測と統合"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "動機プロファイルと整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "MOT-000100_motivation_core_integration.yml",
+      "id": "MOT-000100",
+      "knowledge_type": "motivation_core",
+      "name_ja": "動機コア統合",
+      "name_en": "Motivation Core Integration",
+      "category": "Motivation Core",
+      "attribute": "Observation and Integration",
+      "definition_ja": "動機コア統合は、動機・観測・補正・根拠を安全に接続する枠組みを表す動機づけ概念。単独で人格や特性を断定しない。",
+      "tags": [
+        "CAT:動機づけ",
+        "CAT:観測と統合",
+        "ATTR:動機要因"
+      ],
+      "parent": [
+        "観測と統合"
+      ],
+      "related": [
+        "行動観測",
+        "目標選択",
+        "文脈依存性"
+      ],
+      "observable_data": [
+        "選択頻度",
+        "開始までの時間",
+        "努力投入量",
+        "継続と離脱の推移"
+      ],
+      "signal_candidates": [
+        "動機コア統合と整合する選択や努力が複数場面で観測される",
+        "報酬・難度・時間制約の変化に伴って行動量が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の行動ログから観測可能",
+      "modifiers": [
+        "疲労",
+        "睡眠",
+        "ストレス",
+        "報酬設計",
+        "課題難度",
+        "社会的文脈"
+      ],
+      "evidence": "動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照",
+      "status": "active"
+    }
+  ]
+}

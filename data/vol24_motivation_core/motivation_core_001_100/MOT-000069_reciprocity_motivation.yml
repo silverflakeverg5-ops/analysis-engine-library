@@ -1,0 +1,35 @@
+id: MOT-000069
+knowledge_type: motivation_core
+name_ja: 互恵動機
+name_en: Reciprocity Motivation
+category: Motivation Core
+attribute: Social Motives
+definition_ja: 互恵動機は、受けた行為へ応え交換関係を保とうとする力を表す動機づけ概念。単独で人格や特性を断定しない。
+tags:
+  - CAT:動機づけ
+  - CAT:社会的動機
+  - ATTR:動機要因
+parent:
+  - 社会的動機
+related:
+  - 行動観測
+  - 目標選択
+  - 文脈依存性
+observable_data:
+  - 選択頻度
+  - 開始までの時間
+  - 努力投入量
+  - 継続と離脱の推移
+signal_candidates:
+  - 互恵動機と整合する選択や努力が複数場面で観測される
+  - 報酬・難度・時間制約の変化に伴って行動量が変化する
+device_level: スマートフォン・PC・ゲーム機の行動ログから観測可能
+modifiers:
+  - 疲労
+  - 睡眠
+  - ストレス
+  - 報酬設計
+  - 課題難度
+  - 社会的文脈
+evidence: 動機づけ心理学・自己決定理論・目標理論・行動科学の研究を参照
+status: active

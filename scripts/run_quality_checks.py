@@ -1,21 +1,33 @@
 import subprocess
 import sys
-from pathlib import Path
 
-SCRIPTS = [
-    "scripts/run_all_audits.py",
-    "scripts/library_stats.py",
+CHECKS = [
+    ("all data audits", [sys.executable, "scripts/run_all_audits.py"]),
+    ("library statistics", [sys.executable, "scripts/library_stats.py"]),
+    (
+        "runtime safety contract",
+        [sys.executable, "-B", "scripts/audit_runtime_safety.py"],
+    ),
+    (
+        "runtime API compatibility contract",
+        [sys.executable, "-B", "scripts/audit_runtime_contract.py"],
+    ),
+    (
+        "read-only runtime tests",
+        [sys.executable, "-B", "-m", "unittest", "discover", "-s", "tests", "-v"],
+    ),
 ]
 
-def run(script):
+
+def run(label, command):
     print(f"\n{'=' * 70}")
-    print(f"Running: {script}")
+    print(f"Running: {label}")
     print(f"{'=' * 70}")
 
-    result = subprocess.run([sys.executable, script])
+    result = subprocess.run(command)
 
     if result.returncode != 0:
-        print(f"\nFAILED: {script}")
+        print(f"\nFAILED: {label}")
         return False
 
     return True
@@ -24,21 +36,16 @@ def run(script):
 def main():
     failed = []
 
-    for script in SCRIPTS:
-        if not Path(script).exists():
-            print(f"Missing: {script}")
-            failed.append(script)
-            continue
-
-        if not run(script):
-            failed.append(script)
+    for label, command in CHECKS:
+        if not run(label, command):
+            failed.append(label)
 
     print("\n")
     print("=" * 70)
     print("QUALITY CHECK SUMMARY")
     print("=" * 70)
 
-    print(f"Scripts : {len(SCRIPTS)}")
+    print(f"Checks  : {len(CHECKS)}")
     print(f"Failed  : {len(failed)}")
 
     if failed:

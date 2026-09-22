@@ -1,0 +1,37 @@
+id: DEV-000089
+knowledge_type: development_core
+name_ja: レガシー志向
+name_en: Legacy Orientation
+category: Development and Life Stage
+attribute: Later Life and Aging Context
+definition_ja: レガシー志向は、知識・作品・関係・価値を将来へ残すことに関わる過程を表す生涯発達概念。年齢や段階だけから能力・成熟度・人格を断定しない。
+tags:
+  - CAT:発達・ライフステージ
+  - CAT:加齢と後期生活文脈
+  - ATTR:発達文脈
+parent:
+  - 加齢と後期生活文脈
+related:
+  - 生涯発達
+  - 生活文脈
+  - 時系列観測
+observable_data:
+  - 本人同意に基づく複数時点の行動記録
+  - 明示回答された役割・目標・生活変化
+  - 学習・支援利用・成果の時系列
+  - 本人が選択した振り返り記録
+signal_candidates:
+  - レガシー志向と整合する変化または安定が複数時点で観測される
+  - 環境・機会・文化・健康・役割の変化に伴って行動パターンが変化する
+device_level: 同意済みの縦断イベントログと明示的な自己申告から観測し、行動ログだけで年齢や発達段階を推定しない
+modifiers:
+  - 文化・地域
+  - 教育・経験機会
+  - 社会経済的資源
+  - 健康・障害・神経多様性
+  - 家族・支援関係
+  - 生活役割
+  - コホート・時代
+  - 重大な生活変化
+evidence: 生涯発達心理学・教育心理学・社会心理学・老年学・ライフコース研究・HCI研究を参照
+status: active

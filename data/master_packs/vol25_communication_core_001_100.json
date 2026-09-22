@@ -1,0 +1,4507 @@
+{
+  "output_dir": "vol25_communication_core/communication_core_001_100",
+  "index_filename": "communication_core_001_100_index.yml",
+  "index_content": "category: Communication Core\nname_ja: コミュニケーションコア\nitems:\n  - COM-000001_communication.yml\n  - COM-000002_message.yml\n  - COM-000003_sender_role.yml\n  - COM-000004_receiver_role.yml\n  - COM-000005_communication_channel.yml\n  - COM-000006_communication_feedback.yml\n  - COM-000007_communication_context.yml\n  - COM-000008_communication_noise.yml\n  - COM-000009_shared_meaning.yml\n  - COM-000010_communication_goal.yml\n  - COM-000011_verbal_expression.yml\n  - COM-000012_lexical_choice.yml\n  - COM-000013_sentence_complexity.yml\n  - COM-000014_explanation_style.yml\n  - COM-000015_narrative_expression.yml\n  - COM-000016_question_asking.yml\n  - COM-000017_assertive_expression.yml\n  - COM-000018_self_disclosure.yml\n  - COM-000019_hedging_expression.yml\n  - COM-000020_clarification_request.yml\n  - COM-000021_active_listening.yml\n  - COM-000022_response_latency.yml\n  - COM-000023_acknowledgment_response.yml\n  - COM-000024_paraphrasing.yml\n  - COM-000025_follow_up_question.yml\n  - COM-000026_comprehension_monitoring.yml\n  - COM-000027_ambiguity_detection.yml\n  - COM-000028_turn_taking.yml\n  - COM-000029_interruption_behavior.yml\n  - COM-000030_communicative_silence.yml\n  - COM-000031_communication_directness.yml\n  - COM-000032_communication_indirectness.yml\n  - COM-000033_formality.yml\n  - COM-000034_informality.yml\n  - COM-000035_communicative_warmth.yml\n  - COM-000036_politeness.yml\n  - COM-000037_communicative_assertiveness.yml\n  - COM-000038_responsiveness.yml\n  - COM-000039_expressiveness.yml\n  - COM-000040_communicative_reserve.yml\n  - COM-000041_empathic_expression.yml\n  - COM-000042_validation_response.yml\n  - COM-000043_emotion_labeling.yml\n  - COM-000044_emotional_disclosure.yml\n  - COM-000045_emotional_withholding.yml\n  - COM-000046_humor_use.yml\n  - COM-000047_sarcasm_use.yml\n  - COM-000048_praise_expression.yml\n  - COM-000049_apology_expression.yml\n  - COM-000050_gratitude_expression.yml\n  - COM-000051_disagreement_expression.yml\n  - COM-000052_communication_conflict_avoidance.yml\n  - COM-000053_confrontation.yml\n  - COM-000054_verbal_de_escalation.yml\n  - COM-000055_conversation_repair.yml\n  - COM-000056_negotiation_communication.yml\n  - COM-000057_compromise_expression.yml\n  - COM-000058_boundary_setting.yml\n  - COM-000059_criticism_response.yml\n  - COM-000060_defensive_communication.yml\n  - COM-000061_leadership_communication.yml\n  - COM-000062_followership_communication.yml\n  - COM-000063_coordination_communication.yml\n  - COM-000064_inclusive_communication.yml\n  - COM-000065_dominant_communication.yml\n  - COM-000066_deferential_communication.yml\n  - COM-000067_status_signaling.yml\n  - COM-000068_consensus_seeking.yml\n  - COM-000069_constructive_dissent.yml\n  - COM-000070_discussion_facilitation.yml\n  - COM-000071_text_brevity.yml\n  - COM-000072_emoji_use.yml\n  - COM-000073_digital_response_timing.yml\n  - COM-000074_message_frequency.yml\n  - COM-000075_message_fragmentation.yml\n  - COM-000076_message_editing.yml\n  - COM-000077_read_receipt_sensitivity.yml\n  - COM-000078_channel_switching.yml\n  - COM-000079_notification_response.yml\n  - COM-000080_online_disinhibition.yml\n  - COM-000081_high_context_communication.yml\n  - COM-000082_low_context_communication.yml\n  - COM-000083_code_switching.yml\n  - COM-000084_audience_adaptation.yml\n  - COM-000085_cultural_politeness.yml\n  - COM-000086_language_proficiency_context.yml\n  - COM-000087_power_distance_communication.yml\n  - COM-000088_public_private_communication.yml\n  - COM-000089_synchronous_communication.yml\n  - COM-000090_asynchronous_communication.yml\n  - COM-000091_speaking_share_signal.yml\n  - COM-000092_turn_latency_signal.yml\n  - COM-000093_question_ratio_signal.yml\n  - COM-000094_repair_rate_signal.yml\n  - COM-000095_tone_shift_signal.yml\n  - COM-000096_topic_persistence_signal.yml\n  - COM-000097_communication_reciprocity_signal.yml\n  - COM-000098_communication_profile.yml\n  - COM-000099_communication_context_mapping.yml\n  - COM-000100_communication_core_integration.yml\nnotes:\n  - コミュニケーションコアは観測材料であり、人格や能力を単独で断定しない\n  - 相手・文化・媒体・目的・時間帯による変化をModifierで補正する\n  - 私的会話や機微情報は同意・最小化・保持期間をアプリ側で管理する\n",
+  "items": [
+    {
+      "filename": "COM-000001_communication.yml",
+      "id": "COM-000001",
+      "knowledge_type": "communication_core",
+      "name_ja": "コミュニケーション",
+      "name_en": "Communication",
+      "category": "Communication Core",
+      "attribute": "Foundations",
+      "definition_ja": "コミュニケーションは、情報や意味を相互に伝え調整する過程を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:基礎",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "コミュニケーションと整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000002_message.yml",
+      "id": "COM-000002",
+      "knowledge_type": "communication_core",
+      "name_ja": "メッセージ",
+      "name_en": "Message",
+      "category": "Communication Core",
+      "attribute": "Foundations",
+      "definition_ja": "メッセージは、伝達される内容と意図のまとまりを表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:基礎",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "メッセージと整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000003_sender_role.yml",
+      "id": "COM-000003",
+      "knowledge_type": "communication_core",
+      "name_ja": "送信者役割",
+      "name_en": "Sender Role",
+      "category": "Communication Core",
+      "attribute": "Foundations",
+      "definition_ja": "送信者役割は、情報を表現して届ける側の機能を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:基礎",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "送信者役割と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000004_receiver_role.yml",
+      "id": "COM-000004",
+      "knowledge_type": "communication_core",
+      "name_ja": "受信者役割",
+      "name_en": "Receiver Role",
+      "category": "Communication Core",
+      "attribute": "Foundations",
+      "definition_ja": "受信者役割は、情報を受け取り解釈する側の機能を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:基礎",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "受信者役割と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000005_communication_channel.yml",
+      "id": "COM-000005",
+      "knowledge_type": "communication_core",
+      "name_ja": "伝達チャネル",
+      "name_en": "Communication Channel",
+      "category": "Communication Core",
+      "attribute": "Foundations",
+      "definition_ja": "伝達チャネルは、対面・音声・文字など伝達に使う経路を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:基礎",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "伝達チャネルと整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000006_communication_feedback.yml",
+      "id": "COM-000006",
+      "knowledge_type": "communication_core",
+      "name_ja": "伝達フィードバック",
+      "name_en": "Communication Feedback",
+      "category": "Communication Core",
+      "attribute": "Foundations",
+      "definition_ja": "伝達フィードバックは、理解や反応を相手へ返す過程を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:基礎",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "伝達フィードバックと整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000007_communication_context.yml",
+      "id": "COM-000007",
+      "knowledge_type": "communication_core",
+      "name_ja": "伝達文脈",
+      "name_en": "Communication Context",
+      "category": "Communication Core",
+      "attribute": "Foundations",
+      "definition_ja": "伝達文脈は、意味の解釈に影響する状況や関係を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:基礎",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "伝達文脈と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000008_communication_noise.yml",
+      "id": "COM-000008",
+      "knowledge_type": "communication_core",
+      "name_ja": "伝達ノイズ",
+      "name_en": "Communication Noise",
+      "category": "Communication Core",
+      "attribute": "Foundations",
+      "definition_ja": "伝達ノイズは、送受信や理解を妨げる要因を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:基礎",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "伝達ノイズと整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000009_shared_meaning.yml",
+      "id": "COM-000009",
+      "knowledge_type": "communication_core",
+      "name_ja": "共有意味",
+      "name_en": "Shared Meaning",
+      "category": "Communication Core",
+      "attribute": "Foundations",
+      "definition_ja": "共有意味は、参加者間で意味理解がそろった状態を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:基礎",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "共有意味と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000010_communication_goal.yml",
+      "id": "COM-000010",
+      "knowledge_type": "communication_core",
+      "name_ja": "伝達目標",
+      "name_en": "Communication Goal",
+      "category": "Communication Core",
+      "attribute": "Foundations",
+      "definition_ja": "伝達目標は、会話や表現によって達成したい結果を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:基礎",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "伝達目標と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000011_verbal_expression.yml",
+      "id": "COM-000011",
+      "knowledge_type": "communication_core",
+      "name_ja": "言語表現",
+      "name_en": "Verbal Expression",
+      "category": "Communication Core",
+      "attribute": "Expression",
+      "definition_ja": "言語表現は、言葉を用いて内容や意図を表す行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:表現",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "表現"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "言語表現と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000012_lexical_choice.yml",
+      "id": "COM-000012",
+      "knowledge_type": "communication_core",
+      "name_ja": "語彙選択",
+      "name_en": "Lexical Choice",
+      "category": "Communication Core",
+      "attribute": "Expression",
+      "definition_ja": "語彙選択は、目的や相手に応じて言葉を選ぶ過程を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:表現",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "表現"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "語彙選択と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000013_sentence_complexity.yml",
+      "id": "COM-000013",
+      "knowledge_type": "communication_core",
+      "name_ja": "文複雑性",
+      "name_en": "Sentence Complexity",
+      "category": "Communication Core",
+      "attribute": "Expression",
+      "definition_ja": "文複雑性は、文の長さや構造が持つ複雑さを表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:表現",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "表現"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "文複雑性と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000014_explanation_style.yml",
+      "id": "COM-000014",
+      "knowledge_type": "communication_core",
+      "name_ja": "説明スタイル",
+      "name_en": "Explanation Style",
+      "category": "Communication Core",
+      "attribute": "Expression",
+      "definition_ja": "説明スタイルは、情報を順序づけて説明する方法を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:表現",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "表現"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "説明スタイルと整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000015_narrative_expression.yml",
+      "id": "COM-000015",
+      "knowledge_type": "communication_core",
+      "name_ja": "物語的表現",
+      "name_en": "Narrative Expression",
+      "category": "Communication Core",
+      "attribute": "Expression",
+      "definition_ja": "物語的表現は、出来事を時間や因果の流れで伝える方法を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:表現",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "表現"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "物語的表現と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000016_question_asking.yml",
+      "id": "COM-000016",
+      "knowledge_type": "communication_core",
+      "name_ja": "質問行動",
+      "name_en": "Question Asking",
+      "category": "Communication Core",
+      "attribute": "Expression",
+      "definition_ja": "質問行動は、不足情報や相手の考えを尋ねる行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:表現",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "表現"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "質問行動と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000017_assertive_expression.yml",
+      "id": "COM-000017",
+      "knowledge_type": "communication_core",
+      "name_ja": "主張表現",
+      "name_en": "Assertive Expression",
+      "category": "Communication Core",
+      "attribute": "Expression",
+      "definition_ja": "主張表現は、自分の意見や必要を明確に伝える行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:表現",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "表現"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "主張表現と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000018_self_disclosure.yml",
+      "id": "COM-000018",
+      "knowledge_type": "communication_core",
+      "name_ja": "自己開示",
+      "name_en": "Self Disclosure",
+      "category": "Communication Core",
+      "attribute": "Expression",
+      "definition_ja": "自己開示は、自分の経験や考えを相手へ伝える行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:表現",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "表現"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "自己開示と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000019_hedging_expression.yml",
+      "id": "COM-000019",
+      "knowledge_type": "communication_core",
+      "name_ja": "婉曲表現",
+      "name_en": "Hedging Expression",
+      "category": "Communication Core",
+      "attribute": "Expression",
+      "definition_ja": "婉曲表現は、断定を弱め不確実性や配慮を示す表現を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:表現",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "表現"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "婉曲表現と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000020_clarification_request.yml",
+      "id": "COM-000020",
+      "knowledge_type": "communication_core",
+      "name_ja": "明確化要求",
+      "name_en": "Clarification Request",
+      "category": "Communication Core",
+      "attribute": "Expression",
+      "definition_ja": "明確化要求は、曖昧な内容を確認し直す行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:表現",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "表現"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "明確化要求と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000021_active_listening.yml",
+      "id": "COM-000021",
+      "knowledge_type": "communication_core",
+      "name_ja": "積極的傾聴",
+      "name_en": "Active Listening",
+      "category": "Communication Core",
+      "attribute": "Listening and Response",
+      "definition_ja": "積極的傾聴は、注意を向け理解を示しながら聞く行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:傾聴と応答",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "傾聴と応答"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "積極的傾聴と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000022_response_latency.yml",
+      "id": "COM-000022",
+      "knowledge_type": "communication_core",
+      "name_ja": "応答潜時",
+      "name_en": "Response Latency",
+      "category": "Communication Core",
+      "attribute": "Listening and Response",
+      "definition_ja": "応答潜時は、発話やメッセージから返答までの時間を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:傾聴と応答",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "傾聴と応答"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "応答潜時と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000023_acknowledgment_response.yml",
+      "id": "COM-000023",
+      "knowledge_type": "communication_core",
+      "name_ja": "受領応答",
+      "name_en": "Acknowledgment Response",
+      "category": "Communication Core",
+      "attribute": "Listening and Response",
+      "definition_ja": "受領応答は、内容を受け取ったことを示す反応を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:傾聴と応答",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "傾聴と応答"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "受領応答と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000024_paraphrasing.yml",
+      "id": "COM-000024",
+      "knowledge_type": "communication_core",
+      "name_ja": "言い換え確認",
+      "name_en": "Paraphrasing",
+      "category": "Communication Core",
+      "attribute": "Listening and Response",
+      "definition_ja": "言い換え確認は、相手の内容を別の言葉で確かめる行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:傾聴と応答",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "傾聴と応答"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "言い換え確認と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000025_follow_up_question.yml",
+      "id": "COM-000025",
+      "knowledge_type": "communication_core",
+      "name_ja": "追質問",
+      "name_en": "Follow Up Question",
+      "category": "Communication Core",
+      "attribute": "Listening and Response",
+      "definition_ja": "追質問は、相手の発言を受けて理解を深める質問を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:傾聴と応答",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "傾聴と応答"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "追質問と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000026_comprehension_monitoring.yml",
+      "id": "COM-000026",
+      "knowledge_type": "communication_core",
+      "name_ja": "理解モニタリング",
+      "name_en": "Comprehension Monitoring",
+      "category": "Communication Core",
+      "attribute": "Listening and Response",
+      "definition_ja": "理解モニタリングは、自分の理解状態を点検する過程を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:傾聴と応答",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "傾聴と応答"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "理解モニタリングと整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000027_ambiguity_detection.yml",
+      "id": "COM-000027",
+      "knowledge_type": "communication_core",
+      "name_ja": "曖昧性検出",
+      "name_en": "Ambiguity Detection",
+      "category": "Communication Core",
+      "attribute": "Listening and Response",
+      "definition_ja": "曖昧性検出は、複数解釈が可能な表現に気づく過程を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:傾聴と応答",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "傾聴と応答"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "曖昧性検出と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000028_turn_taking.yml",
+      "id": "COM-000028",
+      "knowledge_type": "communication_core",
+      "name_ja": "ターン交替",
+      "name_en": "Turn Taking",
+      "category": "Communication Core",
+      "attribute": "Listening and Response",
+      "definition_ja": "ターン交替は、発話順を相互に調整する行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:傾聴と応答",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "傾聴と応答"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "ターン交替と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000029_interruption_behavior.yml",
+      "id": "COM-000029",
+      "knowledge_type": "communication_core",
+      "name_ja": "割り込み行動",
+      "name_en": "Interruption Behavior",
+      "category": "Communication Core",
+      "attribute": "Listening and Response",
+      "definition_ja": "割り込み行動は、相手の発話完了前に発話を開始する行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:傾聴と応答",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "傾聴と応答"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "割り込み行動と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000030_communicative_silence.yml",
+      "id": "COM-000030",
+      "knowledge_type": "communication_core",
+      "name_ja": "会話内沈黙",
+      "name_en": "Communicative Silence",
+      "category": "Communication Core",
+      "attribute": "Listening and Response",
+      "definition_ja": "会話内沈黙は、応答や思考のために沈黙を用いる行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:傾聴と応答",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "傾聴と応答"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "会話内沈黙と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000031_communication_directness.yml",
+      "id": "COM-000031",
+      "knowledge_type": "communication_core",
+      "name_ja": "直接性",
+      "name_en": "Communication Directness",
+      "category": "Communication Core",
+      "attribute": "Interpersonal Style",
+      "definition_ja": "直接性は、意図や要求を明示的に伝える度合いを表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:対人スタイル",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "対人スタイル"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "直接性と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000032_communication_indirectness.yml",
+      "id": "COM-000032",
+      "knowledge_type": "communication_core",
+      "name_ja": "間接性",
+      "name_en": "Communication Indirectness",
+      "category": "Communication Core",
+      "attribute": "Interpersonal Style",
+      "definition_ja": "間接性は、含意や文脈を通じて伝える度合いを表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:対人スタイル",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "対人スタイル"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "間接性と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000033_formality.yml",
+      "id": "COM-000033",
+      "knowledge_type": "communication_core",
+      "name_ja": "形式性",
+      "name_en": "Formality",
+      "category": "Communication Core",
+      "attribute": "Interpersonal Style",
+      "definition_ja": "形式性は、規範的で改まった表現を用いる度合いを表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:対人スタイル",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "対人スタイル"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "形式性と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000034_informality.yml",
+      "id": "COM-000034",
+      "knowledge_type": "communication_core",
+      "name_ja": "非形式性",
+      "name_en": "Informality",
+      "category": "Communication Core",
+      "attribute": "Interpersonal Style",
+      "definition_ja": "非形式性は、親しみのあるくだけた表現を用いる度合いを表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:対人スタイル",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "対人スタイル"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "非形式性と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000035_communicative_warmth.yml",
+      "id": "COM-000035",
+      "knowledge_type": "communication_core",
+      "name_ja": "伝達的温かさ",
+      "name_en": "Communicative Warmth",
+      "category": "Communication Core",
+      "attribute": "Interpersonal Style",
+      "definition_ja": "伝達的温かさは、親しみや好意を表現に含める度合いを表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:対人スタイル",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "対人スタイル"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "伝達的温かさと整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000036_politeness.yml",
+      "id": "COM-000036",
+      "knowledge_type": "communication_core",
+      "name_ja": "丁寧さ",
+      "name_en": "Politeness",
+      "category": "Communication Core",
+      "attribute": "Interpersonal Style",
+      "definition_ja": "丁寧さは、相手の面子や境界へ配慮する表現を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:対人スタイル",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "対人スタイル"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "丁寧さと整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000037_communicative_assertiveness.yml",
+      "id": "COM-000037",
+      "knowledge_type": "communication_core",
+      "name_ja": "伝達的自己主張",
+      "name_en": "Communicative Assertiveness",
+      "category": "Communication Core",
+      "attribute": "Interpersonal Style",
+      "definition_ja": "伝達的自己主張は、相手を尊重しつつ自分の立場を示す度合いを表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:対人スタイル",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "対人スタイル"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "伝達的自己主張と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000038_responsiveness.yml",
+      "id": "COM-000038",
+      "knowledge_type": "communication_core",
+      "name_ja": "応答性",
+      "name_en": "Responsiveness",
+      "category": "Communication Core",
+      "attribute": "Interpersonal Style",
+      "definition_ja": "応答性は、相手の働きかけへ適切に反応する度合いを表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:対人スタイル",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "対人スタイル"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "応答性と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000039_expressiveness.yml",
+      "id": "COM-000039",
+      "knowledge_type": "communication_core",
+      "name_ja": "表出性",
+      "name_en": "Expressiveness",
+      "category": "Communication Core",
+      "attribute": "Interpersonal Style",
+      "definition_ja": "表出性は、感情や意図を外へ示す度合いを表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:対人スタイル",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "対人スタイル"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "表出性と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000040_communicative_reserve.yml",
+      "id": "COM-000040",
+      "knowledge_type": "communication_core",
+      "name_ja": "伝達的抑制",
+      "name_en": "Communicative Reserve",
+      "category": "Communication Core",
+      "attribute": "Interpersonal Style",
+      "definition_ja": "伝達的抑制は、発言や開示を控えめにする度合いを表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:対人スタイル",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "対人スタイル"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "伝達的抑制と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000041_empathic_expression.yml",
+      "id": "COM-000041",
+      "knowledge_type": "communication_core",
+      "name_ja": "共感表現",
+      "name_en": "Empathic Expression",
+      "category": "Communication Core",
+      "attribute": "Emotion and Rapport",
+      "definition_ja": "共感表現は、相手の視点や感情への理解を示す表現を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:感情と関係形成",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "感情と関係形成"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "共感表現と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000042_validation_response.yml",
+      "id": "COM-000042",
+      "knowledge_type": "communication_core",
+      "name_ja": "受容応答",
+      "name_en": "Validation Response",
+      "category": "Communication Core",
+      "attribute": "Emotion and Rapport",
+      "definition_ja": "受容応答は、相手の経験や感情を尊重して認める反応を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:感情と関係形成",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "感情と関係形成"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "受容応答と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000043_emotion_labeling.yml",
+      "id": "COM-000043",
+      "knowledge_type": "communication_core",
+      "name_ja": "感情ラベリング",
+      "name_en": "Emotion Labeling",
+      "category": "Communication Core",
+      "attribute": "Emotion and Rapport",
+      "definition_ja": "感情ラベリングは、感情状態を言葉で識別して表す行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:感情と関係形成",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "感情と関係形成"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "感情ラベリングと整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000044_emotional_disclosure.yml",
+      "id": "COM-000044",
+      "knowledge_type": "communication_core",
+      "name_ja": "感情開示",
+      "name_en": "Emotional Disclosure",
+      "category": "Communication Core",
+      "attribute": "Emotion and Rapport",
+      "definition_ja": "感情開示は、自分の感情を相手へ伝える行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:感情と関係形成",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "感情と関係形成"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "感情開示と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000045_emotional_withholding.yml",
+      "id": "COM-000045",
+      "knowledge_type": "communication_core",
+      "name_ja": "感情保留",
+      "name_en": "Emotional Withholding",
+      "category": "Communication Core",
+      "attribute": "Emotion and Rapport",
+      "definition_ja": "感情保留は、感情表現を意図的に控える行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:感情と関係形成",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "感情と関係形成"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "感情保留と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000046_humor_use.yml",
+      "id": "COM-000046",
+      "knowledge_type": "communication_core",
+      "name_ja": "ユーモア使用",
+      "name_en": "Humor Use",
+      "category": "Communication Core",
+      "attribute": "Emotion and Rapport",
+      "definition_ja": "ユーモア使用は、緊張緩和や親密化のため笑いを用いる行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:感情と関係形成",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "感情と関係形成"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "ユーモア使用と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000047_sarcasm_use.yml",
+      "id": "COM-000047",
+      "knowledge_type": "communication_core",
+      "name_ja": "皮肉使用",
+      "name_en": "Sarcasm Use",
+      "category": "Communication Core",
+      "attribute": "Emotion and Rapport",
+      "definition_ja": "皮肉使用は、字義と異なる評価を含ませる表現を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:感情と関係形成",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "感情と関係形成"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "皮肉使用と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000048_praise_expression.yml",
+      "id": "COM-000048",
+      "knowledge_type": "communication_core",
+      "name_ja": "称賛表現",
+      "name_en": "Praise Expression",
+      "category": "Communication Core",
+      "attribute": "Emotion and Rapport",
+      "definition_ja": "称賛表現は、相手の行動や成果を肯定的に評価する表現を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:感情と関係形成",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "感情と関係形成"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "称賛表現と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000049_apology_expression.yml",
+      "id": "COM-000049",
+      "knowledge_type": "communication_core",
+      "name_ja": "謝罪表現",
+      "name_en": "Apology Expression",
+      "category": "Communication Core",
+      "attribute": "Emotion and Rapport",
+      "definition_ja": "謝罪表現は、責任や影響を認め関係修復を図る表現を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:感情と関係形成",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "感情と関係形成"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "謝罪表現と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000050_gratitude_expression.yml",
+      "id": "COM-000050",
+      "knowledge_type": "communication_core",
+      "name_ja": "感謝表現",
+      "name_en": "Gratitude Expression",
+      "category": "Communication Core",
+      "attribute": "Emotion and Rapport",
+      "definition_ja": "感謝表現は、相手から受けた価値を認めて伝える表現を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:感情と関係形成",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "感情と関係形成"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "感謝表現と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000051_disagreement_expression.yml",
+      "id": "COM-000051",
+      "knowledge_type": "communication_core",
+      "name_ja": "異議表明",
+      "name_en": "Disagreement Expression",
+      "category": "Communication Core",
+      "attribute": "Conflict and Repair",
+      "definition_ja": "異議表明は、意見の不一致を相手へ示す行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:対立と修復",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "対立と修復"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "異議表明と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000052_communication_conflict_avoidance.yml",
+      "id": "COM-000052",
+      "knowledge_type": "communication_core",
+      "name_ja": "会話的対立回避",
+      "name_en": "Communication Conflict Avoidance",
+      "category": "Communication Core",
+      "attribute": "Conflict and Repair",
+      "definition_ja": "会話的対立回避は、不一致の表明や議論を避ける行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:対立と修復",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "対立と修復"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "会話的対立回避と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000053_confrontation.yml",
+      "id": "COM-000053",
+      "knowledge_type": "communication_core",
+      "name_ja": "対峙的表現",
+      "name_en": "Confrontation",
+      "category": "Communication Core",
+      "attribute": "Conflict and Repair",
+      "definition_ja": "対峙的表現は、問題や不一致を直接取り上げる行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:対立と修復",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "対立と修復"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "対峙的表現と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000054_verbal_de_escalation.yml",
+      "id": "COM-000054",
+      "knowledge_type": "communication_core",
+      "name_ja": "言語的沈静化",
+      "name_en": "Verbal De Escalation",
+      "category": "Communication Core",
+      "attribute": "Conflict and Repair",
+      "definition_ja": "言語的沈静化は、緊張や攻撃性を下げる言語行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:対立と修復",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "対立と修復"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "言語的沈静化と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000055_conversation_repair.yml",
+      "id": "COM-000055",
+      "knowledge_type": "communication_core",
+      "name_ja": "会話修復",
+      "name_en": "Conversation Repair",
+      "category": "Communication Core",
+      "attribute": "Conflict and Repair",
+      "definition_ja": "会話修復は、誤解や言い間違いを訂正し理解を戻す行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:対立と修復",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "対立と修復"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "会話修復と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000056_negotiation_communication.yml",
+      "id": "COM-000056",
+      "knowledge_type": "communication_core",
+      "name_ja": "交渉コミュニケーション",
+      "name_en": "Negotiation Communication",
+      "category": "Communication Core",
+      "attribute": "Conflict and Repair",
+      "definition_ja": "交渉コミュニケーションは、異なる利害を調整して合意を探る行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:対立と修復",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "対立と修復"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "交渉コミュニケーションと整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000057_compromise_expression.yml",
+      "id": "COM-000057",
+      "knowledge_type": "communication_core",
+      "name_ja": "妥協提案",
+      "name_en": "Compromise Expression",
+      "category": "Communication Core",
+      "attribute": "Conflict and Repair",
+      "definition_ja": "妥協提案は、双方が譲歩できる案を示す行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:対立と修復",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "対立と修復"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "妥協提案と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000058_boundary_setting.yml",
+      "id": "COM-000058",
+      "knowledge_type": "communication_core",
+      "name_ja": "境界設定",
+      "name_en": "Boundary Setting",
+      "category": "Communication Core",
+      "attribute": "Conflict and Repair",
+      "definition_ja": "境界設定は、許容範囲や必要な距離を明確に伝える行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:対立と修復",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "対立と修復"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "境界設定と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000059_criticism_response.yml",
+      "id": "COM-000059",
+      "knowledge_type": "communication_core",
+      "name_ja": "批判応答",
+      "name_en": "Criticism Response",
+      "category": "Communication Core",
+      "attribute": "Conflict and Repair",
+      "definition_ja": "批判応答は、否定的評価を受けた際の返答行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:対立と修復",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "対立と修復"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "批判応答と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000060_defensive_communication.yml",
+      "id": "COM-000060",
+      "knowledge_type": "communication_core",
+      "name_ja": "防衛的コミュニケーション",
+      "name_en": "Defensive Communication",
+      "category": "Communication Core",
+      "attribute": "Conflict and Repair",
+      "definition_ja": "防衛的コミュニケーションは、自己保護を優先して反論や否認を行う反応を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:対立と修復",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "対立と修復"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "防衛的コミュニケーションと整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000061_leadership_communication.yml",
+      "id": "COM-000061",
+      "knowledge_type": "communication_core",
+      "name_ja": "リーダーシップ伝達",
+      "name_en": "Leadership Communication",
+      "category": "Communication Core",
+      "attribute": "Group and Status",
+      "definition_ja": "リーダーシップ伝達は、方向づけや意思決定を支える集団内表現を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:集団と地位",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "集団と地位"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "リーダーシップ伝達と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000062_followership_communication.yml",
+      "id": "COM-000062",
+      "knowledge_type": "communication_core",
+      "name_ja": "フォロワーシップ伝達",
+      "name_en": "Followership Communication",
+      "category": "Communication Core",
+      "attribute": "Group and Status",
+      "definition_ja": "フォロワーシップ伝達は、支援や建設的異議を通じて集団へ関与する表現を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:集団と地位",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "集団と地位"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "フォロワーシップ伝達と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000063_coordination_communication.yml",
+      "id": "COM-000063",
+      "knowledge_type": "communication_core",
+      "name_ja": "調整コミュニケーション",
+      "name_en": "Coordination Communication",
+      "category": "Communication Core",
+      "attribute": "Group and Status",
+      "definition_ja": "調整コミュニケーションは、役割や作業順をそろえるための伝達を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:集団と地位",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "集団と地位"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "調整コミュニケーションと整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000064_inclusive_communication.yml",
+      "id": "COM-000064",
+      "knowledge_type": "communication_core",
+      "name_ja": "包摂的コミュニケーション",
+      "name_en": "Inclusive Communication",
+      "category": "Communication Core",
+      "attribute": "Group and Status",
+      "definition_ja": "包摂的コミュニケーションは、参加機会と尊重を広げる表現を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:集団と地位",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "集団と地位"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "包摂的コミュニケーションと整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000065_dominant_communication.yml",
+      "id": "COM-000065",
+      "knowledge_type": "communication_core",
+      "name_ja": "優位的コミュニケーション",
+      "name_en": "Dominant Communication",
+      "category": "Communication Core",
+      "attribute": "Group and Status",
+      "definition_ja": "優位的コミュニケーションは、会話の方向や発言機会を強く制御する傾向を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:集団と地位",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "集団と地位"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "優位的コミュニケーションと整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000066_deferential_communication.yml",
+      "id": "COM-000066",
+      "knowledge_type": "communication_core",
+      "name_ja": "恭順的コミュニケーション",
+      "name_en": "Deferential Communication",
+      "category": "Communication Core",
+      "attribute": "Group and Status",
+      "definition_ja": "恭順的コミュニケーションは、相手の地位や判断を優先する表現を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:集団と地位",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "集団と地位"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "恭順的コミュニケーションと整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000067_status_signaling.yml",
+      "id": "COM-000067",
+      "knowledge_type": "communication_core",
+      "name_ja": "地位シグナリング",
+      "name_en": "Status Signaling",
+      "category": "Communication Core",
+      "attribute": "Group and Status",
+      "definition_ja": "地位シグナリングは、権限や専門性を示す表現行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:集団と地位",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "集団と地位"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "地位シグナリングと整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000068_consensus_seeking.yml",
+      "id": "COM-000068",
+      "knowledge_type": "communication_core",
+      "name_ja": "合意探索",
+      "name_en": "Consensus Seeking",
+      "category": "Communication Core",
+      "attribute": "Group and Status",
+      "definition_ja": "合意探索は、参加者の一致点を探しまとめる行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:集団と地位",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "集団と地位"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "合意探索と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000069_constructive_dissent.yml",
+      "id": "COM-000069",
+      "knowledge_type": "communication_core",
+      "name_ja": "建設的異議",
+      "name_en": "Constructive Dissent",
+      "category": "Communication Core",
+      "attribute": "Group and Status",
+      "definition_ja": "建設的異議は、集団改善のため反対意見を示す行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:集団と地位",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "集団と地位"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "建設的異議と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000070_discussion_facilitation.yml",
+      "id": "COM-000070",
+      "knowledge_type": "communication_core",
+      "name_ja": "議論促進",
+      "name_en": "Discussion Facilitation",
+      "category": "Communication Core",
+      "attribute": "Group and Status",
+      "definition_ja": "議論促進は、発言機会や論点整理を支援する行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:集団と地位",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "集団と地位"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "議論促進と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000071_text_brevity.yml",
+      "id": "COM-000071",
+      "knowledge_type": "communication_core",
+      "name_ja": "文章簡潔性",
+      "name_en": "Text Brevity",
+      "category": "Communication Core",
+      "attribute": "Digital Communication",
+      "definition_ja": "文章簡潔性は、文字メッセージを短くまとめる度合いを表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:デジタル伝達",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "デジタル伝達"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "文章簡潔性と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000072_emoji_use.yml",
+      "id": "COM-000072",
+      "knowledge_type": "communication_core",
+      "name_ja": "絵文字使用",
+      "name_en": "Emoji Use",
+      "category": "Communication Core",
+      "attribute": "Digital Communication",
+      "definition_ja": "絵文字使用は、感情やニュアンス補足に絵文字を用いる行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:デジタル伝達",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "デジタル伝達"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "絵文字使用と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000073_digital_response_timing.yml",
+      "id": "COM-000073",
+      "knowledge_type": "communication_core",
+      "name_ja": "デジタル応答時間",
+      "name_en": "Digital Response Timing",
+      "category": "Communication Core",
+      "attribute": "Digital Communication",
+      "definition_ja": "デジタル応答時間は、受信から返信までの時間的傾向を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:デジタル伝達",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "デジタル伝達"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "デジタル応答時間と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000074_message_frequency.yml",
+      "id": "COM-000074",
+      "knowledge_type": "communication_core",
+      "name_ja": "メッセージ頻度",
+      "name_en": "Message Frequency",
+      "category": "Communication Core",
+      "attribute": "Digital Communication",
+      "definition_ja": "メッセージ頻度は、一定期間に送信するメッセージ量を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:デジタル伝達",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "デジタル伝達"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "メッセージ頻度と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000075_message_fragmentation.yml",
+      "id": "COM-000075",
+      "knowledge_type": "communication_core",
+      "name_ja": "分割送信",
+      "name_en": "Message Fragmentation",
+      "category": "Communication Core",
+      "attribute": "Digital Communication",
+      "definition_ja": "分割送信は、内容を複数の短いメッセージに分ける行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:デジタル伝達",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "デジタル伝達"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "分割送信と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000076_message_editing.yml",
+      "id": "COM-000076",
+      "knowledge_type": "communication_core",
+      "name_ja": "送信前編集",
+      "name_en": "Message Editing",
+      "category": "Communication Core",
+      "attribute": "Digital Communication",
+      "definition_ja": "送信前編集は、送信前に文章を修正し整える行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:デジタル伝達",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "デジタル伝達"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "送信前編集と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000077_read_receipt_sensitivity.yml",
+      "id": "COM-000077",
+      "knowledge_type": "communication_core",
+      "name_ja": "既読感受性",
+      "name_en": "Read Receipt Sensitivity",
+      "category": "Communication Core",
+      "attribute": "Digital Communication",
+      "definition_ja": "既読感受性は、既読表示や返信遅延へ反応する度合いを表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:デジタル伝達",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "デジタル伝達"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "既読感受性と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000078_channel_switching.yml",
+      "id": "COM-000078",
+      "knowledge_type": "communication_core",
+      "name_ja": "チャネル切替",
+      "name_en": "Channel Switching",
+      "category": "Communication Core",
+      "attribute": "Digital Communication",
+      "definition_ja": "チャネル切替は、目的に応じて文字・音声・対面を切り替える行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:デジタル伝達",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "デジタル伝達"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "チャネル切替と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000079_notification_response.yml",
+      "id": "COM-000079",
+      "knowledge_type": "communication_core",
+      "name_ja": "通知応答",
+      "name_en": "Notification Response",
+      "category": "Communication Core",
+      "attribute": "Digital Communication",
+      "definition_ja": "通知応答は、通知を受けて確認や返信を行う傾向を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:デジタル伝達",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "デジタル伝達"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "通知応答と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000080_online_disinhibition.yml",
+      "id": "COM-000080",
+      "knowledge_type": "communication_core",
+      "name_ja": "オンライン脱抑制",
+      "name_en": "Online Disinhibition",
+      "category": "Communication Core",
+      "attribute": "Digital Communication",
+      "definition_ja": "オンライン脱抑制は、オンラインで表現の抑制が弱まる傾向を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:デジタル伝達",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "デジタル伝達"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "オンライン脱抑制と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000081_high_context_communication.yml",
+      "id": "COM-000081",
+      "knowledge_type": "communication_core",
+      "name_ja": "高文脈コミュニケーション",
+      "name_en": "High Context Communication",
+      "category": "Communication Core",
+      "attribute": "Culture and Context",
+      "definition_ja": "高文脈コミュニケーションは、共有背景や含意へ強く依存する伝達を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:文化と文脈",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "文化と文脈"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "高文脈コミュニケーションと整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000082_low_context_communication.yml",
+      "id": "COM-000082",
+      "knowledge_type": "communication_core",
+      "name_ja": "低文脈コミュニケーション",
+      "name_en": "Low Context Communication",
+      "category": "Communication Core",
+      "attribute": "Culture and Context",
+      "definition_ja": "低文脈コミュニケーションは、内容を明示して伝えることを重視する伝達を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:文化と文脈",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "文化と文脈"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "低文脈コミュニケーションと整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000083_code_switching.yml",
+      "id": "COM-000083",
+      "knowledge_type": "communication_core",
+      "name_ja": "コードスイッチング",
+      "name_en": "Code Switching",
+      "category": "Communication Core",
+      "attribute": "Culture and Context",
+      "definition_ja": "コードスイッチングは、相手や場面に応じて言語様式を切り替える行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:文化と文脈",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "文化と文脈"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "コードスイッチングと整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000084_audience_adaptation.yml",
+      "id": "COM-000084",
+      "knowledge_type": "communication_core",
+      "name_ja": "受け手適応",
+      "name_en": "Audience Adaptation",
+      "category": "Communication Core",
+      "attribute": "Culture and Context",
+      "definition_ja": "受け手適応は、相手の知識や立場に合わせ表現を変える行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:文化と文脈",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "文化と文脈"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "受け手適応と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000085_cultural_politeness.yml",
+      "id": "COM-000085",
+      "knowledge_type": "communication_core",
+      "name_ja": "文化的丁寧さ",
+      "name_en": "Cultural Politeness",
+      "category": "Communication Core",
+      "attribute": "Culture and Context",
+      "definition_ja": "文化的丁寧さは、文化規範に沿って敬意や配慮を示す表現を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:文化と文脈",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "文化と文脈"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "文化的丁寧さと整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000086_language_proficiency_context.yml",
+      "id": "COM-000086",
+      "knowledge_type": "communication_core",
+      "name_ja": "言語熟達文脈",
+      "name_en": "Language Proficiency Context",
+      "category": "Communication Core",
+      "attribute": "Culture and Context",
+      "definition_ja": "言語熟達文脈は、使用言語の熟達度が表現へ与える影響を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:文化と文脈",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "文化と文脈"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "言語熟達文脈と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000087_power_distance_communication.yml",
+      "id": "COM-000087",
+      "knowledge_type": "communication_core",
+      "name_ja": "権力距離伝達",
+      "name_en": "Power Distance Communication",
+      "category": "Communication Core",
+      "attribute": "Culture and Context",
+      "definition_ja": "権力距離伝達は、地位差に応じて表現や発言量を調整する行動を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:文化と文脈",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "文化と文脈"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "権力距離伝達と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000088_public_private_communication.yml",
+      "id": "COM-000088",
+      "knowledge_type": "communication_core",
+      "name_ja": "公私伝達差",
+      "name_en": "Public Private Communication",
+      "category": "Communication Core",
+      "attribute": "Culture and Context",
+      "definition_ja": "公私伝達差は、公開場面と私的場面で表現が変わる傾向を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:文化と文脈",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "文化と文脈"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "公私伝達差と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000089_synchronous_communication.yml",
+      "id": "COM-000089",
+      "knowledge_type": "communication_core",
+      "name_ja": "同期コミュニケーション",
+      "name_en": "Synchronous Communication",
+      "category": "Communication Core",
+      "attribute": "Culture and Context",
+      "definition_ja": "同期コミュニケーションは、同時進行で即時応答する伝達を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:文化と文脈",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "文化と文脈"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "同期コミュニケーションと整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000090_asynchronous_communication.yml",
+      "id": "COM-000090",
+      "knowledge_type": "communication_core",
+      "name_ja": "非同期コミュニケーション",
+      "name_en": "Asynchronous Communication",
+      "category": "Communication Core",
+      "attribute": "Culture and Context",
+      "definition_ja": "非同期コミュニケーションは、時間差を許容して行う伝達を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:文化と文脈",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "文化と文脈"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "非同期コミュニケーションと整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000091_speaking_share_signal.yml",
+      "id": "COM-000091",
+      "knowledge_type": "communication_core",
+      "name_ja": "発話占有率シグナル",
+      "name_en": "Speaking Share Signal",
+      "category": "Communication Core",
+      "attribute": "Observation and Integration",
+      "definition_ja": "発話占有率シグナルは、会話全体に占める発話量の観測概念を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:観測と統合",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "観測と統合"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "発話占有率シグナルと整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000092_turn_latency_signal.yml",
+      "id": "COM-000092",
+      "knowledge_type": "communication_core",
+      "name_ja": "ターン潜時シグナル",
+      "name_en": "Turn Latency Signal",
+      "category": "Communication Core",
+      "attribute": "Observation and Integration",
+      "definition_ja": "ターン潜時シグナルは、発話交替までの時間を捉える観測概念を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:観測と統合",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "観測と統合"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "ターン潜時シグナルと整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000093_question_ratio_signal.yml",
+      "id": "COM-000093",
+      "knowledge_type": "communication_core",
+      "name_ja": "質問比率シグナル",
+      "name_en": "Question Ratio Signal",
+      "category": "Communication Core",
+      "attribute": "Observation and Integration",
+      "definition_ja": "質問比率シグナルは、発話中の質問割合を捉える観測概念を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:観測と統合",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "観測と統合"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "質問比率シグナルと整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000094_repair_rate_signal.yml",
+      "id": "COM-000094",
+      "knowledge_type": "communication_core",
+      "name_ja": "修復率シグナル",
+      "name_en": "Repair Rate Signal",
+      "category": "Communication Core",
+      "attribute": "Observation and Integration",
+      "definition_ja": "修復率シグナルは、誤解や訂正への修復頻度を捉える観測概念を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:観測と統合",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "観測と統合"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "修復率シグナルと整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000095_tone_shift_signal.yml",
+      "id": "COM-000095",
+      "knowledge_type": "communication_core",
+      "name_ja": "トーン変化シグナル",
+      "name_en": "Tone Shift Signal",
+      "category": "Communication Core",
+      "attribute": "Observation and Integration",
+      "definition_ja": "トーン変化シグナルは、会話中の感情的調子の変化を捉える観測概念を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:観測と統合",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "観測と統合"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "トーン変化シグナルと整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000096_topic_persistence_signal.yml",
+      "id": "COM-000096",
+      "knowledge_type": "communication_core",
+      "name_ja": "話題持続シグナル",
+      "name_en": "Topic Persistence Signal",
+      "category": "Communication Core",
+      "attribute": "Observation and Integration",
+      "definition_ja": "話題持続シグナルは、同一話題を継続する度合いを捉える観測概念を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:観測と統合",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "観測と統合"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "話題持続シグナルと整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000097_communication_reciprocity_signal.yml",
+      "id": "COM-000097",
+      "knowledge_type": "communication_core",
+      "name_ja": "伝達互恵性シグナル",
+      "name_en": "Communication Reciprocity Signal",
+      "category": "Communication Core",
+      "attribute": "Observation and Integration",
+      "definition_ja": "伝達互恵性シグナルは、発話・質問・開示の相互性を捉える観測概念を表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:観測と統合",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "観測と統合"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "伝達互恵性シグナルと整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000098_communication_profile.yml",
+      "id": "COM-000098",
+      "knowledge_type": "communication_core",
+      "name_ja": "コミュニケーションプロファイル",
+      "name_en": "Communication Profile",
+      "category": "Communication Core",
+      "attribute": "Observation and Integration",
+      "definition_ja": "コミュニケーションプロファイルは、複数の伝達傾向を文脈別に整理する枠組みを表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:観測と統合",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "観測と統合"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "コミュニケーションプロファイルと整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000099_communication_context_mapping.yml",
+      "id": "COM-000099",
+      "knowledge_type": "communication_core",
+      "name_ja": "伝達文脈マッピング",
+      "name_en": "Communication Context Mapping",
+      "category": "Communication Core",
+      "attribute": "Observation and Integration",
+      "definition_ja": "伝達文脈マッピングは、伝達行動を相手・媒体・状況と結びつける枠組みを表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:観測と統合",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "観測と統合"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "伝達文脈マッピングと整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    },
+    {
+      "filename": "COM-000100_communication_core_integration.yml",
+      "id": "COM-000100",
+      "knowledge_type": "communication_core",
+      "name_ja": "伝達コア統合",
+      "name_en": "Communication Core Integration",
+      "category": "Communication Core",
+      "attribute": "Observation and Integration",
+      "definition_ja": "伝達コア統合は、観測・補正・根拠・安全表示を接続する枠組みを表す伝達概念。単独で人格や能力を断定しない。",
+      "tags": [
+        "CAT:コミュニケーション",
+        "CAT:観測と統合",
+        "ATTR:伝達要因"
+      ],
+      "parent": [
+        "観測と統合"
+      ],
+      "related": [
+        "行動観測",
+        "社会的文脈",
+        "感情表現"
+      ],
+      "observable_data": [
+        "発話または文字量",
+        "応答までの時間",
+        "質問と応答の回数",
+        "会話修復の推移"
+      ],
+      "signal_candidates": [
+        "伝達コア統合と整合する伝達行動が複数場面で観測される",
+        "相手・媒体・目的の変化に伴って表現や応答が変化する"
+      ],
+      "device_level": "スマートフォン・PC・ゲーム機の会話ログから観測可能",
+      "modifiers": [
+        "文化",
+        "使用言語",
+        "関係性",
+        "権力差",
+        "媒体",
+        "時間制約",
+        "感情状態"
+      ],
+      "evidence": "コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照",
+      "status": "active"
+    }
+  ]
+}

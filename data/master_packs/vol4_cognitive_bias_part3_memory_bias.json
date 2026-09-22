@@ -1,11 +1,11 @@
 {
   "output_dir": "vol4_cognitive_bias/memory_bias",
   "index_filename": "memory_bias_index.yml",
-  "index_content": "category: Cognitive Bias - Memory Bias\nname_ja: 認知バイアス・記憶バイアス\nitems:\n  - BIAS-000021_recency_bias.yml\n  - BIAS-000022_primacy_effect.yml\n  - BIAS-000023_peak_end_rule.yml\n  - BIAS-000024_hindsight_bias.yml\n  - BIAS-000025_misinformation_effect.yml\n  - BIAS-000026_self_reference_effect.yml\n  - BIAS-000027_negativity_bias.yml\n  - BIAS-000028_rosy_retrospection.yml\n  - BIAS-000029_memory_congruence_bias.yml\n  - BIAS-000030_frequency_illusion.yml\nnotes:\n  - 記憶バイアスは記憶能力そのものとは統合しない\n  - 観測可能な想起・評価変化・選択履歴依存を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
+  "index_content": "category: Cognitive Bias - Memory Bias\nname_ja: 認知バイアス・記憶バイアス\nitems:\n  - COG-000021_recency_bias.yml\n  - COG-000022_primacy_effect.yml\n  - COG-000023_peak_end_rule.yml\n  - COG-000024_hindsight_bias.yml\n  - COG-000025_misinformation_effect.yml\n  - COG-000026_self_reference_effect.yml\n  - COG-000027_negativity_bias.yml\n  - COG-000028_rosy_retrospection.yml\n  - COG-000029_memory_congruence_bias.yml\n  - COG-000030_frequency_illusion.yml\nnotes:\n  - 記憶バイアスは記憶能力そのものとは統合しない\n  - 観測可能な想起・評価変化・選択履歴依存を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
   "items": [
     {
-      "filename": "BIAS-000021_recency_bias.yml",
-      "id": "BIAS-000021",
+      "filename": "COG-000021_recency_bias.yml",
+      "id": "COG-000021",
       "knowledge_type": "cognitive_bias",
       "name_ja": "新近性バイアス",
       "name_en": "Recency Bias",
@@ -23,8 +23,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000022_primacy_effect.yml",
-      "id": "BIAS-000022",
+      "filename": "COG-000022_primacy_effect.yml",
+      "id": "COG-000022",
       "knowledge_type": "cognitive_bias",
       "name_ja": "初頭効果",
       "name_en": "Primacy Effect",
@@ -42,8 +42,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000023_peak_end_rule.yml",
-      "id": "BIAS-000023",
+      "filename": "COG-000023_peak_end_rule.yml",
+      "id": "COG-000023",
       "knowledge_type": "cognitive_bias",
       "name_ja": "ピークエンドの法則",
       "name_en": "Peak End Rule",
@@ -61,8 +61,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000024_hindsight_bias.yml",
-      "id": "BIAS-000024",
+      "filename": "COG-000024_hindsight_bias.yml",
+      "id": "COG-000024",
       "knowledge_type": "cognitive_bias",
       "name_ja": "後知恵バイアス",
       "name_en": "Hindsight Bias",
@@ -80,8 +80,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000025_misinformation_effect.yml",
-      "id": "BIAS-000025",
+      "filename": "COG-000025_misinformation_effect.yml",
+      "id": "COG-000025",
       "knowledge_type": "cognitive_bias",
       "name_ja": "誤情報効果",
       "name_en": "Misinformation Effect",
@@ -99,8 +99,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000026_self_reference_effect.yml",
-      "id": "BIAS-000026",
+      "filename": "COG-000026_self_reference_effect.yml",
+      "id": "COG-000026",
       "knowledge_type": "cognitive_bias",
       "name_ja": "自己参照効果",
       "name_en": "Self Reference Effect",
@@ -118,8 +118,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000027_negativity_bias.yml",
-      "id": "BIAS-000027",
+      "filename": "COG-000027_negativity_bias.yml",
+      "id": "COG-000027",
       "knowledge_type": "cognitive_bias",
       "name_ja": "ネガティビティバイアス",
       "name_en": "Negativity Bias",
@@ -137,8 +137,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000028_rosy_retrospection.yml",
-      "id": "BIAS-000028",
+      "filename": "COG-000028_rosy_retrospection.yml",
+      "id": "COG-000028",
       "knowledge_type": "cognitive_bias",
       "name_ja": "バラ色の回顧",
       "name_en": "Rosy Retrospection",
@@ -156,8 +156,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000029_memory_congruence_bias.yml",
-      "id": "BIAS-000029",
+      "filename": "COG-000029_memory_congruence_bias.yml",
+      "id": "COG-000029",
       "knowledge_type": "cognitive_bias",
       "name_ja": "気分一致記憶バイアス",
       "name_en": "Memory Congruence Bias",
@@ -175,8 +175,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000030_frequency_illusion.yml",
-      "id": "BIAS-000030",
+      "filename": "COG-000030_frequency_illusion.yml",
+      "id": "COG-000030",
       "knowledge_type": "cognitive_bias",
       "name_ja": "頻度錯覚",
       "name_en": "Frequency Illusion",

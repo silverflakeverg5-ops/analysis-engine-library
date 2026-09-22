@@ -4,7 +4,7 @@ BASE = Path("data/vol2_personality/social_interpersonal")
 BASE.mkdir(parents=True, exist_ok=True)
 
 files = {
-    "SOC-000001_empathy.yml": """id: SOC-000001
+    "PER-000027_empathy.yml": """id: PER-000027
 knowledge_type: trait
 name_ja: 共感性
 name_en: Empathy
@@ -37,7 +37,7 @@ evidence: 社会心理学・性格心理学で使用
 status: active
 """,
 
-    "SOC-000002_cooperation.yml": """id: SOC-000002
+    "PER-000028_cooperation.yml": """id: PER-000028
 knowledge_type: trait
 name_ja: 協力性
 name_en: Cooperation
@@ -69,7 +69,7 @@ evidence: 社会心理学・組織行動学で使用
 status: active
 """,
 
-    "SOC-000003_trustworthiness.yml": """id: SOC-000003
+    "PER-000029_trustworthiness.yml": """id: PER-000029
 knowledge_type: trait
 name_ja: 信頼性
 name_en: Trustworthiness
@@ -102,7 +102,7 @@ evidence: 性格評価・人材評価で使用
 status: active
 """,
 
-    "SOC-000004_altruism.yml": """id: SOC-000004
+    "PER-000030_altruism.yml": """id: PER-000030
 knowledge_type: trait
 name_ja: 利他性
 name_en: Altruism
@@ -135,7 +135,7 @@ evidence: 社会心理学・行動経済学で使用
 status: active
 """,
 
-    "SOC-000005_competitiveness.yml": """id: SOC-000005
+    "PER-000031_competitiveness.yml": """id: PER-000031
 knowledge_type: trait
 name_ja: 競争性
 name_en: Competitiveness
@@ -168,7 +168,7 @@ evidence: 社会心理学・スポーツ心理学・組織心理学で使用
 status: active
 """,
 
-    "SOC-000006_harmony_orientation.yml": """id: SOC-000006
+    "PER-000032_harmony_orientation.yml": """id: PER-000032
 knowledge_type: trait
 name_ja: 調和志向
 name_en: Harmony Orientation
@@ -201,7 +201,7 @@ evidence: 社会心理学・組織行動学で使用
 status: active
 """,
 
-    "SOC-000007_leadership.yml": """id: SOC-000007
+    "PER-000033_leadership.yml": """id: PER-000033
 knowledge_type: trait
 name_ja: リーダーシップ
 name_en: Leadership
@@ -234,7 +234,7 @@ evidence: 産業・組織心理学で使用
 status: active
 """,
 
-    "SOC-000008_followership.yml": """id: SOC-000008
+    "PER-000034_followership.yml": """id: PER-000034
 knowledge_type: trait
 name_ja: フォロワーシップ
 name_en: Followership
@@ -270,14 +270,14 @@ status: active
     "social_interpersonal_index.yml": """category: Social Interpersonal
 name_ja: 対人・社会性
 items:
-  - SOC-000001_empathy.yml
-  - SOC-000002_cooperation.yml
-  - SOC-000003_trustworthiness.yml
-  - SOC-000004_altruism.yml
-  - SOC-000005_competitiveness.yml
-  - SOC-000006_harmony_orientation.yml
-  - SOC-000007_leadership.yml
-  - SOC-000008_followership.yml
+  - PER-000027_empathy.yml
+  - PER-000028_cooperation.yml
+  - PER-000029_trustworthiness.yml
+  - PER-000030_altruism.yml
+  - PER-000031_competitiveness.yml
+  - PER-000032_harmony_orientation.yml
+  - PER-000033_leadership.yml
+  - PER-000034_followership.yml
 notes:
   - 対人特性は統合しない
   - 人間向け診断文ではなく、観測データとSignal候補を保持する

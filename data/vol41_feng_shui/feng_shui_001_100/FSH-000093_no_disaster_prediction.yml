@@ -1,0 +1,54 @@
+id: FSH-000093
+knowledge_type: feng_shui
+name_ja: 災害予測禁止
+name_en: No Disaster Prediction
+category: Feng Shui
+attribute: Safety and Limits
+definition_ja: 災害予測禁止は、地形・方位から災害を確定予測しないことを表す風水参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。
+tags:
+  - CAT:風水
+  - CAT:安全と限界
+  - EVIDENCE:伝統的解釈
+parent:
+  - 安全と限界
+related:
+  - 自己理解
+  - 文化的象徴
+  - 解釈不確実性
+observable_data:
+  - 利用者が明示的に提供した出生情報
+  - 採用した暦・計算規則・流派
+  - 入力精度と欠測
+  - 計算で得られた象徴配置
+signal_candidates:
+  - 入力と規則から再現可能な象徴配置を得る
+  - 複数要素を解釈候補として提示し単一の性格断定へ短絡させない
+device_level: 本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない
+modifiers:
+  - 流派
+  - 地域と時代
+  - 暦と時間規則
+  - 入力精度
+  - 翻訳
+  - 解釈目的
+evidence: 歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない
+status: active
+tradition: 中国風水・堪輿
+source_type: 地形・建物・間取り・方位・時間・流派
+evidence_class: traditional_cultural_interpretation
+required_inputs:
+  - 対象地点
+  - 建物用途
+  - 方位測定
+  - 周辺環境
+  - 建築時期
+  - 採用流派
+calculation_basis: 形勢・羅盤方位・八卦・五行・時間盤を流派別に整理する
+trait_links:
+  - 自己理解
+  - 価値観
+  - 意思決定
+  - 対人傾向
+interpretive_scope: 内省・会話・物語生成・娯楽のための解釈候補
+safe_expression: 中国風水・堪輿では、災害予測禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。
+provenance: 中国の堪輿・形勢派・理気派と東アジアに展開した風水諸流派

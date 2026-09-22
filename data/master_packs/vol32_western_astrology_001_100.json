@@ -1,0 +1,6507 @@
+{
+  "output_dir": "vol32_western_astrology/western_astrology_001_100",
+  "index_filename": "western_astrology_001_100_index.yml",
+  "index_content": "category: Western Astrology\nname_ja: 西洋占星術\nitems:\n  - AST-000001_natal_astrology.yml\n  - AST-000002_tropical_zodiac.yml\n  - AST-000003_sidereal_zodiac.yml\n  - AST-000004_ecliptic_longitude.yml\n  - AST-000005_zodiac_sign.yml\n  - AST-000006_planetary_function.yml\n  - AST-000007_house_domain.yml\n  - AST-000008_aspect_relation.yml\n  - AST-000009_chart_context.yml\n  - AST-000010_school_declaration.yml\n  - AST-000011_aries.yml\n  - AST-000012_taurus.yml\n  - AST-000013_gemini.yml\n  - AST-000014_cancer.yml\n  - AST-000015_leo.yml\n  - AST-000016_virgo.yml\n  - AST-000017_libra.yml\n  - AST-000018_scorpio.yml\n  - AST-000019_sagittarius.yml\n  - AST-000020_capricorn.yml\n  - AST-000021_aquarius.yml\n  - AST-000022_pisces.yml\n  - AST-000023_sun.yml\n  - AST-000024_moon.yml\n  - AST-000025_mercury.yml\n  - AST-000026_venus.yml\n  - AST-000027_mars.yml\n  - AST-000028_jupiter.yml\n  - AST-000029_saturn.yml\n  - AST-000030_uranus.yml\n  - AST-000031_neptune.yml\n  - AST-000032_pluto.yml\n  - AST-000033_first_house.yml\n  - AST-000034_second_house.yml\n  - AST-000035_third_house.yml\n  - AST-000036_fourth_house.yml\n  - AST-000037_fifth_house.yml\n  - AST-000038_sixth_house.yml\n  - AST-000039_seventh_house.yml\n  - AST-000040_eighth_house.yml\n  - AST-000041_ninth_house.yml\n  - AST-000042_tenth_house.yml\n  - AST-000043_eleventh_house.yml\n  - AST-000044_twelfth_house.yml\n  - AST-000045_conjunction.yml\n  - AST-000046_opposition.yml\n  - AST-000047_trine.yml\n  - AST-000048_square.yml\n  - AST-000049_sextile.yml\n  - AST-000050_quincunx.yml\n  - AST-000051_semisextile.yml\n  - AST-000052_semisquare.yml\n  - AST-000053_sesquiquadrate.yml\n  - AST-000054_aspect_orb.yml\n  - AST-000055_domicile.yml\n  - AST-000056_detriment.yml\n  - AST-000057_exaltation.yml\n  - AST-000058_fall.yml\n  - AST-000059_triplicity.yml\n  - AST-000060_term.yml\n  - AST-000061_face.yml\n  - AST-000062_sect.yml\n  - AST-000063_ascendant.yml\n  - AST-000064_midheaven.yml\n  - AST-000065_descendant.yml\n  - AST-000066_imum_coeli.yml\n  - AST-000067_north_node.yml\n  - AST-000068_south_node.yml\n  - AST-000069_part_of_fortune.yml\n  - AST-000070_chiron.yml\n  - AST-000071_vertex.yml\n  - AST-000072_retrograde_motion.yml\n  - AST-000073_transit.yml\n  - AST-000074_secondary_progression.yml\n  - AST-000075_solar_arc.yml\n  - AST-000076_solar_return.yml\n  - AST-000077_lunar_return.yml\n  - AST-000078_annual_profection.yml\n  - AST-000079_synastry.yml\n  - AST-000080_composite_chart.yml\n  - AST-000081_electional_astrology.yml\n  - AST-000082_horary_astrology.yml\n  - AST-000083_house_system_choice.yml\n  - AST-000084_birth_time_sensitivity.yml\n  - AST-000085_chart_rectification.yml\n  - AST-000086_element_balance.yml\n  - AST-000087_modality_balance.yml\n  - AST-000088_hemisphere_emphasis.yml\n  - AST-000089_chart_ruler.yml\n  - AST-000090_dispositor_chain.yml\n  - AST-000091_stellium.yml\n  - AST-000092_t_square.yml\n  - AST-000093_grand_trine.yml\n  - AST-000094_grand_cross.yml\n  - AST-000095_yod.yml\n  - AST-000096_mutual_reception.yml\n  - AST-000097_whole_chart_priority.yml\n  - AST-000098_interpretive_plurality.yml\n  - AST-000099_uncertainty_disclosure.yml\n  - AST-000100_non_diagnostic_use.yml\nnotes:\n  - 伝統的・文化的解釈として扱い心理学的エビデンスと混同しない\n  - 計算方式・流派・入力精度・出典を結果とともに保持する\n  - 医療・雇用・教育・保険・信用・法執行など高影響判断には利用しない\n",
+  "items": [
+    {
+      "filename": "AST-000001_natal_astrology.yml",
+      "id": "AST-000001",
+      "knowledge_type": "western_astrology",
+      "name_ja": "出生占星術",
+      "name_en": "Natal Astrology",
+      "category": "Western Astrology",
+      "attribute": "Foundations",
+      "definition_ja": "出生占星術は、出生時点の天体配置を象徴体系として読む西洋占星術の領域を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、出生占星術を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000002_tropical_zodiac.yml",
+      "id": "AST-000002",
+      "knowledge_type": "western_astrology",
+      "name_ja": "トロピカル黄道",
+      "name_en": "Tropical Zodiac",
+      "category": "Western Astrology",
+      "attribute": "Foundations",
+      "definition_ja": "トロピカル黄道は、春分点を基準として黄道を十二等分する方式を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、トロピカル黄道を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000003_sidereal_zodiac.yml",
+      "id": "AST-000003",
+      "knowledge_type": "western_astrology",
+      "name_ja": "サイデリアル黄道",
+      "name_en": "Sidereal Zodiac",
+      "category": "Western Astrology",
+      "attribute": "Foundations",
+      "definition_ja": "サイデリアル黄道は、恒星基準の基点を用いて黄道を区分する方式を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、サイデリアル黄道を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000004_ecliptic_longitude.yml",
+      "id": "AST-000004",
+      "knowledge_type": "western_astrology",
+      "name_ja": "黄経",
+      "name_en": "Ecliptic Longitude",
+      "category": "Western Astrology",
+      "attribute": "Foundations",
+      "definition_ja": "黄経は、黄道上の位置を角度で表す座標を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、黄経を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000005_zodiac_sign.yml",
+      "id": "AST-000005",
+      "knowledge_type": "western_astrology",
+      "name_ja": "サイン",
+      "name_en": "Zodiac Sign",
+      "category": "Western Astrology",
+      "attribute": "Foundations",
+      "definition_ja": "サインは、黄道を十二の30度区画として扱う分類を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、サインを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000006_planetary_function.yml",
+      "id": "AST-000006",
+      "knowledge_type": "western_astrology",
+      "name_ja": "惑星機能",
+      "name_en": "Planetary Function",
+      "category": "Western Astrology",
+      "attribute": "Foundations",
+      "definition_ja": "惑星機能は、天体ごとに割り当てられた伝統的象徴機能を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、惑星機能を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000007_house_domain.yml",
+      "id": "AST-000007",
+      "knowledge_type": "western_astrology",
+      "name_ja": "ハウス領域",
+      "name_en": "House Domain",
+      "category": "Western Astrology",
+      "attribute": "Foundations",
+      "definition_ja": "ハウス領域は、出生地点と時刻から区分される生活領域を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、ハウス領域を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000008_aspect_relation.yml",
+      "id": "AST-000008",
+      "knowledge_type": "western_astrology",
+      "name_ja": "アスペクト関係",
+      "name_en": "Aspect Relation",
+      "category": "Western Astrology",
+      "attribute": "Foundations",
+      "definition_ja": "アスペクト関係は、天体間の角距離を象徴的関係として扱うことを表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、アスペクト関係を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000009_chart_context.yml",
+      "id": "AST-000009",
+      "knowledge_type": "western_astrology",
+      "name_ja": "出生図文脈",
+      "name_en": "Chart Context",
+      "category": "Western Astrology",
+      "attribute": "Foundations",
+      "definition_ja": "出生図文脈は、単一配置を出生図全体の関係の中で読む原則を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、出生図文脈を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000010_school_declaration.yml",
+      "id": "AST-000010",
+      "knowledge_type": "western_astrology",
+      "name_ja": "流派宣言",
+      "name_en": "School Declaration",
+      "category": "Western Astrology",
+      "attribute": "Foundations",
+      "definition_ja": "流派宣言は、黄道・ハウス・許容度・支配星体系を明示することを表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、流派宣言を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000011_aries.yml",
+      "id": "AST-000011",
+      "knowledge_type": "western_astrology",
+      "name_ja": "牡羊座",
+      "name_en": "Aries",
+      "category": "Western Astrology",
+      "attribute": "Zodiac Signs",
+      "definition_ja": "牡羊座は、牡羊座に対応づけられるエレメント・三区分・支配星・象徴テーマの組を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、牡羊座を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000012_taurus.yml",
+      "id": "AST-000012",
+      "knowledge_type": "western_astrology",
+      "name_ja": "牡牛座",
+      "name_en": "Taurus",
+      "category": "Western Astrology",
+      "attribute": "Zodiac Signs",
+      "definition_ja": "牡牛座は、牡牛座に対応づけられるエレメント・三区分・支配星・象徴テーマの組を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、牡牛座を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000013_gemini.yml",
+      "id": "AST-000013",
+      "knowledge_type": "western_astrology",
+      "name_ja": "双子座",
+      "name_en": "Gemini",
+      "category": "Western Astrology",
+      "attribute": "Zodiac Signs",
+      "definition_ja": "双子座は、双子座に対応づけられるエレメント・三区分・支配星・象徴テーマの組を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、双子座を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000014_cancer.yml",
+      "id": "AST-000014",
+      "knowledge_type": "western_astrology",
+      "name_ja": "蟹座",
+      "name_en": "Cancer",
+      "category": "Western Astrology",
+      "attribute": "Zodiac Signs",
+      "definition_ja": "蟹座は、蟹座に対応づけられるエレメント・三区分・支配星・象徴テーマの組を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、蟹座を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000015_leo.yml",
+      "id": "AST-000015",
+      "knowledge_type": "western_astrology",
+      "name_ja": "獅子座",
+      "name_en": "Leo",
+      "category": "Western Astrology",
+      "attribute": "Zodiac Signs",
+      "definition_ja": "獅子座は、獅子座に対応づけられるエレメント・三区分・支配星・象徴テーマの組を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、獅子座を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000016_virgo.yml",
+      "id": "AST-000016",
+      "knowledge_type": "western_astrology",
+      "name_ja": "乙女座",
+      "name_en": "Virgo",
+      "category": "Western Astrology",
+      "attribute": "Zodiac Signs",
+      "definition_ja": "乙女座は、乙女座に対応づけられるエレメント・三区分・支配星・象徴テーマの組を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、乙女座を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000017_libra.yml",
+      "id": "AST-000017",
+      "knowledge_type": "western_astrology",
+      "name_ja": "天秤座",
+      "name_en": "Libra",
+      "category": "Western Astrology",
+      "attribute": "Zodiac Signs",
+      "definition_ja": "天秤座は、天秤座に対応づけられるエレメント・三区分・支配星・象徴テーマの組を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、天秤座を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000018_scorpio.yml",
+      "id": "AST-000018",
+      "knowledge_type": "western_astrology",
+      "name_ja": "蠍座",
+      "name_en": "Scorpio",
+      "category": "Western Astrology",
+      "attribute": "Zodiac Signs",
+      "definition_ja": "蠍座は、蠍座に対応づけられるエレメント・三区分・支配星・象徴テーマの組を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、蠍座を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000019_sagittarius.yml",
+      "id": "AST-000019",
+      "knowledge_type": "western_astrology",
+      "name_ja": "射手座",
+      "name_en": "Sagittarius",
+      "category": "Western Astrology",
+      "attribute": "Zodiac Signs",
+      "definition_ja": "射手座は、射手座に対応づけられるエレメント・三区分・支配星・象徴テーマの組を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、射手座を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000020_capricorn.yml",
+      "id": "AST-000020",
+      "knowledge_type": "western_astrology",
+      "name_ja": "山羊座",
+      "name_en": "Capricorn",
+      "category": "Western Astrology",
+      "attribute": "Zodiac Signs",
+      "definition_ja": "山羊座は、山羊座に対応づけられるエレメント・三区分・支配星・象徴テーマの組を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、山羊座を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000021_aquarius.yml",
+      "id": "AST-000021",
+      "knowledge_type": "western_astrology",
+      "name_ja": "水瓶座",
+      "name_en": "Aquarius",
+      "category": "Western Astrology",
+      "attribute": "Zodiac Signs",
+      "definition_ja": "水瓶座は、水瓶座に対応づけられるエレメント・三区分・支配星・象徴テーマの組を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、水瓶座を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000022_pisces.yml",
+      "id": "AST-000022",
+      "knowledge_type": "western_astrology",
+      "name_ja": "魚座",
+      "name_en": "Pisces",
+      "category": "Western Astrology",
+      "attribute": "Zodiac Signs",
+      "definition_ja": "魚座は、魚座に対応づけられるエレメント・三区分・支配星・象徴テーマの組を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:十二宮",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二宮"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、魚座を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000023_sun.yml",
+      "id": "AST-000023",
+      "knowledge_type": "western_astrology",
+      "name_ja": "太陽",
+      "name_en": "Sun",
+      "category": "Western Astrology",
+      "attribute": "Planets",
+      "definition_ja": "太陽は、出生図で太陽に割り当てる伝統的または近現代的な象徴機能を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:天体",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "天体"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、太陽を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000024_moon.yml",
+      "id": "AST-000024",
+      "knowledge_type": "western_astrology",
+      "name_ja": "月",
+      "name_en": "Moon",
+      "category": "Western Astrology",
+      "attribute": "Planets",
+      "definition_ja": "月は、出生図で月に割り当てる伝統的または近現代的な象徴機能を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:天体",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "天体"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、月を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000025_mercury.yml",
+      "id": "AST-000025",
+      "knowledge_type": "western_astrology",
+      "name_ja": "水星",
+      "name_en": "Mercury",
+      "category": "Western Astrology",
+      "attribute": "Planets",
+      "definition_ja": "水星は、出生図で水星に割り当てる伝統的または近現代的な象徴機能を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:天体",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "天体"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、水星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000026_venus.yml",
+      "id": "AST-000026",
+      "knowledge_type": "western_astrology",
+      "name_ja": "金星",
+      "name_en": "Venus",
+      "category": "Western Astrology",
+      "attribute": "Planets",
+      "definition_ja": "金星は、出生図で金星に割り当てる伝統的または近現代的な象徴機能を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:天体",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "天体"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、金星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000027_mars.yml",
+      "id": "AST-000027",
+      "knowledge_type": "western_astrology",
+      "name_ja": "火星",
+      "name_en": "Mars",
+      "category": "Western Astrology",
+      "attribute": "Planets",
+      "definition_ja": "火星は、出生図で火星に割り当てる伝統的または近現代的な象徴機能を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:天体",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "天体"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、火星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000028_jupiter.yml",
+      "id": "AST-000028",
+      "knowledge_type": "western_astrology",
+      "name_ja": "木星",
+      "name_en": "Jupiter",
+      "category": "Western Astrology",
+      "attribute": "Planets",
+      "definition_ja": "木星は、出生図で木星に割り当てる伝統的または近現代的な象徴機能を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:天体",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "天体"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、木星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000029_saturn.yml",
+      "id": "AST-000029",
+      "knowledge_type": "western_astrology",
+      "name_ja": "土星",
+      "name_en": "Saturn",
+      "category": "Western Astrology",
+      "attribute": "Planets",
+      "definition_ja": "土星は、出生図で土星に割り当てる伝統的または近現代的な象徴機能を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:天体",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "天体"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、土星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000030_uranus.yml",
+      "id": "AST-000030",
+      "knowledge_type": "western_astrology",
+      "name_ja": "天王星",
+      "name_en": "Uranus",
+      "category": "Western Astrology",
+      "attribute": "Planets",
+      "definition_ja": "天王星は、出生図で天王星に割り当てる伝統的または近現代的な象徴機能を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:天体",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "天体"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、天王星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000031_neptune.yml",
+      "id": "AST-000031",
+      "knowledge_type": "western_astrology",
+      "name_ja": "海王星",
+      "name_en": "Neptune",
+      "category": "Western Astrology",
+      "attribute": "Planets",
+      "definition_ja": "海王星は、出生図で海王星に割り当てる伝統的または近現代的な象徴機能を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:天体",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "天体"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、海王星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000032_pluto.yml",
+      "id": "AST-000032",
+      "knowledge_type": "western_astrology",
+      "name_ja": "冥王星",
+      "name_en": "Pluto",
+      "category": "Western Astrology",
+      "attribute": "Planets",
+      "definition_ja": "冥王星は、出生図で冥王星に割り当てる伝統的または近現代的な象徴機能を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:天体",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "天体"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、冥王星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000033_first_house.yml",
+      "id": "AST-000033",
+      "knowledge_type": "western_astrology",
+      "name_ja": "第1ハウス",
+      "name_en": "First House",
+      "category": "Western Astrology",
+      "attribute": "Houses",
+      "definition_ja": "第1ハウスは、第1ハウスに割り当てられる伝統的な生活領域と経験テーマを表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:ハウス",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "ハウス"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、第1ハウスを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000034_second_house.yml",
+      "id": "AST-000034",
+      "knowledge_type": "western_astrology",
+      "name_ja": "第2ハウス",
+      "name_en": "Second House",
+      "category": "Western Astrology",
+      "attribute": "Houses",
+      "definition_ja": "第2ハウスは、第2ハウスに割り当てられる伝統的な生活領域と経験テーマを表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:ハウス",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "ハウス"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、第2ハウスを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000035_third_house.yml",
+      "id": "AST-000035",
+      "knowledge_type": "western_astrology",
+      "name_ja": "第3ハウス",
+      "name_en": "Third House",
+      "category": "Western Astrology",
+      "attribute": "Houses",
+      "definition_ja": "第3ハウスは、第3ハウスに割り当てられる伝統的な生活領域と経験テーマを表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:ハウス",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "ハウス"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、第3ハウスを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000036_fourth_house.yml",
+      "id": "AST-000036",
+      "knowledge_type": "western_astrology",
+      "name_ja": "第4ハウス",
+      "name_en": "Fourth House",
+      "category": "Western Astrology",
+      "attribute": "Houses",
+      "definition_ja": "第4ハウスは、第4ハウスに割り当てられる伝統的な生活領域と経験テーマを表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:ハウス",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "ハウス"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、第4ハウスを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000037_fifth_house.yml",
+      "id": "AST-000037",
+      "knowledge_type": "western_astrology",
+      "name_ja": "第5ハウス",
+      "name_en": "Fifth House",
+      "category": "Western Astrology",
+      "attribute": "Houses",
+      "definition_ja": "第5ハウスは、第5ハウスに割り当てられる伝統的な生活領域と経験テーマを表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:ハウス",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "ハウス"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、第5ハウスを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000038_sixth_house.yml",
+      "id": "AST-000038",
+      "knowledge_type": "western_astrology",
+      "name_ja": "第6ハウス",
+      "name_en": "Sixth House",
+      "category": "Western Astrology",
+      "attribute": "Houses",
+      "definition_ja": "第6ハウスは、第6ハウスに割り当てられる伝統的な生活領域と経験テーマを表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:ハウス",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "ハウス"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、第6ハウスを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000039_seventh_house.yml",
+      "id": "AST-000039",
+      "knowledge_type": "western_astrology",
+      "name_ja": "第7ハウス",
+      "name_en": "Seventh House",
+      "category": "Western Astrology",
+      "attribute": "Houses",
+      "definition_ja": "第7ハウスは、第7ハウスに割り当てられる伝統的な生活領域と経験テーマを表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:ハウス",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "ハウス"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、第7ハウスを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000040_eighth_house.yml",
+      "id": "AST-000040",
+      "knowledge_type": "western_astrology",
+      "name_ja": "第8ハウス",
+      "name_en": "Eighth House",
+      "category": "Western Astrology",
+      "attribute": "Houses",
+      "definition_ja": "第8ハウスは、第8ハウスに割り当てられる伝統的な生活領域と経験テーマを表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:ハウス",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "ハウス"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、第8ハウスを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000041_ninth_house.yml",
+      "id": "AST-000041",
+      "knowledge_type": "western_astrology",
+      "name_ja": "第9ハウス",
+      "name_en": "Ninth House",
+      "category": "Western Astrology",
+      "attribute": "Houses",
+      "definition_ja": "第9ハウスは、第9ハウスに割り当てられる伝統的な生活領域と経験テーマを表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:ハウス",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "ハウス"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、第9ハウスを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000042_tenth_house.yml",
+      "id": "AST-000042",
+      "knowledge_type": "western_astrology",
+      "name_ja": "第10ハウス",
+      "name_en": "Tenth House",
+      "category": "Western Astrology",
+      "attribute": "Houses",
+      "definition_ja": "第10ハウスは、第10ハウスに割り当てられる伝統的な生活領域と経験テーマを表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:ハウス",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "ハウス"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、第10ハウスを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000043_eleventh_house.yml",
+      "id": "AST-000043",
+      "knowledge_type": "western_astrology",
+      "name_ja": "第11ハウス",
+      "name_en": "Eleventh House",
+      "category": "Western Astrology",
+      "attribute": "Houses",
+      "definition_ja": "第11ハウスは、第11ハウスに割り当てられる伝統的な生活領域と経験テーマを表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:ハウス",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "ハウス"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、第11ハウスを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000044_twelfth_house.yml",
+      "id": "AST-000044",
+      "knowledge_type": "western_astrology",
+      "name_ja": "第12ハウス",
+      "name_en": "Twelfth House",
+      "category": "Western Astrology",
+      "attribute": "Houses",
+      "definition_ja": "第12ハウスは、第12ハウスに割り当てられる伝統的な生活領域と経験テーマを表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:ハウス",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "ハウス"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、第12ハウスを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000045_conjunction.yml",
+      "id": "AST-000045",
+      "knowledge_type": "western_astrology",
+      "name_ja": "コンジャンクション",
+      "name_en": "Conjunction",
+      "category": "Western Astrology",
+      "attribute": "Aspects",
+      "definition_ja": "コンジャンクションは、天体間の黄経差が0度付近となる関係を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:アスペクト",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "アスペクト"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、コンジャンクションを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000046_opposition.yml",
+      "id": "AST-000046",
+      "knowledge_type": "western_astrology",
+      "name_ja": "オポジション",
+      "name_en": "Opposition",
+      "category": "Western Astrology",
+      "attribute": "Aspects",
+      "definition_ja": "オポジションは、天体間の黄経差が180度付近となる関係を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:アスペクト",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "アスペクト"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、オポジションを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000047_trine.yml",
+      "id": "AST-000047",
+      "knowledge_type": "western_astrology",
+      "name_ja": "トライン",
+      "name_en": "Trine",
+      "category": "Western Astrology",
+      "attribute": "Aspects",
+      "definition_ja": "トラインは、天体間の黄経差が120度付近となる関係を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:アスペクト",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "アスペクト"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、トラインを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000048_square.yml",
+      "id": "AST-000048",
+      "knowledge_type": "western_astrology",
+      "name_ja": "スクエア",
+      "name_en": "Square",
+      "category": "Western Astrology",
+      "attribute": "Aspects",
+      "definition_ja": "スクエアは、天体間の黄経差が90度付近となる関係を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:アスペクト",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "アスペクト"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、スクエアを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000049_sextile.yml",
+      "id": "AST-000049",
+      "knowledge_type": "western_astrology",
+      "name_ja": "セクスタイル",
+      "name_en": "Sextile",
+      "category": "Western Astrology",
+      "attribute": "Aspects",
+      "definition_ja": "セクスタイルは、天体間の黄経差が60度付近となる関係を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:アスペクト",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "アスペクト"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、セクスタイルを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000050_quincunx.yml",
+      "id": "AST-000050",
+      "knowledge_type": "western_astrology",
+      "name_ja": "クインカンクス",
+      "name_en": "Quincunx",
+      "category": "Western Astrology",
+      "attribute": "Aspects",
+      "definition_ja": "クインカンクスは、天体間の黄経差が150度付近となる関係を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:アスペクト",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "アスペクト"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、クインカンクスを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000051_semisextile.yml",
+      "id": "AST-000051",
+      "knowledge_type": "western_astrology",
+      "name_ja": "セミセクスタイル",
+      "name_en": "Semi-Sextile",
+      "category": "Western Astrology",
+      "attribute": "Aspects",
+      "definition_ja": "セミセクスタイルは、天体間の黄経差が30度付近となる関係を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:アスペクト",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "アスペクト"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、セミセクスタイルを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000052_semisquare.yml",
+      "id": "AST-000052",
+      "knowledge_type": "western_astrology",
+      "name_ja": "セミスクエア",
+      "name_en": "Semi-Square",
+      "category": "Western Astrology",
+      "attribute": "Aspects",
+      "definition_ja": "セミスクエアは、天体間の黄経差が45度付近となる関係を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:アスペクト",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "アスペクト"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、セミスクエアを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000053_sesquiquadrate.yml",
+      "id": "AST-000053",
+      "knowledge_type": "western_astrology",
+      "name_ja": "セスキコードレート",
+      "name_en": "Sesquiquadrate",
+      "category": "Western Astrology",
+      "attribute": "Aspects",
+      "definition_ja": "セスキコードレートは、天体間の黄経差が135度付近となる関係を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:アスペクト",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "アスペクト"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、セスキコードレートを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000054_aspect_orb.yml",
+      "id": "AST-000054",
+      "knowledge_type": "western_astrology",
+      "name_ja": "オーブ",
+      "name_en": "Aspect Orb",
+      "category": "Western Astrology",
+      "attribute": "Aspects",
+      "definition_ja": "オーブは、アスペクト成立に許容する角度幅を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:アスペクト",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "アスペクト"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、オーブを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000055_domicile.yml",
+      "id": "AST-000055",
+      "knowledge_type": "western_astrology",
+      "name_ja": "ドミサイル",
+      "name_en": "Domicile",
+      "category": "Western Astrology",
+      "attribute": "Essential Dignities",
+      "definition_ja": "ドミサイルは、惑星が支配するサインに位置する伝統的品位を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:品位",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "品位"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、ドミサイルを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000056_detriment.yml",
+      "id": "AST-000056",
+      "knowledge_type": "western_astrology",
+      "name_ja": "デトリメント",
+      "name_en": "Detriment",
+      "category": "Western Astrology",
+      "attribute": "Essential Dignities",
+      "definition_ja": "デトリメントは、支配サインの反対側に位置する伝統的状態を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:品位",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "品位"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、デトリメントを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000057_exaltation.yml",
+      "id": "AST-000057",
+      "knowledge_type": "western_astrology",
+      "name_ja": "エグザルテーション",
+      "name_en": "Exaltation",
+      "category": "Western Astrology",
+      "attribute": "Essential Dignities",
+      "definition_ja": "エグザルテーションは、惑星が高揚するとされるサイン上の品位を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:品位",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "品位"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、エグザルテーションを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000058_fall.yml",
+      "id": "AST-000058",
+      "knowledge_type": "western_astrology",
+      "name_ja": "フォール",
+      "name_en": "Fall",
+      "category": "Western Astrology",
+      "attribute": "Essential Dignities",
+      "definition_ja": "フォールは、高揚サインの反対側に位置する伝統的状態を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:品位",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "品位"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、フォールを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000059_triplicity.yml",
+      "id": "AST-000059",
+      "knowledge_type": "western_astrology",
+      "name_ja": "トリプリシティ",
+      "name_en": "Triplicity",
+      "category": "Western Astrology",
+      "attribute": "Essential Dignities",
+      "definition_ja": "トリプリシティは、エレメント三区分にもとづく伝統的支配関係を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:品位",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "品位"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、トリプリシティを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000060_term.yml",
+      "id": "AST-000060",
+      "knowledge_type": "western_astrology",
+      "name_ja": "ターム",
+      "name_en": "Term",
+      "category": "Western Astrology",
+      "attribute": "Essential Dignities",
+      "definition_ja": "タームは、サイン内の度数区分にもとづく伝統的支配関係を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:品位",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "品位"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、タームを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000061_face.yml",
+      "id": "AST-000061",
+      "knowledge_type": "western_astrology",
+      "name_ja": "フェイス",
+      "name_en": "Face",
+      "category": "Western Astrology",
+      "attribute": "Essential Dignities",
+      "definition_ja": "フェイスは、デーカン区分にもとづく伝統的支配関係を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:品位",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "品位"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、フェイスを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000062_sect.yml",
+      "id": "AST-000062",
+      "knowledge_type": "western_astrology",
+      "name_ja": "セクト",
+      "name_en": "Sect",
+      "category": "Western Astrology",
+      "attribute": "Essential Dignities",
+      "definition_ja": "セクトは、昼夜区分と惑星の所属を結びつける伝統的条件を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:品位",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "品位"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、セクトを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000063_ascendant.yml",
+      "id": "AST-000063",
+      "knowledge_type": "western_astrology",
+      "name_ja": "アセンダント",
+      "name_en": "Ascendant",
+      "category": "Western Astrology",
+      "attribute": "Points and Motion",
+      "definition_ja": "アセンダントは、東の地平線と黄道の交点を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:感受点と運動",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "感受点と運動"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、アセンダントを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000064_midheaven.yml",
+      "id": "AST-000064",
+      "knowledge_type": "western_astrology",
+      "name_ja": "ミッドヘブン",
+      "name_en": "Midheaven",
+      "category": "Western Astrology",
+      "attribute": "Points and Motion",
+      "definition_ja": "ミッドヘブンは、子午線上部と黄道の関係から得る主要感受点を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:感受点と運動",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "感受点と運動"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、ミッドヘブンを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000065_descendant.yml",
+      "id": "AST-000065",
+      "knowledge_type": "western_astrology",
+      "name_ja": "ディセンダント",
+      "name_en": "Descendant",
+      "category": "Western Astrology",
+      "attribute": "Points and Motion",
+      "definition_ja": "ディセンダントは、西の地平線と黄道の交点を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:感受点と運動",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "感受点と運動"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、ディセンダントを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000066_imum_coeli.yml",
+      "id": "AST-000066",
+      "knowledge_type": "western_astrology",
+      "name_ja": "イムム・コエリ",
+      "name_en": "Imum Coeli",
+      "category": "Western Astrology",
+      "attribute": "Points and Motion",
+      "definition_ja": "イムム・コエリは、子午線下部と黄道の関係から得る主要感受点を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:感受点と運動",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "感受点と運動"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、イムム・コエリを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000067_north_node.yml",
+      "id": "AST-000067",
+      "knowledge_type": "western_astrology",
+      "name_ja": "ドラゴンヘッド",
+      "name_en": "North Node",
+      "category": "Western Astrology",
+      "attribute": "Points and Motion",
+      "definition_ja": "ドラゴンヘッドは、月の軌道が黄道を北向きに横切る交点を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:感受点と運動",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "感受点と運動"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、ドラゴンヘッドを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000068_south_node.yml",
+      "id": "AST-000068",
+      "knowledge_type": "western_astrology",
+      "name_ja": "ドラゴンテイル",
+      "name_en": "South Node",
+      "category": "Western Astrology",
+      "attribute": "Points and Motion",
+      "definition_ja": "ドラゴンテイルは、月の軌道が黄道を南向きに横切る交点を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:感受点と運動",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "感受点と運動"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、ドラゴンテイルを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000069_part_of_fortune.yml",
+      "id": "AST-000069",
+      "knowledge_type": "western_astrology",
+      "name_ja": "パート・オブ・フォーチュン",
+      "name_en": "Part of Fortune",
+      "category": "Western Astrology",
+      "attribute": "Points and Motion",
+      "definition_ja": "パート・オブ・フォーチュンは、太陽・月・アセンダントから算出する伝統的感受点を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:感受点と運動",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "感受点と運動"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、パート・オブ・フォーチュンを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000070_chiron.yml",
+      "id": "AST-000070",
+      "knowledge_type": "western_astrology",
+      "name_ja": "キロン",
+      "name_en": "Chiron",
+      "category": "Western Astrology",
+      "attribute": "Points and Motion",
+      "definition_ja": "キロンは、近現代占星術で使用される小天体の象徴を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:感受点と運動",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "感受点と運動"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、キロンを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000071_vertex.yml",
+      "id": "AST-000071",
+      "knowledge_type": "western_astrology",
+      "name_ja": "バーテックス",
+      "name_en": "Vertex",
+      "category": "Western Astrology",
+      "attribute": "Points and Motion",
+      "definition_ja": "バーテックスは、プライム・バーティカルと黄道の交点として用いる感受点を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:感受点と運動",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "感受点と運動"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、バーテックスを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000072_retrograde_motion.yml",
+      "id": "AST-000072",
+      "knowledge_type": "western_astrology",
+      "name_ja": "逆行表示",
+      "name_en": "Retrograde Motion",
+      "category": "Western Astrology",
+      "attribute": "Points and Motion",
+      "definition_ja": "逆行表示は、地球から見た天体の見かけの逆向き運動を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:感受点と運動",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "感受点と運動"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、逆行表示を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000073_transit.yml",
+      "id": "AST-000073",
+      "knowledge_type": "western_astrology",
+      "name_ja": "トランジット",
+      "name_en": "Transit",
+      "category": "Western Astrology",
+      "attribute": "Techniques",
+      "definition_ja": "トランジットは、現在天体と出生図の配置関係を読む技法を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:技法",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "技法"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、トランジットを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000074_secondary_progression.yml",
+      "id": "AST-000074",
+      "knowledge_type": "western_astrology",
+      "name_ja": "セカンダリー・プログレッション",
+      "name_en": "Secondary Progression",
+      "category": "Western Astrology",
+      "attribute": "Techniques",
+      "definition_ja": "セカンダリー・プログレッションは、出生後の日数を年数へ対応させる進行技法を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:技法",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "技法"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、セカンダリー・プログレッションを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000075_solar_arc.yml",
+      "id": "AST-000075",
+      "knowledge_type": "western_astrology",
+      "name_ja": "ソーラーアーク",
+      "name_en": "Solar Arc",
+      "category": "Western Astrology",
+      "attribute": "Techniques",
+      "definition_ja": "ソーラーアークは、太陽の進行量を出生図全体へ適用する技法を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:技法",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "技法"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、ソーラーアークを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000076_solar_return.yml",
+      "id": "AST-000076",
+      "knowledge_type": "western_astrology",
+      "name_ja": "ソーラーリターン",
+      "name_en": "Solar Return",
+      "category": "Western Astrology",
+      "attribute": "Techniques",
+      "definition_ja": "ソーラーリターンは、太陽が出生時黄経へ戻る時点の図を読む技法を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:技法",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "技法"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、ソーラーリターンを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000077_lunar_return.yml",
+      "id": "AST-000077",
+      "knowledge_type": "western_astrology",
+      "name_ja": "ルナーリターン",
+      "name_en": "Lunar Return",
+      "category": "Western Astrology",
+      "attribute": "Techniques",
+      "definition_ja": "ルナーリターンは、月が出生時黄経へ戻る時点の図を読む技法を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:技法",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "技法"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、ルナーリターンを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000078_annual_profection.yml",
+      "id": "AST-000078",
+      "knowledge_type": "western_astrology",
+      "name_ja": "年齢プロフェクション",
+      "name_en": "Annual Profection",
+      "category": "Western Astrology",
+      "attribute": "Techniques",
+      "definition_ja": "年齢プロフェクションは、年齢ごとにハウスと支配星を移す伝統的技法を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:技法",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "技法"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、年齢プロフェクションを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000079_synastry.yml",
+      "id": "AST-000079",
+      "knowledge_type": "western_astrology",
+      "name_ja": "シナストリー",
+      "name_en": "Synastry",
+      "category": "Western Astrology",
+      "attribute": "Techniques",
+      "definition_ja": "シナストリーは、複数の出生図を重ねて象徴関係を読む技法を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:技法",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "技法"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、シナストリーを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000080_composite_chart.yml",
+      "id": "AST-000080",
+      "knowledge_type": "western_astrology",
+      "name_ja": "コンポジットチャート",
+      "name_en": "Composite Chart",
+      "category": "Western Astrology",
+      "attribute": "Techniques",
+      "definition_ja": "コンポジットチャートは、二人の天体位置の中間点から関係図を作る技法を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:技法",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "技法"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、コンポジットチャートを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000081_electional_astrology.yml",
+      "id": "AST-000081",
+      "knowledge_type": "western_astrology",
+      "name_ja": "選択占星術",
+      "name_en": "Electional Astrology",
+      "category": "Western Astrology",
+      "attribute": "Techniques",
+      "definition_ja": "選択占星術は、目的に合わせて開始時刻を選ぶ伝統的技法を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:技法",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "技法"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、選択占星術を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000082_horary_astrology.yml",
+      "id": "AST-000082",
+      "knowledge_type": "western_astrology",
+      "name_ja": "ホラリー占星術",
+      "name_en": "Horary Astrology",
+      "category": "Western Astrology",
+      "attribute": "Techniques",
+      "definition_ja": "ホラリー占星術は、質問時点の図を用いる伝統的技法を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:技法",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "技法"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、ホラリー占星術を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000083_house_system_choice.yml",
+      "id": "AST-000083",
+      "knowledge_type": "western_astrology",
+      "name_ja": "ハウス方式選択",
+      "name_en": "House System Choice",
+      "category": "Western Astrology",
+      "attribute": "Synthesis and Limits",
+      "definition_ja": "ハウス方式選択は、プラシーダス・ホールサイン等の採用方式を明示することを表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:統合と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "統合と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、ハウス方式選択を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000084_birth_time_sensitivity.yml",
+      "id": "AST-000084",
+      "knowledge_type": "western_astrology",
+      "name_ja": "出生時刻感度",
+      "name_en": "Birth Time Sensitivity",
+      "category": "Western Astrology",
+      "attribute": "Synthesis and Limits",
+      "definition_ja": "出生時刻感度は、時刻誤差が角度やハウスへ与える影響を扱うことを表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:統合と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "統合と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、出生時刻感度を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000085_chart_rectification.yml",
+      "id": "AST-000085",
+      "knowledge_type": "western_astrology",
+      "name_ja": "出生時刻修正",
+      "name_en": "Chart Rectification",
+      "category": "Western Astrology",
+      "attribute": "Synthesis and Limits",
+      "definition_ja": "出生時刻修正は、既知の出来事から出生時刻を推定する流派技法と不確実性を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:統合と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "統合と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、出生時刻修正を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000086_element_balance.yml",
+      "id": "AST-000086",
+      "knowledge_type": "western_astrology",
+      "name_ja": "エレメント配分",
+      "name_en": "Element Balance",
+      "category": "Western Astrology",
+      "attribute": "Synthesis and Limits",
+      "definition_ja": "エレメント配分は、サインの火地風水区分の分布を整理することを表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:統合と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "統合と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、エレメント配分を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000087_modality_balance.yml",
+      "id": "AST-000087",
+      "knowledge_type": "western_astrology",
+      "name_ja": "三区分配分",
+      "name_en": "Modality Balance",
+      "category": "Western Astrology",
+      "attribute": "Synthesis and Limits",
+      "definition_ja": "三区分配分は、活動・不動・柔軟の区分分布を整理することを表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:統合と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "統合と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、三区分配分を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000088_hemisphere_emphasis.yml",
+      "id": "AST-000088",
+      "knowledge_type": "western_astrology",
+      "name_ja": "半球強調",
+      "name_en": "Hemisphere Emphasis",
+      "category": "Western Astrology",
+      "attribute": "Synthesis and Limits",
+      "definition_ja": "半球強調は、出生図上の天体分布を半球別に読む技法を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:統合と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "統合と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、半球強調を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000089_chart_ruler.yml",
+      "id": "AST-000089",
+      "knowledge_type": "western_astrology",
+      "name_ja": "チャートルーラー",
+      "name_en": "Chart Ruler",
+      "category": "Western Astrology",
+      "attribute": "Synthesis and Limits",
+      "definition_ja": "チャートルーラーは、アセンダントの支配星を全体解釈の手掛かりとすることを表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:統合と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "統合と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、チャートルーラーを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000090_dispositor_chain.yml",
+      "id": "AST-000090",
+      "knowledge_type": "western_astrology",
+      "name_ja": "ディスポジターチェーン",
+      "name_en": "Dispositor Chain",
+      "category": "Western Astrology",
+      "attribute": "Synthesis and Limits",
+      "definition_ja": "ディスポジターチェーンは、サイン支配関係を連鎖として追跡することを表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:統合と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "統合と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、ディスポジターチェーンを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000091_stellium.yml",
+      "id": "AST-000091",
+      "knowledge_type": "western_astrology",
+      "name_ja": "ステリウム",
+      "name_en": "Stellium",
+      "category": "Western Astrology",
+      "attribute": "Synthesis and Limits",
+      "definition_ja": "ステリウムは、複数天体がサインまたはハウスへ集中する配置を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:統合と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "統合と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、ステリウムを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000092_t_square.yml",
+      "id": "AST-000092",
+      "knowledge_type": "western_astrology",
+      "name_ja": "Tスクエア",
+      "name_en": "T-Square",
+      "category": "Western Astrology",
+      "attribute": "Synthesis and Limits",
+      "definition_ja": "Tスクエアは、二つのスクエアと一つのオポジションからなる配置を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:統合と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "統合と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、Tスクエアを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000093_grand_trine.yml",
+      "id": "AST-000093",
+      "knowledge_type": "western_astrology",
+      "name_ja": "グランドトライン",
+      "name_en": "Grand Trine",
+      "category": "Western Astrology",
+      "attribute": "Synthesis and Limits",
+      "definition_ja": "グランドトラインは、三つのトラインが閉じる配置を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:統合と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "統合と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、グランドトラインを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000094_grand_cross.yml",
+      "id": "AST-000094",
+      "knowledge_type": "western_astrology",
+      "name_ja": "グランドクロス",
+      "name_en": "Grand Cross",
+      "category": "Western Astrology",
+      "attribute": "Synthesis and Limits",
+      "definition_ja": "グランドクロスは、複数のスクエアとオポジションが交差する配置を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:統合と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "統合と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、グランドクロスを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000095_yod.yml",
+      "id": "AST-000095",
+      "knowledge_type": "western_astrology",
+      "name_ja": "ヨッド",
+      "name_en": "Yod",
+      "category": "Western Astrology",
+      "attribute": "Synthesis and Limits",
+      "definition_ja": "ヨッドは、二つのクインカンクスと一つのセクスタイルからなる配置を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:統合と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "統合と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、ヨッドを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000096_mutual_reception.yml",
+      "id": "AST-000096",
+      "knowledge_type": "western_astrology",
+      "name_ja": "ミューチュアルレセプション",
+      "name_en": "Mutual Reception",
+      "category": "Western Astrology",
+      "attribute": "Synthesis and Limits",
+      "definition_ja": "ミューチュアルレセプションは、二惑星が互いの支配サインに位置する関係を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:統合と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "統合と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、ミューチュアルレセプションを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000097_whole_chart_priority.yml",
+      "id": "AST-000097",
+      "knowledge_type": "western_astrology",
+      "name_ja": "全体図優先",
+      "name_en": "Whole-Chart Priority",
+      "category": "Western Astrology",
+      "attribute": "Synthesis and Limits",
+      "definition_ja": "全体図優先は、単一サインや天体だけで人物を断定しない原則を表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:統合と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "統合と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、全体図優先を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000098_interpretive_plurality.yml",
+      "id": "AST-000098",
+      "knowledge_type": "western_astrology",
+      "name_ja": "解釈多元性",
+      "name_en": "Interpretive Plurality",
+      "category": "Western Astrology",
+      "attribute": "Synthesis and Limits",
+      "definition_ja": "解釈多元性は、同じ配置に複数の伝統的読みが存在することを表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:統合と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "統合と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、解釈多元性を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000099_uncertainty_disclosure.yml",
+      "id": "AST-000099",
+      "knowledge_type": "western_astrology",
+      "name_ja": "不確実性表示",
+      "name_en": "Uncertainty Disclosure",
+      "category": "Western Astrology",
+      "attribute": "Synthesis and Limits",
+      "definition_ja": "不確実性表示は、入力誤差・方式差・流派差を結果に表示することを表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:統合と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "統合と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、不確実性表示を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    },
+    {
+      "filename": "AST-000100_non_diagnostic_use.yml",
+      "id": "AST-000100",
+      "knowledge_type": "western_astrology",
+      "name_ja": "非診断利用",
+      "name_en": "Non-Diagnostic Use",
+      "category": "Western Astrology",
+      "attribute": "Synthesis and Limits",
+      "definition_ja": "非診断利用は、心理診断・医療判断・能力評価へ転用しないことを表す西洋占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:西洋占星術",
+        "CAT:統合と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "統合と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "西洋占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "採用する黄道",
+        "ハウス方式"
+      ],
+      "calculation_basis": "天体暦から黄経・感受点・ハウス・角度関係を算出し採用方式を記録する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "西洋占星術では、非診断利用を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "メソポタミア・ヘレニズム以後の西洋占星術史と伝統・近現代諸流派"
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 {
   "output_dir": "vol4_cognitive_bias/motivation_reward_bias",
   "index_filename": "motivation_reward_bias_index.yml",
-  "index_content": "category: Cognitive Bias - Motivation Reward Bias\nname_ja: 認知バイアス・動機報酬バイアス\nitems:\n  - BIAS-000051_reward_bias.yml\n  - BIAS-000052_effort_justification.yml\n  - BIAS-000053_incentive_salience_bias.yml\n  - BIAS-000054_motivation_crowding_effect.yml\n  - BIAS-000055_goal_gradient_effect.yml\n  - BIAS-000056_endowment_effect.yml\n  - BIAS-000057_ikea_effect.yml\n  - BIAS-000058_default_effect.yml\n  - BIAS-000059_commitment_bias.yml\n  - BIAS-000060_urgency_effect.yml\nnotes:\n  - 動機報酬バイアスは性格や能力ではなく推論材料として扱う\n  - 報酬・努力・所有・締切に対する選択偏りを中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
+  "index_content": "category: Cognitive Bias - Motivation Reward Bias\nname_ja: 認知バイアス・動機報酬バイアス\nitems:\n  - COG-000051_reward_bias.yml\n  - COG-000052_effort_justification.yml\n  - COG-000053_incentive_salience_bias.yml\n  - COG-000054_motivation_crowding_effect.yml\n  - COG-000055_goal_gradient_effect.yml\n  - COG-000056_endowment_effect.yml\n  - COG-000057_ikea_effect.yml\n  - COG-000058_default_effect.yml\n  - COG-000059_commitment_bias.yml\n  - COG-000060_urgency_effect.yml\nnotes:\n  - 動機報酬バイアスは性格や能力ではなく推論材料として扱う\n  - 報酬・努力・所有・締切に対する選択偏りを中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
   "items": [
     {
-      "filename": "BIAS-000051_reward_bias.yml",
-      "id": "BIAS-000051",
+      "filename": "COG-000051_reward_bias.yml",
+      "id": "COG-000051",
       "knowledge_type": "cognitive_bias",
       "name_ja": "報酬バイアス",
       "name_en": "Reward Bias",
@@ -23,8 +23,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000052_effort_justification.yml",
-      "id": "BIAS-000052",
+      "filename": "COG-000052_effort_justification.yml",
+      "id": "COG-000052",
       "knowledge_type": "cognitive_bias",
       "name_ja": "努力の正当化",
       "name_en": "Effort Justification",
@@ -42,8 +42,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000053_incentive_salience_bias.yml",
-      "id": "BIAS-000053",
+      "filename": "COG-000053_incentive_salience_bias.yml",
+      "id": "COG-000053",
       "knowledge_type": "cognitive_bias",
       "name_ja": "誘因顕著性バイアス",
       "name_en": "Incentive Salience Bias",
@@ -61,8 +61,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000054_motivation_crowding_effect.yml",
-      "id": "BIAS-000054",
+      "filename": "COG-000054_motivation_crowding_effect.yml",
+      "id": "COG-000054",
       "knowledge_type": "cognitive_bias",
       "name_ja": "動機づけのクラウディング効果",
       "name_en": "Motivation Crowding Effect",
@@ -80,8 +80,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000055_goal_gradient_effect.yml",
-      "id": "BIAS-000055",
+      "filename": "COG-000055_goal_gradient_effect.yml",
+      "id": "COG-000055",
       "knowledge_type": "cognitive_bias",
       "name_ja": "目標勾配効果",
       "name_en": "Goal Gradient Effect",
@@ -99,8 +99,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000056_endowment_effect.yml",
-      "id": "BIAS-000056",
+      "filename": "COG-000056_endowment_effect.yml",
+      "id": "COG-000056",
       "knowledge_type": "cognitive_bias",
       "name_ja": "保有効果",
       "name_en": "Endowment Effect",
@@ -118,8 +118,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000057_ikea_effect.yml",
-      "id": "BIAS-000057",
+      "filename": "COG-000057_ikea_effect.yml",
+      "id": "COG-000057",
       "knowledge_type": "cognitive_bias",
       "name_ja": "IKEA効果",
       "name_en": "IKEA Effect",
@@ -137,8 +137,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000058_default_effect.yml",
-      "id": "BIAS-000058",
+      "filename": "COG-000058_default_effect.yml",
+      "id": "COG-000058",
       "knowledge_type": "cognitive_bias",
       "name_ja": "デフォルト効果",
       "name_en": "Default Effect",
@@ -156,8 +156,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000059_commitment_bias.yml",
-      "id": "BIAS-000059",
+      "filename": "COG-000059_commitment_bias.yml",
+      "id": "COG-000059",
       "knowledge_type": "cognitive_bias",
       "name_ja": "コミットメントバイアス",
       "name_en": "Commitment Bias",
@@ -175,8 +175,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000060_urgency_effect.yml",
-      "id": "BIAS-000060",
+      "filename": "COG-000060_urgency_effect.yml",
+      "id": "COG-000060",
       "knowledge_type": "cognitive_bias",
       "name_ja": "緊急性効果",
       "name_en": "Urgency Effect",

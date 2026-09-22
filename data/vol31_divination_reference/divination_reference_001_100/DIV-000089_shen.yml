@@ -1,0 +1,50 @@
+id: DIV-000089
+knowledge_type: divination_reference
+name_ja: 申
+name_en: Shen
+category: Divination Reference
+attribute: Earthly Branches
+definition_ja: 申は、十二支の申という暦上の分類を表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。
+tags:
+  - CAT:占術参照
+  - CAT:十二支
+  - EVIDENCE:伝統的解釈
+parent:
+  - 十二支
+related:
+  - 自己理解
+  - 文化的象徴
+  - 解釈不確実性
+observable_data:
+  - 利用者が明示的に提供した入力
+  - 採用した計算規則と流派
+  - 入力精度と欠測
+  - 生成された象徴配置
+signal_candidates:
+  - 入力と計算規則から再現可能な象徴配置を取得する
+  - 複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する
+device_level: 本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない
+modifiers:
+  - 流派
+  - 地域と時代
+  - 暦法
+  - 入力精度
+  - 翻訳
+  - 解釈目的
+evidence: 歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない
+status: active
+tradition: 干支暦法
+source_type: 暦・伝統的分類体系
+evidence_class: traditional_cultural_interpretation
+required_inputs:
+  - 使用する暦・時点
+  - 適用する流派規則
+calculation_basis: 十干十二支・陰陽五行・節気を用いる。暦変換と日界・時刻規則は流派と実装で固定する
+trait_links:
+  - 自己理解
+  - 価値観
+  - 意思決定
+  - 対人傾向
+interpretive_scope: 内省・会話・物語生成・娯楽のための解釈候補
+safe_expression: 干支暦法では、申を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。
+provenance: 中国の相関的宇宙論・干支暦法と、それを用いる東アジアの諸伝統

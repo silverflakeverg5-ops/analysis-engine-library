@@ -1,11 +1,11 @@
 {
   "output_dir": "vol8_physiology/physiology_001_050",
   "index_filename": "physiology_001_050_index.yml",
-  "index_content": "category: Physiology\nname_ja: 生理\nitems:\n  - PHYS-000001_sleep_duration.yml\n  - PHYS-000002_sleep_quality.yml\n  - PHYS-000003_sleep_regularness.yml\n  - PHYS-000004_sleep_latency.yml\n  - PHYS-000005_night_waking.yml\n  - PHYS-000006_daytime_sleepiness.yml\n  - PHYS-000007_sleep_debt.yml\n  - PHYS-000008_circadian_stability.yml\n  - PHYS-000009_chronotype_tendency.yml\n  - PHYS-000010_sleep_recovery.yml\n  - PHYS-000011_physical_fatigue.yml\n  - PHYS-000012_mental_fatigue.yml\n  - PHYS-000013_fatigue_accumulation.yml\n  - PHYS-000014_recovery_rate.yml\n  - PHYS-000015_energy_level.yml\n  - PHYS-000016_vigor.yml\n  - PHYS-000017_burnout_risk_state.yml\n  - PHYS-000018_rest_deficit.yml\n  - PHYS-000019_overexertion.yml\n  - PHYS-000020_fatigue_sensitivity.yml\n  - PHYS-000021_acute_stress_response.yml\n  - PHYS-000022_chronic_stress_state.yml\n  - PHYS-000023_arousal_level.yml\n  - PHYS-000024_hyperarousal.yml\n  - PHYS-000025_underarousal.yml\n  - PHYS-000026_stress_recovery.yml\n  - PHYS-000027_autonomic_balance.yml\n  - PHYS-000028_tension_state.yml\n  - PHYS-000029_relaxation_state.yml\n  - PHYS-000030_stress_tolerance.yml\n  - PHYS-000031_daily_activity_rhythm.yml\n  - PHYS-000032_meal_timing.yml\n  - PHYS-000033_hydration_state.yml\n  - PHYS-000034_body_temperature_rhythm.yml\n  - PHYS-000035_menstrual_cycle_context.yml\n  - PHYS-000036_seasonal_physiological_change.yml\n  - PHYS-000037_jet_lag_state.yml\n  - PHYS-000038_shift_work_rhythm.yml\n  - PHYS-000039_weekend_social_jetlag.yml\n  - PHYS-000040_recovery_rhythm.yml\n  - PHYS-000041_pain_state.yml\n  - PHYS-000042_headache_state.yml\n  - PHYS-000043_digestive_condition.yml\n  - PHYS-000044_muscle_tension.yml\n  - PHYS-000045_posture_condition.yml\n  - PHYS-000046_visual_strain.yml\n  - PHYS-000047_hearing_load.yml\n  - PHYS-000048_illness_state.yml\n  - PHYS-000049_medication_context.yml\n  - PHYS-000050_physical_condition_integration.yml\nnotes:\n  - 生理要因は医療診断ではなく補正要因として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
+  "index_content": "category: Physiology\nname_ja: 生理\nitems:\n  - PHY-000001_sleep_duration.yml\n  - PHY-000002_sleep_quality.yml\n  - PHY-000003_sleep_regularness.yml\n  - PHY-000004_sleep_latency.yml\n  - PHY-000005_night_waking.yml\n  - PHY-000006_daytime_sleepiness.yml\n  - PHY-000007_sleep_debt.yml\n  - PHY-000008_circadian_stability.yml\n  - PHY-000009_chronotype_tendency.yml\n  - PHY-000010_sleep_recovery.yml\n  - PHY-000011_physical_fatigue.yml\n  - PHY-000012_mental_fatigue.yml\n  - PHY-000013_fatigue_accumulation.yml\n  - PHY-000014_recovery_rate.yml\n  - PHY-000015_energy_level.yml\n  - PHY-000016_vigor.yml\n  - PHY-000017_burnout_risk_state.yml\n  - PHY-000018_rest_deficit.yml\n  - PHY-000019_overexertion.yml\n  - PHY-000020_fatigue_sensitivity.yml\n  - PHY-000021_acute_stress_response.yml\n  - PHY-000022_chronic_stress_state.yml\n  - PHY-000023_arousal_level.yml\n  - PHY-000024_hyperarousal.yml\n  - PHY-000025_underarousal.yml\n  - PHY-000026_stress_recovery.yml\n  - PHY-000027_autonomic_balance.yml\n  - PHY-000028_tension_state.yml\n  - PHY-000029_relaxation_state.yml\n  - PHY-000030_stress_tolerance.yml\n  - PHY-000031_daily_activity_rhythm.yml\n  - PHY-000032_meal_timing.yml\n  - PHY-000033_hydration_state.yml\n  - PHY-000034_body_temperature_rhythm.yml\n  - PHY-000035_menstrual_cycle_context.yml\n  - PHY-000036_seasonal_physiological_change.yml\n  - PHY-000037_jet_lag_state.yml\n  - PHY-000038_shift_work_rhythm.yml\n  - PHY-000039_weekend_social_jetlag.yml\n  - PHY-000040_recovery_rhythm.yml\n  - PHY-000041_pain_state.yml\n  - PHY-000042_headache_state.yml\n  - PHY-000043_digestive_condition.yml\n  - PHY-000044_muscle_tension.yml\n  - PHY-000045_posture_condition.yml\n  - PHY-000046_visual_strain.yml\n  - PHY-000047_hearing_load.yml\n  - PHY-000048_illness_state.yml\n  - PHY-000049_medication_context.yml\n  - PHY-000050_physical_condition_integration.yml\nnotes:\n  - 生理要因は医療診断ではなく補正要因として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
   "items": [
     {
-      "filename": "PHYS-000001_sleep_duration.yml",
-      "id": "PHYS-000001",
+      "filename": "PHY-000001_sleep_duration.yml",
+      "id": "PHY-000001",
       "knowledge_type": "physiology_factor",
       "name_ja": "睡眠時間",
       "name_en": "Sleep Duration",
@@ -46,8 +46,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000002_sleep_quality.yml",
-      "id": "PHYS-000002",
+      "filename": "PHY-000002_sleep_quality.yml",
+      "id": "PHY-000002",
       "knowledge_type": "physiology_factor",
       "name_ja": "睡眠の質",
       "name_en": "Sleep Quality",
@@ -88,8 +88,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000003_sleep_regularness.yml",
-      "id": "PHYS-000003",
+      "filename": "PHY-000003_sleep_regularness.yml",
+      "id": "PHY-000003",
       "knowledge_type": "physiology_factor",
       "name_ja": "睡眠規則性",
       "name_en": "Sleep Regularness",
@@ -130,8 +130,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000004_sleep_latency.yml",
-      "id": "PHYS-000004",
+      "filename": "PHY-000004_sleep_latency.yml",
+      "id": "PHY-000004",
       "knowledge_type": "physiology_factor",
       "name_ja": "入眠潜時",
       "name_en": "Sleep Latency",
@@ -172,8 +172,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000005_night_waking.yml",
-      "id": "PHYS-000005",
+      "filename": "PHY-000005_night_waking.yml",
+      "id": "PHY-000005",
       "knowledge_type": "physiology_factor",
       "name_ja": "中途覚醒",
       "name_en": "Night Waking",
@@ -214,8 +214,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000006_daytime_sleepiness.yml",
-      "id": "PHYS-000006",
+      "filename": "PHY-000006_daytime_sleepiness.yml",
+      "id": "PHY-000006",
       "knowledge_type": "physiology_factor",
       "name_ja": "日中眠気",
       "name_en": "Daytime Sleepiness",
@@ -256,8 +256,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000007_sleep_debt.yml",
-      "id": "PHYS-000007",
+      "filename": "PHY-000007_sleep_debt.yml",
+      "id": "PHY-000007",
       "knowledge_type": "physiology_factor",
       "name_ja": "睡眠負債",
       "name_en": "Sleep Debt",
@@ -298,8 +298,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000008_circadian_stability.yml",
-      "id": "PHYS-000008",
+      "filename": "PHY-000008_circadian_stability.yml",
+      "id": "PHY-000008",
       "knowledge_type": "physiology_factor",
       "name_ja": "概日安定性",
       "name_en": "Circadian Stability",
@@ -340,8 +340,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000009_chronotype_tendency.yml",
-      "id": "PHYS-000009",
+      "filename": "PHY-000009_chronotype_tendency.yml",
+      "id": "PHY-000009",
       "knowledge_type": "physiology_factor",
       "name_ja": "朝型夜型傾向",
       "name_en": "Chronotype Tendency",
@@ -382,8 +382,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000010_sleep_recovery.yml",
-      "id": "PHYS-000010",
+      "filename": "PHY-000010_sleep_recovery.yml",
+      "id": "PHY-000010",
       "knowledge_type": "physiology_factor",
       "name_ja": "睡眠回復",
       "name_en": "Sleep Recovery",
@@ -424,8 +424,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000011_physical_fatigue.yml",
-      "id": "PHYS-000011",
+      "filename": "PHY-000011_physical_fatigue.yml",
+      "id": "PHY-000011",
       "knowledge_type": "physiology_factor",
       "name_ja": "身体疲労",
       "name_en": "Physical Fatigue",
@@ -466,8 +466,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000012_mental_fatigue.yml",
-      "id": "PHYS-000012",
+      "filename": "PHY-000012_mental_fatigue.yml",
+      "id": "PHY-000012",
       "knowledge_type": "physiology_factor",
       "name_ja": "精神疲労",
       "name_en": "Mental Fatigue",
@@ -508,8 +508,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000013_fatigue_accumulation.yml",
-      "id": "PHYS-000013",
+      "filename": "PHY-000013_fatigue_accumulation.yml",
+      "id": "PHY-000013",
       "knowledge_type": "physiology_factor",
       "name_ja": "疲労蓄積",
       "name_en": "Fatigue Accumulation",
@@ -550,8 +550,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000014_recovery_rate.yml",
-      "id": "PHYS-000014",
+      "filename": "PHY-000014_recovery_rate.yml",
+      "id": "PHY-000014",
       "knowledge_type": "physiology_factor",
       "name_ja": "回復速度",
       "name_en": "Recovery Rate",
@@ -592,8 +592,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000015_energy_level.yml",
-      "id": "PHYS-000015",
+      "filename": "PHY-000015_energy_level.yml",
+      "id": "PHY-000015",
       "knowledge_type": "physiology_factor",
       "name_ja": "エネルギー水準",
       "name_en": "Energy Level",
@@ -634,8 +634,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000016_vigor.yml",
-      "id": "PHYS-000016",
+      "filename": "PHY-000016_vigor.yml",
+      "id": "PHY-000016",
       "knowledge_type": "physiology_factor",
       "name_ja": "活力",
       "name_en": "Vigor",
@@ -676,8 +676,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000017_burnout_risk_state.yml",
-      "id": "PHYS-000017",
+      "filename": "PHY-000017_burnout_risk_state.yml",
+      "id": "PHY-000017",
       "knowledge_type": "physiology_factor",
       "name_ja": "燃え尽きリスク状態",
       "name_en": "Burnout Risk State",
@@ -718,8 +718,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000018_rest_deficit.yml",
-      "id": "PHYS-000018",
+      "filename": "PHY-000018_rest_deficit.yml",
+      "id": "PHY-000018",
       "knowledge_type": "physiology_factor",
       "name_ja": "休息不足",
       "name_en": "Rest Deficit",
@@ -760,8 +760,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000019_overexertion.yml",
-      "id": "PHYS-000019",
+      "filename": "PHY-000019_overexertion.yml",
+      "id": "PHY-000019",
       "knowledge_type": "physiology_factor",
       "name_ja": "過活動",
       "name_en": "Overexertion",
@@ -802,8 +802,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000020_fatigue_sensitivity.yml",
-      "id": "PHYS-000020",
+      "filename": "PHY-000020_fatigue_sensitivity.yml",
+      "id": "PHY-000020",
       "knowledge_type": "physiology_factor",
       "name_ja": "疲労感受性",
       "name_en": "Fatigue Sensitivity",
@@ -844,8 +844,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000021_acute_stress_response.yml",
-      "id": "PHYS-000021",
+      "filename": "PHY-000021_acute_stress_response.yml",
+      "id": "PHY-000021",
       "knowledge_type": "physiology_factor",
       "name_ja": "急性ストレス反応",
       "name_en": "Acute Stress Response",
@@ -886,8 +886,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000022_chronic_stress_state.yml",
-      "id": "PHYS-000022",
+      "filename": "PHY-000022_chronic_stress_state.yml",
+      "id": "PHY-000022",
       "knowledge_type": "physiology_factor",
       "name_ja": "慢性ストレス状態",
       "name_en": "Chronic Stress State",
@@ -928,8 +928,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000023_arousal_level.yml",
-      "id": "PHYS-000023",
+      "filename": "PHY-000023_arousal_level.yml",
+      "id": "PHY-000023",
       "knowledge_type": "physiology_factor",
       "name_ja": "覚醒水準",
       "name_en": "Arousal Level",
@@ -970,8 +970,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000024_hyperarousal.yml",
-      "id": "PHYS-000024",
+      "filename": "PHY-000024_hyperarousal.yml",
+      "id": "PHY-000024",
       "knowledge_type": "physiology_factor",
       "name_ja": "過覚醒",
       "name_en": "Hyperarousal",
@@ -1012,8 +1012,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000025_underarousal.yml",
-      "id": "PHYS-000025",
+      "filename": "PHY-000025_underarousal.yml",
+      "id": "PHY-000025",
       "knowledge_type": "physiology_factor",
       "name_ja": "低覚醒",
       "name_en": "Underarousal",
@@ -1054,8 +1054,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000026_stress_recovery.yml",
-      "id": "PHYS-000026",
+      "filename": "PHY-000026_stress_recovery.yml",
+      "id": "PHY-000026",
       "knowledge_type": "physiology_factor",
       "name_ja": "ストレス回復",
       "name_en": "Stress Recovery",
@@ -1096,8 +1096,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000027_autonomic_balance.yml",
-      "id": "PHYS-000027",
+      "filename": "PHY-000027_autonomic_balance.yml",
+      "id": "PHY-000027",
       "knowledge_type": "physiology_factor",
       "name_ja": "自律神経バランス",
       "name_en": "Autonomic Balance",
@@ -1138,8 +1138,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000028_tension_state.yml",
-      "id": "PHYS-000028",
+      "filename": "PHY-000028_tension_state.yml",
+      "id": "PHY-000028",
       "knowledge_type": "physiology_factor",
       "name_ja": "緊張状態",
       "name_en": "Tension State",
@@ -1180,8 +1180,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000029_relaxation_state.yml",
-      "id": "PHYS-000029",
+      "filename": "PHY-000029_relaxation_state.yml",
+      "id": "PHY-000029",
       "knowledge_type": "physiology_factor",
       "name_ja": "リラックス状態",
       "name_en": "Relaxation State",
@@ -1222,8 +1222,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000030_stress_tolerance.yml",
-      "id": "PHYS-000030",
+      "filename": "PHY-000030_stress_tolerance.yml",
+      "id": "PHY-000030",
       "knowledge_type": "physiology_factor",
       "name_ja": "ストレス耐性",
       "name_en": "Stress Tolerance",
@@ -1264,8 +1264,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000031_daily_activity_rhythm.yml",
-      "id": "PHYS-000031",
+      "filename": "PHY-000031_daily_activity_rhythm.yml",
+      "id": "PHY-000031",
       "knowledge_type": "physiology_factor",
       "name_ja": "日内活動リズム",
       "name_en": "Daily Activity Rhythm",
@@ -1306,8 +1306,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000032_meal_timing.yml",
-      "id": "PHYS-000032",
+      "filename": "PHY-000032_meal_timing.yml",
+      "id": "PHY-000032",
       "knowledge_type": "physiology_factor",
       "name_ja": "食事タイミング",
       "name_en": "Meal Timing",
@@ -1348,8 +1348,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000033_hydration_state.yml",
-      "id": "PHYS-000033",
+      "filename": "PHY-000033_hydration_state.yml",
+      "id": "PHY-000033",
       "knowledge_type": "physiology_factor",
       "name_ja": "水分状態",
       "name_en": "Hydration State",
@@ -1390,8 +1390,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000034_body_temperature_rhythm.yml",
-      "id": "PHYS-000034",
+      "filename": "PHY-000034_body_temperature_rhythm.yml",
+      "id": "PHY-000034",
       "knowledge_type": "physiology_factor",
       "name_ja": "体温リズム",
       "name_en": "Body Temperature Rhythm",
@@ -1432,8 +1432,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000035_menstrual_cycle_context.yml",
-      "id": "PHYS-000035",
+      "filename": "PHY-000035_menstrual_cycle_context.yml",
+      "id": "PHY-000035",
       "knowledge_type": "physiology_factor",
       "name_ja": "月経周期文脈",
       "name_en": "Menstrual Cycle Context",
@@ -1474,8 +1474,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000036_seasonal_physiological_change.yml",
-      "id": "PHYS-000036",
+      "filename": "PHY-000036_seasonal_physiological_change.yml",
+      "id": "PHY-000036",
       "knowledge_type": "physiology_factor",
       "name_ja": "季節性生理変化",
       "name_en": "Seasonal Physiological Change",
@@ -1516,8 +1516,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000037_jet_lag_state.yml",
-      "id": "PHYS-000037",
+      "filename": "PHY-000037_jet_lag_state.yml",
+      "id": "PHY-000037",
       "knowledge_type": "physiology_factor",
       "name_ja": "時差ぼけ状態",
       "name_en": "Jet Lag State",
@@ -1558,8 +1558,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000038_shift_work_rhythm.yml",
-      "id": "PHYS-000038",
+      "filename": "PHY-000038_shift_work_rhythm.yml",
+      "id": "PHY-000038",
       "knowledge_type": "physiology_factor",
       "name_ja": "交代勤務リズム",
       "name_en": "Shift Work Rhythm",
@@ -1600,8 +1600,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000039_weekend_social_jetlag.yml",
-      "id": "PHYS-000039",
+      "filename": "PHY-000039_weekend_social_jetlag.yml",
+      "id": "PHY-000039",
       "knowledge_type": "physiology_factor",
       "name_ja": "社会的時差ぼけ",
       "name_en": "Social Jetlag",
@@ -1642,8 +1642,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000040_recovery_rhythm.yml",
-      "id": "PHYS-000040",
+      "filename": "PHY-000040_recovery_rhythm.yml",
+      "id": "PHY-000040",
       "knowledge_type": "physiology_factor",
       "name_ja": "回復リズム",
       "name_en": "Recovery Rhythm",
@@ -1684,8 +1684,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000041_pain_state.yml",
-      "id": "PHYS-000041",
+      "filename": "PHY-000041_pain_state.yml",
+      "id": "PHY-000041",
       "knowledge_type": "physiology_factor",
       "name_ja": "痛み状態",
       "name_en": "Pain State",
@@ -1726,8 +1726,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000042_headache_state.yml",
-      "id": "PHYS-000042",
+      "filename": "PHY-000042_headache_state.yml",
+      "id": "PHY-000042",
       "knowledge_type": "physiology_factor",
       "name_ja": "頭痛状態",
       "name_en": "Headache State",
@@ -1768,8 +1768,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000043_digestive_condition.yml",
-      "id": "PHYS-000043",
+      "filename": "PHY-000043_digestive_condition.yml",
+      "id": "PHY-000043",
       "knowledge_type": "physiology_factor",
       "name_ja": "消化状態",
       "name_en": "Digestive Condition",
@@ -1810,8 +1810,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000044_muscle_tension.yml",
-      "id": "PHYS-000044",
+      "filename": "PHY-000044_muscle_tension.yml",
+      "id": "PHY-000044",
       "knowledge_type": "physiology_factor",
       "name_ja": "筋緊張",
       "name_en": "Muscle Tension",
@@ -1852,8 +1852,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000045_posture_condition.yml",
-      "id": "PHYS-000045",
+      "filename": "PHY-000045_posture_condition.yml",
+      "id": "PHY-000045",
       "knowledge_type": "physiology_factor",
       "name_ja": "姿勢状態",
       "name_en": "Posture Condition",
@@ -1894,8 +1894,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000046_visual_strain.yml",
-      "id": "PHYS-000046",
+      "filename": "PHY-000046_visual_strain.yml",
+      "id": "PHY-000046",
       "knowledge_type": "physiology_factor",
       "name_ja": "眼精疲労",
       "name_en": "Visual Strain",
@@ -1936,8 +1936,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000047_hearing_load.yml",
-      "id": "PHYS-000047",
+      "filename": "PHY-000047_hearing_load.yml",
+      "id": "PHY-000047",
       "knowledge_type": "physiology_factor",
       "name_ja": "聴覚負荷",
       "name_en": "Hearing Load",
@@ -1978,8 +1978,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000048_illness_state.yml",
-      "id": "PHYS-000048",
+      "filename": "PHY-000048_illness_state.yml",
+      "id": "PHY-000048",
       "knowledge_type": "physiology_factor",
       "name_ja": "体調不良状態",
       "name_en": "Illness State",
@@ -2020,8 +2020,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000049_medication_context.yml",
-      "id": "PHYS-000049",
+      "filename": "PHY-000049_medication_context.yml",
+      "id": "PHY-000049",
       "knowledge_type": "physiology_factor",
       "name_ja": "服薬文脈",
       "name_en": "Medication Context",
@@ -2062,8 +2062,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000050_physical_condition_integration.yml",
-      "id": "PHYS-000050",
+      "filename": "PHY-000050_physical_condition_integration.yml",
+      "id": "PHY-000050",
       "knowledge_type": "physiology_factor",
       "name_ja": "体調統合",
       "name_en": "Physical Condition Integration",

@@ -10,6 +10,7 @@ AUDIT_SCRIPTS = [
     "scripts/audit_orphan_items.py",
     "scripts/audit_tag_consistency.py",
     "scripts/audit_status_values.py",
+    "scripts/audit_divination_reference.py",
 ]
 
 def main():

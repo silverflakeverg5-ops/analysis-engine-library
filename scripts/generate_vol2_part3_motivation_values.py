@@ -4,7 +4,7 @@ BASE = Path("data/vol2_personality/motivation_values")
 BASE.mkdir(parents=True, exist_ok=True)
 
 files = {
-    "MOT-000001_achievement_motivation.yml": """id: MOT-000001
+    "PER-000016_achievement_motivation.yml": """id: PER-000016
 knowledge_type: trait
 name_ja: 達成動機
 name_en: Achievement Motivation
@@ -40,7 +40,7 @@ evidence: 動機づけ心理学・教育心理学で使用
 status: active
 """,
 
-    "MOT-000002_intrinsic_motivation.yml": """id: MOT-000002
+    "PER-000017_intrinsic_motivation.yml": """id: PER-000017
 knowledge_type: trait
 name_ja: 内発的動機
 name_en: Intrinsic Motivation
@@ -75,7 +75,7 @@ evidence: 自己決定理論・教育心理学で重要
 status: active
 """,
 
-    "MOT-000003_extrinsic_motivation.yml": """id: MOT-000003
+    "PER-000018_extrinsic_motivation.yml": """id: PER-000018
 knowledge_type: trait
 name_ja: 外発的動機
 name_en: Extrinsic Motivation
@@ -107,7 +107,7 @@ evidence: 動機づけ心理学・行動科学で使用
 status: active
 """,
 
-    "MOT-000004_autonomy.yml": """id: MOT-000004
+    "PER-000019_autonomy.yml": """id: PER-000019
 knowledge_type: trait
 name_ja: 自律性
 name_en: Autonomy
@@ -140,7 +140,7 @@ evidence: 自己決定理論で主要概念
 status: active
 """,
 
-    "VAL-000001_security_value.yml": """id: VAL-000001
+    "PER-000020_security_value.yml": """id: PER-000020
 knowledge_type: value
 name_ja: 安全志向
 name_en: Security Orientation
@@ -174,7 +174,7 @@ evidence: 価値観研究・意思決定研究で使用
 status: active
 """,
 
-    "VAL-000002_growth_value.yml": """id: VAL-000002
+    "PER-000021_growth_value.yml": """id: PER-000021
 knowledge_type: value
 name_ja: 成長志向
 name_en: Growth Orientation
@@ -210,12 +210,12 @@ status: active
     "motivation_values_index.yml": """category: Motivation and Values
 name_ja: 動機・価値観
 items:
-  - MOT-000001_achievement_motivation.yml
-  - MOT-000002_intrinsic_motivation.yml
-  - MOT-000003_extrinsic_motivation.yml
-  - MOT-000004_autonomy.yml
-  - VAL-000001_security_value.yml
-  - VAL-000002_growth_value.yml
+  - PER-000016_achievement_motivation.yml
+  - PER-000017_intrinsic_motivation.yml
+  - PER-000018_extrinsic_motivation.yml
+  - PER-000019_autonomy.yml
+  - PER-000020_security_value.yml
+  - PER-000021_growth_value.yml
 notes:
   - 動機と価値観は統合しない
   - 状態ではなく比較的安定した傾向として管理する

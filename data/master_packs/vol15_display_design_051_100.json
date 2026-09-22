@@ -1,11 +1,11 @@
 {
   "output_dir": "vol15_display_design/display_design_051_100",
   "index_filename": "display_design_051_100_index.yml",
-  "index_content": "category: Display Design\nname_ja: 表示設計\nitems:\n  - DISPLAY-000051_personalized_result_display.yml\n  - DISPLAY-000052_adaptive_detail_level.yml\n  - DISPLAY-000053_adaptive_tone_display.yml\n  - DISPLAY-000054_user_selected_display_mode.yml\n  - DISPLAY-000055_beginner_friendly_display.yml\n  - DISPLAY-000056_expert_mode_display.yml\n  - DISPLAY-000057_accessibility_display.yml\n  - DISPLAY-000058_low_cognitive_load_display.yml\n  - DISPLAY-000059_context_aware_copy.yml\n  - DISPLAY-000060_personalization_control_display.yml\n  - DISPLAY-000061_result_feedback_button.yml\n  - DISPLAY-000062_not_applicable_option.yml\n  - DISPLAY-000063_correction_input_display.yml\n  - DISPLAY-000064_preference_feedback_display.yml\n  - DISPLAY-000065_explanation_request_button.yml\n  - DISPLAY-000066_dismiss_reason_prompt.yml\n  - DISPLAY-000067_usefulness_rating.yml\n  - DISPLAY-000068_feedback_history_display.yml\n  - DISPLAY-000069_adaptive_learning_notice.yml\n  - DISPLAY-000070_feedback_loop_integration.yml\n  - DISPLAY-000071_gentle_notification.yml\n  - DISPLAY-000072_timely_notification.yml\n  - DISPLAY-000073_low_priority_notification.yml\n  - DISPLAY-000074_high_importance_notification.yml\n  - DISPLAY-000075_notification_frequency_control.yml\n  - DISPLAY-000076_notification_batching.yml\n  - DISPLAY-000077_snooze_option.yml\n  - DISPLAY-000078_notification_reason_display.yml\n  - DISPLAY-000079_context_sensitive_reminder.yml\n  - DISPLAY-000080_notification_safety_guard.yml\n  - DISPLAY-000081_data_used_display.yml\n  - DISPLAY-000082_data_not_used_display.yml\n  - DISPLAY-000083_data_recency_display.yml\n  - DISPLAY-000084_data_amount_display.yml\n  - DISPLAY-000085_data_quality_warning.yml\n  - DISPLAY-000086_privacy_scope_display.yml\n  - DISPLAY-000087_consent_status_display.yml\n  - DISPLAY-000088_delete_data_path_display.yml\n  - DISPLAY-000089_data_export_notice.yml\n  - DISPLAY-000090_transparency_integration.yml\n  - DISPLAY-000091_display_policy.yml\n  - DISPLAY-000092_result_card_template.yml\n  - DISPLAY-000093_safe_result_template.yml\n  - DISPLAY-000094_explanation_template.yml\n  - DISPLAY-000095_suggestion_template.yml\n  - DISPLAY-000096_uncertainty_template.yml\n  - DISPLAY-000097_user_control_template.yml\n  - DISPLAY-000098_multi_app_display_consistency.yml\n  - DISPLAY-000099_display_audit.yml\n  - DISPLAY-000100_display_design_integration.yml\nnotes:\n  - 表示設計は推論結果ではなくアプリ側の表現材料として扱う\n  - Knowledge DB側ではスコアリングしない\n  - アプリ側で用途・安全性・文脈に応じて表示を調整する\n",
+  "index_content": "category: Display Design\nname_ja: 表示設計\nitems:\n  - DSP-000051_personalized_result_display.yml\n  - DSP-000052_adaptive_detail_level.yml\n  - DSP-000053_adaptive_tone_display.yml\n  - DSP-000054_user_selected_display_mode.yml\n  - DSP-000055_beginner_friendly_display.yml\n  - DSP-000056_expert_mode_display.yml\n  - DSP-000057_accessibility_display.yml\n  - DSP-000058_low_cognitive_load_display.yml\n  - DSP-000059_context_aware_copy.yml\n  - DSP-000060_personalization_control_display.yml\n  - DSP-000061_result_feedback_button.yml\n  - DSP-000062_not_applicable_option.yml\n  - DSP-000063_correction_input_display.yml\n  - DSP-000064_preference_feedback_display.yml\n  - DSP-000065_explanation_request_button.yml\n  - DSP-000066_dismiss_reason_prompt.yml\n  - DSP-000067_usefulness_rating.yml\n  - DSP-000068_feedback_history_display.yml\n  - DSP-000069_adaptive_learning_notice.yml\n  - DSP-000070_feedback_loop_integration.yml\n  - DSP-000071_gentle_notification.yml\n  - DSP-000072_timely_notification.yml\n  - DSP-000073_low_priority_notification.yml\n  - DSP-000074_high_importance_notification.yml\n  - DSP-000075_notification_frequency_control.yml\n  - DSP-000076_notification_batching.yml\n  - DSP-000077_snooze_option.yml\n  - DSP-000078_notification_reason_display.yml\n  - DSP-000079_context_sensitive_reminder.yml\n  - DSP-000080_notification_safety_guard.yml\n  - DSP-000081_data_used_display.yml\n  - DSP-000082_data_not_used_display.yml\n  - DSP-000083_data_recency_display.yml\n  - DSP-000084_data_amount_display.yml\n  - DSP-000085_data_quality_warning.yml\n  - DSP-000086_privacy_scope_display.yml\n  - DSP-000087_consent_status_display.yml\n  - DSP-000088_delete_data_path_display.yml\n  - DSP-000089_data_export_notice.yml\n  - DSP-000090_transparency_integration.yml\n  - DSP-000091_display_policy.yml\n  - DSP-000092_result_card_template.yml\n  - DSP-000093_safe_result_template.yml\n  - DSP-000094_explanation_template.yml\n  - DSP-000095_suggestion_template.yml\n  - DSP-000096_uncertainty_template.yml\n  - DSP-000097_user_control_template.yml\n  - DSP-000098_multi_app_display_consistency.yml\n  - DSP-000099_display_audit.yml\n  - DSP-000100_display_design_integration.yml\nnotes:\n  - 表示設計は推論結果ではなくアプリ側の表現材料として扱う\n  - Knowledge DB側ではスコアリングしない\n  - アプリ側で用途・安全性・文脈に応じて表示を調整する\n",
   "items": [
     {
-      "filename": "DISPLAY-000051_personalized_result_display.yml",
-      "id": "DISPLAY-000051",
+      "filename": "DSP-000051_personalized_result_display.yml",
+      "id": "DSP-000051",
       "knowledge_type": "display_design",
       "name_ja": "個別化結果表示",
       "name_en": "Personalized Result Display",
@@ -46,8 +46,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000052_adaptive_detail_level.yml",
-      "id": "DISPLAY-000052",
+      "filename": "DSP-000052_adaptive_detail_level.yml",
+      "id": "DSP-000052",
       "knowledge_type": "display_design",
       "name_ja": "詳細度適応",
       "name_en": "Adaptive Detail Level",
@@ -88,8 +88,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000053_adaptive_tone_display.yml",
-      "id": "DISPLAY-000053",
+      "filename": "DSP-000053_adaptive_tone_display.yml",
+      "id": "DSP-000053",
       "knowledge_type": "display_design",
       "name_ja": "トーン適応表示",
       "name_en": "Adaptive Tone Display",
@@ -130,8 +130,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000054_user_selected_display_mode.yml",
-      "id": "DISPLAY-000054",
+      "filename": "DSP-000054_user_selected_display_mode.yml",
+      "id": "DSP-000054",
       "knowledge_type": "display_design",
       "name_ja": "ユーザー選択表示モード",
       "name_en": "User Selected Display Mode",
@@ -172,8 +172,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000055_beginner_friendly_display.yml",
-      "id": "DISPLAY-000055",
+      "filename": "DSP-000055_beginner_friendly_display.yml",
+      "id": "DSP-000055",
       "knowledge_type": "display_design",
       "name_ja": "初心者向け表示",
       "name_en": "Beginner Friendly Display",
@@ -214,8 +214,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000056_expert_mode_display.yml",
-      "id": "DISPLAY-000056",
+      "filename": "DSP-000056_expert_mode_display.yml",
+      "id": "DSP-000056",
       "knowledge_type": "display_design",
       "name_ja": "詳細モード表示",
       "name_en": "Expert Mode Display",
@@ -256,8 +256,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000057_accessibility_display.yml",
-      "id": "DISPLAY-000057",
+      "filename": "DSP-000057_accessibility_display.yml",
+      "id": "DSP-000057",
       "knowledge_type": "display_design",
       "name_ja": "アクセシビリティ表示",
       "name_en": "Accessibility Display",
@@ -298,8 +298,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000058_low_cognitive_load_display.yml",
-      "id": "DISPLAY-000058",
+      "filename": "DSP-000058_low_cognitive_load_display.yml",
+      "id": "DSP-000058",
       "knowledge_type": "display_design",
       "name_ja": "低認知負荷表示",
       "name_en": "Low Cognitive Load Display",
@@ -340,8 +340,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000059_context_aware_copy.yml",
-      "id": "DISPLAY-000059",
+      "filename": "DSP-000059_context_aware_copy.yml",
+      "id": "DSP-000059",
       "knowledge_type": "display_design",
       "name_ja": "文脈対応コピー",
       "name_en": "Context Aware Copy",
@@ -382,8 +382,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000060_personalization_control_display.yml",
-      "id": "DISPLAY-000060",
+      "filename": "DSP-000060_personalization_control_display.yml",
+      "id": "DSP-000060",
       "knowledge_type": "display_design",
       "name_ja": "個別化制御表示",
       "name_en": "Personalization Control Display",
@@ -424,8 +424,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000061_result_feedback_button.yml",
-      "id": "DISPLAY-000061",
+      "filename": "DSP-000061_result_feedback_button.yml",
+      "id": "DSP-000061",
       "knowledge_type": "display_design",
       "name_ja": "結果フィードバックボタン",
       "name_en": "Result Feedback Button",
@@ -466,8 +466,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000062_not_applicable_option.yml",
-      "id": "DISPLAY-000062",
+      "filename": "DSP-000062_not_applicable_option.yml",
+      "id": "DSP-000062",
       "knowledge_type": "display_design",
       "name_ja": "該当しない選択肢",
       "name_en": "Not Applicable Option",
@@ -508,8 +508,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000063_correction_input_display.yml",
-      "id": "DISPLAY-000063",
+      "filename": "DSP-000063_correction_input_display.yml",
+      "id": "DSP-000063",
       "knowledge_type": "display_design",
       "name_ja": "修正入力表示",
       "name_en": "Correction Input Display",
@@ -550,8 +550,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000064_preference_feedback_display.yml",
-      "id": "DISPLAY-000064",
+      "filename": "DSP-000064_preference_feedback_display.yml",
+      "id": "DSP-000064",
       "knowledge_type": "display_design",
       "name_ja": "嗜好フィードバック表示",
       "name_en": "Preference Feedback Display",
@@ -592,8 +592,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000065_explanation_request_button.yml",
-      "id": "DISPLAY-000065",
+      "filename": "DSP-000065_explanation_request_button.yml",
+      "id": "DSP-000065",
       "knowledge_type": "display_design",
       "name_ja": "説明要求ボタン",
       "name_en": "Explanation Request Button",
@@ -634,8 +634,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000066_dismiss_reason_prompt.yml",
-      "id": "DISPLAY-000066",
+      "filename": "DSP-000066_dismiss_reason_prompt.yml",
+      "id": "DSP-000066",
       "knowledge_type": "display_design",
       "name_ja": "非表示理由確認",
       "name_en": "Dismiss Reason Prompt",
@@ -676,8 +676,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000067_usefulness_rating.yml",
-      "id": "DISPLAY-000067",
+      "filename": "DSP-000067_usefulness_rating.yml",
+      "id": "DSP-000067",
       "knowledge_type": "display_design",
       "name_ja": "有用度評価",
       "name_en": "Usefulness Rating",
@@ -718,8 +718,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000068_feedback_history_display.yml",
-      "id": "DISPLAY-000068",
+      "filename": "DSP-000068_feedback_history_display.yml",
+      "id": "DSP-000068",
       "knowledge_type": "display_design",
       "name_ja": "フィードバック履歴表示",
       "name_en": "Feedback History Display",
@@ -760,8 +760,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000069_adaptive_learning_notice.yml",
-      "id": "DISPLAY-000069",
+      "filename": "DSP-000069_adaptive_learning_notice.yml",
+      "id": "DSP-000069",
       "knowledge_type": "display_design",
       "name_ja": "適応学習通知",
       "name_en": "Adaptive Learning Notice",
@@ -802,8 +802,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000070_feedback_loop_integration.yml",
-      "id": "DISPLAY-000070",
+      "filename": "DSP-000070_feedback_loop_integration.yml",
+      "id": "DSP-000070",
       "knowledge_type": "display_design",
       "name_ja": "フィードバックループ統合",
       "name_en": "Feedback Loop Integration",
@@ -844,8 +844,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000071_gentle_notification.yml",
-      "id": "DISPLAY-000071",
+      "filename": "DSP-000071_gentle_notification.yml",
+      "id": "DSP-000071",
       "knowledge_type": "display_design",
       "name_ja": "やさしい通知",
       "name_en": "Gentle Notification",
@@ -886,8 +886,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000072_timely_notification.yml",
-      "id": "DISPLAY-000072",
+      "filename": "DSP-000072_timely_notification.yml",
+      "id": "DSP-000072",
       "knowledge_type": "display_design",
       "name_ja": "適時通知",
       "name_en": "Timely Notification",
@@ -928,8 +928,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000073_low_priority_notification.yml",
-      "id": "DISPLAY-000073",
+      "filename": "DSP-000073_low_priority_notification.yml",
+      "id": "DSP-000073",
       "knowledge_type": "display_design",
       "name_ja": "低優先通知",
       "name_en": "Low Priority Notification",
@@ -970,8 +970,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000074_high_importance_notification.yml",
-      "id": "DISPLAY-000074",
+      "filename": "DSP-000074_high_importance_notification.yml",
+      "id": "DSP-000074",
       "knowledge_type": "display_design",
       "name_ja": "重要通知",
       "name_en": "High Importance Notification",
@@ -1012,8 +1012,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000075_notification_frequency_control.yml",
-      "id": "DISPLAY-000075",
+      "filename": "DSP-000075_notification_frequency_control.yml",
+      "id": "DSP-000075",
       "knowledge_type": "display_design",
       "name_ja": "通知頻度制御",
       "name_en": "Notification Frequency Control",
@@ -1054,8 +1054,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000076_notification_batching.yml",
-      "id": "DISPLAY-000076",
+      "filename": "DSP-000076_notification_batching.yml",
+      "id": "DSP-000076",
       "knowledge_type": "display_design",
       "name_ja": "通知まとめ表示",
       "name_en": "Notification Batching",
@@ -1096,8 +1096,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000077_snooze_option.yml",
-      "id": "DISPLAY-000077",
+      "filename": "DSP-000077_snooze_option.yml",
+      "id": "DSP-000077",
       "knowledge_type": "display_design",
       "name_ja": "後で通知オプション",
       "name_en": "Snooze Option",
@@ -1138,8 +1138,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000078_notification_reason_display.yml",
-      "id": "DISPLAY-000078",
+      "filename": "DSP-000078_notification_reason_display.yml",
+      "id": "DSP-000078",
       "knowledge_type": "display_design",
       "name_ja": "通知理由表示",
       "name_en": "Notification Reason Display",
@@ -1180,8 +1180,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000079_context_sensitive_reminder.yml",
-      "id": "DISPLAY-000079",
+      "filename": "DSP-000079_context_sensitive_reminder.yml",
+      "id": "DSP-000079",
       "knowledge_type": "display_design",
       "name_ja": "文脈感知リマインダー",
       "name_en": "Context Sensitive Reminder",
@@ -1222,8 +1222,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000080_notification_safety_guard.yml",
-      "id": "DISPLAY-000080",
+      "filename": "DSP-000080_notification_safety_guard.yml",
+      "id": "DSP-000080",
       "knowledge_type": "display_design",
       "name_ja": "通知安全ガード",
       "name_en": "Notification Safety Guard",
@@ -1264,8 +1264,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000081_data_used_display.yml",
-      "id": "DISPLAY-000081",
+      "filename": "DSP-000081_data_used_display.yml",
+      "id": "DSP-000081",
       "knowledge_type": "display_design",
       "name_ja": "使用データ表示",
       "name_en": "Data Used Display",
@@ -1306,8 +1306,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000082_data_not_used_display.yml",
-      "id": "DISPLAY-000082",
+      "filename": "DSP-000082_data_not_used_display.yml",
+      "id": "DSP-000082",
       "knowledge_type": "display_design",
       "name_ja": "未使用データ表示",
       "name_en": "Data Not Used Display",
@@ -1348,8 +1348,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000083_data_recency_display.yml",
-      "id": "DISPLAY-000083",
+      "filename": "DSP-000083_data_recency_display.yml",
+      "id": "DSP-000083",
       "knowledge_type": "display_design",
       "name_ja": "データ鮮度表示",
       "name_en": "Data Recency Display",
@@ -1390,8 +1390,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000084_data_amount_display.yml",
-      "id": "DISPLAY-000084",
+      "filename": "DSP-000084_data_amount_display.yml",
+      "id": "DSP-000084",
       "knowledge_type": "display_design",
       "name_ja": "データ量表示",
       "name_en": "Data Amount Display",
@@ -1432,8 +1432,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000085_data_quality_warning.yml",
-      "id": "DISPLAY-000085",
+      "filename": "DSP-000085_data_quality_warning.yml",
+      "id": "DSP-000085",
       "knowledge_type": "display_design",
       "name_ja": "データ品質注意表示",
       "name_en": "Data Quality Warning",
@@ -1474,8 +1474,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000086_privacy_scope_display.yml",
-      "id": "DISPLAY-000086",
+      "filename": "DSP-000086_privacy_scope_display.yml",
+      "id": "DSP-000086",
       "knowledge_type": "display_design",
       "name_ja": "プライバシー範囲表示",
       "name_en": "Privacy Scope Display",
@@ -1516,8 +1516,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000087_consent_status_display.yml",
-      "id": "DISPLAY-000087",
+      "filename": "DSP-000087_consent_status_display.yml",
+      "id": "DSP-000087",
       "knowledge_type": "display_design",
       "name_ja": "同意状態表示",
       "name_en": "Consent Status Display",
@@ -1558,8 +1558,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000088_delete_data_path_display.yml",
-      "id": "DISPLAY-000088",
+      "filename": "DSP-000088_delete_data_path_display.yml",
+      "id": "DSP-000088",
       "knowledge_type": "display_design",
       "name_ja": "データ削除導線表示",
       "name_en": "Delete Data Path Display",
@@ -1600,8 +1600,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000089_data_export_notice.yml",
-      "id": "DISPLAY-000089",
+      "filename": "DSP-000089_data_export_notice.yml",
+      "id": "DSP-000089",
       "knowledge_type": "display_design",
       "name_ja": "データ確認案内",
       "name_en": "Data Export Notice",
@@ -1642,8 +1642,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000090_transparency_integration.yml",
-      "id": "DISPLAY-000090",
+      "filename": "DSP-000090_transparency_integration.yml",
+      "id": "DSP-000090",
       "knowledge_type": "display_design",
       "name_ja": "透明性統合",
       "name_en": "Transparency Integration",
@@ -1684,8 +1684,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000091_display_policy.yml",
-      "id": "DISPLAY-000091",
+      "filename": "DSP-000091_display_policy.yml",
+      "id": "DSP-000091",
       "knowledge_type": "display_design",
       "name_ja": "表示方針",
       "name_en": "Display Policy",
@@ -1726,8 +1726,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000092_result_card_template.yml",
-      "id": "DISPLAY-000092",
+      "filename": "DSP-000092_result_card_template.yml",
+      "id": "DSP-000092",
       "knowledge_type": "display_design",
       "name_ja": "結果カードテンプレート",
       "name_en": "Result Card Template",
@@ -1768,8 +1768,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000093_safe_result_template.yml",
-      "id": "DISPLAY-000093",
+      "filename": "DSP-000093_safe_result_template.yml",
+      "id": "DSP-000093",
       "knowledge_type": "display_design",
       "name_ja": "安全結果テンプレート",
       "name_en": "Safe Result Template",
@@ -1810,8 +1810,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000094_explanation_template.yml",
-      "id": "DISPLAY-000094",
+      "filename": "DSP-000094_explanation_template.yml",
+      "id": "DSP-000094",
       "knowledge_type": "display_design",
       "name_ja": "説明テンプレート",
       "name_en": "Explanation Template",
@@ -1852,8 +1852,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000095_suggestion_template.yml",
-      "id": "DISPLAY-000095",
+      "filename": "DSP-000095_suggestion_template.yml",
+      "id": "DSP-000095",
       "knowledge_type": "display_design",
       "name_ja": "提案テンプレート",
       "name_en": "Suggestion Template",
@@ -1894,8 +1894,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000096_uncertainty_template.yml",
-      "id": "DISPLAY-000096",
+      "filename": "DSP-000096_uncertainty_template.yml",
+      "id": "DSP-000096",
       "knowledge_type": "display_design",
       "name_ja": "不確実性テンプレート",
       "name_en": "Uncertainty Template",
@@ -1936,8 +1936,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000097_user_control_template.yml",
-      "id": "DISPLAY-000097",
+      "filename": "DSP-000097_user_control_template.yml",
+      "id": "DSP-000097",
       "knowledge_type": "display_design",
       "name_ja": "ユーザー制御テンプレート",
       "name_en": "User Control Template",
@@ -1978,8 +1978,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000098_multi_app_display_consistency.yml",
-      "id": "DISPLAY-000098",
+      "filename": "DSP-000098_multi_app_display_consistency.yml",
+      "id": "DSP-000098",
       "knowledge_type": "display_design",
       "name_ja": "複数アプリ表示一貫性",
       "name_en": "Multi App Display Consistency",
@@ -2020,8 +2020,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000099_display_audit.yml",
-      "id": "DISPLAY-000099",
+      "filename": "DSP-000099_display_audit.yml",
+      "id": "DSP-000099",
       "knowledge_type": "display_design",
       "name_ja": "表示監査",
       "name_en": "Display Audit",
@@ -2062,8 +2062,8 @@
       "status": "active"
     },
     {
-      "filename": "DISPLAY-000100_display_design_integration.yml",
-      "id": "DISPLAY-000100",
+      "filename": "DSP-000100_display_design_integration.yml",
+      "id": "DSP-000100",
       "knowledge_type": "display_design",
       "name_ja": "表示設計統合",
       "name_en": "Display Design Integration",

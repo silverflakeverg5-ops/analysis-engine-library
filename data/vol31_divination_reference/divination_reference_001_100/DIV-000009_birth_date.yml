@@ -1,0 +1,52 @@
+id: DIV-000009
+knowledge_type: divination_reference
+name_ja: 生年月日
+name_en: Birth Date
+category: Divination Reference
+attribute: Birth Data and Calculation
+definition_ja: 生年月日は、暦上の日付を計算の基礎入力として扱うことを表す占術参照概念。科学的な性格検査・心理診断・未来予測としては扱わない。
+tags:
+  - CAT:占術参照
+  - CAT:出生データと計算
+  - EVIDENCE:伝統的解釈
+parent:
+  - 出生データと計算
+related:
+  - 自己理解
+  - 文化的象徴
+  - 解釈不確実性
+observable_data:
+  - 利用者が明示的に提供した入力
+  - 採用した計算規則と流派
+  - 入力精度と欠測
+  - 生成された象徴配置
+signal_candidates:
+  - 入力と計算規則から再現可能な象徴配置を取得する
+  - 複数の象徴を単一の性格断定へ短絡させず解釈候補として提示する
+device_level: 本人同意のある入力だけを使用し、医療・雇用・教育・保険・信用・法執行の判断には利用しない
+modifiers:
+  - 流派
+  - 地域と時代
+  - 暦法
+  - 入力精度
+  - 翻訳
+  - 解釈目的
+evidence: 歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない
+status: active
+tradition: 占術共通計算基盤
+source_type: 利用者が明示的に提供した出生データ
+evidence_class: traditional_cultural_interpretation
+required_inputs:
+  - 利用目的
+  - 同意
+  - 利用可能な出生データ
+  - 入力精度
+calculation_basis: 採用する暦・時間帯・位置計算・境界規則を再現可能な形で記録する
+trait_links:
+  - 自己理解
+  - 価値観
+  - 意思決定
+  - 対人傾向
+interpretive_scope: 内省・会話・物語生成・娯楽のための解釈候補
+safe_expression: 占術共通計算基盤では、生年月日を象徴的な手掛かりの一つとして解釈します。現実の性格や状態を断定するものではありません。
+provenance: 暦法・時刻制度・天体位置計算の記録仕様

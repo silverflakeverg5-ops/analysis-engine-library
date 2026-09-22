@@ -1,11 +1,11 @@
 {
   "output_dir": "vol11_observation_signals/observation_signals_151_200",
   "index_filename": "observation_signals_151_200_index.yml",
-  "index_content": "category: Observation Signal\nname_ja: 観測シグナル\nitems:\n  - SIGNAL-000151_confirmation_search_pattern.yml\n  - SIGNAL-000152_anchor_dependency_signal.yml\n  - SIGNAL-000153_default_retention_signal.yml\n  - SIGNAL-000154_loss_avoidance_signal.yml\n  - SIGNAL-000155_recency_dependency_signal.yml\n  - SIGNAL-000156_social_proof_dependency_signal.yml\n  - SIGNAL-000157_authority_reference_signal.yml\n  - SIGNAL-000158_scarcity_response_signal.yml\n  - SIGNAL-000159_choice_overload_signal.yml\n  - SIGNAL-000160_present_bias_signal.yml\n  - SIGNAL-000161_reward_response_rate.yml\n  - SIGNAL-000162_badge_response_rate.yml\n  - SIGNAL-000163_streak_preservation_behavior.yml\n  - SIGNAL-000164_goal_proximity_acceleration.yml\n  - SIGNAL-000165_challenge_acceptance_rate.yml\n  - SIGNAL-000166_challenge_avoidance_rate.yml\n  - SIGNAL-000167_self_initiated_action_count.yml\n  - SIGNAL-000168_reward_removal_drop.yml\n  - SIGNAL-000169_effort_investment_signal.yml\n  - SIGNAL-000170_motivation_recovery_signal.yml\n  - SIGNAL-000171_sensitive_input_signal.yml\n  - SIGNAL-000172_distress_expression_signal.yml\n  - SIGNAL-000173_dependency_risk_signal.yml\n  - SIGNAL-000174_privacy_risk_signal.yml\n  - SIGNAL-000175_manipulation_susceptibility_signal.yml\n  - SIGNAL-000176_over_disclosure_signal.yml\n  - SIGNAL-000177_boundary_violation_signal.yml\n  - SIGNAL-000178_harmful_interaction_signal.yml\n  - SIGNAL-000179_safety_escalation_signal.yml\n  - SIGNAL-000180_ethical_review_signal.yml\n  - SIGNAL-000181_data_missing_rate.yml\n  - SIGNAL-000182_data_noise_level.yml\n  - SIGNAL-000183_signal_confidence_score.yml\n  - SIGNAL-000184_sample_size_signal.yml\n  - SIGNAL-000185_measurement_context_signal.yml\n  - SIGNAL-000186_outlier_detection_signal.yml\n  - SIGNAL-000187_duplicate_event_signal.yml\n  - SIGNAL-000188_sensor_reliability_signal.yml\n  - SIGNAL-000189_self_report_consistency.yml\n  - SIGNAL-000190_behavior_report_gap.yml\n  - SIGNAL-000191_diagnosis_app_signal.yml\n  - SIGNAL-000192_game_behavior_signal.yml\n  - SIGNAL-000193_assistant_app_signal.yml\n  - SIGNAL-000194_education_app_signal.yml\n  - SIGNAL-000195_work_support_signal.yml\n  - SIGNAL-000196_wellbeing_signal.yml\n  - SIGNAL-000197_compatibility_signal.yml\n  - SIGNAL-000198_personalization_signal.yml\n  - SIGNAL-000199_intervention_timing_signal.yml\n  - SIGNAL-000200_observation_signal_integration.yml\nnotes:\n  - 観測シグナルは推論結果ではなく入力材料として扱う\n  - アプリ側でスコアリング・推論・表示を行う\n  - 生データではなく観測可能な指標候補として管理する\n",
+  "index_content": "category: Observation Signal\nname_ja: 観測シグナル\nitems:\n  - OBS-000151_confirmation_search_pattern.yml\n  - OBS-000152_anchor_dependency_signal.yml\n  - OBS-000153_default_retention_signal.yml\n  - OBS-000154_loss_avoidance_signal.yml\n  - OBS-000155_recency_dependency_signal.yml\n  - OBS-000156_social_proof_dependency_signal.yml\n  - OBS-000157_authority_reference_signal.yml\n  - OBS-000158_scarcity_response_signal.yml\n  - OBS-000159_choice_overload_signal.yml\n  - OBS-000160_present_bias_signal.yml\n  - OBS-000161_reward_response_rate.yml\n  - OBS-000162_badge_response_rate.yml\n  - OBS-000163_streak_preservation_behavior.yml\n  - OBS-000164_goal_proximity_acceleration.yml\n  - OBS-000165_challenge_acceptance_rate.yml\n  - OBS-000166_challenge_avoidance_rate.yml\n  - OBS-000167_self_initiated_action_count.yml\n  - OBS-000168_reward_removal_drop.yml\n  - OBS-000169_effort_investment_signal.yml\n  - OBS-000170_motivation_recovery_signal.yml\n  - OBS-000171_sensitive_input_signal.yml\n  - OBS-000172_distress_expression_signal.yml\n  - OBS-000173_dependency_risk_signal.yml\n  - OBS-000174_privacy_risk_signal.yml\n  - OBS-000175_manipulation_susceptibility_signal.yml\n  - OBS-000176_over_disclosure_signal.yml\n  - OBS-000177_boundary_violation_signal.yml\n  - OBS-000178_harmful_interaction_signal.yml\n  - OBS-000179_safety_escalation_signal.yml\n  - OBS-000180_ethical_review_signal.yml\n  - OBS-000181_data_missing_rate.yml\n  - OBS-000182_data_noise_level.yml\n  - OBS-000183_signal_confidence_score.yml\n  - OBS-000184_sample_size_signal.yml\n  - OBS-000185_measurement_context_signal.yml\n  - OBS-000186_outlier_detection_signal.yml\n  - OBS-000187_duplicate_event_signal.yml\n  - OBS-000188_sensor_reliability_signal.yml\n  - OBS-000189_self_report_consistency.yml\n  - OBS-000190_behavior_report_gap.yml\n  - OBS-000191_diagnosis_app_signal.yml\n  - OBS-000192_game_behavior_signal.yml\n  - OBS-000193_assistant_app_signal.yml\n  - OBS-000194_education_app_signal.yml\n  - OBS-000195_work_support_signal.yml\n  - OBS-000196_wellbeing_signal.yml\n  - OBS-000197_compatibility_signal.yml\n  - OBS-000198_personalization_signal.yml\n  - OBS-000199_intervention_timing_signal.yml\n  - OBS-000200_observation_signal_integration.yml\nnotes:\n  - 観測シグナルは推論結果ではなく入力材料として扱う\n  - アプリ側でスコアリング・推論・表示を行う\n  - 生データではなく観測可能な指標候補として管理する\n",
   "items": [
     {
-      "filename": "SIGNAL-000151_confirmation_search_pattern.yml",
-      "id": "SIGNAL-000151",
+      "filename": "OBS-000151_confirmation_search_pattern.yml",
+      "id": "OBS-000151",
       "knowledge_type": "observation_signal",
       "name_ja": "確証探索パターン",
       "name_en": "Confirmation Search Pattern",
@@ -46,8 +46,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000152_anchor_dependency_signal.yml",
-      "id": "SIGNAL-000152",
+      "filename": "OBS-000152_anchor_dependency_signal.yml",
+      "id": "OBS-000152",
       "knowledge_type": "observation_signal",
       "name_ja": "アンカー依存シグナル",
       "name_en": "Anchor Dependency Signal",
@@ -88,8 +88,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000153_default_retention_signal.yml",
-      "id": "SIGNAL-000153",
+      "filename": "OBS-000153_default_retention_signal.yml",
+      "id": "OBS-000153",
       "knowledge_type": "observation_signal",
       "name_ja": "デフォルト維持シグナル",
       "name_en": "Default Retention Signal",
@@ -130,8 +130,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000154_loss_avoidance_signal.yml",
-      "id": "SIGNAL-000154",
+      "filename": "OBS-000154_loss_avoidance_signal.yml",
+      "id": "OBS-000154",
       "knowledge_type": "observation_signal",
       "name_ja": "損失回避シグナル",
       "name_en": "Loss Avoidance Signal",
@@ -172,8 +172,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000155_recency_dependency_signal.yml",
-      "id": "SIGNAL-000155",
+      "filename": "OBS-000155_recency_dependency_signal.yml",
+      "id": "OBS-000155",
       "knowledge_type": "observation_signal",
       "name_ja": "直近依存シグナル",
       "name_en": "Recency Dependency Signal",
@@ -214,8 +214,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000156_social_proof_dependency_signal.yml",
-      "id": "SIGNAL-000156",
+      "filename": "OBS-000156_social_proof_dependency_signal.yml",
+      "id": "OBS-000156",
       "knowledge_type": "observation_signal",
       "name_ja": "社会的証明依存シグナル",
       "name_en": "Social Proof Dependency Signal",
@@ -256,8 +256,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000157_authority_reference_signal.yml",
-      "id": "SIGNAL-000157",
+      "filename": "OBS-000157_authority_reference_signal.yml",
+      "id": "OBS-000157",
       "knowledge_type": "observation_signal",
       "name_ja": "権威参照シグナル",
       "name_en": "Authority Reference Signal",
@@ -298,8 +298,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000158_scarcity_response_signal.yml",
-      "id": "SIGNAL-000158",
+      "filename": "OBS-000158_scarcity_response_signal.yml",
+      "id": "OBS-000158",
       "knowledge_type": "observation_signal",
       "name_ja": "希少性反応シグナル",
       "name_en": "Scarcity Response Signal",
@@ -340,8 +340,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000159_choice_overload_signal.yml",
-      "id": "SIGNAL-000159",
+      "filename": "OBS-000159_choice_overload_signal.yml",
+      "id": "OBS-000159",
       "knowledge_type": "observation_signal",
       "name_ja": "選択過多シグナル",
       "name_en": "Choice Overload Signal",
@@ -382,8 +382,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000160_present_bias_signal.yml",
-      "id": "SIGNAL-000160",
+      "filename": "OBS-000160_present_bias_signal.yml",
+      "id": "OBS-000160",
       "knowledge_type": "observation_signal",
       "name_ja": "現在バイアスシグナル",
       "name_en": "Present Bias Signal",
@@ -424,8 +424,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000161_reward_response_rate.yml",
-      "id": "SIGNAL-000161",
+      "filename": "OBS-000161_reward_response_rate.yml",
+      "id": "OBS-000161",
       "knowledge_type": "observation_signal",
       "name_ja": "報酬反応率",
       "name_en": "Reward Response Rate",
@@ -466,8 +466,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000162_badge_response_rate.yml",
-      "id": "SIGNAL-000162",
+      "filename": "OBS-000162_badge_response_rate.yml",
+      "id": "OBS-000162",
       "knowledge_type": "observation_signal",
       "name_ja": "バッジ反応率",
       "name_en": "Badge Response Rate",
@@ -508,8 +508,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000163_streak_preservation_behavior.yml",
-      "id": "SIGNAL-000163",
+      "filename": "OBS-000163_streak_preservation_behavior.yml",
+      "id": "OBS-000163",
       "knowledge_type": "observation_signal",
       "name_ja": "連続記録維持行動",
       "name_en": "Streak Preservation Behavior",
@@ -550,8 +550,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000164_goal_proximity_acceleration.yml",
-      "id": "SIGNAL-000164",
+      "filename": "OBS-000164_goal_proximity_acceleration.yml",
+      "id": "OBS-000164",
       "knowledge_type": "observation_signal",
       "name_ja": "目標接近加速",
       "name_en": "Goal Proximity Acceleration",
@@ -592,8 +592,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000165_challenge_acceptance_rate.yml",
-      "id": "SIGNAL-000165",
+      "filename": "OBS-000165_challenge_acceptance_rate.yml",
+      "id": "OBS-000165",
       "knowledge_type": "observation_signal",
       "name_ja": "挑戦受諾率",
       "name_en": "Challenge Acceptance Rate",
@@ -634,8 +634,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000166_challenge_avoidance_rate.yml",
-      "id": "SIGNAL-000166",
+      "filename": "OBS-000166_challenge_avoidance_rate.yml",
+      "id": "OBS-000166",
       "knowledge_type": "observation_signal",
       "name_ja": "挑戦回避率",
       "name_en": "Challenge Avoidance Rate",
@@ -676,8 +676,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000167_self_initiated_action_count.yml",
-      "id": "SIGNAL-000167",
+      "filename": "OBS-000167_self_initiated_action_count.yml",
+      "id": "OBS-000167",
       "knowledge_type": "observation_signal",
       "name_ja": "自発行動回数",
       "name_en": "Self Initiated Action Count",
@@ -718,8 +718,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000168_reward_removal_drop.yml",
-      "id": "SIGNAL-000168",
+      "filename": "OBS-000168_reward_removal_drop.yml",
+      "id": "OBS-000168",
       "knowledge_type": "observation_signal",
       "name_ja": "報酬除去後低下",
       "name_en": "Reward Removal Drop",
@@ -760,8 +760,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000169_effort_investment_signal.yml",
-      "id": "SIGNAL-000169",
+      "filename": "OBS-000169_effort_investment_signal.yml",
+      "id": "OBS-000169",
       "knowledge_type": "observation_signal",
       "name_ja": "努力投入シグナル",
       "name_en": "Effort Investment Signal",
@@ -802,8 +802,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000170_motivation_recovery_signal.yml",
-      "id": "SIGNAL-000170",
+      "filename": "OBS-000170_motivation_recovery_signal.yml",
+      "id": "OBS-000170",
       "knowledge_type": "observation_signal",
       "name_ja": "動機回復シグナル",
       "name_en": "Motivation Recovery Signal",
@@ -844,8 +844,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000171_sensitive_input_signal.yml",
-      "id": "SIGNAL-000171",
+      "filename": "OBS-000171_sensitive_input_signal.yml",
+      "id": "OBS-000171",
       "knowledge_type": "observation_signal",
       "name_ja": "センシティブ入力シグナル",
       "name_en": "Sensitive Input Signal",
@@ -886,8 +886,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000172_distress_expression_signal.yml",
-      "id": "SIGNAL-000172",
+      "filename": "OBS-000172_distress_expression_signal.yml",
+      "id": "OBS-000172",
       "knowledge_type": "observation_signal",
       "name_ja": "苦痛表現シグナル",
       "name_en": "Distress Expression Signal",
@@ -928,8 +928,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000173_dependency_risk_signal.yml",
-      "id": "SIGNAL-000173",
+      "filename": "OBS-000173_dependency_risk_signal.yml",
+      "id": "OBS-000173",
       "knowledge_type": "observation_signal",
       "name_ja": "依存リスクシグナル",
       "name_en": "Dependency Risk Signal",
@@ -970,8 +970,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000174_privacy_risk_signal.yml",
-      "id": "SIGNAL-000174",
+      "filename": "OBS-000174_privacy_risk_signal.yml",
+      "id": "OBS-000174",
       "knowledge_type": "observation_signal",
       "name_ja": "プライバシーリスクシグナル",
       "name_en": "Privacy Risk Signal",
@@ -1012,8 +1012,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000175_manipulation_susceptibility_signal.yml",
-      "id": "SIGNAL-000175",
+      "filename": "OBS-000175_manipulation_susceptibility_signal.yml",
+      "id": "OBS-000175",
       "knowledge_type": "observation_signal",
       "name_ja": "操作影響受容シグナル",
       "name_en": "Manipulation Susceptibility Signal",
@@ -1054,8 +1054,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000176_over_disclosure_signal.yml",
-      "id": "SIGNAL-000176",
+      "filename": "OBS-000176_over_disclosure_signal.yml",
+      "id": "OBS-000176",
       "knowledge_type": "observation_signal",
       "name_ja": "過剰開示シグナル",
       "name_en": "Over Disclosure Signal",
@@ -1096,8 +1096,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000177_boundary_violation_signal.yml",
-      "id": "SIGNAL-000177",
+      "filename": "OBS-000177_boundary_violation_signal.yml",
+      "id": "OBS-000177",
       "knowledge_type": "observation_signal",
       "name_ja": "境界侵害シグナル",
       "name_en": "Boundary Violation Signal",
@@ -1138,8 +1138,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000178_harmful_interaction_signal.yml",
-      "id": "SIGNAL-000178",
+      "filename": "OBS-000178_harmful_interaction_signal.yml",
+      "id": "OBS-000178",
       "knowledge_type": "observation_signal",
       "name_ja": "有害相互作用シグナル",
       "name_en": "Harmful Interaction Signal",
@@ -1180,8 +1180,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000179_safety_escalation_signal.yml",
-      "id": "SIGNAL-000179",
+      "filename": "OBS-000179_safety_escalation_signal.yml",
+      "id": "OBS-000179",
       "knowledge_type": "observation_signal",
       "name_ja": "安全確認強化シグナル",
       "name_en": "Safety Escalation Signal",
@@ -1222,8 +1222,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000180_ethical_review_signal.yml",
-      "id": "SIGNAL-000180",
+      "filename": "OBS-000180_ethical_review_signal.yml",
+      "id": "OBS-000180",
       "knowledge_type": "observation_signal",
       "name_ja": "倫理レビューシグナル",
       "name_en": "Ethical Review Signal",
@@ -1264,8 +1264,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000181_data_missing_rate.yml",
-      "id": "SIGNAL-000181",
+      "filename": "OBS-000181_data_missing_rate.yml",
+      "id": "OBS-000181",
       "knowledge_type": "observation_signal",
       "name_ja": "データ欠損率",
       "name_en": "Data Missing Rate",
@@ -1306,8 +1306,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000182_data_noise_level.yml",
-      "id": "SIGNAL-000182",
+      "filename": "OBS-000182_data_noise_level.yml",
+      "id": "OBS-000182",
       "knowledge_type": "observation_signal",
       "name_ja": "データノイズ水準",
       "name_en": "Data Noise Level",
@@ -1348,8 +1348,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000183_signal_confidence_score.yml",
-      "id": "SIGNAL-000183",
+      "filename": "OBS-000183_signal_confidence_score.yml",
+      "id": "OBS-000183",
       "knowledge_type": "observation_signal",
       "name_ja": "シグナル信頼度スコア",
       "name_en": "Signal Confidence Score",
@@ -1390,8 +1390,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000184_sample_size_signal.yml",
-      "id": "SIGNAL-000184",
+      "filename": "OBS-000184_sample_size_signal.yml",
+      "id": "OBS-000184",
       "knowledge_type": "observation_signal",
       "name_ja": "サンプル数シグナル",
       "name_en": "Sample Size Signal",
@@ -1432,8 +1432,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000185_measurement_context_signal.yml",
-      "id": "SIGNAL-000185",
+      "filename": "OBS-000185_measurement_context_signal.yml",
+      "id": "OBS-000185",
       "knowledge_type": "observation_signal",
       "name_ja": "測定文脈シグナル",
       "name_en": "Measurement Context Signal",
@@ -1474,8 +1474,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000186_outlier_detection_signal.yml",
-      "id": "SIGNAL-000186",
+      "filename": "OBS-000186_outlier_detection_signal.yml",
+      "id": "OBS-000186",
       "knowledge_type": "observation_signal",
       "name_ja": "外れ値検出シグナル",
       "name_en": "Outlier Detection Signal",
@@ -1516,8 +1516,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000187_duplicate_event_signal.yml",
-      "id": "SIGNAL-000187",
+      "filename": "OBS-000187_duplicate_event_signal.yml",
+      "id": "OBS-000187",
       "knowledge_type": "observation_signal",
       "name_ja": "重複イベントシグナル",
       "name_en": "Duplicate Event Signal",
@@ -1558,8 +1558,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000188_sensor_reliability_signal.yml",
-      "id": "SIGNAL-000188",
+      "filename": "OBS-000188_sensor_reliability_signal.yml",
+      "id": "OBS-000188",
       "knowledge_type": "observation_signal",
       "name_ja": "センサー信頼性シグナル",
       "name_en": "Sensor Reliability Signal",
@@ -1600,8 +1600,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000189_self_report_consistency.yml",
-      "id": "SIGNAL-000189",
+      "filename": "OBS-000189_self_report_consistency.yml",
+      "id": "OBS-000189",
       "knowledge_type": "observation_signal",
       "name_ja": "自己報告一貫性",
       "name_en": "Self Report Consistency",
@@ -1642,8 +1642,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000190_behavior_report_gap.yml",
-      "id": "SIGNAL-000190",
+      "filename": "OBS-000190_behavior_report_gap.yml",
+      "id": "OBS-000190",
       "knowledge_type": "observation_signal",
       "name_ja": "行動報告ギャップ",
       "name_en": "Behavior Report Gap",
@@ -1684,8 +1684,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000191_diagnosis_app_signal.yml",
-      "id": "SIGNAL-000191",
+      "filename": "OBS-000191_diagnosis_app_signal.yml",
+      "id": "OBS-000191",
       "knowledge_type": "observation_signal",
       "name_ja": "診断アプリ用シグナル",
       "name_en": "Diagnosis App Signal",
@@ -1726,8 +1726,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000192_game_behavior_signal.yml",
-      "id": "SIGNAL-000192",
+      "filename": "OBS-000192_game_behavior_signal.yml",
+      "id": "OBS-000192",
       "knowledge_type": "observation_signal",
       "name_ja": "ゲーム行動シグナル",
       "name_en": "Game Behavior Signal",
@@ -1768,8 +1768,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000193_assistant_app_signal.yml",
-      "id": "SIGNAL-000193",
+      "filename": "OBS-000193_assistant_app_signal.yml",
+      "id": "OBS-000193",
       "knowledge_type": "observation_signal",
       "name_ja": "秘書アプリ用シグナル",
       "name_en": "Assistant App Signal",
@@ -1810,8 +1810,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000194_education_app_signal.yml",
-      "id": "SIGNAL-000194",
+      "filename": "OBS-000194_education_app_signal.yml",
+      "id": "OBS-000194",
       "knowledge_type": "observation_signal",
       "name_ja": "教育アプリ用シグナル",
       "name_en": "Education App Signal",
@@ -1852,8 +1852,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000195_work_support_signal.yml",
-      "id": "SIGNAL-000195",
+      "filename": "OBS-000195_work_support_signal.yml",
+      "id": "OBS-000195",
       "knowledge_type": "observation_signal",
       "name_ja": "仕事支援シグナル",
       "name_en": "Work Support Signal",
@@ -1894,8 +1894,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000196_wellbeing_signal.yml",
-      "id": "SIGNAL-000196",
+      "filename": "OBS-000196_wellbeing_signal.yml",
+      "id": "OBS-000196",
       "knowledge_type": "observation_signal",
       "name_ja": "ウェルビーイングシグナル",
       "name_en": "Wellbeing Signal",
@@ -1936,8 +1936,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000197_compatibility_signal.yml",
-      "id": "SIGNAL-000197",
+      "filename": "OBS-000197_compatibility_signal.yml",
+      "id": "OBS-000197",
       "knowledge_type": "observation_signal",
       "name_ja": "相性推定シグナル",
       "name_en": "Compatibility Signal",
@@ -1978,8 +1978,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000198_personalization_signal.yml",
-      "id": "SIGNAL-000198",
+      "filename": "OBS-000198_personalization_signal.yml",
+      "id": "OBS-000198",
       "knowledge_type": "observation_signal",
       "name_ja": "個別化シグナル",
       "name_en": "Personalization Signal",
@@ -2020,8 +2020,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000199_intervention_timing_signal.yml",
-      "id": "SIGNAL-000199",
+      "filename": "OBS-000199_intervention_timing_signal.yml",
+      "id": "OBS-000199",
       "knowledge_type": "observation_signal",
       "name_ja": "介入タイミングシグナル",
       "name_en": "Intervention Timing Signal",
@@ -2062,8 +2062,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000200_observation_signal_integration.yml",
-      "id": "SIGNAL-000200",
+      "filename": "OBS-000200_observation_signal_integration.yml",
+      "id": "OBS-000200",
       "knowledge_type": "observation_signal",
       "name_ja": "観測シグナル統合",
       "name_en": "Observation Signal Integration",

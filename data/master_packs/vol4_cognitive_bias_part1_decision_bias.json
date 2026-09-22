@@ -1,11 +1,11 @@
 {
   "output_dir": "vol4_cognitive_bias/decision_bias",
   "index_filename": "decision_bias_index.yml",
-  "index_content": "category: Cognitive Bias - Decision Bias\nname_ja: 認知バイアス・意思決定バイアス\nitems:\n  - BIAS-000001_confirmation_bias.yml\n  - BIAS-000002_anchoring_bias.yml\n  - BIAS-000003_availability_heuristic.yml\n  - BIAS-000004_status_quo_bias.yml\n  - BIAS-000005_loss_aversion.yml\n  - BIAS-000006_sunk_cost_bias.yml\n  - BIAS-000007_framing_effect.yml\n  - BIAS-000008_overconfidence_bias.yml\n  - BIAS-000009_choice_overload.yml\n  - BIAS-000010_present_bias.yml\nnotes:\n  - 認知バイアスは診断結果ではなく推論材料として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
+  "index_content": "category: Cognitive Bias - Decision Bias\nname_ja: 認知バイアス・意思決定バイアス\nitems:\n  - COG-000001_confirmation_bias.yml\n  - COG-000002_anchoring_bias.yml\n  - COG-000003_availability_heuristic.yml\n  - COG-000004_status_quo_bias.yml\n  - COG-000005_loss_aversion.yml\n  - COG-000006_sunk_cost_bias.yml\n  - COG-000007_framing_effect.yml\n  - COG-000008_overconfidence_bias.yml\n  - COG-000009_choice_overload.yml\n  - COG-000010_present_bias.yml\nnotes:\n  - 認知バイアスは診断結果ではなく推論材料として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
   "items": [
     {
-      "filename": "BIAS-000001_confirmation_bias.yml",
-      "id": "BIAS-000001",
+      "filename": "COG-000001_confirmation_bias.yml",
+      "id": "COG-000001",
       "knowledge_type": "cognitive_bias",
       "name_ja": "確証バイアス",
       "name_en": "Confirmation Bias",
@@ -23,8 +23,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000002_anchoring_bias.yml",
-      "id": "BIAS-000002",
+      "filename": "COG-000002_anchoring_bias.yml",
+      "id": "COG-000002",
       "knowledge_type": "cognitive_bias",
       "name_ja": "アンカリングバイアス",
       "name_en": "Anchoring Bias",
@@ -42,8 +42,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000003_availability_heuristic.yml",
-      "id": "BIAS-000003",
+      "filename": "COG-000003_availability_heuristic.yml",
+      "id": "COG-000003",
       "knowledge_type": "cognitive_bias",
       "name_ja": "利用可能性ヒューリスティック",
       "name_en": "Availability Heuristic",
@@ -61,8 +61,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000004_status_quo_bias.yml",
-      "id": "BIAS-000004",
+      "filename": "COG-000004_status_quo_bias.yml",
+      "id": "COG-000004",
       "knowledge_type": "cognitive_bias",
       "name_ja": "現状維持バイアス",
       "name_en": "Status Quo Bias",
@@ -80,8 +80,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000005_loss_aversion.yml",
-      "id": "BIAS-000005",
+      "filename": "COG-000005_loss_aversion.yml",
+      "id": "COG-000005",
       "knowledge_type": "cognitive_bias",
       "name_ja": "損失回避",
       "name_en": "Loss Aversion",
@@ -99,8 +99,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000006_sunk_cost_bias.yml",
-      "id": "BIAS-000006",
+      "filename": "COG-000006_sunk_cost_bias.yml",
+      "id": "COG-000006",
       "knowledge_type": "cognitive_bias",
       "name_ja": "サンクコストバイアス",
       "name_en": "Sunk Cost Bias",
@@ -118,8 +118,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000007_framing_effect.yml",
-      "id": "BIAS-000007",
+      "filename": "COG-000007_framing_effect.yml",
+      "id": "COG-000007",
       "knowledge_type": "cognitive_bias",
       "name_ja": "フレーミング効果",
       "name_en": "Framing Effect",
@@ -137,8 +137,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000008_overconfidence_bias.yml",
-      "id": "BIAS-000008",
+      "filename": "COG-000008_overconfidence_bias.yml",
+      "id": "COG-000008",
       "knowledge_type": "cognitive_bias",
       "name_ja": "過信バイアス",
       "name_en": "Overconfidence Bias",
@@ -156,8 +156,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000009_choice_overload.yml",
-      "id": "BIAS-000009",
+      "filename": "COG-000009_choice_overload.yml",
+      "id": "COG-000009",
       "knowledge_type": "cognitive_bias",
       "name_ja": "選択過多",
       "name_en": "Choice Overload",
@@ -175,8 +175,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000010_present_bias.yml",
-      "id": "BIAS-000010",
+      "filename": "COG-000010_present_bias.yml",
+      "id": "COG-000010",
       "knowledge_type": "cognitive_bias",
       "name_ja": "現在バイアス",
       "name_en": "Present Bias",

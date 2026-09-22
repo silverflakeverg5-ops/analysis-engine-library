@@ -1,11 +1,11 @@
 {
   "output_dir": "vol8_physiology/physiology_051_100",
   "index_filename": "physiology_051_100_index.yml",
-  "index_content": "category: Physiology\nname_ja: 生理\nitems:\n  - PHYS-000051_blood_glucose_stability.yml\n  - PHYS-000052_hunger_state.yml\n  - PHYS-000053_satiety_state.yml\n  - PHYS-000054_caffeine_effect.yml\n  - PHYS-000055_alcohol_effect.yml\n  - PHYS-000056_nutrient_deficit.yml\n  - PHYS-000057_metabolic_energy.yml\n  - PHYS-000058_hydration_balance.yml\n  - PHYS-000059_meal_quality.yml\n  - PHYS-000060_digestive_load.yml\n  - PHYS-000061_exercise_frequency.yml\n  - PHYS-000062_exercise_intensity.yml\n  - PHYS-000063_aerobic_condition.yml\n  - PHYS-000064_muscle_strength_condition.yml\n  - PHYS-000065_mobility_condition.yml\n  - PHYS-000066_movement_variability.yml\n  - PHYS-000067_sedentary_load.yml\n  - PHYS-000068_movement_breaks.yml\n  - PHYS-000069_exercise_recovery.yml\n  - PHYS-000070_body_activation.yml\n  - PHYS-000071_visual_load.yml\n  - PHYS-000072_auditory_load.yml\n  - PHYS-000073_sensory_sensitivity.yml\n  - PHYS-000074_sensory_underresponsiveness.yml\n  - PHYS-000075_screen_brightness_load.yml\n  - PHYS-000076_noise_stress.yml\n  - PHYS-000077_multisensory_overload.yml\n  - PHYS-000078_sensory_recovery.yml\n  - PHYS-000079_tactile_comfort.yml\n  - PHYS-000080_environmental_sensory_fit.yml\n  - PHYS-000081_cortisol_rhythm.yml\n  - PHYS-000082_melatonin_rhythm.yml\n  - PHYS-000083_sex_hormone_context.yml\n  - PHYS-000084_thyroid_function_context.yml\n  - PHYS-000085_adrenal_activation.yml\n  - PHYS-000086_hormonal_fluctuation.yml\n  - PHYS-000087_puberty_context.yml\n  - PHYS-000088_menopause_context.yml\n  - PHYS-000089_stress_hormone_load.yml\n  - PHYS-000090_hormonal_recovery.yml\n  - PHYS-000091_mind_body_interaction.yml\n  - PHYS-000092_physiological_baseline.yml\n  - PHYS-000093_physiological_variability.yml\n  - PHYS-000094_physiological_resilience.yml\n  - PHYS-000095_physiological_vulnerability.yml\n  - PHYS-000096_body_signal_awareness.yml\n  - PHYS-000097_behavioral_energy_budget.yml\n  - PHYS-000098_load_recovery_balance.yml\n  - PHYS-000099_physiological_context_dependency.yml\n  - PHYS-000100_physiological_integration.yml\nnotes:\n  - 生理要因は医療診断ではなく補正要因として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
+  "index_content": "category: Physiology\nname_ja: 生理\nitems:\n  - PHY-000051_blood_glucose_stability.yml\n  - PHY-000052_hunger_state.yml\n  - PHY-000053_satiety_state.yml\n  - PHY-000054_caffeine_effect.yml\n  - PHY-000055_alcohol_effect.yml\n  - PHY-000056_nutrient_deficit.yml\n  - PHY-000057_metabolic_energy.yml\n  - PHY-000058_hydration_balance.yml\n  - PHY-000059_meal_quality.yml\n  - PHY-000060_digestive_load.yml\n  - PHY-000061_exercise_frequency.yml\n  - PHY-000062_exercise_intensity.yml\n  - PHY-000063_aerobic_condition.yml\n  - PHY-000064_muscle_strength_condition.yml\n  - PHY-000065_mobility_condition.yml\n  - PHY-000066_movement_variability.yml\n  - PHY-000067_sedentary_load.yml\n  - PHY-000068_movement_breaks.yml\n  - PHY-000069_exercise_recovery.yml\n  - PHY-000070_body_activation.yml\n  - PHY-000071_visual_load.yml\n  - PHY-000072_auditory_load.yml\n  - PHY-000073_sensory_sensitivity.yml\n  - PHY-000074_sensory_underresponsiveness.yml\n  - PHY-000075_screen_brightness_load.yml\n  - PHY-000076_noise_stress.yml\n  - PHY-000077_multisensory_overload.yml\n  - PHY-000078_sensory_recovery.yml\n  - PHY-000079_tactile_comfort.yml\n  - PHY-000080_environmental_sensory_fit.yml\n  - PHY-000081_cortisol_rhythm.yml\n  - PHY-000082_melatonin_rhythm.yml\n  - PHY-000083_sex_hormone_context.yml\n  - PHY-000084_thyroid_function_context.yml\n  - PHY-000085_adrenal_activation.yml\n  - PHY-000086_hormonal_fluctuation.yml\n  - PHY-000087_puberty_context.yml\n  - PHY-000088_menopause_context.yml\n  - PHY-000089_stress_hormone_load.yml\n  - PHY-000090_hormonal_recovery.yml\n  - PHY-000091_mind_body_interaction.yml\n  - PHY-000092_physiological_baseline.yml\n  - PHY-000093_physiological_variability.yml\n  - PHY-000094_physiological_resilience.yml\n  - PHY-000095_physiological_vulnerability.yml\n  - PHY-000096_body_signal_awareness.yml\n  - PHY-000097_behavioral_energy_budget.yml\n  - PHY-000098_load_recovery_balance.yml\n  - PHY-000099_physiological_context_dependency.yml\n  - PHY-000100_physiological_integration.yml\nnotes:\n  - 生理要因は医療診断ではなく補正要因として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
   "items": [
     {
-      "filename": "PHYS-000051_blood_glucose_stability.yml",
-      "id": "PHYS-000051",
+      "filename": "PHY-000051_blood_glucose_stability.yml",
+      "id": "PHY-000051",
       "knowledge_type": "physiology_factor",
       "name_ja": "血糖安定性",
       "name_en": "Blood Glucose Stability",
@@ -46,8 +46,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000052_hunger_state.yml",
-      "id": "PHYS-000052",
+      "filename": "PHY-000052_hunger_state.yml",
+      "id": "PHY-000052",
       "knowledge_type": "physiology_factor",
       "name_ja": "空腹状態",
       "name_en": "Hunger State",
@@ -88,8 +88,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000053_satiety_state.yml",
-      "id": "PHYS-000053",
+      "filename": "PHY-000053_satiety_state.yml",
+      "id": "PHY-000053",
       "knowledge_type": "physiology_factor",
       "name_ja": "満腹状態",
       "name_en": "Satiety State",
@@ -130,8 +130,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000054_caffeine_effect.yml",
-      "id": "PHYS-000054",
+      "filename": "PHY-000054_caffeine_effect.yml",
+      "id": "PHY-000054",
       "knowledge_type": "physiology_factor",
       "name_ja": "カフェイン影響",
       "name_en": "Caffeine Effect",
@@ -172,8 +172,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000055_alcohol_effect.yml",
-      "id": "PHYS-000055",
+      "filename": "PHY-000055_alcohol_effect.yml",
+      "id": "PHY-000055",
       "knowledge_type": "physiology_factor",
       "name_ja": "アルコール影響",
       "name_en": "Alcohol Effect",
@@ -214,8 +214,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000056_nutrient_deficit.yml",
-      "id": "PHYS-000056",
+      "filename": "PHY-000056_nutrient_deficit.yml",
+      "id": "PHY-000056",
       "knowledge_type": "physiology_factor",
       "name_ja": "栄養不足",
       "name_en": "Nutrient Deficit",
@@ -256,8 +256,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000057_metabolic_energy.yml",
-      "id": "PHYS-000057",
+      "filename": "PHY-000057_metabolic_energy.yml",
+      "id": "PHY-000057",
       "knowledge_type": "physiology_factor",
       "name_ja": "代謝エネルギー",
       "name_en": "Metabolic Energy",
@@ -298,8 +298,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000058_hydration_balance.yml",
-      "id": "PHYS-000058",
+      "filename": "PHY-000058_hydration_balance.yml",
+      "id": "PHY-000058",
       "knowledge_type": "physiology_factor",
       "name_ja": "水分バランス",
       "name_en": "Hydration Balance",
@@ -340,8 +340,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000059_meal_quality.yml",
-      "id": "PHYS-000059",
+      "filename": "PHY-000059_meal_quality.yml",
+      "id": "PHY-000059",
       "knowledge_type": "physiology_factor",
       "name_ja": "食事品質",
       "name_en": "Meal Quality",
@@ -382,8 +382,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000060_digestive_load.yml",
-      "id": "PHYS-000060",
+      "filename": "PHY-000060_digestive_load.yml",
+      "id": "PHY-000060",
       "knowledge_type": "physiology_factor",
       "name_ja": "消化負荷",
       "name_en": "Digestive Load",
@@ -424,8 +424,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000061_exercise_frequency.yml",
-      "id": "PHYS-000061",
+      "filename": "PHY-000061_exercise_frequency.yml",
+      "id": "PHY-000061",
       "knowledge_type": "physiology_factor",
       "name_ja": "運動頻度",
       "name_en": "Exercise Frequency",
@@ -466,8 +466,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000062_exercise_intensity.yml",
-      "id": "PHYS-000062",
+      "filename": "PHY-000062_exercise_intensity.yml",
+      "id": "PHY-000062",
       "knowledge_type": "physiology_factor",
       "name_ja": "運動強度",
       "name_en": "Exercise Intensity",
@@ -508,8 +508,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000063_aerobic_condition.yml",
-      "id": "PHYS-000063",
+      "filename": "PHY-000063_aerobic_condition.yml",
+      "id": "PHY-000063",
       "knowledge_type": "physiology_factor",
       "name_ja": "有酸素状態",
       "name_en": "Aerobic Condition",
@@ -550,8 +550,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000064_muscle_strength_condition.yml",
-      "id": "PHYS-000064",
+      "filename": "PHY-000064_muscle_strength_condition.yml",
+      "id": "PHY-000064",
       "knowledge_type": "physiology_factor",
       "name_ja": "筋力状態",
       "name_en": "Muscle Strength Condition",
@@ -592,8 +592,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000065_mobility_condition.yml",
-      "id": "PHYS-000065",
+      "filename": "PHY-000065_mobility_condition.yml",
+      "id": "PHY-000065",
       "knowledge_type": "physiology_factor",
       "name_ja": "可動性状態",
       "name_en": "Mobility Condition",
@@ -634,8 +634,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000066_movement_variability.yml",
-      "id": "PHYS-000066",
+      "filename": "PHY-000066_movement_variability.yml",
+      "id": "PHY-000066",
       "knowledge_type": "physiology_factor",
       "name_ja": "身体活動変動",
       "name_en": "Movement Variability",
@@ -676,8 +676,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000067_sedentary_load.yml",
-      "id": "PHYS-000067",
+      "filename": "PHY-000067_sedentary_load.yml",
+      "id": "PHY-000067",
       "knowledge_type": "physiology_factor",
       "name_ja": "座位負荷",
       "name_en": "Sedentary Load",
@@ -718,8 +718,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000068_movement_breaks.yml",
-      "id": "PHYS-000068",
+      "filename": "PHY-000068_movement_breaks.yml",
+      "id": "PHY-000068",
       "knowledge_type": "physiology_factor",
       "name_ja": "身体活動休憩",
       "name_en": "Movement Breaks",
@@ -760,8 +760,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000069_exercise_recovery.yml",
-      "id": "PHYS-000069",
+      "filename": "PHY-000069_exercise_recovery.yml",
+      "id": "PHY-000069",
       "knowledge_type": "physiology_factor",
       "name_ja": "運動後回復",
       "name_en": "Exercise Recovery",
@@ -802,8 +802,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000070_body_activation.yml",
-      "id": "PHYS-000070",
+      "filename": "PHY-000070_body_activation.yml",
+      "id": "PHY-000070",
       "knowledge_type": "physiology_factor",
       "name_ja": "身体活性化",
       "name_en": "Body Activation",
@@ -844,8 +844,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000071_visual_load.yml",
-      "id": "PHYS-000071",
+      "filename": "PHY-000071_visual_load.yml",
+      "id": "PHY-000071",
       "knowledge_type": "physiology_factor",
       "name_ja": "視覚負荷",
       "name_en": "Visual Load",
@@ -886,8 +886,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000072_auditory_load.yml",
-      "id": "PHYS-000072",
+      "filename": "PHY-000072_auditory_load.yml",
+      "id": "PHY-000072",
       "knowledge_type": "physiology_factor",
       "name_ja": "聴覚負荷",
       "name_en": "Auditory Load",
@@ -928,8 +928,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000073_sensory_sensitivity.yml",
-      "id": "PHYS-000073",
+      "filename": "PHY-000073_sensory_sensitivity.yml",
+      "id": "PHY-000073",
       "knowledge_type": "physiology_factor",
       "name_ja": "感覚過敏性",
       "name_en": "Sensory Sensitivity",
@@ -970,8 +970,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000074_sensory_underresponsiveness.yml",
-      "id": "PHYS-000074",
+      "filename": "PHY-000074_sensory_underresponsiveness.yml",
+      "id": "PHY-000074",
       "knowledge_type": "physiology_factor",
       "name_ja": "感覚低反応",
       "name_en": "Sensory Underresponsiveness",
@@ -1012,8 +1012,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000075_screen_brightness_load.yml",
-      "id": "PHYS-000075",
+      "filename": "PHY-000075_screen_brightness_load.yml",
+      "id": "PHY-000075",
       "knowledge_type": "physiology_factor",
       "name_ja": "画面輝度負荷",
       "name_en": "Screen Brightness Load",
@@ -1054,8 +1054,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000076_noise_stress.yml",
-      "id": "PHYS-000076",
+      "filename": "PHY-000076_noise_stress.yml",
+      "id": "PHY-000076",
       "knowledge_type": "physiology_factor",
       "name_ja": "騒音ストレス",
       "name_en": "Noise Stress",
@@ -1096,8 +1096,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000077_multisensory_overload.yml",
-      "id": "PHYS-000077",
+      "filename": "PHY-000077_multisensory_overload.yml",
+      "id": "PHY-000077",
       "knowledge_type": "physiology_factor",
       "name_ja": "多感覚過負荷",
       "name_en": "Multisensory Overload",
@@ -1138,8 +1138,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000078_sensory_recovery.yml",
-      "id": "PHYS-000078",
+      "filename": "PHY-000078_sensory_recovery.yml",
+      "id": "PHY-000078",
       "knowledge_type": "physiology_factor",
       "name_ja": "感覚回復",
       "name_en": "Sensory Recovery",
@@ -1180,8 +1180,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000079_tactile_comfort.yml",
-      "id": "PHYS-000079",
+      "filename": "PHY-000079_tactile_comfort.yml",
+      "id": "PHY-000079",
       "knowledge_type": "physiology_factor",
       "name_ja": "触覚快適性",
       "name_en": "Tactile Comfort",
@@ -1222,8 +1222,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000080_environmental_sensory_fit.yml",
-      "id": "PHYS-000080",
+      "filename": "PHY-000080_environmental_sensory_fit.yml",
+      "id": "PHY-000080",
       "knowledge_type": "physiology_factor",
       "name_ja": "感覚環境適合",
       "name_en": "Environmental Sensory Fit",
@@ -1264,8 +1264,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000081_cortisol_rhythm.yml",
-      "id": "PHYS-000081",
+      "filename": "PHY-000081_cortisol_rhythm.yml",
+      "id": "PHY-000081",
       "knowledge_type": "physiology_factor",
       "name_ja": "コルチゾールリズム",
       "name_en": "Cortisol Rhythm",
@@ -1306,8 +1306,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000082_melatonin_rhythm.yml",
-      "id": "PHYS-000082",
+      "filename": "PHY-000082_melatonin_rhythm.yml",
+      "id": "PHY-000082",
       "knowledge_type": "physiology_factor",
       "name_ja": "メラトニンリズム",
       "name_en": "Melatonin Rhythm",
@@ -1348,8 +1348,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000083_sex_hormone_context.yml",
-      "id": "PHYS-000083",
+      "filename": "PHY-000083_sex_hormone_context.yml",
+      "id": "PHY-000083",
       "knowledge_type": "physiology_factor",
       "name_ja": "性ホルモン文脈",
       "name_en": "Sex Hormone Context",
@@ -1390,8 +1390,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000084_thyroid_function_context.yml",
-      "id": "PHYS-000084",
+      "filename": "PHY-000084_thyroid_function_context.yml",
+      "id": "PHY-000084",
       "knowledge_type": "physiology_factor",
       "name_ja": "甲状腺機能文脈",
       "name_en": "Thyroid Function Context",
@@ -1432,8 +1432,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000085_adrenal_activation.yml",
-      "id": "PHYS-000085",
+      "filename": "PHY-000085_adrenal_activation.yml",
+      "id": "PHY-000085",
       "knowledge_type": "physiology_factor",
       "name_ja": "副腎活性",
       "name_en": "Adrenal Activation",
@@ -1474,8 +1474,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000086_hormonal_fluctuation.yml",
-      "id": "PHYS-000086",
+      "filename": "PHY-000086_hormonal_fluctuation.yml",
+      "id": "PHY-000086",
       "knowledge_type": "physiology_factor",
       "name_ja": "ホルモン変動",
       "name_en": "Hormonal Fluctuation",
@@ -1516,8 +1516,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000087_puberty_context.yml",
-      "id": "PHYS-000087",
+      "filename": "PHY-000087_puberty_context.yml",
+      "id": "PHY-000087",
       "knowledge_type": "physiology_factor",
       "name_ja": "思春期文脈",
       "name_en": "Puberty Context",
@@ -1558,8 +1558,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000088_menopause_context.yml",
-      "id": "PHYS-000088",
+      "filename": "PHY-000088_menopause_context.yml",
+      "id": "PHY-000088",
       "knowledge_type": "physiology_factor",
       "name_ja": "更年期文脈",
       "name_en": "Menopause Context",
@@ -1600,8 +1600,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000089_stress_hormone_load.yml",
-      "id": "PHYS-000089",
+      "filename": "PHY-000089_stress_hormone_load.yml",
+      "id": "PHY-000089",
       "knowledge_type": "physiology_factor",
       "name_ja": "ストレスホルモン負荷",
       "name_en": "Stress Hormone Load",
@@ -1642,8 +1642,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000090_hormonal_recovery.yml",
-      "id": "PHYS-000090",
+      "filename": "PHY-000090_hormonal_recovery.yml",
+      "id": "PHY-000090",
       "knowledge_type": "physiology_factor",
       "name_ja": "ホルモン回復",
       "name_en": "Hormonal Recovery",
@@ -1684,8 +1684,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000091_mind_body_interaction.yml",
-      "id": "PHYS-000091",
+      "filename": "PHY-000091_mind_body_interaction.yml",
+      "id": "PHY-000091",
       "knowledge_type": "physiology_factor",
       "name_ja": "心身相互作用",
       "name_en": "Mind Body Interaction",
@@ -1726,8 +1726,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000092_physiological_baseline.yml",
-      "id": "PHYS-000092",
+      "filename": "PHY-000092_physiological_baseline.yml",
+      "id": "PHY-000092",
       "knowledge_type": "physiology_factor",
       "name_ja": "生理的ベースライン",
       "name_en": "Physiological Baseline",
@@ -1768,8 +1768,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000093_physiological_variability.yml",
-      "id": "PHYS-000093",
+      "filename": "PHY-000093_physiological_variability.yml",
+      "id": "PHY-000093",
       "knowledge_type": "physiology_factor",
       "name_ja": "生理的変動性",
       "name_en": "Physiological Variability",
@@ -1810,8 +1810,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000094_physiological_resilience.yml",
-      "id": "PHYS-000094",
+      "filename": "PHY-000094_physiological_resilience.yml",
+      "id": "PHY-000094",
       "knowledge_type": "physiology_factor",
       "name_ja": "生理的レジリエンス",
       "name_en": "Physiological Resilience",
@@ -1852,8 +1852,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000095_physiological_vulnerability.yml",
-      "id": "PHYS-000095",
+      "filename": "PHY-000095_physiological_vulnerability.yml",
+      "id": "PHY-000095",
       "knowledge_type": "physiology_factor",
       "name_ja": "生理的脆弱性",
       "name_en": "Physiological Vulnerability",
@@ -1894,8 +1894,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000096_body_signal_awareness.yml",
-      "id": "PHYS-000096",
+      "filename": "PHY-000096_body_signal_awareness.yml",
+      "id": "PHY-000096",
       "knowledge_type": "physiology_factor",
       "name_ja": "身体信号への気づき",
       "name_en": "Body Signal Awareness",
@@ -1936,8 +1936,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000097_behavioral_energy_budget.yml",
-      "id": "PHYS-000097",
+      "filename": "PHY-000097_behavioral_energy_budget.yml",
+      "id": "PHY-000097",
       "knowledge_type": "physiology_factor",
       "name_ja": "行動エネルギー予算",
       "name_en": "Behavioral Energy Budget",
@@ -1978,8 +1978,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000098_load_recovery_balance.yml",
-      "id": "PHYS-000098",
+      "filename": "PHY-000098_load_recovery_balance.yml",
+      "id": "PHY-000098",
       "knowledge_type": "physiology_factor",
       "name_ja": "負荷回復バランス",
       "name_en": "Load Recovery Balance",
@@ -2020,8 +2020,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000099_physiological_context_dependency.yml",
-      "id": "PHYS-000099",
+      "filename": "PHY-000099_physiological_context_dependency.yml",
+      "id": "PHY-000099",
       "knowledge_type": "physiology_factor",
       "name_ja": "生理文脈依存性",
       "name_en": "Physiological Context Dependency",
@@ -2062,8 +2062,8 @@
       "status": "active"
     },
     {
-      "filename": "PHYS-000100_physiological_integration.yml",
-      "id": "PHYS-000100",
+      "filename": "PHY-000100_physiological_integration.yml",
+      "id": "PHY-000100",
       "knowledge_type": "physiology_factor",
       "name_ja": "生理統合",
       "name_en": "Physiological Integration",

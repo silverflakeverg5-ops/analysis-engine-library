@@ -1,11 +1,11 @@
 {
   "output_dir": "vol10_learning_theory/learning_theory_051_100",
   "index_filename": "learning_theory_051_100_index.yml",
-  "index_content": "category: Learning Theory\nname_ja: 学習理論\nitems:\n  - LEARN-000051_cognitive_load_learning.yml\n  - LEARN-000052_intrinsic_cognitive_load_learning.yml\n  - LEARN-000053_extraneous_cognitive_load_learning.yml\n  - LEARN-000054_germane_cognitive_load_learning.yml\n  - LEARN-000055_split_attention_effect.yml\n  - LEARN-000056_modality_effect.yml\n  - LEARN-000057_redundancy_effect.yml\n  - LEARN-000058_worked_example_effect.yml\n  - LEARN-000059_expertise_reversal_effect.yml\n  - LEARN-000060_segmenting_effect.yml\n  - LEARN-000061_encoding_strategy.yml\n  - LEARN-000062_elaborative_rehearsal.yml\n  - LEARN-000063_maintenance_rehearsal.yml\n  - LEARN-000064_mnemonic_strategy.yml\n  - LEARN-000065_dual_coding.yml\n  - LEARN-000066_generation_effect.yml\n  - LEARN-000067_testing_effect.yml\n  - LEARN-000068_retrieval_cue.yml\n  - LEARN-000069_forgetting_curve.yml\n  - LEARN-000070_relearning_effect.yml\n  - LEARN-000071_skill_acquisition.yml\n  - LEARN-000072_deliberate_practice.yml\n  - LEARN-000073_automaticity.yml\n  - LEARN-000074_fluency_development.yml\n  - LEARN-000075_accuracy_speed_tradeoff_learning.yml\n  - LEARN-000076_practice_variability.yml\n  - LEARN-000077_blocked_practice.yml\n  - LEARN-000078_random_practice.yml\n  - LEARN-000079_motor_skill_learning.yml\n  - LEARN-000080_cognitive_skill_learning.yml\n  - LEARN-000081_collaborative_learning.yml\n  - LEARN-000082_peer_learning.yml\n  - LEARN-000083_peer_tutoring.yml\n  - LEARN-000084_reciprocal_teaching.yml\n  - LEARN-000085_cooperative_learning.yml\n  - LEARN-000086_discussion_learning.yml\n  - LEARN-000087_explanation_to_others.yml\n  - LEARN-000088_socially_shared_regulation.yml\n  - LEARN-000089_group_knowledge_building.yml\n  - LEARN-000090_learning_community.yml\n  - LEARN-000091_formative_assessment.yml\n  - LEARN-000092_summative_assessment.yml\n  - LEARN-000093_diagnostic_assessment.yml\n  - LEARN-000094_criterion_referenced_assessment.yml\n  - LEARN-000095_norm_referenced_assessment.yml\n  - LEARN-000096_self_assessment.yml\n  - LEARN-000097_peer_assessment.yml\n  - LEARN-000098_rubric_assessment.yml\n  - LEARN-000099_learning_analytics.yml\n  - LEARN-000100_competency_based_assessment.yml\nnotes:\n  - 学習理論は学力判定ではなく推論材料として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
+  "index_content": "category: Learning Theory\nname_ja: 学習理論\nitems:\n  - LEA-000051_cognitive_load_learning.yml\n  - LEA-000052_intrinsic_cognitive_load_learning.yml\n  - LEA-000053_extraneous_cognitive_load_learning.yml\n  - LEA-000054_germane_cognitive_load_learning.yml\n  - LEA-000055_split_attention_effect.yml\n  - LEA-000056_modality_effect.yml\n  - LEA-000057_redundancy_effect.yml\n  - LEA-000058_worked_example_effect.yml\n  - LEA-000059_expertise_reversal_effect.yml\n  - LEA-000060_segmenting_effect.yml\n  - LEA-000061_encoding_strategy.yml\n  - LEA-000062_elaborative_rehearsal.yml\n  - LEA-000063_maintenance_rehearsal.yml\n  - LEA-000064_mnemonic_strategy.yml\n  - LEA-000065_dual_coding.yml\n  - LEA-000066_generation_effect.yml\n  - LEA-000067_testing_effect.yml\n  - LEA-000068_retrieval_cue.yml\n  - LEA-000069_forgetting_curve.yml\n  - LEA-000070_relearning_effect.yml\n  - LEA-000071_skill_acquisition.yml\n  - LEA-000072_deliberate_practice.yml\n  - LEA-000073_automaticity.yml\n  - LEA-000074_fluency_development.yml\n  - LEA-000075_accuracy_speed_tradeoff_learning.yml\n  - LEA-000076_practice_variability.yml\n  - LEA-000077_blocked_practice.yml\n  - LEA-000078_random_practice.yml\n  - LEA-000079_motor_skill_learning.yml\n  - LEA-000080_cognitive_skill_learning.yml\n  - LEA-000081_collaborative_learning.yml\n  - LEA-000082_peer_learning.yml\n  - LEA-000083_peer_tutoring.yml\n  - LEA-000084_reciprocal_teaching.yml\n  - LEA-000085_cooperative_learning.yml\n  - LEA-000086_discussion_learning.yml\n  - LEA-000087_explanation_to_others.yml\n  - LEA-000088_socially_shared_regulation.yml\n  - LEA-000089_group_knowledge_building.yml\n  - LEA-000090_learning_community.yml\n  - LEA-000091_formative_assessment.yml\n  - LEA-000092_summative_assessment.yml\n  - LEA-000093_diagnostic_assessment.yml\n  - LEA-000094_criterion_referenced_assessment.yml\n  - LEA-000095_norm_referenced_assessment.yml\n  - LEA-000096_self_assessment.yml\n  - LEA-000097_peer_assessment.yml\n  - LEA-000098_rubric_assessment.yml\n  - LEA-000099_learning_analytics.yml\n  - LEA-000100_competency_based_assessment.yml\nnotes:\n  - 学習理論は学力判定ではなく推論材料として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
   "items": [
     {
-      "filename": "LEARN-000051_cognitive_load_learning.yml",
-      "id": "LEARN-000051",
+      "filename": "LEA-000051_cognitive_load_learning.yml",
+      "id": "LEA-000051",
       "knowledge_type": "learning_theory",
       "name_ja": "認知負荷学習",
       "name_en": "Cognitive Load Learning",
@@ -46,8 +46,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000052_intrinsic_cognitive_load_learning.yml",
-      "id": "LEARN-000052",
+      "filename": "LEA-000052_intrinsic_cognitive_load_learning.yml",
+      "id": "LEA-000052",
       "knowledge_type": "learning_theory",
       "name_ja": "内在的認知負荷",
       "name_en": "Intrinsic Cognitive Load",
@@ -88,8 +88,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000053_extraneous_cognitive_load_learning.yml",
-      "id": "LEARN-000053",
+      "filename": "LEA-000053_extraneous_cognitive_load_learning.yml",
+      "id": "LEA-000053",
       "knowledge_type": "learning_theory",
       "name_ja": "外在的認知負荷",
       "name_en": "Extraneous Cognitive Load",
@@ -130,8 +130,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000054_germane_cognitive_load_learning.yml",
-      "id": "LEARN-000054",
+      "filename": "LEA-000054_germane_cognitive_load_learning.yml",
+      "id": "LEA-000054",
       "knowledge_type": "learning_theory",
       "name_ja": "学習関連認知負荷",
       "name_en": "Germane Cognitive Load",
@@ -172,8 +172,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000055_split_attention_effect.yml",
-      "id": "LEARN-000055",
+      "filename": "LEA-000055_split_attention_effect.yml",
+      "id": "LEA-000055",
       "knowledge_type": "learning_theory",
       "name_ja": "注意分割効果",
       "name_en": "Split Attention Effect",
@@ -214,8 +214,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000056_modality_effect.yml",
-      "id": "LEARN-000056",
+      "filename": "LEA-000056_modality_effect.yml",
+      "id": "LEA-000056",
       "knowledge_type": "learning_theory",
       "name_ja": "モダリティ効果",
       "name_en": "Modality Effect",
@@ -256,8 +256,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000057_redundancy_effect.yml",
-      "id": "LEARN-000057",
+      "filename": "LEA-000057_redundancy_effect.yml",
+      "id": "LEA-000057",
       "knowledge_type": "learning_theory",
       "name_ja": "冗長性効果",
       "name_en": "Redundancy Effect",
@@ -298,8 +298,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000058_worked_example_effect.yml",
-      "id": "LEARN-000058",
+      "filename": "LEA-000058_worked_example_effect.yml",
+      "id": "LEA-000058",
       "knowledge_type": "learning_theory",
       "name_ja": "例題効果",
       "name_en": "Worked Example Effect",
@@ -340,8 +340,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000059_expertise_reversal_effect.yml",
-      "id": "LEARN-000059",
+      "filename": "LEA-000059_expertise_reversal_effect.yml",
+      "id": "LEA-000059",
       "knowledge_type": "learning_theory",
       "name_ja": "熟達度逆転効果",
       "name_en": "Expertise Reversal Effect",
@@ -382,8 +382,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000060_segmenting_effect.yml",
-      "id": "LEARN-000060",
+      "filename": "LEA-000060_segmenting_effect.yml",
+      "id": "LEA-000060",
       "knowledge_type": "learning_theory",
       "name_ja": "分節化効果",
       "name_en": "Segmenting Effect",
@@ -424,8 +424,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000061_encoding_strategy.yml",
-      "id": "LEARN-000061",
+      "filename": "LEA-000061_encoding_strategy.yml",
+      "id": "LEA-000061",
       "knowledge_type": "learning_theory",
       "name_ja": "符号化方略",
       "name_en": "Encoding Strategy",
@@ -466,8 +466,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000062_elaborative_rehearsal.yml",
-      "id": "LEARN-000062",
+      "filename": "LEA-000062_elaborative_rehearsal.yml",
+      "id": "LEA-000062",
       "knowledge_type": "learning_theory",
       "name_ja": "精緻化リハーサル",
       "name_en": "Elaborative Rehearsal",
@@ -508,8 +508,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000063_maintenance_rehearsal.yml",
-      "id": "LEARN-000063",
+      "filename": "LEA-000063_maintenance_rehearsal.yml",
+      "id": "LEA-000063",
       "knowledge_type": "learning_theory",
       "name_ja": "維持リハーサル",
       "name_en": "Maintenance Rehearsal",
@@ -550,8 +550,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000064_mnemonic_strategy.yml",
-      "id": "LEARN-000064",
+      "filename": "LEA-000064_mnemonic_strategy.yml",
+      "id": "LEA-000064",
       "knowledge_type": "learning_theory",
       "name_ja": "記憶術",
       "name_en": "Mnemonic Strategy",
@@ -592,8 +592,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000065_dual_coding.yml",
-      "id": "LEARN-000065",
+      "filename": "LEA-000065_dual_coding.yml",
+      "id": "LEA-000065",
       "knowledge_type": "learning_theory",
       "name_ja": "二重符号化",
       "name_en": "Dual Coding",
@@ -634,8 +634,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000066_generation_effect.yml",
-      "id": "LEARN-000066",
+      "filename": "LEA-000066_generation_effect.yml",
+      "id": "LEA-000066",
       "knowledge_type": "learning_theory",
       "name_ja": "生成効果",
       "name_en": "Generation Effect",
@@ -676,8 +676,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000067_testing_effect.yml",
-      "id": "LEARN-000067",
+      "filename": "LEA-000067_testing_effect.yml",
+      "id": "LEA-000067",
       "knowledge_type": "learning_theory",
       "name_ja": "テスト効果",
       "name_en": "Testing Effect",
@@ -718,8 +718,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000068_retrieval_cue.yml",
-      "id": "LEARN-000068",
+      "filename": "LEA-000068_retrieval_cue.yml",
+      "id": "LEA-000068",
       "knowledge_type": "learning_theory",
       "name_ja": "検索手がかり",
       "name_en": "Retrieval Cue",
@@ -760,8 +760,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000069_forgetting_curve.yml",
-      "id": "LEARN-000069",
+      "filename": "LEA-000069_forgetting_curve.yml",
+      "id": "LEA-000069",
       "knowledge_type": "learning_theory",
       "name_ja": "忘却曲線",
       "name_en": "Forgetting Curve",
@@ -802,8 +802,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000070_relearning_effect.yml",
-      "id": "LEARN-000070",
+      "filename": "LEA-000070_relearning_effect.yml",
+      "id": "LEA-000070",
       "knowledge_type": "learning_theory",
       "name_ja": "再学習効果",
       "name_en": "Relearning Effect",
@@ -844,8 +844,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000071_skill_acquisition.yml",
-      "id": "LEARN-000071",
+      "filename": "LEA-000071_skill_acquisition.yml",
+      "id": "LEA-000071",
       "knowledge_type": "learning_theory",
       "name_ja": "技能習得",
       "name_en": "Skill Acquisition",
@@ -886,8 +886,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000072_deliberate_practice.yml",
-      "id": "LEARN-000072",
+      "filename": "LEA-000072_deliberate_practice.yml",
+      "id": "LEA-000072",
       "knowledge_type": "learning_theory",
       "name_ja": "意図的練習",
       "name_en": "Deliberate Practice",
@@ -928,8 +928,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000073_automaticity.yml",
-      "id": "LEARN-000073",
+      "filename": "LEA-000073_automaticity.yml",
+      "id": "LEA-000073",
       "knowledge_type": "learning_theory",
       "name_ja": "自動化",
       "name_en": "Automaticity",
@@ -970,8 +970,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000074_fluency_development.yml",
-      "id": "LEARN-000074",
+      "filename": "LEA-000074_fluency_development.yml",
+      "id": "LEA-000074",
       "knowledge_type": "learning_theory",
       "name_ja": "流暢性発達",
       "name_en": "Fluency Development",
@@ -1012,8 +1012,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000075_accuracy_speed_tradeoff_learning.yml",
-      "id": "LEARN-000075",
+      "filename": "LEA-000075_accuracy_speed_tradeoff_learning.yml",
+      "id": "LEA-000075",
       "knowledge_type": "learning_theory",
       "name_ja": "正確性速度トレードオフ学習",
       "name_en": "Accuracy Speed Tradeoff Learning",
@@ -1054,8 +1054,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000076_practice_variability.yml",
-      "id": "LEARN-000076",
+      "filename": "LEA-000076_practice_variability.yml",
+      "id": "LEA-000076",
       "knowledge_type": "learning_theory",
       "name_ja": "練習変動性",
       "name_en": "Practice Variability",
@@ -1096,8 +1096,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000077_blocked_practice.yml",
-      "id": "LEARN-000077",
+      "filename": "LEA-000077_blocked_practice.yml",
+      "id": "LEA-000077",
       "knowledge_type": "learning_theory",
       "name_ja": "ブロック練習",
       "name_en": "Blocked Practice",
@@ -1138,8 +1138,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000078_random_practice.yml",
-      "id": "LEARN-000078",
+      "filename": "LEA-000078_random_practice.yml",
+      "id": "LEA-000078",
       "knowledge_type": "learning_theory",
       "name_ja": "ランダム練習",
       "name_en": "Random Practice",
@@ -1180,8 +1180,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000079_motor_skill_learning.yml",
-      "id": "LEARN-000079",
+      "filename": "LEA-000079_motor_skill_learning.yml",
+      "id": "LEA-000079",
       "knowledge_type": "learning_theory",
       "name_ja": "運動技能学習",
       "name_en": "Motor Skill Learning",
@@ -1222,8 +1222,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000080_cognitive_skill_learning.yml",
-      "id": "LEARN-000080",
+      "filename": "LEA-000080_cognitive_skill_learning.yml",
+      "id": "LEA-000080",
       "knowledge_type": "learning_theory",
       "name_ja": "認知技能学習",
       "name_en": "Cognitive Skill Learning",
@@ -1264,8 +1264,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000081_collaborative_learning.yml",
-      "id": "LEARN-000081",
+      "filename": "LEA-000081_collaborative_learning.yml",
+      "id": "LEA-000081",
       "knowledge_type": "learning_theory",
       "name_ja": "協同学習",
       "name_en": "Collaborative Learning",
@@ -1306,8 +1306,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000082_peer_learning.yml",
-      "id": "LEARN-000082",
+      "filename": "LEA-000082_peer_learning.yml",
+      "id": "LEA-000082",
       "knowledge_type": "learning_theory",
       "name_ja": "ピア学習",
       "name_en": "Peer Learning",
@@ -1348,8 +1348,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000083_peer_tutoring.yml",
-      "id": "LEARN-000083",
+      "filename": "LEA-000083_peer_tutoring.yml",
+      "id": "LEA-000083",
       "knowledge_type": "learning_theory",
       "name_ja": "ピアチュータリング",
       "name_en": "Peer Tutoring",
@@ -1390,8 +1390,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000084_reciprocal_teaching.yml",
-      "id": "LEARN-000084",
+      "filename": "LEA-000084_reciprocal_teaching.yml",
+      "id": "LEA-000084",
       "knowledge_type": "learning_theory",
       "name_ja": "相互教授法",
       "name_en": "Reciprocal Teaching",
@@ -1432,8 +1432,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000085_cooperative_learning.yml",
-      "id": "LEARN-000085",
+      "filename": "LEA-000085_cooperative_learning.yml",
+      "id": "LEA-000085",
       "knowledge_type": "learning_theory",
       "name_ja": "協力学習",
       "name_en": "Cooperative Learning",
@@ -1474,8 +1474,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000086_discussion_learning.yml",
-      "id": "LEARN-000086",
+      "filename": "LEA-000086_discussion_learning.yml",
+      "id": "LEA-000086",
       "knowledge_type": "learning_theory",
       "name_ja": "討議学習",
       "name_en": "Discussion Learning",
@@ -1516,8 +1516,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000087_explanation_to_others.yml",
-      "id": "LEARN-000087",
+      "filename": "LEA-000087_explanation_to_others.yml",
+      "id": "LEA-000087",
       "knowledge_type": "learning_theory",
       "name_ja": "他者説明学習",
       "name_en": "Learning by Teaching",
@@ -1558,8 +1558,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000088_socially_shared_regulation.yml",
-      "id": "LEARN-000088",
+      "filename": "LEA-000088_socially_shared_regulation.yml",
+      "id": "LEA-000088",
       "knowledge_type": "learning_theory",
       "name_ja": "社会的共有調整",
       "name_en": "Socially Shared Regulation",
@@ -1600,8 +1600,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000089_group_knowledge_building.yml",
-      "id": "LEARN-000089",
+      "filename": "LEA-000089_group_knowledge_building.yml",
+      "id": "LEA-000089",
       "knowledge_type": "learning_theory",
       "name_ja": "集団知識構築",
       "name_en": "Group Knowledge Building",
@@ -1642,8 +1642,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000090_learning_community.yml",
-      "id": "LEARN-000090",
+      "filename": "LEA-000090_learning_community.yml",
+      "id": "LEA-000090",
       "knowledge_type": "learning_theory",
       "name_ja": "学習コミュニティ",
       "name_en": "Learning Community",
@@ -1684,8 +1684,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000091_formative_assessment.yml",
-      "id": "LEARN-000091",
+      "filename": "LEA-000091_formative_assessment.yml",
+      "id": "LEA-000091",
       "knowledge_type": "learning_theory",
       "name_ja": "形成的評価",
       "name_en": "Formative Assessment",
@@ -1726,8 +1726,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000092_summative_assessment.yml",
-      "id": "LEARN-000092",
+      "filename": "LEA-000092_summative_assessment.yml",
+      "id": "LEA-000092",
       "knowledge_type": "learning_theory",
       "name_ja": "総括的評価",
       "name_en": "Summative Assessment",
@@ -1768,8 +1768,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000093_diagnostic_assessment.yml",
-      "id": "LEARN-000093",
+      "filename": "LEA-000093_diagnostic_assessment.yml",
+      "id": "LEA-000093",
       "knowledge_type": "learning_theory",
       "name_ja": "診断的評価",
       "name_en": "Diagnostic Assessment",
@@ -1810,8 +1810,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000094_criterion_referenced_assessment.yml",
-      "id": "LEARN-000094",
+      "filename": "LEA-000094_criterion_referenced_assessment.yml",
+      "id": "LEA-000094",
       "knowledge_type": "learning_theory",
       "name_ja": "到達基準評価",
       "name_en": "Criterion Referenced Assessment",
@@ -1852,8 +1852,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000095_norm_referenced_assessment.yml",
-      "id": "LEARN-000095",
+      "filename": "LEA-000095_norm_referenced_assessment.yml",
+      "id": "LEA-000095",
       "knowledge_type": "learning_theory",
       "name_ja": "相対評価",
       "name_en": "Norm Referenced Assessment",
@@ -1894,8 +1894,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000096_self_assessment.yml",
-      "id": "LEARN-000096",
+      "filename": "LEA-000096_self_assessment.yml",
+      "id": "LEA-000096",
       "knowledge_type": "learning_theory",
       "name_ja": "自己評価",
       "name_en": "Self Assessment",
@@ -1936,8 +1936,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000097_peer_assessment.yml",
-      "id": "LEARN-000097",
+      "filename": "LEA-000097_peer_assessment.yml",
+      "id": "LEA-000097",
       "knowledge_type": "learning_theory",
       "name_ja": "相互評価",
       "name_en": "Peer Assessment",
@@ -1978,8 +1978,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000098_rubric_assessment.yml",
-      "id": "LEARN-000098",
+      "filename": "LEA-000098_rubric_assessment.yml",
+      "id": "LEA-000098",
       "knowledge_type": "learning_theory",
       "name_ja": "ルーブリック評価",
       "name_en": "Rubric Assessment",
@@ -2020,8 +2020,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000099_learning_analytics.yml",
-      "id": "LEARN-000099",
+      "filename": "LEA-000099_learning_analytics.yml",
+      "id": "LEA-000099",
       "knowledge_type": "learning_theory",
       "name_ja": "ラーニングアナリティクス",
       "name_en": "Learning Analytics",
@@ -2062,8 +2062,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000100_competency_based_assessment.yml",
-      "id": "LEARN-000100",
+      "filename": "LEA-000100_competency_based_assessment.yml",
+      "id": "LEA-000100",
       "knowledge_type": "learning_theory",
       "name_ja": "コンピテンシー評価",
       "name_en": "Competency Based Assessment",

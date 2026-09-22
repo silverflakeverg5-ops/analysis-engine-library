@@ -4,7 +4,7 @@ BASE = Path("data/vol2_personality/facets")
 BASE.mkdir(parents=True, exist_ok=True)
 
 files = {
-    "FAC-000001_sociability.yml": """id: FAC-000001
+    "PER-000008_sociability.yml": """id: PER-000008
 knowledge_type: trait
 name_ja: 社交性
 name_en: Sociability
@@ -37,7 +37,7 @@ evidence: Big Five外向性の下位特性として利用
 status: active
 """,
 
-    "FAC-000002_assertiveness.yml": """id: FAC-000002
+    "PER-000009_assertiveness.yml": """id: PER-000009
 knowledge_type: trait
 name_ja: 自己主張
 name_en: Assertiveness
@@ -70,7 +70,7 @@ evidence: 性格特性・対人行動評価で使用
 status: active
 """,
 
-    "FAC-000003_curiosity.yml": """id: FAC-000003
+    "PER-000010_curiosity.yml": """id: PER-000010
 knowledge_type: trait
 name_ja: 好奇心
 name_en: Curiosity
@@ -103,7 +103,7 @@ evidence: 開放性・動機づけ研究で使用
 status: active
 """,
 
-    "FAC-000004_creativity.yml": """id: FAC-000004
+    "PER-000011_creativity.yml": """id: PER-000011
 knowledge_type: trait
 name_ja: 創造性
 name_en: Creativity
@@ -138,7 +138,7 @@ evidence: 創造性研究・開放性との関連で使用
 status: active
 """,
 
-    "FAC-000005_self_discipline.yml": """id: FAC-000005
+    "PER-000012_self_discipline.yml": """id: PER-000012
 knowledge_type: trait
 name_ja: 自己規律
 name_en: Self-Discipline
@@ -173,7 +173,7 @@ evidence: 誠実性の下位特性として利用
 status: active
 """,
 
-    "FAC-000006_responsibility.yml": """id: FAC-000006
+    "PER-000013_responsibility.yml": """id: PER-000013
 knowledge_type: trait
 name_ja: 責任感
 name_en: Responsibility
@@ -206,7 +206,7 @@ evidence: 性格評価・人材評価で使用
 status: active
 """,
 
-    "FAC-000007_empathy.yml": """id: FAC-000007
+    "PER-000014_empathy.yml": """id: PER-000014
 knowledge_type: trait
 name_ja: 共感性
 name_en: Empathy
@@ -240,7 +240,7 @@ evidence: 協調性・社会認知研究で使用
 status: active
 """,
 
-    "FAC-000008_risk_tolerance.yml": """id: FAC-000008
+    "PER-000015_risk_tolerance.yml": """id: PER-000015
 knowledge_type: trait
 name_ja: リスク許容
 name_en: Risk Tolerance
@@ -278,14 +278,14 @@ status: active
     "personality_facets_index.yml": """category: Personality Facets
 name_ja: 性格下位特性
 items:
-  - FAC-000001_sociability.yml
-  - FAC-000002_assertiveness.yml
-  - FAC-000003_curiosity.yml
-  - FAC-000004_creativity.yml
-  - FAC-000005_self_discipline.yml
-  - FAC-000006_responsibility.yml
-  - FAC-000007_empathy.yml
-  - FAC-000008_risk_tolerance.yml
+  - PER-000008_sociability.yml
+  - PER-000009_assertiveness.yml
+  - PER-000010_curiosity.yml
+  - PER-000011_creativity.yml
+  - PER-000012_self_discipline.yml
+  - PER-000013_responsibility.yml
+  - PER-000014_empathy.yml
+  - PER-000015_risk_tolerance.yml
 notes:
   - 下位特性は統合しない
   - 上位性格因子との関係はparentとtagsで管理する

@@ -1,0 +1,6507 @@
+{
+  "output_dir": "vol40_name_divination/name_divination_001_100",
+  "index_filename": "name_divination_001_100_index.yml",
+  "index_content": "category: Name Divination\nname_ja: 姓名判断\nitems:\n  - NAM-000001_name_divination.yml\n  - NAM-000002_onomancy.yml\n  - NAM-000003_written_name.yml\n  - NAM-000004_reading_name.yml\n  - NAM-000005_family_given_split.yml\n  - NAM-000006_system_declaration.yml\n  - NAM-000007_dictionary_declaration.yml\n  - NAM-000008_calculation_trace.yml\n  - NAM-000009_cultural_context.yml\n  - NAM-000010_non_diagnostic_boundary.yml\n  - NAM-000011_legal_name.yml\n  - NAM-000012_birth_name.yml\n  - NAM-000013_current_name.yml\n  - NAM-000014_professional_name.yml\n  - NAM-000015_nickname.yml\n  - NAM-000016_kanji_form.yml\n  - NAM-000017_kana_form.yml\n  - NAM-000018_romanized_form.yml\n  - NAM-000019_name_order.yml\n  - NAM-000020_missing_reading.yml\n  - NAM-000021_modern_glyph_count.yml\n  - NAM-000022_traditional_glyph_count.yml\n  - NAM-000023_radical_adjustment.yml\n  - NAM-000024_variant_character.yml\n  - NAM-000025_simplified_character.yml\n  - NAM-000026_kana_stroke_count.yml\n  - NAM-000027_latin_letter_count.yml\n  - NAM-000028_middle_dot_handling.yml\n  - NAM-000029_one_character_name.yml\n  - NAM-000030_stroke_source_version.yml\n  - NAM-000031_heaven_grid.yml\n  - NAM-000032_person_grid.yml\n  - NAM-000033_earth_grid.yml\n  - NAM-000034_outer_grid.yml\n  - NAM-000035_total_grid.yml\n  - NAM-000036_odd_yang.yml\n  - NAM-000037_even_yin.yml\n  - NAM-000038_yin_yang_sequence.yml\n  - NAM-000039_grid_phase.yml\n  - NAM-000040_three_talents.yml\n  - NAM-000041_phase_generation.yml\n  - NAM-000042_phase_control.yml\n  - NAM-000043_same_phase.yml\n  - NAM-000044_assignment_variation.yml\n  - NAM-000045_no_element_essentialism.yml\n  - NAM-000046_initial_sound.yml\n  - NAM-000047_vowel_pattern.yml\n  - NAM-000048_consonant_pattern.yml\n  - NAM-000049_mora_count.yml\n  - NAM-000050_voicing.yml\n  - NAM-000051_long_vowel.yml\n  - NAM-000052_contracted_sound.yml\n  - NAM-000053_geminate_sound.yml\n  - NAM-000054_pitch_accent.yml\n  - NAM-000055_reading_variation.yml\n  - NAM-000056_literal_meaning.yml\n  - NAM-000057_name_specific_meaning.yml\n  - NAM-000058_etymology.yml\n  - NAM-000059_semantic_combination.yml\n  - NAM-000060_cultural_association.yml\n  - NAM-000061_generational_character.yml\n  - NAM-000062_gendered_convention.yml\n  - NAM-000063_era_context.yml\n  - NAM-000064_regional_context.yml\n  - NAM-000065_meaning_source.yml\n  - NAM-000066_five_grid_method.yml\n  - NAM-000067_eighty_one_numbers.yml\n  - NAM-000068_yin_yang_method.yml\n  - NAM-000069_three_talents_method.yml\n  - NAM-000070_sound_method.yml\n  - NAM-000071_meaning_method.yml\n  - NAM-000072_birthdate_combination.yml\n  - NAM-000073_old_new_glyph_split.yml\n  - NAM-000074_regional_method.yml\n  - NAM-000075_method_non_equivalence.yml\n  - NAM-000076_consent.yml\n  - NAM-000077_purpose.yml\n  - NAM-000078_select_name_version.yml\n  - NAM-000079_select_script.yml\n  - NAM-000080_select_dictionary.yml\n  - NAM-000081_normalize_characters.yml\n  - NAM-000082_count_strokes.yml\n  - NAM-000083_calculate_grids.yml\n  - NAM-000084_apply_number_table.yml\n  - NAM-000085_calculate_phase_relations.yml\n  - NAM-000086_analyze_reading.yml\n  - NAM-000087_analyze_meaning.yml\n  - NAM-000088_compare_methods.yml\n  - NAM-000089_show_uncertainty.yml\n  - NAM-000090_user_review.yml\n  - NAM-000091_no_name_quality_rank.yml\n  - NAM-000092_no_personality_fixing.yml\n  - NAM-000093_no_discrimination.yml\n  - NAM-000094_no_hiring_use.yml\n  - NAM-000095_no_child_pressure.yml\n  - NAM-000096_no_fatalism.yml\n  - NAM-000097_privacy_minimization.yml\n  - NAM-000098_deletion_control.yml\n  - NAM-000099_method_disclosure.yml\n  - NAM-000100_reflective_use.yml\nnotes:\n  - 伝統的・文化的解釈として扱い心理学的エビデンスと混同しない\n  - 計算方式・流派・入力精度・出典を結果とともに保持する\n  - 医療・雇用・教育・保険・信用・法執行など高影響判断には利用しない\n",
+  "items": [
+    {
+      "filename": "NAM-000001_name_divination.yml",
+      "id": "NAM-000001",
+      "knowledge_type": "name_divination",
+      "name_ja": "姓名判断",
+      "name_en": "Name Divination",
+      "category": "Name Divination",
+      "attribute": "Foundations",
+      "definition_ja": "姓名判断は、氏名の文字・画数・音・意味へ象徴的解釈を与える諸方式を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、姓名判断を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000002_onomancy.yml",
+      "id": "NAM-000002",
+      "knowledge_type": "name_divination",
+      "name_ja": "オノマンシー",
+      "name_en": "Onomancy",
+      "category": "Name Divination",
+      "attribute": "Foundations",
+      "definition_ja": "オノマンシーは、名前を用いる占術一般の比較概念を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、オノマンシーを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000003_written_name.yml",
+      "id": "NAM-000003",
+      "knowledge_type": "name_divination",
+      "name_ja": "表記名",
+      "name_en": "Written Name",
+      "category": "Name Divination",
+      "attribute": "Foundations",
+      "definition_ja": "表記名は、判定対象となる具体的な氏名表記を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、表記名を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000004_reading_name.yml",
+      "id": "NAM-000004",
+      "knowledge_type": "name_divination",
+      "name_ja": "読み名",
+      "name_en": "Name Reading",
+      "category": "Name Divination",
+      "attribute": "Foundations",
+      "definition_ja": "読み名は、氏名の読み・発音を独立入力として扱うことを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、読み名を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000005_family_given_split.yml",
+      "id": "NAM-000005",
+      "knowledge_type": "name_divination",
+      "name_ja": "姓・名分割",
+      "name_en": "Family-Given Name Split",
+      "category": "Name Divination",
+      "attribute": "Foundations",
+      "definition_ja": "姓・名分割は、姓と名の境界を方式ごとに定義することを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、姓・名分割を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000006_system_declaration.yml",
+      "id": "NAM-000006",
+      "knowledge_type": "name_divination",
+      "name_ja": "方式宣言",
+      "name_en": "System Declaration",
+      "category": "Name Divination",
+      "attribute": "Foundations",
+      "definition_ja": "方式宣言は、五格・陰陽配列・音・字義等の採用方式を明示することを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、方式宣言を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000007_dictionary_declaration.yml",
+      "id": "NAM-000007",
+      "knowledge_type": "name_divination",
+      "name_ja": "字典宣言",
+      "name_en": "Character-Dictionary Declaration",
+      "category": "Name Divination",
+      "attribute": "Foundations",
+      "definition_ja": "字典宣言は、画数計算に用いる字体・字典・旧字体規則を示すことを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、字典宣言を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000008_calculation_trace.yml",
+      "id": "NAM-000008",
+      "knowledge_type": "name_divination",
+      "name_ja": "計算追跡",
+      "name_en": "Calculation Trace",
+      "category": "Name Divination",
+      "attribute": "Foundations",
+      "definition_ja": "計算追跡は、文字入力から画数・格・解釈までを保存することを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、計算追跡を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000009_cultural_context.yml",
+      "id": "NAM-000009",
+      "knowledge_type": "name_divination",
+      "name_ja": "命名文化文脈",
+      "name_en": "Naming Cultural Context",
+      "category": "Name Divination",
+      "attribute": "Foundations",
+      "definition_ja": "命名文化文脈は、時代・言語・地域・家族慣習で名前の意味が異なることを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、命名文化文脈を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000010_non_diagnostic_boundary.yml",
+      "id": "NAM-000010",
+      "knowledge_type": "name_divination",
+      "name_ja": "非診断境界",
+      "name_en": "Non-Diagnostic Boundary",
+      "category": "Name Divination",
+      "attribute": "Foundations",
+      "definition_ja": "非診断境界は、名前から性格・能力・運命を事実として判定しないことを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、非診断境界を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000011_legal_name.yml",
+      "id": "NAM-000011",
+      "knowledge_type": "name_divination",
+      "name_ja": "戸籍名",
+      "name_en": "Legal Name",
+      "category": "Name Divination",
+      "attribute": "Name Inputs",
+      "definition_ja": "戸籍名は、法的氏名を本人同意のもと入力することを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:氏名入力",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "氏名入力"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、戸籍名を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000012_birth_name.yml",
+      "id": "NAM-000012",
+      "knowledge_type": "name_divination",
+      "name_ja": "出生名",
+      "name_en": "Birth Name",
+      "category": "Name Divination",
+      "attribute": "Name Inputs",
+      "definition_ja": "出生名は、出生時の氏名を別版として扱うことを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:氏名入力",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "氏名入力"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、出生名を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000013_current_name.yml",
+      "id": "NAM-000013",
+      "knowledge_type": "name_divination",
+      "name_ja": "現在名",
+      "name_en": "Current Name",
+      "category": "Name Divination",
+      "attribute": "Name Inputs",
+      "definition_ja": "現在名は、改姓改名後の現在名を別版として扱うことを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:氏名入力",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "氏名入力"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、現在名を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000014_professional_name.yml",
+      "id": "NAM-000014",
+      "knowledge_type": "name_divination",
+      "name_ja": "芸名・活動名",
+      "name_en": "Professional Name",
+      "category": "Name Divination",
+      "attribute": "Name Inputs",
+      "definition_ja": "芸名・活動名は、活動上の名称を別版として扱うことを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:氏名入力",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "氏名入力"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、芸名・活動名を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000015_nickname.yml",
+      "id": "NAM-000015",
+      "knowledge_type": "name_divination",
+      "name_ja": "通称",
+      "name_en": "Nickname",
+      "category": "Name Divination",
+      "attribute": "Name Inputs",
+      "definition_ja": "通称は、日常の通称を別版として扱うことを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:氏名入力",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "氏名入力"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、通称を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000016_kanji_form.yml",
+      "id": "NAM-000016",
+      "knowledge_type": "name_divination",
+      "name_ja": "漢字表記",
+      "name_en": "Kanji Form",
+      "category": "Name Divination",
+      "attribute": "Name Inputs",
+      "definition_ja": "漢字表記は、漢字の具体的字体を保持することを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:氏名入力",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "氏名入力"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、漢字表記を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000017_kana_form.yml",
+      "id": "NAM-000017",
+      "knowledge_type": "name_divination",
+      "name_ja": "かな表記",
+      "name_en": "Kana Form",
+      "category": "Name Divination",
+      "attribute": "Name Inputs",
+      "definition_ja": "かな表記は、かなによる読み表記を保持することを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:氏名入力",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "氏名入力"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、かな表記を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000018_romanized_form.yml",
+      "id": "NAM-000018",
+      "knowledge_type": "name_divination",
+      "name_ja": "ローマ字表記",
+      "name_en": "Romanized Form",
+      "category": "Name Divination",
+      "attribute": "Name Inputs",
+      "definition_ja": "ローマ字表記は、ローマ字方式を明示して保持することを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:氏名入力",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "氏名入力"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、ローマ字表記を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000019_name_order.yml",
+      "id": "NAM-000019",
+      "knowledge_type": "name_divination",
+      "name_ja": "姓名順序",
+      "name_en": "Name Order",
+      "category": "Name Divination",
+      "attribute": "Name Inputs",
+      "definition_ja": "姓名順序は、姓・名の表示順を文化文脈とともに保持することを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:氏名入力",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "氏名入力"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、姓名順序を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000020_missing_reading.yml",
+      "id": "NAM-000020",
+      "knowledge_type": "name_divination",
+      "name_ja": "読み不明",
+      "name_en": "Missing Reading",
+      "category": "Name Divination",
+      "attribute": "Name Inputs",
+      "definition_ja": "読み不明は、読みが不明な場合に推測せず欠測として扱うことを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:氏名入力",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "氏名入力"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、読み不明を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000021_modern_glyph_count.yml",
+      "id": "NAM-000021",
+      "knowledge_type": "name_divination",
+      "name_ja": "新字体画数",
+      "name_en": "Modern-Glyph Stroke Count",
+      "category": "Name Divination",
+      "attribute": "Stroke Counting",
+      "definition_ja": "新字体画数は、現代字体の字形にもとづく画数方式を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:画数計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "画数計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、新字体画数を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000022_traditional_glyph_count.yml",
+      "id": "NAM-000022",
+      "knowledge_type": "name_divination",
+      "name_ja": "旧字体画数",
+      "name_en": "Traditional-Glyph Stroke Count",
+      "category": "Name Divination",
+      "attribute": "Stroke Counting",
+      "definition_ja": "旧字体画数は、旧字体・康熙字典体等を用いる方式を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:画数計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "画数計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、旧字体画数を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000023_radical_adjustment.yml",
+      "id": "NAM-000023",
+      "knowledge_type": "name_divination",
+      "name_ja": "部首画数補正",
+      "name_en": "Radical Stroke Adjustment",
+      "category": "Name Divination",
+      "attribute": "Stroke Counting",
+      "definition_ja": "部首画数補正は、部首の数え方を補正する流派規則を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:画数計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "画数計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、部首画数補正を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000024_variant_character.yml",
+      "id": "NAM-000024",
+      "knowledge_type": "name_divination",
+      "name_ja": "異体字",
+      "name_en": "Variant Character",
+      "category": "Name Divination",
+      "attribute": "Stroke Counting",
+      "definition_ja": "異体字は、異体字をどの標準字へ対応させるかという規則を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:画数計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "画数計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、異体字を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000025_simplified_character.yml",
+      "id": "NAM-000025",
+      "knowledge_type": "name_divination",
+      "name_ja": "簡体字",
+      "name_en": "Simplified Character",
+      "category": "Name Divination",
+      "attribute": "Stroke Counting",
+      "definition_ja": "簡体字は、簡体字をそのまま数えるか繁体字へ戻すかという規則を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:画数計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "画数計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、簡体字を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000026_kana_stroke_count.yml",
+      "id": "NAM-000026",
+      "knowledge_type": "name_divination",
+      "name_ja": "かな画数",
+      "name_en": "Kana Stroke Count",
+      "category": "Name Divination",
+      "attribute": "Stroke Counting",
+      "definition_ja": "かな画数は、かな文字へ画数を割り当てる方式を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:画数計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "画数計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、かな画数を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000027_latin_letter_count.yml",
+      "id": "NAM-000027",
+      "knowledge_type": "name_divination",
+      "name_ja": "ラテン文字数価",
+      "name_en": "Latin-Letter Value",
+      "category": "Name Divination",
+      "attribute": "Stroke Counting",
+      "definition_ja": "ラテン文字数価は、ラテン文字名を別体系で扱う方式を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:画数計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "画数計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、ラテン文字数価を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000028_middle_dot_handling.yml",
+      "id": "NAM-000028",
+      "knowledge_type": "name_divination",
+      "name_ja": "中黒処理",
+      "name_en": "Middle-Dot Handling",
+      "category": "Name Divination",
+      "attribute": "Stroke Counting",
+      "definition_ja": "中黒処理は、中黒・ハイフン・空白等を画数へ含めるかという規則を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:画数計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "画数計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、中黒処理を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000029_one_character_name.yml",
+      "id": "NAM-000029",
+      "knowledge_type": "name_divination",
+      "name_ja": "一字名処理",
+      "name_en": "Single-Character Name Handling",
+      "category": "Name Divination",
+      "attribute": "Stroke Counting",
+      "definition_ja": "一字名処理は、一字姓・一字名で仮数を加える流派規則を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:画数計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "画数計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、一字名処理を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000030_stroke_source_version.yml",
+      "id": "NAM-000030",
+      "knowledge_type": "name_divination",
+      "name_ja": "画数表版管理",
+      "name_en": "Stroke-Table Version",
+      "category": "Name Divination",
+      "attribute": "Stroke Counting",
+      "definition_ja": "画数表版管理は、採用画数表と版を記録することを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:画数計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "画数計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、画数表版管理を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000031_heaven_grid.yml",
+      "id": "NAM-000031",
+      "knowledge_type": "name_divination",
+      "name_ja": "天格",
+      "name_en": "Heaven Grid",
+      "category": "Name Divination",
+      "attribute": "Five Grids",
+      "definition_ja": "天格は、姓の画数から算出する五格の一つを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:五格",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "五格"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、天格を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000032_person_grid.yml",
+      "id": "NAM-000032",
+      "knowledge_type": "name_divination",
+      "name_ja": "人格",
+      "name_en": "Person Grid",
+      "category": "Name Divination",
+      "attribute": "Five Grids",
+      "definition_ja": "人格は、姓末字と名初字等から算出する五格の一つを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:五格",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "五格"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、人格を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000033_earth_grid.yml",
+      "id": "NAM-000033",
+      "knowledge_type": "name_divination",
+      "name_ja": "地格",
+      "name_en": "Earth Grid",
+      "category": "Name Divination",
+      "attribute": "Five Grids",
+      "definition_ja": "地格は、名の画数から算出する五格の一つを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:五格",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "五格"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、地格を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000034_outer_grid.yml",
+      "id": "NAM-000034",
+      "knowledge_type": "name_divination",
+      "name_ja": "外格",
+      "name_en": "Outer Grid",
+      "category": "Name Divination",
+      "attribute": "Five Grids",
+      "definition_ja": "外格は、総格・人格等の関係から算出する五格の一つを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:五格",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "五格"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、外格を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000035_total_grid.yml",
+      "id": "NAM-000035",
+      "knowledge_type": "name_divination",
+      "name_ja": "総格",
+      "name_en": "Total Grid",
+      "category": "Name Divination",
+      "attribute": "Five Grids",
+      "definition_ja": "総格は、氏名全体の画数から算出する五格の一つを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:五格",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "五格"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、総格を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000036_odd_yang.yml",
+      "id": "NAM-000036",
+      "knowledge_type": "name_divination",
+      "name_ja": "奇数陽",
+      "name_en": "Odd-Yang Assignment",
+      "category": "Name Divination",
+      "attribute": "Yin Yang and Five Phases",
+      "definition_ja": "奇数陽は、奇数画を陽へ配当する方式を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:陰陽五行配当",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "陰陽五行配当"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、奇数陽を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000037_even_yin.yml",
+      "id": "NAM-000037",
+      "knowledge_type": "name_divination",
+      "name_ja": "偶数陰",
+      "name_en": "Even-Yin Assignment",
+      "category": "Name Divination",
+      "attribute": "Yin Yang and Five Phases",
+      "definition_ja": "偶数陰は、偶数画を陰へ配当する方式を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:陰陽五行配当",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "陰陽五行配当"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、偶数陰を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000038_yin_yang_sequence.yml",
+      "id": "NAM-000038",
+      "knowledge_type": "name_divination",
+      "name_ja": "陰陽配列",
+      "name_en": "Yin-Yang Sequence",
+      "category": "Name Divination",
+      "attribute": "Yin Yang and Five Phases",
+      "definition_ja": "陰陽配列は、各文字画数の陰陽並びを読む方式を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:陰陽五行配当",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "陰陽五行配当"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、陰陽配列を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000039_grid_phase.yml",
+      "id": "NAM-000039",
+      "knowledge_type": "name_divination",
+      "name_ja": "格の五行",
+      "name_en": "Grid Five-Phase",
+      "category": "Name Divination",
+      "attribute": "Yin Yang and Five Phases",
+      "definition_ja": "格の五行は、格数末尾等から五行を配当する方式を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:陰陽五行配当",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "陰陽五行配当"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、格の五行を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000040_three_talents.yml",
+      "id": "NAM-000040",
+      "knowledge_type": "name_divination",
+      "name_ja": "三才配置",
+      "name_en": "Three-Talents Configuration",
+      "category": "Name Divination",
+      "attribute": "Yin Yang and Five Phases",
+      "definition_ja": "三才配置は、天格・人格・地格の五行関係を読む方式を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:陰陽五行配当",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "陰陽五行配当"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、三才配置を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000041_phase_generation.yml",
+      "id": "NAM-000041",
+      "knowledge_type": "name_divination",
+      "name_ja": "五行相生",
+      "name_en": "Phase Generation",
+      "category": "Name Divination",
+      "attribute": "Yin Yang and Five Phases",
+      "definition_ja": "五行相生は、格間の相生関係を扱うことを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:陰陽五行配当",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "陰陽五行配当"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、五行相生を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000042_phase_control.yml",
+      "id": "NAM-000042",
+      "knowledge_type": "name_divination",
+      "name_ja": "五行相剋",
+      "name_en": "Phase Control",
+      "category": "Name Divination",
+      "attribute": "Yin Yang and Five Phases",
+      "definition_ja": "五行相剋は、格間の相剋関係を扱うことを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:陰陽五行配当",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "陰陽五行配当"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、五行相剋を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000043_same_phase.yml",
+      "id": "NAM-000043",
+      "knowledge_type": "name_divination",
+      "name_ja": "五行比和",
+      "name_en": "Same-Phase Relation",
+      "category": "Name Divination",
+      "attribute": "Yin Yang and Five Phases",
+      "definition_ja": "五行比和は、格間が同じ五行になる関係を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:陰陽五行配当",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "陰陽五行配当"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、五行比和を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000044_assignment_variation.yml",
+      "id": "NAM-000044",
+      "knowledge_type": "name_divination",
+      "name_ja": "五行配当差",
+      "name_en": "Assignment Variation",
+      "category": "Name Divination",
+      "attribute": "Yin Yang and Five Phases",
+      "definition_ja": "五行配当差は、数と五行の配当表が流派で異なることを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:陰陽五行配当",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "陰陽五行配当"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、五行配当差を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000045_no_element_essentialism.yml",
+      "id": "NAM-000045",
+      "knowledge_type": "name_divination",
+      "name_ja": "五行本質化禁止",
+      "name_en": "No Element Essentialism",
+      "category": "Name Divination",
+      "attribute": "Yin Yang and Five Phases",
+      "definition_ja": "五行本質化禁止は、五行配当を本人の固定的本質にしないことを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:陰陽五行配当",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "陰陽五行配当"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、五行本質化禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000046_initial_sound.yml",
+      "id": "NAM-000046",
+      "knowledge_type": "name_divination",
+      "name_ja": "語頭音",
+      "name_en": "Initial Sound",
+      "category": "Name Divination",
+      "attribute": "Sound and Reading",
+      "definition_ja": "語頭音は、氏名の最初の音を扱う方式を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:音と読み",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "音と読み"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、語頭音を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000047_vowel_pattern.yml",
+      "id": "NAM-000047",
+      "knowledge_type": "name_divination",
+      "name_ja": "母音配列",
+      "name_en": "Vowel Pattern",
+      "category": "Name Divination",
+      "attribute": "Sound and Reading",
+      "definition_ja": "母音配列は、氏名中の母音の並びを扱う方式を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:音と読み",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "音と読み"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、母音配列を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000048_consonant_pattern.yml",
+      "id": "NAM-000048",
+      "knowledge_type": "name_divination",
+      "name_ja": "子音配列",
+      "name_en": "Consonant Pattern",
+      "category": "Name Divination",
+      "attribute": "Sound and Reading",
+      "definition_ja": "子音配列は、氏名中の子音の並びを扱う方式を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:音と読み",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "音と読み"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、子音配列を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000049_mora_count.yml",
+      "id": "NAM-000049",
+      "knowledge_type": "name_divination",
+      "name_ja": "拍数",
+      "name_en": "Mora Count",
+      "category": "Name Divination",
+      "attribute": "Sound and Reading",
+      "definition_ja": "拍数は、日本語名のモーラ数を扱う方式を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:音と読み",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "音と読み"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、拍数を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000050_voicing.yml",
+      "id": "NAM-000050",
+      "knowledge_type": "name_divination",
+      "name_ja": "清濁",
+      "name_en": "Voicing",
+      "category": "Name Divination",
+      "attribute": "Sound and Reading",
+      "definition_ja": "清濁は、清音・濁音・半濁音の違いを扱う方式を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:音と読み",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "音と読み"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、清濁を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000051_long_vowel.yml",
+      "id": "NAM-000051",
+      "knowledge_type": "name_divination",
+      "name_ja": "長音",
+      "name_en": "Long Vowel",
+      "category": "Name Divination",
+      "attribute": "Sound and Reading",
+      "definition_ja": "長音は、長音を一単位または別単位とする規則を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:音と読み",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "音と読み"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、長音を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000052_contracted_sound.yml",
+      "id": "NAM-000052",
+      "knowledge_type": "name_divination",
+      "name_ja": "拗音",
+      "name_en": "Contracted Sound",
+      "category": "Name Divination",
+      "attribute": "Sound and Reading",
+      "definition_ja": "拗音は、拗音を一拍として扱う規則を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:音と読み",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "音と読み"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、拗音を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000053_geminate_sound.yml",
+      "id": "NAM-000053",
+      "knowledge_type": "name_divination",
+      "name_ja": "促音",
+      "name_en": "Geminate Sound",
+      "category": "Name Divination",
+      "attribute": "Sound and Reading",
+      "definition_ja": "促音は、促音を一拍として扱う規則を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:音と読み",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "音と読み"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、促音を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000054_pitch_accent.yml",
+      "id": "NAM-000054",
+      "knowledge_type": "name_divination",
+      "name_ja": "アクセント",
+      "name_en": "Pitch Accent",
+      "category": "Name Divination",
+      "attribute": "Sound and Reading",
+      "definition_ja": "アクセントは、地域差のあるアクセントを普遍化せず扱うことを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:音と読み",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "音と読み"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、アクセントを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000055_reading_variation.yml",
+      "id": "NAM-000055",
+      "knowledge_type": "name_divination",
+      "name_ja": "読み方差",
+      "name_en": "Reading Variation",
+      "category": "Name Divination",
+      "attribute": "Sound and Reading",
+      "definition_ja": "読み方差は、同じ表記に複数の読みがある場合を併記することを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:音と読み",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "音と読み"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、読み方差を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000056_literal_meaning.yml",
+      "id": "NAM-000056",
+      "knowledge_type": "name_divination",
+      "name_ja": "字義",
+      "name_en": "Literal Meaning",
+      "category": "Name Divination",
+      "attribute": "Character Meaning",
+      "definition_ja": "字義は、文字の辞書的意味を記録することを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:字義",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "字義"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、字義を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000057_name_specific_meaning.yml",
+      "id": "NAM-000057",
+      "knowledge_type": "name_divination",
+      "name_ja": "名乗り義",
+      "name_en": "Name-Specific Meaning",
+      "category": "Name Divination",
+      "attribute": "Character Meaning",
+      "definition_ja": "名乗り義は、人名で用いられる意味・読みを記録することを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:字義",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "字義"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、名乗り義を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000058_etymology.yml",
+      "id": "NAM-000058",
+      "knowledge_type": "name_divination",
+      "name_ja": "字源",
+      "name_en": "Character Etymology",
+      "category": "Name Divination",
+      "attribute": "Character Meaning",
+      "definition_ja": "字源は、文字の成立史を俗説と区別して扱うことを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:字義",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "字義"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、字源を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000059_semantic_combination.yml",
+      "id": "NAM-000059",
+      "knowledge_type": "name_divination",
+      "name_ja": "字義組合せ",
+      "name_en": "Semantic Combination",
+      "category": "Name Divination",
+      "attribute": "Character Meaning",
+      "definition_ja": "字義組合せは、複数文字の意味を一つに固定せず組み合わせることを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:字義",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "字義"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、字義組合せを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000060_cultural_association.yml",
+      "id": "NAM-000060",
+      "knowledge_type": "name_divination",
+      "name_ja": "文化的連想",
+      "name_en": "Cultural Association",
+      "category": "Name Divination",
+      "attribute": "Character Meaning",
+      "definition_ja": "文化的連想は、文字に付随する歴史・文学・社会的連想を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:字義",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "字義"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、文化的連想を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000061_generational_character.yml",
+      "id": "NAM-000061",
+      "knowledge_type": "name_divination",
+      "name_ja": "通字",
+      "name_en": "Generational Character",
+      "category": "Name Divination",
+      "attribute": "Character Meaning",
+      "definition_ja": "通字は、家族・世代で共有される文字の文脈を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:字義",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "字義"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、通字を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000062_gendered_convention.yml",
+      "id": "NAM-000062",
+      "knowledge_type": "name_divination",
+      "name_ja": "性別化慣習",
+      "name_en": "Gendered Naming Convention",
+      "category": "Name Divination",
+      "attribute": "Character Meaning",
+      "definition_ja": "性別化慣習は、名前の性別的慣習を本人属性の断定に使わないことを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:字義",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "字義"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、性別化慣習を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000063_era_context.yml",
+      "id": "NAM-000063",
+      "knowledge_type": "name_divination",
+      "name_ja": "時代文脈",
+      "name_en": "Era Context",
+      "category": "Name Divination",
+      "attribute": "Character Meaning",
+      "definition_ja": "時代文脈は、名前の流行や意味が時代で変化することを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:字義",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "字義"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、時代文脈を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000064_regional_context.yml",
+      "id": "NAM-000064",
+      "knowledge_type": "name_divination",
+      "name_ja": "地域文脈",
+      "name_en": "Regional Context",
+      "category": "Name Divination",
+      "attribute": "Character Meaning",
+      "definition_ja": "地域文脈は、読み・慣習・連想の地域差を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:字義",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "字義"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、地域文脈を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000065_meaning_source.yml",
+      "id": "NAM-000065",
+      "knowledge_type": "name_divination",
+      "name_ja": "字義出典",
+      "name_en": "Meaning Source",
+      "category": "Name Divination",
+      "attribute": "Character Meaning",
+      "definition_ja": "字義出典は、字義・字源・名乗りの出典を記録することを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:字義",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "字義"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、字義出典を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000066_five_grid_method.yml",
+      "id": "NAM-000066",
+      "knowledge_type": "name_divination",
+      "name_ja": "五格法",
+      "name_en": "Five-Grid Method",
+      "category": "Name Divination",
+      "attribute": "Systems and Variants",
+      "definition_ja": "五格法は、五つの格と数理表を用いる方式を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:方式差",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方式差"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、五格法を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000067_eighty_one_numbers.yml",
+      "id": "NAM-000067",
+      "knowledge_type": "name_divination",
+      "name_ja": "八十一数理",
+      "name_en": "Eighty-One Numbers",
+      "category": "Name Divination",
+      "attribute": "Systems and Variants",
+      "definition_ja": "八十一数理は、1から81等へ吉凶象徴を配当する方式を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:方式差",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方式差"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、八十一数理を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000068_yin_yang_method.yml",
+      "id": "NAM-000068",
+      "knowledge_type": "name_divination",
+      "name_ja": "陰陽配列法",
+      "name_en": "Yin-Yang Sequence Method",
+      "category": "Name Divination",
+      "attribute": "Systems and Variants",
+      "definition_ja": "陰陽配列法は、画数の奇偶配列を用いる方式を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:方式差",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方式差"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、陰陽配列法を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000069_three_talents_method.yml",
+      "id": "NAM-000069",
+      "knowledge_type": "name_divination",
+      "name_ja": "三才法",
+      "name_en": "Three-Talents Method",
+      "category": "Name Divination",
+      "attribute": "Systems and Variants",
+      "definition_ja": "三才法は、天人地の五行関係を用いる方式を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:方式差",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方式差"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、三才法を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000070_sound_method.yml",
+      "id": "NAM-000070",
+      "knowledge_type": "name_divination",
+      "name_ja": "音霊法",
+      "name_en": "Sound-Symbolism Method",
+      "category": "Name Divination",
+      "attribute": "Systems and Variants",
+      "definition_ja": "音霊法は、氏名の音へ象徴を与える方式を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:方式差",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方式差"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、音霊法を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000071_meaning_method.yml",
+      "id": "NAM-000071",
+      "knowledge_type": "name_divination",
+      "name_ja": "字義法",
+      "name_en": "Character-Meaning Method",
+      "category": "Name Divination",
+      "attribute": "Systems and Variants",
+      "definition_ja": "字義法は、文字の意味・由来を中心に読む方式を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:方式差",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方式差"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、字義法を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000072_birthdate_combination.yml",
+      "id": "NAM-000072",
+      "knowledge_type": "name_divination",
+      "name_ja": "生年月日併用法",
+      "name_en": "Birth-Date Combined Method",
+      "category": "Name Divination",
+      "attribute": "Systems and Variants",
+      "definition_ja": "生年月日併用法は、氏名と生年月日を組み合わせる方式を表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:方式差",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方式差"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、生年月日併用法を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000073_old_new_glyph_split.yml",
+      "id": "NAM-000073",
+      "knowledge_type": "name_divination",
+      "name_ja": "新旧字体方式差",
+      "name_en": "Old-New Glyph Split",
+      "category": "Name Divination",
+      "attribute": "Systems and Variants",
+      "definition_ja": "新旧字体方式差は、新字体・旧字体で結果が異なることを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:方式差",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方式差"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、新旧字体方式差を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000074_regional_method.yml",
+      "id": "NAM-000074",
+      "knowledge_type": "name_divination",
+      "name_ja": "地域方式",
+      "name_en": "Regional Method",
+      "category": "Name Divination",
+      "attribute": "Systems and Variants",
+      "definition_ja": "地域方式は、日本・中国・韓国等の姓名占術を同一視しないことを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:方式差",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方式差"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、地域方式を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000075_method_non_equivalence.yml",
+      "id": "NAM-000075",
+      "knowledge_type": "name_divination",
+      "name_ja": "方式非等価性",
+      "name_en": "Method Non-Equivalence",
+      "category": "Name Divination",
+      "attribute": "Systems and Variants",
+      "definition_ja": "方式非等価性は、異なる方式の結果を合算して単一評価にしないことを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:方式差",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方式差"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、方式非等価性を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000076_consent.yml",
+      "id": "NAM-000076",
+      "knowledge_type": "name_divination",
+      "name_ja": "氏名利用同意",
+      "name_en": "Name-Use Consent",
+      "category": "Name Divination",
+      "attribute": "Workflow",
+      "definition_ja": "氏名利用同意は、氏名を占術処理へ使用する同意を得ることを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:処理手順",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "処理手順"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、氏名利用同意を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000077_purpose.yml",
+      "id": "NAM-000077",
+      "knowledge_type": "name_divination",
+      "name_ja": "利用目的",
+      "name_en": "Use Purpose",
+      "category": "Name Divination",
+      "attribute": "Workflow",
+      "definition_ja": "利用目的は、内省・創作等の利用目的を明示することを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:処理手順",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "処理手順"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、利用目的を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000078_select_name_version.yml",
+      "id": "NAM-000078",
+      "knowledge_type": "name_divination",
+      "name_ja": "氏名版選択",
+      "name_en": "Select Name Version",
+      "category": "Name Divination",
+      "attribute": "Workflow",
+      "definition_ja": "氏名版選択は、出生名・現在名・活動名等を選ぶことを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:処理手順",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "処理手順"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、氏名版選択を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000079_select_script.yml",
+      "id": "NAM-000079",
+      "knowledge_type": "name_divination",
+      "name_ja": "文字体系選択",
+      "name_en": "Select Script",
+      "category": "Name Divination",
+      "attribute": "Workflow",
+      "definition_ja": "文字体系選択は、漢字・かな・ラテン文字等を選ぶことを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:処理手順",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "処理手順"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、文字体系選択を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000080_select_dictionary.yml",
+      "id": "NAM-000080",
+      "knowledge_type": "name_divination",
+      "name_ja": "画数字典選択",
+      "name_en": "Select Stroke Dictionary",
+      "category": "Name Divination",
+      "attribute": "Workflow",
+      "definition_ja": "画数字典選択は、採用する字体・画数表を選ぶことを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:処理手順",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "処理手順"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、画数字典選択を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000081_normalize_characters.yml",
+      "id": "NAM-000081",
+      "knowledge_type": "name_divination",
+      "name_ja": "文字正規化",
+      "name_en": "Character Normalization",
+      "category": "Name Divination",
+      "attribute": "Workflow",
+      "definition_ja": "文字正規化は、異体字等の変換を記録することを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:処理手順",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "処理手順"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、文字正規化を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000082_count_strokes.yml",
+      "id": "NAM-000082",
+      "knowledge_type": "name_divination",
+      "name_ja": "画数算出",
+      "name_en": "Stroke Counting",
+      "category": "Name Divination",
+      "attribute": "Workflow",
+      "definition_ja": "画数算出は、各文字の画数と根拠を表示することを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:処理手順",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "処理手順"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、画数算出を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000083_calculate_grids.yml",
+      "id": "NAM-000083",
+      "knowledge_type": "name_divination",
+      "name_ja": "格算出",
+      "name_en": "Grid Calculation",
+      "category": "Name Divination",
+      "attribute": "Workflow",
+      "definition_ja": "格算出は、採用方式で五格等を算出することを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:処理手順",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "処理手順"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、格算出を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000084_apply_number_table.yml",
+      "id": "NAM-000084",
+      "knowledge_type": "name_divination",
+      "name_ja": "数理表適用",
+      "name_en": "Number-Table Application",
+      "category": "Name Divination",
+      "attribute": "Workflow",
+      "definition_ja": "数理表適用は、数値を採用流派の表へ照合することを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:処理手順",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "処理手順"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、数理表適用を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000085_calculate_phase_relations.yml",
+      "id": "NAM-000085",
+      "knowledge_type": "name_divination",
+      "name_ja": "五行関係算出",
+      "name_en": "Phase-Relation Calculation",
+      "category": "Name Divination",
+      "attribute": "Workflow",
+      "definition_ja": "五行関係算出は、格の五行と相互関係を算出することを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:処理手順",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "処理手順"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、五行関係算出を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000086_analyze_reading.yml",
+      "id": "NAM-000086",
+      "knowledge_type": "name_divination",
+      "name_ja": "読み分析",
+      "name_en": "Reading Analysis",
+      "category": "Name Divination",
+      "attribute": "Workflow",
+      "definition_ja": "読み分析は、音・拍・読みを採用方式で扱うことを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:処理手順",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "処理手順"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、読み分析を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000087_analyze_meaning.yml",
+      "id": "NAM-000087",
+      "knowledge_type": "name_divination",
+      "name_ja": "字義分析",
+      "name_en": "Meaning Analysis",
+      "category": "Name Divination",
+      "attribute": "Workflow",
+      "definition_ja": "字義分析は、文字の意味・由来・文化文脈を整理することを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:処理手順",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "処理手順"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、字義分析を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000088_compare_methods.yml",
+      "id": "NAM-000088",
+      "knowledge_type": "name_divination",
+      "name_ja": "方式比較",
+      "name_en": "Method Comparison",
+      "category": "Name Divination",
+      "attribute": "Workflow",
+      "definition_ja": "方式比較は、異なる方式の結果を別々に表示することを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:処理手順",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "処理手順"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、方式比較を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000089_show_uncertainty.yml",
+      "id": "NAM-000089",
+      "knowledge_type": "name_divination",
+      "name_ja": "不確実性表示",
+      "name_en": "Uncertainty Display",
+      "category": "Name Divination",
+      "attribute": "Workflow",
+      "definition_ja": "不確実性表示は、字体・読み・画数・流派差を表示することを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:処理手順",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "処理手順"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、不確実性表示を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000090_user_review.yml",
+      "id": "NAM-000090",
+      "knowledge_type": "name_divination",
+      "name_ja": "本人確認",
+      "name_en": "User Review",
+      "category": "Name Divination",
+      "attribute": "Workflow",
+      "definition_ja": "本人確認は、本人が正しい表記・読み・意味を確認し修正できることを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:処理手順",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "処理手順"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、本人確認を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000091_no_name_quality_rank.yml",
+      "id": "NAM-000091",
+      "knowledge_type": "name_divination",
+      "name_ja": "名前優劣禁止",
+      "name_en": "No Name-Quality Ranking",
+      "category": "Name Divination",
+      "attribute": "Safety and Limits",
+      "definition_ja": "名前優劣禁止は、名前や命名者の価値を吉凶で序列化しないことを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、名前優劣禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000092_no_personality_fixing.yml",
+      "id": "NAM-000092",
+      "knowledge_type": "name_divination",
+      "name_ja": "性格固定禁止",
+      "name_en": "No Personality Fixing",
+      "category": "Name Divination",
+      "attribute": "Safety and Limits",
+      "definition_ja": "性格固定禁止は、氏名から固定的人格・能力を断定しないことを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、性格固定禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000093_no_discrimination.yml",
+      "id": "NAM-000093",
+      "knowledge_type": "name_divination",
+      "name_ja": "名前差別禁止",
+      "name_en": "No Name Discrimination",
+      "category": "Name Divination",
+      "attribute": "Safety and Limits",
+      "definition_ja": "名前差別禁止は、氏名から民族・国籍・宗教・階級等を推定・差別しないことを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、名前差別禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000094_no_hiring_use.yml",
+      "id": "NAM-000094",
+      "knowledge_type": "name_divination",
+      "name_ja": "採用利用禁止",
+      "name_en": "No Hiring Use",
+      "category": "Name Divination",
+      "attribute": "Safety and Limits",
+      "definition_ja": "採用利用禁止は、応募者や従業員の判断へ姓名判断を使用しないことを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、採用利用禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000095_no_child_pressure.yml",
+      "id": "NAM-000095",
+      "knowledge_type": "name_divination",
+      "name_ja": "命名圧力回避",
+      "name_en": "Avoid Naming Pressure",
+      "category": "Name Divination",
+      "attribute": "Safety and Limits",
+      "definition_ja": "命名圧力回避は、子どもの将来を画数で保証・脅迫しないことを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、命名圧力回避を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000096_no_fatalism.yml",
+      "id": "NAM-000096",
+      "knowledge_type": "name_divination",
+      "name_ja": "凶名宿命論回避",
+      "name_en": "Avoid Name Fatalism",
+      "category": "Name Divination",
+      "attribute": "Safety and Limits",
+      "definition_ja": "凶名宿命論回避は、凶名等を不可避の不幸として表示しないことを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、凶名宿命論回避を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000097_privacy_minimization.yml",
+      "id": "NAM-000097",
+      "knowledge_type": "name_divination",
+      "name_ja": "氏名情報最小化",
+      "name_en": "Name-Data Minimization",
+      "category": "Name Divination",
+      "attribute": "Safety and Limits",
+      "definition_ja": "氏名情報最小化は、氏名・旧姓・生年月日の収集と保持を最小化することを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、氏名情報最小化を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000098_deletion_control.yml",
+      "id": "NAM-000098",
+      "knowledge_type": "name_divination",
+      "name_ja": "削除管理",
+      "name_en": "Deletion Control",
+      "category": "Name Divination",
+      "attribute": "Safety and Limits",
+      "definition_ja": "削除管理は、入力名と派生結果を利用者が削除できることを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、削除管理を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000099_method_disclosure.yml",
+      "id": "NAM-000099",
+      "knowledge_type": "name_divination",
+      "name_ja": "方式開示",
+      "name_en": "Method Disclosure",
+      "category": "Name Divination",
+      "attribute": "Safety and Limits",
+      "definition_ja": "方式開示は、画数表・字体・格計算・流派を表示することを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、方式開示を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    },
+    {
+      "filename": "NAM-000100_reflective_use.yml",
+      "id": "NAM-000100",
+      "knowledge_type": "name_divination",
+      "name_ja": "内省・創作用途",
+      "name_en": "Reflective and Creative Use",
+      "category": "Name Divination",
+      "attribute": "Safety and Limits",
+      "definition_ja": "内省・創作用途は、結果を任意の内省・創作・娯楽として示すことを表す姓名判断参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:姓名判断",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の姓名判断・姓名学",
+      "source_type": "氏名表記・読み・字体・画数表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "本人同意",
+        "対象氏名版",
+        "正確な表記",
+        "読み",
+        "採用字典",
+        "流派"
+      ],
+      "calculation_basis": "採用字体の画数・五格・陰陽五行・音・字義を方式別に算出する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の姓名判断・姓名学では、内省・創作用途を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "日本で発展した近現代の姓名判断・五格法・音義法の諸流派"
+    }
+  ]
+}

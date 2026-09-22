@@ -1,0 +1,36 @@
+id: GMB-000074
+knowledge_type: game_behavior
+name_ja: 成績比較
+name_en: Performance Comparison
+category: Game Behavior
+attribute: Competition
+definition_ja: 成績比較は、スコアや記録を他者と比較する行動を表すゲーム行動概念。単一ゲームから人格を断定しない。
+tags:
+  - CAT:ゲーム行動
+  - CAT:競争
+  - ATTR:観測行動
+parent:
+  - 競争
+related:
+  - 行動観測
+  - 動機づけ
+  - 意思決定
+observable_data:
+  - 選択ログ
+  - 操作時刻と所要時間
+  - 成功・失敗・再試行
+  - セッションと離脱の推移
+signal_candidates:
+  - 成績比較と整合する行動が複数セッションで観測される
+  - 難度・報酬・UI・ゲームジャンルの変化に伴って行動が変化する
+device_level: ゲームクライアントまたはサーバーの同意済みイベントログから観測可能
+modifiers:
+  - ゲームジャンル
+  - ゲーム設計
+  - 難度
+  - 習熟度
+  - 端末
+  - プレイ時間
+  - 社会的状況
+evidence: ゲーム研究・ゲームUX・行動科学・学習科学・HCI研究を参照
+status: active

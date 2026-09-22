@@ -4,7 +4,7 @@ BASE = Path("data/vol2_personality/emotion_stability")
 BASE.mkdir(parents=True, exist_ok=True)
 
 files = {
-    "EMO-000001_emotion_regulation.yml": """id: EMO-000001
+    "PER-000022_emotion_regulation.yml": """id: PER-000022
 knowledge_type: trait
 name_ja: 感情調整
 name_en: Emotion Regulation
@@ -40,7 +40,7 @@ evidence: 感情心理学・臨床心理学・自己制御研究で使用
 status: active
 """,
 
-    "EMO-000002_stress_sensitivity.yml": """id: EMO-000002
+    "PER-000023_stress_sensitivity.yml": """id: PER-000023
 knowledge_type: trait
 name_ja: ストレス感受性
 name_en: Stress Sensitivity
@@ -76,7 +76,7 @@ evidence: Big Five神経症傾向・ストレス研究で使用
 status: active
 """,
 
-    "EMO-000003_anxiety_proneness.yml": """id: EMO-000003
+    "PER-000024_anxiety_proneness.yml": """id: PER-000024
 knowledge_type: trait
 name_ja: 不安傾向
 name_en: Anxiety Proneness
@@ -112,7 +112,7 @@ evidence: 性格心理学・臨床心理学で使用
 status: active
 """,
 
-    "EMO-000004_resilience.yml": """id: EMO-000004
+    "PER-000025_resilience.yml": """id: PER-000025
 knowledge_type: trait
 name_ja: レジリエンス
 name_en: Resilience
@@ -148,7 +148,7 @@ evidence: ストレス研究・教育心理学・産業心理学で使用
 status: active
 """,
 
-    "EMO-000005_frustration_tolerance.yml": """id: EMO-000005
+    "PER-000026_frustration_tolerance.yml": """id: PER-000026
 knowledge_type: trait
 name_ja: フラストレーション耐性
 name_en: Frustration Tolerance
@@ -187,11 +187,11 @@ status: active
     "emotion_stability_index.yml": """category: Emotion and Stability
 name_ja: 感情・安定性
 items:
-  - EMO-000001_emotion_regulation.yml
-  - EMO-000002_stress_sensitivity.yml
-  - EMO-000003_anxiety_proneness.yml
-  - EMO-000004_resilience.yml
-  - EMO-000005_frustration_tolerance.yml
+  - PER-000022_emotion_regulation.yml
+  - PER-000023_stress_sensitivity.yml
+  - PER-000024_anxiety_proneness.yml
+  - PER-000025_resilience.yml
+  - PER-000026_frustration_tolerance.yml
 notes:
   - 感情状態と感情特性は統合しない
   - 医療診断には使わない

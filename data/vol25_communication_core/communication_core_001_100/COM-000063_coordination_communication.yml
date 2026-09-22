@@ -1,0 +1,36 @@
+id: COM-000063
+knowledge_type: communication_core
+name_ja: 調整コミュニケーション
+name_en: Coordination Communication
+category: Communication Core
+attribute: Group and Status
+definition_ja: 調整コミュニケーションは、役割や作業順をそろえるための伝達を表す伝達概念。単独で人格や能力を断定しない。
+tags:
+  - CAT:コミュニケーション
+  - CAT:集団と地位
+  - ATTR:伝達要因
+parent:
+  - 集団と地位
+related:
+  - 行動観測
+  - 社会的文脈
+  - 感情表現
+observable_data:
+  - 発話または文字量
+  - 応答までの時間
+  - 質問と応答の回数
+  - 会話修復の推移
+signal_candidates:
+  - 調整コミュニケーションと整合する伝達行動が複数場面で観測される
+  - 相手・媒体・目的の変化に伴って表現や応答が変化する
+device_level: スマートフォン・PC・ゲーム機の会話ログから観測可能
+modifiers:
+  - 文化
+  - 使用言語
+  - 関係性
+  - 権力差
+  - 媒体
+  - 時間制約
+  - 感情状態
+evidence: コミュニケーション学・社会心理学・言語学・会話分析・HCI研究を参照
+status: active

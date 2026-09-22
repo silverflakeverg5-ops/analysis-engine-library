@@ -1,0 +1,6507 @@
+{
+  "output_dir": "vol35_indian_astrology/indian_astrology_001_100",
+  "index_filename": "indian_astrology_001_100_index.yml",
+  "index_content": "category: Indian Astrology\nname_ja: インド占星術\nitems:\n  - JYO-000001_jyotisha.yml\n  - JYO-000002_jataka.yml\n  - JYO-000003_sidereal_framework.yml\n  - JYO-000004_ayanamsha.yml\n  - JYO-000005_lagna.yml\n  - JYO-000006_rashi.yml\n  - JYO-000007_graha.yml\n  - JYO-000008_bhava.yml\n  - JYO-000009_nakshatra.yml\n  - JYO-000010_school_declaration.yml\n  - JYO-000011_surya.yml\n  - JYO-000012_chandra.yml\n  - JYO-000013_mangala.yml\n  - JYO-000014_budha.yml\n  - JYO-000015_guru.yml\n  - JYO-000016_shukra.yml\n  - JYO-000017_shani.yml\n  - JYO-000018_rahu.yml\n  - JYO-000019_ketu.yml\n  - JYO-000020_mesha.yml\n  - JYO-000021_vrishabha.yml\n  - JYO-000022_mithuna.yml\n  - JYO-000023_karka.yml\n  - JYO-000024_simha.yml\n  - JYO-000025_kanya.yml\n  - JYO-000026_tula.yml\n  - JYO-000027_vrishchika.yml\n  - JYO-000028_dhanu.yml\n  - JYO-000029_makara.yml\n  - JYO-000030_kumbha.yml\n  - JYO-000031_mina.yml\n  - JYO-000032_first_bhava.yml\n  - JYO-000033_second_bhava.yml\n  - JYO-000034_third_bhava.yml\n  - JYO-000035_fourth_bhava.yml\n  - JYO-000036_fifth_bhava.yml\n  - JYO-000037_sixth_bhava.yml\n  - JYO-000038_seventh_bhava.yml\n  - JYO-000039_eighth_bhava.yml\n  - JYO-000040_ninth_bhava.yml\n  - JYO-000041_tenth_bhava.yml\n  - JYO-000042_eleventh_bhava.yml\n  - JYO-000043_twelfth_bhava.yml\n  - JYO-000044_ashwini.yml\n  - JYO-000045_bharani.yml\n  - JYO-000046_krittika.yml\n  - JYO-000047_rohini.yml\n  - JYO-000048_mrigashirsha.yml\n  - JYO-000049_ardra.yml\n  - JYO-000050_punarvasu.yml\n  - JYO-000051_pushya.yml\n  - JYO-000052_ashlesha.yml\n  - JYO-000053_magha.yml\n  - JYO-000054_purva_phalguni.yml\n  - JYO-000055_uttara_phalguni.yml\n  - JYO-000056_hasta.yml\n  - JYO-000057_chitra.yml\n  - JYO-000058_swati.yml\n  - JYO-000059_vishakha.yml\n  - JYO-000060_anuradha.yml\n  - JYO-000061_jyeshtha.yml\n  - JYO-000062_mula.yml\n  - JYO-000063_purva_ashadha.yml\n  - JYO-000064_uttara_ashadha.yml\n  - JYO-000065_shravana.yml\n  - JYO-000066_dhanishtha.yml\n  - JYO-000067_shatabhisha.yml\n  - JYO-000068_purva_bhadrapada.yml\n  - JYO-000069_uttara_bhadrapada.yml\n  - JYO-000070_revati.yml\n  - JYO-000071_own_sign.yml\n  - JYO-000072_exaltation.yml\n  - JYO-000073_debilitation.yml\n  - JYO-000074_moolatrikona.yml\n  - JYO-000075_natural_friendship.yml\n  - JYO-000076_temporary_friendship.yml\n  - JYO-000077_graha_aspect.yml\n  - JYO-000078_rashi_aspect.yml\n  - JYO-000079_shadbala.yml\n  - JYO-000080_varga_dignity.yml\n  - JYO-000081_vimshottari_dasha.yml\n  - JYO-000082_dasha_balance.yml\n  - JYO-000083_antardasha.yml\n  - JYO-000084_gochara.yml\n  - JYO-000085_navamsha.yml\n  - JYO-000086_divisional_charts.yml\n  - JYO-000087_yoga.yml\n  - JYO-000088_muhurta.yml\n  - JYO-000089_prashna.yml\n  - JYO-000090_chart_synthesis.yml\n  - JYO-000091_tradition_label.yml\n  - JYO-000092_ayanamsha_disclosure.yml\n  - JYO-000093_birth_time_uncertainty.yml\n  - JYO-000094_school_variation.yml\n  - JYO-000095_no_caste_inference.yml\n  - JYO-000096_no_health_diagnosis.yml\n  - JYO-000097_no_fatalism.yml\n  - JYO-000098_no_ability_ranking.yml\n  - JYO-000099_high_impact_exclusion.yml\n  - JYO-000100_reflective_use.yml\nnotes:\n  - 伝統的・文化的解釈として扱い心理学的エビデンスと混同しない\n  - 計算方式・流派・入力精度・出典を結果とともに保持する\n  - 医療・雇用・教育・保険・信用・法執行など高影響判断には利用しない\n",
+  "items": [
+    {
+      "filename": "JYO-000001_jyotisha.yml",
+      "id": "JYO-000001",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "ジョーティシャ",
+      "name_en": "Jyotisha",
+      "category": "Indian Astrology",
+      "attribute": "Foundations",
+      "definition_ja": "ジョーティシャは、インドの天文・暦・占星に関わる歴史的知識領域を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、ジョーティシャを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000002_jataka.yml",
+      "id": "JYO-000002",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "ジャータカ",
+      "name_en": "Jataka",
+      "category": "Indian Astrology",
+      "attribute": "Foundations",
+      "definition_ja": "ジャータカは、出生図を対象とするインド占星術の領域を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、ジャータカを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000003_sidereal_framework.yml",
+      "id": "JYO-000003",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "恒星黄道方式",
+      "name_en": "Sidereal Framework",
+      "category": "Indian Astrology",
+      "attribute": "Foundations",
+      "definition_ja": "恒星黄道方式は、恒星基準の黄道を採用する方式を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、恒星黄道方式を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000004_ayanamsha.yml",
+      "id": "JYO-000004",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "アヤナーンシャ",
+      "name_en": "Ayanamsha",
+      "category": "Indian Astrology",
+      "attribute": "Foundations",
+      "definition_ja": "アヤナーンシャは、歳差にもとづく黄道基点差の採用値を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、アヤナーンシャを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000005_lagna.yml",
+      "id": "JYO-000005",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "ラグナ",
+      "name_en": "Lagna",
+      "category": "Indian Astrology",
+      "attribute": "Foundations",
+      "definition_ja": "ラグナは、出生地点で東の地平線に昇る黄道上の点を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、ラグナを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000006_rashi.yml",
+      "id": "JYO-000006",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "ラーシ",
+      "name_en": "Rashi",
+      "category": "Indian Astrology",
+      "attribute": "Foundations",
+      "definition_ja": "ラーシは、黄道を十二のサインへ区分する分類を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、ラーシを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000007_graha.yml",
+      "id": "JYO-000007",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "グラハ",
+      "name_en": "Graha",
+      "category": "Indian Astrology",
+      "attribute": "Foundations",
+      "definition_ja": "グラハは、出生図で象徴機能を担う九つの感受主体を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、グラハを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000008_bhava.yml",
+      "id": "JYO-000008",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "バーヴァ",
+      "name_en": "Bhava",
+      "category": "Indian Astrology",
+      "attribute": "Foundations",
+      "definition_ja": "バーヴァは、出生図を十二の生活領域へ区分する枠組みを表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、バーヴァを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000009_nakshatra.yml",
+      "id": "JYO-000009",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "ナクシャトラ",
+      "name_en": "Nakshatra",
+      "category": "Indian Astrology",
+      "attribute": "Foundations",
+      "definition_ja": "ナクシャトラは、黄道を二十七の月宿へ区分する体系を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、ナクシャトラを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000010_school_declaration.yml",
+      "id": "JYO-000010",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "方式宣言",
+      "name_en": "Method Declaration",
+      "category": "Indian Astrology",
+      "attribute": "Foundations",
+      "definition_ja": "方式宣言は、アヤナーンシャ・ハウス・ダシャー等の方式を明示することを表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、方式宣言を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000011_surya.yml",
+      "id": "JYO-000011",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "スーリヤ・太陽",
+      "name_en": "Surya",
+      "category": "Indian Astrology",
+      "attribute": "Navagraha",
+      "definition_ja": "スーリヤ・太陽は、九曜のスーリヤ・太陽に割り当てられる伝統的象徴機能を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:九曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、スーリヤ・太陽を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000012_chandra.yml",
+      "id": "JYO-000012",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "チャンドラ・月",
+      "name_en": "Chandra",
+      "category": "Indian Astrology",
+      "attribute": "Navagraha",
+      "definition_ja": "チャンドラ・月は、九曜のチャンドラ・月に割り当てられる伝統的象徴機能を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:九曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、チャンドラ・月を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000013_mangala.yml",
+      "id": "JYO-000013",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "マンガラ・火星",
+      "name_en": "Mangala",
+      "category": "Indian Astrology",
+      "attribute": "Navagraha",
+      "definition_ja": "マンガラ・火星は、九曜のマンガラ・火星に割り当てられる伝統的象徴機能を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:九曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、マンガラ・火星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000014_budha.yml",
+      "id": "JYO-000014",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "ブダ・水星",
+      "name_en": "Budha",
+      "category": "Indian Astrology",
+      "attribute": "Navagraha",
+      "definition_ja": "ブダ・水星は、九曜のブダ・水星に割り当てられる伝統的象徴機能を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:九曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、ブダ・水星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000015_guru.yml",
+      "id": "JYO-000015",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "グル・木星",
+      "name_en": "Guru",
+      "category": "Indian Astrology",
+      "attribute": "Navagraha",
+      "definition_ja": "グル・木星は、九曜のグル・木星に割り当てられる伝統的象徴機能を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:九曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、グル・木星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000016_shukra.yml",
+      "id": "JYO-000016",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "シュクラ・金星",
+      "name_en": "Shukra",
+      "category": "Indian Astrology",
+      "attribute": "Navagraha",
+      "definition_ja": "シュクラ・金星は、九曜のシュクラ・金星に割り当てられる伝統的象徴機能を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:九曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、シュクラ・金星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000017_shani.yml",
+      "id": "JYO-000017",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "シャニ・土星",
+      "name_en": "Shani",
+      "category": "Indian Astrology",
+      "attribute": "Navagraha",
+      "definition_ja": "シャニ・土星は、九曜のシャニ・土星に割り当てられる伝統的象徴機能を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:九曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、シャニ・土星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000018_rahu.yml",
+      "id": "JYO-000018",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "ラーフ",
+      "name_en": "Rahu",
+      "category": "Indian Astrology",
+      "attribute": "Navagraha",
+      "definition_ja": "ラーフは、九曜のラーフに割り当てられる伝統的象徴機能を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:九曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、ラーフを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000019_ketu.yml",
+      "id": "JYO-000019",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "ケートゥ",
+      "name_en": "Ketu",
+      "category": "Indian Astrology",
+      "attribute": "Navagraha",
+      "definition_ja": "ケートゥは、九曜のケートゥに割り当てられる伝統的象徴機能を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:九曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、ケートゥを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000020_mesha.yml",
+      "id": "JYO-000020",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "メーシャ",
+      "name_en": "Mesha",
+      "category": "Indian Astrology",
+      "attribute": "Twelve Rashis",
+      "definition_ja": "メーシャは、十二ラーシのメーシャに割り当てられる支配星・元素・性質などの対応を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:十二ラーシ",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二ラーシ"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、メーシャを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000021_vrishabha.yml",
+      "id": "JYO-000021",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "ヴリシャバ",
+      "name_en": "Vrishabha",
+      "category": "Indian Astrology",
+      "attribute": "Twelve Rashis",
+      "definition_ja": "ヴリシャバは、十二ラーシのヴリシャバに割り当てられる支配星・元素・性質などの対応を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:十二ラーシ",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二ラーシ"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、ヴリシャバを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000022_mithuna.yml",
+      "id": "JYO-000022",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "ミトゥナ",
+      "name_en": "Mithuna",
+      "category": "Indian Astrology",
+      "attribute": "Twelve Rashis",
+      "definition_ja": "ミトゥナは、十二ラーシのミトゥナに割り当てられる支配星・元素・性質などの対応を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:十二ラーシ",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二ラーシ"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、ミトゥナを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000023_karka.yml",
+      "id": "JYO-000023",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "カルカ",
+      "name_en": "Karka",
+      "category": "Indian Astrology",
+      "attribute": "Twelve Rashis",
+      "definition_ja": "カルカは、十二ラーシのカルカに割り当てられる支配星・元素・性質などの対応を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:十二ラーシ",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二ラーシ"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、カルカを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000024_simha.yml",
+      "id": "JYO-000024",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "シンハ",
+      "name_en": "Simha",
+      "category": "Indian Astrology",
+      "attribute": "Twelve Rashis",
+      "definition_ja": "シンハは、十二ラーシのシンハに割り当てられる支配星・元素・性質などの対応を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:十二ラーシ",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二ラーシ"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、シンハを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000025_kanya.yml",
+      "id": "JYO-000025",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "カニヤー",
+      "name_en": "Kanya",
+      "category": "Indian Astrology",
+      "attribute": "Twelve Rashis",
+      "definition_ja": "カニヤーは、十二ラーシのカニヤーに割り当てられる支配星・元素・性質などの対応を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:十二ラーシ",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二ラーシ"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、カニヤーを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000026_tula.yml",
+      "id": "JYO-000026",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "トゥラー",
+      "name_en": "Tula",
+      "category": "Indian Astrology",
+      "attribute": "Twelve Rashis",
+      "definition_ja": "トゥラーは、十二ラーシのトゥラーに割り当てられる支配星・元素・性質などの対応を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:十二ラーシ",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二ラーシ"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、トゥラーを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000027_vrishchika.yml",
+      "id": "JYO-000027",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "ヴリシュチカ",
+      "name_en": "Vrishchika",
+      "category": "Indian Astrology",
+      "attribute": "Twelve Rashis",
+      "definition_ja": "ヴリシュチカは、十二ラーシのヴリシュチカに割り当てられる支配星・元素・性質などの対応を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:十二ラーシ",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二ラーシ"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、ヴリシュチカを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000028_dhanu.yml",
+      "id": "JYO-000028",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "ダヌ",
+      "name_en": "Dhanu",
+      "category": "Indian Astrology",
+      "attribute": "Twelve Rashis",
+      "definition_ja": "ダヌは、十二ラーシのダヌに割り当てられる支配星・元素・性質などの対応を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:十二ラーシ",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二ラーシ"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、ダヌを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000029_makara.yml",
+      "id": "JYO-000029",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "マカラ",
+      "name_en": "Makara",
+      "category": "Indian Astrology",
+      "attribute": "Twelve Rashis",
+      "definition_ja": "マカラは、十二ラーシのマカラに割り当てられる支配星・元素・性質などの対応を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:十二ラーシ",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二ラーシ"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、マカラを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000030_kumbha.yml",
+      "id": "JYO-000030",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "クンバ",
+      "name_en": "Kumbha",
+      "category": "Indian Astrology",
+      "attribute": "Twelve Rashis",
+      "definition_ja": "クンバは、十二ラーシのクンバに割り当てられる支配星・元素・性質などの対応を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:十二ラーシ",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二ラーシ"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、クンバを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000031_mina.yml",
+      "id": "JYO-000031",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "ミーナ",
+      "name_en": "Mina",
+      "category": "Indian Astrology",
+      "attribute": "Twelve Rashis",
+      "definition_ja": "ミーナは、十二ラーシのミーナに割り当てられる支配星・元素・性質などの対応を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:十二ラーシ",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二ラーシ"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、ミーナを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000032_first_bhava.yml",
+      "id": "JYO-000032",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "第1バーヴァ",
+      "name_en": "First Bhava",
+      "category": "Indian Astrology",
+      "attribute": "Twelve Bhavas",
+      "definition_ja": "第1バーヴァは、第1バーヴァに割り当てられる伝統的な生活領域を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:十二バーヴァ",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二バーヴァ"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、第1バーヴァを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000033_second_bhava.yml",
+      "id": "JYO-000033",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "第2バーヴァ",
+      "name_en": "Second Bhava",
+      "category": "Indian Astrology",
+      "attribute": "Twelve Bhavas",
+      "definition_ja": "第2バーヴァは、第2バーヴァに割り当てられる伝統的な生活領域を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:十二バーヴァ",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二バーヴァ"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、第2バーヴァを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000034_third_bhava.yml",
+      "id": "JYO-000034",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "第3バーヴァ",
+      "name_en": "Third Bhava",
+      "category": "Indian Astrology",
+      "attribute": "Twelve Bhavas",
+      "definition_ja": "第3バーヴァは、第3バーヴァに割り当てられる伝統的な生活領域を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:十二バーヴァ",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二バーヴァ"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、第3バーヴァを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000035_fourth_bhava.yml",
+      "id": "JYO-000035",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "第4バーヴァ",
+      "name_en": "Fourth Bhava",
+      "category": "Indian Astrology",
+      "attribute": "Twelve Bhavas",
+      "definition_ja": "第4バーヴァは、第4バーヴァに割り当てられる伝統的な生活領域を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:十二バーヴァ",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二バーヴァ"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、第4バーヴァを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000036_fifth_bhava.yml",
+      "id": "JYO-000036",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "第5バーヴァ",
+      "name_en": "Fifth Bhava",
+      "category": "Indian Astrology",
+      "attribute": "Twelve Bhavas",
+      "definition_ja": "第5バーヴァは、第5バーヴァに割り当てられる伝統的な生活領域を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:十二バーヴァ",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二バーヴァ"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、第5バーヴァを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000037_sixth_bhava.yml",
+      "id": "JYO-000037",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "第6バーヴァ",
+      "name_en": "Sixth Bhava",
+      "category": "Indian Astrology",
+      "attribute": "Twelve Bhavas",
+      "definition_ja": "第6バーヴァは、第6バーヴァに割り当てられる伝統的な生活領域を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:十二バーヴァ",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二バーヴァ"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、第6バーヴァを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000038_seventh_bhava.yml",
+      "id": "JYO-000038",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "第7バーヴァ",
+      "name_en": "Seventh Bhava",
+      "category": "Indian Astrology",
+      "attribute": "Twelve Bhavas",
+      "definition_ja": "第7バーヴァは、第7バーヴァに割り当てられる伝統的な生活領域を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:十二バーヴァ",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二バーヴァ"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、第7バーヴァを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000039_eighth_bhava.yml",
+      "id": "JYO-000039",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "第8バーヴァ",
+      "name_en": "Eighth Bhava",
+      "category": "Indian Astrology",
+      "attribute": "Twelve Bhavas",
+      "definition_ja": "第8バーヴァは、第8バーヴァに割り当てられる伝統的な生活領域を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:十二バーヴァ",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二バーヴァ"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、第8バーヴァを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000040_ninth_bhava.yml",
+      "id": "JYO-000040",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "第9バーヴァ",
+      "name_en": "Ninth Bhava",
+      "category": "Indian Astrology",
+      "attribute": "Twelve Bhavas",
+      "definition_ja": "第9バーヴァは、第9バーヴァに割り当てられる伝統的な生活領域を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:十二バーヴァ",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二バーヴァ"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、第9バーヴァを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000041_tenth_bhava.yml",
+      "id": "JYO-000041",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "第10バーヴァ",
+      "name_en": "Tenth Bhava",
+      "category": "Indian Astrology",
+      "attribute": "Twelve Bhavas",
+      "definition_ja": "第10バーヴァは、第10バーヴァに割り当てられる伝統的な生活領域を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:十二バーヴァ",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二バーヴァ"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、第10バーヴァを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000042_eleventh_bhava.yml",
+      "id": "JYO-000042",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "第11バーヴァ",
+      "name_en": "Eleventh Bhava",
+      "category": "Indian Astrology",
+      "attribute": "Twelve Bhavas",
+      "definition_ja": "第11バーヴァは、第11バーヴァに割り当てられる伝統的な生活領域を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:十二バーヴァ",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二バーヴァ"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、第11バーヴァを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000043_twelfth_bhava.yml",
+      "id": "JYO-000043",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "第12バーヴァ",
+      "name_en": "Twelfth Bhava",
+      "category": "Indian Astrology",
+      "attribute": "Twelve Bhavas",
+      "definition_ja": "第12バーヴァは、第12バーヴァに割り当てられる伝統的な生活領域を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:十二バーヴァ",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二バーヴァ"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、第12バーヴァを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000044_ashwini.yml",
+      "id": "JYO-000044",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "アシュヴィニー",
+      "name_en": "Ashwini",
+      "category": "Indian Astrology",
+      "attribute": "Nakshatras",
+      "definition_ja": "アシュヴィニーは、月宿アシュヴィニーに割り当てられる支配星・象徴・区分を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、アシュヴィニーを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000045_bharani.yml",
+      "id": "JYO-000045",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "バラニー",
+      "name_en": "Bharani",
+      "category": "Indian Astrology",
+      "attribute": "Nakshatras",
+      "definition_ja": "バラニーは、月宿バラニーに割り当てられる支配星・象徴・区分を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、バラニーを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000046_krittika.yml",
+      "id": "JYO-000046",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "クリッティカー",
+      "name_en": "Krittika",
+      "category": "Indian Astrology",
+      "attribute": "Nakshatras",
+      "definition_ja": "クリッティカーは、月宿クリッティカーに割り当てられる支配星・象徴・区分を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、クリッティカーを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000047_rohini.yml",
+      "id": "JYO-000047",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "ローヒニー",
+      "name_en": "Rohini",
+      "category": "Indian Astrology",
+      "attribute": "Nakshatras",
+      "definition_ja": "ローヒニーは、月宿ローヒニーに割り当てられる支配星・象徴・区分を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、ローヒニーを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000048_mrigashirsha.yml",
+      "id": "JYO-000048",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "ムリガシーラ",
+      "name_en": "Mrigashirsha",
+      "category": "Indian Astrology",
+      "attribute": "Nakshatras",
+      "definition_ja": "ムリガシーラは、月宿ムリガシーラに割り当てられる支配星・象徴・区分を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、ムリガシーラを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000049_ardra.yml",
+      "id": "JYO-000049",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "アールドラー",
+      "name_en": "Ardra",
+      "category": "Indian Astrology",
+      "attribute": "Nakshatras",
+      "definition_ja": "アールドラーは、月宿アールドラーに割り当てられる支配星・象徴・区分を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、アールドラーを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000050_punarvasu.yml",
+      "id": "JYO-000050",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "プナルヴァス",
+      "name_en": "Punarvasu",
+      "category": "Indian Astrology",
+      "attribute": "Nakshatras",
+      "definition_ja": "プナルヴァスは、月宿プナルヴァスに割り当てられる支配星・象徴・区分を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、プナルヴァスを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000051_pushya.yml",
+      "id": "JYO-000051",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "プシャ",
+      "name_en": "Pushya",
+      "category": "Indian Astrology",
+      "attribute": "Nakshatras",
+      "definition_ja": "プシャは、月宿プシャに割り当てられる支配星・象徴・区分を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、プシャを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000052_ashlesha.yml",
+      "id": "JYO-000052",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "アーシュレーシャー",
+      "name_en": "Ashlesha",
+      "category": "Indian Astrology",
+      "attribute": "Nakshatras",
+      "definition_ja": "アーシュレーシャーは、月宿アーシュレーシャーに割り当てられる支配星・象徴・区分を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、アーシュレーシャーを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000053_magha.yml",
+      "id": "JYO-000053",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "マガー",
+      "name_en": "Magha",
+      "category": "Indian Astrology",
+      "attribute": "Nakshatras",
+      "definition_ja": "マガーは、月宿マガーに割り当てられる支配星・象徴・区分を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、マガーを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000054_purva_phalguni.yml",
+      "id": "JYO-000054",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "プールヴァ・パールグニー",
+      "name_en": "Purva Phalguni",
+      "category": "Indian Astrology",
+      "attribute": "Nakshatras",
+      "definition_ja": "プールヴァ・パールグニーは、月宿プールヴァ・パールグニーに割り当てられる支配星・象徴・区分を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、プールヴァ・パールグニーを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000055_uttara_phalguni.yml",
+      "id": "JYO-000055",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "ウッタラ・パールグニー",
+      "name_en": "Uttara Phalguni",
+      "category": "Indian Astrology",
+      "attribute": "Nakshatras",
+      "definition_ja": "ウッタラ・パールグニーは、月宿ウッタラ・パールグニーに割り当てられる支配星・象徴・区分を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、ウッタラ・パールグニーを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000056_hasta.yml",
+      "id": "JYO-000056",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "ハスタ",
+      "name_en": "Hasta",
+      "category": "Indian Astrology",
+      "attribute": "Nakshatras",
+      "definition_ja": "ハスタは、月宿ハスタに割り当てられる支配星・象徴・区分を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、ハスタを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000057_chitra.yml",
+      "id": "JYO-000057",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "チトラー",
+      "name_en": "Chitra",
+      "category": "Indian Astrology",
+      "attribute": "Nakshatras",
+      "definition_ja": "チトラーは、月宿チトラーに割り当てられる支配星・象徴・区分を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、チトラーを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000058_swati.yml",
+      "id": "JYO-000058",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "スヴァーティー",
+      "name_en": "Swati",
+      "category": "Indian Astrology",
+      "attribute": "Nakshatras",
+      "definition_ja": "スヴァーティーは、月宿スヴァーティーに割り当てられる支配星・象徴・区分を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、スヴァーティーを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000059_vishakha.yml",
+      "id": "JYO-000059",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "ヴィシャーカー",
+      "name_en": "Vishakha",
+      "category": "Indian Astrology",
+      "attribute": "Nakshatras",
+      "definition_ja": "ヴィシャーカーは、月宿ヴィシャーカーに割り当てられる支配星・象徴・区分を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、ヴィシャーカーを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000060_anuradha.yml",
+      "id": "JYO-000060",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "アヌラーダー",
+      "name_en": "Anuradha",
+      "category": "Indian Astrology",
+      "attribute": "Nakshatras",
+      "definition_ja": "アヌラーダーは、月宿アヌラーダーに割り当てられる支配星・象徴・区分を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、アヌラーダーを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000061_jyeshtha.yml",
+      "id": "JYO-000061",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "ジェーシュター",
+      "name_en": "Jyeshtha",
+      "category": "Indian Astrology",
+      "attribute": "Nakshatras",
+      "definition_ja": "ジェーシュターは、月宿ジェーシュターに割り当てられる支配星・象徴・区分を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、ジェーシュターを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000062_mula.yml",
+      "id": "JYO-000062",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "ムーラ",
+      "name_en": "Mula",
+      "category": "Indian Astrology",
+      "attribute": "Nakshatras",
+      "definition_ja": "ムーラは、月宿ムーラに割り当てられる支配星・象徴・区分を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、ムーラを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000063_purva_ashadha.yml",
+      "id": "JYO-000063",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "プールヴァ・アーシャーダー",
+      "name_en": "Purva Ashadha",
+      "category": "Indian Astrology",
+      "attribute": "Nakshatras",
+      "definition_ja": "プールヴァ・アーシャーダーは、月宿プールヴァ・アーシャーダーに割り当てられる支配星・象徴・区分を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、プールヴァ・アーシャーダーを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000064_uttara_ashadha.yml",
+      "id": "JYO-000064",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "ウッタラ・アーシャーダー",
+      "name_en": "Uttara Ashadha",
+      "category": "Indian Astrology",
+      "attribute": "Nakshatras",
+      "definition_ja": "ウッタラ・アーシャーダーは、月宿ウッタラ・アーシャーダーに割り当てられる支配星・象徴・区分を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、ウッタラ・アーシャーダーを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000065_shravana.yml",
+      "id": "JYO-000065",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "シュラヴァナ",
+      "name_en": "Shravana",
+      "category": "Indian Astrology",
+      "attribute": "Nakshatras",
+      "definition_ja": "シュラヴァナは、月宿シュラヴァナに割り当てられる支配星・象徴・区分を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、シュラヴァナを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000066_dhanishtha.yml",
+      "id": "JYO-000066",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "ダニシュター",
+      "name_en": "Dhanishtha",
+      "category": "Indian Astrology",
+      "attribute": "Nakshatras",
+      "definition_ja": "ダニシュターは、月宿ダニシュターに割り当てられる支配星・象徴・区分を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、ダニシュターを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000067_shatabhisha.yml",
+      "id": "JYO-000067",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "シャタビシャー",
+      "name_en": "Shatabhisha",
+      "category": "Indian Astrology",
+      "attribute": "Nakshatras",
+      "definition_ja": "シャタビシャーは、月宿シャタビシャーに割り当てられる支配星・象徴・区分を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、シャタビシャーを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000068_purva_bhadrapada.yml",
+      "id": "JYO-000068",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "プールヴァ・バードラパダー",
+      "name_en": "Purva Bhadrapada",
+      "category": "Indian Astrology",
+      "attribute": "Nakshatras",
+      "definition_ja": "プールヴァ・バードラパダーは、月宿プールヴァ・バードラパダーに割り当てられる支配星・象徴・区分を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、プールヴァ・バードラパダーを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000069_uttara_bhadrapada.yml",
+      "id": "JYO-000069",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "ウッタラ・バードラパダー",
+      "name_en": "Uttara Bhadrapada",
+      "category": "Indian Astrology",
+      "attribute": "Nakshatras",
+      "definition_ja": "ウッタラ・バードラパダーは、月宿ウッタラ・バードラパダーに割り当てられる支配星・象徴・区分を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、ウッタラ・バードラパダーを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000070_revati.yml",
+      "id": "JYO-000070",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "レーヴァティー",
+      "name_en": "Revati",
+      "category": "Indian Astrology",
+      "attribute": "Nakshatras",
+      "definition_ja": "レーヴァティーは、月宿レーヴァティーに割り当てられる支配星・象徴・区分を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、レーヴァティーを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000071_own_sign.yml",
+      "id": "JYO-000071",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "自室",
+      "name_en": "Own Sign",
+      "category": "Indian Astrology",
+      "attribute": "Dignity and Relations",
+      "definition_ja": "自室は、グラハが支配ラーシに位置する状態を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:品位と関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "品位と関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、自室を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000072_exaltation.yml",
+      "id": "JYO-000072",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "高揚",
+      "name_en": "Exaltation",
+      "category": "Indian Astrology",
+      "attribute": "Dignity and Relations",
+      "definition_ja": "高揚は、グラハが高揚するとされるラーシ上の状態を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:品位と関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "品位と関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、高揚を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000073_debilitation.yml",
+      "id": "JYO-000073",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "減衰",
+      "name_en": "Debilitation",
+      "category": "Indian Astrology",
+      "attribute": "Dignity and Relations",
+      "definition_ja": "減衰は、グラハが減衰するとされるラーシ上の状態を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:品位と関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "品位と関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、減衰を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000074_moolatrikona.yml",
+      "id": "JYO-000074",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "ムーラトリコーナ",
+      "name_en": "Moolatrikona",
+      "category": "Indian Astrology",
+      "attribute": "Dignity and Relations",
+      "definition_ja": "ムーラトリコーナは、グラハの基盤的領域とされる度数帯を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:品位と関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "品位と関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、ムーラトリコーナを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000075_natural_friendship.yml",
+      "id": "JYO-000075",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "自然的友好",
+      "name_en": "Natural Friendship",
+      "category": "Indian Astrology",
+      "attribute": "Dignity and Relations",
+      "definition_ja": "自然的友好は、グラハ間の恒常的な友好・中立・敵対分類を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:品位と関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "品位と関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、自然的友好を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000076_temporary_friendship.yml",
+      "id": "JYO-000076",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "一時的友好",
+      "name_en": "Temporary Friendship",
+      "category": "Indian Astrology",
+      "attribute": "Dignity and Relations",
+      "definition_ja": "一時的友好は、出生図上の位置関係から求める一時的関係を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:品位と関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "品位と関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、一時的友好を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000077_graha_aspect.yml",
+      "id": "JYO-000077",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "グラハ・ドリシュティ",
+      "name_en": "Graha Drishti",
+      "category": "Indian Astrology",
+      "attribute": "Dignity and Relations",
+      "definition_ja": "グラハ・ドリシュティは、グラハごとの伝統的アスペクト規則を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:品位と関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "品位と関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、グラハ・ドリシュティを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000078_rashi_aspect.yml",
+      "id": "JYO-000078",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "ラーシ・ドリシュティ",
+      "name_en": "Rashi Drishti",
+      "category": "Indian Astrology",
+      "attribute": "Dignity and Relations",
+      "definition_ja": "ラーシ・ドリシュティは、ラーシ間の視線関係を用いる流派規則を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:品位と関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "品位と関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、ラーシ・ドリシュティを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000079_shadbala.yml",
+      "id": "JYO-000079",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "シャドバラ",
+      "name_en": "Shadbala",
+      "category": "Indian Astrology",
+      "attribute": "Dignity and Relations",
+      "definition_ja": "シャドバラは、複数要素からグラハの象徴的強度を整理する方式を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:品位と関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "品位と関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、シャドバラを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000080_varga_dignity.yml",
+      "id": "JYO-000080",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "分割図品位",
+      "name_en": "Varga Dignity",
+      "category": "Indian Astrology",
+      "attribute": "Dignity and Relations",
+      "definition_ja": "分割図品位は、複数の分割図における配置を合わせて扱うことを表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:品位と関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "品位と関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、分割図品位を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000081_vimshottari_dasha.yml",
+      "id": "JYO-000081",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "ヴィムショッタリ・ダシャー",
+      "name_en": "Vimshottari Dasha",
+      "category": "Indian Astrology",
+      "attribute": "Timing and Techniques",
+      "definition_ja": "ヴィムショッタリ・ダシャーは、出生月宿から惑星期を配列する時期技法を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:時期と技法",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "時期と技法"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、ヴィムショッタリ・ダシャーを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000082_dasha_balance.yml",
+      "id": "JYO-000082",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "ダシャー残存期間",
+      "name_en": "Dasha Balance",
+      "category": "Indian Astrology",
+      "attribute": "Timing and Techniques",
+      "definition_ja": "ダシャー残存期間は、出生時点で残る最初の惑星期を計算することを表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:時期と技法",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "時期と技法"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、ダシャー残存期間を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000083_antardasha.yml",
+      "id": "JYO-000083",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "アンタルダシャー",
+      "name_en": "Antardasha",
+      "category": "Indian Astrology",
+      "attribute": "Timing and Techniques",
+      "definition_ja": "アンタルダシャーは、主要惑星期を下位期間へ分割することを表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:時期と技法",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "時期と技法"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、アンタルダシャーを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000084_gochara.yml",
+      "id": "JYO-000084",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "ゴーチャラ",
+      "name_en": "Gochara",
+      "category": "Indian Astrology",
+      "attribute": "Timing and Techniques",
+      "definition_ja": "ゴーチャラは、現在のグラハ配置を出生図との関係で読む技法を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:時期と技法",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "時期と技法"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、ゴーチャラを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000085_navamsha.yml",
+      "id": "JYO-000085",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "ナヴァーンシャ",
+      "name_en": "Navamsha",
+      "category": "Indian Astrology",
+      "attribute": "Timing and Techniques",
+      "definition_ja": "ナヴァーンシャは、黄道を九分割して作る代表的な分割図を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:時期と技法",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "時期と技法"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、ナヴァーンシャを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000086_divisional_charts.yml",
+      "id": "JYO-000086",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "分割図",
+      "name_en": "Divisional Charts",
+      "category": "Indian Astrology",
+      "attribute": "Timing and Techniques",
+      "definition_ja": "分割図は、ラーシを細分して特定テーマを読む伝統的技法群を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:時期と技法",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "時期と技法"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、分割図を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000087_yoga.yml",
+      "id": "JYO-000087",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "ヨーガ",
+      "name_en": "Yoga",
+      "category": "Indian Astrology",
+      "attribute": "Timing and Techniques",
+      "definition_ja": "ヨーガは、複数グラハ・支配・ハウス関係からなる組合せを表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:時期と技法",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "時期と技法"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、ヨーガを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000088_muhurta.yml",
+      "id": "JYO-000088",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "ムフールタ",
+      "name_en": "Muhurta",
+      "category": "Indian Astrology",
+      "attribute": "Timing and Techniques",
+      "definition_ja": "ムフールタは、開始時刻を選ぶインド占星術の領域を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:時期と技法",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "時期と技法"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、ムフールタを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000089_prashna.yml",
+      "id": "JYO-000089",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "プラシュナ",
+      "name_en": "Prashna",
+      "category": "Indian Astrology",
+      "attribute": "Timing and Techniques",
+      "definition_ja": "プラシュナは、質問時点の図を用いる占星術領域を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:時期と技法",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "時期と技法"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、プラシュナを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000090_chart_synthesis.yml",
+      "id": "JYO-000090",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "出生図統合",
+      "name_en": "Chart Synthesis",
+      "category": "Indian Astrology",
+      "attribute": "Timing and Techniques",
+      "definition_ja": "出生図統合は、ラーシ・バーヴァ・グラハ・宿・時期を全体で扱うことを表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:時期と技法",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "時期と技法"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、出生図統合を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000091_tradition_label.yml",
+      "id": "JYO-000091",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "伝統表示",
+      "name_en": "Tradition Label",
+      "category": "Indian Astrology",
+      "attribute": "Safety and Limits",
+      "definition_ja": "伝統表示は、ジョーティシャの伝統的解釈であることを表示することを表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、伝統表示を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000092_ayanamsha_disclosure.yml",
+      "id": "JYO-000092",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "アヤナーンシャ表示",
+      "name_en": "Ayanamsha Disclosure",
+      "category": "Indian Astrology",
+      "attribute": "Safety and Limits",
+      "definition_ja": "アヤナーンシャ表示は、採用値の違いを計算結果に表示することを表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、アヤナーンシャ表示を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000093_birth_time_uncertainty.yml",
+      "id": "JYO-000093",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "出生時刻不確実性",
+      "name_en": "Birth-Time Uncertainty",
+      "category": "Indian Astrology",
+      "attribute": "Safety and Limits",
+      "definition_ja": "出生時刻不確実性は、出生時刻誤差がラグナや分割図へ与える影響を示すことを表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、出生時刻不確実性を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000094_school_variation.yml",
+      "id": "JYO-000094",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "流派差",
+      "name_en": "School Variation",
+      "category": "Indian Astrology",
+      "attribute": "Safety and Limits",
+      "definition_ja": "流派差は、パラーシャラ・ジャイミニ等の規則を混同しないことを表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、流派差を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000095_no_caste_inference.yml",
+      "id": "JYO-000095",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "身分推定禁止",
+      "name_en": "No Caste Inference",
+      "category": "Indian Astrology",
+      "attribute": "Safety and Limits",
+      "definition_ja": "身分推定禁止は、出生図からカースト・宗教・民族等を推定しないことを表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、身分推定禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000096_no_health_diagnosis.yml",
+      "id": "JYO-000096",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "健康診断禁止",
+      "name_en": "No Health Diagnosis",
+      "category": "Indian Astrology",
+      "attribute": "Safety and Limits",
+      "definition_ja": "健康診断禁止は、配置から疾患・寿命・妊娠等を診断しないことを表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、健康診断禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000097_no_fatalism.yml",
+      "id": "JYO-000097",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "宿命論回避",
+      "name_en": "Avoid Fatalism",
+      "category": "Indian Astrology",
+      "attribute": "Safety and Limits",
+      "definition_ja": "宿命論回避は、カルマやダシャーを不可避の運命として表示しないことを表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、宿命論回避を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000098_no_ability_ranking.yml",
+      "id": "JYO-000098",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "能力序列化禁止",
+      "name_en": "No Ability Ranking",
+      "category": "Indian Astrology",
+      "attribute": "Safety and Limits",
+      "definition_ja": "能力序列化禁止は、配置から知能・価値・適性を序列化しないことを表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、能力序列化禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000099_high_impact_exclusion.yml",
+      "id": "JYO-000099",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "高影響利用禁止",
+      "name_en": "High-Impact Exclusion",
+      "category": "Indian Astrology",
+      "attribute": "Safety and Limits",
+      "definition_ja": "高影響利用禁止は、雇用・教育・保険・信用等に利用しないことを表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、高影響利用禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    },
+    {
+      "filename": "JYO-000100_reflective_use.yml",
+      "id": "JYO-000100",
+      "knowledge_type": "indian_astrology",
+      "name_ja": "内省用途",
+      "name_en": "Reflective Use",
+      "category": "Indian Astrology",
+      "attribute": "Safety and Limits",
+      "definition_ja": "内省用途は、結果を本人が選択・修正できる内省材料として示すことを表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:インド占星術",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "ジョーティシャ・インド占星術",
+      "source_type": "生年月日・出生時刻・出生地・天体暦",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "出生時刻",
+        "出生地",
+        "時間帯",
+        "アヤナーンシャ",
+        "採用流派"
+      ],
+      "calculation_basis": "恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "ジョーティシャ・インド占星術では、内省用途を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インドのジョーティシャ文献・暦算・出生占星術の諸流派"
+    }
+  ]
+}

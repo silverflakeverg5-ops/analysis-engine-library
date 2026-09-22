@@ -1,0 +1,37 @@
+id: DEV-000007
+knowledge_type: development_core
+name_ja: 歴史的文脈
+name_en: Historical Context
+category: Development and Life Stage
+attribute: Lifespan Foundations
+definition_ja: 歴史的文脈は、社会的出来事や制度変化が発達経路へ影響することを表す生涯発達概念。年齢や段階だけから能力・成熟度・人格を断定しない。
+tags:
+  - CAT:発達・ライフステージ
+  - CAT:生涯発達基盤
+  - ATTR:発達文脈
+parent:
+  - 生涯発達基盤
+related:
+  - 生涯発達
+  - 生活文脈
+  - 時系列観測
+observable_data:
+  - 本人同意に基づく複数時点の行動記録
+  - 明示回答された役割・目標・生活変化
+  - 学習・支援利用・成果の時系列
+  - 本人が選択した振り返り記録
+signal_candidates:
+  - 歴史的文脈と整合する変化または安定が複数時点で観測される
+  - 環境・機会・文化・健康・役割の変化に伴って行動パターンが変化する
+device_level: 同意済みの縦断イベントログと明示的な自己申告から観測し、行動ログだけで年齢や発達段階を推定しない
+modifiers:
+  - 文化・地域
+  - 教育・経験機会
+  - 社会経済的資源
+  - 健康・障害・神経多様性
+  - 家族・支援関係
+  - 生活役割
+  - コホート・時代
+  - 重大な生活変化
+evidence: 生涯発達心理学・教育心理学・社会心理学・老年学・ライフコース研究・HCI研究を参照
+status: active

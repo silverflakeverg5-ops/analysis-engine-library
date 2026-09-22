@@ -1,0 +1,6407 @@
+{
+  "output_dir": "vol38_sukuyo/sukuyo_001_100",
+  "index_filename": "sukuyo_001_100_index.yml",
+  "index_content": "category: Sukuyo\nname_ja: 宿曜\nitems:\n  - SUK-000001_sukuyo.yml\n  - SUK-000002_sukuyokyo.yml\n  - SUK-000003_twenty_seven_mansions.yml\n  - SUK-000004_twenty_eight_mansions.yml\n  - SUK-000005_seven_day_week.yml\n  - SUK-000006_birth_mansion.yml\n  - SUK-000007_daily_mansion.yml\n  - SUK-000008_calendar_method.yml\n  - SUK-000009_transmission_context.yml\n  - SUK-000010_school_declaration.yml\n  - SUK-000011_bo.yml\n  - SUK-000012_hitsu.yml\n  - SUK-000013_shi.yml\n  - SUK-000014_shin.yml\n  - SUK-000015_sei_well.yml\n  - SUK-000016_ki_ghost.yml\n  - SUK-000017_ryu.yml\n  - SUK-000018_sei_star.yml\n  - SUK-000019_cho.yml\n  - SUK-000020_yoku.yml\n  - SUK-000021_shin_chariot.yml\n  - SUK-000022_kaku.yml\n  - SUK-000023_ko.yml\n  - SUK-000024_tei.yml\n  - SUK-000025_bo_room.yml\n  - SUK-000026_shin_heart.yml\n  - SUK-000027_bi.yml\n  - SUK-000028_ki_basket.yml\n  - SUK-000029_to.yml\n  - SUK-000030_jo.yml\n  - SUK-000031_kyo.yml\n  - SUK-000032_ki_danger.yml\n  - SUK-000033_shitsu.yml\n  - SUK-000034_heki.yml\n  - SUK-000035_kei.yml\n  - SUK-000036_ro.yml\n  - SUK-000037_i.yml\n  - SUK-000038_sun.yml\n  - SUK-000039_moon.yml\n  - SUK-000040_mars.yml\n  - SUK-000041_mercury.yml\n  - SUK-000042_jupiter.yml\n  - SUK-000043_venus.yml\n  - SUK-000044_saturn.yml\n  - SUK-000045_sun_luminary.yml\n  - SUK-000046_moon_luminary.yml\n  - SUK-000047_mars_luminary.yml\n  - SUK-000048_mercury_luminary.yml\n  - SUK-000049_jupiter_luminary.yml\n  - SUK-000050_venus_luminary.yml\n  - SUK-000051_saturn_luminary.yml\n  - SUK-000052_rahu.yml\n  - SUK-000053_ketu.yml\n  - SUK-000054_ei_shin.yml\n  - SUK-000055_an_kai.yml\n  - SUK-000056_sei_ki.yml\n  - SUK-000057_gyo_tai.yml\n  - SUK-000058_mei_relation.yml\n  - SUK-000059_near_distance.yml\n  - SUK-000060_middle_distance.yml\n  - SUK-000061_far_distance.yml\n  - SUK-000062_directional_pair.yml\n  - SUK-000063_relationship_non_determinism.yml\n  - SUK-000064_auspicious_day.yml\n  - SUK-000065_inauspicious_day.yml\n  - SUK-000066_activity_day.yml\n  - SUK-000067_weekday_mansion_relation.yml\n  - SUK-000068_lunar_date.yml\n  - SUK-000069_calendar_epoch.yml\n  - SUK-000070_leap_month.yml\n  - SUK-000071_date_boundary.yml\n  - SUK-000072_historical_calendar.yml\n  - SUK-000073_modern_conversion.yml\n  - SUK-000074_birth_mansion_interpretation.yml\n  - SUK-000075_mansion_distance.yml\n  - SUK-000076_daily_cycle.yml\n  - SUK-000077_monthly_context.yml\n  - SUK-000078_seven_luminary_context.yml\n  - SUK-000079_nine_luminary_context.yml\n  - SUK-000080_relationship_prompt.yml\n  - SUK-000081_date_comparison.yml\n  - SUK-000082_calculation_trace.yml\n  - SUK-000083_multiple_method_result.yml\n  - SUK-000084_indian_lunar_mansions.yml\n  - SUK-000085_chinese_translation.yml\n  - SUK-000086_kukais_transmission.yml\n  - SUK-000087_sukuyodo.yml\n  - SUK-000088_calendar_change.yml\n  - SUK-000089_textual_variants.yml\n  - SUK-000090_modern_sukuyo.yml\n  - SUK-000091_historical_label.yml\n  - SUK-000092_calendar_variation.yml\n  - SUK-000093_no_relationship_determinism.yml\n  - SUK-000094_no_health_prediction.yml\n  - SUK-000095_no_disaster_prediction.yml\n  - SUK-000096_no_religious_inference.yml\n  - SUK-000097_no_fatalism.yml\n  - SUK-000098_high_impact_exclusion.yml\n  - SUK-000099_birth_data_privacy.yml\n  - SUK-000100_reflective_use.yml\nnotes:\n  - 伝統的・文化的解釈として扱い心理学的エビデンスと混同しない\n  - 計算方式・流派・入力精度・出典を結果とともに保持する\n  - 医療・雇用・教育・保険・信用・法執行など高影響判断には利用しない\n",
+  "items": [
+    {
+      "filename": "SUK-000001_sukuyo.yml",
+      "id": "SUK-000001",
+      "knowledge_type": "sukuyo",
+      "name_ja": "宿曜",
+      "name_en": "Sukuyo",
+      "category": "Sukuyo",
+      "attribute": "Foundations",
+      "definition_ja": "宿曜は、月宿・七曜・暦日関係を用いる日本の密教占星術系統を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、宿曜を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000002_sukuyokyo.yml",
+      "id": "SUK-000002",
+      "knowledge_type": "sukuyo",
+      "name_ja": "宿曜経",
+      "name_en": "Xiuyao Jing",
+      "category": "Sukuyo",
+      "attribute": "Foundations",
+      "definition_ja": "宿曜経は、宿曜体系の伝来で中心となった漢訳仏教占星文献を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、宿曜経を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000003_twenty_seven_mansions.yml",
+      "id": "SUK-000003",
+      "knowledge_type": "sukuyo",
+      "name_ja": "二十七宿",
+      "name_en": "Twenty-Seven Mansions",
+      "category": "Sukuyo",
+      "attribute": "Foundations",
+      "definition_ja": "二十七宿は、月の黄道上の位置を二十七宿へ区分する体系を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、二十七宿を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000004_twenty_eight_mansions.yml",
+      "id": "SUK-000004",
+      "knowledge_type": "sukuyo",
+      "name_ja": "二十八宿",
+      "name_en": "Twenty-Eight Mansions",
+      "category": "Sukuyo",
+      "attribute": "Foundations",
+      "definition_ja": "二十八宿は、牛宿を含む二十八宿体系との違いを表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、二十八宿を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000005_seven_day_week.yml",
+      "id": "SUK-000005",
+      "knowledge_type": "sukuyo",
+      "name_ja": "七曜",
+      "name_en": "Seven Luminaries",
+      "category": "Sukuyo",
+      "attribute": "Foundations",
+      "definition_ja": "七曜は、日月五星と曜日を対応づける体系を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、七曜を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000006_birth_mansion.yml",
+      "id": "SUK-000006",
+      "knowledge_type": "sukuyo",
+      "name_ja": "本命宿",
+      "name_en": "Birth Mansion",
+      "category": "Sukuyo",
+      "attribute": "Foundations",
+      "definition_ja": "本命宿は、生年月日から求める出生時の宿分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、本命宿を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000007_daily_mansion.yml",
+      "id": "SUK-000007",
+      "knowledge_type": "sukuyo",
+      "name_ja": "日運宿",
+      "name_en": "Daily Mansion",
+      "category": "Sukuyo",
+      "attribute": "Foundations",
+      "definition_ja": "日運宿は、暦日に割り当てられる宿を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、日運宿を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000008_calendar_method.yml",
+      "id": "SUK-000008",
+      "knowledge_type": "sukuyo",
+      "name_ja": "宿算出法",
+      "name_en": "Mansion Calculation Method",
+      "category": "Sukuyo",
+      "attribute": "Foundations",
+      "definition_ja": "宿算出法は、採用暦・基準日・二十七宿配列から宿を求めることを表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、宿算出法を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000009_transmission_context.yml",
+      "id": "SUK-000009",
+      "knowledge_type": "sukuyo",
+      "name_ja": "密教伝来文脈",
+      "name_en": "Esoteric Buddhist Transmission",
+      "category": "Sukuyo",
+      "attribute": "Foundations",
+      "definition_ja": "密教伝来文脈は、インド・中国・日本で変化した歴史的文脈を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、密教伝来文脈を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000010_school_declaration.yml",
+      "id": "SUK-000010",
+      "knowledge_type": "sukuyo",
+      "name_ja": "流派宣言",
+      "name_en": "School Declaration",
+      "category": "Sukuyo",
+      "attribute": "Foundations",
+      "definition_ja": "流派宣言は、宿配列・暦・相性規則の採用方式を明示することを表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、流派宣言を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000011_bo.yml",
+      "id": "SUK-000011",
+      "knowledge_type": "sukuyo",
+      "name_ja": "昴宿",
+      "name_en": "Bo",
+      "category": "Sukuyo",
+      "attribute": "Twenty-Seven Mansions",
+      "definition_ja": "昴宿は、二十七宿の昴宿に割り当てられる伝統的象徴と分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、昴宿を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000012_hitsu.yml",
+      "id": "SUK-000012",
+      "knowledge_type": "sukuyo",
+      "name_ja": "畢宿",
+      "name_en": "Hitsu",
+      "category": "Sukuyo",
+      "attribute": "Twenty-Seven Mansions",
+      "definition_ja": "畢宿は、二十七宿の畢宿に割り当てられる伝統的象徴と分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、畢宿を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000013_shi.yml",
+      "id": "SUK-000013",
+      "knowledge_type": "sukuyo",
+      "name_ja": "觜宿",
+      "name_en": "Shi",
+      "category": "Sukuyo",
+      "attribute": "Twenty-Seven Mansions",
+      "definition_ja": "觜宿は、二十七宿の觜宿に割り当てられる伝統的象徴と分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、觜宿を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000014_shin.yml",
+      "id": "SUK-000014",
+      "knowledge_type": "sukuyo",
+      "name_ja": "参宿",
+      "name_en": "Shin",
+      "category": "Sukuyo",
+      "attribute": "Twenty-Seven Mansions",
+      "definition_ja": "参宿は、二十七宿の参宿に割り当てられる伝統的象徴と分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、参宿を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000015_sei_well.yml",
+      "id": "SUK-000015",
+      "knowledge_type": "sukuyo",
+      "name_ja": "井宿",
+      "name_en": "Sei",
+      "category": "Sukuyo",
+      "attribute": "Twenty-Seven Mansions",
+      "definition_ja": "井宿は、二十七宿の井宿に割り当てられる伝統的象徴と分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、井宿を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000016_ki_ghost.yml",
+      "id": "SUK-000016",
+      "knowledge_type": "sukuyo",
+      "name_ja": "鬼宿",
+      "name_en": "Ki",
+      "category": "Sukuyo",
+      "attribute": "Twenty-Seven Mansions",
+      "definition_ja": "鬼宿は、二十七宿の鬼宿に割り当てられる伝統的象徴と分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、鬼宿を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000017_ryu.yml",
+      "id": "SUK-000017",
+      "knowledge_type": "sukuyo",
+      "name_ja": "柳宿",
+      "name_en": "Ryu",
+      "category": "Sukuyo",
+      "attribute": "Twenty-Seven Mansions",
+      "definition_ja": "柳宿は、二十七宿の柳宿に割り当てられる伝統的象徴と分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、柳宿を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000018_sei_star.yml",
+      "id": "SUK-000018",
+      "knowledge_type": "sukuyo",
+      "name_ja": "星宿",
+      "name_en": "Sei Star",
+      "category": "Sukuyo",
+      "attribute": "Twenty-Seven Mansions",
+      "definition_ja": "星宿は、二十七宿の星宿に割り当てられる伝統的象徴と分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、星宿を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000019_cho.yml",
+      "id": "SUK-000019",
+      "knowledge_type": "sukuyo",
+      "name_ja": "張宿",
+      "name_en": "Cho",
+      "category": "Sukuyo",
+      "attribute": "Twenty-Seven Mansions",
+      "definition_ja": "張宿は、二十七宿の張宿に割り当てられる伝統的象徴と分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、張宿を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000020_yoku.yml",
+      "id": "SUK-000020",
+      "knowledge_type": "sukuyo",
+      "name_ja": "翼宿",
+      "name_en": "Yoku",
+      "category": "Sukuyo",
+      "attribute": "Twenty-Seven Mansions",
+      "definition_ja": "翼宿は、二十七宿の翼宿に割り当てられる伝統的象徴と分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、翼宿を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000021_shin_chariot.yml",
+      "id": "SUK-000021",
+      "knowledge_type": "sukuyo",
+      "name_ja": "軫宿",
+      "name_en": "Shin Chariot",
+      "category": "Sukuyo",
+      "attribute": "Twenty-Seven Mansions",
+      "definition_ja": "軫宿は、二十七宿の軫宿に割り当てられる伝統的象徴と分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、軫宿を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000022_kaku.yml",
+      "id": "SUK-000022",
+      "knowledge_type": "sukuyo",
+      "name_ja": "角宿",
+      "name_en": "Kaku",
+      "category": "Sukuyo",
+      "attribute": "Twenty-Seven Mansions",
+      "definition_ja": "角宿は、二十七宿の角宿に割り当てられる伝統的象徴と分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、角宿を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000023_ko.yml",
+      "id": "SUK-000023",
+      "knowledge_type": "sukuyo",
+      "name_ja": "亢宿",
+      "name_en": "Ko",
+      "category": "Sukuyo",
+      "attribute": "Twenty-Seven Mansions",
+      "definition_ja": "亢宿は、二十七宿の亢宿に割り当てられる伝統的象徴と分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、亢宿を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000024_tei.yml",
+      "id": "SUK-000024",
+      "knowledge_type": "sukuyo",
+      "name_ja": "氐宿",
+      "name_en": "Tei",
+      "category": "Sukuyo",
+      "attribute": "Twenty-Seven Mansions",
+      "definition_ja": "氐宿は、二十七宿の氐宿に割り当てられる伝統的象徴と分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、氐宿を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000025_bo_room.yml",
+      "id": "SUK-000025",
+      "knowledge_type": "sukuyo",
+      "name_ja": "房宿",
+      "name_en": "Bo Room",
+      "category": "Sukuyo",
+      "attribute": "Twenty-Seven Mansions",
+      "definition_ja": "房宿は、二十七宿の房宿に割り当てられる伝統的象徴と分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、房宿を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000026_shin_heart.yml",
+      "id": "SUK-000026",
+      "knowledge_type": "sukuyo",
+      "name_ja": "心宿",
+      "name_en": "Shin Heart",
+      "category": "Sukuyo",
+      "attribute": "Twenty-Seven Mansions",
+      "definition_ja": "心宿は、二十七宿の心宿に割り当てられる伝統的象徴と分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、心宿を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000027_bi.yml",
+      "id": "SUK-000027",
+      "knowledge_type": "sukuyo",
+      "name_ja": "尾宿",
+      "name_en": "Bi",
+      "category": "Sukuyo",
+      "attribute": "Twenty-Seven Mansions",
+      "definition_ja": "尾宿は、二十七宿の尾宿に割り当てられる伝統的象徴と分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、尾宿を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000028_ki_basket.yml",
+      "id": "SUK-000028",
+      "knowledge_type": "sukuyo",
+      "name_ja": "箕宿",
+      "name_en": "Ki Basket",
+      "category": "Sukuyo",
+      "attribute": "Twenty-Seven Mansions",
+      "definition_ja": "箕宿は、二十七宿の箕宿に割り当てられる伝統的象徴と分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、箕宿を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000029_to.yml",
+      "id": "SUK-000029",
+      "knowledge_type": "sukuyo",
+      "name_ja": "斗宿",
+      "name_en": "To",
+      "category": "Sukuyo",
+      "attribute": "Twenty-Seven Mansions",
+      "definition_ja": "斗宿は、二十七宿の斗宿に割り当てられる伝統的象徴と分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、斗宿を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000030_jo.yml",
+      "id": "SUK-000030",
+      "knowledge_type": "sukuyo",
+      "name_ja": "女宿",
+      "name_en": "Jo",
+      "category": "Sukuyo",
+      "attribute": "Twenty-Seven Mansions",
+      "definition_ja": "女宿は、二十七宿の女宿に割り当てられる伝統的象徴と分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、女宿を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000031_kyo.yml",
+      "id": "SUK-000031",
+      "knowledge_type": "sukuyo",
+      "name_ja": "虚宿",
+      "name_en": "Kyo",
+      "category": "Sukuyo",
+      "attribute": "Twenty-Seven Mansions",
+      "definition_ja": "虚宿は、二十七宿の虚宿に割り当てられる伝統的象徴と分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、虚宿を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000032_ki_danger.yml",
+      "id": "SUK-000032",
+      "knowledge_type": "sukuyo",
+      "name_ja": "危宿",
+      "name_en": "Ki Danger",
+      "category": "Sukuyo",
+      "attribute": "Twenty-Seven Mansions",
+      "definition_ja": "危宿は、二十七宿の危宿に割り当てられる伝統的象徴と分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、危宿を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000033_shitsu.yml",
+      "id": "SUK-000033",
+      "knowledge_type": "sukuyo",
+      "name_ja": "室宿",
+      "name_en": "Shitsu",
+      "category": "Sukuyo",
+      "attribute": "Twenty-Seven Mansions",
+      "definition_ja": "室宿は、二十七宿の室宿に割り当てられる伝統的象徴と分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、室宿を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000034_heki.yml",
+      "id": "SUK-000034",
+      "knowledge_type": "sukuyo",
+      "name_ja": "壁宿",
+      "name_en": "Heki",
+      "category": "Sukuyo",
+      "attribute": "Twenty-Seven Mansions",
+      "definition_ja": "壁宿は、二十七宿の壁宿に割り当てられる伝統的象徴と分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、壁宿を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000035_kei.yml",
+      "id": "SUK-000035",
+      "knowledge_type": "sukuyo",
+      "name_ja": "奎宿",
+      "name_en": "Kei",
+      "category": "Sukuyo",
+      "attribute": "Twenty-Seven Mansions",
+      "definition_ja": "奎宿は、二十七宿の奎宿に割り当てられる伝統的象徴と分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、奎宿を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000036_ro.yml",
+      "id": "SUK-000036",
+      "knowledge_type": "sukuyo",
+      "name_ja": "婁宿",
+      "name_en": "Ro",
+      "category": "Sukuyo",
+      "attribute": "Twenty-Seven Mansions",
+      "definition_ja": "婁宿は、二十七宿の婁宿に割り当てられる伝統的象徴と分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、婁宿を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000037_i.yml",
+      "id": "SUK-000037",
+      "knowledge_type": "sukuyo",
+      "name_ja": "胃宿",
+      "name_en": "I",
+      "category": "Sukuyo",
+      "attribute": "Twenty-Seven Mansions",
+      "definition_ja": "胃宿は、二十七宿の胃宿に割り当てられる伝統的象徴と分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:二十七宿",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "二十七宿"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、胃宿を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000038_sun.yml",
+      "id": "SUK-000038",
+      "knowledge_type": "sukuyo",
+      "name_ja": "日曜",
+      "name_en": "Sun",
+      "category": "Sukuyo",
+      "attribute": "Seven Luminaries",
+      "definition_ja": "日曜は、七曜の日曜に割り当てられる曜日・天体の伝統的対応を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:七曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "七曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、日曜を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000039_moon.yml",
+      "id": "SUK-000039",
+      "knowledge_type": "sukuyo",
+      "name_ja": "月曜",
+      "name_en": "Moon",
+      "category": "Sukuyo",
+      "attribute": "Seven Luminaries",
+      "definition_ja": "月曜は、七曜の月曜に割り当てられる曜日・天体の伝統的対応を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:七曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "七曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、月曜を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000040_mars.yml",
+      "id": "SUK-000040",
+      "knowledge_type": "sukuyo",
+      "name_ja": "火曜",
+      "name_en": "Mars",
+      "category": "Sukuyo",
+      "attribute": "Seven Luminaries",
+      "definition_ja": "火曜は、七曜の火曜に割り当てられる曜日・天体の伝統的対応を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:七曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "七曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、火曜を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000041_mercury.yml",
+      "id": "SUK-000041",
+      "knowledge_type": "sukuyo",
+      "name_ja": "水曜",
+      "name_en": "Mercury",
+      "category": "Sukuyo",
+      "attribute": "Seven Luminaries",
+      "definition_ja": "水曜は、七曜の水曜に割り当てられる曜日・天体の伝統的対応を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:七曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "七曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、水曜を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000042_jupiter.yml",
+      "id": "SUK-000042",
+      "knowledge_type": "sukuyo",
+      "name_ja": "木曜",
+      "name_en": "Jupiter",
+      "category": "Sukuyo",
+      "attribute": "Seven Luminaries",
+      "definition_ja": "木曜は、七曜の木曜に割り当てられる曜日・天体の伝統的対応を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:七曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "七曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、木曜を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000043_venus.yml",
+      "id": "SUK-000043",
+      "knowledge_type": "sukuyo",
+      "name_ja": "金曜",
+      "name_en": "Venus",
+      "category": "Sukuyo",
+      "attribute": "Seven Luminaries",
+      "definition_ja": "金曜は、七曜の金曜に割り当てられる曜日・天体の伝統的対応を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:七曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "七曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、金曜を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000044_saturn.yml",
+      "id": "SUK-000044",
+      "knowledge_type": "sukuyo",
+      "name_ja": "土曜",
+      "name_en": "Saturn",
+      "category": "Sukuyo",
+      "attribute": "Seven Luminaries",
+      "definition_ja": "土曜は、七曜の土曜に割り当てられる曜日・天体の伝統的対応を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:七曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "七曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、土曜を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000045_sun_luminary.yml",
+      "id": "SUK-000045",
+      "knowledge_type": "sukuyo",
+      "name_ja": "日曜星",
+      "name_en": "Sun Luminary",
+      "category": "Sukuyo",
+      "attribute": "Nine Luminaries",
+      "definition_ja": "日曜星は、九曜の日曜星に割り当てられる伝統的象徴を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:九曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、日曜星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000046_moon_luminary.yml",
+      "id": "SUK-000046",
+      "knowledge_type": "sukuyo",
+      "name_ja": "月曜星",
+      "name_en": "Moon Luminary",
+      "category": "Sukuyo",
+      "attribute": "Nine Luminaries",
+      "definition_ja": "月曜星は、九曜の月曜星に割り当てられる伝統的象徴を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:九曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、月曜星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000047_mars_luminary.yml",
+      "id": "SUK-000047",
+      "knowledge_type": "sukuyo",
+      "name_ja": "火曜星",
+      "name_en": "Mars Luminary",
+      "category": "Sukuyo",
+      "attribute": "Nine Luminaries",
+      "definition_ja": "火曜星は、九曜の火曜星に割り当てられる伝統的象徴を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:九曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、火曜星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000048_mercury_luminary.yml",
+      "id": "SUK-000048",
+      "knowledge_type": "sukuyo",
+      "name_ja": "水曜星",
+      "name_en": "Mercury Luminary",
+      "category": "Sukuyo",
+      "attribute": "Nine Luminaries",
+      "definition_ja": "水曜星は、九曜の水曜星に割り当てられる伝統的象徴を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:九曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、水曜星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000049_jupiter_luminary.yml",
+      "id": "SUK-000049",
+      "knowledge_type": "sukuyo",
+      "name_ja": "木曜星",
+      "name_en": "Jupiter Luminary",
+      "category": "Sukuyo",
+      "attribute": "Nine Luminaries",
+      "definition_ja": "木曜星は、九曜の木曜星に割り当てられる伝統的象徴を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:九曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、木曜星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000050_venus_luminary.yml",
+      "id": "SUK-000050",
+      "knowledge_type": "sukuyo",
+      "name_ja": "金曜星",
+      "name_en": "Venus Luminary",
+      "category": "Sukuyo",
+      "attribute": "Nine Luminaries",
+      "definition_ja": "金曜星は、九曜の金曜星に割り当てられる伝統的象徴を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:九曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、金曜星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000051_saturn_luminary.yml",
+      "id": "SUK-000051",
+      "knowledge_type": "sukuyo",
+      "name_ja": "土曜星",
+      "name_en": "Saturn Luminary",
+      "category": "Sukuyo",
+      "attribute": "Nine Luminaries",
+      "definition_ja": "土曜星は、九曜の土曜星に割り当てられる伝統的象徴を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:九曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、土曜星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000052_rahu.yml",
+      "id": "SUK-000052",
+      "knowledge_type": "sukuyo",
+      "name_ja": "羅睺",
+      "name_en": "Rahu",
+      "category": "Sukuyo",
+      "attribute": "Nine Luminaries",
+      "definition_ja": "羅睺は、九曜の羅睺に割り当てられる伝統的象徴を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:九曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、羅睺を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000053_ketu.yml",
+      "id": "SUK-000053",
+      "knowledge_type": "sukuyo",
+      "name_ja": "計都",
+      "name_en": "Ketu",
+      "category": "Sukuyo",
+      "attribute": "Nine Luminaries",
+      "definition_ja": "計都は、九曜の計都に割り当てられる伝統的象徴を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:九曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九曜"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、計都を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000054_ei_shin.yml",
+      "id": "SUK-000054",
+      "knowledge_type": "sukuyo",
+      "name_ja": "栄親",
+      "name_en": "Prosperity-Closeness",
+      "category": "Sukuyo",
+      "attribute": "Mansion Relationships",
+      "definition_ja": "栄親は、宿間距離から栄・親を組にする伝統的関係分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:宿関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "宿関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、栄親を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000055_an_kai.yml",
+      "id": "SUK-000055",
+      "knowledge_type": "sukuyo",
+      "name_ja": "安壊",
+      "name_en": "Stability-Destruction",
+      "category": "Sukuyo",
+      "attribute": "Mansion Relationships",
+      "definition_ja": "安壊は、宿間距離から安・壊を組にする伝統的関係分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:宿関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "宿関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、安壊を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000056_sei_ki.yml",
+      "id": "SUK-000056",
+      "knowledge_type": "sukuyo",
+      "name_ja": "成危",
+      "name_en": "Achievement-Danger",
+      "category": "Sukuyo",
+      "attribute": "Mansion Relationships",
+      "definition_ja": "成危は、宿間距離から成・危を組にする伝統的関係分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:宿関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "宿関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、成危を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000057_gyo_tai.yml",
+      "id": "SUK-000057",
+      "knowledge_type": "sukuyo",
+      "name_ja": "業胎",
+      "name_en": "Karma-Womb",
+      "category": "Sukuyo",
+      "attribute": "Mansion Relationships",
+      "definition_ja": "業胎は、宿間距離から業・胎を組にする伝統的関係分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:宿関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "宿関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、業胎を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000058_mei_relation.yml",
+      "id": "SUK-000058",
+      "knowledge_type": "sukuyo",
+      "name_ja": "命",
+      "name_en": "Same-Mansion Relation",
+      "category": "Sukuyo",
+      "attribute": "Mansion Relationships",
+      "definition_ja": "命は、同じ本命宿同士の関係分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:宿関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "宿関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、命を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000059_near_distance.yml",
+      "id": "SUK-000059",
+      "knowledge_type": "sukuyo",
+      "name_ja": "近距離関係",
+      "name_en": "Near-Distance Relation",
+      "category": "Sukuyo",
+      "attribute": "Mansion Relationships",
+      "definition_ja": "近距離関係は、宿間距離の近区分を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:宿関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "宿関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、近距離関係を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000060_middle_distance.yml",
+      "id": "SUK-000060",
+      "knowledge_type": "sukuyo",
+      "name_ja": "中距離関係",
+      "name_en": "Middle-Distance Relation",
+      "category": "Sukuyo",
+      "attribute": "Mansion Relationships",
+      "definition_ja": "中距離関係は、宿間距離の中区分を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:宿関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "宿関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、中距離関係を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000061_far_distance.yml",
+      "id": "SUK-000061",
+      "knowledge_type": "sukuyo",
+      "name_ja": "遠距離関係",
+      "name_en": "Far-Distance Relation",
+      "category": "Sukuyo",
+      "attribute": "Mansion Relationships",
+      "definition_ja": "遠距離関係は、宿間距離の遠区分を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:宿関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "宿関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、遠距離関係を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000062_directional_pair.yml",
+      "id": "SUK-000062",
+      "knowledge_type": "sukuyo",
+      "name_ja": "関係方向",
+      "name_en": "Directional Pair",
+      "category": "Sukuyo",
+      "attribute": "Mansion Relationships",
+      "definition_ja": "関係方向は、二人の宿の順序で関係名が変わることを表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:宿関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "宿関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、関係方向を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000063_relationship_non_determinism.yml",
+      "id": "SUK-000063",
+      "knowledge_type": "sukuyo",
+      "name_ja": "関係非決定論",
+      "name_en": "Relationship Non-Determinism",
+      "category": "Sukuyo",
+      "attribute": "Mansion Relationships",
+      "definition_ja": "関係非決定論は、宿関係を現実の相性や安全性の確定判定にしないことを表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:宿関係",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "宿関係"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、関係非決定論を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000064_auspicious_day.yml",
+      "id": "SUK-000064",
+      "knowledge_type": "sukuyo",
+      "name_ja": "吉祥日分類",
+      "name_en": "Auspicious-Day Class",
+      "category": "Sukuyo",
+      "attribute": "Calendar Days",
+      "definition_ja": "吉祥日分類は、暦日を伝統上の吉祥分類へ割り当てることを表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:暦日分類",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "暦日分類"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、吉祥日分類を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000065_inauspicious_day.yml",
+      "id": "SUK-000065",
+      "knowledge_type": "sukuyo",
+      "name_ja": "注意日分類",
+      "name_en": "Caution-Day Class",
+      "category": "Sukuyo",
+      "attribute": "Calendar Days",
+      "definition_ja": "注意日分類は、暦日を伝統上の注意分類へ割り当てることを表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:暦日分類",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "暦日分類"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、注意日分類を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000066_activity_day.yml",
+      "id": "SUK-000066",
+      "knowledge_type": "sukuyo",
+      "name_ja": "行為別日",
+      "name_en": "Activity-Specific Day",
+      "category": "Sukuyo",
+      "attribute": "Calendar Days",
+      "definition_ja": "行為別日は、特定の行為に関する暦注分類を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:暦日分類",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "暦日分類"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、行為別日を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000067_weekday_mansion_relation.yml",
+      "id": "SUK-000067",
+      "knowledge_type": "sukuyo",
+      "name_ja": "曜宿関係",
+      "name_en": "Weekday-Mansion Relation",
+      "category": "Sukuyo",
+      "attribute": "Calendar Days",
+      "definition_ja": "曜宿関係は、曜日と宿の組合せを扱うことを表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:暦日分類",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "暦日分類"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、曜宿関係を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000068_lunar_date.yml",
+      "id": "SUK-000068",
+      "knowledge_type": "sukuyo",
+      "name_ja": "太陰日",
+      "name_en": "Lunar Date",
+      "category": "Sukuyo",
+      "attribute": "Calendar Days",
+      "definition_ja": "太陰日は、月相・太陰暦上の日を参照することを表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:暦日分類",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "暦日分類"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、太陰日を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000069_calendar_epoch.yml",
+      "id": "SUK-000069",
+      "knowledge_type": "sukuyo",
+      "name_ja": "暦元",
+      "name_en": "Calendar Epoch",
+      "category": "Sukuyo",
+      "attribute": "Calendar Days",
+      "definition_ja": "暦元は、宿配列計算の起点となる基準を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:暦日分類",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "暦日分類"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、暦元を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000070_leap_month.yml",
+      "id": "SUK-000070",
+      "knowledge_type": "sukuyo",
+      "name_ja": "閏月処理",
+      "name_en": "Leap-Month Handling",
+      "category": "Sukuyo",
+      "attribute": "Calendar Days",
+      "definition_ja": "閏月処理は、太陰太陽暦の閏月を扱う規則を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:暦日分類",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "暦日分類"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、閏月処理を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000071_date_boundary.yml",
+      "id": "SUK-000071",
+      "knowledge_type": "sukuyo",
+      "name_ja": "日界",
+      "name_en": "Date Boundary",
+      "category": "Sukuyo",
+      "attribute": "Calendar Days",
+      "definition_ja": "日界は、一日の切替規則を明示することを表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:暦日分類",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "暦日分類"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、日界を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000072_historical_calendar.yml",
+      "id": "SUK-000072",
+      "knowledge_type": "sukuyo",
+      "name_ja": "歴史暦法",
+      "name_en": "Historical Calendar",
+      "category": "Sukuyo",
+      "attribute": "Calendar Days",
+      "definition_ja": "歴史暦法は、宣明暦など時代ごとの暦法差を扱うことを表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:暦日分類",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "暦日分類"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、歴史暦法を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000073_modern_conversion.yml",
+      "id": "SUK-000073",
+      "knowledge_type": "sukuyo",
+      "name_ja": "現代暦変換",
+      "name_en": "Modern Calendar Conversion",
+      "category": "Sukuyo",
+      "attribute": "Calendar Days",
+      "definition_ja": "現代暦変換は、グレゴリオ暦入力から採用宿を求める変換規則を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:暦日分類",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "暦日分類"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、現代暦変換を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000074_birth_mansion_interpretation.yml",
+      "id": "SUK-000074",
+      "knowledge_type": "sukuyo",
+      "name_ja": "本命宿解釈",
+      "name_en": "Birth-Mansion Interpretation",
+      "category": "Sukuyo",
+      "attribute": "Techniques",
+      "definition_ja": "本命宿解釈は、本命宿を象徴的な内省テーマとして読むことを表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:技法",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "技法"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、本命宿解釈を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000075_mansion_distance.yml",
+      "id": "SUK-000075",
+      "knowledge_type": "sukuyo",
+      "name_ja": "宿間距離",
+      "name_en": "Mansion Distance",
+      "category": "Sukuyo",
+      "attribute": "Techniques",
+      "definition_ja": "宿間距離は、二宿間の循環距離を計算することを表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:技法",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "技法"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、宿間距離を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000076_daily_cycle.yml",
+      "id": "SUK-000076",
+      "knowledge_type": "sukuyo",
+      "name_ja": "宿日循環",
+      "name_en": "Mansion Daily Cycle",
+      "category": "Sukuyo",
+      "attribute": "Techniques",
+      "definition_ja": "宿日循環は、宿が日ごとに巡る配列を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:技法",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "技法"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、宿日循環を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000077_monthly_context.yml",
+      "id": "SUK-000077",
+      "knowledge_type": "sukuyo",
+      "name_ja": "月周期文脈",
+      "name_en": "Monthly Context",
+      "category": "Sukuyo",
+      "attribute": "Techniques",
+      "definition_ja": "月周期文脈は、月の運行と宿を月単位で参照することを表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:技法",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "技法"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、月周期文脈を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000078_seven_luminary_context.yml",
+      "id": "SUK-000078",
+      "knowledge_type": "sukuyo",
+      "name_ja": "七曜文脈",
+      "name_en": "Seven-Luminary Context",
+      "category": "Sukuyo",
+      "attribute": "Techniques",
+      "definition_ja": "七曜文脈は、曜日・七曜を宿解釈へ重ねることを表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:技法",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "技法"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、七曜文脈を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000079_nine_luminary_context.yml",
+      "id": "SUK-000079",
+      "knowledge_type": "sukuyo",
+      "name_ja": "九曜文脈",
+      "name_en": "Nine-Luminary Context",
+      "category": "Sukuyo",
+      "attribute": "Techniques",
+      "definition_ja": "九曜文脈は、羅睺・計都を含む九曜を参照することを表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:技法",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "技法"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、九曜文脈を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000080_relationship_prompt.yml",
+      "id": "SUK-000080",
+      "knowledge_type": "sukuyo",
+      "name_ja": "宿関係対話",
+      "name_en": "Mansion-Relationship Prompt",
+      "category": "Sukuyo",
+      "attribute": "Techniques",
+      "definition_ja": "宿関係対話は、宿関係を対人対話の問いへ変換することを表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:技法",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "技法"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、宿関係対話を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000081_date_comparison.yml",
+      "id": "SUK-000081",
+      "knowledge_type": "sukuyo",
+      "name_ja": "日程比較",
+      "name_en": "Date Comparison",
+      "category": "Sukuyo",
+      "attribute": "Techniques",
+      "definition_ja": "日程比較は、複数日程の暦注を並列表示することを表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:技法",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "技法"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、日程比較を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000082_calculation_trace.yml",
+      "id": "SUK-000082",
+      "knowledge_type": "sukuyo",
+      "name_ja": "宿算出追跡",
+      "name_en": "Mansion Calculation Trace",
+      "category": "Sukuyo",
+      "attribute": "Techniques",
+      "definition_ja": "宿算出追跡は、入力日から宿・関係までの算出経路を保存することを表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:技法",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "技法"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、宿算出追跡を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000083_multiple_method_result.yml",
+      "id": "SUK-000083",
+      "knowledge_type": "sukuyo",
+      "name_ja": "方式別結果",
+      "name_en": "Method-Specific Result",
+      "category": "Sukuyo",
+      "attribute": "Techniques",
+      "definition_ja": "方式別結果は、異なる暦法・流派の結果を混ぜず提示することを表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:技法",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "技法"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、方式別結果を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000084_indian_lunar_mansions.yml",
+      "id": "SUK-000084",
+      "knowledge_type": "sukuyo",
+      "name_ja": "インド月宿系譜",
+      "name_en": "Indian Lunar-Mansion Lineage",
+      "category": "Sukuyo",
+      "attribute": "History and Text",
+      "definition_ja": "インド月宿系譜は、インドのナクシャトラ体系との歴史的関係を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:歴史と文献",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "歴史と文献"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、インド月宿系譜を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000085_chinese_translation.yml",
+      "id": "SUK-000085",
+      "knowledge_type": "sukuyo",
+      "name_ja": "漢訳宿曜経",
+      "name_en": "Chinese Translation Tradition",
+      "category": "Sukuyo",
+      "attribute": "History and Text",
+      "definition_ja": "漢訳宿曜経は、漢訳文献を介した東アジアへの伝承を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:歴史と文献",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "歴史と文献"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、漢訳宿曜経を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000086_kukais_transmission.yml",
+      "id": "SUK-000086",
+      "knowledge_type": "sukuyo",
+      "name_ja": "空海将来伝承",
+      "name_en": "Kukai Transmission Tradition",
+      "category": "Sukuyo",
+      "attribute": "History and Text",
+      "definition_ja": "空海将来伝承は、空海による宿曜経将来の歴史的伝承を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:歴史と文献",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "歴史と文献"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、空海将来伝承を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000087_sukuyodo.yml",
+      "id": "SUK-000087",
+      "knowledge_type": "sukuyo",
+      "name_ja": "宿曜道",
+      "name_en": "Sukuyodo",
+      "category": "Sukuyo",
+      "attribute": "History and Text",
+      "definition_ja": "宿曜道は、日本で形成された宿曜専門家・実践の歴史を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:歴史と文献",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "歴史と文献"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、宿曜道を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000088_calendar_change.yml",
+      "id": "SUK-000088",
+      "knowledge_type": "sukuyo",
+      "name_ja": "改暦影響",
+      "name_en": "Calendar-Reform Impact",
+      "category": "Sukuyo",
+      "attribute": "History and Text",
+      "definition_ja": "改暦影響は、暦法変更が宿計算へ与えた影響を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:歴史と文献",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "歴史と文献"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、改暦影響を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000089_textual_variants.yml",
+      "id": "SUK-000089",
+      "knowledge_type": "sukuyo",
+      "name_ja": "文献異本",
+      "name_en": "Textual Variants",
+      "category": "Sukuyo",
+      "attribute": "History and Text",
+      "definition_ja": "文献異本は、宿名・配列・規則に見られる文献差を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:歴史と文献",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "歴史と文献"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、文献異本を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000090_modern_sukuyo.yml",
+      "id": "SUK-000090",
+      "knowledge_type": "sukuyo",
+      "name_ja": "現代宿曜",
+      "name_en": "Modern Sukuyo",
+      "category": "Sukuyo",
+      "attribute": "History and Text",
+      "definition_ja": "現代宿曜は、現代日本で再構成された流派・表示方法を表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:歴史と文献",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "歴史と文献"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、現代宿曜を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000091_historical_label.yml",
+      "id": "SUK-000091",
+      "knowledge_type": "sukuyo",
+      "name_ja": "歴史体系表示",
+      "name_en": "Historical-System Label",
+      "category": "Sukuyo",
+      "attribute": "Safety and Limits",
+      "definition_ja": "歴史体系表示は、密教占星・暦注の歴史的体系であることを表示することを表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、歴史体系表示を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000092_calendar_variation.yml",
+      "id": "SUK-000092",
+      "knowledge_type": "sukuyo",
+      "name_ja": "暦法差表示",
+      "name_en": "Calendar Variation",
+      "category": "Sukuyo",
+      "attribute": "Safety and Limits",
+      "definition_ja": "暦法差表示は、二十七宿・二十八宿・基準日の違いを表示することを表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、暦法差表示を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000093_no_relationship_determinism.yml",
+      "id": "SUK-000093",
+      "knowledge_type": "sukuyo",
+      "name_ja": "相性決定論禁止",
+      "name_en": "No Relationship Determinism",
+      "category": "Sukuyo",
+      "attribute": "Safety and Limits",
+      "definition_ja": "相性決定論禁止は、栄親・安壊等から関係の成否や危険性を確定しないことを表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、相性決定論禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000094_no_health_prediction.yml",
+      "id": "SUK-000094",
+      "knowledge_type": "sukuyo",
+      "name_ja": "健康予測禁止",
+      "name_en": "No Health Prediction",
+      "category": "Sukuyo",
+      "attribute": "Safety and Limits",
+      "definition_ja": "健康予測禁止は、宿や曜から病気・寿命を予測しないことを表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、健康予測禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000095_no_disaster_prediction.yml",
+      "id": "SUK-000095",
+      "knowledge_type": "sukuyo",
+      "name_ja": "災厄予測禁止",
+      "name_en": "No Disaster Prediction",
+      "category": "Sukuyo",
+      "attribute": "Safety and Limits",
+      "definition_ja": "災厄予測禁止は、注意日を事故や災害の確定予測にしないことを表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、災厄予測禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000096_no_religious_inference.yml",
+      "id": "SUK-000096",
+      "knowledge_type": "sukuyo",
+      "name_ja": "宗教推定禁止",
+      "name_en": "No Religious Inference",
+      "category": "Sukuyo",
+      "attribute": "Safety and Limits",
+      "definition_ja": "宗教推定禁止は、利用から本人の信仰・宗教を推定しないことを表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、宗教推定禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000097_no_fatalism.yml",
+      "id": "SUK-000097",
+      "knowledge_type": "sukuyo",
+      "name_ja": "宿命論回避",
+      "name_en": "Avoid Fatalism",
+      "category": "Sukuyo",
+      "attribute": "Safety and Limits",
+      "definition_ja": "宿命論回避は、宿を不可変の運命や人格として表示しないことを表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、宿命論回避を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000098_high_impact_exclusion.yml",
+      "id": "SUK-000098",
+      "knowledge_type": "sukuyo",
+      "name_ja": "高影響利用禁止",
+      "name_en": "High-Impact Exclusion",
+      "category": "Sukuyo",
+      "attribute": "Safety and Limits",
+      "definition_ja": "高影響利用禁止は、雇用・教育・保険・信用等に利用しないことを表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、高影響利用禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000099_birth_data_privacy.yml",
+      "id": "SUK-000099",
+      "knowledge_type": "sukuyo",
+      "name_ja": "出生情報保護",
+      "name_en": "Birth-Data Privacy",
+      "category": "Sukuyo",
+      "attribute": "Safety and Limits",
+      "definition_ja": "出生情報保護は、生年月日と派生宿情報の収集・保持を最小化することを表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、出生情報保護を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    },
+    {
+      "filename": "SUK-000100_reflective_use.yml",
+      "id": "SUK-000100",
+      "knowledge_type": "sukuyo",
+      "name_ja": "内省用途",
+      "name_en": "Reflective Use",
+      "category": "Sukuyo",
+      "attribute": "Safety and Limits",
+      "definition_ja": "内省用途は、結果を本人が拒否・修正できる内省材料として示すことを表す宿曜参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:宿曜",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "宿曜・宿曜道",
+      "source_type": "生年月日・暦・月宿・七曜",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用暦",
+        "二十七宿または二十八宿方式",
+        "基準日",
+        "流派"
+      ],
+      "calculation_basis": "採用暦と基準配列から本命宿・日運宿・宿間関係等を求める",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "宿曜・宿曜道では、内省用途を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "インド月宿・漢訳宿曜経・日本の密教占星と宿曜道の歴史"
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 {
   "output_dir": "vol10_learning_theory/learning_theory_001_050",
   "index_filename": "learning_theory_001_050_index.yml",
-  "index_content": "category: Learning Theory\nname_ja: 学習理論\nitems:\n  - LEARN-000001_learning.yml\n  - LEARN-000002_acquisition.yml\n  - LEARN-000003_retention.yml\n  - LEARN-000004_retrieval_practice.yml\n  - LEARN-000005_spacing_effect.yml\n  - LEARN-000006_interleaving.yml\n  - LEARN-000007_overlearning.yml\n  - LEARN-000008_distributed_practice.yml\n  - LEARN-000009_massed_practice.yml\n  - LEARN-000010_transfer.yml\n  - LEARN-000011_feedback.yml\n  - LEARN-000012_immediate_feedback.yml\n  - LEARN-000013_delayed_feedback.yml\n  - LEARN-000014_corrective_feedback.yml\n  - LEARN-000015_elaborated_feedback.yml\n  - LEARN-000016_knowledge_of_results.yml\n  - LEARN-000017_knowledge_of_performance.yml\n  - LEARN-000018_feedback_timing.yml\n  - LEARN-000019_feedback_frequency.yml\n  - LEARN-000020_feedback_clarity.yml\n  - LEARN-000021_learning_motivation.yml\n  - LEARN-000022_mastery_goal.yml\n  - LEARN-000023_performance_goal.yml\n  - LEARN-000024_approach_goal.yml\n  - LEARN-000025_avoidance_goal.yml\n  - LEARN-000026_self_efficacy_learning.yml\n  - LEARN-000027_expectancy_value.yml\n  - LEARN-000028_interest_development.yml\n  - LEARN-000029_learning_autonomy.yml\n  - LEARN-000030_learning_persistence.yml\n  - LEARN-000031_self_regulated_learning.yml\n  - LEARN-000032_learning_goal_setting.yml\n  - LEARN-000033_learning_planning.yml\n  - LEARN-000034_learning_monitoring.yml\n  - LEARN-000035_strategy_adjustment.yml\n  - LEARN-000036_help_seeking_learning.yml\n  - LEARN-000037_self_explanation_learning.yml\n  - LEARN-000038_reflection_learning.yml\n  - LEARN-000039_metacognitive_strategy.yml\n  - LEARN-000040_learning_time_management.yml\n  - LEARN-000041_instructional_design.yml\n  - LEARN-000042_scaffolding.yml\n  - LEARN-000043_worked_example.yml\n  - LEARN-000044_guided_discovery.yml\n  - LEARN-000045_direct_instruction.yml\n  - LEARN-000046_inquiry_learning.yml\n  - LEARN-000047_problem_based_learning.yml\n  - LEARN-000048_project_based_learning.yml\n  - LEARN-000049_adaptive_learning.yml\n  - LEARN-000050_personalized_learning.yml\nnotes:\n  - 学習理論は学力判定ではなく推論材料として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
+  "index_content": "category: Learning Theory\nname_ja: 学習理論\nitems:\n  - LEA-000001_learning.yml\n  - LEA-000002_acquisition.yml\n  - LEA-000003_retention.yml\n  - LEA-000004_retrieval_practice.yml\n  - LEA-000005_spacing_effect.yml\n  - LEA-000006_interleaving.yml\n  - LEA-000007_overlearning.yml\n  - LEA-000008_distributed_practice.yml\n  - LEA-000009_massed_practice.yml\n  - LEA-000010_transfer.yml\n  - LEA-000011_feedback.yml\n  - LEA-000012_immediate_feedback.yml\n  - LEA-000013_delayed_feedback.yml\n  - LEA-000014_corrective_feedback.yml\n  - LEA-000015_elaborated_feedback.yml\n  - LEA-000016_knowledge_of_results.yml\n  - LEA-000017_knowledge_of_performance.yml\n  - LEA-000018_feedback_timing.yml\n  - LEA-000019_feedback_frequency.yml\n  - LEA-000020_feedback_clarity.yml\n  - LEA-000021_learning_motivation.yml\n  - LEA-000022_mastery_goal.yml\n  - LEA-000023_performance_goal.yml\n  - LEA-000024_approach_goal.yml\n  - LEA-000025_avoidance_goal.yml\n  - LEA-000026_self_efficacy_learning.yml\n  - LEA-000027_expectancy_value.yml\n  - LEA-000028_interest_development.yml\n  - LEA-000029_learning_autonomy.yml\n  - LEA-000030_learning_persistence.yml\n  - LEA-000031_self_regulated_learning.yml\n  - LEA-000032_learning_goal_setting.yml\n  - LEA-000033_learning_planning.yml\n  - LEA-000034_learning_monitoring.yml\n  - LEA-000035_strategy_adjustment.yml\n  - LEA-000036_help_seeking_learning.yml\n  - LEA-000037_self_explanation_learning.yml\n  - LEA-000038_reflection_learning.yml\n  - LEA-000039_metacognitive_strategy.yml\n  - LEA-000040_learning_time_management.yml\n  - LEA-000041_instructional_design.yml\n  - LEA-000042_scaffolding.yml\n  - LEA-000043_worked_example.yml\n  - LEA-000044_guided_discovery.yml\n  - LEA-000045_direct_instruction.yml\n  - LEA-000046_inquiry_learning.yml\n  - LEA-000047_problem_based_learning.yml\n  - LEA-000048_project_based_learning.yml\n  - LEA-000049_adaptive_learning.yml\n  - LEA-000050_personalized_learning.yml\nnotes:\n  - 学習理論は学力判定ではなく推論材料として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
   "items": [
     {
-      "filename": "LEARN-000001_learning.yml",
-      "id": "LEARN-000001",
+      "filename": "LEA-000001_learning.yml",
+      "id": "LEA-000001",
       "knowledge_type": "learning_theory",
       "name_ja": "学習",
       "name_en": "Learning",
@@ -46,8 +46,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000002_acquisition.yml",
-      "id": "LEARN-000002",
+      "filename": "LEA-000002_acquisition.yml",
+      "id": "LEA-000002",
       "knowledge_type": "learning_theory",
       "name_ja": "獲得",
       "name_en": "Acquisition",
@@ -88,8 +88,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000003_retention.yml",
-      "id": "LEARN-000003",
+      "filename": "LEA-000003_retention.yml",
+      "id": "LEA-000003",
       "knowledge_type": "learning_theory",
       "name_ja": "保持",
       "name_en": "Retention",
@@ -130,8 +130,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000004_retrieval_practice.yml",
-      "id": "LEARN-000004",
+      "filename": "LEA-000004_retrieval_practice.yml",
+      "id": "LEA-000004",
       "knowledge_type": "learning_theory",
       "name_ja": "検索練習",
       "name_en": "Retrieval Practice",
@@ -172,8 +172,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000005_spacing_effect.yml",
-      "id": "LEARN-000005",
+      "filename": "LEA-000005_spacing_effect.yml",
+      "id": "LEA-000005",
       "knowledge_type": "learning_theory",
       "name_ja": "分散学習効果",
       "name_en": "Spacing Effect",
@@ -214,8 +214,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000006_interleaving.yml",
-      "id": "LEARN-000006",
+      "filename": "LEA-000006_interleaving.yml",
+      "id": "LEA-000006",
       "knowledge_type": "learning_theory",
       "name_ja": "交互学習",
       "name_en": "Interleaving",
@@ -256,8 +256,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000007_overlearning.yml",
-      "id": "LEARN-000007",
+      "filename": "LEA-000007_overlearning.yml",
+      "id": "LEA-000007",
       "knowledge_type": "learning_theory",
       "name_ja": "過剰学習",
       "name_en": "Overlearning",
@@ -298,8 +298,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000008_distributed_practice.yml",
-      "id": "LEARN-000008",
+      "filename": "LEA-000008_distributed_practice.yml",
+      "id": "LEA-000008",
       "knowledge_type": "learning_theory",
       "name_ja": "分散練習",
       "name_en": "Distributed Practice",
@@ -340,8 +340,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000009_massed_practice.yml",
-      "id": "LEARN-000009",
+      "filename": "LEA-000009_massed_practice.yml",
+      "id": "LEA-000009",
       "knowledge_type": "learning_theory",
       "name_ja": "集中練習",
       "name_en": "Massed Practice",
@@ -382,8 +382,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000010_transfer.yml",
-      "id": "LEARN-000010",
+      "filename": "LEA-000010_transfer.yml",
+      "id": "LEA-000010",
       "knowledge_type": "learning_theory",
       "name_ja": "転移",
       "name_en": "Transfer",
@@ -424,8 +424,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000011_feedback.yml",
-      "id": "LEARN-000011",
+      "filename": "LEA-000011_feedback.yml",
+      "id": "LEA-000011",
       "knowledge_type": "learning_theory",
       "name_ja": "フィードバック",
       "name_en": "Feedback",
@@ -466,8 +466,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000012_immediate_feedback.yml",
-      "id": "LEARN-000012",
+      "filename": "LEA-000012_immediate_feedback.yml",
+      "id": "LEA-000012",
       "knowledge_type": "learning_theory",
       "name_ja": "即時フィードバック",
       "name_en": "Immediate Feedback",
@@ -508,8 +508,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000013_delayed_feedback.yml",
-      "id": "LEARN-000013",
+      "filename": "LEA-000013_delayed_feedback.yml",
+      "id": "LEA-000013",
       "knowledge_type": "learning_theory",
       "name_ja": "遅延フィードバック",
       "name_en": "Delayed Feedback",
@@ -550,8 +550,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000014_corrective_feedback.yml",
-      "id": "LEARN-000014",
+      "filename": "LEA-000014_corrective_feedback.yml",
+      "id": "LEA-000014",
       "knowledge_type": "learning_theory",
       "name_ja": "修正フィードバック",
       "name_en": "Corrective Feedback",
@@ -592,8 +592,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000015_elaborated_feedback.yml",
-      "id": "LEARN-000015",
+      "filename": "LEA-000015_elaborated_feedback.yml",
+      "id": "LEA-000015",
       "knowledge_type": "learning_theory",
       "name_ja": "精緻化フィードバック",
       "name_en": "Elaborated Feedback",
@@ -634,8 +634,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000016_knowledge_of_results.yml",
-      "id": "LEARN-000016",
+      "filename": "LEA-000016_knowledge_of_results.yml",
+      "id": "LEA-000016",
       "knowledge_type": "learning_theory",
       "name_ja": "結果知識",
       "name_en": "Knowledge of Results",
@@ -676,8 +676,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000017_knowledge_of_performance.yml",
-      "id": "LEARN-000017",
+      "filename": "LEA-000017_knowledge_of_performance.yml",
+      "id": "LEA-000017",
       "knowledge_type": "learning_theory",
       "name_ja": "遂行知識",
       "name_en": "Knowledge of Performance",
@@ -718,8 +718,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000018_feedback_timing.yml",
-      "id": "LEARN-000018",
+      "filename": "LEA-000018_feedback_timing.yml",
+      "id": "LEA-000018",
       "knowledge_type": "learning_theory",
       "name_ja": "フィードバックタイミング",
       "name_en": "Feedback Timing",
@@ -760,8 +760,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000019_feedback_frequency.yml",
-      "id": "LEARN-000019",
+      "filename": "LEA-000019_feedback_frequency.yml",
+      "id": "LEA-000019",
       "knowledge_type": "learning_theory",
       "name_ja": "フィードバック頻度",
       "name_en": "Feedback Frequency",
@@ -802,8 +802,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000020_feedback_clarity.yml",
-      "id": "LEARN-000020",
+      "filename": "LEA-000020_feedback_clarity.yml",
+      "id": "LEA-000020",
       "knowledge_type": "learning_theory",
       "name_ja": "フィードバック明確性",
       "name_en": "Feedback Clarity",
@@ -844,8 +844,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000021_learning_motivation.yml",
-      "id": "LEARN-000021",
+      "filename": "LEA-000021_learning_motivation.yml",
+      "id": "LEA-000021",
       "knowledge_type": "learning_theory",
       "name_ja": "学習動機",
       "name_en": "Learning Motivation",
@@ -886,8 +886,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000022_mastery_goal.yml",
-      "id": "LEARN-000022",
+      "filename": "LEA-000022_mastery_goal.yml",
+      "id": "LEA-000022",
       "knowledge_type": "learning_theory",
       "name_ja": "熟達目標",
       "name_en": "Mastery Goal",
@@ -928,8 +928,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000023_performance_goal.yml",
-      "id": "LEARN-000023",
+      "filename": "LEA-000023_performance_goal.yml",
+      "id": "LEA-000023",
       "knowledge_type": "learning_theory",
       "name_ja": "遂行目標",
       "name_en": "Performance Goal",
@@ -970,8 +970,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000024_approach_goal.yml",
-      "id": "LEARN-000024",
+      "filename": "LEA-000024_approach_goal.yml",
+      "id": "LEA-000024",
       "knowledge_type": "learning_theory",
       "name_ja": "接近目標",
       "name_en": "Approach Goal",
@@ -1012,8 +1012,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000025_avoidance_goal.yml",
-      "id": "LEARN-000025",
+      "filename": "LEA-000025_avoidance_goal.yml",
+      "id": "LEA-000025",
       "knowledge_type": "learning_theory",
       "name_ja": "回避目標",
       "name_en": "Avoidance Goal",
@@ -1054,8 +1054,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000026_self_efficacy_learning.yml",
-      "id": "LEARN-000026",
+      "filename": "LEA-000026_self_efficacy_learning.yml",
+      "id": "LEA-000026",
       "knowledge_type": "learning_theory",
       "name_ja": "学習自己効力感",
       "name_en": "Learning Self Efficacy",
@@ -1096,8 +1096,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000027_expectancy_value.yml",
-      "id": "LEARN-000027",
+      "filename": "LEA-000027_expectancy_value.yml",
+      "id": "LEA-000027",
       "knowledge_type": "learning_theory",
       "name_ja": "期待価値",
       "name_en": "Expectancy Value",
@@ -1138,8 +1138,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000028_interest_development.yml",
-      "id": "LEARN-000028",
+      "filename": "LEA-000028_interest_development.yml",
+      "id": "LEA-000028",
       "knowledge_type": "learning_theory",
       "name_ja": "興味発達",
       "name_en": "Interest Development",
@@ -1180,8 +1180,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000029_learning_autonomy.yml",
-      "id": "LEARN-000029",
+      "filename": "LEA-000029_learning_autonomy.yml",
+      "id": "LEA-000029",
       "knowledge_type": "learning_theory",
       "name_ja": "学習自律性",
       "name_en": "Learning Autonomy",
@@ -1222,8 +1222,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000030_learning_persistence.yml",
-      "id": "LEARN-000030",
+      "filename": "LEA-000030_learning_persistence.yml",
+      "id": "LEA-000030",
       "knowledge_type": "learning_theory",
       "name_ja": "学習継続",
       "name_en": "Learning Persistence",
@@ -1264,8 +1264,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000031_self_regulated_learning.yml",
-      "id": "LEARN-000031",
+      "filename": "LEA-000031_self_regulated_learning.yml",
+      "id": "LEA-000031",
       "knowledge_type": "learning_theory",
       "name_ja": "自己調整学習",
       "name_en": "Self Regulated Learning",
@@ -1306,8 +1306,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000032_learning_goal_setting.yml",
-      "id": "LEARN-000032",
+      "filename": "LEA-000032_learning_goal_setting.yml",
+      "id": "LEA-000032",
       "knowledge_type": "learning_theory",
       "name_ja": "学習目標設定",
       "name_en": "Learning Goal Setting",
@@ -1348,8 +1348,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000033_learning_planning.yml",
-      "id": "LEARN-000033",
+      "filename": "LEA-000033_learning_planning.yml",
+      "id": "LEA-000033",
       "knowledge_type": "learning_theory",
       "name_ja": "学習計画",
       "name_en": "Learning Planning",
@@ -1390,8 +1390,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000034_learning_monitoring.yml",
-      "id": "LEARN-000034",
+      "filename": "LEA-000034_learning_monitoring.yml",
+      "id": "LEA-000034",
       "knowledge_type": "learning_theory",
       "name_ja": "学習モニタリング",
       "name_en": "Learning Monitoring",
@@ -1432,8 +1432,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000035_strategy_adjustment.yml",
-      "id": "LEARN-000035",
+      "filename": "LEA-000035_strategy_adjustment.yml",
+      "id": "LEA-000035",
       "knowledge_type": "learning_theory",
       "name_ja": "学習方略調整",
       "name_en": "Strategy Adjustment",
@@ -1474,8 +1474,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000036_help_seeking_learning.yml",
-      "id": "LEARN-000036",
+      "filename": "LEA-000036_help_seeking_learning.yml",
+      "id": "LEA-000036",
       "knowledge_type": "learning_theory",
       "name_ja": "学習援助要請",
       "name_en": "Help Seeking in Learning",
@@ -1516,8 +1516,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000037_self_explanation_learning.yml",
-      "id": "LEARN-000037",
+      "filename": "LEA-000037_self_explanation_learning.yml",
+      "id": "LEA-000037",
       "knowledge_type": "learning_theory",
       "name_ja": "自己説明学習",
       "name_en": "Self Explanation Learning",
@@ -1558,8 +1558,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000038_reflection_learning.yml",
-      "id": "LEARN-000038",
+      "filename": "LEA-000038_reflection_learning.yml",
+      "id": "LEA-000038",
       "knowledge_type": "learning_theory",
       "name_ja": "振り返り学習",
       "name_en": "Reflective Learning",
@@ -1600,8 +1600,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000039_metacognitive_strategy.yml",
-      "id": "LEARN-000039",
+      "filename": "LEA-000039_metacognitive_strategy.yml",
+      "id": "LEA-000039",
       "knowledge_type": "learning_theory",
       "name_ja": "メタ認知方略",
       "name_en": "Metacognitive Strategy",
@@ -1642,8 +1642,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000040_learning_time_management.yml",
-      "id": "LEARN-000040",
+      "filename": "LEA-000040_learning_time_management.yml",
+      "id": "LEA-000040",
       "knowledge_type": "learning_theory",
       "name_ja": "学習時間管理",
       "name_en": "Learning Time Management",
@@ -1684,8 +1684,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000041_instructional_design.yml",
-      "id": "LEARN-000041",
+      "filename": "LEA-000041_instructional_design.yml",
+      "id": "LEA-000041",
       "knowledge_type": "learning_theory",
       "name_ja": "教授設計",
       "name_en": "Instructional Design",
@@ -1726,8 +1726,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000042_scaffolding.yml",
-      "id": "LEARN-000042",
+      "filename": "LEA-000042_scaffolding.yml",
+      "id": "LEA-000042",
       "knowledge_type": "learning_theory",
       "name_ja": "足場かけ",
       "name_en": "Scaffolding",
@@ -1768,8 +1768,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000043_worked_example.yml",
-      "id": "LEARN-000043",
+      "filename": "LEA-000043_worked_example.yml",
+      "id": "LEA-000043",
       "knowledge_type": "learning_theory",
       "name_ja": "例題学習",
       "name_en": "Worked Example",
@@ -1810,8 +1810,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000044_guided_discovery.yml",
-      "id": "LEARN-000044",
+      "filename": "LEA-000044_guided_discovery.yml",
+      "id": "LEA-000044",
       "knowledge_type": "learning_theory",
       "name_ja": "ガイド付き発見学習",
       "name_en": "Guided Discovery",
@@ -1852,8 +1852,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000045_direct_instruction.yml",
-      "id": "LEARN-000045",
+      "filename": "LEA-000045_direct_instruction.yml",
+      "id": "LEA-000045",
       "knowledge_type": "learning_theory",
       "name_ja": "直接教授",
       "name_en": "Direct Instruction",
@@ -1894,8 +1894,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000046_inquiry_learning.yml",
-      "id": "LEARN-000046",
+      "filename": "LEA-000046_inquiry_learning.yml",
+      "id": "LEA-000046",
       "knowledge_type": "learning_theory",
       "name_ja": "探究学習",
       "name_en": "Inquiry Learning",
@@ -1936,8 +1936,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000047_problem_based_learning.yml",
-      "id": "LEARN-000047",
+      "filename": "LEA-000047_problem_based_learning.yml",
+      "id": "LEA-000047",
       "knowledge_type": "learning_theory",
       "name_ja": "問題基盤型学習",
       "name_en": "Problem Based Learning",
@@ -1978,8 +1978,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000048_project_based_learning.yml",
-      "id": "LEARN-000048",
+      "filename": "LEA-000048_project_based_learning.yml",
+      "id": "LEA-000048",
       "knowledge_type": "learning_theory",
       "name_ja": "プロジェクト型学習",
       "name_en": "Project Based Learning",
@@ -2020,8 +2020,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000049_adaptive_learning.yml",
-      "id": "LEARN-000049",
+      "filename": "LEA-000049_adaptive_learning.yml",
+      "id": "LEA-000049",
       "knowledge_type": "learning_theory",
       "name_ja": "適応学習",
       "name_en": "Adaptive Learning",
@@ -2062,8 +2062,8 @@
       "status": "active"
     },
     {
-      "filename": "LEARN-000050_personalized_learning.yml",
-      "id": "LEARN-000050",
+      "filename": "LEA-000050_personalized_learning.yml",
+      "id": "LEA-000050",
       "knowledge_type": "learning_theory",
       "name_ja": "個別最適化学習",
       "name_en": "Personalized Learning",

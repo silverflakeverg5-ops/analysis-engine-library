@@ -1,11 +1,11 @@
 {
   "output_dir": "vol9_social_psychology/social_psychology_001_050",
   "index_filename": "social_psychology_001_050_index.yml",
-  "index_content": "category: Social Psychology\nname_ja: 社会心理\nitems:\n  - SOCPSY-000001_social_influence.yml\n  - SOCPSY-000002_conformity.yml\n  - SOCPSY-000003_obedience.yml\n  - SOCPSY-000004_compliance.yml\n  - SOCPSY-000005_persuasion.yml\n  - SOCPSY-000006_social_proof.yml\n  - SOCPSY-000007_normative_influence.yml\n  - SOCPSY-000008_informational_influence.yml\n  - SOCPSY-000009_minority_influence.yml\n  - SOCPSY-000010_social_contagion.yml\n  - SOCPSY-000011_group_dynamics.yml\n  - SOCPSY-000012_group_norms.yml\n  - SOCPSY-000013_group_cohesion.yml\n  - SOCPSY-000014_social_identity.yml\n  - SOCPSY-000015_ingroup_outgroup.yml\n  - SOCPSY-000016_group_polarization.yml\n  - SOCPSY-000017_groupthink.yml\n  - SOCPSY-000018_social_loafing.yml\n  - SOCPSY-000019_deindividuation.yml\n  - SOCPSY-000020_collective_efficacy.yml\n  - SOCPSY-000021_impression_formation.yml\n  - SOCPSY-000022_person_perception.yml\n  - SOCPSY-000023_attribution_process.yml\n  - SOCPSY-000024_stereotype.yml\n  - SOCPSY-000025_prejudice.yml\n  - SOCPSY-000026_discrimination_behavior.yml\n  - SOCPSY-000027_thin_slice_judgment.yml\n  - SOCPSY-000028_nonverbal_cue_reading.yml\n  - SOCPSY-000029_trust_perception.yml\n  - SOCPSY-000030_warmth_competence_judgment.yml\n  - SOCPSY-000031_relationship_quality.yml\n  - SOCPSY-000032_attachment_style.yml\n  - SOCPSY-000033_trust_building.yml\n  - SOCPSY-000034_reciprocity.yml\n  - SOCPSY-000035_self_disclosure.yml\n  - SOCPSY-000036_intimacy_development.yml\n  - SOCPSY-000037_relationship_maintenance.yml\n  - SOCPSY-000038_conflict_resolution.yml\n  - SOCPSY-000039_social_exchange.yml\n  - SOCPSY-000040_relationship_boundary.yml\n  - SOCPSY-000041_self_presentation.yml\n  - SOCPSY-000042_impression_management.yml\n  - SOCPSY-000043_face_saving.yml\n  - SOCPSY-000044_social_approval_need.yml\n  - SOCPSY-000045_evaluation_apprehension.yml\n  - SOCPSY-000046_public_self_consciousness.yml\n  - SOCPSY-000047_private_self_consciousness.yml\n  - SOCPSY-000048_identity_signaling.yml\n  - SOCPSY-000049_authenticity_expression.yml\n  - SOCPSY-000050_social_masking.yml\nnotes:\n  - 社会心理は性格断定ではなく推論材料として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
+  "index_content": "category: Social Psychology\nname_ja: 社会心理\nitems:\n  - SOC-000001_social_influence.yml\n  - SOC-000002_conformity.yml\n  - SOC-000003_obedience.yml\n  - SOC-000004_compliance.yml\n  - SOC-000005_persuasion.yml\n  - SOC-000006_social_proof.yml\n  - SOC-000007_normative_influence.yml\n  - SOC-000008_informational_influence.yml\n  - SOC-000009_minority_influence.yml\n  - SOC-000010_social_contagion.yml\n  - SOC-000011_group_dynamics.yml\n  - SOC-000012_group_norms.yml\n  - SOC-000013_group_cohesion.yml\n  - SOC-000014_social_identity.yml\n  - SOC-000015_ingroup_outgroup.yml\n  - SOC-000016_group_polarization.yml\n  - SOC-000017_groupthink.yml\n  - SOC-000018_social_loafing.yml\n  - SOC-000019_deindividuation.yml\n  - SOC-000020_collective_efficacy.yml\n  - SOC-000021_impression_formation.yml\n  - SOC-000022_person_perception.yml\n  - SOC-000023_attribution_process.yml\n  - SOC-000024_stereotype.yml\n  - SOC-000025_prejudice.yml\n  - SOC-000026_discrimination_behavior.yml\n  - SOC-000027_thin_slice_judgment.yml\n  - SOC-000028_nonverbal_cue_reading.yml\n  - SOC-000029_trust_perception.yml\n  - SOC-000030_warmth_competence_judgment.yml\n  - SOC-000031_relationship_quality.yml\n  - SOC-000032_attachment_style.yml\n  - SOC-000033_trust_building.yml\n  - SOC-000034_reciprocity.yml\n  - SOC-000035_self_disclosure.yml\n  - SOC-000036_intimacy_development.yml\n  - SOC-000037_relationship_maintenance.yml\n  - SOC-000038_conflict_resolution.yml\n  - SOC-000039_social_exchange.yml\n  - SOC-000040_relationship_boundary.yml\n  - SOC-000041_self_presentation.yml\n  - SOC-000042_impression_management.yml\n  - SOC-000043_face_saving.yml\n  - SOC-000044_social_approval_need.yml\n  - SOC-000045_evaluation_apprehension.yml\n  - SOC-000046_public_self_consciousness.yml\n  - SOC-000047_private_self_consciousness.yml\n  - SOC-000048_identity_signaling.yml\n  - SOC-000049_authenticity_expression.yml\n  - SOC-000050_social_masking.yml\nnotes:\n  - 社会心理は性格断定ではなく推論材料として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
   "items": [
     {
-      "filename": "SOCPSY-000001_social_influence.yml",
-      "id": "SOCPSY-000001",
+      "filename": "SOC-000001_social_influence.yml",
+      "id": "SOC-000001",
       "knowledge_type": "social_psychology",
       "name_ja": "社会的影響",
       "name_en": "Social Influence",
@@ -46,8 +46,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000002_conformity.yml",
-      "id": "SOCPSY-000002",
+      "filename": "SOC-000002_conformity.yml",
+      "id": "SOC-000002",
       "knowledge_type": "social_psychology",
       "name_ja": "同調",
       "name_en": "Conformity",
@@ -88,8 +88,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000003_obedience.yml",
-      "id": "SOCPSY-000003",
+      "filename": "SOC-000003_obedience.yml",
+      "id": "SOC-000003",
       "knowledge_type": "social_psychology",
       "name_ja": "服従",
       "name_en": "Obedience",
@@ -130,8 +130,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000004_compliance.yml",
-      "id": "SOCPSY-000004",
+      "filename": "SOC-000004_compliance.yml",
+      "id": "SOC-000004",
       "knowledge_type": "social_psychology",
       "name_ja": "承諾",
       "name_en": "Compliance",
@@ -172,8 +172,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000005_persuasion.yml",
-      "id": "SOCPSY-000005",
+      "filename": "SOC-000005_persuasion.yml",
+      "id": "SOC-000005",
       "knowledge_type": "social_psychology",
       "name_ja": "説得",
       "name_en": "Persuasion",
@@ -214,8 +214,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000006_social_proof.yml",
-      "id": "SOCPSY-000006",
+      "filename": "SOC-000006_social_proof.yml",
+      "id": "SOC-000006",
       "knowledge_type": "social_psychology",
       "name_ja": "社会的証明",
       "name_en": "Social Proof",
@@ -256,8 +256,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000007_normative_influence.yml",
-      "id": "SOCPSY-000007",
+      "filename": "SOC-000007_normative_influence.yml",
+      "id": "SOC-000007",
       "knowledge_type": "social_psychology",
       "name_ja": "規範的影響",
       "name_en": "Normative Influence",
@@ -298,8 +298,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000008_informational_influence.yml",
-      "id": "SOCPSY-000008",
+      "filename": "SOC-000008_informational_influence.yml",
+      "id": "SOC-000008",
       "knowledge_type": "social_psychology",
       "name_ja": "情報的影響",
       "name_en": "Informational Influence",
@@ -340,8 +340,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000009_minority_influence.yml",
-      "id": "SOCPSY-000009",
+      "filename": "SOC-000009_minority_influence.yml",
+      "id": "SOC-000009",
       "knowledge_type": "social_psychology",
       "name_ja": "少数派影響",
       "name_en": "Minority Influence",
@@ -382,8 +382,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000010_social_contagion.yml",
-      "id": "SOCPSY-000010",
+      "filename": "SOC-000010_social_contagion.yml",
+      "id": "SOC-000010",
       "knowledge_type": "social_psychology",
       "name_ja": "社会的伝染",
       "name_en": "Social Contagion",
@@ -424,8 +424,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000011_group_dynamics.yml",
-      "id": "SOCPSY-000011",
+      "filename": "SOC-000011_group_dynamics.yml",
+      "id": "SOC-000011",
       "knowledge_type": "social_psychology",
       "name_ja": "集団力学",
       "name_en": "Group Dynamics",
@@ -466,8 +466,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000012_group_norms.yml",
-      "id": "SOCPSY-000012",
+      "filename": "SOC-000012_group_norms.yml",
+      "id": "SOC-000012",
       "knowledge_type": "social_psychology",
       "name_ja": "集団規範",
       "name_en": "Group Norms",
@@ -508,8 +508,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000013_group_cohesion.yml",
-      "id": "SOCPSY-000013",
+      "filename": "SOC-000013_group_cohesion.yml",
+      "id": "SOC-000013",
       "knowledge_type": "social_psychology",
       "name_ja": "集団凝集性",
       "name_en": "Group Cohesion",
@@ -550,8 +550,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000014_social_identity.yml",
-      "id": "SOCPSY-000014",
+      "filename": "SOC-000014_social_identity.yml",
+      "id": "SOC-000014",
       "knowledge_type": "social_psychology",
       "name_ja": "社会的アイデンティティ",
       "name_en": "Social Identity",
@@ -592,8 +592,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000015_ingroup_outgroup.yml",
-      "id": "SOCPSY-000015",
+      "filename": "SOC-000015_ingroup_outgroup.yml",
+      "id": "SOC-000015",
       "knowledge_type": "social_psychology",
       "name_ja": "内集団外集団",
       "name_en": "Ingroup Outgroup",
@@ -634,8 +634,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000016_group_polarization.yml",
-      "id": "SOCPSY-000016",
+      "filename": "SOC-000016_group_polarization.yml",
+      "id": "SOC-000016",
       "knowledge_type": "social_psychology",
       "name_ja": "集団極性化",
       "name_en": "Group Polarization",
@@ -676,8 +676,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000017_groupthink.yml",
-      "id": "SOCPSY-000017",
+      "filename": "SOC-000017_groupthink.yml",
+      "id": "SOC-000017",
       "knowledge_type": "social_psychology",
       "name_ja": "集団思考",
       "name_en": "Groupthink",
@@ -718,8 +718,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000018_social_loafing.yml",
-      "id": "SOCPSY-000018",
+      "filename": "SOC-000018_social_loafing.yml",
+      "id": "SOC-000018",
       "knowledge_type": "social_psychology",
       "name_ja": "社会的手抜き",
       "name_en": "Social Loafing",
@@ -760,8 +760,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000019_deindividuation.yml",
-      "id": "SOCPSY-000019",
+      "filename": "SOC-000019_deindividuation.yml",
+      "id": "SOC-000019",
       "knowledge_type": "social_psychology",
       "name_ja": "没個性化",
       "name_en": "Deindividuation",
@@ -802,8 +802,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000020_collective_efficacy.yml",
-      "id": "SOCPSY-000020",
+      "filename": "SOC-000020_collective_efficacy.yml",
+      "id": "SOC-000020",
       "knowledge_type": "social_psychology",
       "name_ja": "集合的効力感",
       "name_en": "Collective Efficacy",
@@ -844,8 +844,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000021_impression_formation.yml",
-      "id": "SOCPSY-000021",
+      "filename": "SOC-000021_impression_formation.yml",
+      "id": "SOC-000021",
       "knowledge_type": "social_psychology",
       "name_ja": "印象形成",
       "name_en": "Impression Formation",
@@ -886,8 +886,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000022_person_perception.yml",
-      "id": "SOCPSY-000022",
+      "filename": "SOC-000022_person_perception.yml",
+      "id": "SOC-000022",
       "knowledge_type": "social_psychology",
       "name_ja": "人物知覚",
       "name_en": "Person Perception",
@@ -928,8 +928,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000023_attribution_process.yml",
-      "id": "SOCPSY-000023",
+      "filename": "SOC-000023_attribution_process.yml",
+      "id": "SOC-000023",
       "knowledge_type": "social_psychology",
       "name_ja": "原因帰属過程",
       "name_en": "Attribution Process",
@@ -970,8 +970,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000024_stereotype.yml",
-      "id": "SOCPSY-000024",
+      "filename": "SOC-000024_stereotype.yml",
+      "id": "SOC-000024",
       "knowledge_type": "social_psychology",
       "name_ja": "ステレオタイプ",
       "name_en": "Stereotype",
@@ -1012,8 +1012,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000025_prejudice.yml",
-      "id": "SOCPSY-000025",
+      "filename": "SOC-000025_prejudice.yml",
+      "id": "SOC-000025",
       "knowledge_type": "social_psychology",
       "name_ja": "偏見",
       "name_en": "Prejudice",
@@ -1054,8 +1054,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000026_discrimination_behavior.yml",
-      "id": "SOCPSY-000026",
+      "filename": "SOC-000026_discrimination_behavior.yml",
+      "id": "SOC-000026",
       "knowledge_type": "social_psychology",
       "name_ja": "差別行動",
       "name_en": "Discrimination Behavior",
@@ -1096,8 +1096,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000027_thin_slice_judgment.yml",
-      "id": "SOCPSY-000027",
+      "filename": "SOC-000027_thin_slice_judgment.yml",
+      "id": "SOC-000027",
       "knowledge_type": "social_psychology",
       "name_ja": "薄切り判断",
       "name_en": "Thin Slice Judgment",
@@ -1138,8 +1138,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000028_nonverbal_cue_reading.yml",
-      "id": "SOCPSY-000028",
+      "filename": "SOC-000028_nonverbal_cue_reading.yml",
+      "id": "SOC-000028",
       "knowledge_type": "social_psychology",
       "name_ja": "非言語手がかり読解",
       "name_en": "Nonverbal Cue Reading",
@@ -1180,8 +1180,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000029_trust_perception.yml",
-      "id": "SOCPSY-000029",
+      "filename": "SOC-000029_trust_perception.yml",
+      "id": "SOC-000029",
       "knowledge_type": "social_psychology",
       "name_ja": "信頼知覚",
       "name_en": "Trust Perception",
@@ -1222,8 +1222,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000030_warmth_competence_judgment.yml",
-      "id": "SOCPSY-000030",
+      "filename": "SOC-000030_warmth_competence_judgment.yml",
+      "id": "SOC-000030",
       "knowledge_type": "social_psychology",
       "name_ja": "温かさ有能さ判断",
       "name_en": "Warmth Competence Judgment",
@@ -1264,8 +1264,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000031_relationship_quality.yml",
-      "id": "SOCPSY-000031",
+      "filename": "SOC-000031_relationship_quality.yml",
+      "id": "SOC-000031",
       "knowledge_type": "social_psychology",
       "name_ja": "関係性の質",
       "name_en": "Relationship Quality",
@@ -1306,8 +1306,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000032_attachment_style.yml",
-      "id": "SOCPSY-000032",
+      "filename": "SOC-000032_attachment_style.yml",
+      "id": "SOC-000032",
       "knowledge_type": "social_psychology",
       "name_ja": "愛着スタイル",
       "name_en": "Attachment Style",
@@ -1348,8 +1348,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000033_trust_building.yml",
-      "id": "SOCPSY-000033",
+      "filename": "SOC-000033_trust_building.yml",
+      "id": "SOC-000033",
       "knowledge_type": "social_psychology",
       "name_ja": "信頼形成",
       "name_en": "Trust Building",
@@ -1390,8 +1390,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000034_reciprocity.yml",
-      "id": "SOCPSY-000034",
+      "filename": "SOC-000034_reciprocity.yml",
+      "id": "SOC-000034",
       "knowledge_type": "social_psychology",
       "name_ja": "互恵性",
       "name_en": "Reciprocity",
@@ -1432,8 +1432,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000035_self_disclosure.yml",
-      "id": "SOCPSY-000035",
+      "filename": "SOC-000035_self_disclosure.yml",
+      "id": "SOC-000035",
       "knowledge_type": "social_psychology",
       "name_ja": "自己開示",
       "name_en": "Self Disclosure",
@@ -1474,8 +1474,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000036_intimacy_development.yml",
-      "id": "SOCPSY-000036",
+      "filename": "SOC-000036_intimacy_development.yml",
+      "id": "SOC-000036",
       "knowledge_type": "social_psychology",
       "name_ja": "親密性形成",
       "name_en": "Intimacy Development",
@@ -1516,8 +1516,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000037_relationship_maintenance.yml",
-      "id": "SOCPSY-000037",
+      "filename": "SOC-000037_relationship_maintenance.yml",
+      "id": "SOC-000037",
       "knowledge_type": "social_psychology",
       "name_ja": "関係維持",
       "name_en": "Relationship Maintenance",
@@ -1558,8 +1558,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000038_conflict_resolution.yml",
-      "id": "SOCPSY-000038",
+      "filename": "SOC-000038_conflict_resolution.yml",
+      "id": "SOC-000038",
       "knowledge_type": "social_psychology",
       "name_ja": "葛藤解決",
       "name_en": "Conflict Resolution",
@@ -1600,8 +1600,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000039_social_exchange.yml",
-      "id": "SOCPSY-000039",
+      "filename": "SOC-000039_social_exchange.yml",
+      "id": "SOC-000039",
       "knowledge_type": "social_psychology",
       "name_ja": "社会的交換",
       "name_en": "Social Exchange",
@@ -1642,8 +1642,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000040_relationship_boundary.yml",
-      "id": "SOCPSY-000040",
+      "filename": "SOC-000040_relationship_boundary.yml",
+      "id": "SOC-000040",
       "knowledge_type": "social_psychology",
       "name_ja": "関係境界",
       "name_en": "Relationship Boundary",
@@ -1684,8 +1684,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000041_self_presentation.yml",
-      "id": "SOCPSY-000041",
+      "filename": "SOC-000041_self_presentation.yml",
+      "id": "SOC-000041",
       "knowledge_type": "social_psychology",
       "name_ja": "自己呈示",
       "name_en": "Self Presentation",
@@ -1726,8 +1726,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000042_impression_management.yml",
-      "id": "SOCPSY-000042",
+      "filename": "SOC-000042_impression_management.yml",
+      "id": "SOC-000042",
       "knowledge_type": "social_psychology",
       "name_ja": "印象管理",
       "name_en": "Impression Management",
@@ -1768,8 +1768,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000043_face_saving.yml",
-      "id": "SOCPSY-000043",
+      "filename": "SOC-000043_face_saving.yml",
+      "id": "SOC-000043",
       "knowledge_type": "social_psychology",
       "name_ja": "面子保持",
       "name_en": "Face Saving",
@@ -1810,8 +1810,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000044_social_approval_need.yml",
-      "id": "SOCPSY-000044",
+      "filename": "SOC-000044_social_approval_need.yml",
+      "id": "SOC-000044",
       "knowledge_type": "social_psychology",
       "name_ja": "承認欲求",
       "name_en": "Need for Social Approval",
@@ -1852,8 +1852,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000045_evaluation_apprehension.yml",
-      "id": "SOCPSY-000045",
+      "filename": "SOC-000045_evaluation_apprehension.yml",
+      "id": "SOC-000045",
       "knowledge_type": "social_psychology",
       "name_ja": "評価懸念",
       "name_en": "Evaluation Apprehension",
@@ -1894,8 +1894,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000046_public_self_consciousness.yml",
-      "id": "SOCPSY-000046",
+      "filename": "SOC-000046_public_self_consciousness.yml",
+      "id": "SOC-000046",
       "knowledge_type": "social_psychology",
       "name_ja": "公的自己意識",
       "name_en": "Public Self Consciousness",
@@ -1936,8 +1936,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000047_private_self_consciousness.yml",
-      "id": "SOCPSY-000047",
+      "filename": "SOC-000047_private_self_consciousness.yml",
+      "id": "SOC-000047",
       "knowledge_type": "social_psychology",
       "name_ja": "私的自己意識",
       "name_en": "Private Self Consciousness",
@@ -1978,8 +1978,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000048_identity_signaling.yml",
-      "id": "SOCPSY-000048",
+      "filename": "SOC-000048_identity_signaling.yml",
+      "id": "SOC-000048",
       "knowledge_type": "social_psychology",
       "name_ja": "アイデンティティシグナリング",
       "name_en": "Identity Signaling",
@@ -2020,8 +2020,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000049_authenticity_expression.yml",
-      "id": "SOCPSY-000049",
+      "filename": "SOC-000049_authenticity_expression.yml",
+      "id": "SOC-000049",
       "knowledge_type": "social_psychology",
       "name_ja": "真正性表現",
       "name_en": "Authenticity Expression",
@@ -2062,8 +2062,8 @@
       "status": "active"
     },
     {
-      "filename": "SOCPSY-000050_social_masking.yml",
-      "id": "SOCPSY-000050",
+      "filename": "SOC-000050_social_masking.yml",
+      "id": "SOC-000050",
       "knowledge_type": "social_psychology",
       "name_ja": "社会的マスキング",
       "name_en": "Social Masking",

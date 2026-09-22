@@ -1,11 +1,11 @@
 {
   "output_dir": "vol6_neuroscience/neuroscience_151_200",
   "index_filename": "neuroscience_151_200_index.yml",
-  "index_content": "category: Neuroscience\nname_ja: 神経科学\nitems:\n  - NEURO-000151_conscious_awareness.yml\n  - NEURO-000152_global_workspace.yml\n  - NEURO-000153_attention_and_consciousness.yml\n  - NEURO-000154_self_awareness.yml\n  - NEURO-000155_agency.yml\n  - NEURO-000156_sense_of_ownership.yml\n  - NEURO-000157_mental_simulation.yml\n  - NEURO-000158_internal_speech.yml\n  - NEURO-000159_mind_wandering.yml\n  - NEURO-000160_meta_awareness.yml\n  - NEURO-000161_predictive_coding.yml\n  - NEURO-000162_prediction_error.yml\n  - NEURO-000163_bayesian_brain.yml\n  - NEURO-000164_active_inference.yml\n  - NEURO-000165_sensory_prediction.yml\n  - NEURO-000166_motor_prediction.yml\n  - NEURO-000167_surprise_processing.yml\n  - NEURO-000168_expectation_updating.yml\n  - NEURO-000169_environmental_modeling.yml\n  - NEURO-000170_adaptive_prediction.yml\n  - NEURO-000171_dopamine_learning_signal.yml\n  - NEURO-000172_error_driven_learning.yml\n  - NEURO-000173_hebbian_learning.yml\n  - NEURO-000174_reinforcement_plasticity.yml\n  - NEURO-000175_reward_expectation.yml\n  - NEURO-000176_punishment_learning.yml\n  - NEURO-000177_novelty_detection.yml\n  - NEURO-000178_salience_coding.yml\n  - NEURO-000179_confidence_signal.yml\n  - NEURO-000180_uncertainty_signal.yml\n  - NEURO-000181_brain_aging.yml\n  - NEURO-000182_cognitive_reserve.yml\n  - NEURO-000183_neurogenesis.yml\n  - NEURO-000184_synaptic_health.yml\n  - NEURO-000185_white_matter_integrity.yml\n  - NEURO-000186_gray_matter_density.yml\n  - NEURO-000187_neuroinflammation.yml\n  - NEURO-000188_oxidative_stress.yml\n  - NEURO-000189_brain_energy_metabolism.yml\n  - NEURO-000190_recovery_processes.yml\n  - NEURO-000191_brain_body_interaction.yml\n  - NEURO-000192_emotion_cognition_integration.yml\n  - NEURO-000193_memory_emotion_integration.yml\n  - NEURO-000194_social_brain_integration.yml\n  - NEURO-000195_decision_integration.yml\n  - NEURO-000196_executive_integration.yml\n  - NEURO-000197_attention_integration.yml\n  - NEURO-000198_learning_integration.yml\n  - NEURO-000199_adaptive_integration.yml\n  - NEURO-000200_human_behavior_integration.yml\nnotes:\n  - 神経科学は医療診断ではなく推論材料として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
+  "index_content": "category: Neuroscience\nname_ja: 神経科学\nitems:\n  - NEU-000151_conscious_awareness.yml\n  - NEU-000152_global_workspace.yml\n  - NEU-000153_attention_and_consciousness.yml\n  - NEU-000154_self_awareness.yml\n  - NEU-000155_agency.yml\n  - NEU-000156_sense_of_ownership.yml\n  - NEU-000157_mental_simulation.yml\n  - NEU-000158_internal_speech.yml\n  - NEU-000159_mind_wandering.yml\n  - NEU-000160_meta_awareness.yml\n  - NEU-000161_predictive_coding.yml\n  - NEU-000162_prediction_error.yml\n  - NEU-000163_bayesian_brain.yml\n  - NEU-000164_active_inference.yml\n  - NEU-000165_sensory_prediction.yml\n  - NEU-000166_motor_prediction.yml\n  - NEU-000167_surprise_processing.yml\n  - NEU-000168_expectation_updating.yml\n  - NEU-000169_environmental_modeling.yml\n  - NEU-000170_adaptive_prediction.yml\n  - NEU-000171_dopamine_learning_signal.yml\n  - NEU-000172_error_driven_learning.yml\n  - NEU-000173_hebbian_learning.yml\n  - NEU-000174_reinforcement_plasticity.yml\n  - NEU-000175_reward_expectation.yml\n  - NEU-000176_punishment_learning.yml\n  - NEU-000177_novelty_detection.yml\n  - NEU-000178_salience_coding.yml\n  - NEU-000179_confidence_signal.yml\n  - NEU-000180_uncertainty_signal.yml\n  - NEU-000181_brain_aging.yml\n  - NEU-000182_cognitive_reserve.yml\n  - NEU-000183_neurogenesis.yml\n  - NEU-000184_synaptic_health.yml\n  - NEU-000185_white_matter_integrity.yml\n  - NEU-000186_gray_matter_density.yml\n  - NEU-000187_neuroinflammation.yml\n  - NEU-000188_oxidative_stress.yml\n  - NEU-000189_brain_energy_metabolism.yml\n  - NEU-000190_recovery_processes.yml\n  - NEU-000191_brain_body_interaction.yml\n  - NEU-000192_emotion_cognition_integration.yml\n  - NEU-000193_memory_emotion_integration.yml\n  - NEU-000194_social_brain_integration.yml\n  - NEU-000195_decision_integration.yml\n  - NEU-000196_executive_integration.yml\n  - NEU-000197_attention_integration.yml\n  - NEU-000198_learning_integration.yml\n  - NEU-000199_adaptive_integration.yml\n  - NEU-000200_human_behavior_integration.yml\nnotes:\n  - 神経科学は医療診断ではなく推論材料として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
   "items": [
     {
-      "filename": "NEURO-000151_conscious_awareness.yml",
-      "id": "NEURO-000151",
+      "filename": "NEU-000151_conscious_awareness.yml",
+      "id": "NEU-000151",
       "knowledge_type": "neuroscience",
       "name_ja": "意識的気づき",
       "name_en": "Conscious Awareness",
@@ -46,8 +46,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000152_global_workspace.yml",
-      "id": "NEURO-000152",
+      "filename": "NEU-000152_global_workspace.yml",
+      "id": "NEU-000152",
       "knowledge_type": "neuroscience",
       "name_ja": "グローバルワークスペース",
       "name_en": "Global Workspace",
@@ -88,8 +88,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000153_attention_and_consciousness.yml",
-      "id": "NEURO-000153",
+      "filename": "NEU-000153_attention_and_consciousness.yml",
+      "id": "NEU-000153",
       "knowledge_type": "neuroscience",
       "name_ja": "注意と意識",
       "name_en": "Attention and Consciousness",
@@ -130,8 +130,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000154_self_awareness.yml",
-      "id": "NEURO-000154",
+      "filename": "NEU-000154_self_awareness.yml",
+      "id": "NEU-000154",
       "knowledge_type": "neuroscience",
       "name_ja": "自己意識",
       "name_en": "Self Awareness",
@@ -172,8 +172,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000155_agency.yml",
-      "id": "NEURO-000155",
+      "filename": "NEU-000155_agency.yml",
+      "id": "NEU-000155",
       "knowledge_type": "neuroscience",
       "name_ja": "主体感",
       "name_en": "Agency",
@@ -214,8 +214,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000156_sense_of_ownership.yml",
-      "id": "NEURO-000156",
+      "filename": "NEU-000156_sense_of_ownership.yml",
+      "id": "NEU-000156",
       "knowledge_type": "neuroscience",
       "name_ja": "所有感",
       "name_en": "Sense of Ownership",
@@ -256,8 +256,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000157_mental_simulation.yml",
-      "id": "NEURO-000157",
+      "filename": "NEU-000157_mental_simulation.yml",
+      "id": "NEU-000157",
       "knowledge_type": "neuroscience",
       "name_ja": "心的シミュレーション",
       "name_en": "Mental Simulation",
@@ -298,8 +298,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000158_internal_speech.yml",
-      "id": "NEURO-000158",
+      "filename": "NEU-000158_internal_speech.yml",
+      "id": "NEU-000158",
       "knowledge_type": "neuroscience",
       "name_ja": "内言",
       "name_en": "Internal Speech",
@@ -340,8 +340,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000159_mind_wandering.yml",
-      "id": "NEURO-000159",
+      "filename": "NEU-000159_mind_wandering.yml",
+      "id": "NEU-000159",
       "knowledge_type": "neuroscience",
       "name_ja": "マインドワンダリング",
       "name_en": "Mind Wandering",
@@ -382,8 +382,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000160_meta_awareness.yml",
-      "id": "NEURO-000160",
+      "filename": "NEU-000160_meta_awareness.yml",
+      "id": "NEU-000160",
       "knowledge_type": "neuroscience",
       "name_ja": "メタ的気づき",
       "name_en": "Meta Awareness",
@@ -424,8 +424,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000161_predictive_coding.yml",
-      "id": "NEURO-000161",
+      "filename": "NEU-000161_predictive_coding.yml",
+      "id": "NEU-000161",
       "knowledge_type": "neuroscience",
       "name_ja": "予測符号化",
       "name_en": "Predictive Coding",
@@ -466,8 +466,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000162_prediction_error.yml",
-      "id": "NEURO-000162",
+      "filename": "NEU-000162_prediction_error.yml",
+      "id": "NEU-000162",
       "knowledge_type": "neuroscience",
       "name_ja": "予測誤差",
       "name_en": "Prediction Error",
@@ -508,8 +508,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000163_bayesian_brain.yml",
-      "id": "NEURO-000163",
+      "filename": "NEU-000163_bayesian_brain.yml",
+      "id": "NEU-000163",
       "knowledge_type": "neuroscience",
       "name_ja": "ベイズ脳",
       "name_en": "Bayesian Brain",
@@ -550,8 +550,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000164_active_inference.yml",
-      "id": "NEURO-000164",
+      "filename": "NEU-000164_active_inference.yml",
+      "id": "NEU-000164",
       "knowledge_type": "neuroscience",
       "name_ja": "能動的推論",
       "name_en": "Active Inference",
@@ -592,8 +592,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000165_sensory_prediction.yml",
-      "id": "NEURO-000165",
+      "filename": "NEU-000165_sensory_prediction.yml",
+      "id": "NEU-000165",
       "knowledge_type": "neuroscience",
       "name_ja": "感覚予測",
       "name_en": "Sensory Prediction",
@@ -634,8 +634,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000166_motor_prediction.yml",
-      "id": "NEURO-000166",
+      "filename": "NEU-000166_motor_prediction.yml",
+      "id": "NEU-000166",
       "knowledge_type": "neuroscience",
       "name_ja": "運動予測",
       "name_en": "Motor Prediction",
@@ -676,8 +676,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000167_surprise_processing.yml",
-      "id": "NEURO-000167",
+      "filename": "NEU-000167_surprise_processing.yml",
+      "id": "NEU-000167",
       "knowledge_type": "neuroscience",
       "name_ja": "驚き処理",
       "name_en": "Surprise Processing",
@@ -718,8 +718,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000168_expectation_updating.yml",
-      "id": "NEURO-000168",
+      "filename": "NEU-000168_expectation_updating.yml",
+      "id": "NEU-000168",
       "knowledge_type": "neuroscience",
       "name_ja": "期待更新",
       "name_en": "Expectation Updating",
@@ -760,8 +760,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000169_environmental_modeling.yml",
-      "id": "NEURO-000169",
+      "filename": "NEU-000169_environmental_modeling.yml",
+      "id": "NEU-000169",
       "knowledge_type": "neuroscience",
       "name_ja": "環境モデル化",
       "name_en": "Environmental Modeling",
@@ -802,8 +802,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000170_adaptive_prediction.yml",
-      "id": "NEURO-000170",
+      "filename": "NEU-000170_adaptive_prediction.yml",
+      "id": "NEU-000170",
       "knowledge_type": "neuroscience",
       "name_ja": "適応的予測",
       "name_en": "Adaptive Prediction",
@@ -844,8 +844,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000171_dopamine_learning_signal.yml",
-      "id": "NEURO-000171",
+      "filename": "NEU-000171_dopamine_learning_signal.yml",
+      "id": "NEU-000171",
       "knowledge_type": "neuroscience",
       "name_ja": "ドーパミン学習信号",
       "name_en": "Dopamine Learning Signal",
@@ -886,8 +886,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000172_error_driven_learning.yml",
-      "id": "NEURO-000172",
+      "filename": "NEU-000172_error_driven_learning.yml",
+      "id": "NEU-000172",
       "knowledge_type": "neuroscience",
       "name_ja": "誤差駆動学習",
       "name_en": "Error Driven Learning",
@@ -928,8 +928,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000173_hebbian_learning.yml",
-      "id": "NEURO-000173",
+      "filename": "NEU-000173_hebbian_learning.yml",
+      "id": "NEU-000173",
       "knowledge_type": "neuroscience",
       "name_ja": "ヘッブ学習",
       "name_en": "Hebbian Learning",
@@ -970,8 +970,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000174_reinforcement_plasticity.yml",
-      "id": "NEURO-000174",
+      "filename": "NEU-000174_reinforcement_plasticity.yml",
+      "id": "NEU-000174",
       "knowledge_type": "neuroscience",
       "name_ja": "強化可塑性",
       "name_en": "Reinforcement Plasticity",
@@ -1012,8 +1012,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000175_reward_expectation.yml",
-      "id": "NEURO-000175",
+      "filename": "NEU-000175_reward_expectation.yml",
+      "id": "NEU-000175",
       "knowledge_type": "neuroscience",
       "name_ja": "報酬期待",
       "name_en": "Reward Expectation",
@@ -1054,8 +1054,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000176_punishment_learning.yml",
-      "id": "NEURO-000176",
+      "filename": "NEU-000176_punishment_learning.yml",
+      "id": "NEU-000176",
       "knowledge_type": "neuroscience",
       "name_ja": "罰学習",
       "name_en": "Punishment Learning",
@@ -1096,8 +1096,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000177_novelty_detection.yml",
-      "id": "NEURO-000177",
+      "filename": "NEU-000177_novelty_detection.yml",
+      "id": "NEU-000177",
       "knowledge_type": "neuroscience",
       "name_ja": "新奇性検出",
       "name_en": "Novelty Detection",
@@ -1138,8 +1138,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000178_salience_coding.yml",
-      "id": "NEURO-000178",
+      "filename": "NEU-000178_salience_coding.yml",
+      "id": "NEU-000178",
       "knowledge_type": "neuroscience",
       "name_ja": "顕著性符号化",
       "name_en": "Salience Coding",
@@ -1180,8 +1180,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000179_confidence_signal.yml",
-      "id": "NEURO-000179",
+      "filename": "NEU-000179_confidence_signal.yml",
+      "id": "NEU-000179",
       "knowledge_type": "neuroscience",
       "name_ja": "確信度信号",
       "name_en": "Confidence Signal",
@@ -1222,8 +1222,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000180_uncertainty_signal.yml",
-      "id": "NEURO-000180",
+      "filename": "NEU-000180_uncertainty_signal.yml",
+      "id": "NEU-000180",
       "knowledge_type": "neuroscience",
       "name_ja": "不確実性信号",
       "name_en": "Uncertainty Signal",
@@ -1264,8 +1264,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000181_brain_aging.yml",
-      "id": "NEURO-000181",
+      "filename": "NEU-000181_brain_aging.yml",
+      "id": "NEU-000181",
       "knowledge_type": "neuroscience",
       "name_ja": "脳の加齢",
       "name_en": "Brain Aging",
@@ -1306,8 +1306,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000182_cognitive_reserve.yml",
-      "id": "NEURO-000182",
+      "filename": "NEU-000182_cognitive_reserve.yml",
+      "id": "NEU-000182",
       "knowledge_type": "neuroscience",
       "name_ja": "認知予備能",
       "name_en": "Cognitive Reserve",
@@ -1348,8 +1348,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000183_neurogenesis.yml",
-      "id": "NEURO-000183",
+      "filename": "NEU-000183_neurogenesis.yml",
+      "id": "NEU-000183",
       "knowledge_type": "neuroscience",
       "name_ja": "神経新生",
       "name_en": "Neurogenesis",
@@ -1390,8 +1390,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000184_synaptic_health.yml",
-      "id": "NEURO-000184",
+      "filename": "NEU-000184_synaptic_health.yml",
+      "id": "NEU-000184",
       "knowledge_type": "neuroscience",
       "name_ja": "シナプス健康",
       "name_en": "Synaptic Health",
@@ -1432,8 +1432,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000185_white_matter_integrity.yml",
-      "id": "NEURO-000185",
+      "filename": "NEU-000185_white_matter_integrity.yml",
+      "id": "NEU-000185",
       "knowledge_type": "neuroscience",
       "name_ja": "白質健全性",
       "name_en": "White Matter Integrity",
@@ -1474,8 +1474,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000186_gray_matter_density.yml",
-      "id": "NEURO-000186",
+      "filename": "NEU-000186_gray_matter_density.yml",
+      "id": "NEU-000186",
       "knowledge_type": "neuroscience",
       "name_ja": "灰白質密度",
       "name_en": "Gray Matter Density",
@@ -1516,8 +1516,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000187_neuroinflammation.yml",
-      "id": "NEURO-000187",
+      "filename": "NEU-000187_neuroinflammation.yml",
+      "id": "NEU-000187",
       "knowledge_type": "neuroscience",
       "name_ja": "神経炎症",
       "name_en": "Neuroinflammation",
@@ -1558,8 +1558,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000188_oxidative_stress.yml",
-      "id": "NEURO-000188",
+      "filename": "NEU-000188_oxidative_stress.yml",
+      "id": "NEU-000188",
       "knowledge_type": "neuroscience",
       "name_ja": "酸化ストレス",
       "name_en": "Oxidative Stress",
@@ -1600,8 +1600,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000189_brain_energy_metabolism.yml",
-      "id": "NEURO-000189",
+      "filename": "NEU-000189_brain_energy_metabolism.yml",
+      "id": "NEU-000189",
       "knowledge_type": "neuroscience",
       "name_ja": "脳エネルギー代謝",
       "name_en": "Brain Energy Metabolism",
@@ -1642,8 +1642,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000190_recovery_processes.yml",
-      "id": "NEURO-000190",
+      "filename": "NEU-000190_recovery_processes.yml",
+      "id": "NEU-000190",
       "knowledge_type": "neuroscience",
       "name_ja": "回復過程",
       "name_en": "Recovery Processes",
@@ -1684,8 +1684,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000191_brain_body_interaction.yml",
-      "id": "NEURO-000191",
+      "filename": "NEU-000191_brain_body_interaction.yml",
+      "id": "NEU-000191",
       "knowledge_type": "neuroscience",
       "name_ja": "脳身体相互作用",
       "name_en": "Brain Body Interaction",
@@ -1726,8 +1726,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000192_emotion_cognition_integration.yml",
-      "id": "NEURO-000192",
+      "filename": "NEU-000192_emotion_cognition_integration.yml",
+      "id": "NEU-000192",
       "knowledge_type": "neuroscience",
       "name_ja": "感情認知統合",
       "name_en": "Emotion Cognition Integration",
@@ -1768,8 +1768,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000193_memory_emotion_integration.yml",
-      "id": "NEURO-000193",
+      "filename": "NEU-000193_memory_emotion_integration.yml",
+      "id": "NEU-000193",
       "knowledge_type": "neuroscience",
       "name_ja": "記憶感情統合",
       "name_en": "Memory Emotion Integration",
@@ -1810,8 +1810,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000194_social_brain_integration.yml",
-      "id": "NEURO-000194",
+      "filename": "NEU-000194_social_brain_integration.yml",
+      "id": "NEU-000194",
       "knowledge_type": "neuroscience",
       "name_ja": "社会脳統合",
       "name_en": "Social Brain Integration",
@@ -1852,8 +1852,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000195_decision_integration.yml",
-      "id": "NEURO-000195",
+      "filename": "NEU-000195_decision_integration.yml",
+      "id": "NEU-000195",
       "knowledge_type": "neuroscience",
       "name_ja": "意思決定統合",
       "name_en": "Decision Integration",
@@ -1894,8 +1894,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000196_executive_integration.yml",
-      "id": "NEURO-000196",
+      "filename": "NEU-000196_executive_integration.yml",
+      "id": "NEU-000196",
       "knowledge_type": "neuroscience",
       "name_ja": "実行制御統合",
       "name_en": "Executive Integration",
@@ -1936,8 +1936,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000197_attention_integration.yml",
-      "id": "NEURO-000197",
+      "filename": "NEU-000197_attention_integration.yml",
+      "id": "NEU-000197",
       "knowledge_type": "neuroscience",
       "name_ja": "注意統合",
       "name_en": "Attention Integration",
@@ -1978,8 +1978,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000198_learning_integration.yml",
-      "id": "NEURO-000198",
+      "filename": "NEU-000198_learning_integration.yml",
+      "id": "NEU-000198",
       "knowledge_type": "neuroscience",
       "name_ja": "学習統合",
       "name_en": "Learning Integration",
@@ -2020,8 +2020,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000199_adaptive_integration.yml",
-      "id": "NEURO-000199",
+      "filename": "NEU-000199_adaptive_integration.yml",
+      "id": "NEU-000199",
       "knowledge_type": "neuroscience",
       "name_ja": "適応統合",
       "name_en": "Adaptive Integration",
@@ -2062,8 +2062,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000200_human_behavior_integration.yml",
-      "id": "NEURO-000200",
+      "filename": "NEU-000200_human_behavior_integration.yml",
+      "id": "NEU-000200",
       "knowledge_type": "neuroscience",
       "name_ja": "人間行動統合",
       "name_en": "Human Behavior Integration",

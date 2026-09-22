@@ -1,11 +1,11 @@
 {
   "output_dir": "vol6_neuroscience/neuroscience_001_050",
   "index_filename": "neuroscience_001_050_index.yml",
-  "index_content": "category: Neuroscience\nname_ja: 神経科学\nitems:\n  - NEURO-000001_prefrontal_cortex.yml\n  - NEURO-000002_dorsolateral_prefrontal_cortex.yml\n  - NEURO-000003_ventromedial_prefrontal_cortex.yml\n  - NEURO-000004_orbitofrontal_cortex.yml\n  - NEURO-000005_anterior_cingulate_cortex.yml\n  - NEURO-000006_amygdala.yml\n  - NEURO-000007_hippocampus.yml\n  - NEURO-000008_striatum.yml\n  - NEURO-000009_insula.yml\n  - NEURO-000010_parietal_cortex.yml\n  - NEURO-000011_default_mode_network.yml\n  - NEURO-000012_central_executive_network.yml\n  - NEURO-000013_salience_network.yml\n  - NEURO-000014_dorsal_attention_network.yml\n  - NEURO-000015_ventral_attention_network.yml\n  - NEURO-000016_reward_network.yml\n  - NEURO-000017_limbic_system.yml\n  - NEURO-000018_frontoparietal_network.yml\n  - NEURO-000019_sensorimotor_network.yml\n  - NEURO-000020_social_brain_network.yml\n  - NEURO-000021_dopamine.yml\n  - NEURO-000022_serotonin.yml\n  - NEURO-000023_noradrenaline.yml\n  - NEURO-000024_acetylcholine.yml\n  - NEURO-000025_gaba.yml\n  - NEURO-000026_glutamate.yml\n  - NEURO-000027_oxytocin.yml\n  - NEURO-000028_endorphin.yml\n  - NEURO-000029_cortisol.yml\n  - NEURO-000030_melatonin.yml\n  - NEURO-000031_reward_prediction_error.yml\n  - NEURO-000032_reinforcement_signal.yml\n  - NEURO-000033_approach_system.yml\n  - NEURO-000034_avoidance_system.yml\n  - NEURO-000035_habit_loop.yml\n  - NEURO-000036_cue_reactivity.yml\n  - NEURO-000037_incentive_salience.yml\n  - NEURO-000038_delay_discounting_neural_basis.yml\n  - NEURO-000039_risk_reward_tradeoff.yml\n  - NEURO-000040_motivation_energy_allocation.yml\n  - NEURO-000041_stress_response_system.yml\n  - NEURO-000042_hpa_axis.yml\n  - NEURO-000043_sympathetic_activation.yml\n  - NEURO-000044_parasympathetic_recovery.yml\n  - NEURO-000045_emotion_regulation_network.yml\n  - NEURO-000046_fear_conditioning.yml\n  - NEURO-000047_extinction_learning.yml\n  - NEURO-000048_threat_bias_neural_basis.yml\n  - NEURO-000049_emotional_arousal.yml\n  - NEURO-000050_allostatic_load.yml\nnotes:\n  - 神経科学は医療診断ではなく推論材料として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
+  "index_content": "category: Neuroscience\nname_ja: 神経科学\nitems:\n  - NEU-000001_prefrontal_cortex.yml\n  - NEU-000002_dorsolateral_prefrontal_cortex.yml\n  - NEU-000003_ventromedial_prefrontal_cortex.yml\n  - NEU-000004_orbitofrontal_cortex.yml\n  - NEU-000005_anterior_cingulate_cortex.yml\n  - NEU-000006_amygdala.yml\n  - NEU-000007_hippocampus.yml\n  - NEU-000008_striatum.yml\n  - NEU-000009_insula.yml\n  - NEU-000010_parietal_cortex.yml\n  - NEU-000011_default_mode_network.yml\n  - NEU-000012_central_executive_network.yml\n  - NEU-000013_salience_network.yml\n  - NEU-000014_dorsal_attention_network.yml\n  - NEU-000015_ventral_attention_network.yml\n  - NEU-000016_reward_network.yml\n  - NEU-000017_limbic_system.yml\n  - NEU-000018_frontoparietal_network.yml\n  - NEU-000019_sensorimotor_network.yml\n  - NEU-000020_social_brain_network.yml\n  - NEU-000021_dopamine.yml\n  - NEU-000022_serotonin.yml\n  - NEU-000023_noradrenaline.yml\n  - NEU-000024_acetylcholine.yml\n  - NEU-000025_gaba.yml\n  - NEU-000026_glutamate.yml\n  - NEU-000027_oxytocin.yml\n  - NEU-000028_endorphin.yml\n  - NEU-000029_cortisol.yml\n  - NEU-000030_melatonin.yml\n  - NEU-000031_reward_prediction_error.yml\n  - NEU-000032_reinforcement_signal.yml\n  - NEU-000033_approach_system.yml\n  - NEU-000034_avoidance_system.yml\n  - NEU-000035_habit_loop.yml\n  - NEU-000036_cue_reactivity.yml\n  - NEU-000037_incentive_salience.yml\n  - NEU-000038_delay_discounting_neural_basis.yml\n  - NEU-000039_risk_reward_tradeoff.yml\n  - NEU-000040_motivation_energy_allocation.yml\n  - NEU-000041_stress_response_system.yml\n  - NEU-000042_hpa_axis.yml\n  - NEU-000043_sympathetic_activation.yml\n  - NEU-000044_parasympathetic_recovery.yml\n  - NEU-000045_emotion_regulation_network.yml\n  - NEU-000046_fear_conditioning.yml\n  - NEU-000047_extinction_learning.yml\n  - NEU-000048_threat_bias_neural_basis.yml\n  - NEU-000049_emotional_arousal.yml\n  - NEU-000050_allostatic_load.yml\nnotes:\n  - 神経科学は医療診断ではなく推論材料として扱う\n  - 観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
   "items": [
     {
-      "filename": "NEURO-000001_prefrontal_cortex.yml",
-      "id": "NEURO-000001",
+      "filename": "NEU-000001_prefrontal_cortex.yml",
+      "id": "NEU-000001",
       "knowledge_type": "neuroscience",
       "name_ja": "前頭前野",
       "name_en": "Prefrontal Cortex",
@@ -46,8 +46,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000002_dorsolateral_prefrontal_cortex.yml",
-      "id": "NEURO-000002",
+      "filename": "NEU-000002_dorsolateral_prefrontal_cortex.yml",
+      "id": "NEU-000002",
       "knowledge_type": "neuroscience",
       "name_ja": "背外側前頭前野",
       "name_en": "Dorsolateral Prefrontal Cortex",
@@ -88,8 +88,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000003_ventromedial_prefrontal_cortex.yml",
-      "id": "NEURO-000003",
+      "filename": "NEU-000003_ventromedial_prefrontal_cortex.yml",
+      "id": "NEU-000003",
       "knowledge_type": "neuroscience",
       "name_ja": "腹内側前頭前野",
       "name_en": "Ventromedial Prefrontal Cortex",
@@ -130,8 +130,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000004_orbitofrontal_cortex.yml",
-      "id": "NEURO-000004",
+      "filename": "NEU-000004_orbitofrontal_cortex.yml",
+      "id": "NEU-000004",
       "knowledge_type": "neuroscience",
       "name_ja": "眼窩前頭皮質",
       "name_en": "Orbitofrontal Cortex",
@@ -172,8 +172,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000005_anterior_cingulate_cortex.yml",
-      "id": "NEURO-000005",
+      "filename": "NEU-000005_anterior_cingulate_cortex.yml",
+      "id": "NEU-000005",
       "knowledge_type": "neuroscience",
       "name_ja": "前部帯状皮質",
       "name_en": "Anterior Cingulate Cortex",
@@ -214,8 +214,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000006_amygdala.yml",
-      "id": "NEURO-000006",
+      "filename": "NEU-000006_amygdala.yml",
+      "id": "NEU-000006",
       "knowledge_type": "neuroscience",
       "name_ja": "扁桃体",
       "name_en": "Amygdala",
@@ -256,8 +256,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000007_hippocampus.yml",
-      "id": "NEURO-000007",
+      "filename": "NEU-000007_hippocampus.yml",
+      "id": "NEU-000007",
       "knowledge_type": "neuroscience",
       "name_ja": "海馬",
       "name_en": "Hippocampus",
@@ -298,8 +298,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000008_striatum.yml",
-      "id": "NEURO-000008",
+      "filename": "NEU-000008_striatum.yml",
+      "id": "NEU-000008",
       "knowledge_type": "neuroscience",
       "name_ja": "線条体",
       "name_en": "Striatum",
@@ -340,8 +340,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000009_insula.yml",
-      "id": "NEURO-000009",
+      "filename": "NEU-000009_insula.yml",
+      "id": "NEU-000009",
       "knowledge_type": "neuroscience",
       "name_ja": "島皮質",
       "name_en": "Insula",
@@ -382,8 +382,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000010_parietal_cortex.yml",
-      "id": "NEURO-000010",
+      "filename": "NEU-000010_parietal_cortex.yml",
+      "id": "NEU-000010",
       "knowledge_type": "neuroscience",
       "name_ja": "頭頂皮質",
       "name_en": "Parietal Cortex",
@@ -424,8 +424,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000011_default_mode_network.yml",
-      "id": "NEURO-000011",
+      "filename": "NEU-000011_default_mode_network.yml",
+      "id": "NEU-000011",
       "knowledge_type": "neuroscience",
       "name_ja": "デフォルトモードネットワーク",
       "name_en": "Default Mode Network",
@@ -466,8 +466,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000012_central_executive_network.yml",
-      "id": "NEURO-000012",
+      "filename": "NEU-000012_central_executive_network.yml",
+      "id": "NEU-000012",
       "knowledge_type": "neuroscience",
       "name_ja": "中央実行ネットワーク",
       "name_en": "Central Executive Network",
@@ -508,8 +508,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000013_salience_network.yml",
-      "id": "NEURO-000013",
+      "filename": "NEU-000013_salience_network.yml",
+      "id": "NEU-000013",
       "knowledge_type": "neuroscience",
       "name_ja": "サリエンスネットワーク",
       "name_en": "Salience Network",
@@ -550,8 +550,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000014_dorsal_attention_network.yml",
-      "id": "NEURO-000014",
+      "filename": "NEU-000014_dorsal_attention_network.yml",
+      "id": "NEU-000014",
       "knowledge_type": "neuroscience",
       "name_ja": "背側注意ネットワーク",
       "name_en": "Dorsal Attention Network",
@@ -592,8 +592,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000015_ventral_attention_network.yml",
-      "id": "NEURO-000015",
+      "filename": "NEU-000015_ventral_attention_network.yml",
+      "id": "NEU-000015",
       "knowledge_type": "neuroscience",
       "name_ja": "腹側注意ネットワーク",
       "name_en": "Ventral Attention Network",
@@ -634,8 +634,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000016_reward_network.yml",
-      "id": "NEURO-000016",
+      "filename": "NEU-000016_reward_network.yml",
+      "id": "NEU-000016",
       "knowledge_type": "neuroscience",
       "name_ja": "報酬ネットワーク",
       "name_en": "Reward Network",
@@ -676,8 +676,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000017_limbic_system.yml",
-      "id": "NEURO-000017",
+      "filename": "NEU-000017_limbic_system.yml",
+      "id": "NEU-000017",
       "knowledge_type": "neuroscience",
       "name_ja": "辺縁系",
       "name_en": "Limbic System",
@@ -718,8 +718,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000018_frontoparietal_network.yml",
-      "id": "NEURO-000018",
+      "filename": "NEU-000018_frontoparietal_network.yml",
+      "id": "NEU-000018",
       "knowledge_type": "neuroscience",
       "name_ja": "前頭頭頂ネットワーク",
       "name_en": "Frontoparietal Network",
@@ -760,8 +760,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000019_sensorimotor_network.yml",
-      "id": "NEURO-000019",
+      "filename": "NEU-000019_sensorimotor_network.yml",
+      "id": "NEU-000019",
       "knowledge_type": "neuroscience",
       "name_ja": "感覚運動ネットワーク",
       "name_en": "Sensorimotor Network",
@@ -802,8 +802,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000020_social_brain_network.yml",
-      "id": "NEURO-000020",
+      "filename": "NEU-000020_social_brain_network.yml",
+      "id": "NEU-000020",
       "knowledge_type": "neuroscience",
       "name_ja": "社会脳ネットワーク",
       "name_en": "Social Brain Network",
@@ -844,8 +844,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000021_dopamine.yml",
-      "id": "NEURO-000021",
+      "filename": "NEU-000021_dopamine.yml",
+      "id": "NEU-000021",
       "knowledge_type": "neuroscience",
       "name_ja": "ドーパミン",
       "name_en": "Dopamine",
@@ -886,8 +886,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000022_serotonin.yml",
-      "id": "NEURO-000022",
+      "filename": "NEU-000022_serotonin.yml",
+      "id": "NEU-000022",
       "knowledge_type": "neuroscience",
       "name_ja": "セロトニン",
       "name_en": "Serotonin",
@@ -928,8 +928,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000023_noradrenaline.yml",
-      "id": "NEURO-000023",
+      "filename": "NEU-000023_noradrenaline.yml",
+      "id": "NEU-000023",
       "knowledge_type": "neuroscience",
       "name_ja": "ノルアドレナリン",
       "name_en": "Noradrenaline",
@@ -970,8 +970,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000024_acetylcholine.yml",
-      "id": "NEURO-000024",
+      "filename": "NEU-000024_acetylcholine.yml",
+      "id": "NEU-000024",
       "knowledge_type": "neuroscience",
       "name_ja": "アセチルコリン",
       "name_en": "Acetylcholine",
@@ -1012,8 +1012,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000025_gaba.yml",
-      "id": "NEURO-000025",
+      "filename": "NEU-000025_gaba.yml",
+      "id": "NEU-000025",
       "knowledge_type": "neuroscience",
       "name_ja": "GABA",
       "name_en": "GABA",
@@ -1054,8 +1054,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000026_glutamate.yml",
-      "id": "NEURO-000026",
+      "filename": "NEU-000026_glutamate.yml",
+      "id": "NEU-000026",
       "knowledge_type": "neuroscience",
       "name_ja": "グルタミン酸",
       "name_en": "Glutamate",
@@ -1096,8 +1096,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000027_oxytocin.yml",
-      "id": "NEURO-000027",
+      "filename": "NEU-000027_oxytocin.yml",
+      "id": "NEU-000027",
       "knowledge_type": "neuroscience",
       "name_ja": "オキシトシン",
       "name_en": "Oxytocin",
@@ -1138,8 +1138,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000028_endorphin.yml",
-      "id": "NEURO-000028",
+      "filename": "NEU-000028_endorphin.yml",
+      "id": "NEU-000028",
       "knowledge_type": "neuroscience",
       "name_ja": "エンドルフィン",
       "name_en": "Endorphin",
@@ -1180,8 +1180,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000029_cortisol.yml",
-      "id": "NEURO-000029",
+      "filename": "NEU-000029_cortisol.yml",
+      "id": "NEU-000029",
       "knowledge_type": "neuroscience",
       "name_ja": "コルチゾール",
       "name_en": "Cortisol",
@@ -1222,8 +1222,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000030_melatonin.yml",
-      "id": "NEURO-000030",
+      "filename": "NEU-000030_melatonin.yml",
+      "id": "NEU-000030",
       "knowledge_type": "neuroscience",
       "name_ja": "メラトニン",
       "name_en": "Melatonin",
@@ -1264,8 +1264,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000031_reward_prediction_error.yml",
-      "id": "NEURO-000031",
+      "filename": "NEU-000031_reward_prediction_error.yml",
+      "id": "NEU-000031",
       "knowledge_type": "neuroscience",
       "name_ja": "報酬予測誤差",
       "name_en": "Reward Prediction Error",
@@ -1306,8 +1306,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000032_reinforcement_signal.yml",
-      "id": "NEURO-000032",
+      "filename": "NEU-000032_reinforcement_signal.yml",
+      "id": "NEU-000032",
       "knowledge_type": "neuroscience",
       "name_ja": "強化信号",
       "name_en": "Reinforcement Signal",
@@ -1348,8 +1348,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000033_approach_system.yml",
-      "id": "NEURO-000033",
+      "filename": "NEU-000033_approach_system.yml",
+      "id": "NEU-000033",
       "knowledge_type": "neuroscience",
       "name_ja": "接近システム",
       "name_en": "Approach System",
@@ -1390,8 +1390,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000034_avoidance_system.yml",
-      "id": "NEURO-000034",
+      "filename": "NEU-000034_avoidance_system.yml",
+      "id": "NEU-000034",
       "knowledge_type": "neuroscience",
       "name_ja": "回避システム",
       "name_en": "Avoidance System",
@@ -1432,8 +1432,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000035_habit_loop.yml",
-      "id": "NEURO-000035",
+      "filename": "NEU-000035_habit_loop.yml",
+      "id": "NEU-000035",
       "knowledge_type": "neuroscience",
       "name_ja": "習慣ループ",
       "name_en": "Habit Loop",
@@ -1474,8 +1474,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000036_cue_reactivity.yml",
-      "id": "NEURO-000036",
+      "filename": "NEU-000036_cue_reactivity.yml",
+      "id": "NEU-000036",
       "knowledge_type": "neuroscience",
       "name_ja": "手がかり反応性",
       "name_en": "Cue Reactivity",
@@ -1516,8 +1516,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000037_incentive_salience.yml",
-      "id": "NEURO-000037",
+      "filename": "NEU-000037_incentive_salience.yml",
+      "id": "NEU-000037",
       "knowledge_type": "neuroscience",
       "name_ja": "誘因顕著性",
       "name_en": "Incentive Salience",
@@ -1558,8 +1558,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000038_delay_discounting_neural_basis.yml",
-      "id": "NEURO-000038",
+      "filename": "NEU-000038_delay_discounting_neural_basis.yml",
+      "id": "NEU-000038",
       "knowledge_type": "neuroscience",
       "name_ja": "遅延割引の神経基盤",
       "name_en": "Neural Basis of Delay Discounting",
@@ -1600,8 +1600,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000039_risk_reward_tradeoff.yml",
-      "id": "NEURO-000039",
+      "filename": "NEU-000039_risk_reward_tradeoff.yml",
+      "id": "NEU-000039",
       "knowledge_type": "neuroscience",
       "name_ja": "リスク報酬トレードオフ",
       "name_en": "Risk Reward Tradeoff",
@@ -1642,8 +1642,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000040_motivation_energy_allocation.yml",
-      "id": "NEURO-000040",
+      "filename": "NEU-000040_motivation_energy_allocation.yml",
+      "id": "NEU-000040",
       "knowledge_type": "neuroscience",
       "name_ja": "動機づけとエネルギー配分",
       "name_en": "Motivational Energy Allocation",
@@ -1684,8 +1684,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000041_stress_response_system.yml",
-      "id": "NEURO-000041",
+      "filename": "NEU-000041_stress_response_system.yml",
+      "id": "NEU-000041",
       "knowledge_type": "neuroscience",
       "name_ja": "ストレス反応系",
       "name_en": "Stress Response System",
@@ -1726,8 +1726,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000042_hpa_axis.yml",
-      "id": "NEURO-000042",
+      "filename": "NEU-000042_hpa_axis.yml",
+      "id": "NEU-000042",
       "knowledge_type": "neuroscience",
       "name_ja": "HPA軸",
       "name_en": "HPA Axis",
@@ -1768,8 +1768,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000043_sympathetic_activation.yml",
-      "id": "NEURO-000043",
+      "filename": "NEU-000043_sympathetic_activation.yml",
+      "id": "NEU-000043",
       "knowledge_type": "neuroscience",
       "name_ja": "交感神経活性化",
       "name_en": "Sympathetic Activation",
@@ -1810,8 +1810,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000044_parasympathetic_recovery.yml",
-      "id": "NEURO-000044",
+      "filename": "NEU-000044_parasympathetic_recovery.yml",
+      "id": "NEU-000044",
       "knowledge_type": "neuroscience",
       "name_ja": "副交感神経回復",
       "name_en": "Parasympathetic Recovery",
@@ -1852,8 +1852,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000045_emotion_regulation_network.yml",
-      "id": "NEURO-000045",
+      "filename": "NEU-000045_emotion_regulation_network.yml",
+      "id": "NEU-000045",
       "knowledge_type": "neuroscience",
       "name_ja": "感情調整ネットワーク",
       "name_en": "Emotion Regulation Network",
@@ -1894,8 +1894,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000046_fear_conditioning.yml",
-      "id": "NEURO-000046",
+      "filename": "NEU-000046_fear_conditioning.yml",
+      "id": "NEU-000046",
       "knowledge_type": "neuroscience",
       "name_ja": "恐怖条件づけ",
       "name_en": "Fear Conditioning",
@@ -1936,8 +1936,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000047_extinction_learning.yml",
-      "id": "NEURO-000047",
+      "filename": "NEU-000047_extinction_learning.yml",
+      "id": "NEU-000047",
       "knowledge_type": "neuroscience",
       "name_ja": "消去学習",
       "name_en": "Extinction Learning",
@@ -1978,8 +1978,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000048_threat_bias_neural_basis.yml",
-      "id": "NEURO-000048",
+      "filename": "NEU-000048_threat_bias_neural_basis.yml",
+      "id": "NEU-000048",
       "knowledge_type": "neuroscience",
       "name_ja": "脅威バイアスの神経基盤",
       "name_en": "Neural Basis of Threat Bias",
@@ -2020,8 +2020,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000049_emotional_arousal.yml",
-      "id": "NEURO-000049",
+      "filename": "NEU-000049_emotional_arousal.yml",
+      "id": "NEU-000049",
       "knowledge_type": "neuroscience",
       "name_ja": "情動覚醒",
       "name_en": "Emotional Arousal",
@@ -2062,8 +2062,8 @@
       "status": "active"
     },
     {
-      "filename": "NEURO-000050_allostatic_load.yml",
-      "id": "NEURO-000050",
+      "filename": "NEU-000050_allostatic_load.yml",
+      "id": "NEU-000050",
       "knowledge_type": "neuroscience",
       "name_ja": "アロスタティック負荷",
       "name_en": "Allostatic Load",

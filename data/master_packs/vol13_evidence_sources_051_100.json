@@ -1,11 +1,11 @@
 {
   "output_dir": "vol13_evidence_sources/evidence_sources_051_100",
   "index_filename": "evidence_sources_051_100_index.yml",
-  "index_content": "category: Evidence Source\nname_ja: 根拠\nitems:\n  - EVID-000051_randomized_controlled_trial.yml\n  - EVID-000052_quasi_experimental_design.yml\n  - EVID-000053_cross_sectional_study.yml\n  - EVID-000054_longitudinal_study.yml\n  - EVID-000055_cohort_study.yml\n  - EVID-000056_case_control_study.yml\n  - EVID-000057_field_experiment.yml\n  - EVID-000058_lab_experiment.yml\n  - EVID-000059_natural_experiment.yml\n  - EVID-000060_experience_sampling_method.yml\n  - EVID-000061_behavioral_log_data.yml\n  - EVID-000062_questionnaire_data.yml\n  - EVID-000063_interview_data.yml\n  - EVID-000064_observation_data.yml\n  - EVID-000065_sensor_data.yml\n  - EVID-000066_text_data.yml\n  - EVID-000067_interaction_data.yml\n  - EVID-000068_performance_data.yml\n  - EVID-000069_physiological_data.yml\n  - EVID-000070_contextual_data.yml\n  - EVID-000071_sample_size_quality.yml\n  - EVID-000072_statistical_power.yml\n  - EVID-000073_confidence_interval.yml\n  - EVID-000074_effect_size.yml\n  - EVID-000075_p_value.yml\n  - EVID-000076_multiple_comparison_risk.yml\n  - EVID-000077_measurement_error.yml\n  - EVID-000078_internal_consistency.yml\n  - EVID-000079_test_retest_reliability.yml\n  - EVID-000080_inter_rater_reliability.yml\n  - EVID-000081_content_validity.yml\n  - EVID-000082_face_validity.yml\n  - EVID-000083_convergent_validity.yml\n  - EVID-000084_discriminant_validity.yml\n  - EVID-000085_predictive_validity.yml\n  - EVID-000086_concurrent_validity.yml\n  - EVID-000087_incremental_validity.yml\n  - EVID-000088_ecological_validity.yml\n  - EVID-000089_external_validity.yml\n  - EVID-000090_construct_coverage.yml\n  - EVID-000091_evidence_strength_level.yml\n  - EVID-000092_evidence_consistency.yml\n  - EVID-000093_evidence_relevance.yml\n  - EVID-000094_evidence_applicability.yml\n  - EVID-000095_evidence_limitation.yml\n  - EVID-000096_evidence_update_need.yml\n  - EVID-000097_cross_domain_evidence.yml\n  - EVID-000098_triangulation.yml\n  - EVID-000099_evidence_audit.yml\n  - EVID-000100_evidence_source_integration.yml\nnotes:\n  - 根拠は知識項目の品質管理材料として扱う\n  - Knowledge DB側では推論しない\n  - アプリ側で根拠強度や表示の慎重さに利用する\n",
+  "index_content": "category: Evidence Source\nname_ja: 根拠\nitems:\n  - EVD-000051_randomized_controlled_trial.yml\n  - EVD-000052_quasi_experimental_design.yml\n  - EVD-000053_cross_sectional_study.yml\n  - EVD-000054_longitudinal_study.yml\n  - EVD-000055_cohort_study.yml\n  - EVD-000056_case_control_study.yml\n  - EVD-000057_field_experiment.yml\n  - EVD-000058_lab_experiment.yml\n  - EVD-000059_natural_experiment.yml\n  - EVD-000060_experience_sampling_method.yml\n  - EVD-000061_behavioral_log_data.yml\n  - EVD-000062_questionnaire_data.yml\n  - EVD-000063_interview_data.yml\n  - EVD-000064_observation_data.yml\n  - EVD-000065_sensor_data.yml\n  - EVD-000066_text_data.yml\n  - EVD-000067_interaction_data.yml\n  - EVD-000068_performance_data.yml\n  - EVD-000069_physiological_data.yml\n  - EVD-000070_contextual_data.yml\n  - EVD-000071_sample_size_quality.yml\n  - EVD-000072_statistical_power.yml\n  - EVD-000073_confidence_interval.yml\n  - EVD-000074_effect_size.yml\n  - EVD-000075_p_value.yml\n  - EVD-000076_multiple_comparison_risk.yml\n  - EVD-000077_measurement_error.yml\n  - EVD-000078_internal_consistency.yml\n  - EVD-000079_test_retest_reliability.yml\n  - EVD-000080_inter_rater_reliability.yml\n  - EVD-000081_content_validity.yml\n  - EVD-000082_face_validity.yml\n  - EVD-000083_convergent_validity.yml\n  - EVD-000084_discriminant_validity.yml\n  - EVD-000085_predictive_validity.yml\n  - EVD-000086_concurrent_validity.yml\n  - EVD-000087_incremental_validity.yml\n  - EVD-000088_ecological_validity.yml\n  - EVD-000089_external_validity.yml\n  - EVD-000090_construct_coverage.yml\n  - EVD-000091_evidence_strength_level.yml\n  - EVD-000092_evidence_consistency.yml\n  - EVD-000093_evidence_relevance.yml\n  - EVD-000094_evidence_applicability.yml\n  - EVD-000095_evidence_limitation.yml\n  - EVD-000096_evidence_update_need.yml\n  - EVD-000097_cross_domain_evidence.yml\n  - EVD-000098_triangulation.yml\n  - EVD-000099_evidence_audit.yml\n  - EVD-000100_evidence_source_integration.yml\nnotes:\n  - 根拠は知識項目の品質管理材料として扱う\n  - Knowledge DB側では推論しない\n  - アプリ側で根拠強度や表示の慎重さに利用する\n",
   "items": [
     {
-      "filename": "EVID-000051_randomized_controlled_trial.yml",
-      "id": "EVID-000051",
+      "filename": "EVD-000051_randomized_controlled_trial.yml",
+      "id": "EVD-000051",
       "knowledge_type": "evidence_source",
       "name_ja": "ランダム化比較試験",
       "name_en": "Randomized Controlled Trial",
@@ -46,8 +46,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000052_quasi_experimental_design.yml",
-      "id": "EVID-000052",
+      "filename": "EVD-000052_quasi_experimental_design.yml",
+      "id": "EVD-000052",
       "knowledge_type": "evidence_source",
       "name_ja": "準実験デザイン",
       "name_en": "Quasi Experimental Design",
@@ -88,8 +88,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000053_cross_sectional_study.yml",
-      "id": "EVID-000053",
+      "filename": "EVD-000053_cross_sectional_study.yml",
+      "id": "EVD-000053",
       "knowledge_type": "evidence_source",
       "name_ja": "横断研究",
       "name_en": "Cross Sectional Study",
@@ -130,8 +130,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000054_longitudinal_study.yml",
-      "id": "EVID-000054",
+      "filename": "EVD-000054_longitudinal_study.yml",
+      "id": "EVD-000054",
       "knowledge_type": "evidence_source",
       "name_ja": "縦断研究",
       "name_en": "Longitudinal Study",
@@ -172,8 +172,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000055_cohort_study.yml",
-      "id": "EVID-000055",
+      "filename": "EVD-000055_cohort_study.yml",
+      "id": "EVD-000055",
       "knowledge_type": "evidence_source",
       "name_ja": "コホート研究",
       "name_en": "Cohort Study",
@@ -214,8 +214,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000056_case_control_study.yml",
-      "id": "EVID-000056",
+      "filename": "EVD-000056_case_control_study.yml",
+      "id": "EVD-000056",
       "knowledge_type": "evidence_source",
       "name_ja": "症例対照研究",
       "name_en": "Case Control Study",
@@ -256,8 +256,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000057_field_experiment.yml",
-      "id": "EVID-000057",
+      "filename": "EVD-000057_field_experiment.yml",
+      "id": "EVD-000057",
       "knowledge_type": "evidence_source",
       "name_ja": "フィールド実験",
       "name_en": "Field Experiment",
@@ -298,8 +298,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000058_lab_experiment.yml",
-      "id": "EVID-000058",
+      "filename": "EVD-000058_lab_experiment.yml",
+      "id": "EVD-000058",
       "knowledge_type": "evidence_source",
       "name_ja": "実験室実験",
       "name_en": "Lab Experiment",
@@ -340,8 +340,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000059_natural_experiment.yml",
-      "id": "EVID-000059",
+      "filename": "EVD-000059_natural_experiment.yml",
+      "id": "EVD-000059",
       "knowledge_type": "evidence_source",
       "name_ja": "自然実験",
       "name_en": "Natural Experiment",
@@ -382,8 +382,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000060_experience_sampling_method.yml",
-      "id": "EVID-000060",
+      "filename": "EVD-000060_experience_sampling_method.yml",
+      "id": "EVD-000060",
       "knowledge_type": "evidence_source",
       "name_ja": "経験サンプリング法",
       "name_en": "Experience Sampling Method",
@@ -424,8 +424,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000061_behavioral_log_data.yml",
-      "id": "EVID-000061",
+      "filename": "EVD-000061_behavioral_log_data.yml",
+      "id": "EVD-000061",
       "knowledge_type": "evidence_source",
       "name_ja": "行動ログデータ",
       "name_en": "Behavioral Log Data",
@@ -466,8 +466,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000062_questionnaire_data.yml",
-      "id": "EVID-000062",
+      "filename": "EVD-000062_questionnaire_data.yml",
+      "id": "EVD-000062",
       "knowledge_type": "evidence_source",
       "name_ja": "質問紙データ",
       "name_en": "Questionnaire Data",
@@ -508,8 +508,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000063_interview_data.yml",
-      "id": "EVID-000063",
+      "filename": "EVD-000063_interview_data.yml",
+      "id": "EVD-000063",
       "knowledge_type": "evidence_source",
       "name_ja": "インタビューデータ",
       "name_en": "Interview Data",
@@ -550,8 +550,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000064_observation_data.yml",
-      "id": "EVID-000064",
+      "filename": "EVD-000064_observation_data.yml",
+      "id": "EVD-000064",
       "knowledge_type": "evidence_source",
       "name_ja": "観察データ",
       "name_en": "Observation Data",
@@ -592,8 +592,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000065_sensor_data.yml",
-      "id": "EVID-000065",
+      "filename": "EVD-000065_sensor_data.yml",
+      "id": "EVD-000065",
       "knowledge_type": "evidence_source",
       "name_ja": "センサーデータ",
       "name_en": "Sensor Data",
@@ -634,8 +634,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000066_text_data.yml",
-      "id": "EVID-000066",
+      "filename": "EVD-000066_text_data.yml",
+      "id": "EVD-000066",
       "knowledge_type": "evidence_source",
       "name_ja": "テキストデータ",
       "name_en": "Text Data",
@@ -676,8 +676,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000067_interaction_data.yml",
-      "id": "EVID-000067",
+      "filename": "EVD-000067_interaction_data.yml",
+      "id": "EVD-000067",
       "knowledge_type": "evidence_source",
       "name_ja": "インタラクションデータ",
       "name_en": "Interaction Data",
@@ -718,8 +718,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000068_performance_data.yml",
-      "id": "EVID-000068",
+      "filename": "EVD-000068_performance_data.yml",
+      "id": "EVD-000068",
       "knowledge_type": "evidence_source",
       "name_ja": "成績データ",
       "name_en": "Performance Data",
@@ -760,8 +760,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000069_physiological_data.yml",
-      "id": "EVID-000069",
+      "filename": "EVD-000069_physiological_data.yml",
+      "id": "EVD-000069",
       "knowledge_type": "evidence_source",
       "name_ja": "生理データ",
       "name_en": "Physiological Data",
@@ -802,8 +802,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000070_contextual_data.yml",
-      "id": "EVID-000070",
+      "filename": "EVD-000070_contextual_data.yml",
+      "id": "EVD-000070",
       "knowledge_type": "evidence_source",
       "name_ja": "文脈データ",
       "name_en": "Contextual Data",
@@ -844,8 +844,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000071_sample_size_quality.yml",
-      "id": "EVID-000071",
+      "filename": "EVD-000071_sample_size_quality.yml",
+      "id": "EVD-000071",
       "knowledge_type": "evidence_source",
       "name_ja": "サンプルサイズ品質",
       "name_en": "Sample Size Quality",
@@ -886,8 +886,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000072_statistical_power.yml",
-      "id": "EVID-000072",
+      "filename": "EVD-000072_statistical_power.yml",
+      "id": "EVD-000072",
       "knowledge_type": "evidence_source",
       "name_ja": "検出力",
       "name_en": "Statistical Power",
@@ -928,8 +928,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000073_confidence_interval.yml",
-      "id": "EVID-000073",
+      "filename": "EVD-000073_confidence_interval.yml",
+      "id": "EVD-000073",
       "knowledge_type": "evidence_source",
       "name_ja": "信頼区間",
       "name_en": "Confidence Interval",
@@ -970,8 +970,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000074_effect_size.yml",
-      "id": "EVID-000074",
+      "filename": "EVD-000074_effect_size.yml",
+      "id": "EVD-000074",
       "knowledge_type": "evidence_source",
       "name_ja": "効果量",
       "name_en": "Effect Size",
@@ -1012,8 +1012,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000075_p_value.yml",
-      "id": "EVID-000075",
+      "filename": "EVD-000075_p_value.yml",
+      "id": "EVD-000075",
       "knowledge_type": "evidence_source",
       "name_ja": "p値",
       "name_en": "P Value",
@@ -1054,8 +1054,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000076_multiple_comparison_risk.yml",
-      "id": "EVID-000076",
+      "filename": "EVD-000076_multiple_comparison_risk.yml",
+      "id": "EVD-000076",
       "knowledge_type": "evidence_source",
       "name_ja": "多重比較リスク",
       "name_en": "Multiple Comparison Risk",
@@ -1096,8 +1096,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000077_measurement_error.yml",
-      "id": "EVID-000077",
+      "filename": "EVD-000077_measurement_error.yml",
+      "id": "EVD-000077",
       "knowledge_type": "evidence_source",
       "name_ja": "測定誤差",
       "name_en": "Measurement Error",
@@ -1138,8 +1138,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000078_internal_consistency.yml",
-      "id": "EVID-000078",
+      "filename": "EVD-000078_internal_consistency.yml",
+      "id": "EVD-000078",
       "knowledge_type": "evidence_source",
       "name_ja": "内的一貫性",
       "name_en": "Internal Consistency",
@@ -1180,8 +1180,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000079_test_retest_reliability.yml",
-      "id": "EVID-000079",
+      "filename": "EVD-000079_test_retest_reliability.yml",
+      "id": "EVD-000079",
       "knowledge_type": "evidence_source",
       "name_ja": "再検査信頼性",
       "name_en": "Test Retest Reliability",
@@ -1222,8 +1222,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000080_inter_rater_reliability.yml",
-      "id": "EVID-000080",
+      "filename": "EVD-000080_inter_rater_reliability.yml",
+      "id": "EVD-000080",
       "knowledge_type": "evidence_source",
       "name_ja": "評価者間信頼性",
       "name_en": "Inter Rater Reliability",
@@ -1264,8 +1264,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000081_content_validity.yml",
-      "id": "EVID-000081",
+      "filename": "EVD-000081_content_validity.yml",
+      "id": "EVD-000081",
       "knowledge_type": "evidence_source",
       "name_ja": "内容的妥当性",
       "name_en": "Content Validity",
@@ -1306,8 +1306,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000082_face_validity.yml",
-      "id": "EVID-000082",
+      "filename": "EVD-000082_face_validity.yml",
+      "id": "EVD-000082",
       "knowledge_type": "evidence_source",
       "name_ja": "表面的妥当性",
       "name_en": "Face Validity",
@@ -1348,8 +1348,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000083_convergent_validity.yml",
-      "id": "EVID-000083",
+      "filename": "EVD-000083_convergent_validity.yml",
+      "id": "EVD-000083",
       "knowledge_type": "evidence_source",
       "name_ja": "収束的妥当性",
       "name_en": "Convergent Validity",
@@ -1390,8 +1390,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000084_discriminant_validity.yml",
-      "id": "EVID-000084",
+      "filename": "EVD-000084_discriminant_validity.yml",
+      "id": "EVD-000084",
       "knowledge_type": "evidence_source",
       "name_ja": "弁別的妥当性",
       "name_en": "Discriminant Validity",
@@ -1432,8 +1432,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000085_predictive_validity.yml",
-      "id": "EVID-000085",
+      "filename": "EVD-000085_predictive_validity.yml",
+      "id": "EVD-000085",
       "knowledge_type": "evidence_source",
       "name_ja": "予測的妥当性",
       "name_en": "Predictive Validity",
@@ -1474,8 +1474,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000086_concurrent_validity.yml",
-      "id": "EVID-000086",
+      "filename": "EVD-000086_concurrent_validity.yml",
+      "id": "EVD-000086",
       "knowledge_type": "evidence_source",
       "name_ja": "併存的妥当性",
       "name_en": "Concurrent Validity",
@@ -1516,8 +1516,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000087_incremental_validity.yml",
-      "id": "EVID-000087",
+      "filename": "EVD-000087_incremental_validity.yml",
+      "id": "EVD-000087",
       "knowledge_type": "evidence_source",
       "name_ja": "増分妥当性",
       "name_en": "Incremental Validity",
@@ -1558,8 +1558,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000088_ecological_validity.yml",
-      "id": "EVID-000088",
+      "filename": "EVD-000088_ecological_validity.yml",
+      "id": "EVD-000088",
       "knowledge_type": "evidence_source",
       "name_ja": "生態学的妥当性",
       "name_en": "Ecological Validity",
@@ -1600,8 +1600,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000089_external_validity.yml",
-      "id": "EVID-000089",
+      "filename": "EVD-000089_external_validity.yml",
+      "id": "EVD-000089",
       "knowledge_type": "evidence_source",
       "name_ja": "外的妥当性",
       "name_en": "External Validity",
@@ -1642,8 +1642,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000090_construct_coverage.yml",
-      "id": "EVID-000090",
+      "filename": "EVD-000090_construct_coverage.yml",
+      "id": "EVD-000090",
       "knowledge_type": "evidence_source",
       "name_ja": "構成概念カバレッジ",
       "name_en": "Construct Coverage",
@@ -1684,8 +1684,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000091_evidence_strength_level.yml",
-      "id": "EVID-000091",
+      "filename": "EVD-000091_evidence_strength_level.yml",
+      "id": "EVD-000091",
       "knowledge_type": "evidence_source",
       "name_ja": "根拠強度レベル",
       "name_en": "Evidence Strength Level",
@@ -1726,8 +1726,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000092_evidence_consistency.yml",
-      "id": "EVID-000092",
+      "filename": "EVD-000092_evidence_consistency.yml",
+      "id": "EVD-000092",
       "knowledge_type": "evidence_source",
       "name_ja": "根拠一貫性",
       "name_en": "Evidence Consistency",
@@ -1768,8 +1768,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000093_evidence_relevance.yml",
-      "id": "EVID-000093",
+      "filename": "EVD-000093_evidence_relevance.yml",
+      "id": "EVD-000093",
       "knowledge_type": "evidence_source",
       "name_ja": "根拠関連性",
       "name_en": "Evidence Relevance",
@@ -1810,8 +1810,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000094_evidence_applicability.yml",
-      "id": "EVID-000094",
+      "filename": "EVD-000094_evidence_applicability.yml",
+      "id": "EVD-000094",
       "knowledge_type": "evidence_source",
       "name_ja": "根拠適用可能性",
       "name_en": "Evidence Applicability",
@@ -1852,8 +1852,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000095_evidence_limitation.yml",
-      "id": "EVID-000095",
+      "filename": "EVD-000095_evidence_limitation.yml",
+      "id": "EVD-000095",
       "knowledge_type": "evidence_source",
       "name_ja": "根拠限界",
       "name_en": "Evidence Limitation",
@@ -1894,8 +1894,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000096_evidence_update_need.yml",
-      "id": "EVID-000096",
+      "filename": "EVD-000096_evidence_update_need.yml",
+      "id": "EVD-000096",
       "knowledge_type": "evidence_source",
       "name_ja": "根拠更新必要性",
       "name_en": "Evidence Update Need",
@@ -1936,8 +1936,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000097_cross_domain_evidence.yml",
-      "id": "EVID-000097",
+      "filename": "EVD-000097_cross_domain_evidence.yml",
+      "id": "EVD-000097",
       "knowledge_type": "evidence_source",
       "name_ja": "領域横断根拠",
       "name_en": "Cross Domain Evidence",
@@ -1978,8 +1978,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000098_triangulation.yml",
-      "id": "EVID-000098",
+      "filename": "EVD-000098_triangulation.yml",
+      "id": "EVD-000098",
       "knowledge_type": "evidence_source",
       "name_ja": "トライアンギュレーション",
       "name_en": "Triangulation",
@@ -2020,8 +2020,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000099_evidence_audit.yml",
-      "id": "EVID-000099",
+      "filename": "EVD-000099_evidence_audit.yml",
+      "id": "EVD-000099",
       "knowledge_type": "evidence_source",
       "name_ja": "根拠監査",
       "name_en": "Evidence Audit",
@@ -2062,8 +2062,8 @@
       "status": "active"
     },
     {
-      "filename": "EVID-000100_evidence_source_integration.yml",
-      "id": "EVID-000100",
+      "filename": "EVD-000100_evidence_source_integration.yml",
+      "id": "EVD-000100",
       "knowledge_type": "evidence_source",
       "name_ja": "根拠ソース統合",
       "name_en": "Evidence Source Integration",

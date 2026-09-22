@@ -1,0 +1,36 @@
+id: REL-000031
+knowledge_type: relationship_core
+name_ja: 親密性
+name_en: Intimacy
+category: Relationship Core
+attribute: Intimacy
+definition_ja: 親密性は、理解・信頼・開示を伴う心理的な近さを表す関係概念。一方の人物だけに帰属させて断定しない。
+tags:
+  - CAT:関係性
+  - CAT:親密性
+  - ATTR:関係要因
+parent:
+  - 親密性
+related:
+  - 相互作用
+  - コミュニケーション
+  - 社会的文脈
+observable_data:
+  - 交流頻度
+  - 応答の相互性
+  - 支援と協力の推移
+  - 対立後の修復行動
+signal_candidates:
+  - 親密性と整合する相互作用が複数場面で観測される
+  - 役割・履歴・媒体・負荷の変化に伴って関係行動が変化する
+device_level: 同意された会話・共同活動・ゲーム内交流ログから観測可能
+modifiers:
+  - 関係履歴
+  - 文化
+  - 役割
+  - 権力差
+  - 媒体
+  - ストレス
+  - プライバシー境界
+evidence: 対人関係研究・愛着研究・社会心理学・家族心理学・会話分析を参照
+status: active

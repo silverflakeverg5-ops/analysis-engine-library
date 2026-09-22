@@ -1,11 +1,11 @@
 {
   "output_dir": "vol4_cognitive_bias/social_bias",
   "index_filename": "social_bias_index.yml",
-  "index_content": "category: Cognitive Bias - Social Bias\nname_ja: 認知バイアス・社会的バイアス\nitems:\n  - BIAS-000011_halo_effect.yml\n  - BIAS-000012_horn_effect.yml\n  - BIAS-000013_fundamental_attribution_error.yml\n  - BIAS-000014_self_serving_bias.yml\n  - BIAS-000015_in_group_bias.yml\n  - BIAS-000016_out_group_homogeneity_bias.yml\n  - BIAS-000017_social_desirability_bias.yml\n  - BIAS-000018_authority_bias.yml\n  - BIAS-000019_bandwagon_effect.yml\n  - BIAS-000020_false_consensus_effect.yml\nnotes:\n  - 社会的バイアスは人物評価や対人判断に関する推論材料として扱う\n  - 性格断定ではなく観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
+  "index_content": "category: Cognitive Bias - Social Bias\nname_ja: 認知バイアス・社会的バイアス\nitems:\n  - COG-000011_halo_effect.yml\n  - COG-000012_horn_effect.yml\n  - COG-000013_fundamental_attribution_error.yml\n  - COG-000014_self_serving_bias.yml\n  - COG-000015_in_group_bias.yml\n  - COG-000016_out_group_homogeneity_bias.yml\n  - COG-000017_social_desirability_bias.yml\n  - COG-000018_authority_bias.yml\n  - COG-000019_bandwagon_effect.yml\n  - COG-000020_false_consensus_effect.yml\nnotes:\n  - 社会的バイアスは人物評価や対人判断に関する推論材料として扱う\n  - 性格断定ではなく観測可能データとSignal候補を中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
   "items": [
     {
-      "filename": "BIAS-000011_halo_effect.yml",
-      "id": "BIAS-000011",
+      "filename": "COG-000011_halo_effect.yml",
+      "id": "COG-000011",
       "knowledge_type": "cognitive_bias",
       "name_ja": "ハロー効果",
       "name_en": "Halo Effect",
@@ -23,8 +23,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000012_horn_effect.yml",
-      "id": "BIAS-000012",
+      "filename": "COG-000012_horn_effect.yml",
+      "id": "COG-000012",
       "knowledge_type": "cognitive_bias",
       "name_ja": "ホーン効果",
       "name_en": "Horn Effect",
@@ -42,8 +42,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000013_fundamental_attribution_error.yml",
-      "id": "BIAS-000013",
+      "filename": "COG-000013_fundamental_attribution_error.yml",
+      "id": "COG-000013",
       "knowledge_type": "cognitive_bias",
       "name_ja": "基本的帰属錯誤",
       "name_en": "Fundamental Attribution Error",
@@ -61,8 +61,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000014_self_serving_bias.yml",
-      "id": "BIAS-000014",
+      "filename": "COG-000014_self_serving_bias.yml",
+      "id": "COG-000014",
       "knowledge_type": "cognitive_bias",
       "name_ja": "自己奉仕バイアス",
       "name_en": "Self Serving Bias",
@@ -80,8 +80,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000015_in_group_bias.yml",
-      "id": "BIAS-000015",
+      "filename": "COG-000015_in_group_bias.yml",
+      "id": "COG-000015",
       "knowledge_type": "cognitive_bias",
       "name_ja": "内集団バイアス",
       "name_en": "In Group Bias",
@@ -99,8 +99,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000016_out_group_homogeneity_bias.yml",
-      "id": "BIAS-000016",
+      "filename": "COG-000016_out_group_homogeneity_bias.yml",
+      "id": "COG-000016",
       "knowledge_type": "cognitive_bias",
       "name_ja": "外集団均質性バイアス",
       "name_en": "Out Group Homogeneity Bias",
@@ -118,8 +118,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000017_social_desirability_bias.yml",
-      "id": "BIAS-000017",
+      "filename": "COG-000017_social_desirability_bias.yml",
+      "id": "COG-000017",
       "knowledge_type": "cognitive_bias",
       "name_ja": "社会的望ましさバイアス",
       "name_en": "Social Desirability Bias",
@@ -137,8 +137,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000018_authority_bias.yml",
-      "id": "BIAS-000018",
+      "filename": "COG-000018_authority_bias.yml",
+      "id": "COG-000018",
       "knowledge_type": "cognitive_bias",
       "name_ja": "権威バイアス",
       "name_en": "Authority Bias",
@@ -156,8 +156,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000019_bandwagon_effect.yml",
-      "id": "BIAS-000019",
+      "filename": "COG-000019_bandwagon_effect.yml",
+      "id": "COG-000019",
       "knowledge_type": "cognitive_bias",
       "name_ja": "バンドワゴン効果",
       "name_en": "Bandwagon Effect",
@@ -175,8 +175,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000020_false_consensus_effect.yml",
-      "id": "BIAS-000020",
+      "filename": "COG-000020_false_consensus_effect.yml",
+      "id": "COG-000020",
       "knowledge_type": "cognitive_bias",
       "name_ja": "偽の合意効果",
       "name_en": "False Consensus Effect",

@@ -1,11 +1,11 @@
 {
   "output_dir": "vol16_safety_ethics/safety_ethics_051_100",
   "index_filename": "safety_ethics_051_100_index.yml",
-  "index_content": "category: Safety Ethics\nname_ja: 安全倫理\nitems:\n  - SAFE-000051_explicit_consent.yml\n  - SAFE-000052_granular_consent.yml\n  - SAFE-000053_withdrawal_of_consent.yml\n  - SAFE-000054_consent_refresh.yml\n  - SAFE-000055_informed_consent_display.yml\n  - SAFE-000056_default_privacy_protection.yml\n  - SAFE-000057_optional_data_use.yml\n  - SAFE-000058_consent_scope_clarity.yml\n  - SAFE-000059_consent_log_management.yml\n  - SAFE-000060_consent_control_integration.yml\n  - SAFE-000061_data_transparency.yml\n  - SAFE-000062_inference_transparency.yml\n  - SAFE-000063_limitation_transparency.yml\n  - SAFE-000064_uncertainty_transparency.yml\n  - SAFE-000065_model_boundary_transparency.yml\n  - SAFE-000066_data_source_display.yml\n  - SAFE-000067_reason_code_display.yml\n  - SAFE-000068_audit_trail_visibility.yml\n  - SAFE-000069_user_facing_explanation.yml\n  - SAFE-000070_transparency_integration.yml\n  - SAFE-000071_user_editable_profile.yml\n  - SAFE-000072_result_correction.yml\n  - SAFE-000073_preference_control.yml\n  - SAFE-000074_personalization_toggle.yml\n  - SAFE-000075_data_delete_control.yml\n  - SAFE-000076_data_export_control.yml\n  - SAFE-000077_notification_control.yml\n  - SAFE-000078_analysis_pause_control.yml\n  - SAFE-000079_user_override.yml\n  - SAFE-000080_user_control_integration.yml\n  - SAFE-000081_knowledge_item_audit.yml\n  - SAFE-000082_bias_audit.yml\n  - SAFE-000083_privacy_audit.yml\n  - SAFE-000084_display_safety_audit.yml\n  - SAFE-000085_high_risk_review.yml\n  - SAFE-000086_versioned_safety_policy.yml\n  - SAFE-000087_incident_review.yml\n  - SAFE-000088_human_in_the_loop_review.yml\n  - SAFE-000089_governance_documentation.yml\n  - SAFE-000090_audit_governance_integration.yml\n  - SAFE-000091_entertainment_boundary.yml\n  - SAFE-000092_education_boundary.yml\n  - SAFE-000093_workplace_boundary.yml\n  - SAFE-000094_wellbeing_boundary.yml\n  - SAFE-000095_relationship_boundary_safety.yml\n  - SAFE-000096_minor_use_boundary.yml\n  - SAFE-000097_commercial_use_boundary.yml\n  - SAFE-000098_third_party_sharing_boundary.yml\n  - SAFE-000099_deployment_context_review.yml\n  - SAFE-000100_safety_boundary_integration.yml\nnotes:\n  - 安全倫理は推論結果ではなく制御材料として扱う\n  - Knowledge DB側ではスコアリングしない\n  - アプリ側で安全性・表現・同意・リスク制御に利用する\n",
+  "index_content": "category: Safety Ethics\nname_ja: 安全倫理\nitems:\n  - SAF-000051_explicit_consent.yml\n  - SAF-000052_granular_consent.yml\n  - SAF-000053_withdrawal_of_consent.yml\n  - SAF-000054_consent_refresh.yml\n  - SAF-000055_informed_consent_display.yml\n  - SAF-000056_default_privacy_protection.yml\n  - SAF-000057_optional_data_use.yml\n  - SAF-000058_consent_scope_clarity.yml\n  - SAF-000059_consent_log_management.yml\n  - SAF-000060_consent_control_integration.yml\n  - SAF-000061_data_transparency.yml\n  - SAF-000062_inference_transparency.yml\n  - SAF-000063_limitation_transparency.yml\n  - SAF-000064_uncertainty_transparency.yml\n  - SAF-000065_model_boundary_transparency.yml\n  - SAF-000066_data_source_display.yml\n  - SAF-000067_reason_code_display.yml\n  - SAF-000068_audit_trail_visibility.yml\n  - SAF-000069_user_facing_explanation.yml\n  - SAF-000070_transparency_integration.yml\n  - SAF-000071_user_editable_profile.yml\n  - SAF-000072_result_correction.yml\n  - SAF-000073_preference_control.yml\n  - SAF-000074_personalization_toggle.yml\n  - SAF-000075_data_delete_control.yml\n  - SAF-000076_data_export_control.yml\n  - SAF-000077_notification_control.yml\n  - SAF-000078_analysis_pause_control.yml\n  - SAF-000079_user_override.yml\n  - SAF-000080_user_control_integration.yml\n  - SAF-000081_knowledge_item_audit.yml\n  - SAF-000082_bias_audit.yml\n  - SAF-000083_privacy_audit.yml\n  - SAF-000084_display_safety_audit.yml\n  - SAF-000085_high_risk_review.yml\n  - SAF-000086_versioned_safety_policy.yml\n  - SAF-000087_incident_review.yml\n  - SAF-000088_human_in_the_loop_review.yml\n  - SAF-000089_governance_documentation.yml\n  - SAF-000090_audit_governance_integration.yml\n  - SAF-000091_entertainment_boundary.yml\n  - SAF-000092_education_boundary.yml\n  - SAF-000093_workplace_boundary.yml\n  - SAF-000094_wellbeing_boundary.yml\n  - SAF-000095_relationship_boundary_safety.yml\n  - SAF-000096_minor_use_boundary.yml\n  - SAF-000097_commercial_use_boundary.yml\n  - SAF-000098_third_party_sharing_boundary.yml\n  - SAF-000099_deployment_context_review.yml\n  - SAF-000100_safety_boundary_integration.yml\nnotes:\n  - 安全倫理は推論結果ではなく制御材料として扱う\n  - Knowledge DB側ではスコアリングしない\n  - アプリ側で安全性・表現・同意・リスク制御に利用する\n",
   "items": [
     {
-      "filename": "SAFE-000051_explicit_consent.yml",
-      "id": "SAFE-000051",
+      "filename": "SAF-000051_explicit_consent.yml",
+      "id": "SAF-000051",
       "knowledge_type": "safety_ethics",
       "name_ja": "明示的同意",
       "name_en": "Explicit Consent",
@@ -46,8 +46,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000052_granular_consent.yml",
-      "id": "SAFE-000052",
+      "filename": "SAF-000052_granular_consent.yml",
+      "id": "SAF-000052",
       "knowledge_type": "safety_ethics",
       "name_ja": "細分化同意",
       "name_en": "Granular Consent",
@@ -88,8 +88,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000053_withdrawal_of_consent.yml",
-      "id": "SAFE-000053",
+      "filename": "SAF-000053_withdrawal_of_consent.yml",
+      "id": "SAF-000053",
       "knowledge_type": "safety_ethics",
       "name_ja": "同意撤回",
       "name_en": "Withdrawal of Consent",
@@ -130,8 +130,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000054_consent_refresh.yml",
-      "id": "SAFE-000054",
+      "filename": "SAF-000054_consent_refresh.yml",
+      "id": "SAF-000054",
       "knowledge_type": "safety_ethics",
       "name_ja": "同意再確認",
       "name_en": "Consent Refresh",
@@ -172,8 +172,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000055_informed_consent_display.yml",
-      "id": "SAFE-000055",
+      "filename": "SAF-000055_informed_consent_display.yml",
+      "id": "SAF-000055",
       "knowledge_type": "safety_ethics",
       "name_ja": "説明付き同意表示",
       "name_en": "Informed Consent Display",
@@ -214,8 +214,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000056_default_privacy_protection.yml",
-      "id": "SAFE-000056",
+      "filename": "SAF-000056_default_privacy_protection.yml",
+      "id": "SAF-000056",
       "knowledge_type": "safety_ethics",
       "name_ja": "初期プライバシー保護",
       "name_en": "Default Privacy Protection",
@@ -256,8 +256,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000057_optional_data_use.yml",
-      "id": "SAFE-000057",
+      "filename": "SAF-000057_optional_data_use.yml",
+      "id": "SAF-000057",
       "knowledge_type": "safety_ethics",
       "name_ja": "任意データ利用",
       "name_en": "Optional Data Use",
@@ -298,8 +298,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000058_consent_scope_clarity.yml",
-      "id": "SAFE-000058",
+      "filename": "SAF-000058_consent_scope_clarity.yml",
+      "id": "SAF-000058",
       "knowledge_type": "safety_ethics",
       "name_ja": "同意範囲明確化",
       "name_en": "Consent Scope Clarity",
@@ -340,8 +340,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000059_consent_log_management.yml",
-      "id": "SAFE-000059",
+      "filename": "SAF-000059_consent_log_management.yml",
+      "id": "SAF-000059",
       "knowledge_type": "safety_ethics",
       "name_ja": "同意ログ管理",
       "name_en": "Consent Log Management",
@@ -382,8 +382,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000060_consent_control_integration.yml",
-      "id": "SAFE-000060",
+      "filename": "SAF-000060_consent_control_integration.yml",
+      "id": "SAF-000060",
       "knowledge_type": "safety_ethics",
       "name_ja": "同意制御統合",
       "name_en": "Consent Control Integration",
@@ -424,8 +424,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000061_data_transparency.yml",
-      "id": "SAFE-000061",
+      "filename": "SAF-000061_data_transparency.yml",
+      "id": "SAF-000061",
       "knowledge_type": "safety_ethics",
       "name_ja": "データ透明性",
       "name_en": "Data Transparency",
@@ -466,8 +466,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000062_inference_transparency.yml",
-      "id": "SAFE-000062",
+      "filename": "SAF-000062_inference_transparency.yml",
+      "id": "SAF-000062",
       "knowledge_type": "safety_ethics",
       "name_ja": "推論透明性",
       "name_en": "Inference Transparency",
@@ -508,8 +508,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000063_limitation_transparency.yml",
-      "id": "SAFE-000063",
+      "filename": "SAF-000063_limitation_transparency.yml",
+      "id": "SAF-000063",
       "knowledge_type": "safety_ethics",
       "name_ja": "限界透明性",
       "name_en": "Limitation Transparency",
@@ -550,8 +550,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000064_uncertainty_transparency.yml",
-      "id": "SAFE-000064",
+      "filename": "SAF-000064_uncertainty_transparency.yml",
+      "id": "SAF-000064",
       "knowledge_type": "safety_ethics",
       "name_ja": "不確実性透明性",
       "name_en": "Uncertainty Transparency",
@@ -592,8 +592,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000065_model_boundary_transparency.yml",
-      "id": "SAFE-000065",
+      "filename": "SAF-000065_model_boundary_transparency.yml",
+      "id": "SAF-000065",
       "knowledge_type": "safety_ethics",
       "name_ja": "モデル境界透明性",
       "name_en": "Model Boundary Transparency",
@@ -634,8 +634,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000066_data_source_display.yml",
-      "id": "SAFE-000066",
+      "filename": "SAF-000066_data_source_display.yml",
+      "id": "SAF-000066",
       "knowledge_type": "safety_ethics",
       "name_ja": "データソース表示",
       "name_en": "Data Source Display",
@@ -676,8 +676,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000067_reason_code_display.yml",
-      "id": "SAFE-000067",
+      "filename": "SAF-000067_reason_code_display.yml",
+      "id": "SAF-000067",
       "knowledge_type": "safety_ethics",
       "name_ja": "理由コード表示",
       "name_en": "Reason Code Display",
@@ -718,8 +718,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000068_audit_trail_visibility.yml",
-      "id": "SAFE-000068",
+      "filename": "SAF-000068_audit_trail_visibility.yml",
+      "id": "SAF-000068",
       "knowledge_type": "safety_ethics",
       "name_ja": "監査経路可視化",
       "name_en": "Audit Trail Visibility",
@@ -760,8 +760,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000069_user_facing_explanation.yml",
-      "id": "SAFE-000069",
+      "filename": "SAF-000069_user_facing_explanation.yml",
+      "id": "SAF-000069",
       "knowledge_type": "safety_ethics",
       "name_ja": "ユーザー向け説明",
       "name_en": "User Facing Explanation",
@@ -802,8 +802,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000070_transparency_integration.yml",
-      "id": "SAFE-000070",
+      "filename": "SAF-000070_transparency_integration.yml",
+      "id": "SAF-000070",
       "knowledge_type": "safety_ethics",
       "name_ja": "透明性統合",
       "name_en": "Transparency Integration",
@@ -844,8 +844,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000071_user_editable_profile.yml",
-      "id": "SAFE-000071",
+      "filename": "SAF-000071_user_editable_profile.yml",
+      "id": "SAF-000071",
       "knowledge_type": "safety_ethics",
       "name_ja": "ユーザー編集可能プロフィール",
       "name_en": "User Editable Profile",
@@ -886,8 +886,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000072_result_correction.yml",
-      "id": "SAFE-000072",
+      "filename": "SAF-000072_result_correction.yml",
+      "id": "SAF-000072",
       "knowledge_type": "safety_ethics",
       "name_ja": "結果修正",
       "name_en": "Result Correction",
@@ -928,8 +928,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000073_preference_control.yml",
-      "id": "SAFE-000073",
+      "filename": "SAF-000073_preference_control.yml",
+      "id": "SAF-000073",
       "knowledge_type": "safety_ethics",
       "name_ja": "嗜好制御",
       "name_en": "Preference Control",
@@ -970,8 +970,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000074_personalization_toggle.yml",
-      "id": "SAFE-000074",
+      "filename": "SAF-000074_personalization_toggle.yml",
+      "id": "SAF-000074",
       "knowledge_type": "safety_ethics",
       "name_ja": "個別化オンオフ",
       "name_en": "Personalization Toggle",
@@ -1012,8 +1012,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000075_data_delete_control.yml",
-      "id": "SAFE-000075",
+      "filename": "SAF-000075_data_delete_control.yml",
+      "id": "SAF-000075",
       "knowledge_type": "safety_ethics",
       "name_ja": "データ削除制御",
       "name_en": "Data Delete Control",
@@ -1054,8 +1054,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000076_data_export_control.yml",
-      "id": "SAFE-000076",
+      "filename": "SAF-000076_data_export_control.yml",
+      "id": "SAF-000076",
       "knowledge_type": "safety_ethics",
       "name_ja": "データ確認制御",
       "name_en": "Data Export Control",
@@ -1096,8 +1096,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000077_notification_control.yml",
-      "id": "SAFE-000077",
+      "filename": "SAF-000077_notification_control.yml",
+      "id": "SAF-000077",
       "knowledge_type": "safety_ethics",
       "name_ja": "通知制御",
       "name_en": "Notification Control",
@@ -1138,8 +1138,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000078_analysis_pause_control.yml",
-      "id": "SAFE-000078",
+      "filename": "SAF-000078_analysis_pause_control.yml",
+      "id": "SAF-000078",
       "knowledge_type": "safety_ethics",
       "name_ja": "分析停止制御",
       "name_en": "Analysis Pause Control",
@@ -1180,8 +1180,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000079_user_override.yml",
-      "id": "SAFE-000079",
+      "filename": "SAF-000079_user_override.yml",
+      "id": "SAF-000079",
       "knowledge_type": "safety_ethics",
       "name_ja": "ユーザー上書き",
       "name_en": "User Override",
@@ -1222,8 +1222,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000080_user_control_integration.yml",
-      "id": "SAFE-000080",
+      "filename": "SAF-000080_user_control_integration.yml",
+      "id": "SAF-000080",
       "knowledge_type": "safety_ethics",
       "name_ja": "ユーザー制御統合",
       "name_en": "User Control Integration",
@@ -1264,8 +1264,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000081_knowledge_item_audit.yml",
-      "id": "SAFE-000081",
+      "filename": "SAF-000081_knowledge_item_audit.yml",
+      "id": "SAF-000081",
       "knowledge_type": "safety_ethics",
       "name_ja": "知識項目監査",
       "name_en": "Knowledge Item Audit",
@@ -1306,8 +1306,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000082_bias_audit.yml",
-      "id": "SAFE-000082",
+      "filename": "SAF-000082_bias_audit.yml",
+      "id": "SAF-000082",
       "knowledge_type": "safety_ethics",
       "name_ja": "バイアス監査",
       "name_en": "Bias Audit",
@@ -1348,8 +1348,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000083_privacy_audit.yml",
-      "id": "SAFE-000083",
+      "filename": "SAF-000083_privacy_audit.yml",
+      "id": "SAF-000083",
       "knowledge_type": "safety_ethics",
       "name_ja": "プライバシー監査",
       "name_en": "Privacy Audit",
@@ -1390,8 +1390,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000084_display_safety_audit.yml",
-      "id": "SAFE-000084",
+      "filename": "SAF-000084_display_safety_audit.yml",
+      "id": "SAF-000084",
       "knowledge_type": "safety_ethics",
       "name_ja": "表示安全監査",
       "name_en": "Display Safety Audit",
@@ -1432,8 +1432,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000085_high_risk_review.yml",
-      "id": "SAFE-000085",
+      "filename": "SAF-000085_high_risk_review.yml",
+      "id": "SAF-000085",
       "knowledge_type": "safety_ethics",
       "name_ja": "高リスクレビュー",
       "name_en": "High Risk Review",
@@ -1474,8 +1474,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000086_versioned_safety_policy.yml",
-      "id": "SAFE-000086",
+      "filename": "SAF-000086_versioned_safety_policy.yml",
+      "id": "SAF-000086",
       "knowledge_type": "safety_ethics",
       "name_ja": "安全方針バージョン管理",
       "name_en": "Versioned Safety Policy",
@@ -1516,8 +1516,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000087_incident_review.yml",
-      "id": "SAFE-000087",
+      "filename": "SAF-000087_incident_review.yml",
+      "id": "SAF-000087",
       "knowledge_type": "safety_ethics",
       "name_ja": "インシデントレビュー",
       "name_en": "Incident Review",
@@ -1558,8 +1558,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000088_human_in_the_loop_review.yml",
-      "id": "SAFE-000088",
+      "filename": "SAF-000088_human_in_the_loop_review.yml",
+      "id": "SAF-000088",
       "knowledge_type": "safety_ethics",
       "name_ja": "人間参加レビュー",
       "name_en": "Human in the Loop Review",
@@ -1600,8 +1600,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000089_governance_documentation.yml",
-      "id": "SAFE-000089",
+      "filename": "SAF-000089_governance_documentation.yml",
+      "id": "SAF-000089",
       "knowledge_type": "safety_ethics",
       "name_ja": "統制文書化",
       "name_en": "Governance Documentation",
@@ -1642,8 +1642,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000090_audit_governance_integration.yml",
-      "id": "SAFE-000090",
+      "filename": "SAF-000090_audit_governance_integration.yml",
+      "id": "SAF-000090",
       "knowledge_type": "safety_ethics",
       "name_ja": "監査統制統合",
       "name_en": "Audit Governance Integration",
@@ -1684,8 +1684,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000091_entertainment_boundary.yml",
-      "id": "SAFE-000091",
+      "filename": "SAF-000091_entertainment_boundary.yml",
+      "id": "SAF-000091",
       "knowledge_type": "safety_ethics",
       "name_ja": "エンタメ用途境界",
       "name_en": "Entertainment Boundary",
@@ -1726,8 +1726,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000092_education_boundary.yml",
-      "id": "SAFE-000092",
+      "filename": "SAF-000092_education_boundary.yml",
+      "id": "SAF-000092",
       "knowledge_type": "safety_ethics",
       "name_ja": "教育用途境界",
       "name_en": "Education Boundary",
@@ -1768,8 +1768,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000093_workplace_boundary.yml",
-      "id": "SAFE-000093",
+      "filename": "SAF-000093_workplace_boundary.yml",
+      "id": "SAF-000093",
       "knowledge_type": "safety_ethics",
       "name_ja": "職場用途境界",
       "name_en": "Workplace Boundary",
@@ -1810,8 +1810,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000094_wellbeing_boundary.yml",
-      "id": "SAFE-000094",
+      "filename": "SAF-000094_wellbeing_boundary.yml",
+      "id": "SAF-000094",
       "knowledge_type": "safety_ethics",
       "name_ja": "ウェルビーイング境界",
       "name_en": "Wellbeing Boundary",
@@ -1852,8 +1852,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000095_relationship_boundary_safety.yml",
-      "id": "SAFE-000095",
+      "filename": "SAF-000095_relationship_boundary_safety.yml",
+      "id": "SAF-000095",
       "knowledge_type": "safety_ethics",
       "name_ja": "関係性用途境界",
       "name_en": "Relationship Boundary Safety",
@@ -1894,8 +1894,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000096_minor_use_boundary.yml",
-      "id": "SAFE-000096",
+      "filename": "SAF-000096_minor_use_boundary.yml",
+      "id": "SAF-000096",
       "knowledge_type": "safety_ethics",
       "name_ja": "未成年利用境界",
       "name_en": "Minor Use Boundary",
@@ -1936,8 +1936,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000097_commercial_use_boundary.yml",
-      "id": "SAFE-000097",
+      "filename": "SAF-000097_commercial_use_boundary.yml",
+      "id": "SAF-000097",
       "knowledge_type": "safety_ethics",
       "name_ja": "商用利用境界",
       "name_en": "Commercial Use Boundary",
@@ -1978,8 +1978,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000098_third_party_sharing_boundary.yml",
-      "id": "SAFE-000098",
+      "filename": "SAF-000098_third_party_sharing_boundary.yml",
+      "id": "SAF-000098",
       "knowledge_type": "safety_ethics",
       "name_ja": "第三者共有境界",
       "name_en": "Third Party Sharing Boundary",
@@ -2020,8 +2020,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000099_deployment_context_review.yml",
-      "id": "SAFE-000099",
+      "filename": "SAF-000099_deployment_context_review.yml",
+      "id": "SAF-000099",
       "knowledge_type": "safety_ethics",
       "name_ja": "運用文脈レビュー",
       "name_en": "Deployment Context Review",
@@ -2062,8 +2062,8 @@
       "status": "active"
     },
     {
-      "filename": "SAFE-000100_safety_boundary_integration.yml",
-      "id": "SAFE-000100",
+      "filename": "SAF-000100_safety_boundary_integration.yml",
+      "id": "SAF-000100",
       "knowledge_type": "safety_ethics",
       "name_ja": "安全境界統合",
       "name_en": "Safety Boundary Integration",

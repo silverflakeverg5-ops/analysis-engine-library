@@ -1,11 +1,11 @@
 {
   "output_dir": "vol21_test_cases/test_cases_051_100",
   "index_filename": "test_cases_051_100_index.yml",
-  "index_content": "category: Test Case\nname_ja: テストケース\nitems:\n  - TEST-000051_signal_mapping_test.yml\n  - TEST-000052_modifier_mapping_test.yml\n  - TEST-000053_display_mapping_test.yml\n  - TEST-000054_app_mapping_test.yml\n  - TEST-000055_evidence_mapping_test.yml\n  - TEST-000056_safety_mapping_test.yml\n  - TEST-000057_concept_linking_test.yml\n  - TEST-000058_mapping_conflict_test.yml\n  - TEST-000059_mapping_priority_test.yml\n  - TEST-000060_mapping_integration_test.yml\n  - TEST-000061_tendency_expression_test.yml\n  - TEST-000062_possibility_expression_test.yml\n  - TEST-000063_confidence_display_test.yml\n  - TEST-000064_context_display_test.yml\n  - TEST-000065_explanation_display_test.yml\n  - TEST-000066_alternative_explanation_test.yml\n  - TEST-000067_action_suggestion_test.yml\n  - TEST-000068_notification_display_test.yml\n  - TEST-000069_data_transparency_display_test.yml\n  - TEST-000070_display_integration_test.yml\n  - TEST-000071_diagnosis_app_integration_test.yml\n  - TEST-000072_game_app_integration_test.yml\n  - TEST-000073_assistant_app_integration_test.yml\n  - TEST-000074_education_app_integration_test.yml\n  - TEST-000075_work_support_integration_test.yml\n  - TEST-000076_wellbeing_integration_test.yml\n  - TEST-000077_relationship_app_integration_test.yml\n  - TEST-000078_personalization_integration_test.yml\n  - TEST-000079_multi_app_reuse_test.yml\n  - TEST-000080_app_integration_boundary_test.yml\n  - TEST-000081_git_status_clean_test.yml\n  - TEST-000082_commit_message_test.yml\n  - TEST-000083_push_completion_test.yml\n  - TEST-000084_builder_script_location_test.yml\n  - TEST-000085_master_pack_location_test.yml\n  - TEST-000086_generated_yaml_location_test.yml\n  - TEST-000087_command_sequence_test.yml\n  - TEST-000088_accidental_file_test.yml\n  - TEST-000089_repository_sync_test.yml\n  - TEST-000090_operations_integration_test.yml\n  - TEST-000091_end_to_end_generation_test.yml\n  - TEST-000092_end_to_end_api_test.yml\n  - TEST-000093_end_to_end_display_test.yml\n  - TEST-000094_end_to_end_safety_test.yml\n  - TEST-000095_cross_volume_consistency_test.yml\n  - TEST-000096_large_scale_library_test.yml\n  - TEST-000097_backward_compatibility_integration_test.yml\n  - TEST-000098_quality_gate_integration_test.yml\n  - TEST-000099_release_readiness_test.yml\n  - TEST-000100_test_case_integration.yml\nnotes:\n  - テストケースはDB品質確認とアプリ接続検証の材料として扱う\n  - Knowledge DB側では推論しない\n  - 監査・API・安全性・表示の検証に利用する\n",
+  "index_content": "category: Test Case\nname_ja: テストケース\nitems:\n  - TST-000051_signal_mapping_test.yml\n  - TST-000052_modifier_mapping_test.yml\n  - TST-000053_display_mapping_test.yml\n  - TST-000054_app_mapping_test.yml\n  - TST-000055_evidence_mapping_test.yml\n  - TST-000056_safety_mapping_test.yml\n  - TST-000057_concept_linking_test.yml\n  - TST-000058_mapping_conflict_test.yml\n  - TST-000059_mapping_priority_test.yml\n  - TST-000060_mapping_integration_test.yml\n  - TST-000061_tendency_expression_test.yml\n  - TST-000062_possibility_expression_test.yml\n  - TST-000063_confidence_display_test.yml\n  - TST-000064_context_display_test.yml\n  - TST-000065_explanation_display_test.yml\n  - TST-000066_alternative_explanation_test.yml\n  - TST-000067_action_suggestion_test.yml\n  - TST-000068_notification_display_test.yml\n  - TST-000069_data_transparency_display_test.yml\n  - TST-000070_display_integration_test.yml\n  - TST-000071_diagnosis_app_integration_test.yml\n  - TST-000072_game_app_integration_test.yml\n  - TST-000073_assistant_app_integration_test.yml\n  - TST-000074_education_app_integration_test.yml\n  - TST-000075_work_support_integration_test.yml\n  - TST-000076_wellbeing_integration_test.yml\n  - TST-000077_relationship_app_integration_test.yml\n  - TST-000078_personalization_integration_test.yml\n  - TST-000079_multi_app_reuse_test.yml\n  - TST-000080_app_integration_boundary_test.yml\n  - TST-000081_git_status_clean_test.yml\n  - TST-000082_commit_message_test.yml\n  - TST-000083_push_completion_test.yml\n  - TST-000084_builder_script_location_test.yml\n  - TST-000085_master_pack_location_test.yml\n  - TST-000086_generated_yaml_location_test.yml\n  - TST-000087_command_sequence_test.yml\n  - TST-000088_accidental_file_test.yml\n  - TST-000089_repository_sync_test.yml\n  - TST-000090_operations_integration_test.yml\n  - TST-000091_end_to_end_generation_test.yml\n  - TST-000092_end_to_end_api_test.yml\n  - TST-000093_end_to_end_display_test.yml\n  - TST-000094_end_to_end_safety_test.yml\n  - TST-000095_cross_volume_consistency_test.yml\n  - TST-000096_large_scale_library_test.yml\n  - TST-000097_backward_compatibility_integration_test.yml\n  - TST-000098_quality_gate_integration_test.yml\n  - TST-000099_release_readiness_test.yml\n  - TST-000100_test_case_integration.yml\nnotes:\n  - テストケースはDB品質確認とアプリ接続検証の材料として扱う\n  - Knowledge DB側では推論しない\n  - 監査・API・安全性・表示の検証に利用する\n",
   "items": [
     {
-      "filename": "TEST-000051_signal_mapping_test.yml",
-      "id": "TEST-000051",
+      "filename": "TST-000051_signal_mapping_test.yml",
+      "id": "TST-000051",
       "knowledge_type": "test_case",
       "name_ja": "Signal対応テスト",
       "name_en": "Signal Mapping Test",
@@ -46,8 +46,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000052_modifier_mapping_test.yml",
-      "id": "TEST-000052",
+      "filename": "TST-000052_modifier_mapping_test.yml",
+      "id": "TST-000052",
       "knowledge_type": "test_case",
       "name_ja": "補正対応テスト",
       "name_en": "Modifier Mapping Test",
@@ -88,8 +88,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000053_display_mapping_test.yml",
-      "id": "TEST-000053",
+      "filename": "TST-000053_display_mapping_test.yml",
+      "id": "TST-000053",
       "knowledge_type": "test_case",
       "name_ja": "表示対応テスト",
       "name_en": "Display Mapping Test",
@@ -130,8 +130,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000054_app_mapping_test.yml",
-      "id": "TEST-000054",
+      "filename": "TST-000054_app_mapping_test.yml",
+      "id": "TST-000054",
       "knowledge_type": "test_case",
       "name_ja": "アプリ対応テスト",
       "name_en": "App Mapping Test",
@@ -172,8 +172,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000055_evidence_mapping_test.yml",
-      "id": "TEST-000055",
+      "filename": "TST-000055_evidence_mapping_test.yml",
+      "id": "TST-000055",
       "knowledge_type": "test_case",
       "name_ja": "根拠対応テスト",
       "name_en": "Evidence Mapping Test",
@@ -214,8 +214,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000056_safety_mapping_test.yml",
-      "id": "TEST-000056",
+      "filename": "TST-000056_safety_mapping_test.yml",
+      "id": "TST-000056",
       "knowledge_type": "test_case",
       "name_ja": "安全対応テスト",
       "name_en": "Safety Mapping Test",
@@ -256,8 +256,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000057_concept_linking_test.yml",
-      "id": "TEST-000057",
+      "filename": "TST-000057_concept_linking_test.yml",
+      "id": "TST-000057",
       "knowledge_type": "test_case",
       "name_ja": "概念接続テスト",
       "name_en": "Concept Linking Test",
@@ -298,8 +298,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000058_mapping_conflict_test.yml",
-      "id": "TEST-000058",
+      "filename": "TST-000058_mapping_conflict_test.yml",
+      "id": "TST-000058",
       "knowledge_type": "test_case",
       "name_ja": "対応競合テスト",
       "name_en": "Mapping Conflict Test",
@@ -340,8 +340,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000059_mapping_priority_test.yml",
-      "id": "TEST-000059",
+      "filename": "TST-000059_mapping_priority_test.yml",
+      "id": "TST-000059",
       "knowledge_type": "test_case",
       "name_ja": "対応優先度テスト",
       "name_en": "Mapping Priority Test",
@@ -382,8 +382,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000060_mapping_integration_test.yml",
-      "id": "TEST-000060",
+      "filename": "TST-000060_mapping_integration_test.yml",
+      "id": "TST-000060",
       "knowledge_type": "test_case",
       "name_ja": "対応統合テスト",
       "name_en": "Mapping Integration Test",
@@ -424,8 +424,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000061_tendency_expression_test.yml",
-      "id": "TEST-000061",
+      "filename": "TST-000061_tendency_expression_test.yml",
+      "id": "TST-000061",
       "knowledge_type": "test_case",
       "name_ja": "傾向表現テスト",
       "name_en": "Tendency Expression Test",
@@ -466,8 +466,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000062_possibility_expression_test.yml",
-      "id": "TEST-000062",
+      "filename": "TST-000062_possibility_expression_test.yml",
+      "id": "TST-000062",
       "knowledge_type": "test_case",
       "name_ja": "可能性表現テスト",
       "name_en": "Possibility Expression Test",
@@ -508,8 +508,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000063_confidence_display_test.yml",
-      "id": "TEST-000063",
+      "filename": "TST-000063_confidence_display_test.yml",
+      "id": "TST-000063",
       "knowledge_type": "test_case",
       "name_ja": "信頼度表示テスト",
       "name_en": "Confidence Display Test",
@@ -550,8 +550,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000064_context_display_test.yml",
-      "id": "TEST-000064",
+      "filename": "TST-000064_context_display_test.yml",
+      "id": "TST-000064",
       "knowledge_type": "test_case",
       "name_ja": "文脈表示テスト",
       "name_en": "Context Display Test",
@@ -592,8 +592,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000065_explanation_display_test.yml",
-      "id": "TEST-000065",
+      "filename": "TST-000065_explanation_display_test.yml",
+      "id": "TST-000065",
       "knowledge_type": "test_case",
       "name_ja": "説明表示テスト",
       "name_en": "Explanation Display Test",
@@ -634,8 +634,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000066_alternative_explanation_test.yml",
-      "id": "TEST-000066",
+      "filename": "TST-000066_alternative_explanation_test.yml",
+      "id": "TST-000066",
       "knowledge_type": "test_case",
       "name_ja": "代替説明テスト",
       "name_en": "Alternative Explanation Test",
@@ -676,8 +676,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000067_action_suggestion_test.yml",
-      "id": "TEST-000067",
+      "filename": "TST-000067_action_suggestion_test.yml",
+      "id": "TST-000067",
       "knowledge_type": "test_case",
       "name_ja": "行動提案テスト",
       "name_en": "Action Suggestion Test",
@@ -718,8 +718,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000068_notification_display_test.yml",
-      "id": "TEST-000068",
+      "filename": "TST-000068_notification_display_test.yml",
+      "id": "TST-000068",
       "knowledge_type": "test_case",
       "name_ja": "通知表示テスト",
       "name_en": "Notification Display Test",
@@ -760,8 +760,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000069_data_transparency_display_test.yml",
-      "id": "TEST-000069",
+      "filename": "TST-000069_data_transparency_display_test.yml",
+      "id": "TST-000069",
       "knowledge_type": "test_case",
       "name_ja": "データ透明性表示テスト",
       "name_en": "Data Transparency Display Test",
@@ -802,8 +802,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000070_display_integration_test.yml",
-      "id": "TEST-000070",
+      "filename": "TST-000070_display_integration_test.yml",
+      "id": "TST-000070",
       "knowledge_type": "test_case",
       "name_ja": "表示統合テスト",
       "name_en": "Display Integration Test",
@@ -844,8 +844,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000071_diagnosis_app_integration_test.yml",
-      "id": "TEST-000071",
+      "filename": "TST-000071_diagnosis_app_integration_test.yml",
+      "id": "TST-000071",
       "knowledge_type": "test_case",
       "name_ja": "診断アプリ連携テスト",
       "name_en": "Diagnosis App Integration Test",
@@ -886,8 +886,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000072_game_app_integration_test.yml",
-      "id": "TEST-000072",
+      "filename": "TST-000072_game_app_integration_test.yml",
+      "id": "TST-000072",
       "knowledge_type": "test_case",
       "name_ja": "ゲームアプリ連携テスト",
       "name_en": "Game App Integration Test",
@@ -928,8 +928,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000073_assistant_app_integration_test.yml",
-      "id": "TEST-000073",
+      "filename": "TST-000073_assistant_app_integration_test.yml",
+      "id": "TST-000073",
       "knowledge_type": "test_case",
       "name_ja": "秘書アプリ連携テスト",
       "name_en": "Assistant App Integration Test",
@@ -970,8 +970,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000074_education_app_integration_test.yml",
-      "id": "TEST-000074",
+      "filename": "TST-000074_education_app_integration_test.yml",
+      "id": "TST-000074",
       "knowledge_type": "test_case",
       "name_ja": "教育アプリ連携テスト",
       "name_en": "Education App Integration Test",
@@ -1012,8 +1012,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000075_work_support_integration_test.yml",
-      "id": "TEST-000075",
+      "filename": "TST-000075_work_support_integration_test.yml",
+      "id": "TST-000075",
       "knowledge_type": "test_case",
       "name_ja": "仕事支援連携テスト",
       "name_en": "Work Support Integration Test",
@@ -1054,8 +1054,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000076_wellbeing_integration_test.yml",
-      "id": "TEST-000076",
+      "filename": "TST-000076_wellbeing_integration_test.yml",
+      "id": "TST-000076",
       "knowledge_type": "test_case",
       "name_ja": "ウェルビーイング連携テスト",
       "name_en": "Wellbeing Integration Test",
@@ -1096,8 +1096,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000077_relationship_app_integration_test.yml",
-      "id": "TEST-000077",
+      "filename": "TST-000077_relationship_app_integration_test.yml",
+      "id": "TST-000077",
       "knowledge_type": "test_case",
       "name_ja": "人間関係アプリ連携テスト",
       "name_en": "Relationship App Integration Test",
@@ -1138,8 +1138,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000078_personalization_integration_test.yml",
-      "id": "TEST-000078",
+      "filename": "TST-000078_personalization_integration_test.yml",
+      "id": "TST-000078",
       "knowledge_type": "test_case",
       "name_ja": "個別化連携テスト",
       "name_en": "Personalization Integration Test",
@@ -1180,8 +1180,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000079_multi_app_reuse_test.yml",
-      "id": "TEST-000079",
+      "filename": "TST-000079_multi_app_reuse_test.yml",
+      "id": "TST-000079",
       "knowledge_type": "test_case",
       "name_ja": "複数アプリ再利用テスト",
       "name_en": "Multi App Reuse Test",
@@ -1222,8 +1222,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000080_app_integration_boundary_test.yml",
-      "id": "TEST-000080",
+      "filename": "TST-000080_app_integration_boundary_test.yml",
+      "id": "TST-000080",
       "knowledge_type": "test_case",
       "name_ja": "アプリ連携境界テスト",
       "name_en": "App Integration Boundary Test",
@@ -1264,8 +1264,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000081_git_status_clean_test.yml",
-      "id": "TEST-000081",
+      "filename": "TST-000081_git_status_clean_test.yml",
+      "id": "TST-000081",
       "knowledge_type": "test_case",
       "name_ja": "Gitクリーン状態テスト",
       "name_en": "Git Status Clean Test",
@@ -1306,8 +1306,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000082_commit_message_test.yml",
-      "id": "TEST-000082",
+      "filename": "TST-000082_commit_message_test.yml",
+      "id": "TST-000082",
       "knowledge_type": "test_case",
       "name_ja": "コミットメッセージテスト",
       "name_en": "Commit Message Test",
@@ -1348,8 +1348,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000083_push_completion_test.yml",
-      "id": "TEST-000083",
+      "filename": "TST-000083_push_completion_test.yml",
+      "id": "TST-000083",
       "knowledge_type": "test_case",
       "name_ja": "push完了テスト",
       "name_en": "Push Completion Test",
@@ -1390,8 +1390,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000084_builder_script_location_test.yml",
-      "id": "TEST-000084",
+      "filename": "TST-000084_builder_script_location_test.yml",
+      "id": "TST-000084",
       "knowledge_type": "test_case",
       "name_ja": "Builder配置テスト",
       "name_en": "Builder Script Location Test",
@@ -1432,8 +1432,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000085_master_pack_location_test.yml",
-      "id": "TEST-000085",
+      "filename": "TST-000085_master_pack_location_test.yml",
+      "id": "TST-000085",
       "knowledge_type": "test_case",
       "name_ja": "マスターパック配置テスト",
       "name_en": "Master Pack Location Test",
@@ -1474,8 +1474,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000086_generated_yaml_location_test.yml",
-      "id": "TEST-000086",
+      "filename": "TST-000086_generated_yaml_location_test.yml",
+      "id": "TST-000086",
       "knowledge_type": "test_case",
       "name_ja": "生成YAML配置テスト",
       "name_en": "Generated YAML Location Test",
@@ -1516,8 +1516,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000087_command_sequence_test.yml",
-      "id": "TEST-000087",
+      "filename": "TST-000087_command_sequence_test.yml",
+      "id": "TST-000087",
       "knowledge_type": "test_case",
       "name_ja": "コマンド順序テスト",
       "name_en": "Command Sequence Test",
@@ -1558,8 +1558,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000088_accidental_file_test.yml",
-      "id": "TEST-000088",
+      "filename": "TST-000088_accidental_file_test.yml",
+      "id": "TST-000088",
       "knowledge_type": "test_case",
       "name_ja": "誤作成ファイルテスト",
       "name_en": "Accidental File Test",
@@ -1600,8 +1600,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000089_repository_sync_test.yml",
-      "id": "TEST-000089",
+      "filename": "TST-000089_repository_sync_test.yml",
+      "id": "TST-000089",
       "knowledge_type": "test_case",
       "name_ja": "リポジトリ同期テスト",
       "name_en": "Repository Sync Test",
@@ -1642,8 +1642,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000090_operations_integration_test.yml",
-      "id": "TEST-000090",
+      "filename": "TST-000090_operations_integration_test.yml",
+      "id": "TST-000090",
       "knowledge_type": "test_case",
       "name_ja": "運用統合テスト",
       "name_en": "Operations Integration Test",
@@ -1684,8 +1684,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000091_end_to_end_generation_test.yml",
-      "id": "TEST-000091",
+      "filename": "TST-000091_end_to_end_generation_test.yml",
+      "id": "TST-000091",
       "knowledge_type": "test_case",
       "name_ja": "E2E生成テスト",
       "name_en": "End to End Generation Test",
@@ -1726,8 +1726,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000092_end_to_end_api_test.yml",
-      "id": "TEST-000092",
+      "filename": "TST-000092_end_to_end_api_test.yml",
+      "id": "TST-000092",
       "knowledge_type": "test_case",
       "name_ja": "E2E APIテスト",
       "name_en": "End to End API Test",
@@ -1768,8 +1768,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000093_end_to_end_display_test.yml",
-      "id": "TEST-000093",
+      "filename": "TST-000093_end_to_end_display_test.yml",
+      "id": "TST-000093",
       "knowledge_type": "test_case",
       "name_ja": "E2E表示テスト",
       "name_en": "End to End Display Test",
@@ -1810,8 +1810,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000094_end_to_end_safety_test.yml",
-      "id": "TEST-000094",
+      "filename": "TST-000094_end_to_end_safety_test.yml",
+      "id": "TST-000094",
       "knowledge_type": "test_case",
       "name_ja": "E2E安全テスト",
       "name_en": "End to End Safety Test",
@@ -1852,8 +1852,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000095_cross_volume_consistency_test.yml",
-      "id": "TEST-000095",
+      "filename": "TST-000095_cross_volume_consistency_test.yml",
+      "id": "TST-000095",
       "knowledge_type": "test_case",
       "name_ja": "Vol横断整合テスト",
       "name_en": "Cross Volume Consistency Test",
@@ -1894,8 +1894,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000096_large_scale_library_test.yml",
-      "id": "TEST-000096",
+      "filename": "TST-000096_large_scale_library_test.yml",
+      "id": "TST-000096",
       "knowledge_type": "test_case",
       "name_ja": "大規模ライブラリテスト",
       "name_en": "Large Scale Library Test",
@@ -1936,8 +1936,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000097_backward_compatibility_integration_test.yml",
-      "id": "TEST-000097",
+      "filename": "TST-000097_backward_compatibility_integration_test.yml",
+      "id": "TST-000097",
       "knowledge_type": "test_case",
       "name_ja": "後方互換統合テスト",
       "name_en": "Backward Compatibility Integration Test",
@@ -1978,8 +1978,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000098_quality_gate_integration_test.yml",
-      "id": "TEST-000098",
+      "filename": "TST-000098_quality_gate_integration_test.yml",
+      "id": "TST-000098",
       "knowledge_type": "test_case",
       "name_ja": "品質ゲート統合テスト",
       "name_en": "Quality Gate Integration Test",
@@ -2020,8 +2020,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000099_release_readiness_test.yml",
-      "id": "TEST-000099",
+      "filename": "TST-000099_release_readiness_test.yml",
+      "id": "TST-000099",
       "knowledge_type": "test_case",
       "name_ja": "リリース準備テスト",
       "name_en": "Release Readiness Test",
@@ -2062,8 +2062,8 @@
       "status": "active"
     },
     {
-      "filename": "TEST-000100_test_case_integration.yml",
-      "id": "TEST-000100",
+      "filename": "TST-000100_test_case_integration.yml",
+      "id": "TST-000100",
       "knowledge_type": "test_case",
       "name_ja": "テストケース統合",
       "name_en": "Test Case Integration",

@@ -1,0 +1,37 @@
+id: CUL-000058
+knowledge_type: culture_context
+name_ja: プライバシー境界規範
+name_en: Privacy Boundary Norm
+category: Culture and Context
+attribute: Time Space and Uncertainty
+definition_ja: プライバシー境界規範は、個人・家族・集団で共有してよい情報の境界が異なることを表す文化文脈概念。国籍・民族・言語・地域だけから人格や能力を断定しない。
+tags:
+  - CAT:文化・文脈
+  - CAT:時間・空間・不確実性
+  - ATTR:文脈補正
+parent:
+  - 時間・空間・不確実性
+related:
+  - 文化背景補正
+  - 社会的文脈
+  - 公平性
+observable_data:
+  - 本人が任意に申告した言語・所属・生活文脈
+  - 同意済みの場面・相手・役割情報
+  - 複数文脈における表現と選択の変化
+  - 翻訳版・地域版ごとの欠測と回答分布
+signal_candidates:
+  - プライバシー境界規範と整合する文脈差が同一人物の複数場面で観測される
+  - 言語・相手・役割・媒体・制度の変化に伴って行動の意味または表現が変化する
+device_level: 本人同意に基づく文脈情報と明示申告を利用し、行動ログから国籍・民族・宗教・移民状態を推定しない
+modifiers:
+  - 本人が選択した文化的所属
+  - 使用言語と習熟度
+  - 地域・制度
+  - 家族・組織・共同体
+  - 世代・コホート
+  - 移動・移住経験
+  - 相手との関係と権力差
+  - 媒体・プラットフォーム
+evidence: 文化心理学・文化人類学・社会言語学・異文化コミュニケーション・測定論・HCI研究を参照
+status: active

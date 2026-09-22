@@ -1,0 +1,36 @@
+id: GMB-000042
+knowledge_type: game_behavior
+name_ja: 即時選択
+name_en: Rapid Choice
+category: Game Behavior
+attribute: Decision and Risk
+definition_ja: 即時選択は、短時間で選択肢を決定する行動を表すゲーム行動概念。単一ゲームから人格を断定しない。
+tags:
+  - CAT:ゲーム行動
+  - CAT:意思決定とリスク
+  - ATTR:観測行動
+parent:
+  - 意思決定とリスク
+related:
+  - 行動観測
+  - 動機づけ
+  - 意思決定
+observable_data:
+  - 選択ログ
+  - 操作時刻と所要時間
+  - 成功・失敗・再試行
+  - セッションと離脱の推移
+signal_candidates:
+  - 即時選択と整合する行動が複数セッションで観測される
+  - 難度・報酬・UI・ゲームジャンルの変化に伴って行動が変化する
+device_level: ゲームクライアントまたはサーバーの同意済みイベントログから観測可能
+modifiers:
+  - ゲームジャンル
+  - ゲーム設計
+  - 難度
+  - 習熟度
+  - 端末
+  - プレイ時間
+  - 社会的状況
+evidence: ゲーム研究・ゲームUX・行動科学・学習科学・HCI研究を参照
+status: active

@@ -1,0 +1,54 @@
+id: JYO-000053
+knowledge_type: indian_astrology
+name_ja: マガー
+name_en: Magha
+category: Indian Astrology
+attribute: Nakshatras
+definition_ja: マガーは、月宿マガーに割り当てられる支配星・象徴・区分を表すインド占星術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。
+tags:
+  - CAT:インド占星術
+  - CAT:二十七宿
+  - EVIDENCE:伝統的解釈
+parent:
+  - 二十七宿
+related:
+  - 自己理解
+  - 文化的象徴
+  - 解釈不確実性
+observable_data:
+  - 利用者が明示的に提供した出生情報
+  - 採用した暦・計算規則・流派
+  - 入力精度と欠測
+  - 計算で得られた象徴配置
+signal_candidates:
+  - 入力と規則から再現可能な象徴配置を得る
+  - 複数要素を解釈候補として提示し単一の性格断定へ短絡させない
+device_level: 本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない
+modifiers:
+  - 流派
+  - 地域と時代
+  - 暦と時間規則
+  - 入力精度
+  - 翻訳
+  - 解釈目的
+evidence: 歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない
+status: active
+tradition: ジョーティシャ・インド占星術
+source_type: 生年月日・出生時刻・出生地・天体暦
+evidence_class: traditional_cultural_interpretation
+required_inputs:
+  - 生年月日
+  - 出生時刻
+  - 出生地
+  - 時間帯
+  - アヤナーンシャ
+  - 採用流派
+calculation_basis: 恒星黄道上のグラハ・ラーシ・バーヴァ・ナクシャトラを採用方式で計算する
+trait_links:
+  - 自己理解
+  - 価値観
+  - 意思決定
+  - 対人傾向
+interpretive_scope: 内省・会話・物語生成・娯楽のための解釈候補
+safe_expression: ジョーティシャ・インド占星術では、マガーを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。
+provenance: インドのジョーティシャ文献・暦算・出生占星術の諸流派

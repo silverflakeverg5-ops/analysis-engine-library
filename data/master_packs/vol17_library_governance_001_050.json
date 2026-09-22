@@ -1,11 +1,11 @@
 {
   "output_dir": "vol17_library_governance/library_governance_001_050",
   "index_filename": "library_governance_001_050_index.yml",
-  "index_content": "category: Library Governance\nname_ja: ライブラリ管理\nitems:\n  - GOV-000001_knowledge_item_schema.yml\n  - GOV-000002_required_field_policy.yml\n  - GOV-000003_optional_field_policy.yml\n  - GOV-000004_field_naming_convention.yml\n  - GOV-000005_id_format_policy.yml\n  - GOV-000006_filename_policy.yml\n  - GOV-000007_index_file_policy.yml\n  - GOV-000008_master_pack_policy.yml\n  - GOV-000009_yaml_generation_policy.yml\n  - GOV-000010_schema_version_policy.yml\n  - GOV-000011_taxonomy_policy.yml\n  - GOV-000012_knowledge_type_policy.yml\n  - GOV-000013_category_policy.yml\n  - GOV-000014_attribute_policy.yml\n  - GOV-000015_tag_policy.yml\n  - GOV-000016_parent_child_policy.yml\n  - GOV-000017_related_item_policy.yml\n  - GOV-000018_cross_volume_link_policy.yml\n  - GOV-000019_duplicate_concept_policy.yml\n  - GOV-000020_taxonomy_extension_policy.yml\n  - GOV-000021_global_audit.yml\n  - GOV-000022_volume_audit.yml\n  - GOV-000023_required_field_audit.yml\n  - GOV-000024_duplicate_id_audit.yml\n  - GOV-000025_filename_id_consistency_audit.yml\n  - GOV-000026_tag_consistency_audit.yml\n  - GOV-000027_index_reference_audit.yml\n  - GOV-000028_orphan_item_audit.yml\n  - GOV-000029_status_audit.yml\n  - GOV-000030_audit_result_logging.yml\n  - GOV-000031_item_creation_policy.yml\n  - GOV-000032_item_update_policy.yml\n  - GOV-000033_item_deprecation_policy.yml\n  - GOV-000034_item_merge_policy.yml\n  - GOV-000035_item_split_policy.yml\n  - GOV-000036_backward_compatibility_policy.yml\n  - GOV-000037_change_log_policy.yml\n  - GOV-000038_release_policy.yml\n  - GOV-000039_quality_gate_policy.yml\n  - GOV-000040_maintenance_cycle.yml\n  - GOV-000041_knowledge_library_boundary.yml\n  - GOV-000042_app_side_inference_boundary.yml\n  - GOV-000043_common_library_reuse.yml\n  - GOV-000044_cross_app_consistency.yml\n  - GOV-000045_library_scalability.yml\n  - GOV-000046_storage_efficiency.yml\n  - GOV-000047_builder_workflow_integration.yml\n  - GOV-000048_github_workflow_integration.yml\n  - GOV-000049_library_quality_integration.yml\n  - GOV-000050_analysis_engine_library_governance.yml\nnotes:\n  - ライブラリ管理はDB運用と品質維持のための管理材料として扱う\n  - Knowledge DB側では推論しない\n  - Builder・生成・監査・Git管理の一貫性を重視する\n",
+  "index_content": "category: Library Governance\nname_ja: ライブラリ管理\nitems:\n  - LIB-000001_knowledge_item_schema.yml\n  - LIB-000002_required_field_policy.yml\n  - LIB-000003_optional_field_policy.yml\n  - LIB-000004_field_naming_convention.yml\n  - LIB-000005_id_format_policy.yml\n  - LIB-000006_filename_policy.yml\n  - LIB-000007_index_file_policy.yml\n  - LIB-000008_master_pack_policy.yml\n  - LIB-000009_yaml_generation_policy.yml\n  - LIB-000010_schema_version_policy.yml\n  - LIB-000011_taxonomy_policy.yml\n  - LIB-000012_knowledge_type_policy.yml\n  - LIB-000013_category_policy.yml\n  - LIB-000014_attribute_policy.yml\n  - LIB-000015_tag_policy.yml\n  - LIB-000016_parent_child_policy.yml\n  - LIB-000017_related_item_policy.yml\n  - LIB-000018_cross_volume_link_policy.yml\n  - LIB-000019_duplicate_concept_policy.yml\n  - LIB-000020_taxonomy_extension_policy.yml\n  - LIB-000021_global_audit.yml\n  - LIB-000022_volume_audit.yml\n  - LIB-000023_required_field_audit.yml\n  - LIB-000024_duplicate_id_audit.yml\n  - LIB-000025_filename_id_consistency_audit.yml\n  - LIB-000026_tag_consistency_audit.yml\n  - LIB-000027_index_reference_audit.yml\n  - LIB-000028_orphan_item_audit.yml\n  - LIB-000029_status_audit.yml\n  - LIB-000030_audit_result_logging.yml\n  - LIB-000031_item_creation_policy.yml\n  - LIB-000032_item_update_policy.yml\n  - LIB-000033_item_deprecation_policy.yml\n  - LIB-000034_item_merge_policy.yml\n  - LIB-000035_item_split_policy.yml\n  - LIB-000036_backward_compatibility_policy.yml\n  - LIB-000037_change_log_policy.yml\n  - LIB-000038_release_policy.yml\n  - LIB-000039_quality_gate_policy.yml\n  - LIB-000040_maintenance_cycle.yml\n  - LIB-000041_knowledge_library_boundary.yml\n  - LIB-000042_app_side_inference_boundary.yml\n  - LIB-000043_common_library_reuse.yml\n  - LIB-000044_cross_app_consistency.yml\n  - LIB-000045_library_scalability.yml\n  - LIB-000046_storage_efficiency.yml\n  - LIB-000047_builder_workflow_integration.yml\n  - LIB-000048_github_workflow_integration.yml\n  - LIB-000049_library_quality_integration.yml\n  - LIB-000050_analysis_engine_library_governance.yml\nnotes:\n  - ライブラリ管理はDB運用と品質維持のための管理材料として扱う\n  - Knowledge DB側では推論しない\n  - Builder・生成・監査・Git管理の一貫性を重視する\n",
   "items": [
     {
-      "filename": "GOV-000001_knowledge_item_schema.yml",
-      "id": "GOV-000001",
+      "filename": "LIB-000001_knowledge_item_schema.yml",
+      "id": "LIB-000001",
       "knowledge_type": "library_governance",
       "name_ja": "知識項目スキーマ",
       "name_en": "Knowledge Item Schema",
@@ -46,8 +46,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000002_required_field_policy.yml",
-      "id": "GOV-000002",
+      "filename": "LIB-000002_required_field_policy.yml",
+      "id": "LIB-000002",
       "knowledge_type": "library_governance",
       "name_ja": "必須フィールド方針",
       "name_en": "Required Field Policy",
@@ -88,8 +88,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000003_optional_field_policy.yml",
-      "id": "GOV-000003",
+      "filename": "LIB-000003_optional_field_policy.yml",
+      "id": "LIB-000003",
       "knowledge_type": "library_governance",
       "name_ja": "任意フィールド方針",
       "name_en": "Optional Field Policy",
@@ -130,8 +130,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000004_field_naming_convention.yml",
-      "id": "GOV-000004",
+      "filename": "LIB-000004_field_naming_convention.yml",
+      "id": "LIB-000004",
       "knowledge_type": "library_governance",
       "name_ja": "フィールド命名規則",
       "name_en": "Field Naming Convention",
@@ -172,8 +172,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000005_id_format_policy.yml",
-      "id": "GOV-000005",
+      "filename": "LIB-000005_id_format_policy.yml",
+      "id": "LIB-000005",
       "knowledge_type": "library_governance",
       "name_ja": "ID形式方針",
       "name_en": "ID Format Policy",
@@ -214,8 +214,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000006_filename_policy.yml",
-      "id": "GOV-000006",
+      "filename": "LIB-000006_filename_policy.yml",
+      "id": "LIB-000006",
       "knowledge_type": "library_governance",
       "name_ja": "ファイル名方針",
       "name_en": "Filename Policy",
@@ -256,8 +256,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000007_index_file_policy.yml",
-      "id": "GOV-000007",
+      "filename": "LIB-000007_index_file_policy.yml",
+      "id": "LIB-000007",
       "knowledge_type": "library_governance",
       "name_ja": "インデックスファイル方針",
       "name_en": "Index File Policy",
@@ -298,8 +298,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000008_master_pack_policy.yml",
-      "id": "GOV-000008",
+      "filename": "LIB-000008_master_pack_policy.yml",
+      "id": "LIB-000008",
       "knowledge_type": "library_governance",
       "name_ja": "マスターパック方針",
       "name_en": "Master Pack Policy",
@@ -340,8 +340,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000009_yaml_generation_policy.yml",
-      "id": "GOV-000009",
+      "filename": "LIB-000009_yaml_generation_policy.yml",
+      "id": "LIB-000009",
       "knowledge_type": "library_governance",
       "name_ja": "YAML生成方針",
       "name_en": "YAML Generation Policy",
@@ -382,8 +382,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000010_schema_version_policy.yml",
-      "id": "GOV-000010",
+      "filename": "LIB-000010_schema_version_policy.yml",
+      "id": "LIB-000010",
       "knowledge_type": "library_governance",
       "name_ja": "スキーマ版管理方針",
       "name_en": "Schema Version Policy",
@@ -424,8 +424,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000011_taxonomy_policy.yml",
-      "id": "GOV-000011",
+      "filename": "LIB-000011_taxonomy_policy.yml",
+      "id": "LIB-000011",
       "knowledge_type": "library_governance",
       "name_ja": "分類体系方針",
       "name_en": "Taxonomy Policy",
@@ -466,8 +466,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000012_knowledge_type_policy.yml",
-      "id": "GOV-000012",
+      "filename": "LIB-000012_knowledge_type_policy.yml",
+      "id": "LIB-000012",
       "knowledge_type": "library_governance",
       "name_ja": "knowledge_type方針",
       "name_en": "Knowledge Type Policy",
@@ -508,8 +508,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000013_category_policy.yml",
-      "id": "GOV-000013",
+      "filename": "LIB-000013_category_policy.yml",
+      "id": "LIB-000013",
       "knowledge_type": "library_governance",
       "name_ja": "カテゴリ方針",
       "name_en": "Category Policy",
@@ -550,8 +550,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000014_attribute_policy.yml",
-      "id": "GOV-000014",
+      "filename": "LIB-000014_attribute_policy.yml",
+      "id": "LIB-000014",
       "knowledge_type": "library_governance",
       "name_ja": "属性方針",
       "name_en": "Attribute Policy",
@@ -592,8 +592,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000015_tag_policy.yml",
-      "id": "GOV-000015",
+      "filename": "LIB-000015_tag_policy.yml",
+      "id": "LIB-000015",
       "knowledge_type": "library_governance",
       "name_ja": "タグ方針",
       "name_en": "Tag Policy",
@@ -634,8 +634,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000016_parent_child_policy.yml",
-      "id": "GOV-000016",
+      "filename": "LIB-000016_parent_child_policy.yml",
+      "id": "LIB-000016",
       "knowledge_type": "library_governance",
       "name_ja": "親子関係方針",
       "name_en": "Parent Child Policy",
@@ -676,8 +676,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000017_related_item_policy.yml",
-      "id": "GOV-000017",
+      "filename": "LIB-000017_related_item_policy.yml",
+      "id": "LIB-000017",
       "knowledge_type": "library_governance",
       "name_ja": "関連項目方針",
       "name_en": "Related Item Policy",
@@ -718,8 +718,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000018_cross_volume_link_policy.yml",
-      "id": "GOV-000018",
+      "filename": "LIB-000018_cross_volume_link_policy.yml",
+      "id": "LIB-000018",
       "knowledge_type": "library_governance",
       "name_ja": "Vol横断リンク方針",
       "name_en": "Cross Volume Link Policy",
@@ -760,8 +760,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000019_duplicate_concept_policy.yml",
-      "id": "GOV-000019",
+      "filename": "LIB-000019_duplicate_concept_policy.yml",
+      "id": "LIB-000019",
       "knowledge_type": "library_governance",
       "name_ja": "概念重複方針",
       "name_en": "Duplicate Concept Policy",
@@ -802,8 +802,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000020_taxonomy_extension_policy.yml",
-      "id": "GOV-000020",
+      "filename": "LIB-000020_taxonomy_extension_policy.yml",
+      "id": "LIB-000020",
       "knowledge_type": "library_governance",
       "name_ja": "分類拡張方針",
       "name_en": "Taxonomy Extension Policy",
@@ -844,8 +844,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000021_global_audit.yml",
-      "id": "GOV-000021",
+      "filename": "LIB-000021_global_audit.yml",
+      "id": "LIB-000021",
       "knowledge_type": "library_governance",
       "name_ja": "全体監査",
       "name_en": "Global Audit",
@@ -886,8 +886,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000022_volume_audit.yml",
-      "id": "GOV-000022",
+      "filename": "LIB-000022_volume_audit.yml",
+      "id": "LIB-000022",
       "knowledge_type": "library_governance",
       "name_ja": "Vol別監査",
       "name_en": "Volume Audit",
@@ -928,8 +928,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000023_required_field_audit.yml",
-      "id": "GOV-000023",
+      "filename": "LIB-000023_required_field_audit.yml",
+      "id": "LIB-000023",
       "knowledge_type": "library_governance",
       "name_ja": "必須項目監査",
       "name_en": "Required Field Audit",
@@ -970,8 +970,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000024_duplicate_id_audit.yml",
-      "id": "GOV-000024",
+      "filename": "LIB-000024_duplicate_id_audit.yml",
+      "id": "LIB-000024",
       "knowledge_type": "library_governance",
       "name_ja": "ID重複監査",
       "name_en": "Duplicate ID Audit",
@@ -1012,8 +1012,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000025_filename_id_consistency_audit.yml",
-      "id": "GOV-000025",
+      "filename": "LIB-000025_filename_id_consistency_audit.yml",
+      "id": "LIB-000025",
       "knowledge_type": "library_governance",
       "name_ja": "ファイル名ID整合監査",
       "name_en": "Filename ID Consistency Audit",
@@ -1054,8 +1054,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000026_tag_consistency_audit.yml",
-      "id": "GOV-000026",
+      "filename": "LIB-000026_tag_consistency_audit.yml",
+      "id": "LIB-000026",
       "knowledge_type": "library_governance",
       "name_ja": "タグ整合監査",
       "name_en": "Tag Consistency Audit",
@@ -1096,8 +1096,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000027_index_reference_audit.yml",
-      "id": "GOV-000027",
+      "filename": "LIB-000027_index_reference_audit.yml",
+      "id": "LIB-000027",
       "knowledge_type": "library_governance",
       "name_ja": "インデックス参照監査",
       "name_en": "Index Reference Audit",
@@ -1138,8 +1138,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000028_orphan_item_audit.yml",
-      "id": "GOV-000028",
+      "filename": "LIB-000028_orphan_item_audit.yml",
+      "id": "LIB-000028",
       "knowledge_type": "library_governance",
       "name_ja": "孤立項目監査",
       "name_en": "Orphan Item Audit",
@@ -1180,8 +1180,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000029_status_audit.yml",
-      "id": "GOV-000029",
+      "filename": "LIB-000029_status_audit.yml",
+      "id": "LIB-000029",
       "knowledge_type": "library_governance",
       "name_ja": "ステータス監査",
       "name_en": "Status Audit",
@@ -1222,8 +1222,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000030_audit_result_logging.yml",
-      "id": "GOV-000030",
+      "filename": "LIB-000030_audit_result_logging.yml",
+      "id": "LIB-000030",
       "knowledge_type": "library_governance",
       "name_ja": "監査結果ログ",
       "name_en": "Audit Result Logging",
@@ -1264,8 +1264,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000031_item_creation_policy.yml",
-      "id": "GOV-000031",
+      "filename": "LIB-000031_item_creation_policy.yml",
+      "id": "LIB-000031",
       "knowledge_type": "library_governance",
       "name_ja": "項目作成方針",
       "name_en": "Item Creation Policy",
@@ -1306,8 +1306,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000032_item_update_policy.yml",
-      "id": "GOV-000032",
+      "filename": "LIB-000032_item_update_policy.yml",
+      "id": "LIB-000032",
       "knowledge_type": "library_governance",
       "name_ja": "項目更新方針",
       "name_en": "Item Update Policy",
@@ -1348,8 +1348,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000033_item_deprecation_policy.yml",
-      "id": "GOV-000033",
+      "filename": "LIB-000033_item_deprecation_policy.yml",
+      "id": "LIB-000033",
       "knowledge_type": "library_governance",
       "name_ja": "項目非推奨方針",
       "name_en": "Item Deprecation Policy",
@@ -1390,8 +1390,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000034_item_merge_policy.yml",
-      "id": "GOV-000034",
+      "filename": "LIB-000034_item_merge_policy.yml",
+      "id": "LIB-000034",
       "knowledge_type": "library_governance",
       "name_ja": "項目統合方針",
       "name_en": "Item Merge Policy",
@@ -1432,8 +1432,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000035_item_split_policy.yml",
-      "id": "GOV-000035",
+      "filename": "LIB-000035_item_split_policy.yml",
+      "id": "LIB-000035",
       "knowledge_type": "library_governance",
       "name_ja": "項目分割方針",
       "name_en": "Item Split Policy",
@@ -1474,8 +1474,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000036_backward_compatibility_policy.yml",
-      "id": "GOV-000036",
+      "filename": "LIB-000036_backward_compatibility_policy.yml",
+      "id": "LIB-000036",
       "knowledge_type": "library_governance",
       "name_ja": "後方互換方針",
       "name_en": "Backward Compatibility Policy",
@@ -1516,8 +1516,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000037_change_log_policy.yml",
-      "id": "GOV-000037",
+      "filename": "LIB-000037_change_log_policy.yml",
+      "id": "LIB-000037",
       "knowledge_type": "library_governance",
       "name_ja": "変更履歴方針",
       "name_en": "Change Log Policy",
@@ -1558,8 +1558,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000038_release_policy.yml",
-      "id": "GOV-000038",
+      "filename": "LIB-000038_release_policy.yml",
+      "id": "LIB-000038",
       "knowledge_type": "library_governance",
       "name_ja": "リリース方針",
       "name_en": "Release Policy",
@@ -1600,8 +1600,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000039_quality_gate_policy.yml",
-      "id": "GOV-000039",
+      "filename": "LIB-000039_quality_gate_policy.yml",
+      "id": "LIB-000039",
       "knowledge_type": "library_governance",
       "name_ja": "品質ゲート方針",
       "name_en": "Quality Gate Policy",
@@ -1642,8 +1642,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000040_maintenance_cycle.yml",
-      "id": "GOV-000040",
+      "filename": "LIB-000040_maintenance_cycle.yml",
+      "id": "LIB-000040",
       "knowledge_type": "library_governance",
       "name_ja": "保守サイクル",
       "name_en": "Maintenance Cycle",
@@ -1684,8 +1684,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000041_knowledge_library_boundary.yml",
-      "id": "GOV-000041",
+      "filename": "LIB-000041_knowledge_library_boundary.yml",
+      "id": "LIB-000041",
       "knowledge_type": "library_governance",
       "name_ja": "知識ライブラリ境界",
       "name_en": "Knowledge Library Boundary",
@@ -1726,8 +1726,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000042_app_side_inference_boundary.yml",
-      "id": "GOV-000042",
+      "filename": "LIB-000042_app_side_inference_boundary.yml",
+      "id": "LIB-000042",
       "knowledge_type": "library_governance",
       "name_ja": "アプリ側推論境界",
       "name_en": "App Side Inference Boundary",
@@ -1768,8 +1768,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000043_common_library_reuse.yml",
-      "id": "GOV-000043",
+      "filename": "LIB-000043_common_library_reuse.yml",
+      "id": "LIB-000043",
       "knowledge_type": "library_governance",
       "name_ja": "共通ライブラリ再利用",
       "name_en": "Common Library Reuse",
@@ -1810,8 +1810,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000044_cross_app_consistency.yml",
-      "id": "GOV-000044",
+      "filename": "LIB-000044_cross_app_consistency.yml",
+      "id": "LIB-000044",
       "knowledge_type": "library_governance",
       "name_ja": "複数アプリ整合性",
       "name_en": "Cross App Consistency",
@@ -1852,8 +1852,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000045_library_scalability.yml",
-      "id": "GOV-000045",
+      "filename": "LIB-000045_library_scalability.yml",
+      "id": "LIB-000045",
       "knowledge_type": "library_governance",
       "name_ja": "ライブラリ拡張性",
       "name_en": "Library Scalability",
@@ -1894,8 +1894,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000046_storage_efficiency.yml",
-      "id": "GOV-000046",
+      "filename": "LIB-000046_storage_efficiency.yml",
+      "id": "LIB-000046",
       "knowledge_type": "library_governance",
       "name_ja": "保存効率",
       "name_en": "Storage Efficiency",
@@ -1936,8 +1936,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000047_builder_workflow_integration.yml",
-      "id": "GOV-000047",
+      "filename": "LIB-000047_builder_workflow_integration.yml",
+      "id": "LIB-000047",
       "knowledge_type": "library_governance",
       "name_ja": "Builderワークフロー統合",
       "name_en": "Builder Workflow Integration",
@@ -1978,8 +1978,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000048_github_workflow_integration.yml",
-      "id": "GOV-000048",
+      "filename": "LIB-000048_github_workflow_integration.yml",
+      "id": "LIB-000048",
       "knowledge_type": "library_governance",
       "name_ja": "GitHubワークフロー統合",
       "name_en": "GitHub Workflow Integration",
@@ -2020,8 +2020,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000049_library_quality_integration.yml",
-      "id": "GOV-000049",
+      "filename": "LIB-000049_library_quality_integration.yml",
+      "id": "LIB-000049",
       "knowledge_type": "library_governance",
       "name_ja": "ライブラリ品質統合",
       "name_en": "Library Quality Integration",
@@ -2062,8 +2062,8 @@
       "status": "active"
     },
     {
-      "filename": "GOV-000050_analysis_engine_library_governance.yml",
-      "id": "GOV-000050",
+      "filename": "LIB-000050_analysis_engine_library_governance.yml",
+      "id": "LIB-000050",
       "knowledge_type": "library_governance",
       "name_ja": "分析エンジンライブラリ統制",
       "name_en": "Analysis Engine Library Governance",

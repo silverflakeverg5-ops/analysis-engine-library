@@ -1,11 +1,11 @@
 {
   "output_dir": "vol4_cognitive_bias/probability_risk_bias",
   "index_filename": "probability_risk_bias_index.yml",
-  "index_content": "category: Cognitive Bias - Probability Risk Bias\nname_ja: 認知バイアス・確率リスクバイアス\nitems:\n  - BIAS-000041_gamblers_fallacy.yml\n  - BIAS-000042_hot_hand_fallacy.yml\n  - BIAS-000043_optimism_bias.yml\n  - BIAS-000044_pessimism_bias.yml\n  - BIAS-000045_zero_risk_bias.yml\n  - BIAS-000046_probability_neglect.yml\n  - BIAS-000047_normalcy_bias.yml\n  - BIAS-000048_risk_compensation.yml\n  - BIAS-000049_ambiguity_aversion.yml\n  - BIAS-000050_regret_aversion.yml\nnotes:\n  - 確率リスクバイアスは能力評価ではなく推論材料として扱う\n  - リスク判断・確率判断・不確実性下の選択に関する観測可能データを中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
+  "index_content": "category: Cognitive Bias - Probability Risk Bias\nname_ja: 認知バイアス・確率リスクバイアス\nitems:\n  - COG-000041_gamblers_fallacy.yml\n  - COG-000042_hot_hand_fallacy.yml\n  - COG-000043_optimism_bias.yml\n  - COG-000044_pessimism_bias.yml\n  - COG-000045_zero_risk_bias.yml\n  - COG-000046_probability_neglect.yml\n  - COG-000047_normalcy_bias.yml\n  - COG-000048_risk_compensation.yml\n  - COG-000049_ambiguity_aversion.yml\n  - COG-000050_regret_aversion.yml\nnotes:\n  - 確率リスクバイアスは能力評価ではなく推論材料として扱う\n  - リスク判断・確率判断・不確実性下の選択に関する観測可能データを中心に管理する\n  - アプリ側でスコアリング・推論・表示を行う\n",
   "items": [
     {
-      "filename": "BIAS-000041_gamblers_fallacy.yml",
-      "id": "BIAS-000041",
+      "filename": "COG-000041_gamblers_fallacy.yml",
+      "id": "COG-000041",
       "knowledge_type": "cognitive_bias",
       "name_ja": "ギャンブラーの誤謬",
       "name_en": "Gambler's Fallacy",
@@ -23,8 +23,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000042_hot_hand_fallacy.yml",
-      "id": "BIAS-000042",
+      "filename": "COG-000042_hot_hand_fallacy.yml",
+      "id": "COG-000042",
       "knowledge_type": "cognitive_bias",
       "name_ja": "ホットハンド錯覚",
       "name_en": "Hot Hand Fallacy",
@@ -42,8 +42,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000043_optimism_bias.yml",
-      "id": "BIAS-000043",
+      "filename": "COG-000043_optimism_bias.yml",
+      "id": "COG-000043",
       "knowledge_type": "cognitive_bias",
       "name_ja": "楽観バイアス",
       "name_en": "Optimism Bias",
@@ -61,8 +61,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000044_pessimism_bias.yml",
-      "id": "BIAS-000044",
+      "filename": "COG-000044_pessimism_bias.yml",
+      "id": "COG-000044",
       "knowledge_type": "cognitive_bias",
       "name_ja": "悲観バイアス",
       "name_en": "Pessimism Bias",
@@ -80,8 +80,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000045_zero_risk_bias.yml",
-      "id": "BIAS-000045",
+      "filename": "COG-000045_zero_risk_bias.yml",
+      "id": "COG-000045",
       "knowledge_type": "cognitive_bias",
       "name_ja": "ゼロリスクバイアス",
       "name_en": "Zero Risk Bias",
@@ -99,8 +99,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000046_probability_neglect.yml",
-      "id": "BIAS-000046",
+      "filename": "COG-000046_probability_neglect.yml",
+      "id": "COG-000046",
       "knowledge_type": "cognitive_bias",
       "name_ja": "確率無視",
       "name_en": "Probability Neglect",
@@ -118,8 +118,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000047_normalcy_bias.yml",
-      "id": "BIAS-000047",
+      "filename": "COG-000047_normalcy_bias.yml",
+      "id": "COG-000047",
       "knowledge_type": "cognitive_bias",
       "name_ja": "正常性バイアス",
       "name_en": "Normalcy Bias",
@@ -137,8 +137,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000048_risk_compensation.yml",
-      "id": "BIAS-000048",
+      "filename": "COG-000048_risk_compensation.yml",
+      "id": "COG-000048",
       "knowledge_type": "cognitive_bias",
       "name_ja": "リスク補償",
       "name_en": "Risk Compensation",
@@ -156,8 +156,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000049_ambiguity_aversion.yml",
-      "id": "BIAS-000049",
+      "filename": "COG-000049_ambiguity_aversion.yml",
+      "id": "COG-000049",
       "knowledge_type": "cognitive_bias",
       "name_ja": "曖昧性回避",
       "name_en": "Ambiguity Aversion",
@@ -175,8 +175,8 @@
       "status": "active"
     },
     {
-      "filename": "BIAS-000050_regret_aversion.yml",
-      "id": "BIAS-000050",
+      "filename": "COG-000050_regret_aversion.yml",
+      "id": "COG-000050",
       "knowledge_type": "cognitive_bias",
       "name_ja": "後悔回避",
       "name_en": "Regret Aversion",

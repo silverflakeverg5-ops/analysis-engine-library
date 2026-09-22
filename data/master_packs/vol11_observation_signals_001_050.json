@@ -1,11 +1,11 @@
 {
   "output_dir": "vol11_observation_signals/observation_signals_001_050",
   "index_filename": "observation_signals_001_050_index.yml",
-  "index_content": "category: Observation Signal\nname_ja: 観測シグナル\nitems:\n  - SIGNAL-000001_session_frequency.yml\n  - SIGNAL-000002_session_duration.yml\n  - SIGNAL-000003_return_interval.yml\n  - SIGNAL-000004_active_days.yml\n  - SIGNAL-000005_usage_time_of_day.yml\n  - SIGNAL-000006_dropoff_point.yml\n  - SIGNAL-000007_reengagement_signal.yml\n  - SIGNAL-000008_feature_usage_rate.yml\n  - SIGNAL-000009_settings_change_count.yml\n  - SIGNAL-000010_notification_response_time.yml\n  - SIGNAL-000011_tap_interval.yml\n  - SIGNAL-000012_input_speed.yml\n  - SIGNAL-000013_reaction_time.yml\n  - SIGNAL-000014_decision_latency.yml\n  - SIGNAL-000015_correction_count.yml\n  - SIGNAL-000016_undo_count.yml\n  - SIGNAL-000017_backtracking_rate.yml\n  - SIGNAL-000018_hover_or_pause_time.yml\n  - SIGNAL-000019_error_rate.yml\n  - SIGNAL-000020_retry_count.yml\n  - SIGNAL-000021_correct_answer_rate.yml\n  - SIGNAL-000022_improvement_rate.yml\n  - SIGNAL-000023_hint_usage_count.yml\n  - SIGNAL-000024_explanation_view_count.yml\n  - SIGNAL-000025_review_behavior_count.yml\n  - SIGNAL-000026_practice_repetition.yml\n  - SIGNAL-000027_learning_streak.yml\n  - SIGNAL-000028_time_on_task.yml\n  - SIGNAL-000029_post_feedback_change.yml\n  - SIGNAL-000030_transfer_success_rate.yml\n  - SIGNAL-000031_message_frequency.yml\n  - SIGNAL-000032_response_delay.yml\n  - SIGNAL-000033_help_request_count.yml\n  - SIGNAL-000034_help_offer_count.yml\n  - SIGNAL-000035_reaction_count.yml\n  - SIGNAL-000036_turn_taking_balance.yml\n  - SIGNAL-000037_group_participation_rate.yml\n  - SIGNAL-000038_conflict_expression_count.yml\n  - SIGNAL-000039_agreement_rate.yml\n  - SIGNAL-000040_social_withdrawal_signal.yml\n  - SIGNAL-000041_performance_drop.yml\n  - SIGNAL-000042_response_slowdown.yml\n  - SIGNAL-000043_error_spike.yml\n  - SIGNAL-000044_engagement_drop.yml\n  - SIGNAL-000045_avoidance_increase.yml\n  - SIGNAL-000046_risk_taking_change.yml\n  - SIGNAL-000047_exploration_change.yml\n  - SIGNAL-000048_persistence_change.yml\n  - SIGNAL-000049_routine_disruption.yml\n  - SIGNAL-000050_recovery_signal.yml\nnotes:\n  - 観測シグナルは推論結果ではなく入力材料として扱う\n  - アプリ側でスコアリング・推論・表示を行う\n  - 生データではなく観測可能な指標候補として管理する\n",
+  "index_content": "category: Observation Signal\nname_ja: 観測シグナル\nitems:\n  - OBS-000001_session_frequency.yml\n  - OBS-000002_session_duration.yml\n  - OBS-000003_return_interval.yml\n  - OBS-000004_active_days.yml\n  - OBS-000005_usage_time_of_day.yml\n  - OBS-000006_dropoff_point.yml\n  - OBS-000007_reengagement_signal.yml\n  - OBS-000008_feature_usage_rate.yml\n  - OBS-000009_settings_change_count.yml\n  - OBS-000010_notification_response_time.yml\n  - OBS-000011_tap_interval.yml\n  - OBS-000012_input_speed.yml\n  - OBS-000013_reaction_time.yml\n  - OBS-000014_decision_latency.yml\n  - OBS-000015_correction_count.yml\n  - OBS-000016_undo_count.yml\n  - OBS-000017_backtracking_rate.yml\n  - OBS-000018_hover_or_pause_time.yml\n  - OBS-000019_error_rate.yml\n  - OBS-000020_retry_count.yml\n  - OBS-000021_correct_answer_rate.yml\n  - OBS-000022_improvement_rate.yml\n  - OBS-000023_hint_usage_count.yml\n  - OBS-000024_explanation_view_count.yml\n  - OBS-000025_review_behavior_count.yml\n  - OBS-000026_practice_repetition.yml\n  - OBS-000027_learning_streak.yml\n  - OBS-000028_time_on_task.yml\n  - OBS-000029_post_feedback_change.yml\n  - OBS-000030_transfer_success_rate.yml\n  - OBS-000031_message_frequency.yml\n  - OBS-000032_response_delay.yml\n  - OBS-000033_help_request_count.yml\n  - OBS-000034_help_offer_count.yml\n  - OBS-000035_reaction_count.yml\n  - OBS-000036_turn_taking_balance.yml\n  - OBS-000037_group_participation_rate.yml\n  - OBS-000038_conflict_expression_count.yml\n  - OBS-000039_agreement_rate.yml\n  - OBS-000040_social_withdrawal_signal.yml\n  - OBS-000041_performance_drop.yml\n  - OBS-000042_response_slowdown.yml\n  - OBS-000043_error_spike.yml\n  - OBS-000044_engagement_drop.yml\n  - OBS-000045_avoidance_increase.yml\n  - OBS-000046_risk_taking_change.yml\n  - OBS-000047_exploration_change.yml\n  - OBS-000048_persistence_change.yml\n  - OBS-000049_routine_disruption.yml\n  - OBS-000050_recovery_signal.yml\nnotes:\n  - 観測シグナルは推論結果ではなく入力材料として扱う\n  - アプリ側でスコアリング・推論・表示を行う\n  - 生データではなく観測可能な指標候補として管理する\n",
   "items": [
     {
-      "filename": "SIGNAL-000001_session_frequency.yml",
-      "id": "SIGNAL-000001",
+      "filename": "OBS-000001_session_frequency.yml",
+      "id": "OBS-000001",
       "knowledge_type": "observation_signal",
       "name_ja": "セッション頻度",
       "name_en": "Session Frequency",
@@ -46,8 +46,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000002_session_duration.yml",
-      "id": "SIGNAL-000002",
+      "filename": "OBS-000002_session_duration.yml",
+      "id": "OBS-000002",
       "knowledge_type": "observation_signal",
       "name_ja": "セッション時間",
       "name_en": "Session Duration",
@@ -88,8 +88,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000003_return_interval.yml",
-      "id": "SIGNAL-000003",
+      "filename": "OBS-000003_return_interval.yml",
+      "id": "OBS-000003",
       "knowledge_type": "observation_signal",
       "name_ja": "再訪間隔",
       "name_en": "Return Interval",
@@ -130,8 +130,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000004_active_days.yml",
-      "id": "SIGNAL-000004",
+      "filename": "OBS-000004_active_days.yml",
+      "id": "OBS-000004",
       "knowledge_type": "observation_signal",
       "name_ja": "利用日数",
       "name_en": "Active Days",
@@ -172,8 +172,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000005_usage_time_of_day.yml",
-      "id": "SIGNAL-000005",
+      "filename": "OBS-000005_usage_time_of_day.yml",
+      "id": "OBS-000005",
       "knowledge_type": "observation_signal",
       "name_ja": "利用時間帯",
       "name_en": "Usage Time of Day",
@@ -214,8 +214,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000006_dropoff_point.yml",
-      "id": "SIGNAL-000006",
+      "filename": "OBS-000006_dropoff_point.yml",
+      "id": "OBS-000006",
       "knowledge_type": "observation_signal",
       "name_ja": "離脱地点",
       "name_en": "Dropoff Point",
@@ -256,8 +256,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000007_reengagement_signal.yml",
-      "id": "SIGNAL-000007",
+      "filename": "OBS-000007_reengagement_signal.yml",
+      "id": "OBS-000007",
       "knowledge_type": "observation_signal",
       "name_ja": "再関与シグナル",
       "name_en": "Reengagement Signal",
@@ -298,8 +298,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000008_feature_usage_rate.yml",
-      "id": "SIGNAL-000008",
+      "filename": "OBS-000008_feature_usage_rate.yml",
+      "id": "OBS-000008",
       "knowledge_type": "observation_signal",
       "name_ja": "機能利用率",
       "name_en": "Feature Usage Rate",
@@ -340,8 +340,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000009_settings_change_count.yml",
-      "id": "SIGNAL-000009",
+      "filename": "OBS-000009_settings_change_count.yml",
+      "id": "OBS-000009",
       "knowledge_type": "observation_signal",
       "name_ja": "設定変更回数",
       "name_en": "Settings Change Count",
@@ -382,8 +382,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000010_notification_response_time.yml",
-      "id": "SIGNAL-000010",
+      "filename": "OBS-000010_notification_response_time.yml",
+      "id": "OBS-000010",
       "knowledge_type": "observation_signal",
       "name_ja": "通知反応時間",
       "name_en": "Notification Response Time",
@@ -424,8 +424,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000011_tap_interval.yml",
-      "id": "SIGNAL-000011",
+      "filename": "OBS-000011_tap_interval.yml",
+      "id": "OBS-000011",
       "knowledge_type": "observation_signal",
       "name_ja": "タップ間隔",
       "name_en": "Tap Interval",
@@ -466,8 +466,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000012_input_speed.yml",
-      "id": "SIGNAL-000012",
+      "filename": "OBS-000012_input_speed.yml",
+      "id": "OBS-000012",
       "knowledge_type": "observation_signal",
       "name_ja": "入力速度",
       "name_en": "Input Speed",
@@ -508,8 +508,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000013_reaction_time.yml",
-      "id": "SIGNAL-000013",
+      "filename": "OBS-000013_reaction_time.yml",
+      "id": "OBS-000013",
       "knowledge_type": "observation_signal",
       "name_ja": "反応時間",
       "name_en": "Reaction Time",
@@ -550,8 +550,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000014_decision_latency.yml",
-      "id": "SIGNAL-000014",
+      "filename": "OBS-000014_decision_latency.yml",
+      "id": "OBS-000014",
       "knowledge_type": "observation_signal",
       "name_ja": "選択潜時",
       "name_en": "Decision Latency",
@@ -592,8 +592,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000015_correction_count.yml",
-      "id": "SIGNAL-000015",
+      "filename": "OBS-000015_correction_count.yml",
+      "id": "OBS-000015",
       "knowledge_type": "observation_signal",
       "name_ja": "修正回数",
       "name_en": "Correction Count",
@@ -634,8 +634,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000016_undo_count.yml",
-      "id": "SIGNAL-000016",
+      "filename": "OBS-000016_undo_count.yml",
+      "id": "OBS-000016",
       "knowledge_type": "observation_signal",
       "name_ja": "取り消し回数",
       "name_en": "Undo Count",
@@ -676,8 +676,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000017_backtracking_rate.yml",
-      "id": "SIGNAL-000017",
+      "filename": "OBS-000017_backtracking_rate.yml",
+      "id": "OBS-000017",
       "knowledge_type": "observation_signal",
       "name_ja": "戻り操作率",
       "name_en": "Backtracking Rate",
@@ -718,8 +718,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000018_hover_or_pause_time.yml",
-      "id": "SIGNAL-000018",
+      "filename": "OBS-000018_hover_or_pause_time.yml",
+      "id": "OBS-000018",
       "knowledge_type": "observation_signal",
       "name_ja": "迷い停止時間",
       "name_en": "Hover or Pause Time",
@@ -760,8 +760,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000019_error_rate.yml",
-      "id": "SIGNAL-000019",
+      "filename": "OBS-000019_error_rate.yml",
+      "id": "OBS-000019",
       "knowledge_type": "observation_signal",
       "name_ja": "エラー率",
       "name_en": "Error Rate",
@@ -802,8 +802,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000020_retry_count.yml",
-      "id": "SIGNAL-000020",
+      "filename": "OBS-000020_retry_count.yml",
+      "id": "OBS-000020",
       "knowledge_type": "observation_signal",
       "name_ja": "再試行回数",
       "name_en": "Retry Count",
@@ -844,8 +844,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000021_correct_answer_rate.yml",
-      "id": "SIGNAL-000021",
+      "filename": "OBS-000021_correct_answer_rate.yml",
+      "id": "OBS-000021",
       "knowledge_type": "observation_signal",
       "name_ja": "正答率",
       "name_en": "Correct Answer Rate",
@@ -886,8 +886,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000022_improvement_rate.yml",
-      "id": "SIGNAL-000022",
+      "filename": "OBS-000022_improvement_rate.yml",
+      "id": "OBS-000022",
       "knowledge_type": "observation_signal",
       "name_ja": "改善率",
       "name_en": "Improvement Rate",
@@ -928,8 +928,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000023_hint_usage_count.yml",
-      "id": "SIGNAL-000023",
+      "filename": "OBS-000023_hint_usage_count.yml",
+      "id": "OBS-000023",
       "knowledge_type": "observation_signal",
       "name_ja": "ヒント使用回数",
       "name_en": "Hint Usage Count",
@@ -970,8 +970,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000024_explanation_view_count.yml",
-      "id": "SIGNAL-000024",
+      "filename": "OBS-000024_explanation_view_count.yml",
+      "id": "OBS-000024",
       "knowledge_type": "observation_signal",
       "name_ja": "説明閲覧回数",
       "name_en": "Explanation View Count",
@@ -1012,8 +1012,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000025_review_behavior_count.yml",
-      "id": "SIGNAL-000025",
+      "filename": "OBS-000025_review_behavior_count.yml",
+      "id": "OBS-000025",
       "knowledge_type": "observation_signal",
       "name_ja": "復習行動回数",
       "name_en": "Review Behavior Count",
@@ -1054,8 +1054,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000026_practice_repetition.yml",
-      "id": "SIGNAL-000026",
+      "filename": "OBS-000026_practice_repetition.yml",
+      "id": "OBS-000026",
       "knowledge_type": "observation_signal",
       "name_ja": "練習反復数",
       "name_en": "Practice Repetition",
@@ -1096,8 +1096,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000027_learning_streak.yml",
-      "id": "SIGNAL-000027",
+      "filename": "OBS-000027_learning_streak.yml",
+      "id": "OBS-000027",
       "knowledge_type": "observation_signal",
       "name_ja": "学習連続記録",
       "name_en": "Learning Streak",
@@ -1138,8 +1138,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000028_time_on_task.yml",
-      "id": "SIGNAL-000028",
+      "filename": "OBS-000028_time_on_task.yml",
+      "id": "OBS-000028",
       "knowledge_type": "observation_signal",
       "name_ja": "課題滞在時間",
       "name_en": "Time on Task",
@@ -1180,8 +1180,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000029_post_feedback_change.yml",
-      "id": "SIGNAL-000029",
+      "filename": "OBS-000029_post_feedback_change.yml",
+      "id": "OBS-000029",
       "knowledge_type": "observation_signal",
       "name_ja": "フィードバック後変化",
       "name_en": "Post Feedback Change",
@@ -1222,8 +1222,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000030_transfer_success_rate.yml",
-      "id": "SIGNAL-000030",
+      "filename": "OBS-000030_transfer_success_rate.yml",
+      "id": "OBS-000030",
       "knowledge_type": "observation_signal",
       "name_ja": "転移成功率",
       "name_en": "Transfer Success Rate",
@@ -1264,8 +1264,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000031_message_frequency.yml",
-      "id": "SIGNAL-000031",
+      "filename": "OBS-000031_message_frequency.yml",
+      "id": "OBS-000031",
       "knowledge_type": "observation_signal",
       "name_ja": "メッセージ頻度",
       "name_en": "Message Frequency",
@@ -1306,8 +1306,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000032_response_delay.yml",
-      "id": "SIGNAL-000032",
+      "filename": "OBS-000032_response_delay.yml",
+      "id": "OBS-000032",
       "knowledge_type": "observation_signal",
       "name_ja": "返信遅延",
       "name_en": "Response Delay",
@@ -1348,8 +1348,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000033_help_request_count.yml",
-      "id": "SIGNAL-000033",
+      "filename": "OBS-000033_help_request_count.yml",
+      "id": "OBS-000033",
       "knowledge_type": "observation_signal",
       "name_ja": "援助要請回数",
       "name_en": "Help Request Count",
@@ -1390,8 +1390,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000034_help_offer_count.yml",
-      "id": "SIGNAL-000034",
+      "filename": "OBS-000034_help_offer_count.yml",
+      "id": "OBS-000034",
       "knowledge_type": "observation_signal",
       "name_ja": "援助提供回数",
       "name_en": "Help Offer Count",
@@ -1432,8 +1432,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000035_reaction_count.yml",
-      "id": "SIGNAL-000035",
+      "filename": "OBS-000035_reaction_count.yml",
+      "id": "OBS-000035",
       "knowledge_type": "observation_signal",
       "name_ja": "リアクション回数",
       "name_en": "Reaction Count",
@@ -1474,8 +1474,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000036_turn_taking_balance.yml",
-      "id": "SIGNAL-000036",
+      "filename": "OBS-000036_turn_taking_balance.yml",
+      "id": "OBS-000036",
       "knowledge_type": "observation_signal",
       "name_ja": "会話交替バランス",
       "name_en": "Turn Taking Balance",
@@ -1516,8 +1516,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000037_group_participation_rate.yml",
-      "id": "SIGNAL-000037",
+      "filename": "OBS-000037_group_participation_rate.yml",
+      "id": "OBS-000037",
       "knowledge_type": "observation_signal",
       "name_ja": "集団参加率",
       "name_en": "Group Participation Rate",
@@ -1558,8 +1558,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000038_conflict_expression_count.yml",
-      "id": "SIGNAL-000038",
+      "filename": "OBS-000038_conflict_expression_count.yml",
+      "id": "OBS-000038",
       "knowledge_type": "observation_signal",
       "name_ja": "葛藤表出回数",
       "name_en": "Conflict Expression Count",
@@ -1600,8 +1600,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000039_agreement_rate.yml",
-      "id": "SIGNAL-000039",
+      "filename": "OBS-000039_agreement_rate.yml",
+      "id": "OBS-000039",
       "knowledge_type": "observation_signal",
       "name_ja": "同意率",
       "name_en": "Agreement Rate",
@@ -1642,8 +1642,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000040_social_withdrawal_signal.yml",
-      "id": "SIGNAL-000040",
+      "filename": "OBS-000040_social_withdrawal_signal.yml",
+      "id": "OBS-000040",
       "knowledge_type": "observation_signal",
       "name_ja": "社会的撤退シグナル",
       "name_en": "Social Withdrawal Signal",
@@ -1684,8 +1684,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000041_performance_drop.yml",
-      "id": "SIGNAL-000041",
+      "filename": "OBS-000041_performance_drop.yml",
+      "id": "OBS-000041",
       "knowledge_type": "observation_signal",
       "name_ja": "成績低下",
       "name_en": "Performance Drop",
@@ -1726,8 +1726,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000042_response_slowdown.yml",
-      "id": "SIGNAL-000042",
+      "filename": "OBS-000042_response_slowdown.yml",
+      "id": "OBS-000042",
       "knowledge_type": "observation_signal",
       "name_ja": "反応遅延化",
       "name_en": "Response Slowdown",
@@ -1768,8 +1768,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000043_error_spike.yml",
-      "id": "SIGNAL-000043",
+      "filename": "OBS-000043_error_spike.yml",
+      "id": "OBS-000043",
       "knowledge_type": "observation_signal",
       "name_ja": "エラー急増",
       "name_en": "Error Spike",
@@ -1810,8 +1810,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000044_engagement_drop.yml",
-      "id": "SIGNAL-000044",
+      "filename": "OBS-000044_engagement_drop.yml",
+      "id": "OBS-000044",
       "knowledge_type": "observation_signal",
       "name_ja": "関与低下",
       "name_en": "Engagement Drop",
@@ -1852,8 +1852,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000045_avoidance_increase.yml",
-      "id": "SIGNAL-000045",
+      "filename": "OBS-000045_avoidance_increase.yml",
+      "id": "OBS-000045",
       "knowledge_type": "observation_signal",
       "name_ja": "回避増加",
       "name_en": "Avoidance Increase",
@@ -1894,8 +1894,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000046_risk_taking_change.yml",
-      "id": "SIGNAL-000046",
+      "filename": "OBS-000046_risk_taking_change.yml",
+      "id": "OBS-000046",
       "knowledge_type": "observation_signal",
       "name_ja": "リスク選択変化",
       "name_en": "Risk Taking Change",
@@ -1936,8 +1936,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000047_exploration_change.yml",
-      "id": "SIGNAL-000047",
+      "filename": "OBS-000047_exploration_change.yml",
+      "id": "OBS-000047",
       "knowledge_type": "observation_signal",
       "name_ja": "探索行動変化",
       "name_en": "Exploration Change",
@@ -1978,8 +1978,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000048_persistence_change.yml",
-      "id": "SIGNAL-000048",
+      "filename": "OBS-000048_persistence_change.yml",
+      "id": "OBS-000048",
       "knowledge_type": "observation_signal",
       "name_ja": "継続行動変化",
       "name_en": "Persistence Change",
@@ -2020,8 +2020,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000049_routine_disruption.yml",
-      "id": "SIGNAL-000049",
+      "filename": "OBS-000049_routine_disruption.yml",
+      "id": "OBS-000049",
       "knowledge_type": "observation_signal",
       "name_ja": "ルーティン乱れ",
       "name_en": "Routine Disruption",
@@ -2062,8 +2062,8 @@
       "status": "active"
     },
     {
-      "filename": "SIGNAL-000050_recovery_signal.yml",
-      "id": "SIGNAL-000050",
+      "filename": "OBS-000050_recovery_signal.yml",
+      "id": "OBS-000050",
       "knowledge_type": "observation_signal",
       "name_ja": "回復シグナル",
       "name_en": "Recovery Signal",

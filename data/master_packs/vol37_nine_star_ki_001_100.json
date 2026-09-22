@@ -1,0 +1,6507 @@
+{
+  "output_dir": "vol37_nine_star_ki/nine_star_ki_001_100",
+  "index_filename": "nine_star_ki_001_100_index.yml",
+  "index_content": "category: Nine Star Ki\nname_ja: 九星気学\nitems:\n  - NSK-000001_nine_star_ki.yml\n  - NSK-000002_nine_palace_grid.yml\n  - NSK-000003_later_heaven_bagua.yml\n  - NSK-000004_five_phase_assignment.yml\n  - NSK-000005_annual_cycle.yml\n  - NSK-000006_monthly_cycle.yml\n  - NSK-000007_daily_cycle.yml\n  - NSK-000008_hourly_cycle.yml\n  - NSK-000009_school_declaration.yml\n  - NSK-000010_calculation_trace.yml\n  - NSK-000011_one_white_water.yml\n  - NSK-000012_two_black_earth.yml\n  - NSK-000013_three_jade_wood.yml\n  - NSK-000014_four_green_wood.yml\n  - NSK-000015_five_yellow_earth.yml\n  - NSK-000016_six_white_metal.yml\n  - NSK-000017_seven_red_metal.yml\n  - NSK-000018_eight_white_earth.yml\n  - NSK-000019_nine_purple_fire.yml\n  - NSK-000020_center_palace.yml\n  - NSK-000021_north.yml\n  - NSK-000022_southwest.yml\n  - NSK-000023_east.yml\n  - NSK-000024_southeast.yml\n  - NSK-000025_northwest.yml\n  - NSK-000026_west.yml\n  - NSK-000027_northeast.yml\n  - NSK-000028_south.yml\n  - NSK-000029_annual_flight.yml\n  - NSK-000030_monthly_flight.yml\n  - NSK-000031_daily_flight.yml\n  - NSK-000032_hourly_flight.yml\n  - NSK-000033_yang_flight.yml\n  - NSK-000034_yin_flight.yml\n  - NSK-000035_solar_term_switch.yml\n  - NSK-000036_nine_year_cycle.yml\n  - NSK-000037_nine_month_cycle.yml\n  - NSK-000038_nine_day_cycle.yml\n  - NSK-000039_cycle_boundary.yml\n  - NSK-000040_cycle_version.yml\n  - NSK-000041_main_star.yml\n  - NSK-000042_month_star.yml\n  - NSK-000043_inclination.yml\n  - NSK-000044_main_palace.yml\n  - NSK-000045_opposite_main.yml\n  - NSK-000046_same_star_relation.yml\n  - NSK-000047_phase_relation.yml\n  - NSK-000048_annual_personal_context.yml\n  - NSK-000049_monthly_personal_context.yml\n  - NSK-000050_personal_uncertainty.yml\n  - NSK-000051_auspicious_direction.yml\n  - NSK-000052_inauspicious_direction.yml\n  - NSK-000053_five_yellow_direction.yml\n  - NSK-000054_opposite_five_yellow.yml\n  - NSK-000055_year_breaker.yml\n  - NSK-000056_month_breaker.yml\n  - NSK-000057_main_star_killing.yml\n  - NSK-000058_opposite_main_star.yml\n  - NSK-000059_directional_distance.yml\n  - NSK-000060_directional_boundary.yml\n  - NSK-000061_departure_point.yml\n  - NSK-000062_destination_point.yml\n  - NSK-000063_travel_date.yml\n  - NSK-000064_stay_duration.yml\n  - NSK-000065_sector_overlap.yml\n  - NSK-000066_annual_monthly_overlap.yml\n  - NSK-000067_compass_bearing.yml\n  - NSK-000068_map_projection.yml\n  - NSK-000069_magnetic_true_north.yml\n  - NSK-000070_direction_uncertainty.yml\n  - NSK-000071_risshun_year_start.yml\n  - NSK-000072_monthly_solar_terms.yml\n  - NSK-000073_leap_calendar_handling.yml\n  - NSK-000074_longitude_time_adjustment.yml\n  - NSK-000075_date_rollover.yml\n  - NSK-000076_winter_solstice_rule.yml\n  - NSK-000077_summer_solstice_rule.yml\n  - NSK-000078_calendar_source.yml\n  - NSK-000079_calculation_reproducibility.yml\n  - NSK-000080_boundary_warning.yml\n  - NSK-000081_travel_planning.yml\n  - NSK-000082_moving_context.yml\n  - NSK-000083_daily_reflection.yml\n  - NSK-000084_monthly_reflection.yml\n  - NSK-000085_annual_reflection.yml\n  - NSK-000086_relationship_prompt.yml\n  - NSK-000087_location_comparison.yml\n  - NSK-000088_multiple_date_comparison.yml\n  - NSK-000089_user_preference.yml\n  - NSK-000090_practical_constraints.yml\n  - NSK-000091_no_travel_safety_claim.yml\n  - NSK-000092_no_disaster_prediction.yml\n  - NSK-000093_no_personality_fixing.yml\n  - NSK-000094_calendar_variation.yml\n  - NSK-000095_school_variation.yml\n  - NSK-000096_no_fatalism.yml\n  - NSK-000097_no_financial_decision.yml\n  - NSK-000098_high_impact_exclusion.yml\n  - NSK-000099_location_privacy.yml\n  - NSK-000100_reflective_use.yml\nnotes:\n  - 伝統的・文化的解釈として扱い心理学的エビデンスと混同しない\n  - 計算方式・流派・入力精度・出典を結果とともに保持する\n  - 医療・雇用・教育・保険・信用・法執行など高影響判断には利用しない\n",
+  "items": [
+    {
+      "filename": "NSK-000001_nine_star_ki.yml",
+      "id": "NSK-000001",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "九星気学",
+      "name_en": "Nine Star Ki",
+      "category": "Nine Star Ki",
+      "attribute": "Foundations",
+      "definition_ja": "九星気学は、九星・五行・方位・暦周期を組み合わせる日本の占術体系を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、九星気学を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000002_nine_palace_grid.yml",
+      "id": "NSK-000002",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "九宮盤",
+      "name_en": "Nine-Palace Grid",
+      "category": "Nine Star Ki",
+      "attribute": "Foundations",
+      "definition_ja": "九宮盤は、中央と八方位へ九星を配置する盤を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、九宮盤を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000003_later_heaven_bagua.yml",
+      "id": "NSK-000003",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "後天八卦",
+      "name_en": "Later-Heaven Bagua",
+      "category": "Nine Star Ki",
+      "attribute": "Foundations",
+      "definition_ja": "後天八卦は、八方位と八卦を対応づける配列を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、後天八卦を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000004_five_phase_assignment.yml",
+      "id": "NSK-000004",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "九星五行配当",
+      "name_en": "Nine-Star Phase Assignment",
+      "category": "Nine Star Ki",
+      "attribute": "Foundations",
+      "definition_ja": "九星五行配当は、各九星を五行へ配当することを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、九星五行配当を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000005_annual_cycle.yml",
+      "id": "NSK-000005",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "年盤",
+      "name_en": "Annual Chart",
+      "category": "Nine Star Ki",
+      "attribute": "Foundations",
+      "definition_ja": "年盤は、年単位で九星配置が移る盤を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、年盤を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000006_monthly_cycle.yml",
+      "id": "NSK-000006",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "月盤",
+      "name_en": "Monthly Chart",
+      "category": "Nine Star Ki",
+      "attribute": "Foundations",
+      "definition_ja": "月盤は、月単位で九星配置が移る盤を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、月盤を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000007_daily_cycle.yml",
+      "id": "NSK-000007",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "日盤",
+      "name_en": "Daily Chart",
+      "category": "Nine Star Ki",
+      "attribute": "Foundations",
+      "definition_ja": "日盤は、日単位で九星配置が移る盤を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、日盤を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000008_hourly_cycle.yml",
+      "id": "NSK-000008",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "時盤",
+      "name_en": "Hourly Chart",
+      "category": "Nine Star Ki",
+      "attribute": "Foundations",
+      "definition_ja": "時盤は、時刻単位で九星配置を扱う盤を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、時盤を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000009_school_declaration.yml",
+      "id": "NSK-000009",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "流派宣言",
+      "name_en": "School Declaration",
+      "category": "Nine Star Ki",
+      "attribute": "Foundations",
+      "definition_ja": "流派宣言は、節替わり・日盤・傾斜等の採用規則を明示することを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、流派宣言を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000010_calculation_trace.yml",
+      "id": "NSK-000010",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "盤計算追跡",
+      "name_en": "Chart Calculation Trace",
+      "category": "Nine Star Ki",
+      "attribute": "Foundations",
+      "definition_ja": "盤計算追跡は、暦入力から各盤までを再現可能にすることを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、盤計算追跡を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000011_one_white_water.yml",
+      "id": "NSK-000011",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "一白水星",
+      "name_en": "One White Water",
+      "category": "Nine Star Ki",
+      "attribute": "Nine Stars",
+      "definition_ja": "一白水星は、九星の一白水星に割り当てられる数・色・五行・宮位の伝統的対応を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:九星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、一白水星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000012_two_black_earth.yml",
+      "id": "NSK-000012",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "二黒土星",
+      "name_en": "Two Black Earth",
+      "category": "Nine Star Ki",
+      "attribute": "Nine Stars",
+      "definition_ja": "二黒土星は、九星の二黒土星に割り当てられる数・色・五行・宮位の伝統的対応を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:九星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、二黒土星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000013_three_jade_wood.yml",
+      "id": "NSK-000013",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "三碧木星",
+      "name_en": "Three Jade Wood",
+      "category": "Nine Star Ki",
+      "attribute": "Nine Stars",
+      "definition_ja": "三碧木星は、九星の三碧木星に割り当てられる数・色・五行・宮位の伝統的対応を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:九星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、三碧木星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000014_four_green_wood.yml",
+      "id": "NSK-000014",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "四緑木星",
+      "name_en": "Four Green Wood",
+      "category": "Nine Star Ki",
+      "attribute": "Nine Stars",
+      "definition_ja": "四緑木星は、九星の四緑木星に割り当てられる数・色・五行・宮位の伝統的対応を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:九星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、四緑木星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000015_five_yellow_earth.yml",
+      "id": "NSK-000015",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "五黄土星",
+      "name_en": "Five Yellow Earth",
+      "category": "Nine Star Ki",
+      "attribute": "Nine Stars",
+      "definition_ja": "五黄土星は、九星の五黄土星に割り当てられる数・色・五行・宮位の伝統的対応を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:九星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、五黄土星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000016_six_white_metal.yml",
+      "id": "NSK-000016",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "六白金星",
+      "name_en": "Six White Metal",
+      "category": "Nine Star Ki",
+      "attribute": "Nine Stars",
+      "definition_ja": "六白金星は、九星の六白金星に割り当てられる数・色・五行・宮位の伝統的対応を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:九星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、六白金星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000017_seven_red_metal.yml",
+      "id": "NSK-000017",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "七赤金星",
+      "name_en": "Seven Red Metal",
+      "category": "Nine Star Ki",
+      "attribute": "Nine Stars",
+      "definition_ja": "七赤金星は、九星の七赤金星に割り当てられる数・色・五行・宮位の伝統的対応を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:九星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、七赤金星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000018_eight_white_earth.yml",
+      "id": "NSK-000018",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "八白土星",
+      "name_en": "Eight White Earth",
+      "category": "Nine Star Ki",
+      "attribute": "Nine Stars",
+      "definition_ja": "八白土星は、九星の八白土星に割り当てられる数・色・五行・宮位の伝統的対応を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:九星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、八白土星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000019_nine_purple_fire.yml",
+      "id": "NSK-000019",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "九紫火星",
+      "name_en": "Nine Purple Fire",
+      "category": "Nine Star Ki",
+      "attribute": "Nine Stars",
+      "definition_ja": "九紫火星は、九星の九紫火星に割り当てられる数・色・五行・宮位の伝統的対応を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:九星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、九紫火星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000020_center_palace.yml",
+      "id": "NSK-000020",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "中宮",
+      "name_en": "Center Palace",
+      "category": "Nine Star Ki",
+      "attribute": "Palaces and Directions",
+      "definition_ja": "中宮は、九宮盤の中宮に割り当てられる方位・卦・五行の対応を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:九宮方位",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九宮方位"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、中宮を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000021_north.yml",
+      "id": "NSK-000021",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "北",
+      "name_en": "North",
+      "category": "Nine Star Ki",
+      "attribute": "Palaces and Directions",
+      "definition_ja": "北は、九宮盤の北に割り当てられる方位・卦・五行の対応を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:九宮方位",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九宮方位"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、北を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000022_southwest.yml",
+      "id": "NSK-000022",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "南西",
+      "name_en": "Southwest",
+      "category": "Nine Star Ki",
+      "attribute": "Palaces and Directions",
+      "definition_ja": "南西は、九宮盤の南西に割り当てられる方位・卦・五行の対応を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:九宮方位",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九宮方位"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、南西を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000023_east.yml",
+      "id": "NSK-000023",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "東",
+      "name_en": "East",
+      "category": "Nine Star Ki",
+      "attribute": "Palaces and Directions",
+      "definition_ja": "東は、九宮盤の東に割り当てられる方位・卦・五行の対応を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:九宮方位",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九宮方位"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、東を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000024_southeast.yml",
+      "id": "NSK-000024",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "南東",
+      "name_en": "Southeast",
+      "category": "Nine Star Ki",
+      "attribute": "Palaces and Directions",
+      "definition_ja": "南東は、九宮盤の南東に割り当てられる方位・卦・五行の対応を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:九宮方位",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九宮方位"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、南東を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000025_northwest.yml",
+      "id": "NSK-000025",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "北西",
+      "name_en": "Northwest",
+      "category": "Nine Star Ki",
+      "attribute": "Palaces and Directions",
+      "definition_ja": "北西は、九宮盤の北西に割り当てられる方位・卦・五行の対応を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:九宮方位",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九宮方位"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、北西を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000026_west.yml",
+      "id": "NSK-000026",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "西",
+      "name_en": "West",
+      "category": "Nine Star Ki",
+      "attribute": "Palaces and Directions",
+      "definition_ja": "西は、九宮盤の西に割り当てられる方位・卦・五行の対応を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:九宮方位",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九宮方位"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、西を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000027_northeast.yml",
+      "id": "NSK-000027",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "北東",
+      "name_en": "Northeast",
+      "category": "Nine Star Ki",
+      "attribute": "Palaces and Directions",
+      "definition_ja": "北東は、九宮盤の北東に割り当てられる方位・卦・五行の対応を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:九宮方位",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九宮方位"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、北東を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000028_south.yml",
+      "id": "NSK-000028",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "南",
+      "name_en": "South",
+      "category": "Nine Star Ki",
+      "attribute": "Palaces and Directions",
+      "definition_ja": "南は、九宮盤の南に割り当てられる方位・卦・五行の対応を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:九宮方位",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "九宮方位"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、南を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000029_annual_flight.yml",
+      "id": "NSK-000029",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "年盤遁行",
+      "name_en": "Annual Flight",
+      "category": "Nine Star Ki",
+      "attribute": "Cycles",
+      "definition_ja": "年盤遁行は、年ごとに中宮星と配置を移す規則を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:運行周期",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "運行周期"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、年盤遁行を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000030_monthly_flight.yml",
+      "id": "NSK-000030",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "月盤遁行",
+      "name_en": "Monthly Flight",
+      "category": "Nine Star Ki",
+      "attribute": "Cycles",
+      "definition_ja": "月盤遁行は、月ごとに九星配置を移す規則を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:運行周期",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "運行周期"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、月盤遁行を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000031_daily_flight.yml",
+      "id": "NSK-000031",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "日盤遁行",
+      "name_en": "Daily Flight",
+      "category": "Nine Star Ki",
+      "attribute": "Cycles",
+      "definition_ja": "日盤遁行は、日ごとに九星配置を移す規則を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:運行周期",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "運行周期"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、日盤遁行を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000032_hourly_flight.yml",
+      "id": "NSK-000032",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "時盤遁行",
+      "name_en": "Hourly Flight",
+      "category": "Nine Star Ki",
+      "attribute": "Cycles",
+      "definition_ja": "時盤遁行は、時刻ごとに九星配置を移す規則を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:運行周期",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "運行周期"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、時盤遁行を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000033_yang_flight.yml",
+      "id": "NSK-000033",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "陽遁",
+      "name_en": "Yang Flight",
+      "category": "Nine Star Ki",
+      "attribute": "Cycles",
+      "definition_ja": "陽遁は、九星を順方向へ巡らせる周期方式を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:運行周期",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "運行周期"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、陽遁を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000034_yin_flight.yml",
+      "id": "NSK-000034",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "陰遁",
+      "name_en": "Yin Flight",
+      "category": "Nine Star Ki",
+      "attribute": "Cycles",
+      "definition_ja": "陰遁は、九星を逆方向へ巡らせる周期方式を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:運行周期",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "運行周期"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、陰遁を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000035_solar_term_switch.yml",
+      "id": "NSK-000035",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "節替わり",
+      "name_en": "Solar-Term Switch",
+      "category": "Nine Star Ki",
+      "attribute": "Cycles",
+      "definition_ja": "節替わりは、節気を年・月の境界に用いる規則を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:運行周期",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "運行周期"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、節替わりを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000036_nine_year_cycle.yml",
+      "id": "NSK-000036",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "九年周期",
+      "name_en": "Nine-Year Cycle",
+      "category": "Nine Star Ki",
+      "attribute": "Cycles",
+      "definition_ja": "九年周期は、年盤の九星が巡る周期を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:運行周期",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "運行周期"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、九年周期を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000037_nine_month_cycle.yml",
+      "id": "NSK-000037",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "九か月周期",
+      "name_en": "Nine-Month Cycle",
+      "category": "Nine Star Ki",
+      "attribute": "Cycles",
+      "definition_ja": "九か月周期は、月盤の九星が巡る周期を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:運行周期",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "運行周期"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、九か月周期を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000038_nine_day_cycle.yml",
+      "id": "NSK-000038",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "九日周期",
+      "name_en": "Nine-Day Cycle",
+      "category": "Nine Star Ki",
+      "attribute": "Cycles",
+      "definition_ja": "九日周期は、日盤で九星が巡る基本周期を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:運行周期",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "運行周期"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、九日周期を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000039_cycle_boundary.yml",
+      "id": "NSK-000039",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "周期境界",
+      "name_en": "Cycle Boundary",
+      "category": "Nine Star Ki",
+      "attribute": "Cycles",
+      "definition_ja": "周期境界は、節入りや陰陽遁切替の境界を明示することを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:運行周期",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "運行周期"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、周期境界を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000040_cycle_version.yml",
+      "id": "NSK-000040",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "暦表版管理",
+      "name_en": "Calendar-Table Version",
+      "category": "Nine Star Ki",
+      "attribute": "Cycles",
+      "definition_ja": "暦表版管理は、採用する万年暦・計算法の版を保持することを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:運行周期",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "運行周期"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、暦表版管理を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000041_main_star.yml",
+      "id": "NSK-000041",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "本命星",
+      "name_en": "Main Birth Star",
+      "category": "Nine Star Ki",
+      "attribute": "Personal Stars",
+      "definition_ja": "本命星は、出生年から求める九星分類を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:個人星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "個人星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、本命星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000042_month_star.yml",
+      "id": "NSK-000042",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "月命星",
+      "name_en": "Month Birth Star",
+      "category": "Nine Star Ki",
+      "attribute": "Personal Stars",
+      "definition_ja": "月命星は、出生月から求める九星分類を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:個人星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "個人星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、月命星を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000043_inclination.yml",
+      "id": "NSK-000043",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "傾斜",
+      "name_en": "Inclination",
+      "category": "Nine Star Ki",
+      "attribute": "Personal Stars",
+      "definition_ja": "傾斜は、本命星と月命星の配置関係から求める流派分類を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:個人星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "個人星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、傾斜を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000044_main_palace.yml",
+      "id": "NSK-000044",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "本命宮",
+      "name_en": "Main Birth Palace",
+      "category": "Nine Star Ki",
+      "attribute": "Personal Stars",
+      "definition_ja": "本命宮は、本命星が年盤上で位置する宮を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:個人星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "個人星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、本命宮を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000045_opposite_main.yml",
+      "id": "NSK-000045",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "本命的殺",
+      "name_en": "Opposite Main Direction",
+      "category": "Nine Star Ki",
+      "attribute": "Personal Stars",
+      "definition_ja": "本命的殺は、本命星の反対宮を扱う伝統的方位概念を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:個人星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "個人星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、本命的殺を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000046_same_star_relation.yml",
+      "id": "NSK-000046",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "同会",
+      "name_en": "Same-Star Relation",
+      "category": "Nine Star Ki",
+      "attribute": "Personal Stars",
+      "definition_ja": "同会は、本命星と盤の九星が重なる関係を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:個人星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "個人星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、同会を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000047_phase_relation.yml",
+      "id": "NSK-000047",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "五行関係",
+      "name_en": "Phase Relation",
+      "category": "Nine Star Ki",
+      "attribute": "Personal Stars",
+      "definition_ja": "五行関係は、本人星と方位星の相生・相剋関係を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:個人星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "個人星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、五行関係を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000048_annual_personal_context.yml",
+      "id": "NSK-000048",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "年盤個人文脈",
+      "name_en": "Annual Personal Context",
+      "category": "Nine Star Ki",
+      "attribute": "Personal Stars",
+      "definition_ja": "年盤個人文脈は、本命星と年盤配置を重ねることを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:個人星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "個人星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、年盤個人文脈を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000049_monthly_personal_context.yml",
+      "id": "NSK-000049",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "月盤個人文脈",
+      "name_en": "Monthly Personal Context",
+      "category": "Nine Star Ki",
+      "attribute": "Personal Stars",
+      "definition_ja": "月盤個人文脈は、本命星・月命星と月盤を重ねることを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:個人星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "個人星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、月盤個人文脈を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000050_personal_uncertainty.yml",
+      "id": "NSK-000050",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "個人星不確実性",
+      "name_en": "Personal-Star Uncertainty",
+      "category": "Nine Star Ki",
+      "attribute": "Personal Stars",
+      "definition_ja": "個人星不確実性は、立春・節入り付近の出生で計算差を表示することを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:個人星",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "個人星"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、個人星不確実性を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000051_auspicious_direction.yml",
+      "id": "NSK-000051",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "吉方位",
+      "name_en": "Auspicious Direction",
+      "category": "Nine Star Ki",
+      "attribute": "Directional Concepts",
+      "definition_ja": "吉方位は、九星気学で吉方位を扱う際の伝統的計算・分類概念を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:方位概念",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方位概念"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、吉方位を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000052_inauspicious_direction.yml",
+      "id": "NSK-000052",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "凶方位",
+      "name_en": "Inauspicious Direction",
+      "category": "Nine Star Ki",
+      "attribute": "Directional Concepts",
+      "definition_ja": "凶方位は、九星気学で凶方位を扱う際の伝統的計算・分類概念を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:方位概念",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方位概念"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、凶方位を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000053_five_yellow_direction.yml",
+      "id": "NSK-000053",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "五黄殺",
+      "name_en": "Five Yellow Direction",
+      "category": "Nine Star Ki",
+      "attribute": "Directional Concepts",
+      "definition_ja": "五黄殺は、九星気学で五黄殺を扱う際の伝統的計算・分類概念を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:方位概念",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方位概念"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、五黄殺を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000054_opposite_five_yellow.yml",
+      "id": "NSK-000054",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "暗剣殺",
+      "name_en": "Opposite Five Yellow",
+      "category": "Nine Star Ki",
+      "attribute": "Directional Concepts",
+      "definition_ja": "暗剣殺は、九星気学で暗剣殺を扱う際の伝統的計算・分類概念を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:方位概念",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方位概念"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、暗剣殺を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000055_year_breaker.yml",
+      "id": "NSK-000055",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "歳破",
+      "name_en": "Year Breaker",
+      "category": "Nine Star Ki",
+      "attribute": "Directional Concepts",
+      "definition_ja": "歳破は、九星気学で歳破を扱う際の伝統的計算・分類概念を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:方位概念",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方位概念"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、歳破を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000056_month_breaker.yml",
+      "id": "NSK-000056",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "月破",
+      "name_en": "Month Breaker",
+      "category": "Nine Star Ki",
+      "attribute": "Directional Concepts",
+      "definition_ja": "月破は、九星気学で月破を扱う際の伝統的計算・分類概念を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:方位概念",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方位概念"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、月破を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000057_main_star_killing.yml",
+      "id": "NSK-000057",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "本命殺",
+      "name_en": "Main-Star Killing",
+      "category": "Nine Star Ki",
+      "attribute": "Directional Concepts",
+      "definition_ja": "本命殺は、九星気学で本命殺を扱う際の伝統的計算・分類概念を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:方位概念",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方位概念"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、本命殺を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000058_opposite_main_star.yml",
+      "id": "NSK-000058",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "本命的殺",
+      "name_en": "Opposite Main-Star Killing",
+      "category": "Nine Star Ki",
+      "attribute": "Directional Concepts",
+      "definition_ja": "本命的殺は、九星気学で本命的殺を扱う際の伝統的計算・分類概念を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:方位概念",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方位概念"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、本命的殺を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000059_directional_distance.yml",
+      "id": "NSK-000059",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "方位距離",
+      "name_en": "Directional Distance",
+      "category": "Nine Star Ki",
+      "attribute": "Directional Concepts",
+      "definition_ja": "方位距離は、九星気学で方位距離を扱う際の伝統的計算・分類概念を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:方位概念",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方位概念"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、方位距離を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000060_directional_boundary.yml",
+      "id": "NSK-000060",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "方位境界",
+      "name_en": "Directional Boundary",
+      "category": "Nine Star Ki",
+      "attribute": "Directional Concepts",
+      "definition_ja": "方位境界は、九星気学で方位境界を扱う際の伝統的計算・分類概念を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:方位概念",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方位概念"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、方位境界を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000061_departure_point.yml",
+      "id": "NSK-000061",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "出発地点",
+      "name_en": "Departure Point",
+      "category": "Nine Star Ki",
+      "attribute": "Directional Concepts",
+      "definition_ja": "出発地点は、九星気学で出発地点を扱う際の伝統的計算・分類概念を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:方位概念",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方位概念"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、出発地点を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000062_destination_point.yml",
+      "id": "NSK-000062",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "目的地点",
+      "name_en": "Destination Point",
+      "category": "Nine Star Ki",
+      "attribute": "Directional Concepts",
+      "definition_ja": "目的地点は、九星気学で目的地点を扱う際の伝統的計算・分類概念を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:方位概念",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方位概念"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、目的地点を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000063_travel_date.yml",
+      "id": "NSK-000063",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "移動日",
+      "name_en": "Travel Date",
+      "category": "Nine Star Ki",
+      "attribute": "Directional Concepts",
+      "definition_ja": "移動日は、九星気学で移動日を扱う際の伝統的計算・分類概念を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:方位概念",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方位概念"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、移動日を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000064_stay_duration.yml",
+      "id": "NSK-000064",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "滞在期間",
+      "name_en": "Stay Duration",
+      "category": "Nine Star Ki",
+      "attribute": "Directional Concepts",
+      "definition_ja": "滞在期間は、九星気学で滞在期間を扱う際の伝統的計算・分類概念を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:方位概念",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方位概念"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、滞在期間を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000065_sector_overlap.yml",
+      "id": "NSK-000065",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "方位重複",
+      "name_en": "Sector Overlap",
+      "category": "Nine Star Ki",
+      "attribute": "Directional Concepts",
+      "definition_ja": "方位重複は、九星気学で方位重複を扱う際の伝統的計算・分類概念を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:方位概念",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方位概念"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、方位重複を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000066_annual_monthly_overlap.yml",
+      "id": "NSK-000066",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "年月盤重合",
+      "name_en": "Annual-Monthly Overlap",
+      "category": "Nine Star Ki",
+      "attribute": "Directional Concepts",
+      "definition_ja": "年月盤重合は、九星気学で年月盤重合を扱う際の伝統的計算・分類概念を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:方位概念",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方位概念"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、年月盤重合を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000067_compass_bearing.yml",
+      "id": "NSK-000067",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "方位角",
+      "name_en": "Compass Bearing",
+      "category": "Nine Star Ki",
+      "attribute": "Directional Concepts",
+      "definition_ja": "方位角は、九星気学で方位角を扱う際の伝統的計算・分類概念を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:方位概念",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方位概念"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、方位角を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000068_map_projection.yml",
+      "id": "NSK-000068",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "地図投影",
+      "name_en": "Map Projection",
+      "category": "Nine Star Ki",
+      "attribute": "Directional Concepts",
+      "definition_ja": "地図投影は、九星気学で地図投影を扱う際の伝統的計算・分類概念を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:方位概念",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方位概念"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、地図投影を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000069_magnetic_true_north.yml",
+      "id": "NSK-000069",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "磁北・真北差",
+      "name_en": "Magnetic-True North Difference",
+      "category": "Nine Star Ki",
+      "attribute": "Directional Concepts",
+      "definition_ja": "磁北・真北差は、九星気学で磁北・真北差を扱う際の伝統的計算・分類概念を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:方位概念",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方位概念"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、磁北・真北差を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000070_direction_uncertainty.yml",
+      "id": "NSK-000070",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "方位不確実性",
+      "name_en": "Direction Uncertainty",
+      "category": "Nine Star Ki",
+      "attribute": "Directional Concepts",
+      "definition_ja": "方位不確実性は、九星気学で方位不確実性を扱う際の伝統的計算・分類概念を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:方位概念",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方位概念"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、方位不確実性を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000071_risshun_year_start.yml",
+      "id": "NSK-000071",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "立春年始",
+      "name_en": "Risshun Year Start",
+      "category": "Nine Star Ki",
+      "attribute": "Calendar Calculation",
+      "definition_ja": "立春年始は、立春を年盤切替の基準とすることを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:暦計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "暦計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、立春年始を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000072_monthly_solar_terms.yml",
+      "id": "NSK-000072",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "節月",
+      "name_en": "Solar-Term Months",
+      "category": "Nine Star Ki",
+      "attribute": "Calendar Calculation",
+      "definition_ja": "節月は、節入りを月盤切替の基準とすることを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:暦計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "暦計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、節月を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000073_leap_calendar_handling.yml",
+      "id": "NSK-000073",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "閏処理",
+      "name_en": "Leap Handling",
+      "category": "Nine Star Ki",
+      "attribute": "Calendar Calculation",
+      "definition_ja": "閏処理は、暦上の例外や補正を明示することを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:暦計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "暦計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、閏処理を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000074_longitude_time_adjustment.yml",
+      "id": "NSK-000074",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "経度時差補正",
+      "name_en": "Longitude Time Adjustment",
+      "category": "Nine Star Ki",
+      "attribute": "Calendar Calculation",
+      "definition_ja": "経度時差補正は、必要な流派で地方時を考慮することを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:暦計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "暦計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、経度時差補正を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000075_date_rollover.yml",
+      "id": "NSK-000075",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "日界規則",
+      "name_en": "Date Rollover",
+      "category": "Nine Star Ki",
+      "attribute": "Calendar Calculation",
+      "definition_ja": "日界規則は、日盤の切替時刻を明示することを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:暦計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "暦計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、日界規則を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000076_winter_solstice_rule.yml",
+      "id": "NSK-000076",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "冬至規則",
+      "name_en": "Winter-Solstice Rule",
+      "category": "Nine Star Ki",
+      "attribute": "Calendar Calculation",
+      "definition_ja": "冬至規則は、陰陽遁切替に関する採用規則を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:暦計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "暦計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、冬至規則を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000077_summer_solstice_rule.yml",
+      "id": "NSK-000077",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "夏至規則",
+      "name_en": "Summer-Solstice Rule",
+      "category": "Nine Star Ki",
+      "attribute": "Calendar Calculation",
+      "definition_ja": "夏至規則は、陰陽遁切替に関する採用規則を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:暦計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "暦計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、夏至規則を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000078_calendar_source.yml",
+      "id": "NSK-000078",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "万年暦出典",
+      "name_en": "Calendar Source",
+      "category": "Nine Star Ki",
+      "attribute": "Calendar Calculation",
+      "definition_ja": "万年暦出典は、盤作成に用いた暦資料を記録することを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:暦計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "暦計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、万年暦出典を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000079_calculation_reproducibility.yml",
+      "id": "NSK-000079",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "計算再現性",
+      "name_en": "Calculation Reproducibility",
+      "category": "Nine Star Ki",
+      "attribute": "Calendar Calculation",
+      "definition_ja": "計算再現性は、入力と規則から同じ盤を再生成できることを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:暦計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "暦計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、計算再現性を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000080_boundary_warning.yml",
+      "id": "NSK-000080",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "境界警告",
+      "name_en": "Boundary Warning",
+      "category": "Nine Star Ki",
+      "attribute": "Calendar Calculation",
+      "definition_ja": "境界警告は、節入り・日界付近で複数候補を表示することを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:暦計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "暦計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、境界警告を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000081_travel_planning.yml",
+      "id": "NSK-000081",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "移動計画",
+      "name_en": "Travel Planning",
+      "category": "Nine Star Ki",
+      "attribute": "Applications",
+      "definition_ja": "移動計画は、移動方位を伝統的象徴として検討する用途を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:応用",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "応用"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、移動計画を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000082_moving_context.yml",
+      "id": "NSK-000082",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "転居文脈",
+      "name_en": "Moving Context",
+      "category": "Nine Star Ki",
+      "attribute": "Applications",
+      "definition_ja": "転居文脈は、転居方位・時期を文化的参照として扱う用途を表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:応用",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "応用"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、転居文脈を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000083_daily_reflection.yml",
+      "id": "NSK-000083",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "日次内省",
+      "name_en": "Daily Reflection",
+      "category": "Nine Star Ki",
+      "attribute": "Applications",
+      "definition_ja": "日次内省は、日盤を日々の内省テーマに用いることを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:応用",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "応用"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、日次内省を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000084_monthly_reflection.yml",
+      "id": "NSK-000084",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "月次内省",
+      "name_en": "Monthly Reflection",
+      "category": "Nine Star Ki",
+      "attribute": "Applications",
+      "definition_ja": "月次内省は、月盤を月ごとの内省テーマに用いることを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:応用",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "応用"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、月次内省を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000085_annual_reflection.yml",
+      "id": "NSK-000085",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "年次内省",
+      "name_en": "Annual Reflection",
+      "category": "Nine Star Ki",
+      "attribute": "Applications",
+      "definition_ja": "年次内省は、年盤を年ごとの内省テーマに用いることを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:応用",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "応用"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、年次内省を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000086_relationship_prompt.yml",
+      "id": "NSK-000086",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "関係対話",
+      "name_en": "Relationship Prompt",
+      "category": "Nine Star Ki",
+      "attribute": "Applications",
+      "definition_ja": "関係対話は、個人星の関係を会話の問いに変換することを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:応用",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "応用"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、関係対話を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000087_location_comparison.yml",
+      "id": "NSK-000087",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "地点比較",
+      "name_en": "Location Comparison",
+      "category": "Nine Star Ki",
+      "attribute": "Applications",
+      "definition_ja": "地点比較は、複数候補地の方位条件を並列表示することを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:応用",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "応用"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、地点比較を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000088_multiple_date_comparison.yml",
+      "id": "NSK-000088",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "日程比較",
+      "name_en": "Date Comparison",
+      "category": "Nine Star Ki",
+      "attribute": "Applications",
+      "definition_ja": "日程比較は、複数日程の盤を断定せず比較表示することを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:応用",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "応用"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、日程比較を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000089_user_preference.yml",
+      "id": "NSK-000089",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "本人選好",
+      "name_en": "User Preference",
+      "category": "Nine Star Ki",
+      "attribute": "Applications",
+      "definition_ja": "本人選好は、占術結果より安全・費用・本人希望を優先することを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:応用",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "応用"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、本人選好を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000090_practical_constraints.yml",
+      "id": "NSK-000090",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "現実制約",
+      "name_en": "Practical Constraints",
+      "category": "Nine Star Ki",
+      "attribute": "Applications",
+      "definition_ja": "現実制約は、交通・天候・健康・法令等を占術より優先することを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:応用",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "応用"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、現実制約を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000091_no_travel_safety_claim.yml",
+      "id": "NSK-000091",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "移動安全保証禁止",
+      "name_en": "No Travel Safety Claim",
+      "category": "Nine Star Ki",
+      "attribute": "Safety and Limits",
+      "definition_ja": "移動安全保証禁止は、吉凶方位から事故や安全を予測しないことを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、移動安全保証禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000092_no_disaster_prediction.yml",
+      "id": "NSK-000092",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "災害予測禁止",
+      "name_en": "No Disaster Prediction",
+      "category": "Nine Star Ki",
+      "attribute": "Safety and Limits",
+      "definition_ja": "災害予測禁止は、方位や盤から災害を予測しないことを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、災害予測禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000093_no_personality_fixing.yml",
+      "id": "NSK-000093",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "性格固定禁止",
+      "name_en": "No Personality Fixing",
+      "category": "Nine Star Ki",
+      "attribute": "Safety and Limits",
+      "definition_ja": "性格固定禁止は、本命星を固定的人格類型にしないことを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、性格固定禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000094_calendar_variation.yml",
+      "id": "NSK-000094",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "暦差表示",
+      "name_en": "Calendar Variation",
+      "category": "Nine Star Ki",
+      "attribute": "Safety and Limits",
+      "definition_ja": "暦差表示は、盤計算法・境界・暦表の差を表示することを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、暦差表示を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000095_school_variation.yml",
+      "id": "NSK-000095",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "流派差",
+      "name_en": "School Variation",
+      "category": "Nine Star Ki",
+      "attribute": "Safety and Limits",
+      "definition_ja": "流派差は、気学・方位術等の違いを混同しないことを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、流派差を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000096_no_fatalism.yml",
+      "id": "NSK-000096",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "凶方位宿命論回避",
+      "name_en": "Avoid Directional Fatalism",
+      "category": "Nine Star Ki",
+      "attribute": "Safety and Limits",
+      "definition_ja": "凶方位宿命論回避は、凶方位を不可避の災厄として表示しないことを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、凶方位宿命論回避を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000097_no_financial_decision.yml",
+      "id": "NSK-000097",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "金融判断禁止",
+      "name_en": "No Financial Decision",
+      "category": "Nine Star Ki",
+      "attribute": "Safety and Limits",
+      "definition_ja": "金融判断禁止は、投資・契約判断に方位結果を使用しないことを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、金融判断禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000098_high_impact_exclusion.yml",
+      "id": "NSK-000098",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "高影響利用禁止",
+      "name_en": "High-Impact Exclusion",
+      "category": "Nine Star Ki",
+      "attribute": "Safety and Limits",
+      "definition_ja": "高影響利用禁止は、雇用・教育・保険・信用等に利用しないことを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、高影響利用禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000099_location_privacy.yml",
+      "id": "NSK-000099",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "位置情報保護",
+      "name_en": "Location Privacy",
+      "category": "Nine Star Ki",
+      "attribute": "Safety and Limits",
+      "definition_ja": "位置情報保護は、住所・移動履歴・目的地の収集を最小化することを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、位置情報保護を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    },
+    {
+      "filename": "NSK-000100_reflective_use.yml",
+      "id": "NSK-000100",
+      "knowledge_type": "nine_star_ki",
+      "name_ja": "内省用途",
+      "name_en": "Reflective Use",
+      "category": "Nine Star Ki",
+      "attribute": "Safety and Limits",
+      "definition_ja": "内省用途は、方位結果を任意の内省・計画補助として示すことを表す九星気学参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:九星気学",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "九星気学・九星術",
+      "source_type": "生年月日・対象日時・地点・方位",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "対象日時",
+        "出発地",
+        "目的地",
+        "方位方式",
+        "暦表"
+      ],
+      "calculation_basis": "九星・九宮・五行・節気にもとづき年盤・月盤・日盤等を計算する",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "九星気学・九星術では、内省用途を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の九星・九宮・方位術と日本で体系化された気学諸流派"
+    }
+  ]
+}

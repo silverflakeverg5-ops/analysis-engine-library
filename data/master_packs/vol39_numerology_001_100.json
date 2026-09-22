@@ -1,0 +1,6407 @@
+{
+  "output_dir": "vol39_numerology/numerology_001_100",
+  "index_filename": "numerology_001_100_index.yml",
+  "index_content": "category: Numerology\nname_ja: 数秘術\nitems:\n  - NUM-000001_numerology.yml\n  - NUM-000002_arithmancy.yml\n  - NUM-000003_number_symbolism.yml\n  - NUM-000004_reduction.yml\n  - NUM-000005_alphabet_mapping.yml\n  - NUM-000006_system_declaration.yml\n  - NUM-000007_input_normalization.yml\n  - NUM-000008_calculation_trace.yml\n  - NUM-000009_cultural_context.yml\n  - NUM-000010_non_scientific_boundary.yml\n  - NUM-000011_life_path.yml\n  - NUM-000012_birthday_number.yml\n  - NUM-000013_expression_number.yml\n  - NUM-000014_soul_urge.yml\n  - NUM-000015_personality_number.yml\n  - NUM-000016_maturity_number.yml\n  - NUM-000017_balance_number.yml\n  - NUM-000018_attitude_number.yml\n  - NUM-000019_hidden_passion.yml\n  - NUM-000020_missing_numbers.yml\n  - NUM-000021_number_one.yml\n  - NUM-000022_number_two.yml\n  - NUM-000023_number_three.yml\n  - NUM-000024_number_four.yml\n  - NUM-000025_number_five.yml\n  - NUM-000026_number_six.yml\n  - NUM-000027_number_seven.yml\n  - NUM-000028_number_eight.yml\n  - NUM-000029_number_nine.yml\n  - NUM-000030_master_eleven.yml\n  - NUM-000031_master_twenty_two.yml\n  - NUM-000032_master_thirty_three.yml\n  - NUM-000033_karmic_thirteen.yml\n  - NUM-000034_karmic_fourteen.yml\n  - NUM-000035_karmic_sixteen.yml\n  - NUM-000036_karmic_nineteen.yml\n  - NUM-000037_compound_number.yml\n  - NUM-000038_zero_symbolism.yml\n  - NUM-000039_special_number_variation.yml\n  - NUM-000040_pythagorean_mapping.yml\n  - NUM-000041_chaldean_mapping.yml\n  - NUM-000042_full_birth_name.yml\n  - NUM-000043_current_name.yml\n  - NUM-000044_nickname.yml\n  - NUM-000045_vowel_classification.yml\n  - NUM-000046_letter_frequency.yml\n  - NUM-000047_name_normalization.yml\n  - NUM-000048_multilingual_name.yml\n  - NUM-000049_name_method_disclosure.yml\n  - NUM-000050_personal_year.yml\n  - NUM-000051_personal_month.yml\n  - NUM-000052_personal_day.yml\n  - NUM-000053_universal_year.yml\n  - NUM-000054_universal_month.yml\n  - NUM-000055_pinnacle_cycle.yml\n  - NUM-000056_challenge_cycle.yml\n  - NUM-000057_period_cycle.yml\n  - NUM-000058_cycle_boundary.yml\n  - NUM-000059_non_predictive_cycle.yml\n  - NUM-000060_western_modern.yml\n  - NUM-000061_greek_number_symbolism.yml\n  - NUM-000062_isopsephy.yml\n  - NUM-000063_gematria.yml\n  - NUM-000064_abjad_numerals.yml\n  - NUM-000065_chinese_number_symbolism.yml\n  - NUM-000066_japanese_number_symbolism.yml\n  - NUM-000067_system_non_equivalence.yml\n  - NUM-000068_historical_context.yml\n  - NUM-000069_source_provenance.yml\n  - NUM-000070_single_number_prompt.yml\n  - NUM-000071_number_combination.yml\n  - NUM-000072_repeated_number.yml\n  - NUM-000073_contrasting_numbers.yml\n  - NUM-000074_compound_and_reduced.yml\n  - NUM-000075_calculation_confidence.yml\n  - NUM-000076_interpretive_uncertainty.yml\n  - NUM-000077_user_resonance.yml\n  - NUM-000078_narrative_generation.yml\n  - NUM-000079_trait_link_boundary.yml\n  - NUM-000080_whole_profile.yml\n  - NUM-000081_self_reflection.yml\n  - NUM-000082_conversation_prompt.yml\n  - NUM-000083_character_creation.yml\n  - NUM-000084_daily_theme.yml\n  - NUM-000085_annual_theme.yml\n  - NUM-000086_name_variant_comparison.yml\n  - NUM-000087_method_comparison.yml\n  - NUM-000088_creative_prompt.yml\n  - NUM-000089_user_choice.yml\n  - NUM-000090_explainable_output.yml\n  - NUM-000091_no_mathematical_claim.yml\n  - NUM-000092_no_personality_fixing.yml\n  - NUM-000093_no_future_certainty.yml\n  - NUM-000094_no_health_prediction.yml\n  - NUM-000095_no_relationship_determinism.yml\n  - NUM-000096_no_financial_decision.yml\n  - NUM-000097_high_impact_exclusion.yml\n  - NUM-000098_name_privacy.yml\n  - NUM-000099_cultural_respect.yml\n  - NUM-000100_reflective_use.yml\nnotes:\n  - 伝統的・文化的解釈として扱い心理学的エビデンスと混同しない\n  - 計算方式・流派・入力精度・出典を結果とともに保持する\n  - 医療・雇用・教育・保険・信用・法執行など高影響判断には利用しない\n",
+  "items": [
+    {
+      "filename": "NUM-000001_numerology.yml",
+      "id": "NUM-000001",
+      "knowledge_type": "numerology",
+      "name_ja": "数秘術",
+      "name_en": "Numerology",
+      "category": "Numerology",
+      "attribute": "Foundations",
+      "definition_ja": "数秘術は、数と人物・出来事へ象徴的関係を与える諸伝統の総称を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、数秘術を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000002_arithmancy.yml",
+      "id": "NUM-000002",
+      "knowledge_type": "numerology",
+      "name_ja": "アリスマンシー",
+      "name_en": "Arithmancy",
+      "category": "Numerology",
+      "attribute": "Foundations",
+      "definition_ja": "アリスマンシーは、文字や数を用いる西洋の占数術系統を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、アリスマンシーを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000003_number_symbolism.yml",
+      "id": "NUM-000003",
+      "knowledge_type": "numerology",
+      "name_ja": "数象徴",
+      "name_en": "Number Symbolism",
+      "category": "Numerology",
+      "attribute": "Foundations",
+      "definition_ja": "数象徴は、文化・宗教・思想で数へ意味を対応づけることを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、数象徴を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000004_reduction.yml",
+      "id": "NUM-000004",
+      "knowledge_type": "numerology",
+      "name_ja": "数の還元",
+      "name_en": "Number Reduction",
+      "category": "Numerology",
+      "attribute": "Foundations",
+      "definition_ja": "数の還元は、複数桁を加算等で基本数へまとめる手続きを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、数の還元を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000005_alphabet_mapping.yml",
+      "id": "NUM-000005",
+      "knowledge_type": "numerology",
+      "name_ja": "文字数値対応",
+      "name_en": "Alphabet Mapping",
+      "category": "Numerology",
+      "attribute": "Foundations",
+      "definition_ja": "文字数値対応は、文字体系へ数値を割り当てる規則を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、文字数値対応を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000006_system_declaration.yml",
+      "id": "NUM-000006",
+      "knowledge_type": "numerology",
+      "name_ja": "方式宣言",
+      "name_en": "System Declaration",
+      "category": "Numerology",
+      "attribute": "Foundations",
+      "definition_ja": "方式宣言は、ピタゴラス式・カルデア式等の方式を明示することを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、方式宣言を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000007_input_normalization.yml",
+      "id": "NUM-000007",
+      "knowledge_type": "numerology",
+      "name_ja": "入力正規化",
+      "name_en": "Input Normalization",
+      "category": "Numerology",
+      "attribute": "Foundations",
+      "definition_ja": "入力正規化は、氏名表記・暦・区切り・記号の扱いを固定することを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、入力正規化を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000008_calculation_trace.yml",
+      "id": "NUM-000008",
+      "knowledge_type": "numerology",
+      "name_ja": "計算追跡",
+      "name_en": "Calculation Trace",
+      "category": "Numerology",
+      "attribute": "Foundations",
+      "definition_ja": "計算追跡は、入力から各数までの計算経路を保存することを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、計算追跡を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000009_cultural_context.yml",
+      "id": "NUM-000009",
+      "knowledge_type": "numerology",
+      "name_ja": "文化文脈",
+      "name_en": "Cultural Context",
+      "category": "Numerology",
+      "attribute": "Foundations",
+      "definition_ja": "文化文脈は、数の象徴が文化・時代・伝統で異なることを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、文化文脈を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000010_non_scientific_boundary.yml",
+      "id": "NUM-000010",
+      "knowledge_type": "numerology",
+      "name_ja": "非科学的根拠境界",
+      "name_en": "Non-Scientific Boundary",
+      "category": "Numerology",
+      "attribute": "Foundations",
+      "definition_ja": "非科学的根拠境界は、数学的性質と占術的象徴を混同しないことを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、非科学的根拠境界を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000011_life_path.yml",
+      "id": "NUM-000011",
+      "knowledge_type": "numerology",
+      "name_ja": "ライフパス数",
+      "name_en": "Life Path Number",
+      "category": "Numerology",
+      "attribute": "Core Calculations",
+      "definition_ja": "ライフパス数は、生年月日の数字を還元して得る代表的な数を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:主要数",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "主要数"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、ライフパス数を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000012_birthday_number.yml",
+      "id": "NUM-000012",
+      "knowledge_type": "numerology",
+      "name_ja": "誕生日数",
+      "name_en": "Birthday Number",
+      "category": "Numerology",
+      "attribute": "Core Calculations",
+      "definition_ja": "誕生日数は、出生した日の日付から得る数を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:主要数",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "主要数"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、誕生日数を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000013_expression_number.yml",
+      "id": "NUM-000013",
+      "knowledge_type": "numerology",
+      "name_ja": "表現数",
+      "name_en": "Expression Number",
+      "category": "Numerology",
+      "attribute": "Core Calculations",
+      "definition_ja": "表現数は、氏名全体の文字数値から得る数を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:主要数",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "主要数"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、表現数を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000014_soul_urge.yml",
+      "id": "NUM-000014",
+      "knowledge_type": "numerology",
+      "name_ja": "ソウル数",
+      "name_en": "Soul Urge Number",
+      "category": "Numerology",
+      "attribute": "Core Calculations",
+      "definition_ja": "ソウル数は、氏名中の母音に対応する数から得る数を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:主要数",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "主要数"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、ソウル数を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000015_personality_number.yml",
+      "id": "NUM-000015",
+      "knowledge_type": "numerology",
+      "name_ja": "パーソナリティ数",
+      "name_en": "Personality Number",
+      "category": "Numerology",
+      "attribute": "Core Calculations",
+      "definition_ja": "パーソナリティ数は、氏名中の子音に対応する数から得る数を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:主要数",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "主要数"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、パーソナリティ数を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000016_maturity_number.yml",
+      "id": "NUM-000016",
+      "knowledge_type": "numerology",
+      "name_ja": "成熟数",
+      "name_en": "Maturity Number",
+      "category": "Numerology",
+      "attribute": "Core Calculations",
+      "definition_ja": "成熟数は、複数の主要数を組み合わせて得る数を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:主要数",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "主要数"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、成熟数を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000017_balance_number.yml",
+      "id": "NUM-000017",
+      "knowledge_type": "numerology",
+      "name_ja": "バランス数",
+      "name_en": "Balance Number",
+      "category": "Numerology",
+      "attribute": "Core Calculations",
+      "definition_ja": "バランス数は、氏名の頭文字等を用いる流派計算を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:主要数",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "主要数"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、バランス数を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000018_attitude_number.yml",
+      "id": "NUM-000018",
+      "knowledge_type": "numerology",
+      "name_ja": "態度数",
+      "name_en": "Attitude Number",
+      "category": "Numerology",
+      "attribute": "Core Calculations",
+      "definition_ja": "態度数は、誕生月と誕生日を組み合わせる流派計算を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:主要数",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "主要数"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、態度数を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000019_hidden_passion.yml",
+      "id": "NUM-000019",
+      "knowledge_type": "numerology",
+      "name_ja": "隠れた情熱数",
+      "name_en": "Hidden Passion Number",
+      "category": "Numerology",
+      "attribute": "Core Calculations",
+      "definition_ja": "隠れた情熱数は、氏名数値の出現頻度から求める流派概念を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:主要数",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "主要数"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、隠れた情熱数を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000020_missing_numbers.yml",
+      "id": "NUM-000020",
+      "knowledge_type": "numerology",
+      "name_ja": "欠如数",
+      "name_en": "Missing Numbers",
+      "category": "Numerology",
+      "attribute": "Core Calculations",
+      "definition_ja": "欠如数は、氏名数値に現れない数を扱う流派概念を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:主要数",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "主要数"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、欠如数を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000021_number_one.yml",
+      "id": "NUM-000021",
+      "knowledge_type": "numerology",
+      "name_ja": "数1",
+      "name_en": "Number One",
+      "category": "Numerology",
+      "attribute": "Single Digits",
+      "definition_ja": "数1は、還元後の基本数数1に割り当てられる伝統的象徴を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:基本数",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基本数"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、数1を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000022_number_two.yml",
+      "id": "NUM-000022",
+      "knowledge_type": "numerology",
+      "name_ja": "数2",
+      "name_en": "Number Two",
+      "category": "Numerology",
+      "attribute": "Single Digits",
+      "definition_ja": "数2は、還元後の基本数数2に割り当てられる伝統的象徴を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:基本数",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基本数"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、数2を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000023_number_three.yml",
+      "id": "NUM-000023",
+      "knowledge_type": "numerology",
+      "name_ja": "数3",
+      "name_en": "Number Three",
+      "category": "Numerology",
+      "attribute": "Single Digits",
+      "definition_ja": "数3は、還元後の基本数数3に割り当てられる伝統的象徴を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:基本数",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基本数"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、数3を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000024_number_four.yml",
+      "id": "NUM-000024",
+      "knowledge_type": "numerology",
+      "name_ja": "数4",
+      "name_en": "Number Four",
+      "category": "Numerology",
+      "attribute": "Single Digits",
+      "definition_ja": "数4は、還元後の基本数数4に割り当てられる伝統的象徴を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:基本数",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基本数"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、数4を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000025_number_five.yml",
+      "id": "NUM-000025",
+      "knowledge_type": "numerology",
+      "name_ja": "数5",
+      "name_en": "Number Five",
+      "category": "Numerology",
+      "attribute": "Single Digits",
+      "definition_ja": "数5は、還元後の基本数数5に割り当てられる伝統的象徴を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:基本数",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基本数"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、数5を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000026_number_six.yml",
+      "id": "NUM-000026",
+      "knowledge_type": "numerology",
+      "name_ja": "数6",
+      "name_en": "Number Six",
+      "category": "Numerology",
+      "attribute": "Single Digits",
+      "definition_ja": "数6は、還元後の基本数数6に割り当てられる伝統的象徴を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:基本数",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基本数"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、数6を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000027_number_seven.yml",
+      "id": "NUM-000027",
+      "knowledge_type": "numerology",
+      "name_ja": "数7",
+      "name_en": "Number Seven",
+      "category": "Numerology",
+      "attribute": "Single Digits",
+      "definition_ja": "数7は、還元後の基本数数7に割り当てられる伝統的象徴を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:基本数",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基本数"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、数7を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000028_number_eight.yml",
+      "id": "NUM-000028",
+      "knowledge_type": "numerology",
+      "name_ja": "数8",
+      "name_en": "Number Eight",
+      "category": "Numerology",
+      "attribute": "Single Digits",
+      "definition_ja": "数8は、還元後の基本数数8に割り当てられる伝統的象徴を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:基本数",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基本数"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、数8を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000029_number_nine.yml",
+      "id": "NUM-000029",
+      "knowledge_type": "numerology",
+      "name_ja": "数9",
+      "name_en": "Number Nine",
+      "category": "Numerology",
+      "attribute": "Single Digits",
+      "definition_ja": "数9は、還元後の基本数数9に割り当てられる伝統的象徴を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:基本数",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基本数"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、数9を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000030_master_eleven.yml",
+      "id": "NUM-000030",
+      "knowledge_type": "numerology",
+      "name_ja": "マスターナンバー11",
+      "name_en": "Master Number 11",
+      "category": "Numerology",
+      "attribute": "Special Numbers",
+      "definition_ja": "マスターナンバー11は、還元を止める流派で11へ与える象徴を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:特殊数",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "特殊数"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、マスターナンバー11を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000031_master_twenty_two.yml",
+      "id": "NUM-000031",
+      "knowledge_type": "numerology",
+      "name_ja": "マスターナンバー22",
+      "name_en": "Master Number 22",
+      "category": "Numerology",
+      "attribute": "Special Numbers",
+      "definition_ja": "マスターナンバー22は、還元を止める流派で22へ与える象徴を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:特殊数",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "特殊数"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、マスターナンバー22を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000032_master_thirty_three.yml",
+      "id": "NUM-000032",
+      "knowledge_type": "numerology",
+      "name_ja": "マスターナンバー33",
+      "name_en": "Master Number 33",
+      "category": "Numerology",
+      "attribute": "Special Numbers",
+      "definition_ja": "マスターナンバー33は、還元を止める流派で33へ与える象徴を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:特殊数",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "特殊数"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、マスターナンバー33を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000033_karmic_thirteen.yml",
+      "id": "NUM-000033",
+      "knowledge_type": "numerology",
+      "name_ja": "カルマ数13",
+      "name_en": "Karmic Number 13",
+      "category": "Numerology",
+      "attribute": "Special Numbers",
+      "definition_ja": "カルマ数13は、一部流派で13へ与える課題象徴を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:特殊数",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "特殊数"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、カルマ数13を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000034_karmic_fourteen.yml",
+      "id": "NUM-000034",
+      "knowledge_type": "numerology",
+      "name_ja": "カルマ数14",
+      "name_en": "Karmic Number 14",
+      "category": "Numerology",
+      "attribute": "Special Numbers",
+      "definition_ja": "カルマ数14は、一部流派で14へ与える課題象徴を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:特殊数",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "特殊数"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、カルマ数14を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000035_karmic_sixteen.yml",
+      "id": "NUM-000035",
+      "knowledge_type": "numerology",
+      "name_ja": "カルマ数16",
+      "name_en": "Karmic Number 16",
+      "category": "Numerology",
+      "attribute": "Special Numbers",
+      "definition_ja": "カルマ数16は、一部流派で16へ与える課題象徴を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:特殊数",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "特殊数"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、カルマ数16を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000036_karmic_nineteen.yml",
+      "id": "NUM-000036",
+      "knowledge_type": "numerology",
+      "name_ja": "カルマ数19",
+      "name_en": "Karmic Number 19",
+      "category": "Numerology",
+      "attribute": "Special Numbers",
+      "definition_ja": "カルマ数19は、一部流派で19へ与える課題象徴を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:特殊数",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "特殊数"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、カルマ数19を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000037_compound_number.yml",
+      "id": "NUM-000037",
+      "knowledge_type": "numerology",
+      "name_ja": "複合数",
+      "name_en": "Compound Number",
+      "category": "Numerology",
+      "attribute": "Special Numbers",
+      "definition_ja": "複合数は、還元前の二桁以上も象徴として保持する方式を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:特殊数",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "特殊数"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、複合数を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000038_zero_symbolism.yml",
+      "id": "NUM-000038",
+      "knowledge_type": "numerology",
+      "name_ja": "数0",
+      "name_en": "Zero Symbolism",
+      "category": "Numerology",
+      "attribute": "Special Numbers",
+      "definition_ja": "数0は、0へ独自の象徴を与える近現代流派を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:特殊数",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "特殊数"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、数0を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000039_special_number_variation.yml",
+      "id": "NUM-000039",
+      "knowledge_type": "numerology",
+      "name_ja": "特殊数流派差",
+      "name_en": "Special-Number Variation",
+      "category": "Numerology",
+      "attribute": "Special Numbers",
+      "definition_ja": "特殊数流派差は、特殊数の採用範囲が流派で異なることを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:特殊数",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "特殊数"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、特殊数流派差を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000040_pythagorean_mapping.yml",
+      "id": "NUM-000040",
+      "knowledge_type": "numerology",
+      "name_ja": "ピタゴラス式配当",
+      "name_en": "Pythagorean Mapping",
+      "category": "Numerology",
+      "attribute": "Name Methods",
+      "definition_ja": "ピタゴラス式配当は、ラテン文字を1から9へ循環配当する近現代方式を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:氏名計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "氏名計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、ピタゴラス式配当を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000041_chaldean_mapping.yml",
+      "id": "NUM-000041",
+      "knowledge_type": "numerology",
+      "name_ja": "カルデア式配当",
+      "name_en": "Chaldean Mapping",
+      "category": "Numerology",
+      "attribute": "Name Methods",
+      "definition_ja": "カルデア式配当は、文字へ1から8を中心に配当する方式を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:氏名計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "氏名計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、カルデア式配当を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000042_full_birth_name.yml",
+      "id": "NUM-000042",
+      "knowledge_type": "numerology",
+      "name_ja": "出生時氏名",
+      "name_en": "Full Birth Name",
+      "category": "Numerology",
+      "attribute": "Name Methods",
+      "definition_ja": "出生時氏名は、出生時の正式氏名を入力とする方式を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:氏名計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "氏名計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、出生時氏名を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000043_current_name.yml",
+      "id": "NUM-000043",
+      "knowledge_type": "numerology",
+      "name_ja": "現在名",
+      "name_en": "Current Name",
+      "category": "Numerology",
+      "attribute": "Name Methods",
+      "definition_ja": "現在名は、現在使用する氏名を別入力として扱う方式を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:氏名計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "氏名計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、現在名を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000044_nickname.yml",
+      "id": "NUM-000044",
+      "knowledge_type": "numerology",
+      "name_ja": "通称",
+      "name_en": "Nickname",
+      "category": "Numerology",
+      "attribute": "Name Methods",
+      "definition_ja": "通称は、通称・芸名を別の表記単位として扱う方式を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:氏名計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "氏名計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、通称を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000045_vowel_classification.yml",
+      "id": "NUM-000045",
+      "knowledge_type": "numerology",
+      "name_ja": "母音分類",
+      "name_en": "Vowel Classification",
+      "category": "Numerology",
+      "attribute": "Name Methods",
+      "definition_ja": "母音分類は、文字を母音と子音へ分類する規則を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:氏名計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "氏名計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、母音分類を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000046_letter_frequency.yml",
+      "id": "NUM-000046",
+      "knowledge_type": "numerology",
+      "name_ja": "文字数値頻度",
+      "name_en": "Letter-Number Frequency",
+      "category": "Numerology",
+      "attribute": "Name Methods",
+      "definition_ja": "文字数値頻度は、対応数の出現回数を集計することを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:氏名計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "氏名計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、文字数値頻度を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000047_name_normalization.yml",
+      "id": "NUM-000047",
+      "knowledge_type": "numerology",
+      "name_ja": "氏名表記正規化",
+      "name_en": "Name Normalization",
+      "category": "Numerology",
+      "attribute": "Name Methods",
+      "definition_ja": "氏名表記正規化は、大文字小文字・記号・空白・アクセントを扱う規則を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:氏名計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "氏名計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、氏名表記正規化を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000048_multilingual_name.yml",
+      "id": "NUM-000048",
+      "knowledge_type": "numerology",
+      "name_ja": "多言語氏名",
+      "name_en": "Multilingual Name",
+      "category": "Numerology",
+      "attribute": "Name Methods",
+      "definition_ja": "多言語氏名は、異なる文字体系の氏名を一律変換しないことを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:氏名計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "氏名計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、多言語氏名を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000049_name_method_disclosure.yml",
+      "id": "NUM-000049",
+      "knowledge_type": "numerology",
+      "name_ja": "氏名方式表示",
+      "name_en": "Name-Method Disclosure",
+      "category": "Numerology",
+      "attribute": "Name Methods",
+      "definition_ja": "氏名方式表示は、採用した文字数値表と氏名版を表示することを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:氏名計算",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "氏名計算"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、氏名方式表示を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000050_personal_year.yml",
+      "id": "NUM-000050",
+      "knowledge_type": "numerology",
+      "name_ja": "個人年",
+      "name_en": "Personal Year",
+      "category": "Numerology",
+      "attribute": "Date Cycles",
+      "definition_ja": "個人年は、誕生月日と対象年から求める年周期数を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:日付周期",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "日付周期"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、個人年を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000051_personal_month.yml",
+      "id": "NUM-000051",
+      "knowledge_type": "numerology",
+      "name_ja": "個人月",
+      "name_en": "Personal Month",
+      "category": "Numerology",
+      "attribute": "Date Cycles",
+      "definition_ja": "個人月は、個人年と対象月から求める月周期数を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:日付周期",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "日付周期"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、個人月を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000052_personal_day.yml",
+      "id": "NUM-000052",
+      "knowledge_type": "numerology",
+      "name_ja": "個人日",
+      "name_en": "Personal Day",
+      "category": "Numerology",
+      "attribute": "Date Cycles",
+      "definition_ja": "個人日は、個人月と対象日から求める日周期数を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:日付周期",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "日付周期"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、個人日を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000053_universal_year.yml",
+      "id": "NUM-000053",
+      "knowledge_type": "numerology",
+      "name_ja": "世界年",
+      "name_en": "Universal Year",
+      "category": "Numerology",
+      "attribute": "Date Cycles",
+      "definition_ja": "世界年は、対象年の数字を還元する周期数を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:日付周期",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "日付周期"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、世界年を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000054_universal_month.yml",
+      "id": "NUM-000054",
+      "knowledge_type": "numerology",
+      "name_ja": "世界月",
+      "name_en": "Universal Month",
+      "category": "Numerology",
+      "attribute": "Date Cycles",
+      "definition_ja": "世界月は、世界年と月から求める周期数を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:日付周期",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "日付周期"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、世界月を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000055_pinnacle_cycle.yml",
+      "id": "NUM-000055",
+      "knowledge_type": "numerology",
+      "name_ja": "頂点周期",
+      "name_en": "Pinnacle Cycle",
+      "category": "Numerology",
+      "attribute": "Date Cycles",
+      "definition_ja": "頂点周期は、生年月日から複数の人生期間を算出する流派技法を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:日付周期",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "日付周期"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、頂点周期を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000056_challenge_cycle.yml",
+      "id": "NUM-000056",
+      "knowledge_type": "numerology",
+      "name_ja": "課題周期",
+      "name_en": "Challenge Cycle",
+      "category": "Numerology",
+      "attribute": "Date Cycles",
+      "definition_ja": "課題周期は、生年月日の数差から期間課題を求める流派技法を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:日付周期",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "日付周期"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、課題周期を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000057_period_cycle.yml",
+      "id": "NUM-000057",
+      "knowledge_type": "numerology",
+      "name_ja": "期間数",
+      "name_en": "Period Cycle",
+      "category": "Numerology",
+      "attribute": "Date Cycles",
+      "definition_ja": "期間数は、誕生月日年を長期期間へ対応させる技法を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:日付周期",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "日付周期"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、期間数を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000058_cycle_boundary.yml",
+      "id": "NUM-000058",
+      "knowledge_type": "numerology",
+      "name_ja": "周期境界",
+      "name_en": "Cycle Boundary",
+      "category": "Numerology",
+      "attribute": "Date Cycles",
+      "definition_ja": "周期境界は、誕生日・暦年等の切替方式を明示することを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:日付周期",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "日付周期"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、周期境界を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000059_non_predictive_cycle.yml",
+      "id": "NUM-000059",
+      "knowledge_type": "numerology",
+      "name_ja": "非予言的周期表示",
+      "name_en": "Non-Predictive Cycle",
+      "category": "Numerology",
+      "attribute": "Date Cycles",
+      "definition_ja": "非予言的周期表示は、周期数を出来事の確定予言にしないことを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:日付周期",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "日付周期"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、非予言的周期表示を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000060_western_modern.yml",
+      "id": "NUM-000060",
+      "knowledge_type": "numerology",
+      "name_ja": "近現代西洋数秘術",
+      "name_en": "Modern Western Numerology",
+      "category": "Numerology",
+      "attribute": "Traditions",
+      "definition_ja": "近現代西洋数秘術は、英語圏で体系化された氏名・生年月日方式群を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:方式と伝統",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方式と伝統"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、近現代西洋数秘術を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000061_greek_number_symbolism.yml",
+      "id": "NUM-000061",
+      "knowledge_type": "numerology",
+      "name_ja": "ギリシャ数象徴",
+      "name_en": "Greek Number Symbolism",
+      "category": "Numerology",
+      "attribute": "Traditions",
+      "definition_ja": "ギリシャ数象徴は、古代ギリシャ思想における数象徴の歴史文脈を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:方式と伝統",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方式と伝統"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、ギリシャ数象徴を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000062_isopsephy.yml",
+      "id": "NUM-000062",
+      "knowledge_type": "numerology",
+      "name_ja": "アイソプセフィー",
+      "name_en": "Isopsephy",
+      "category": "Numerology",
+      "attribute": "Traditions",
+      "definition_ja": "アイソプセフィーは、ギリシャ文字の数値を合計する歴史的方法を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:方式と伝統",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方式と伝統"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、アイソプセフィーを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000063_gematria.yml",
+      "id": "NUM-000063",
+      "knowledge_type": "numerology",
+      "name_ja": "ゲマトリア",
+      "name_en": "Gematria",
+      "category": "Numerology",
+      "attribute": "Traditions",
+      "definition_ja": "ゲマトリアは、ヘブライ文字等の数値対応を用いる解釈伝統を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:方式と伝統",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方式と伝統"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、ゲマトリアを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000064_abjad_numerals.yml",
+      "id": "NUM-000064",
+      "knowledge_type": "numerology",
+      "name_ja": "アブジャド数価",
+      "name_en": "Abjad Numerals",
+      "category": "Numerology",
+      "attribute": "Traditions",
+      "definition_ja": "アブジャド数価は、アラビア文字の歴史的数価体系を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:方式と伝統",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方式と伝統"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、アブジャド数価を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000065_chinese_number_symbolism.yml",
+      "id": "NUM-000065",
+      "knowledge_type": "numerology",
+      "name_ja": "中国数象徴",
+      "name_en": "Chinese Number Symbolism",
+      "category": "Numerology",
+      "attribute": "Traditions",
+      "definition_ja": "中国数象徴は、漢語音・宇宙論・慣習に関わる数象徴を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:方式と伝統",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方式と伝統"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、中国数象徴を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000066_japanese_number_symbolism.yml",
+      "id": "NUM-000066",
+      "knowledge_type": "numerology",
+      "name_ja": "日本数象徴",
+      "name_en": "Japanese Number Symbolism",
+      "category": "Numerology",
+      "attribute": "Traditions",
+      "definition_ja": "日本数象徴は、語呂・宗教・慣習に関わる日本の数象徴を表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:方式と伝統",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方式と伝統"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、日本数象徴を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000067_system_non_equivalence.yml",
+      "id": "NUM-000067",
+      "knowledge_type": "numerology",
+      "name_ja": "方式非等価性",
+      "name_en": "System Non-Equivalence",
+      "category": "Numerology",
+      "attribute": "Traditions",
+      "definition_ja": "方式非等価性は、異文化の数体系を同一方式として混合しないことを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:方式と伝統",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方式と伝統"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、方式非等価性を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000068_historical_context.yml",
+      "id": "NUM-000068",
+      "knowledge_type": "numerology",
+      "name_ja": "歴史文脈",
+      "name_en": "Historical Context",
+      "category": "Numerology",
+      "attribute": "Traditions",
+      "definition_ja": "歴史文脈は、数象徴の時代・言語・宗教的背景を記録することを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:方式と伝統",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方式と伝統"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、歴史文脈を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000069_source_provenance.yml",
+      "id": "NUM-000069",
+      "knowledge_type": "numerology",
+      "name_ja": "出典来歴",
+      "name_en": "Source Provenance",
+      "category": "Numerology",
+      "attribute": "Traditions",
+      "definition_ja": "出典来歴は、配当表・計算法・意味づけの出典を記録することを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:方式と伝統",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "方式と伝統"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、出典来歴を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000070_single_number_prompt.yml",
+      "id": "NUM-000070",
+      "knowledge_type": "numerology",
+      "name_ja": "単数プロンプト",
+      "name_en": "Single-Number Prompt",
+      "category": "Numerology",
+      "attribute": "Interpretation",
+      "definition_ja": "単数プロンプトは、一つの数を内省の問いへ変換することを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:解釈",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "解釈"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、単数プロンプトを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000071_number_combination.yml",
+      "id": "NUM-000071",
+      "knowledge_type": "numerology",
+      "name_ja": "数の組合せ",
+      "name_en": "Number Combination",
+      "category": "Numerology",
+      "attribute": "Interpretation",
+      "definition_ja": "数の組合せは、複数の主要数を関係として読むことを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:解釈",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "解釈"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、数の組合せを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000072_repeated_number.yml",
+      "id": "NUM-000072",
+      "knowledge_type": "numerology",
+      "name_ja": "反復数",
+      "name_en": "Repeated Number",
+      "category": "Numerology",
+      "attribute": "Interpretation",
+      "definition_ja": "反復数は、複数計算で同じ数が現れることを整理することを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:解釈",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "解釈"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、反復数を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000073_contrasting_numbers.yml",
+      "id": "NUM-000073",
+      "knowledge_type": "numerology",
+      "name_ja": "対照数",
+      "name_en": "Contrasting Numbers",
+      "category": "Numerology",
+      "attribute": "Interpretation",
+      "definition_ja": "対照数は、異なる象徴を矛盾のまま併記することを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:解釈",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "解釈"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、対照数を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000074_compound_and_reduced.yml",
+      "id": "NUM-000074",
+      "knowledge_type": "numerology",
+      "name_ja": "複合数と還元数",
+      "name_en": "Compound and Reduced Numbers",
+      "category": "Numerology",
+      "attribute": "Interpretation",
+      "definition_ja": "複合数と還元数は、還元前後の両方を保持することを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:解釈",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "解釈"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、複合数と還元数を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000075_calculation_confidence.yml",
+      "id": "NUM-000075",
+      "knowledge_type": "numerology",
+      "name_ja": "計算確度",
+      "name_en": "Calculation Confidence",
+      "category": "Numerology",
+      "attribute": "Interpretation",
+      "definition_ja": "計算確度は、入力と方式が確定している度合いを示すことを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:解釈",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "解釈"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、計算確度を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000076_interpretive_uncertainty.yml",
+      "id": "NUM-000076",
+      "knowledge_type": "numerology",
+      "name_ja": "解釈不確実性",
+      "name_en": "Interpretive Uncertainty",
+      "category": "Numerology",
+      "attribute": "Interpretation",
+      "definition_ja": "解釈不確実性は、象徴の多義性と流派差を表示することを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:解釈",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "解釈"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、解釈不確実性を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000077_user_resonance.yml",
+      "id": "NUM-000077",
+      "knowledge_type": "numerology",
+      "name_ja": "本人照合",
+      "name_en": "User Resonance",
+      "category": "Numerology",
+      "attribute": "Interpretation",
+      "definition_ja": "本人照合は、本人が当てはまり方を選択・修正できることを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:解釈",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "解釈"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、本人照合を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000078_narrative_generation.yml",
+      "id": "NUM-000078",
+      "knowledge_type": "numerology",
+      "name_ja": "物語生成",
+      "name_en": "Narrative Generation",
+      "category": "Numerology",
+      "attribute": "Interpretation",
+      "definition_ja": "物語生成は、数象徴から複数の物語案を作ることを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:解釈",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "解釈"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、物語生成を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000079_trait_link_boundary.yml",
+      "id": "NUM-000079",
+      "knowledge_type": "numerology",
+      "name_ja": "性格リンク境界",
+      "name_en": "Trait-Link Boundary",
+      "category": "Numerology",
+      "attribute": "Interpretation",
+      "definition_ja": "性格リンク境界は、性格辞書へのリンクを実証的相関とみなさないことを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:解釈",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "解釈"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、性格リンク境界を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000080_whole_profile.yml",
+      "id": "NUM-000080",
+      "knowledge_type": "numerology",
+      "name_ja": "全体プロファイル",
+      "name_en": "Whole Profile",
+      "category": "Numerology",
+      "attribute": "Interpretation",
+      "definition_ja": "全体プロファイルは、単一の数だけで人物を断定しないことを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:解釈",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "解釈"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、全体プロファイルを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000081_self_reflection.yml",
+      "id": "NUM-000081",
+      "knowledge_type": "numerology",
+      "name_ja": "自己内省",
+      "name_en": "Self-Reflection",
+      "category": "Numerology",
+      "attribute": "Applications",
+      "definition_ja": "自己内省は、数象徴を自己理解の問いに用いることを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:応用",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "応用"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、自己内省を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000082_conversation_prompt.yml",
+      "id": "NUM-000082",
+      "knowledge_type": "numerology",
+      "name_ja": "会話プロンプト",
+      "name_en": "Conversation Prompt",
+      "category": "Numerology",
+      "attribute": "Applications",
+      "definition_ja": "会話プロンプトは、結果を対話のきっかけに用いることを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:応用",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "応用"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、会話プロンプトを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000083_character_creation.yml",
+      "id": "NUM-000083",
+      "knowledge_type": "numerology",
+      "name_ja": "キャラクター作成",
+      "name_en": "Character Creation",
+      "category": "Numerology",
+      "attribute": "Applications",
+      "definition_ja": "キャラクター作成は、物語やゲームの人物設定に用いることを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:応用",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "応用"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、キャラクター作成を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000084_daily_theme.yml",
+      "id": "NUM-000084",
+      "knowledge_type": "numerology",
+      "name_ja": "日次テーマ",
+      "name_en": "Daily Theme",
+      "category": "Numerology",
+      "attribute": "Applications",
+      "definition_ja": "日次テーマは、個人日を任意の日次テーマとして示すことを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:応用",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "応用"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、日次テーマを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000085_annual_theme.yml",
+      "id": "NUM-000085",
+      "knowledge_type": "numerology",
+      "name_ja": "年次テーマ",
+      "name_en": "Annual Theme",
+      "category": "Numerology",
+      "attribute": "Applications",
+      "definition_ja": "年次テーマは、個人年を任意の年次テーマとして示すことを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:応用",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "応用"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、年次テーマを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000086_name_variant_comparison.yml",
+      "id": "NUM-000086",
+      "knowledge_type": "numerology",
+      "name_ja": "名前版比較",
+      "name_en": "Name-Variant Comparison",
+      "category": "Numerology",
+      "attribute": "Applications",
+      "definition_ja": "名前版比較は、複数の氏名表記結果を並列表示することを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:応用",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "応用"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、名前版比較を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000087_method_comparison.yml",
+      "id": "NUM-000087",
+      "knowledge_type": "numerology",
+      "name_ja": "方式比較",
+      "name_en": "Method Comparison",
+      "category": "Numerology",
+      "attribute": "Applications",
+      "definition_ja": "方式比較は、異なる配当方式の結果を混合せず比較することを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:応用",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "応用"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、方式比較を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000088_creative_prompt.yml",
+      "id": "NUM-000088",
+      "knowledge_type": "numerology",
+      "name_ja": "創作プロンプト",
+      "name_en": "Creative Prompt",
+      "category": "Numerology",
+      "attribute": "Applications",
+      "definition_ja": "創作プロンプトは、数象徴を文章・デザイン等の創作素材に用いることを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:応用",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "応用"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、創作プロンプトを象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000089_user_choice.yml",
+      "id": "NUM-000089",
+      "knowledge_type": "numerology",
+      "name_ja": "本人選択",
+      "name_en": "User Choice",
+      "category": "Numerology",
+      "attribute": "Applications",
+      "definition_ja": "本人選択は、利用者が採用する方式や解釈を選べることを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:応用",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "応用"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、本人選択を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000090_explainable_output.yml",
+      "id": "NUM-000090",
+      "knowledge_type": "numerology",
+      "name_ja": "説明可能出力",
+      "name_en": "Explainable Output",
+      "category": "Numerology",
+      "attribute": "Applications",
+      "definition_ja": "説明可能出力は、入力・計算・還元過程を結果とともに表示することを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:応用",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "応用"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、説明可能出力を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000091_no_mathematical_claim.yml",
+      "id": "NUM-000091",
+      "knowledge_type": "numerology",
+      "name_ja": "数学的証明との混同禁止",
+      "name_en": "No Mathematical Validity Claim",
+      "category": "Numerology",
+      "attribute": "Safety and Limits",
+      "definition_ja": "数学的証明との混同禁止は、計算手続きの正しさと占術的妥当性を混同しないことを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、数学的証明との混同禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000092_no_personality_fixing.yml",
+      "id": "NUM-000092",
+      "knowledge_type": "numerology",
+      "name_ja": "性格固定禁止",
+      "name_en": "No Personality Fixing",
+      "category": "Numerology",
+      "attribute": "Safety and Limits",
+      "definition_ja": "性格固定禁止は、数から固定的人格や能力を断定しないことを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、性格固定禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000093_no_future_certainty.yml",
+      "id": "NUM-000093",
+      "knowledge_type": "numerology",
+      "name_ja": "未来確定禁止",
+      "name_en": "No Future Certainty",
+      "category": "Numerology",
+      "attribute": "Safety and Limits",
+      "definition_ja": "未来確定禁止は、周期数から出来事を確定予測しないことを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、未来確定禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000094_no_health_prediction.yml",
+      "id": "NUM-000094",
+      "knowledge_type": "numerology",
+      "name_ja": "健康予測禁止",
+      "name_en": "No Health Prediction",
+      "category": "Numerology",
+      "attribute": "Safety and Limits",
+      "definition_ja": "健康予測禁止は、数から病気・寿命を推定しないことを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、健康予測禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000095_no_relationship_determinism.yml",
+      "id": "NUM-000095",
+      "knowledge_type": "numerology",
+      "name_ja": "相性決定論禁止",
+      "name_en": "No Relationship Determinism",
+      "category": "Numerology",
+      "attribute": "Safety and Limits",
+      "definition_ja": "相性決定論禁止は、数の一致から関係の成否を確定しないことを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、相性決定論禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000096_no_financial_decision.yml",
+      "id": "NUM-000096",
+      "knowledge_type": "numerology",
+      "name_ja": "金融判断禁止",
+      "name_en": "No Financial Decision",
+      "category": "Numerology",
+      "attribute": "Safety and Limits",
+      "definition_ja": "金融判断禁止は、数を投資・契約判断へ使わないことを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、金融判断禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000097_high_impact_exclusion.yml",
+      "id": "NUM-000097",
+      "knowledge_type": "numerology",
+      "name_ja": "高影響利用禁止",
+      "name_en": "High-Impact Exclusion",
+      "category": "Numerology",
+      "attribute": "Safety and Limits",
+      "definition_ja": "高影響利用禁止は、雇用・教育・保険・信用等に利用しないことを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、高影響利用禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000098_name_privacy.yml",
+      "id": "NUM-000098",
+      "knowledge_type": "numerology",
+      "name_ja": "氏名情報保護",
+      "name_en": "Name Privacy",
+      "category": "Numerology",
+      "attribute": "Safety and Limits",
+      "definition_ja": "氏名情報保護は、氏名・生年月日の収集と保持を最小化することを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、氏名情報保護を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000099_cultural_respect.yml",
+      "id": "NUM-000099",
+      "knowledge_type": "numerology",
+      "name_ja": "文化的尊重",
+      "name_en": "Cultural Respect",
+      "category": "Numerology",
+      "attribute": "Safety and Limits",
+      "definition_ja": "文化的尊重は、宗教的・文化的数象徴を軽率に普遍化しないことを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、文化的尊重を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    },
+    {
+      "filename": "NUM-000100_reflective_use.yml",
+      "id": "NUM-000100",
+      "knowledge_type": "numerology",
+      "name_ja": "内省用途",
+      "name_en": "Reflective Use",
+      "category": "Numerology",
+      "attribute": "Safety and Limits",
+      "definition_ja": "内省用途は、結果を任意の内省・創作・娯楽として表示することを表す数秘術参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:数秘術",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "自己理解",
+        "文化的象徴",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "利用者が明示的に提供した出生情報",
+        "採用した暦・計算規則・流派",
+        "入力精度と欠測",
+        "計算で得られた象徴配置"
+      ],
+      "signal_candidates": [
+        "入力と規則から再現可能な象徴配置を得る",
+        "複数要素を解釈候補として提示し単一の性格断定へ短絡させない"
+      ],
+      "device_level": "本人同意のある入力だけを使用し、高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "入力精度",
+        "翻訳",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "数秘術・数象徴",
+      "source_type": "生年月日・氏名・採用文字数値表",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "生年月日",
+        "使用する氏名版",
+        "文字体系",
+        "数値配当方式",
+        "還元規則"
+      ],
+      "calculation_basis": "日付数字または文字数値を採用方式で合計・還元し各数を得る",
+      "trait_links": [
+        "自己理解",
+        "価値観",
+        "意思決定",
+        "対人傾向"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "数秘術・数象徴では、内省用途を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "古代から近現代までの数象徴・文字数価・西洋数秘術の諸方式"
+    }
+  ]
+}

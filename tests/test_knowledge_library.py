@@ -21,7 +21,7 @@ class KnowledgeLibraryIntegrationTests(unittest.TestCase):
         cls.library = KnowledgeLibrary(ROOT / "data")
 
     def test_loads_complete_audited_catalog(self) -> None:
-        self.assertEqual(len(self.library), 4434)
+        self.assertEqual(len(self.library), 4534)
         metadata = self.library.metadata()
         self.assertTrue(metadata["read_only"])
         self.assertFalse(metadata["inference_performed"])
@@ -92,6 +92,7 @@ class KnowledgeLibraryIntegrationTests(unittest.TestCase):
             "numerology": "NUM-",
             "name_divination": "NAM-",
             "feng_shui": "FSH-",
+            "calendar_notes": "KOY-",
         }
         for knowledge_type, prefix in catalogs.items():
             with self.subTest(knowledge_type=knowledge_type):

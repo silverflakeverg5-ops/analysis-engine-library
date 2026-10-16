@@ -24,6 +24,7 @@ EXPECTED_CATALOGS = {
     "numerology": {f"NUM-{number:06d}" for number in range(1, 101)},
     "name_divination": {f"NAM-{number:06d}" for number in range(1, 101)},
     "feng_shui": {f"FSH-{number:06d}" for number in range(1, 101)},
+    "calendar_notes": {f"KOY-{number:06d}" for number in range(1, 101)},
 }
 REQUIRED_FIELDS = {
     "tradition",
@@ -89,7 +90,7 @@ def main() -> None:
         for error in errors:
             print(f"- {error}")
         sys.exit(1)
-    print("\nOK: Vol31-Vol41 preserve provenance, evidence, and non-diagnostic boundaries.")
+    print("\nOK: Vol31-Vol42 preserve provenance, evidence, and non-diagnostic boundaries.")
 
 
 if __name__ == "__main__":

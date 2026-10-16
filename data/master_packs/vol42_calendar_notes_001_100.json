@@ -1,0 +1,6307 @@
+{
+  "output_dir": "vol42_calendar_notes/calendar_notes_001_100",
+  "index_filename": "calendar_notes_001_100_index.yml",
+  "index_content": "category: Calendar Notes\nname_ja: 暦注\nitems:\n  - KOY-000001_calendar_notes.yml\n  - KOY-000002_rokuyo.yml\n  - KOY-000003_senjitsu.yml\n  - KOY-000004_lunisolar_calendar.yml\n  - KOY-000005_sexagenary_day.yml\n  - KOY-000006_solar_term_month.yml\n  - KOY-000007_almanac_registers.yml\n  - KOY-000008_popular_almanac.yml\n  - KOY-000009_method_declaration.yml\n  - KOY-000010_calculation_trace.yml\n  - KOY-000011_sensho.yml\n  - KOY-000012_tomobiki.yml\n  - KOY-000013_senbu.yml\n  - KOY-000014_butsumetsu.yml\n  - KOY-000015_taian.yml\n  - KOY-000016_shakko.yml\n  - KOY-000017_rokuyo_formula.yml\n  - KOY-000018_month_start_rokuyo.yml\n  - KOY-000019_rokuyo_sequence.yml\n  - KOY-000020_new_moon_reset.yml\n  - KOY-000021_leap_month_rokuyo.yml\n  - KOY-000022_rokuyo_time_slots.yml\n  - KOY-000023_rokuyo_origin.yml\n  - KOY-000024_rokuyo_name_variants.yml\n  - KOY-000025_ichiryu_manbai.yml\n  - KOY-000026_tensha.yml\n  - KOY-000027_tora_no_hi.yml\n  - KOY-000028_mi_no_hi.yml\n  - KOY-000029_tsuchinoto_mi.yml\n  - KOY-000030_kinoe_ne.yml\n  - KOY-000031_tenon.yml\n  - KOY-000032_boso.yml\n  - KOY-000033_daimyo.yml\n  - KOY-000034_kamiyoshi.yml\n  - KOY-000035_gettoku.yml\n  - KOY-000036_kishuku.yml\n  - KOY-000037_fujoju.yml\n  - KOY-000038_sanrinbo.yml\n  - KOY-000039_jippogure.yml\n  - KOY-000040_happen.yml\n  - KOY-000041_tenichi_tenjo.yml\n  - KOY-000042_jushi.yml\n  - KOY-000043_jisshi.yml\n  - KOY-000044_kiko.yml\n  - KOY-000045_chiimi.yml\n  - KOY-000046_oumou.yml\n  - KOY-000047_juu.yml\n  - KOY-000048_fuku.yml\n  - KOY-000049_tatsu.yml\n  - KOY-000050_nozoku.yml\n  - KOY-000051_mitsu.yml\n  - KOY-000052_tairu.yml\n  - KOY-000053_sadan.yml\n  - KOY-000054_toru.yml\n  - KOY-000055_yaburu.yml\n  - KOY-000056_ayabu.yml\n  - KOY-000057_naru.yml\n  - KOY-000058_osamu.yml\n  - KOY-000059_hiraku.yml\n  - KOY-000060_tozu.yml\n  - KOY-000061_setsubun.yml\n  - KOY-000062_higan.yml\n  - KOY-000063_shanichi.yml\n  - KOY-000064_hachiju_hachiya.yml\n  - KOY-000065_nyubai.yml\n  - KOY-000066_hangesho.yml\n  - KOY-000067_doyo.yml\n  - KOY-000068_nihyaku_toka.yml\n  - KOY-000069_nihyaku_hatsuka.yml\n  - KOY-000070_lunar_conversion_table.yml\n  - KOY-000071_new_moon_calculation.yml\n  - KOY-000072_solar_term_calculation.yml\n  - KOY-000073_sexagenary_table.yml\n  - KOY-000074_day_boundary.yml\n  - KOY-000075_reference_time.yml\n  - KOY-000076_table_range.yml\n  - KOY-000077_almanac_source.yml\n  - KOY-000078_table_version.yml\n  - KOY-000079_cross_check.yml\n  - KOY-000080_calculation_reproducibility.yml\n  - KOY-000081_edo_almanac.yml\n  - KOY-000082_meiji_reform.yml\n  - KOY-000083_postwar_spread.yml\n  - KOY-000084_wedding_custom.yml\n  - KOY-000085_funeral_custom.yml\n  - KOY-000086_construction_custom.yml\n  - KOY-000087_business_custom.yml\n  - KOY-000088_regional_variation.yml\n  - KOY-000089_superstition_critique.yml\n  - KOY-000090_modern_entertainment.yml\n  - KOY-000091_tradition_label.yml\n  - KOY-000092_no_fatalism.yml\n  - KOY-000093_no_disaster_prediction.yml\n  - KOY-000094_no_ceremony_pressure.yml\n  - KOY-000095_no_financial_decision.yml\n  - KOY-000096_no_health_claim.yml\n  - KOY-000097_anti_discrimination.yml\n  - KOY-000098_gentle_framing.yml\n  - KOY-000099_user_opt_out.yml\n  - KOY-000100_high_impact_exclusion.yml\nnotes:\n  - 伝統的・文化的解釈として扱い心理学的エビデンスと混同しない\n  - 計算方式・流派・入力精度・出典を結果とともに保持する\n  - 医療・雇用・教育・保険・信用・法執行など高影響判断には利用しない\n",
+  "items": [
+    {
+      "filename": "KOY-000001_calendar_notes.yml",
+      "id": "KOY-000001",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "暦注",
+      "name_en": "Calendar Notes",
+      "category": "Calendar Notes",
+      "attribute": "Foundations",
+      "definition_ja": "暦注は、暦日に吉凶・行事・禁忌などの注記を付ける日本の民間暦の伝統を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、暦注を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000002_rokuyo.yml",
+      "id": "KOY-000002",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "六曜",
+      "name_en": "Rokuyo",
+      "category": "Calendar Notes",
+      "attribute": "Foundations",
+      "definition_ja": "六曜は、旧暦の月日から六種の日を循環させて割り当てる暦注を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、六曜を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000003_senjitsu.yml",
+      "id": "KOY-000003",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "選日",
+      "name_en": "Selected Days",
+      "category": "Calendar Notes",
+      "attribute": "Foundations",
+      "definition_ja": "選日は、干支・節月・旧暦などの組合せから特定の日を選び出す暦注群を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、選日を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000004_lunisolar_calendar.yml",
+      "id": "KOY-000004",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "旧暦",
+      "name_en": "Lunisolar Calendar",
+      "category": "Calendar Notes",
+      "attribute": "Foundations",
+      "definition_ja": "旧暦は、朔を月初とし節気で閏月を調整する太陰太陽暦を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、旧暦を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000005_sexagenary_day.yml",
+      "id": "KOY-000005",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "日干支",
+      "name_en": "Sexagenary Day",
+      "category": "Calendar Notes",
+      "attribute": "Foundations",
+      "definition_ja": "日干支は、十干十二支の六十日周期で各日に割り当てる干支を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、日干支を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000006_solar_term_month.yml",
+      "id": "KOY-000006",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "節月",
+      "name_en": "Solar-Term Month",
+      "category": "Calendar Notes",
+      "attribute": "Foundations",
+      "definition_ja": "節月は、二十四節気の節入りで区切る月の単位を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、節月を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000007_almanac_registers.yml",
+      "id": "KOY-000007",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "上段・中段・下段",
+      "name_en": "Almanac Registers",
+      "category": "Calendar Notes",
+      "attribute": "Foundations",
+      "definition_ja": "上段・中段・下段は、暦本で暦注を記載位置により三段に分ける慣行を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、上段・中段・下段を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000008_popular_almanac.yml",
+      "id": "KOY-000008",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "民間暦",
+      "name_en": "Popular Almanac",
+      "category": "Calendar Notes",
+      "attribute": "Foundations",
+      "definition_ja": "民間暦は、官暦とは別に民間で作られ暦注を伝えてきた暦本を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、民間暦を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000009_method_declaration.yml",
+      "id": "KOY-000009",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "方式宣言",
+      "name_en": "Method Declaration",
+      "category": "Calendar Notes",
+      "attribute": "Foundations",
+      "definition_ja": "方式宣言は、採用した暦・変換表・選日規則・流派を明示することを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、方式宣言を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000010_calculation_trace.yml",
+      "id": "KOY-000010",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "暦注算出追跡",
+      "name_en": "Calendar-Note Calculation Trace",
+      "category": "Calendar Notes",
+      "attribute": "Foundations",
+      "definition_ja": "暦注算出追跡は、対象日から旧暦・干支・節月を経て暦注を得る経路を保存することを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:基礎",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "基礎"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、暦注算出追跡を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000011_sensho.yml",
+      "id": "KOY-000011",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "先勝",
+      "name_en": "Sensho",
+      "category": "Calendar Notes",
+      "attribute": "Six Days",
+      "definition_ja": "先勝は、六曜の先勝に割り当てられる時間帯や吉凶の言い伝えを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:六曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "六曜"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、先勝を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000012_tomobiki.yml",
+      "id": "KOY-000012",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "友引",
+      "name_en": "Tomobiki",
+      "category": "Calendar Notes",
+      "attribute": "Six Days",
+      "definition_ja": "友引は、六曜の友引に割り当てられる時間帯や吉凶の言い伝えを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:六曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "六曜"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、友引を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000013_senbu.yml",
+      "id": "KOY-000013",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "先負",
+      "name_en": "Senbu",
+      "category": "Calendar Notes",
+      "attribute": "Six Days",
+      "definition_ja": "先負は、六曜の先負に割り当てられる時間帯や吉凶の言い伝えを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:六曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "六曜"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、先負を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000014_butsumetsu.yml",
+      "id": "KOY-000014",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "仏滅",
+      "name_en": "Butsumetsu",
+      "category": "Calendar Notes",
+      "attribute": "Six Days",
+      "definition_ja": "仏滅は、六曜の仏滅に割り当てられる時間帯や吉凶の言い伝えを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:六曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "六曜"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、仏滅を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000015_taian.yml",
+      "id": "KOY-000015",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "大安",
+      "name_en": "Taian",
+      "category": "Calendar Notes",
+      "attribute": "Six Days",
+      "definition_ja": "大安は、六曜の大安に割り当てられる時間帯や吉凶の言い伝えを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:六曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "六曜"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、大安を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000016_shakko.yml",
+      "id": "KOY-000016",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "赤口",
+      "name_en": "Shakko",
+      "category": "Calendar Notes",
+      "attribute": "Six Days",
+      "definition_ja": "赤口は、六曜の赤口に割り当てられる時間帯や吉凶の言い伝えを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:六曜",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "六曜"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、赤口を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000017_rokuyo_formula.yml",
+      "id": "KOY-000017",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "六曜算出式",
+      "name_en": "Rokuyo Formula",
+      "category": "Calendar Notes",
+      "attribute": "Rokuyo Rules",
+      "definition_ja": "六曜算出式は、旧暦の月と日の和を六で割った余りから六曜を求める規則を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:六曜の規則",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "六曜の規則"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、六曜算出式を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000018_month_start_rokuyo.yml",
+      "id": "KOY-000018",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "月初六曜",
+      "name_en": "Month-Start Rokuyo",
+      "category": "Calendar Notes",
+      "attribute": "Rokuyo Rules",
+      "definition_ja": "月初六曜は、旧暦の各月朔日に固定される六曜の配当を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:六曜の規則",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "六曜の規則"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、月初六曜を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000019_rokuyo_sequence.yml",
+      "id": "KOY-000019",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "六曜循環",
+      "name_en": "Rokuyo Sequence",
+      "category": "Calendar Notes",
+      "attribute": "Rokuyo Rules",
+      "definition_ja": "六曜循環は、先勝から赤口までを日ごとに順に巡らせる配列を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:六曜の規則",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "六曜の規則"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、六曜循環を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000020_new_moon_reset.yml",
+      "id": "KOY-000020",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "朔日切替",
+      "name_en": "New-Moon Reset",
+      "category": "Calendar Notes",
+      "attribute": "Rokuyo Rules",
+      "definition_ja": "朔日切替は、旧暦の月が替わると六曜の循環が途中で切り替わることを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:六曜の規則",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "六曜の規則"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、朔日切替を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000021_leap_month_rokuyo.yml",
+      "id": "KOY-000021",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "閏月六曜",
+      "name_en": "Leap-Month Rokuyo",
+      "category": "Calendar Notes",
+      "attribute": "Rokuyo Rules",
+      "definition_ja": "閏月六曜は、閏月を前月と同じ月番号として扱う六曜の規則を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:六曜の規則",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "六曜の規則"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、閏月六曜を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000022_rokuyo_time_slots.yml",
+      "id": "KOY-000022",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "六曜時間帯",
+      "name_en": "Rokuyo Time Slots",
+      "category": "Calendar Notes",
+      "attribute": "Rokuyo Rules",
+      "definition_ja": "六曜時間帯は、午前・正午・午後などで吉凶が分かれるとする言い伝えを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:六曜の規則",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "六曜の規則"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、六曜時間帯を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000023_rokuyo_origin.yml",
+      "id": "KOY-000023",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "小六壬起源説",
+      "name_en": "Xiao Liu Ren Origin",
+      "category": "Calendar Notes",
+      "attribute": "Rokuyo Rules",
+      "definition_ja": "小六壬起源説は、中国の時刻占いである小六壬を六曜の源流とみる説を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:六曜の規則",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "六曜の規則"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、小六壬起源説を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000024_rokuyo_name_variants.yml",
+      "id": "KOY-000024",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "六曜名称異同",
+      "name_en": "Rokuyo Name Variants",
+      "category": "Calendar Notes",
+      "attribute": "Rokuyo Rules",
+      "definition_ja": "六曜名称異同は、六曜の名称・読み・順序に見られる時代や地域の違いを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:六曜の規則",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "六曜の規則"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、六曜名称異同を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000025_ichiryu_manbai.yml",
+      "id": "KOY-000025",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "一粒万倍日",
+      "name_en": "Ichiryu Manbai Day",
+      "category": "Calendar Notes",
+      "attribute": "Auspicious Selected Days",
+      "definition_ja": "一粒万倍日は、吉日とされる選日の一粒万倍日に割り当てられる算出規則と言い伝えを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:吉日系選日",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "吉日系選日"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、一粒万倍日を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000026_tensha.yml",
+      "id": "KOY-000026",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "天赦日",
+      "name_en": "Tensha Day",
+      "category": "Calendar Notes",
+      "attribute": "Auspicious Selected Days",
+      "definition_ja": "天赦日は、吉日とされる選日の天赦日に割り当てられる算出規則と言い伝えを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:吉日系選日",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "吉日系選日"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、天赦日を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000027_tora_no_hi.yml",
+      "id": "KOY-000027",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "寅の日",
+      "name_en": "Day of the Tiger",
+      "category": "Calendar Notes",
+      "attribute": "Auspicious Selected Days",
+      "definition_ja": "寅の日は、吉日とされる選日の寅の日に割り当てられる算出規則と言い伝えを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:吉日系選日",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "吉日系選日"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、寅の日を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000028_mi_no_hi.yml",
+      "id": "KOY-000028",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "巳の日",
+      "name_en": "Day of the Snake",
+      "category": "Calendar Notes",
+      "attribute": "Auspicious Selected Days",
+      "definition_ja": "巳の日は、吉日とされる選日の巳の日に割り当てられる算出規則と言い伝えを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:吉日系選日",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "吉日系選日"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、巳の日を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000029_tsuchinoto_mi.yml",
+      "id": "KOY-000029",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "己巳の日",
+      "name_en": "Tsuchinoto-Mi Day",
+      "category": "Calendar Notes",
+      "attribute": "Auspicious Selected Days",
+      "definition_ja": "己巳の日は、吉日とされる選日の己巳の日に割り当てられる算出規則と言い伝えを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:吉日系選日",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "吉日系選日"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、己巳の日を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000030_kinoe_ne.yml",
+      "id": "KOY-000030",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "甲子の日",
+      "name_en": "Kinoe-Ne Day",
+      "category": "Calendar Notes",
+      "attribute": "Auspicious Selected Days",
+      "definition_ja": "甲子の日は、吉日とされる選日の甲子の日に割り当てられる算出規則と言い伝えを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:吉日系選日",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "吉日系選日"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、甲子の日を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000031_tenon.yml",
+      "id": "KOY-000031",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "天恩日",
+      "name_en": "Ten'on Day",
+      "category": "Calendar Notes",
+      "attribute": "Auspicious Selected Days",
+      "definition_ja": "天恩日は、吉日とされる選日の天恩日に割り当てられる算出規則と言い伝えを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:吉日系選日",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "吉日系選日"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、天恩日を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000032_boso.yml",
+      "id": "KOY-000032",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "母倉日",
+      "name_en": "Boso Day",
+      "category": "Calendar Notes",
+      "attribute": "Auspicious Selected Days",
+      "definition_ja": "母倉日は、吉日とされる選日の母倉日に割り当てられる算出規則と言い伝えを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:吉日系選日",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "吉日系選日"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、母倉日を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000033_daimyo.yml",
+      "id": "KOY-000033",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "大明日",
+      "name_en": "Daimyo Day",
+      "category": "Calendar Notes",
+      "attribute": "Auspicious Selected Days",
+      "definition_ja": "大明日は、吉日とされる選日の大明日に割り当てられる算出規則と言い伝えを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:吉日系選日",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "吉日系選日"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、大明日を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000034_kamiyoshi.yml",
+      "id": "KOY-000034",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "神吉日",
+      "name_en": "Kamiyoshi Day",
+      "category": "Calendar Notes",
+      "attribute": "Auspicious Selected Days",
+      "definition_ja": "神吉日は、吉日とされる選日の神吉日に割り当てられる算出規則と言い伝えを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:吉日系選日",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "吉日系選日"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、神吉日を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000035_gettoku.yml",
+      "id": "KOY-000035",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "月徳日",
+      "name_en": "Gettoku Day",
+      "category": "Calendar Notes",
+      "attribute": "Auspicious Selected Days",
+      "definition_ja": "月徳日は、吉日とされる選日の月徳日に割り当てられる算出規則と言い伝えを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:吉日系選日",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "吉日系選日"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、月徳日を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000036_kishuku.yml",
+      "id": "KOY-000036",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "鬼宿日",
+      "name_en": "Kishuku Day",
+      "category": "Calendar Notes",
+      "attribute": "Auspicious Selected Days",
+      "definition_ja": "鬼宿日は、吉日とされる選日の鬼宿日に割り当てられる算出規則と言い伝えを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:吉日系選日",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "吉日系選日"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、鬼宿日を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000037_fujoju.yml",
+      "id": "KOY-000037",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "不成就日",
+      "name_en": "Fujoju Day",
+      "category": "Calendar Notes",
+      "attribute": "Caution Selected Days",
+      "definition_ja": "不成就日は、注意日とされる選日の不成就日に割り当てられる算出規則と言い伝えを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:注意日系選日",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "注意日系選日"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、不成就日を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000038_sanrinbo.yml",
+      "id": "KOY-000038",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "三隣亡",
+      "name_en": "Sanrinbo Day",
+      "category": "Calendar Notes",
+      "attribute": "Caution Selected Days",
+      "definition_ja": "三隣亡は、注意日とされる選日の三隣亡に割り当てられる算出規則と言い伝えを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:注意日系選日",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "注意日系選日"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、三隣亡を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000039_jippogure.yml",
+      "id": "KOY-000039",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "十方暮",
+      "name_en": "Jippogure Period",
+      "category": "Calendar Notes",
+      "attribute": "Caution Selected Days",
+      "definition_ja": "十方暮は、注意日とされる選日の十方暮に割り当てられる算出規則と言い伝えを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:注意日系選日",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "注意日系選日"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、十方暮を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000040_happen.yml",
+      "id": "KOY-000040",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "八専",
+      "name_en": "Happen Period",
+      "category": "Calendar Notes",
+      "attribute": "Caution Selected Days",
+      "definition_ja": "八専は、注意日とされる選日の八専に割り当てられる算出規則と言い伝えを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:注意日系選日",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "注意日系選日"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、八専を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000041_tenichi_tenjo.yml",
+      "id": "KOY-000041",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "天一天上",
+      "name_en": "Ten'ichi Tenjo Period",
+      "category": "Calendar Notes",
+      "attribute": "Caution Selected Days",
+      "definition_ja": "天一天上は、注意日とされる選日の天一天上に割り当てられる算出規則と言い伝えを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:注意日系選日",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "注意日系選日"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、天一天上を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000042_jushi.yml",
+      "id": "KOY-000042",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "受死日",
+      "name_en": "Jushi Day",
+      "category": "Calendar Notes",
+      "attribute": "Caution Selected Days",
+      "definition_ja": "受死日は、注意日とされる選日の受死日に割り当てられる算出規則と言い伝えを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:注意日系選日",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "注意日系選日"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、受死日を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000043_jisshi.yml",
+      "id": "KOY-000043",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "十死日",
+      "name_en": "Jisshi Day",
+      "category": "Calendar Notes",
+      "attribute": "Caution Selected Days",
+      "definition_ja": "十死日は、注意日とされる選日の十死日に割り当てられる算出規則と言い伝えを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:注意日系選日",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "注意日系選日"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、十死日を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000044_kiko.yml",
+      "id": "KOY-000044",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "帰忌日",
+      "name_en": "Kiko Day",
+      "category": "Calendar Notes",
+      "attribute": "Caution Selected Days",
+      "definition_ja": "帰忌日は、注意日とされる選日の帰忌日に割り当てられる算出規則と言い伝えを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:注意日系選日",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "注意日系選日"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、帰忌日を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000045_chiimi.yml",
+      "id": "KOY-000045",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "血忌日",
+      "name_en": "Chiimi Day",
+      "category": "Calendar Notes",
+      "attribute": "Caution Selected Days",
+      "definition_ja": "血忌日は、注意日とされる選日の血忌日に割り当てられる算出規則と言い伝えを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:注意日系選日",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "注意日系選日"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、血忌日を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000046_oumou.yml",
+      "id": "KOY-000046",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "往亡日",
+      "name_en": "Oumou Day",
+      "category": "Calendar Notes",
+      "attribute": "Caution Selected Days",
+      "definition_ja": "往亡日は、注意日とされる選日の往亡日に割り当てられる算出規則と言い伝えを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:注意日系選日",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "注意日系選日"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、往亡日を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000047_juu.yml",
+      "id": "KOY-000047",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "重日",
+      "name_en": "Juu Day",
+      "category": "Calendar Notes",
+      "attribute": "Caution Selected Days",
+      "definition_ja": "重日は、注意日とされる選日の重日に割り当てられる算出規則と言い伝えを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:注意日系選日",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "注意日系選日"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、重日を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000048_fuku.yml",
+      "id": "KOY-000048",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "復日",
+      "name_en": "Fuku Day",
+      "category": "Calendar Notes",
+      "attribute": "Caution Selected Days",
+      "definition_ja": "復日は、注意日とされる選日の復日に割り当てられる算出規則と言い伝えを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:注意日系選日",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "注意日系選日"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、復日を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000049_tatsu.yml",
+      "id": "KOY-000049",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "建",
+      "name_en": "Tatsu",
+      "category": "Calendar Notes",
+      "attribute": "Twelve Directives",
+      "definition_ja": "建は、中段の十二直の建に割り当てられる伝統的分類を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:十二直",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二直"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、建を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000050_nozoku.yml",
+      "id": "KOY-000050",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "除",
+      "name_en": "Nozoku",
+      "category": "Calendar Notes",
+      "attribute": "Twelve Directives",
+      "definition_ja": "除は、中段の十二直の除に割り当てられる伝統的分類を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:十二直",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二直"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、除を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000051_mitsu.yml",
+      "id": "KOY-000051",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "満",
+      "name_en": "Mitsu",
+      "category": "Calendar Notes",
+      "attribute": "Twelve Directives",
+      "definition_ja": "満は、中段の十二直の満に割り当てられる伝統的分類を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:十二直",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二直"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、満を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000052_tairu.yml",
+      "id": "KOY-000052",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "平",
+      "name_en": "Tairu",
+      "category": "Calendar Notes",
+      "attribute": "Twelve Directives",
+      "definition_ja": "平は、中段の十二直の平に割り当てられる伝統的分類を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:十二直",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二直"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、平を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000053_sadan.yml",
+      "id": "KOY-000053",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "定",
+      "name_en": "Sadan",
+      "category": "Calendar Notes",
+      "attribute": "Twelve Directives",
+      "definition_ja": "定は、中段の十二直の定に割り当てられる伝統的分類を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:十二直",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二直"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、定を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000054_toru.yml",
+      "id": "KOY-000054",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "執",
+      "name_en": "Toru",
+      "category": "Calendar Notes",
+      "attribute": "Twelve Directives",
+      "definition_ja": "執は、中段の十二直の執に割り当てられる伝統的分類を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:十二直",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二直"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、執を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000055_yaburu.yml",
+      "id": "KOY-000055",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "破",
+      "name_en": "Yaburu",
+      "category": "Calendar Notes",
+      "attribute": "Twelve Directives",
+      "definition_ja": "破は、中段の十二直の破に割り当てられる伝統的分類を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:十二直",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二直"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、破を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000056_ayabu.yml",
+      "id": "KOY-000056",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "危",
+      "name_en": "Ayabu",
+      "category": "Calendar Notes",
+      "attribute": "Twelve Directives",
+      "definition_ja": "危は、中段の十二直の危に割り当てられる伝統的分類を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:十二直",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二直"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、危を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000057_naru.yml",
+      "id": "KOY-000057",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "成",
+      "name_en": "Naru",
+      "category": "Calendar Notes",
+      "attribute": "Twelve Directives",
+      "definition_ja": "成は、中段の十二直の成に割り当てられる伝統的分類を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:十二直",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二直"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、成を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000058_osamu.yml",
+      "id": "KOY-000058",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "納",
+      "name_en": "Osamu",
+      "category": "Calendar Notes",
+      "attribute": "Twelve Directives",
+      "definition_ja": "納は、中段の十二直の納に割り当てられる伝統的分類を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:十二直",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二直"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、納を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000059_hiraku.yml",
+      "id": "KOY-000059",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "開",
+      "name_en": "Hiraku",
+      "category": "Calendar Notes",
+      "attribute": "Twelve Directives",
+      "definition_ja": "開は、中段の十二直の開に割り当てられる伝統的分類を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:十二直",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二直"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、開を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000060_tozu.yml",
+      "id": "KOY-000060",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "閉",
+      "name_en": "Tozu",
+      "category": "Calendar Notes",
+      "attribute": "Twelve Directives",
+      "definition_ja": "閉は、中段の十二直の閉に割り当てられる伝統的分類を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:十二直",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "十二直"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、閉を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000061_setsubun.yml",
+      "id": "KOY-000061",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "節分",
+      "name_en": "Setsubun",
+      "category": "Calendar Notes",
+      "attribute": "Seasonal Days",
+      "definition_ja": "節分は、雑節の節分に割り当てられる季節の目安と暦上の扱いを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:雑節",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "雑節"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、節分を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000062_higan.yml",
+      "id": "KOY-000062",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "彼岸",
+      "name_en": "Higan",
+      "category": "Calendar Notes",
+      "attribute": "Seasonal Days",
+      "definition_ja": "彼岸は、雑節の彼岸に割り当てられる季節の目安と暦上の扱いを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:雑節",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "雑節"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、彼岸を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000063_shanichi.yml",
+      "id": "KOY-000063",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "社日",
+      "name_en": "Shanichi",
+      "category": "Calendar Notes",
+      "attribute": "Seasonal Days",
+      "definition_ja": "社日は、雑節の社日に割り当てられる季節の目安と暦上の扱いを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:雑節",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "雑節"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、社日を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000064_hachiju_hachiya.yml",
+      "id": "KOY-000064",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "八十八夜",
+      "name_en": "Hachiju-Hachiya",
+      "category": "Calendar Notes",
+      "attribute": "Seasonal Days",
+      "definition_ja": "八十八夜は、雑節の八十八夜に割り当てられる季節の目安と暦上の扱いを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:雑節",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "雑節"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、八十八夜を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000065_nyubai.yml",
+      "id": "KOY-000065",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "入梅",
+      "name_en": "Nyubai",
+      "category": "Calendar Notes",
+      "attribute": "Seasonal Days",
+      "definition_ja": "入梅は、雑節の入梅に割り当てられる季節の目安と暦上の扱いを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:雑節",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "雑節"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、入梅を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000066_hangesho.yml",
+      "id": "KOY-000066",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "半夏生",
+      "name_en": "Hangesho",
+      "category": "Calendar Notes",
+      "attribute": "Seasonal Days",
+      "definition_ja": "半夏生は、雑節の半夏生に割り当てられる季節の目安と暦上の扱いを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:雑節",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "雑節"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、半夏生を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000067_doyo.yml",
+      "id": "KOY-000067",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "土用",
+      "name_en": "Doyo",
+      "category": "Calendar Notes",
+      "attribute": "Seasonal Days",
+      "definition_ja": "土用は、雑節の土用に割り当てられる季節の目安と暦上の扱いを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:雑節",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "雑節"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、土用を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000068_nihyaku_toka.yml",
+      "id": "KOY-000068",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "二百十日",
+      "name_en": "Nihyaku-Toka",
+      "category": "Calendar Notes",
+      "attribute": "Seasonal Days",
+      "definition_ja": "二百十日は、雑節の二百十日に割り当てられる季節の目安と暦上の扱いを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:雑節",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "雑節"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、二百十日を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000069_nihyaku_hatsuka.yml",
+      "id": "KOY-000069",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "二百二十日",
+      "name_en": "Nihyaku-Hatsuka",
+      "category": "Calendar Notes",
+      "attribute": "Seasonal Days",
+      "definition_ja": "二百二十日は、雑節の二百二十日に割り当てられる季節の目安と暦上の扱いを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:雑節",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "雑節"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、二百二十日を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000070_lunar_conversion_table.yml",
+      "id": "KOY-000070",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "旧暦変換表",
+      "name_en": "Lunar Conversion Table",
+      "category": "Calendar Notes",
+      "attribute": "Calculation and Tables",
+      "definition_ja": "旧暦変換表は、新暦日付を旧暦の年月日と閏月へ対応させる表を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:計算と暦表",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "計算と暦表"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、旧暦変換表を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000071_new_moon_calculation.yml",
+      "id": "KOY-000071",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "朔計算",
+      "name_en": "New-Moon Calculation",
+      "category": "Calendar Notes",
+      "attribute": "Calculation and Tables",
+      "definition_ja": "朔計算は、天文計算で朔の日時を求め旧暦の月初を定めることを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:計算と暦表",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "計算と暦表"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、朔計算を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000072_solar_term_calculation.yml",
+      "id": "KOY-000072",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "節気計算",
+      "name_en": "Solar-Term Calculation",
+      "category": "Calendar Notes",
+      "attribute": "Calculation and Tables",
+      "definition_ja": "節気計算は、太陽黄経から二十四節気の日時を求めることを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:計算と暦表",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "計算と暦表"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、節気計算を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000073_sexagenary_table.yml",
+      "id": "KOY-000073",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "干支暦表",
+      "name_en": "Sexagenary Table",
+      "category": "Calendar Notes",
+      "attribute": "Calculation and Tables",
+      "definition_ja": "干支暦表は、各日の日干支を連続して割り当てる表を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:計算と暦表",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "計算と暦表"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、干支暦表を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000074_day_boundary.yml",
+      "id": "KOY-000074",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "日界",
+      "name_en": "Day Boundary",
+      "category": "Calendar Notes",
+      "attribute": "Calculation and Tables",
+      "definition_ja": "日界は、一日の切替時刻を明示することを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:計算と暦表",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "計算と暦表"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、日界を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000075_reference_time.yml",
+      "id": "KOY-000075",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "基準時刻",
+      "name_en": "Reference Time",
+      "category": "Calendar Notes",
+      "attribute": "Calculation and Tables",
+      "definition_ja": "基準時刻は、日本標準時など朔や節気の判定に用いる時刻基準を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:計算と暦表",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "計算と暦表"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、基準時刻を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000076_table_range.yml",
+      "id": "KOY-000076",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "暦表対象期間",
+      "name_en": "Table Range",
+      "category": "Calendar Notes",
+      "attribute": "Calculation and Tables",
+      "definition_ja": "暦表対象期間は、変換表が有効な期間と範囲外の扱いを明示することを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:計算と暦表",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "計算と暦表"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、暦表対象期間を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000077_almanac_source.yml",
+      "id": "KOY-000077",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "暦表出典",
+      "name_en": "Almanac Source",
+      "category": "Calendar Notes",
+      "attribute": "Calculation and Tables",
+      "definition_ja": "暦表出典は、変換表や選日規則の出典を記録することを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:計算と暦表",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "計算と暦表"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、暦表出典を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000078_table_version.yml",
+      "id": "KOY-000078",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "暦表版管理",
+      "name_en": "Table Version",
+      "category": "Calendar Notes",
+      "attribute": "Calculation and Tables",
+      "definition_ja": "暦表版管理は、暦表・規則表の版を結果とともに保持することを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:計算と暦表",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "計算と暦表"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、暦表版管理を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000079_cross_check.yml",
+      "id": "KOY-000079",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "暦照合",
+      "name_en": "Cross-Check",
+      "category": "Calendar Notes",
+      "attribute": "Calculation and Tables",
+      "definition_ja": "暦照合は、算出結果を公刊の暦と照合して検証することを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:計算と暦表",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "計算と暦表"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、暦照合を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000080_calculation_reproducibility.yml",
+      "id": "KOY-000080",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "計算再現性",
+      "name_en": "Calculation Reproducibility",
+      "category": "Calendar Notes",
+      "attribute": "Calculation and Tables",
+      "definition_ja": "計算再現性は、同じ入力と規則から同じ暦注を再生成できることを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:計算と暦表",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "計算と暦表"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、計算再現性を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000081_edo_almanac.yml",
+      "id": "KOY-000081",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "江戸期暦注",
+      "name_en": "Edo-Period Almanac Notes",
+      "category": "Calendar Notes",
+      "attribute": "Culture and History",
+      "definition_ja": "江戸期暦注は、江戸時代の暦本に多様な暦注が記載された歴史を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:文化と歴史",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "文化と歴史"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、江戸期暦注を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000082_meiji_reform.yml",
+      "id": "KOY-000082",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "明治改暦",
+      "name_en": "Meiji Calendar Reform",
+      "category": "Calendar Notes",
+      "attribute": "Culture and History",
+      "definition_ja": "明治改暦は、太陽暦への改暦と官暦から暦注が除かれた経緯を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:文化と歴史",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "文化と歴史"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、明治改暦を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000083_postwar_spread.yml",
+      "id": "KOY-000083",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "戦後の六曜普及",
+      "name_en": "Postwar Spread of Rokuyo",
+      "category": "Calendar Notes",
+      "attribute": "Culture and History",
+      "definition_ja": "戦後の六曜普及は、戦後のカレンダーや手帳で六曜が広く印刷されるようになった経緯を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:文化と歴史",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "文化と歴史"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、戦後の六曜普及を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000084_wedding_custom.yml",
+      "id": "KOY-000084",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "婚礼日取り慣習",
+      "name_en": "Wedding-Date Custom",
+      "category": "Calendar Notes",
+      "attribute": "Culture and History",
+      "definition_ja": "婚礼日取り慣習は、大安などを婚礼の日取りに参照してきた慣習を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:文化と歴史",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "文化と歴史"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、婚礼日取り慣習を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000085_funeral_custom.yml",
+      "id": "KOY-000085",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "友引葬儀慣習",
+      "name_en": "Tomobiki Funeral Custom",
+      "category": "Calendar Notes",
+      "attribute": "Culture and History",
+      "definition_ja": "友引葬儀慣習は、友引に葬儀を避ける慣習と火葬場休業の例を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:文化と歴史",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "文化と歴史"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、友引葬儀慣習を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000086_construction_custom.yml",
+      "id": "KOY-000086",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "建築慣習",
+      "name_en": "Construction Custom",
+      "category": "Calendar Notes",
+      "attribute": "Culture and History",
+      "definition_ja": "建築慣習は、上棟などの日取りに暦注を参照してきた慣習を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:文化と歴史",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "文化と歴史"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、建築慣習を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000087_business_custom.yml",
+      "id": "KOY-000087",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "開業慣習",
+      "name_en": "Business-Opening Custom",
+      "category": "Calendar Notes",
+      "attribute": "Culture and History",
+      "definition_ja": "開業慣習は、開業・財布の新調などに吉日を参照する慣習を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:文化と歴史",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "文化と歴史"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、開業慣習を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000088_regional_variation.yml",
+      "id": "KOY-000088",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "地域差",
+      "name_en": "Regional Variation",
+      "category": "Calendar Notes",
+      "attribute": "Culture and History",
+      "definition_ja": "地域差は、暦注の重視度や解釈が地域によって異なることを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:文化と歴史",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "文化と歴史"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、地域差を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000089_superstition_critique.yml",
+      "id": "KOY-000089",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "迷信批判",
+      "name_en": "Superstition Critique",
+      "category": "Calendar Notes",
+      "attribute": "Culture and History",
+      "definition_ja": "迷信批判は、六曜などを根拠のない迷信として扱う行政・人権啓発の立場を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:文化と歴史",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "文化と歴史"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、迷信批判を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000090_modern_entertainment.yml",
+      "id": "KOY-000090",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "現代の娯楽的利用",
+      "name_en": "Modern Entertainment Use",
+      "category": "Calendar Notes",
+      "attribute": "Culture and History",
+      "definition_ja": "現代の娯楽的利用は、暦注を話題や遊びとして気軽に楽しむ現代的な使われ方を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:文化と歴史",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "文化と歴史"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、現代の娯楽的利用を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000091_tradition_label.yml",
+      "id": "KOY-000091",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "伝承表示",
+      "name_en": "Tradition Label",
+      "category": "Calendar Notes",
+      "attribute": "Safety and Limits",
+      "definition_ja": "伝承表示は、暦注が民間の伝承であり事実の予測ではないことを表示することを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、伝承表示を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000092_no_fatalism.yml",
+      "id": "KOY-000092",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "宿命論回避",
+      "name_en": "Avoid Fatalism",
+      "category": "Calendar Notes",
+      "attribute": "Safety and Limits",
+      "definition_ja": "宿命論回避は、仏滅や注意日を不可避の災いとして表示しないことを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、宿命論回避を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000093_no_disaster_prediction.yml",
+      "id": "KOY-000093",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "災害予測禁止",
+      "name_en": "No Disaster Prediction",
+      "category": "Calendar Notes",
+      "attribute": "Safety and Limits",
+      "definition_ja": "災害予測禁止は、暦注から事故や災害を予測しないことを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、災害予測禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000094_no_ceremony_pressure.yml",
+      "id": "KOY-000094",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "日取り強要禁止",
+      "name_en": "No Ceremony Pressure",
+      "category": "Calendar Notes",
+      "attribute": "Safety and Limits",
+      "definition_ja": "日取り強要禁止は、冠婚葬祭や行事の日取りを暦注で強制・誘導しないことを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、日取り強要禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000095_no_financial_decision.yml",
+      "id": "KOY-000095",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "金融判断禁止",
+      "name_en": "No Financial Decision",
+      "category": "Calendar Notes",
+      "attribute": "Safety and Limits",
+      "definition_ja": "金融判断禁止は、投資・契約・購入の判断に暦注を使用しないことを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、金融判断禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000096_no_health_claim.yml",
+      "id": "KOY-000096",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "健康判断禁止",
+      "name_en": "No Health Claim",
+      "category": "Calendar Notes",
+      "attribute": "Safety and Limits",
+      "definition_ja": "健康判断禁止は、血忌日などを医療・受診の判断に用いないことを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、健康判断禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000097_anti_discrimination.yml",
+      "id": "KOY-000097",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "差別助長防止",
+      "name_en": "Anti-Discrimination",
+      "category": "Calendar Notes",
+      "attribute": "Safety and Limits",
+      "definition_ja": "差別助長防止は、暦注を理由に人や行事を排除・差別する表現をしないことを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、差別助長防止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000098_gentle_framing.yml",
+      "id": "KOY-000098",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "穏当な表現",
+      "name_en": "Gentle Framing",
+      "category": "Calendar Notes",
+      "attribute": "Safety and Limits",
+      "definition_ja": "穏当な表現は、注意日を伝える場合も不安を煽らず軽い話題として扱うことを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、穏当な表現を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000099_user_opt_out.yml",
+      "id": "KOY-000099",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "本人選択",
+      "name_en": "User Opt-Out",
+      "category": "Calendar Notes",
+      "attribute": "Safety and Limits",
+      "definition_ja": "本人選択は、暦注の表示有無と表示範囲を本人が選べるようにすることを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、本人選択を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    },
+    {
+      "filename": "KOY-000100_high_impact_exclusion.yml",
+      "id": "KOY-000100",
+      "knowledge_type": "calendar_notes",
+      "name_ja": "高影響利用禁止",
+      "name_en": "High-Impact Exclusion",
+      "category": "Calendar Notes",
+      "attribute": "Safety and Limits",
+      "definition_ja": "高影響利用禁止は、雇用・教育・保険・信用等に利用しないことを表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。",
+      "tags": [
+        "CAT:暦注",
+        "CAT:安全と限界",
+        "EVIDENCE:伝統的解釈"
+      ],
+      "parent": [
+        "安全と限界"
+      ],
+      "related": [
+        "文化的象徴",
+        "生活習慣",
+        "解釈不確実性"
+      ],
+      "observable_data": [
+        "対象日",
+        "採用した暦・変換表・流派",
+        "暦表の対象期間と欠測",
+        "規則表で得られた暦注"
+      ],
+      "signal_candidates": [
+        "対象日と規則から再現可能な暦注を得る",
+        "暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない"
+      ],
+      "device_level": "日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない",
+      "modifiers": [
+        "流派",
+        "地域と時代",
+        "暦と時間規則",
+        "暦表の範囲",
+        "解釈目的"
+      ],
+      "evidence": "歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない",
+      "status": "active",
+      "tradition": "日本の暦注・六曜・選日",
+      "source_type": "対象日・旧暦・日干支・節月",
+      "evidence_class": "traditional_cultural_interpretation",
+      "required_inputs": [
+        "対象日",
+        "使用暦",
+        "旧暦変換表",
+        "干支暦表",
+        "節月規則",
+        "流派"
+      ],
+      "calculation_basis": "対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる",
+      "trait_links": [
+        "意思決定",
+        "価値観",
+        "生活習慣"
+      ],
+      "interpretive_scope": "内省・会話・物語生成・娯楽のための解釈候補",
+      "safe_expression": "日本の暦注・六曜・選日では、高影響利用禁止を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。",
+      "provenance": "中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承"
+    }
+  ]
+}

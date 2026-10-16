@@ -222,8 +222,8 @@ def run_safety_contract_audit(
         registry = response["registry"]
         safety = response["safety"]
         passed = (
-            registry["tradition_count"] == 10
-            and registry["total_items"] == 1000
+            registry["tradition_count"] == 11
+            and registry["total_items"] == 1100
             and all(
                 entry["evidence_class"]
                 == "traditional_cultural_interpretation"

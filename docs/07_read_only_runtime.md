@@ -2,7 +2,7 @@
 
 ## 目的
 
-`analysis_engine`は、Vol1〜Vol41のKnowledge Itemを複数アプリから共通参照するための最小ランタイムです。
+`analysis_engine`は、Vol1〜Vol42のKnowledge Itemを複数アプリから共通参照するための最小ランタイムです。
 
 このランタイムは次の処理を行いません。
 
@@ -147,7 +147,7 @@ python scripts/audit_runtime_contract.py
 python -m analysis_engine --divination-registry
 ```
 
-`divination_registry`は、西洋占星術から風水までの詳細10体系を安定した順序で返します。各体系には`knowledge_type`、ID接頭辞、項目数、伝統名、入力種別、必要入力、計算基準、解釈範囲、根拠区分、出典系統が含まれます。これはアプリの入力画面や機能選択を組み立てるための参照情報であり、占断、性格推論、診断、採点、未来予測は行いません。
+`divination_registry`は、西洋占星術から暦注（六曜・選日）までの詳細11体系を安定した順序で返します。各体系には`knowledge_type`、ID接頭辞、項目数、伝統名、入力種別、必要入力、計算基準、解釈範囲、根拠区分、出典系統が含まれます。これはアプリの入力画面や機能選択を組み立てるための参照情報であり、占断、性格推論、診断、採点、未来予測は行いません。
 
 数秘術の再現可能な算術結果を取得します。
 

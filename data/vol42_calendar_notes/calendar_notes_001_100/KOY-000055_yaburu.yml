@@ -1,0 +1,52 @@
+id: KOY-000055
+knowledge_type: calendar_notes
+name_ja: 破
+name_en: Yaburu
+category: Calendar Notes
+attribute: Twelve Directives
+definition_ja: 破は、中段の十二直の破に割り当てられる伝統的分類を表す暦注参照概念。科学的な性格検査・心理診断・確定的予測としては扱わない。
+tags:
+  - CAT:暦注
+  - CAT:十二直
+  - EVIDENCE:伝統的解釈
+parent:
+  - 十二直
+related:
+  - 文化的象徴
+  - 生活習慣
+  - 解釈不確実性
+observable_data:
+  - 対象日
+  - 採用した暦・変換表・流派
+  - 暦表の対象期間と欠測
+  - 規則表で得られた暦注
+signal_candidates:
+  - 対象日と規則から再現可能な暦注を得る
+  - 暦注を娯楽・話題の候補として示し行動の指示や予測へ短絡させない
+device_level: 日付のみを入力とし出生情報を必要としない。高影響判断・診断・能力評価には利用しない
+modifiers:
+  - 流派
+  - 地域と時代
+  - 暦と時間規則
+  - 暦表の範囲
+  - 解釈目的
+evidence: 歴史的・文化的な占術体系の参照情報。心理測定上の妥当性や因果的予測力を示すものではない
+status: active
+tradition: 日本の暦注・六曜・選日
+source_type: 対象日・旧暦・日干支・節月
+evidence_class: traditional_cultural_interpretation
+required_inputs:
+  - 対象日
+  - 使用暦
+  - 旧暦変換表
+  - 干支暦表
+  - 節月規則
+  - 流派
+calculation_basis: 対象日を旧暦・日干支・節月へ変換し六曜・選日・十二直等の規則表に当てはめる
+trait_links:
+  - 意思決定
+  - 価値観
+  - 生活習慣
+interpretive_scope: 内省・会話・物語生成・娯楽のための解釈候補
+safe_expression: 日本の暦注・六曜・選日では、破を象徴的な手掛かりの一つとして扱います。現実の性格・状態・未来を断定するものではありません。
+provenance: 中国の暦注・小六壬等に由来し江戸期以降の日本の民間暦で広まった六曜・選日の諸伝承

@@ -29,9 +29,10 @@ class DivinationRegistryIntegrationTests(unittest.TestCase):
                 "numerology",
                 "name_divination",
                 "feng_shui",
+                "calendar_notes",
             ),
         )
-        self.assertEqual(self.registry.total_items, 1000)
+        self.assertEqual(self.registry.total_items, 1100)
 
     def test_exposes_application_input_contract(self) -> None:
         feng_shui = next(
@@ -47,9 +48,30 @@ class DivinationRegistryIntegrationTests(unittest.TestCase):
             "traditional_cultural_interpretation",
         )
 
+    def test_calendar_notes_need_only_a_date(self) -> None:
+        calendar_notes = next(
+            entry
+            for entry in self.registry.traditions
+            if entry.knowledge_type == "calendar_notes"
+        )
+        self.assertEqual(calendar_notes.prefix, "KOY")
+        self.assertEqual(calendar_notes.item_count, 100)
+        self.assertIn("対象日", calendar_notes.required_inputs)
+        self.assertNotIn("生年月日", calendar_notes.required_inputs)
+        rokuyo = self.library.search(
+            knowledge_type="calendar_notes",
+            category="Calendar Notes",
+            tags=["CAT:六曜"],
+            limit=100,
+        )
+        self.assertEqual(
+            {item["name_ja"] for item in rokuyo.items},
+            {"先勝", "友引", "先負", "仏滅", "大安", "赤口"},
+        )
+
     def test_response_prohibits_inference_diagnosis_and_prediction(self) -> None:
         response = self.registry.to_dict()
-        self.assertEqual(response["registry"]["tradition_count"], 10)
+        self.assertEqual(response["registry"]["tradition_count"], 11)
         self.assertTrue(response["safety"]["reference_only"])
         self.assertTrue(response["safety"]["cultural_interpretation_only"])
         self.assertFalse(response["safety"]["inference_performed"])

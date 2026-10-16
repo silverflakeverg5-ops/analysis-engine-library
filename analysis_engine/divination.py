@@ -22,6 +22,7 @@ DIVINATION_CATALOGS: tuple[tuple[str, str, str], ...] = (
     ("numerology", "NUM", "数秘術"),
     ("name_divination", "NAM", "姓名判断"),
     ("feng_shui", "FSH", "風水"),
+    ("calendar_notes", "KOY", "暦注"),
 )
 
 DIVINATION_SAFETY_MESSAGE_JA = (

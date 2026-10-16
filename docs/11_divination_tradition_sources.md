@@ -1,7 +1,7 @@
 # Divination Tradition Source Baseline
 
 This file records the historical and terminological baseline used to organize
-Vol31-Vol41. The sources establish terminology and historical context only.
+Vol31-Vol42. The sources establish terminology and historical context only.
 They do not establish psychological validity or predictive accuracy.
 
 ## Indian astrology
@@ -59,3 +59,20 @@ They do not establish psychological validity or predictive accuracy.
 - Academic history: https://www.cambridge.org/core/books/abs/an-introduction-to-feng-shui/brief-history-of-feng-shui/463E07D18D67257B821EE9AC062B6F9D
 - Historical geography overview:
   https://press.uchicago.edu/books/hoc/HOC_V2_B2/HOC_VOLUME2_Book2_chapter8.pdf
+
+## Calendar notes (六曜・選日)
+
+- The catalog separates rokuyo, auspicious and caution selected days, the
+  twelve directives (十二直), seasonal days (雑節), calendar tables, and
+  cultural history. Each note depends on a declared lunisolar conversion table,
+  sexagenary day table, and solar-term month rule.
+- Rokuyo is computed from the lunisolar month and day, so the cycle restarts at
+  each new moon. Selected days are derived from sexagenary days, solar-term
+  months, or lunisolar dates, and several have school-dependent variants.
+- The notes were removed from the official calendar at the Meiji reform and
+  spread again through popular almanacs and printed calendars. Public
+  human-rights education materials in Japan treat rokuyo as superstition that
+  can support discrimination; the catalog records this as context and the
+  safety items forbid exclusionary or pressuring expressions.
+- Calendar terminology and history (National Astronomical Observatory of
+  Japan, Koyomi Wiki): https://eco.mtk.nao.ac.jp/koyomi/wiki/

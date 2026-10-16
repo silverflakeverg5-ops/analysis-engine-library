@@ -69,6 +69,7 @@ APPROVED_PREFIXES = {
     "NUM": "Numerology",
     "NAM": "Name Divination",
     "FSH": "Feng Shui",
+    "KOY": "Calendar Notes",
 }
 
 EXPECTED_PREFIX_BY_VOLUME = {
@@ -112,6 +113,7 @@ EXPECTED_PREFIX_BY_VOLUME = {
     39: "NUM",
     40: "NAM",
     41: "FSH",
+    42: "KOY",
 }
 
 AUDIT_MAX_VOLUME = max(EXPECTED_PREFIX_BY_VOLUME)
@@ -138,6 +140,7 @@ RESERVED_PREFIXES = {
     "NUM": "vol39_numerology",
     "NAM": "vol40_name_divination",
     "FSH": "vol41_feng_shui",
+    "KOY": "vol42_calendar_notes",
 }
 
 

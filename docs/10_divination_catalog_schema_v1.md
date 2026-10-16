@@ -15,6 +15,10 @@
 | Vol39 | `NUM` | `numerology` | Numerology calculations, traditions, cycles, and symbolism |
 | Vol40 | `NAM` | `name_divination` | Japanese name-divination methods, scripts, strokes, sound, and meaning |
 | Vol41 | `FSH` | `feng_shui` | Form and compass feng shui, directions, buildings, and time charts |
+| Vol42 | `KOY` | `calendar_notes` | Japanese calendar notes: rokuyo, selected days, twelve directives, and seasonal days |
+
+Vol42 is the only detailed catalog whose `required_inputs` contain no birth
+data. Its notes depend on the target date and the declared calendar tables.
 
 Overview items in Vol31 are navigation concepts. Detailed items in Vol32-Vol34
 are the application-facing reference layer. Applications should prefer the

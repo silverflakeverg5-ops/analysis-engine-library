@@ -1,0 +1,178 @@
+{
+  "rules_version": "notification-profile-v1",
+  "description_ja": "初回の質問と行動の集計値から、その場限りの傾向を分析し、通知パラメータ（軸①〜⑤）へ変換する規則。傾向は保存・表示・送信しない。",
+  "axis_scale": {"min": 1, "max": 5},
+  "questionnaire": {
+    "version": "q-v1",
+    "likert": {"min": 1, "max": 5, "label_min_ja": "そう思わない", "label_max_ja": "そう思う"},
+    "items": [
+      {"id": "q1", "text_ja": "締め切りのある作業は、早めに手を付けるほうだ"},
+      {"id": "q2", "text_ja": "予定の直前になって慌てることが多い"},
+      {"id": "q3", "text_ja": "スマホの通知が多いと疲れてしまう"},
+      {"id": "q4", "text_ja": "忘れそうなことは、何度でも知らせてほしい"},
+      {"id": "q5", "text_ja": "「あと少し」と言われると、やる気が出る"},
+      {"id": "q6", "text_ja": "予定どおりに進まないと、不安になりやすい"},
+      {"id": "q7", "text_ja": "やることは、具体的に指示されるほうが動きやすい"},
+      {"id": "q8", "text_ja": "自分のやり方で決めたいほうだ"},
+      {"id": "q9", "text_ja": "休みの日は、外に出かけたいほうだ"},
+      {"id": "q10", "text_ja": "占いの結果は、わりと気になるほうだ"}
+    ],
+    "fortune_stance_choice": {
+      "id": "q10_stance",
+      "text_ja": "占いとの付き合い方に近いものを選んでください",
+      "options": [
+        {"value": "believer", "label_ja": "気になる（信じる派）"},
+        {"value": "enjoy", "label_ja": "楽しめれば十分（楽しむ派）"},
+        {"value": "joke", "label_ja": "悪い結果も笑って聞きたい（ネタ派）"}
+      ],
+      "default": "enjoy"
+    }
+  },
+  "behavior_signals": [
+    {"id": "last_minute_completion_rate", "description_ja": "期限直前（期限前1時間以内）に完了したTODOの割合", "knowledge_refs": ["BEH-000010", "COG-000083"], "min_samples": 20},
+    {"id": "overdue_rate", "description_ja": "期限を過ぎたTODOの割合", "knowledge_refs": ["COG-000081", "COG-000085"], "min_samples": 20},
+    {"id": "snooze_rate", "description_ja": "スヌーズされた通知の割合", "knowledge_refs": ["DSP-000077", "BEH-000067"], "min_samples": 20},
+    {"id": "ignore_rate", "description_ja": "反応がないか、すぐ閉じられた通知の割合", "knowledge_refs": ["OBS-000069", "OBS-000010"], "min_samples": 20},
+    {"id": "task_switch_rate", "description_ja": "着手したTODOを完了前に中断した割合", "knowledge_refs": ["OBS-000063", "OBS-000061"], "min_samples": 20},
+    {"id": "quick_start_rate", "description_ja": "通知から5分以内に着手・完了した割合", "knowledge_refs": ["OBS-000161", "BEH-000018"], "min_samples": 20},
+    {"id": "suggestion_accept_rate", "description_ja": "具体的な次の一手の提案を採用した割合", "knowledge_refs": ["EXE-000006"], "min_samples": 20},
+    {"id": "outing_accept_rate", "description_ja": "休日の外出提案を受け入れた割合", "knowledge_refs": ["OBS-000125", "PER-000010"], "min_samples": 10}
+  ],
+  "tendencies": [
+    {
+      "id": "early_start",
+      "knowledge_refs": ["PER-000003", "PER-000012", "EXE-000003", "EXE-000006", "BEH-000010", "DOM-000011"],
+      "inputs": [
+        {"source": "q1", "weight": 1.0},
+        {"source": "q2", "weight": 0.5, "reverse": true},
+        {"source": "last_minute_completion_rate", "weight": 1.0, "reverse": true}
+      ]
+    },
+    {
+      "id": "time_estimation_gap",
+      "knowledge_refs": ["COG-000081", "COG-000085", "EXE-000003", "DOM-000009", "DOM-000011"],
+      "inputs": [
+        {"source": "q2", "weight": 1.0},
+        {"source": "overdue_rate", "weight": 1.0}
+      ]
+    },
+    {
+      "id": "attention_shift",
+      "knowledge_refs": ["ATT-000001", "CSC-000008", "OBS-000061", "OBS-000063", "EXE-000001", "BEH-000017", "DOM-000009", "DOM-000011"],
+      "inputs": [
+        {"source": "q4", "weight": 0.5},
+        {"source": "snooze_rate", "weight": 1.0},
+        {"source": "task_switch_rate", "weight": 1.0}
+      ]
+    },
+    {
+      "id": "notification_burden",
+      "knowledge_refs": ["PER-000023", "COG-000111", "OBS-000069", "MOD-000007"],
+      "inputs": [
+        {"source": "q3", "weight": 1.0},
+        {"source": "q4", "weight": 0.5, "reverse": true},
+        {"source": "ignore_rate", "weight": 1.0}
+      ]
+    },
+    {
+      "id": "achievement_drive",
+      "knowledge_refs": ["PER-000016", "PER-000017", "PER-000018", "OBS-000161"],
+      "inputs": [
+        {"source": "q5", "weight": 1.0},
+        {"source": "quick_start_rate", "weight": 0.5}
+      ]
+    },
+    {
+      "id": "anxiety_proneness",
+      "knowledge_refs": ["PER-000024", "PER-000023", "OBS-000056"],
+      "inputs": [
+        {"source": "q6", "weight": 1.0}
+      ]
+    },
+    {
+      "id": "structure_preference",
+      "knowledge_refs": ["PER-000019", "PER-000006", "EXE-000006", "DOM-000011"],
+      "inputs": [
+        {"source": "q7", "weight": 1.0},
+        {"source": "q8", "weight": 1.0, "reverse": true},
+        {"source": "suggestion_accept_rate", "weight": 1.0}
+      ]
+    },
+    {
+      "id": "outgoingness",
+      "knowledge_refs": ["PER-000001", "PER-000008", "PER-000010", "OBS-000119"],
+      "inputs": [
+        {"source": "q9", "weight": 1.0},
+        {"source": "outing_accept_rate", "weight": 1.0}
+      ]
+    }
+  ],
+  "axes": [
+    {
+      "id": "leadTime",
+      "label_ja": "前倒し度",
+      "knowledge_refs": ["DSP-000072"],
+      "combine": [
+        {"tendency": "early_start", "weight": 1.0},
+        {"tendency": "time_estimation_gap", "weight": 1.0},
+        {"tendency": "attention_shift", "weight": 0.5}
+      ]
+    },
+    {
+      "id": "notificationTolerance",
+      "label_ja": "通知の許容量",
+      "knowledge_refs": ["DSP-000075", "SAF-000077"],
+      "combine": [
+        {"tendency": "notification_burden", "weight": 1.0, "reverse": true},
+        {"tendency": "attention_shift", "weight": 0.5}
+      ]
+    },
+    {
+      "id": "encouragementStyle",
+      "label_ja": "励まし方",
+      "knowledge_refs": ["DSP-000071"],
+      "combine": [
+        {"tendency": "achievement_drive", "weight": 1.0},
+        {"tendency": "anxiety_proneness", "weight": 1.0, "reverse": true}
+      ]
+    },
+    {
+      "id": "instructionGranularity",
+      "label_ja": "指示の細かさ",
+      "knowledge_refs": ["DSP-000078"],
+      "combine": [
+        {"tendency": "structure_preference", "weight": 1.0},
+        {"tendency": "attention_shift", "weight": 0.5}
+      ]
+    },
+    {
+      "id": "outgoingness",
+      "label_ja": "外向き度",
+      "knowledge_refs": ["APP-000030"],
+      "combine": [
+        {"tendency": "outgoingness", "weight": 1.0}
+      ]
+    }
+  ],
+  "presets": [
+    {"id": "steady_planner", "label_ja": "コツコツ計画型", "axes": {"leadTime": 4, "notificationTolerance": 3, "encouragementStyle": 3, "instructionGranularity": 2, "outgoingness": 3}},
+    {"id": "last_spurt", "label_ja": "ラストスパート型", "axes": {"leadTime": 3, "notificationTolerance": 2, "encouragementStyle": 5, "instructionGranularity": 4, "outgoingness": 3}},
+    {"id": "free_pace", "label_ja": "マイペース自由型", "axes": {"leadTime": 2, "notificationTolerance": 1, "encouragementStyle": 3, "instructionGranularity": 1, "outgoingness": 3}},
+    {"id": "hard_worker", "label_ja": "がんばり屋さん型", "axes": {"leadTime": 4, "notificationTolerance": 4, "encouragementStyle": 5, "instructionGranularity": 3, "outgoingness": 4}},
+    {"id": "careful_secure", "label_ja": "慎重安心型", "axes": {"leadTime": 5, "notificationTolerance": 2, "encouragementStyle": 1, "instructionGranularity": 5, "outgoingness": 2}},
+    {"id": "active_social", "label_ja": "アクティブ社交型", "axes": {"leadTime": 3, "notificationTolerance": 3, "encouragementStyle": 4, "instructionGranularity": 3, "outgoingness": 5}}
+  ],
+  "default_axes": {"leadTime": 3, "notificationTolerance": 3, "encouragementStyle": 3, "instructionGranularity": 3, "outgoingness": 3},
+  "streak_rules": [
+    {"id": "ignored_streak", "event": "notification_ignored", "streak": 5, "axis": "notificationTolerance", "direction": -1, "mode": "auto", "broken_by": ["notification_responded", "notification_quick_start"], "reason_ja": "通知への反応が5回続けてなかったので、通知を少し減らしました"},
+    {"id": "snoozed_streak", "event": "todo_snoozed", "streak": 5, "per_target": true, "axis": "leadTime", "direction": 1, "mode": "auto", "broken_by": ["todo_started", "todo_completed_on_time"], "reason_ja": "同じ予定のスヌーズが5回続いたので、少し早めにお知らせします"},
+    {"id": "overdue_streak", "event": "todo_overdue", "streak": 5, "axis": "leadTime", "direction": 1, "mode": "auto", "broken_by": ["todo_completed_on_time"], "reason_ja": "期限を過ぎることが5回続いたので、少し早めにお知らせします"},
+    {"id": "quick_start_streak", "event": "notification_quick_start", "streak": 5, "axis": "notificationTolerance", "direction": 1, "mode": "propose", "broken_by": ["notification_responded", "notification_ignored"], "reason_ja": "通知にすぐ反応することが5回続きました。通知を少し増やしてもよいですか？"}
+  ],
+  "streak_limits": {
+    "auto_steps_per_axis_per_day": 1,
+    "max_auto_deviation_from_user_baseline": 2,
+    "auto_allowed_directions": {"notificationTolerance": -1, "leadTime": 1}
+  },
+  "forbidden_output_terms": ["ADHD", "ASD", "注意欠如", "多動", "自閉", "発達障害", "診断", "障害", "疾患", "症状"]
+}
